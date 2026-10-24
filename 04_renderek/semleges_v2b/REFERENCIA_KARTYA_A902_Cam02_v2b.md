@@ -72,6 +72,7 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
   - Az első Cam_04-renderen 47 cm-es fehér dobozként látszott. A referenciaképen **csak erre a kamerára rejtve** van.
   - A tetőkert-modellben a mellvéd déli vége ennél az x-nél legfeljebb a szerkezeti fal külső síkjáig (y ≈ 9,25) tarthat.
   - A Validator ezt nem fogja meg (a teraszelemeket csak változatlanságra nézi): érdemes egy „terasz ↔ belső tér átfedés” ellenőrzést felvenni.
+- **MODELLHIBA (javítandó) 2:** a fülke hátfala (`Kulso_E_05_1_0`) x 2,95-ig tart, a v2b-ben áthelyezett pillér x 3,02-től. Így **7 cm-es rés** maradt a homlokzaton, amely a Cam_04-en fényrésként látszana. A referencián csak a renderhez lezárva. A homlokzat másik rése az előtér déli falán van (x 6,60–6,70). Részletek és javaslat: a Validator-riport.
 - A falon maradt `Z_tapeta_greige` a fülke hátfalán (`Kulso_E_05_1_0`) is fehérre javítva.
 
 

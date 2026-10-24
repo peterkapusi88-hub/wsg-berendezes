@@ -41,6 +41,19 @@
 - A Cam_04 referencia-renderen erre az egy kamerára rejtve van. Javítás a tetőkert-modellben kell: a mellvéd ennél az x-nél legfeljebb y ≈ 9,25-ig tarthat.
 - Javasolt új Validator-ellenőrzés: „terasz ↔ helyiség- és falátfedés”.
 
+**Két rés a homlokzaton a v2b-javítás után – a Validator nem jelzi.**
+
+Új, csak olvasó ellenőrzés: `03_blender/geometry_v2/burok_zartsag_ellenorzes.py`. 1 cm-es rácson, 0,3 / 1,5 / 2,6 m magasságban elárasztja a falakon és nyílászárókon kívüli teret; a 4 cm alatti rés zártnak számít.
+
+| Hol | Rés | Ok | Javasolt lockjavítás |
+|---|---|---|---|
+| 05.1 északi fülke ÉK-i sarka (x 2,95–3,02, y 8,95–9,25) | 7 cm | a v2b a `Pillér_05_1_EK`-t x 3,02-re tolta, a `Kulso_E_05_1_0` fal maradt x 2,95-ig | `Kulso_E_05_1_0` x1: 2,95 → 3,02 |
+| előtér déli homlokzata (x 6,60–6,70, y −0,30–0,00) | 10 cm | a v2b a `Kulso_D_eloter_sarok_0`-t x 6,70-re tolta, a `Kulso_D_05_2_furdo_0` maradt x 6,60-ig | `Kulso_D_05_2_furdo_0` x1: 6,60 → 6,70 |
+
+- A Cam_04 referencián az első rés fényrést adna. Ezért **csak a renderhez** egy fehér hézagzáró hasáb zárja (`Ref_v2b_hezagzaras`).
+- A második rés a három referencianézetből nem látszik.
+- A teraszüvegek tokja és a falkáva között modell-egyszerűsítésként kb. 3 cm-es rés van (tűrésen belül); ez a képen nem látszik.
+
 **Korlát:**
 - A PASS a **terv szerinti** lockhoz való egyezés, nem helyszíni igazolás.
 - A bútoros stílusrétegek a v2b-n továbbra is FAIL-esek (`validator_report_2026-10-24_v2b.md`, 89 hiba): a régi LF-réteg nem használható. Új elrendezés csak tömegmodellel és új Validator-futással mehet.
