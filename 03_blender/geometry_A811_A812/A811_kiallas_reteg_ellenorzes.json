@@ -1,0 +1,163 @@
+{
+ "lakas": "A-811",
+ "jelolok": 115,
+ "tipusonként": {
+  "mennyezeti_lampakiallas": 16,
+  "fali_lampakiallas": 6,
+  "kapcsolo": 21,
+  "dugalj": 44,
+  "fix_bekotes": 1,
+  "ventilator_kiallas": 3,
+  "gyengearamu_aljzat": 6,
+  "antenna_tv_aljzat": 1,
+  "BK_doboz": 1,
+  "hangjelzo_vagy_erzekelo": 3,
+  "R_jelu_kiallas": 5,
+  "termosztat": 3,
+  "lakaselosztó": 1,
+  "kezelo_billentyuzet": 1,
+  "bejarati_ajto_eszkoz": 1,
+  "EPH_csatlakozo": 1,
+  "kaputelefon_belteri": 1
+ },
+ "falra_illesztve": [
+  [
+   "A811-FL04",
+   "fali_lampakiallas",
+   0.09
+  ],
+  [
+   "A811-D07",
+   "dugalj",
+   0.431
+  ],
+  [
+   "A811-D13",
+   "dugalj",
+   0.437
+  ],
+  [
+   "A811-D33",
+   "dugalj",
+   0.325
+  ],
+  [
+   "A811-D35",
+   "dugalj",
+   0.363
+  ],
+  [
+   "A811-D37",
+   "dugalj",
+   0.274
+  ],
+  [
+   "A811-D42",
+   "dugalj",
+   0.35
+  ],
+  [
+   "A811-D43",
+   "dugalj",
+   0.098
+  ],
+  [
+   "A811-V03",
+   "ventilator_kiallas",
+   0.093
+  ],
+  [
+   "A811-V01",
+   "ventilator_kiallas",
+   0.312
+  ],
+  [
+   "A811-V02",
+   "ventilator_kiallas",
+   0.475
+  ],
+  [
+   "A811-G01",
+   "gyengearamu_aljzat",
+   0.384
+  ],
+  [
+   "A811-G02",
+   "gyengearamu_aljzat",
+   0.244
+  ],
+  [
+   "A811-G03",
+   "gyengearamu_aljzat",
+   0.244
+  ],
+  [
+   "A811-G04",
+   "gyengearamu_aljzat",
+   0.357
+  ],
+  [
+   "A811-G08",
+   "BK_doboz",
+   0.116
+  ],
+  [
+   "A811-T01",
+   "termosztat",
+   0.871
+  ],
+  [
+   "A811-T03",
+   "termosztat",
+   0.458
+  ],
+  [
+   "A811-E01",
+   "lakaselosztó",
+   0.128
+  ],
+  [
+   "A811-S02",
+   "kezelo_billentyuzet",
+   0.789
+  ],
+  [
+   "A811-S03",
+   "bejarati_ajto_eszkoz",
+   0.11
+  ],
+  [
+   "A811-S04",
+   "EPH_csatlakozo",
+   0.369
+  ],
+  [
+   "A811-S05",
+   "kaputelefon_belteri",
+   0.22
+  ]
+ ],
+ "kulso_homlokzaton": [
+  [
+   "A811-FL05",
+   "fali_lampakiallas",
+   0.81
+  ],
+  [
+   "A811-FL06",
+   "fali_lampakiallas",
+   0.265
+  ]
+ ],
+ "mennyezet_kivul": [],
+ "almennyezet": {
+  "magassag": {
+   "01 ELŐTÉR": 2.4,
+   "08 WC": 2.4,
+   "06.1 FÜRDŐ": 2.4,
+   "06.2 FÜRDŐ": 2.4
+  },
+  "forras": "a rajz zöld felirata (A-811 WC: „imp. gk. álm. as.: +2,40 m”); az előtérben és a fürdőkben Péter átvételi összesítője (min. 2,40 m)"
+ },
+ "hutes_futes_mezo": 5
+}

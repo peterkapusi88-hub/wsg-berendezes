@@ -12,6 +12,9 @@ A `ai-coordination/RENDER_REALITY_GATE.md` szerint. **Egyik eddigi kép sem PASS
 | `semleges/` | üres, semleges belső nézetek (Cam_02–05) | **GEOMETRIAI ALAP – ELŐZETES** | brosúra-geometria ±15 cm; a **Cam_05 terasznézet elavult** (sík terasz) |
 | `semleges_v2b/` | üres, alaprajzhű semleges referencia a v2b-ből: Cam_02 (+ ellenőrző rárajzolás, felülnézet), Cam_03, Cam_04 – Cycles | **ELŐSZŰRT ALAP – TERV SZERINT** · a stílus-összevetés alapja (Péter, 17:06) | Validator v2 PASS (0/0) a lock v2b-hez; helyszínen nem mért (±15 cm); padló procedurális EL2184-közelítés; kilátás nincs modellezve; részletek: `REFERENCIA_KARTYA_A902_Cam02_v2b.md` |
 | `terasz_v2_geometria/` | A-902 többszintű tetőkert, v2 (Cam_07–09) | **GEOMETRIAI ALAP – ELŐZETES** | tervdokumentum és videó; a zöldtető szintje, a domb és a járósáv becslés; nem stíluskép |
+| `A902_alap_v2b/` | A-902 bútor nélküli alapképek a v2b modellből (Cam_02/03/04) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | reality card a mappában; a padló dekorja és a falsík helyszínen nem igazolt |
+| `A811_alap_v2/` | A-811 bútor nélküli alapképek az alaprajzi modellből (geometria v2, Cam_02–05) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | reality card a mappában; a parketta-tónus becslés; az erkélyszint és a korlátmagasság nem igazolt; a konyha és az előtér burkolata a PDF-ben ellentmondásos |
+| `A812_alap_v2/` | A-812 bútor nélküli alapképek az alaprajzi modellből (geometria v2, Cam_02–05) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | ua.; a francia erkély korlátja a terv szerinti helyen, típusa és magassága nem igazolt |
 
 **Szabály a továbbiakra:**
 - Új kép csak Reality Carddal készülhet, a fájlnév mellett a státusszal.

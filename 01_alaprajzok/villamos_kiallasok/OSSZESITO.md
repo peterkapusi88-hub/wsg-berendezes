@@ -7,7 +7,7 @@
 
 Forrás: `WGR1_meretezett_alaprajzok.pdf` 5. oldal (dosszié 150), 1:50, M1 (érvényes; KORR-alaprajz nem készült).
 
-Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 05.1 szoba rajzon alsó belső falsíkja. Helyi rendszer (Blender-modell még nincs).
+Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 05.1 szoba rajzon alsó belső falsíkja. Azonos a Blender-modell (WSG_A811_*) koordinátáival.
 
 | Típus | db |
 |---|---|
@@ -114,7 +114,7 @@ Forrás: 5. o. (alaprajz M1, dosszié 150) és 6. o. (parkoló, tároló, dosszi
 
 Forrás: `WGR1_meretezett_alaprajzok.pdf` 12. oldal (dosszié 179), 1:100, M1 KORR (2026.04.28.) – átnézeti lap 1:100, a teljes lakás (az 1:50-es 11. oldal csak részlet).
 
-Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 04 nappali rajzon alsó belső falsíkja. Helyi rendszer (Blender-modell még nincs).
+Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 04 nappali rajzon alsó belső falsíkja. Azonos a Blender-modell (WSG_A812_*) koordinátáival.
 
 | Típus | db |
 |---|---|

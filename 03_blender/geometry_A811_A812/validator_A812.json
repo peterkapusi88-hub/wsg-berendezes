@@ -1,0 +1,33 @@
+{
+ "fajl": "/home/claude/wsg-villamos/03_blender/WSG_A812_alaprajz_ELOZETES_20261024.blend",
+ "lock": "geometry_lock_A812.json",
+ "stilus": [],
+ "errors": [],
+ "warnings": [],
+ "ok": [
+  "LOCK walls: 69 elem, 0 eltérés",
+  "LOCK openings: 63 elem, 0 eltérés",
+  "LOCK floors: 36 elem, 0 eltérés",
+  "ERKÉLY (ELŐZETES): 13 elem, 0 változás",
+  "KAMERA: 6 kamera teljes paraméterrel; aktív: Cam_02_Nappali_erkely",
+  "BURKOLÓ: 0 látható bútorelem",
+  "ÜTKÖZÉS: bútor–fal/nyílászáró 0, bútor–bútor átfedés 0",
+  "AJTÓ: 17 nyílás negyedkörrel/sávval vizsgálva",
+  "VILLAMOS: 121 terv szerinti kiállás vizsgálva; takarás 0, dugalj elé állás 0"
+ ],
+ "info": [
+  "KAMERA Cam_02_Nappali_erkely: ÖSSZEHASONLÍTÓ – B fázis (nappali → erkélyüveg)",
+  "KAMERA Cam_03_Etkezo_konyha: ÖSSZEHASONLÍTÓ – B fázis (ablak felől → étkező, konyha)",
+  "KAMERA Cam_04_Haloszoba: ÖSSZEHASONLÍTÓ – B fázis (05.3 háló)",
+  "KAMERA Cam_05_Haloszoba_05_2: kiegészítő nézet (05.2)",
+  "KAMERA Cam_01_Felulnezet: ellenőrző felülnézet",
+  "KAMERA Cam_06_Alaprajz_lakas: ellenőrző alaprajz (kiállás-réteggel)",
+  "KONYHA: a pultköz-vizsgálat az A-902 konyhájára szabott – itt a konyhabútor tervezésekor bővítendő",
+  "05.2-ágyvizsgálat: A-902-specifikus, a(z) A812 lakásban nem fut"
+ ],
+ "measurements": {
+  "aktiv_kamera": "Cam_02_Nappali_erkely",
+  "butor_butor_atfedes_db": 0
+ },
+ "summary": "PASS – 0 hiba, 0 figyelmeztetés; réteg: []"
+}

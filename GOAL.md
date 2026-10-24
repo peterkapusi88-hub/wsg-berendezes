@@ -91,6 +91,15 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - A PR #7 alapképén a nyugati fal a falon maradt Zenit-tapéta anyag miatt halványan bézs. Péter döntése (17:06): az összehasonlító alap a `semleges_v2b`.
   - 16:46: mind a három render végleges (Cam_02/03/04). Közben talált modellhibák, amelyeket a Validator nem jelez: két homlokzati rés a v2b után (7 cm a 05.1 fülkénél, 10 cm az előtér déli falán), és a tetőkert nyugati mellvédje belelóg a 05.1 fülkébe. Javítás külön lock-javító draft PR-ben (Péter 17:06: igen, ha nem visz sok időt).
 - **2026-10-24 17:21 – draft PR #11 (Péter „mehet”-jére vár): lock v2b-1.** A két homlokzati rés lezárva (7 és 10 cm), a tetőkert nyugati mellvédje kihúzva a 05.1 fülkéből, a falon maradt Zenit-tapéta anyag fehérre cserélve a .blend-ben. Új ellenőrzés: terasz ↔ belső tér átfedés. Validator PASS 0/0 (előtte is), a burok ZÁRT, a teljes fájl validátorlistája változatlan. Nyitott: a pillér 1 cm-es síkeltérése (hétfői mérés).
+- **2026-10-24 15:30 – A-811 és A-812 Blender-alapmodell (ELŐZETES, tervből)**, Péter kérésére. **PR #9 a main-ben** (Péter, 18:26: „a többit addig feltöltheted, amik kész vannak”).
+  - **Forrás és tartalom:** a méretezett alaprajz vektoros falvonalai. Falak, aknák, ajtók, üvegfalak, padló, erkély, kamerák, kiállás-réteg és lock.
+  - **Ellenőrzés:**
+    - validátor v2: PASS;
+    - helyiség-m² a megvalósulási tervvel ±0,1 m²-en belül (a fürdők kivételével: előtétfal);
+    - a rajzi méretszámok egyeznek.
+  - **Alapképek:** bútor nélkül, az A-902-vel azonos semleges beállítással, reality carddal. Helye: `04_renderek/A811_alap_v2/`, `04_renderek/A812_alap_v2/`. Leírás: `03_blender/geometry_A811_A812/README.md`.
+  - **Geometria v2 (16:35):** egy független tervhűségi ellenőrzés 5 hibát talált a v1-ben (hiányzó EL4 előtétfal, hiányzó francia erkély korlát az A-812 hálóinál, két rés és egy padlóhiány) és 11 kisebb eltérést (szűkebb ajtónyílások, fém erkélyosztó, álmennyezet stb.). Mind javítva, az alapképek újrarenderelve; validátor PASS, réskeresés 0. A validátor PASS önmagában csak a lock-egyezést igazolja.
+  - **Észrevétel:** itt is hűtő-fűtő mezőben van a nappali és a hálók mennyezeti kiállása. Az A-812 hálóinak padlóig érő ablakánál korlát a rajzon nincs. Mindkettő hétfőn ellenőrizendő.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
@@ -126,7 +135,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
 3. Asztalos-rajzok + szabásjegyzék a forma-darabokhoz; ajánlatkérés csak „mehet" után.
-4. Hétfő: fotók → geometria, A-811/A-812 alap, AI-képek a valódi lakásról.
+4. Hétfő: fotók és mérés → mindhárom modell véglegesítése (az A-811/A-812 alapmodell kész, ELŐZETES), AI-képek a valódi lakásról.
 5. Ajánlatok összevetése (8 cég + IKEA + Andi), döntés.
 
 ## 9. Mappatérkép

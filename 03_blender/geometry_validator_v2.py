@@ -1,4 +1,5 @@
-# Geometry Validator v2 – WSG A-902 (2026-10-24)
+# Geometry Validator v2 – WSG A-902, A-811, A-812 (2026-10-24)
+# A lakást a lock dönti el: `gyujtemeny_elotag` (A811/A812; hiányában A902) → <előtag>_Falak, _Nyilaszarok, _Padlo, _Butor.
 # Futtatás Blenderben vagy bpy-modullal (csak olvas, semmit nem ment):
 #   WSG_LOCK=<repo>/03_blender/geometry_lock_A902_v2b.json \
 #   WSG_VILLAMOS=<repo>/01_alaprajzok/villamos_kiallasok/A902_villamos.json \
@@ -7,13 +8,15 @@
 #
 # Ellenőrzések (PASS csak 0 hibánál):
 #  1. LOCK      – falak, nyílászárók, látható padlók a v2b lock szerint (tűrés 1 cm); új vagy hiányzó elem
-#  2. TERASZ    – a v2 tetőkert (A902_Terasz_v2_ELOZETES) minden eleme változatlan (Péter: „óvatosan, a kert kész”)
+#  2. TERASZ    – a v2 tetőkert (A902_Terasz_v2_ELOZETES) minden eleme változatlan (Péter: „óvatosan, a kert kész”);
+#                 A-811/A-812: ERKÉLY – az <előtag>_Erkely_ELOZETES elemei a lock `erkely_targyak` szerint
 #  3. KAMERA    – teljes paraméterlap: típus, fókusz, szenzor és illesztés, shift, clip, hely, forgatás; aktív kamera
 #  4. BURKOLÓ   – látható bútor a helyiségekben vagy a bútorozható teraszzónán, z a padló és a belmagasság között
 #  5. ÜTKÖZÉS   – bútor ↔ fal / nyílászáró (1 cm felett); bútor ↔ bútor (más tárgycsoport, 2 cm felett)
-#  6. AJTÓ      – a valódi nyitási negyedkör szabad (hiba); 90 cm-es megközelítési sáv mindkét oldalon (figyelmeztetés)
-#  7. KONYHA    – a két pultsor közti tiszta köz (cél ≥ 90 cm, 80 alatt hiba)
-#  8. 05.2      – ágy, ajtóforgások, éjjeliszekrények: működik-e, és milyen alternatíva fér el
+#  6. AJTÓ      – a valódi nyitási negyedkör szabad (hiba); 90 cm-es megközelítési sáv mindkét oldalon (figyelmeztetés);
+#                 nyíló ablakszárny (tipus „ablak”): csak a negyedkör
+#  7. KONYHA    – a két pultsor közti tiszta köz (cél ≥ 90 cm, 80 alatt hiba) – csak A-902
+#  8. 05.2      – ágy, ajtóforgások, éjjeliszekrények: működik-e, és milyen alternatíva fér el – csak A-902
 #  9. VILLAMOS  – bútor nem takarhat kapcsolót, termosztátot, elosztót, kaputelefont, kezelőt, BK-dobozt, mozgásérzékelőt
 #                 (ennek magassága a rajzon nincs: becslés 2,20 m); dugalj elé állás figyelmeztetés;
 #                 mennyezeti kiállás alatti bútor (információ)
@@ -43,10 +46,12 @@ def group_key(name):
     t = name.split('_')
     return '_'.join(t[:3]) if len(t) >= 3 else name
 
+PFX = 'A902'   # a lock betöltésekor felülíródik (gyujtemeny_elotag)
+
 def visible_furniture():
     out = {}
     for c in bpy.data.collections:
-        if (c.name == 'A902_Butor' or c.name.startswith('Stil_')) and not c.hide_render:
+        if (c.name == f'{PFX}_Butor' or c.name.startswith('Stil_')) and not c.hide_render:
             for o in c.objects:
                 if o.type == 'MESH' and not o.hide_render:
                     b = wb(o)
@@ -61,7 +66,9 @@ def cam_params(o):
 
 def run():
     bpy.context.view_layer.update()
+    global PFX
     lock = json.load(open(LOCK_PATH, encoding='utf-8'))
+    PFX = lock.get('gyujtemeny_elotag', 'A902')
     H = lock.get('H', 2.90)
     rep = dict(fajl=bpy.data.filepath, lock=os.path.basename(LOCK_PATH), stilus=[c.name for c in bpy.data.collections if c.name.startswith('Stil_') and not c.hide_render],
                errors=[], warnings=[], ok=[], info=[], measurements={})
@@ -71,7 +78,7 @@ def run():
         c = bpy.data.collections.get(cname)
         if not c: return {}
         return {o.name: wb(o) for o in c.objects if o.type == 'MESH' and (not only_visible or not o.hide_render)}
-    for group, cname, vis in (('walls', 'A902_Falak', False), ('openings', 'A902_Nyilaszarok', False), ('floors', 'A902_Padlo', True)):
+    for group, cname, vis in (('walls', f'{PFX}_Falak', False), ('openings', f'{PFX}_Nyilaszarok', False), ('floors', f'{PFX}_Padlo', True)):
         L = live(cname, vis)
         n_bad = 0
         for name, bb in lock.get(group, {}).items():
@@ -83,15 +90,17 @@ def run():
         extra = sorted(set(L) - set(lock.get(group, {})))
         if extra: W_.append(f'LOCK: nem rögzített {group}: {extra[:10]}' + (' …' if len(extra) > 10 else ''))
         OK.append(f'LOCK {group}: {len(lock.get(group, {}))} elem, {n_bad} eltérés')
-    # 2. TERASZ
-    T = live('A902_Terasz_v2_ELOZETES')
-    tl = lock.get('terrace_v2', {})
+    # 2. TERASZ (A-902) / ERKÉLY (A-811, A-812)
+    if 'erkely_targyak' in lock and 'terrace_v2' not in lock:
+        T = live(f'{PFX}_Erkely_ELOZETES'); tl = lock['erkely_targyak']; cim = 'ERKÉLY'
+    else:
+        T = live('A902_Terasz_v2_ELOZETES'); tl = lock.get('terrace_v2', {}); cim = 'TERASZ'
     nbad = 0
     for name, bb in tl.items():
-        if name not in T: E.append(f'TERASZ: hiányzik {name}'); nbad += 1; continue
+        if name not in T: E.append(f'{cim}: hiányzik {name}'); nbad += 1; continue
         d = max(abs(a - b) for a, b in zip(T[name], bb))
-        if d > TOL: E.append(f'TERASZ: megváltozott {name} ({d * 100:.1f} cm)'); nbad += 1
-    OK.append(f'TERASZ v2 (tetőkert): {len(tl)} elem, {nbad} változás')
+        if d > TOL: E.append(f'{cim}: megváltozott {name} ({d * 100:.1f} cm)'); nbad += 1
+    OK.append(f'TERASZ v2 (tetőkert): {len(tl)} elem, {nbad} változás' if cim == 'TERASZ' else f'ERKÉLY (ELŐZETES): {len(tl)} elem, {nbad} változás')
     # 3. KAMERA
     sc = bpy.context.scene
     rep['measurements']['aktiv_kamera'] = sc.camera.name if sc.camera else None
@@ -116,8 +125,8 @@ def run():
     green = [z['r'] for z in tz.values() if not z.get('butorozhato')]
     # 4. BURKOLÓ
     fb = visible_furniture()
-    walls = {n: b for n, b in live('A902_Falak').items() if b and not n.startswith('Plafon')}
-    opens = {n: b for n, b in live('A902_Nyilaszarok').items() if b}
+    walls = {n: b for n, b in live(f'{PFX}_Falak').items() if b and not n.startswith('Plafon')}
+    opens = {n: b for n, b in live(f'{PFX}_Nyilaszarok').items() if b}
     for n, b in fb.items():
         corners = [(b[0], b[1]), (b[3], b[1]), (b[0], b[4]), (b[3], b[4])]
         if not all(in_rects(x, y, furn_rects) for x, y in corners):
@@ -159,10 +168,10 @@ def run():
         ax = meta.get('fal')
         lo, hi = meta['nyilas']
         d1 = None
-        if ax == 'x':   # fal az x tengely mentén, a nyílás x-ben
-            d1 = (1 if abs(h[0] - lo) < 1e-3 else -1, 0)
+        if ax == 'x':   # fal az x tengely mentén, a nyílás x-ben; a szárny a zsanértól a nyílás távolabbi vége felé áll
+            d1 = (1 if abs(h[0] - lo) <= abs(h[0] - hi) else -1, 0)
         else:
-            d1 = (0, 1 if abs(h[1] - lo) < 1e-3 else -1)
+            d1 = (0, 1 if abs(h[1] - lo) <= abs(h[1] - hi) else -1)
         d2 = {'+x': (1, 0), '-x': (-1, 0), '+y': (0, 1), '-y': (0, -1)}[ir]
         hits = []
         step = 0.04
@@ -184,6 +193,7 @@ def run():
         if meta.get('tipus') == 'tolo': continue
         hits = swing_hits(meta)
         for n in hits: E.append(f'AJTÓ-FORGÁS: {n} a(z) {name} nyitási negyedkörében (r {meta.get("r")} m)')
+        if meta.get('tipus') == 'ablak': continue   # nyíló ablakszárny: megközelítési sáv nincs
         # megközelítési sáv mindkét oldalon
         lo, hi = meta['nyilas']; f0, f1 = meta['fal_sik']
         for sgn in (-1, 1):
@@ -196,8 +206,8 @@ def run():
                 o_ = ov(b, zone)
                 if min(o_) > 0.02: W_.append(f'AJTÓ-ELŐTÉR: {n} a(z) {name} 90 cm-es megközelítési sávjában ({min(o_) * 100:.0f} cm)')
     OK.append(f'AJTÓ: {len(lock.get("openings_meta", {}))} nyílás negyedkörrel/sávval vizsgálva')
-    # 7. KONYHA – pultsorok közti tiszta köz
-    kitchen = [r for r in rooms.get('konyha', [])]
+    # 7. KONYHA – pultsorok közti tiszta köz (az A-902 konyhájára szabott vizsgálat)
+    kitchen = [r for r in rooms.get('konyha', [])] if PFX == 'A902' else []
     tops = {n: b for n, b in fb.items() if 'munkalap' in n.lower() and kitchen and any(in_rects((b[0] + b[3]) / 2, (b[1] + b[4]) / 2, [k], 0.05) for k in kitchen)}
     if len(tops) >= 2:
         xs = sorted(tops.items(), key=lambda kv: kv[1][0])
@@ -205,9 +215,14 @@ def run():
         g = east - west
         rep['measurements']['konyha_pultkoz_cm'] = round(g * 100, 1)
         (E if g < 0.80 else W_ if g < 0.90 else OK).append(f'KONYHA: pultsorok közti tiszta köz {g * 100:.0f} cm (cél ≥ 90; a nyers szerkezeti szélesség 2,10 m → két 62 cm-es pulttal 86 cm)')
+    elif PFX != 'A902':
+        INFO.append('KONYHA: a pultköz-vizsgálat az A-902 konyhájára szabott – itt a konyhabútor tervezésekor bővítendő')
     else:
         INFO.append('KONYHA: nincs két munkalap-sor a látható rétegben – a pultköz nem mérhető')
-    # 8. 05.2 funkcionális vizsgálat
+    # 8. 05.2 funkcionális vizsgálat (csak A-902)
+    if PFX != 'A902':
+        INFO.append(f'05.2-ágyvizsgálat: A-902-specifikus, a(z) {PFX} lakásban nem fut')
+        return finish(rep, E, W_, VILL_PATH, lock, fb, rooms)
     r52 = rooms.get('05_2', [[0, 0, 3.65, 2.65]])[0]
     beds = {n: b for n, b in fb.items() if n.lower().startswith(('agy_05_2', 'l_agy_05_2', 'z_agy_05_2')) or ('agy' in n.lower() and '05_2' in n and 'keret' in n.lower())}
     sw = {k: v for k, v in lock.get('openings_meta', {}).items() if k in ('Ajto_05_2', 'Erkelyajto_05_2')}
@@ -236,6 +251,11 @@ def run():
     rep['measurements']['05_2_agy_alternativak'] = list(best.values())
     INFO.append('05.2: fejjel a déli falnak, az ajtóforgásokon kívül elférő ágyak (legjobb oldaltávolság): ' +
                 '; '.join(f"{int(a['agy_szelesseg'] * 100)} cm x {a['x0']:.2f}–{a['x1']:.2f}, oldalt {a['bal_oldal_cm']}/{a['jobb_oldal_cm']} cm, lábnál {a['labnal_cm']} cm" for a in best.values()) if best else '05.2: nincs a forgásokon kívüli ágyhely – FAIL')
+    return finish(rep, E, W_, VILL_PATH, lock, fb, rooms)
+
+
+def finish(rep, E, W_, VILL_PATH, lock, fb, rooms):
+    OK, INFO = rep['ok'], rep['info']
     # 9. VILLAMOS
     if VILL_PATH and os.path.exists(VILL_PATH):
         V = json.load(open(VILL_PATH, encoding='utf-8'))['kiallasok']
