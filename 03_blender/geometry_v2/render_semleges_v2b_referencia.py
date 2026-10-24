@@ -391,22 +391,26 @@ sc.view_settings.look = os.environ.get('WSG_LOOK', 'None')
 sc.view_settings.exposure = EXPOSURE
 sc.view_settings.gamma = 1.0
 r.image_settings.file_format = 'PNG'; r.image_settings.color_depth = '8'
-# Hézagzárás csak a renderhez (a Validator után, lockon kívüli gyűjteményben):
+# Hézagzárás csak a renderhez (a Validator után, lockon kívüli gyűjteményben) – CSAK a v2b-1 javítás előtti lockkal:
 # a v2b-ben áthelyezett 05.1 ÉK-i pillér (x 3,02-től) és a fülke északi fala (Kulso_E_05_1_0, x 2,95-ig) között
-# 7 cm-es rés maradt a homlokzaton (y 8,95–9,25) -> a Cam_04-en fényrés látszana. A valóságban itt fal van;
-# a lockban javítandó (Kulso_E_05_1_0 x1 = 3,02).
-fill = bpy.data.collections.new('Ref_v2b_hezagzaras'); sc.collection.children.link(fill)
-me = bpy.data.meshes.new('hezag'); ob = bpy.data.objects.new('Ref_hezag_05_1_EK_pillér', me)
-xs, ys, zs = (2.949, 3.021), (8.95, 9.25), (0.0, 2.9)
-v = [(xs[i], ys[j], zs[k]) for k in (0, 1) for j in (0, 1) for i in (0, 1)]
-f = [(0, 1, 3, 2), (4, 6, 7, 5), (0, 4, 5, 1), (2, 3, 7, 6), (0, 2, 6, 4), (1, 5, 7, 3)]
-me.from_pydata(v, [], f); me.materials.append(bpy.data.materials['Fal_feher']); fill.objects.link(ob)
-log['render_only_hezagzaras'] = ['05.1 fülke ÉK: x 2,95–3,02, y 8,95–9,25 (Kulso_E_05_1_0 vége és a v2b pillér között)']
+# 7 cm-es rés maradt a homlokzaton (y 8,95–9,25) -> a Cam_04-en fényrés látszana. A v2b-1 lockban javítva
+# (lockjavitas_v2b_burok.py): ott a fal a pillérig ér, és ez a lépés kimarad.
+_x0 = lock['walls']['Kulso_E_05_1_0'][3]
+_x1 = lock['walls']['Pillér_05_1_EK'][0]
+if _x1 - _x0 > 0.005:
+    fill = bpy.data.collections.new('Ref_v2b_hezagzaras'); sc.collection.children.link(fill)
+    me = bpy.data.meshes.new('hezag'); ob = bpy.data.objects.new('Ref_hezag_05_1_EK_pillér', me)
+    xs, ys, zs = (_x0 - 0.001, _x1 + 0.001), (8.95, 9.25), (0.0, 2.9)
+    v = [(xs[i], ys[j], zs[k]) for k in (0, 1) for j in (0, 1) for i in (0, 1)]
+    f = [(0, 1, 3, 2), (4, 6, 7, 5), (0, 4, 5, 1), (2, 3, 7, 6), (0, 2, 6, 4), (1, 5, 7, 3)]
+    me.from_pydata(v, [], f); me.materials.append(bpy.data.materials['Fal_feher']); fill.objects.link(ob)
+    log['render_only_hezagzaras'] = [f'05.1 fülke ÉK: x {_x0:.2f}–{_x1:.2f}, y 8,95–9,25 (Kulso_E_05_1_0 vége és a v2b pillér között)']
 
-# Kameránkénti, csak renderhez szóló rejtés (a Validator után):
-# a v2 tetőkert nyugati mellvédje (v2_Mellved_Ny, ELŐZETES) modellhiba miatt belelóg a 05.1 északi fülkéjébe
-# (x 2,83–3,02, y 8,50–8,95, a padló fölött 47 cm) – a Cam_04-en 47 cm-es fehér dobozként látszana. A tetőkert-modellben javítandó.
-CAM_HIDE = {'Cam_04_Master': ['v2_Mellved_Ny']}
+# Kameránkénti, csak renderhez szóló rejtés (a Validator után) – CSAK a v2b-1 javítás előtti lockkal:
+# a v2 tetőkert nyugati mellvédje (v2_Mellved_Ny, ELŐZETES) modellhiba miatt belelógott a 05.1 északi fülkéjébe
+# (x 2,83–3,02, y 8,50–8,95, a padló fölött 47 cm) – a Cam_04-en 47 cm-es fehér dobozként látszana.
+# A v2b-1 lockban a mellvéd y 9,25-nél kezdődik; ott nincs rejtés.
+CAM_HIDE = {'Cam_04_Master': ['v2_Mellved_Ny']} if lock['terrace_v2']['v2_Mellved_Ny'][1] < 9.25 - 0.005 else {}
 cams = {}
 for cn in CAMS:
     for nm in sum(CAM_HIDE.values(), []):

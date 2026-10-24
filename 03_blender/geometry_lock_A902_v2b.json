@@ -251,7 +251,7 @@
    -0.3,
    -0.3,
    0.0,
-   6.6,
+   6.7,
    0.0,
    2.9
   ],
@@ -411,7 +411,7 @@
    -0.3,
    8.95,
    0.0,
-   2.95,
+   3.02,
    9.25,
    2.9
   ],
@@ -1728,7 +1728,7 @@
   ],
   "v2_Mellved_Ny": [
    2.83,
-   8.5,
+   9.25,
    -0.45,
    3.39,
    20.61,
@@ -2210,6 +2210,25 @@
   "falak_nyilasok": "TERV SZERINT IGAZOLT",
   "belmagassag": "HELYSZÍNEN MÉRT 2,90–2,93 (Kémeri)",
   "anyagok": "FOTÓVAL ALÁTÁMASZTOTT",
-  "terasz_v2": "változatlan (v2, ELŐZETES)"
- }
+  "terasz_v2": "v2, ELŐZETES; a nyugati mellvéd déli vége y 9,25 (javítva 2026-10-24, v2b-1)"
+ },
+ "javitasok": [
+  {
+   "azonosito": "v2b-1",
+   "datum": "2026-10-24",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter, 2026-10-24 17:06 – draft PR; a main-be csak „mehet” után",
+   "ok": "burokzártság- és terasz–belső tér átfedés-ellenőrzés (03_blender/geometry_v2/burok_zartsag_ellenorzes.py)",
+   "geometria": [
+    "walls.Kulso_E_05_1_0 x1: 2.95 → 3.02 – 05.1 fülke északi fala a v2b-ben áthelyezett pillérig (7 cm-es homlokzati rés)",
+    "walls.Kulso_D_05_2_furdo_0 x1: 6.6 → 6.7 – déli homlokzati fal a v2b-ben áthelyezett előtér-sarokelemig (10 cm-es homlokzati rés)",
+    "terrace_v2.v2_Mellved_Ny y0: 8.5 → 9.25 – tetőkert nyugati mellvédje a szerkezeti fal külső síkjától (eddig belelógott a 05.1 fülkébe)"
+   ],
+   "anyag": [
+    "Fal_05_1_nappali_0: Z_tapeta_greige → Fal_feher (csak a .blend-ben)",
+    "Kulso_E_05_1_0: Z_tapeta_greige → Fal_feher (csak a .blend-ben)"
+   ],
+   "nem_valtozott": "minden más fal, nyílászáró, padló, teraszelem és kamera; a Pillér_05_1_EK 1 cm-es síkeltérése a hétfői mérésig marad"
+  }
+ ]
 }
