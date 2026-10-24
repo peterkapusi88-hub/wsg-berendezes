@@ -35,3 +35,7 @@ Nem szükséges, hogy egyik AI a másik weboldalán kattintgasson. A GitHubon t�
 
 ## 6. Fontos
 A jelen konfiguráció használja a meglévő ChatGPT/Claude előfizetéseket az interaktív felületeken. Későbbi teljes API-alapú orkesztráció külön feladat és külön API-költséggel járhat. Ha a modellek saját beszélgetése nem olvasható egymás számára, **a GitHubra mentett munkatermék az átadás**, nem a chat-előzmény.
+
+
+## Új: Claude mint AI-karmester (2026-10-24)
+Elsőként olvasd el az `ai-coordination/ROUTER.md` fájlt. Péternek **Claude-ban kell csak a célt megfogalmaznia**; Claude választja ki, kell-e Astra/Work kreatív, Codex geometriai, Gemini videós feladat. A GitHub PR → Work trigger használatához **egyszeri, kézi webes beállítás** szükséges: `ai-coordination/WORK_TRIGGER_SETUP.md`. Pilot: `ai-coordination/PILOT.md`. A Codex/Gemini autonóm indítása nincs beállítva. Astra Ultra indítása, fizetős extra kreditek, külső beszerzés kizárólag Péter külön engedélyével.
