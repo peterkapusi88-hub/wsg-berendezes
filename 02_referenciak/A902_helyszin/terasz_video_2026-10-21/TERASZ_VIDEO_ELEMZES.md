@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | 1 | **Világos burkolt terasz** a két üvegfal előtt (T09 nyugat, T10 kelet) | „Terasz és lépcső” 23,62 + 19,34 m² | +28,40, kb. 15 cm-rel a belső padló alatt | t00, t26, t28, t36, t40, t42: világosszürke, nagyformátumú greslap (kb. 60×60), szürke fuga | DOKUMENTUM + VIDEÓ |
 | 2 | **Emelt WPC-dobogó** (T11): középső sáv a két greslap között, harántsáv a zöldtető előtt, északi pihenő | „Terasz” 25,00 m², a burkolatterven „kültéri fa burkolat” | **+29,02, azaz 62 cm-rel a greslap fölött** | t02, t04, t06, t32, t34, t44, t54: sötét szürkésbarna, bordázott WPC, homloklappal; 3 fokos WPC-lépcső le a greslapra | DOKUMENTUM + VIDEÓ |
-| 3 | **Vegetációs tetőkert** | „Zöldtető” 71,18 m² | ELŐZETES: a WPC fölött, világos beton szegéllyel (kb. 30–40 cm) | t04–t10, t20, t22, t34, t36, t52: fű, szukkulens és díszfű-csomók, kavicsos/mulcsos sávok, fekete csepegtető cső, aknafedlapok, beton lépőlapok | terület DOKUMENTUM; magasság és terhelhetőség **HIÁNYZIK**; **nem bútorozható alapból** |
+| 3 | **Vegetációs tetőkert** | „Zöldtető” 71,18 m² | ELŐZETES: a WPC fölött, világos beton szegéllyel (kb. 30–40 cm) | t04–t10, t20, t22, t34, t36, t52: fű, szukkulens és díszfű-csomók, kavicsos/mulcsos sávok, fekete csepegtető cső, aknafedlapok, beton lépőlapok | terület DOKUMENTUM (a terv nem jelöli „nem járható”-nak); magasság és terhelhetőség **HIÁNYZIK**; könnyű bútor mehet rá, nagy koncentrált teher csak igazolással |
 | 4 | **Szintváltások, korlát, panorámapontok** | lépcsőnyilak a harántsávnál (Ny és K), északi pihenő a korlátnál | – | t02, t26, t34, t40, t44: lépcsők; t08–t12, t46–t52: antracit, függőleges pálcás fémkorlát a mellvéden | nyomvonal DOKUMENTUM; korlátmagasság ELŐZETES (kb. 1,1 m) |
 
 **Területek:** 23,62 + 25,00 + 19,34 + erkély 11,26 = **79,22 m² terasz**; zöldtető 71,18 m²; összesen **150,4 m²**. A 158 m²-es brosúraadat valószínűleg falakkal vagy más definícióval számol. Ezt a szerződéses területdefiníció dönti el (a Lakásátvétel projektben).
@@ -39,7 +39,7 @@
 
 ## 4. Tervezési következmények (nem stílusdöntés – Astrának átadandó tény)
 - Az automata öntözés (esőztető a füvön) miatt a WPC-n a zöldtető szélén álló párnás bútor és textil vizes lehet. A szórásképet hétfőn ellenőrizni kell.
-- Bútorozható felület alapból: greslap (T09, T10) és WPC (T11). Zöldtetőre bútor és jakuzzi csak statikusan és a zöldtető-rendszer szempontjából igazolt használhatósággal kerülhet.
+- Bútorozható felület: greslap (T09, T10), WPC (T11), és könnyű bútorral a zöldtető is (a terv nem jelöli „nem járható”-nak). Jakuzzi vagy más nagy koncentrált teher csak statikailag és a zöldtető-rendszer szempontjából igazolva kerülhet rá. A burkolat, a korlát és a teraszfal a műszaki melléklet szerint közös rész, ezért nem fúrunk bele.
 - A jakuzzi-előkészítés (áram és fagymentes csap) a **nyugati greslapon** van: 2,0 m széles keret, x 4,10–6,10, y ≥ 9,74. Terhelhetőség és mélység HIÁNYZIK.
 - A 62 cm-es szintkülönbség és a lépcsők adják a terasz „építészeti” karakterét. Az ülőzónák a szintek és a panoráma szerint rendezendők, nem egy sík felületre.
 - Fény: rejtett LED csak meglévő felülethez rögzítve, fúrás és vízszigetelés-áttörés nélkül. A kültéri áramkiállások helyét hétfőn fotózni kell.

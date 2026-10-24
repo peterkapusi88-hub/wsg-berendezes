@@ -63,8 +63,8 @@
 ## D/2. Közös – kültéri rendeléshez
 | # | Mit | P |
 |---|---|---|
-| K1 | **Lift belső mérete** (szél. × mély. × magasság), ajtószélesség, teherbírás; a teraszajtók és az erkélyajtók szabad nyílása | P1 |
-| K2 | A-811 és A-812 erkély: mélység a homlokzattól a korlátig, hossz, ajtószárny-nyitás, küszöb | P1 |
+| K1 | Lift: **adattábla-fotó** + kabin- és ajtóméret (a műszaki melléklet szerint 2 db 13 személyes, bútorszállításra alkalmas lift van, kb. 1000 kg; a méret nincs megadva); a teraszajtók szabad nyílása | P2 |
+| K2 | A-811 és A-812 erkély: a terv szerinti 1,56 m-es mélység kontrollja, ajtószárny-nyitás, küszöb | P2 |
 | K3 | A-902 erkély 13: fotó (korlát, homlokzat, burkolat) | P2 |
 
 ## E. Dokumentumok (a „Lakásátvétel és garanciák” projektből, csak a műszaki tartalom)

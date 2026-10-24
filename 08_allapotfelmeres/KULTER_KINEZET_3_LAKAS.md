@@ -47,18 +47,27 @@
    - középső WPC-sáv kb. 2,10 m széles;
    - északi pihenő kb. 3,8 × 0,84 m.
    Ez mind tervi méret, hétfőn mérendő.
-2. **Zöldtetőre és szegélyre semmi**, amíg a terhelhetőség igazolatlan; az esőztető szórásképéből a párnákat ki kell tartani.
-3. **Rögzítés:**
-   - WPC-be, greslapba, vízszigetelésbe és korlátba nem fúrunk.
-   - Napernyőhöz és pergola-jellegű elemhez **súlyozott talp** kell (min. 50–90 kg; termékadatból igazolandó).
-   - Könnyű műanyag szék a szélben veszélyes.
+2. **Zöldtető és szegély (javítva 2026-10-24 07:00):**
+   - A megvalósulási terv a többi tetőt „**Nem járható** zöldtető”-nek jelöli, az A-902 71,18 m²-ét viszont csak „Zöldtető”-nek. Tehát a **használata nem tiltott**.
+   - **Könnyű bútor** (pl. napozóágy a lépőlapokon vagy a füvön) mehet, ha a fű tűri és az esőztető nem áztatja el.
+   - Ami **igazolás nélkül nem** mehet oda: **koncentrált nagy teher** (jakuzzi, nagy dézsa, kőasztal, telepített pergola). Ehhez kell a zöldtető-rétegrend terhelhetősége kg/m²-ben és a födém statikája.
+   - A **betonszegélyre ülni, párnát tenni lehet** (természetes ülőperem); fúrni, rögzíteni nem.
+3. **Rögzítés, fúrás – miért nem:**
+   - **(a) Közös rész.** A műszaki melléklet (WGR1, „Homlokzatok, közös részek”) szerint az **erkély- és teraszburkolat, az erkélykorlát, a teraszfalak és a teraszon lévő szerelvények és lámpatestek közös résznek számítanak**. A módosításukhoz a társasház (és a garanciális időben az Eladó) hozzájárulása kell.
+   - **(b) Vízszigetelés.** A 9. emeleti terasz a 8. emeleti lakások födémén van. A greslap és a WPC-dobogó alatt közvetlenül a szigetelés van, egy átfúrás beázást okozhat. A szigetelési garanciát is elveszítheti.
+   - **(c) Korlát.** A korlát egy adott szélterhelésre van méretezve. A rákötött árnyékoló, növényláda vagy belátásgátló háló ezt megnöveli, ezért nem kötünk rá semmit.
+   - Ami **szabadon jöhet**: szabadon álló, saját súlyával megálló bútor, súlyozott napernyőtalp, szabadon álló növényláda és akkumulátoros vagy dugaljról menő hordozható lámpa.
 4. **Láb és talp:** a WPC-n széles, puha, nem foltosító talp kell (filc/TPE). A greslapon a 15 cm-es küszöb miatt a teraszajtón átvitt bútor méretét az ajtónyílás korlátozza.
-5. **Szállítás:** a lift belső mérete és a 9. emeleti emelés HIÁNYZIK. Nagy darabot (sarokkanapé, jakuzzi) csak igazolt mérettel szabad rendelni.
+5. **Szállítás:**
+   - A műszaki melléklet szerint a házban **2 db 13 személyes, „bútorszállításra is alkalmas kivitelű”** és 2 db 8 személyes lift van.
+   - A 13 személyes lift az EN 81-20 szerint **1000 kg névleges teherbírású**. Az ilyen kabin jellemzően kb. 1,1 × 2,1 m, 0,9–1,1 m-es ajtóval; ez becslés, **a kabin mérete nincs a dokumentumban**.
+   - Hétfőn elég egy fotó a lift adattáblájáról (névleges teher, személyszám) és egy kabinméret mérőszalaggal.
+   - Jakuzzi: a 13 személyes liftben csak bontható vagy felfújható típus fér el; egyben szállított akrilkád csak darus emeléssel.
 
 ## 3. A-811 – erkély (14,30 m²)
 | Szempont | Adat | Forrás / státusz |
 |---|---|---|
-| Alak | **hosszú, keskeny erkély** a nappali és a háló előtt; mélység kb. 1,6–1,8 m (terv-kivágatból becsülve), hossz kb. 8 m | terv – **mérendő** |
+| Alak | **hosszú erkély** a nappali és a háló előtt: **fő rész kb. 1,56 m mély × 7,6 m**, utána egy **kb. 0,66 m-es keskeny sáv** kb. 3,6 m hosszan a 05.1 előtt (a mélység a téglaburkolat síkjától a korlát vonaláig, terv 1:50) | terv, PDF 5. old. – kontrollmérés |
 | Burkolat | ugyanaz a **világos greige kőhatású greslap**, a fotón nagyobb formátumnak látszik (60×120?) | 811-081, 811-084 |
 | Korlát | antracit pálcás, közvetlenül a födém szélén | 811-046, 811-056 |
 | Végeken | **matt bronz/taupe üveg térelválasztó** antracit keretben | 811-045, 811-056/057 |
@@ -67,14 +76,14 @@
 | Kilátás | városkép, távolban hegyek, alatta fasor | 811-046, 811-051 |
 
 **Következmény:**
-- 1,6–1,8 m mélységben a mély lounge-kanapé (90–100 cm) és a közlekedés együtt nem fér el.
+- **1,56 m** mélységben a mély lounge-kanapé (90–100 cm) és a 60 cm-es közlekedés éppen kijön, de szűk. A 0,66 m-es sávba csak keskeny növényláda vagy semmi.
 - Ami szóba jöhet: keskeny bisztróasztal 2 székkel, vagy 60–70 cm mély pad / alacsony lounge, és a nyíló ajtószárnyak előtt szabad sáv.
 - A takart erkély miatt a textil kevésbé ázik, de a széltől ez nem véd.
 
 ## 4. A-812 – erkély (7,04 m²)
 | Szempont | Adat | Forrás / státusz |
 |---|---|---|
-| Alak | kisebb erkély a nappali előtt; mélység kb. 1,7–1,8 m, hossz kb. 4 m (becslés) | terv – **mérendő** |
+| Alak | **fő rész kb. 1,56 m mély × 3,3 m** a nappali előtt, plusz egy **kb. 0,65 m-es keskeny sáv** kb. 2,2 m hosszan | terv, PDF 11. old. – kontrollmérés |
 | Homlokzat | **teljes sötét antracit-barna klinkerfal** az erkély hosszanti oldalán, kültéri dugaljjal (812-002, 812-005); a vakolt kávákban antracit fémpárkány | fotó |
 | Burkolat | ugyanaz a világos greige greslap | 812-002, 812-003 |
 | Korlát, térelválasztó | antracit pálcás korlát; **matt üveg térelválasztó** a végén | 812-084/085 |
@@ -84,10 +93,10 @@
 **Következmény:**
 - A sötét téglafal előtt a világosabb, meleg tónusú textil és a fa vagy taupe bútor kiemelkedik.
 - Az antracit bútor a falba „olvad”: ez elegáns, de sötétebb összhatás. Döntési kérdés.
-- Méret: 2 fős bisztrószett vagy egy keskeny pad + kisasztal.
+- Méret a 1,56 × 3,3 m-es részre: 2 fős bisztrószett, vagy egy keskeny pad + kisasztal.
 
 ## 5. Hétfőn mérendő a kültéri rendeléshez (P1)
-- **A-811 és A-812 erkély:** mélység a homlokzattól a korlátig, hossz, az ajtószárnyak nyitásiránya és sugara, küszöbmagasság.
+- **A-811 és A-812 erkély:** a terven mért 1,56 m-es mélység ellenőrzése, az ajtószárnyak nyitásiránya és sugara, küszöbmagasság.
 - **A-902:**
   - a greslap Ny és K tényleges mérete;
   - a WPC-sávok szélessége;
@@ -95,7 +104,7 @@
   - az attikatakarás mélysége;
   - a jakuzzi-hely mélysége;
   - az erkély 13 fotója.
-- **Lift:** belső méret (szél., mély., magasság) és ajtószélesség; teherbírás.
+- **Lift:** adattábla-fotó és kabinméret. Típusát és személyszámát a műszaki melléklet megadja (13 fő, bútorszállításra alkalmas).
 - **Tájolás:** irány az iPhone helymeghatározásával (EXIF), hogy az árnyékolót és a napernyőt jó helyre tervezzük.
 
 ## 6. Kapcsolódó
