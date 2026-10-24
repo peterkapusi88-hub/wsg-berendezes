@@ -17,3 +17,12 @@ WSG-ASTRA-RESULT: <TASK_ID>
 - **Péter döntése szükséges:** melyik opcióban milyen trade-off van
 
 A Work-komment sem hitelesíti automatikusan a költségeket. Claude külön, nem másolt forrásból ellenőriz.
+
+## Render Reality Gate eredmény – kötelező
+
+- **Reality card és forrásváltozat:** pontos elérési út vagy beágyazott tábla, fotó/Blender referenciával.
+- **Meglévő padló/falak ellenőrzése:** valódi WSG szürke tölgy parketta azonosítása (nem igazolt, ha takart), eredeti fehér falak vs fényhatás / valós átfestés.
+- **Új burkolatok és látványelemek:** pontos anyag a képen vs beárazott panel/tapéta/bútor, munkadíj, szerelés, eltérés.
+- **Vizuális eltéréslista:** elem | forrás | képen megjelenő | megvalósítható | becsült Ft-kockázat | bizonyíték | javítás.
+- **Kapu kimenete:** `KONCEPCIÓ – NEM VALIDÁLT` / `ELŐSZŰRT – FELTÉTELES` / `RENDER REALITY PASS – TÉTELES` / `AJÁNLATTAL VALIDÁLT` / `FAIL – ÚJRATERVEZÉS`; indoklás. Kizárólag kód- vagy képellenőrzés önmagában nem elegendő PASS-hoz.
+- **Következő lépés:** újragenerálás, anyagcsere vagy külön beárazás, szükséges Péter-jóváhagyás.
