@@ -7,8 +7,8 @@
 
 | Futás | Eredmény | Hibák kategóriánként | Figyelmeztetések |
 |---|---|---|---|
-| v2 alap (előtte) | FAIL – 170 hiba, 82 figyelmeztetés; réteg: ['Stil_LakeForest'] | {'LOCK': 125, 'AJTÓ-FORGÁS': 10, 'VILLAMOS': 35} | {'BURKOLÓ': 23, 'ÁTFEDÉS': 16, 'KONYHA': 1, 'VILLAMOS': 42} |
-| **v2b (utána)** | **FAIL – 83 hiba, 82 figyelmeztetés; réteg: ['Stil_LakeForest']** | {'ÜTKÖZÉS': 38, 'AJTÓ-FORGÁS': 10, 'VILLAMOS': 35} | {'BURKOLÓ': 23, 'ÁTFEDÉS': 16, 'KONYHA': 1, 'VILLAMOS': 42} |
+| v2 alap (előtte) | FAIL – 176 hiba, 82 figyelmeztetés; réteg: ['Stil_LakeForest'] | {'LOCK': 125, 'AJTÓ-FORGÁS': 10, 'VILLAMOS': 41} | {'BURKOLÓ': 23, 'ÁTFEDÉS': 16, 'KONYHA': 1, 'VILLAMOS': 42} |
+| **v2b (utána)** | **FAIL – 89 hiba, 82 figyelmeztetés; réteg: ['Stil_LakeForest']** | {'ÜTKÖZÉS': 38, 'AJTÓ-FORGÁS': 10, 'VILLAMOS': 41} | {'BURKOLÓ': 23, 'ÁTFEDÉS': 16, 'KONYHA': 1, 'VILLAMOS': 42} |
 
 A v2 alap 125 LOCK-hibája pontosan a v2b javításai (lásd `geometry_v2/v2b_elteresi_lista.md`); a v2b-ben LOCK 0, TERASZ 0 változás.
 
@@ -22,9 +22,53 @@ A v2 alap 125 LOCK-hibája pontosan a v2b javításai (lásd `geometry_v2/v2b_el
 - BURKOLÓ: 195 látható bútorelem
 - ÜTKÖZÉS: bútor–fal/nyílászáró 38, bútor–bútor átfedés 16
 - AJTÓ: 11 nyílás negyedkörrel/sávval vizsgálva
-- VILLAMOS: 128 terv szerinti kiállás vizsgálva; takarás 35, dugalj elé állás 42
+- VILLAMOS: 130 terv szerinti kiállás vizsgálva; takarás 41, dugalj elé állás 42
 
 ## Hibák (v2b)
+
+### VILLAMOS (41)
+
+- L_TVfal_travertin takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7090 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7135 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7180 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7225 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_TV55 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
+- L_TVfal_travertin takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7090 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7135 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7180 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7225 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_TV55 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
+- L_TVfal_travertin takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7090 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7135 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7180 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7225 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_TV55 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
+- L_agyfal_travertin takarja: A902-K13 kapcsolo t (x 3.545, y 7.51, ~0.65 m)
+- L_agyfal_travertin takarja: A902-K14 kapcsolo t (x 3.545, y 5.319, ~0.65 m)
+- L_gardrob_krem takarja: A902-K15 kapcsolo t (x 2.506, y 4.064, ~1.1 m)
+- L_gardrob_krem takarja: A902-K16 kapcsolo u (x 2.506, y 4.064, ~1.1 m)
+- Gardrob_05_2_PAX_240 takarja: A902-K17 kapcsolo s (x 2.538, y 2.634, ~1.1 m)
+- Ejjeli_05_3_a_lampa takarja: A902-K21 kapcsolo e (x 11.729, y 4.124, ~0.65 m)
+- Agy_05_3_180x200_parna_takaro takarja: A902-K22 kapcsolo e (x 13.92, y 4.124, ~0.65 m)
+- Agy_05_3_180x200_fejtamla takarja: A902-K22 kapcsolo e (x 13.92, y 4.124, ~0.65 m)
+- L_gardrob_krem takarja: A902-G09 BK_doboz BK (x 1.919, y 3.566, ~1.1 m)
+- L_TVfal_travertin takarja: A902-S01 hangjelzo_vagy_erzekelo  (x 7.149, y 4.049, ~2.2 m)
+- L_lamella_7090 takarja: A902-S01 hangjelzo_vagy_erzekelo  (x 7.149, y 4.049, ~2.2 m)
+- L_lamella_7135 takarja: A902-S01 hangjelzo_vagy_erzekelo  (x 7.149, y 4.049, ~2.2 m)
+- L_lamella_7180 takarja: A902-S01 hangjelzo_vagy_erzekelo  (x 7.149, y 4.049, ~2.2 m)
+- L_lamella_7225 takarja: A902-S01 hangjelzo_vagy_erzekelo  (x 7.149, y 4.049, ~2.2 m)
+- L_agyfal_travertin takarja: A902-S08 hangjelzo_vagy_erzekelo  (x 3.569, y 4.049, ~2.2 m)
+- L_TVfal_travertin takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7090 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7135 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7180 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_lamella_7225 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_TV55 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
+- L_gardrob_krem takarja: A902-T02 termosztat  (x 2.506, y 4.064, ~1.1 m)
+- Gardrob_05_2_PAX_240 takarja: A902-T03 termosztat  (x 2.538, y 2.634, ~1.1 m)
 
 ### ÜTKÖZÉS (38)
 
@@ -67,44 +111,6 @@ A v2 alap 125 LOCK-hibája pontosan a v2b javításai (lásd `geometry_v2/v2b_el
 - L_konyha_magas ↔ fal Kulso_D_konyha_0 (5.0 cm)
 - L_agyfal_travertin ↔ fal Fal_05_1_nappali_0 (5.0 cm)
 
-### VILLAMOS (35)
-
-- L_TVfal_travertin takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7090 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7135 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7180 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7225 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_TV55 takarja: A902-K10 kapcsolo n,p (x 7.149, y 4.049, ~1.1 m)
-- L_TVfal_travertin takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7090 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7135 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7180 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7225 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_TV55 takarja: A902-K11 kapcsolo c,d (x 7.149, y 4.049, ~1.1 m)
-- L_TVfal_travertin takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7090 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7135 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7180 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7225 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_TV55 takarja: A902-K12 kapcsolo a,b (x 7.149, y 4.049, ~1.1 m)
-- L_agyfal_travertin takarja: A902-K13 kapcsolo t (x 3.545, y 7.51, ~0.65 m)
-- L_agyfal_travertin takarja: A902-K14 kapcsolo t (x 3.545, y 5.319, ~0.65 m)
-- L_gardrob_krem takarja: A902-K15 kapcsolo t (x 2.506, y 4.064, ~1.1 m)
-- L_gardrob_krem takarja: A902-K16 kapcsolo u (x 2.506, y 4.064, ~1.1 m)
-- Gardrob_05_2_PAX_240 takarja: A902-K17 kapcsolo s (x 2.538, y 2.634, ~1.1 m)
-- Ejjeli_05_3_a_lampa takarja: A902-K21 kapcsolo e (x 11.729, y 4.124, ~0.65 m)
-- Agy_05_3_180x200_parna_takaro takarja: A902-K22 kapcsolo e (x 13.92, y 4.124, ~0.65 m)
-- Agy_05_3_180x200_fejtamla takarja: A902-K22 kapcsolo e (x 13.92, y 4.124, ~0.65 m)
-- L_gardrob_krem takarja: A902-G09 BK_doboz BK (x 1.919, y 3.566, ~1.1 m)
-- L_TVfal_travertin takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7090 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7135 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7180 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_lamella_7225 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_TV55 takarja: A902-T01 termosztat  (x 7.149, y 4.049, ~1.1 m)
-- L_gardrob_krem takarja: A902-T02 termosztat  (x 2.506, y 4.064, ~1.1 m)
-- Gardrob_05_2_PAX_240 takarja: A902-T03 termosztat  (x 2.538, y 2.634, ~1.1 m)
-
 ### AJTÓ-FORGÁS (10)
 
 - L_ejjeli_0 a(z) Ajto_05_1 nyitási negyedkörében (r 0.9 m)
@@ -146,8 +152,8 @@ A v2 alap 125 LOCK-hibája pontosan a v2b javításai (lásd `geometry_v2/v2b_el
 ## Mit jelent a tervezésnek
 
 - **Konyha:** a régi (LF) konyhasor a javított keleti falba (x 10,55) és a csonkfalba lóg; a két pultsor tiszta köze 85 cm (cél 90). Újratervezendő a v2b falakhoz.
-- **Nappali, Lake Forest TV-fal:** a déli falon (x 5,55–7,40) **eltakarja a fő kapcsolóoszlopot és a termosztátot** (A902-K10–K12, T01, fali hely x 7,15 y 4,05). A terv szerinti TV-blokk a nyugati válaszfalon van (y 6,0–6,5).
-- **05.1:** a LF ágyfal-travertin a 65 cm-es ágy melletti kapcsolókat (t) takarja; a gardrób a 05.1 ajtó melletti kapcsolókat, termosztátot és a BK-dobozt.
+- **Nappali, Lake Forest TV-fal:** a déli falon (x 5,55–7,40) **eltakarja a fő kapcsolóoszlopot, a termosztátot és a mozgásérzékelőt** (A902-K10–K12, T01, S01, fali hely x 7,15 y 4,05). A terv szerinti TV-blokk a nyugati válaszfalon van (y 6,0–6,5).
+- **05.1:** a LF ágyfal-travertin a 65 cm-es ágy melletti kapcsolókat (t) és az ajtósarki mozgásérzékelőt (S08, becsült 2,2 m) takarja; a gardrób a 05.1 ajtó melletti kapcsolókat, termosztátot és a BK-dobozt.
 - **05.2:** a 160×200-as ágy a jelenlegi helyén az ajtó nyitási negyedkörében van. A forgásokon kívül: 160-as ágy fejjel a déli falnak x 1,00–2,60 (oldalt 100/105 cm, lábnál 60 cm), vagy 140-es x 1,10–2,50. A PAX 240 a 05.2 ajtó melletti kapcsolót (s) és termosztátot takarja.
 - **05.3, WC:** a PAX 200 az ajtó negyedkörébe és az étkező-aknába lóg; az előtéri cipős szekrény a WC-ajtó nyitásába.
 - **06.2:** a mosdószekrény és a zuhany a javított keleti fal (x 16,40) miatt 2–10 cm-rel ütközik – a valós szaniterek helye hétfőn mérendő.

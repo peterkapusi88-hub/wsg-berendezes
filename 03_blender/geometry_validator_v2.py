@@ -14,7 +14,8 @@
 #  6. AJTÓ      – a valódi nyitási negyedkör szabad (hiba); 90 cm-es megközelítési sáv mindkét oldalon (figyelmeztetés)
 #  7. KONYHA    – a két pultsor közti tiszta köz (cél ≥ 90 cm, 80 alatt hiba)
 #  8. 05.2      – ágy, ajtóforgások, éjjeliszekrények: működik-e, és milyen alternatíva fér el
-#  9. VILLAMOS  – bútor nem takarhat kapcsolót, termosztátot, elosztót, kaputelefont, kezelőt; dugalj elé állás figyelmeztetés;
+#  9. VILLAMOS  – bútor nem takarhat kapcsolót, termosztátot, elosztót, kaputelefont, kezelőt, BK-dobozt, mozgásérzékelőt
+#                 (ennek magassága a rajzon nincs: becslés 2,20 m); dugalj elé állás figyelmeztetés;
 #                 mennyezeti kiállás alatti bútor (információ)
 # A bbox-ok a mesh csúcsaiból (matrix_world) számolódnak; a stílusrétegek közül csak a renderben látható számít.
 import bpy, json, os, math
@@ -238,13 +239,13 @@ def run():
     # 9. VILLAMOS
     if VILL_PATH and os.path.exists(VILL_PATH):
         V = json.load(open(VILL_PATH, encoding='utf-8'))['kiallasok']
-        hard = ('kapcsolo', 'termosztat', 'lakaselosztó', 'kaputelefon_belteri', 'kezelo_billentyuzet', 'BK_doboz')
+        hard = ('kapcsolo', 'termosztat', 'lakaselosztó', 'kaputelefon_belteri', 'kezelo_billentyuzet', 'BK_doboz', 'hangjelzo_vagy_erzekelo')
         soft = ('dugalj', 'gyengearamu_aljzat', 'antenna_tv_aljzat')
         nh = ns = 0
         for v in V:
             if v['tipus'] not in hard + soft: continue
             x = v['doboz_x_m'] if v['doboz_x_m'] != '' else v['x_m']; y = v['doboz_y_m'] if v['doboz_y_m'] != '' else v['y_m']
-            z = v['magassag_m'] if isinstance(v['magassag_m'], (int, float)) else (1.10 if v['tipus'] in hard else 0.30)
+            z = v['magassag_m'] if isinstance(v['magassag_m'], (int, float)) else (2.20 if v['tipus'] == 'hangjelzo_vagy_erzekelo' else 1.10 if v['tipus'] in hard else 0.30)
             for n, b in fb.items():
                 if any(k in n.lower() for k in ('szonyeg', 'fuggony')): continue
                 if b[0] - 0.12 <= x <= b[3] + 0.12 and b[1] - 0.12 <= y <= b[4] + 0.12 and b[2] - 0.05 <= z <= b[5] + 0.05:
