@@ -1,0 +1,431 @@
+{
+ "datum": "2026-10-24",
+ "statusz": "MÉRETPRÓBA – nem stílusterv; geometry_lock_A902_v2b (terv szerinti), helyszínen nem mért",
+ "forras": "WGR1_meretezett_alaprajzok.pdf 18. o. bútorrétege (M1 KORR 2); A902_villamos.json; Péter 2026-10-24 18:23",
+ "celok": {
+  "bejárat (előtér felől)": [
+   7.3,
+   3.3,
+   8.35,
+   4.05
+  ],
+  "terasz (tolóajtó)": [
+   4.44,
+   7.3,
+   8.94,
+   8.05
+  ],
+  "konyha (a pultsorok közé)": [
+   9.05,
+   4.05,
+   9.95,
+   4.8
+  ],
+  "hálók folyosója": [
+   3.7,
+   3.25,
+   5.0,
+   3.95
+  ],
+  "05.3 háló ajtaja": [
+   10.0,
+   6.05,
+   10.75,
+   6.95
+  ]
+ },
+ "pult": [
+  [
+   8.45,
+   2.35,
+   9.05,
+   4.05
+  ],
+  [
+   9.95,
+   1.35,
+   10.55,
+   5.25
+  ],
+  [
+   9.05,
+   1.35,
+   9.95,
+   1.95
+  ],
+  [
+   8.45,
+   1.35,
+   8.95,
+   2.25
+  ]
+ ],
+ "etkezo_zonak": {
+  "terv (betolt székek)": [
+   7.98,
+   5.37,
+   9.32,
+   7.17
+  ],
+  "terv, 0,30 m-rel nyugatra": [
+   7.68,
+   5.37,
+   9.02,
+   7.17
+  ],
+  "60 cm széktolás, 0,60 m-rel nyugatra": [
+   7.05,
+   5.37,
+   9.05,
+   7.17
+  ]
+ },
+ "asztal": [
+  8.25,
+  5.37,
+  9.05,
+  7.17
+ ],
+ "lampa_ML04": [
+  8.549,
+  6.274
+ ],
+ "ures_uthossz_m": {
+  "terasz (tolóajtó)": 3.3,
+  "konyha (a pultsorok közé)": 1.55,
+  "hálók folyosója": 3.83,
+  "05.3 háló ajtaja": 3.15
+ },
+ "eredmeny": [
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv (betolt székek)",
+   "etkezo_zona": [
+    7.98,
+    5.37,
+    9.32,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": true,
+   "elrendezes": {
+    "kanape_befoglalo": [
+     5.32,
+     5.05,
+     7.57,
+     8.05
+    ],
+    "tv_konzol": [
+     3.67,
+     5.65,
+     4.12,
+     7.45
+    ],
+    "legszukebb_ut_m": 0.9,
+    "nezotav_m": 3.3,
+    "tv_eltolas_m": 0.0,
+    "kerulo_max_arany": 1.78,
+    "uthossz_m": {
+     "terasz (tolóajtó)": 5.87,
+     "konyha (a pultsorok közé)": 1.55,
+     "hálók folyosója": 3.83,
+     "05.3 háló ajtaja": 3.35
+    },
+    "cel_max_szelesseg_m": {
+     "terasz (tolóajtó)": 0.95,
+     "konyha (a pultsorok közé)": 1.0,
+     "hálók folyosója": 0.95,
+     "05.3 háló ajtaja": 0.9
+    },
+    "tajolas": "3,00 a TV-fallal párhuzamosan × 2,25 a TV felé"
+   }
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": true,
+   "elrendezes": {
+    "kanape_befoglalo": [
+     5.32,
+     5.15,
+     7.62,
+     8.05
+    ],
+    "tv_konzol": [
+     3.67,
+     5.7,
+     4.12,
+     7.5
+    ],
+    "legszukebb_ut_m": 1.0,
+    "nezotav_m": 3.35,
+    "tv_eltolas_m": 0.0,
+    "kerulo_max_arany": 1.76,
+    "uthossz_m": {
+     "terasz (tolóajtó)": 5.81,
+     "konyha (a pultsorok közé)": 1.55,
+     "hálók folyosója": 3.83,
+     "05.3 háló ajtaja": 3.35
+    },
+    "cel_max_szelesseg_m": {
+     "terasz (tolóajtó)": 1.0,
+     "konyha (a pultsorok közé)": 1.0,
+     "hálók folyosója": 1.0,
+     "05.3 háló ajtaja": 0.9
+    },
+    "tajolas": "2,90 a TV-fallal párhuzamosan × 2,30 a TV felé"
+   }
+  },
+  {
+   "etkezo": "terv, 0,30 m-rel nyugatra",
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "KH-SOF-GALA-U",
+   "kanape_nev": "Gala U 300 × 225",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "U-320x250",
+   "kanape_nev": "U 320 × 250 (generikus)",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "nyugati",
+   "tv_nev": "gyári TV-blokk a nyugati falon (antennával)",
+   "elfer": false,
+   "elrendezes": null
+  },
+  {
+   "etkezo": "60 cm széktolás, 0,60 m-rel nyugatra",
+   "etkezo_zona": [
+    7.05,
+    5.37,
+    9.05,
+    7.17
+   ],
+   "kanape": "KH-SOF-BLOK-CORNER",
+   "kanape_nev": "Blok sarok L 290 × 230",
+   "tv": "deli",
+   "tv_nev": "déli fal, D19 dugalj a konzol végénél (antenna nélkül)",
+   "elfer": false,
+   "elrendezes": null
+  }
+ ]
+}
