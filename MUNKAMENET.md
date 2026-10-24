@@ -59,3 +59,8 @@ Ha Péter közvetlenül a ChatGPT-vel vagy Geminivel beszél: ott a Project/Gem 
 - Egy jeleneten egyszerre egy vezérlő (Claude MCP **vagy** ChatGPT Mac-app/Codex).
 - Személyes adat (leadek, szerződések, e-mailek) nem kerül a repóba.
 - Küldés, rendelés, fizetés csak Péter „mehet"-je után – ezt minden AI házirendje tartalmazza.
+
+
+## Kiemelt munkarend – stíluslabor
+
+Olvasd el a `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` fájlt. A Zenit és Lake Forest csak két példa, akár tíz vagy több stílus összevetése lehetséges. A közös mérce: azonos geometria, azonos lakásonkénti bruttó keret, 10% tartalék, jó használhatóság. Luxusérzetet forma, szín, térhasználat, fény, anyag és természetkapcsolat együtt teremtenek. A koncepciók költségelőszűrést kapnak, a döntősök részletes termék- és asztaloslistát, a ChatGPT és Claude független árvizsgálatát. A render státusza koncepció, keretre előszűrt, tételesen költségelt vagy ajánlattal validált; a valódi termék és a képen megjelenő elem eltérését jelezni kell. Geminivel készülhet videó is, változatlan geometriával.
