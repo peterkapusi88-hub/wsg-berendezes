@@ -1,6 +1,7 @@
 {
  "datum": "2026-10-24",
  "statusz": "MÉRETPRÓBA – nem stílusterv; terv szerinti geometria (PR #9, geometria v2 lock), helyszínen nem mért",
+ "forgatokonyv": "A – szigorú: minden célhoz 0,90 m",
  "kanapek": [
   {
    "kod": "KH-SOF-GALA-U",
@@ -90,11 +91,55 @@
   "kepernyo_a_faltol_m": 0.1,
   "tv_eltolas_max_m": 0.4,
   "kanape_tv_sav_min_m": 0.6,
-  "etkezo_tav_min_m": 0.6,
+  "etkezo_tav_min_m": 0.05,
   "ut_min_m": 0.9,
   "racs_m": 0.1,
-  "erkelyajto": "nyitási negyedkör + 5 cm és a szárnyak előtti 0,80 m-es sáv bútormentes",
+  "mellekut_erkelyhez_m": null,
+  "erkelyajto": "nyitási negyedkör + 5 cm bútormentes; az ajtóhoz vezető utat a közlekedés-ellenőrzés adja",
+  "utszelesseg": "kör alakú (Euklideszi) puffer – a sarkoknál nincs négyzetes többlet",
   "kerulo": "a bejárattól minden célig: út ≤ 1.5 × az üres lakásbeli + 1.0 m (5 cm-es rács)",
+  "konyha_pult": {
+   "A811": [
+    [
+     6.17,
+     8.55,
+     8.25,
+     9.15
+    ],
+    [
+     7.65,
+     9.15,
+     8.25,
+     11.55
+    ],
+    [
+     6.17,
+     10.95,
+     7.65,
+     11.55
+    ]
+   ],
+   "A812": [
+    [
+     7.65,
+     0.0,
+     8.25,
+     2.8
+    ],
+    [
+     6.2,
+     2.2,
+     7.65,
+     2.8
+    ],
+    [
+     5.8,
+     0.0,
+     6.45,
+     0.6
+    ]
+   ]
+  },
   "celok": {
    "A811": {
     "bejárat (előtér felől)": [
@@ -164,7 +209,7 @@
    "ures_lakas_uthossz_m": {
     "egyszárnyú erkélyajtó": 4.7,
     "kétszárnyú erkélyajtó": 4.82,
-    "konyha (pult előtti sáv)": 1.72,
+    "konyha (pult előtti sáv)": 1.57,
     "hálók folyosója": 0.0
    },
    "tv_falak": [
@@ -216,11 +261,11 @@
         "kanape_tv_sav_m": 1.3,
         "uthossz_m": {
          "egyszárnyú erkélyajtó": 4.7,
-         "kétszárnyú erkélyajtó": 5.3,
-         "konyha (pult előtti sáv)": 1.72,
+         "kétszárnyú erkélyajtó": 5.16,
+         "konyha (pult előtti sáv)": 1.57,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.1
+        "kerulo_max_arany": 1.07
        }
       },
       "6s": {
@@ -279,11 +324,11 @@
         "kanape_tv_sav_m": 0.6,
         "uthossz_m": {
          "egyszárnyú erkélyajtó": 4.7,
-         "kétszárnyú erkélyajtó": 5.51,
-         "konyha (pult előtti sáv)": 1.72,
+         "kétszárnyú erkélyajtó": 5.37,
+         "konyha (pult előtti sáv)": 1.57,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.14
+        "kerulo_max_arany": 1.11
        }
       },
       "6s": {
@@ -344,11 +389,11 @@
         "kanape_tv_sav_m": 1.2,
         "uthossz_m": {
          "egyszárnyú erkélyajtó": 4.7,
-         "kétszárnyú erkélyajtó": 5.34,
-         "konyha (pult előtti sáv)": 1.72,
+         "kétszárnyú erkélyajtó": 5.2,
+         "konyha (pult előtti sáv)": 1.57,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.11
+        "kerulo_max_arany": 1.08
        }
       },
       "6s": {
@@ -368,8 +413,47 @@
       "6": {
        "etkezo": "6 fős étkező",
        "leiras": "180 × 90 asztal, 3 + 3 szék, 90 cm hátratolás (GOAL 5.) → 180 × 270 cm",
-       "elfer": false,
-       "elrendezes": null
+       "elfer": true,
+       "elrendezes": {
+        "tv_fal": "felső külső fal (y = 11,55), meglévő dugaljra, antenna nélkül",
+        "tv_aljzatok": [
+         "A811-D10",
+         "A811-D11",
+         "A811-D12"
+        ],
+        "kanape_befoglalo": [
+         2.9,
+         7.6,
+         5.2,
+         10.5
+        ],
+        "kanape_tajolas": "2,30 m a TV-fallal párhuzamosan × 2,90 m a TV felé",
+        "tv_konzol": [
+         3.15,
+         11.1,
+         4.95,
+         11.55
+        ],
+        "legszukebb_ut_m": 0.9,
+        "nezotav_m": 3.35,
+        "tv_eltolas_m": 0.0,
+        "kanape_tv_sav_m": 0.6,
+        "uthossz_m": {
+         "egyszárnyú erkélyajtó": 4.7,
+         "kétszárnyú erkélyajtó": 5.6,
+         "konyha (pult előtti sáv)": 1.57,
+         "hálók folyosója": 0.0
+        },
+        "kerulo_max_arany": 1.16,
+        "etkezo_zona": [
+         1.0,
+         8.751,
+         2.8,
+         11.451
+        ],
+        "etkezo_kanape_tav_m": 0.1,
+        "etkezo_konyha_tav_m": 3.37
+       }
       },
       "4": {
        "etkezo": "4 fős kerek étkező",
@@ -407,24 +491,103 @@
         "kanape_tv_sav_m": 0.6,
         "uthossz_m": {
          "egyszárnyú erkélyajtó": 4.7,
-         "kétszárnyú erkélyajtó": 5.56,
-         "konyha (pult előtti sáv)": 1.72,
+         "kétszárnyú erkélyajtó": 5.42,
+         "konyha (pult előtti sáv)": 1.57,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.15
+        "kerulo_max_arany": 1.12
        }
       },
       "6s": {
        "etkezo": "6 fős étkező, SZOROS",
        "leiras": "180 × 90, 60 cm hátratolás → 180 × 210 cm (a GOAL 90 cm-es szabálya alatt)",
-       "elfer": false,
-       "elrendezes": null
+       "elfer": true,
+       "elrendezes": {
+        "tv_fal": "felső külső fal (y = 11,55), meglévő dugaljra, antenna nélkül",
+        "tv_aljzatok": [
+         "A811-D10",
+         "A811-D11",
+         "A811-D12"
+        ],
+        "kanape_befoglalo": [
+         2.9,
+         7.6,
+         5.2,
+         10.5
+        ],
+        "kanape_tajolas": "2,30 m a TV-fallal párhuzamosan × 2,90 m a TV felé",
+        "tv_konzol": [
+         3.15,
+         11.1,
+         4.95,
+         11.55
+        ],
+        "legszukebb_ut_m": 0.9,
+        "nezotav_m": 3.35,
+        "tv_eltolas_m": 0.0,
+        "kanape_tv_sav_m": 0.6,
+        "uthossz_m": {
+         "egyszárnyú erkélyajtó": 4.7,
+         "kétszárnyú erkélyajtó": 5.34,
+         "konyha (pult előtti sáv)": 1.57,
+         "hálók folyosója": 0.0
+        },
+        "kerulo_max_arany": 1.11,
+        "etkezo_zona": [
+         1.0,
+         9.051,
+         2.8,
+         11.151
+        ],
+        "etkezo_kanape_tav_m": 0.1,
+        "etkezo_konyha_tav_m": 3.37
+       }
       },
       "4s": {
        "etkezo": "4 fős kerek, SZOROS",
        "leiras": "Ø100, 60 cm hátratolás → Ø220 (a GOAL-szabály alatt)",
-       "elfer": false,
-       "elrendezes": null
+       "elfer": true,
+       "elrendezes": {
+        "tv_fal": "felső külső fal (y = 11,55), meglévő dugaljra, antenna nélkül",
+        "tv_aljzatok": [
+         "A811-D10",
+         "A811-D11",
+         "A811-D12"
+        ],
+        "kanape_befoglalo": [
+         2.9,
+         7.6,
+         5.2,
+         10.5
+        ],
+        "kanape_tajolas": "2,30 m a TV-fallal párhuzamosan × 2,90 m a TV felé",
+        "tv_konzol": [
+         3.15,
+         11.1,
+         4.95,
+         11.55
+        ],
+        "legszukebb_ut_m": 0.9,
+        "nezotav_m": 3.35,
+        "tv_eltolas_m": 0.0,
+        "kanape_tv_sav_m": 0.6,
+        "uthossz_m": {
+         "egyszárnyú erkélyajtó": 4.7,
+         "kétszárnyú erkélyajtó": 5.59,
+         "konyha (pult előtti sáv)": 1.57,
+         "hálók folyosója": 0.0
+        },
+        "kerulo_max_arany": 1.16,
+        "etkezo_zona": {
+         "kozep": [
+          1.7,
+          9.651
+         ],
+         "r": 1.1
+        },
+        "etkezo_kanape_tav_m": 0.1,
+        "etkezo_konyha_tav_m": 3.37
+       }
       }
      }
     }
@@ -432,8 +595,8 @@
    "max_befoglalo": {
     "gyari_tv": {
      "6": {
-      "1.60": null,
-      "2.25": null
+      "1.60": 2.5,
+      "2.25": 2.3
      },
      "4": {
       "1.60": null,
@@ -442,20 +605,12 @@
      "0": {
       "1.60": 3.8,
       "2.25": 3.8
-     },
-     "6s": {
-      "1.60": null,
-      "2.25": null
-     },
-     "4s": {
-      "1.60": null,
-      "2.25": null
      }
     },
     "mas_tv_fal": {
      "6": {
-      "1.60": null,
-      "2.25": null
+      "1.60": 2.4,
+      "2.25": 2.3
      },
      "4": {
       "1.60": null,
@@ -464,14 +619,6 @@
      "0": {
       "1.60": 3.8,
       "2.25": 3.8
-     },
-     "6s": {
-      "1.60": null,
-      "2.25": null
-     },
-     "4s": {
-      "1.60": null,
-      "2.25": null
      }
     }
    }
@@ -482,7 +629,7 @@
    "ures_lakas_legszukebb_ut_m": 1.4,
    "ures_lakas_uthossz_m": {
     "kétszárnyú erkélyajtó": 6.09,
-    "konyha (pult előtti sáv)": 3.06,
+    "konyha (pult előtti sáv)": 2.63,
     "hálók folyosója": 0.0
    },
    "tv_falak": [
@@ -535,11 +682,11 @@
         "tv_eltolas_m": -0.2,
         "kanape_tv_sav_m": 1.3,
         "uthossz_m": {
-         "kétszárnyú erkélyajtó": 7.26,
-         "konyha (pult előtti sáv)": 3.06,
+         "kétszárnyú erkélyajtó": 6.96,
+         "konyha (pult előtti sáv)": 2.63,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.19
+        "kerulo_max_arany": 1.14
        }
       },
       "6s": {
@@ -595,11 +742,11 @@
         "tv_eltolas_m": -0.2,
         "kanape_tv_sav_m": 0.6,
         "uthossz_m": {
-         "kétszárnyú erkélyajtó": 6.71,
-         "konyha (pult előtti sáv)": 3.06,
+         "kétszárnyú erkélyajtó": 6.44,
+         "konyha (pult előtti sáv)": 2.63,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.1
+        "kerulo_max_arany": 1.06
        }
       },
       "6s": {
@@ -659,11 +806,11 @@
         "tv_eltolas_m": -0.4,
         "kanape_tv_sav_m": 0.6,
         "uthossz_m": {
-         "kétszárnyú erkélyajtó": 6.89,
-         "konyha (pult előtti sáv)": 3.06,
+         "kétszárnyú erkélyajtó": 6.74,
+         "konyha (pult előtti sáv)": 2.63,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.13
+        "kerulo_max_arany": 1.11
        }
       },
       "6s": {
@@ -683,8 +830,44 @@
       "6": {
        "etkezo": "6 fős étkező",
        "leiras": "180 × 90 asztal, 3 + 3 szék, 90 cm hátratolás (GOAL 5.) → 180 × 270 cm",
-       "elfer": false,
-       "elrendezes": null
+       "elfer": true,
+       "elrendezes": {
+        "tv_fal": "ugyanez a fal, D19 dugaljra (x = 4,60), antenna nélkül",
+        "tv_aljzatok": [
+         "A812-D19"
+        ],
+        "kanape_befoglalo": [
+         1.93,
+         1.65,
+         4.83,
+         3.95
+        ],
+        "kanape_tajolas": "2,90 m a TV-fallal párhuzamosan × 2,30 m a TV felé",
+        "tv_konzol": [
+         2.88,
+         0.0,
+         4.68,
+         0.45
+        ],
+        "legszukebb_ut_m": 0.9,
+        "nezotav_m": 3.35,
+        "tv_eltolas_m": 0.4,
+        "kanape_tv_sav_m": 1.2,
+        "uthossz_m": {
+         "kétszárnyú erkélyajtó": 7.65,
+         "konyha (pult előtti sáv)": 2.63,
+         "hálók folyosója": 0.0
+        },
+        "kerulo_max_arany": 1.26,
+        "etkezo_zona": [
+         0.03,
+         2.8,
+         1.83,
+         5.5
+        ],
+        "etkezo_kanape_tav_m": 0.1,
+        "etkezo_konyha_tav_m": 3.97
+       }
       },
       "4": {
        "etkezo": "4 fős kerek étkező",
@@ -719,18 +902,54 @@
         "tv_eltolas_m": 0.0,
         "kanape_tv_sav_m": 0.6,
         "uthossz_m": {
-         "kétszárnyú erkélyajtó": 6.7,
-         "konyha (pult előtti sáv)": 3.06,
+         "kétszárnyú erkélyajtó": 6.46,
+         "konyha (pult előtti sáv)": 2.63,
          "hálók folyosója": 0.0
         },
-        "kerulo_max_arany": 1.1
+        "kerulo_max_arany": 1.06
        }
       },
       "6s": {
        "etkezo": "6 fős étkező, SZOROS",
        "leiras": "180 × 90, 60 cm hátratolás → 180 × 210 cm (a GOAL 90 cm-es szabálya alatt)",
-       "elfer": false,
-       "elrendezes": null
+       "elfer": true,
+       "elrendezes": {
+        "tv_fal": "ugyanez a fal, D19 dugaljra (x = 4,60), antenna nélkül",
+        "tv_aljzatok": [
+         "A812-D19"
+        ],
+        "kanape_befoglalo": [
+         1.93,
+         1.65,
+         4.83,
+         3.95
+        ],
+        "kanape_tajolas": "2,90 m a TV-fallal párhuzamosan × 2,30 m a TV felé",
+        "tv_konzol": [
+         2.88,
+         0.0,
+         4.68,
+         0.45
+        ],
+        "legszukebb_ut_m": 0.9,
+        "nezotav_m": 3.35,
+        "tv_eltolas_m": 0.4,
+        "kanape_tv_sav_m": 1.2,
+        "uthossz_m": {
+         "kétszárnyú erkélyajtó": 7.65,
+         "konyha (pult előtti sáv)": 2.63,
+         "hálók folyosója": 0.0
+        },
+        "kerulo_max_arany": 1.26,
+        "etkezo_zona": [
+         0.03,
+         2.8,
+         1.83,
+         4.9
+        ],
+        "etkezo_kanape_tav_m": 0.1,
+        "etkezo_konyha_tav_m": 3.97
+       }
       },
       "4s": {
        "etkezo": "4 fős kerek, SZOROS",
@@ -744,7 +963,7 @@
    "max_befoglalo": {
     "gyari_tv": {
      "6": {
-      "1.60": 3.5,
+      "1.60": 3.7,
       "2.25": null
      },
      "4": {
@@ -754,40 +973,23 @@
      "0": {
       "1.60": 3.7,
       "2.25": 3.7
-     },
-     "6s": {
-      "1.60": 3.5,
-      "2.25": null
-     },
-     "4s": {
-      "1.60": null,
-      "2.25": null
      }
     },
     "mas_tv_fal": {
      "6": {
       "1.60": 3.8,
-      "2.25": 2.4
+      "2.25": 2.9
      },
      "4": {
-      "1.60": null,
+      "1.60": 2.4,
       "2.25": null
      },
      "0": {
       "1.60": 3.8,
       "2.25": 3.7
-     },
-     "6s": {
-      "1.60": 3.8,
-      "2.25": 2.4
-     },
-     "4s": {
-      "1.60": 3.0,
-      "2.25": null
      }
     }
    }
   }
- },
- "forgatokonyv": "A – szigorú: minden célhoz 0,90 m"
+ }
 }

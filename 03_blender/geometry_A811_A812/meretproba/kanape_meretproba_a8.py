@@ -16,7 +16,8 @@
 #   - nézőtáv 2,0–3,4 m (szem a kanapé hátától 0,50 m-re, falra szerelt TV képernyője a faltól 0,10 m-re);
 #   - a TV középvonala legfeljebb 0,40 m-rel tér el a kanapé-befoglaló középvonalától;
 #   - a kanapé nyitott oldala és a TV-konzol között ≥ 0,60 m;
-#   - az erkélyajtók nyitási negyedköre (+5 cm) és a szárnyak előtti 0,80 m-es sáv bútormentes;
+#   - az erkélyajtók nyitási negyedköre (+5 cm) bútormentes; az ajtóhoz vezető utat a közlekedés-ellenőrzés adja
+#     (v2, 17:35: a korábbi külön 0,80 m-es sáv a szárnyak előtt kettős számolás volt, kivéve);
 #   - étkezőzóna a GOAL 5. pont szerint („étkezőszék hátratolás 90”): 6 fős = 180 × 90 asztal, 3 + 3 szék a hosszú
 #     oldalakon, 90 cm hátratolás → 180 × 270 cm; 4 fős = Ø100 kerek asztal + 90 cm → Ø280. Érzékenységi („szoros”)
 #     változat 60 cm-rel (180 × 210, Ø220) – ez a GOAL-szabály alatt van. Az étkezőzóna és a kanapé, illetve a
@@ -61,7 +62,9 @@ EK = {E['kod']: E for E in ETKEZOK}
 PANEL_ETK = ['6', '4', '0']   # a képen: ha a GOAL-változat nem fér el, a szoros változatot mutatjuk, jelölve
 TV_W, TV_D = 1.80, 0.45
 NEZO = (2.0, 3.4); NEZO_CEL = 2.7; SZEM = 0.50; KEPERNYO = 0.10
-TV_KANAPE_MIN = 0.60; ETK_MIN = 0.60; UT = 0.90; UT_LEPCSO = [0.90, 1.00, 1.10, 1.20, 1.30, 1.40]
+TV_KANAPE_MIN = 0.60; UT = 0.90; UT_LEPCSO = [0.90, 1.00, 1.10, 1.20, 1.30, 1.40]
+ETK_MIN = 0.05   # v2: az étkezőzóna már tartalmazza a széktolás 90 (ill. 60) cm-ét – a kanapé háta közvetlenül mellé jöhet
+BUF = dict(join_style='round', quad_segs=8)   # v2: az út szélessége körrel (a sarkoknál nem négyzetes többlet)
 BEJARAT = 'bejárat (előtér felől)'
 STEP = 0.10; OFFS = (-0.40, -0.20, 0.0, 0.20, 0.40)          # rácslépés; a TV középvonalának eltolása a kanapéhoz képest
 RASZTER = 0.05; KERULO_SZORZO, KERULO_PLUSZ = 1.5, 1.0           # kerülő-feltétel: d ≤ 1,5 · d_üres + 1,0 m
@@ -128,8 +131,8 @@ def lakas_adat(L):
     Wj = unary_union([box(*r) for k in C['jarhato'] for r in lock['rooms'][k]]).difference(unary_union([box(*r) for r in C['pult']]))
     ajtok = {n: m for n, m in lock['openings_meta'].items() if n.startswith('Erkelyajto') and negyedkor(m).intersects(P)}
     swings = {n: negyedkor(m) for n, m in ajtok.items()}
-    elsav = {n: box(-0.30, m['nyilas'][0], 0.80, m['nyilas'][1]) for n, m in ajtok.items()}
-    tiltott = unary_union(list(swings.values()) + list(elsav.values()))
+    elsav = {}   # v2: nincs külön sáv a szárnyak előtt
+    tiltott = unary_union(list(swings.values()))
     tvk = []
     for t in C['tv']:
         for a in t['dug'] + ([t['ant']] if t['ant'] else []):           # a megadott aljzat valóban a TV falán, a nappali felől van-e
@@ -139,7 +142,7 @@ def lakas_adat(L):
     A = dict(L=L, C=C, lock=lock, P=P, W=Wj, ajtok=ajtok, swings=swings, elsav=elsav, tiltott=tiltott, tv=tvk,
              nappali_aljzatok=[k for k in V['kiallasok'] if 'NAPPALI' in k['helyiseg'] and k['tipus'] in ('dugalj', 'antenna_tv_aljzat', 'gyengearamu_aljzat')],
              cel_geom={n: box(*r) for n, r in C['celok'].items()}, konyha=unary_union([box(*r) for r in lock['rooms']['konyha']]),
-             W_szuk={w: Wj.buffer(-w / 2, join_style='mitre') for w in sorted(set(UT_LEPCSO + [0.60]))})
+             W_szuk={w: Wj.buffer(-w / 2, **BUF) for w in sorted(set(UT_LEPCSO + [0.60]))})
     A['etk'] = {E['kod']: etkezo_jeloltek(A, E) for E in ETKEZOK if E['alak']}
     # raszter a kerülő-számításhoz (cellaközéppontok a járható terület befoglalóján)
     bx = Wj.bounds; xs = np.arange(bx[0] + RASZTER / 2, bx[2], RASZTER); ys = np.arange(bx[1] + RASZTER / 2, bx[3], RASZTER)
@@ -151,7 +154,7 @@ def lakas_adat(L):
 
 def szabad_resz(A, akadalyok, w):
     E = A['W_szuk'][w]
-    if akadalyok: E = E.difference(shapely.union_all([o.buffer(w / 2, join_style='mitre') for o in akadalyok]))
+    if akadalyok: E = E.difference(shapely.union_all([o.buffer(w / 2, **BUF) for o in akadalyok]))
     return E
 
 
@@ -372,7 +375,7 @@ def lap(panelek, cim, labjegyzet):
 
 LAB = ['MÉRETPRÓBA – nem stílusterv. Terv szerinti geometria (PR #9, geometria v2 lock), helyszínen nem mért. Kék: kanapé-befoglaló (sötétebb: ülőmodulok, 95 cm – BECSLÉS, a valós',
        'modulkiosztás a termékoldalon ellenőrizendő); barna: TV-konzol 180 × 45 (tesztméret); pötty: a nappali aljzatai (narancs dugalj, barna antenna/adat; nagy = a TV-hez használt);',
-       'narancs: étkezőzóna székhellyel, benne az asztal; piros: erkélyajtó-nyitás és a szárnyak előtti 80 cm-es sáv; zöld keret: közlekedési célok (bejárat, erkélyajtók, konyha,',
+       'narancs: étkezőzóna széktolással, benne az asztal; piros: erkélyajtó-nyitás; zöld keret: közlekedési célok (bejárat, erkélyajtók, konyha,',
        'hálók folyosója); halványzöld: a bejárattól elérhető szabad tér 0,90 m-es útra (az út középvonala ebben a sávban mozoghat); bézs: a konyha feltételezett',
        'pultsávja (a villamos kiállások szerint, 60 cm). Kilátás, stílus, anyag: nem tárgya.']
 
@@ -408,7 +411,7 @@ def kepek(A, L, RL, valt):
                 E = EK[E['szoros']]; o = res[E['kod']]['elrendezes']; cim = f"{tm['nev']} + {E['nev']} (90 cm-rel nem fér el)"
             panelek.append(panel(A, cim, best_jsonbol(A, o), tm, E))
     cim = f"{L} – nappali-étkező, U/L kanapé méretpróba – " + ('TV a gyári TV-blokkon' if valt == 'gyari_tv' else 'TV más fal meglévő dugaljára (Péter: a TV helye szabad)')
-    lap(panelek, cim + f' · {FK_ROVID} (2026-10-24)', LAB + [f'Forgatókönyv {FK_NEV}.']).save(os.path.join(HERE, f'kanape_meretproba_{L}_{valt}_{FK}.png'), optimize=True)
+    lap(panelek, cim + f' · {FK_ROVID} (2026-10-24)', LAB + [f'Forgatókönyv {FK_NEV}.' + (' A zöld sáv a 0,90 m-es utat mutatja; az erkélyajtóhoz vezető 0,60 m-es mellékút ezen kívül is futhat.' if FK == 'B' else '')]).save(os.path.join(HERE, f'kanape_meretproba_{L}_{valt}_{FK}.png'), optimize=True)
 
 
 if __name__ == '__main__':
@@ -436,12 +439,15 @@ if __name__ == '__main__':
             kepek(A, L, R, valt)
             # keresési korlát: mekkora befoglaló fér el (nem termékméret!) – W a TV-fallal párhuzamos, D a TV felé
             R['max_befoglalo'][valt] = {}
-            for E in ETKEZOK:
+            for E in [EK[k] for k in ('6', '4', '0')]:   # a szoros változatokra nem futtatjuk (idő)
                 R['max_befoglalo'][valt][E['kod']] = {}
                 for d in (1.60, 2.25):
                     talalt = None
-                    for w in np.round(np.arange(3.80, 2.15, -0.10), 2):
-                        if any(keres(A, tv, float(w), d, E, elso=True) for tv in tvlista): talalt = float(w); break
+                    # növekvő W, az első kudarcnál megáll: pontos, mert ha a W szélességű kanapé elfér, akkor az ugyanazzal a
+                    # középvonallal elhelyezett keskenyebb is (a befoglalója részhalmaz, a nézőtáv és a TV-eltolás nem változik)
+                    for w in np.round(np.arange(2.20, 3.85, 0.10), 2):
+                        if any(keres(A, tv, float(w), d, E, elso=True) for tv in tvlista): talalt = float(w)
+                        else: break
                     R['max_befoglalo'][valt][E['kod']][f'{d:.2f}'] = talalt
                     print(L, valt, 'max', E['kod'], d, talalt, f'{time.time() - t0:.0f}s', flush=True)
         eredmeny[L] = R
@@ -450,7 +456,8 @@ if __name__ == '__main__':
                    feltetelek=dict(tv_konzol_m=[TV_W, TV_D], nezotav_m=list(NEZO), szem_a_kanape_hatatol_m=SZEM, kepernyo_a_faltol_m=KEPERNYO,
                                    tv_eltolas_max_m=max(OFFS), kanape_tv_sav_min_m=TV_KANAPE_MIN, etkezo_tav_min_m=ETK_MIN, ut_min_m=UT, racs_m=STEP,
                                    mellekut_erkelyhez_m=MELLEK_UT,
-                                   erkelyajto='nyitási negyedkör + 5 cm és a szárnyak előtti 0,80 m-es sáv bútormentes',
+                                   erkelyajto='nyitási negyedkör + 5 cm bútormentes; az ajtóhoz vezető utat a közlekedés-ellenőrzés adja',
+                                   utszelesseg='kör alakú (Euklideszi) puffer – a sarkoknál nincs négyzetes többlet',
                                    kerulo=f'a bejárattól minden célig: út ≤ {KERULO_SZORZO} × az üres lakásbeli + {KERULO_PLUSZ} m (5 cm-es rács)',
                                    konyha_pult={L: LAKAS[L]['pult'] for L in LAKAS},
                                    celok={L: LAKAS[L]['celok'] for L in LAKAS}),
