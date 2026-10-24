@@ -37,3 +37,9 @@
 - Brief: `ai-coordination/requests/WSG-20261024-PILOT-001.md` (csak a pilot-ágon).
 - Work eseménytrigger továbbra is **nincs igazolva**; a draft PR **nem futtat Astrát**.
 - Élesítés csak külön egyeztetés után: trigger ellenőrzése, kreditkeret rendelkezésre állása, PR címmódosítás és `ready for review`.
+
+## Claude-oldali ellenőrzés – 2026-10-24 04:05
+- `CLAUDE_GITHUB_ACCESS`: **igen** – a Claude GitHub-app telepítve, klón + `gh api` olvasás igazolt (PR #1: draft, `pilot/wsg-astra-handoff-inactive`, 0 komment; nem módosítva).
+- `CLAUDE_PROJECT_KNOWLEDGE_SYNCED`: igen (szöveges fájlok; képek/.blend szándékosan nem).
+- `CLAUDE_RESULT_RETRIEVAL_MECHANISM`: igazolt a PR-komment és ágfájl **olvasása** Claude felől; a Work **írása** GitHubra nem igazolt → tartalék: Chrome-relay (`CLAUDE_HANDOFF_PROCEDURE.md` 3/C).
+- `WORK_EVENT_TRIGGER_CREATED`: továbbra is nem igazolt (Péter webes Work-feladata szükséges).
