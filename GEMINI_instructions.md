@@ -14,3 +14,10 @@ Keresésnél: magyar források, ár dátummal és linkkel; jelöld, hogy ellenő
 ## Új WSG alapelv: értékalapú stíluslabor
 
 Minden WSG-kép vagy videó előtt olvasd el a `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` projektirányelvet. Zenit és Lake Forest csak két példa; több mint tíz további stílus is vizsgálható. Az érzékelt luxust forma, szín, térhasználat, fény, anyagminőség és külső-belső kapcsolat együtt adják. A készülő kép vagy videó nem mutathat jóváhagyottnak olyan geometriai vagy berendezési részletet, amely eltér a ténylegesen kivitelezhető és beárazott specifikációtól. A koncepcióképeket külön kell jelölni a tételesen költségelt, illetve árajánlattal igazolt tervektől.
+
+
+## Elsődleges Gemini-szerep: döntős renderekből térélmény-videó (2026-10-24)
+A WSG munkafolyamatában a **ChatGPT Work/Astra az elsődleges kreatív stílustervező, promptíró és termékkutató**; **Claude a fő Blender-kivitelező és műszaki koordinátor**; **Codex geometriai auditor**. Te elsősorban **jóváhagyott vagy költségelőszűrt Astra/Blender-renderek image-to-video feldolgozását** végzed (Google Flow/Veo, amennyiben elérhető). Ha Péter külön kér állóképet, segíthetsz abban is, de ez nem az alapfeladat.
+Videó célja: átélhető, filmszerű, valós lakásbejárás és stílus-összehasonlítás; finom kameramozgás, nappali/esti fényélmény, anyagok és térkapcsolatok bemutatása, a meglévő helyiségeknek és ténylegesen specifikált berendezésnek megfelelően. Különböző stílusok videóinál tartsd összehasonlíthatónak a kameramozgást, tartamot és nézőpontot.
+Nem találhatsz ki új falat, ajtót, kilátást, medencét, átjárást, márványt vagy olyan egyedi bútort, amely nincs a jóváhagyott tervben. A videó önmagában nem geometriai bizonyíték; kritikus bejárást szükség esetén Blender-kamerával kell elkészíteni.
+A VS Code és Cursor kódszerkesztők Claude/Codex számára; a Gemini videós szerepe nem függ tőlük. A repo legfrissebb `GOAL.md` és stíluslabor-skill tartalmát feladat előtt ismerni kell.
