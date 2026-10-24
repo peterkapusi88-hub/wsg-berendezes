@@ -1,0 +1,711 @@
+WSG-RESULT: WSG-20261024-STYLE10-002
+Szerző-AI: Astra (ChatGPT Work, Codex-futtató) – tartalom; Claude – közvetítés (relay) a megosztott szál pillanatképéből
+Modell: nem igazolt (Astra saját fejléce szerint sem; a Medium/High beállítás a pillanatképből nem ellenőrizhető)
+Bázis-commit: cb8080a4c65eb8a374cb0741803de63bd6ab7e18 (Astra által olvasott main, 2026-10-24 13:29) · relay a main 09e86c217ce990933970043af757ad750f84b9f1 állapotán
+Státusz: RÉSZLEGES – az eredeti dokumentum 7. fejezete (476–514. sor, 39 sor) nincs a pillanatképben; Astra GitHub-mentése nem történt meg
+
+# STYLE10-002 · A fázis · Astra-eredmény – Claude-relay a megosztott Work-szálból (2026-10-24)
+
+## 0. Relay-megjegyzés (Claude, 2026-10-24 este) – olvasd el a tartalom előtt
+
+**Mi ez.** Astra a `WSG-20261024-STYLE10-002` A fázisát 2026-10-24-én **ténylegesen lefuttatta** a ChatGPT Work felületén (futásidő a pillanatkép szerint 1 965 430 ms ≈ 32 perc 45 s), Péter indítómondatával és három futás közbeni korrekciójával. Az eredménydokumentumot a Work-munkakönyvtárában írta meg (7 `fileChange`), majd utolsó üzenetében ezt írta: *„Most mentem a végleges A-fázisú anyagot GitHubra, majd visszaolvasom a commitból.”* A pillanatkép itt véget ér; a `main`-en nincs ilyen fájl → **a GitHub-mentés nem történt meg vagy megszakadt.** A GitHubon eddig látható „NEM INDÍTOTT” státusz ezért elavult volt (CLAUDE.md: „a GitHubon hiányzó eredményfájl nem bizonyítja, hogy a Workben nem készült eredmény”).
+
+**Forrás és ellenőrizhetőség.**
+- Megosztott szál: `https://chatgpt.com/s/cx_6adceb4de4e0819181e5377946072f38` (Péter adta meg 2026-10-24 19:31). Olvasás: Chrome, Péter fiókja, **csak olvasás**, 2026-10-24 ≈19:45–19:56; semmilyen üzenet, új feladat, kép vagy kredit nem indult.
+- Az eredeti JSON változatlanul, a Macen: `~/Downloads/WSG/astra_style10_share_cx_6adceb.json` (106 350 bájt, 97 909 karakter, 0 sortörés), **SHA-256 `2f430740776cf1a1e86235d44a3072df548e034cc5415f80675fa54d85afed6e`** (a Chrome-ban és a Macen számolt érték egyezik; mellette `.sha256` fájl). Péter döntéséig a repóba **nem** került fel. Érzékenységi vizsgálat: nincs benne e-mail, token, API-kulcs, cookie, aláírt URL vagy cím; a 4 kép `codex:shared-image-unavailable`.
+- A szál szerkezete: 40 elem (4 Péter-üzenet, 12 Astra-üzenet, 13 reasoning-összefoglaló, 7 fileChange, 4 nem elérhető kép).
+
+**Hogyan állt össze ez a fájl.** A 7 `fileChange`-diff sorrendben alkalmazva: `+141 sor (alap)` → `@@ -33,2 +33,4` → `@@ -143 +143,165` (S01–S05) → `@@ -307 +307,161` (S06–S10) → `@@ -109,3 +109,11` (P14/P15 és a 28 költségsor megjegyzése) → `@@ -515 +515,198` (8–12. fejezet). Kontextus-eltérés: 0. A `wsg_budget.csv` fileChange **azonos** a repó `ai-coordination/inputs/A902_v1/KOLTSEG_KIINDULAS_A902.csv` fájljával (diff: nincs eltérés), ezért külön nem mentettük.
+
+**Mi hiányzik.** A 476–514. sor (39 sor) – a **7. fejezet** – nincs a pillanatképben. Címe ismeretlen; a 12. fejezet és Astra záróüzenete szerint tartalma: stílusonkénti költségeltérések, újraszámolt teljes lakásos célkeretek (17,65–17,95 M Ft) és stressz-számítás. **Nem rekonstruáltuk és nem pótoltuk.** Astra saját fejlécében a „TELJES” státusz az eredeti, teljes fájlra vonatkozott; a relay ezért **RÉSZLEGES**.
+
+**Mit nem tettünk.** A szöveget nem változtattuk, nem javítottuk, nem auditáltuk, nem értékeltük (az egyetlen beszúrás a hiányzó rész helyén álló, jelölt blokk). A `HANDOFF_PROTOCOL.md` „results/ csak a cél-AI írja” szabályától Péter kifejezett kérésére térünk el (2026-10-24 19:27 és 19:34: „őrizd meg az Astra-anyagot … mentsd külön GitHub-eredményfájlba”), közvetítőként. Független Claude-audit külön, `audits/` fájlban készül, nem itt.
+
+**Mire jó, és mi a fájlnév logikája.** Ez a relay a `…_RELAY_RESZLEGES_20261024.md` néven áll, hogy a kanonikus `ai-coordination/results/WSG-20261024-STYLE10-002.md` útvonal **szabadon maradjon Astra eredeti, teljes (7. fejezettel együtt) mentésének** az eredeti Work-szálból (Péter 2026-10-24 20:07: „őrizd meg és mentsd a GitHubba az eredeti Astra-eredményként”). Ha az eredeti mentés megtörténik, ez a relay történeti másolat marad, nem törlendő. Bármely tartalmi folytatás eredménye **új** `WSG-20261024-STYLE10-002_r2.md` fájlba menjen (Astra saját szabálya a 11.1 pontban). Péter három futás közbeni korrekciójának szó szerinti szövege, a Claude-féle keretrendszer és a két gyűjtemény összevetése: `ai-coordination/inputs/STYLE_CLAUDE_ASTRA_FORRASOK_20261024.md`. A folytató brief: `ai-coordination/requests/WSG-ASTRA-HIGH-KREATIV-V2.md` (MEDIUM, NEM INDÍTOTT).
+
+**Műszaki figyelmeztetés a tartalomhoz.** Astra bázisa a `cb8080a` commit (13:29). Azóta a `main`-re került: PR #11 (A-902 **v2b-1**: homlokzati rések és mellvédjavítás, `03_blender/geometry_lock_A902_v2b.json` frissítve), a kiállás-réteg a Blender-modellben (`a085eec`), az elfogadott **P902_24A** méretpróba (U 3,00×2,40 m, TV felé nyitva) és a GOAL 10. pontjának döntései. Az alábbi szöveg ezekről még nem tudhatott.
+
+---
+
+## Astra eredeti eredménye – változatlan szöveg
+
+Az eredeti fájl első öt sora (Astra fejléce, szó szerint):
+
+```
+WSG-RESULT: WSG-20261024-STYLE10-002
+Szerző-AI: Codex / ChatGPT
+Modell: nem igazolt; ez a fájl nem igazolja az Astra Medium vagy High beállítást
+Bázis-commit: cb8080a4c65eb8a374cb0741803de63bd6ab7e18
+Státusz: TELJES (A fázis: koncepció és költségelőszűrés; nem kivitelezési terv)
+```
+
+
+# A-902 — tíz nemzetközi luxusirány, 2026. október 24.
+
+**KONCEPCIÓ – NEM VALIDÁLT. Költség: ELŐSZŰRT – FELTÉTELES. Beszállítói/kivitelezői árajánlat: nincs.** A célkeretek számszakilag beleférnek a 18 M Ft-ba; ez nem bizonyítja, hogy a teljes lakás ennyiért megrendelhető. A 2 M Ft tartalék minden változatban érintetlen.
+
+## 1. Érvényes döntés és munkamenet
+
+Péter ebben a beszélgetésben kifejezetten elindította az A fázist és kérte a GitHub-mentést. A brief „NEM INDÍTOTT” mezője ezért történeti állapot. A beszélgetés legfrissebb kreatív korrekciója felülírja a korábbi mezőnyt és a Zenit/Lake Forest kizárását:
+
+1. Japán kortárs luxus — **Kyoto Ink**
+2. BiBo Budapest ihletés — **BiBo Nocturne**
+3. Alelí Budapest ihletés — **Alelí Casa**
+4. Los Angeles Skyline — **LA Horizon**
+5. Miami Art Deco — **Miami Streamline**
+6. **Zenit Atelier**, az eredeti erős koncepció továbbfejlesztése
+7. **Lake Forest Couture**, az eredeti erős koncepció továbbfejlesztése
+8. **Milano Radical**, kortárs olasz gyűjtői design
+9. **Paris Collector**, rétegzett párizsi galérialakás
+10. **Desert Modern 70**, kortárs sivatagi modernizmus
+
+Rubin Szalon és Ezüst Orbit korábbi pilot marad; nem töröljük és nem számítjuk a tízhez. A mostani mezőny térkompozícióban és anyaghasználatban több lehetőséget ad, mint a pilotok falpanel-/körtükör-központú változatai. Ez tervezői értékítélet, nem felhasználói végső választás.
+
+A korábbi termék- és geometriai kutatás megmaradt. Nem indult új Blender-munka, kép- vagy videógenerálás. A Gemini az aktuális felhasználói döntés szerint később videóhoz használható; az állóképes irány ChatGPT. A modell és gondolkodási szint a futtatófelületen választandó ki; a promptba írt „Astra High” önmagában nem kapcsol modellt.
+
+### Mitől lesz drágának ható és mégis megépíthető?
+
+A pénz a térben nagy felületet és jó arányokat adó elemekbe kerül: kényelmes L/U kanapé, egy összefüggő bútorkompozíció, nagy szőnyeg, valódi anyagminőség ott, ahol megérintjük, jó függönyesés és pontos világítás. A tárolók szerkezete sorozatgyártott; lakásonként legfeljebb három egyedi formadarab készül. A látható illesztések és élek minősége fontosabb, mint hogy minden korpusz egyedi legyen.
+
+Péter további, kritikus kreatív irányelve is érvényes: „Mi szeressünk bele. Teremtsünk értéket.” Tíz eltérő térkompozíció a cél; a meleg fény, színes párna vagy önmagában egy tükör nem minőségi bizonyíték. A végső rangsor négy külön szempontot és három ajánlott döntőst ad. Az ingatlanpiaci többletérték itt cél, számszerű értékbecslés nem készült.
+
+A három egyedi darab lehetséges helye: nappali média-/tárolókompozíció, master fejvég, egy előtéri részlet. A konyha külön funkcionális csomag, IKEA-vázzal; nem válik negyedik szobrászati luxusobjektummá. Egy formadarabon belül is legyen egyszerű, gyártható szabás és hozzáférhető szerelvény. A látvány ne mutasson tömör követ ott, ahol laminált lemez vagy nyomtatott felület lesz.
+
+## 2. Mit jelent itt a „most legmenőbb”?
+
+Ez 2026-os irányokból válogatott, a lakáshoz szerkesztett tízes, nem objektív világranglista. A friss milánói beszámolók a szobrászati fémet, gyűjtői tárgyakat, rétegzett régi–új berendezést, üveget, erős textúrát és színkaraktert emelik ki. A meleg földszínek, burgundi és a hetvenes évek hatása is látható. Ezeket használjuk; egyetlen trend sem indokol padlócserét vagy indokolatlan egyedi gyártást. Forrás: [Pembrooke & Ives, Milan Design Week 2026](https://www.pembrookeandives.com/journal/2026/04/29/milan-design-week-2026-trend-highlights/), [Johnson Tiles, 2026. májusi milánói beszámoló](https://www.johnson-tiles.com/blog/2026/05/milan-design-week-2026-a-shift-towards-warmth-bala/).
+
+A BiBo nem pusztán vörös spanyol étteremként értelmezendő. Az ASTET tervezői pályázati leírásában a mélykék, szobrászati tömegek, tükröződések és szürreális részletek hangsúlyosak. Ezekből lesz lakásra alkalmazott kompozíció. [ASTET: BiBo Budapest, Mix Awards](https://www.mixinteriors.com/award-entry/astet-studio-bibo-budapest/), [BiBo Budapest](https://bibobudapest.hu/en/).
+
+Az Alelíhez a fa, terrakotta, kerámia és az olasz vendégszeretet ad referenciát; nem éttermi bútorokat másolunk. [Alelí Budapest](https://aleli.hu/), [ASTET projektismertető — keresési kivonatból elérhető, közvetlen oldal a lekéréskor hibás](https://astet-studio.prezly.com/of-the-land-contextual-interiors-by-astet).
+
+## 3. Valóság és geometria — közös valamennyi stílushoz
+
+Elsődleges geometriai alap: [v2b lock](../../03_blender/geometry_lock_A902_v2b.json), [v2b eltérések](../../03_blender/geometry_v2/v2b_elteresi_lista.md), [validátorriport](../../03_blender/validator_report_2026-10-24_v2b.md), [kameralap](../../03_blender/geometry_v2/kamera_parameterlap_v2b.md). A bázis a KORR 2 terv szerint javított, **helyszínen még nem végigmért** modell. A régi v1 semleges képek fekete belső profilja, egyszerű padlója és sík terasza nem hiteles anyag-/geometriai referencia.
+
+A legutóbbi validátor **FAIL: 89 hiba**, a korábbi bútorozás ütközéseivel (38 ütközés, 10 ajtó-, 41 villamos probléma); a lock-ellenőrzés hibaszáma 0. A geometriai egyezés és a bútorozás használhatósága külön állítás. Ez a dokumentum nem futtatott új validátort, és egyik elrendezésre sem állít PASS-t.
+
+| Rögzített adottság | Tervezési következmény |
+|---|---|
+| Fehér fal/mennyezet, belül fehér ablakprofil, szürke ajtó fekete kilinccsel | A fehér nem változik bézzsé a képen. Színes tömeg csak külön árazott bútor, textil vagy panel. |
+| Egger Grey Treviso Oak EL2184, közepes szürkésbarna, csomós erezet | Mind a tíz paletta ezt integrálja. Deszkaméret és fektetési irány még nem igazolt. |
+| Nappali–étkező v2b hossza 7,08 m; tagolt kontúr | Nem kezelhető szabadon berendezhető 7,08 m-es téglalapként. A DNy-i hálómegközelítés nyitott marad. |
+| Belmagasság 2,90–2,93 m; mennyezeti hűtő-fűtő mezők | Nincs álmennyezet, körbefutó új mennyezeti vájat vagy új mennyezeti fúrás. |
+| Meglévő világítási és villamos pontok | Függeszték a meglévő ponton, bútor-LED meglévő dugaljról, hozzáférhető táppal. |
+| Terasz: gres −0,15 m a belső szinthez, WPC +0,62 m a greshez | Nincs síkba rajzolt terasz. Zöldtetőre nem telepítünk igazolás nélkül bútort/jakuzzit. |
+| Valós budai hegyek és városi tetők | LA/Miami név belsőépítészeti karaktert jelent, nem új kilátást. |
+| Konyha meglévő nyugati, kb. 85 cm magas mellvédfala | Nem rajzolható teljes falnak; nem bontjuk és nem építünk helyette szigetet. |
+
+### Feltételek és megőrzött tartalékmegoldások
+
+- **K1 konyha:** a 2,10 m nyers szélességből két 62 cm-es pult után 86 cm marad. Ez nem teljesíti a 90 cm-es projektcélt. Vizsgálandó egy teljes mélységű gépes sor és legfeljebb 45 cm-es szemközti száraz tároló (nyers maradék 103 cm, kész falsík és fogantyú nélkül). Sekély oldalra nem kerül mosogató/mosogatógép. Tartalék: egyoldali munkasor, a magas tárolók átrendezése a meglévő nyílások megtartásával; Claude mérje. Gépajtók együttnyitása és a korábbi 32 cm-es szűkület kötelező ellenőrzés.
+- **K2 05.2:** a déli falhoz állított, 160×200-as modellágy korábban 100/105 cm oldalsávot és 60 cm lábvéget adott. Ez nem azonos a valós ágy külső méretével. A lent azonosított 146×206 cm-es Sato keret a 2,65 m irányban már csak 59 cm-t hagy vakolat és fejvég nélkül: **nem elfogadott megoldás**. Tartalék: 140×200 fekvőfelületű, legfeljebb 200–202 cm külső hosszú keret, új irányvizsgálat vagy egyszemélyes/nappali funkció, Péter döntésével. Nem „oldjuk meg” kicsinyített ággyal.
+- **K3 terasz:** WPC-belépés, becsült lépcső és északi kapcsolat helyszíni igazolásra vár. A kültéri kompozíció először a biztosan elérhető greszónára készül. Jakuzzi 13a+13b kerete fenntartott, telepítése statika, áram, víz és emelés nélkül nem ígérhető. Ha kimarad, 2,00 M szabadul fel, nem automatikusan költendő el.
+- **K4 kamera:** a v2b kameralap létezik; Cam_05 elavult. B előtt a tényleges aktív kamera és az összes referencia verziója egyezzen a lockkal. A régi brief Cam_07–09 megjegyzése helyett az aktuális lock/kameralap összevetése dönt.
+- **K5 teraszüveg:** osztás, pillér, nyitás és küszöb nincs véglegesen igazolva. Üveg előtti kanapé és függöny feltételes. Tartalék: ülőcsoport beljebb, üveg és átjárás szabadon.
+- **K6 kész falsík/rögzítés:** minden magas tároló, nagy tükör és panel felméréshez kötött. A 10 cm-es nyugati válaszfal terhelhetősége ismeretlen. Tartalék: padlón álló tároló, kisebb osztott panelek; nem nehéz, konzolos kőfal.
+- **K7 TV:** a stílusok alapváltozatában van TV és külön 0,50 M AV-keret. Internetes tartalomhoz használható D16/D17, D18 vagy D19. Tartalék: szabadon álló TV talpon. TV nélküli változatnál az AV-sor és a képi TV is kiveendő.
+- **K8 árak:** webár van, ajánlat nincs. A konfiguráció, akció, magyar készlet, irányítószámra szállítás külön ellenőrizendő.
+- **K9 áram:** meglévő pontok; a déli kapcsolóoszlop x≈7,15 / y≈4,05 és magas érzékelői szabadon maradnak. Rögzítés előtt vezeték- és szerkezetvizsgálat.
+- **K10 kanapé:** U az első vizsgálandó, minimum L. Egyetlen U beférése sincs igazolva az étkezővel együtt. A 285×160-as U két heverő közötti öblébe nem ígérünk nagy dohányzóasztalt. A 45–50 cm-es használati hézagot, a 90 cm-es főutat és az étkező székkihúzását együtt kell vizsgálni. Tartalék az azonosított L, nem a termék méretének csökkentése.
+
+**Nappali elrendezéscsaládok, minden esetben „Claude mérje”:**
+- **L2:** kanapé háttal az üveg felé, déli médiaelem; TV → A902-D19, falon vezetett, hozzáférhető kábel. A médiaelem a kapcsolóoszlop előtt véget ér. Üveg előtt legalább 90 cm használható út, a függöny tényleges vastagságával.
+- **L3:** beljebb helyezett ülőcsoport nyugati TV felé; TV → A902-D16/D17. A DNy-i bejárat, TV előtti áthaladás és keleti étkező együtt vizsgálandó. A 90 cm út nem helyettesíthető egy átlósan lemért réssel.
+- Egyik család sincs lefagyasztott bútorkoordinátának feltüntetve. Új helyszíni adat esetén a részletek változnak, a stílus fő karaktere megmarad.
+
+### Világítási térkép minden stílushoz
+
+Nappali főfény → A902-ML05; étkező → A902-ML04; konyha → A902-ML03 és meglévő pultpont A902-FL01; master → A902-ML06; 05.2 → A902-ML07; 05.3 → A902-ML08; előtér → A902-ML01/02; közlekedő → A902-ML11; fürdők → A902-ML09/10 és A902-FL03/04; WC → A902-ML12. Nyugati nappali falikar csak A902-FL02, tervi 2,85 m magassággal: nem rajzolható szemmagasságú páros falikarnak. Kültéri meglévő pontok A902-FL05/06/07, új kültéri dekorlámpa alapból akkus.
+
+L2 bútorfény → A902-D19; L3 bútorfény → A902-D16/D17; nappali állólámpa → A902-D18, csak útvonalat nem keresztező kábellel. Master keleti fejvég olvasólámpái → A902-D20/21 és D22/23; északi fülke fénye → A902-D26; 05.2 déli fejvégnél → A902-D28/29, ha az elrendezés igazolt. Egyéb bútorfény nincs automatikusan betervezve. A 10. költségsor tartalmazza a fényforrásokat, profilokat, tápokat és szerelést; a fejvég/kárpit sora nem tartalmazza ezeket másodszor.
+
+## 4. Ellenőrizhető termékkosár — közös hivatkozási jegyzék
+
+Lekérés: **2026-10-24**. A webes eszköz részben korábban indexelt oldalakat ad; ez nem kosárban, irányítószámmal ellenőrzött ár. Bruttó HUF, külön jelzett szállítással. Magyar storefront és szállítási szolgáltatás azonosítva; a konkrét 9. emeleti cím, lift és időpont **nem igazolt**. Az alábbi árak nem gyártói ajánlatok.
+
+„Akciójelölés nincs” nem bizonyítja a tartós listaárat. Ha külön nem akciós ár nem volt látható, azt nem találjuk ki. A Westwing keresési kivonat és termékoldal többször eltért; a tervezési sor konzervatívabb plafont használ. Kuponnal nem számolunk.
+
+| ID | Konkrét termék, változat | Méret cm | Megfigyelt bruttó ár; akció/listaár | Szállítási jelzés és költségsor |
+|---|---|---|---|---|
+| P01 | [Westwing Melva, világosbézs, durva szövet, bal L](https://www.westwing.hu/melva-sarokkanape-3-szemelyes-hu-23wes21874.html), DEQ23WES21874-200549 | 238×143×75 | 650 000; akciójelölés és külön listaár nincs | 9–10 hét a megnyitott oldalon; extra díj; 03b |
+| P02 | [Melva, olíva, finom szövés, bal L](https://www.westwing.hu/melva-sarokkanape-3-szemelyes-hu-23wes08157.html), DEQ23WES08157-200447 | 238×143×75 | oldal 650 000, keresési kivonat 850 000; külön listaár nem igazolt; keret 850 000 | oldal 9–10 hét; extra díj; 03b |
+| P03 | [Melva, törtrózsaszín kord, bal L](https://www.westwing.hu/melva-kordbarsony-sarokkanape-3-szemelyes-hu-21wes45069.html), DEQ21WES45069-169001 | 238×143×75 | oldal 750 000; másik kivonat 850 000 / korábbi 1 000 000; akcióállapot ellentmondásos; keret 1 000 000 | oldal 2–3 hét, másik kivonat 9–10 hét; újraellenőrzendő; 03b |
+| P04 | [IKEA JÄTTEBO, 3,5 személy + két heverő, karfák, Samsala sötétkék](https://www.ikea.com/hu/hu/p/jaettebo-3-5-szemelyes-elemes-kanape-heverok-karfak-samsala-soetetkek-s49607648/), 496.076.48 | 285×160×71; U | 928 000; akciójelölés/külön listaár nincs | készlet, idő és címre díj dinamikus; 03b |
+| P05 | [Ugyanez Samsala szürke-bézs](https://www.ikea.com/hu/hu/p/jaettebo-3-5-szemelyes-elemes-kanape-heverok-karfak-samsala-szuerke-bezs-s29471387/), 294.713.87 | 285×160×71; U | 928 000; akciójelölés/külön listaár nincs | címre ellenőrizendő; 03b |
+| P06 | [JÄTTEBO 2,5 személy, bal heverő, Samsala sötétkék](https://www.ikea.com/hu/hu/p/jaettebo-2-5-szemelyes-elemes-kanape-hevero-bal-samsala-soetetkek-s19607640/), 196.076.40 | 190×160×71; L | 551 500, HU kategóriaár; akciójelölés/külön listaár nincs | címre ellenőrizendő; csak kompakt tartalék, komfortot külön vizsgálni |
+| P07 | [Westwing Anouk, áttetsző barna üveg](https://www.westwing.hu/anouk-uveg-etkezoasztal-180-x-90-cm-hu-23wes69048.html), DEQ23WES69048-203420 | 180×90×75; 84 kg | termékoldal 320 000; kategória alacsonyabb akcióárat is mutatott; 320 000-rel számolunk | 2–3 hét; extra díj; 03d, 6 szék külön |
+| P08 | [Anouk, áttetsző üveg](https://www.westwing.hu/anouk-uveg-etkezoasztal-180-x-90-cm-hu-23wes68910.html) | 180×90×75; 84 kg | 320 000; külön listaár/akciójelölés nincs | 13–14 hét; extra díj; 03d |
+| P09 | [Westwing Toni, világos tölgyfurnér/MDF, 200-as konfiguráció](https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html), DEQ19WES60483-150724 | 200×90×75 | 320 000 a megnyitott oldalon; külön listaár nincs | 2–3 hét, extra díj; 03d |
+| P09s | Ugyanazon termékoldal keresési kivonatában: Toni 160-as konfiguráció, DEQ19WES60483-225182 | 160×90×75 | 199 990, korábbi 259 990; ez nem a 200-as asztal ára; tartalék keret 259 990 | konfigurációt újra meg kell nyitni, 2–3 hét jelzés; 03d |
+| P10 | [IKEA NORDLI tárolós ágykeret, fehér, 180×200](https://www.ikea.com/hu/hu/p/nordli-agykeret-taroloval-feher-20349853/), 203.498.53 | külső 180×202×30 | 189 900; ágyrácsos alap benne, matrac/fejvég külön; akciójelölés nincs | készlet és címre szállítás ellenőrizendő; 04a |
+| P11 | [Westwing Sato tárolós ágy, sötét tölgy, 140-es](https://www.westwing.hu/sato-faagy-fiokokkal-hu-24wes89093.html), DEQ24WES89093-205263 | külső 146×206×37 | 370 000; ágyrács, matrac nélkül; külön listaár nincs | 2–3 hét, extra díj; 05 — K2 miatt nem elfogadott |
+| P12 | [Westwing Dream tárolós kárpitozott ágy, bézs, 140-es](https://www.westwing.hu/dream-karpitozott-agy-tarolo-funkcioval-hu-21wes00165.html?simple=DEQ21WES00165-167038), DEQ21WES00165-167038 | külső 156×222, fejvég 110 | 350 000; matrac nélkül; külön listaár nincs | szállítás újraellenőrzendő; 05.2-be túl hosszú kiindulás |
+| P13 | [Westwing Sofia szürke L, 4 személy](https://www.westwing.hu/sofia-modularis-sarokkanape-4-szemelyes-hu-23wes48216.html) | 312×235×72 | oldal 1 000 000; kategória 1 250 000; nem alapkosár | 9–10 hét; nagy méret és konfliktusveszély miatt külön teszt nélkül kiesik |
+
+A P11/P12/P13 megőrzött kutatási eredmény, **nem ajánlott megrendelés**. A Lennon 327×180 cm-es változata túl nagy kockázat, de a további kutatás egy kisebb, megfelelőbb jelöltet talált. Kave Home HU ár ebben az eredményben továbbra sem igazolt.
+
+| További ID | Konkrét termék és bizonyíték | Méret/ár/szállítás — 2026-10-24 lekérés |
+|---|---|---|
+| P14 | [Westwing Lennon L, szövött szürkésbarna, jobb sarok](https://www.westwing.hu/lennon-modularis-sarokkanape-hu-21wes12329.html?simple=DEQ21WES12329-168260), DEQ21WES12329-168260; 100% poliészter huzat, fa/rétegelt lemez váz | **238×180×68 cm, 800 000 Ft**, külön akció/listaár nincs; 9–10 hét, extra szállítás. A 327 cm-es Lennon árát/méretét nem használjuk hozzá. |
+| P15 | [Wolke, világosbézs texturált szövött L, 25WES29958](https://www.westwing.hu/modular-corner-sofa-wolke-3-seater-en-25wes29958.html) | Korábbi keresési termékkivonat: **258×167×65 cm, 1 050 000 Ft, 12–13 hét**; a közvetlen oldalt nem sikerült visszanyitni. **Gyengébb bizonyíték, élő konfiguráció nem igazolt.** A költségplafon 1,05 M; külön akció/listaár nem igazolt. |
+| P15b | [Wolke Teddy Bouclé, törtfehér, 24WES78013](https://www.westwing.hu/wolke-teddy-bukle-modularis-sarokkanape-3-szemelyes-hu-24wes78013.html), képazonosító DEQ24WES78013-205555 | Megnyitott HU oldal: **900 000 Ft**, 7–8 hét; a méretmező nem olvasható. Ez más SKU, méretét nem emeljük át automatikusan a P15-ből. Nem kész helyettesítés. |
+
+A 258×167×65 cm-es Wolke-családgeometriát egy [hivatalos német, törtfehér 25WES64589 termékoldal](https://www.westwing.de/modular-corner-sofa-wolke-en-25wes64589.html) is alátámasztja. Ez családszintű keresztellenőrzés, nem a P15b méretigazolása, és nem magyar beszerzési ár. A Lake Forest döntős kidolgozásának első feladata az ár–SKU–sarokirány–méret együttes igazolása.
+
+**Hős-termékek értelmezése:** a stíluskártyák kanapéja és étkezőasztala konkrét, ellenőrizhető főbútor; a master P10 közös funkcionális alap. Az ennél drágább összesített médiafal-/konyhacsomagok több elemből állnak és egyedi ajánlatot igényelnek; nem nevezzük webárral igazolt hős-terméknek. A teljes termékjegyzék és a személyre szóló szállítás a következő mélységi szint feladata.
+
+## 5. Költségmodell — teljes lakás, nem csak a nappali
+
+Alap: [KOLTSEG_KIINDULAS_A902.csv](../inputs/A902_v1/KOLTSEG_KIINDULAS_A902.csv). A 28 eredeti költségsor összege 18,00 M Ft, felső sávjaik összege 26,35 M Ft. Minden összeg bruttó M Ft. A táblázatok **beszerzési célkeretek**, nem mesterségesen pontos kivitelezői becslések.
+
+Az alábbi közös módosításokat minden stílus tartalmazza, és utána jönnek a stíluseltérések:
+
+| Sor | Eredeti → közös cél | Δ | Konkrét döntés |
+|---|---:|---:|---|
+| 03a média-/fő bútorkompozíció | 1,10 → 0,80 | −0,30 | sorozatgyártott korpusz, legfeljebb egy nagy egyedi látható forma; nem teljes falnyi asztalos burkolat |
+| 03c fotel, kisasztalok | 0,45 → 0,40 | −0,05 | legfeljebb egy fotel; U esetén fotel elhagyható, nem zsúfolunk |
+| 03e szőnyeg | 0,20 → 0,25 | +0,05 | nagyobb, a teljes ülőcsoportot összefogó szőnyeg |
+| 03f nappali függöny/sín | 0,25 → 0,35 | +0,10 | jó esés, kellő anyagmennyiség, szemöldökre rögzítés |
+| 04b master fejvég | 0,55 → 0,35 | −0,20 | egyetlen gondosan komponált fejvég, nem teljes fal kárpitozása |
+| 11 egyéb faldekor | 0,50 → 0,20 | −0,30 | a meglévő fehér fal marad, egy célzott felület |
+| 12 dekor/textil/kép/növény | 0,50 → 0,40 | −0,10 | kevés nagy tárgy, nem sok apró kiegészítő |
+| 14 logisztika/szerelés/hulladék | 0,45 → 0,65 | +0,20 | a 9. emeleti szállításnak külön helyet hagyunk |
+| új 15_AV | 0 → 0,50 | +0,50 | TV + alap AV/konzol/hozzáférhető kábel; új keret, nem ellenőrzött termékajánlat |
+| **Közös összeg 1,00 M kanapéval** | **18,00 → 17,90** | **−0,10** | a csökkentések finanszírozzák a nagyobb textileket, logisztikát és AV-t |
+
+**Változatlan sorok mind a tízhez:** 01 0,40; 02a 1,50; 02b 1,10; 02c 0,30; 03d 0,60; 04a 0,55; 04c 0,45; 04d 0,45; 05 0,80; 06 0,80; 07 0,50; 08 0,50; 09 0,45; 10 1,00; 13a 1,70; 13b 0,30; 13c 0,60; 13d 0,55; 13e 0,45. Ezek a konyhát gépekkel, három háló funkcióját, fürdőket, mosást és a teljes kültéri csomagot is lefedik célkeretként.
+
+- 03d: a 0,32 M asztal után 0,28 M marad hat székre, átlagosan 46 667 Ft/szék. A székek pontos SKU-ja még nincs kiválasztva; drága olasz karosszéket nem rajzolunk ebbe a keretbe.
+- 04a: P10 után 0,3601 M marad megfelelő matracra és szükséges ágykiegészítőre. A stílust külön 04b fejvég viszi.
+- 05/06: nem nullázott vendégszobák; a funkció és az ágy külső mérete még döntési pont. A 05.3 alapja dolgozó + vendégalvás.
+- 13e: a meglévő tetőkertet nem építjük újra; a keret mobil árnyékolásra, kevés kaspóra és kültéri fényre szolgál. Teljes pergola nincs benne.
+- A tételhez kötött műhelymunka és rögzítés a tétel sorában, általános összeszerelés és fuvar a 14-ben, elektromos munka a 10-ben, jakuzzi emelés/bekötés a 13b-ben. Ezeket az ajánlatban egyeztetni kell a kettős számolás elkerülésére.
+
+A WOW-táblák árai előzetes tervezői **sávbecslések**, anyagmintával és ajánlattal ellenőrizendők. Az adott stílus költségsora a plafon; a WOW-elemek felső sávjainak összege nem tekinthető automatikusan finanszírozottnak. Ahol a plafont túllépi, a tartalékmegoldás lép életbe.
+
+**Minden stílus közös költségvédelme:** először a láthatatlan korpuszt, a burkolt felület mennyiségét és az extra dekor darabszámát optimalizáljuk; megtartjuk a fő sziluettet, szőnyegméretet és fényminőséget. Utána a másodlagos egyedi felület válik késztermékké. A jóváhagyott U-t nem kicsinyítjük. A jakuzzi külön funkcionális döntés, nem titkos fedezet. A 2 M tartalék nem finanszírozza az előre látható túllépést.
+
+## 6. Tíz konkrét térvízió
+
+A következő méretek tervezett befoglalók, kivéve a P-jelű termékek ellenőrzött adatait. Az egyedi panel nem új fal, a „kapu” nem új ajtónyílás, a bútor alatti árnyék nem valódi lebegés. A HEX-ek hangulati célok; anyagmintát nem helyettesítenek.
+
+### S01 — Kyoto Ink · japán kortárs luxus
+
+**Érzés:** egy kortárs kiotói magánrezidencia fegyelmezett, érzéki nyugalma, sötét vízszintes tömegekkel és nagy, világos szünetekkel.
+
+**Nappali-vízió:** alacsony, mély ülésű L kanapé egyetlen széles szőnyegszigeten; vele szemben hosszú, sötét, padlón álló tároló. A tároló felett egyetlen aszimmetrikus, áttetsző textilmező és keskeny, sötét rácsbetét ad függőleges ellenpontot. Nem tíz kis japán dísztárgy: a széles vízszintes bútor, a levegős felső tér és a taktilis szőnyeg hozza az identitást. Az étkező szabadon álló, lapos ovális tömeg; a lámpa nagy, könnyű opál/textil térfogat. L3 az első vizsgálandó, nyugati TV → D16/D17.
+
+**Öt ismertetőjel:** alacsony súlypont; aszimmetrikus egyensúly; fekete nyitott rács és áttetsző textil kontrasztja; nagy, nyugodt szőnyeg; egyetlen kerámiatárgy. Kerülendő: műbonszai, torii-utánzat, ál-shoji ajtó, teljes bézs „Japandi”.
+
+**Paletta:** #242724 grafit laminált bútor; #6B6258 szürkésbarna szövet; #E5E0D5 nyers vászon; #6B715D olíva textil; #A66A4C kerámia. Meglévő fehér héj és szürkésbarna padló közös.
+
+**Főbútorok:** P14 Lennon L + P09 Toni; master P10. U-vizsgálat: P05; ha csak U-val fér el a karakter, a pluszköltség és az étkező konfliktusa külön újraszámolandó. A kezdeti P02 olíva kutatás megmarad másodlagos alternatívának, nem a Lennon átszínezése.
+
+| Teljes lakás | Mi viszi a karaktert / mi marad csendes |
+|---|---|
+| Előtér | sötét, sekély tároló és függőleges tükörrés / fehér fal, szürke ajtó |
+| Nappali–étkező | alacsony mély ülősziget, hosszú tároló, áttetsző mező / üres felső falsáv |
+| Konyha | matt grafit alsók, világos felsők, vékony laminált pult / nincs nyitott díszpolc-sor; K1 |
+| Master | széles, alacsony szövött fejvég, fekete keskeny éjjeli / világos ágynemű |
+| 05.2 | karcsú ágy és egy tusjellegű kép / tároló sík fronttal; K2 |
+| 05.3 | rendezett munkafelület, sötét asztallap / világos tároló, vendégfunkció |
+| Fürdők/WC | fekete vékony keret, földszínű kerámia / meglévő burkolat |
+| Terasz | alacsony kültéri lounge, egy-egy nagy kaspó / meglévő tetőkert, nincs kavicsos zen-kert építés |
+
+| WOW | Anyag, méret és rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Mély ülősziget | P14, 238×180×68 cm, gyári talp; tervezett 240×340 szőnyeg | kanapé 0,80 / 03b; szőnyeg 0,18–0,25 / 03e; konfekció |
+| „Tintavonal” média-bútor | kb. 240×40×48 cm; IKEA-jellegű kész korpusz, grafit laminált front, zárt kábelút; padlón áll, billenésgátlás K6 | 0,45–0,65 / 03a; asztalos ajánlat |
+| Rétegzett áttetsző mező | kb. 100×180 cm textil + fekete vékony keret, 2–3 cm faltól, nem fénydoboz; falra K6 | 0,10–0,15 / 03a; keretező/asztalos |
+| Master széles fejvég | kb. 260×85×5 cm, vászon, osztott kárpitozott lap; falra, konnektor-kivágással | 0,22–0,30 / 04b; kárpitos |
+
+Feltételes: K6 nagymező; tartalék egy kisebb keretezett textil, az alacsony tároló aránya megmarad. K10 U/L a teljes étkezővel mérendő. **30–50%-kal olcsóbb WOW-csomagban** a vízszintes tömeg és textilkontraszt marad, az egyedi rács helyett egyszerű keretezett mező. Ez nem a teljes lakás 30–50%-os árcsökkentésének ígérete.
+
+### S02 — BiBo Nocturne · szobrászati budapesti luxus
+
+**Érzés:** intim, művészi penthouse-szalon, ahol a mélykék ülőtömeg és egy torzításmentes, szabálytalan tükröződő felület együtt teremti a színpadot.
+
+**Nappali-vízió:** a valódi U kanapé társalgóöblöt képez; a szemben álló, alacsony médiaelem egyik végén függőleges, lekerekített tükörlap áll, a másik végén matt kék front fordul vissza röviden. A tükör és a matt tömeg egyetlen kompozíció, nem külön dísztükör a kanapé fölött. Az üveg étkező áttetszőbb, szinte eltűnik a sötét ülősziget mellett. Opálgömbökből álló egyfüggesztéses lámpa az ML04-en; nincs új mennyezeti viráginstalláció. L3 első vizsgálat, D16/D17; U-nál a központi asztal mérete külön kritikus.
+
+**Öt ismertetőjel:** mélykék monolit; szabálytalan tükörkontúr; sötét–fényes váltás; beszélgetésre záródó U; csendes nagy fehér mezők. Kerülendő: éttermi logó, másolt műalkotás, túltolt arany, egész tükrös fal.
+
+**Paletta:** #162B49 kék kárpit/front; #E0D9CD textil; #706B68 padlóhoz illő szövés; #B8BEC2 valódi tükör/fém; #4B3C43 szilvás kis textil.
+
+**Főbútorok:** P04 U + P08 üvegasztal; P10 master. U-kudarc esetén P06 valódi L a dokumentált kompakt változat, de a kevés ülőhely miatt előbb a nagyobb P14-et kell kipróbálni. Utóbbinál a kék front és szőnyeg őrzi az identitást; nem rajzolunk nem létező kék Lennon-konfigurációt.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | lekerekített szélű tükör és mélykék padkárpit / fehér szekrénytest |
+| Nappali–étkező | U szalon, szobrászati tükröződés, üvegasztal / szabad kilátás |
+| Konyha | kék matt látható alsó front, világos felső / egyszerű pult; K1 |
+| Master | szilvás-kék széles textilfejvég / világos ágytextil, nem sötétre festett szoba |
+| 05.2 | egy sötétkék textilfelület / egyszerű ágy és tároló; K2 |
+| 05.3 | keskeny fém–fa íróasztal, kék függönyoldal / fehér szekrény |
+| Fürdők/WC | ovális tükör, grafikus sötét textil / meglévő szerelvény |
+| Terasz | mélykék kültéri párnák, szobrászati kaspó / városi kert, nem éttermi díszlet |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Mélykék társalgóöböl | P04, 285×160×71 cm, gyári összekapcsolt modulok | 0,928 / 03b; konfekció |
+| Szobrászati tároló + tükör | tároló kb. 240×40×50, tükör 80×190 cm; kész korpusz, kék laminált front, biztonsági fóliás tükör; padlóterhelés és falrögzítés K6 | együtt 0,65–0,90 / 03a; asztalos + üveges |
+| Opál fénytömeg | tervezett 60–80 cm széles, egy ponton függő opál/fém lámpatest → ML04, szerelhetőség igazolandó | 0,12–0,20 / 10; konkrét SKU még kiválasztandó, villanyszerelő |
+| Széles master textilfejvég | kb. 260×100 cm, sötétkék/szilvás kárpit, D20–23 szabadon | 0,25–0,35 / 04b; kárpitos |
+
+Feltételes: K6 tükör súlya/rögzítés; kisebb kéttagú tükörrel és azonos külső aránnyal kiváltható. **30–50%-kal olcsóbb WOW-csomag:** az U és a kék tömeg marad, az egyedi tükör egyszerűbb kontúrt kap, a lámpa kész opáltest. Az U sorát nem felezzük.
+
+### S03 — Alelí Casa · mediterrán-olasz luxus
+
+**Érzés:** művelt, vendégszerető olasz rezidencia, erős étkezővel és földszínű, kézműves tapintású részletekkel.
+
+**Nappali-vízió:** a hosszú, ovális étkezőasztal a lakás társasági súlypontja; vele arányos, lágy L ülőtömeg támaszkodik egy meleg, alacsony tárolóhoz. A tároló egyik vége visszafogottan ívelt, a front nagy, nyugodt táblákból áll. Egy keretezett, nagyléptékű kerámiarelief váltja a szokványos képet; a fal többi része fehér. A terrakotta nem új vakolatként kerül a falra, hanem kárpiton, kerámián és néhány frontmezőn jelenik meg. L2 vizsgálat, osztott médiaelem a D19 mellett, kapcsoló szabadon.
+
+**Öt ismertetőjel:** étkezőközpont; ovális láb-/lapgeometria; meleg fa és valódi kerámia; függőleges textilrétegek; intim, alacsony ülősziget. Kerülendő: ál-rusztikus gerenda, műtégla, citrommintás tematika.
+
+**Paletta:** #A95F45 terrakotta kerámia; #76664F olívás szövet; #BD9B73 tölgyfurnér; #E6DED0 vászon; #5B3C2D sötét fa részlet.
+
+**Főbútorok:** P02 L + P09 ovális asztal; P10 master. U-jelölt P05 csak a konyhai/étkezői közlekedés megtartásával; a plusz 0,078 M a jelenlegi szabad keretből fedezhető, nem a 2 M tartalékból.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | terrakotta padtextil, egy kerámiatál / sima világos tároló |
+| Nappali–étkező | ovális asztal, kerekített alacsony tömeg, relief / fehér háttér |
+| Konyha | világos fa alsó/frontbetét, tompa agyagszínű kis felület / egyszerű kész frontok; K1 |
+| Master | erős vászonfejvég és egy színében mélyebb takaró / szekrény világos |
+| 05.2 | natúr textil és egy agyagszínű függönyoldal / karcsú ágy; K2 |
+| 05.3 | tölgy munkafelület, szép kerámia / funkcionális vendégszoba |
+| Fürdők/WC | kerámia kiegészítők, olíva törölköző / burkolat változatlan |
+| Terasz | közös étkezés, meleg kültéri szövet, nagy növénytartó / meglévő növényzet |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Társasági étkező | P09 200×90×75 cm, hat külön szék; padlón áll | asztal 0,32, teljes cél 0,60 / 03d; konfekció |
+| Ívelt végű tároló | kb. 210×40×50 cm, laminált fa dekor + egy lekerekített végmodul; kész korpusz, padlóállás | 0,45–0,65 / 03a; asztalos |
+| Valódi kerámia relief | kb. 100×100 cm, kis kerámiaelemek teherbíró kereten; nem teljes fal burkolása; K6 | 0,12–0,20 / 11; keramikus/keretező |
+| Vászon master-fejvég | kb. 260×100 cm, két széles kárpitozott mező; falra, meglévő kapcsolók körül | 0,25–0,35 / 04b; kárpitos |
+
+Feltételes: P09 200-as asztal mellett a székkihúzás. Tartalék P09s 160-as, ellenőrzött konfigurációval; hat hely és lábtér ténylegesen mérendő. **30–50%-kal olcsóbb WOW-csomag:** egyenes tároló és kisebb valódi kerámia; a nagy ovális asztal és a textilarány megmarad.
+
+### S04 — LA Horizon · Los Angeles Skyline luxus
+
+**Érzés:** filmszerű, levegős penthouse, amelynek luxusa a hosszú vízszintes vonalakból és a nappali–terasz kapcsolatából jön.
+
+**Nappali-vízió:** nagyon alacsony, széles háttámlájú lounge-kanapé; mögötte a teljes üvegmező szabadon olvasható. A TV-bútor nem magas fal, hanem két egymáshoz képest eltolt vízszintes lemez/tárolótömeg, eltérő mélységgel. A sötétebb alsó sáv, a valódi barna üvegasztal és a nagy, alig mintás szőnyeg egymástól külön síkokat hoznak létre. A nappali és terasz textilje rokon, de az ajtót és a meglévő szinteket nem tüntetjük el. L2 első vizsgálat, D19; hosszú médiaelem több részre osztva a kapcsolóoszlopnál.
+
+**Öt ismertetőjel:** vízszintes panoráma; alacsony lounge; eltolt lemezsíkok; barna üveg; erős üres tér. Kerülendő: kitalált felhőkarcoló, LED-vonal minden élen, arany márványfal.
+
+**Paletta:** #746C62 szövött taupe; #3E352E sötét dió dekor; #C7B9A8 textil; #795844 barna üveg; #B9BDC0 szálcsiszolt fém.
+
+**Főbútorok:** P14 L + P07 asztal; P10 master. Első U-teszt P05, legfeljebb 0,928 M kanapékerettel. A költség a nagyobb U-keretet fenntartja, amíg a mérés dönt.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | hosszú, sekély konzolsáv és széles tükör / fehér fal |
+| Nappali–étkező | alacsony horizontok, barna üveg / szabad üvegfal |
+| Konyha | matt világos tömeg, egy sötét munkalapsáv / felsők egyszerű ritmusa; K1 |
+| Master | ágyon túlérő horizontális fejvég, két mély éjjeli / fehér szekrény |
+| 05.2 | sötét vízszintes fejvégcsík, világos ágy / K2 |
+| 05.3 | széles munkafelület, vendégalvás / kevés tárgy |
+| Fürdők/WC | hosszú keskeny tükörarány ahol elfér / meglévő szaniterek |
+| Terasz | lounge és napozás jól elkülönített zónában / budai panoráma, eredeti korlát |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Lounge főtömeg | P14 vagy méréssel P05; gyári méret, nincs bővített fantáziapárna | 0,80–0,928 / 03b; konfekció |
+| Kétrétegű horizont-bútor | összesen kb. 240 cm, 35/45 cm mélység, 30/55 cm magasság; kész korpusz + vastagított HPL él; lábon/lábazaton, nem falra függesztett kő | 0,55–0,80 / 03a; asztalos |
+| Barna üveg étkező | P07, 180×90 cm; gyári üveg, nem kőutánzat | 0,32 / 03d; konfekció, nehéz szállítmány |
+| Master horizont | kb. 280×85 cm laminált panel és keskeny kárpit, konnektorok hozzáférhetők | 0,25–0,35 / 04b; asztalos/kárpitos |
+
+Feltételes K5: nincs garantált folytonos üvegfal. Tartalék L3 és a kompozíció a valós pillérhez igazodik. **30–50%-kal olcsóbb WOW-csomag:** két kész, eltérő magasságú tároló adja a horizontot; egyedi visszahajló él helyett pontos illesztés, a kanapé és üveg megtartva.
+
+### S05 — Miami Streamline · kortárs Art Deco
+
+**Érzés:** könnyed, sikkes, kissé filmsztáros rezidencia, rózsás textillel, ívekkel és grafikus ritmussal.
+
+**Nappali-vízió:** lágy, tömör L ülőbútor és vele szemben lépcsőzött, lekerekített végű tároló; a fehér falon két különböző szélességű függőleges bordázott betét áll ritmusba a függönnyel. Nem minden íves: a nagy, egyszerű üvegasztal és a határozott szőnyegszegély fegyelmezi a puha formákat. A mennyezet változatlan, a Deco sziluett bútorban és egyetlen opál-fém lámpában jelenik meg. L3, TV D16/D17.
+
+**Öt ismertetőjel:** lépcsőzött profil; lekerekített bútorsarok; függőleges bordaritmus; matt pasztell és valódi fém találkozása; szegélyezett szőnyeg. Kerülendő: neonfelirat, pálmaminta mindenhol, arany–rózsaszín cukrászda.
+
+**Paletta:** #C99899 rózsás kord; #7CABA5 tompa türkiz textil; #F0EAE0 világos kárpit; #242C31 grafit szegély; #B7B7B2 szálcsiszolt fém.
+
+**Főbútorok:** P03 L + P08 asztal; P10 master. U-jelölt P05; ilyenkor a rózsás fő szín a nagy fejvég-/textilmezőre kerül, nem átszínezett IKEA-termékre.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | lépcsőzött kontúrú tükör, türkiz padkárpit / fehér tároló |
+| Nappali–étkező | lágy ülőbútor, bordázott tárolóritmus / nyugodt fehér síkok |
+| Konyha | világos kész front, kis türkiz betét / gépes rész visszafogott; K1 |
+| Master | lekerekített felső sarkú széles fejvég, grafit szegély / világos tároló |
+| 05.2 | egy geometrikus textil, világos ágy / K2 |
+| 05.3 | türkiz asztali kiegészítő, íves székforma / egyszerű vendégfunkció |
+| Fürdők/WC | opál és fekete keret, tompa pasztell textil / meglévő burkolat |
+| Terasz | szabályos csíkozású kültéri párna, világos ülőbútor / nincs pálmaliget-építés |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Rózsás ülőtömeg | P03, 238×143×75 cm, gyári lábak | megfigyelt 0,75–0,85; keret 1,00 / 03b |
+| Streamline tároló | kb. 220×40×55 cm; kész korpusz, két rétegű MDF/HPL végprofil, borda csak egy frontmezőn; padlóállás | 0,50–0,70 / 03a; asztalos |
+| Két függőleges ritmuselem | kb. 40/65×160 cm, bordázott MDF kész bevonattal, falra K6; nem gipszarchitektúra | 0,08–0,10 / 03a; asztalos |
+| Deco fejvég | kb. 250×100 cm, rózsás/krém kárpit, grafit paszpól, falra | 0,22–0,30 / 04b; kárpitos |
+
+K6 esetén bordás panel helyett két könnyű keretezett, reliefes textil; K10 esetén a hiteles L marad. **30–50%-kal olcsóbb WOW-csomag:** egyetlen ívelt végprofil és fejvég tartja a Deco-nyelvet; a teljes bordázást és extra tükröt elhagyjuk, nem az alapkompozíciót.
+
+### S06 — Zenit Atelier · az eredeti karakter továbbépítve
+
+**Érzés:** sötét tónusú, nyugodtan magabiztos penthouse, nagyvonalú horizontokkal és súlyos, tapintható anyagokkal.
+
+**Nappali-vízió:** a kanapé alacsony, mély és határozott tömeg, nem keskeny, hárompárnás lakberendezési kellék. A média-kompozíció egy alacsony füstös tölgy tárolóból és egy oldalra eltolt, keskeny függőleges eleméből áll; középen nagy fehér vagy külön árazott, finoman texturált mező marad. A fekete TV a sötét tömeghez tartozik, nem egy minden irányban LED-del körberajzolt téglalap. A barna üvegasztal és egy széles, alacsony, lekerekített dohányzóasztal ellenpontozza a bútor függőleges tagját. L3, D16/D17.
+
+**Öt ismertetőjel:** tömbszerű mély ülés; aszimmetrikus L alakú tárolókompozíció; füstös fa és szövet; barnás átlátszóság; szűk helyre összpontosított fény. Kerülendő: általános hotel-greige, minden falra lamella, hamis betonvakolat és túl sok LED-csík.
+
+**Paletta:** #625A50 szövet; #423B34 füstös tölgy dekor; #A69C8E durva textil; #282826 matt fém; #927153 visszafogott bronzos részlet.
+
+**Főbútorok:** P14 L + P07 asztal; P10 master. U-vizsgálat P05; a 0,128 M többlet jelenleg 0,028 M-tal meghaladná a stílus szabad tervezési helyét, ezért csak konkrét tételcsere után engedhető, nem a tartalékból.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | sötét cipősszekrény, ülőfülke-hatású bútor, finom fémfogás / fehér fal |
+| Nappali–étkező | mély lounge, L-kompozíció, üveg / nagy üres falszakasz |
+| Konyha | füstös alsó tömeg, matt felső / egyszerű laminált pult; K1 |
+| Master | három széles kárpitmező és sötét éjjeli / nem teljes falnyi négyzetrács |
+| 05.2 | sötét keskeny fejvég, egyszerű tároló / világos textil; K2 |
+| 05.3 | sötét munkalap, rendezett tárolók / visszafogott vendégalvás |
+| Fürdők/WC | fekete keret és sötétebb törölköző / meglévő kőhatás |
+| Terasz | grafit lounge, tompa textil, valódi növényzet / nincs új burkolat |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Mély lounge | P14, 238×180×68 cm; gyári modulkapcsolás | 0,80 / 03b; konfekció |
+| Aszimmetrikus média-kompozíció | kb. 240×40×45 alsó + 45×35×190 oldalelem; laminált fa dekor, kész korpusz, matt front; padlóállás, billenésgátlás | 0,60–0,90 / 03a; asztalos, K6 |
+| Nagyléptékű alacsony asztal | tervezett 100×65×30 cm, barna/fekete kész felület, kerekített sarkok; készterméket keresni, nem tömör kő | 0,16–0,24 / 03c; konfekció, SKU nyitott |
+| Master triptichon-fejvég | kb. 270×110 cm, három széles textilmező, vékony osztás; falra | 0,28–0,40 / 04b; kárpitos |
+
+K6 tartalék: a függőleges elem kisebb, padlón álló szekrény, nem falterhelő torony. **30–50%-kal olcsóbb WOW-csomag:** az alsó és felső tömeg aránya marad, egyedi front helyett jobb kész front; a nagy szőnyegen és a mély kanapén nem spórolunk elsőként.
+
+### S07 — Lake Forest Couture · világos, plasztikus luxus
+
+**Érzés:** világos couture-szalon, ahol a puha szobrászati formák és a finom anyagkontraszt akkor is izgalmas, ha nem süt aranyszínű nap.
+
+**Nappali-vízió:** erősen lekerekített, vastag karú, alacsony L kanapé adja a fősziluettet. Vele szemben egy világos, hosszú tároló lekerekített végződéssel és sűrűn barázdált kis mezővel; a sima frontok és a szemcsés textil eltérő fényszórása a lényeg. A falon sekély, nagyméretű valódi relief van, nem fotórealisztikus travertin-print. A középtérben kis fémes asztal és nagy, alig mintás szőnyeg ad finom kontrasztot. Az étkező tojásdad faformája egy második, nyugodtabb plasztika. L3, D16/D17; P05 U csak forma- és térpróba után, mert kevésbé szobrászati.
+
+**Öt ismertetőjel:** puha lekerekített nagy tömeg; sűrű és sima felületek együtt; világos valós relief; tompa, kis felületű fém; nagy negatív tér. Kerülendő: mindenre bézs szűrő, utánzott márványasztal, sok csillogó arany, elmosott padlóerezet.
+
+**Paletta:** #E9E2D7 texturált kárpit; #D5C9B7 világos textil; #B9A78C tölgyfurnér; #D9D4CA valódi világos relief; #A99574 matt pezsgőfém. A fehér fal fehér marad.
+
+**Főbútorok:** P15 Wolke L, pontos HU-konfiguráció visszaellenőrzésével + P09 asztal; P10 master. A forma gyárthatóságát a valós kanapécsalád mutatja; a két különböző Wolke-termék árát és méretét nem mossuk össze.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | széles világos tároló, lekerekített tükör, egy plasztikus ülőke / fehér héj |
+| Nappali–étkező | szobrászati L, relief, finom fémtárgy / szabad falszakasz |
+| Konyha | világos matt front, egy finom fa mező / kőhatású pult csak őszinte anyagleírással; K1 |
+| Master | domború kárpitmező, puha hosszú függöny / fehér szekrénytest |
+| 05.2 | jó tapintású világos textil, egy nagy kép / K2 |
+| 05.3 | világos munkafelület, kényelmes vendégzóna / zárt tárolás |
+| Fürdők/WC | puha textil és visszafogott fém / a fekete gyári szerelvények megtartva |
+| Terasz | világos kültéri lounge, taktilis párnák / valódi zöldtető mint háttér |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Szobrászati L | P15 tervezési jelölt, 258×167×65 cm az azonosított 25-ös családváltozathoz; gyári talp | ár-pillanatkép 1,05 / 03b; K8 konfigurációs ellenőrzés |
+| Világos tároló és relief együtt | kb. 220×40×50 cm tároló, 100×130 cm könnyű ásványi/gipsz relief kereten; laminált/MDF, nem kőfal; padlóállás és falrögzítés K6 | 0,60–0,85 / 03a; asztalos + reliefkészítő |
+| Finom fémes asztaltömeg | kb. 75–90 cm átmérő, 30–35 cm magas; valódi fémlemezből késztermék, nem aranyozott kőnek mutatva | 0,12–0,22 / 03c; SKU nyitott |
+| Puha master-fejvég | kb. 260×95 cm, 3–5 cm domborulatú széles textilmezők, falra | 0,22–0,30 / 04b; kárpitos |
+
+K8 tartalék P01 dokumentált L: csak akkor elfogadható, ha a tároló/relief/szőnyeg egésze a puha karaktert továbbra is tartja; a Wolke formáját nem szabad Melva áron rajzolni. **30–50%-kal olcsóbb WOW-csomag:** kisebb valódi relief és egyszerűbb kész tároló, a szobrászati kanapé marad elsőbbség. A kanapé olcsósítása második, külön kreatív újraellenőrzést igénylő lépés.
+
+### S08 — Milano Radical · kortárs olasz gyűjtői luxus
+
+**Érzés:** magabiztos designgyűjtő lakása, amelyben minden nagy forma tudatosan másképp viselkedik.
+
+**Nappali-vízió:** szögletes U/L ülőtömeg, karcsú áttetsző étkező és egy aszimmetrikus, két kockából és vízszintes hídelemből álló tároló alkot térbeli párbeszédet. A szín nagy, összefüggő tömegen jelenik meg, nem apró díszeken. Egy polírozott vagy szálcsiszolt fém kisasztal és szigorúan geometrikus szőnyeg ad gyűjtői karaktert. A háttér szándékosan fehér és nyugodt. L3, D16/D17; az U és a bútorsziget között legalább 90 cm funkcionális út kell.
+
+**Öt ismertetőjel:** ortogonális tömegjáték; egy nagy színes sík; fényes fém; geometrikus textil; tárgyak között nagy szünetek. Kerülendő: tíz szín egyszerre, ikonbútor-hamisítvány, Memphis-díszlet.
+
+**Paletta:** #263E72 kék szövet; #D4BA54 tompa sárga laminált mező; #BCBFC1 valódi fém; #242424 grafit; #EAE5DB világos textil.
+
+**Főbútorok:** P04 U + P08 asztal, P10 master. U-kudarcra P14 L; a kék/sárga nagy bútorfelület hordozza tovább a karaktert. Ez nem BiBo-változat: itt szögletes, nyitott tárgykompozíció van, ott záródó, tükröződő szalon.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | két eltérő magasságú geometrikus tároló / egyetlen hangsúlyszín |
+| Nappali–étkező | tömb–üveg–fém párbeszéd / fehér háttér |
+| Konyha | szabályos kész korpusz, egy sárga frontmező / világos többi front; K1 |
+| Master | színblokkokból álló széles fejvég / nyugodt ágynemű |
+| 05.2 | egy grafikus fejvég/textil / K2 |
+| 05.3 | funkcionális kreatív dolgozó, fém asztalláb / zárt tároló |
+| Fürdők/WC | egy színblokkolt textilpár / fekete gyári szerelvény |
+| Terasz | grafikus kültéri textil és geometrikus bútor / nem tarka műanyag játszótér |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Geometrikus ülőtömeg | P04 U, 285×160×71 cm, vagy P14 L | 0,80–0,928 / 03b |
+| „Három test” tároló | kb. 220×40×70 összbefoglaló; két kész alsó korpusz + lábakon alátámasztott áthidaló, sárga/grafit laminált mező; nem ülhető híd | 0,50–0,75 / 03a; asztalos |
+| Geometrikus nagy szőnyeg | tervezett 240×340 cm, legfeljebb három szín; késztermék, nem egyedi művészi szövés | 0,18–0,25 / 03e; SKU nyitott |
+| Master színblokk | kb. 260×90 cm laminált keret + kárpitmező, falra K6 | 0,22–0,30 / 04b; asztalos/kárpitos |
+
+K6 esetén három egymás mellé állított kész korpusz adja a sziluettet. **30–50%-kal olcsóbb WOW-csomag:** kevesebb egyedi vágás, egyetlen színes frontmező és kész geometrikus szőnyeg; a tömegek eltérő magassága és anyaga nem vész el.
+
+### S09 — Paris Collector · kortárs párizsi galérialakás
+
+**Érzés:** személyes, művelt, rétegzett luxus, amelynek nincs katalógusszett-hatása.
+
+**Nappali-vízió:** puha olíva L kanapé, egyetlen karcsú fotel és egy eltérő korszakot idéző üvegasztal körül szervezett szalon. A TV alacsony tárolóban, mellette egy mélyebb, szilvás textilmezőbe komponált nagy művészi kép; nem sok kis kép szétosztva. A függönyök súlyosabbak, a tárgyak arányai eltérők, de a színek fegyelmezettek. Egy állólámpa a teljes csoportot térben összefogja. L3, D16/D17; állólámpa D18.
+
+**Öt ismertetőjel:** eltérő korszakú tárgysziluettek; nagy mű és kisebb bútor feszültsége; olíva–szilva réteg; könyv/tárgy mint személyes tartalom; fényes üveg és matt textil. Kerülendő: műstukkó mindenütt, hamis antik, random galériafal, divatmárka-poszter.
+
+**Paletta:** #69705A olíva szövet; #563746 szilvás bársony; #5E4535 sötét fa dekor; #CCC1B0 vászon; #BCC0BF fém/tükör.
+
+**Főbútorok:** P02 L + P07 asztal; P10 master. A külön fotel a 03c soron belül legfeljebb kb. 0,22 M célkeretű, késztermék; konkrét modell még nyitott. U P05 esetén a fotel elhagyandó, hogy a tér ne váljon váróteremmé.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | nagy kép, sekély könyv-/tárgyfelület / rendezett zárt tárolás |
+| Nappali–étkező | eltérő sziluettű szalon, egy nagy mű / üres falak |
+| Konyha | világos front, sötét fogantyú, fa részlet / nincs szalon-dekor a munkapultnál |
+| Master | szilvás, széles textilfejvég, aszimmetrikus éjjelik / semleges ágy |
+| 05.2 | egy erős grafika és visszafogott textil / K2 |
+| 05.3 | könyves dolgozó vendégalvással / fehér tárolótest |
+| Fürdők/WC | karakteres keretezett tükör / meglévő burkolat |
+| Terasz | városi szalon finom kültéri textillel / valódi zöld, kevés dekor |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Gyűjtői ülőcsoport | P02 L + eltérő sziluettű fotel; fotel max. 80×85 cm célbefoglaló, SKU nyitott | 0,85 / 03b és fotel 0,15–0,22 / 03c |
+| Nagy műtárgymező | kb. 140×180 cm eredeti/licencelt nyomat, valódi keret; szilvás textilháttér külön kisebb felület; falra K6 | kép 0,12–0,20 / 12; textilháttér 0,08–0,15 / 11 |
+| Sötét tárolókompozíció | kb. 220×40×60 cm, kész korpusz + sötét laminált front és egy nyitott könyvmező; padlóállás | 0,55–0,80 / 03a; asztalos |
+| Szilvás fejvég | kb. 260×105 cm, két nagy puha mező; nincs új stukkó | 0,25–0,35 / 04b; kárpitos |
+
+K8/kreatív kockázat: kép- és fotelválasztás nélkül ez könnyen „jó bútorok egy fal előtt” szintre esik; a döntős körben ezekből konkrét mintázott, valódi termékpárt kell találni. **30–50%-kal olcsóbb WOW-csomag:** egy nagy licencelt nyomat, kész tároló és meglévő textilarány; kétes eredetű „antik” helyett hiteles modern darab.
+
+### S10 — Desert Modern 70 · meleg, grafikus rezidencia
+
+**Érzés:** sivatagi modernizmus és hetvenes évekbeli design egy kortárs, európai penthouse-ban.
+
+**Nappali-vízió:** széles, alacsony, szürkésbarna lounge-tömeg; vele szemben váltakozó mélységű, lépcsőzetes tároló. A napfényt nem meleg szűrővel imitáljuk: a rozsda/agyag színű textil és egy nagy, geometrikus relief adja a színhőérzetet. Az étkező ovális faasztala mögött egyetlen erős álló kerámiaobjektum áll. A sok horizontális sík fölött megmarad a nagy fehér fal, így a lakás tágasabbnak érződik. L2, D19; a tároló megszakad a vezérlőoszlop előtt.
+
+**Öt ismertetőjel:** teraszos/lépcsőző bútortömeg; alacsony lounge; tompa rozsda és taupe; nagy geometrikus relief; napfényben is karakteres árnyékok. Kerülendő: kaktuszdíszlet, műkőszikla, mesterséges stukkómediterrán, bőrnek rajzolt műanyag.
+
+**Paletta:** #A65E3E agyagkerámia; #6F6458 szövet; #C49A56 okker textil; #4D4639 fa dekor; #E4D8C5 vászon.
+
+**Főbútorok:** P14 L + P09 asztal; P10 master. Az eredeti P02 olíva alternatíva 0,85 M kerete megtartható tartaléknak; P05 U pluszköltsége 0,078 M, a szabad kereten belül, ha valóban befér.
+
+| Teljes lakás | Karakter / nyugalom |
+|---|---|
+| Előtér | lépcsőzött sekély tároló, agyagszínű ülőke / fehér fal |
+| Nappali–étkező | vízszintes teraszolt tömeg, geometrikus relief / nagy üres tér |
+| Konyha | fa alsó és egyszerű homokszínű front / visszafogott felső; K1 |
+| Master | hosszú, kétmagasságú fejvég, okker textil / világos ágy |
+| 05.2 | egy agyagszínű grafika / egyszerű funkcionális bútor; K2 |
+| 05.3 | széles fa munkafelület és meleg textil / fehér tároló |
+| Fürdők/WC | agyag/okker textilek és kerámia / gyári fekete szerelvény |
+| Terasz | alacsony, napozásra hívó lounge / eredeti növényzet, nincs sivataggá alakított tető |
+
+| WOW | Anyag, méret, rögzítés | Bruttó sáv / sor / beszerzés |
+|---|---|---|
+| Alacsony lounge | P14 238×180×68 cm, szövött szürkésbarna, nem bőr | 0,80; tervezési plafon 0,85 / 03b |
+| Lépcsőzött tároló | kb. 220×35/45×35/60 cm; kész korpusz + fa dekor laminált felület; padlóállás, nem épített dobogó | 0,50–0,75 / 03a; asztalos |
+| Nagy grafikus relief | kb. 120×120 cm, fa/textil vagy könnyű ásványi panel, valódi relief; falra K6 | 0,12–0,20 / 11; készítő/keretező |
+| Kétmagasságú fejvég | kb. 270×80/100 cm laminált panel + textil; falra, kész elektromos pontok szabadon | 0,22–0,30 / 04b; asztalos/kárpitos |
+
+Az Alelítől a szigorú horizontális, lépcsőző kompozíció különbözteti meg; nincs kézműves trattoria-karakter és étkezői központ. **30–50%-kal olcsóbb WOW-csomag:** két eltérő magasságú kész tároló és fa/textil relief, a lounge-sziluett és a nagy üres tér megtartásával.
+
+> **[CLAUDE RELAY – HIÁNYZÓ RÉSZ]** Itt állt az eredeti Astra-fájl **476–514. sora (39 sor): a 7. fejezet**. A megosztott szál pillanatképének fileChange-sorozatában ez a rész nem szerepel (a 475. sor után a következő rögzített diff a 515. sornál folytatódik). A fejezet címe nem ismert; tartalmára a 12. fejezet és Astra záróüzenete utal: *stílusonkénti költségeltérések és újraszámolt teljes lakásos célkeretek (17,65–17,95 M Ft), stressz-számítás*. **Nem rekonstruáltuk, nem pótoltuk, nem találtuk ki.** Pótlása a folytató Medium-feladat (V2 brief) első tétele.
+
+
+## 8. Kreatív minőségellenőrzés és rangsor
+
+A mellékelt összehasonlító képeken a ChatGPT-változatok előnye nem csak a meleg fény: nagyobb, összefüggőbb ülőtömegek, teltebb textilek, erősebb előtér–középtér–háttér és jobb fényhierarchia is látszik. Ugyanakkor a kamera, ablakprofil, bútorarány és néhol a tér is változik, ezért a két motor tiszta összehasonlítására nem alkalmasak. A meleg fény előnyét csak szabályozott képpróba tudja leválasztani.
+
+### Mi különbözteti meg a tíz kompozíciót színek nélkül is?
+
+| Stílus | Saját tömeg- és térnyelv | Az átdolgozás célja a pilotokhoz képest | Fennmaradó kreatív kockázat |
+|---|---|---|---|
+| Kyoto Ink | lapos horizont + függőleges áttetsző mező; alacsony súlypont | egész ülősziget és üres tér komponálása | túl szikár lehet; textilminta és arány fontos |
+| BiBo Nocturne | záródó U, organikus tükörkontúr, tömb–tükröződés | a tükör egy bútoregyüttes része, nem önálló dekor | az U/étkező és tükör gyárthatósága |
+| Alelí Casa | ovális étkezői központ, lekerekített tárolóvég, kerámia | társasági térszervezés, nem terrakotta párnák | ne legyen átlagos mediterrán étkező |
+| LA Horizon | alacsony nyitott lounge, egymás mögötti vékony horizontok | panoráma és bútor együtt komponálva | a teraszüveg eltérései módosíthatják |
+| Miami Streamline | lépcsőzött/lekerekített profil és függőleges bordaritmus | a Deco a nagy bútor geometriája | pasztell díszletszerűség |
+| Zenit Atelier | alacsony mély főtömeg és magas oldaltömeg feszültsége | erősebb aszimmetria, kevesebb öncélú LED | a tároló ne nyomja össze a nappalit |
+| Lake Forest Couture | puha nagy kanapétömeg, domború és sima felületek | sziluett és valós relief, nem aranyszűrő | pontos Wolke-konfiguráció és túl puha összhatás |
+| Milano Radical | eltérő magasságú geometrikus testek és áttetsző sík | tárgyak közti feszültség, nem színcsere | ne legyen showroomban összeválogatott tárgyhalom |
+| Paris Collector | eltérő tárgysziluettek, szalonarány, egy nagy mű | rétegzett személyesség teljes kompozícióban | a kép és fotel konkrét választása döntő |
+| Desert Modern 70 | lépcsőző bútorprofil, nagy geometrikus relief, széles horizont | tárgyak árnyékából jövő karakter | a LA-val való összecsúszást erős relief/ritmus akadályozza |
+
+A koncepciók a szöveges ellenőrzés során ezért kaptak nagyobb bútorkompozíciót, több valódi térfogatot és kevesebb dekorfüggő megoldást. A két legközelebbi pár: **LA–Desert**, illetve **Kyoto–Zenit**. A B próba első feladata ezek sziluett szerinti elkülönülésének ellenőrzése. Ha csak színben térnének el, az adott irány nem léphet tovább.
+
+**Nem állítható most igazoltként**, hogy a még el nem készült képek magazinszínvonalúak vagy túlszárnyalják a Zenit/Lake Forest referenciát. Ez a kreatív cél és a későbbi elfogadás feltétele. Az A fázis kész koncepciócsomagot ad, nem kész, látványban bizonyított lakást.
+
+### A meleg fény torzításának későbbi ellenőrzése
+
+B-indítás után először azonos Cam_02, 1600×1000, azonos semleges nappali megvilágítás, expozíció és fehéregyensúly mind a tízhez vagy a kiválasztott mezőnyhöz. Ezt követheti azonos esti fényállapot, valós kiállásokkal. A nappali és esti képek külön sorozat. A kanapé, kamera, külső panoráma és styling-darabszám fényállapot között nem változhat.
+
+Vizsgálat: felismerhető-e a sziluett kis előnézetben; működik-e a kompozíció színek nélkül; megfelelő-e a nagy tömegek és üres tér aránya; minden domináns tárgy létezik-e SKU-val vagy gyártható rajzzal; a fehér ablakprofil és eredeti padló megmaradt-e. Nem lehet új világítás nélküli nappali képet meleg, naplementés ellenféllel rangsorolni.
+
+### Szubjektív profil, 1–10
+
+Karakter/WOW/térélmény/funkció/időtállóság/eladási vonzerő: magasabb kedvezőbb. Keretkockázat és kivitelezési nehézség: magasabb kedvezőtlenebb. Ezek szakmai koncepcióbecslések, nem mért vásárlói preferenciák vagy ingatlanérték-becslés.
+
+| Stílus | Karakter | WOW | Térélmény | Funkció | Keretkockázat | Kivitelezési nehézség | Időtállóság | Eladási vonzerő |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| S01 Kyoto Ink | 9 | 8 | 9 | 8 | 6 | 6 | 9 | 8 |
+| S02 BiBo Nocturne | 10 | 10 | 8 | 7 | 9 | 8 | 8 | 8 |
+| S03 Alelí Casa | 8 | 8 | 8 | 8 | 6 | 6 | 9 | 9 |
+| S04 LA Horizon | 8 | 8 | 9 | 8 | 7 | 6 | 9 | 9 |
+| S05 Miami Streamline | 9 | 9 | 8 | 8 | 7 | 7 | 7 | 7 |
+| S06 Zenit Atelier | 9 | 9 | 9 | 8 | 8 | 7 | 9 | 9 |
+| S07 Lake Forest Couture | 9 | 10 | 9 | 8 | 9 | 8 | 9 | 9 |
+| S08 Milano Radical | 10 | 9 | 8 | 7 | 7 | 7 | 7 | 7 |
+| S09 Paris Collector | 9 | 8 | 8 | 8 | 7 | 6 | 9 | 8 |
+| S10 Desert Modern 70 | 8 | 8 | 9 | 8 | 6 | 6 | 8 | 8 |
+
+**Kreatív WOW sorrend:** S02, S07, S06, S08, S05, S01, S04, S09, S03, S10.  
+**Karakteres különállás:** S02, S08, S05, S01, S09, S07, S06, S03, S10, S04.  
+**Előzetes kivitelezhetőség, kedvezőbbtől:** S01, S03, S10, S04, S06, S09, S05, S08, S02, S07.  
+**Pénzügyi kockázat, alacsonyabbtól:** S01, S10, S03, S04, S09, S08, S05, S06, S02, S07.
+
+A sorrendek a pontszámokon belüli szakmai sorrendet is jelzik. A „kedvezőbb” nem jelent már igazolt beférést vagy árat.
+
+### Három ajánlott döntős
+
+1. **BiBo Nocturne (S02):** a legerősebb új, saját karakter; térben is eltérő, záródó, szobrászati szalon. A döntő feltétel az U használhatósága és a tükör/tároló ajánlata.
+2. **Lake Forest Couture (S07):** a felhasználó által kedvelt világos luxus továbbfejlesztése; a puha fősziluett és a valódi relief meleg szűrő nélkül is működő potenciált ad. A döntő feltétel a konkrét kanapé és a 18 M szűk keretének igazolása.
+3. **Zenit Atelier (S06):** a legerősebb sötétebb, szélesebb körben értelmezhető rezidenciairány, jól ismert termékméretű főkanapéval. A döntő feltétel az aszimmetrikus bútor pontos aránya és rögzítése.
+
+**Első tartalék: Kyoto Ink (S01)**, ha a fenti három bármelyikét a költség/valós geometria túlzottan lebutítaná. Ez ajánlott döntős mezőny, nem Péter helyett meghozott végső stílusválasztás.
+
+## 9. Műszaki és beszerzési kérdéslista Claude-nak
+
+Ez átadási lista; ebben a munkamenetben nem küldtünk üzenetet vagy ajánlatkérést senkinek.
+
+1. A v2b nyers falvonalaihoz képest mennyi a kész falsíkeltérés, külön a konyhában és a 05.2-ben? Mely nyílások/ablakosztások térnek el?
+2. Mi a teraszüveg tényleges osztása, pillérhelye, nyitásiránya, nyitott szárny-befoglalója, küszöbe és a függöny helyigénye?
+3. A 285×160 U, a 238×180 Lennon és a 238×143 Melva melyik hiteles sarokiránnyal fér el úgy, hogy az étkező, DNy-i átjáró és teraszút is működik? A teljes bútortesttel, ne matrac-/ülésmérettel számolj.
+4. Az U belső öblében elfér-e használható asztal 45–50 cm hézaggal? Ha nem, hol lehet asztalt tenni a 90 cm főút szűkítése nélkül?
+5. A 200×90 Toni vagy 180×90 Anouk mellett megvan-e hat szék helye, legalább 90 cm kihúzási sávval a szükséges oldalon? A 160-as Toni tartalék hat ülőhelyét és lábgeometriáját is ellenőrizd.
+6. A 10 cm-es válaszfal milyen szerkezetű, milyen rögzítés és tükörtömeg engedhető? A padlón álló tárolók billenésgátlásának helye ütközik-e rejtett vezetékkel?
+7. A konyha 62+45 cm mélységű alternatívája a kész méretekkel és kiállásokkal működik-e? Hol nyílnak a gépek, hová fér a hat szükséges gép? Nincs-e mellvédfal/ajtókonfliktus?
+8. A 05.2-be milyen **külső** ágybefoglaló fér, legalább 60 cm lábtérrel, valódi ajtónyitással és szerelvényhozzáféréssel? A 206 cm-es Sato ne kapjon automatikus PASS-t.
+9. P10 master tárolófiókjai ténylegesen nyithatók-e, és a 180-as ágy plusz fejvég nem takarja-e a D20–23/K13–14 pontokat?
+10. A mennyezeti meglévő pontoknál milyen lámpatömeg és rögzítés használható új fúrás nélkül? Hue, dimmelés, tápok, hozzáférés és meglévő kapcsolók összeillenek-e?
+11. Hol fér el a mosó-szárító, és mely meglévő kiállás igazolja? A 09 sor nem helyettesíti a hely kijelölését.
+12. Terasz: a WPC-nyelv és az északi pihenő valós megközelítése, lépcsők, teherbírás, mobil árnyékoló rögzítése/szélterhelése, jakuzzi statika és emelési út?
+13. P15/P15b: egyetlen termékhez igazolható-e együtt a HU ár, kárpit, sarokirány, külső méret és szállítás? Azonos család különböző SKU-jai nem csereszabatos bizonyítékok.
+14. Mennyi a teljes lakás csomagjainak fuvarja és emeletre vitele; a 216 cm-es asztalcsomag és a kanapémodulok elférnek-e a liftben/fordulóban?
+15. A 02a, 03a, 04b, 10, 13b, 14 sorokra mi a tételes, egymással nem átfedő bontás? A felső becslés szerinti hiány pontosan mekkora, és mely csere őrzi meg a domináns sziluettet?
+16. A friss üres v2b alapképek, kameraparaméterek és validator ugyanarra a fájlverzióra mutatnak-e? B-fázist csak a műszaki kapu és Péter indítása után lehet nyitni.
+
+## 10. B-fázisú angol prompt-tervezetek — NEM FUTTATHATÓK
+
+Csak szöveges előkészítés. A [korábbi sablon](../../05_promptok/A902_STYLE10_Cam02_prompt_sablon_v1.md) véglegesítésénél minden régi v1 referencia lecserélendő. Az alábbi közös blokkhoz egyetlen stílusblokk tartozik. A végső SKU-k, koordináták, beépítési részletek és fájlok a B kapu előtt nem tekinthetők kitöltöttnek.
+
+### Közös, később kitöltendő blokk
+
+> DRAFT ONLY — DO NOT GENERATE. Use the approved, site-reconciled A-902 geometry derived from v2b, the matching empty Cam_02 render, the verified product sheet and the approved item budget. Preserve actual wall contours, openings, white interior window profiles, grey doors with black handles, the existing strongly grained grey-brown Egger EL2184 floor, the measured terrace levels and the real Buda hillside view. Do not copy obsolete black frames or a flat terrace from v1 images.  
+> Camera reference: Cam_02, position (8.3, 4.4, 1.55), Euler approximately (1.479, 0, 0.858), 20 mm, 36×24 mm sensor, shift 0, 1600×1000. The authoritative camera sheet overrides rounded values here. Keep identical geometry, camera, exposure and neutral daylight across styles. Use a separate, equally controlled evening series only after the daylight comparison.  
+> Keep a minimum 90 cm functional circulation route, the southwest bedroom access, verified door sweeps and all switches/sensors clear. Use the exact selected L/U sofa dimensions and handedness. Place powered items only at approved existing point IDs. Do not add ceiling construction, wall openings, unpriced wall finishes, hidden building works, unbudgeted furniture or a fictional skyline. Render laminate as laminate, fabric as the selected fabric, and real metal/glass only where specified.  
+> Show the large furniture silhouettes, material depth, deliberate negative space and the coherent room composition. Do not manufacture luxury through warmer grading, larger imaginary furniture or a wider camera. Unresolved product or geometry fields are blockers, not creative freedom.
+
+### S01 — Kyoto Ink
+
+> Compose a contemporary Japanese private residence around a low, deep L-shaped seating island, a long dark floor-supported cabinet and a single asymmetric translucent textile plane. Balance horizontal mass with a narrow open lattice detail and substantial empty white wall. Use the approved taupe woven sofa, charcoal laminate, natural linen and one real ceramic object. The dining table is a calm oval timber volume. Avoid generic beige Japandi, decorative bonsai and fake shoji architecture. The composition must remain distinctive without warm lighting.
+
+### S02 — BiBo Nocturne
+
+> Create a sculptural residential salon inspired by the spatial confidence of BiBo Budapest: a verified navy U-shaped conversation group, a low matte-blue cabinet composition and one softly irregular safety-backed mirror plane integrated with the furniture. Contrast opaque blue mass with the transparent dining table and a restrained opal light cluster at the existing ceiling point. Preserve generous white negative space. Do not reproduce restaurant logos, artworks, floral ceiling installations or a new panorama. Use the measured L alternative if the U fails circulation.
+
+### S03 — Alelí Casa
+
+> Make the oval timber dining table the social centre of a contemporary Italian residence. Relate it to a generous olive L sofa, a low cabinet with one rounded end, tactile linen and a single authentic ceramic relief. Terracotta appears in actual ceramic and approved textiles, never as an invented plaster finish over the existing white shell. Keep the room composed and architectural through proportions and depth. Avoid rustic beams, faux brick and themed trattoria decoration.
+
+### S04 — LA Horizon
+
+> Build a cinematic Los Angeles-inspired penthouse composition through low lounge seating, long layered furniture horizons, a brown glass dining table and an uninterrupted reading of the real window openings. Use two offset, floor-supported cabinet planes, not a monumental new TV wall. The approved sofa and terrace furniture should create a visual relationship while maintaining the measured circulation and level changes. Retain the real Buda hills. Avoid gold-marble clichés and LED outlining of every edge.
+
+### S05 — Miami Streamline
+
+> Interpret Art Deco through streamlined furniture geometry: a substantial dusty-rose L sofa, a stepped cabinet with rounded end profiles, two carefully proportioned vertical ribbed accents and a restrained glass dining plane. Add muted turquoise only through approved materials. Balance the curves with a graphic rug border and quiet white wall areas. Use real brushed metal sparingly. Do not add neon lettering, new arches, palm-pattern wallpaper or decorative plaster ceilings.
+
+### S06 — Zenit Atelier
+
+> Develop the original Zenit quality into a confident asymmetric residence: a low, deep taupe L sofa, a smoked-oak-effect floor-supported media cabinet, one offset taller storage volume and a broad rounded coffee table. Layer matte fabric, honest wood-effect laminate, brown glass and restrained dark metal. Concentrate integrated lighting within the approved furniture and existing electrical points. Keep a generous unfilled wall field. Avoid repeating slats everywhere, continuous ceiling LEDs and generic greige hotel styling.
+
+### S07 — Lake Forest Couture
+
+> Develop Lake Forest into a light sculptural salon with the exact approved rounded L sofa, a broad pale cabinet with one curved end, a genuine shallow relief and a small real-metal table. Contrast smooth planes with textured upholstery and finely woven curtains; maintain a generous continuous seating composition rather than scattered decorative objects. Preserve white window frames and the existing strongly grained grey-brown floor. Do not fake travertine, enlarge the sofa, or substitute golden sunlight for material richness.
+
+### S08 — Milano Radical
+
+> Compose a contemporary Italian collector's apartment from contrasting geometric bodies: the verified block-like U or L sofa, two cabinet volumes of different heights, an actually supported connecting plane, transparent dining glass and one genuine metal accent. Use a single large muted-yellow plane against navy and white, with a controlled geometric rug. Leave substantial gaps between objects. Avoid copied design icons, random colourful accessories and a crowded showroom arrangement.
+
+### S09 — Paris Collector
+
+> Create a personal Parisian collector's salon through distinct furniture silhouettes, not a matched suite. Pair the verified olive L sofa with one slender chair, a brown glass dining table, a low dark cabinet and one large licensed artwork within a controlled plum-textile composition. Use layered curtains and an existing-point floor lamp to unify the group. Keep the white architecture quiet. Avoid invented heritage mouldings, counterfeit antiques and a scattered gallery wall.
+
+### S10 — Desert Modern 70
+
+> Compose a contemporary desert-modern residence using low taupe lounge mass, a stepped floor-supported cabinet profile, one large geometric relief and earthy textiles. Generate depth through the actual furniture shadows and different plane depths. Use honest wood-effect laminate, real clay ceramic, ochre fabric and the existing white shell. Preserve the real green roof terrace and Buda view. Avoid cactus-themed decoration, faux stone formations and artificial orange colour grading.
+
+## 11. Másolható munkamenet-promptok
+
+A futtatófelületen válaszd ki a kívánt Astra modellt és Medium/High szintet. Ebben a dokumentumban a modellbeállítás nincs igazolva. Az erős promptot az egyértelmű kimenet, források, ellenőrizhető követelmények és a hibák kezelésének szabálya adja; a szerepjáték önmagában nem. [OpenAI aktuális modellútmutató](https://developers.openai.com/api/docs/guides/latest-model).
+
+### 11.1 Astra Medium — ha a tízes előszűrés javítása szükséges
+
+> WSG: folytasd a STYLE10-002 A fázisát a peterkapusi88-hub/wsg-berendezes repó legfrissebb main ágáról. Ne kezdd újra a kutatást. Olvasd az eredeti briefet, a results/WSG-20261024-STYLE10-002.md teljes eredményét, az aktuális GOAL-t, WSG skillt, auditokat és a v2b vagy újabb igazolt geometriai forrásokat. Jegyezd fel a tényleges commitot.
+>
+> A legfrissebb felhasználói döntés az eredmény 1. fejezete szerinti tízes mezőny. Zenit és Lake Forest kreatív minimum és továbbfejlesztendő résztvevő; Rubin és Orbit korábbi pilot. A cél tíz radikálisan eltérő, magazinszínvonalra törekvő, szexi, nagyvonalú teljes lakáskoncepció. Ne tíz színváltozatot készíts. A domináns bútorsziluett, térarány, anyagtapintás, fény és negatív tér együtt teremtsen luxust semleges nappali fényben is.
+>
+> Elsőként a tényleges hiányokat zárd: P15/P15b pontos változat–méret–ár, a tíz stílus konkrét szék-/fotel-/lámpajelöltjei, a legdrágább egyedi csomagok ellenőrizhető bontása és az egymáshoz túl közeli koncepciópárok. Őrizd meg a már igazolt termékadatokat, és csak elavult vagy ellentmondásos adatot kutass újra. A 18 M Ft bruttó teljes lakáskeret és külön 2 M tartalék kötelező. Ne csökkents kategóriát pusztán az összeg kedvéért: mindig mutasd meg a konkrét kiváltott tárgyat, anyagmennyiséget vagy munkát és a megőrzött WOW-t.
+>
+> A v2b tervalap nem teljes helyszíni validáció. K1–K10, valós külső bútorméretek, meglévő kiállások, fehér belső profil és meglévő padló kötelező. Ne generálj képet, ne módosíts Blendert, ne rendelj és ne kérj ajánlatot. Az ismert függő kérdéseket kezeld önállóan addig, amíg forrásból eldönthetők; a helyszíni/árajánlati hiányt nevezd meg.
+>
+> Adj javított rangsort és három ajánlott döntőst. Új, nem felülíró eredményverzióba ments, a következő szabad _rN névvel; az első öt sorban szerző, ténylegesen igazolható modell, bázis-commit és őszinte státusz szerepeljen. Commit után olvasd vissza a fájlt, és ellenőrizd a tartalmi egyezést. A chatben a lényegi változás, fennmaradó kockázat és ellenőrzött commit legyen.
+
+### 11.2 Astra High — a három döntős részletes kidolgozása
+
+> WSG: a STYLE10-002 A eredményének folytatásaként dolgozd ki mélyen a három ajánlott döntőst: S02 BiBo Nocturne, S07 Lake Forest Couture és S06 Zenit Atelier. Ez a részletes vizsgálat megbízása, nem végleges stílusválasztás. Ha a beszélgetésben ennél frissebb, általam kiválasztott döntős lista van, az elsőbbséget élvez.
+>
+> A repó friss main állapotából dolgozz; olvasd a teljes A eredményt, a hozzá tartozó független auditot, az aktuális geometriai és villamos forrásokat. A már kutatott tételeket őrizd meg. A kreatív színvonalat növeld, ne a költségkeretet. Stílusonként egy erős, következetes, teljes lakásos tervet adj, pontos nappali-kompozícióval és legalább 2–3 megőrzendő domináns gesztussal. A látványminőség ne a meleg képfeldolgozástól függjön.
+>
+> Készíts helyiségenként teljes darabjegyzéket: tételazonosító, gyártó, modell/SKU, pontos szín és anyag, külső méret, darabszám, bruttó egységár, forrás és lekérési dátum, akció/normál ár külön, elérhetőség, HU szállítás és emeletre vitel, szerelés, szükséges kiegészítők. Külön kezeld a gépeket, matracot/ágyrácsot, függönysínt, LED-profilt/tápot, rögzítést, hulladékot és a teraszt. Ismeretlen ár ne legyen nulla.
+>
+> Egyedi bútorhoz adj gyártható, méretezett felépítést, korpuszt, frontot, felületet/dekorkódot, élképzést, vasalatot, rögzítést és hozzáférést. A becslést és a valódi beszállítói ajánlatot világosan különítsd el. Végső kivitelezési árat csak valódi, érvényes ajánlatból állíts; enélkül ajánlatkérésre kész, feltételes tervet adj. Ajánlatkérést ne küldj el.
+>
+> A v2b vagy újabb alapot kizárólag igazolt frissítés alapján használd. Claude számára legyen géppel ellenőrizhető bútorbefoglaló, ajtósöprés, legalább 90 cm főút, használati hézag és elektromos pontazonosító. Az U kanapé és étkező együtt férjen el; a bútort nem lehet kicsinyíteni. Ne állíts geometriai PASS-t képről.
+>
+> A teljes bruttó összeg legfeljebb 18 M, külön 2 M érintetlen tartalékkal. Adj alapösszeget, hiányzó/ajánlatos tételeket és felső forgatókönyvet; minden túllépéshez konkrét, esztétikát őrző kiváltást. Ha a csomag nem tartható, ezt mondd ki és dolgozz ki értékazonos alternatívát. A tartalékot ne használd tervezett tételekre.
+>
+> Kép csak külön B-indítás és igazolt geometriai kapu után készülhet; addig termék-/anyagjegyzék, méretezési átadás és véglegesítésre váró képprompt a kimenet. Ments új eredményfájlba a repó results/ könyvtárában, a létező eredményt ne írd felül. Ellenőrizd vissza a commitot. Add meg külön, mi kész és mihez kell helyszíni mérés, árajánlat vagy felhasználói döntés.
+
+### 11.3 Claude — független audit
+
+> WSG: auditáld függetlenül a STYLE10-002 legfrissebb eredményét és — ha már elkészült — a három döntős részletes csomagját a friss main ágról. Rögzítsd a vizsgált commitot és az eredményfájl hashét. Ne feltételezd, hogy a táblázat összege vagy egy szép kép bizonyítja a megvalósíthatóságot.
+>
+> Ellenőrizd a v2b/újabb források és a helyszín viszonyát; teljes bútorbefoglaló, ajtónyitás, étkezői székkihúzás, 90 cm főút, 05.2 ágy, konyhai gépnyitás, teraszmegközelítés és szerelvény-hozzáférés legyen külön mérési tétel. A Blender-munka kizárólag a meglévő hatásköröd és repós munkarend szerint történjen.
+>
+> Ellenőrizd újra a nagy értékű termékek pontos változatát, méretét és árát; különösen a Wolke SKU-kat és az akciós/nem akciós árakat. Ellenőrizd a mennyiségeket, szállítást, szerelést, matracot, gépeket, fénytechnikát és a kettős számolást. A becslést, webárat és valódi ajánlatot külön jelöld. Számold újra a teljes 18 M-ot és a 2 M tartalék változatlanságát.
+>
+> Minden hibához adj súlyosságot, bizonyítékot, érintett tételt és a legkisebb olyan javítást, amely megőrzi a koncepció fősziluettjét és WOW-elemeit. Ne cseréld le önkényesen az Astra kreatív irányát egy olcsóbb, más karakterű szobára. Ha nincs azonos karakterű kereten belüli megoldás, azt nevezd meg döntési pontként.
+>
+> Az audit külön fájlba kerüljön az audits/ könyvtárban; az eredményt ne szerkeszd felül. Külön státusz: geometria, elektromos/rögzítési megvalósíthatóság, költség, anyaghűség, képi Gate. A még el nem készült renderre vagy fel nem mért helyszínre ne adj PASS-t. Commit után ellenőrizd vissza a fájlt. Ne rendelj, ne kérj külső ajánlatot, és ne indíts másik AI-munkamenetet.
+
+## 12. Átadási állapot és forrásjegyzék
+
+**Elkészült:** a felhasználó által korrigált tízes mezőny; tíz teljes lakásos recept; főbútor-jelöltek valós forrásokkal; tervezett WOW-elemek és ajánlatigényük; újraszámolt teljes célkeretek és stressz; szubjektív profil/rangsor és három ajánlott döntős; Claude mérési lista; tíz nem futtatható B-prompt; Medium/High/audit indítópromptok.
+
+**Nyitott:** a pontos megrendelhető teljes kosár, P15 SKU-egyeztetés, a tíz teljes bútorozás geometriai tesztje, kész falsíkok és terasznyitások mérése, rögzítési statika, egyedi gyártási és logisztikai ajánlatok. A B-fázisú képpróba és a kreatív látványküszöb bizonyítása még nem történt meg.
+
+**B-kapu:** a [WSG skill](../../07_skill/wsg-ertekalapu-stiluslabor/SKILL.md), [Render Reality Gate](../RENDER_REALITY_GATE.md) és az aktuális brief szerint helyszínnel összeegyeztetett alap, megfelelő validátor, üres referenciaképek és Péter külön B-indítása szükséges. Az A elkészülte ezt nem helyettesíti.
+
+A forrásként olvasott repóanyagok a fejlécben rögzített commitból:
+- GOAL.md; AGENTS.md; OPENAI_instructions.md; a repo-local és kanonikus WSG skill.
+- [Feladat](../requests/WSG-20261024-STYLE10-002.md), [handoff](../HANDOFF_PROTOCOL.md), [Gate](../RENDER_REALITY_GATE.md).
+- [A902 v1 bemenet](../inputs/A902_v1/INPUT_CSOMAG.md), [v1.1 helyszíni korrekció](../inputs/A902_v1_1/INPUT_CSOMAG_v1_1.md), geometria- és költségfájlok.
+- [Műszaki kivonat](../../08_allapotfelmeres/MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md), [költségstratégia](../../08_allapotfelmeres/KOLTSEGSTRATEGIA_3_LAKAS.md).
+- [Pilot](WSG-20261024-PILOT-001.md), [Claude pilot-audit](../audits/WSG-20261024-PILOT-001_CLAUDE_AUDIT.md), [Codex geometriai audit](../audits/A902_geometriai_audit_folytatas_2026-10-24.md).
+- v2b lock, eltéréslista, kameralap és validátor a 3. fejezet linkjein; [villamos források](../../01_alaprajzok/villamos_kiallasok/README.md).
+- A felhasználó két összehasonlító képe; helyszíni ME-BAL-045 és ME-BAL-080 képek vizuális ellenőrzése. A lokális fotó-másolat nem helyszíni mérés.
+- A kereskedői és trendforrások közvetlen linkje a megfelelő állítás és termék mellett szerepel.
+
+Nem készült rendelés, külső levél, ajánlatkérés, új kép vagy Blender-módosítás. Ez az A fázis **koncepció- és költségelőszűrése**, nem végleges kivitelezési terv.
