@@ -10,20 +10,26 @@ for nr, kod, cam, lepes, statusz in E.CSOMAGOK:
     r = E.ROOM[cam]; s = E.STY[kod]; ok = {}
     ok['mac=repo'] = (p == pm)
     ok['kozos_fixed'] = F.kozos_fixed().replace('{ROOM}', r[1]).replace('{STYLE_NAME}', s[1]) in p
-    ok['helyiseg_fixed'] = (F.cam10_csere() in p and 'Camera Cam_10_Furdo_06_2 (PROVISIONAL' not in p) if cam == 'Cam_10' else (F.helyiseg_fixed(r[2]) in p)
+    if cam == 'Cam_10': ok['helyiseg_fixed'] = F.cam10_csere() in p and 'Camera Cam_10_Furdo_06_2 (PROVISIONAL' not in p
+    elif cam == 'Cam_11': ok['helyiseg_fixed'] = F.cam11_csere() in p and F.helyiseg_fixed('Cam_04 · master háló 05.1') not in p
+    else: ok['helyiseg_fixed'] = F.helyiseg_fixed(r[2]) in p
     ok['hue'] = F.hue_blokk() in p
-    if cam == 'Cam_04': ok['gardrob'] = F.gardrob_blokk() in p and ((E.KAL_FRONT[kod] if kod in E.KAL_FRONT else F.gardrob_front(kod)) in p)
+    if cam in ('Cam_04', 'Cam_11'): ok['gardrob'] = F.gardrob_blokk() in p and ((E.KAL_FRONT[kod] if kod in E.KAL_FRONT else F.gardrob_front(kod)) in p)
     if kod in ('S01', 'S02'):
-        blokk = F.astra(f"{s[0]} · {r[0]} ({cam})"); ok['astra_szo_szerint'] = blokk in p
-        out = re.search(r'Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/(\S+)\.png', blokk).group(1); ok['kep_id=Astra_Output'] = (out == id_)
+        blokk = F.astra(f"{s[0]} · {r[0]} ({'Cam_04' if cam == 'Cam_11' else cam})"); ok['astra_szo_szerint'] = blokk in p
+        out = re.search(r'Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/(\S+)\.png', blokk).group(1)
+        ok['kep_id=Astra_Output'] = (out == id_) if cam != 'Cam_11' else (out.replace('_Cam_04_', '_Cam_11_') == id_ and id_ in p.split('=== RUN NOTES')[1])
     else:
         ok['kalibracio'] = F.kalibracio(kod) in p and F.koncepcio_cella('Zenit' if kod == 'C1' else 'Lake Forest', 'Nappali' if cam == 'Cam_02' else 'Master háló') in p
     ok['nincs_helyorzo'] = '{ROOM}' not in p and '{STYLE_NAME}' not in p
     jegyz = p.split('=== RUN NOTES')[1]
-    lampak = {'SOMAR': 'Somar', 'BRISIA': 'Brisia'}
+    lampak = {'SOMAR': 'Somar', 'BRISIA': 'Brisia', 'BRISIA50': 'Brisia pendant', 'RAZE': 'Raze', 'ALEYLA': 'Aleyla'}
     for k in E.TERMEKEK.get((kod, cam), []):
         if k in lampak: ok[f'hue_jegyzet_{lampak[k]}'] = any(l.startswith('- Hue check') and lampak[k] in l for l in jegyz.split('\n'))
-    if 'BRISIA' in E.TERMEKEK.get((kod, cam), []): ok['brisia_mennyezeti'] = 'the Brisia is a ceiling-mounted light, not a pendant on a cord' in jegyz
+    if 'BRISIA50' in E.TERMEKEK.get((kod, cam), []): ok['brisia_fuggeszto_csere'] = 'one frosted glass globe Ø50 cm' in jegyz and 'L00152CR05' in jegyz
+    if kod in ('S01', 'S02') and cam == 'Cam_04': ok['olvasolampa'] = ('Raze' if kod == 'S01' else 'Aleyla') in jegyz and 'D20/21 and D22/23' in jegyz
+    if cam == 'Cam_04': ok['ket_kamera'] = 'shown from two cameras' in jegyz and 'BLOCKED' not in p
+    if cam == 'Cam_11': ok['ket_kamera'] = 'same chat directly after the Cam_04 image' in jegyz
     if 'CISELIA' in E.TERMEKEK.get((kod, cam), []): ok['ciselia_meret'] = 'width 52.5 × depth 55 × height 75 cm, seat height 47 cm' in jegyz
     if 'EAMY' in E.TERMEKEK.get((kod, cam), []): ok['eamy_meret'] = 'width 55 × depth 53 × height 75 cm, seat height 46 cm' in jegyz
     ok['nincs_hianyzo_kave'] = not any(f.startswith('_HIANYZIK_') for f in os.listdir(m))

@@ -143,10 +143,12 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - *(2026-10-24 22:57, Péter – eldöntve)* **Minden lámpa Philips Hue-kompatibilis:**
   - E27/E14/GU10 foglalat, a burába beférő Hue-izzóval, vagy Hue lámpatest/Lightstrip;
   - fix blokk minden képpromptban: `05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md`.
-- *(2026-10-24, nyitott – Péter)*
-  - master-kamera: Cam_04 vagy Cam_11 (javaslat: Cam_11, draft PR #15);
-  - az ágy y-tengelye: a modellben 6,00, a terv szerint 6,40. A modell helyén a fejvég a D22/D23 dugaljat és a K14 kapcsolót takarja;
-  - Brisia: a Kave méretrajza szerint mennyezeti lámpa, nem függeszték (Ø80 × 26 cm). Elfogadható-e a Hue Lustre E14 + adapter, és az, hogy nem lóg az asztal fölé.
+- *(2026-10-24 23:33–23:39, Péter – eldöntve)*
+  - **Master 05.1 mindkét kamerával:** Cam_04 + Cam_11 (a Cam_11 a draft PR #15-ből, beolvasztás „mehet”-re). Így stílusonként 5 kép, a KEP-004 összesen 50 stíluskép + 6 kalibráció.
+  - **Ágy a terv szerinti helyen (y 6,40),** a két éjjeli dugaljcsoport között („ahogy szerinted jó”). A Blender bútorrétegét a PR #15-ben javítom.
+  - **Brisia helyett választhatok:** a Brisia család függesztett változata lett, 1 gömb Ø50 (Kave L00152CR05, E27, Ø97 mm-es nyílás). A 4 gömbös Brisia mennyezeti, nem lóg az asztal fölé.
+  - **Olvasólámpa:** designos legyen, és Hue-izzó férjen bele. S01: Kave Raze (E27); S02: Kave Aleyla, bordó (E14). Minden későbbi stílusnál ugyanez a szabály.
+  - **A Kave-oldalt a böngészőben olvashatom és fotózhatom**, ahogy ő is teszi („nekik csináljuk a businesst”).
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -197,4 +199,7 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
   - **Kapuk:**
     - 1a (6 kép): indítható Péter „mehet”-jével;
     - 1b (fürdő, 2 kép): az 1a Gate után;
-    - 1c (master, 4 kép): blokkolt a Cam_04/Cam_11 és az ágy-y döntésig, valamint az olvasólámpa-termékig (Astra „pre-image gate”).
+    - 1c (master, 8 kép: Cam_04 + Cam_11 párban, ugyanabban a chatben): ágy és olvasólámpa kész. A Cam_11-hez a PR #15 beolvasztása kell („mehet”).
+  - **2026-10-25 00:05 frissítés:** 16 csomag; Brisia-függeszték az S02 étkezőbe, Raze és Aleyla olvasólámpa. Hue-visszaellenőrzés mind a 16 promptra.
+    - A 2–3. adagban a Novae beépített LED-es, ezért cserélendő.
+    - Kave-specifikációk a böngészőből.

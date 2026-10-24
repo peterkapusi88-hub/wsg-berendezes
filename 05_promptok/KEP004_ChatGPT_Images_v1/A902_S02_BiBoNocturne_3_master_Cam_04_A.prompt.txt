@@ -6,6 +6,7 @@ ATTACHED IMAGES, in this order (the text below calls them image 1, image 2, imag
 - image 2 – site photo ME-BAL-080: the existing floor laminate
 - image 2b – site photo ME-BAL-077 taken in this room 05.1: white walls, niche, pillar, white frames, floor (its glass wall lies outside this camera view)
 - product photo – IKEA NORDLI white storage bed 180 × 200 (P10)
+- product photo – Kave Home Aleyla table lamp: maroon (deep plum-red) metal dome Ø22 cm on a slim black stem and round black base, H33 cm (AA6514R34)
 
 OUTPUT: one photorealistic interior photograph in landscape format with exactly the framing and perspective of image 1 (16:10; if that format is not offered, use the closest landscape format and extend the frame evenly – never crop or alter the geometry). True-to-life neutral colours. No text, labels, watermarks, people or logos. File names and repository paths in the text are for the project archive only.
 
@@ -59,7 +60,9 @@ Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/A902_S02_BiBoNocturne_3_master_Cam
 
 === RUN NOTES – Claude, 2026-10-24 (where the style block's 'Inputs' line differs, these notes apply) ===
 - Image 1 is the current v2b-1 base (identical camera parameters to the v2b base named in the style block; Cam_02/Cam_03 pixel-identical, Cam_04 only the corrected 05.1 niche facade differs).
-- BLOCKED until the owner decides between Cam_04 and the proposed Cam_11; if Cam_11 is chosen this prompt is recompiled with the Cam_11 camera block.
+- Master 05.1 is shown from two cameras (owner decision 2026-10-24 23:33): this Cam_04 view shows the headboard wall and the north wardrobe niche; the Cam_11 panorama view of the same furnished room follows in this chat as the next message.
 - Site photos ME-BAL-060/069/063 named in the style block show other rooms (05.3) and are not used; ME-BAL-077 (image 2b) is the room-confirmed photo of 05.1.
-- The bed stands with its headboard against the right-hand (east) wall of image 1, centred between the two bedside socket groups, its foot towards the window wall behind the camera.
-- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles).
+- The bed stands with its headboard against the right-hand (east) wall of image 1, centred between the two bedside socket groups (the plan position, owner decision 2026-10-24 23:35), its foot towards the window wall behind the camera.
+- Reading lamps (owner requirement 2026-10-24 23:35: designer pieces that take a Philips Hue bulb): one Kave Home Aleyla table lamp on each bedside block – maroon metal dome Ø22 cm on a slim black stem and round black base, H33 cm (AA6514R34) – plugged into D20/21 and D22/23 through the headboard cut-outs, cables hidden. This settles the style block's fixture gate for the reading lights.
+- Hue check (Kave Home specification, 2026-10-24): Aleyla has an E14 lampholder (max. 25 W) under the dome – a Philips Hue E14 bulb fits.
+- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos come from the Kave Home product pages (2026-10-24; some are crops of the owner's screenshots at reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.

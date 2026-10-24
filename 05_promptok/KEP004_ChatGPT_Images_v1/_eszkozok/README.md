@@ -4,7 +4,7 @@ Ezekkel készültek a `../*.prompt.txt` fájlok és a Macen lévő képcsomagok.
 
 | Fájl | Mit csinál |
 |---|---|
-| `forrasok.py` | A forrásblokkokat szó szerint kinyeri (v3.1 §1/§2/§3, Cam_10-csereblokk, gardrób- és Hue-blokk, Astra V2-stílusblokk, koncepció-cella). Csak olvas. |
+| `forrasok.py` | A forrásblokkokat szó szerint kinyeri (v3.1 §1/§2/§3, Cam_10-csereblokk, a Cam_11-blokk a PR #15 ágáról `git show`-val, gardrób- és Hue-blokk, Astra V2-stílusblokk, koncepció-cella). Csak olvas. |
 | `epito.py` | Összefűzi a promptot: fejléc → közös FIXED → helyiség-FIXED → Hue → gardrób (master) → stílus/kalibráció → RUN NOTES. Összeállítja a csomagokat és a nyilvántartást. |
 | `ellenor.py` | Szó szerinti egyezés és csomagteljesség (eredmény: `ellenorzes_promptok_v1.json`, hiba 0). |
 | `readme_frissito.py` | A `../README.md` táblái a nyilvántartásból. |

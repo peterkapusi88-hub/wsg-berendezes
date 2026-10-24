@@ -57,3 +57,13 @@ def hue_blokk():
     s = olvas(HUE); a = s.index('## Kiegészítő blokk (angol, szó szerint)')
     t = s[a:].split('\n', 1)[1]; q = '\n'.join(l for l in t.split('\n') if l.startswith('>'))
     return idezet(q)
+# Cam_11 csereblokk – a draft PR #15 ágáról (kep004/cam11-master-panorama-javaslat), git show-val, változatlanul
+import subprocess
+PR15 = 'kep004/cam11-master-panorama-javaslat'
+CAM11 = '05_promptok/A902_Cam11_master05_1_kamerablokk_JAVASLAT_v1.md'
+def pr15_fajl(p):
+    return subprocess.check_output(['git', '-C', R, 'show', PR15 + ':' + p]).decode('utf-8')
+def cam11_csere():
+    s = pr15_fajl(CAM11); a = s.index('## Csereblokk (angol, szó szerint)')
+    t = s[a:].split('\n', 1)[1]; q = '\n'.join(l for l in t.split('\n') if l.startswith('>'))
+    return idezet(q)

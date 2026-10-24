@@ -33,28 +33,37 @@ T = {
  'CISELIA': (None, 'Kave Home Ciselia chair, beige chenille, black steel legs (KH-CH-CISELIA-BK)', 'https://kavehome.com/hu/en/p/ciselia-chair-in-beige-chenille-and-steel-legs-with-black-finish-fsc-mix-credit', 'KH_Ciselia_szek_bezs_fekete'),
  'MARELY': (None, 'Kave Home Marely white wool rug 200 × 300 (KH-RUG-MARELY-W)', 'https://kavehome.com/hu/en/p/marely-white-wool-rug-200-x-300-cm', 'KH_Marely_szonyeg_feher_200x300'),
  'BRISIA': (None, 'Kave Home Brisia ceiling-mounted light (not a pendant), brushed brass, four frosted glass globes Ø15 cm, overall Ø80 × 26 cm high (KH-PL-BRISIA)','https://kavehome.com/hu/en/p/brisia-metal-ceiling-lamp-with-brushed-brass-finish-and-4-frosted-glass-balls-o15cm', 'KH_Brisia_fuggesztek_sargarez'),
+ # Péter 2026-10-24 23:35: a Brisia helyett választhatok másikat; az olvasólámpák designosak legyenek, Hue-izzó férjen beléjük
+ 'BRISIA50': (None, 'Kave Home Brisia pendant: one frosted glass globe Ø50 cm on a brushed-brass canopy and a black adjustable wire (L00152CR05)', 'https://kavehome.com/hu/en/p/brisia-metal-ceiling-lamp-with-brushed-brass-finish-and-1-frosted-glass-ball-o50cm', 'KH_Brisia_fuggesztek_1gomb_50_sargarez'),
+ 'RAZE': (None, 'Kave Home Raze table lamp: beige marble cylinder base and beige linen drum shade, H54 × Ø22 cm (L0300109PR46)', 'https://kavehome.com/hu/en/p/raze-table-lamp-in-beige-marble-with-a-beige-linen-shade', 'KH_Raze_asztali_lampa_bezs_marvany'),
+ 'ALEYLA': (None, 'Kave Home Aleyla table lamp: maroon (deep plum-red) metal dome Ø22 cm on a slim black stem and round black base, H33 cm (AA6514R34)', 'https://kavehome.com/hu/en/p/aleyla-table-lamp-in-metal-with-maroon-finish', 'KH_Aleyla_asztali_lampa_bordo'),
 }
+CAM11_ALAP = SCR + '/../cam11/A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png'   # a PR #15 ágáról (git show), változatlan
 ROOM = {'Cam_02': ('nappali–terasz', 'living room – terrace (nappali–terasz)', 'Cam_02 · nappali–terasz', 1, 'nappali-terasz'),
         'Cam_03': ('konyha–étkező', 'kitchen – dining (konyha–étkező)', 'Cam_03 · konyha–étkező', 2, 'etkezo-konyha'),
         'Cam_04': ('master', 'master bedroom 05.1 (master)', 'Cam_04 · master háló 05.1', 3, 'master'),
-        'Cam_10': ('fürdő 06.2', 'bathroom 06.2 (fürdő 06.2)', None, 4, 'furdo-06-2')}
+        'Cam_10': ('fürdő 06.2', 'bathroom 06.2 (fürdő 06.2)', None, 4, 'furdo-06-2'),
+        'Cam_11': ('master', 'master bedroom 05.1 (master)', None, 3, 'master')}
 STY = {'S01': ('S01 — Kyoto Ink', 'S01 Kyoto Ink', 'KyotoInk'), 'S02': ('S02 — BiBo Nocturne', 'S02 BiBo Nocturne', 'BiBoNocturne'),
        'C1': (None, 'C1 Zenit – original concept, calibration', 'Zenit'), 'C2': (None, 'C2 Lake Forest – original concept, calibration', 'LakeForest')}
 KAL_KEP = {('C1', 'Cam_02'): '04_renderek/ai_chatgpt/A902_Zenit_1_nappali_chatgpt.png', ('C2', 'Cam_02'): '04_renderek/ai_chatgpt/A902_LakeForest_1_nappali_chatgpt.png',
-           ('C1', 'Cam_04'): '04_renderek/ai_chatgpt/A902_Zenit_3_master_chatgpt.png', ('C2', 'Cam_04'): '04_renderek/ai_chatgpt/A902_LakeForest_3_master_chatgpt.png'}
+           ('C1', 'Cam_04'): '04_renderek/ai_chatgpt/A902_Zenit_3_master_chatgpt.png', ('C2', 'Cam_04'): '04_renderek/ai_chatgpt/A902_LakeForest_3_master_chatgpt.png',
+           ('C1', 'Cam_11'): '04_renderek/ai_chatgpt/A902_Zenit_3_master_chatgpt.png', ('C2', 'Cam_11'): '04_renderek/ai_chatgpt/A902_LakeForest_3_master_chatgpt.png'}
 KAL_FRONT = {'C1': 'Wardrobe fronts (C1 Zenit calibration): bronze-tinted real mirror doors, as in the original Zenit concept.',
              'C2': 'Wardrobe fronts (C2 Lake Forest calibration): cream laminate fronts with one narrow bronze-tinted real mirror band, as in the original Lake Forest concept.'}
 TERMEKEK = {('S01', 'Cam_02'): ['LENNON', 'TONI', 'EAMY', 'NIFELIA', 'SOMAR'], ('S01', 'Cam_03'): ['TONI', 'EKB31', 'EAMY', 'SOMAR'],
-            ('S01', 'Cam_04'): ['NORDLI'], ('S01', 'Cam_10'): [],
-            ('S02', 'Cam_02'): ['JATTEBO', 'ANOUK', 'CISELIA', 'MARELY', 'BRISIA'], ('S02', 'Cam_03'): ['ANOUK', 'EKB33', 'CISELIA', 'BRISIA'],
-            ('S02', 'Cam_04'): ['NORDLI'], ('S02', 'Cam_10'): []}
+            ('S01', 'Cam_04'): ['NORDLI', 'RAZE'], ('S01', 'Cam_10'): [], ('S01', 'Cam_11'): ['NORDLI'],
+            ('S02', 'Cam_02'): ['JATTEBO', 'ANOUK', 'CISELIA', 'MARELY', 'BRISIA50'], ('S02', 'Cam_03'): ['ANOUK', 'EKB33', 'CISELIA', 'BRISIA50'],
+            ('S02', 'Cam_04'): ['NORDLI', 'ALEYLA'], ('S02', 'Cam_10'): [], ('S02', 'Cam_11'): ['NORDLI']}
 CSOMAGOK = [  # (sorszám, kód, kamera, lépés, státusz)
  (1, 'C1', 'Cam_02', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'), (2, 'C2', 'Cam_02', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'),
  (3, 'S01', 'Cam_02', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'), (4, 'S02', 'Cam_02', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'),
  (5, 'S01', 'Cam_03', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'), (6, 'S02', 'Cam_03', '1a', 'INDÍTHATÓ – Péter „mehet”-je után (1a lépés)'),
  (7, 'S01', 'Cam_10', '1b', 'INDÍTHATÓ az 1a Gate-je után – Péter „mehet”-je kell (1b lépés)'), (8, 'S02', 'Cam_10', '1b', 'INDÍTHATÓ az 1a Gate-je után – Péter „mehet”-je kell (1b lépés)'),
- (9, 'C1', 'Cam_04', '1c', 'BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)'), (10, 'C2', 'Cam_04', '1c', 'BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)'),
- (11, 'S01', 'Cam_04', '1c', 'BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)'), (12, 'S02', 'Cam_04', '1c', 'BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)')]
+ (9, 'C1', 'Cam_04', '1c', 'INDÍTHATÓ az 1a/1b Gate-je után – Péter „mehet”-je kell (1c lépés)'), (10, 'C2', 'Cam_04', '1c', 'INDÍTHATÓ az 1a/1b Gate-je után – Péter „mehet”-je kell (1c lépés)'),
+ (11, 'S01', 'Cam_04', '1c', 'INDÍTHATÓ az 1a/1b Gate-je után – Péter „mehet”-je kell (1c lépés)'), (12, 'S02', 'Cam_04', '1c', 'INDÍTHATÓ az 1a/1b Gate-je után – Péter „mehet”-je kell (1c lépés)'),
+ (13, 'C1', 'Cam_11', '1c', 'A PR #15 beolvasztása („mehet”) után, ugyanabban a chatben, közvetlenül a Cam_04-párja után (1c lépés)'), (14, 'C2', 'Cam_11', '1c', 'A PR #15 beolvasztása („mehet”) után, ugyanabban a chatben, közvetlenül a Cam_04-párja után (1c lépés)'),
+ (15, 'S01', 'Cam_11', '1c', 'A PR #15 beolvasztása („mehet”) után, ugyanabban a chatben, közvetlenül a Cam_04-párja után (1c lépés)'), (16, 'S02', 'Cam_11', '1c', 'A PR #15 beolvasztása („mehet”) után, ugyanabban a chatben, közvetlenül a Cam_04-párja után (1c lépés)')]
 def kepid(kod, cam):
     r = ROOM[cam]; s = STY[kod]
     return f"A902_{kod}_{s[2]}_{r[3]}_{r[4]}_{cam}_A"
@@ -75,6 +84,10 @@ def bemenetek(kod, cam):
         L += [('01_kep1_blender_alap_Cam04_v2b1.png', R + B1 + 'A902_Alap-v2b1_blender_04_master.png', 'image 1 – Blender empty-room base, camera Cam_04 (authoritative geometry, camera, framing)', 'Blender-alapkép (geometria, kamera)'),
               ('02_kep2_padlo_ME-BAL-080.jpg', R + P080, 'image 2 – site photo ME-BAL-080: the existing floor laminate', 'helyszíni fotó: padló'),
               ('03_kep2b_05-1_szoba_ME-BAL-077.jpg', R + P077, 'image 2b – site photo ME-BAL-077 taken in this room 05.1: white walls, niche, pillar, white frames, floor (its glass wall lies outside this camera view)', 'helyszíni fotó: 05.1 (fal, fülke, pillér, profil)')]
+    elif cam == 'Cam_11':
+        L += [('01_kep1_blender_alap_Cam11_v2b1k11.png', CAM11_ALAP, 'image 1 – Blender empty-room base, camera Cam_11 master panorama (authoritative geometry, camera, framing)', 'Blender-alapkép (geometria, kamera) – PR #15'),
+              ('02_kep2_padlo_ME-BAL-080.jpg', R + P080, 'image 2 – site photo ME-BAL-080: the existing floor laminate', 'helyszíni fotó: padló'),
+              ('03_kep2b_05-1_uvegfal_kilatas_ME-BAL-077.jpg', R + P077, 'image 2b – site photo ME-BAL-077 taken in this room 05.1: the real glass wall, balcony railing and the actual view (city roofs, church spire, Buda hills)', 'helyszíni fotó: 05.1 üvegfal és valós kilátás')]
     elif cam == 'Cam_10':
         L += [('01_kep1_blender_alap_Cam10_v2b1k10.png', R + B1 + 'A902_Alap-v2b1_blender_10_furdo-06-2.png', 'image 1 – Blender empty-room base, fixed camera Cam_10 (authoritative geometry, camera, framing; tiles and sanitary ware simplified)', 'Blender-alapkép (geometria, kamera)'),
               ('02_kep2_furdo06-2_zuhany_mosdo_ME-BAL-064.jpg', R + P064, 'image 2 – site photo ME-BAL-064 of this bathroom 06.2: Geostone Grigio tiles, Esagonetta 3D decor wall, walk-in shower, black fittings, basin', 'helyszíni fotó 06.2: zuhany, mosdó, burkolat, dekor'),
@@ -92,11 +105,13 @@ def bemenetek(kod, cam):
             if not t[0]:
                 kh = kave_kep(t[3])
                 if kh:
-                    L.append((f'{n:02d}_kep4_termek_{t[3]}' + os.path.splitext(kh)[1], kh, f'product photo – {t[1]} (cropped from the Kave Home product page, reduced resolution)', f'termékfotó: {t[1]} – Kave Home, Péter képernyőképéből kivágva')); n += 1
+                    eredeti = t[3] in KAVE_EREDETI
+                    L.append((f'{n:02d}_kep4_termek_{t[3]}' + os.path.splitext(kh)[1], kh, f'product photo – {t[1]}' + ('' if eredeti else ' (cropped from the Kave Home product page, reduced resolution)'), f'termékfotó: {t[1]} – Kave Home, ' + ('a termékoldal fő képe (böngészőből, 2026-10-24)' if eredeti else 'Péter képernyőképéből kivágva'))); n += 1
                 else:
                     L.append((f'{n:02d}_kep4_termek_{t[3]}.jpg', None, f'product photo – {t[1]} (attached only if available)', f'termékfotó: {t[1]} – KÉZI MENTÉS (Kave Home)')); n += 1
     return L
 KEZI = KOR + '00_KAVE_HOME_KEZI_MENTES/'
+KAVE_EREDETI = {'KH_Brisia_fuggesztek_1gomb_50_sargarez', 'KH_Raze_asztali_lampa_bezs_marvany', 'KH_Aleyla_asztali_lampa_bordo'}   # a termékoldal fő képe, a böngészőből (Péter kérése, 23:39)
 def kave_kep(nev):  # a Kave Home termékkép a kézi mentési mappában (Claude kivágása Péter képernyőképéből vagy Péter saját mentése)
     for e in ('.jpg', '.jpeg', '.png', '.webp'):
         if os.path.exists(KEZI + nev + e): return KEZI + nev + e
@@ -115,9 +130,20 @@ def jegyzetek(kod, cam):
     if cam == 'Cam_02':
         J.append("The annotated check drawing (semleges_v2b …_ellenorzo.png) is deliberately not attached: it contains text and hatching; its facts are already in the fixed blocks.")
     if cam == 'Cam_04':
-        J.append("BLOCKED until the owner decides between Cam_04 and the proposed Cam_11; if Cam_11 is chosen this prompt is recompiled with the Cam_11 camera block.")
+        J.append("Master 05.1 is shown from two cameras (owner decision 2026-10-24 23:33): this Cam_04 view shows the headboard wall and the north wardrobe niche; the Cam_11 panorama view of the same furnished room follows in this chat as the next message.")
         J.append("Site photos ME-BAL-060/069/063 named in the style block show other rooms (05.3) and are not used; ME-BAL-077 (image 2b) is the room-confirmed photo of 05.1.")
-        J.append("The bed stands with its headboard against the right-hand (east) wall of image 1, centred between the two bedside socket groups, its foot towards the window wall behind the camera.")
+        J.append("The bed stands with its headboard against the right-hand (east) wall of image 1, centred between the two bedside socket groups (the plan position, owner decision 2026-10-24 23:35), its foot towards the window wall behind the camera.")
+    if cam == 'Cam_11':
+        J.append("Image 1 is the Cam_11 empty-room base rendered with the same settings as the other bases (v2b-1-k11, draft PR #15).")
+        J.append("Master 05.1 is shown from two cameras (owner decision 2026-10-24 23:33). Send this prompt in the same chat directly after the Cam_04 image of the same style: keep every furnishing, material, colour and light of that image identical – only the camera changes. Generate a new image from the camera of image 1 attached to this message; do not edit or crop the previous image. If this chat has no Cam_04 image of this style, follow the blocks below alone.")
+        J.append("The style block below was written for Cam_04: its Output line names the Cam_04 file – this run's image ID is " + kepid(kod, cam) + ". Its headboard, the bedside blocks and the reading lamps stand behind this camera and are not visible; the north wardrobe wall is at the right edge, the south wardrobe strip at the left edge.")
+        J.append("Site photos ME-BAL-060/069/063 named in the style block show other rooms (05.3) and are not used; ME-BAL-077 (image 2b) is the room-confirmed photo of 05.1 and shows its real view.")
+    if kod == 'S01' and cam == 'Cam_04':
+        J.append("Reading lamps (owner requirement 2026-10-24 23:35: designer pieces that take a Philips Hue bulb): one Kave Home Raze table lamp on each bedside block – beige marble cylinder base, beige linen drum shade, H54 × Ø22 cm (L0300109PR46) – plugged into D20/21 and D22/23 through the headboard cut-outs, cables hidden behind the blocks. This settles the style block's fixture gate for the reading lights.")
+        J.append("Hue check (Kave Home specification, 2026-10-24): Raze has an E27 lampholder (max. 40 W) inside an open linen drum – a standard Philips Hue E27 bulb fits.")
+    if kod == 'S02' and cam == 'Cam_04':
+        J.append("Reading lamps (owner requirement 2026-10-24 23:35: designer pieces that take a Philips Hue bulb): one Kave Home Aleyla table lamp on each bedside block – maroon metal dome Ø22 cm on a slim black stem and round black base, H33 cm (AA6514R34) – plugged into D20/21 and D22/23 through the headboard cut-outs, cables hidden. This settles the style block's fixture gate for the reading lights.")
+        J.append("Hue check (Kave Home specification, 2026-10-24): Aleyla has an E14 lampholder (max. 25 W) under the dome – a Philips Hue E14 bulb fits.")
     if cam == 'Cam_10':
         J.append("The fixed Cam_10 block above replaces the provisional camera of the template (that position fell inside the WC). Image 1 now exists and the photos of image 2/2b are room-confirmed 06.2 – the style block's statements that image 1 does not exist and that ME-BAL-064/066 are provisional are superseded.")
         J.append("Known simplifications of image 1, not validated: the model's old simplified sanitary blocks overlap the walls by 2–10 cm and the hexagonal 3D decor tile is an approximate procedural pattern – follow image 2/2b for the real tiles, decor, fittings and their exact positions.")
@@ -128,13 +154,13 @@ def jegyzetek(kod, cam):
     if kod == 'S02' and cam in ('Cam_02', 'Cam_03'):
         J.append("Ciselia chair outer dimensions from the Kave Home product drawing (screenshot by the owner, 2026-10-24): width 52.5 × depth 55 × height 75 cm, seat height 47 cm, seat 46 × 43 cm, legs Ø2.5 cm – use these; the 'outer dimensions NOT RECORDED' note of record KH-CH-CISELIA-BK is resolved.")
     if kod == 'S02' and cam in ('Cam_02', 'Cam_03'):
-        J.append("Brisia mounting (Kave Home product drawing, screenshot by the owner, 2026-10-24): the Brisia is a ceiling-mounted light, not a pendant on a cord – overall Ø80 cm and only 26 cm high, ceiling rose Ø16 cm, four frosted Ø15 cm glass globes on short brushed-brass arms. It sits directly on the ceiling at ML04, its lowest point about 2.64 m above the floor (ceiling 2.90 m). Where the style block calls it a 'pendant' or a 'suspended object', read 'ceiling-mounted light': no cord, no rod, nothing hanging low over the table.")
-        J.append("Hue check (Kave Home specification, 2026-10-24): the Brisia has E27 lampholders (max. 25 W) with a Ø49 mm opening in each frosted globe – fitted with Philips Hue Lustre E14 bulbs (Ø45 × 77 mm, 2200–6500 K) on E27–E14 adapters; the frosted globes look unchanged.")
+        J.append("Dining pendant (owner decision 2026-10-24 23:35): the four-globe Brisia named in the style block (KH-PL-BRISIA) is a flush ceiling light that cannot hang over the table, so it is replaced by the Brisia pendant of the same family – one frosted glass globe Ø50 cm on a brushed-brass canopy and a black adjustable wire (Kave Home L00152CR05). It hangs straight down from the existing point ML04 (about 0.20 m from the table centre – do not move it to the table centre), the globe's lowest point about 70–75 cm above the table top. Wherever the style block says KH-PL-BRISIA or 'four frosted Brisia globes', use this single-globe pendant.")
+        J.append("Hue check (Kave Home specification, 2026-10-24): the Brisia pendant has an E27 lampholder (max. 25 W) and a Ø97 mm opening in the globe – a standard Philips Hue E27 bulb fits.")
     if kod in ('C1', 'C2'):
         J.append("LED elements named in the original concept (LED mirror, LED strips) are rendered as Philips Hue light strips or Hue-bulb fittings, following the Hue requirement above.")
     if kod in ('S01', 'S02'):
         if any(not T[k][0] for k in TERMEKEK[(kod, cam)]):
-            J.append("No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos are crops of the owner's screenshots of the Kave Home product pages (2026-10-24, reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.")
+            J.append("No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos come from the Kave Home product pages (2026-10-24; some are crops of the owner's screenshots at reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.")
         else:
             J.append("No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles).")
     if kod in ('C1', 'C2'):
@@ -147,14 +173,16 @@ def prompt(kod, cam, L):
     reszek.append("=== COMMON FIXED BLOCK – template v3.1 §1, verbatim (room and style name filled in) ===\n" + kf)
     if cam == 'Cam_10':
         reszek.append("=== ROOM FIXED BLOCK – Cam_10 · bathroom 06.2: the fixed camera block v1 (05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md) replaces the provisional template block, verbatim ===\n" + F.cam10_csere())
+    elif cam == 'Cam_11':
+        reszek.append("=== ROOM FIXED BLOCK – Cam_11 · master 05.1 panorama: the camera block proposal v1 (05_promptok/A902_Cam11_master05_1_kamerablokk_JAVASLAT_v1.md, draft PR #15) replaces the template's Cam_04 block, verbatim ===\n" + F.cam11_csere())
     else:
         reszek.append(f"=== ROOM FIXED BLOCK – template v3.1 §2 {r[2]}, verbatim ===\n" + F.helyiseg_fixed(r[2]))
     reszek.append("=== OWNER REQUIREMENT – Philips Hue lighting (05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md), verbatim ===\n" + F.hue_blokk())
-    if cam == 'Cam_04':
+    if cam in ('Cam_04', 'Cam_11'):
         front = KAL_FRONT[kod] if kod in KAL_FRONT else F.gardrob_front(kod)
         reszek.append("=== OWNER DECISION ADDENDUM – 05.1 wardrobe wall (05_promptok/A902_05_1_gardrobfal_FIXED_kiegeszites_v1.md), verbatim ===\n" + F.gardrob_blokk() + "\n" + front)
     if kod in ('S01', 'S02'):
-        cim = f"{s[0]} · {r[0]} ({cam})"
+        cim = f"{s[0]} · {r[0]} ({'Cam_04' if cam == 'Cam_11' else cam})"   # a Cam_11-nek nincs külön Astra-blokkja: a master (Cam_04) stílusblokk szó szerint
         reszek.append(f"=== STYLE BLOCK – Astra V2 r1, verbatim ===\n" + F.astra(cim))
     else:
         hely = 'Nappali' if cam == 'Cam_02' else 'Master háló'; ver = 'Zenit' if kod == 'C1' else 'Lake Forest'
@@ -190,7 +218,7 @@ if __name__ == '__main__':
         open(ATV + f'{nr:02d}_{id_}/_ide_tedd_a_kesz_kepet.txt', 'w', encoding='utf-8').write(
             f"Ide jön a ChatGPT-ből letöltött kép ehhez: {id_} (átnevezni nem kell).\nHa újragenerálás kell, a második kép is ide jöhet – Claude _v2 utótaggal archiválja.\nA chat linkjét írd az ATVETELI_NAPLO.csv-be (chat_link oszlop) vagy szólj Claude-nak.\n")
         nyilv.append(dict(nr=nr, id=id_, kod=kod, kamera=cam, lepes=lepes, statusz=statusz, prompt_sha256=F.sha(txt), prompt_karakter=len(txt),
-                          bemenetek=[dict(fajl=f, forras=(src.replace(R, '') if src and src.startswith(R) else (('00_KAVE_HOME_KEZI_MENTES/' + os.path.basename(src) + ' (kivágás Péter Kave-képernyőképéből)') if src and src.startswith(KEZI) else (os.path.basename(src) if src else 'Kave Home – kézi mentés'))), szerep=hu,
+                          bemenetek=[dict(fajl=f, forras=(src.replace(R, '') if src and src.startswith(R) else (('00_KAVE_HOME_KEZI_MENTES/' + os.path.basename(src) + ' (Kave Home – Péter képernyőképe vagy a böngészőből mentve)') if src and src.startswith(KEZI) else (('PR #15 ág (' + F.PR15 + '): 04_renderek/A902_cam11_javaslat_v1/' + os.path.basename(src)) if src and src == CAM11_ALAP else (os.path.basename(src) if src else 'Kave Home – kézi mentés')))), szerep=hu,
                                           sha256=(hashlib.sha256(open(src, 'rb').read()).hexdigest() if src else None)) for f, src, en, hu in L]))
     json.dump(nyilv, open(SCR + '/csomag_nyilvantartas.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('KÉSZ', len(nyilv))
