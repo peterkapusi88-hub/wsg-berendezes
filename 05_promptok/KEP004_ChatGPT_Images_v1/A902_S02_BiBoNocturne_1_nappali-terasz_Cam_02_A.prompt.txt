@@ -1,0 +1,75 @@
+KEP-004 · ChatGPT Images · image ID A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A · prompt version KEP004-CGI-v1 (2026-10-24, compiled by Claude; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_v1/README.md)
+RUN AUTHORISATION: the project owner sends this message only when the KEP-004 gate for this image is open – sending it is the approval. Generate exactly ONE image.
+
+ATTACHED IMAGES, in this order (the text below calls them image 1, image 2, image 2b … as listed):
+- image 1 – Blender empty-room base, camera Cam_02 (authoritative geometry, camera, framing)
+- image 2 – site photo ME-BAL-080: the existing floor laminate, its colour, grain and skirting
+- image 2b – site photo sheet ME-BAL-045/046/042/044/053: white walls, white inner frames with dark brick reveal, terrace porcelain tiles, steps and raised WPC deck
+- image 2c – the real panorama from the terrace (video still): the actual exterior view
+- product photo – IKEA JÄTTEBO 3.5-seat modular U with two chaises, Samsala dark blue (P04)
+- product photo – Westwing Anouk clear glass dining table 180 × 90 cm (P08)
+- product photo – Kave Home Ciselia chair, beige chenille, black steel legs (KH-CH-CISELIA-BK) (cropped from the Kave Home product page, reduced resolution)
+- product photo – Kave Home Marely white wool rug 200 × 300 (KH-RUG-MARELY-W) (cropped from the Kave Home product page, reduced resolution)
+- product photo – Kave Home Brisia ceiling-mounted light (not a pendant), brushed brass, four frosted glass globes Ø15 cm, overall Ø80 × 26 cm high (KH-PL-BRISIA) (cropped from the Kave Home product page, reduced resolution)
+
+OUTPUT: one photorealistic interior photograph in landscape format with exactly the framing and perspective of image 1 (16:10; if that format is not offered, use the closest landscape format and extend the frame evenly – never crop or alter the geometry). True-to-life neutral colours. No text, labels, watermarks, people or logos. File names and repository paths in the text are for the project archive only.
+
+=== COMMON FIXED BLOCK – template v3.1 §1, verbatim (room and style name filled in) ===
+**CONCEPT ONLY – NOT VALIDATED. Do not generate before the KEP-004 gate is open for this batch.** Create a photorealistic interior image of the A-902 apartment, room "living room – terrace (nappali–terasz)", style "S02 BiBo Nocturne", as one of four coordinated rooms of the same style, for a ten-way comparison.
+
+**Geometry and camera (image 1 is authoritative).** Use image 1 strictly for room geometry, openings and camera. Keep the exact framing, wall contours, the 2.90 m white ceiling, door and window positions and the real exterior view. Do not widen the room, do not add or move walls, columns, niches, bulkheads, coves or ceiling fixtures; the ceiling carries heating/cooling panels – nothing is attached to it except the existing light points.
+
+**Existing surfaces – must not change.** Floors in living, dining, kitchen, corridor and bedrooms: the existing Egger Grey Treviso Oak EL2184 laminate as in image 2 – medium grey-brown oak with strong grain and knots, 6 cm matching skirting; not light oak, not cool grey, not concrete. Walls and ceilings: painted white, smooth, no colour cast. Window and door frames white inside, anthracite outside in a dark brick reveal; interior doors light grey with black handles; switches, thermostat, sensors and consumer units stay visible and free. Bathroom and WC: the existing large-format light warm-grey stone-effect tiles on floor and walls, the built-in walk-in shower with linear drain, black rain head, black tap, black towel radiator and black flush plate stay exactly as built; nothing is re-tiled, demolished or moved.
+
+**Furniture and products.** Only the products and envelopes named in the style block, at their exact real dimensions and handedness; no enlarging, no shrinking to fit. Circulation: minimum 90 cm main routes (accepted 75 cm side route on the terrace side of the dining table only), 45–50 cm sofa–table, 90 cm chair pull-out, 60 cm beside beds, door swings free. Powered items only at the existing point IDs named in the style block. Laminate reads as laminate, fabric as the named fabric; real metal, glass, ceramics and natural stone only where a verified product says so. Stone-, travertine-, marble- or concrete-effect decor materials (laminate, printed or mineral panels, porcelain tiles) ARE allowed when the style block names them honestly as such – render them as what they are, never present them as solid natural stone. The existing stone-effect bathroom and terrace tiles are real, built surfaces and stay as they are.
+
+**Light and grading – comparison rules.** Series A (first): in rooms with windows neutral overcast daylight, no sun; in the windowless bathroom 06.2 neutral artificial light from the existing points only (basin light and ceiling point, 3000–4000 K), identical for all styles – no invented window, skylight, light shaft or daylight. Identical exposure and white balance across all images of the batch and the calibration images; no warm grading, haze or bloom. Series B (finalists only, later): identical evening scene with the existing points lit. Luxury must come from silhouette, material depth, proportion, layering and negative space – not from warmer light, larger imaginary furniture, a wider lens or a fictional view.
+
+**Coherence rule.** The four rooms of one style share one material and colour DNA and the same signature gesture family, but each room has its own composition and at least one room-specific signature element; the bedroom and bathroom must not simply repeat the living-room colours.
+
+**Style block for this room follows. Unresolved fields are blockers, not creative freedom.**
+
+=== ROOM FIXED BLOCK – template v3.1 §2 Cam_02 · nappali–terasz, verbatim ===
+Camera Cam_02: position (8.30, 4.40, 1.55), Euler (1.479, 0, 0.858), 20 mm, 1600×1000. Terrace levels: ceramic tiles −0.15 m, raised ribbed WPC deck +0.62 m, green roof, anthracite railing, real Buda hillside and city roofs. Dining table centre 0.30 m west of the plan position (P902_24A). U-shaped sofas only with the TV on the west factory block (points D16/D17, antenna G08); with a south-wall TV (point D19, console ending before the switch column at x ≈ 7.15) only L-shaped sofas. Pendant only at point ML05 (living) and ML04 (dining).
+
+=== OWNER REQUIREMENT – Philips Hue lighting (05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md), verbatim ===
+OWNER REQUIREMENT – lighting, fixed for every style and room (2026-10-24): every luminaire shown must work with standard Philips Hue replacement bulbs – sockets E27, E14 or GU10 only, with the Hue bulb physically fitting inside the shade or globe – or be a Philips Hue fixture or light strip, so that all light runs in Hue scenes (warm 2700 K for the evening series). No integrated non-Hue LED fittings and no G9, G4 or other sockets for which no Hue bulb exists. Luminaires only on the existing points; in the bathroom only fittings rated for the wet zone.
+
+=== STYLE BLOCK – Astra V2 r1, verbatim ===
+### S02 — BiBo Nocturne · nappali–terasz (Cam_02)
+
+Fixed blocks: source template v3.1 §1 + §2 Cam_02, verbatim, before this block; source commit 46e3c5cbe2607479d7eba8037b1fbbc164365fe6. Do not generate until the KEP-004 gate is open.
+
+Style DNA (common to the four rooms): An intimate sculptural residence contrasting a navy conversation mass with softly irregular real reflections, transparent glass and restrained pale fabric; plum in the bedroom and graphite in the bathroom reinterpret the same soft contour.
+
+Room composition: Use the exact navy JÄTTEBO U, open towards the west TV, as a compact conversation basin with its central bay left clear rather than filled by an oversized coffee table. Integrate one softly irregular mirror beside a matte-blue floor-supported cabinet so reflection and opaque colour read as one composition. The clear Anouk dining rectangle and six beige Ciselia chairs must remain lighter than the U, with no extra lounge chair. Carry a small navy textile echo onto the removable terrace bench; reflect only real architecture and the actual view.
+
+Products (verified records): P04: IKEA JÄTTEBO 3.5-seat modular U with two chaises and arms, Samsala dark blue, 496.076.48; 285 × 160 × 71 cm; recorded price 928,000 HUF, 2026-10-24; https://www.ikea.com/hu/hu/p/jaettebo-3-5-szemelyes-elemes-kanape-heverok-karfak-samsala-soetetkek-s49607648/; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+P08: Westwing Anouk dining table, transparent clear glass, 23WES68910; 180 × 90 × 75 cm; 84 kg; recorded price 320,000 HUF, 2026-10-24; https://www.westwing.hu/anouk-uveg-etkezoasztal-180-x-90-cm-hu-23wes68910.html; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+KH-CH-CISELIA-BK: Kave Home Ciselia chair, beige chenille and black steel legs; outer dimensions NOT RECORDED in the source; recorded price 199 EUR, 2026-10-24; https://kavehome.com/hu/en/p/ciselia-chair-in-beige-chenille-and-steel-legs-with-black-finish-fsc-mix-credit; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+KH-RUG-MARELY-W: Kave Home Marely white wool rug; 200×300 cm; recorded price 499 EUR, 2026-10-24; https://kavehome.com/hu/en/p/marely-white-wool-rug-200-x-300-cm; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+KH-PL-BRISIA: Kave Home Brisia pendant, brushed brass and four frosted glass balls; gömb Ø15 cm; recorded price 199 EUR, 2026-10-24; https://kavehome.com/hu/en/p/brisia-metal-ceiling-lamp-with-brushed-brass-finish-and-4-frosted-glass-balls-o15cm; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+Dining quantity: exactly one table and six identical chairs, the same configuration in Cam_02 and Cam_03. Missing outer dimensions are a pre-image blocker; do not estimate or substitute.
+
+Custom pieces: BN-L: W240 × H50 × D40 cm white carcass media unit, matte navy laminate fronts (sample/code pending), radiused applied end only, 2 mm ABS edges, plinth-supported. BN-R: W80 × H190 cm irregular mirror, safety-backed, separately mechanically fixed and floor supported where engineered; cable access to D16/D17 kept. BN-O: W150 × H42 × D60 cm aluminium/outdoor-HPL terrace bench with navy outdoor cushion. Narrow removable arm tray W25 × D35 cm is an accessory, not a new central table. These are proposed fabrication envelopes, not verified site dimensions; wall/anti-tip fixing, substrate, service access and material samples require approval before the image phase. Inherited budget rows: 03a cap 0,900 M HUF, 03b cap 0,928 M HUF, 03c/e/f, 10 lighting, 11/12 art where specified, 13c outdoor furniture. PREMIUM differences remain conditional; no new total calculated.
+
+Light: Series A: neutral overcast daylight and identical comparison exposure/white balance. Dining pendant KH-PL-BRISIA only at A902-ML04; retain A902-ML05 as the existing living point, with no additional decorative fixture specified. TV power A902-D16/D17 at the west factory block, antenna G08.   No new wired terrace lights; retain FL05/06/07. No ceiling drilling, no warm grading.
+
+Avoid: a giant marble coffee table inside the U, a blue Gala invented from a beige product, restaurant artworks, floral ceiling installations, gold overload. No unlisted hero furniture, no product recolouring, no invented dimensions or geometry; no people, logos or text on the image.
+
+Inputs (in order): Image 1 = the verified v2b-1 Cam_02 empty geometry base at 04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_02_nappali-terasz.png plus 04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali_ellenorzo.png; image 2 = A902 site material-photo set ME-BAL-080, 045, 046, 042, 044, 053 plus the actual panorama A902_terasz_panorama_v0b_videobol.jpg; image 3 = optional original Zenit/Lake Forest living-room reference, mood/quality only, never geometry; image 4 = exact selected sofa, table, chair, rug and lamp product photos. Follow the source template §0/a order, including its unresolved input conditions.
+
+Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A.png (+ same basename .prompt.txt)
+
+=== RUN NOTES – Claude, 2026-10-24 (where the style block's 'Inputs' line differs, these notes apply) ===
+- Image 1 is the current v2b-1 base (identical camera parameters to the v2b base named in the style block; Cam_02/Cam_03 pixel-identical, Cam_04 only the corrected 05.1 niche facade differs).
+- The annotated check drawing (semleges_v2b …_ellenorzo.png) is deliberately not attached: it contains text and hatching; its facts are already in the fixed blocks.
+- Ciselia chair outer dimensions from the Kave Home product drawing (screenshot by the owner, 2026-10-24): width 52.5 × depth 55 × height 75 cm, seat height 47 cm, seat 46 × 43 cm, legs Ø2.5 cm – use these; the 'outer dimensions NOT RECORDED' note of record KH-CH-CISELIA-BK is resolved.
+- Brisia mounting (Kave Home product drawing, screenshot by the owner, 2026-10-24): the Brisia is a ceiling-mounted light, not a pendant on a cord – overall Ø80 cm and only 26 cm high, ceiling rose Ø16 cm, four frosted Ø15 cm glass globes on short brushed-brass arms. It sits directly on the ceiling at ML04, its lowest point about 2.64 m above the floor (ceiling 2.90 m). Where the style block calls it a 'pendant' or a 'suspended object', read 'ceiling-mounted light': no cord, no rod, nothing hanging low over the table.
+- Hue check (Kave Home specification, 2026-10-24): the Brisia has E27 lampholders (max. 25 W) with a Ø49 mm opening in each frosted globe – fitted with Philips Hue Lustre E14 bulbs (Ø45 × 77 mm, 2200–6500 K) on E27–E14 adapters; the frosted globes look unchanged.
+- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos are crops of the owner's screenshots of the Kave Home product pages (2026-10-24, reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.

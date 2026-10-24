@@ -1,0 +1,542 @@
+[
+ {
+  "nr": 1,
+  "id": "A902_C1_Zenit_1_nappali-terasz_Cam_02_A",
+  "kod": "C1",
+  "kamera": "Cam_02",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "d46f4747ab5c8a15ad34f00ed82654d1e618fbc4db184107a093cc2fedb1f4df",
+  "prompt_karakter": 8212,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "helyszin_kontaktlap_Cam02.jpg",
+    "szerep": "helyszíni fotók: fal, profil, terasz (kontaktlap)",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62"
+   },
+   {
+    "fajl": "04_kep2c_panorama_terasz.jpg",
+    "forras": "02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0b_videobol.jpg",
+    "szerep": "valós panoráma",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e"
+   },
+   {
+    "fajl": "05_kep3_eredeti_Zenit_referencia.png",
+    "forras": "04_renderek/ai_chatgpt/A902_Zenit_1_nappali_chatgpt.png",
+    "szerep": "eredeti Zenit-kép (csak hangulat/minőség)",
+    "sha256": "c8a16e88b122cf3ea0c391d0495646a8d857a4287ce6d07ba76cc32489cb4008"
+   }
+  ]
+ },
+ {
+  "nr": 2,
+  "id": "A902_C2_LakeForest_1_nappali-terasz_Cam_02_A",
+  "kod": "C2",
+  "kamera": "Cam_02",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "699a2cefaf536576bef30142fc38f7911c190bb37535c186aee482d1fcc2db0a",
+  "prompt_karakter": 8142,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "helyszin_kontaktlap_Cam02.jpg",
+    "szerep": "helyszíni fotók: fal, profil, terasz (kontaktlap)",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62"
+   },
+   {
+    "fajl": "04_kep2c_panorama_terasz.jpg",
+    "forras": "02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0b_videobol.jpg",
+    "szerep": "valós panoráma",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e"
+   },
+   {
+    "fajl": "05_kep3_eredeti_LakeForest_referencia.png",
+    "forras": "04_renderek/ai_chatgpt/A902_LakeForest_1_nappali_chatgpt.png",
+    "szerep": "eredeti LakeForest-kép (csak hangulat/minőség)",
+    "sha256": "52e01cbe544f2848df0aca96283d5d67b5d25cfcc31bd470b5e9d2b09a325769"
+   }
+  ]
+ },
+ {
+  "nr": 3,
+  "id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A",
+  "kod": "S01",
+  "kamera": "Cam_02",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "3576f547ef537b9e0f42fdb1b7441424fa0fdb75ad44952cb06ee0f04076d9f8",
+  "prompt_karakter": 13568,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "helyszin_kontaktlap_Cam02.jpg",
+    "szerep": "helyszíni fotók: fal, profil, terasz (kontaktlap)",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62"
+   },
+   {
+    "fajl": "04_kep2c_panorama_terasz.jpg",
+    "forras": "02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0b_videobol.jpg",
+    "szerep": "valós panoráma",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e"
+   },
+   {
+    "fajl": "05_kep4_termek_ww_Lennon_L_jobbos_szurkesbarna_DEQ21WES12329-168260.jpg",
+    "forras": "ww_Lennon_L_jobbos_szurkesbarna_DEQ21WES12329-168260.jpg",
+    "szerep": "termékfotó: Westwing Lennon modular corner sofa, right-hand chaise, taupe woven fabric (P14)",
+    "sha256": "c2814e421f3f0859ff483a258dd825a69133f8dccfe342ae5caf2bc745ca6c67"
+   },
+   {
+    "fajl": "06_kep4_termek_ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "forras": "ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "szerep": "termékfotó: Westwing Toni oval dining table 200 × 90 cm, light oak veneer (P09)",
+    "sha256": "da0652a02a2f0c33da0d6f8276653ffe6843adedd0e8c4aba0c3fbf2485b9fa2"
+   },
+   {
+    "fajl": "07_kep4_termek_KH_Eamy_szek_vilagosszurke.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Eamy_szek_vilagosszurke.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Eamy chair, light-grey chenille, natural ash (KH-CH-EAMY-LG) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "3eb2830c375472c5784fa668921d340f8bd1e2bb00be1cc3003f880a4c0e3a91"
+   },
+   {
+    "fajl": "08_kep4_termek_KH_Nifelia_szonyeg_200x300.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Nifelia_szonyeg_200x300.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Nifelia beige wool jacquard rug 200 × 300 (KH-RUG-NIFELIA) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "8071584b73ca01ef2d044ab606ca0157a6f37762b52b79a6ce09e2a130f7909f"
+   },
+   {
+    "fajl": "09_kep4_termek_KH_Somar_fuggesztek_76.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Somar_fuggesztek_76.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Somar pendant Ø76 (KH-PL-SOMAR76) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "ea936eca0ba26c071011334d9a48d09eafba526d85777fe0e8ce56affa8d7ff1"
+   }
+  ]
+ },
+ {
+  "nr": 4,
+  "id": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A",
+  "kod": "S02",
+  "kamera": "Cam_02",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "1c315f2798da6bd2a3d7b8e2de5aa345e23e38b28fcafc52f05347571eba65d7",
+  "prompt_karakter": 14322,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "helyszin_kontaktlap_Cam02.jpg",
+    "szerep": "helyszíni fotók: fal, profil, terasz (kontaktlap)",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62"
+   },
+   {
+    "fajl": "04_kep2c_panorama_terasz.jpg",
+    "forras": "02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0b_videobol.jpg",
+    "szerep": "valós panoráma",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e"
+   },
+   {
+    "fajl": "05_kep4_termek_ikea_JATTEBO_U_Samsala_sotetkek_49607648.jpg",
+    "forras": "ikea_JATTEBO_U_Samsala_sotetkek_49607648.jpg",
+    "szerep": "termékfotó: IKEA JÄTTEBO 3.5-seat modular U with two chaises, Samsala dark blue (P04)",
+    "sha256": "a9f482e59e27d150fd2c89bce9ad9e0eaab853c5bd61ac93ff5cd3e199f41aa7"
+   },
+   {
+    "fajl": "06_kep4_termek_ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "forras": "ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "szerep": "termékfotó: Westwing Anouk clear glass dining table 180 × 90 cm (P08)",
+    "sha256": "1c330875218b39f211773d0a295c9ea94ccb8183718e5e681bcaf656498c53bd"
+   },
+   {
+    "fajl": "07_kep4_termek_KH_Ciselia_szek_bezs_fekete.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Ciselia_szek_bezs_fekete.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Ciselia chair, beige chenille, black steel legs (KH-CH-CISELIA-BK) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "3b5449507116942c13634bd1420b57dedaa7eb457894d8bcd1a25e753a5f3a50"
+   },
+   {
+    "fajl": "08_kep4_termek_KH_Marely_szonyeg_feher_200x300.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Marely_szonyeg_feher_200x300.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Marely white wool rug 200 × 300 (KH-RUG-MARELY-W) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "afa79d72147fa6bc2c88a8b7fbed305ea8214a998590e7b334236c9a326dcd0f"
+   },
+   {
+    "fajl": "09_kep4_termek_KH_Brisia_fuggesztek_sargarez.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Brisia_fuggesztek_sargarez.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Brisia ceiling-mounted light (not a pendant), brushed brass, four frosted glass globes Ø15 cm, overall Ø80 × 26 cm high (KH-PL-BRISIA) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "2f18cb176f69822f4bd3e0ea6922647d6187c4d937364e3f92179d0806cd9442"
+   }
+  ]
+ },
+ {
+  "nr": 5,
+  "id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A",
+  "kod": "S01",
+  "kamera": "Cam_03",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "b1ae5f5061fd68d7a91107f9d8ca1011b2edff81bb9d5944012a5943a0141125",
+  "prompt_karakter": 12728,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam03_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_03_etkezo-konyha.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "f6f3ca25bb065051ffffbc6b9f6c06fcbb377bad7b523e75feee4297534999ed"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_konyhafal_ME-BAL-056.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/02_konyha/A902_02_20261021_ME-BAL-056_konyhafal_kiallasok.jpg",
+    "szerep": "helyszíni fotó: konyhafal, kiállások, mellvéd",
+    "sha256": "cb316cd7d1ded4f05b16bebd6bc59fd0d98a57fefc87a6972acab8050b1cc667"
+   },
+   {
+    "fajl": "04_kep2c_nappali_terasz_fele_ME-BAL-045.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-045_nappali_terasz_fele.jpg",
+    "szerep": "helyszíni fotó: fal, profil",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "fajl": "05_kep4_termek_ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "forras": "ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "szerep": "termékfotó: Westwing Toni oval dining table 200 × 90 cm, light oak veneer (P09)",
+    "sha256": "da0652a02a2f0c33da0d6f8276653ffe6843adedd0e8c4aba0c3fbf2485b9fa2"
+   },
+   {
+    "fajl": "06_kep4_termek_ikea_EKBACKEN_vilagosszurke_beton_40616275.jpg",
+    "forras": "ikea_EKBACKEN_vilagosszurke_beton_40616275.jpg",
+    "szerep": "termékfotó: IKEA EKBACKEN worktop, light-grey concrete-effect laminate (AG-31)",
+    "sha256": "8bdae8b0f22bfd76435ba7de57c2f1dd6f184b4cfa44a6d73c699c247f2e1775"
+   },
+   {
+    "fajl": "07_kep4_termek_KH_Eamy_szek_vilagosszurke.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Eamy_szek_vilagosszurke.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Eamy chair, light-grey chenille, natural ash (KH-CH-EAMY-LG) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "3eb2830c375472c5784fa668921d340f8bd1e2bb00be1cc3003f880a4c0e3a91"
+   },
+   {
+    "fajl": "08_kep4_termek_KH_Somar_fuggesztek_76.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Somar_fuggesztek_76.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Somar pendant Ø76 (KH-PL-SOMAR76) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "ea936eca0ba26c071011334d9a48d09eafba526d85777fe0e8ce56affa8d7ff1"
+   }
+  ]
+ },
+ {
+  "nr": 6,
+  "id": "A902_S02_BiBoNocturne_2_etkezo-konyha_Cam_03_A",
+  "kod": "S02",
+  "kamera": "Cam_03",
+  "lepes": "1a",
+  "statusz": "INDÍTHATÓ – Péter „mehet”-je után (1a lépés)",
+  "prompt_sha256": "4424f0ccd87c3a2beb7f4192cfcd32fb51e85566455c543795175eecb49c2fb9",
+  "prompt_karakter": 13359,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam03_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_03_etkezo-konyha.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "f6f3ca25bb065051ffffbc6b9f6c06fcbb377bad7b523e75feee4297534999ed"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_konyhafal_ME-BAL-056.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/02_konyha/A902_02_20261021_ME-BAL-056_konyhafal_kiallasok.jpg",
+    "szerep": "helyszíni fotó: konyhafal, kiállások, mellvéd",
+    "sha256": "cb316cd7d1ded4f05b16bebd6bc59fd0d98a57fefc87a6972acab8050b1cc667"
+   },
+   {
+    "fajl": "04_kep2c_nappali_terasz_fele_ME-BAL-045.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-045_nappali_terasz_fele.jpg",
+    "szerep": "helyszíni fotó: fal, profil",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "fajl": "05_kep4_termek_ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "forras": "ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "szerep": "termékfotó: Westwing Anouk clear glass dining table 180 × 90 cm (P08)",
+    "sha256": "1c330875218b39f211773d0a295c9ea94ccb8183718e5e681bcaf656498c53bd"
+   },
+   {
+    "fajl": "06_kep4_termek_ikea_EKBACKEN_szurke-bezs_ko_20604320.jpg",
+    "forras": "ikea_EKBACKEN_szurke-bezs_ko_20604320.jpg",
+    "szerep": "termékfotó: IKEA EKBACKEN worktop, grey-beige stone-effect laminate (AG-33)",
+    "sha256": "41caab249954958558b41961c8d46f50b0c8d04ff02c422bd92e1cd39ede3b49"
+   },
+   {
+    "fajl": "07_kep4_termek_KH_Ciselia_szek_bezs_fekete.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Ciselia_szek_bezs_fekete.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Ciselia chair, beige chenille, black steel legs (KH-CH-CISELIA-BK) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "3b5449507116942c13634bd1420b57dedaa7eb457894d8bcd1a25e753a5f3a50"
+   },
+   {
+    "fajl": "08_kep4_termek_KH_Brisia_fuggesztek_sargarez.jpg",
+    "forras": "00_KAVE_HOME_KEZI_MENTES/KH_Brisia_fuggesztek_sargarez.jpg (kivágás Péter Kave-képernyőképéből)",
+    "szerep": "termékfotó: Kave Home Brisia ceiling-mounted light (not a pendant), brushed brass, four frosted glass globes Ø15 cm, overall Ø80 × 26 cm high (KH-PL-BRISIA) – Kave Home, Péter képernyőképéből kivágva",
+    "sha256": "2f18cb176f69822f4bd3e0ea6922647d6187c4d937364e3f92179d0806cd9442"
+   }
+  ]
+ },
+ {
+  "nr": 7,
+  "id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A",
+  "kod": "S01",
+  "kamera": "Cam_10",
+  "lepes": "1b",
+  "statusz": "INDÍTHATÓ az 1a Gate-je után – Péter „mehet”-je kell (1b lépés)",
+  "prompt_sha256": "25a4745aef45715be208b487ec595ed7b39cc1ea03d9573dab238672d24dddb4",
+  "prompt_karakter": 12398,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam10_v2b1k10.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_10_furdo-06-2.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "25c818fdc30ffa07846d2224b073b47ffaa71c890362de707df641910aec75a2"
+   },
+   {
+    "fajl": "02_kep2_furdo06-2_zuhany_mosdo_ME-BAL-064.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-064_zuhany_mosdo.jpg",
+    "szerep": "helyszíni fotó 06.2: zuhany, mosdó, burkolat, dekor",
+    "sha256": "6e577ef470a721447fd42d03600fde3ec85cf2f8526124f6e0f3147bd9a0348e"
+   },
+   {
+    "fajl": "03_kep2b_furdo06-2_wc_torolkozoszarito_ajto_ME-BAL-066.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg",
+    "szerep": "helyszíni fotó 06.2: WC, törölközőszárító, ajtó",
+    "sha256": "6b50e8a59bf6e606697ab4b0359e4223b26062bdb20ce4858c7e06cc5f9df309"
+   }
+  ]
+ },
+ {
+  "nr": 8,
+  "id": "A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A",
+  "kod": "S02",
+  "kamera": "Cam_10",
+  "lepes": "1b",
+  "statusz": "INDÍTHATÓ az 1a Gate-je után – Péter „mehet”-je kell (1b lépés)",
+  "prompt_sha256": "5c79e72602daed1347574737c47fb5728a9a2692c7ef35be102c378c0d56463b",
+  "prompt_karakter": 12456,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam10_v2b1k10.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_10_furdo-06-2.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "25c818fdc30ffa07846d2224b073b47ffaa71c890362de707df641910aec75a2"
+   },
+   {
+    "fajl": "02_kep2_furdo06-2_zuhany_mosdo_ME-BAL-064.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-064_zuhany_mosdo.jpg",
+    "szerep": "helyszíni fotó 06.2: zuhany, mosdó, burkolat, dekor",
+    "sha256": "6e577ef470a721447fd42d03600fde3ec85cf2f8526124f6e0f3147bd9a0348e"
+   },
+   {
+    "fajl": "03_kep2b_furdo06-2_wc_torolkozoszarito_ajto_ME-BAL-066.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg",
+    "szerep": "helyszíni fotó 06.2: WC, törölközőszárító, ajtó",
+    "sha256": "6b50e8a59bf6e606697ab4b0359e4223b26062bdb20ce4858c7e06cc5f9df309"
+   }
+  ]
+ },
+ {
+  "nr": 9,
+  "id": "A902_C1_Zenit_3_master_Cam_04_A",
+  "kod": "C1",
+  "kamera": "Cam_04",
+  "lepes": "1c",
+  "statusz": "BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)",
+  "prompt_sha256": "09c3ceaff251ab1589dd156db1285d87d503693a2f04895301fd54ee08800b3a",
+  "prompt_karakter": 9421,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam04_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_04_master.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "ee9cdf86748b997575e1f03029bccae47898861b7c2a64d962de27b0c24a9347"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_05-1_szoba_ME-BAL-077.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/00_besorolando/A902_00_20261021_ME-BAL-077_szoba_uvegfal_kilatas.jpg",
+    "szerep": "helyszíni fotó: 05.1 (fal, fülke, pillér, profil)",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   },
+   {
+    "fajl": "04_kep3_eredeti_Zenit_referencia.png",
+    "forras": "04_renderek/ai_chatgpt/A902_Zenit_3_master_chatgpt.png",
+    "szerep": "eredeti Zenit-kép (csak hangulat/minőség)",
+    "sha256": "37d17acef38cb8a6ba70c042241044a05a3e4a3280130d6b471a2c08276ef10a"
+   }
+  ]
+ },
+ {
+  "nr": 10,
+  "id": "A902_C2_LakeForest_3_master_Cam_04_A",
+  "kod": "C2",
+  "kamera": "Cam_04",
+  "lepes": "1c",
+  "statusz": "BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)",
+  "prompt_sha256": "5ab509e790ea1e8728b9f51744156099c693a4ffbcc8c5bcd3a7ac8753c6d1c5",
+  "prompt_karakter": 9379,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam04_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_04_master.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "ee9cdf86748b997575e1f03029bccae47898861b7c2a64d962de27b0c24a9347"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_05-1_szoba_ME-BAL-077.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/00_besorolando/A902_00_20261021_ME-BAL-077_szoba_uvegfal_kilatas.jpg",
+    "szerep": "helyszíni fotó: 05.1 (fal, fülke, pillér, profil)",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   },
+   {
+    "fajl": "04_kep3_eredeti_LakeForest_referencia.png",
+    "forras": "04_renderek/ai_chatgpt/A902_LakeForest_3_master_chatgpt.png",
+    "szerep": "eredeti LakeForest-kép (csak hangulat/minőség)",
+    "sha256": "34b060b88c318558f2998e0fc0b10b9a9e043d0c95c7d2232135bf2168c693d7"
+   }
+  ]
+ },
+ {
+  "nr": 11,
+  "id": "A902_S01_KyotoInk_3_master_Cam_04_A",
+  "kod": "S01",
+  "kamera": "Cam_04",
+  "lepes": "1c",
+  "statusz": "BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)",
+  "prompt_sha256": "6ba944cc7850e9c192b978c51ef43b950822a3959f3cd729a97924155c84c810",
+  "prompt_karakter": 11950,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam04_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_04_master.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "ee9cdf86748b997575e1f03029bccae47898861b7c2a64d962de27b0c24a9347"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_05-1_szoba_ME-BAL-077.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/00_besorolando/A902_00_20261021_ME-BAL-077_szoba_uvegfal_kilatas.jpg",
+    "szerep": "helyszíni fotó: 05.1 (fal, fülke, pillér, profil)",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   },
+   {
+    "fajl": "04_kep4_termek_ikea_NORDLI_20349853.jpg",
+    "forras": "ikea_NORDLI_20349853.jpg",
+    "szerep": "termékfotó: IKEA NORDLI white storage bed 180 × 200 (P10)",
+    "sha256": "9666446a9166382a3f9cb676b86ac042f799ae0170b75ecc1bf02db826817ac7"
+   }
+  ]
+ },
+ {
+  "nr": 12,
+  "id": "A902_S02_BiBoNocturne_3_master_Cam_04_A",
+  "kod": "S02",
+  "kamera": "Cam_04",
+  "lepes": "1c",
+  "statusz": "BLOKKOLT – a Cam_04/Cam_11 döntésig (1c lépés)",
+  "prompt_sha256": "dc261d3a9670cc69946eb66752f343fb5274e4e9c9a74d411bbb5535134f87cf",
+  "prompt_karakter": 11958,
+  "bemenetek": [
+   {
+    "fajl": "01_kep1_blender_alap_Cam04_v2b1.png",
+    "forras": "04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_04_master.png",
+    "szerep": "Blender-alapkép (geometria, kamera)",
+    "sha256": "ee9cdf86748b997575e1f03029bccae47898861b7c2a64d962de27b0c24a9347"
+   },
+   {
+    "fajl": "02_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "szerep": "helyszíni fotó: padló",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "fajl": "03_kep2b_05-1_szoba_ME-BAL-077.jpg",
+    "forras": "08_allapotfelmeres/fotok/A902/00_besorolando/A902_00_20261021_ME-BAL-077_szoba_uvegfal_kilatas.jpg",
+    "szerep": "helyszíni fotó: 05.1 (fal, fülke, pillér, profil)",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   },
+   {
+    "fajl": "04_kep4_termek_ikea_NORDLI_20349853.jpg",
+    "forras": "ikea_NORDLI_20349853.jpg",
+    "szerep": "termékfotó: IKEA NORDLI white storage bed 180 × 200 (P10)",
+    "sha256": "9666446a9166382a3f9cb676b86ac042f799ae0170b75ecc1bf02db826817ac7"
+   }
+  ]
+ }
+]

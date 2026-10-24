@@ -1,0 +1,65 @@
+KEP-004 · ChatGPT Images · image ID A902_S02_BiBoNocturne_3_master_Cam_04_A · prompt version KEP004-CGI-v1 (2026-10-24, compiled by Claude; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_v1/README.md)
+RUN AUTHORISATION: the project owner sends this message only when the KEP-004 gate for this image is open – sending it is the approval. Generate exactly ONE image.
+
+ATTACHED IMAGES, in this order (the text below calls them image 1, image 2, image 2b … as listed):
+- image 1 – Blender empty-room base, camera Cam_04 (authoritative geometry, camera, framing)
+- image 2 – site photo ME-BAL-080: the existing floor laminate
+- image 2b – site photo ME-BAL-077 taken in this room 05.1: white walls, niche, pillar, white frames, floor (its glass wall lies outside this camera view)
+- product photo – IKEA NORDLI white storage bed 180 × 200 (P10)
+
+OUTPUT: one photorealistic interior photograph in landscape format with exactly the framing and perspective of image 1 (16:10; if that format is not offered, use the closest landscape format and extend the frame evenly – never crop or alter the geometry). True-to-life neutral colours. No text, labels, watermarks, people or logos. File names and repository paths in the text are for the project archive only.
+
+=== COMMON FIXED BLOCK – template v3.1 §1, verbatim (room and style name filled in) ===
+**CONCEPT ONLY – NOT VALIDATED. Do not generate before the KEP-004 gate is open for this batch.** Create a photorealistic interior image of the A-902 apartment, room "master bedroom 05.1 (master)", style "S02 BiBo Nocturne", as one of four coordinated rooms of the same style, for a ten-way comparison.
+
+**Geometry and camera (image 1 is authoritative).** Use image 1 strictly for room geometry, openings and camera. Keep the exact framing, wall contours, the 2.90 m white ceiling, door and window positions and the real exterior view. Do not widen the room, do not add or move walls, columns, niches, bulkheads, coves or ceiling fixtures; the ceiling carries heating/cooling panels – nothing is attached to it except the existing light points.
+
+**Existing surfaces – must not change.** Floors in living, dining, kitchen, corridor and bedrooms: the existing Egger Grey Treviso Oak EL2184 laminate as in image 2 – medium grey-brown oak with strong grain and knots, 6 cm matching skirting; not light oak, not cool grey, not concrete. Walls and ceilings: painted white, smooth, no colour cast. Window and door frames white inside, anthracite outside in a dark brick reveal; interior doors light grey with black handles; switches, thermostat, sensors and consumer units stay visible and free. Bathroom and WC: the existing large-format light warm-grey stone-effect tiles on floor and walls, the built-in walk-in shower with linear drain, black rain head, black tap, black towel radiator and black flush plate stay exactly as built; nothing is re-tiled, demolished or moved.
+
+**Furniture and products.** Only the products and envelopes named in the style block, at their exact real dimensions and handedness; no enlarging, no shrinking to fit. Circulation: minimum 90 cm main routes (accepted 75 cm side route on the terrace side of the dining table only), 45–50 cm sofa–table, 90 cm chair pull-out, 60 cm beside beds, door swings free. Powered items only at the existing point IDs named in the style block. Laminate reads as laminate, fabric as the named fabric; real metal, glass, ceramics and natural stone only where a verified product says so. Stone-, travertine-, marble- or concrete-effect decor materials (laminate, printed or mineral panels, porcelain tiles) ARE allowed when the style block names them honestly as such – render them as what they are, never present them as solid natural stone. The existing stone-effect bathroom and terrace tiles are real, built surfaces and stay as they are.
+
+**Light and grading – comparison rules.** Series A (first): in rooms with windows neutral overcast daylight, no sun; in the windowless bathroom 06.2 neutral artificial light from the existing points only (basin light and ceiling point, 3000–4000 K), identical for all styles – no invented window, skylight, light shaft or daylight. Identical exposure and white balance across all images of the batch and the calibration images; no warm grading, haze or bloom. Series B (finalists only, later): identical evening scene with the existing points lit. Luxury must come from silhouette, material depth, proportion, layering and negative space – not from warmer light, larger imaginary furniture, a wider lens or a fictional view.
+
+**Coherence rule.** The four rooms of one style share one material and colour DNA and the same signature gesture family, but each room has its own composition and at least one room-specific signature element; the bedroom and bathroom must not simply repeat the living-room colours.
+
+**Style block for this room follows. Unresolved fields are blockers, not creative freedom.**
+
+=== ROOM FIXED BLOCK – template v3.1 §2 Cam_04 · master háló 05.1, verbatim ===
+Camera Cam_04: position (0.35, 4.30, 1.50), Euler (1.434, 0, −0.745), 20 mm, 1600×1000. Room 3.57 × 5.50 m incl. the wardrobe niche; bed 180×200 with its real outer frame dimensions, at least 60 cm beside the bed, wardrobe doors and the terrace door swing free; the headboard composition must keep the existing points D20–D23 accessible; reading lights only at D20/21 and D22/23, ceiling point ML06, niche light D26; no wall drilling into the ceiling panels; the terrace glazing (3.65 m) and the white frames unchanged.
+
+=== OWNER REQUIREMENT – Philips Hue lighting (05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md), verbatim ===
+OWNER REQUIREMENT – lighting, fixed for every style and room (2026-10-24): every luminaire shown must work with standard Philips Hue replacement bulbs – sockets E27, E14 or GU10 only, with the Hue bulb physically fitting inside the shade or globe – or be a Philips Hue fixture or light strip, so that all light runs in Hue scenes (warm 2700 K for the evening series). No integrated non-Hue LED fittings and no G9, G4 or other sockets for which no Hue bulb exists. Luminaires only on the existing points; in the bathroom only fittings rated for the wet zone.
+
+=== OWNER DECISION ADDENDUM – 05.1 wardrobe wall (05_promptok/A902_05_1_gardrobfal_FIXED_kiegeszites_v1.md), verbatim ===
+OWNER DECISION – master bedroom 05.1 storage, fixed for all ten styles (2026-10-24; supersedes any wardrobe wording in the style block below): a floor-to-ceiling wardrobe wall fills the whole north niche (about 3.00 m wide × 0.90 m deep × 2.90 m high), its fronts flush with the face of the pillar at the niche opening, handleless push-to-open doors with fine even reveals, no visible carcass edges; the existing socket and data outlet on the niche back wall stay accessible behind a cut-out. The 2.42 m wardrobe strip on the south side next to the door stays a wardrobe in the same front family. The front finish follows the style line below and is named honestly (real tinted mirror glass, textile- or wallpaper-wrapped panels, faux-leather upholstered panels or laminate) – no painted fronts, no real stone, no fake marble.
+Wardrobe fronts (S02): smoked-bronze tinted real mirror glass with safety backing in slim matte-black aluminium frames, push-to-open; it softly reflects the window light and the plum headboard – no mirror on the ceiling or above the bed.
+
+=== STYLE BLOCK – Astra V2 r1, verbatim ===
+### S02 — BiBo Nocturne · master (Cam_04)
+
+Fixed blocks: source template v3.1 §1 + §2 Cam_04, verbatim, before this block; source commit 46e3c5cbe2607479d7eba8037b1fbbc164365fe6. Do not generate until the KEP-004 gate is open.
+
+Style DNA (common to the four rooms): An intimate sculptural residence contrasting a navy conversation mass with softly irregular real reflections, transparent glass and restrained pale fabric; plum in the bedroom and graphite in the bathroom reinterpret the same soft contour.
+
+Room composition: Create a quiet plum textile sanctuary using two broad headboard panels with softened upper corners, separated by a narrow white slit. Keep the white NORDLI platform honest and low; use pale bedding and only one small navy piping detail to connect back to the salon. Small grounded bedside blocks should be subordinate to the headboard and leave sockets, drawer travel and the terrace route free. The luxury comes from the rounded silhouette and fabric pile, not darkened walls or a mirror above the bed.
+
+Products (verified records): P10: IKEA NORDLI white storage bed for 180 × 200 cm mattress, 203.498.53; outer frame 180 × 202 × 30 cm; mattress and headboard separate; recorded price 189,900 HUF, 2026-10-24; https://www.ikea.com/hu/hu/p/nordli-agykeret-taroloval-feher-20349853/; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+IKEA PAX carcasses plus flat style fronts in the existing niche; exact module count and outer envelope to follow the measured niche, not an invented full wall. The selected headboard and bedside pieces are custom records below. No Kave Home bed alternative is rendered before its actual outer dimensions are verified.
+
+Custom pieces: BN-M: W260 × H100 × D6 cm padded plywood headboard, two plum textile panels, 8 cm upper corner radii, removable covers and wall cleats with D20–23 cut-outs. Bedside blocks W30 × H45 × D30 cm, matte graphite laminate, floor standing. PAX light laminate fronts within the existing niche. These are proposed fabrication envelopes, not verified site dimensions; wall/anti-tip fixing, substrate, service access and material samples require approval before the image phase. Inherited budget rows: 04a 0.55 M HUF, 04b cap 0,350 M HUF, 04c and 04d 0.45 each; electrical system in 10 without double counting. Fabrication quotation required.
+
+Light: Series A: neutral overcast daylight, equal exposure. Compact plug-in reading luminaires only at A902-D20/21 and D22/23, ML06 ceiling point retained, niche light from D26 after on-site identification; fixture SKU, shade envelope and mount remain a pre-image gate. No new wall light points, ceiling coves or drilling into heating/cooling panels.
+
+Avoid: a navy copy of the living room, upholstered whole walls, floating bedside tables without brackets, mirrored ceiling. No unlisted hero furniture, no product recolouring, no invented dimensions or geometry; no people, logos or text on the image.
+
+Inputs (in order): Image 1 = the verified v2b-1 Cam_04 empty geometry base at 04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_04_master.png plus 04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png; image 2 = A902 ME-BAL-080 and room-confirmed ME-BAL-060, 069, 063 (their 05.1 assignment must be established, not assumed); image 3 = optional original Zenit/Lake Forest master reference, quality only; image 4 = NORDLI bed product photo, headboard material sample and final niche-front sample. Follow source template §0/a.
+
+Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/A902_S02_BiBoNocturne_3_master_Cam_04_A.png (+ same basename .prompt.txt)
+
+=== RUN NOTES – Claude, 2026-10-24 (where the style block's 'Inputs' line differs, these notes apply) ===
+- Image 1 is the current v2b-1 base (identical camera parameters to the v2b base named in the style block; Cam_02/Cam_03 pixel-identical, Cam_04 only the corrected 05.1 niche facade differs).
+- BLOCKED until the owner decides between Cam_04 and the proposed Cam_11; if Cam_11 is chosen this prompt is recompiled with the Cam_11 camera block.
+- Site photos ME-BAL-060/069/063 named in the style block show other rooms (05.3) and are not used; ME-BAL-077 (image 2b) is the room-confirmed photo of 05.1.
+- The bed stands with its headboard against the right-hand (east) wall of image 1, centred between the two bedside socket groups, its foot towards the window wall behind the camera.
+- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles).

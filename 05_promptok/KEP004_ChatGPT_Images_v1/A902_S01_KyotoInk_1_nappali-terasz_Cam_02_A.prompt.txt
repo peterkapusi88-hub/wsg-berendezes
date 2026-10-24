@@ -1,0 +1,74 @@
+KEP-004 · ChatGPT Images · image ID A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A · prompt version KEP004-CGI-v1 (2026-10-24, compiled by Claude; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_v1/README.md)
+RUN AUTHORISATION: the project owner sends this message only when the KEP-004 gate for this image is open – sending it is the approval. Generate exactly ONE image.
+
+ATTACHED IMAGES, in this order (the text below calls them image 1, image 2, image 2b … as listed):
+- image 1 – Blender empty-room base, camera Cam_02 (authoritative geometry, camera, framing)
+- image 2 – site photo ME-BAL-080: the existing floor laminate, its colour, grain and skirting
+- image 2b – site photo sheet ME-BAL-045/046/042/044/053: white walls, white inner frames with dark brick reveal, terrace porcelain tiles, steps and raised WPC deck
+- image 2c – the real panorama from the terrace (video still): the actual exterior view
+- product photo – Westwing Lennon modular corner sofa, right-hand chaise, taupe woven fabric (P14)
+- product photo – Westwing Toni oval dining table 200 × 90 cm, light oak veneer (P09)
+- product photo – Kave Home Eamy chair, light-grey chenille, natural ash (KH-CH-EAMY-LG) (cropped from the Kave Home product page, reduced resolution)
+- product photo – Kave Home Nifelia beige wool jacquard rug 200 × 300 (KH-RUG-NIFELIA) (cropped from the Kave Home product page, reduced resolution)
+- product photo – Kave Home Somar pendant Ø76 (KH-PL-SOMAR76) (cropped from the Kave Home product page, reduced resolution)
+
+OUTPUT: one photorealistic interior photograph in landscape format with exactly the framing and perspective of image 1 (16:10; if that format is not offered, use the closest landscape format and extend the frame evenly – never crop or alter the geometry). True-to-life neutral colours. No text, labels, watermarks, people or logos. File names and repository paths in the text are for the project archive only.
+
+=== COMMON FIXED BLOCK – template v3.1 §1, verbatim (room and style name filled in) ===
+**CONCEPT ONLY – NOT VALIDATED. Do not generate before the KEP-004 gate is open for this batch.** Create a photorealistic interior image of the A-902 apartment, room "living room – terrace (nappali–terasz)", style "S01 Kyoto Ink", as one of four coordinated rooms of the same style, for a ten-way comparison.
+
+**Geometry and camera (image 1 is authoritative).** Use image 1 strictly for room geometry, openings and camera. Keep the exact framing, wall contours, the 2.90 m white ceiling, door and window positions and the real exterior view. Do not widen the room, do not add or move walls, columns, niches, bulkheads, coves or ceiling fixtures; the ceiling carries heating/cooling panels – nothing is attached to it except the existing light points.
+
+**Existing surfaces – must not change.** Floors in living, dining, kitchen, corridor and bedrooms: the existing Egger Grey Treviso Oak EL2184 laminate as in image 2 – medium grey-brown oak with strong grain and knots, 6 cm matching skirting; not light oak, not cool grey, not concrete. Walls and ceilings: painted white, smooth, no colour cast. Window and door frames white inside, anthracite outside in a dark brick reveal; interior doors light grey with black handles; switches, thermostat, sensors and consumer units stay visible and free. Bathroom and WC: the existing large-format light warm-grey stone-effect tiles on floor and walls, the built-in walk-in shower with linear drain, black rain head, black tap, black towel radiator and black flush plate stay exactly as built; nothing is re-tiled, demolished or moved.
+
+**Furniture and products.** Only the products and envelopes named in the style block, at their exact real dimensions and handedness; no enlarging, no shrinking to fit. Circulation: minimum 90 cm main routes (accepted 75 cm side route on the terrace side of the dining table only), 45–50 cm sofa–table, 90 cm chair pull-out, 60 cm beside beds, door swings free. Powered items only at the existing point IDs named in the style block. Laminate reads as laminate, fabric as the named fabric; real metal, glass, ceramics and natural stone only where a verified product says so. Stone-, travertine-, marble- or concrete-effect decor materials (laminate, printed or mineral panels, porcelain tiles) ARE allowed when the style block names them honestly as such – render them as what they are, never present them as solid natural stone. The existing stone-effect bathroom and terrace tiles are real, built surfaces and stay as they are.
+
+**Light and grading – comparison rules.** Series A (first): in rooms with windows neutral overcast daylight, no sun; in the windowless bathroom 06.2 neutral artificial light from the existing points only (basin light and ceiling point, 3000–4000 K), identical for all styles – no invented window, skylight, light shaft or daylight. Identical exposure and white balance across all images of the batch and the calibration images; no warm grading, haze or bloom. Series B (finalists only, later): identical evening scene with the existing points lit. Luxury must come from silhouette, material depth, proportion, layering and negative space – not from warmer light, larger imaginary furniture, a wider lens or a fictional view.
+
+**Coherence rule.** The four rooms of one style share one material and colour DNA and the same signature gesture family, but each room has its own composition and at least one room-specific signature element; the bedroom and bathroom must not simply repeat the living-room colours.
+
+**Style block for this room follows. Unresolved fields are blockers, not creative freedom.**
+
+=== ROOM FIXED BLOCK – template v3.1 §2 Cam_02 · nappali–terasz, verbatim ===
+Camera Cam_02: position (8.30, 4.40, 1.55), Euler (1.479, 0, 0.858), 20 mm, 1600×1000. Terrace levels: ceramic tiles −0.15 m, raised ribbed WPC deck +0.62 m, green roof, anthracite railing, real Buda hillside and city roofs. Dining table centre 0.30 m west of the plan position (P902_24A). U-shaped sofas only with the TV on the west factory block (points D16/D17, antenna G08); with a south-wall TV (point D19, console ending before the switch column at x ≈ 7.15) only L-shaped sofas. Pendant only at point ML05 (living) and ML04 (dining).
+
+=== OWNER REQUIREMENT – Philips Hue lighting (05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md), verbatim ===
+OWNER REQUIREMENT – lighting, fixed for every style and room (2026-10-24): every luminaire shown must work with standard Philips Hue replacement bulbs – sockets E27, E14 or GU10 only, with the Hue bulb physically fitting inside the shade or globe – or be a Philips Hue fixture or light strip, so that all light runs in Hue scenes (warm 2700 K for the evening series). No integrated non-Hue LED fittings and no G9, G4 or other sockets for which no Hue bulb exists. Luminaires only on the existing points; in the bathroom only fittings rated for the wet zone.
+
+=== STYLE BLOCK – Astra V2 r1, verbatim ===
+### S01 — Kyoto Ink · nappali–terasz (Cam_02)
+
+Fixed blocks: source template v3.1 §1 + §2 Cam_02, verbatim, before this block; source commit 46e3c5cbe2607479d7eba8037b1fbbc164365fe6. Do not generate until the KEP-004 gate is open.
+
+Style DNA (common to the four rooms): Contemporary Japanese luxury through low graphite horizons, taupe woven upholstery, translucent natural textile and precisely proportioned white voids; each room interprets layering rather than repeating a beige palette.
+
+Room composition: Place the exact right-hand Lennon L as one low seating island on the Nifelia rug, with the west-facing TV integrated into a long graphite cabinet. Offset one translucent textile panel beside, not over, the screen; let its real shadow and a narrow open lattice edge reveal the white wall behind it. Keep the upper wall mostly empty and the dining oval visually separate from the denser sofa. On the accessible tiled terrace, repeat only the low horizon with the specified removable bench; retain the threshold, steps and planting.
+
+Products (verified records): P14: Westwing Lennon right-hand L, taupe woven polyester upholstery, DEQ21WES12329-168260; 238 × 180 × 68 cm; recorded price 800,000 HUF, 2026-10-24; https://www.westwing.hu/lennon-modularis-sarokkanape-hu-21wes12329.html?simple=DEQ21WES12329-168260; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+P09: Westwing Toni oval dining table, light oak veneer/MDF, 200 cm version, DEQ19WES60483-150724; 200 × 90 × 75 cm; recorded price 320,000 HUF (not the price of the 160 cm version), 2026-10-24; https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+KH-CH-EAMY-LG: Kave Home Eamy chair, light-grey chenille, natural ash veneer and black metal; outer dimensions NOT RECORDED in the source; recorded price 179 EUR, 2026-10-24; https://kavehome.com/hu/en/p/eamy-chair-light-grey-chenille-and-ash-wood-veneer-with-a-natural-finish-and-black-metal; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+KH-RUG-NIFELIA: Kave Home Nifelia beige wool jacquard rug; 200×300 cm; recorded price 439 EUR, 2026-10-24; https://kavehome.com/hu/en/p/nifelia-beige-wool-jacquard-rug-200-x-300-cm; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+KH-PL-SOMAR76: Kave Home Somar pendant, synthetic fibres and steel rods; Ø76 cm; recorded price 579 EUR, 2026-10-24; https://kavehome.com/hu/en/p/somar-ceiling-lamp-made-with-synthetic-fibres-and-steel-rods-o76cm; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+Dining quantity: exactly one table and six identical chairs, the same configuration in Cam_02 and Cam_03. Missing outer dimensions are a pre-image blocker; do not estimate or substitute.
+
+Custom pieces: KI-L: media cabinet W240 × H48 × D40 cm, white board carcass, matte graphite laminate (sample/code to be approved), 2 mm matching ABS edge, recessed floor-supported plinth, removable cable back at D16/D17. KI-T: W100 × H180 × D3 cm translucent linen frame, black open lattice strip W15 cm, wall cleat 2–3 cm off wall, no backlight. KI-O: terrace bench W160 × H42 × D60 cm, powder-coated aluminium frame and outdoor HPL seat, loose neutral outdoor cushion; freestanding on gres, no roof fixing. These are proposed fabrication envelopes, not verified site dimensions; wall/anti-tip fixing, substrate, service access and material samples require approval before the image phase. Inherited budget rows: 03a cap 0,800 M HUF, 03b cap 0,800 M HUF, 03c/e/f, 10 lighting, 11/12 art where specified, 13c outdoor furniture. PREMIUM differences remain conditional; no new total calculated.
+
+Light: Series A: neutral overcast daylight and identical comparison exposure/white balance. Dining pendant KH-PL-SOMAR76 only at A902-ML04; retain A902-ML05 as the existing living point, with no additional decorative fixture specified. TV power A902-D16/D17 at the west factory block, antenna G08.   No new wired terrace lights; retain FL05/06/07. No ceiling drilling, no warm grading.
+
+Avoid: fake shoji doors, bonsai styling, all-beige Japandi, a full slatted wall, dramatic amber lighting. No unlisted hero furniture, no product recolouring, no invented dimensions or geometry; no people, logos or text on the image.
+
+Inputs (in order): Image 1 = the verified v2b-1 Cam_02 empty geometry base at 04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_02_nappali-terasz.png plus 04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali_ellenorzo.png; image 2 = A902 site material-photo set ME-BAL-080, 045, 046, 042, 044, 053 plus the actual panorama A902_terasz_panorama_v0b_videobol.jpg; image 3 = optional original Zenit/Lake Forest living-room reference, mood/quality only, never geometry; image 4 = exact selected sofa, table, chair, rug and lamp product photos. Follow the source template §0/a order, including its unresolved input conditions.
+
+Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A.png (+ same basename .prompt.txt)
+
+=== RUN NOTES – Claude, 2026-10-24 (where the style block's 'Inputs' line differs, these notes apply) ===
+- Image 1 is the current v2b-1 base (identical camera parameters to the v2b base named in the style block; Cam_02/Cam_03 pixel-identical, Cam_04 only the corrected 05.1 niche facade differs).
+- The annotated check drawing (semleges_v2b …_ellenorzo.png) is deliberately not attached: it contains text and hatching; its facts are already in the fixed blocks.
+- Eamy chair outer dimensions from the Kave Home product drawing (screenshot by the owner, 2026-10-24): width 55 × depth 53 × height 75 cm, seat height 46 cm, seat 45 × 42 cm – use these; the 'outer dimensions NOT RECORDED' note of record KH-CH-EAMY-LG is resolved.
+- Hue check (Kave Home specification, 2026-10-24): the Somar is a wire-suspended pendant with an E27 lampholder (max. 40 W) – it is fitted with a Philips Hue E27 bulb.
+- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos are crops of the owner's screenshots of the Kave Home product pages (2026-10-24, reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.

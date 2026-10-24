@@ -1,0 +1,70 @@
+KEP-004 · ChatGPT Images · image ID A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A · prompt version KEP004-CGI-v1 (2026-10-24, compiled by Claude; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_v1/README.md)
+RUN AUTHORISATION: the project owner sends this message only when the KEP-004 gate for this image is open – sending it is the approval. Generate exactly ONE image.
+
+ATTACHED IMAGES, in this order (the text below calls them image 1, image 2, image 2b … as listed):
+- image 1 – Blender empty-room base, camera Cam_03 (authoritative geometry, camera, framing)
+- image 2 – site photo ME-BAL-080: the existing floor laminate
+- image 2b – site photo ME-BAL-056: the kitchen wall with its existing outlets and the low parapet wall
+- image 2c – site photo ME-BAL-045: white walls and white inner window frames
+- product photo – Westwing Toni oval dining table 200 × 90 cm, light oak veneer (P09)
+- product photo – IKEA EKBACKEN worktop, light-grey concrete-effect laminate (AG-31)
+- product photo – Kave Home Eamy chair, light-grey chenille, natural ash (KH-CH-EAMY-LG) (cropped from the Kave Home product page, reduced resolution)
+- product photo – Kave Home Somar pendant Ø76 (KH-PL-SOMAR76) (cropped from the Kave Home product page, reduced resolution)
+
+OUTPUT: one photorealistic interior photograph in landscape format with exactly the framing and perspective of image 1 (16:10; if that format is not offered, use the closest landscape format and extend the frame evenly – never crop or alter the geometry). True-to-life neutral colours. No text, labels, watermarks, people or logos. File names and repository paths in the text are for the project archive only.
+
+=== COMMON FIXED BLOCK – template v3.1 §1, verbatim (room and style name filled in) ===
+**CONCEPT ONLY – NOT VALIDATED. Do not generate before the KEP-004 gate is open for this batch.** Create a photorealistic interior image of the A-902 apartment, room "kitchen – dining (konyha–étkező)", style "S01 Kyoto Ink", as one of four coordinated rooms of the same style, for a ten-way comparison.
+
+**Geometry and camera (image 1 is authoritative).** Use image 1 strictly for room geometry, openings and camera. Keep the exact framing, wall contours, the 2.90 m white ceiling, door and window positions and the real exterior view. Do not widen the room, do not add or move walls, columns, niches, bulkheads, coves or ceiling fixtures; the ceiling carries heating/cooling panels – nothing is attached to it except the existing light points.
+
+**Existing surfaces – must not change.** Floors in living, dining, kitchen, corridor and bedrooms: the existing Egger Grey Treviso Oak EL2184 laminate as in image 2 – medium grey-brown oak with strong grain and knots, 6 cm matching skirting; not light oak, not cool grey, not concrete. Walls and ceilings: painted white, smooth, no colour cast. Window and door frames white inside, anthracite outside in a dark brick reveal; interior doors light grey with black handles; switches, thermostat, sensors and consumer units stay visible and free. Bathroom and WC: the existing large-format light warm-grey stone-effect tiles on floor and walls, the built-in walk-in shower with linear drain, black rain head, black tap, black towel radiator and black flush plate stay exactly as built; nothing is re-tiled, demolished or moved.
+
+**Furniture and products.** Only the products and envelopes named in the style block, at their exact real dimensions and handedness; no enlarging, no shrinking to fit. Circulation: minimum 90 cm main routes (accepted 75 cm side route on the terrace side of the dining table only), 45–50 cm sofa–table, 90 cm chair pull-out, 60 cm beside beds, door swings free. Powered items only at the existing point IDs named in the style block. Laminate reads as laminate, fabric as the named fabric; real metal, glass, ceramics and natural stone only where a verified product says so. Stone-, travertine-, marble- or concrete-effect decor materials (laminate, printed or mineral panels, porcelain tiles) ARE allowed when the style block names them honestly as such – render them as what they are, never present them as solid natural stone. The existing stone-effect bathroom and terrace tiles are real, built surfaces and stay as they are.
+
+**Light and grading – comparison rules.** Series A (first): in rooms with windows neutral overcast daylight, no sun; in the windowless bathroom 06.2 neutral artificial light from the existing points only (basin light and ceiling point, 3000–4000 K), identical for all styles – no invented window, skylight, light shaft or daylight. Identical exposure and white balance across all images of the batch and the calibration images; no warm grading, haze or bloom. Series B (finalists only, later): identical evening scene with the existing points lit. Luxury must come from silhouette, material depth, proportion, layering and negative space – not from warmer light, larger imaginary furniture, a wider lens or a fictional view.
+
+**Coherence rule.** The four rooms of one style share one material and colour DNA and the same signature gesture family, but each room has its own composition and at least one room-specific signature element; the bedroom and bathroom must not simply repeat the living-room colours.
+
+**Style block for this room follows. Unresolved fields are blockers, not creative freedom.**
+
+=== ROOM FIXED BLOCK – template v3.1 §2 Cam_03 · konyha–étkező, verbatim ===
+Camera Cam_03: position (4.70, 7.70, 1.50), Euler (1.493, 0, −2.111), 20 mm, 1600×1000. There is no kitchen furniture in the apartment: show an IKEA METOD carcass kitchen with the style's fronts and worktop on the plan layout (two runs, 62 cm deep; the clear width between the runs is only 85–86 cm, below the 90 cm target – CONDITIONAL K1; a 45 cm shallow dry run opposite the appliance run is the fallback), the existing ~85 cm high west parapet wall kept as is (no island, no full-height wall), appliances in the budgeted line, pendant at ML04 over the dining table, worktop light only at the existing point FL01 and ceiling point ML03, no new ceiling lights. Dining table and six chairs exactly as in the living-room image of the same style.
+
+=== OWNER REQUIREMENT – Philips Hue lighting (05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md), verbatim ===
+OWNER REQUIREMENT – lighting, fixed for every style and room (2026-10-24): every luminaire shown must work with standard Philips Hue replacement bulbs – sockets E27, E14 or GU10 only, with the Hue bulb physically fitting inside the shade or globe – or be a Philips Hue fixture or light strip, so that all light runs in Hue scenes (warm 2700 K for the evening series). No integrated non-Hue LED fittings and no G9, G4 or other sockets for which no Hue bulb exists. Luminaires only on the existing points; in the bathroom only fittings rated for the wet zone.
+
+=== STYLE BLOCK – Astra V2 r1, verbatim ===
+### S01 — Kyoto Ink · konyha–étkező (Cam_03)
+
+Fixed blocks: source template v3.1 §1 + §2 Cam_03, verbatim, before this block; source commit 46e3c5cbe2607479d7eba8037b1fbbc164365fe6. Do not generate until the KEP-004 gate is open.
+
+Style DNA (common to the four rooms): Contemporary Japanese luxury through low graphite horizons, taupe woven upholstery, translucent natural textile and precisely proportioned white voids; each room interprets layering rather than repeating a beige palette.
+
+Room composition: Create a disciplined graphite lower kitchen band below quiet off-white upper fronts, with the thin light-grey concrete-effect laminate worktop clearly reading as laminate. Align the front seams with the actual METOD modules and keep the existing parapet visible. Let the Toni oak-veneer oval and six light-grey Eamy chairs form a softer social counterpoint without adding an island or open display shelves. Use one broad, light-looking pendant at the existing dining point; the white space between furniture remains part of the composition.
+
+Products (verified records): P09: Westwing Toni oval dining table, light oak veneer/MDF, 200 cm version, DEQ19WES60483-150724; 200 × 90 × 75 cm; recorded price 320,000 HUF (not the price of the 160 cm version), 2026-10-24; https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html; status: SOURCE-VERIFIED on 2026-10-24, not freshly researched or an order quote.
+
+KH-CH-EAMY-LG: Kave Home Eamy chair, light-grey chenille, natural ash veneer and black metal; outer dimensions NOT RECORDED in the source; recorded price 179 EUR, 2026-10-24; https://kavehome.com/hu/en/p/eamy-chair-light-grey-chenille-and-ash-wood-veneer-with-a-natural-finish-and-black-metal; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+KH-PL-SOMAR76: Kave Home Somar pendant, synthetic fibres and steel rods; Ø76 cm; recorded price 579 EUR, 2026-10-24; https://kavehome.com/hu/en/p/somar-ceiling-lamp-made-with-synthetic-fibres-and-steel-rods-o76cm; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+AG-31: IKEA EKBACKEN light-grey concrete-effect laminate worktop, 40616275; 246x2.8 cm; recorded price 24990 HUF; source discount note: igen (új alacsonyabb ár), 2026-10-24; https://www.ikea.com/hu/hu/p/ekbacken-munkalap-vilagosszuerke-beton-hatasu-laminalt-40616275/; status: SOURCE PRICE RECORDED 2026-10-24; complete dimensions/material specification and HU delivered total may be unresolved; CONDITIONAL K8.
+
+Dining quantity: exactly one table and six identical chairs, the same configuration in Cam_02 and Cam_03. Missing outer dimensions are a pre-image blocker; do not estimate or substitute.
+
+Custom pieces: KI-K: straight laminate fronts on plan-sized METOD carcasses; graphite lower sample and white upper sample, matching ABS edges, no painted fronts. Worktop AG-31, cut from its documented 246 × 2.8 cm stock length/thickness with joints and actual depth resolved in the kitchen drawing; service doors and FL01 remain accessible. These are proposed fabrication envelopes, not verified site dimensions; wall/anti-tip fixing, substrate, service access and material samples require approval before the image phase. Inherited budget rows: 02a target 1.50 M HUF (source band 1.20–2.00), 02b 1.10, 02c 0.30, 03d 0.60 for table plus six chairs, 10 lighting. Chair-related PREMIUM/reallocation flags remain unresolved; no new total calculated.
+
+Light: Series A: neutral overcast daylight. KH-PL-SOMAR76 at A902-ML04 only, no displaced ceiling anchor. Worktop task light from A902-FL01, ceiling light at A902-ML03; actual fitting/mounting verified before use, no new electrical points and no lighting added along every edge.
+
+Avoid: tea-house scenery, black kitchen walls, new island, floating stone countertop. No unlisted hero furniture, no product recolouring, no invented dimensions or geometry; no people, logos or text on the image.
+
+Inputs (in order): Image 1 = the verified v2b-1 Cam_03 empty geometry base at 04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_03_etkezo-konyha.png plus 04_renderek/semleges_v2b/A902_semlegesv2b_2_etkezo_konyha.png; image 2 = A902 site photographs ME-BAL-056, 080 and 045; image 3 = optional original Zenit/Lake Forest kitchen-dining reference, mood only; image 4 = the specified front/worktop samples and the same table, six chairs and pendant product photos used for this style's living view. Follow source template §0/a.
+
+Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A.png (+ same basename .prompt.txt)
+
+=== RUN NOTES – Claude, 2026-10-24 (where the style block's 'Inputs' line differs, these notes apply) ===
+- Image 1 is the current v2b-1 base (identical camera parameters to the v2b base named in the style block; Cam_02/Cam_03 pixel-identical, Cam_04 only the corrected 05.1 niche facade differs).
+- Eamy chair outer dimensions from the Kave Home product drawing (screenshot by the owner, 2026-10-24): width 55 × depth 53 × height 75 cm, seat height 46 cm, seat 45 × 42 cm – use these; the 'outer dimensions NOT RECORDED' note of record KH-CH-EAMY-LG is resolved.
+- Hue check (Kave Home specification, 2026-10-24): the Somar is a wire-suspended pendant with an E27 lampholder (max. 40 W) – it is fitted with a Philips Hue E27 bulb.
+- No original Zenit/Lake Forest reference is attached to this style run (to avoid mixing styles). The Kave Home product photos are crops of the owner's screenshots of the Kave Home product pages (2026-10-24, reduced resolution): use them for shape, proportion, colour and material only; where a product photo is missing, follow its text record exactly.
