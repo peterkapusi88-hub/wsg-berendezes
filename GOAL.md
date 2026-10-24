@@ -40,12 +40,15 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 - Minden küldés, rendelés, fizetés előtt Péter „mehet"-je kell. Andinak (Szakos Andrea, belsőépítész, a Zenit és a Lake Forest tervezője) csak jóváhagyás után megy anyag.
 - Kivitelezőknek nem megy brosúra/látványterv („leesik, hogy van pénz").
 
-## 6. Állapot (2026-10-24)
+## 6. Állapot (2026-10-24, éjjel)
 - Koncepció-doksi kész (két verzió, fordítótábla, asztalos vs IKEA számítás, keret): `06_koncepcio/`.
-- A-902 Blender-alap kész (falak, nyílások, bútor IKEA-méretben, 6 kamera), Zenit-anyagréteg beépítve, Lake Forest-réteg scriptben: `03_blender/`.
-- 6 fotorealisztikus AI-kép (Gemini) az A-902-ről mindkét stílusban: `04_renderek/ai_gemini/`. Promptok: `05_promptok/`.
+- A-902 Blender-alap kész (falak, nyílások, bútor IKEA-méretben, 6 kamera). **Mindkét stílusréteg beépítve** (`Stil_Zenit` 180 obj., `Stil_LakeForest` 164 obj.) a `03_blender/WSG_A902_stilusok.blend`-ben; váltás: `set_style('Zenit'|'LakeForest')` a `wsg_helpers.py`-ból. 3+3 EEVEE-nézet: `04_renderek/blender_stilusok/`.
+- 6 fotorealisztikus AI-kép Geminivel (`04_renderek/ai_gemini/`) és 6 ChatGPT-vel (`04_renderek/ai_chatgpt/`) az A-902-ről mindkét stílusban, összehasonlító lapokkal. Promptok: `05_promptok/`.
+- Blender MCP add-on újratelepítve (Lab-repó `https://lab.blender.org/`, MCP 1.0.3, localhost:9876, Auto Start, beállítás elmentve).
+- ChatGPT-munkarend eldőlt: Work = lakberendező/projektvezető, Codex = Blender-technikus (`OPENAI_instructions.md`, `AGENTS.md`).
 - Külső ajánlatkérés kiment 8 lakberendező cégnek (10/10/20 M keret, tervezés + bútorválasztás + budget); IKEA teljes-lakás tervezés foglalandó.
 - Fotók a lakásokról hétfőn (2026-10-27) jönnek → geometria javítása, A-811/A-812 alap.
+- Függő: a Claude GitHub-app hozzáférése a `wsg-berendezes` repóhoz (addig a feltöltés a webes feltöltővel megy).
 
 ## 7. Nyitott döntések
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
@@ -55,11 +58,11 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 - Akvárium a 902 dolgozójában csak saját használatra.
 
 ## 8. Következő lépések
-1. Blender: Lake Forest-réteg betöltése (`03_blender/stil_lakeforest_layer.py`), renderek mindkét stílusról EEVEE-vel.
+1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
 3. Asztalos-rajzok + szabásjegyzék a forma-darabokhoz; ajánlatkérés csak „mehet" után.
 4. Hétfő: fotók → geometria, A-811/A-812 alap, AI-képek a valódi lakásról.
 5. Ajánlatok összevetése (8 cég + IKEA + Andi), döntés.
 
 ## 9. Mappatérkép
-`01_alaprajzok/` brosúra + lakásonkénti alaprajz · `02_referenciak/` Zenit és Lake Forest kontaktlapok · `03_blender/` .blend fájlok + scriptek · `04_renderek/` alap (Blender) és AI (Gemini) képek · `05_promptok/` képgeneráló promptok · `06_koncepcio/` a koncepció-doksi markdownban · `07_skill/` a Claude-skill (ugyanez a tudás skill-formában).
+`01_alaprajzok/` brosúra + lakásonkénti alaprajz · `02_referenciak/` Zenit és Lake Forest kontaktlapok · `03_blender/` .blend fájlok + `wsg_helpers.py` + rétegszkriptek · `04_renderek/` alap (Blender), `blender_stilusok/` (Zenit/LF EEVEE-nézetek), `ai_gemini/`, `ai_chatgpt/` · `05_promptok/` képgeneráló promptok · `06_koncepcio/` a koncepció-doksi markdownban · `07_skill/` a Claude-skillek forrása.
