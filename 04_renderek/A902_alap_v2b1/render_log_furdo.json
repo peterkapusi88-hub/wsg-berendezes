@@ -1,0 +1,88 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "WSG_A902_v2b_alaprajz_ELOZETES_20261024_v2b1k10.blend",
+ "sha256": "028695438d15a1bcf94e74129b232ee9fd9174444bedfaffae39cae74a91c6a1",
+ "valtozat": "semleges (Cam_02/03/04) + mufeny (Cam_10)",
+ "kepek": [
+  {
+   "kamera": "Cam_10_Furdo_06_2",
+   "fajl": "A902_Alap-v2b1_blender_10_furdo-06-2.png",
+   "kamera_parameterek": {
+    "loc": [
+     14.5,
+     6.62,
+     1.5
+    ],
+    "rot": [
+     1.38,
+     0.0,
+     -1.5708
+    ],
+    "lens": 16.0,
+    "sensor": [
+     36.0,
+     24.0
+    ],
+    "fit": "AUTO",
+    "clip": [
+     0.10000000149011612,
+     200.0
+    ]
+   },
+   "mp": 62.0,
+   "expozicio": -0.30000001192092896,
+   "furdo_beallitas": {
+    "burkolat": {
+     "fal_es_padlo": "Geostone Grigio matt 60×60 (Ceramiche Piemme GEO GRIGIO NAT/RET, 62160A), fuga Holdfény 103, 2 mm; fal 2,85 m-ig, felette fehér",
+     "dekor": "Geostone Geo Esagonetta Grigio 3D 30×60 (63610A): zuhany északi hátfala (E) + a WC-előtétfal feletti falszakasz (C)",
+     "kiosztas": "23. o. falnézetek: fuga a zuhanytengelyen (y 7,61) a K-i és Ny-i falon, a WC-tengelyen (x 14,965) a fülkében, az „A” fal közepén (x 15,96); sorok felülről egész lappal (fuga 2,85 / 2,25 / 1,65 / 1,05 / 0,45 m), alul vágott sor; padló az ajtós fal belső síkjától (x 14,475) és a Geberit-előtétfal elejétől (y 5,40) egész lappal",
+     "objektumok": [
+      "Fal_05_3_06_2_0",
+      "Fal_05_3_06_2_1",
+      "Fal_05_3_06_2_szemoldok1",
+      "Kulso_K_06_2_0",
+      "Akna_06_2_EK_v2b1k10",
+      "Kulso_E_terasz_2",
+      "Fal_06_2_D_v2b",
+      "Akna_06_2",
+      "P_furdo_06_2",
+      "Kulso_E_terasz_2 (dekor)",
+      "Fal_06_2_D_v2b (dekor)",
+      "P_furdo_06_2"
+     ]
+    },
+    "beepitett_elemek": "terv (18. o.) és költségvetés szerint, render-réteg: Geberit-előtétfal pm 1,20 Geostone-nal + Delta 50 fekete; Smyle Square fali WC 35×54 (tengely x 14,965); Smyle Square mosdó 60×48 (tengely y 6,63) + Cubeo M fekete; 5/5 padka alu élvédővel; 70 cm-es folyóka a K-i fal mentén; Cubeo süllyesztett 2 funkciós + Cube 250 fejzuhany karral + Tempesta csatlakozó + SmartActive 130 Cube kézizuhany (tengely y 7,61); fekete törölközőszárító a Ny-i falon. Üvegfal nincs, tükör nincs (átadáskor nem volt).",
+    "feny_motor": "EEVEE raytracing + gyors GI (a kis, ablaktalan térben a visszavert fényhez)",
+    "feny": "csak műfény: meglévő ML10 mennyezeti pont (15,45; 6,62), 180 W pontfény, 30 cm sugár, ~4000 K; a mosdó feletti „g” fali pont (FL04) a referencián nem világít; világ 0; nincs nappali fény",
+    "motor": "Cycles 128 minta, denoise, eszköz GPU, expozíció -0.30000001192092896"
+   }
+  }
+ ],
+ "falanyag_csere": [],
+ "megtartott_szaniter": [
+  "Kad_170x70",
+  "Kad_viz",
+  "Kezmoso_08",
+  "Mosdo_06_1",
+  "Mosdo_06_2",
+  "Torolkozoszarito_06_1",
+  "WC_csesze_06_2",
+  "WC_csesze_08",
+  "WC_tartaly_06_2",
+  "WC_tartaly_08",
+  "Zuhanytalca_06_2_182x85",
+  "Zuhanyuveg_06_2"
+ ],
+ "beallitas": {
+  "motor": "BLENDER_EEVEE",
+  "felbontas": [
+   1600,
+   1000
+  ],
+  "minta": 128,
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "expozicio": 0.75,
+  "egbolt": "egyszínű (0,86/0,88/0,92), erősség 1,0; nap és belső lámpák nélkül"
+ }
+}

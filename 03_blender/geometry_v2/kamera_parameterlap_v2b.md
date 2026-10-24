@@ -13,6 +13,7 @@ A lockba rögzítve (`geometry_lock_A902_v2b.json` → `cameras`); a validátor 
 | Cam_07_Terasz_v2_greslaprol | PERSP | 16 | 36×24 | AUTO | 0/0 | 0,1–1000 | [12,8; 9,3; 1,45] | [1,466; 0; 0,558] | ELŐZETES terasznézet (16 mm, z 1,45 = 1,60 a gres fölött) |
 | Cam_08_Terasz_v2_madarnezet | PERSP | 20 | 36×24 | AUTO | 0/0 | 0,1–1000 | [18,5; 23; 9] | [0,908; 0; 2,443] | ellenőrző madártávlat |
 | Cam_09_Terasz_v2_felulnezet | ORTHO | 20 (ortho 15,5) | 36×24 | AUTO | 0/0 | 0,1–1000 | [9,85; 14,5; 40] | [0; 0; 0] | ellenőrző felülnézet |
+| Cam_10_Furdo_06_2 | PERSP | 16 | 36×24 | AUTO | 0/0 | 0,1–200 | [14,5; 6,62; 1,5] | [1,38; 0; -1,5708] | ÖSSZEHASONLÍTÓ – KEP-004, fürdő 06.2 (ablaktalan, csak műfény); ajtónyílásból kelet felé; v2b-1-k10, 2026-10-24 (a V3.1 sablon ideiglenes [14,75; 5,45] kamerája a WC-be esett) |
 
 Render: {"resolution_x": 1600, "resolution_y": 1000, "percentage": 100, "pixel_aspect": [1.0, 1.0], "scene_camera": "Cam_04_Master", "engine": "BLENDER_EEVEE", "view_transform": "AgX", "look": "AgX - Medium High Contrast", "exposure": -1.0, "gamma": 1.0}
 
