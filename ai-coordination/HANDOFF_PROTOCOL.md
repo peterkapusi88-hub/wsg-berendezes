@@ -2,16 +2,20 @@
 
 **Cél:** Péternek ne kelljen fájlt másolnia ChatGPT és Claude között. A GitHub-repó a postafiók. Minden AI innen olvas és ide ír. A chat csak egy rövid indító mondat.
 
-**Mi igazolt (2026-10-24):**
-- A ChatGPT GitHub-kapcsolata **tud fájlt létrehozni a `main` ágon** (commit `f307765`, szerző `peterkapusi88-hub`, `ai-coordination/results/WSG-20261024-PILOT-001.md`).
-- Claude felhőből `add_repo` + klónnal olvas és pushol. Ugyanez megy a Mac-tükörből is: `~/Downloads/wsg-berendezes`.
+## 0. Képességek – mi igazolt és mi nem (2026-10-24 07:40)
 
-**Mi nem igazolt:**
-- a Work automatikus indítása PR-eseményre (`WORK_TRIGGER_SETUP.md`);
-- a ChatGPT ütemezett feladata;
-- a Codex és a Gemini repó-írása.
+A commitok szerzője GitHubon mindig `peterkapusi88-hub`, akár ChatGPT, akár Codex, akár Péter írt. **Az író AI-t csak az eredményfájl `Szerző-AI:` fejléce azonosítja.**
 
-Ezek opcionálisak. A protokoll nélkülük is működik.
+| # | Képesség | Állapot | Bizonyíték | Korlát |
+|---|---|---|---|---|
+| **A** | **ChatGPT GitHub-kapcsolata ír a repóba, Péter chatbeli kérésére** | **IGAZOLT** | `f307765`: új fájl közvetlenül a `main`-re (pilot-eredmény, visszaolvasva). `62ad37c`: új ág és **draft PR #2** (Codex-audit archiválása, blob-SHA egyeztetve) | Mindkettő **Péter kérésére** történt, egy-egy fájllal. Önálló, kérés nélküli írás nem igazolt. |
+| **B** | **Mac Work/Astra önálló visszaírása**: egy indító mondatra elolvassa a briefet, dolgozik, és **maga** menti a `results/<ID>.md`-t | **NEM TESZTELT – külön próba kell** | – | A pilotban Astra a chatbe adta az eredményt, a mentést külön kérésre végezte a GitHub-kapcsolat. Az első éles próba a STYLE10-002 A fázisa lehet. Ha nem megy, `WSG-RESULT BLOKKOLT` + Péter egy mondattal szól a ChatGPT-nek (A-képesség). |
+| **B2** | ChatGPT olvassa a nem-`main` ágakat (pl. PR #2 ága) | **nem igazolt** | – | Ezért a brief a lényeget a saját szövegében is megadja (K1–K6). |
+| **C** | **Claude felhős GitHub-olvasása és pusholása** | **IGAZOLT** | `add_repo` → klón (HEAD `f307765`); olvasás a `main`-ről és a PR #2 ágáról (`gh api`); push a `claude/pilot-001-audit-es-postafiok` ágra; draft PR nyitása | Minden munkamenetben újra `add_repo` kell. A Project tudásbázisa pillanatkép, nem friss forrás. Claude nem látja a ChatGPT chatjeit, és nem tud ChatGPT-feladatot indítani. |
+| D | Work automatikus indítása PR-eseményre (`WORK_TRIGGER_SETUP.md`) | nem igazolt | – | Tartalék út; a PR #1 inaktív, nem módosítjuk. |
+| E | ChatGPT ütemezett feladata | nem tesztelt | – | Kreditet fogyaszt. |
+| F | Codex ír GitHubra (saját klónból commit vagy PR) | **részben** | a PR #2 tartalma Codex-audit, a mentést a GitHub-kapcsolat végezte | Önálló Codex-push nem igazolt. |
+| G | Gemini/Flow ír GitHubra | nem | – | Relay kell (7. pont). |
 
 ---
 
@@ -96,7 +100,9 @@ Vagy semmi, ha a Claude-oldali ütemezett ellenőrzés be van kapcsolva (6. pont
 ## 8. Igazolási napló
 | Dátum | Lépés | Eredmény |
 |---|---|---|
-| 2026-10-24 | ChatGPT GitHub-kapcsolat ír a `main`-re | **igen** (`f307765`) |
+| 2026-10-24 | ChatGPT GitHub-kapcsolat ír a `main`-re, Péter kérésére (A) | **igen** (`f307765`) |
+| 2026-10-24 | ChatGPT GitHub-kapcsolat új ágat és draft PR-t nyit, Péter kérésére (A) | **igen** (PR #2, `62ad37c`) |
+| 2026-10-24 | Claude felhőből olvas, pushol ágra, draft PR-t nyit (C) | **igen** (`claude/pilot-001-audit-es-postafiok`) |
 | 2026-10-24 | Claude felhőből átveszi és auditálja | **igen** (`audits/WSG-20261024-PILOT-001_CLAUDE_AUDIT.md`) |
-| – | Astra a 2. pont mondatára maga írja a result-fájlt (Péter másolása nélkül) | **következő feladatnál igazolandó** |
+| – | Mac Work/Astra a 2. pont mondatára maga írja a result-fájlt (B) | **NEM TESZTELT** – első próba: STYLE10-002 A fázis |
 | – | Claude ütemezett ellenőrzés | nincs bekapcsolva |

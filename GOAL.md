@@ -68,7 +68,10 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Claude-audit: `ai-coordination/audits/WSG-20261024-PILOT-001_CLAUDE_AUDIT.md`. A számtan helyes (17,80 / 18,00 M). A CSV-sávokból számolt legrosszabb eset +3,35 M. Árajánlat: 0 Ft.
   - Javított Cam_02 geometria-alap: **függő** (a próbarenderek elbuktak, lásd `03_blender/validator_report_2026-10-24_semleges_v2.md`).
   - Tartós átadás: `ai-coordination/HANDOFF_PROTOCOL.md` (GitHub-postafiók).
-  - Kész, **nem indított** brief: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`.
+  - Kész, **nem indított**, kétfázisú brief: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`.
+    - A fázis: 10 stílus a teljes lakásra, kép nélkül.
+    - B fázis: azonos kamerás képek, zárolva az ellenőrzött Blender-alapig.
+  - A Codex geometriai auditja (draft PR #2) korlátai a briefben K1–K6 alatt szerepelnek.
   - Új kockázat: a teraszüvegezés osztása a fotón eltérhet a modelltől (hétfői mérés).
 
 ## 7. Nyitott döntések
@@ -81,7 +84,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Asztalos: Andi zenites asztalosa + 2 másik, két ár (komplett / csak munkadíj) ugyanarra a rajzra.
 - Akvárium a 902 dolgozójában csak saját használatra.
 - *(2026-10-24, nyitott)* A-902 nappali: legyen-e TV? L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal)? (audit 9.1)
-- *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
+- *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör A fázisa (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).

@@ -97,7 +97,7 @@ A 18 M tervezhető keret tehát **csak akkor tartható, ha** a jakuzzi Heissner-
 
 ### 4.1 Javított geometria-alap (Claude, ebben a körben)
 
-**FÜGGŐ – még nincs a repóban.** Tervezett fájl: `04_renderek/semleges/A902_semleges_v2_1_nappali.png`. A két próbarender a saját önellenőrzésemen elbukott (bézs fal, homokszínű, napfoltos padló), ezért nem került fel. Részletek: `03_blender/validator_report_2026-10-24_semleges_v2.md`.
+**KIMARAD (Péter döntése, 2026-10-24 07:38) – a B fázis előtt az ellenőrzött Blender-alap pótolja.** Tervezett fájl: `04_renderek/semleges/A902_semleges_v2_1_nappali.png`. A két próbarender a saját önellenőrzésemen elbukott (bézs fal, homokszínű, napfoltos padló), ezért nem került fel. Részletek: `03_blender/validator_report_2026-10-24_semleges_v2.md`.
 - **Bemenet:** a v2 .blend repóbeli másolata. Az élő fájlhoz nem nyúltam.
 - **Validátor:** 0 hiba (`03_blender/validator_report_2026-10-24_semleges_v2.md`).
 - **Változás az eredetihez képest:**
@@ -186,7 +186,22 @@ A Validator egyetlen nappali-elrendezést mért eddig (`validator_report_2026-10
 
 ---
 
-## 9. Péter döntésére váró kérdések
+## 9. Összevetés a Codex geometriai auditjával (draft PR #2, `62ad37c`, sha256 `dbe51229…`)
+
+A két audit egymástól függetlenül készült. Ahol egybeesnek, ott erősítik egymást; ahol a Codex-audit többet mond, az felülírja az enyémet.
+- **Kamera:** egyezik. A lock 20 mm-e helyes, a 24 mm elavult. **Kiegészítés:** a validátor az objektívet, szenzort, shiftet és az aktív kamerát nem ellenőrzi. Az én „pontosan egyezik” állításom csak a lockban tárolt értékekre igaz, nem teljes kamerazár.
+- **Validátor:** a „0 hiba” a v1 lockhoz való egyezést jelenti, nem a valósághoz valót. A v2 terasz-gyűjteményt nem vizsgálja, a 05.2 erkélyajtót kihagyja. Ez érvényes az én `validator_report_2026-10-24_semleges_v2.md` riportomra is.
+- **Teraszüvegezés:** a terv szerint 2,53 m magas (modell 2,55). Nyitható mezők, nyitásirány és küszöb nem validált (15 cm-es fellépés). Ez egybevág a 4.2 pontban leírt fotós megfigyeléssel. **Bizonytalan marad.**
+- **Nappali hossza:** v2 terv szerint 7,08 m (v1 6,92). Az 5. pont 2D-számítása v1-en készült; a v2-n +16 cm.
+- **Új, a pilotot nem érintő, de a lakásszintű stílusokat érintő korlátok:**
+  - konyha: 85 cm munkalapköz;
+  - 05.2 ajtó-előtér;
+  - terasz: szegély a WPC-nyelv előtt, hiányzó út az északi pihenőhöz.
+
+  Mindegyik felvéve a STYLE10-002 brief K1–K6 korlátai közé.
+
+## 10. Péter döntésére váró kérdések
 1. Legyen-e TV a nappaliban? Ha igen: L1 elrendezés (kanapé a nyugati falon) TV-megoldással, vagy L2 (déli TV-fal, kanapé vele szemben)?
-2. Indítható-e a 10 stílusos Astra-kör (`ai-coordination/requests/WSG-20261024-STYLE10-002.md`)? Jelenleg **NEM INDÍTOTT**.
+2. Indítható-e a 10 stílusos Astra-kör **A fázisa** (`ai-coordination/requests/WSG-20261024-STYLE10-002.md`)? Jelenleg **NEM INDÍTOTT**. A B fázis zárolva az ellenőrzött Blender-alapig.
 3. Bekapcsoljuk-e Claude oldalán az ütemezett eredmény-ellenőrzést (`HANDOFF_PROTOCOL.md` 6. pont)?
+4. Mergeljük-e a Codex PR #2-t a `main`-be? Akkor Astra közvetlenül is olvashatja.

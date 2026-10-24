@@ -1,9 +1,9 @@
 # A-902 – Cam_02 render prompt template for the 10-style round (v1, 2026-10-24)
 
-Used by: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`. Fill the `{…}` fields per style. The fixed block must be copied **unchanged**, so that the ten images stay comparable. Status of every image made from this: **CONCEPT – NOT VALIDATED** until Claude's post-render audit.
+Used by: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`, **PHASE B only**. It is locked until Claude delivers the verified Blender base (site-measured glazing and threshold, v2 walls, full camera parameter sheet). In phase A it serves only as a draft text format. Fill the `{…}` fields per style. The fixed block must be copied **unchanged**, so that the ten images stay comparable. Status of every image made from this: **CONCEPT – NOT VALIDATED** until Claude's post-render audit.
 
 **Input images (in this order):**
-1. `04_renderek/semleges/A902_semleges_v2_1_nappali.png` (**FÜGGŐ, még nincs a repóban**): geometry, camera, glazing, terrace levels.
+1. `04_renderek/semleges/A902_semleges_1_nappali.jpg`: **geometry and camera only.** Its black frames, flat grey floor and flat terrace are obsolete and are overridden by the text below. Terrace levels: `04_renderek/terasz_v2_geometria/A902_terasz-v2_07_greslaprol.jpg` (preliminary).
 2. `08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg`: floor and skirting material.
 3. `08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-045_nappali_terasz_fele.jpg`: wall white, door colour, frame colour, terrace materials.
 4. `02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0b_videobol.jpg`: the real view.
@@ -15,7 +15,7 @@ Used by: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`. Fill the `{…}
 
 > Create a photorealistic **CONCEPT ONLY** interior image of the A-902 living room, style "{STYLE_NAME}".
 >
-> **Geometry and camera.** Use image 1 strictly for room geometry and camera: Cam_02_Nappali_terasz, position (8.30, 4.40, 1.55) m, Euler rotation (1.4791, 0, 0.8577) rad, 20 mm lens, 1600 × 1000, eye level. Preserve the exact framing, the walls, the 2.90 m white ceiling, the glazing size and divisions as shown in image 1, and the door and threshold positions. Do not widen the room. Do not add walls, columns, niches, bulkheads, coves or ceiling fixtures attached to the ceiling.
+> **Geometry and camera.** Use image 1 strictly for room geometry and camera: Cam_02_Nappali_terasz, position (8.30, 4.40, 1.55) m, Euler rotation (1.4791, 0, 0.8577) rad, 20 mm lens, 1600 × 1000, eye level. Preserve the exact framing, the walls, the 2.90 m white ceiling, the glazing width (4.50 m, about 2.53 m high; mullion layout as in image 1 – NOT site-verified) and a low threshold step to the terrace. Do not widen the room. Do not add walls, columns, niches, bulkheads, coves or ceiling fixtures attached to the ceiling.
 >
 > **Existing surfaces – must not change.**
 > - Floor: the existing Egger Grey Treviso Oak laminate exactly as in image 2. It is a medium grey-brown oak with strong grain and knots, with matching 6 cm skirting. It is not light oak, not cool blue-grey and not concrete. Do not invent plank width or direction beyond what image 2 shows.
@@ -23,7 +23,7 @@ Used by: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`. Fill the `{…}
 > - Window and door frames: white on the inside. Exterior frame faces are anthracite, set in a dark anthracite brick reveal.
 > - Interior doors, if visible: light grey with black handles.
 >
-> **Outside.** Show the real multi-level roof garden from image 1:
+> **Outside.** Show the real multi-level roof garden (preliminary geometry image listed above; ignore the flat terrace in image 1):
 > - light grey stone-look porcelain terrace just below the interior floor;
 > - raised grey-brown WPC deck with steps;
 > - green roof with flat lawn edges and a gently mounded perennial bed;

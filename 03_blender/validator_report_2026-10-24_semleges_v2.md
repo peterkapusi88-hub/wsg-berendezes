@@ -23,3 +23,11 @@
 - befelé tűző, nem igazolt irányú napfény.
 
 **Következő lépés (Péter döntése után):** egyenletes, semleges háttérfény napkorong nélkül, majd újrarender és vizuális ellenőrzés a ME-BAL-045/-080 fotókhoz.
+
+**Péter döntése (2026-10-24 07:38): a javított referenciarender kimarad.** Nincs újabb kalibrációs ciklus.
+- A STYLE10-002 brief A fázisa ehhez nem kell.
+- A B fázis az ellenőrzött Blender-alapra vár: hétfői mérés, kamera-paraméterlap.
+
+**Korlát** (Codex-audit, PR #2): a fenti „0 hiba” a v1 lockhoz való egyezés, nem valóságigazolás.
+- A validátor nem nézi az objektívet és a szenzort.
+- A v2 terasz-gyűjteményt és a 05.2 erkélyajtót nem vizsgálja.
