@@ -16,3 +16,7 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a Codex számára is kötelező
 
 ## Kódszerkesztők és biztonságos első audit
 VS Code és Cursor telepítve és GitHubba bejelentkezve, de használatuk **nem kötelező** a ChatGPT Mac Codexhez; önmagukban nem indítják Astrát és nem teszik láthatóvá a Claude élő Blender-munkáját. A WSG-repót külön helyi mappaként megnyitni/klónozni csak az aktuális helyi munkák állapotának ellenőrzése után szabad. Első Codex feladat: olvasási és tesztelési audit, a `GOAL.md`, `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md`, `AGENTS.md` alapján. A kreatív stílustervezést Astra/Work végzi; a Gemini főként renderből videót készít.
+
+
+## Delegált Codex-feladat státusza
+Az `ai-coordination/ROUTER.md` irányadó a Claude → Codex átadáshoz. A ChatGPT **Work GitHub-esemény trigger NEM azonos a Codex automatikus kód-review indításával**; Codexhez külön konfiguráció és teszt szükséges. Első feladat csak olvasás / review; ha a megfelelő Code Review integráció ténylegesen engedélyezett, az `@codex review` használata külön jóváhagyással vizsgálható, egyetlen próbakörben. Ne hozz létre rekurzív review kommentláncot és ne módosítsd az élő Blender szkriptet review közben.
