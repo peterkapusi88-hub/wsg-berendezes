@@ -219,6 +219,88 @@
     7.17
    ],
    "tv_eltolas_m": 0.4
+  },
+  {
+   "kod": "P902_24A",
+   "nev": "U 2,40 × 3,00, az asztal 0,30 m-rel nyugatra",
+   "kanape": [
+    4.77,
+    4.95,
+    7.17,
+    7.95
+   ],
+   "meret": "2,40 × 3,00",
+   "cel_max_szelesseg_m": {
+    "terasz (tolóajtó)": 0.75,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.85,
+    "05.3 háló ajtaja": 0.9
+   },
+   "uthossz_090_m": {
+    "terasz (tolóajtó)": null,
+    "konyha (a pultsorok közé)": 1.55,
+    "hálók folyosója": null,
+    "05.3 háló ajtaja": 3.35
+   },
+   "ures_uthossz_m": {
+    "terasz (tolóajtó)": 3.3,
+    "konyha (a pultsorok közé)": 1.55,
+    "hálók folyosója": 3.83,
+    "05.3 háló ajtaja": 3.15
+   },
+   "nezotav_m": 2.9,
+   "kanape_tv_m": 0.65,
+   "deli_sav_m": 0.9,
+   "uveg_elott_m": 0.1,
+   "etkezo_tav_m": 0.51,
+   "etkezo_zona": [
+    7.68,
+    5.37,
+    9.02,
+    7.17
+   ],
+   "tv_eltolas_m": 0.4
+  },
+  {
+   "kod": "P902_24B",
+   "nev": "U 2,40 × 3,00, az asztal 0,15 m-rel nyugatra",
+   "kanape": [
+    4.77,
+    4.95,
+    7.17,
+    7.95
+   ],
+   "meret": "2,40 × 3,00",
+   "cel_max_szelesseg_m": {
+    "terasz (tolóajtó)": 0.65,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.85,
+    "05.3 háló ajtaja": 0.75
+   },
+   "uthossz_090_m": {
+    "terasz (tolóajtó)": null,
+    "konyha (a pultsorok közé)": 1.55,
+    "hálók folyosója": null,
+    "05.3 háló ajtaja": null
+   },
+   "ures_uthossz_m": {
+    "terasz (tolóajtó)": 3.3,
+    "konyha (a pultsorok közé)": 1.55,
+    "hálók folyosója": 3.83,
+    "05.3 háló ajtaja": 3.15
+   },
+   "nezotav_m": 2.9,
+   "kanape_tv_m": 0.65,
+   "deli_sav_m": 0.9,
+   "uveg_elott_m": 0.1,
+   "etkezo_tav_m": 0.66,
+   "etkezo_zona": [
+    7.83,
+    5.37,
+    9.17,
+    7.17
+   ],
+   "tv_eltolas_m": 0.4
   }
  ]
 }

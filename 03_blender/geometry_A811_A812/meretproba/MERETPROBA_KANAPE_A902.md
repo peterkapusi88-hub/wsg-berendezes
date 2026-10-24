@@ -11,7 +11,7 @@
 - **A U elfér: Péter rajza (18:36) szerint, de 0,45 m-rel északabbra, a teraszüveg felé tolva.**
   - A rajz helyén délen csak 0,44 m maradna, és ott megy a bejárattól a hálók folyosójához vezető fő út.
   - Feljebb tolva ott 0,90 m marad, az üveg előtt pedig 0,10–0,20 m.
-- **Legjobb változat: U 3,00 × 2,20 (P902_22).**
+- **Alapelrendezés Péter döntései szerint (18:43): U 2,40 × 3,00, az asztal 0,30 m-rel nyugatra (P902_24A)** – lásd a Döntések szakaszt. A 2,20 m mély változat (P902_22):
   - A nyitott oldal a gyári TV-blokk (nyugati fal) felé néz, a háta az étkező felé.
   - A teraszhoz a U és az asztal között 1,00 m-es út vezet. A hálók folyosójához kb. 0,85–0,90 m, a konyhához 1,00 m marad.
   - Nézőtáv 2,70 m, a U és a TV-konzol között 0,65 m.
@@ -34,6 +34,8 @@ Rajz: `terv_elrendezes_A902.png`; adatok: `terv_elrendezes_A902.json`. A táblá
 | P902_29 – U 2,40 × 2,90, az üveg előtt 0,20 m | 2,40 × 2,90 | 0,80 | 0,85 | 1,00 | 0,60 | 2,90 | 0,65 | 0,90 | 0,20 | 0,81 |
 | P902_22 – U 2,20 × 3,00 (a TV felé 20 cm-rel rövidebb) | 2,20 × 3,00 | 1,00 | 0,85 | 1,00 | 0,60 | 2,70 | 0,65 | 0,90 | 0,10 | 1,01 |
 | P902_22A – U 2,20 × 3,00, az asztal 0,30 m-rel nyugatra | 2,20 × 3,00 | 0,75 | 0,85 | 1,00 | 0,90 | 2,70 | 0,65 | 0,90 | 0,10 | 0,71 |
+| P902_24A – U 2,40 × 3,00, az asztal 0,30 m-rel nyugatra | 2,40 × 3,00 | 0,75 | 0,85 | 1,00 | 0,90 | 2,90 | 0,65 | 0,90 | 0,10 | 0,51 |
+| P902_24B – U 2,40 × 3,00, az asztal 0,15 m-rel nyugatra | 2,40 × 3,00 | 0,65 | 0,85 | 1,00 | 0,75 | 2,90 | 0,65 | 0,90 | 0,10 | 0,66 |
 
 ## Szigorú próba (minden út 0,90 m, kerülő nélkül)
 `kanape_meretproba_a902.py` → `kanape_meretproba_A902.png/.json`. A TV-falak:
@@ -66,13 +68,17 @@ Rajz: `terv_elrendezes_A902.png`; adatok: `terv_elrendezes_A902.json`. A táblá
 - **Az asztal 0,30 m-rel nyugatra:** a Gala U 300 × 225 és a Blok L 290 × 230 elfér a nyugati TV-fallal szemben, az üveghez tolva. A U háta ekkor közvetlenül az asztal nyugati székei mögött van, ott a székeket nem lehet hátratolni.
 - **60 cm-es széktolással mindkét oldalon, minden út 0,90 m-rel:** csak egy kis, 2,0 × 2,4-es U fér el (a déli TV-fallal). Ezért kell Péter elrendezésénél a mellékutakat elfogadni, ahogy az A-811-ben és az A-812-ben is.
 
-## Nyitott – Péter döntése kell
-1. **A U nyitott oldala:** Péter rajzán kelet, az étkező felé néz; a számítás a TV (nyugat) felé nyitottal készült. Ha az étkező felé nyitjuk, a TV-t máshova kell tenni.
-2. **A 05.3-as háló ajtaja és a terasz:**
-   - (a) az asztal a terv helyén: a 05.3-as ajtóhoz 0,6 m, a teraszhoz 1,0 m;
-   - (b) az asztal 0,30 m-rel nyugatra: a 05.3-as ajtóhoz 0,9 m, a teraszhoz 0,75 m.
-3. **A U mélysége:** 2,20 m (a teraszhoz 1,0 m marad) vagy 2,40 m (0,8 m marad).
-4. **Hétfőn:** a teraszajtó tolható szárnyának helye; a konyhapult benyúló végének (y 5,25) valós helye.
+## Döntések (Péter, 2026-10-24 18:43)
+- **A U nyitott oldala a TV felé (nyugatra) néz,** ahogy a rajz mutatja („ahogy te rajzolod, jó, ahogy nyílik”).
+- **A teraszajtó tolható része a jobb (keleti) oldalon van.** Ezért nem baj, hogy a U a nyugati részen közel van az üveghez. Hétfőn a helyszínen is megnézzük.
+- **A U mélysége 2,40 m** („inkább 240, ha belefér”) – belefér.
+- **Az asztal helyét Claude választja („ahol neked jó”): 0,30 m-rel nyugatra a terv helyétől (P902_24A).**
+  - A 05.3-as (master) háló ajtajához így 0,90 m-es egyenes út vezet. Ez napi útvonal, a terv helyén csak 0,6 m maradna.
+  - A teraszhoz 0,75 m-es út vezet az asztal keleti oldalán, ott, ahol a teraszajtó nyílik.
+  - Az ML04 lámpa 0,20 m-re esik az asztal közepétől, így az asztal fölött marad.
+  - Ára: az asztal nyugati székei mögött a U hátáig 0,51 m marad; oda szűkebben lehet beülni, mint az A-812-ben a konyha felőli helyekre.
+
+**Alapelrendezés:** U 2,40 × 3,00 (P902_24A), a nyitott oldal a gyári TV-blokk felé, a teraszüveg előtt 0,10 m. Nézőtáv 2,90 m, a U és a TV-konzol között 0,65 m, a hálók folyosója felé 0,85–0,90 m.
 
 ## Korlátok
 - A geometria terv szerinti, helyszínen nem mértük. Péter rajzát a képről mértük, ±5 cm.

@@ -31,7 +31,9 @@ EL = [dict(kod='P902_rajz', nev='Péter rajza szerint', S=(4.77, 4.49, 7.19, 7.4
       dict(kod='P902', nev='Péter U-ja 0,46 m-rel északabbra', S=(4.77, 4.95, 7.17, 7.95)),
       dict(kod='P902_29', nev='U 2,40 × 2,90, az üveg előtt 0,20 m', S=(4.77, 4.95, 7.17, 7.85)),
       dict(kod='P902_22', nev='U 2,20 × 3,00 (a TV felé 20 cm-rel rövidebb)', S=(4.77, 4.95, 6.97, 7.95)),
-      dict(kod='P902_22A', nev='U 2,20 × 3,00, az asztal 0,30 m-rel nyugatra', S=(4.77, 4.95, 6.97, 7.95), zona=(7.68, 5.37, 9.02, 7.17))]
+      dict(kod='P902_22A', nev='U 2,20 × 3,00, az asztal 0,30 m-rel nyugatra', S=(4.77, 4.95, 6.97, 7.95), zona=(7.68, 5.37, 9.02, 7.17)),
+      dict(kod='P902_24A', nev='U 2,40 × 3,00, az asztal 0,30 m-rel nyugatra', S=(4.77, 4.95, 7.17, 7.95), zona=(7.68, 5.37, 9.02, 7.17)),
+      dict(kod='P902_24B', nev='U 2,40 × 3,00, az asztal 0,15 m-rel nyugatra', S=(4.77, 4.95, 7.17, 7.95), zona=(7.83, 5.37, 9.17, 7.17))]
 
 
 def ellenoriz(A, e):
