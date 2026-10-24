@@ -338,7 +338,35 @@ for o in bpy.data.collections['A902_Nyilaszarok'].objects:
         q = p.copy(); q[ax] = c_ + (p[ax] - c_) * k_
         v.co = Mi @ q
     nudged.append(n)
-log['render_only'] = dict(profil_melyseg_plusz_2mm=nudged)
+# Ugyanez a falaknál: két átfedő falhasáb egysíkú lapja (pl. a konyhai fülke sarka) fekete rést ad.
+# Az átfedő párból a kisebb hasáb azon lapját, amely a nagyobb hasáb egy lapjával egy síkban van,
+# 1 mm-rel befelé húzzuk (a nagyobb lapja marad látható). Δ = 1 mm (< 1 cm lock-tűrés).
+def _bb(o):
+    pts = [o.matrix_world @ v.co for v in o.data.vertices]
+    return [min(p[i] for p in pts) for i in range(3)] + [max(p[i] for p in pts) for i in range(3)]
+wl = [o for o in bpy.data.collections['A902_Falak'].objects if o.type == 'MESH' and not o.name.startswith('Plafon') and len(o.data.vertices) == 8]
+bbs = {o.name: _bb(o) for o in wl}
+vol = {n: (b[3] - b[0]) * (b[4] - b[1]) * (b[5] - b[2]) for n, b in bbs.items()}
+shrunk = []
+for i, oa in enumerate(wl):
+    for ob in wl[i + 1:]:
+        A, B = bbs[oa.name], bbs[ob.name]
+        ovl = [min(A[k + 3], B[k + 3]) - max(A[k], B[k]) for k in range(3)]
+        if min(ovl) <= 0.001:
+            continue
+        small, big = (oa, ob) if vol[oa.name] <= vol[ob.name] else (ob, oa)
+        S, Bg = bbs[small.name], bbs[big.name]
+        M = small.matrix_world; Mi = M.inverted()
+        for ax in range(2):          # csak vízszintes irányban (a padló/mennyezet síkjához nem nyúlunk)
+            for side, sgn in ((0, +1), (3, -1)):
+                c = S[ax + side]
+                if any(abs(c - Bg[ax + s2]) < 0.0005 for s2 in (0, 3)):
+                    for v in small.data.vertices:
+                        p = M @ v.co
+                        if abs(p[ax] - c) < 0.0005:
+                            p[ax] += sgn * 0.001; v.co = Mi @ p
+                    shrunk.append(f'{small.name}:{"xyz"[ax]}{"min" if side == 0 else "max"}')
+log['render_only'] = dict(profil_melyseg_plusz_2mm=nudged, fal_atfedes_1mm=shrunk)
 
 # ---------------------------------------------------------------- 7) render
 r = sc.render

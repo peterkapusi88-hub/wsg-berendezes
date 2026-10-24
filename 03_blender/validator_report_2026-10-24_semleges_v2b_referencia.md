@@ -30,6 +30,10 @@
 - Új, lockon kívüli gyűjtemények: `Ref_v2b_szegelyleces` (6 cm-es szegőléc, 66 szakasz) és `Ref_v2b_portalok`.
 - A régi bútorral együtt a beépített szaniterek is rejtve vannak; a három nézetből nem látszanak.
 - **Csak a renderhez, a Validator futása után:** a vízszintes nyílászáró-profilok (`_also`, `_felso`, 8 objektum) mélysége +2 mm (oldalanként 1 mm). Az egymásba érő, egysíkú profildobozok különben fekete foltot adnak a Cyclesben. Ez kisebb a lock 1 cm-es tűrésénél, és a lockolt geometriát nem érinti.
+- **Ugyanígy a falaknál** (szintén csak a renderhez, a Validator után): ahol két falhasáb átfed, és lapjuk egy síkban van, a kisebb hasáb azon lapja vízszintesen 1 mm-rel befelé kerül.
+  - Ok: a konyhai szekrényfülke sarkánál (`Fal_szekrenyfulke_E_v2b` / `Beepitett_szekreny_eloter`) a Cam_03-on keskeny fekete rés jelent meg.
+  - Érintett falak: 9.
+  - A Cam_02 nézetben egyik sem látszik, ezért a Cam_02 a javítás előtti futásból maradt; a Cam_03 és a Cam_04 a javítással készült.
 
 **Korlát:**
 - A PASS a **terv szerinti** lockhoz való egyezés, nem helyszíni igazolás.
