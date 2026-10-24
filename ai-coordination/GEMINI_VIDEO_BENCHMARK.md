@@ -41,7 +41,12 @@ Bizonyítékok: `04_renderek/ai_video_tests/A902_LakeForest_1_nappali_videoteszt
 | `…_videoteszt_{omniflash,veo31lite,veo31fast}_reszlet.jpg` | ~0,5 MB/db | nagyított forrás ↔ 3 képkocka |
 | `…_videoteszt_kredit_elotte_250.png`, `…_kredit_utana_210.png` | kicsi | a Flow fiókpaneljének kivágása (kreditbizonyíték) |
 
-Mindegyik a `04_renderek/ai_video_tests/` mappában van, a GitHubon és a helyi tükörben (`~/Downloads/wsg-berendezes/`) is. Kivétel a két kredit-PNG: ezek csak a helyi tükörben vannak, mert a webes feltöltő ezeket nem érte el. A Flow-ból letöltött eredeti MP4-ek a Mac `~/Downloads/` mappájában is megvannak (Chrome alapértelmezett letöltési helye). Minden fájl GitHub-kompatibilis méretű (< 25 MB).
+**Hol mi van (2026-10-24 04:55):**
+- **GitHub** `04_renderek/ai_video_tests/`: a 3 MP4 és a 7 összevető JPG (commit `3e2cedf`).
+- **Helyi tükör** `~/Downloads/wsg-berendezes/04_renderek/ai_video_tests/`: a 7 JPG és a 2 kredit-PNG. **A 3 MP4 itt még nincs**, mert ebből a munkamenetből nem értem el a `~/Downloads` gyökerét.
+- **Mac** `~/Downloads/`: a Flow-ból letöltött eredeti MP4-ek (`A902_LakeForest_1_nappali_omniflash_6s_720p.mp4`, `…_veo31lite_8s_720p.mp4`, `…_veo31fast_8s_720p.mp4`). Ezeket kézzel kell áthúzni a tükör `04_renderek/ai_video_tests/` mappájába, vagy a következő GitHub-szinkronnal jönnek.
+- A két kredit-PNG csak a helyi tükörben van, a GitHubon nincs.
+- Minden fájl GitHub-kompatibilis méretű (< 25 MB).
 
 ## 3. Vizsgálati módszer
 
