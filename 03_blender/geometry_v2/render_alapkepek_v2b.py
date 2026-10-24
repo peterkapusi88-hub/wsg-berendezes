@@ -29,6 +29,15 @@ for o in bpy.data.collections['A902_Butor'].objects:
     if not o.name.startswith(MARAD): o.hide_render = True
 vk = bpy.data.collections.get('A902_Villamos_TERV')
 if vk: vk.hide_render = True
+# A stílusréteg anyaga falon is maradhatott: a v2b fájlban a nappali nyugati fala (Fal_05_1_nappali_0) és a 05.1 északi
+# fala (Kulso_E_05_1_0) Zenit-tapétát (Z_tapeta_greige) hordoz (a PR #8 ellenőrzése, 2026-10-24). Az alapképen minden fal a
+# meglévő fehér festés: a renderhez Fal_feher-re cseréljük – csak a memóriában, a fájlt nem mentjük.
+FAL_FEHER = bpy.data.materials['Fal_feher']; falanyag_csere = []
+for o in bpy.data.collections['A902_Falak'].objects:
+    if o.name.startswith('Plafon'): continue
+    for s in o.material_slots:
+        if s.material and s.material.name != 'Fal_feher':
+            falanyag_csere.append([o.name, s.material.name]); s.material = FAL_FEHER
 
 def lock_beallitas():
     r.engine = 'BLENDER_EEVEE'; r.resolution_x, r.resolution_y, r.resolution_percentage = 1600, 1000, 100
@@ -47,7 +56,7 @@ log = dict(blender=bpy.app.version_string, fajl=bpy.data.filepath, valtozat=VALT
            rejtve=dict(stilusretegek=[c.name for c in bpy.data.collections if c.name.startswith('Stil_')],
                        butor=sum(1 for o in bpy.data.collections['A902_Butor'].objects if o.hide_render),
                        megtartott_szaniter=sorted(o.name for o in bpy.data.collections['A902_Butor'].objects if not o.hide_render)),
-           fenyek=None)
+           fenyek=None, falanyag_csere=falanyag_csere)
 KAM = [('Cam_02_Nappali_terasz', 'A902_Alap-v2b_blender_02_nappali-terasz.png'),
        ('Cam_03_Etkezo_konyha', 'A902_Alap-v2b_blender_03_etkezo-konyha.png'),
        ('Cam_04_Master', 'A902_Alap-v2b_blender_04_master.png')]

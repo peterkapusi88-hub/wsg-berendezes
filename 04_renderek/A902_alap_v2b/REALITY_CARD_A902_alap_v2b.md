@@ -4,11 +4,19 @@
 
 **Gate-státusz:** `ALAPKÉP – TERV SZERINT` · `ELŐSZŰRT – FELTÉTELES`. Nem PASS, mert a padló dekorja nem igazolt, a falsík pedig a hétfői helyszíni mérésig terv szerinti.
 
+**Javítás (2026-10-24 15:50):**
+- **A hiba:** az első változaton a nappali nyugati fala és a 05.1 északi fala halványan bézs volt. Érintett objektumok: `Fal_05_1_nappali_0` és `Kulso_E_05_1_0`.
+- **Az oka:** a v2b fájlban ezeken a Zenit-tapéta anyaga (`Z_tapeta_greige`) maradt. A PR #8 ellenőrzése találta meg. A korábbi magyarázat („a padlóról visszaverődő fény”) téves volt.
+- **A javítás:**
+  - a renderszkript most minden falat a meglévő fehér festésre (`Fal_feher`) állít, csak a memóriában, a fájl nem változik;
+  - a Cam_02 és a Cam_04 újrarenderelve;
+  - a Cam_03-on ezek a falak nem látszanak, a kép bitre azonos maradt.
+
 ## Bemenet és beállítás
 | | |
 |---|---|
 | Modell | `03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend` – a KORR 2 terv szerint javított geometria (125 tétel). Lock: `geometry_lock_A902_v2b.json`. Validátor v2: LOCK 0, TERASZ 0, kamera rendben. |
-| Szkript | `03_blender/geometry_v2/render_alapkepek_v2b.py`, „semleges” változat. Csak a betöltött példányon módosít, nem ment. |
+| Szkript | `03_blender/geometry_v2/render_alapkepek_v2b.py`, „semleges” változat. Csak a betöltött példányon módosít, nem ment. A falon maradt stílusanyagot fehérre cseréli; a csere a `render_log.json` `falanyag_csere` mezőjében. |
 | Render | Blender 5.2.3, EEVEE, 1600 × 1000, AgX + Medium High Contrast, expozíció +0,75. Háttér-Blender a Macen; az élő `WSG_A902_stilusok.blend`-hez nem nyúlt. |
 | Fény | Egyenletes, szórt nappali fény (egyszínű égbolt, 0,86/0,88/0,92, erősség 1,0). Nincs nap, mert az iránya nem igazolt, és nincsenek belső lámpák. |
 | Rejtve | Mindkét stílusréteg, a 185 bútorelem és a kiállás-réteg. Látszik a 12 beépített szaniter-elem (kád, mosdó, WC, zuhany, törölközőszárító). |
@@ -20,7 +28,7 @@
 | Felület | Cam_02 nappali → terasz | Cam_03 étkező → konyha | Cam_04 master (05.1) | Státusz |
 |---|---|---|---|---|
 | Padló | szürkésbarna sík tónus, sRGB ~144/140/136 | ~146/143/141 | ~143/139/136 | MEGLÉVŐ/MEGTARTOTT – csak tónus, **deszkaminta nincs modellezve**, Egger-dekor NEM IGAZOLT |
-| Falak | fehér, ~202/199/195 | ~206/207/208 | ~203/200/196 | MEGLÉVŐ fehér; a halvány melegség a padlóról visszaverődő fény, nem festés |
+| Falak | fehér, ~211/212/214 | ~210/210/212 | ~211/212/213 | MEGLÉVŐ fehér festés (a javítás előtt a Cam_02 nyugati és a Cam_04 két fala bézs volt – lásd fent) |
 | Mennyezet | fehér | fehér | fehér | MEGLÉVŐ; a hűtő-fűtő mező nem látszik (a kiállás-rétegben van) |
 | Nyílászáró | belül fehér profil, 2,53 m-es teraszüvegfal | belül fehér | – | IGAZOLT-F (2026-10-21) |
 | Beltéri ajtó | – | világosszürke lap, szürke tok | – | IGAZOLT-F |
