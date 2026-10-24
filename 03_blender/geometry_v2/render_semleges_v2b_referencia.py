@@ -391,8 +391,18 @@ sc.view_settings.look = os.environ.get('WSG_LOOK', 'None')
 sc.view_settings.exposure = EXPOSURE
 sc.view_settings.gamma = 1.0
 r.image_settings.file_format = 'PNG'; r.image_settings.color_depth = '8'
+# Kameránkénti, csak renderhez szóló rejtés (a Validator után):
+# a v2 tetőkert nyugati mellvédje (v2_Mellved_Ny, ELŐZETES) modellhiba miatt belelóg a 05.1 északi fülkéjébe
+# (x 2,83–3,02, y 8,50–8,95, a padló fölött 47 cm) – a Cam_04-en 47 cm-es fehér dobozként látszana. A tetőkert-modellben javítandó.
+CAM_HIDE = {'Cam_04_Master': ['v2_Mellved_Ny']}
 cams = {}
 for cn in CAMS:
+    for nm in sum(CAM_HIDE.values(), []):
+        if bpy.data.objects.get(nm): bpy.data.objects[nm].hide_render = False
+    for nm in CAM_HIDE.get(cn, []):
+        if bpy.data.objects.get(nm):
+            bpy.data.objects[nm].hide_render = True
+            log.setdefault('render_only_kamera_rejtes', []).append(f'{cn}: {nm}')
     cam = bpy.data.objects[cn]
     sc.camera = cam
     r.filepath = os.path.join(OUT, f'{cn}.png')

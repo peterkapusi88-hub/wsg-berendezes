@@ -35,6 +35,12 @@
   - Érintett falak: 9.
   - A Cam_02 nézetben egyik sem látszik, ezért a Cam_02 a javítás előtti futásból maradt; a Cam_03 és a Cam_04 a javítással készült.
 
+**Modellhiba – a Validator nem jelzi:** a v2 tetőkert nyugati mellvédje (`v2_Mellved_Ny`, x 2,83–3,39, y 8,50–20,61, z −0,45…0,47) belelóg a 05.1 északi fülkéjébe.
+- Átfedés: x 2,83–3,02, y 8,50–8,95, a padló fölött 47 cm.
+- A `Pillér_05_1_EK` és a `Kulso_E_05_1_0` falhasábbal is átfed.
+- A Cam_04 referencia-renderen erre az egy kamerára rejtve van. Javítás a tetőkert-modellben kell: a mellvéd ennél az x-nél legfeljebb y ≈ 9,25-ig tarthat.
+- Javasolt új Validator-ellenőrzés: „terasz ↔ helyiség- és falátfedés”.
+
 **Korlát:**
 - A PASS a **terv szerinti** lockhoz való egyezés, nem helyszíni igazolás.
 - A bútoros stílusrétegek a v2b-n továbbra is FAIL-esek (`validator_report_2026-10-24_v2b.md`, 89 hiba): a régi LF-réteg nem használható. Új elrendezés csak tömegmodellel és új Validator-futással mehet.

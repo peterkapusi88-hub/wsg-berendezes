@@ -18,8 +18,8 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
 | `A902_semlegesv2b_1_nappali.png` | **Cam_02** nappali → terasz, 1600×1000, üres, nappali borult fény |
 | `A902_semlegesv2b_1_nappali_ellenorzo.png` | ugyanaz rárajzolva: lámpa- és fali kiállások, TV-blokk, HF03 mennyezeti mező, méretek, bizonytalan elemek |
 | `A902_semlegesv2b_0_felulnezet_Cam02.png` | felülnézet: falak, nyílások, kiállások, HF-mezők, Cam_02 látómező, Cam_03/04 helye |
-| `A902_semlegesv2b_2_etkezo_konyha.png` | Cam_03 – kiegészítő, ellenőrző rárajzolás nélkül |
-| `A902_semlegesv2b_3_master.png` | Cam_04 – kiegészítő, ellenőrző rárajzolás nélkül |
+| `A902_semlegesv2b_2_etkezo_konyha.png` | Cam_03 – kiegészítő, ellenőrző rárajzolás nélkül (lásd lent) |
+| `A902_semlegesv2b_3_master.png` | Cam_04 – kiegészítő, ellenőrző rárajzolás nélkül (lásd lent; a mellvéd-modellhiba miatt egy teraszelem rejtve) |
 | `kamera_parameterek.json` | a renderelt kamerák mátrixa, objektív, szenzor, felbontás |
 | `validator_v2b_referencia.json` | a Validator teljes kimenete |
 | `beallitasok.json` | mi változott a másolaton (rejtés, anyag, fény, render) |
@@ -55,6 +55,25 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
 | Kilátás | **nincs modellezve**: semleges ég, a horizont alatt szürke | – | a valós Budai-hegy és villanegyed képe: `02_referenciak/A902_helyszin/` – a stílusképekhez külön referenciaként kell megadni |
 | Homlokzat kívül | fehér modellfal | – | a valóságban a teraszajtók kávája sötét klinker (ME-BAL-053); a Cam_02-ből alig látszik |
 | Fény | borult, irány nélküli | – | nem a valós napállás és nem a valós fényviszony; a tónusok összehasonlításra szolgálnak |
+
+## Cam_03 és Cam_04 (kiegészítő képek) – ami ott látszik és bizonytalan
+
+**Cam_03 – étkező → konyha / előtér** (hely [4,70; 7,70; 1,50], 20 mm, KDK felé):
+- Balra a teraszüvegfal; középen a keleti fal a 05.3 ajtajával (világosszürke lap, csukva); jobbra a WC-blokk fala és az előtér felé vezető átjáró a konyha 0,85 m-es alacsony falával. A konyha **üres**: a lakás konyhabútor nélkül került átadásra (K1: 85 cm-es pultköz).
+- **BIZONYTALAN:** az előtér–nappali átjáró **2,10 m-es szemöldöke** a v1 brosúrából jön (a v2b-ben az egyetlen ELŐZETES / MÉRENDŐ elem).
+  - Az átvételi összesítő szerint az előtérben álmennyezet van (min. 2,40 m), így a valós nyílásmagasság eltérhet.
+- Az étkező ML04 „b” kiállása szintén a HF03 mezőben van (lásd fent).
+
+**Cam_04 – master (05.1)** (hely [0,35; 4,30; 1,50], 20 mm, ÉK felé):
+- Balra az északi fülke hátfala (y 8,95), középen a fülke keleti pillére (`Pillér_05_1_EK`), jobbra a nappalival közös válaszfal (x 3,57). Ezen a falon vannak az ágy két oldalának kiállásai (K13/D20/D21 y 7,51 körül, K14/D22/D23 y 5,24 körül, 65 cm-en).
+- A 3,65 m-es nyugati üvegfal a kamera mögött van, nem látszik.
+- **MODELLHIBA (javítandó):** a v2 tetőkert nyugati mellvédje (`v2_Mellved_Ny`, ELŐZETES) **belelóg a 05.1 északi fülkéjébe**.
+  - Átfedés: x 2,83–3,02, y 8,50–8,95, a padló fölött 47 cm; a fülke pillérével és északi falával is átfed.
+  - Az első Cam_04-renderen 47 cm-es fehér dobozként látszott. A referenciaképen **csak erre a kamerára rejtve** van.
+  - A tetőkert-modellben a mellvéd déli vége ennél az x-nél legfeljebb a szerkezeti fal külső síkjáig (y ≈ 9,25) tarthat.
+  - A Validator ezt nem fogja meg (a teraszelemeket csak változatlanságra nézi): érdemes egy „terasz ↔ belső tér átfedés” ellenőrzést felvenni.
+- A falon maradt `Z_tapeta_greige` a fülke hátfalán (`Kulso_E_05_1_0`) is fehérre javítva.
+
 
 ## Mi kell a PASS-hoz (helyszíni mérés és fotó)
 
