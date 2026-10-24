@@ -179,6 +179,27 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Ha Astra kiegészítése elkészül,** Claude a geometriai v2 javítással együtt új, verziózott promptba egyesíti.
   - **Megőrzendő:** az eredeti promptok és képek.
   - **Generálás nincs,** amíg Péter az egyesített változatot jóvá nem hagyja.
+- *(2026-10-25 01:39, Péter – eldöntve; elsődleges munkamenet)* **KEP-004: 66 képes célstruktúra, kis, ellenőrzött adagokban.**
+  - **60 stíluskép:** 10 stílus × 6 nézet:
+    - Cam_02 nappali–terasz (geometriailag kontrollált);
+    - **új nappali hero nézet a TV-fal felől** (új kamera);
+    - Cam_03 konyha–étkező;
+    - Cam_04 master;
+    - Cam_11 master-panoráma;
+    - Cam_10 fürdő 06.2.
+  - **+6 kalibrációs kép:** a Zenit és a Lake Forest újratervezett, kontrollált benchmarkként.
+  - **Alapelv:** az egész lakás következetesen prémium, belsőépítész által tervezett minőségérzetet kap, főleg a falkezelések révén; a nagy látható falak ne maradjanak csupaszok.
+    - Kiemelt felületek: a TV-fal, az étkező mögötti fal, a meglévő szürke ajtók környezete és a master fontos falai.
+    - A fürdőben csak a meglévő burkolat tiszteletben tartásával.
+  - **Költség „in check”:** tapéta, dekor- vagy bútorlapos panel, textilpanel, sekély tárolós TV-fal, egyedi vászonkép/print. Drága, tömör kő hatású megoldás csak ott, ahol tényleg indokolt; ahol kell, olcsóbb alternatíva is legyen.
+  - **Elrendezés:** stílusonként maradhat U, L vagy más, ha geometriailag hiteles, vizuálisan tudatos és auditálható.
+  - **Futtatási sorrend:**
+    1. az S01 Kyoto újrafuttatása Cam_02-vel (Astra V3 + geometriai v2);
+    2. 1–2 további, karakteresen eltérő stílus;
+    3. utána nagyobb adag.
+    - A hero és a master nézetek csak jó első kör után skálázódnak; a fürdővel nem kezdünk.
+  - **Tilos most:** új Astra Work-feladat, az eredeti Astra-fájlok felülírása, tömeges generálás jóváhagyás nélkül, a kész geometriai és prompt-előkészítés elvesztése.
+  - **Astra Creative Upgrade V3 r1 megérkezett:** draft PR #16, ág `astra/creative-upgrade-v3-r1-20261025`, commit `be6b1f3`. Tartalma: tíz falstratégia, valamint részletes S01/S02 Cam_02 csereblokkok, költségmodellel.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
