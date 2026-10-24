@@ -200,6 +200,30 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - A hero és a master nézetek csak jó első kör után skálázódnak; a fürdővel nem kezdünk.
   - **Tilos most:** új Astra Work-feladat, az eredeti Astra-fájlok felülírása, tömeges generálás jóváhagyás nélkül, a kész geometriai és prompt-előkészítés elvesztése.
   - **Astra Creative Upgrade V3 r1 megérkezett:** draft PR #16, ág `astra/creative-upgrade-v3-r1-20261025`, commit `be6b1f3`. Tartalma: tíz falstratégia, valamint részletes S01/S02 Cam_02 csereblokkok, költségmodellel.
+- *(2026-10-25 01:49, Péter – eldöntve)* **Rejtett, integrált LED-hangulatvilágítás: kiemelt tervezési elem.**
+  - A V3 általános „no decorative LEDs / no cabinet halo” tiltása **nem végleges tulajdonosi tilalom**.
+  - Az S01 és S02 V3 fal-, bútor- és tárolókoncepciója marad. Astra ezekhez világítási **V3.1** kiegészítést készít.
+  - **Kiemelt világítási elemek:**
+    - rejtett LED a TV- és tárolófalban;
+    - fény a szekrény mögött, fölött és alatt;
+    - súrolófény a falpaneleken és a tapétán;
+    - indirekt fény a függöny mögött;
+    - indirekt fény a fal–mennyezet találkozásnál, **a falra vagy szerelt takaróelemre rögzítve** (a mennyezetre nem);
+    - lábazati fény, ahol indokolt;
+    - a master fejvégfal és a gardrób hangulatfénye.
+  - **Hue:** minden általános és dekoratív hangulatfény igazoltan Philips Hue-ba integrálható legyen. Kivétel a szekrénybelső funkcionális fénye, ez lehet külön vezérelt.
+  - **Műszaki ellenőrzés:**
+    - kiállások, tápellátás, kábelút, profilhely, vezérlő- és tápegységhely, szerelhetőség, szellőzés, karbantarthatóság;
+    - a mennyezeti hűtő-fűtő rendszer nem sérülhet;
+    - ingyenes vagy már létező rejtett kiállást nem feltételezünk.
+  - **Költség:** a teljes bruttó bekerülés számít (Hue-komponens, profil, tápegység, villanyszerelés, asztalosmunka). A 18 M nem nő, a 2 M tartalék érintetlen.
+  - **Most:**
+    - a hero kamera és a V3 integrációjában reális helyet kell hagyni a rejtett LED-eknek;
+    - a világítás nem zárható ki automatikusan a promptokból;
+    - az S01/S02 végleges generálási csomagja csak a V3.1 után zárul;
+    - a V3 és az eredeti csomagok érintetlenek;
+    - ami nem fér bele a geometriába vagy a keretbe, azt jelölni kell, kivitelezhető alternatívával.
+  - Érvényes marad: a hero kamera, a P902_24A, az U/L változatok, a szürke ajtók, a teljes falkezelés és a 66 képes ütemezés. **Generálás csak külön jóváhagyással.**
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
