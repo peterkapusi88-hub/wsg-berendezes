@@ -1,0 +1,144 @@
+{
+ "jelolok": 130,
+ "tipusonként": {
+  "mennyezeti_lampakiallas": 12,
+  "fali_lampakiallas": 7,
+  "kapcsolo": 29,
+  "dugalj": 49,
+  "fix_bekotes": 1,
+  "ventilator_kiallas": 3,
+  "gyengearamu_aljzat": 7,
+  "antenna_tv_aljzat": 1,
+  "BK_doboz": 1,
+  "hangjelzo_vagy_erzekelo": 4,
+  "R_jelu_kiallas": 6,
+  "termosztat": 4,
+  "lakaselosztó": 1,
+  "kezelo_billentyuzet": 1,
+  "kaputelefon_belteri": 1,
+  "bejarati_ajto_eszkoz": 1,
+  "EPH_csatlakozo": 1,
+  "jakuzzi_aramkiallas": 1
+ },
+ "falra_illesztve": [
+  [
+   "A902-D05",
+   "dugalj",
+   0.523
+  ],
+  [
+   "A902-D08",
+   "dugalj",
+   0.299
+  ],
+  [
+   "A902-D40",
+   "dugalj",
+   0.326
+  ],
+  [
+   "A902-D43",
+   "dugalj",
+   0.326
+  ],
+  [
+   "A902-X01",
+   "fix_bekotes",
+   0.326
+  ],
+  [
+   "A902-V01",
+   "ventilator_kiallas",
+   0.138
+  ],
+  [
+   "A902-V02",
+   "ventilator_kiallas",
+   0.316
+  ],
+  [
+   "A902-V03",
+   "ventilator_kiallas",
+   0.326
+  ],
+  [
+   "A902-G01",
+   "gyengearamu_aljzat",
+   0.357
+  ],
+  [
+   "A902-G02",
+   "gyengearamu_aljzat",
+   0.357
+  ],
+  [
+   "A902-G03",
+   "gyengearamu_aljzat",
+   0.357
+  ],
+  [
+   "A902-G04",
+   "gyengearamu_aljzat",
+   0.243
+  ],
+  [
+   "A902-G09",
+   "BK_doboz",
+   0.116
+  ],
+  [
+   "A902-E01",
+   "lakaselosztó",
+   0.248
+  ],
+  [
+   "A902-S03",
+   "kezelo_billentyuzet",
+   0.54
+  ],
+  [
+   "A902-S04",
+   "kaputelefon_belteri",
+   0.15
+  ],
+  [
+   "A902-S06",
+   "EPH_csatlakozo",
+   0.37
+  ]
+ ],
+ "kulso_homlokzaton": [
+  [
+   "A902-FL05",
+   "fali_lampakiallas",
+   0.179
+  ],
+  [
+   "A902-FL06",
+   "fali_lampakiallas",
+   0.179
+  ],
+  [
+   "A902-FL07",
+   "fali_lampakiallas",
+   0.175
+  ],
+  [
+   "A902-D47",
+   "dugalj",
+   0.188
+  ],
+  [
+   "A902-D48",
+   "dugalj",
+   0.188
+  ],
+  [
+   "A902-D49",
+   "dugalj",
+   0.175
+  ]
+ ],
+ "mennyezet_kivul": [],
+ "hutes_futes_mezo": 5
+}

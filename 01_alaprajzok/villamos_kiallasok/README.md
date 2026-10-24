@@ -16,6 +16,9 @@ Gyors áttekintés: **`OSSZESITO.md`**. Tételes adat: `<LAKÁS>_villamos.csv` /
   - Vevői adat, ezért **nincs a repóban**. A kinyerés a Mac Letöltések mappájából, Péter engedélyével történt.
 - A lapokon ez áll: „a megvalósítás során a végleges méretek eltérhetnek”. Ezért minden tétel **TERV SZERINT**.
 
+## Blender
+Az A-902 kiállásai és hűtő-fűtő mezői a v2b modellben is megvannak: `A902_Villamos_TERV` gyűjtemény (renderben rejtve, nézetben látható), azonosítóval elnevezett jelölőkkel. Szkript: `03_blender/geometry_v2/add_kiallas_reteg.py`; ellenőrző felülnézet: `04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_06_alaprajz-kiallasok.png`.
+
 ## Koordináták
 Egység: méter. x a rajzon jobbra, y a rajzon felfelé. Pontosság a rajzhoz képest ±1 cm (1:50), illetve ±2 cm (1:100).
 
@@ -78,6 +81,7 @@ Péter engedélyével átnézve (2026-10-24); a dokumentum szerződésmelléklet
 1. **Világítás és minden áramot igénylő elem csak meglévő kiállásra kerülhet.** Ezek a mennyezeti ⊗, a fali lámpakiállás és a dugalj. Új kiállás, vésés, falon kívüli új kábelezés **nincs**.
 2. **Függeszték, csillár, mennyezeti lámpa csak a ⊗ kiállás helyére kerülhet.** Ha máshová kell fény: dugaljról táplált állólámpa vagy bútorba épített LED, illetve akkus lámpa.
    - Kiállástól eltolt függeszték mennyezeti rögzítést igényel, ezért csak Péter külön jóváhagyásával.
+   - **A-902:** a nappali, étkező, konyha és a három háló mennyezeti kiállása (ML03–ML08) a hűtő-fűtő mezőn belül van. A lámpa rögzítése előtt ellenőrizni kell, van-e a dobozban rögzítési pont, és csőmentes-e a kiállás körüli sáv (hőkamera, fűtési üzemben) – hétfő.
 3. **A hűtő-fűtő mezőkbe (HF) nem fúrunk.** Függönysín a szemöldökre vagy a falra kerül, a mezőn kívül. Máshol bútor, polc, TV-konzol rögzítéséhez fúrni szabad (Péter, 2026-10-24) – előtte vezetékkereső, a dobozok függőleges és vízszintes vonalában ne.
 4. **Bútor, panel vagy tapéta nem takarhatja** a kapcsolót, a termosztátot, a lakáselosztót (EL4), a BK-dobozt, a kaputelefont, a riasztó-kezelőt és a mozgásérzékelőt (a szobaajtók sarkában is van; magas szekrény ne kerüljön elé).
    - A dugalj hozzáférhető marad.

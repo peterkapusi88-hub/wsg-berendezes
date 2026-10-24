@@ -1,0 +1,61 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend (másolat a Mac háttér-Blenderében futtatva)",
+ "valtozat": "semleges",
+ "kepek": [
+  {
+   "kamera": "Cam_02_Nappali_terasz",
+   "fajl": "A902_Alap-v2b_blender_02_nappali-terasz.png",
+   "mp": 1.9
+  },
+  {
+   "kamera": "Cam_03_Etkezo_konyha",
+   "fajl": "A902_Alap-v2b_blender_03_etkezo-konyha.png",
+   "mp": 1.6
+  },
+  {
+   "kamera": "Cam_04_Master",
+   "fajl": "A902_Alap-v2b_blender_04_master.png",
+   "mp": 1.6
+  },
+  {
+   "kamera": "Cam_06_Alaprajz_lakas",
+   "fajl": "A902_Alap-v2b_blender_06_alaprajz-kiallasok.png",
+   "mp": 0.2,
+   "megjegyzes": "Workbench, tárgyszín, mennyezet rejtve"
+  }
+ ],
+ "rejtve": {
+  "stilusretegek": [
+   "Stil_LakeForest",
+   "Stil_Zenit"
+  ],
+  "butor": 185,
+  "megtartott_szaniter": [
+   "Kad_170x70",
+   "Kad_viz",
+   "Kezmoso_08",
+   "Mosdo_06_1",
+   "Mosdo_06_2",
+   "Torolkozoszarito_06_1",
+   "WC_csesze_06_2",
+   "WC_csesze_08",
+   "WC_tartaly_06_2",
+   "WC_tartaly_08",
+   "Zuhanytalca_06_2_182x85",
+   "Zuhanyuveg_06_2"
+  ]
+ },
+ "fenyek": [],
+ "beallitas": {
+  "motor": "BLENDER_EEVEE",
+  "felbontas": [
+   1600,
+   1000
+  ],
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "expozicio": 0.75,
+  "egbolt": "egyszínű (0,86/0,88/0,92), erősség 1,0"
+ }
+}
