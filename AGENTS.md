@@ -20,3 +20,7 @@ VS Code és Cursor telepítve és GitHubba bejelentkezve, de használatuk **nem 
 
 ## Delegált Codex-feladat státusza
 Az `ai-coordination/ROUTER.md` irányadó a Claude → Codex átadáshoz. A ChatGPT **Work GitHub-esemény trigger NEM azonos a Codex automatikus kód-review indításával**; Codexhez külön konfiguráció és teszt szükséges. Első feladat csak olvasás / review; ha a megfelelő Code Review integráció ténylegesen engedélyezett, az `@codex review` használata külön jóváhagyással vizsgálható, egyetlen próbakörben. Ne hozz létre rekurzív review kommentláncot és ne módosítsd az élő Blender szkriptet review közben.
+
+## Render Reality Gate – Codex műszaki audit
+
+Minden WSG geometriai/render-auditban olvasd az `ai-coordination/RENDER_REALITY_GATE.md` fájlt. Vizsgáld a fix falakat, ablakokat, kamerákat, belmagasságot, jeleneten belüli valódi padló/falfelületeket, bútorpozíciókat és méreteket; a renderen megjelent eltéréseket jelentésbe tedd. A parketta dekorazonosítója a helyszíni bizonyítékig nem igazolt. Kód és Blender-jelenet tud csak geometriai megfelelést ellenőrizni, anyagárat/termékazonosságot önmagában nem. Ne nevezd `RENDER REALITY PASS`-nak a csak kódon átfutott képet, és ne változtasd meg Claude élő fájlját.
