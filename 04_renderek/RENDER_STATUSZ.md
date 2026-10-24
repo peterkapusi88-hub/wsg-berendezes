@@ -10,6 +10,7 @@ A `ai-coordination/RENDER_REALITY_GATE.md` szerint. **Egyik eddigi kép sem PASS
 | `ai_video_tests/` | Gemini/Veo benchmark | **KONCEPCIÓ ALAPÚ VIDEÓTESZT – NEM KIVITELEZÉSI BIZONYÍTÉK** | `GEMINI_VIDEO_BENCHMARK.md` |
 | `alap/` | IKEA-méretű bútorelrendezés (méretpróba) | **GEOMETRIAI MUNKAKÉP** | nem esztétikai minta; validátor-hibák (05.2, 05.3, WC) nyitottak |
 | `semleges/` | üres, semleges belső nézetek (Cam_02–05) | **GEOMETRIAI ALAP – ELŐZETES** | brosúra-geometria ±15 cm; a **Cam_05 terasznézet elavult** (sík terasz) |
+| `semleges_v2b/` | üres, alaprajzhű semleges referencia a v2b-ből: Cam_02 (+ ellenőrző rárajzolás, felülnézet), Cam_03, Cam_04 – Cycles | **ELŐSZŰRT ALAP – TERV SZERINT** | Validator v2 PASS (0/0) a lock v2b-hez; helyszínen nem mért (±15 cm); padló procedurális EL2184-közelítés; kilátás nincs modellezve; részletek: `REFERENCIA_KARTYA_A902_Cam02_v2b.md` |
 | `terasz_v2_geometria/` | A-902 többszintű tetőkert, v2 (Cam_07–09) | **GEOMETRIAI ALAP – ELŐZETES** | tervdokumentum és videó; a zöldtető szintje, a domb és a járósáv becslés; nem stíluskép |
 
 **Szabály a továbbiakra:**
