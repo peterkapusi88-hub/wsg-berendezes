@@ -1,0 +1,158 @@
+{
+ "kollekciok": {
+  "A902_Butor": {
+   "hide_render": false,
+   "gyerekek": [],
+   "n": 197
+  },
+  "Stil_LakeForest": {
+   "hide_render": false,
+   "gyerekek": [],
+   "n": 146
+  },
+  "Stil_Zenit": {
+   "hide_render": true,
+   "gyerekek": [],
+   "n": 186
+  }
+ },
+ "all_objects_db": 186,
+ "elotte": {
+  "Z_lampa_kar_0": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    4.05,
+    7.45,
+    0.765
+   ]
+  },
+  "Z_TV55": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Z_agy_keret": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Z_gyuru_0": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    6.45,
+    5.9,
+    0.0
+   ]
+  }
+ },
+ "update_utan": {
+  "Z_lampa_kar_0": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    4.05,
+    7.45,
+    0.765
+   ]
+  },
+  "Z_TV55": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Z_agy_keret": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Z_gyuru_0": {
+   "hide_render": false,
+   "koll": [
+    "Stil_Zenit"
+   ],
+   "tipus": "MESH",
+   "drivers": [],
+   "action": false,
+   "loc": [
+    6.45,
+    5.9,
+    0.0
+   ]
+  }
+ },
+ "lathato_Zenit_mesh": [
+  "Z_lamella_5525",
+  "Z_lamella_5570",
+  "Z_lamella_5615",
+  "Z_lamella_5660",
+  "Z_lamella_5705",
+  "Z_lamella_5750",
+  "Z_lamella_7070",
+  "Z_lamella_7115",
+  "Z_lamella_7160",
+  "Z_lamella_7205",
+  "Z_lamella_7250",
+  "Z_lamella_7295",
+  "Z_lamella_7340",
+  "Z_TVfal_pad",
+  "Z_TVfal_pad_LED",
+  "Z_TVfal_top_LED",
+  "Z_TV55",
+  "Z_paravan_uveg0",
+  "Z_paravan_keret0",
+  "Z_paravan_keret0b"
+ ]
+}

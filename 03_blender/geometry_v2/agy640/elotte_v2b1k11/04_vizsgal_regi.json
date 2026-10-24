@@ -1,0 +1,234 @@
+{
+ "Agy_05_1_TALLASEN_180x200_keret": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mw": [
+   [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "parent": null,
+  "parent_type": "OBJECT",
+  "anim": false,
+  "drivers": 0,
+  "constraints": [],
+  "data": "Agy_05_1_TALLASEN_180x200_keret",
+  "data_users": 1,
+  "mods": []
+ },
+ "Agy_05_1_TALLASEN_180x200_fejtamla": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mw": [
+   [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "parent": null,
+  "parent_type": "OBJECT",
+  "anim": false,
+  "drivers": 0,
+  "constraints": [],
+  "data": "Agy_05_1_TALLASEN_180x200_fejtamla",
+  "data_users": 1,
+  "mods": []
+ },
+ "Ejjeli_05_1_a": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mw": [
+   [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "parent": null,
+  "parent_type": "OBJECT",
+  "anim": false,
+  "drivers": 0,
+  "constraints": [],
+  "data": "Ejjeli_05_1_a",
+  "data_users": 1,
+  "mods": []
+ },
+ "Z_agy_keret": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mw": [
+   [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "parent": null,
+  "parent_type": "OBJECT",
+  "anim": false,
+  "drivers": 0,
+  "constraints": [],
+  "data": "Z_agy_keret",
+  "data_users": 1,
+  "mods": []
+ },
+ "L_agy_keret": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "mw": [
+   [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "parent": null,
+  "parent_type": "OBJECT",
+  "anim": false,
+  "drivers": 0,
+  "constraints": [],
+  "data": "L_agy_keret",
+  "data_users": 1,
+  "mods": [
+   "BEVEL"
+  ]
+ }
+}

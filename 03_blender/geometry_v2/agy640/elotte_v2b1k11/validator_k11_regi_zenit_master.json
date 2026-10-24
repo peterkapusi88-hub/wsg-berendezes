@@ -1,0 +1,63 @@
+{
+ "fajl": "/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_cam11_v1/WSG_A902_v2b_alaprajz_ELOZETES_20261024_v2b1k11_JAVASLAT.blend",
+ "lock": "geometry_lock_A902_v2b.json",
+ "stilus": [
+  "Stil_Zenit"
+ ],
+ "errors": [
+  "ÜTKÖZÉS: Z_olvasolampa_0 ↔ fal Fal_05_1_nappali_0 (3.0 cm)",
+  "ÜTKÖZÉS: Z_olvasolampa_1 ↔ fal Fal_05_1_nappali_0 (3.0 cm)",
+  "AJTÓ-FORGÁS: Z_ejjeli_0 a(z) Ajto_05_1 nyitási negyedkörében (r 0.9 m)"
+ ],
+ "warnings": [],
+ "ok": [
+  "LOCK walls: 61 elem, 0 eltérés",
+  "LOCK openings: 54 elem, 0 eltérés",
+  "LOCK floors: 17 elem, 0 eltérés",
+  "TERASZ v2 (tetőkert): 43 elem, 0 változás",
+  "KAMERA: 11 kamera teljes paraméterrel; aktív: Cam_04_Master",
+  "BURKOLÓ: 11 látható bútorelem",
+  "ÜTKÖZÉS: bútor–fal/nyílászáró 2, bútor–bútor átfedés 0",
+  "AJTÓ: 11 nyílás negyedkörrel/sávval vizsgálva",
+  "VILLAMOS: 130 terv szerinti kiállás vizsgálva; takarás 0, dugalj elé állás 0"
+ ],
+ "info": [
+  "KAMERA Cam_01_Felulnezet: ellenőrző felülnézet",
+  "KAMERA Cam_02_Nappali_terasz: ÖSSZEHASONLÍTÓ – B fázis",
+  "KAMERA Cam_03_Etkezo_konyha: ÖSSZEHASONLÍTÓ – B fázis",
+  "KAMERA Cam_04_Master: ÖSSZEHASONLÍTÓ – B fázis",
+  "KAMERA Cam_05_Terasz: ELAVULT (régi sík teraszra; évelőágyás fölé esik) – nem használandó",
+  "KAMERA Cam_06_Alaprajz_lakas: ellenőrző alaprajz",
+  "KAMERA Cam_07_Terasz_v2_greslaprol: ELŐZETES terasznézet (16 mm, z 1,45 = 1,60 a gres fölött)",
+  "KAMERA Cam_08_Terasz_v2_madarnezet: ellenőrző madártávlat",
+  "KAMERA Cam_09_Terasz_v2_felulnezet: ellenőrző felülnézet",
+  "KAMERA Cam_10_Furdo_06_2: ÖSSZEHASONLÍTÓ – KEP-004, fürdő 06.2 (ablaktalan, csak műfény); 16 mm a 1,93×2,85 m-es tér miatt; nézet az ajtónyílásból kelet felé, a helyszíni ME-BAL-064 fotóval egyező irány",
+  "KAMERA Cam_11_Master_Panorama: JAVASLAT – Péter külön jóváhagyásáig NEM összehasonlító master (a Cam_04_Master marad); 05.1 az ágy/párnák felől, ülő szemmagasság ≈1,20 m (becslés), vízszintes kamera nyugat felé a nyugati üvegfalra és a valós panorámára; 20 mm, mint a Cam_02/03/04; az ágy a modell helyén (Agy_05_1, y 5,10–6,90), nem mozdítva",
+  "KONYHA: nincs két munkalap-sor a látható rétegben – a pultköz nem mérhető",
+  "05.2: fejjel a déli falnak, az ajtóforgásokon kívül elférő ágyak (legjobb oldaltávolság): 140 cm x 1.10–2.50, oldalt 110/115 cm, lábnál 60 cm; 160 cm x 1.00–2.60, oldalt 100/105 cm, lábnál 60 cm",
+  "VILLAMOS: a(z) A902-ML06 „t” mennyezeti kiállás alatt: ['Z_agy_matrac', 'Z_agy_pled', 'Z_agy_takaro']"
+ ],
+ "measurements": {
+  "aktiv_kamera": "Cam_04_Master",
+  "butor_butor_atfedes_db": 0,
+  "05_2_agy_alternativak": [
+   {
+    "agy_szelesseg": 1.4,
+    "x0": 1.1,
+    "x1": 2.5,
+    "bal_oldal_cm": 110,
+    "jobb_oldal_cm": 115,
+    "labnal_cm": 60
+   },
+   {
+    "agy_szelesseg": 1.6,
+    "x0": 1.0,
+    "x1": 2.6,
+    "bal_oldal_cm": 100,
+    "jobb_oldal_cm": 105,
+    "labnal_cm": 60
+   }
+  ]
+ },
+ "summary": "FAIL – 3 hiba, 0 figyelmeztetés; réteg: ['Stil_Zenit']"
+}

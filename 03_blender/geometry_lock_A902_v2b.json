@@ -1,5 +1,5 @@
 {
- "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért) · v2b-1-k10 (2026-10-24: Cam_10 + 06.2 akna)",
+ "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért) · v2b-1-k10 (2026-10-24: Cam_10 + 06.2 akna) · v2b-1-k11 JAVASLAT (2026-10-24: Cam_11_Master_Panorama – draft PR, nem master)",
  "datum": "2026-10-24",
  "forras": {
   "blend": "WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
@@ -2234,6 +2234,37 @@
    ],
    "parent": null,
    "statusz": "ÖSSZEHASONLÍTÓ – KEP-004, fürdő 06.2 (ablaktalan, csak műfény); 16 mm a 1,93×2,85 m-es tér miatt; nézet az ajtónyílásból kelet felé, a helyszíni ME-BAL-064 fotóval egyező irány"
+  },
+  "Cam_11_Master_Panorama": {
+   "tipus": "PERSP",
+   "lens_mm": 20.0,
+   "sensor_width": 36.0,
+   "sensor_height": 24.0,
+   "sensor_fit": "AUTO",
+   "shift_x": 0.0,
+   "shift_y": 0.0,
+   "clip_start": 0.1,
+   "clip_end": 200.0,
+   "ortho_scale": 6.0,
+   "dof": false,
+   "loc": [
+    3.2,
+    6.1,
+    1.2
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    1.5708
+   ],
+   "rot_mode": "XYZ",
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": null,
+   "statusz": "JAVASLAT – Péter külön jóváhagyásáig NEM összehasonlító master (a Cam_04_Master marad); 05.1 az ágy/párnák felől, ülő szemmagasság ≈1,20 m (becslés), vízszintes kamera nyugat felé a nyugati üvegfalra és a valós panorámára; 20 mm, mint a Cam_02/03/04; az ágy a terv szerinti helyen (Agy_05_1 tengelye y 6,40, keret y 5,50–7,30 – Péter, 2026-10-25 00:05; v2b-1-k11b); a kamera y 6,10-en, az üvegfal közepén marad: az ágyon, a tengelytől 0,30 m-re"
   }
  },
  "render": {
@@ -2287,6 +2318,34 @@
     "rooms.furdo_06_2: téglalap → L alak: [[14,475; 5,81; 16,40; 8,05], [14,475; 5,20; 15,45; 5,81]] (WC-fülke DNy-on)"
    ],
    "falak_nyilasok": "+1 fal (Akna_06_2_EK_v2b1k10); nyílások változatlanok"
+  },
+  {
+   "azonosito": "v2b-1-k11",
+   "datum": "2026-10-24",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter KEP-004 utasítása (2026-10-24 22:13): Cam_11 kamerajavaslat külön draft PR-ben; a main-be csak „mehet” után; master-kamerává csak külön jóváhagyással; az Astra Cam_04-promptok változatlanok",
+   "ok": "a Cam_04_Master képkockáján az üvegfal 0 %-ban látszik (vetítéssel számolva); a 05.1 valós értéke a nyugati üvegfal és a panoráma; Péter: az ágy/párnák felől, a panoráma irányába nézzen",
+   "geometria": [
+    "cameras.Cam_11_Master_Panorama: ÚJ – loc [3,20; 6,10; 1,20], rot [π/2; 0; π/2] (vízszintes, nyugat felé), 20 mm, 36×24 AUTO, clip 0,1–200 – JAVASLAT"
+   ],
+   "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem; az ágy és a bútorréteg sem változott",
+   "nem_valtozott": "Cam_04_Master és minden más kamera; render.scene_camera = Cam_04_Master"
+  },
+  {
+   "azonosito": "v2b-1-k11b",
+   "datum": "2026-10-25",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter, 2026-10-25 00:05: a master ágy tengelye y = 6,40 m a jóváhagyott terv és a dugaljpozíciók szerint, a PR #15-ben; a main-be csak külön merge-jóváhagyás után",
+   "ok": "a modell ágya (tengely y 6,00) takarta a K14 kapcsolót és a D22/D23 dugaljat; a tervrajz ágyjele és a két éjjeli kiállás-csoport közepe y ≈ 6,40",
+   "butorreteg": [
+    "A902_Butor: Agy_05_1_TALLASEN_180x200 (fejtámla, keret, matrac, párna/takaró) és Szonyeg_05_1_200x300: y +0,40 – keret y 5,10–6,90 → 5,50–7,30",
+    "A902_Butor: Ejjeli_05_1_a/b: y +0,40, x −0,04 (eddig 3 cm-rel a keleti falba lógtak) → x 3,16–3,56; y 5,02–5,42 és 7,38–7,78",
+    "A902_Butor: Ejjeli_05_1_a/b_lampa: y +0,40, x −0,14 (a szekrény elejére; a K13/K14 és a D20–D23 elérhető marad) → x 3,19–3,33",
+    "Stil_Zenit és Stil_LakeForest: az ágy, az éjjeliszekrények, az olvasólámpák, a szőnyeg és az LF bronzcsík y +0,40; a teljes falas fejfal-burkolatok (Z_agyfej_panel_*, Z_agyfej_LED, L_agyfal_travertin, L_agyfal_LED) nem mozdultak",
+    "módszer: az eltolás a mesh-adatban, a location 0 marad (mint a fájl többi bútoránál)"
+   ],
+   "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem, 0 kamera",
+   "nem_valtozott": "Cam_04_Master és Cam_11_Master_Panorama (hely, forgatás, optika); render.scene_camera = Cam_04_Master"
   }
  ]
 }
