@@ -37,7 +37,7 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
 
 | Elem | A képen | Forrás / státusz | Bizonytalanság |
 |---|---|---|---|
-| Padló | szürkésbarna tölgy-laminált, 4V horony, É–D deszkairány | **Egger Grey Treviso Oak EL2184, Classic 8/32 4V Aqua+ (591760)** – IGAZOLT-D (burkolatkiosztási terv, 21. o.) + IGAZOLT-F (ME-BAL-080) | **Procedurális közelítés**, nem a gyári dekorkép. Deszka 1292×193 mm: Egger Classic 8 mm formátum (UK forgalmazó, Grey Treviso Oak 193×8×1292 mm), a konkrét tételen NEM igazolt. Az irányt a ME-BAL-045/046 fotóból becsültem. A göcsös, erezett rajzolat egyszerűsített. |
+| Padló | szürkésbarna tölgy-laminált, 4V horony, É–D deszkairány; a göcsök elmosódott sötét foltként jelennek meg (egyszerűsítés, nem folt) | **Egger Grey Treviso Oak EL2184, Classic 8/32 4V Aqua+ (591760)** – IGAZOLT-D (burkolatkiosztási terv, 21. o.) + IGAZOLT-F (ME-BAL-080) | **Procedurális közelítés**, nem a gyári dekorkép. Deszka 1292×193 mm: Egger Classic 8 mm formátum (UK forgalmazó, Grey Treviso Oak 193×8×1292 mm), a konkrét tételen NEM igazolt. Az irányt a ME-BAL-045/046 fotóból becsültem. A göcsös, erezett rajzolat egyszerűsített. |
 | Szegőléc | 6 cm, a padló tónusában, minden parkettás falon | IGAZOLT-F (6 cm, azonos dekor) | egyszerűsített felület; a modellben lockon kívüli elem |
 | Falak, mennyezet | semleges fehér (albedó 0,82) | IGAZOLT-F (fehér, glettelt) | festéktípus ismeretlen. A nyugati válaszfalra a v2b fájlban még a Zenit-tapéta volt rendelve: a referencián fehérre javítva. |
 | Nyugati válaszfal (TV-fal) | sima fehér, 4,00 m (y 4,05–8,05) | TERV SZERINT; 10 cm vastag | **anyaga ismeretlen** – teherbírás, TV- és panelrögzítés nem igazolt |

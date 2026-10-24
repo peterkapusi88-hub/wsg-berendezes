@@ -1,0 +1,223 @@
+{
+ "megjegyzes": "A három kép két-három futásból készült, azonos szkripttel, azonos fény- és színkezelési beállítással. A Cam_02 a falátfedés-javítás és a kameránkénti rejtés bevezetése előtti futásból van; ezek a Cam_02 nézetét nem érintik (ellenőrizve). Részletek: 03_blender/validator_report_2026-10-24_semleges_v2b_referencia.md",
+ "Cam_02_Nappali_terasz": {
+  "futas": "2026-10-24 14:11–14:33",
+  "preset": "final (400 minta, adaptív 0,018)",
+  "view": "AgX",
+  "look": "None",
+  "exposure": 3.3,
+  "render_only": "profil-mélység +2 mm"
+ },
+ "Cam_03_Etkezo_konyha": {
+  "bemenet": "03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend (a PR #7 előtti változat másolata)",
+  "bemenet_sha256": "c27931e053b0b04e79c41609b8ae0f82c5c05402850809a30996d2551221d9c2",
+  "preset": "final",
+  "exposure": 3.3,
+  "rejtve": [
+   "A902_Butor",
+   "Stil_LakeForest",
+   "Stil_Zenit",
+   "A902_Terasz",
+   "Collection",
+   "JELOLO_aramkiallas",
+   "JELOLO_fagymentes_csap",
+   "JELOLO_jakuzzi_elokeszites_2x2_ELOZETES",
+   "JELOLO_ontozoszelep_akna",
+   "L_05_1",
+   "L_05_2",
+   "L_05_3",
+   "L_eloter",
+   "L_etkezo",
+   "L_furdo1",
+   "L_furdo2",
+   "L_konyha",
+   "L_kozlekedo",
+   "L_nappali",
+   "Nap"
+  ],
+  "anyag": [
+   "Fal_feher, Plafon_feher → semleges fehér 0,82",
+   "Kulso_E_05_1_0: Z_tapeta_greige → Fal_feher",
+   "Fal_05_1_nappali_0: Z_tapeta_greige → Fal_feher",
+   "v2_parketta_GreyTreviso_EL2184_foto → procedurális deszka 1292×193, É–D, 4V horony (KÖZELÍTÉS)",
+   "Uveg → átlátszó + Fresnel (IOR 1,52)"
+  ],
+  "uj": [
+   "World: egyenletes semleges ég (1,0) + semleges talaj a horizont alatt (0,22), nap nélkül",
+   "portál Portal_nappali_E",
+   "portál Portal_05_3_E",
+   "portál Portal_05_1_Ny",
+   "portál Portal_05_2_Ny",
+   "szegőléc: 66 szakasz, 6 cm, a padló dekorjával (IGAZOLT-F), lockon kívül"
+  ],
+  "validator": {
+   "errors": 0,
+   "warnings": 0,
+   "ok": [
+    "LOCK walls: 60 elem, 0 eltérés",
+    "LOCK openings: 54 elem, 0 eltérés",
+    "LOCK floors: 17 elem, 0 eltérés",
+    "TERASZ v2 (tetőkert): 43 elem, 0 változás",
+    "KAMERA: 9 kamera teljes paraméterrel; aktív: Cam_03_Etkezo_konyha",
+    "BURKOLÓ: 0 látható bútorelem",
+    "ÜTKÖZÉS: bútor–fal/nyílászáró 0, bútor–bútor átfedés 0",
+    "AJTÓ: 11 nyílás negyedkörrel/sávval vizsgálva",
+    "VILLAMOS: 130 terv szerinti kiállás vizsgálva; takarás 0, dugalj elé állás 0"
+   ]
+  },
+  "render_only": {
+   "profil_melyseg_plusz_2mm": [
+    "Uvegfal_nappali_terasz_also",
+    "Uvegfal_nappali_terasz_felso",
+    "Uvegfal_05_3_terasz_also",
+    "Uvegfal_05_3_terasz_felso",
+    "Uvegfal_05_1_erkely_also",
+    "Uvegfal_05_1_erkely_felso",
+    "Erkelyajto_05_2_also",
+    "Erkelyajto_05_2_felso"
+   ],
+   "fal_atfedes_1mm": [
+    "Kulso_Ny_0:xmin",
+    "Kulso_Ny_0:ymin",
+    "Kulso_D_konyha_0:xmax",
+    "Kulso_D_konyha_0:ymin",
+    "Kulso_E_terasz_2:xmax",
+    "Kulso_E_terasz_2:ymax",
+    "Fal_eloszoba_Ny_0:xmax",
+    "Fal_eloszoba_D_05_2ajto_0:xmin",
+    "Fal_eloszoba_D_05_2ajto_0:ymin",
+    "Fal_furdo_E_1:xmax",
+    "Fal_furdo_E_1:ymax",
+    "Fal_kozlekedo_wc_v2b:xmin",
+    "Fal_kozlekedo_wc_v2b:ymax",
+    "Fal_szekrenyfulke_E_v2b:xmax",
+    "Fal_szekrenyfulke_E_v2b:ymax",
+    "Fal_06_2_D_v2b:xmin",
+    "Fal_06_2_D_v2b:ymin"
+   ]
+  },
+  "render": {
+   "engine": "CYCLES CPU",
+   "samples": 400,
+   "adaptive": 0.017999999225139618,
+   "denoise": "OIDN",
+   "view": "AgX",
+   "look": "None",
+   "exposure": 3.3,
+   "res": [
+    1600,
+    1000
+   ],
+   "pct": 100
+  }
+ },
+ "Cam_04_Master": {
+  "bemenet": "03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend (a PR #7 előtti változat másolata)",
+  "bemenet_sha256": "c27931e053b0b04e79c41609b8ae0f82c5c05402850809a30996d2551221d9c2",
+  "preset": "final",
+  "exposure": 3.3,
+  "rejtve": [
+   "A902_Butor",
+   "Stil_LakeForest",
+   "Stil_Zenit",
+   "A902_Terasz",
+   "Collection",
+   "JELOLO_aramkiallas",
+   "JELOLO_fagymentes_csap",
+   "JELOLO_jakuzzi_elokeszites_2x2_ELOZETES",
+   "JELOLO_ontozoszelep_akna",
+   "L_05_1",
+   "L_05_2",
+   "L_05_3",
+   "L_eloter",
+   "L_etkezo",
+   "L_furdo1",
+   "L_furdo2",
+   "L_konyha",
+   "L_kozlekedo",
+   "L_nappali",
+   "Nap"
+  ],
+  "anyag": [
+   "Fal_feher, Plafon_feher → semleges fehér 0,82",
+   "Kulso_E_05_1_0: Z_tapeta_greige → Fal_feher",
+   "Fal_05_1_nappali_0: Z_tapeta_greige → Fal_feher",
+   "v2_parketta_GreyTreviso_EL2184_foto → procedurális deszka 1292×193, É–D, 4V horony (KÖZELÍTÉS)",
+   "Uveg → átlátszó + Fresnel (IOR 1,52)"
+  ],
+  "uj": [
+   "World: egyenletes semleges ég (1,0) + semleges talaj a horizont alatt (0,22), nap nélkül",
+   "portál Portal_nappali_E",
+   "portál Portal_05_3_E",
+   "portál Portal_05_1_Ny",
+   "portál Portal_05_2_Ny",
+   "szegőléc: 66 szakasz, 6 cm, a padló dekorjával (IGAZOLT-F), lockon kívül"
+  ],
+  "validator": {
+   "errors": 0,
+   "warnings": 0,
+   "ok": [
+    "LOCK walls: 60 elem, 0 eltérés",
+    "LOCK openings: 54 elem, 0 eltérés",
+    "LOCK floors: 17 elem, 0 eltérés",
+    "TERASZ v2 (tetőkert): 43 elem, 0 változás",
+    "KAMERA: 9 kamera teljes paraméterrel; aktív: Cam_04_Master",
+    "BURKOLÓ: 0 látható bútorelem",
+    "ÜTKÖZÉS: bútor–fal/nyílászáró 0, bútor–bútor átfedés 0",
+    "AJTÓ: 11 nyílás negyedkörrel/sávval vizsgálva",
+    "VILLAMOS: 130 terv szerinti kiállás vizsgálva; takarás 0, dugalj elé állás 0"
+   ]
+  },
+  "render_only": {
+   "profil_melyseg_plusz_2mm": [
+    "Uvegfal_nappali_terasz_also",
+    "Uvegfal_nappali_terasz_felso",
+    "Uvegfal_05_3_terasz_also",
+    "Uvegfal_05_3_terasz_felso",
+    "Uvegfal_05_1_erkely_also",
+    "Uvegfal_05_1_erkely_felso",
+    "Erkelyajto_05_2_also",
+    "Erkelyajto_05_2_felso"
+   ],
+   "fal_atfedes_1mm": [
+    "Kulso_Ny_0:xmin",
+    "Kulso_Ny_0:ymin",
+    "Kulso_D_konyha_0:xmax",
+    "Kulso_D_konyha_0:ymin",
+    "Kulso_E_terasz_2:xmax",
+    "Kulso_E_terasz_2:ymax",
+    "Fal_eloszoba_Ny_0:xmax",
+    "Fal_eloszoba_D_05_2ajto_0:xmin",
+    "Fal_eloszoba_D_05_2ajto_0:ymin",
+    "Fal_furdo_E_1:xmax",
+    "Fal_furdo_E_1:ymax",
+    "Fal_kozlekedo_wc_v2b:xmin",
+    "Fal_kozlekedo_wc_v2b:ymax",
+    "Fal_szekrenyfulke_E_v2b:xmax",
+    "Fal_szekrenyfulke_E_v2b:ymax",
+    "Fal_06_2_D_v2b:xmin",
+    "Fal_06_2_D_v2b:ymin"
+   ]
+  },
+  "render_only_hezagzaras": [
+   "05.1 fülke ÉK: x 2,95–3,02, y 8,95–9,25 (Kulso_E_05_1_0 vége és a v2b pillér között)"
+  ],
+  "render_only_kamera_rejtes": [
+   "Cam_04_Master: v2_Mellved_Ny"
+  ],
+  "render": {
+   "engine": "CYCLES CPU",
+   "samples": 400,
+   "adaptive": 0.017999999225139618,
+   "denoise": "OIDN",
+   "view": "AgX",
+   "look": "None",
+   "exposure": 3.3,
+   "res": [
+    1600,
+    1000
+   ],
+   "pct": 100
+  }
+ }
+}
