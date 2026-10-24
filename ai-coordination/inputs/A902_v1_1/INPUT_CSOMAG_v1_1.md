@@ -11,7 +11,7 @@
    - **zöldtető** 71,18 m²: szélein sík fű esőztetővel, középen enyhén dombos évelőágyás virágokkal, mulccsal és kavicssávval, **térdmagas betonszegéllyel**;
    - **korlát** (antracit pálcás) és **panorámapontok**.
    **Ezeket nem kell kitalálni vagy megépíteni, már léteznek.** A render ezt a valódi tetőkertet mutassa, ne egy általános luxusteraszt.
-4. **Zöldtető:** a terv nem jelöli „nem járható”-nak. Könnyű, szabadon álló bútor mehet rá; koncentrált nagy teher (jakuzzi, nagy dézsa, kőasztal) csak igazolt terhelhetőséggel. A terasz burkolata, a korlát és a teraszfalak a műszaki melléklet szerint **közös részek**, ezért rögzítés és fúrás nélkül tervezünk. Jakuzzi csak a jelölt nyugati greslap-helyre kerülhet, és ott is csak statikai igazolás után.
+4. **Zöldtető:** a terv nem jelöli „nem járható”-nak. Könnyű, szabadon álló bútor mehet rá; koncentrált nagy teher (jakuzzi, nagy dézsa, kőasztal) csak igazolt terhelhetőséggel. Rögzítés falra, WPC-re és korlátra megengedett (Péter döntése); csak a vízszigetelést nem lyukasztjuk át. Jakuzzi csak a jelölt nyugati greslap-helyre kerülhet, és ott is csak statikai igazolás után.
 5. **Kilátás:** csak a helyszíni videókból (`terasz_video_2026-10-21/`, panoráma v0/v0b): Budai hegyek villanegyeddel és városi tetőtáj. Generikus Budapest-panoráma tilos. A daru ideiglenes, elhagyható, de ezt jelölni kell.
 6. **Meglévő felületek fotóval** (műszaki ellenőri képek, `08_allapotfelmeres/fotok/A902/`, összefoglaló: `MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md`):
    - hűvös szürke, csomós tölgy parketta (a konyhában is) és fehér fal;

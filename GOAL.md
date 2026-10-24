@@ -67,6 +67,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
 - *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
+- *(2026-10-24, Péter)* Kültéren a társasházi „közös rész” szabályokkal nem korlátozzuk a tervet: fal, WPC és korlát rögzítésre használható. Egyetlen kikötés: a vízszigetelés nem sérülhet.
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
 - Jakuzzi: Heissner vagy Correll.
 - Tapétázó beengedhető-e.

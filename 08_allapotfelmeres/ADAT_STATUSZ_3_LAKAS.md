@@ -73,7 +73,7 @@
   - korlát pálcás acél;
   - teraszon kültéri 230 V-os dugalj;
   - **2 db 13 személyes, bútorszállításra alkalmas lift** + 2 db 8 személyes;
-  - az erkély- és teraszburkolat, a korlát, a teraszfal és a kültéri lámpatestek **közös részek**. Mind IGAZOLT-D.
+  - az erkély- és teraszburkolat, a korlát, a teraszfal és a kültéri lámpatestek **közös részek** (ez a tervezést nem korlátozza, Péter döntése szerint). Mind IGAZOLT-D.
 - Erkélymélység (terv 1:50): A-811 és A-812 fő rész kb. **1,56 m**, plusz egy kb. 0,65 m-es keskeny sáv (IGAZOLT-D, kontrollmérés).
 - Konyhabútor egyik lakásban sincs (GOAL). A kiállások helye a vevői módosítások miatt **lakásonként eltér**, ezért mind P1.
 - Fehér falak, fekete nyílászárók, motoros redőny, Grohe/Geberit: ELŐZETES (GOAL/brosúra). Fotó nincs.

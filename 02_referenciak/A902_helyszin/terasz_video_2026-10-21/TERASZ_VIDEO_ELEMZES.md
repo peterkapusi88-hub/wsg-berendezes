@@ -39,10 +39,10 @@
 
 ## 4. Tervezési következmények (nem stílusdöntés – Astrának átadandó tény)
 - Az automata öntözés (esőztető a füvön) miatt a WPC-n a zöldtető szélén álló párnás bútor és textil vizes lehet. A szórásképet hétfőn ellenőrizni kell.
-- Bútorozható felület: greslap (T09, T10), WPC (T11), és könnyű bútorral a zöldtető is (a terv nem jelöli „nem járható”-nak). Jakuzzi vagy más nagy koncentrált teher csak statikailag és a zöldtető-rendszer szempontjából igazolva kerülhet rá. A burkolat, a korlát és a teraszfal a műszaki melléklet szerint közös rész, ezért nem fúrunk bele.
+- Bútorozható felület: greslap (T09, T10), WPC (T11), és könnyű bútorral a zöldtető is (a terv nem jelöli „nem járható”-nak). Jakuzzi vagy más nagy koncentrált teher csak statikailag és a zöldtető-rendszer szempontjából igazolva kerülhet rá. Rögzíteni falra, WPC-re és korlátra lehet (Péter döntése); a vízszigetelést nem lyukasztjuk át.
 - A jakuzzi-előkészítés (áram és fagymentes csap) a **nyugati greslapon** van: 2,0 m széles keret, x 4,10–6,10, y ≥ 9,74. Terhelhetőség és mélység HIÁNYZIK.
 - A 62 cm-es szintkülönbség és a lépcsők adják a terasz „építészeti” karakterét. Az ülőzónák a szintek és a panoráma szerint rendezendők, nem egy sík felületre.
-- Fény: rejtett LED csak meglévő felülethez rögzítve, fúrás és vízszigetelés-áttörés nélkül. A kültéri áramkiállások helyét hétfőn fotózni kell.
+- Fény: rejtett LED rögzíthető a WPC-hez, a szegélyhez és a falhoz; a vízszigetelést nem lyukasztjuk át. A kültéri áramkiállások helyét hétfőn fotózni kell.
 
 ## 5. Fájlok
 - `kulcskockak/A902_terasz_video_tNNs.jpg`: 28 kocka 2 s-onként (960 px).

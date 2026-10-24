@@ -52,11 +52,10 @@
    - **Könnyű bútor** (pl. napozóágy a lépőlapokon vagy a füvön) mehet, ha a fű tűri és az esőztető nem áztatja el.
    - Ami **igazolás nélkül nem** mehet oda: **koncentrált nagy teher** (jakuzzi, nagy dézsa, kőasztal, telepített pergola). Ehhez kell a zöldtető-rétegrend terhelhetősége kg/m²-ben és a födém statikája.
    - A **betonszegélyre ülni, párnát tenni lehet** (természetes ülőperem); fúrni, rögzíteni nem.
-3. **Rögzítés, fúrás – miért nem:**
-   - **(a) Közös rész.** A műszaki melléklet (WGR1, „Homlokzatok, közös részek”) szerint az **erkély- és teraszburkolat, az erkélykorlát, a teraszfalak és a teraszon lévő szerelvények és lámpatestek közös résznek számítanak**. A módosításukhoz a társasház (és a garanciális időben az Eladó) hozzájárulása kell.
-   - **(b) Vízszigetelés.** A 9. emeleti terasz a 8. emeleti lakások födémén van. A greslap és a WPC-dobogó alatt közvetlenül a szigetelés van, egy átfúrás beázást okozhat. A szigetelési garanciát is elveszítheti.
-   - **(c) Korlát.** A korlát egy adott szélterhelésre van méretezve. A rákötött árnyékoló, növényláda vagy belátásgátló háló ezt megnöveli, ezért nem kötünk rá semmit.
-   - Ami **szabadon jöhet**: szabadon álló, saját súlyával megálló bútor, súlyozott napernyőtalp, szabadon álló növényláda és akkumulátoros vagy dugaljról menő hordozható lámpa.
+3. **Rögzítés (Péter döntése, 2026-10-24):**
+   - A tervezésben **nem korlátozunk** a társasházi „közös rész” szabályai miatt.
+   - Rögzíthető: falra, WPC-re, korlátra (pl. árnyékoló, lámpa, növénytartó).
+   - Egyetlen műszaki szempont marad, mert az saját kár lenne: **a vízszigetelést nem lyukasztjuk át**. A WPC-deszkába rövid csavar, a téglafalba dübel mehet; a greslap alá és a födémbe nem fúrunk. A korlátra kötött nagy, szélfogó felületnél (vászon, háló) a rögzítést méretezni kell.
 4. **Láb és talp:** a WPC-n széles, puha, nem foltosító talp kell (filc/TPE). A greslapon a 15 cm-es küszöb miatt a teraszajtón átvitt bútor méretét az ajtónyílás korlátozza.
 5. **Szállítás:**
    - A műszaki melléklet szerint a házban **2 db 13 személyes, „bútorszállításra is alkalmas kivitelű”** és 2 db 8 személyes lift van.
