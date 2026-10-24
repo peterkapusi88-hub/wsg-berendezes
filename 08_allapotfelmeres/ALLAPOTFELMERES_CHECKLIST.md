@@ -24,7 +24,7 @@
 | # | Hely | Mit | P |
 |---|---|---|---|
 | B1 | Nappali–étkező | **7,08 m hossz** (terv), a 4,50 × 2,53 m tolóajtó: nyitható szárnyak, sín, küszöb; „fellépés 15”: tényleges lépcsőmagasság befelé és kifelé (2025-10-13-i korrekció!) | P1 |
-| B2 | Konyha | **Padló: kerámia vagy laminált parketta?** (a két terv ellentmond); víz-, lefolyó-, villamos kiállások mérettel; elszívó-bekötés (tetőn kívüli kivezetés); a 10,55–10,75 közötti technikai gipszkarton fal | P1 |
+| B2 | Konyha | padló: a fotó szerint laminált parketta (902-056), egy közeli fotóval megerősítendő; víz-, lefolyó-, villamos kiállások mérettel; elszívó-bekötés (tetőn kívüli kivezetés); a 10,55–10,75 közötti technikai gipszkarton fal | P1 |
 | B3 | 05.3 szoba | nyugati és keleti fal helye (v1–v2 eltérés 13–15 cm); 1,80 m-es teraszajtó | P1 |
 | B4 | Közlekedő, előtér, WC | a közlekedő keleti fala (−15 cm eltérés); bejárati fülke; WC L-alakja; cipős helye a WC-ajtó előtt | P2 |
 | B5 | 05.1 master | 3,57 × 5,50 (fülkével); északi fülke 3,02 × 0,90; m = 65 cm dugaljak az ágy két oldalán | P1 |
@@ -46,7 +46,7 @@
 | C3 | Konyha | a 60 cm-es pengefal megszűnt; a konyhatechnológia sorrendje módosult, a kiállások ehhez igazodnak; mikró m = 1,30 | P1 |
 | C4 | 06.2 fürdő | épített zuhany 5/5 padkával, 70 cm-es folyóka; ajtó áthelyezve | P2 |
 | C5 | 08 WC, 09 HTH | bidés ülőke kiállás; a HTH-ban szárító dugalj a mosó fölött | P2 |
-| C6 | Belmagasság | a 8. emeleten **nincs adat** → mérni | P1 |
+| C6 | Belmagasság | ~~nincs adat~~ → **2,69–2,72 m mérve** (Kémeri, 2026-10-21); csak 1–2 kontrollmérés | P3 |
 | C7 | Erkély | 14,30 m², greslap; kilátás-fotó | P2 |
 
 ## D. A-812 – vevői módosításokkal (102,05 m², erkély 7,04 m², Grey Soria Oak)
@@ -58,7 +58,7 @@
 | D4 | 05.1, 05.2, 05.3 | m = 65 cm dugaljak, TV-blokk m = 1,20 (05.2) | P1 |
 | D5 | Nappali–étkező–konyha | 7,22 m-es nappaliméret, 5,80 / 5,60 / 4,70; konyha 2,45 × 2,80, MG-hely | P1 |
 | D6 | Közlekedő | a gardróbrészben nincs gipszkarton álmennyezet (2026-04-28-i korrekció) | P3 |
-| D7 | Belmagasság | nincs adat → mérni | P1 |
+| D7 | Belmagasság | ~~nincs adat~~ → **2,69–2,73 m mérve** (Kémeri); csak kontroll | P3 |
 
 ## E. Dokumentumok (a „Lakásátvétel és garanciák” projektből, csak a műszaki tartalom)
 - **Statikus nyilatkozat:** terasz és zöldtető terhelhetősége kg/m²-ben, jakuzzi-hely (A-902). **P1, ez a jakuzzi feltétele.**

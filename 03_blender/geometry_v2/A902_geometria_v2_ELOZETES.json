@@ -366,8 +366,12 @@
  "facts": {
   "belmagassag": {
    "ertek": 2.9,
-   "status": "IGAZOLT – Péter közlése 2026-10-24 (+ brosúra)",
-   "megj": "a 18. oldalon 'm=2.85' egy szerelési/nyílásmagasság-jelölés, nem belmagasság"
+   "meres_tartomany": [
+    2.903,
+    2.925
+   ],
+   "status": "IGAZOLT-M – Kémeri műszaki ellenőr, kb. 15 pont, 2026-10-21; + Péter közlése",
+   "megj": "a 18. oldalon 'm=2.85' egy szerelési magasság (oldalfali kiállás), nem belmagasság"
   },
   "parketta_A902": {
    "ertek": "Egger Grey Treviso Oak EL2184, Classic 8/32 4V Aqua+ (591760), szegőléc 6 cm (1818766), burkolatváltó szálcsiszolt titán T-profil",
@@ -378,8 +382,24 @@
    "status": "IGAZOLT – dokumentum (7. és 14. old.)"
   },
   "konyha_padlo_A902": {
-   "ertek": "ELLENTMONDÁS: 18. old. 'kerámia' vs. 21. old. 'lam.parketta'",
-   "status": "HIÁNYZIK – hétfőn fotó"
+   "ertek": "laminált parketta (a 21. oldali burkolatterv szerint; a 18. oldali 'kerámia' elavult)",
+   "status": "IGAZOLT-F – műszaki ellenőri fotó 902-056/045"
+  },
+  "felmert_meretek_Kemeri": {
+   "05_1": [
+    3.548,
+    5.478
+   ],
+   "05_2": [
+    3.548,
+    3.33
+   ],
+   "05_3_hossz": 3.915,
+   "padlo_sikeltérés_mm": {
+    "nappali": "7–8",
+    "05_3": "2–3"
+   },
+   "status": "IGAZOLT-M (kézírásból olvasva)"
   },
   "meretek_jellege": "a terven szereplő méretek vakolatlan falfelületre vonatkoznak (−1…−3 cm/oldal vakolat), tájékoztató jellegűek",
   "terulet_A902": {

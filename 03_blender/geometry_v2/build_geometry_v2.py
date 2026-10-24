@@ -52,10 +52,11 @@ terrace = {  # x0,y0,x1,y1, z (belső kész padlóhoz képest), anyag, forrás, 
  "Ajtok_terasz":     dict(note="4.50 × 2.53 tolóajtós üvegfal (nappali) és 1.80 × 2.53 (05.3); fellépés 15 cm, 2025-10-13-i korrekció szerint módosult → helyszínen mérendő", src=SRC18),
 }
 facts = {
- "belmagassag": {"ertek":2.90,"status":"IGAZOLT – Péter közlése 2026-10-24 (+ brosúra)","megj":"a 18. oldalon 'm=2.85' egy szerelési/nyílásmagasság-jelölés, nem belmagasság"},
+ "belmagassag": {"ertek":2.90,"meres_tartomany":[2.903,2.925],"status":"IGAZOLT-M – Kémeri műszaki ellenőr, kb. 15 pont, 2026-10-21; + Péter közlése","megj":"a 18. oldalon 'm=2.85' egy szerelési magasság (oldalfali kiállás), nem belmagasság"},
  "parketta_A902": {"ertek":"Egger Grey Treviso Oak EL2184, Classic 8/32 4V Aqua+ (591760), szegőléc 6 cm (1818766), burkolatváltó szálcsiszolt titán T-profil","status":"IGAZOLT – dokumentum (burkolatkiosztási terv, 21. old.); helyszíni fotóval megerősítendő"},
  "parketta_A811_A812": {"ertek":"Egger Grey Soria Oak EL2065, Classic 8/32 4V Aqua (593610)","status":"IGAZOLT – dokumentum (7. és 14. old.)"},
- "konyha_padlo_A902": {"ertek":"ELLENTMONDÁS: 18. old. 'kerámia' vs. 21. old. 'lam.parketta'","status":"HIÁNYZIK – hétfőn fotó"},
+ "konyha_padlo_A902": {"ertek":"laminált parketta (a 21. oldali burkolatterv szerint; a 18. oldali 'kerámia' elavult)","status":"IGAZOLT-F – műszaki ellenőri fotó 902-056/045"},
+ "felmert_meretek_Kemeri": {"05_1":[3.548,5.478],"05_2":[3.548,3.33],"05_3_hossz":3.915,"padlo_sikeltérés_mm":{"nappali":"7–8","05_3":"2–3"},"status":"IGAZOLT-M (kézírásból olvasva)"},
  "meretek_jellege": "a terven szereplő méretek vakolatlan falfelületre vonatkoznak (−1…−3 cm/oldal vakolat), tájékoztató jellegűek",
  "terulet_A902": {"belso_m2":99.94,"terasz_m2":79.22,"bontas":"T09 23.62 + T11 25.00 + T10 19.34 + erkély 11.26","zoldtető_m2":71.18,"osszes_kulter":150.40,"src":SRC3},
  "mennyezeti_hutes_futes": "a 18. oldalon zónák jelölve; fúrás/rögzítés csak panelmentes sávban – pontos panelkiosztás HIÁNYZIK",

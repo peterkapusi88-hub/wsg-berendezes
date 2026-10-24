@@ -13,7 +13,14 @@
    **Ezeket nem kell kitalálni vagy megépíteni, már léteznek.** A render ezt a valódi tetőkertet mutassa, ne egy általános luxusteraszt.
 4. **A zöldtető alapból nem bútorozható.** Jakuzzi csak a jelölt nyugati greslap-helyre kerülhet, és ott is csak statikai igazolás után.
 5. **Kilátás:** csak a helyszíni videókból (`terasz_video_2026-10-21/`, panoráma v0/v0b): Budai hegyek villanegyeddel és városi tetőtáj. Generikus Budapest-panoráma tilos. A daru ideiglenes, elhagyható, de ezt jelölni kell.
-6. A belső falak a tervhez képest ±15 cm-en belül vannak (`A902_eltereslista_v1_v2.md`). A belső nézetek (Cam_02–04) használhatók; a **Cam_05 terasznézet elavult**.
+6. **Meglévő felületek fotóval** (műszaki ellenőri képek, `08_allapotfelmeres/fotok/A902/`, összefoglaló: `MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md`):
+   - hűvös szürke, csomós tölgy parketta (a konyhában is) és fehér fal;
+   - világosszürke ajtók fekete kilinccsel;
+   - nyílászárók kívül antracit, belül fehér;
+   - fürdők világos meleg szürke kőhatású lappal és fekete szerelvényekkel;
+   - a teraszajtók sötét antracit téglás kávában, a fő homlokzat világos foltos tégla.
+   - Belmagasság: mérve 2,90–2,93 m.
+7. A belső falak a tervhez képest ±15 cm-en belül vannak (`A902_eltereslista_v1_v2.md`). A belső nézetek (Cam_02–04) használhatók; a **Cam_05 terasznézet elavult**.
 
 ## Képek
 | Fájl | Mire |

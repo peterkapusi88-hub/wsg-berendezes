@@ -3,7 +3,8 @@
 **Definíciók:**
 - **IGAZOLT-D** = dokumentum mondja ki (terv, burkolatkiosztás).
 - **IGAZOLT-P** = Péter közölte a helyszín alapján.
-- **IGAZOLT-M** = helyszínen mérve vagy fotóval azonosítva. Ilyen még nincs.
+- **IGAZOLT-M** = helyszínen mérve (2026-10-21, Kémeri műszaki ellenőr; lásd `MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md`).
+- **IGAZOLT-F** = a műszaki ellenőri fotókon látszik; nem termékazonosítás.
 - **ELŐZETES** = brosúra, korábbi Blender-feltételezés, videóbecslés vagy tervből értelmezett adat.
 - **HIÁNYZIK** = hétfőn kell.
 
@@ -18,13 +19,13 @@
 |---|---|---|---|
 | Belső alapterület | 99,94 m² | IGAZOLT-D | PDF 3. old. |
 | Terasz / zöldtető / összes kültér | 79,22 / 71,18 / 150,4 m² | IGAZOLT-D | PDF 3. old. |
-| Belmagasság | 2,90 m | IGAZOLT-P (Péter, 2026-10-24) | + brosúra |
+| Belmagasság | **2,90–2,93 m** (kb. 15 mérés) | **IGAZOLT-M** + Péter | Kémeri, 2026-10-21 |
 | Helyiségméretek (v2) | `03_blender/geometry_v2/` | ELŐZETES (terv, vakolatlan) | PDF 18. old. |
 | Eltérés a Blender v1-től | belső: ±15 cm-en belül | ELŐZETES | eltéréslista |
-| Parketta | Egger **Grey Treviso Oak EL2184**, Classic 8/32 4V Aqua+ (591760), 6 cm szegőléc | IGAZOLT-D, helyszíni fotóval megerősítendő | PDF 21. old. |
-| Konyhapadló | kerámia (18. old.) **vagy** laminált parketta (21. old.) | **HIÁNYZIK** (ellentmondás) | PDF |
-| Falak | fehér | ELŐZETES (eddig nincs fotó) | GOAL |
-| Nyílászárók | fekete; nappali 4,50 × 2,53, 05.3 1,80 × 2,53, nyugat 3,65 × 2,57 és 1,88 × 2,57, bejárat 1,05 × 2,10 | IGAZOLT-D (méret) / V1 (szín) | PDF 18. old., V1 |
+| Parketta | Egger **Grey Treviso Oak EL2184**, Classic 8/32 4V Aqua+ (591760), 6 cm szegőléc | IGAZOLT-D + **IGAZOLT-F** (hűvös szürke, csomós tölgy) | PDF 21. old., ME-fotók |
+| Konyhapadló | **laminált parketta** a konyhafal előtt | IGAZOLT-F (902-056, 902-045); a 18. oldali „kerámia” elavult | ME-fotók |
+| Falak / ajtók | fehér fal; világosszürke beltéri ajtó, szürke tok, fekete kilincs | IGAZOLT-F | ME-fotók |
+| Nyílászárók | **kívül antracit, belül fehér** (IGAZOLT-F); a teraszajtók sötét téglás kávában; nappali 4,50 × 2,53, 05.3 1,80 × 2,53, nyugat 3,65 × 2,57 és 1,88 × 2,57, bejárat 1,05 × 2,10 | IGAZOLT-D (méret) / V1 (szín) | PDF 18. old., V1 |
 | Teraszfellépő | 15 cm, 2025-10-13-án módosítva | **HIÁNYZIK** (tényleges) | PDF 18. old. |
 | Teraszszintek | greslap +28,40; WPC +29,02 (Δ 62 cm) | IGAZOLT-D | PDF 3. old. |
 | Terasz anyagai | greslap világosszürke; WPC sötét szürkésbarna; zöldtető fű és évelők | IGAZOLT-P + V1/V2 | videók |
@@ -35,6 +36,8 @@
 | Jakuzzi-előkészítés | Ny greslap, 2,0 m széles keret, áram és fagymentes csap | IGAZOLT-D (hely) / mélység és terhelhetőség **HIÁNYZIK** | PDF 18. old. |
 | Korlát | antracit pálcás fém; magasság kb. 1,1 m | V1 / ELŐZETES | – |
 | Kilátás | Budai hegyek (villanegyed), városi tetőtáj; daru (ideiglenes) | V1 / irány ELŐZETES | panoráma v0 |
+| Padló síkpontossága | nappali 7–8 mm, 05.3 2–3 mm eltérés | IGAZOLT-M | Kémeri |
+| Mért szobaméretek | 05.1 3,548 × 5,478; 05.2 3,548 × kb. 3,33; 05.3 kb. 3,915 | IGAZOLT-M (kézírás, ellenőrizendő) | Kémeri |
 | Mennyezeti hűtő-fűtő zónák | rajzon jelölve | IGAZOLT-D (zóna) / panelkiosztás **HIÁNYZIK** | PDF 18. old. |
 | Elektromos kiállások | 18. old. (pl. 05.1 m = 65 cm ágy mellett) | IGAZOLT-D / helyszínen **HIÁNYZIK** | – |
 
@@ -47,7 +50,8 @@
 | Parketta | Egger **Grey Soria Oak EL2065**, Classic 8/32 4V Aqua (593610) | IGAZOLT-D | PDF 7. old. |
 | Fürdőburkolat | Glitch Salt matt 60×60 (03285A), fuga Holdfény 103 | IGAZOLT-D | PDF 7. old. |
 | Ablakok | 3,65 × 2,57 (2 db) + 90 × 2,57 | IGAZOLT-D | PDF 5., 7. old. |
-| Belmagasság | – | **HIÁNYZIK** | – |
+| Belmagasság | **2,69–2,72 m** | **IGAZOLT-M** | Kémeri, 2026-10-21 |
+| Felületek | melegebb szürkésbarna tölgy; fehér fal; antracit kapcsolókeret; kád + zuhany, mozaik dekorsáv; erkélyen matt üveg térelválasztó | IGAZOLT-F | ME-fotók |
 | Blender-modell | nincs | **HIÁNYZIK** (a tervből most elkészíthető, ELŐZETES-ként) | – |
 
 ## A-812 (8. em.)
@@ -58,7 +62,8 @@
 | Egyedi sarokkád | a terv szerint a vevő feladata | **IGAZOLT-P: be van építve** (Péter, 2026-10-24) → nem költségtétel | – |
 | Fő méretek | nappali 7,22; 3,89 / 2,15; 5,80 / 5,60 / 4,70; konyha 2,45 × 2,80 | IGAZOLT-D (vakolatlan) | PDF 11. old. |
 | Parketta | Egger **Grey Soria Oak EL2065** | IGAZOLT-D | PDF 14. old. |
-| Belmagasság | – | **HIÁNYZIK** | – |
+| Belmagasság | **2,69–2,73 m** | **IGAZOLT-M** | Kémeri, 2026-10-21 |
+| Felületek | melegebb szürkésbarna tölgy; fehér fal; sötét téglás erkély; egyedi sarokkád beépítve | IGAZOLT-F | ME-fotók |
 | Blender-modell | nincs | **HIÁNYZIK** | – |
 
 ## Közös

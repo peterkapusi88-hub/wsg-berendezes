@@ -12,7 +12,7 @@ Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 1
 | Alapterület (megvalósulási terv 2026-07-08) | 90,68 m² (brosúra 92) | 102,05 m² | 99,94 m² |
 | Beosztás | nappali-étkező-konyha + előtér ~41 m², 2 háló (master gardróbbal), fürdő káddal + fürdő zuhannyal | nappali-étkező-konyha ~44 m², 3 háló (2 gardróbbal), 2 fürdő | nappali-étkező-konyha ~45 m² nyitott konyhával, 3 háló, 2 fürdő (kád + walk-in zuhany) |
 | Kültér | 14,30 m² erkély | 7,04 m² erkély | 79,22 m² terasz (greslap 23,62 + 19,34, emelt WPC 25,00 [+62 cm], erkély 11,26) + 71,18 m² zöldtető = 150,4 m²; jakuzzi-előkészítés a Ny greslapon |
-| Belmagasság | ismeretlen (ablak 2,57) – hétfőn mérendő | ua. | **2,90 m (IGAZOLT, Péter)** |
+| Belmagasság (Kémeri műszaki ellenőr mérése, 2026-10-21) | **2,69–2,72 m** | **2,69–2,73 m** | **2,90–2,93 m** |
 | Parketta (burkolatkiosztási terv) | Egger Grey Soria Oak EL2065 | Egger Grey Soria Oak EL2065 | **Egger Grey Treviso Oak EL2184** |
 | Vevői módosítás | 05.2+05.3 összevonva (+2,70×1,70 gardrób), nagyobb nappali, épített zuhany, pengefal megszűnt | 08/09 összevont fürdő **egyedi sarokkád (beépítve)**, 06.1 → HTH, épített zuhany | épített zuhany 06.2, bidés WC |
 | Adottság | Egger szürke tölgy parketta, fehér fal, fekete nyílászáró, motoros redőny, Grohe/Geberit fürdők, mennyezeti fűtő-hűtő panel (fúrás csak ott, ahol nincs panel), riasztó, videós kaputelefon. **Konyhabútor nincs.** | ua. | ua. + jakuzzi-terasz |
@@ -59,6 +59,10 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Blender `WSG_A902_v2_terasz_ELOZETES_20261024.blend` új fájlként; az élő fájl érintetlen, a nem mentett élő állapotról mentés készült a `~/Downloads/WSG_blender_mentesek/` mappába.
   - Astra input v1.1 (nincs elindítva).
   - Minden korábbi Zenit/LF-kép KONCEPCIÓ – NEM VALIDÁLT (`04_renderek/RENDER_STATUSZ.md`).
+  - A műszaki ellenőri anyag (364 fotó + jegyzetelt tervek) feldolgozva: `08_allapotfelmeres/MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md`.
+    - mért belmagasság, a felületek fotóval rögzítve, az A-902 konyhapadlója laminált parketta;
+    - 55 kiválogatott fotó a `fotok/` alatt;
+    - a hibalista nincs a repóban.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).

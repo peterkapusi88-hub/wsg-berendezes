@@ -22,6 +22,10 @@
 - antracit pálcás korlát (1,10 m, ELŐZETES) és mellvéd;
 - narancs JELÖLŐ: jakuzzi-előkészítés 2×2 m (mélysége HIÁNYZIK), áramkiállás, fagymentes csap;
 - 3 új kamera: Cam_07 a greslapról, Cam_08 madártávlat, Cam_09 felülnézet.
+- **06:40-es frissítés (v2b), validátor újrafuttatva, ugyanaz a 9 + 2 régi tétel:**
+  - **Erkély 13 L-alakban** a terv szerint (a régi téglalap elrejtve), antracit pálcás korláttal;
+  - **parketta-anyag** a fotók szerint (`v2_parketta_GreyTreviso_EL2184_foto`, hűvös szürke) a hálókban, a nappaliban és a közlekedőben, valamint az **előtérben, az átjáróban és a konyhában** is. A v1-ben ezek kerámiának voltak modellezve; a 21. oldali burkolatterv és a műszaki ellenőri fotók szerint parketta van.
+  - A fürdők és a WC világos meleg szürke kőhatású lapot kaptak.
 
 **Elrejtve, nem törölve:** a régi `A902_Terasz` gyűjtemény (üvegkorlát, kitalált fák és bokrok, jakuzzi-tárgy, napozóágyak), a régi T_09–T_12 padlók és a teraszra tett stílus- és alapbútorok. Ezek a brosúra alapján készültek, és sík teraszt feltételeztek.
 
