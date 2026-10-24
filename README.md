@@ -37,3 +37,7 @@ Ami ide kerül, az a hivatalos állapot. Ha egy AI más számmal dolgozik, a `GO
 **[WSG értékalapú stíluslabor](07_skill/wsg-ertekalapu-stiluslabor/SKILL.md)** – közös filozófia: akár 10+ stílus összevetése azonos költségkerettel; elképesztően drágának ható, ízléses, de ténylegesen megépíthető luxus; termékalapú és asztalos-ajánlatokkal igazolt render.
 
 Codex saját, automatikusan felfedezhető belépési skill: `.agents/skills/wsg-stiluslabor/SKILL.md`. A kanonikus teljes szabályrendszer a `07_skill/` alatt van.
+
+
+## AI-orkesztráció (2026-10-24)
+Az új központi útmutató: **[ai-coordination/ROUTER.md](ai-coordination/ROUTER.md)**. A Claude → Astra/Work GitHub PR-esemény alapú átadási lépések: **[WORK_TRIGGER_SETUP.md](ai-coordination/WORK_TRIGGER_SETUP.md)**, sablon: **[REQUEST_TEMPLATE.md](ai-coordination/REQUEST_TEMPLATE.md)**, egykörös **[PILOT.md](ai-coordination/PILOT.md)**. A trigger a webes Workben külön engedélyezendő; a Codex/Gemini automatikus bekötése még külön feladat.
