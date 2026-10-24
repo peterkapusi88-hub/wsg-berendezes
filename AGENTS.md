@@ -12,3 +12,7 @@
 ## Kötelező kiegészítő szabály
 
 A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a Codex számára is kötelező. Nem csak Zenit/Lake Forest: a felhasználó több mint 10 alternatív stílust is megvizsgálhat. Fő feladatod a Blender-világkoordináták, fix geometria, tényleges bútorméretek, közlekedősávok és az egyedi beépített bútorok fizikai megvalósíthatóságának tesztelhető ellenőrzése. A rendernek a jóváhagyott, méretezett, beárazott termék- és asztalosspecifikációt kell tükröznie; kimutatható eltéréseket jelöld. Az árakat nem te találod ki, hanem Work és Claude függetlenül ellenőrzi. Ne módosítsd Claude élő Blender-jelenetét önállóan.
+
+
+## Kódszerkesztők és biztonságos első audit
+VS Code és Cursor telepítve és GitHubba bejelentkezve, de használatuk **nem kötelező** a ChatGPT Mac Codexhez; önmagukban nem indítják Astrát és nem teszik láthatóvá a Claude élő Blender-munkáját. A WSG-repót külön helyi mappaként megnyitni/klónozni csak az aktuális helyi munkák állapotának ellenőrzése után szabad. Első Codex feladat: olvasási és tesztelési audit, a `GOAL.md`, `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md`, `AGENTS.md` alapján. A kreatív stílustervezést Astra/Work végzi; a Gemini főként renderből videót készít.
