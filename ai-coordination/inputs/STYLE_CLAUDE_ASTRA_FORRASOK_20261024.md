@@ -3,14 +3,14 @@
 - **Típus:** forráskatalógus + összehasonlító mátrix + döntés-előkészítés. **Nem új tervezés, nem stílusjavaslat.**
 - **Készítette:** Claude (operatív projektvezető), 2026-10-24 este. **Bázis:** `main` @ `09e86c217ce990933970043af757ad750f84b9f1` (2026-10-24 19:03).
 - **Szabály:** semmit nem találunk ki; ami hiányzik, az „HIÁNYZIK” jelölést kap. Cím-szintű ötlet nem számít kész koncepciónak, és nem kap teljes pontszámot.
-- **Kapcsolódó fájlok:** Astra eredménye (Claude-relay, RÉSZLEGES): `ai-coordination/results/WSG-20261024-STYLE10-002_RELAY_RESZLEGES_20261024.md` – a kanonikus `results/WSG-20261024-STYLE10-002.md` útvonal **szabadon marad Astra eredeti, teljes mentésének** · folytató brief (MEDIUM, NEM INDÍTOTT): `ai-coordination/requests/WSG-ASTRA-HIGH-KREATIV-V2.md` · eredeti brief: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`.
+- **Kapcsolódó fájlok:** **Astra eredeti, TELJES eredménye: `ai-coordination/results/WSG-20261024-STYLE10-002.md`** (712 sor, SHA-256 `f94acf93…`; Péter csatolta 2026-10-24 20:20; bájtra változatlan) – **ez az elsődleges kreatív forrás.** Történeti bizonyíték: `ai-coordination/results/WSG-20261024-STYLE10-002_RELAY_RESZLEGES_20261024.md` (a megosztott szál pillanatképe, 7. fejezet nélkül; nem elsődleges forrás) · folytató brief (MEDIUM, NEM INDÍTOTT): `ai-coordination/requests/WSG-ASTRA-HIGH-KREATIV-V2.md` · eredeti brief: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`.
 
 ---
 
 ## 0. Összefoglaló öt tényben
 
 1. **Claude „tíz stílusa”: 0 megnevezett stílus.** Claude a STYLE10-002 brief szerint *„stílust nem javasol”* (brief 1. pont); ami tőle van: keretrendszer – 9 kategóriás gesztus-mátrix, L1/L2/L3 elrendezéscsaládok, K1–K10 korlátok, B-fázisú promptsablon, 4 stílusos költség-előszűrés 87 soros árkönyvtárral, Zenit/Lake Forest fordítótábla, méretpróbák (P902_24A). Ezek **ellenőrző- és bemeneti anyagok**, nem koncepciók.
-2. **Astra tíz stílusa létezik:** S01 Kyoto Ink … S10 Desert Modern 70, mindegyik teljes lakásos recepttel, HEX-palettával, főbútor-jelölttel (P01–P15b), WOW-táblával és költségsávval; közös költségmodell, 4 rangsor, 3 ajánlott döntős + 1 tartalék, 16 kérdés Claude-nak, 10 nem futtatható B-prompt. **Státusz: RÉSZLEGES** (7. fejezet hiányzik), GitHub-mentés nem történt meg, modell/gondolkodási szint nem igazolt.
+2. **Astra tíz stílusa létezik:** S01 Kyoto Ink … S10 Desert Modern 70, mindegyik teljes lakásos recepttel, HEX-palettával, főbútor-jelölttel (P01–P15b), WOW-táblával és költségsávval; közös költségmodell, **stílusonkénti költségeltérés és stresszteszt (7. fejezet)**, 4 rangsor, 3 ajánlott döntős + 1 tartalék, 16 kérdés Claude-nak, 10 nem futtatható B-prompt. **Státusz: TELJES** – az eredeti fájl 2026-10-24 20:20-kor előkerült (Péter), bájtra változatlanul a repóban; Astra saját GitHub-mentése nem történt meg; modell/gondolkodási szint nem igazolt. Korábbi állapot (19:45–20:19): csak a megosztott pillanatkép, 7. fejezet nélkül → relay, RÉSZLEGES.
 3. **A tízes mezőny 7 kötelező irányát Péter adta** futás közben (japán, BiBo, Alelí, LA Skyline, Miami Art Deco, Zenit, Lake Forest), a kreatív minimummal („Zenit/LF látványminősége a küszöb”) együtt; Astra a 8–10. helyre Milano Radical, Paris Collector, Desert Modern 70 irányokat javasolt.
 4. **Megnevezett, kidolgozott irány összesen 12:** Astra 10 + a két pilot (Rubin Szalon, Ezüst Orbit; eredmény + Claude-audit + költség-előszűrés van hozzájuk). Claude-tól 0 új név, de 9 gesztuskategória és 2 referenciairány (Zenit/LF) költséghű fordítása.
 5. **Közös tízes javaslat (nem döntés):** Astra S01–S10 változatlanul – a 7 kötelező benne van, a 3 javasolt kidolgozott; Rubin/Orbit marad dokumentált pilot (Péter 19:34: nem kötelező résztvevő). Két összecsúszás-gyanús pár (LA–Desert, Kyoto–Zenit) és két kihasználatlan gesztuskategória (D fényarchitektúra, I terasz-folytonosság) külön döntési pont.
@@ -37,7 +37,7 @@
 
 ## B. ASTRA 10 STÍLUS – STYLE10-002 A fázis (B-gyűjtemény)
 
-**Forrás:** `ai-coordination/results/WSG-20261024-STYLE10-002_RELAY_RESZLEGES_20261024.md` (Claude-relay a megosztott Work-szál pillanatképéből; eredeti JSON SHA-256 `2f430740776cf1a1e86235d44a3072df548e034cc5415f80675fa54d85afed6e`, a Macen). **Astra státusza:** KONCEPCIÓ – NEM VALIDÁLT; költség ELŐSZŰRT – FELTÉTELES; ajánlat nincs. **Relay státusz: RÉSZLEGES** (7. fejezet hiányzik). Bázisa `cb8080a` (v2b, **nem** v2b-1; P902_24A-t nem ismerte). Modell és gondolkodási szint: **nem igazolt** (Astra saját fejléce).
+**Forrás (elsődleges):** `ai-coordination/results/WSG-20261024-STYLE10-002.md` – Astra eredeti, teljes fájlja (712 sor, SHA-256 `f94acf93b71440837808df2a1f54bab927609e24649c0d29076b34f7fed86189`, Péter csatolta 2026-10-24 20:20, bájtra változatlan). **Történeti bizonyíték:** `…_RELAY_RESZLEGES_20261024.md` (a megosztott szál pillanatképéből, 7. fejezet nélkül; az eredeti JSON SHA-256 `2f430740776cf1a1e86235d44a3072df548e034cc5415f80675fa54d85afed6e`, a Macen). Ellenőrzés: a két szöveg az 1–475. és a 517–712./516–711. sorokban betűre azonos; a 7. fejezet a pillanatképhez képest egy sorral (515.) bővült. **Astra státusza:** KONCEPCIÓ – NEM VALIDÁLT; költség ELŐSZŰRT – FELTÉTELES; ajánlat nincs. **Dokumentum: TELJES.** Bázisa `cb8080a` (v2b, **nem** v2b-1; P902_24A-t nem ismerte). Modell és gondolkodási szint: **nem igazolt** (Astra saját fejléce).
 
 ### B1. A tíz stíluskártya kivonata (Astra szövegéből, nem átírva – részletek a forrásfájl 6. fejezetében)
 
@@ -82,7 +82,8 @@ Minden stílushoz tartozik Astránál: 5 ismertetőjel + kerülendő giccs, 5 HE
 
 ### B3. Költségmodell, rangsor, döntősök (Astra 5. és 8. fejezete)
 
-- Közös módosítások mind a tízhez (M Ft): 03a 1,10→0,80 · 03c 0,45→0,40 · 03e 0,20→0,25 · 03f 0,25→0,35 · 04b 0,55→0,35 · 11 0,50→0,20 · 12 0,50→0,40 · 14 0,45→0,65 · **új 15_AV 0→0,50** → **18,00 → 17,90** (1,00 M kanapéval); 2,00 M tartalék érintetlen. Stílusonkénti eltérések: a hiányzó 7. fejezetben voltak; Astra záróüzenete szerint a tíz célkeret **17,65–17,95 M**.
+- Közös módosítások mind a tízhez (M Ft): 03a 1,10→0,80 · 03c 0,45→0,40 · 03e 0,20→0,25 · 03f 0,25→0,35 · 04b 0,55→0,35 · 11 0,50→0,20 · 12 0,50→0,40 · 14 0,45→0,65 · **új 15_AV 0→0,50** → **18,00 → 17,90** (1,00 M kanapéval); 2,00 M tartalék érintetlen.
+- **7. fejezet – stílusonkénti végső célkeretek (M Ft, teljes lakás / szabad hely a 18 M-on belül / felső sávos stressz tartalék nélkül):** S01 Kyoto 17,650 / 0,350 / 26,250 · S02 BiBo 17,928 / 0,072 / 26,378 · S03 Alelí 17,750 / 0,250 / 26,300 · S04 LA 17,828 / 0,172 / 26,378 · S05 Miami 17,850 / 0,150 / 26,450 · S06 Zenit 17,900 / 0,100 / 26,250 · S07 LF 17,950 / 0,050 / 26,500 · S08 Milano 17,778 / 0,222 / 26,378 · S09 Paris 17,850 / 0,150 / 26,300 · S10 Desert 17,650 / 0,350 / 26,300. Astra: a webárral azonosított kanapé + asztal + ágykeret stílusonként 1,3–1,6 M-ot (a keret 7–9 %-át) támaszt alá; *„Egyik stílus teljes 18 M-os kivitelezhetősége sincs még igazolva.”* Pénzügyi PASS csak tételes bontással, ≤18 M beszerzés + fuvar + szerelés, 2 M érintetlen.
 - Szubjektív profil 1–10 (karakter, WOW, térélmény, funkció, keretkockázat, kivitelezési nehézség, időtállóság, eladási vonzerő) mind a tízre – forrásfájl 8. fejezet.
 - **Rangsorok:** WOW: S02, S07, S06, S08, S05, S01, S04, S09, S03, S10 · Karakteres különállás: S02, S08, S05, S01, S09, S07, S06, S03, S10, S04 · Kivitelezhetőség (kedvezőbbtől): S01, S03, S10, S04, S06, S09, S05, S08, S02, S07 · Pénzügyi kockázat (alacsonyabbtól): S01, S10, S03, S04, S09, S08, S05, S06, S02, S07.
 - **Három ajánlott döntős:** S02 BiBo Nocturne, S07 Lake Forest Couture, S06 Zenit Atelier; **tartalék:** S01 Kyoto Ink. *„Ez ajánlott döntős mezőny, nem Péter helyett meghozott végső stílusválasztás.”*
@@ -157,7 +158,7 @@ Elsődleges gesztus: S01 **A**, S02 **B**, S03 **F**, S04 **E**, S05 **G**, S06 
 
 | Hely | Irány | Forrás | Státusz | Döntési pont |
 |---|---|---|---|---|
-| 1 | Kyoto Ink (japán kortárs) | Péter P2/P3 → Astra S01 | kidolgozott, RÉSZLEGES (7. fej.) | – |
+| 1 | Kyoto Ink (japán kortárs) | Péter P2/P3 → Astra S01 | kidolgozott | – |
 | 2 | BiBo Nocturne | Péter P2/P3 → Astra S02 | kidolgozott | U beférés P902_24A-val; IKEA-kanapé minőségi küszöb |
 | 3 | Alelí Casa | Péter P2/P3 → Astra S03 | kidolgozott | „ne legyen átlagos mediterrán” – erősíteni |
 | 4 | LA Horizon | Péter P2/P3 → Astra S04 | kidolgozott | összecsúszás S10-zel |
@@ -177,12 +178,12 @@ A V2 brief ezt a listát kapja „7 kötelező + 3 javasolt” formában; a 9–
 
 | # | Hiány / blokkoló | Hatás | Kezelés |
 |---|---|---|---|
-| 1 | Astra eredményének **7. fejezete** (stílusonkénti költségeltérés, 39 sor) nincs meg | a 17,65–17,95 M célkeretek stílusonként nem ellenőrizhetők | V2 brief első tétele: pótlás a meglévő adatokból, nem újrakutatás |
-| 2 | Az eredeti Work-szál **nem folytatható** innen: a Chrome-ban csak a megosztott, csak olvasható pillanatkép érhető el (Work-lista nem látszott, Codex: „Nincsenek csevegések”); a Medium-szint nem állítható/igazolható → Péter 19:34-es szabálya szerint **nem folytattuk** | folytatás csak új indítással, Péter döntésére | V2 brief NEM INDÍTOTT; indítás előtt a felületen Medium igazolása |
+| 1 | ~~Astra eredményének 7. fejezete nincs meg~~ → **MEGOLDVA 2026-10-24 20:20:** Péter előkerítette a teljes eredeti fájlt; a repóban bájtra változatlanul | a 17,650–17,950 M célkeretek stílusonként ellenőrizhetők | a STYLE10-002 A fázis tartalmilag **lezárt**; újabb Astra-futtatás a lezáráshoz nem kell; Claude-audit következik |
+| 2 | Az eredeti Work-szál innen nem volt elérhető (Chrome: csak a megosztott pillanatkép; Codex-lista üres); a Medium-szint nem igazolható → **nem folytattuk**, és a teljes fájl előkerülésével a lezáráshoz már **nem is szükséges** | – | V2 brief NEM INDÍTOTT; bármely későbbi Astra-futás csak Medium igazolásával, Péter külön engedélyével |
 | 3 | Modell/gondolkodási szint az A fázisban **nem igazolt** | a kreditszabály visszamenőleg nem ellenőrizhető | dokumentálva; nem állítjuk, hogy Medium volt |
 | 4 | **Kave Home** hiányzik Astra kosarából (Péter 19:38) | hős-darabok forrása hiányos | A6 árkönyvtár kötelező bemenet a V2-ben |
 | 5 | **P15 Wolke** bizonyíték gyenge; P02/P03 ár ellentmondó | S07 költségplafon, S03/S05/S09 ár | V2: SKU–méret–ár–sarokirány együtt, dátummal |
 | 6 | Astra bázisa `cb8080a` → **v2b-1 (PR #11), kiállás-réteg, P902_24A** nem volt ismert | geometriai/U-befoglaló eltérés lehet | V2: friss `main`, lock v2b-1, P902_24A kötelező |
 | 7 | Helyszíni fotók (≈60, 2026-10-25/26) és Szakos Andrea bútorozott alaprajzai még nincsenek | K5/K6/K3 és elrendezés feltételes marad | V2 A-fázis szöveges; B fázis zárolva |
-| 8 | Az eredeti JSON csak a Macen (`~/Downloads/WSG/…json`), repóban nincs | ellenőrzés hash alapján lehetséges, fájl nem | Péter dönt a feltöltésről (érzékenységi vizsgálat: nincs titok) |
+| 8 | Az eredeti JSON csak a Macen (`~/Downloads/WSG/…json`), repóban nincs | a teljes fájl előkerülésével a JSON már csak másodlagos bizonyíték | Péter dönt a feltöltésről (érzékenységi vizsgálat: nincs titok); nem sürgős |
 | 9 | Független Claude-audit az Astra-eredményre **még nem készült** | költség/geometria állítások ellenőrizetlenek | külön `audits/WSG-20261024-STYLE10-002_CLAUDE_AUDIT.md`, következő lépés |

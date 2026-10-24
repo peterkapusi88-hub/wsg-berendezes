@@ -1,32 +1,22 @@
-# WSG-20261024-ASTRA-KREATIV-V2 – A-902: a STYLE10-002 lezárása az eredeti szálban, majd a közös tízes kreatív brief (Astra **MEDIUM**)
+# WSG-20261024-ASTRA-KREATIV-V2 – A-902: a lezárt STYLE10-002 A fázis után a közös tízes kreatív brief (Astra **MEDIUM**)
 
 - **Task ID:** `WSG-20261024-ASTRA-KREATIV-V2` · fájlnév `WSG-ASTRA-HIGH-KREATIV-V2.md` Péter 2026-10-24 19:17-es kérése szerint. **A névben szereplő „HIGH” történeti; a tartalom MEDIUM-szintű** (Péter 19:34, kötelező kreditkorlát). High/Ultra/Max: **TILOS** külön új engedély nélkül.
 - **Indítás: NEM INDÍTOTT.** Automatikus felvétel TILOS. Csak Péter indítja. **Indítás előtt a futtatófelületen a Medium szint ellenőrizhetően be van állítva; ha nem állítható vagy nem igazolható, a feladat nem indul** – jelezni kell.
-- **Cél AI:** ASTRA_WORK (ChatGPT Work), **az eredeti STYLE10-002 szálban** az 1. résznél; a 2. rész új szál csak akkor, ha az eredeti már nem folytatható – ezt Péter dönti el.
-- **Típus:** 1. rész: MENTÉS/BEFEJEZÉS (nincs kutatás). 2. rész: STYLE_CONCEPT (döntős előkészítés) + PRODUCT_RESEARCH + költség-előszűrés. **Kép, videó, Blender: nincs.**
+- **Cél AI:** ASTRA_WORK (ChatGPT Work), **MEDIUM**. Az 1. rész (lezárás) Astra nélkül megtörtént; a 2. rész futtatásának helyét (eredeti szál folytatása vagy új szál) Péter dönti el az indításkor.
+- **Típus:** STYLE_CONCEPT (a kész tízes döntős szintre emelése) + PRODUCT_RESEARCH + költség-előszűrés. **Kép, videó, Blender: nincs.** Nincs újrakutatás.
 - **Lakás:** A-902, a **teljes lakás** költsége. A-811/A-812 alapadatai referenciaként rendelkezésre állnak (4. pont), **a scope nem bővül rájuk.**
 - **Bázis:** a `main` legfrissebb állapota (brief írásakor `09e86c217ce990933970043af757ad750f84b9f1`, 2026-10-24 19:03 + a jelen commit). A ténylegesen olvasott commit az eredménybe kerül.
-- **Előzmény, kötelező:** `ai-coordination/results/WSG-20261024-STYLE10-002_RELAY_RESZLEGES_20261024.md` (Astra A-fázisú eredménye, Claude-relay, 7. fejezet hiányzik) · `ai-coordination/inputs/STYLE_CLAUDE_ASTRA_FORRASOK_20261024.md` (A/B/P gyűjtemény, összevetés, közös tízes javaslat) · `ai-coordination/requests/WSG-20261024-STYLE10-002.md` (eredeti brief).
+- **Előzmény, kötelező:** **`ai-coordination/results/WSG-20261024-STYLE10-002.md` – Astra eredeti, TELJES A-fázisú eredménye (elsődleges kreatív forrás)** · `ai-coordination/inputs/STYLE_CLAUDE_ASTRA_FORRASOK_20261024.md` (A: Claude keretrendszer, B: Astra tíz stílusa, P: Péter irányai, C: összevetés, D: közös tízes javaslat) · `ai-coordination/requests/WSG-20261024-STYLE10-002.md` (eredeti brief) · történeti: `results/WSG-20261024-STYLE10-002_RELAY_RESZLEGES_20261024.md`.
 
 ---
 
-## 1. RÉSZ – A STYLE10-002 A fázis lezárása az EREDETI Work-szálban (minimális kredit)
+## 1. RÉSZ – A STYLE10-002 A fázis lezárása: **LEZÁRVA 2026-10-24 20:20–20:30, Astra-futtatás nélkül**
 
-**Tény:** Astra 2026-10-24-én elkészítette a tíz koncepciót, a rangsorokat, a három döntőst és a költségellenőrzést, és a dokumentum GitHub-mentésénél tartott; a mentés nem történt meg. A megosztott pillanatképből a 7. fejezet (476–514. sor) hiányzik. **Nem végeztetjük el újra.** Két eset:
+**Tény:** Astra 2026-10-24-én elkészítette a tíz koncepciót, a rangsorokat, a három döntőst és a költségellenőrzést; a saját GitHub-mentése nem történt meg. 20:20-kor Péter előkerítette és csatolta a **teljes, eredeti** eredményfájlt (712 sor, SHA-256 `f94acf93b71440837808df2a1f54bab927609e24649c0d29076b34f7fed86189`); Claude ellenőrizte (1–475. és 517–712. sor betűre azonos a pillanatkép-relayjel; a 476–516. sor a 7. fejezet), és **változatlanul** a repóba tette: `ai-coordination/results/WSG-20261024-STYLE10-002.md`. A korábbi relay (`…_RELAY_RESZLEGES_20261024.md`) történeti bizonyíték.
 
-**1/A – Ha a teljes dokumentum visszanyerhető** (Astra munkakönyvtára az eredeti szálban, vagy a Codex helyi naplója a Macen `~/.codex/sessions`): Claude vagy Astra **változtatás nélkül** menti `ai-coordination/results/WSG-20261024-STYLE10-002.md` néven; az első öt sor Astra eredeti fejléce; a 6. sorba egyetlen jelölt sor kerül a forrásról és a mentés módjáról (`<!-- MENTÉS: eredeti Work-szál / Codex-napló, dátum, ki mentette, SHA-256 -->`). A relay fájl történeti másolat marad.
+**A fázis teljességi ellenőrzése az eredeti brief kért kimenetei szerint (Claude):** stíluskártya (név, érzés, 5 jegy, giccs, 5 HEX) ✔ · teljes lakás 8 helyiségre ✔ · WOW-próba 3 nappali + 1 master, anyag/méret/rögzítés/sáv/sor/ajánlat ✔ · hős-termékek HU webárral, linkkel, dátummal (P01–P15b) ✔ részben: akció/listaár több helyen „nincs külön”, **Kave Home hiányzik**, P15 gyenge · költség Δ ≤ 18 M, csökkenő sorok, érzékenység (5. + 7. fejezet) ✔ · feltételes elemek K-kóddal és tartalékkal ✔ · „30–50 %” mondat ✔ · 8 szempontú profil ✔ · összehasonlító táblák, top 3, 16 kérdés Claude-nak, 10 B-prompt-tervezet ✔ · kép/videó/Blender/rendelés nem készült ✔. **Ítélet: a STYLE10-002 A fázis tartalmilag TELJES (KONCEPCIÓ – NEM VALIDÁLT; költség ELŐSZŰRT – FELTÉTELES). Újabb Astra-futtatás a lezáráshoz nem szükséges.** Tartalmi hiányok, amelyeket nem Astra, hanem Claude audit + a 2. rész kezel: Kave Home-jelöltek; P15/P02/P03 ár–SKU; v2b-1 és P902_24A utólagos ismerete; modell/szint nem igazolt (dokumentálva).
 
-**1/B – Ha csak az eredeti szálban folytatható:** Péter az **eredeti** szálba, Medium igazolása után, **csak az alábbi egy üzenetet** küldi (másolható):
-
-> WSG: ne kutass és ne írj újra semmit. A STYLE10-002 A fázis kész dokumentumát – a munkakönyvtáradban lévő `WSG-20261024-STYLE10-002.md`, a 7. fejezettel együtt, változtatás nélkül – mentsd a peterkapusi88-hub/wsg-berendezes repó `main` ágára `ai-coordination/results/WSG-20261024-STYLE10-002.md` néven, commit-üzenet: „STYLE10-002 A fázis: Astra eredeti eredménye (tíz stílus, rangsor, három döntős)”. Commit után olvasd vissza a fájlt, és írd le a commit-azonosítót, a sorok számát és a 7. fejezet címét. Ha a fájl már nem elérhető a munkakönyvtáradban, válaszolj pontosan ennyit: „NEM ELÉRHETŐ – a 7. fejezet újraírása kell”, és állj meg. Ne generálj képet, ne módosíts más fájlt, ne indíts új feladatot.
-
-Ha a válasz „NEM ELÉRHETŐ”, **második, Medium-szintű üzenet** (szintén Péter küldi, külön döntésre) – csak a 7. fejezet pótlása a már meglévő adatokból:
-
-> WSG: csak a hiányzó 7. fejezetet pótold – stílusonkénti költségeltérések és teljes lakásos célkeretek (S01–S10) a már kész 5. fejezet közös modellje (18,00 → 17,90 M; 15_AV 0,50) és a 6. fejezet WOW-sávjai alapján, 17,65–17,95 M célkeretekkel és stressz-sorral; semmilyen más fejezetet ne írj át, ne kutass újra. Az eredményt a `ai-coordination/results/WSG-20261024-STYLE10-002.md` fájlba mentsd úgy, hogy az 1–6. és 8–12. fejezet a relayben (`…_RELAY_RESZLEGES_20261024.md`) szereplő szöveggel betűre egyezzen. Commit után olvasd vissza, add meg a commitot.
-
-**Szabályok az 1. részhez:** nincs második STYLE10-002-munkamenet, nincs új Work-feladat, nincs extra kredit, nincs kép. Medium igazolása nélkül egyik üzenet sem megy ki. Claude innen nem küld üzenetet; a Chrome-ban csak a megosztott pillanatkép látszik, az eredeti szál nem.
-
-**Claude teendője utána (Medium nem kell):** független audit `ai-coordination/audits/WSG-20261024-STYLE10-002_CLAUDE_AUDIT.md` (geometria P902_24A-val, U 285×160 vs. 3,00×2,40 befoglaló, K1–K10, árak újraellenőrzése Kave Home-mal, 18 M + 2 M újraszámolás, kettős számolás).
+**Claude következő lépése (kredit nélkül):** független audit `ai-coordination/audits/WSG-20261024-STYLE10-002_CLAUDE_AUDIT.md` – geometria P902_24A-val (U 285×160 vs. 3,00×2,40 befoglaló, L2/L3, 90 cm főút, székkihúzás), K1–K10, árak újraellenőrzése Kave Home-mal, a 7. fejezet összegeinek újraszámolása (17,650–17,950 M; 2 M érintetlen), kettős számolás, Gate-státusz.
 
 ---
 
@@ -39,7 +29,7 @@ A STYLE10-002 kész tízes mezőnyét **nem újrakutatva**, hanem a Claude-keret
 ### 2.2 Kötelező olvasnivaló (friss `main`)
 
 1. `GOAL.md` (különösen 2., 3., 5., 10. pont), `CLAUDE.md`, `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md`, `ai-coordination/RENDER_REALITY_GATE.md`, `ai-coordination/HANDOFF_PROTOCOL.md`.
-2. **Mindkét gyűjtemény:** `ai-coordination/inputs/STYLE_CLAUDE_ASTRA_FORRASOK_20261024.md` (A: Claude-keretrendszer; B: Astra tíz stílusa; P: Péter szó szerinti irányai; C: összevetés; D: közös tízes javaslat) és a teljes Astra-eredmény (`results/WSG-20261024-STYLE10-002.md`, ha már megvan; különben a relay).
+2. **Mindkét gyűjtemény:** a teljes Astra-eredmény (`results/WSG-20261024-STYLE10-002.md`, 12 fejezet, 7. fejezet költségeltérésekkel) és `ai-coordination/inputs/STYLE_CLAUDE_ASTRA_FORRASOK_20261024.md` (A: Claude keretrendszer – gesztus-mátrix A–I, elrendezéscsaládok, Zenit/LF fordítótábla, 4 stílusos költség-előszűrés, méretpróbák; B: Astra tíz stílusa; P: Péter szó szerinti irányai; C: összevetés; D: közös tízes javaslat). **Claude oldalán nem tíz megnevezett stílus van, hanem ezek a kreatív-műszaki bemenetek – teljes értékű forrásként kezelendők, utólag kitalált „Claude-stílusok” nélkül.**
 3. **Geometria (legfrissebb):** `03_blender/geometry_lock_A902_v2b.json` (**v2b-1**, PR #11 után), `03_blender/validator_report_2026-10-24_v2b1_lockjavitas.md`, `03_blender/geometry_v2/` (eltéréslista, kameralap), `03_blender/geometry_A811_A812/meretproba/MERETPROBA_KANAPE_A902.md` (**P902_24A**: U 3,00×2,40 m, TV felé nyitva, asztal 0,30 m-rel nyugatra), `01_alaprajzok/villamos_kiallasok/` (A-902: 12 mennyezeti + 7 fali lámpapont, 29 kapcsoló, 49 dugalj; HF mezők).
 4. **Képi alap (csak tájékozódás, nem anyagreferencia):** `04_renderek/semleges_v2b/` Cam_02/03/04 + `REFERENCIA_KARTYA_A902_Cam02_v2b.md`; a régi `04_renderek/semleges/` képek elavultak (fekete profil, sík terasz).
 5. **Költség és árak:** `ai-coordination/inputs/A902_v1/KOLTSEG_KIINDULAS_A902.csv` (28 sor, 18,00 M), `ai-coordination/inputs/A902_v2b/KOLTSEG_ELOSZURES_4STILUS_A902.md`, `KOLTSEG_KERET_4STILUS_A902.csv`, **`ARKONYVTAR_A902_2026-10-24.csv` (87 Kave Home/Westwing/IKEA jelölt EUR/HUF árral)**, `arforras/`, `08_allapotfelmeres/KOLTSEGSTRATEGIA_3_LAKAS.md`.
@@ -92,7 +82,7 @@ Rubin Szalon és Ezüst Orbit: **dokumentált pilotok, nem kötelező résztvev�
 
 ### 2.7 Kért eredmény és sorrend (koncepció → validált elrendezés → végső renderprompt)
 
-1. **A2 – koncepció-befejezés (Astra, Medium):** a tíz kártya a küszöbhöz igazítva; S09/S10 döntési javaslat; hiányzó termékjelöltek (székek, fotel, lámpák, Kave Home kanapé-/asztaljelöltek); P15 és P02/P03 ár–SKU tisztázása; frissített 4 rangsor és 3 döntős + tartalék; stílusonkénti költségeltérés-tábla (ha az 1. rész nem adta vissza); 16 kérdés Claude-nak frissítve. Kimenet: **új** `ai-coordination/results/WSG-20261024-ASTRA-KREATIV-V2.md` (fejléc a RESULT_TEMPLATE szerint: `WSG-RESULT`, Szerző-AI, Modell | nem igazolt, Bázis-commit, Státusz), semmit nem ír felül.
+1. **A2 – kreatív továbbfejlesztés (Astra, Medium):** a tíz kész kártya a küszöbhöz igazítva (nem újraírva); S09/S10 döntési javaslat; hiányzó termékjelöltek (székek, fotel, lámpák, **Kave Home** kanapé-/asztaljelöltek az A6 árkönyvtárból); P15 és P02/P03 ár–SKU tisztázása; a 7. fejezet költségtábláinak frissítése P902_24A és az új jelöltek szerint; frissített 4 rangsor és 3 döntős + tartalék; a 16 kérdés Claude-nak frissítve. Kimenet: **új** `ai-coordination/results/WSG-20261024-ASTRA-KREATIV-V2.md` (fejléc a RESULT_TEMPLATE szerint: `WSG-RESULT`, Szerző-AI, Modell | nem igazolt, Bázis-commit, Státusz), semmit nem ír felül.
 2. **Elrendezés-validálás (Claude, kredit nélkül):** a döntősök bútorbefoglalói P902_24A-val, validátor v2 (lock v2b-1), ajtósöprés, 90 cm főút, székkihúzás, kiállás-azonosítók; eredmény `03_blender/validator_report_*.md` + `audits/`. Geometriai PASS-t képről nem állítunk.
 3. **Végső renderpromptok (B fázis, ZÁROLVA):** csak Claude géppel ellenőrzött alapja + Péter külön B-indítása után; sablon `05_promptok/A902_STYLE10_Cam02_prompt_sablon_v1.md` frissítve a `semleges_v2b` Cam_02 képre; azonos kamera, fény, expozíció; Gate-státusz minden képhez (KONCEPCIÓ – NEM VALIDÁLT / ELŐSZŰRT – FELTÉTELES / RENDER REALITY PASS – TÉTELES / AJÁNLATTAL VALIDÁLT / FAIL).
 
@@ -101,12 +91,12 @@ Rubin Szalon és Ezüst Orbit: **dokumentált pilotok, nem kötelező résztvev�
 - Nincs új tízstílusos kutatás, képgenerálás, videó, Blender-módosítás, rendelés, ajánlatkérés, külső levél. Nincs High/Ultra/Max, extra kredit, párhuzamos munkamenet.
 - Minden állítás forrással és dátummal; „ellenőrzött” / „becslés” jelöléssel; v2b-1 nem teljes helyszíni validáció.
 - Mentés új fájlba, commit után visszaolvasás; a chatben: lényegi változás, fennmaradó kockázat, ellenőrzött commit. A GitHubra mentett fájl az átadás, nem a chat.
-- Péter döntései indítás előtt: (a) 1/A vagy 1/B út; (b) S09 csere / S10 összevonás kérdése nyitva maradjon-e Astránál; (c) PREMIUM-forgatókönyv kidolgozása kell-e már most; (d) a Medium szint igazolása a felületen.
+- Péter döntései indítás előtt: (a) S09 csere / S10 összevonás kérdése nyitva maradjon-e Astránál; (b) PREMIUM-forgatókönyv kidolgozása kell-e már most; (c) eredeti szál folytatása vagy új szál; (d) a Medium szint igazolása a felületen.
 
-### 2.9 Indítómondat (egyetlen; csak Péter küldi, csak Medium igazolása után, csak az 1. rész lezárása után)
+### 2.9 Indítómondat (egyetlen; csak Péter küldi, csak Medium igazolása és külön indítási engedélye után)
 
 > WSG: dolgozd fel a `WSG-20261024-ASTRA-KREATIV-V2` feladatot a GitHubról (`ai-coordination/requests/WSG-ASTRA-HIGH-KREATIV-V2.md`, 2. rész) Medium szinten, a STYLE10-002 kész eredményére építve, újrakutatás nélkül, és mentsd az eredményt a repóba új fájlba.
 
 ---
 
-**Státusz: NEM INDÍTOTT.** Készítette: Claude, 2026-10-24 este. Ez a brief Péter 2026-10-24 19:17, 19:27, 19:34, 19:38, 19:42 és 20:07 utasításait rögzíti; a korábbi STYLE10-002 és STYLE4-003 briefeket nem írja át, hanem hivatkozik rájuk.
+**Státusz: NEM INDÍTOTT.** Készítette: Claude, 2026-10-24 este; frissítve 20:30 (a teljes Astra-eredmény előkerülése után). Ez a brief Péter 2026-10-24 19:17, 19:27, 19:34, 19:38, 19:42, 20:07, 20:20 és 20:23 utasításait rögzíti; a korábbi STYLE10-002 és STYLE4-003 briefeket nem írja át, hanem hivatkozik rájuk.

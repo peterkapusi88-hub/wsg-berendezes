@@ -2,11 +2,13 @@ WSG-RESULT: WSG-20261024-STYLE10-002
 Szerző-AI: Astra (ChatGPT Work, Codex-futtató) – tartalom; Claude – közvetítés (relay) a megosztott szál pillanatképéből
 Modell: nem igazolt (Astra saját fejléce szerint sem; a Medium/High beállítás a pillanatképből nem ellenőrizhető)
 Bázis-commit: cb8080a4c65eb8a374cb0741803de63bd6ab7e18 (Astra által olvasott main, 2026-10-24 13:29) · relay a main 09e86c217ce990933970043af757ad750f84b9f1 állapotán
-Státusz: RÉSZLEGES – az eredeti dokumentum 7. fejezete (476–514. sor, 39 sor) nincs a pillanatképben; Astra GitHub-mentése nem történt meg
+Státusz: TÖRTÉNETI – RÉSZLEGES pillanatkép (a 7. fejezet hiányzott); FELVÁLTOTTA az eredeti, teljes fájl: `WSG-20261024-STYLE10-002.md` (712 sor, SHA-256 f94acf93b71440837808df2a1f54bab927609e24649c0d29076b34f7fed86189), amelyet Péter 2026-10-24 20:20-kor csatolt – az az elsődleges kreatív forrás, ez a fájl bizonyíték és nem szerkesztendő
 
 # STYLE10-002 · A fázis · Astra-eredmény – Claude-relay a megosztott Work-szálból (2026-10-24)
 
 ## 0. Relay-megjegyzés (Claude, 2026-10-24 este) – olvasd el a tartalom előtt
+
+> **FRISSÍTÉS 2026-10-24 20:20–20:30 (Claude):** Péter előkerítette és a Claude-munkamenetbe csatolta az Astra **teljes, eredeti** eredményfájlját (712 sor, 86 994 bájt, SHA-256 `f94acf93b71440837808df2a1f54bab927609e24649c0d29076b34f7fed86189`). Ellenőrzés: az 1–475. sora betűre azonos az alábbi relay 1–475. sorával, a 517–712. sora betűre azonos a relay 516–711. sorával; a 476–516. sor a korábban hiányzó **7. fejezet** („Stílusonkénti költségeltérések és teljes keret”, 10 soros Δ-tábla 17,650–17,950 M teljes lakással, stresszteszt 26,250–26,500 M, költségigazolási korlát). Egyetlen eltérés a pillanatképhez képest: a 7. fejezet a pillanatkép szerint 39+1 sor volt, a végleges fájlban 40+1 – a 515. sor a pillanatkép után került be; ellentmondás nincs. A teljes fájl **változatlanul, bájtra azonosan** került a repóba `ai-coordination/results/WSG-20261024-STYLE10-002.md` néven (forrásjelölés a fájlon kívül, hogy a hash ellenőrizhető maradjon). **Ez a relay innentől történeti bizonyíték; kreatív forrásként a teljes fájlt kell használni.** Az alábbi szöveg a 20:20 előtti állapotot rögzíti, nem írtuk át.
 
 **Mi ez.** Astra a `WSG-20261024-STYLE10-002` A fázisát 2026-10-24-én **ténylegesen lefuttatta** a ChatGPT Work felületén (futásidő a pillanatkép szerint 1 965 430 ms ≈ 32 perc 45 s), Péter indítómondatával és három futás közbeni korrekciójával. Az eredménydokumentumot a Work-munkakönyvtárában írta meg (7 `fileChange`), majd utolsó üzenetében ezt írta: *„Most mentem a végleges A-fázisú anyagot GitHubra, majd visszaolvasom a commitból.”* A pillanatkép itt véget ér; a `main`-en nincs ilyen fájl → **a GitHub-mentés nem történt meg vagy megszakadt.** A GitHubon eddig látható „NEM INDÍTOTT” státusz ezért elavult volt (CLAUDE.md: „a GitHubon hiányzó eredményfájl nem bizonyítja, hogy a Workben nem készült eredmény”).
 
