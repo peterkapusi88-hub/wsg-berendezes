@@ -157,11 +157,20 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - a PR frissítése az aktuális main-ről, a validátor újrafuttatása;
     - a merge-jóváhagyást Péter külön adja.
   - A Cam_04 és a Cam_11 egyaránt marad. Az Astra eredeti promptjai változatlanok. A 16 előkészített képcsomag megmarad.
-- *(2026-10-25 00:30, Péter kérdése – nyitott)* **180 vagy 200 cm széles ágy a master 05.1-ben?**
+- *(2026-10-25 00:30, Péter kérdése → 00:48 eldöntve)* **Master 05.1: 180 × 200 cm-es ágy marad, tengelye y = 6,40 m.**
   - Az ágy helye a terv szerinti: a tervrajzon y 5,48–7,31, a modellben 5,50–7,30.
-  - **180:** kényelmesen elfér. A K13/K14 kapcsolók 18–21 cm-re vannak a fejvégtől, az északi átjáró a gardróbfrontig 0,74 m.
-  - **200:** csak legfeljebb kb. 2,05 m külső szélességű kerettel/fejvéggel fér a kapcsolók közé. Az átjáró így 0,62 m (minimum 0,60), az 50 cm-es gardróbajtó kinyitva kb. 12 cm-re áll meg az ágytól.
-  - Claude javaslata: 180×200. Döntés Péteré; 200 esetén konkrét termék külső méretével méretezünk.
+  - 180-nal a K13/K14 kapcsolók 18–21 cm-re vannak a fejvégtől, az északi átjáró a gardróbfrontig 0,74 m.
+  - A 200-as ágy elvetve: csak legfeljebb kb. 2,05 m külső szélességgel férne a kapcsolók közé, 0,62 m-es átjáróval.
+- *(2026-10-25 00:48, Péter – eldöntve)*
+  - **PR #15 beolvasztva** (Péter „mehet”, merge `4db1671`). A Cam_11 JAVASLAT-státusszal, az ágy y 6,40-nel van a main-ben (v2b-1-k11b).
+    - .blend sha256: `9875cd57…ed28`.
+    - Lock sha256: `7aa85d70…154b`.
+    - Az ismert, ettől független hibák dokumentálva maradnak: a 6 régi szaniter-ütközés, a Zenit fali lámpái, a Lake Forest éjjeliszekrény-lapja (`03_blender/validator_report_2026-10-25_v2b1k11b_agy640.md`).
+  - **A képgenerálásnál a cél az automatizálás:** Péter ne képenként töltse fel a referenciákat és másolja be a promptot.
+    - Claude ellenőrzi, végig tudja-e vinni a Claude Desktop böngészővezérlésével a ChatGPT Images-folyamatot: új chat, 9 referencia feltöltése, prompt, letöltés, WSG-archiválás.
+    - Első lépésként csak az S01 Kyoto Ink Cam_02 tesztképet készíti elő, és a generálás indítása előtt megáll jóváhagyásért.
+    - Ha egy lépés nem támogatott, pontosan leírja, hol akad el.
+    - Tömeges generálás nincs.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -221,4 +230,8 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
     - Validátor, master-bútor mód: **PASS 0/0**. Előtte FAIL 6/5 volt: a K14 kapcsoló takarva, az éjjeliszekrények a falban és az ajtó útjában.
     - A Cam_11 a helyén marad ([3,20; 6,10; 1,20], az ágyon).
     - Riport a PR-ágon: `03_blender/validator_report_2026-10-25_v2b1k11b_agy640.md`. Merge Péter külön jóváhagyásával.
-  - **Első teszt (00:05):** csak a 03-as csomag (S01 Kyoto Ink, Cam_02), Péter futtatja.
+  - **Első teszt (00:05):** csak a 03-as csomag (S01 Kyoto Ink, Cam_02).
+  - **2026-10-25 00:50 – PR #15 beolvasztva (merge `4db1671`).**
+    - Az 1c kapuja a Cam_11-hez teljesült; az 1a/1b Gate és Péter „mehet”-je továbbra is kell.
+    - Az ágy 180 × 200 cm-es, tengelye y 6,40.
+    - Az első tesztkép futtatását Claude a böngészőben próbálja automatizálni, és a generálás előtt megáll (Péter, 00:48).
