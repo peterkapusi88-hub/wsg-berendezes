@@ -66,3 +66,8 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 
 ## 9. Mappatérkép
 `01_alaprajzok/` brosúra + lakásonkénti alaprajz · `02_referenciak/` Zenit és Lake Forest kontaktlapok · `03_blender/` .blend fájlok + `wsg_helpers.py` + rétegszkriptek · `04_renderek/` alap (Blender), `blender_stilusok/` (Zenit/LF EEVEE-nézetek), `ai_gemini/`, `ai_chatgpt/` · `05_promptok/` képgeneráló promptok · `06_koncepcio/` a koncepció-doksi markdownban · `07_skill/` a Claude-skillek forrása.
+
+
+## Új, kiemelt tervezési alapelv – nyitott stíluslabor és költséghű kivitelezés
+
+A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értékalapú tervezési és költségellenőrzési irányelve**. Péter eredeti mottója: **„Mi szeressünk bele. Teremtsünk értéket.”** A luxusérzetet nem csak az anyag, hanem a **forma, szín, arány, térhasználat, fény, természetkapcsolat és funkció** alakítja. Zenit és Lake Forest **csak induló példák**: azonos, valós geometriával és azonos lakásonkénti keret mellett 10+ további hangulat vizsgálható, végleges stílust nem választunk előre. A koncepciók előszűrt költségsávval, a döntősök cikkszámos termékekkel és méretezett egyedi bútorspecifikációkkal kerülnek összehasonlításra. Végleges, kivitelezhető státuszt csak valódi árak, szükséges asztalos ajánlatok, két független ChatGPT–Claude költségellenőrzés és render–specifikáció egyezés után adunk. Mindig a **lakás teljes** bruttó, 10% tartalékot figyelembe vevő keretét kell vizsgálni. A jelen dokumentum korábbi Zenit/Lake Forest lakásonkénti párosítása csak ötlet, nem döntés. Külső kommunikációhoz és rendeléshez Péter „mehet” jóváhagyása kell.
