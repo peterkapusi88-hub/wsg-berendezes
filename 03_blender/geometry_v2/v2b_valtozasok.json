@@ -1,0 +1,2887 @@
+{
+ "datum": "2026-10-24",
+ "alap": "WSG_A902_v2_terasz_ELOZETES_20261024.blend",
+ "kimenet": "WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
+ "valtozasok": [
+  {
+   "tipus": "fal",
+   "nev": "Kulso_Ny_szemoldok1",
+   "regi": [
+    -0.3,
+    0.05,
+    2.55,
+    0.0,
+    1.93,
+    2.9
+   ],
+   "uj": [
+    -0.3,
+    0.06,
+    2.57,
+    0.0,
+    1.94,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.2 erkélyajtó 1,88/2,57; tok y 0,059–1,939"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_Ny_1",
+   "regi": [
+    -0.3,
+    1.93,
+    0.0,
+    0.0,
+    4.25,
+    2.9
+   ],
+   "uj": [
+    -0.3,
+    1.94,
+    0.0,
+    0.0,
+    4.28,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "nyílásvégek a tokvonalakhoz (1,939 / 4,274)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_Ny_szemoldok2",
+   "regi": [
+    -0.3,
+    4.25,
+    2.55,
+    0.0,
+    7.9,
+    2.9
+   ],
+   "uj": [
+    -0.3,
+    4.28,
+    2.57,
+    0.0,
+    7.92,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.1 üvegfal 3,65/2,57; tok y 4,274–7,924"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_Ny_2",
+   "regi": [
+    -0.3,
+    7.9,
+    0.0,
+    0.0,
+    8.95,
+    2.9
+   ],
+   "uj": [
+    -0.3,
+    7.92,
+    0.0,
+    0.0,
+    8.95,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 7,924"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_eloter_sarok_0",
+   "regi": [
+    6.6,
+    -0.3,
+    0.0,
+    6.9,
+    0.35,
+    2.9
+   ],
+   "uj": [
+    6.7,
+    -0.3,
+    0.0,
+    6.95,
+    0.6,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 6,699 / 6,949 (y −0,31…0,60)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_eloter_0",
+   "regi": [
+    6.6,
+    0.35,
+    0.0,
+    7.3,
+    0.65,
+    2.9
+   ],
+   "uj": [
+    6.7,
+    0.6,
+    0.0,
+    7.3,
+    0.85,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 6,699 (…0,849); ajtótok 7,299 (y 0,599–0,849)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_eloter_szemoldok1",
+   "regi": [
+    7.3,
+    0.35,
+    2.1,
+    8.35,
+    0.65,
+    2.9
+   ],
+   "uj": [
+    7.3,
+    0.6,
+    2.1,
+    8.35,
+    0.85,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "bejárati ajtó 1,05/2,10, tok 7,299–8,349"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_eloter_1",
+   "regi": [
+    8.35,
+    0.35,
+    0.0,
+    8.55,
+    0.65,
+    2.9
+   ],
+   "uj": [
+    8.35,
+    0.6,
+    0.0,
+    8.6,
+    1.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 8,349 / 8,599 (y 0,60–1,35)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_tomb_eloter_konyha",
+   "regi": [
+    8.45,
+    0.35,
+    0.0,
+    9.1,
+    1.3,
+    2.9
+   ],
+   "uj": [
+    8.6,
+    1.1,
+    0.0,
+    9.1,
+    1.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "a 65 cm-es „tömb” helyett a konyha D-i fala: H 1,099 / 1,349"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_konyha_0",
+   "regi": [
+    9.1,
+    1.0,
+    0.0,
+    10.9,
+    1.3,
+    2.9
+   ],
+   "uj": [
+    9.1,
+    1.1,
+    0.0,
+    10.85,
+    1.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 1,099 / 1,349 (x 8,60–10,55)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Beepitett_szekreny_eloter",
+   "regi": [
+    8.45,
+    1.3,
+    0.0,
+    9.0,
+    2.3,
+    2.9
+   ],
+   "uj": [
+    8.95,
+    1.35,
+    0.0,
+    9.05,
+    2.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "a tömör „szekrénytömb” helyett a fülke K-i fala: V 8,949 / 9,049; a fülke az előtér felé nyitott"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_konyha_Ny_0",
+   "regi": [
+    8.45,
+    2.3,
+    0.0,
+    8.55,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    8.35,
+    2.35,
+    0.0,
+    8.45,
+    4.05,
+    0.85
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 8,348 / 8,448 (y 2,35–4,05); −10 cm; MAGASSÁG 0,85 m: a terven „pm.:85.0 cm”, a módosítás szerint „pengefal helyett 85 cm magas, erősített gipszkarton fal” (M1 KORR 2)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_K_konyha_05_3_0",
+   "regi": [
+    10.64,
+    1.0,
+    0.0,
+    10.9,
+    6.1,
+    2.9
+   ],
+   "uj": [
+    10.55,
+    1.1,
+    0.0,
+    10.85,
+    4.1,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "konyha K-i fala: V 10,549 / 10,849; −9 cm a belső síkon"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_K_konyha_05_3_szemoldok1",
+   "regi": [
+    10.64,
+    6.1,
+    2.1,
+    10.9,
+    7.0,
+    2.9
+   ],
+   "uj": [
+    10.75,
+    6.05,
+    2.1,
+    10.85,
+    6.95,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.3 ajtó 90/2,10, tok y 6,049–6,949"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_K_konyha_05_3_1",
+   "regi": [
+    10.64,
+    7.0,
+    0.0,
+    10.9,
+    7.1,
+    2.9
+   ],
+   "uj": [
+    10.75,
+    6.95,
+    0.0,
+    10.85,
+    7.025,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "nappali|05.3 válaszfal 10 cm: V 10,749 / 10,849"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Akna_etkezo_05_3",
+   "regi": [
+    10.0,
+    7.1,
+    0.0,
+    11.0,
+    7.97,
+    2.9
+   ],
+   "uj": [
+    9.8,
+    7.025,
+    0.0,
+    11.1,
+    8.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "akna: V 9,799 / 11,099, H 7,024; pillér 10,80–11,10 a 05.3 ÉNy-i sarkában"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_D_05_3_06_2_0",
+   "regi": [
+    10.9,
+    3.74,
+    0.0,
+    16.8,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    10.85,
+    3.85,
+    0.0,
+    16.7,
+    4.1,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 3,849 / 4,099 (05.3 D-i belső sík +6 cm)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Akna_06_2",
+   "regi": [
+    14.6,
+    4.04,
+    0.0,
+    16.8,
+    5.13,
+    2.9
+   ],
+   "uj": [
+    15.0,
+    4.1,
+    0.0,
+    16.4,
+    5.2,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "gépészeti tömb: V 14,999…16,399, H 4,099 / 5,199; a 14,37–15,00 sáv a 05.3 fülkéje"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_K_06_2_0",
+   "regi": [
+    16.5,
+    5.13,
+    0.0,
+    16.8,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    16.4,
+    4.1,
+    0.0,
+    16.7,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 16,399 / 16,699; −10 cm"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_05_3_06_2_0",
+   "regi": [
+    14.5,
+    4.04,
+    0.0,
+    14.6,
+    6.05,
+    2.9
+   ],
+   "uj": [
+    14.375,
+    5.1,
+    0.0,
+    14.475,
+    6.3,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 14,374 / 14,474; −12,6 cm"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_05_3_06_2_szemoldok1",
+   "regi": [
+    14.5,
+    6.05,
+    2.1,
+    14.6,
+    6.8,
+    2.9
+   ],
+   "uj": [
+    14.375,
+    6.3,
+    2.1,
+    14.475,
+    7.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "06.2 ajtó 75/2,10, tok y 6,299–7,049"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_05_3_06_2_1",
+   "regi": [
+    14.5,
+    6.8,
+    0.0,
+    14.6,
+    7.97,
+    2.9
+   ],
+   "uj": [
+    14.375,
+    7.05,
+    0.0,
+    14.475,
+    8.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 14,374 / 14,474"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_E_terasz_0",
+   "regi": [
+    3.4,
+    7.97,
+    0.0,
+    4.5,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    3.32,
+    8.05,
+    0.0,
+    4.38,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 8,049 / 8,349; nyílás falazott kávája 4,379"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_E_terasz_szemoldok1",
+   "regi": [
+    4.5,
+    7.97,
+    2.55,
+    9.0,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    4.38,
+    8.05,
+    2.53,
+    9.0,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "nappali üvegfal 4,50/2,53; káva 4,379–8,999"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_E_terasz_1",
+   "regi": [
+    9.0,
+    7.97,
+    0.0,
+    12.2,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    9.0,
+    8.05,
+    0.0,
+    12.0,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 8,049 / 8,349; káva 8,999 / 11,999"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_E_terasz_szemoldok2",
+   "regi": [
+    12.2,
+    7.97,
+    2.55,
+    14.0,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    12.0,
+    8.05,
+    2.53,
+    13.92,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.3 teraszajtó 1,80/2,53; káva 11,999–13,919"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Kulso_E_terasz_2",
+   "regi": [
+    14.0,
+    7.97,
+    0.0,
+    16.8,
+    8.27,
+    2.9
+   ],
+   "uj": [
+    13.92,
+    8.05,
+    0.0,
+    16.7,
+    8.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 8,049 / 8,349"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Pillér_05_1_EK",
+   "regi": [
+    2.95,
+    7.97,
+    0.0,
+    3.4,
+    9.25,
+    2.9
+   ],
+   "uj": [
+    3.02,
+    8.04,
+    0.0,
+    3.32,
+    9.25,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 3,019 / 3,319, H 8,039"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_05_1_nappali_0",
+   "regi": [
+    3.62,
+    3.94,
+    0.0,
+    3.72,
+    7.97,
+    2.9
+   ],
+   "uj": [
+    3.57,
+    4.05,
+    0.0,
+    3.67,
+    8.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT + HELYSZÍNEN MÉRT",
+   "bizonyitek": "V 3,569 / 3,669; méretszám 3,57 és 7,08; Kémeri 05.1 = 3,548 (vakolt)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_E_05_1ajto_0",
+   "regi": [
+    2.42,
+    3.94,
+    0.0,
+    2.63,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    2.42,
+    3.95,
+    0.0,
+    2.594,
+    4.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.1 ajtótok 2,594"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_E_05_1ajto_szemoldok1",
+   "regi": [
+    2.63,
+    3.94,
+    2.1,
+    3.53,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    2.594,
+    3.95,
+    2.1,
+    3.494,
+    4.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.1 ajtó 90/2,10, tok x 2,594–3,494"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_E_05_1ajto_1",
+   "regi": [
+    3.53,
+    3.94,
+    0.0,
+    3.72,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    3.494,
+    3.95,
+    0.0,
+    3.67,
+    4.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 3,494 → válaszfal 3,669"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_Ny_0",
+   "regi": [
+    2.42,
+    2.55,
+    0.0,
+    2.52,
+    3.94,
+    2.9
+   ],
+   "uj": [
+    2.42,
+    2.65,
+    0.0,
+    2.52,
+    3.95,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 2,419 / 2,519"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_D_05_2ajto_0",
+   "regi": [
+    2.42,
+    2.55,
+    0.0,
+    2.63,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    2.42,
+    2.65,
+    0.0,
+    2.674,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 2,649 / 2,749 (+10 cm); 05.2 ajtótok 2,674"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_D_05_2ajto_szemoldok1",
+   "regi": [
+    2.63,
+    2.55,
+    2.1,
+    3.53,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    2.674,
+    2.65,
+    2.1,
+    3.574,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.2 ajtó 90/2,10, tok x 2,674–3,574"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_eloszoba_D_05_2ajto_1",
+   "regi": [
+    3.53,
+    2.55,
+    0.0,
+    3.72,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    3.574,
+    2.65,
+    0.0,
+    3.75,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 3,574"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_05_2_furdo_0",
+   "regi": [
+    3.62,
+    0.0,
+    0.0,
+    3.72,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    3.65,
+    0.0,
+    0.0,
+    3.75,
+    2.65,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 3,649 / 3,749; méretszám 3,65 és 1,75"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_furdo_E_0",
+   "regi": [
+    3.72,
+    2.55,
+    0.0,
+    3.95,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    3.75,
+    2.65,
+    0.0,
+    3.824,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "06.1 ajtótok 3,824"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_furdo_E_szemoldok1",
+   "regi": [
+    3.95,
+    2.55,
+    2.1,
+    4.7,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    3.824,
+    2.65,
+    2.1,
+    4.574,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "06.1 ajtó 75/2,10, tok x 3,824–4,574"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_furdo_E_1",
+   "regi": [
+    4.7,
+    2.55,
+    0.0,
+    5.55,
+    2.65,
+    2.9
+   ],
+   "uj": [
+    4.574,
+    2.65,
+    0.0,
+    5.6,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 2,649 / 2,749 (x 4,574–5,599)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_furdo_wc_K_0",
+   "regi": [
+    5.45,
+    0.0,
+    0.0,
+    5.55,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    5.5,
+    0.0,
+    0.0,
+    5.6,
+    2.75,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 5,499 / 5,599 (y 0–2,75); +5 cm; északon nem folytatódik"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Pillér_kozlekedo",
+   "regi": [
+    5.0,
+    2.9,
+    0.0,
+    5.45,
+    3.35,
+    2.9
+   ],
+   "uj": [
+    5.0,
+    2.95,
+    0.0,
+    5.2,
+    3.45,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 2,949 / 3,449, V 4,999; a 30-as méretszám a pillér + fal"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_wc_D_0",
+   "regi": [
+    5.55,
+    1.95,
+    0.0,
+    5.7,
+    2.05,
+    2.9
+   ],
+   "uj": [
+    5.6,
+    2.0,
+    0.0,
+    5.774,
+    2.1,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 1,999 / 2,099 (+5 cm); WC-ajtótok 5,774"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_wc_D_szemoldok1",
+   "regi": [
+    5.7,
+    1.95,
+    2.1,
+    6.45,
+    2.05,
+    2.9
+   ],
+   "uj": [
+    5.774,
+    2.0,
+    2.1,
+    6.524,
+    2.1,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "WC-ajtó 75/2,10, tok x 5,774–6,524"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_wc_D_1",
+   "regi": [
+    6.45,
+    1.95,
+    0.0,
+    6.6,
+    2.05,
+    2.9
+   ],
+   "uj": [
+    6.524,
+    2.0,
+    0.0,
+    6.6,
+    2.1,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 6,524 → akna 6,599"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Akna_WC_gepeszet",
+   "regi": [
+    6.6,
+    1.95,
+    0.0,
+    7.4,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    6.6,
+    2.0,
+    0.0,
+    7.3,
+    3.95,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 6,599 / 7,299, H 1,999 / 3,949; K-i sík −10 cm (az átjáró 1,05 marad)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Fal_wc_E_nappali_0",
+   "regi": [
+    5.55,
+    3.94,
+    0.0,
+    6.6,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    5.2,
+    3.95,
+    0.0,
+    7.3,
+    4.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 3,949 / 4,049 (x 5,20–7,30)"
+  },
+  {
+   "tipus": "fal",
+   "nev": "Szemoldok_atjaro_eloter_nappali",
+   "regi": [
+    7.4,
+    3.94,
+    2.1,
+    8.55,
+    4.04,
+    2.9
+   ],
+   "uj": [
+    7.3,
+    3.95,
+    2.1,
+    8.45,
+    4.05,
+    2.9
+   ],
+   "statusz": "ELŐZETES / MÉRENDŐ",
+   "bizonyitek": "átjáró x 7,30–8,35 a terv szerint; a 2,10-es szemöldök a v1 brosúrából – NEM igazolt"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Fal_kozlekedo_wc_v2b",
+   "regi": null,
+   "uj": [
+    5.2,
+    2.75,
+    0.0,
+    5.3,
+    4.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 5,199 / 5,299 (y 2,75–4,05) – közlekedő|WC fal; a WC É-i része 1,30 széles (méretszám)"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Akna_WC_gepeszet_b_v2b",
+   "regi": null,
+   "uj": [
+    6.45,
+    3.25,
+    0.0,
+    6.6,
+    3.95,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 6,449, H 3,249 – a WC L-alakja (ÉK-i sarok)"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Fal_szekrenyfulke_E_v2b",
+   "regi": null,
+   "uj": [
+    8.35,
+    2.25,
+    0.0,
+    9.05,
+    2.35,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 2,249 / 2,349 (x 8,35–9,05) – az előtéri fülke É-i fala"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Fal_konyha_K_csonk_v2b",
+   "regi": null,
+   "uj": [
+    10.55,
+    4.1,
+    0.0,
+    10.85,
+    5.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 10,549 / 10,849, H 4,099 / 5,049 – gépészeti csonk + szerelt GK technikai fal (elszívó)"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Fal_nappali_05_3_v2b_0",
+   "regi": null,
+   "uj": [
+    10.75,
+    5.05,
+    0.0,
+    10.85,
+    6.05,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "V 10,749 / 10,849 (y 5,06–6,05)"
+  },
+  {
+   "tipus": "új fal",
+   "nev": "Fal_06_2_D_v2b",
+   "regi": null,
+   "uj": [
+    14.375,
+    5.1,
+    0.0,
+    15.0,
+    5.2,
+    2.9
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "H 5,099 / 5,199 – 06.2 D-i fala = a 05.3 DK-i fülke É-i fala"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_1_tok_b",
+   "regi": [
+    2.63,
+    3.94,
+    0.0,
+    2.66,
+    4.04,
+    2.1
+   ],
+   "uj": [
+    2.594,
+    3.95,
+    0,
+    2.624,
+    4.05,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,594–3,494 (−3,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_1_tok_j",
+   "regi": [
+    3.5,
+    3.94,
+    0.0,
+    3.53,
+    4.04,
+    2.1
+   ],
+   "uj": [
+    3.464,
+    3.95,
+    0,
+    3.494,
+    4.05,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,594–3,494 (−3,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_1_tok_f",
+   "regi": [
+    2.63,
+    3.94,
+    2.07,
+    3.53,
+    4.04,
+    2.1
+   ],
+   "uj": [
+    2.594,
+    3.95,
+    2.07,
+    3.494,
+    4.05,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,594–3,494 (−3,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_1_lap",
+   "regi": [
+    2.66,
+    3.97,
+    0.0,
+    3.5,
+    4.01,
+    2.08
+   ],
+   "uj": [
+    2.624,
+    3.98,
+    0,
+    3.464,
+    4.02,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,594–3,494 (−3,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_2_tok_b",
+   "regi": [
+    2.63,
+    2.55,
+    0.0,
+    2.66,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    2.674,
+    2.65,
+    0,
+    2.704,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,674–3,574 (+4,4 cm), fal +10 cm"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_2_tok_j",
+   "regi": [
+    3.5,
+    2.55,
+    0.0,
+    3.53,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    3.544,
+    2.65,
+    0,
+    3.574,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,674–3,574 (+4,4 cm), fal +10 cm"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_2_tok_f",
+   "regi": [
+    2.63,
+    2.55,
+    2.07,
+    3.53,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    2.674,
+    2.65,
+    2.07,
+    3.574,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,674–3,574 (+4,4 cm), fal +10 cm"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_2_lap",
+   "regi": [
+    2.66,
+    2.58,
+    0.0,
+    3.5,
+    2.62,
+    2.08
+   ],
+   "uj": [
+    2.704,
+    2.68,
+    0,
+    3.544,
+    2.72,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 2,674–3,574 (+4,4 cm), fal +10 cm"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_furdo_06_1_tok_b",
+   "regi": [
+    3.95,
+    2.55,
+    0.0,
+    3.98,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    3.824,
+    2.65,
+    0,
+    3.854,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 3,824–4,574 (−12,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_furdo_06_1_tok_j",
+   "regi": [
+    4.67,
+    2.55,
+    0.0,
+    4.7,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    4.544,
+    2.65,
+    0,
+    4.574,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 3,824–4,574 (−12,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_furdo_06_1_tok_f",
+   "regi": [
+    3.95,
+    2.55,
+    2.07,
+    4.7,
+    2.65,
+    2.1
+   ],
+   "uj": [
+    3.824,
+    2.65,
+    2.07,
+    4.574,
+    2.75,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 3,824–4,574 (−12,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_furdo_06_1_lap",
+   "regi": [
+    3.98,
+    2.58,
+    0.0,
+    4.67,
+    2.62,
+    2.08
+   ],
+   "uj": [
+    3.854,
+    2.68,
+    0,
+    4.544,
+    2.72,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 3,824–4,574 (−12,6 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_WC_tok_b",
+   "regi": [
+    5.7,
+    1.95,
+    0.0,
+    5.73,
+    2.05,
+    2.1
+   ],
+   "uj": [
+    5.774,
+    2.0,
+    0,
+    5.804,
+    2.1,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 5,774–6,524 (+7,4 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_WC_tok_j",
+   "regi": [
+    6.42,
+    1.95,
+    0.0,
+    6.45,
+    2.05,
+    2.1
+   ],
+   "uj": [
+    6.494,
+    2.0,
+    0,
+    6.524,
+    2.1,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 5,774–6,524 (+7,4 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_WC_tok_f",
+   "regi": [
+    5.7,
+    1.95,
+    2.07,
+    6.45,
+    2.05,
+    2.1
+   ],
+   "uj": [
+    5.774,
+    2.0,
+    2.07,
+    6.524,
+    2.1,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 5,774–6,524 (+7,4 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_WC_lap",
+   "regi": [
+    5.73,
+    1.98,
+    0.0,
+    6.42,
+    2.02,
+    2.08
+   ],
+   "uj": [
+    5.804,
+    2.03,
+    0,
+    6.494,
+    2.07,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 5,774–6,524 (+7,4 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_bejarat_tok_b",
+   "regi": [
+    7.3,
+    0.35,
+    0.0,
+    7.33,
+    0.65,
+    2.1
+   ],
+   "uj": [
+    7.3,
+    0.6,
+    0,
+    7.33,
+    0.85,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 7,299–8,349 (egyezik), fal y 0,60–0,85 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_bejarat_tok_j",
+   "regi": [
+    8.32,
+    0.35,
+    0.0,
+    8.35,
+    0.65,
+    2.1
+   ],
+   "uj": [
+    8.32,
+    0.6,
+    0,
+    8.35,
+    0.85,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 7,299–8,349 (egyezik), fal y 0,60–0,85 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_bejarat_tok_f",
+   "regi": [
+    7.3,
+    0.35,
+    2.07,
+    8.35,
+    0.65,
+    2.1
+   ],
+   "uj": [
+    7.3,
+    0.6,
+    2.07,
+    8.35,
+    0.85,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 7,299–8,349 (egyezik), fal y 0,60–0,85 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_bejarat_lap",
+   "regi": [
+    7.33,
+    0.48,
+    0.0,
+    8.32,
+    0.52,
+    2.08
+   ],
+   "uj": [
+    7.33,
+    0.705,
+    0,
+    8.32,
+    0.745,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok x 7,299–8,349 (egyezik), fal y 0,60–0,85 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_3_tok_b",
+   "regi": [
+    10.64,
+    6.1,
+    0.0,
+    10.9,
+    6.13,
+    2.1
+   ],
+   "uj": [
+    10.75,
+    6.05,
+    0,
+    10.85,
+    6.08,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,049–6,949 (−5 cm), fal 10,75–10,85"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_3_tok_j",
+   "regi": [
+    10.64,
+    6.97,
+    0.0,
+    10.9,
+    7.0,
+    2.1
+   ],
+   "uj": [
+    10.75,
+    6.92,
+    0,
+    10.85,
+    6.95,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,049–6,949 (−5 cm), fal 10,75–10,85"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_3_tok_f",
+   "regi": [
+    10.64,
+    6.1,
+    2.07,
+    10.9,
+    7.0,
+    2.1
+   ],
+   "uj": [
+    10.75,
+    6.05,
+    2.07,
+    10.85,
+    6.95,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,049–6,949 (−5 cm), fal 10,75–10,85"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_05_3_lap",
+   "regi": [
+    10.75,
+    6.13,
+    0.0,
+    10.79,
+    6.97,
+    2.08
+   ],
+   "uj": [
+    10.78,
+    6.08,
+    0,
+    10.82,
+    6.92,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,049–6,949 (−5 cm), fal 10,75–10,85"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_06_2_tok_b",
+   "regi": [
+    14.5,
+    6.05,
+    0.0,
+    14.6,
+    6.08,
+    2.1
+   ],
+   "uj": [
+    14.375,
+    6.3,
+    0,
+    14.475,
+    6.33,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,299–7,049 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_06_2_tok_j",
+   "regi": [
+    14.5,
+    6.77,
+    0.0,
+    14.6,
+    6.8,
+    2.1
+   ],
+   "uj": [
+    14.375,
+    7.02,
+    0,
+    14.475,
+    7.05,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,299–7,049 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_06_2_tok_f",
+   "regi": [
+    14.5,
+    6.05,
+    2.07,
+    14.6,
+    6.8,
+    2.1
+   ],
+   "uj": [
+    14.375,
+    6.3,
+    2.07,
+    14.475,
+    7.05,
+    2.1
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,299–7,049 (+25 cm)"
+  },
+  {
+   "tipus": "ajtó",
+   "nev": "Ajto_06_2_lap",
+   "regi": [
+    14.53,
+    6.08,
+    0.0,
+    14.57,
+    6.77,
+    2.08
+   ],
+   "uj": [
+    14.405,
+    6.33,
+    0,
+    14.445,
+    7.02,
+    2.08
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok y 6,299–7,049 (+25 cm)"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_also",
+   "regi": [
+    4.5,
+    8.09,
+    0.0,
+    9.0,
+    8.15,
+    0.05
+   ],
+   "uj": [
+    4.44,
+    8.21,
+    0,
+    8.94,
+    8.33,
+    0.05
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_felso",
+   "regi": [
+    4.5,
+    8.09,
+    2.5,
+    9.0,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    4.44,
+    8.21,
+    2.48,
+    8.94,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_uveg",
+   "regi": [
+    4.5,
+    8.1,
+    0.02,
+    9.0,
+    8.14,
+    2.52
+   ],
+   "uj": [
+    4.44,
+    8.25,
+    0.02,
+    8.94,
+    8.29,
+    2.5
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_profil0",
+   "regi": [
+    4.47,
+    8.09,
+    0.0,
+    4.53,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    4.41,
+    8.21,
+    0,
+    4.47,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_profil3",
+   "regi": [
+    8.97,
+    8.09,
+    0.0,
+    9.03,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    8.91,
+    8.21,
+    0,
+    8.97,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_profil1",
+   "regi": [
+    5.97,
+    8.09,
+    0.0,
+    6.03,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    6.227,
+    8.21,
+    0,
+    6.287,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_nappali_terasz_profil2",
+   "regi": [
+    7.47,
+    8.09,
+    0.0,
+    7.53,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    7.919,
+    8.21,
+    0,
+    7.979,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,44–8,939 (4,50 ✓), osztók 6,217–6,297 és 7,909–7,989, tolóajtó (nyíl); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_also",
+   "regi": [
+    12.2,
+    8.09,
+    0.0,
+    14.0,
+    8.15,
+    0.05
+   ],
+   "uj": [
+    12.06,
+    8.21,
+    0,
+    13.86,
+    8.33,
+    0.05
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_felso",
+   "regi": [
+    12.2,
+    8.09,
+    2.5,
+    14.0,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    12.06,
+    8.21,
+    2.48,
+    13.86,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_uveg",
+   "regi": [
+    12.2,
+    8.1,
+    0.02,
+    14.0,
+    8.14,
+    2.52
+   ],
+   "uj": [
+    12.06,
+    8.25,
+    0.02,
+    13.86,
+    8.29,
+    2.5
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_profil0",
+   "regi": [
+    12.17,
+    8.09,
+    0.0,
+    12.23,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    12.03,
+    8.21,
+    0,
+    12.09,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_profil2",
+   "regi": [
+    13.97,
+    8.09,
+    0.0,
+    14.03,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    13.83,
+    8.21,
+    0,
+    13.89,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_3_terasz_profil1",
+   "regi": [
+    13.07,
+    8.09,
+    0.0,
+    13.13,
+    8.15,
+    2.55
+   ],
+   "uj": [
+    12.905,
+    8.21,
+    0,
+    12.965,
+    8.33,
+    2.53
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 12,06–13,859 (1,80 ✓), osztó ~12,86–13,03, nyíló szárny (nyitásív); 2,53"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_also",
+   "regi": [
+    -0.18,
+    4.25,
+    0.0,
+    -0.12,
+    7.9,
+    0.05
+   ],
+   "uj": [
+    -0.28,
+    4.28,
+    0,
+    -0.2,
+    7.92,
+    0.05
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_felso",
+   "regi": [
+    -0.18,
+    4.25,
+    2.5,
+    -0.12,
+    7.9,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    4.28,
+    2.52,
+    -0.2,
+    7.92,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_uveg",
+   "regi": [
+    -0.17,
+    4.25,
+    0.02,
+    -0.13,
+    7.9,
+    2.52
+   ],
+   "uj": [
+    -0.254,
+    4.28,
+    0.02,
+    -0.226,
+    7.92,
+    2.54
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_profil0",
+   "regi": [
+    -0.18,
+    4.22,
+    0.0,
+    -0.12,
+    4.28,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    4.25,
+    0,
+    -0.2,
+    4.31,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_profil2",
+   "regi": [
+    -0.18,
+    7.87,
+    0.0,
+    -0.12,
+    7.93,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    7.89,
+    0,
+    -0.2,
+    7.95,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Uvegfal_05_1_erkely_profil1",
+   "regi": [
+    -0.18,
+    6.045,
+    0.0,
+    -0.12,
+    6.105,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    5.154,
+    0,
+    -0.2,
+    5.214,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "új osztó",
+   "nev": "Uvegfal_05_1_erkely_profil_v2b_5184",
+   "regi": null,
+   "uj": [
+    -0.28,
+    6.054,
+    0,
+    -0.2,
+    6.114,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 4,274–7,924 (3,65 ✓), osztók 5,124–5,244 és 6,024–6,144, nyíló szárny D-en; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Erkelyajto_05_2_also",
+   "regi": [
+    -0.18,
+    0.05,
+    0.0,
+    -0.12,
+    1.93,
+    0.05
+   ],
+   "uj": [
+    -0.28,
+    0.06,
+    0,
+    -0.2,
+    1.94,
+    0.05
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Erkelyajto_05_2_felso",
+   "regi": [
+    -0.18,
+    0.05,
+    2.5,
+    -0.12,
+    1.93,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    0.06,
+    2.52,
+    -0.2,
+    1.94,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Erkelyajto_05_2_uveg",
+   "regi": [
+    -0.17,
+    0.05,
+    0.02,
+    -0.13,
+    1.93,
+    2.52
+   ],
+   "uj": [
+    -0.254,
+    0.06,
+    0.02,
+    -0.226,
+    1.94,
+    2.54
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Erkelyajto_05_2_profil0",
+   "regi": [
+    -0.18,
+    0.02,
+    0.0,
+    -0.12,
+    0.08,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    0.03,
+    0,
+    -0.2,
+    0.09,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "üvegfal",
+   "nev": "Erkelyajto_05_2_profil1",
+   "regi": [
+    -0.18,
+    1.9,
+    0.0,
+    -0.12,
+    1.96,
+    2.55
+   ],
+   "uj": [
+    -0.28,
+    1.91,
+    0,
+    -0.2,
+    1.97,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "új osztó",
+   "nev": "Erkelyajto_05_2_profil_v2b_1029",
+   "regi": null,
+   "uj": [
+    -0.28,
+    0.999,
+    0,
+    -0.2,
+    1.059,
+    2.57
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "tok 0,059–1,939 (1,88 ✓), osztó 0,969–1,089, nyíló szárny É-on; 2,57"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_05_1",
+   "regi": [
+    0.0,
+    3.45,
+    -0.02,
+    3.62,
+    7.97,
+    0.0
+   ],
+   "uj": [
+    0.0,
+    3.45,
+    -0.02,
+    3.57,
+    8.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_05_1_eszaki",
+   "regi": [
+    0.0,
+    7.97,
+    -0.02,
+    2.95,
+    8.95,
+    0.0
+   ],
+   "uj": [
+    0.0,
+    8.05,
+    -0.02,
+    3.02,
+    8.95,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_05_2",
+   "regi": [
+    0.0,
+    0.0,
+    -0.02,
+    3.62,
+    2.55,
+    0.0
+   ],
+   "uj": [
+    0.0,
+    0.0,
+    -0.02,
+    3.65,
+    2.65,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_05_2_gardrob",
+   "regi": [
+    0.0,
+    2.55,
+    -0.02,
+    2.42,
+    3.35,
+    0.0
+   ],
+   "uj": [
+    0.0,
+    2.65,
+    -0.02,
+    2.42,
+    3.35,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_05_3",
+   "regi": [
+    11.0,
+    4.04,
+    -0.02,
+    14.5,
+    7.97,
+    0.0
+   ],
+   "uj": [
+    10.85,
+    4.1,
+    -0.02,
+    14.375,
+    8.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_eloszoba_kozlekedo",
+   "regi": [
+    2.52,
+    2.65,
+    -0.02,
+    5.45,
+    4.04,
+    0.0
+   ],
+   "uj": [
+    2.52,
+    2.75,
+    -0.02,
+    5.2,
+    4.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_eloter",
+   "regi": [
+    5.55,
+    0.0,
+    -0.02,
+    8.45,
+    1.95,
+    0.0
+   ],
+   "uj": [
+    5.6,
+    0.0,
+    -0.02,
+    6.7,
+    2.0,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_eloter_atjaro",
+   "regi": [
+    7.4,
+    1.95,
+    -0.02,
+    8.45,
+    4.04,
+    0.0
+   ],
+   "uj": [
+    7.3,
+    2.0,
+    -0.02,
+    8.35,
+    4.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_furdo_06_1",
+   "regi": [
+    3.72,
+    0.0,
+    -0.02,
+    5.45,
+    2.55,
+    0.0
+   ],
+   "uj": [
+    3.75,
+    0.0,
+    -0.02,
+    5.5,
+    2.65,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_furdo_06_2",
+   "regi": [
+    14.6,
+    5.13,
+    -0.02,
+    16.5,
+    7.97,
+    0.0
+   ],
+   "uj": [
+    14.475,
+    5.2,
+    -0.02,
+    16.4,
+    8.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_konyha",
+   "regi": [
+    8.55,
+    1.3,
+    -0.02,
+    10.64,
+    5.15,
+    0.0
+   ],
+   "uj": [
+    8.45,
+    1.35,
+    -0.02,
+    10.55,
+    4.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_nappali_etkezo",
+   "regi": [
+    3.72,
+    4.04,
+    -0.02,
+    10.64,
+    7.97,
+    0.0
+   ],
+   "uj": [
+    3.67,
+    4.05,
+    -0.02,
+    10.75,
+    8.05,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "padló",
+   "nev": "P_wc",
+   "regi": [
+    5.55,
+    2.05,
+    -0.02,
+    6.6,
+    3.94,
+    0.0
+   ],
+   "uj": [
+    5.6,
+    2.1,
+    -0.02,
+    6.6,
+    3.95,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "helyiség a tervi falsíkok között"
+  },
+  {
+   "tipus": "új padló",
+   "nev": "P_eloter_b_v2b",
+   "regi": null,
+   "uj": [
+    6.7,
+    0.85,
+    -0.02,
+    8.35,
+    2.0,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "előtér K-i része (a bejárati fal mögött)"
+  },
+  {
+   "tipus": "új padló",
+   "nev": "P_eloter_fulke_v2b",
+   "regi": null,
+   "uj": [
+    8.35,
+    1.35,
+    -0.02,
+    8.95,
+    2.25,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "előtéri fülke (a tömör „szekrénytömb” helyén; funkció ELŐZETES)"
+  },
+  {
+   "tipus": "új padló",
+   "nev": "P_05_3_fulke_v2b",
+   "regi": null,
+   "uj": [
+    14.375,
+    4.1,
+    -0.02,
+    15.0,
+    5.1,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "05.3 DK-i fülke"
+  },
+  {
+   "tipus": "új padló",
+   "nev": "P_wc_b_v2b",
+   "regi": null,
+   "uj": [
+    5.3,
+    2.75,
+    -0.02,
+    5.6,
+    3.95,
+    0.0
+   ],
+   "statusz": "TERV SZERINT IGAZOLT",
+   "bizonyitek": "WC É-i része 1,30 széles (L-alak)"
+  }
+ ],
+ "anyagok": [
+  {
+   "objektum": "Uvegfal_nappali_terasz_profil0",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_nappali_terasz_profil1",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_nappali_terasz_profil2",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_nappali_terasz_profil3",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_nappali_terasz_also",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_nappali_terasz_felso",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_3_terasz_profil0",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_3_terasz_profil1",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_3_terasz_profil2",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_3_terasz_also",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_3_terasz_felso",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_profil0",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_profil1",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_profil2",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_also",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_felso",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Erkelyajto_05_2_profil0",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Erkelyajto_05_2_profil1",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Erkelyajto_05_2_also",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Erkelyajto_05_2_felso",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Ajto_05_1_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_05_1_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_1_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_1_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_2_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_05_2_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_2_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_2_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_furdo_06_1_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_furdo_06_1_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_furdo_06_1_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_furdo_06_1_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_WC_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_WC_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_WC_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_WC_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_bejarat_lap",
+   "valtozas": "bejárati ajtó belül fehér"
+  },
+  {
+   "objektum": "Ajto_bejarat_tok_b",
+   "valtozas": "bejárati ajtó belül fehér"
+  },
+  {
+   "objektum": "Ajto_bejarat_tok_j",
+   "valtozas": "bejárati ajtó belül fehér"
+  },
+  {
+   "objektum": "Ajto_bejarat_tok_f",
+   "valtozas": "bejárati ajtó belül fehér"
+  },
+  {
+   "objektum": "Ajto_05_3_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_05_3_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_3_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_05_3_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_06_2_lap",
+   "valtozas": "világosszürke ajtólap"
+  },
+  {
+   "objektum": "Ajto_06_2_tok_b",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_06_2_tok_j",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Ajto_06_2_tok_f",
+   "valtozas": "szürke tok"
+  },
+  {
+   "objektum": "Uvegfal_05_1_erkely_profil_v2b_5184",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Erkelyajto_05_2_profil_v2b_1029",
+   "valtozas": "belül fehér profil"
+  },
+  {
+   "objektum": "Fal_feher",
+   "valtozas": "semleges fehér (régi (0.93, 0.92, 0.9))"
+  },
+  {
+   "objektum": "Plafon_feher",
+   "valtozas": "semleges fehér (régi (0.96, 0.96, 0.95))"
+  },
+  {
+   "objektum": "v2_parketta_GreyTreviso_EL2184_foto",
+   "valtozas": "szürkésbarna tónus a ME-BAL-080 fotóhoz (deszkaminta NINCS modellezve)"
+  }
+ ]
+}
