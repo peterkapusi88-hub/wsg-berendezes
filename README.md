@@ -28,3 +28,12 @@ Westside Grand A-811 / A-812 / A-902 berendezési projekt – a közös „igazs
 
 ## Szabály
 Ami ide kerül, az a hivatalos állapot. Ha egy AI más számmal dolgozik, a `GOAL.md` és a `06_koncepcio/` az irányadó. Személyes adat (leadek, szerződések, e-mailek) nem kerül ide.
+
+
+## Kötelező kezdés – friss AI együttműködési útmutató (2026-10-24)
+
+**[AI_START_HERE.md](AI_START_HERE.md)** – hogyan töltse be a ChatGPT Work, a Codex és Claude a GitHub legfrissebb projektállapotát, és hogyan adják át a feladatokat.
+
+**[WSG értékalapú stíluslabor](07_skill/wsg-ertekalapu-stiluslabor/SKILL.md)** – közös filozófia: akár 10+ stílus összevetése azonos költségkerettel; elképesztően drágának ható, ízléses, de ténylegesen megépíthető luxus; termékalapú és asztalos-ajánlatokkal igazolt render.
+
+Codex saját, automatikusan felfedezhető belépési skill: `.agents/skills/wsg-stiluslabor/SKILL.md`. A kanonikus teljes szabályrendszer a `07_skill/` alatt van.
