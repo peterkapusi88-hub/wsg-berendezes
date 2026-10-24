@@ -1,4 +1,4 @@
-# Állapotfelmérési ellenőrzőlista – A-811 · A-812 · A-902 (v1, 2026-10-24)
+# Állapotfelmérési ellenőrzőlista – A-811 · A-812 · A-902 (v1, 2026-10-24; az A-811/A-812 Blender-modell feltételezéseivel kiegészítve 15:50)
 
 **Prioritás:**
 - **P1** = tervezést blokkol. Nélküle nincs végleges Blender, költség vagy render.
@@ -48,6 +48,10 @@
 | C5 | 08 WC, 09 HTH | bidés ülőke kiállás; a HTH-ban szárító dugalj a mosó fölött | P2 |
 | C6 | Belmagasság | ~~nincs adat~~ → **2,69–2,72 m mérve** (Kémeri, 2026-10-21); csak 1–2 kontrollmérés | P3 |
 | C7 | Erkély | 14,30 m², greslap; kilátás-fotó | P2 |
+| C8 | **Erkély – a modell feltételezései** | lézer: belső padló → greslap szintkülönbség (a modell −15 cm-t feltételez); korlát típusa (pálcás, üveg?) és magassága (a modell 1,10 m-t); a felső végen az A-812 felőli osztó (a rajzon sraffozott, ~8 cm) anyaga és magassága; az erkélylemez széle (rajz: x −2,035) | P1 |
+| C9 | **Nappali üvegfal** | az osztás a terv szerint: egyszárnyú erkélyajtó, beton oszlop (y 7,69–7,85, az üvegfal síkjában), fix mező, kétszárnyú erkélyajtó. A szárnyak nyitásiránya és a tok színe | P1 |
+| C10 | **Lámpakiállás a hűtő-fűtő mezőben** | ML02–ML07 és ML09 (konyha, nappali, mindkét háló, gardrób) a mezőn belül van. Hőkamerával fűtési üzemben: csőmentes-e a kiállás körüli sáv; van-e rögzítési pont a dobozban | P1 |
+| C11 | Előtér, fürdők | álmennyezet kiterjedése és magassága (a rajzon csak a WC-ben: +2,40); az „EL4” elosztó (~1,0 × 0,12 m beépítés a konyha felőli falon); a fürdők előtétfalának mélysége (a terv m²-e ennyivel kisebb) | P2 |
 
 ## D. A-812 – vevői módosításokkal (102,05 m², erkély 7,04 m², Grey Soria Oak)
 | # | Hely | Mit | P |
@@ -59,6 +63,11 @@
 | D5 | Nappali–étkező–konyha | 7,22 m-es nappaliméret, 5,80 / 5,60 / 4,70; konyha 2,45 × 2,80, MG-hely | P1 |
 | D6 | Közlekedő | a gardróbrészben nincs gipszkarton álmennyezet (2026-04-28-i korrekció) | P3 |
 | D7 | Belmagasság | ~~nincs adat~~ → **2,69–2,73 m mérve** (Kémeri); csak kontroll | P3 |
+| D8 | **Hálók padlóig érő nyíló ablakai** (05.1, 05.2, 05.3) | van-e francia erkély korlátja (a rajzon nincs); a szárnyak nyitásmódja (a rajzon 45°-os ablakjel); a tok és a mellvéd | P1 |
+| D9 | **Lámpakiállás a hűtő-fűtő mezőben** | ML03–ML08, ML17, ML18 (nappali-étkező, mindhárom háló, gardróbok) – hőkamerás ellenőrzés, mint C10 | P1 |
+| D10 | **Erkély – a modell feltételezései** | szint (a modell −15 cm), korlát, az A-811 felőli osztó; a bal szél helye (a 12. oldalon nincs kirajzolva, a modell x −2,035-öt feltételez) | P1 |
+| D11 | Előtér, konyha, közlekedő | álmennyezet: előtér +2,50, konyhasarok +2,45 (rajz) – kiterjedés; a közlekedő bejáratánál (y ≈ 4,75) a rajz piros kettős vonala: tolóajtó, küszöb vagy más? | P2 |
+| D12 | Fürdők | 06.2 a 2,29⁵-ös méretszám az előtétfalig mér – az előtétfal mélysége; 08/09 a beépített sarokkád mérete | P2 |
 
 ## D/2. Közös – kültéri rendeléshez
 | # | Mit | P |
