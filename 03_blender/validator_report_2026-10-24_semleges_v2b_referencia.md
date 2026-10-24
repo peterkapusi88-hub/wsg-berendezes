@@ -41,6 +41,8 @@
 - A Cam_04 referencia-renderen erre az egy kamerára rejtve van. Javítás a tetőkert-modellben kell: a mellvéd ennél az x-nél legfeljebb y ≈ 9,25-ig tarthat.
 - Javasolt új Validator-ellenőrzés: „terasz ↔ helyiség- és falátfedés”.
 
+> **Javítás (draft, 2026-10-24 17:20):** a mellvéd-átfedést és a két homlokzati rést a v2b-1 lock javítja: `validator_report_2026-10-24_v2b1_lockjavitas.md`.
+
 **Két rés a homlokzaton a v2b-javítás után – a Validator nem jelzi.**
 
 Új, csak olvasó ellenőrzés: `03_blender/geometry_v2/burok_zartsag_ellenorzes.py`. 1 cm-es rácson, 0,3 / 1,5 / 2,6 m magasságban elárasztja a falakon és nyílászárókon kívüli teret; a 4 cm alatti rés zártnak számít.
