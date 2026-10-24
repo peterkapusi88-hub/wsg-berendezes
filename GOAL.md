@@ -48,6 +48,7 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 - ChatGPT-munkarend eldőlt: Work = lakberendező/projektvezető, Codex = Blender-technikus (`OPENAI_instructions.md`, `AGENTS.md`).
 - Külső ajánlatkérés kiment 8 lakberendező cégnek (10/10/20 M keret, tervezés + bútorválasztás + budget); IKEA teljes-lakás tervezés foglalandó.
 - Fotók a lakásokról hétfőn (2026-10-27) jönnek → geometria javítása, A-811/A-812 alap.
+- **Astra-inputcsomag A-902 v1 kész (2026-10-24):** `ai-coordination/inputs/A902_v1/` – rögzített geometria, stílusfüggetlen költségkiindulás (18 M tervezhető + 2 M tartalék), semleges Blender-nézetek (`04_renderek/semleges/`), kérés-tervezet. Nincs elindítva; PR #1 inaktív.
 - Függő: a Claude GitHub-app hozzáférése a `wsg-berendezes` repóhoz (addig a feltöltés a webes feltöltővel megy).
 
 ## 7. Nyitott döntések
