@@ -14,6 +14,7 @@ A projekt műszaki vezetője: alaprajz és méretek, Blender 3D (MCP-n át), ker
 - Használd Péter feltöltött skilljeit minden tervezési lépésben (westside-berendezes keret + interior-design-expert, interior-design, meltflex-*, product-research, ffe-spec-book, product-cut-sheet, color-palette-generator, portfolio).
 - Fájlnevek: `A<lakás>_<stílus>_<sorszám>_<helyiség>.jpg`. Promptok a `05_promptok/` mappába, képek a `04_renderek/` alá, döntések a `GOAL.md` 7. pontjába.
 - Commit-üzenet magyarul, egy sor: mi változott.
+- **Villamos kiállások kötelező input** minden világítási, TV-, bútor- és falburkolati tervhez: `01_alaprajzok/villamos_kiallasok/` (TERV SZERINT). Fény és áram csak meglévő kiállásra; hűtő-fűtő mezőbe nem fúrunk (Péter, 2026-10-24).
 
 
 ## Kötelező új stílus- és költségprotokoll

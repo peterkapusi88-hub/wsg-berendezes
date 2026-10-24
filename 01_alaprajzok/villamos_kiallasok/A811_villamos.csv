@@ -1,0 +1,115 @@
+azonosito,tipus,helyiseg,aramkor,kod,x_m,y_m,doboz_x_m,doboz_y_m,magassag_m,statusz,forras,megjegyzes
+A811-ML01,mennyezeti_lampakiallas,01 ELŐTÉR,a,,7.26,7.276,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML02,mennyezeti_lampakiallas,02 KONYHA,c,,6.91,10.05,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML03,mennyezeti_lampakiallas,03-04 ÉTKEZŐ-NAPPALI,"e,f",,2.21,8.95,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML04,mennyezeti_lampakiallas,03-04 ÉTKEZŐ-NAPPALI,g,,5.27,8.95,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML05,mennyezeti_lampakiallas,05.1 SZOBA,n,,1.91,1.35,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML06,mennyezeti_lampakiallas,05.2-3 SZOBA,m,,1.615,5.2,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML07,mennyezeti_lampakiallas,05.2-3 SZOBA,m,,1.615,3.325,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML08,mennyezeti_lampakiallas,05.2-3 SZOBA,l,,4.17,3.325,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML09,mennyezeti_lampakiallas,05.2-3 SZOBA (gardrób),l,,4.17,5.2,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML10,mennyezeti_lampakiallas,06.1 FÜRDŐ,s,,7.26,1.25,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML11,mennyezeti_lampakiallas,06.2 FÜRDŐ,u,,7.26,3.675,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML12,mennyezeti_lampakiallas,07 KÖZLEKEDŐ,h,,5.645,7.276,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML13,mennyezeti_lampakiallas,07 KÖZLEKEDŐ,h,,5.645,5.076,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML14,mennyezeti_lampakiallas,07 KÖZLEKEDŐ,h,,5.645,2.875,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML15,mennyezeti_lampakiallas,08 WC,b,,7.775,5.925,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-ML16,mennyezeti_lampakiallas,09 HTH,r,,5.645,0.75,,,mennyezet,TERV SZERINT,5. o. (dosszié 150),
+A811-FL01,fali_lampakiallas,02 KONYHA,d,,8.235,10.076,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-FL02,fali_lampakiallas,03-04 ÉTKEZŐ-NAPPALI,,,0.3,11.535,,,2.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=2.65m
+A811-FL03,fali_lampakiallas,06.1 FÜRDŐ,t,,8.235,2.02,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-FL04,fali_lampakiallas,06.2 FÜRDŐ,v,,6.81,4.66,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-FL05,fali_lampakiallas,10 ERKÉLY,k,,-0.465,8.615,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-FL06,fali_lampakiallas,10 ERKÉLY,p,,-0.465,2.85,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-K01,kapcsolo,01 ELŐTÉR,"a,h",,7.307,7.086,7.307,6.7,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K02,kapcsolo,01 ELŐTÉR,b,,7.307,6.874,7.307,6.7,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K03,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,g,,4.6,11.367,4.6,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-K04,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,k,,0.225,10.59,0.015,10.59,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K05,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,"e,f",,0.474,10.59,0.015,10.59,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K06,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,"e,f",,4.97,7.255,4.97,6.65,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K07,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,"c,d",,4.97,7.047,4.97,6.65,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K08,kapcsolo,03-04 ÉTKEZŐ-NAPPALI,g,,4.97,6.926,4.97,6.65,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K09,kapcsolo,05.1 SZOBA,p,,0.3,2.417,0.3,2.685,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K10,kapcsolo,05.2-3 SZOBA,m,,0.733,6.428,0.66,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-K11,kapcsolo,05.2-3 SZOBA,m,,2.607,6.428,2.68,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-K12,kapcsolo,05.2-3 SZOBA,p,,0.15,2.958,0.15,2.825,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-K13,kapcsolo,05.2-3 SZOBA (gardrób),m,,4.571,3.925,5.005,3.925,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K14,kapcsolo,05.2-3 SZOBA (gardrób),l,,4.796,3.925,5.005,3.925,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K15,kapcsolo,06.1 FÜRDŐ,"s,t",,6.413,1.525,6.304,1.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-K16,kapcsolo,07 KÖZLEKEDŐ,h,,5.793,6.55,6.155,6.551,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K17,kapcsolo,07 KÖZLEKEDŐ,a,,6.02,6.55,6.155,6.551,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K18,kapcsolo,07 KÖZLEKEDŐ,"u,v",,5.904,3.376,6.155,3.376,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K19,kapcsolo,07 KÖZLEKEDŐ,h,,5.27,2.738,5.144,2.738,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-K20,kapcsolo,07 KÖZLEKEDŐ,n,,4.82,1.842,4.82,1.615,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-K21,kapcsolo,09 HTH,r,,5.942,1.35,6.15,1.351,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D01,dugalj,01 ELŐTÉR,,,6.95,8.275,6.95,8.426,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D02,dugalj,01 ELŐTÉR,,,7.307,6.847,7.307,6.7,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D03,dugalj,02 KONYHA,,H,6.3,11.375,6.3,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: hűtő
+A811-D04,dugalj,02 KONYHA,,P,7.695,11.375,7.735,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: pultdugalj
+A811-D05,dugalj,02 KONYHA,,P,7.855,11.375,7.815,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: pultdugalj
+A811-D06,dugalj,02 KONYHA,,MG,8.075,9.876,8.226,9.877,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: mosogatógép
+A811-D07,dugalj,02 KONYHA,,EL,6.745,8.981,,,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: elszívó
+A811-D08,dugalj,02 KONYHA,,P,7.562,8.725,7.601,8.574,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: pultdugalj
+A811-D09,dugalj,02 KONYHA,,P,7.722,8.725,7.681,8.574,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: pultdugalj
+A811-D10,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,0.6,11.375,0.6,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D11,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,3.2,11.375,3.2,11.526,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D12,dugalj,03-04 ÉTKEZŐ-NAPPALI,,S,5.2,11.375,5.2,11.526,1.1,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=1.10m; kód: sütő
+A811-D13,dugalj,03-04 ÉTKEZŐ-NAPPALI,,Mi,5.2,11.113,,,1.3,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=1.30m; kód: mikró
+A811-D14,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,0.175,10.59,0.015,10.59,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D15,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,1.87,6.825,1.87,6.675,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D16,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,2.07,6.825,1.95,6.675,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; a doboz-hozzárendelés bizonytalan (közös keret?)
+A811-D17,dugalj,03-04 ÉTKEZŐ-NAPPALI,,,4.97,6.825,4.97,6.65,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D18,dugalj,05.1 SZOBA,,,0.3,2.525,0.3,2.685,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D19,dugalj,05.1 SZOBA,,,1.79,2.525,1.74,2.677,1.2,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=1.20m
+A811-D20,dugalj,05.1 SZOBA,,,4.245,0.8,4.396,0.8,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D21,dugalj,05.1 SZOBA,,,0.64,0.175,0.68,0.025,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D22,dugalj,05.1 SZOBA,,,0.8,0.175,0.76,0.025,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D23,dugalj,05.1 SZOBA,,,2.91,0.175,2.95,0.025,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D24,dugalj,05.1 SZOBA,,,3.07,0.175,3.03,0.025,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D25,dugalj,05.2-3 SZOBA,,,0.415,6.375,0.5,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D26,dugalj,05.2-3 SZOBA,,,0.58,6.375,0.58,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D27,dugalj,05.2-3 SZOBA,,,2.76,6.375,2.76,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D28,dugalj,05.2-3 SZOBA,,,2.925,6.375,2.84,6.526,0.65,TERV SZERINT,5. o. (dosszié 150),magasság a rajzról: m=0.65m
+A811-D29,dugalj,05.2-3 SZOBA,,,1.96,2.975,2.01,2.825,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D30,dugalj,05.2-3 SZOBA (gardrób),,,4.845,4.375,4.996,4.375,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D31,dugalj,05.2-3 SZOBA (gardrób),,,3.495,4.15,3.344,4.15,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-D32,dugalj,05.2-3 SZOBA (gardrób),,,4.845,3.925,5.005,3.925,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D33,dugalj,06.1 FÜRDŐ,,B,7.925,1.57,,,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
+A811-D34,dugalj,06.1 FÜRDŐ,,B,8.075,1.57,8.216,1.571,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
+A811-D35,dugalj,06.1 FÜRDŐ,,TSZ,6.633,1.525,,,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: törölközőszárító
+A811-D36,dugalj,06.2 FÜRDŐ,,B,6.445,4.476,6.304,4.476,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
+A811-D37,dugalj,06.2 FÜRDŐ,,B,6.595,4.476,,,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
+A811-D38,dugalj,06.2 FÜRDŐ,,TSZ,8.046,4.215,8.241,4.215,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: törölközőszárító
+A811-D39,dugalj,07 KÖZLEKEDŐ,,,5.942,3.376,6.155,3.376,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D40,dugalj,09 HTH,,,4.82,1.775,4.82,1.615,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D41,dugalj,09 HTH,,,5.995,1.35,6.15,1.351,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
+A811-D42,dugalj,09 HTH,,SZ,5.82,0.581,,,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: szárítógép
+A811-D43,dugalj,09 HTH,,M,5.82,0.29,5.82,0.099,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon; kód: mosógép
+A811-D44,dugalj,10 ERKÉLY,,,-0.64,6.516,-0.474,6.516,,TERV SZERINT,5. o. (dosszié 150),szerelési magasság nincs a rajzon
+A811-X01,fix_bekotes,02 KONYHA,,S/F,6.745,8.718,,,,TERV SZERINT,5. o. (dosszié 150),főzőlap/sütő fix bekötés (S/F)
+A811-V01,ventilator_kiallas,06.2 FÜRDŐ,u,,7.635,4.438,,,,TERV SZERINT,5. o. (dosszié 150),elszívó ventilátor kiállása; a betű a kapcsoló áramkör
+A811-V02,ventilator_kiallas,08 WC,,,7.775,5.453,,,,TERV SZERINT,5. o. (dosszié 150),elszívó ventilátor kiállása; a betű a kapcsoló áramkör
+A811-G01,gyengearamu_aljzat,03-04 ÉTKEZŐ-NAPPALI,,1,1.61,7.035,,,,TERV SZERINT,5. o. (dosszié 150),"TV-blokk gyengeáramú aljzat (⊓ jel), kód: 1 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G02,gyengearamu_aljzat,03-04 ÉTKEZŐ-NAPPALI,,2,1.764,7.035,1.75,6.895,,TERV SZERINT,5. o. (dosszié 150),"TV-blokk gyengeáramú aljzat (⊓ jel), kód: 2 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G03,gyengearamu_aljzat,03-04 ÉTKEZŐ-NAPPALI,,3,1.976,7.035,1.99,6.895,,TERV SZERINT,5. o. (dosszié 150),"TV-blokk gyengeáramú aljzat (⊓ jel), kód: 3 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G04,gyengearamu_aljzat,03-04 ÉTKEZŐ-NAPPALI,,BK,2.145,7.035,2.06,7.008,,TERV SZERINT,5. o. (dosszié 150),"TV-blokk gyengeáramú aljzat (⊓ jel), kód: BK – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G05,gyengearamu_aljzat,05.1 SZOBA,,3,1.61,2.539,1.66,2.677,1.2,TERV SZERINT,5. o. (dosszié 150),"magasság a rajzról: m=1.20m; gyengeáramú aljzat (⊓ jel), kód: 3 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G06,gyengearamu_aljzat,05.2-3 SZOBA,,2,2.14,2.965,2.09,2.825,,TERV SZERINT,5. o. (dosszié 150),"gyengeáramú aljzat (⊓ jel), kód: 2 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
+A811-G07,antenna_tv_aljzat,03-04 ÉTKEZŐ-NAPPALI,,,1.675,6.782,1.79,6.675,,TERV SZERINT,5. o. (dosszié 150),négyzet + kör: TV/antenna aljzat (valószínű)
+A811-G08,BK_doboz,05.2-3 SZOBA (gardrób),,BK,3.436,6.25,,,,TERV SZERINT,5. o. (dosszié 150),BK jelű fali doboz – jelentése nem igazolt (gyengeáramú/média elosztó?)
+A811-S01,hangjelzo_vagy_erzekelo,03-04 ÉTKEZŐ-NAPPALI,,,4.97,7.783,4.97,6.65,,TERV SZERINT,5. o. (dosszié 150),"vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT"
+A811-R01,R_jelu_kiallas,03-04 ÉTKEZŐ-NAPPALI,,,-0.15,10.095,,,,TERV SZERINT,5. o. (dosszié 150),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
+A811-R02,R_jelu_kiallas,03-04 ÉTKEZŐ-NAPPALI,,,-0.095,8.256,,,,TERV SZERINT,5. o. (dosszié 150),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
+A811-R03,R_jelu_kiallas,03-04 ÉTKEZŐ-NAPPALI,,,-0.15,7.136,,,,TERV SZERINT,5. o. (dosszié 150),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
+A811-R04,R_jelu_kiallas,05.1 SZOBA,,,-0.15,1.371,,,,TERV SZERINT,5. o. (dosszié 150),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
+A811-R05,R_jelu_kiallas,05.2-3 SZOBA,,,-0.15,4.33,,,,TERV SZERINT,5. o. (dosszié 150),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
+A811-T01,termosztat,03-04 ÉTKEZŐ-NAPPALI,,,4.97,7.522,,,,TERV SZERINT,5. o. (dosszié 150),mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)
+A811-T02,termosztat,05.2-3 SZOBA (gardrób),,,4.372,3.925,5.005,3.925,,TERV SZERINT,5. o. (dosszié 150),vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)
+A811-T03,termosztat,07 KÖZLEKEDŐ,,,4.82,2.112,,,,TERV SZERINT,5. o. (dosszié 150),mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)
+A811-E01,lakaselosztó,01 ELŐTÉR,,EL4,8.003,8.197,,,,TERV SZERINT,5. o. (dosszié 150),
+A811-S02,kezelo_billentyuzet,01 ELŐTÉR,,,7.31,7.5,,,,TERV SZERINT,5. o. (dosszié 150),billentyűzetes kezelő az „a” kapcsoló fölött – valószínűleg riasztó-kezelő (NEM IGAZOLT)
+A811-S03,bejarati_ajto_eszkoz,01 ELŐTÉR,,,8.4,6.86,,,,TERV SZERINT,5. o. (dosszié 150),a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)
+A811-S04,EPH_csatlakozo,06.1 FÜRDŐ,,,7.47,0.37,,,,TERV SZERINT,5. o. (dosszié 150),kád melletti kör (×|||) – valószínűleg EPH (NEM IGAZOLT)
+A811-S05,kaputelefon_belteri,07 KÖZLEKEDŐ,,,5.95,6.38,,,,TERV SZERINT,5. o. (dosszié 150),"videós kaputelefon beltéri egység; fali bekötési pont (rajzi ×) x≈6,17, y≈6,40"
+A811-Z01,doboz_jel_nelkul,08 WC,,,8.524,6.6,8.524,6.6,,TERV SZERINT,5. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"
+A811-Z02,doboz_jel_nelkul,02 KONYHA,,,6.746,8.574,6.746,8.574,,TERV SZERINT,5. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"

@@ -20,6 +20,8 @@ Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 1
 
 A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `03_blender/geometry_v2/`, eltérés a Blender v1-hez ±15 cm; hétfőn mérendő): 05.1 master 3,57×5,50 (4,00 tiszta + gardróbfülke), 05.2 3,65×3,35 (gardróbfülkével), 05.3 3,52×3,95, 06.1 fürdő 1,75×2,65 (kád 170×70), 06.2 en-suite 1,92×2,85 (zuhany 182×85), WC 1,30, közlekedő 2,48×1,20, nappali 7,08 hosszú, étkező 2,80 mély, konyhafal 3,90, teraszüveg 4,50 + 1,80, nyugati üvegfal 3,65 + erkélyajtó 1,88. Részletek: `01_alaprajzok/`, 3D: `03_blender/`.
 
+**Villamos kiállások mindhárom lakásban** (mennyezeti és fali lámpakiállás, kapcsoló, dugalj, TV/gyengeáram, termosztát, mennyezeti hűtő-fűtő mezők), méterben, rajzi koordinátával: `01_alaprajzok/villamos_kiallasok/` (összesítő: `OSSZESITO.md`). Forrás: M1 KORR 2 (A-902), M1 (A-811), M1 KORR (A-812); státusz **TERV SZERINT** (2026-10-24), helyszínen ellenőrizendő. A-902: 12 mennyezeti + 7 fali lámpakiállás, 29 kapcsoló, 49 dugalj.
+
 ## 3. Keret – fix plafon
 - **A-811: 10 M Ft · A-812: 10 M Ft · A-902: 20 M Ft** (ebből terasz ~4 M).
 - Bruttó, **mindennel**: tervezési díj, asztalos, bútor, világítás, textil, konyhagépek, kiszállítás, szerelés. Külső tervezőnél a tervezési + kivitelezési díj is benne.
@@ -39,6 +41,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Bútorméret mindig valós termékadatból (IKEA API: `https://sik.search.blue.cdtapps.com/hu/hu/search-result-page?q=<keresés>&size=8&types=PRODUCT`; Kave Home árak csak a webshopban látszanak).
 - Ár mindig dátummal és forrással; jelöld: „ellenőrzött" vagy „becslés".
 - Asztalos-anyagszabály: matt/strukturált laminált bútorlap (Egger H1180 Halifax tölgy, H3710 Carini dió, F274 beton), bordázott MDF, hajlított MDF az ívekhez; furnér max. egy felületen; nincs tömörfa, kő, festett front; Blum/Hettich csak fiókban; belső mindig fehér.
+- **Fény és áram csak meglévő kiállásra** (`01_alaprajzok/villamos_kiallasok/`): új kiállás, vésés, fúrás nincs; függeszték csak a mennyezeti ⊗ fölé; a hűtő-fűtő mezőbe nem fúrunk; kapcsoló, termosztát, elosztó, kaputelefon nem takarható; falpanelen kivágás a dobozoknál.
 - Minden küldés, rendelés, fizetés előtt Péter „mehet"-je kell. Andinak (Szakos Andrea, belsőépítész, a Zenit és a Lake Forest tervezője) csak jóváhagyás után megy anyag.
 - Kivitelezőknek nem megy brosúra/látványterv („leesik, hogy van pénz").
 
@@ -79,10 +82,12 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Péter értékelése: „gagyik, semmi luxus”.
   - Diagnózis: elsősorban a prompt és a koncepció, a Gemini renderje tovább ront. Képen az Ezüst Orbit működik jobban; a kamerához a ChatGPT Rubin áll a legközelebb.
   - Képek: `04_renderek/ai_gemini/`, `04_renderek/ai_chatgpt/`. Jelentés: `ai-coordination/results/WSG-20261024-GEMINI-RENDER-TEST-002.md`.
+- **2026-10-24 09:10 – villamos kiállások rögzítve mindhárom lakásra** (Péter kérésére, a méretezett PDF vektoraiból): `01_alaprajzok/villamos_kiallasok/` – JSON/CSV, összesítő, ellenőrző átfedéskép, hűtő-fűtő mezők, kinyerő szkript. Korábban csak képként volt a repóban, koordináta nélkül. Nyitott: a jelmagyarázat (R, BK, 1/2/3, kupola jelentése), az alapértelmezett szerelési magasságok, a helyszíni ellenőrzés.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
 - *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
+- *(2026-10-24, Péter)* **Nem fúrunk és nem vésünk új áramért:** mennyezeti lámpa, LED és minden áramot igénylő elem a terv szerinti kiállásokra kerül. A kiállásokat lakásonként a `01_alaprajzok/villamos_kiallasok/` rögzíti.
 - *(2026-10-24, Péter)* Kültéren a társasházi „közös rész” szabályokkal nem korlátozzuk a tervet: fal, WPC és korlát rögzítésre használható. Egyetlen kikötés: a vízszigetelés nem sérülhet.
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
 - Jakuzzi: Heissner vagy Correll.
