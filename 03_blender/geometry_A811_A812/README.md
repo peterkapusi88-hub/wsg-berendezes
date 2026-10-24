@@ -14,7 +14,7 @@
 | Tervhűség | független ellenőrzés javítva (lásd „v2”), réskeresés 0 | ua. |
 | Alapképek | `04_renderek/A811_alap_v2/` | `04_renderek/A812_alap_v2/` |
 | Kamera-paraméterlap | `kamera_parameterlap_A811_A812.md` | ua. |
-| Kanapé-méretpróba (U/L + TV + étkező) | `meretproba/MERETPROBA_KANAPE_A811_A812.md`; a terv bútorrajza és az L + szekrénysor változat: `meretproba/terv_elrendezes_A811.png` | `meretproba/MERETPROBA_KANAPE_A811_A812.md` |
+| Kanapé-méretpróba (U/L + TV + étkező) | `meretproba/MERETPROBA_KANAPE_A811_A812.md`; terv vs. változatok: `meretproba/terv_elrendezes_A811.png`; alapelrendezés Péter döntései szerint: `meretproba/elrendezes_dontes_A811_A812.png` | ua.; `meretproba/terv_elrendezes_A812.png` |
 
 **Fontos:** a validátor v2 PASS csak azt igazolja, hogy a .blend egyezik a saját lock-fájljával (nem változott semmi), azt nem, hogy a modell egyezik a tervvel. A tervhűséget a független ellenőrzés, a geometria-szkript réskeresése (`resek_6cm_alatt`: 0) és az 5 magasságban futtatott réskeresés (0 rés) adja.
 

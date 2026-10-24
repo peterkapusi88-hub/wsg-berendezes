@@ -238,6 +238,245 @@
    }
   },
   {
+   "kod": "T0SZ60",
+   "nev": "Terv + 60 cm-es szekrénysor (Péter, 18:16)",
+   "megjegyzes": "60 cm mély szekrénysor x 0–4,90 (a konyha magas szekrényeivel egy síkban); a kanapé 35 cm-rel a TV felé, mögötte 0,60 m a szekrényig",
+   "kanape": [
+    0.78,
+    7.85,
+    3.37,
+    10.35
+   ],
+   "tv": [
+    0.72,
+    6.651,
+    3.02,
+    6.951
+   ],
+   "asztal": [
+    4.47,
+    8.56,
+    6.07,
+    9.36
+   ],
+   "etkezo_zona": [
+    4.47,
+    8.28,
+    6.07,
+    9.62
+   ],
+   "szekrenysor": [
+    0.0,
+    10.950000000000001,
+    4.9,
+    11.55
+   ],
+   "geometria_hibak": [],
+   "kanape_tv_sav_m": 0.9,
+   "nezotav_m": 3.1,
+   "tv_eltolas_m": 0.21,
+   "tv_moge_eso_aljzatok": [
+    "A811-D15",
+    "A811-D16",
+    "A811-G07"
+   ],
+   "kanape_mogott_m": 0.6,
+   "etkezo_lampa_ML04_asztalkozeptol_m": 0.01,
+   "etkezo_lampa_az_asztal_folott": true,
+   "szekreny_moge_eso": [
+    "A811-D10 (dugalj, x = 0.60)",
+    "A811-D11 (dugalj, x = 3.20)",
+    "A811-FL02 (fali_lampakiallas, x = 0.30, m = 2.65)",
+    "A811-K03 (kapcsolo, x = 4.60)"
+   ],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.85,
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 1.05,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.9,
+      "kétszárnyú erkélyajtó": 0.9,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": null,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "erkély 1: 0,85 m < 0,90",
+      "erkély 2: 0,75 m < 0,90"
+     ]
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.85,
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 1.05,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.6,
+      "kétszárnyú erkélyajtó": 0.6,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 5.98,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "konyha csak kerülővel: 5,55 m (üresen 1,57)"
+     ]
+    }
+   }
+  },
+  {
+   "kod": "T0SZ60_50",
+   "nev": "mint T0SZ60, a kanapé mögött 0,50 m",
+   "megjegyzes": "60 cm mély szekrénysor; a kanapé 25 cm-rel a TV felé, mögötte 0,50 m",
+   "kanape": [
+    0.78,
+    7.95,
+    3.37,
+    10.45
+   ],
+   "tv": [
+    0.72,
+    6.651,
+    3.02,
+    6.951
+   ],
+   "asztal": [
+    4.47,
+    8.56,
+    6.07,
+    9.36
+   ],
+   "etkezo_zona": [
+    4.47,
+    8.28,
+    6.07,
+    9.62
+   ],
+   "szekrenysor": [
+    0.0,
+    10.950000000000001,
+    4.9,
+    11.55
+   ],
+   "geometria_hibak": [],
+   "kanape_tv_sav_m": 1.0,
+   "nezotav_m": 3.2,
+   "tv_eltolas_m": 0.21,
+   "tv_moge_eso_aljzatok": [
+    "A811-D15",
+    "A811-D16",
+    "A811-G07"
+   ],
+   "kanape_mogott_m": 0.5,
+   "etkezo_lampa_ML04_asztalkozeptol_m": 0.01,
+   "etkezo_lampa_az_asztal_folott": true,
+   "szekreny_moge_eso": [
+    "A811-D10 (dugalj, x = 0.60)",
+    "A811-D11 (dugalj, x = 3.20)",
+    "A811-FL02 (fali_lampakiallas, x = 0.30, m = 2.65)",
+    "A811-K03 (kapcsolo, x = 4.60)"
+   ],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.95,
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 1.05,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.9,
+      "kétszárnyú erkélyajtó": 0.9,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "erkély 2: 0,75 m < 0,90"
+     ]
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.95,
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 1.05,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.6,
+      "kétszárnyú erkélyajtó": 0.6,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 5.88,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "konyha csak kerülővel: 5,55 m (üresen 1,57)"
+     ]
+    }
+   }
+  },
+  {
    "kod": "T0SZ9",
    "nev": "Terv + szekrénysor, kanapé 0,94 m-re a faltól",
    "megjegyzes": "mint T0SZ, de a kanapé 16 cm-rel jobbra, hogy a nagy erkélyajtóhoz is 0,90 m-es út vezessen",
@@ -352,6 +591,130 @@
      "megfelel": false,
      "okok": [
       "konyha: az út éppen a határon (5 cm-es raszteren nem járható)"
+     ]
+    }
+   }
+  },
+  {
+   "kod": "ANDI",
+   "nev": "Andrea átterve (2025-04-28)",
+   "megjegyzes": "L 3,00 × 3,00 (szárak 1,00 m), 0,35 m-re az üvegfaltól és 0,70 m-re a felső faltól; 4,90 × 0,30 m-es sáv a felső fal mentén; 160 × 80 asztal az étkezőlámpa alatt; TV-pultot nem rajzolt (itt a terv pultja)",
+   "kanape": [
+    0.36,
+    7.85,
+    3.36,
+    10.85
+   ],
+   "tv": [
+    0.72,
+    6.651,
+    3.02,
+    6.951
+   ],
+   "asztal": [
+    4.47,
+    8.56,
+    6.07,
+    9.36
+   ],
+   "etkezo_zona": [
+    4.47,
+    8.28,
+    6.07,
+    9.62
+   ],
+   "szekrenysor": [
+    0.0,
+    11.25,
+    4.9,
+    11.55
+   ],
+   "geometria_hibak": [
+    "kanapé: belelóg egy erkélyajtó nyitásába"
+   ],
+   "kanape_tv_sav_m": 0.9,
+   "nezotav_m": 3.6,
+   "tv_eltolas_m": 0.01,
+   "tv_moge_eso_aljzatok": [
+    "A811-D15",
+    "A811-D16",
+    "A811-G07"
+   ],
+   "kanape_mogott_m": 0.4,
+   "etkezo_lampa_ML04_asztalkozeptol_m": 0.01,
+   "etkezo_lampa_az_asztal_folott": true,
+   "szekreny_moge_eso": [
+    "A811-D10 (dugalj, x = 0.60)",
+    "A811-D11 (dugalj, x = 3.20)",
+    "A811-FL02 (fali_lampakiallas, x = 0.30, m = 2.65)",
+    "A811-K03 (kapcsolo, x = 4.60)"
+   ],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.85,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 1.1,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.9,
+      "kétszárnyú erkélyajtó": 0.9,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": null,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "erkély 1: 0,85 m < 0,90",
+      "erkély 2: 0,00 m < 0,90",
+      "kanapé: belelóg egy erkélyajtó nyitásába"
+     ]
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "egyszárnyú erkélyajtó": 0.85,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 1.1,
+      "hálók folyosója": 1.4
+     },
+     "kell_m": {
+      "egyszárnyú erkélyajtó": 0.6,
+      "kétszárnyú erkélyajtó": 0.6,
+      "konyha (pult előtti sáv)": 0.9,
+      "hálók folyosója": 0.9
+     },
+     "uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": 5.55,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "egyszárnyú erkélyajtó": 4.7,
+      "kétszárnyú erkélyajtó": 4.82,
+      "konyha (pult előtti sáv)": 1.57,
+      "hálók folyosója": 0.0
+     },
+     "kerulo_ok": false,
+     "kerulo_max_arany": null,
+     "megfelel": false,
+     "okok": [
+      "erkély 2: 0,00 m < 0,60",
+      "kanapé: belelóg egy erkélyajtó nyitásába"
      ]
     }
    }

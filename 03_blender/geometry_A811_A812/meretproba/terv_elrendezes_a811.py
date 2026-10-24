@@ -8,7 +8,9 @@
 #     M1 = Andrea átterve): L-kanapé [0,78; 8,20; 3,37; 10,70] (2,59 × 2,50), TV-pult [0,72; 6,65; 3,02; 6,95]
 #     (2,30 × 0,30), 4 fős asztal 160 × 80 [4,47; 8,56; 6,07; 9,36], a betolt székekkel [4,47; 8,28; 6,07; 9,62];
 #     a konyha felső sora (magas szekrények) x 4,90-től a nappali felé is benyúlik [4,90; 10,95; 6,17; 11,55];
-#   - Péter, 2026-10-24 17:40: „simán elfér az L alakú kanapé, sőt mögé még egy szekrény is végig a fal mentén”.
+#   - Péter, 2026-10-24 17:40: „simán elfér az L alakú kanapé, sőt mögé még egy szekrény is végig a fal mentén”;
+#   - Andrea átterve (WS Grand A-811_átalakított.pdf, ArchiCAD-export, 2025-04-28, 1:50, vektorból mérve): L 3,00 × 3,00 m,
+#     0,35 m-re az üvegfaltól és 0,70 m-re a felső faltól, mögötte 4,90 × 0,30 m-es sáv, asztal 160 × 80 az étkezőlámpa alatt.
 # A javaslat-változatok (P…) tesztméretei BECSLÉS: szekrénysor 40 cm mély a felső fal mentén x 0–4,90 (ott
 # csatlakozik a konyha magas szekrényeihez); 6 fős asztal 180 × 90, 3 + 3 szék, 90 cm széktolás; 4 fős 160 × 80,
 # 2 + 2 szék, 90 cm; TV-konzol 180 × 45 a gyári TV-blokk elé (G07 antenna, D15, D16 mögötte).
@@ -38,9 +40,18 @@ EL = [
     dict(kod='T0SZ', nev='Terv + szekrénysor 40 cm', S=(0.78, 8.05, 3.37, 10.55), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
          asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 8.28, 6.07, 9.62), szekreny=(0.0, FAL_Y - 0.40, 4.90, FAL_Y),
          megj='a terv elrendezése, a kanapé 15 cm-rel a TV felé; szekrénysor 40 cm a felső fal mentén, x 0–4,90'),
+    dict(kod='T0SZ60', nev='Terv + 60 cm-es szekrénysor (Péter, 18:16)', S=(0.78, 7.85, 3.37, 10.35), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
+         asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 8.28, 6.07, 9.62), szekreny=(0.0, FAL_Y - 0.60, 4.90, FAL_Y),
+         megj='60 cm mély szekrénysor x 0–4,90 (a konyha magas szekrényeivel egy síkban); a kanapé 35 cm-rel a TV felé, mögötte 0,60 m a szekrényig'),
+    dict(kod='T0SZ60_50', nev='mint T0SZ60, a kanapé mögött 0,50 m', S=(0.78, 7.95, 3.37, 10.45), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
+         asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 8.28, 6.07, 9.62), szekreny=(0.0, FAL_Y - 0.60, 4.90, FAL_Y),
+         megj='60 cm mély szekrénysor; a kanapé 25 cm-rel a TV felé, mögötte 0,50 m'),
     dict(kod='T0SZ9', nev='Terv + szekrénysor, kanapé 0,94 m-re a faltól', S=(0.94, 8.05, 3.53, 10.55), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
          asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 8.28, 6.07, 9.62), szekreny=(0.0, FAL_Y - 0.40, 4.90, FAL_Y),
          megj='mint T0SZ, de a kanapé 16 cm-rel jobbra, hogy a nagy erkélyajtóhoz is 0,90 m-es út vezessen'),
+    dict(kod='ANDI', nev='Andrea átterve (2025-04-28)', S=(0.36, 7.85, 3.36, 10.85), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
+         asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 8.28, 6.07, 9.62), szekreny=(0.0, FAL_Y - 0.30, 4.90, FAL_Y),
+         megj='L 3,00 × 3,00 (szárak 1,00 m), 0,35 m-re az üvegfaltól és 0,70 m-re a felső faltól; 4,90 × 0,30 m-es sáv a felső fal mentén; 160 × 80 asztal az étkezőlámpa alatt; TV-pultot nem rajzolt (itt a terv pultja)'),
     dict(kod='T60', nev='Terv – 60 cm széktolással', S=(0.78, 8.20, 3.37, 10.70), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),
          asztal=(4.47, 8.56, 6.07, 9.36), zona=(4.47, 7.96, 6.07, 9.96), szekreny=None, megj='a terv asztala, 2 + 2 szék 60 cm-es hátratolással'),
     dict(kod='T90', nev='Terv – 90 cm széktolással (GOAL 5.)', S=(0.78, 8.20, 3.37, 10.70), T=(0.72, TV_FAL_Y, 3.02, TV_FAL_Y + 0.30),

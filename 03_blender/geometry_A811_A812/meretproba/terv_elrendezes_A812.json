@@ -1,0 +1,225 @@
+{
+ "datum": "2026-10-24",
+ "statusz": "MÉRETPRÓBA – nem stílusterv; terv szerinti geometria (PR #9, geometria v2 lock), helyszínen nem mért",
+ "forras": "WGR1_meretezett_alaprajzok.pdf 12. o. bútorrétege (M1 KORR); Péter 2026-10-24 18:14–18:16",
+ "tv_pult": [
+  0.0,
+  0.0,
+  3.22,
+  0.3
+ ],
+ "asztal": [
+  4.2,
+  0.725,
+  5.0,
+  2.325
+ ],
+ "etkezo_zona": [
+  3.93,
+  0.26,
+  5.27,
+  2.6
+ ],
+ "lampa_ML05": [
+  4.6,
+  1.425
+ ],
+ "eredmeny": [
+  {
+   "kod": "T812",
+   "nev": "Terv (M1) – ahogy rajzolva",
+   "megjegyzes": "egyenes kanapé 200 × 90, 3 fotel, dohányzóasztal; asztal 80 × 160, 8 szék",
+   "kanape_befoglalo": [
+    0.67,
+    3.77,
+    2.67,
+    4.67
+   ],
+   "nezotav_m": 4.07,
+   "tv_eltolas_m": 0.06,
+   "kanape_tv_sav_m": 3.47,
+   "kanape_mogott_m": null,
+   "szekreny": null,
+   "geometria_hibak": [],
+   "szekreny_moge_eso": [],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.55,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.09,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [
+      "kétszárnyú erkélyajtó: 0,55 m < 0,90"
+     ],
+     "megfelel": false
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.55,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.03,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [
+      "kétszárnyú erkélyajtó: 0,55 m < 0,60"
+     ],
+     "megfelel": false
+    }
+   }
+  },
+  {
+   "kod": "P812L",
+   "nev": "L + szekrénysor 60 cm (Péter)",
+   "megjegyzes": "L 3,00 × 2,25 – hosszú szár a dohányzóasztal jobb oldalán; a háta 0,50 m-re a szekrénytől",
+   "kanape_befoglalo": [
+    0.15,
+    2.25,
+    3.15,
+    4.5
+   ],
+   "nezotav_m": 3.9,
+   "tv_eltolas_m": 0.04,
+   "kanape_tv_sav_m": 1.95,
+   "kanape_mogott_m": 0.5,
+   "szekreny": [
+    0.0,
+    5.0,
+    3.22,
+    5.6
+   ],
+   "geometria_hibak": [],
+   "szekreny_moge_eso": [
+    "A812-D13 (dugalj, x = 2.22)"
+   ],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.09,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [
+      "kétszárnyú erkélyajtó: 0,75 m < 0,90"
+     ],
+     "megfelel": false
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.6,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.03,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [],
+     "megfelel": true
+    }
+   }
+  },
+  {
+   "kod": "P812U",
+   "nev": "U + szekrénysor 60 cm (Péter)",
+   "megjegyzes": "U 3,00 széles; rövid szár (1,70) a fix üveg előtt, hosszú szár (2,25) a másik oldalon; a háta 0,50 m-re a szekrénytől",
+   "kanape_befoglalo": [
+    0.15,
+    2.25,
+    3.15,
+    4.5
+   ],
+   "nezotav_m": 3.9,
+   "tv_eltolas_m": 0.04,
+   "kanape_tv_sav_m": 1.95,
+   "kanape_mogott_m": 0.5,
+   "szekreny": [
+    0.0,
+    5.0,
+    3.22,
+    5.6
+   ],
+   "geometria_hibak": [],
+   "szekreny_moge_eso": [
+    "A812-D13 (dugalj, x = 2.22)"
+   ],
+   "forgatokonyv": {
+    "A": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": null,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.09,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [
+      "kétszárnyú erkélyajtó: 0,75 m < 0,90"
+     ],
+     "megfelel": false
+    },
+    "B": {
+     "cel_max_szelesseg_m": {
+      "kétszárnyú erkélyajtó": 0.75,
+      "konyha (pult előtti sáv)": 0.55,
+      "hálók folyosója": 1.4
+     },
+     "uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.6,
+      "konyha (pult előtti sáv)": null,
+      "hálók folyosója": 0.0
+     },
+     "ures_uthossz_m": {
+      "kétszárnyú erkélyajtó": 6.03,
+      "konyha (pult előtti sáv)": 2.63,
+      "hálók folyosója": 0.0
+     },
+     "okok": [],
+     "megfelel": true
+    }
+   }
+  }
+ ]
+}
