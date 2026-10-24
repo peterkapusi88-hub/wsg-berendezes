@@ -3,6 +3,8 @@ name: wsg-chatgpt-work-codex
 description: Hogyan használjuk a ChatGPT-t (Work = lakberendező/projektvezető, Codex = Blender-technikus, GPT-6 Astra / GPT-5.6 Sol) a Westside Grand berendezési projektben Claude és Gemini mellett. Használd, ha a WSG-projektben ChatGPT-t, Workot, Codexet, Astrát, Solt briefelünk, promptot írunk neki, feladatot osztunk, vagy a keretét kíméljük.
 ---
 
+> **ELAVULT (2026-10-24):** a szereposztást a `wsg-ai-munkamenet_SKILL.md` váltotta fel (Work = kreatív + független költségellenőr, Codex = geometriai auditor, Claude = Blender + független költségellenőr, Gemini = kép/videó). Ez a fájl csak előzményként marad.
+
 # ChatGPT a WSG-projektben: Work tervez, Codex szerel, Claude vezet
 
 ## 1. Mi micsoda
