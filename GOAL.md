@@ -41,7 +41,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Bútorméret mindig valós termékadatból (IKEA API: `https://sik.search.blue.cdtapps.com/hu/hu/search-result-page?q=<keresés>&size=8&types=PRODUCT`; Kave Home árak csak a webshopban látszanak).
 - Ár mindig dátummal és forrással; jelöld: „ellenőrzött" vagy „becslés".
 - Asztalos-anyagszabály: matt/strukturált laminált bútorlap (Egger H1180 Halifax tölgy, H3710 Carini dió, F274 beton), bordázott MDF, hajlított MDF az ívekhez; furnér max. egy felületen; nincs tömörfa, kő, festett front; Blum/Hettich csak fiókban; belső mindig fehér.
-- **Fény és áram csak meglévő kiállásra** (`01_alaprajzok/villamos_kiallasok/`): új kiállás, vésés, fúrás nincs; függeszték csak a mennyezeti ⊗ fölé; a hűtő-fűtő mezőbe nem fúrunk; kapcsoló, termosztát, elosztó, kaputelefon nem takarható; falpanelen kivágás a dobozoknál.
+- **Fény és áram csak meglévő kiállásra** (`01_alaprajzok/villamos_kiallasok/`): új kiállás, vésés, fúrás nincs; függeszték csak a mennyezeti ⊗ fölé; a hűtő-fűtő mezőbe nem fúrunk; kapcsoló, termosztát, elosztó, kaputelefon, mozgásérzékelő nem takarható; falpanelen kivágás a dobozoknál.
 - Minden küldés, rendelés, fizetés előtt Péter „mehet"-je kell. Andinak (Szakos Andrea, belsőépítész, a Zenit és a Lake Forest tervezője) csak jóváhagyás után megy anyag.
 - Kivitelezőknek nem megy brosúra/látványterv („leesik, hogy van pénz").
 
