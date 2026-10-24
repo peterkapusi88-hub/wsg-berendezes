@@ -1,6 +1,6 @@
 # GOAL.md – Westside Grand berendezés (A-811, A-812, A-902)
 
-> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz; 09:00 Rubin/Orbit képteszt; 13:18 Péter döntései a négy stílusról).
+> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz; 09:00 Rubin/Orbit képteszt; 13:18 Péter döntései a négy stílusról; 17:06 PR #8 beolvasztva, a semleges_v2b az összehasonlító alap).
 
 ## 1. Cél egy mondatban
 Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 11–13., Westside Grand I., átadva 2026-10-21) berendezése úgy, hogy **olcsón összerakva drágának hasson**, és eladáskor (vagy bérbeadáskor) a vevő két különböző, kész hangulatot lásson: egy **Zenit-** és egy **Lake Forest-verziót**.
@@ -86,10 +86,10 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - **2026-10-24 09:10 – villamos kiállások rögzítve mindhárom lakásra** (Péter kérésére, a méretezett PDF vektoraiból): `01_alaprajzok/villamos_kiallasok/` – JSON/CSV, összesítő, ellenőrző átfedéskép, hűtő-fűtő mezők, kinyerő szkript. Korábban csak képként volt a repóban, koordináta nélkül. Független ellenőrzés után javítva (4 hiányzó mozgásérzékelő, 1 ventilátor, 3 rossz helyiség, 6 téves doboz). A rajzlapok módosítási szövegéből: kupola = mozgásérzékelő, önálló BK = riasztóközpont (valószínű); A-902-ben szekrényvilágítás-dugalj 05.1: 1, 05.3: 2. Nyitott: R, 1/2/3 jelentése, alapértelmezett szerelési magasságok, helyszíni ellenőrzés.
 - **2026-10-24 13:10 – PR #4 (kiállások) és PR #5 (A-902 geometria v2b) a main-ben** (Péter jóváhagyásával). A vevői műszaki melléklet (2024.02.13.) átnézve: az R jel motoros redőny kiállása, a kupola-jel mozgásérzékelő (igazolva); a mennyezeti hűtő-fűtő panelek a födémbe integráltak; minden lakóhelyiségben van RJ45 informatikai blokk; a riasztó az alapban csak elővezetékezés (beépült-e: nincs adat).
 - **2026-10-24 14:10 – A-902 v2b: kiállás-réteg a Blender-modellben és bútor nélküli alapképek** a B fázishoz (Cam_02/03/04, semleges szórt fény; reality card: `04_renderek/A902_alap_v2b/`). Beolvasztva a mainbe (PR #7, Péter, 14:25). Észrevétel: a fő helyiségek mennyezeti kiállásai (ML03–ML08) a hűtő-fűtő mezőn belül vannak – lámparögzítés előtt hőkamerás ellenőrzés (hétfő).
-- **2026-10-24 14:35 – draft PR #8 (Péter „mehet”-jére vár):** alaprajzhű semleges v2b referencia (Cam_02 + ellenőrző rárajzolás + felülnézet; Cam_03/04 kiegészítő), Validator v2 PASS 0/0, reality card a bizonytalan elemekkel; közös 4-stílusos költségkeret (6,80 M fix + ≤ 11,20 M stílusfüggő); árkönyvtár (87 sor, Kave Home HU euróárak + magyar jelöltek); árhorgony-előszűrés; Astra High brief `WSG-20261024-STYLE4-003` (NEM INDÍTOTT).
+- **2026-10-24 14:35 – PR #8 (17:09-kor beolvasztva Péter „mehet”-jével, `f149d98`):** alaprajzhű semleges v2b referencia (Cam_02 + ellenőrző rárajzolás + felülnézet; Cam_03/04 kiegészítő), Validator v2 PASS 0/0, reality card a bizonytalan elemekkel; közös 4-stílusos költségkeret (6,80 M fix + ≤ 11,20 M stílusfüggő); árkönyvtár (87 sor, Kave Home HU euróárak + magyar jelöltek); árhorgony-előszűrés; Astra High brief `WSG-20261024-STYLE4-003` (NEM INDÍTOTT).
   - Fő lelet: a Rubin/Orbit látható tételei a 4,90 M-os célból csak 2,6–3,0 M-t használnak, a Zenit/LF 4,0–5,2 M-t.
-  - A PR #7 alapképén a nyugati fal a falon maradt Zenit-tapéta anyag miatt halványan bézs. Péter dönt, melyik készlet legyen az alap.
-  - 16:46: mind a három render végleges (Cam_02/03/04). Közben talált modellhibák, amelyeket a Validator nem jelez: két homlokzati rés a v2b után (7 cm a 05.1 fülkénél, 10 cm az előtér déli falán), és a tetőkert nyugati mellvédje belelóg a 05.1 fülkébe. Javítás külön lock-javító draft PR-ben, Péter jóváhagyásával.
+  - A PR #7 alapképén a nyugati fal a falon maradt Zenit-tapéta anyag miatt halványan bézs. Péter döntése (17:06): az összehasonlító alap a `semleges_v2b`.
+  - 16:46: mind a három render végleges (Cam_02/03/04). Közben talált modellhibák, amelyeket a Validator nem jelez: két homlokzati rés a v2b után (7 cm a 05.1 fülkénél, 10 cm az előtér déli falán), és a tetőkert nyugati mellvédje belelóg a 05.1 fülkébe. Javítás külön lock-javító draft PR-ben (Péter 17:06: igen, ha nem visz sok időt).
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
@@ -115,6 +115,8 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - a fő látható tételekhez valós termékjelölt és ellenőrizhető ár kell.
   - **Először** ellenőrizhető, alaprajzhű, semleges Cam_02 referenciakép készül, a bizonytalan elemek dokumentálásával.
   - A kreatív stílusfejlesztés és a végleges promptok **Astra High** feladata. Claude a geometriai alapot, a költségellenőrzést és a GitHub-átadást készíti elő; a kész briefek a GitHubra kerülnek, Péternek ne kelljen fájlt másolnia.
+- *(2026-10-24 17:06, Péter – eldöntve)* **A stílus-összevetés alapképkészlete a `04_renderek/semleges_v2b/`.** A PR #7 `04_renderek/A902_alap_v2b/` képei nem összehasonlító alapok; a kiállás-réteg a Blender-fájlban marad.
+- *(2026-10-24 17:06, Péter)* A STYLE4-003 Astra-indítása **elhalasztva**: a folyamat áttervezés alatt. Addig Claude leírja, mit csinálna, és mi van a GitHub-csomagban.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
