@@ -1,5 +1,5 @@
 {
- "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért)",
+ "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért) · v2b-1-k10 (2026-10-24: Cam_10 + 06.2 akna)",
  "datum": "2026-10-24",
  "forras": {
   "blend": "WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
@@ -188,9 +188,15 @@
   "furdo_06_2": [
    [
     14.475,
-    5.2,
+    5.81,
     16.4,
     8.05
+   ],
+   [
+    14.475,
+    5.2,
+    15.45,
+    5.81
    ]
   ]
  },
@@ -685,6 +691,14 @@
    0.0,
    15.0,
    5.2,
+   2.9
+  ],
+  "Akna_06_2_EK_v2b1k10": [
+   15.45,
+   5.2,
+   0.0,
+   16.4,
+   5.81,
    2.9
   ]
  },
@@ -2189,6 +2203,37 @@
    ],
    "parent": null,
    "statusz": "ellenőrző felülnézet"
+  },
+  "Cam_10_Furdo_06_2": {
+   "tipus": "PERSP",
+   "lens_mm": 16.0,
+   "sensor_width": 36.0,
+   "sensor_height": 24.0,
+   "sensor_fit": "AUTO",
+   "shift_x": 0.0,
+   "shift_y": 0.0,
+   "clip_start": 0.1,
+   "clip_end": 200.0,
+   "ortho_scale": 6.0,
+   "dof": false,
+   "loc": [
+    14.5,
+    6.62,
+    1.5
+   ],
+   "rot": [
+    1.38,
+    0.0,
+    -1.5708
+   ],
+   "rot_mode": "XYZ",
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": null,
+   "statusz": "ÖSSZEHASONLÍTÓ – KEP-004, fürdő 06.2 (ablaktalan, csak műfény); 16 mm a 1,93×2,85 m-es tér miatt; nézet az ajtónyílásból kelet felé, a helyszíni ME-BAL-064 fotóval egyező irány"
   }
  },
  "render": {
@@ -2229,6 +2274,19 @@
     "Kulso_E_05_1_0: Z_tapeta_greige → Fal_feher (csak a .blend-ben)"
    ],
    "nem_valtozott": "minden más fal, nyílászáró, padló, teraszelem és kamera; a Pillér_05_1_EK 1 cm-es síkeltérése a hétfői mérésig marad"
+  },
+  {
+   "azonosito": "v2b-1-k10",
+   "datum": "2026-10-24",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter, 2026-10-24 21:33 – KEP-004 Blender-előkészítés engedélyezve; a main-be csak „mehet” után (draft PR)",
+   "ok": "a tízstílusos összehasonlítás fürdője a 06.2 (Péter 21:18); a V3.1 sablon javasolt kamerája ([14,75; 5,45; 1,55], 20 mm) a WC_csesze_06_2 befoglalójába esett (x 14,62–15,05; y 5,18–5,80) – geometriailag érvénytelen",
+   "geometria": [
+    "cameras.Cam_10_Furdo_06_2: ÚJ – loc [14,50; 6,62; 1,50], rot [1,38; 0; −1,5708], 16 mm, 36×24 AUTO, clip 0,1–200",
+    "walls.Akna_06_2_EK_v2b1k10: ÚJ [15,45; 5,20; 0; 16,40; 5,81; 2,90] – a 06.2 DK-i sarkába benyúló akna/falblokk a WGR1_meretezett_alaprajzok.pdf 18. oldala (M1 KORR 2) és a 23. oldali burkolatkiosztási terv (A 0,88 / B 0,68 / C 0,85 m falszakaszok) szerint; a v2b-ből kimaradt. ±5 cm, helyszínen mérendő",
+    "rooms.furdo_06_2: téglalap → L alak: [[14,475; 5,81; 16,40; 8,05], [14,475; 5,20; 15,45; 5,81]] (WC-fülke DNy-on)"
+   ],
+   "falak_nyilasok": "+1 fal (Akna_06_2_EK_v2b1k10); nyílások változatlanok"
   }
  ]
 }

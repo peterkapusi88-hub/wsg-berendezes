@@ -1,0 +1,17 @@
+# A-902 · Cam_10 fürdő 06.2 – rögzített kamerablokk és beépített-állapot blokk a KEP-004-hez (v1, 2026-10-24 22:10)
+
+**Mire:** a `A902_STYLE10_4helyiseg_prompt_sablon_v3.md` (v3.1) **§2 „Cam_10 · fürdő 06.2” FELTÉTELES blokkjának cseréje** a képfázis indításakor. A v3.1 sablont és Astra `A902_STYLE10_4helyiseg_promptok_ASTRA_V2_r1.md` fájlját nem írtam át (Astra-forrás, Péter szabálya); ez külön, verziózott kiegészítés. A V3.1 ideiglenes kamerája ([14,75; 5,45; 1,55], 20 mm) a WC befoglalójába esett – érvénytelen.
+
+## Image 1 (kötelező): `04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_10_furdo-06-2.png`
+## Image 2 (kötelező): `08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-064_zuhany_mosdo.jpg` (burkolat, dekorfal, szerelvények) és `…ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg` – **mindkettő igazoltan a 06.2** (walk-in zuhany, a KORR 2 alaprajzzal egyező elrendezés).
+
+## Csereblokk (angol, szó szerint)
+
+> Camera Cam_10_Furdo_06_2 (fixed in the geometry lock v2b-1-k10): position (14.50, 6.62, 1.50), Euler XYZ (1.38, 0, −1.5708), 16 mm, 36 mm sensor, 1600×1000 – standing in the doorway, looking east. Image 1 is the verified empty-room base; keep its framing exactly.
+> Room: L-shaped, 1.925 m wide; main part 2.24 m deep plus a WC niche (0.97 × 0.61 m) in the south-west corner behind the right edge of the frame; a wall/shaft block projects into the south-east corner (right side of the image). **No window – artificial light only from the existing ceiling point (and the wall point above the basin if the style lights it); no invented window, skylight or daylight.**
+> Built and fixed – keep exactly: Ceramiche Piemme **Geostone Grigio** matt 60×60 porcelain tiles (light warm grey, softly banded sedimentary-stone pattern) on the floor and on all walls up to 2.85 m, white paint above, 2 mm light-grey grout (Holdfény 103), rows laid from the top with full tiles; the **Geostone Geo Esagonetta Grigio 3D** 30×60 decor tile (small hexagonal relief, slightly darker) on the whole shower back wall (left wall in the image) and on the wall above the 1.20 m WC installation ledge; walk-in shower along the left/north side with a 5×5 cm tiled kerb with anodised aluminium edge, 70 cm linear drain along the far (east) wall, **no glass screen**; black Grohe Cubeo concealed two-way shower mixer, black Grohe Cube 250 square head shower on a wall arm, black Tempesta hose outlet and SmartActive 130 Cube hand shower on the far wall inside the shower; white Geberit Smyle Square 60×48 wall-hung basin with a black Grohe Cubeo M tap centred on the far wall; white Geberit Smyle Square wall-hung WC with a black Delta 50 flush plate on the tiled 1.20 m ledge in the niche; black towel radiator on the door wall. Nothing is re-tiled, moved or removed.
+> The style may add only: a mirror composition above the basin (fixed to the tiles, safety-backed), built-in or ready-made storage (a wall-hung or floor-standing cabinet beside or under the basin, a shelf/cabinet above the WC ledge), lighting fittings on the existing points, textiles, accessories, plants. Name every added material honestly.
+
+## WC 08 (ha később képre kerül)
+
+A jelenlegi bidés ülőke helyett: **Creavit FE322 REMO perem nélküli bidés fali WC, beépített hideg-meleg keverőcsappal (FE322CSAP) + Duck soft-close ülőke (KC4080), fehér**; bekötés takarásban, oldalsó kiállások nélkül (GroundUp Kft., 2026-10-22). Részletek: `ai-coordination/inputs/A902_v2b/FURDO_06_2_BEEPITETT_ALLAPOT.md`.
