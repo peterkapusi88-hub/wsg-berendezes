@@ -1,0 +1,156 @@
+{
+ "Cam_04_Master": {
+  "hfov": 84.0,
+  "vfov": 58.7,
+  "uvegfal": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  },
+  "fejveg_homlok": {
+   "kepterulet_szazalek": 11.1,
+   "bbox_px": [
+    854,
+    480,
+    1533,
+    894
+   ]
+  },
+  "agy_teteje": {
+   "kepterulet_szazalek": 10.1,
+   "bbox_px": [
+    504,
+    590,
+    1351,
+    970
+   ]
+  },
+  "pax_front": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  },
+  "eszaki_fulke_hatfal": {
+   "kepterulet_szazalek": 23.4,
+   "bbox_px": [
+    0,
+    0,
+    603,
+    756
+   ]
+  },
+  "keleti_fejvegfal": {
+   "kepterulet_szazalek": 39.4,
+   "bbox_px": [
+    767,
+    0,
+    1600,
+    916
+   ]
+  }
+ },
+ "Cam_11_Master_Panorama": {
+  "hfov": 84.0,
+  "vfov": 58.7,
+  "uvegfal": {
+   "kepterulet_szazalek": 38.3,
+   "bbox_px": [
+    329,
+    153,
+    1270,
+    804
+   ]
+  },
+  "fejveg_homlok": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  },
+  "agy_teteje": {
+   "kepterulet_szazalek": 10.3,
+   "bbox_px": [
+    72,
+    851,
+    1380,
+    1000
+   ]
+  },
+  "pax_front": {
+   "kepterulet_szazalek": 10.9,
+   "bbox_px": [
+    0,
+    53,
+    222,
+    961
+   ]
+  },
+  "eszaki_fulke_hatfal": {
+   "kepterulet_szazalek": 0.4,
+   "bbox_px": [
+    1591,
+    22,
+    1600,
+    836
+   ]
+  },
+  "keleti_fejvegfal": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  }
+ },
+ "Cam_11_fekve_z090": {
+  "hfov": 84.0,
+  "vfov": 58.7,
+  "uvegfal": {
+   "kepterulet_szazalek": 37.2,
+   "bbox_px": [
+    336,
+    82,
+    1263,
+    724
+   ]
+  },
+  "fejveg_homlok": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  },
+  "agy_teteje": {
+   "kepterulet_szazalek": 27.4,
+   "bbox_px": [
+    0,
+    690,
+    1600,
+    1000
+   ]
+  },
+  "pax_front": {
+   "kepterulet_szazalek": 11.0,
+   "bbox_px": [
+    0,
+    0,
+    231,
+    846
+   ]
+  },
+  "eszaki_fulke_hatfal": {
+   "kepterulet_szazalek": 1.0,
+   "bbox_px": [
+    1579,
+    0,
+    1600,
+    752
+   ]
+  },
+  "keleti_fejvegfal": {
+   "kepterulet_szazalek": 0.0,
+   "bbox_px": null
+  }
+ },
+ "latovonal_korlat_teteje_fok": {
+  "ulve_1.20|nyulvany_x-1.12": -3.3,
+  "ulve_1.20|fo_erkely_x-2.01": -2.7,
+  "felulve_1.05|nyulvany_x-1.12": -1.3,
+  "felulve_1.05|fo_erkely_x-2.01": -1.1,
+  "fekve_0.90|nyulvany_x-1.12": 0.7,
+  "fekve_0.90|fo_erkely_x-2.01": 0.5
+ },
+ "uveg_teteje_fok_ulve": 21.3,
+ "uveg_alja_fok_ulve": -18.9
+}

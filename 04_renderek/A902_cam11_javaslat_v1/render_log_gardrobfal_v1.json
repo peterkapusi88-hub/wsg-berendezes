@@ -1,0 +1,187 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "WSG_A902_v2b1k10_MUNKAMASOLAT_cam11.blend",
+ "sha256": "028695438d15a1bcf94e74129b232ee9fd9174444bedfaffae39cae74a91c6a1",
+ "cel": "KEP-004 – Cam_04 vs Cam_11 összevetés, 05.1 master; JAVASLAT, nem lock",
+ "kepek": [
+  {
+   "kamera": "Cam_04_Master",
+   "fajl": "ellenorzes_Cam04_gardrobfal_javaslat_v1.png",
+   "jelolok": true,
+   "kamera_parameterek": {
+    "loc": [
+     0.35,
+     4.3,
+     1.5
+    ],
+    "rot": [
+     1.4338,
+     -0.0,
+     -0.7448
+    ],
+    "lens": 20.0,
+    "sensor": [
+     36.0,
+     24.0
+    ],
+    "fit": "AUTO",
+    "clip": [
+     0.10000000149011612,
+     200.0
+    ],
+    "shift": [
+     0.0,
+     0.0
+    ]
+   },
+   "mp": 5.6
+  },
+  {
+   "kamera": "Cam_11_Master_Panorama",
+   "fajl": "ellenorzes_Cam11_gardrobfal_javaslat_v1.png",
+   "jelolok": true,
+   "kamera_parameterek": {
+    "loc": [
+     3.2,
+     6.1,
+     1.2
+    ],
+    "rot": [
+     1.5708,
+     0.0,
+     1.5708
+    ],
+    "lens": 20.0,
+    "sensor": [
+     36.0,
+     24.0
+    ],
+    "fit": "AUTO",
+    "clip": [
+     0.10000000149011612,
+     200.0
+    ],
+    "shift": [
+     0.0,
+     0.0
+    ]
+   },
+   "mp": 6.1
+  }
+ ],
+ "jelolok": {
+  "NORDLI_keret_180x202x30": {
+   "min": [
+    1.47,
+    5.1,
+    0.0
+   ],
+   "max": [
+    3.49,
+    6.9,
+    0.3
+   ]
+  },
+  "matrac_BECSLES_22cm": {
+   "min": [
+    1.48,
+    5.11,
+    0.3
+   ],
+   "max": [
+    3.48,
+    6.89,
+    0.52
+   ]
+  },
+  "fejveg_befoglalo_W260_H100_D8": {
+   "min": [
+    3.49,
+    4.7,
+    0.0
+   ],
+   "max": [
+    3.57,
+    7.3,
+    1.0
+   ]
+  },
+  "szabad_sav_60_D": {
+   "min": [
+    1.47,
+    4.5,
+    0.0
+   ],
+   "max": [
+    3.49,
+    5.1,
+    0.006
+   ]
+  },
+  "szabad_sav_60_E": {
+   "min": [
+    1.47,
+    6.9,
+    0.0
+   ],
+   "max": [
+    3.49,
+    7.5,
+    0.006
+   ]
+  },
+  "gardrobfal_eszaki_fulke_JAVASLAT_300x290": {
+   "min": [
+    0.01,
+    8.05,
+    0.0
+   ],
+   "max": [
+    3.01,
+    8.95,
+    2.9
+   ]
+  },
+  "modell_PAX_242_deli_sav": {
+   "min": [
+    0.0,
+    3.45,
+    0.0
+   ],
+   "max": [
+    2.42,
+    4.02,
+    2.36
+   ]
+  }
+ },
+ "falanyag_csere": [],
+ "beallitas": {
+  "motor": "BLENDER_EEVEE",
+  "felbontas": [
+   1600,
+   1000
+  ],
+  "minta": 128,
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "expozicio": 0.75,
+  "egbolt": "egyszínű (0,86/0,88/0,92), erősség 1,0; nap és belső lámpák nélkül – az alapképekkel azonos"
+ },
+ "vk_jelolok": [
+  "VK_A902-D20",
+  "VK_A902-D21",
+  "VK_A902-D22",
+  "VK_A902-D23",
+  "VK_A902-D24",
+  "VK_A902-D25",
+  "VK_A902-D26",
+  "VK_A902-G05_1",
+  "VK_A902-K13_t",
+  "VK_A902-K14_t",
+  "VK_A902-K15_t",
+  "VK_A902-K16_u",
+  "VK_A902-ML06_t",
+  "VK_A902-T02"
+ ]
+}
