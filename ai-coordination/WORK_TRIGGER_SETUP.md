@@ -24,3 +24,8 @@ OpenAI hivatalos leírások:
 - https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt
 - https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex
 - https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt
+
+## Kiemelt visszaadási korlát – ellenőrizni kell
+Az OpenAI GitHub-app hivatalos ismertetője szerint az általános ChatGPT GitHub csatlakozó **alapból olvasásra szolgál**. Emiatt a fenti `PR Conversation comment` eredmény-visszaadás **nem garantált a Work számára**. Csak akkor várjunk GitHub-írást, ha a Work ténylegesen rendelkezik külön, engedélyezett írási képességgel (például jóváhagyott böngészős interakcióval vagy megfelelő eszközön keresztül), és ezt a pilot bizonyítja. Máskülönben a Work eredménye a ChatGPT-feladatban marad; a Claude-ból történő automatikus átvételhez **külön relay/integráció szükséges**, vagy átmenetileg egyszeri kézi másolás. A trigger beállítása önmagában ezért **nem teljes kétirányú AI-orkesztráció**.
+
+Hivatalos forrás: https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt
