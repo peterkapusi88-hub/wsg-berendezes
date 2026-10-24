@@ -2264,7 +2264,7 @@
     1.0
    ],
    "parent": null,
-   "statusz": "JAVASLAT – Péter külön jóváhagyásáig NEM összehasonlító master (a Cam_04_Master marad); 05.1 az ágy/párnák felől, ülő szemmagasság ≈1,20 m (becslés), vízszintes kamera nyugat felé a nyugati üvegfalra és a valós panorámára; 20 mm, mint a Cam_02/03/04; az ágy a modell helyén (Agy_05_1, y 5,10–6,90), nem mozdítva"
+   "statusz": "JAVASLAT – Péter külön jóváhagyásáig NEM összehasonlító master (a Cam_04_Master marad); 05.1 az ágy/párnák felől, ülő szemmagasság ≈1,20 m (becslés), vízszintes kamera nyugat felé a nyugati üvegfalra és a valós panorámára; 20 mm, mint a Cam_02/03/04; az ágy a terv szerinti helyen (Agy_05_1 tengelye y 6,40, keret y 5,50–7,30 – Péter, 2026-10-25 00:05; v2b-1-k11b); a kamera y 6,10-en, az üvegfal közepén marad: az ágyon, a tengelytől 0,30 m-re"
   }
  },
  "render": {
@@ -2330,6 +2330,22 @@
    ],
    "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem; az ágy és a bútorréteg sem változott",
    "nem_valtozott": "Cam_04_Master és minden más kamera; render.scene_camera = Cam_04_Master"
+  },
+  {
+   "azonosito": "v2b-1-k11b",
+   "datum": "2026-10-25",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter, 2026-10-25 00:05: a master ágy tengelye y = 6,40 m a jóváhagyott terv és a dugaljpozíciók szerint, a PR #15-ben; a main-be csak külön merge-jóváhagyás után",
+   "ok": "a modell ágya (tengely y 6,00) takarta a K14 kapcsolót és a D22/D23 dugaljat; a tervrajz ágyjele és a két éjjeli kiállás-csoport közepe y ≈ 6,40",
+   "butorreteg": [
+    "A902_Butor: Agy_05_1_TALLASEN_180x200 (fejtámla, keret, matrac, párna/takaró) és Szonyeg_05_1_200x300: y +0,40 – keret y 5,10–6,90 → 5,50–7,30",
+    "A902_Butor: Ejjeli_05_1_a/b: y +0,40, x −0,04 (eddig 3 cm-rel a keleti falba lógtak) → x 3,16–3,56; y 5,02–5,42 és 7,38–7,78",
+    "A902_Butor: Ejjeli_05_1_a/b_lampa: y +0,40, x −0,14 (a szekrény elejére; a K13/K14 és a D20–D23 elérhető marad) → x 3,19–3,33",
+    "Stil_Zenit és Stil_LakeForest: az ágy, az éjjeliszekrények, az olvasólámpák, a szőnyeg és az LF bronzcsík y +0,40; a teljes falas fejfal-burkolatok (Z_agyfej_panel_*, Z_agyfej_LED, L_agyfal_travertin, L_agyfal_LED) nem mozdultak",
+    "módszer: az eltolás a mesh-adatban, a location 0 marad (mint a fájl többi bútoránál)"
+   ],
+   "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem, 0 kamera",
+   "nem_valtozott": "Cam_04_Master és Cam_11_Master_Panorama (hely, forgatás, optika); render.scene_camera = Cam_04_Master"
   }
  ]
 }

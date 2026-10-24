@@ -1,0 +1,135 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "WSG_A902_v2b_alaprajz_ELOZETES_20261025_v2b1k11b_agy640_JAVASLAT_r2.blend",
+ "sha256": "9875cd570b85843387c8f7e9da32cea7735b3fbeb1396b5b6139a8b36e41ed28",
+ "cel": "05.1 master – ágy y 6,40 ellenőrzés (bútorréteg); JAVASLAT, PR #15",
+ "meresek": {
+  "agy_keret": [
+   1.56,
+   5.5,
+   0.0,
+   3.56,
+   7.3,
+   0.3
+  ],
+  "fejtamla": [
+   3.5,
+   5.5,
+   0.0,
+   3.56,
+   7.3,
+   1.05
+  ],
+  "agy_tengely_y": 6.4,
+  "kiallasok": {
+   "K14": {
+    "y": 5.319,
+    "fejtamla_szelétol_m": 0.181,
+    "takarja_a_fejtamla": false
+   },
+   "K13": {
+    "y": 7.51,
+    "fejtamla_szelétol_m": 0.21,
+    "takarja_a_fejtamla": false
+   },
+   "D22": {
+    "y": 5.24,
+    "fejtamla_szelétol_m": 0.26,
+    "takarja_a_fejtamla": false
+   },
+   "D23": {
+    "y": 5.159,
+    "fejtamla_szelétol_m": 0.341,
+    "takarja_a_fejtamla": false
+   },
+   "D21": {
+    "y": 7.589,
+    "fejtamla_szelétol_m": 0.289,
+    "takarja_a_fejtamla": false
+   },
+   "D20": {
+    "y": 7.669,
+    "fejtamla_szelétol_m": 0.369,
+    "takarja_a_fejtamla": false
+   }
+  },
+  "Ejjeli_05_1_a": [
+   3.16,
+   5.02,
+   0.0,
+   3.56,
+   5.42,
+   0.5
+  ],
+  "Ejjeli_05_1_b": [
+   3.16,
+   7.38,
+   0.0,
+   3.56,
+   7.78,
+   0.5
+  ],
+  "Ejjeli_05_1_a_lampa": [
+   3.19,
+   5.15,
+   0.5,
+   3.33,
+   5.29,
+   0.95
+  ],
+  "Ejjeli_05_1_b_lampa": [
+   3.19,
+   7.51,
+   0.5,
+   3.33,
+   7.65,
+   0.95
+  ],
+  "cam11": {
+   "loc": [
+    3.2,
+    6.1,
+    1.2
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    1.5708
+   ],
+   "lens": 20.0,
+   "az_agy_alapteruletén": true,
+   "tav_az_agytengelytol_m": 0.3,
+   "szem_a_matrac_folott_m": 0.68
+  },
+  "cam04": {
+   "loc": [
+    0.35,
+    4.3,
+    1.5
+   ],
+   "rot": [
+    1.4338,
+    -0.0,
+    -0.7448
+   ],
+   "lens": 20.0
+  }
+ },
+ "kepek": [
+  {
+   "kamera": "Cam_04_Master",
+   "fajl": "ellenorzes_Cam04_agy640_v2.png",
+   "mp": 3.2
+  },
+  {
+   "kamera": "Cam_11_Master_Panorama",
+   "fajl": "ellenorzes_Cam11_agy640_v2.png",
+   "mp": 3.1
+  },
+  {
+   "kamera": "JEL_felulnezet_cam",
+   "fajl": "ellenorzes_05_1_felulnezet_agy640_v2.png",
+   "mp": 2.2
+  }
+ ]
+}

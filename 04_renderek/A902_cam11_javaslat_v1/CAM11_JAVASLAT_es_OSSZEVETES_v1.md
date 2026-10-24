@@ -133,3 +133,17 @@ Szkriptek: `03_blender/geometry_v2/cam11/`. Validátor: `03_blender/validator_re
   - az erkély északi vége (téglafal vs. korlát);
   - az üvegfal-osztás pontos mezőszélessége (a modell 0,90/0,90/1,84 m; a fotó perspektívája nem mond ellent, mérendő).
 - **Nincs a képen:** bútor, kilátás (egyszínű égbolt).
+
+## Kiegészítés – 2026-10-25 00:40 (v2b-1-k11b)
+
+Ez a v1-es elemzés változatlan; a következő döntések és ellenőrzések azóta születtek.
+
+- **Ágy y-helye (1. nyitott kérdés):** Péter 2026-10-24 23:35 és 2026-10-25 00:05 döntése szerint a terv szerinti y 6,40 lett.
+  - A bútorrétegben elvégezve (keret y 5,50–7,30).
+  - Validátor, master bútor mód: PASS 0/0.
+  - Riport: `03_blender/validator_report_2026-10-25_v2b1k11b_agy640.md`.
+- **A Cam_11 nem mozdult** ([3,20; 6,10; 1,20]).
+  - Az ágyon van, a tengelytől 0,30 m-re.
+  - Az üvegfal a kép közepén marad.
+  - Ellenőrzőképek: `04_renderek/A902_agy640_javaslat_v1/`.
+- **Master-kamera (3. kérdés):** Péter 23:33-as és 00:05-ös döntése szerint a Cam_04 és a Cam_11 egyaránt marad.
