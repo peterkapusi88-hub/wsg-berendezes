@@ -131,6 +131,37 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - A kreatív stílusfejlesztés és a végleges promptok **Astra High** feladata. Claude a geometriai alapot, a költségellenőrzést és a GitHub-átadást készíti elő; a kész briefek a GitHubra kerülnek, Péternek ne kelljen fájlt másolnia.
 - *(2026-10-24 17:06, Péter – eldöntve)* **A stílus-összevetés alapképkészlete a `04_renderek/semleges_v2b/`.** A PR #7 `04_renderek/A902_alap_v2b/` képei nem összehasonlító alapok; a kiállás-réteg a Blender-fájlban marad.
 - *(2026-10-24 17:06, Péter)* A STYLE4-003 Astra-indítása **elhalasztva**: a folyamat áttervezés alatt. Addig Claude leírja, mit csinálna, és mi van a GitHub-csomagban.
+- *(2026-10-24 22:13, Péter – eldöntve)* **KEP-004 = 10 stílus × 4 helyiség = 40 kép.** A fürdő 06.2 (Cam_10) nincs halasztva.
+  - **Normál ChatGPT-chatben** készül, nem Astra Work-ben.
+  - Sorrend: próbakör S01 + S02 × 4 a Zenit/LF-kalibrációval, utána Gate-tel 16 + 16 kép.
+  - A teljes 40 nem indul automatikusan. A döntősök csak a teljes 10 × 4 után.
+  - Az Astra V2, a v3.1 sablon és a kreatív források változatlanok; a futtatható promptok verziózott összefűzéssel készülnek.
+  - Ez felülírja a 10/a pont utolsó sorában említett 30 képes, fürdő nélküli ütemezést.
+- *(2026-10-24 22:37–22:40, Péter – eldöntve)* **Master 05.1: gardróbfal az egész északi fülkében (kötelező).**
+  - A front stílusonként legyen „szexi” (tükör, tapétával vagy bőrhatású kárpittal bevont…). A választást Péter Claude-ra bízta, Astra felülbírálhatja.
+  - Leírás: `05_promptok/A902_05_1_gardrobfal_FIXED_kiegeszites_v1.md`.
+- *(2026-10-24 22:57, Péter – eldöntve)* **Minden lámpa Philips Hue-kompatibilis:**
+  - E27/E14/GU10 foglalat, a burába beférő Hue-izzóval, vagy Hue lámpatest/Lightstrip;
+  - fix blokk minden képpromptban: `05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md`.
+- *(2026-10-24 23:33–23:39, Péter – eldöntve)*
+  - **Master 05.1 mindkét kamerával:** Cam_04 + Cam_11 (a Cam_11 a draft PR #15-ből, beolvasztás „mehet”-re). Így stílusonként 5 kép, a KEP-004 összesen 50 stíluskép + 6 kalibráció.
+  - **Ágy a terv szerinti helyen (y 6,40),** a két éjjeli dugaljcsoport között („ahogy szerinted jó”). A Blender bútorrétegét a PR #15-ben javítom.
+  - **Brisia helyett választhatok:** a Brisia család függesztett változata lett, 1 gömb Ø50 (Kave L00152CR05, E27, Ø97 mm-es nyílás). A 4 gömbös Brisia mennyezeti, nem lóg az asztal fölé.
+  - **Olvasólámpa:** designos legyen, és Hue-izzó férjen bele. S01: Kave Raze (E27); S02: Kave Aleyla, bordó (E14). Minden későbbi stílusnál ugyanez a szabály.
+  - **A Kave-oldalt a böngészőben olvashatom és fotózhatom**, ahogy ő is teszi („nekik csináljuk a businesst”).
+- *(2026-10-25 00:05, Péter – eldöntve)*
+  - **KEP-004 1a: az előkészítés jóváhagyva („mehet”).** Elsőként egyetlen képet tesztelünk, Péter közvetlenül a ChatGPT Imagesben futtatja: **S01 Kyoto Ink, Cam_02 nappali–terasz** (csomag 03). Ellenőrzés után Péter dönt a többi kép indításáról. AI-képet Claude nem generál.
+  - **PR #15: beolvasztás még nem.** Előbb:
+    - a master ágy tengelye y = 6,40 m a Blender bútorrétegében;
+    - a fejvég és a kapcsolók hozzáférhetőségének ellenőrzése, a Cam_11-nézet ellenőrzése;
+    - a PR frissítése az aktuális main-ről, a validátor újrafuttatása;
+    - a merge-jóváhagyást Péter külön adja.
+  - A Cam_04 és a Cam_11 egyaránt marad. Az Astra eredeti promptjai változatlanok. A 16 előkészített képcsomag megmarad.
+- *(2026-10-25 00:30, Péter kérdése – nyitott)* **180 vagy 200 cm széles ágy a master 05.1-ben?**
+  - Az ágy helye a terv szerinti: a tervrajzon y 5,48–7,31, a modellben 5,50–7,30.
+  - **180:** kényelmesen elfér. A K13/K14 kapcsolók 18–21 cm-re vannak a fejvégtől, az északi átjáró a gardróbfrontig 0,74 m.
+  - **200:** csak legfeljebb kb. 2,05 m külső szélességű kerettel/fejvéggel fér a kapcsolók közé. Az átjáró így 0,62 m (minimum 0,60), az 50 cm-es gardróbajtó kinyitva kb. 12 cm-re áll meg az ágytól.
+  - Claude javaslata: 180×200. Döntés Péteré; 200 esetén konkrét termék külső méretével méretezünk.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -172,3 +203,22 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
 - **Scope-bővítés (Péter, 2026-10-24 21:02–21:08):** a tíz stílust **négy helyiségre** ítéljük meg – nappali–terasz (Cam_02), konyha–étkező (Cam_03), master 05.1 (Cam_04), fürdő **06.2** (javasolt; új Cam_10 kamera, a lockba még nem rögzített; alternatíva 06.1 – Péter dönt). **V2 = kizárólag kreatív belsőépítészeti tervezés + promptírás:** stílusonként egy lakáskoncepció, négy helyiségterv, négy renderprompt (40), rövid változásjegyzék; nincs újraszámolás, újrakutatás, kép. **Megőrzés:** a STYLE10-002 eredmény, Astra eredeti §10-promptjai, a Cam_02 v2 sablon és a Zenit/LF referenciák változatlanok; régi és új promptok külön, verziózott fájlokban (`05_promptok/A902_STYLE10_4helyiseg_prompt_sablon_v3.md` séma; Astra kimenete `…_promptok_ASTRA_V2_r1.md`). Astra javasolhat árkönyvtáron kívüli, valós Westwing/Kave Home-terméket teljes rekorddal. **KEP-004 két részben:** 1. rész 12 kép (Zenit/LF kalibráció Cam_02+Cam_04 + két karakteresen eltérő stílus × 4 helyiség), Gate után 2. rész 32 kép két adagban; esti sorozat csak a döntősökre. A döntősök a teljes négyhelyiséges látványvilág alapján.
 - **Nyitott döntés Péternél:** V2 indítása (Medium igazolásával); fürdő 06.2 vagy 06.1; S09 csere / S10 összevonás; a JSON feltöltése; Cam_02/03/04 alapképek újrarenderelése v2b-1-ből és a Cam_10 fürdőkamera rögzítése + alapképe (Blender-munka engedélye) – ez a KEP-004 kapuja.
 - **KEP-004 kameraalapok beolvasztva (Péter „mehet”, 2026-10-24 22:07; PR #14, merge `be15c61`):** v2b-1-k10 – Cam_02/03/04 bútor nélküli alapképek (`04_renderek/A902_alap_v2b1/`), **Cam_10_Furdo_06_2 végleges** ([14,50; 6,62; 1,50], 16 mm), 06.2 akna/falblokk a lockban. A jóváhagyás **nem** zárja le a modell régi szaniter-ütközéseit és **nem** engedélyez AI-képgenerálást. Fürdő-csereblokk a képfázishoz: `05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md`. Következő (Péter végzi manuálisan): master 05.1 panorámakamera (Cam_11) ellenőrzése és a 30 képes, fürdő nélküli KEP-004 ütemezés.
+- **KEP-004 ChatGPT Images – a próbakör csomagjai készen (2026-10-24 23:30). Képgenerálás NEM indult.** Péter 22:13-as utasítása szerint, a 7. pont döntéseivel.
+  - **Terv:** `ai-coordination/requests/WSG-20261024-STYLE10-KEP-004_CHATGPT_IMAGES_v1.md` (40 képes ütemezés, kapuk, nyitott kérdések). Az eredeti KEP-004 brief változatlan.
+  - **Promptok:** 12 összefűzött prompt a `05_promptok/KEP004_ChatGPT_Images_v1/` mappában; szó szerinti ellenőrzés: hiba 0; Hue-visszaellenőrzés kész.
+  - **Csomagok és átvétel a Macen:** `~/Downloads/WSG/KEP-004/` (képcsomagok, átvételi mappa, archiváló szkript). Archívum: `04_renderek/ai_chatgpt/STYLE10_KEP004/`.
+  - **Kave Home:** a termékképek Péter képernyőképeiből kivágva (20 tétel + méretrajzok), a repóba nem kerülnek. K8: az Eamy (55 × 53 × 75) és a Ciselia (52,5 × 55 × 75) mérete rögzítve.
+  - **Cam_11 master-panoráma:** javaslat, draft PR #15, nincs beolvasztva.
+  - **Kapuk:**
+    - 1a (6 kép): indítható Péter „mehet”-jével;
+    - 1b (fürdő, 2 kép): az 1a Gate után;
+    - 1c (master, 8 kép: Cam_04 + Cam_11 párban, ugyanabban a chatben): ágy és olvasólámpa kész. A Cam_11-hez a PR #15 beolvasztása kell („mehet”).
+  - **2026-10-25 00:05 frissítés:** 16 csomag; Brisia-függeszték az S02 étkezőbe, Raze és Aleyla olvasólámpa. Hue-visszaellenőrzés mind a 16 promptra.
+    - A 2–3. adagban a Novae beépített LED-es, ezért cserélendő.
+    - Kave-specifikációk a böngészőből.
+  - **2026-10-25 00:40 – a PR #15 frissítve, nincs beolvasztva.**
+    - A master ágy tengelye y 6,40 a bútorrétegben (v2b-1-k11b).
+    - Validátor, master-bútor mód: **PASS 0/0**. Előtte FAIL 6/5 volt: a K14 kapcsoló takarva, az éjjeliszekrények a falban és az ajtó útjában.
+    - A Cam_11 a helyén marad ([3,20; 6,10; 1,20], az ágyon).
+    - Riport a PR-ágon: `03_blender/validator_report_2026-10-25_v2b1k11b_agy640.md`. Merge Péter külön jóváhagyásával.
+  - **Első teszt (00:05):** csak a 03-as csomag (S01 Kyoto Ink, Cam_02), Péter futtatja.
