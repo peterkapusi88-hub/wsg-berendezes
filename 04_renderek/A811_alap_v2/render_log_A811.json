@@ -1,31 +1,31 @@
 {
  "blender": "5.2.3 LTS",
- "fajl": "WSG_A812_alaprajz_ELOZETES_20261024.blend",
- "lakas": "A812",
+ "fajl": "WSG_A811_alaprajz_ELOZETES_20261024.blend",
+ "lakas": "A811",
  "kepek": [
   {
    "kamera": "Cam_02_Nappali_erkely",
-   "fajl": "A812_Alap-v1_blender_02_nappali-erkely.png",
-   "mp": 1.2
+   "fajl": "A811_Alap-v2_blender_02_nappali-erkely.png",
+   "mp": 1.8
   },
   {
    "kamera": "Cam_03_Etkezo_konyha",
-   "fajl": "A812_Alap-v1_blender_03_etkezo-konyha.png",
-   "mp": 1.2
+   "fajl": "A811_Alap-v2_blender_03_etkezo-konyha.png",
+   "mp": 1.1
   },
   {
    "kamera": "Cam_04_Haloszoba",
-   "fajl": "A812_Alap-v1_blender_04_haloszoba.png",
-   "mp": 1.0
+   "fajl": "A811_Alap-v2_blender_04_haloszoba.png",
+   "mp": 1.1
   },
   {
-   "kamera": "Cam_05_Haloszoba_05_2",
-   "fajl": "A812_Alap-v1_blender_05_haloszoba-2.png",
-   "mp": 1.2
+   "kamera": "Cam_05_Haloszoba_05_1",
+   "fajl": "A811_Alap-v2_blender_05_haloszoba-2.png",
+   "mp": 1.1
   },
   {
    "kamera": "Cam_06_Alaprajz_lakas",
-   "fajl": "A812_Alap-v1_blender_06_alaprajz-kiallasok.png",
+   "fajl": "A811_Alap-v2_blender_06_alaprajz-kiallasok.png",
    "mp": 0.2,
    "megjegyzes": "Workbench, tárgyszín, mennyezet rejtve"
   }
@@ -45,7 +45,7 @@
   "fenyek": "nincs"
  },
  "rejtve": [
-  "A812_Villamos_TERV"
+  "A811_Villamos_TERV"
  ],
  "bútor": "nincs a modellben"
 }

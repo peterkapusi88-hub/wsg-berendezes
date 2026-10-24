@@ -1,6 +1,6 @@
 {
  "lakas": "A-812",
- "verzio": "geometria v1 – ELŐZETES (tervből, helyszínen nem mért)",
+ "verzio": "geometria v2 – ELŐZETES (tervből, helyszínen nem mért; a független tervhűségi ellenőrzés javításaival)",
  "datum": "2026-10-24",
  "forras": {
   "pdf": "WGR1_meretezett_alaprajzok.pdf (vevői adat, nincs a repóban)",
@@ -32,23 +32,23 @@
    9.02,
    17.12
   ],
-  "Fal_02": [
+  "Kulso_02": [
+   3.015,
+   15.81,
+   3.32,
+   16.82
+  ],
+  "Fal_03": [
    6.42,
    14.355,
    6.52,
    16.82
   ],
-  "Kulso_03": [
+  "Kulso_04": [
    8.72,
    6.1,
    9.02,
    16.82
-  ],
-  "Kulso_04": [
-   3.015,
-   15.81,
-   3.32,
-   16.808
   ],
   "Fal_05": [
    6.52,
@@ -57,7 +57,7 @@
    14.465
   ],
   "Fal_06": [
-   7.305,
+   7.345,
    14.34,
    7.385,
    14.465
@@ -75,10 +75,10 @@
    13.01
   ],
   "Fal_09": [
-   7.105,
+   7.145,
    12.615,
    7.185,
-   12.745
+   12.74
   ],
   "Fal_10": [
    3.32,
@@ -106,7 +106,7 @@
   ],
   "Fal_14": [
    6.07,
-   10.89,
+   10.93,
    6.17,
    11.9
   ],
@@ -126,7 +126,7 @@
    6.055,
    9.99,
    6.185,
-   10.07
+   10.03
   ],
   "Fal_18": [
    6.07,
@@ -140,11 +140,11 @@
    8.15,
    9.8
   ],
-  "Kulso_20": [
-   3.02,
-   7.835,
+  "Fal_20": [
+   3.12,
+   7.89,
    3.32,
-   8.105
+   8.05
   ],
   "Fal_21": [
    3.32,
@@ -158,17 +158,17 @@
    7.32,
    7.7
   ],
-  "Fal_23": [
-   6.055,
-   6.875,
-   6.185,
-   6.955
-  ],
-  "Kulso_24": [
+  "Kulso_23": [
    3.015,
    5.6,
    3.32,
    6.93
+  ],
+  "Fal_24": [
+   6.055,
+   6.875,
+   6.185,
+   6.915
   ],
   "Fal_25": [
    6.07,
@@ -202,7 +202,7 @@
   ],
   "Kulso_30": [
    -0.975,
-   5.0,
+   4.52,
    -0.67,
    5.6
   ],
@@ -220,7 +220,7 @@
   ],
   "Kulso_33": [
    -0.67,
-   4.695,
+   4.575,
    0.0,
    5.0
   ],
@@ -243,16 +243,16 @@
    4.8
   ],
   "Fal_37": [
-   -0.3,
-   4.575,
-   0.0,
-   4.695
-  ],
-  "Fal_38": [
    7.22,
    4.1,
    7.32,
    4.7
+  ],
+  "Fal_38": [
+   -0.67,
+   4.52,
+   -0.47,
+   4.575
   ],
   "Fal_39": [
    8.25,
@@ -272,17 +272,17 @@
    8.25,
    2.9
   ],
-  "Kulso_42": [
+  "Fal_42": [
+   -0.465,
+   -1.031,
+   -0.305,
+   0.925
+  ],
+  "Kulso_43": [
    -0.305,
    -1.031,
    0.0,
    0.925
-  ],
-  "Fal_43": [
-   -0.465,
-   -0.07,
-   -0.305,
-   0.01
   ],
   "Kulso_44": [
    0.0,
@@ -329,10 +329,96 @@
    16.82
   ]
  },
+ "elotetfal": {
+  "Elotetfal_GK_EL4": [
+   7.32,
+   4.575,
+   8.25,
+   4.7
+  ]
+ },
+ "almennyezet": {
+  "Almennyezet_eloter": {
+   "r": [
+    [
+     7.22,
+     2.9,
+     7.32,
+     4.1
+    ],
+    [
+     7.32,
+     2.9,
+     8.25,
+     4.575
+    ]
+   ],
+   "z": 2.5,
+   "felirat": "gk. álm. as.: + 2,50 m"
+  },
+  "Almennyezet_konyhasarok": {
+   "r": [
+    [
+     7.3,
+     0.0,
+     8.25,
+     0.3
+    ]
+   ],
+   "z": 2.45,
+   "felirat": "nor. gk. álm. as.: + 2,45 m (a felsőszekrény magasságát korlátozza)"
+  }
+ },
+ "kapcsolo_profil": {
+  "Ablak_05_1_05_2_kapcsoloprofil": {
+   "r": [
+    3.04,
+    7.835,
+    3.12,
+    8.105
+   ],
+   "Hn": 2.57,
+   "megj": "v2: a két ablak közti kapcsoló-/tokprofil a tok síkjában (Homlokzati fal réteg)"
+  }
+ },
+ "francia_korlat": {
+  "x": [
+   2.915,
+   2.935
+  ],
+  "hk": 1.0,
+  "szakaszok": [
+   [
+    6.98,
+    7.955
+   ],
+   [
+    7.985,
+    9.5
+   ],
+   [
+    9.53,
+    10.93
+   ],
+   [
+    13.06,
+    13.91
+   ],
+   [
+    13.94,
+    14.805
+   ],
+   [
+    14.835,
+    15.76
+   ]
+  ],
+  "megj": "v2: francia erkély korlát a hálók padlóig érő ablakai előtt – a terven szerepel (Lakatos Külső réteg, 12. old.; a 11. old. 1:50-es lapja 10,29-nél levágva); típus és magasság a terven nincs: semleges pálcás korlát, 1,00 m (NEM IGAZOLT)"
+ },
  "szemoldok": {
   "Ajto_05_1_szemoldok": [
    6.055,
-   6.955,
+   6.915,
    2.1,
    6.185,
    7.815,
@@ -340,17 +426,17 @@
   ],
   "Ajto_05_2_szemoldok": [
    6.055,
-   10.07,
+   10.03,
    2.1,
    6.185,
-   10.89,
+   10.93,
    2.7
   ],
   "Ajto_05_3_szemoldok": [
    6.245,
    12.63,
    2.1,
-   7.105,
+   7.145,
    12.73,
    2.7
   ],
@@ -358,7 +444,7 @@
    6.595,
    14.355,
    2.1,
-   7.305,
+   7.345,
    14.455,
    2.7
   ],
@@ -417,6 +503,14 @@
    3.32,
    15.81,
    2.7
+  ],
+  "Ablak_05_1_05_2_szemoldok": [
+   3.02,
+   7.835,
+   2.57,
+   3.32,
+   8.105,
+   2.7
   ]
  },
  "ajtok": {
@@ -424,7 +518,7 @@
    "tipus": "nyilo",
    "fal": "y",
    "nyilas": [
-    6.955,
+    6.915,
     7.815
    ],
    "fal_sik": [
@@ -449,8 +543,8 @@
    "tipus": "nyilo",
    "fal": "y",
    "nyilas": [
-    10.07,
-    10.89
+    10.03,
+    10.93
    ],
    "fal_sik": [
     6.055,
@@ -475,7 +569,7 @@
    "fal": "x",
    "nyilas": [
     6.245,
-    7.105
+    7.145
    ],
    "fal_sik": [
     12.63,
@@ -500,7 +594,7 @@
    "fal": "x",
    "nyilas": [
     6.595,
-    7.305
+    7.345
    ],
    "fal_sik": [
     14.355,
@@ -698,10 +792,14 @@
      "tipus": "ablak"
     }
    ],
+   "melyedes": [
+    6.93,
+    7.89
+   ],
    "szobak": [
     "05.1"
    ],
-   "megj": "padlóig érő nyíló ablak (45°-os nyitásjel); francia erkély korlátja a rajzon nem szerepel – helyszínen ellenőrizendő"
+   "megj": "padlóig érő nyíló ablak (45°-os nyitásjel); előtte francia erkély korlát (terv: Lakatos Külső réteg; típus, magasság a terven nincs)"
   },
   "Ablak_05_2": {
    "tengely": "y",
@@ -795,10 +893,14 @@
      "tipus": "ablak"
     }
    ],
+   "melyedes": [
+    8.05,
+    10.98
+   ],
    "szobak": [
     "05.2"
    ],
-   "megj": "két kétszárnyú, padlóig érő nyíló ablak"
+   "megj": "két kétszárnyú, padlóig érő nyíló ablak; előtte francia erkély korlát (terv)"
   },
   "Ablak_05_3": {
    "tengely": "y",
@@ -877,7 +979,7 @@
    "szobak": [
     "05.3"
    ],
-   "megj": "kétszárnyú + egyszárnyú, padlóig érő nyíló ablak"
+   "megj": "kétszárnyú + egyszárnyú, padlóig érő nyíló ablak; előtte francia erkély korlát (terv)"
   }
  },
  "szobak": {
@@ -943,7 +1045,7 @@
      7.32,
      2.9,
      8.25,
-     4.7
+     4.575
     ],
     [
      7.22,
@@ -974,6 +1076,12 @@
      4.8,
      8.25,
      6.3
+    ],
+    [
+     7.22,
+     4.8,
+     7.32,
+     5.6
     ]
    ]
   },
@@ -1016,12 +1124,6 @@
      7.99,
      6.07,
      11.23
-    ],
-    [
-     3.32,
-     11.23,
-     4.07,
-     11.33
     ]
    ]
   },
@@ -1029,6 +1131,12 @@
    "nev": "10.2 GARDRÓB",
    "padlo": "parketta",
    "r": [
+    [
+     3.32,
+     11.23,
+     4.07,
+     11.33
+    ],
     [
      3.32,
      11.33,
@@ -1120,7 +1228,7 @@
   "P_kuszob_Ajto_05_1": {
    "r": [
     6.055,
-    6.955,
+    6.915,
     6.185,
     7.815
    ],
@@ -1129,9 +1237,9 @@
   "P_kuszob_Ajto_05_2": {
    "r": [
     6.055,
-    10.07,
+    10.03,
     6.185,
-    10.89
+    10.93
    ],
    "anyag": "parketta"
   },
@@ -1139,7 +1247,7 @@
    "r": [
     6.245,
     12.63,
-    7.105,
+    7.145,
     12.73
    ],
    "anyag": "parketta"
@@ -1148,7 +1256,7 @@
    "r": [
     6.595,
     14.355,
-    7.305,
+    7.345,
     14.455
    ],
    "anyag": "keramia"
@@ -1195,7 +1303,7 @@
   "korlat": [
    [
     "x",
-    -2.005,
+    -2.03,
     -0.945,
     2.31
    ],
@@ -1212,15 +1320,16 @@
     4.52
    ]
   ],
+  "korlat_oszto": 0.11,
   "valaszfal": [
    [
-    -2.035,
+    -1.955,
     -1.025,
-    -0.465,
+    -0.51,
     -0.945
    ]
   ],
-  "megj": "a kontúr a rajz erkélyvonalaiból (a bal szél a 12. old.-on nem kirajzolt: az A-811-ével egyező x −2,035 feltételezve); padlószint, korlát NEM IGAZOLT"
+  "megj": "a kontúr a rajz erkélyvonalaiból (v2: a bal szél x −2,035 a 11. és a 12. oldalon is ki van rajzolva – igazolt); a korlát pálcás (terv, ≈ 11 cm osztás); padlószint (−0,15 m) és korlátmagasság (1,10 m) a terven nincs, NEM IGAZOLT; fém osztó az A-811 erkélye felé, magassága a terven nincs"
  },
  "erkely_terv_m2": 7.04,
  "plafon": [
@@ -1323,10 +1432,10 @@
   {
    "helyiseg": "Előtér",
    "terv_m2": 1.78,
-   "modell_m2": 1.79,
-   "modell_m2_ablakmelyedessel": 1.79,
-   "elteres_m2": 0.01,
-   "elteres_szazalek": 0.8,
+   "modell_m2": 1.68,
+   "modell_m2_ablakmelyedessel": 1.68,
+   "elteres_m2": -0.1,
+   "elteres_szazalek": -5.7,
    "szobak": [
     "eloter"
    ]
@@ -1346,10 +1455,10 @@
   {
    "helyiseg": "Gardrób (közlekedő)",
    "terv_m2": 1.48,
-   "modell_m2": 1.39,
-   "modell_m2_ablakmelyedessel": 1.39,
-   "elteres_m2": -0.09,
-   "elteres_szazalek": -5.7,
+   "modell_m2": 1.48,
+   "modell_m2_ablakmelyedessel": 1.48,
+   "elteres_m2": -0.0,
+   "elteres_szazalek": -0.3,
    "szobak": [
     "kozlekedo_gardrob"
    ]
@@ -1358,9 +1467,9 @@
    "helyiseg": "Szoba (05.1)",
    "terv_m2": 8.15,
    "modell_m2": 7.96,
-   "modell_m2_ablakmelyedessel": 8.14,
-   "elteres_m2": -0.01,
-   "elteres_szazalek": -0.1,
+   "modell_m2_ablakmelyedessel": 8.15,
+   "elteres_m2": -0.0,
+   "elteres_szazalek": -0.0,
    "szobak": [
     "05_1"
    ]
@@ -1368,10 +1477,10 @@
   {
    "helyiseg": "Szoba (05.2)",
    "terv_m2": 9.5,
-   "modell_m2": 8.99,
-   "modell_m2_ablakmelyedessel": 9.56,
-   "elteres_m2": 0.06,
-   "elteres_szazalek": 0.6,
+   "modell_m2": 8.91,
+   "modell_m2_ablakmelyedessel": 9.5,
+   "elteres_m2": -0.0,
+   "elteres_szazalek": -0.0,
    "szobak": [
     "05_2"
    ]
@@ -1379,10 +1488,10 @@
   {
    "helyiseg": "Gardrób (10.2)",
    "terv_m2": 3.21,
-   "modell_m2": 3.14,
-   "modell_m2_ablakmelyedessel": 3.14,
-   "elteres_m2": -0.07,
-   "elteres_szazalek": -2.3,
+   "modell_m2": 3.21,
+   "modell_m2_ablakmelyedessel": 3.21,
+   "elteres_m2": 0.0,
+   "elteres_szazalek": 0.1,
    "szobak": [
     "gardrob_10_2"
    ]
@@ -1434,17 +1543,18 @@
   }
  ],
  "terv_ossz_m2": 102.05,
- "modell_ossz_m2": 100.78,
- "modell_ossz_m2_ablakmelyedessel": 102.83,
+ "modell_ossz_m2": 100.75,
+ "modell_ossz_m2_ablakmelyedessel": 102.82,
  "szoba_fal_atfedes": {
-  "kozlekedo": 0.0038,
-  "05_1": 0.0012,
-  "05_2": 0.0014,
-  "gardrob_10_3": 0.0026,
-  "furdo_06_2": 0.0018,
+  "kozlekedo": 0.0019,
+  "05_1": 0.0006,
+  "05_2": 0.0008,
+  "gardrob_10_3": 0.0012,
+  "furdo_06_2": 0.0014,
   "hth_06_1": 0.0003,
   "furdo_08_09": 0.0003
  },
+ "resek_6cm_alatt": [],
  "statusz": {
   "falak_nyilasok": "TERV SZERINT (vektoros rajzból)",
   "belmagassag": "HELYSZÍNEN MÉRT tartomány (Kémeri), modell: 2,70 m",

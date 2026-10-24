@@ -1,5 +1,5 @@
 # A-811 / A-812 alapképek utómunkája (2026-10-24, Claude):
-#  1) a Blender-PNG-k metaadat nélkül (a „File” mező a Mac helyi útvonalát tartalmazná) a 04_renderek/<LAKÁS>_alap_v1/ mappába;
+#  1) a Blender-PNG-k metaadat nélkül (a „File” mező a Mac helyi útvonalát tartalmazná) a 04_renderek/<LAKÁS>_alap_v2/ mappába;
 #  2) a felülnézeti ellenőrző képre 1 m-es rács, tengelyfeliratok, ML- és HF-azonosítók és jelmagyarázat kerül.
 # Futtatás: python3 alapkep_utomunka_a8.py <render-kimenet mappa (out_A811 / out_A812 szülője)> <repo>
 import sys, os, json, math
@@ -9,7 +9,7 @@ F = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 15)
 FS = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 12)
 FB = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 17)
 for L in ('A811', 'A812'):
-    src = os.path.join(SRC, f'out_{L}'); dst = os.path.join(REPO, '04_renderek', f'{L}_alap_v1'); os.makedirs(dst, exist_ok=True)
+    src = os.path.join(SRC, f'out_{L}'); dst = os.path.join(REPO, '04_renderek', f'{L}_alap_v2'); os.makedirs(dst, exist_ok=True)
     lock = json.load(open(os.path.join(REPO, '03_blender', f'geometry_lock_{L}.json'), encoding='utf-8'))
     V = json.load(open(os.path.join(REPO, '01_alaprajzok', 'villamos_kiallasok', f'{L}_villamos.json'), encoding='utf-8'))
     for fn in sorted(os.listdir(src)):

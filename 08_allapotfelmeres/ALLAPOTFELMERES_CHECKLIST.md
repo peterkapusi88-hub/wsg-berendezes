@@ -48,10 +48,12 @@
 | C5 | 08 WC, 09 HTH | bidés ülőke kiállás; a HTH-ban szárító dugalj a mosó fölött | P2 |
 | C6 | Belmagasság | ~~nincs adat~~ → **2,69–2,72 m mérve** (Kémeri, 2026-10-21); csak 1–2 kontrollmérés | P3 |
 | C7 | Erkély | 14,30 m², greslap; kilátás-fotó | P2 |
-| C8 | **Erkély – a modell feltételezései** | lézer: belső padló → greslap szintkülönbség (a modell −15 cm-t feltételez); korlát típusa (pálcás, üveg?) és magassága (a modell 1,10 m-t); a felső végen az A-812 felőli osztó (a rajzon sraffozott, ~8 cm) anyaga és magassága; az erkélylemez széle (rajz: x −2,035) | P1 |
+| C8 | **Erkély – a modell feltételezései** | lézer: belső padló → greslap szintkülönbség (a modell −15 cm-t feltételez); korlát típusa (pálcás, üveg?) és magassága (a modell 1,10 m-t); a felső végen az A-812 felőli osztó (a terven fém, 1,445 × 0,08 m) magassága; az erkélylemez széle (rajz: x −2,035) | P1 |
 | C9 | **Nappali üvegfal** | az osztás a terv szerint: egyszárnyú erkélyajtó, beton oszlop (y 7,69–7,85, az üvegfal síkjában), fix mező, kétszárnyú erkélyajtó. A szárnyak nyitásiránya és a tok színe | P1 |
 | C10 | **Lámpakiállás a hűtő-fűtő mezőben** | ML02–ML07 és ML09 (konyha, nappali, mindkét háló, gardrób) a mezőn belül van. Hőkamerával fűtési üzemben: csőmentes-e a kiállás körüli sáv; van-e rögzítési pont a dobozban | P1 |
-| C11 | Előtér, fürdők | álmennyezet kiterjedése és magassága (a rajzon csak a WC-ben: +2,40); az „EL4” elosztó (~1,0 × 0,12 m beépítés a konyha felőli falon); a fürdők előtétfalának mélysége (a terv m²-e ennyivel kisebb) | P2 |
+| C11 | Előtér, fürdők | álmennyezet kiterjedése és magassága (a rajzon csak a WC-ben: +2,40; Péter összesítője szerint az előtérben és a fürdőkben is); az **EL4 elosztó 12,5 cm-es GK előtétfala** (x 7,25–8,25, a konyha felőli falon; a modellben benne, az előtérszekrény ennyivel sekélyebb) – megépült-e, milyen mély; a fürdők előtétfalának és a 06.1 kádmagasságú padkájának mérete | P2 |
+| C12 | **Konyha és előtér burkolata** | a PDF ellentmondásos: az 5. oldalon „kerámia”, a 7. oldali burkolatkiosztási terven „lam. parketta” – melyik épült meg (fotó). A modell és az alapképek parkettát mutatnak | P1 |
+| C13 | Nyílászáró-magasság | a 2,57-es névleges üvegfal-magasság a kész padlótól mérve mennyi (a modell a kész padlótól számol) | P2 |
 
 ## D. A-812 – vevői módosításokkal (102,05 m², erkély 7,04 m², Grey Soria Oak)
 | # | Hely | Mit | P |
@@ -63,10 +65,10 @@
 | D5 | Nappali–étkező–konyha | 7,22 m-es nappaliméret, 5,80 / 5,60 / 4,70; konyha 2,45 × 2,80, MG-hely | P1 |
 | D6 | Közlekedő | a gardróbrészben nincs gipszkarton álmennyezet (2026-04-28-i korrekció) | P3 |
 | D7 | Belmagasság | ~~nincs adat~~ → **2,69–2,73 m mérve** (Kémeri); csak kontroll | P3 |
-| D8 | **Hálók padlóig érő nyíló ablakai** (05.1, 05.2, 05.3) | van-e francia erkély korlátja (a rajzon nincs); a szárnyak nyitásmódja (a rajzon 45°-os ablakjel); a tok és a mellvéd | P1 |
+| D8 | **Hálók padlóig érő nyíló ablakai** (05.1, 05.2, 05.3) | a francia erkély korlát a terven **szerepel** (Lakatos Külső réteg, 6 szakasz; a modellben semleges pálcás, 1,00 m): típusa (pálcás, üveg?), magassága, rögzítése – fotó; a szárnyak nyitásmódja (a rajzon 45°-os ablakjel); a 05.1 és 05.2 ablaka közti 16 cm-es oszlop és kapcsolóprofil | P1 |
 | D9 | **Lámpakiállás a hűtő-fűtő mezőben** | ML03–ML08, ML17, ML18 (nappali-étkező, mindhárom háló, gardróbok) – hőkamerás ellenőrzés, mint C10 | P1 |
-| D10 | **Erkély – a modell feltételezései** | szint (a modell −15 cm), korlát, az A-811 felőli osztó; a bal szél helye (a 12. oldalon nincs kirajzolva, a modell x −2,035-öt feltételez) | P1 |
-| D11 | Előtér, konyha, közlekedő | álmennyezet: előtér +2,50, konyhasarok +2,45 (rajz) – kiterjedés; a közlekedő bejáratánál (y ≈ 4,75) a rajz piros kettős vonala: tolóajtó, küszöb vagy más? | P2 |
+| D10 | **Erkély – a modell feltételezései** | szint (a modell −15 cm), korlátmagasság (a típus a terven pálcás), az A-811 felőli fém osztó magassága; a bal szél (x −2,035) a 11. és 12. oldalon kirajzolt – helyszínen csak szemrevételezés | P1 |
+| D11 | Előtér, konyha, közlekedő | álmennyezet: előtér +2,50, konyhasarok +2,45 (rajz, a modellben benne) – kiterjedés, mert a konyhasarok a felsőszekrény magasságát korlátozza; az **EL4 elosztó 12,5 cm-es GK előtétfala** az előtér gardrób felőli falán (y 4,575–4,70) – megépült-e; a közlekedő bejáratánál (y ≈ 4,75) a rajz piros kettős vonala: tolóajtó, küszöb vagy más? | P2 |
 | D12 | Fürdők | 06.2 a 2,29⁵-ös méretszám az előtétfalig mér – az előtétfal mélysége; 08/09 a beépített sarokkád mérete | P2 |
 
 ## D/2. Közös – kültéri rendeléshez

@@ -20,10 +20,18 @@ for flat in ('A811', 'A812'):
     P = lambda x, y: ((x - c[0]) * px, (c[3] - y) * px)
     rect = lambda r, **kw: d.rectangle([P(r[0], r[3]), P(r[2], r[1])], **kw)
     for e in G['erkely']['lapok']: rect(e, fill=(120, 200, 120, 60), outline=(40, 140, 40, 200))
+    for e in G['erkely']['valaszfal']: rect(e, fill=(20, 20, 20, 255))   # fém osztó
     for kk, s in G['szobak'].items():
         for r in s['r']: rect(r, fill=(80, 140, 255, 28), outline=(40, 90, 230, 160))
     for n, r in G['walls'].items(): rect(r, fill=(255, 120, 0, 150), outline=(190, 60, 0, 255))
     for n, r in G['aknak'].items(): rect(r, fill=(110, 110, 110, 170), outline=(40, 40, 40, 255))
+    for n, r in G.get('elotetfal', {}).items(): rect(r, fill=(200, 0, 200, 170), outline=(120, 0, 120, 255))   # v2: GK előtétfal
+    for n, a in G.get('almennyezet', {}).items():   # v2: álmennyezet (szaggatott keret helyett vékony lila keret)
+        for r in a['r']: rect(r, outline=(150, 0, 200, 255), width=2)
+    for n, q in G.get('kapcsolo_profil', {}).items(): rect(q['r'], fill=(0, 120, 255, 160), outline=(0, 60, 200, 255))
+    FK = G.get('francia_korlat')
+    if FK:
+        for a0, a1 in FK['szakaszok']: rect([FK['x'][0] - 0.01, a0, FK['x'][1] + 0.01, a1], fill=(20, 20, 20, 255))
     for n, a in G['ajtok'].items():
         (a0, a1), (w0, w1) = a['nyilas'], a['fal_sik']
         rect([a0, w0, a1, w1] if a['fal'] == 'x' else [w0, a0, w1, a1], fill=(0, 200, 90, 150))
@@ -52,6 +60,6 @@ for flat in ('A811', 'A812'):
     im = Image.alpha_composite(im, lay).convert('RGB')
     d2 = ImageDraw.Draw(im)
     d2.rectangle([0, 0, im.width, 26], fill=(255, 255, 255))
-    d2.text((8, 5), f"{G['lakas']} geometria v1 – ELŐZETES (tervből) · narancs: fal · szürke: akna · zöld: ajtó + nyitás · kék: üvegfal + szárny · keret: helyiség · piros: kamera",
+    d2.text((8, 5), f"{G['lakas']} geometria v2 – ELŐZETES (tervből) · narancs: fal · szürke: akna · lila: GK előtétfal / álmennyezet-keret · zöld: ajtó + nyitás · kék: üvegfal + szárny · fekete: fém korlát/osztó · keret: helyiség · piros: kamera",
             fill=(0, 0, 0), font=F)
     im.save(os.path.join(HERE, f'{flat}_geometria_ellenorzes.png'), optimize=True); print(flat, im.size)

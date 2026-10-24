@@ -1,6 +1,6 @@
 {
  "lakas": "A-811",
- "verzio": "geometria v1 – ELŐZETES (tervből, helyszínen nem mért)",
+ "verzio": "geometria v2 – ELŐZETES (tervből, helyszínen nem mért; a független tervhűségi ellenőrzés javításaival)",
  "datum": "2026-10-24",
  "forras": {
   "pdf": "WGR1_meretezett_alaprajzok.pdf (vevői adat, nincs a repóban)",
@@ -77,11 +77,11 @@
   "Fal_09": [
    7.385,
    6.59,
-   7.465,
+   7.425,
    6.715
   ],
   "Fal_10": [
-   8.135,
+   8.175,
    6.59,
    8.25,
    6.715
@@ -159,126 +159,138 @@
    4.75
   ],
   "Fal_23": [
-   6.155,
-   3.527,
-   6.28,
-   3.567
-  ],
-  "Fal_24": [
    6.17,
    2.425,
    6.27,
    3.527
   ],
-  "Fal_25": [
+  "Fal_24": [
    5.005,
-   2.561,
+   2.6,
    5.135,
-   2.916
+   2.875
   ],
-  "Fal_26": [
+  "Fal_25": [
    -0.2,
    2.7,
-   0.0,
+   0.01,
    2.861
   ],
-  "Fal_27": [
+  "Fal_26": [
    0.01,
    2.7,
    5.005,
    2.8
   ],
-  "Fal_28": [
+  "Fal_27": [
    6.27,
    2.501,
    8.25,
    2.6
   ],
-  "Fal_29": [
-   5.005,
+  "Fal_28": [
+   5.02,
    1.5,
-   5.135,
-   1.74
+   5.12,
+   1.7
   ],
-  "Fal_30": [
-   5.135,
-   1.5,
+  "Fal_29": [
+   5.27,
+   1.625,
    5.31,
    1.7
   ],
-  "Fal_31": [
+  "Fal_30": [
    6.17,
    -0.299,
    6.27,
    1.675
   ],
-  "Fal_32": [
+  "Fal_31": [
    6.02,
    1.486,
    6.17,
    1.615
   ],
-  "Fal_33": [
+  "Fal_32": [
    4.42,
    1.5,
    4.52,
    1.601
   ],
-  "Fal_34": [
+  "Fal_33": [
    4.52,
    1.5,
-   5.005,
+   5.0,
    1.601
   ],
+  "Fal_34": [
+   5.0,
+   1.5,
+   5.02,
+   1.6
+  ],
   "Fal_35": [
+   5.12,
+   1.5,
+   5.27,
+   1.6
+  ],
+  "Fal_36": [
    4.42,
    -0.299,
    4.52,
    1.5
   ],
-  "Kulso_36": [
+  "Kulso_37": [
+   -0.975,
+   0.6,
+   -0.475,
+   1.08
+  ],
+  "Fal_38": [
+   -0.475,
+   0.6,
+   -0.3,
+   1.026
+  ],
+  "Kulso_39": [
    -0.3,
    0.6,
    0.0,
    1.026
   ],
-  "Kulso_37": [
-   -0.975,
-   0.6,
-   -0.3,
-   0.9
-  ],
-  "Kulso_38": [
+  "Kulso_40": [
    -0.975,
    0.001,
    -0.67,
    0.6
   ],
-  "Kulso_39": [
+  "Kulso_41": [
    -0.97,
    -0.304,
    3.015,
    0.001
   ],
-  "Kulso_40": [
-   3.02,
+  "Kulso_42": [
+   3.015,
    -0.489,
    3.32,
    0.001
   ],
-  "Kulso_41": [
+  "Kulso_43": [
    3.32,
    -0.299,
    4.42,
    0.001
   ],
-  "Kulso_42": [
+  "Kulso_44": [
    4.52,
    -0.299,
    6.17,
    0.001
   ],
-  "Kulso_43": [
+  "Kulso_45": [
    6.27,
    -0.299,
    8.25,
@@ -299,25 +311,49 @@
    6.25
   ]
  },
+ "elotetfal": {
+  "Elotetfal_GK_EL4": [
+   7.25,
+   8.325,
+   8.25,
+   8.45
+  ]
+ },
+ "almennyezet": {
+  "Almennyezet_WC_08": {
+   "r": [
+    [
+     7.3,
+     4.85,
+     8.25,
+     6.6
+    ]
+   ],
+   "z": 2.4,
+   "felirat": "imp.gk. álm. as.:+2,40 m"
+  }
+ },
+ "kapcsolo_profil": {},
+ "francia_korlat": null,
  "szemoldok": {
   "Ajto_05_1_szemoldok": [
    5.005,
-   1.74,
+   1.7,
    2.1,
    5.135,
-   2.561,
+   2.6,
    2.7
   ],
   "Ajto_05_2_3_szemoldok": [
    5.005,
-   2.916,
+   2.875,
    2.1,
    5.135,
-   3.736,
+   3.775,
    2.7
   ],
   "Ajto_HTH_09_szemoldok": [
-   5.31,
+   5.27,
    1.486,
    2.1,
    6.02,
@@ -334,17 +370,17 @@
   ],
   "Ajto_furdo_06_2_szemoldok": [
    6.17,
-   3.567,
+   3.527,
    2.1,
    6.28,
    4.277,
    2.7
   ],
   "Ajto_WC_08_szemoldok": [
-   7.465,
+   7.425,
    6.59,
    2.1,
-   8.135,
+   8.175,
    6.715,
    2.7
   ],
@@ -378,8 +414,8 @@
    "tipus": "nyilo",
    "fal": "y",
    "nyilas": [
-    1.74,
-    2.561
+    1.7,
+    2.6
    ],
    "fal_sik": [
     5.005,
@@ -403,8 +439,8 @@
    "tipus": "nyilo",
    "fal": "y",
    "nyilas": [
-    2.916,
-    3.736
+    2.875,
+    3.775
    ],
    "fal_sik": [
     5.005,
@@ -428,7 +464,7 @@
    "tipus": "nyilo",
    "fal": "x",
    "nyilas": [
-    5.31,
+    5.27,
     6.02
    ],
    "fal_sik": [
@@ -478,7 +514,7 @@
    "tipus": "nyilo",
    "fal": "y",
    "nyilas": [
-    3.567,
+    3.527,
     4.277
    ],
    "fal_sik": [
@@ -503,8 +539,8 @@
    "tipus": "nyilo",
    "fal": "x",
    "nyilas": [
-    7.465,
-    8.135
+    7.425,
+    8.175
    ],
    "fal_sik": [
     6.59,
@@ -745,6 +781,12 @@
      6.17,
      6.7,
      8.25,
+     8.325
+    ],
+    [
+     6.17,
+     8.325,
+     7.25,
      8.45
     ],
     [
@@ -764,6 +806,12 @@
      1.615,
      6.17,
      6.651
+    ],
+    [
+     5.12,
+     1.6,
+     5.27,
+     1.615
     ]
    ]
   },
@@ -782,6 +830,12 @@
      1.601,
      5.005,
      2.7
+    ],
+    [
+     5.005,
+     1.601,
+     5.02,
+     1.7
     ],
     [
      -0.67,
@@ -842,6 +896,12 @@
      0,
      6.17,
      1.486
+    ],
+    [
+     4.52,
+     1.486,
+     5.27,
+     1.5
     ]
    ]
   },
@@ -886,24 +946,24 @@
   "P_kuszob_Ajto_05_1": {
    "r": [
     5.005,
-    1.74,
+    1.7,
     5.135,
-    2.561
+    2.6
    ],
    "anyag": "parketta"
   },
   "P_kuszob_Ajto_05_2_3": {
    "r": [
     5.005,
-    2.916,
+    2.875,
     5.135,
-    3.736
+    3.775
    ],
    "anyag": "parketta"
   },
   "P_kuszob_Ajto_HTH_09": {
    "r": [
-    5.31,
+    5.27,
     1.486,
     6.02,
     1.615
@@ -922,7 +982,7 @@
   "P_kuszob_Ajto_furdo_06_2": {
    "r": [
     6.17,
-    3.567,
+    3.527,
     6.28,
     4.277
    ],
@@ -930,9 +990,9 @@
   },
   "P_kuszob_Ajto_WC_08": {
    "r": [
-    7.465,
+    7.425,
     6.59,
-    8.135,
+    8.175,
     6.715
    ],
    "anyag": "keramia"
@@ -961,7 +1021,7 @@
   "korlat": [
    [
     "x",
-    -2.005,
+    -2.03,
     3.29,
     10.825
    ],
@@ -978,15 +1038,16 @@
     3.29
    ]
   ],
+  "korlat_oszto": 0.11,
   "valaszfal": [
    [
-    -2.035,
+    -1.955,
     10.825,
-    -0.465,
+    -0.51,
     10.905
    ]
   ],
-  "megj": "a kontúr a rajz 0,51 pt erkélyvonalaiból; padlószint, korláttípus és -magasság NEM IGAZOLT (−0,15 m és 1,10 m feltételezve); a felső végén válaszfal/osztó az A-812 erkélye felé"
+  "megj": "a kontúr a rajz 0,51 pt erkélyvonalaiból; a korlát pálcás (terv, ≈ 11 cm osztás), helye a tervvel egyezik; padlószint (−0,15 m) és korlátmagasság (1,10 m) a terven nincs, NEM IGAZOLT; a felső végén fém osztó az A-812 erkélye felé, magassága a terven nincs (1,10 m feltételezve)"
  },
  "erkely_terv_m2": 14.3,
  "plafon": [
@@ -1083,10 +1144,10 @@
   {
    "helyiseg": "Előtér",
    "terv_m2": 4.04,
-   "modell_m2": 4.06,
-   "modell_m2_ablakmelyedessel": 4.06,
-   "elteres_m2": 0.02,
-   "elteres_szazalek": 0.5,
+   "modell_m2": 3.93,
+   "modell_m2_ablakmelyedessel": 3.93,
+   "elteres_m2": -0.11,
+   "elteres_szazalek": -2.6,
    "szobak": [
     "eloter"
    ]
@@ -1118,8 +1179,8 @@
    "helyiseg": "Szoba (05.1)",
    "terv_m2": 13.33,
    "modell_m2": 12.98,
-   "modell_m2_ablakmelyedessel": 13.31,
-   "elteres_m2": -0.02,
+   "modell_m2_ablakmelyedessel": 13.32,
+   "elteres_m2": -0.01,
    "elteres_szazalek": -0.1,
    "szobak": [
     "05_1"
@@ -1150,10 +1211,10 @@
   {
    "helyiseg": "Ht.hg (09)",
    "terv_m2": 2.48,
-   "modell_m2": 2.45,
-   "modell_m2_ablakmelyedessel": 2.45,
-   "elteres_m2": -0.03,
-   "elteres_szazalek": -1.1,
+   "modell_m2": 2.46,
+   "modell_m2_ablakmelyedessel": 2.46,
+   "elteres_m2": -0.02,
+   "elteres_szazalek": -0.7,
    "szobak": [
     "hth_09"
    ]
@@ -1171,19 +1232,20 @@
   }
  ],
  "terv_ossz_m2": 90.68,
- "modell_ossz_m2": 90.06,
- "modell_ossz_m2_ablakmelyedessel": 91.5,
+ "modell_ossz_m2": 89.95,
+ "modell_ossz_m2_ablakmelyedessel": 91.39,
  "szoba_fal_atfedes": {
   "konyha": 0.001,
-  "eloter": 0.0032,
-  "kozlekedo": 0.0235,
+  "eloter": 0.002,
+  "kozlekedo": 0.0078,
   "05_1": 0.0028,
   "05_2_3": 0.0058,
   "05_2_3_gardrob": 0.0014,
   "hth_09": 0.0009,
   "furdo_06_1": 0.0023,
-  "furdo_06_2": 0.0064
+  "furdo_06_2": 0.006
  },
+ "resek_6cm_alatt": [],
  "statusz": {
   "falak_nyilasok": "TERV SZERINT (vektoros rajzból)",
   "belmagassag": "HELYSZÍNEN MÉRT tartomány (Kémeri), modell: 2,70 m",

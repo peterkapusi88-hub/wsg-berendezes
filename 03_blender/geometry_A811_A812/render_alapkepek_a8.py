@@ -35,7 +35,7 @@ log = dict(blender=bpy.app.version_string, fajl=os.path.basename(bpy.data.filepa
                           egbolt='egyszínű (0,86/0,88/0,92), erősség 1,0', fenyek='nincs'),
            rejtve=[f'{L}_Villamos_TERV'], bútor='nincs a modellben')
 for cam in KAM:
-    fn = f"{L}_Alap-v1_blender_{NEV[cam[:6]]}.png"
+    fn = f"{L}_Alap-v2_blender_{NEV[cam[:6]]}.png"
     sc.camera = bpy.data.objects[cam]; r.filepath = os.path.join(OUT, fn); t = time.time(); kep()
     log['kepek'].append(dict(kamera=cam, fajl=fn, mp=round(time.time() - t, 1)))
 # felülnézet: mennyezet rejtve, kiállás-réteg látható, tárgyszínek (Workbench, lapos fény)
@@ -50,7 +50,7 @@ r.engine = 'BLENDER_WORKBENCH'; sh = sc.display.shading; sh.light = 'FLAT'; sh.c
 vs.view_transform = 'Standard'; vs.look = 'None'; vs.exposure = 0.0
 r.resolution_x, r.resolution_y = (1500, 1700) if L == 'A811' else (1300, 2100)
 sc.camera = bpy.data.objects['Cam_06_Alaprajz_lakas']
-fn = f'{L}_Alap-v1_blender_06_alaprajz-kiallasok.png'; r.filepath = os.path.join(OUT, fn); t = time.time(); kep()
+fn = f'{L}_Alap-v2_blender_06_alaprajz-kiallasok.png'; r.filepath = os.path.join(OUT, fn); t = time.time(); kep()
 log['kepek'].append(dict(kamera='Cam_06_Alaprajz_lakas', fajl=fn, mp=round(time.time() - t, 1), megjegyzes='Workbench, tárgyszín, mennyezet rejtve'))
 json.dump(log, open(os.path.join(OUT, f'render_log_{L}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('RENDER KÉSZ', json.dumps(log, ensure_ascii=False))

@@ -6,9 +6,10 @@
 # Kimenet : 03_blender/WSG_<LAKÁS>_alaprajz_ELOZETES_20261024.blend  (új fájl)
 #           03_blender/geometry_lock_<LAKÁS>.json                     (lock a validátor v2-höz)
 #           03_blender/geometry_A811_A812/<LAKÁS>_kiallas_reteg_ellenorzes.json
-# Tartalom: falak, pillérek, aknák, szemöldökök, mennyezet, padló (helyiségenként + küszöbök + ablakmélyedés),
-#   beltéri ajtók (tok + csukott lap), homlokzati üvegfalak (profilok + üvegtáblák), erkély (ELŐZETES), kamerák,
-#   semleges renderbeállítás, kiállás-réteg (renderben rejtve). Bútor, szaniter, konyha NINCS.
+# Tartalom: falak, pillérek, aknák, előtétfal (EL4), álmennyezet, szemöldökök, mennyezet, padló (helyiségenként + küszöbök +
+#   ablakmélyedés), beltéri ajtók (4 cm-es tok + csukott lap), homlokzati üvegfalak (profilok + üvegtáblák), erkély és francia
+#   erkély korlát (ELŐZETES), kamerák, semleges renderbeállítás, kiállás-réteg (renderben rejtve). Bútor, szaniter, konyha NINCS.
+# v2 (2026-10-24): a független tervhűségi ellenőrzés javításai – lásd geometry_A811_A812/README.md „v2” szakasz.
 # Élő fájl (~/Downloads/WSG_A902_stilusok.blend): NEM érinti. Az A-902 v2b fájlt csak olvassa.
 # Futtatás (bpy 5.2.3), CSAK KÉZZEL:
 #   WSG_KEZI_FUTTATAS=1 WSG_LAKAS=A811 python3 -c "import sys,bpy; sys.argv=['x','<repo>']; exec(open('<ez a fájl>').read())"
@@ -83,6 +84,13 @@ for n, b in G['szemoldok'].items():
     box(n, b, M_FAL, C_FAL, {'statusz': 'TERV SZERINT (nyílásmagasság a rajzi feliratból)'})
 for i, r in enumerate(G['plafon']):
     box(f'Plafon_{"ABCDEFG"[i]}', [r[0], r[1], H, r[2], r[3], H + 0.25], M_PLAF, C_FAL)
+for n, r in G.get('elotetfal', {}).items():   # v2
+    box(n, [r[0], r[1], 0, r[2], r[3], H], M_FAL, C_FAL, {'statusz': 'TERV SZERINT („Előtétfal (GK)” réteg, 12,5 cm) – helyszínen igazolandó: a 2. old. m² nem vonja le',
+                                                          'megj': 'az EL4 lakáselosztó gipszkarton előtétfala'})
+for n, a in G.get('almennyezet', {}).items():   # v2
+    for i, r in enumerate(a['r']):
+        box(n + (f'_{i + 1}' if len(a['r']) > 1 else ''), [r[0], r[1], a['z'], r[2], r[3], H], M_PLAF, C_FAL,
+            {'statusz': 'TERV SZERINT (Álmennyezet Lakás réteg) – kiterjedés helyszínen ellenőrizendő', 'felirat': a['felirat'], 'alja_m': a['z']})
 
 # ---------------------------------------------------------------- padló: helyiségenként, küszöbök, ablakmélyedés
 for k, s in G['szobak'].items():
@@ -93,19 +101,22 @@ for n, q in G['kuszob'].items():
     r = q['r']; box(n, [r[0], r[1], -0.02, r[2], r[3], 0.0], M_PADLO[q['anyag']], C_P, {'megj': 'padló az ajtónyílásban'})
 for n, w in G['ablakok'].items():
     (f0, f1), (b0, b1), (x0, x1) = w['f'], w['b'], w['fal']
-    box(f'P_ablakmelyedes_{n}', [b1, f0, -0.02, x1, f1, 0.0], park, C_P, {'megj': 'padló a tok és a belső falsík között (a megvalósulási terv m²-e ezt beszámítja)'})
+    m0, m1 = w.get('melyedes', w['f'])
+    box(f'P_ablakmelyedes_{n}', [b1, m0, -0.02, x1, m1, 0.0], park, C_P, {'megj': 'padló a tok és a belső falsík között (a megvalósulási terv m²-e ezt beszámítja)'})
 
 # ---------------------------------------------------------------- beltéri ajtók: tok + csukott lap (mint az A-902 v2b-ben)
-def door_boxes(axis, a0, a1, w0, w1, h=2.10):
+def door_boxes(axis, a0, a1, w0, w1, h=2.10, t=0.03):
+    # t = a tok oldalsó vastagsága: (falnyílás − tiszta szárnyszélesség) / 2 – v2: a tervből (beltéri ajtóknál 4 cm)
     wc = (w0 + w1) / 2
     if axis == 'x':
-        return {'tok_b': [a0, w0, 0, a0 + .03, w1, h], 'tok_j': [a1 - .03, w0, 0, a1, w1, h],
-                'tok_f': [a0, w0, h - .03, a1, w1, h], 'lap': [a0 + .03, wc - .02, 0, a1 - .03, wc + .02, h - .02]}
-    return {'tok_b': [w0, a0, 0, w1, a0 + .03, h], 'tok_j': [w0, a1 - .03, 0, w1, a1, h],
-            'tok_f': [w0, a0, h - .03, w1, a1, h], 'lap': [wc - .02, a0 + .03, 0, wc + .02, a1 - .03, h - .02]}
+        return {'tok_b': [a0, w0, 0, a0 + t, w1, h], 'tok_j': [a1 - t, w0, 0, a1, w1, h],
+                'tok_f': [a0, w0, h - .03, a1, w1, h], 'lap': [a0 + t, wc - .02, 0, a1 - t, wc + .02, h - .02]}
+    return {'tok_b': [w0, a0, 0, w1, a0 + t, h], 'tok_j': [w0, a1 - t, 0, w1, a1, h],
+            'tok_f': [w0, a0, h - .03, w1, a1, h], 'lap': [wc - .02, a0 + t, 0, wc + .02, a1 - t, h - .02]}
 for n, a in G['ajtok'].items():
     bej = n == 'Ajto_bejarat'
-    for part, b in door_boxes(a['fal'], a['nyilas'][0], a['nyilas'][1], a['fal_sik'][0], a['fal_sik'][1], a['magassag']).items():
+    t = round((a['nyilas'][1] - a['nyilas'][0] - a['r']) / 2, 4); assert 0.02 <= t <= 0.05, (n, t)
+    for part, b in door_boxes(a['fal'], a['nyilas'][0], a['nyilas'][1], a['fal_sik'][0], a['fal_sik'][1], a['magassag'], t).items():
         m = M_BEJ if bej else (M_LAP if part == 'lap' else M_TOK)
         box(f'{n}_{part}', b, m, C_NY, {'nevleges': a['nevleges'], 'statusz': 'TERV SZERINT; szín: az A-902 fotója alapján feltételezve' if not bej else 'TERV SZERINT'})
 
@@ -120,6 +131,8 @@ for n, w in G['ablakok'].items():
         if a1 - a0 > 0.004: box(f'{n}_profil{i // 2}', [b0, a0, 0, b1, a1, Hn], M_PROF, C_NY, {'megj': 'tok/szárnyprofil vagy osztó (rajzi vonalakból)'})
     for i, g in enumerate(w['uvegek']):
         box(f'{n}_uveg{i}', [bc - 0.014, g[0], 0.05, bc + 0.014, g[1], Hn - 0.05], M_UVEG, C_NY)
+for n, q in G.get('kapcsolo_profil', {}).items():   # v2
+    r = q['r']; box(n, [r[0], r[1], 0, r[2], r[3], q['Hn']], M_PROF, C_NY, {'megj': q['megj'], 'statusz': 'TERV SZERINT'})
 
 # ---------------------------------------------------------------- erkély (ELŐZETES): lemez, korlát, osztó
 E = G['erkely']; ez = E['z']
@@ -131,7 +144,7 @@ for n, w in G['ablakok'].items():
         box(f'Erkely_lemez_ablak_elott_{n}', [-0.475, w['f'][0], ez - 0.20, w['b'][0], w['f'][1], ez], M_GRES, C_E, {'statusz': 'ELŐZETES'})
 
 
-def korlat(name, irany, c, a0, a1, z0, hk=1.10):
+def korlat(name, irany, c, a0, a1, z0, hk=1.10, oszto=0.12, statusz=None):
     bm = bmesh.new()
     def kocka(x0, y0, zz0, x1, y1, zz1):
         r = bmesh.ops.create_cube(bm, size=1.0)
@@ -143,19 +156,25 @@ def korlat(name, irany, c, a0, a1, z0, hk=1.10):
         else: kocka(p0, c - w / 2, zz0, p1, c + w / 2, zz1)
     seg(a0, a1, z0 + hk - 0.04, z0 + hk)            # kapaszkodó
     seg(a0, a1, z0 + 0.06, z0 + 0.10)                # alsó rúd
-    n = max(1, int((a1 - a0) / 0.12))
-    for i in range(n + 1):                            # függőleges pálcák 12 cm-enként
+    n = max(1, int((a1 - a0) / oszto))
+    for i in range(n + 1):                            # függőleges pálcák (v2: a terv szerinti ≈ 11 cm-es osztással)
         p = a0 + (a1 - a0) * i / n
         if irany == 'x': kocka(c - t / 2, p - t / 2, z0 + 0.06, c + t / 2, p + t / 2, z0 + hk - 0.04)
         else: kocka(p - t / 2, c - t / 2, z0 + 0.06, p + t / 2, c + t / 2, z0 + hk - 0.04)
     me = bpy.data.meshes.new(name); bm.to_mesh(me); bm.free()
     o = bpy.data.objects.new(name, me); C_E.objects.link(o); me.materials.append(M_KORL)
-    o['statusz'] = 'ELŐZETES – típus és magasság NEM IGAZOLT (az A-902 tetőterasz-korlátjához hasonló pálcás korlát feltételezve)'
+    o['statusz'] = statusz or 'ELŐZETES – pálcás típus a terv szerint; padlószint és magasság NEM IGAZOLT (1,10 m feltételezve)'
     return o
 for i, (irany, c, a0, a1) in enumerate(E['korlat']):   # c = a korlát tengelye (állandó x vagy y), a0..a1 a futása
-    korlat(f'Erkely_korlat_{i + 1}', irany, c, min(a0, a1), max(a0, a1), ez)
-for i, r in enumerate(E['valaszfal']):
-    box(f'Erkely_oszto_{i + 1}', [r[0], r[1], ez, r[2], r[3], ez + 1.10], M_FAL, C_E, {'statusz': 'ELŐZETES – a rajzon sraffozott osztó; magasság NEM IGAZOLT (1,10 m feltételezve)'})
+    korlat(f'Erkely_korlat_{i + 1}', irany, c, min(a0, a1), max(a0, a1), ez, oszto=E.get('korlat_oszto', 0.12))
+for i, r in enumerate(E['valaszfal']):   # v2: fém osztó (Lakatos Külső réteg), nem falazott
+    box(f'Erkely_oszto_{i + 1}', [r[0], r[1], ez, r[2], r[3], ez + 1.10], M_KORL, C_E,
+        {'statusz': 'ELŐZETES – a terven fém osztó (Lakatos Külső réteg, 1,445 × 0,08 m); magasság a terven nincs (1,10 m feltételezve)'})
+FK = G.get('francia_korlat')   # v2: francia erkély korlát a hálók padlóig érő ablakai előtt (A-812)
+if FK:
+    for i, (a0, a1) in enumerate(FK['szakaszok']):
+        korlat(f'Francia_erkely_korlat_{i + 1}', 'x', (FK['x'][0] + FK['x'][1]) / 2, a0, a1, 0.0, hk=FK['hk'], oszto=0.11,
+               statusz='TERV SZERINT helyen (Lakatos Külső réteg); típus és magasság a terven nincs – semleges pálcás korlát, 1,00 m, NEM IGAZOLT')
 
 # ---------------------------------------------------------------- kamerák
 def kamera(name, loc, cel, lens=20.0):
@@ -227,7 +246,7 @@ def jelolo(nev, cx, cy, cz, sx, sy, sz, kor=False, n=16):
 szam = lambda v: isinstance(v, (int, float))
 falak = []
 for o in C_FAL.objects:
-    if o.name.startswith('Plafon') or 'szemoldok' in o.name: continue
+    if o.name.startswith(('Plafon', 'Almennyezet')) or 'szemoldok' in o.name: continue
     p = [o.matrix_world @ v.co for v in o.data.vertices]
     falak.append((min(q.x for q in p), min(q.y for q in p), max(q.x for q in p), max(q.y for q in p)))
 def falsik_tav(x, y):
@@ -301,7 +320,7 @@ for n, w in G['ablakok'].items():
         meta[s['nev']] = dict(tipus=s.get('tipus', 'nyilo+fix'), fal='y', nyilas=s['nyilas'], fal_sik=w['fal'], irany=s['irany'], zsaner=s['zsaner'],
                               r=s['r'], megj=f"{n} nyíló szárnya ({w['nevleges']})" + (' – ablak: csak a nyitási negyedkör számít' if s.get('tipus') == 'ablak' else ''))
 lock = dict(
-    lakas=G['lakas'], gyujtemeny_elotag=L, verzio=f"{G['lakas']} geometria v1 – alaprajz szerinti, ELŐZETES (helyszínen nem mért)",
+    lakas=G['lakas'], gyujtemeny_elotag=L, verzio=f"{G['lakas']} geometria v2 – alaprajz szerinti, ELŐZETES (helyszínen nem mért; független tervhűségi ellenőrzés javításaival)",
     datum=datetime.date.today().isoformat(),
     forras=dict(blend=os.path.basename(OUT), geometria=f'geometry_A811_A812/{L}_geometria_ELOZETES.json', terv=f"WGR1 méretezett alaprajz {G['forras']['oldal']}. old. {G['forras']['leptek']} – {G['forras']['rajz']}",
                 pdf_sha256=G['forras']['pdf_sha256'], megj=G['meretek']),
@@ -318,7 +337,10 @@ lock = dict(
                 vilag='egyszínű (0,86/0,88/0,92), erősség 1,0; nincs nap és belső lámpa'),
     statusz=dict(falak_nyilasok='TERV SZERINT (vektoros rajz; helyszínen nem mért)', belmagassag=f'{H} m (Kémeri mérés: ' + G['H_forras'].split('mérése ')[1].split(' (')[0] + ')',
                  anyagok='fal, mennyezet, nyílászáró: az A-902 v2b anyagai (fotóval igazolt az A-902-ben); parketta és kerámia: BECSLÉS',
-                 erkely='ELŐZETES (kontúr a rajzból; szint, korlát, osztó NEM IGAZOLT)', szaniter='nincs modellezve', konyha='nincs (a lakás konyhabútor nélkül kerül átadásra)'))
+                 erkely='ELŐZETES (kontúr és korláttípus a rajzból; szint, korlát- és osztómagasság NEM IGAZOLT)' + ('; francia erkély korlát a terv szerinti helyen, magasság NEM IGAZOLT' if FK else ''),
+                 almennyezet='a rajz szerinti álmennyezetek modellezve (' + ', '.join(f"{k} {v['z']:.2f} m" for k, v in G.get('almennyezet', {}).items()) + '); kiterjedés helyszínen',
+                 szaniter='nincs modellezve (a vizes helyiségek szerelő- és előtétfalai, padkái sem)', konyha='nincs (a lakás konyhabútor nélkül kerül átadásra)'),
+    tervhuseg=dict(resek_6cm_alatt=G.get('resek_6cm_alatt'), megj='a validátor v2 PASS csak a lock-konzisztenciát igazolja; a tervhűséget a független ellenőrzés és a réskeresés adja (README v2)'))
 json.dump(lock, open(LOCK, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump(ell, open(os.path.join(GD, f'{L}_kiallas_reteg_ellenorzes.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('KESZ', OUT, '| falak', len(lock['walls']), '| nyílászáró-elem', len(lock['openings']), '| padló', len(lock['floors']),

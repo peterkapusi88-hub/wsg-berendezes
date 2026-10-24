@@ -92,7 +92,8 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - validátor v2: PASS;
     - helyiség-m² a megvalósulási tervvel ±0,1 m²-en belül (a fürdők kivételével: előtétfal);
     - a rajzi méretszámok egyeznek.
-  - **Alapképek:** bútor nélkül, az A-902-vel azonos semleges beállítással, reality carddal. Helye: `04_renderek/A811_alap_v1/`, `04_renderek/A812_alap_v1/`. Leírás: `03_blender/geometry_A811_A812/README.md`.
+  - **Alapképek:** bútor nélkül, az A-902-vel azonos semleges beállítással, reality carddal. Helye: `04_renderek/A811_alap_v2/`, `04_renderek/A812_alap_v2/`. Leírás: `03_blender/geometry_A811_A812/README.md`.
+  - **Geometria v2 (16:35):** egy független tervhűségi ellenőrzés 5 hibát talált a v1-ben (hiányzó EL4 előtétfal, hiányzó francia erkély korlát az A-812 hálóinál, két rés és egy padlóhiány) és 11 kisebb eltérést (szűkebb ajtónyílások, fém erkélyosztó, álmennyezet stb.). Mind javítva, az alapképek újrarenderelve; validátor PASS, réskeresés 0. A validátor PASS önmagában csak a lock-egyezést igazolja.
   - **Észrevétel:** itt is hűtő-fűtő mezőben van a nappali és a hálók mennyezeti kiállása. Az A-812 hálóinak padlóig érő ablakánál korlát a rajzon nincs. Mindkettő hétfőn ellenőrizendő.
 
 ## 7. Nyitott döntések

@@ -1,7 +1,7 @@
 # A-811 és A-812 – kamera-paraméterlap (2026-10-24)
 
 A lockba rögzítve (`geometry_lock_A811.json`, `geometry_lock_A812.json` → `cameras`); a validátor v2 minden paramétert ellenőriz. Mind 36 × 24 mm-es szenzor, AUTO illesztés, shift 0/0, clip 0,1–200, render 1600 × 1000 (a felülnézet 1500 × 1700, ill. 1300 × 2100).
-Az alapképek (`04_renderek/A811_alap_v1/`, `A812_alap_v1/`) ezekből készültek; a B fázis stílusképei ugyanezekből a nézetekből készüljenek.
+Az alapképek (`04_renderek/A811_alap_v2/`, `A812_alap_v2/`, geometria v2) ezekből készültek; a kamerák a v1-hez képest nem változtak; a B fázis stílusképei ugyanezekből a nézetekből készüljenek.
 
 ## A-811
 

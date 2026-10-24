@@ -22,7 +22,7 @@ Az A-902 kiállásai és hűtő-fűtő mezői a v2b modellben is megvannak: `A90
 Az A-811-nek és az A-812-nek is van alaprajzi Blender-modellje (2026-10-24, ELŐZETES, draft PR). Az `A811_Villamos_TERV` és az `A812_Villamos_TERV` réteg ugyanígy épül:
 - szkript: `03_blender/geometry_A811_A812/build_a8_modell.py`;
 - ellenőrzés: `<lakás>_kiallas_reteg_ellenorzes.json`;
-- felülnézet: `04_renderek/A811_alap_v1/`, `04_renderek/A812_alap_v1/`.
+- felülnézet: `04_renderek/A811_alap_v2/`, `04_renderek/A812_alap_v2/` (geometria v2).
 
 **A lámpajelölő magassága álmennyezetnél:**
 - A-811: WC 2,40 (rajz); előtér és fürdők 2,40 (Péter összesítője).
