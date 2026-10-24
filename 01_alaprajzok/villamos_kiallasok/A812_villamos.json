@@ -22,6 +22,57 @@
    "doboz_x_m_doboz_y_m": "a fali szerelvénydoboz helye a falsíkon – fali eszköznél ez a fizikai hely",
    "magassag_m": "szerelési magasság a padlótól, ha a rajzon szerepel"
   },
+  "modositasok_villamos": {
+   "forras": "11. o. (alaprajz M1 KORR 2026.04.28., dosszié 178) és 13. o. (parkoló, tároló, dosszié 160)",
+   "tetelek": [
+    {
+     "terulet": "02 KONYHA",
+     "szoveg": "+2 pultdugalj."
+    },
+    {
+     "terulet": "05.2 SZOBA",
+     "szoveg": "Az ágy két oldalán 1-1 többlet dugalj a meglévők mellé, m=65 cm. TV-blokk m=1,20 m."
+    },
+    {
+     "terulet": "05.3 SZOBA",
+     "szoveg": "Az ágy melletti dugaljak m=65 cm-re kerülnek; +2 dugalj m=65 cm."
+    },
+    {
+     "terulet": "06.1 HTH",
+     "szoveg": "+1 dugalj a szárítógépnek a mosógép-dugalj fölött."
+    },
+    {
+     "terulet": "08/09 FÜRDŐ",
+     "szoveg": "A WC és a HTH fürdővé vonva össze. Az „m” és „l” lámpák egy csillárkapcsolóra kerülnek. Az elszívó ventilátor páraérzékelős típus lesz."
+    },
+    {
+     "terulet": "07 KÖZLEKEDŐ",
+     "szoveg": "KORREKCIÓ 2026.04.28.: a közlekedői gardróbrészben nem kell gipszkarton álmennyezet."
+    }
+   ]
+  },
+  "lakason_kivul": [
+   "AT8-02 szinti tároló: 2 dugalj.",
+   "P-0-32 beálló: autótöltő.",
+   "T-0-03 tároló és P-0-31 beálló: nincs módosítás."
+  ],
+  "almennyezet": {
+   "megjegyzes": "Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő.",
+   "feliratok": [
+    {
+     "felirat": "gk. álm.",
+     "x_m": 7.889,
+     "y_m": 4.115,
+     "helyiseg": "01 ELŐTÉR"
+    },
+    {
+     "felirat": "nor. gk. álm.",
+     "x_m": 7.836,
+     "y_m": 0.239,
+     "helyiseg": "02 KONYHA"
+    }
+   ]
+  },
   "kinyerve": "2026-10-24, kinyeres/villamos_kinyeres.py v2 (Claude)"
  },
  "kiallasok": [
@@ -1278,10 +1329,10 @@
    "kod": "TSZ",
    "x_m": 6.813,
    "y_m": 15.505,
-   "doboz_x_m": "",
-   "doboz_y_m": "",
+   "doboz_x_m": 6.554,
+   "doboz_y_m": 15.505,
    "magassag_m": "",
-   "megjegyzes": "szerelési magasság nincs a rajzon; kód: törölközőszárító",
+   "megjegyzes": "szerelési magasság nincs a rajzon; a fali doboz a jeltől 18 cm-re van (a legközelebbi doboz nélküli jelhez rendelve); kód: törölközőszárító",
    "statusz": "TERV SZERINT",
    "forras": "12. o. (dosszié 179)"
   },
@@ -1413,10 +1464,10 @@
    "kod": "S/F",
    "x_m": 8.082,
    "y_m": 1.5,
-   "doboz_x_m": "",
-   "doboz_y_m": "",
+   "doboz_x_m": 8.226,
+   "doboz_y_m": 1.499,
    "magassag_m": "",
-   "megjegyzes": "főzőlap/sütő fix bekötés (S/F)",
+   "megjegyzes": "a fali doboz a jeltől 14 cm-re van (a legközelebbi doboz nélküli jelhez rendelve); főzőlap/sütő fix bekötés (S/F)",
    "statusz": "TERV SZERINT",
    "forras": "12. o. (dosszié 179)"
   },
@@ -1596,7 +1647,7 @@
    "doboz_x_m": "",
    "doboz_y_m": "",
    "magassag_m": "",
-   "megjegyzes": "BK jelű fali doboz – jelentése nem igazolt (gyengeáramú/média elosztó?)",
+   "megjegyzes": "önálló BK doboz – VALÓSZÍNŰLEG A RIASZTÓ (BIZTONSÁGI) KÖZPONT: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; nem takarható, hozzáférhető marad",
    "statusz": "TERV SZERINT",
    "forras": "12. o. (dosszié 179)"
   },
@@ -1611,7 +1662,7 @@
    "doboz_x_m": 5.999,
    "doboz_y_m": 2.915,
    "magassag_m": "",
-   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT",
+   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
    "statusz": "TERV SZERINT",
    "forras": "12. o. (dosszié 179)"
   },
@@ -1839,66 +1890,6 @@
    "megjegyzes": "a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)",
    "statusz": "TERV SZERINT",
    "forras": "12. o. (dosszié 179)"
-  },
-  {
-   "azonosito": "A812-Z01",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "06.2 FÜRDŐ",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 6.554,
-   "y_m": 15.505,
-   "doboz_x_m": 6.554,
-   "doboz_y_m": 15.505,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "12. o."
-  },
-  {
-   "azonosito": "A812-Z02",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "01 ELŐTÉR",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 8.65,
-   "y_m": 2.799,
-   "doboz_x_m": 8.65,
-   "doboz_y_m": 2.799,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "12. o."
-  },
-  {
-   "azonosito": "A812-Z03",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "02 KONYHA",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 8.226,
-   "y_m": 1.499,
-   "doboz_x_m": 8.226,
-   "doboz_y_m": 1.499,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "12. o."
-  },
-  {
-   "azonosito": "A812-Z04",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "01 ELŐTÉR",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 8.524,
-   "y_m": 2.801,
-   "doboz_x_m": 8.524,
-   "doboz_y_m": 2.801,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "12. o."
   }
  ],
  "hutes_futes_zonak": [
@@ -2055,6 +2046,18 @@
    "x_m": 8.61,
    "y_m": 2.8,
    "ok": "a lakás helyiségein kívül (szomszéd vagy rajzrészlet)"
+  },
+  {
+   "tipus": "doboz_jel_nelkul",
+   "x_m": 8.65,
+   "y_m": 2.799,
+   "ok": "a bejárati ajtó lépcsőházi oldalán (csengőnyomó doboza) – nem a lakásban"
+  },
+  {
+   "tipus": "doboz_jel_nelkul",
+   "x_m": 8.524,
+   "y_m": 2.801,
+   "ok": "a bejárati ajtó lépcsőházi oldalán (csengőnyomó doboza) – nem a lakásban"
   }
  ]
 }

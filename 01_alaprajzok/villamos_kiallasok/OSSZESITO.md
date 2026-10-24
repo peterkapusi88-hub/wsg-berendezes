@@ -16,14 +16,13 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 | mennyezeti_lampakiallas | 16 |
 | fali_lampakiallas | 6 |
 | gyengearamu_aljzat | 6 |
-| R_jelu_kiallas | 5 |
+| R_jelu_kiallas – motoros redőny (valószínű) | 5 |
+| ventilator_kiallas | 3 |
+| hangjelzo_vagy_erzekelo – mozgásérzékelő (valószínű) | 3 |
 | termosztat | 3 |
-| ventilator_kiallas | 2 |
-| doboz_jel_nelkul | 2 |
 | fix_bekotes | 1 |
 | antenna_tv_aljzat | 1 |
-| BK_doboz | 1 |
-| hangjelzo_vagy_erzekelo | 1 |
+| BK_doboz – riasztóközpont (valószínű) | 1 |
 | lakaselosztó | 1 |
 | kezelo_billentyuzet | 1 |
 | bejarati_ajto_eszkoz | 1 |
@@ -67,16 +66,16 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 | Helyiség | mennyezeti lámpa | fali lámpa | kapcsoló | dugalj | gyengeáram | TV/antenna | ventilátor | R (redőny?) | termosztát | egyéb |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 01 ELŐTÉR | 1 |  | 2 | 2 |  |  |  |  |  | bejarati_ajto_eszkoz, kezelo_billentyuzet, lakaselosztó |
-| 02 KONYHA | 1 | 1 |  | 7 |  |  |  |  |  | doboz_jel_nelkul, fix_bekotes |
+| 02 KONYHA | 1 | 1 |  | 7 |  |  |  |  |  | fix_bekotes |
 | 03-04 ÉTKEZŐ-NAPPALI | 2 | 1 | 6 | 8 | 4 | 1 |  | 3 | 1 | hangjelzo_vagy_erzekelo |
-| 05.1 SZOBA | 1 |  | 1 | 7 | 1 |  |  | 1 |  |  |
-| 05.2-3 SZOBA | 3 |  | 3 | 5 | 1 |  |  | 1 |  |  |
+| 05.1 SZOBA | 1 |  | 2 | 8 | 1 |  |  | 1 | 1 | hangjelzo_vagy_erzekelo |
+| 05.2-3 SZOBA | 3 |  | 3 | 5 | 1 |  |  | 1 |  | hangjelzo_vagy_erzekelo |
 | 05.2-3 SZOBA (gardrób) | 1 |  | 2 | 3 |  |  |  |  | 1 | BK_doboz |
-| 06.1 FÜRDŐ | 1 | 1 | 1 | 3 |  |  |  |  |  | EPH_csatlakozo |
+| 06.1 FÜRDŐ | 1 | 1 | 1 | 3 |  |  | 1 |  |  | EPH_csatlakozo |
 | 06.2 FÜRDŐ | 1 | 1 |  | 3 |  |  | 1 |  |  |  |
-| 07 KÖZLEKEDŐ | 3 |  | 5 | 1 |  |  |  |  | 1 | kaputelefon_belteri |
-| 08 WC | 1 |  |  |  |  |  | 1 |  |  | doboz_jel_nelkul |
-| 09 HTH | 1 |  | 1 | 4 |  |  |  |  |  |  |
+| 07 KÖZLEKEDŐ | 3 |  | 4 | 1 |  |  |  |  |  | kaputelefon_belteri |
+| 08 WC | 1 |  |  |  |  |  | 1 |  |  |  |
+| 09 HTH | 1 |  | 1 | 3 |  |  |  |  |  |  |
 | 10 ERKÉLY |  | 2 |  | 1 |  |  |  |  |  |  |
 
 ### Mennyezeti hűtő-fűtő mezők (ide nem fúrunk)
@@ -88,6 +87,26 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 | A811-HF03 | 03-04 ÉTKEZŐ-NAPPALI | 0,13 | 6,60 | 7,92 | 11,55 |
 | A811-HF04 | 05.2-3 SZOBA (gardrób) | 3,32 | 5,02 | 3,85 | 6,55 |
 | A811-HF05 | 02 KONYHA | 6,27 | 7,58 | 8,55 | 10,82 |
+
+### Mire készült – a rajzlap módosítási szövegéből
+
+Forrás: 5. o. (alaprajz M1, dosszié 150) és 6. o. (parkoló, tároló, dosszié 151). Tömörítve; a hely a fenti táblákban és a CSV-ben van.
+
+| Terület | Villamos módosítás |
+|---|---|
+| 02 KONYHA | A konyhatechnológia sorrendje megváltozik, az elektromos kiállások követik. +1 pultdugalj. Mikró m=1,30 m. |
+| 03 ÉTKEZŐ | +1 „g” váltókapcsoló (a váltópárja a nappaliban). A „g” mennyezeti lámpakiállás helye módosul. |
+| 04 NAPPALI | +1 oldalfali kiállás m=2,65 m. A konyhai pengefal megszűnése miatt a kapcsolók („g” és „c,d”), a termosztát és a **mozgásérzékelő** a nappali válaszfalának sarkára kerül. |
+| 05.1 SZOBA | Az ágy két oldalán 1-1 többlet dugalj a meglévők mellé, m=65 cm. TV-blokk m=1,20 m. +2 dugalj. |
+| 05.2-3 SZOBA | A két szoba összevonva. Az ágy két oldalán 1-1 többlet „m” váltókapcsoló a dugaljak mellé, m=65 cm. +2 mennyezeti lámpakiállás („m” és „l”); az „m” 3 helyről kapcsolható. A **biztonsági központ** áthelyezésre kerül. |
+| 06.1 FÜRDŐ | A mosdó és a WC helycseréjét az elektromos kiállások követik; az elszívó ventilátor az ajtó mögül a mosdó fölé kerül. |
+| 06.2 FÜRDŐ | Az elrendezés módosul, az elektromos kiállások követik. |
+| 07 KÖZLEKEDŐ | A „h” mennyezeti lámpakiállás 3 helyről kapcsolható. |
+| 09 HTH | +1 dugalj a szárítógépnek a mosógép-dugalj fölött; +1 dugalj a kapcsoló alatt. |
+
+**Lakáson kívül:** AT8-03 szinti tároló: 2 dugalj. P-0-33 beálló: autótöltő. T-0-06 tároló és P-0-34 beálló: nincs módosítás.
+
+**Álmennyezet:** Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő. Feliratok ezen a lapon: „imp.gk. álm.” – 08 WC (7,79; 5,90).
 
 Átfedéskép: `A811_villamos_atfedes.png` · Tételes lista: `A811_villamos.csv`
 
@@ -103,15 +122,14 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 | kapcsolo | 19 |
 | mennyezeti_lampakiallas | 18 |
 | gyengearamu_aljzat | 7 |
-| R_jelu_kiallas | 7 |
+| R_jelu_kiallas – motoros redőny (valószínű) | 7 |
 | fali_lampakiallas | 5 |
 | termosztat | 4 |
-| doboz_jel_nelkul | 4 |
 | ventilator_kiallas | 3 |
 | fix_bekotes | 1 |
 | antenna_tv_aljzat | 1 |
-| BK_doboz | 1 |
-| hangjelzo_vagy_erzekelo | 1 |
+| BK_doboz – riasztóközpont (valószínű) | 1 |
+| hangjelzo_vagy_erzekelo – mozgásérzékelő (valószínű) | 1 |
 | lakaselosztó | 1 |
 | kezelo_billentyuzet | 1 |
 | kaputelefon_belteri | 1 |
@@ -154,14 +172,14 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 
 | Helyiség | mennyezeti lámpa | fali lámpa | kapcsoló | dugalj | gyengeáram | TV/antenna | ventilátor | R (redőny?) | termosztát | egyéb |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 01 ELŐTÉR | 1 |  | 6 | 3 |  |  |  |  | 1 | bejarati_ajto_eszkoz, doboz_jel_nelkul, hangjelzo_vagy_erzekelo, kaputelefon_belteri, kezelo_billentyuzet, lakaselosztó |
-| 02 KONYHA | 1 | 1 |  | 9 |  |  |  |  |  | doboz_jel_nelkul, fix_bekotes |
+| 01 ELŐTÉR | 1 |  | 6 | 3 |  |  |  |  | 1 | bejarati_ajto_eszkoz, hangjelzo_vagy_erzekelo, kaputelefon_belteri, kezelo_billentyuzet, lakaselosztó |
+| 02 KONYHA | 1 | 1 |  | 9 |  |  |  |  |  | fix_bekotes |
 | 03-04 ÉTKEZŐ-NAPPALI | 3 |  | 2 | 7 | 4 | 1 |  | 2 |  |  |
 | 05.1 SZOBA | 1 |  | 1 | 4 | 1 |  |  | 1 | 1 |  |
 | 05.2 SZOBA | 1 |  | 1 | 6 | 1 |  |  | 2 | 1 |  |
 | 05.3 SZOBA | 1 |  | 1 | 6 | 1 |  |  | 2 | 1 |  |
 | 06.1 FÜRDŐ (HTH) | 1 | 1 |  | 4 |  |  | 1 |  |  |  |
-| 06.2 FÜRDŐ | 1 | 1 |  | 3 |  |  | 1 |  |  | doboz_jel_nelkul |
+| 06.2 FÜRDŐ | 1 | 1 |  | 3 |  |  | 1 |  |  |  |
 | 07 KÖZLEKEDŐ | 3 |  | 6 | 1 |  |  |  |  |  |  |
 | 07 KÖZLEKEDŐ (gardrób rész) | 1 |  |  | 1 |  |  |  |  |  | BK_doboz |
 | 08/09 FÜRDŐ | 2 | 1 |  | 3 |  |  | 1 |  |  |  |
@@ -182,6 +200,23 @@ Koordináta-origó: x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) bels�
 | A812-HF07 | 05.1 SZOBA | 4,21 | 5,47 | 6,08 | 7,89 |
 | A812-HF08 | 10.3 GARDRÓB | 6,29 | 8,59 | 12,74 | 14,27 |
 
+### Mire készült – a rajzlap módosítási szövegéből
+
+Forrás: 11. o. (alaprajz M1 KORR 2026.04.28., dosszié 178) és 13. o. (parkoló, tároló, dosszié 160). Tömörítve; a hely a fenti táblákban és a CSV-ben van.
+
+| Terület | Villamos módosítás |
+|---|---|
+| 02 KONYHA | +2 pultdugalj. |
+| 05.2 SZOBA | Az ágy két oldalán 1-1 többlet dugalj a meglévők mellé, m=65 cm. TV-blokk m=1,20 m. |
+| 05.3 SZOBA | Az ágy melletti dugaljak m=65 cm-re kerülnek; +2 dugalj m=65 cm. |
+| 06.1 HTH | +1 dugalj a szárítógépnek a mosógép-dugalj fölött. |
+| 08/09 FÜRDŐ | A WC és a HTH fürdővé vonva össze. Az „m” és „l” lámpák egy csillárkapcsolóra kerülnek. Az elszívó ventilátor páraérzékelős típus lesz. |
+| 07 KÖZLEKEDŐ | KORREKCIÓ 2026.04.28.: a közlekedői gardróbrészben nem kell gipszkarton álmennyezet. |
+
+**Lakáson kívül:** AT8-02 szinti tároló: 2 dugalj. P-0-32 beálló: autótöltő. T-0-03 tároló és P-0-31 beálló: nincs módosítás.
+
+**Álmennyezet:** Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő. Feliratok ezen a lapon: „gk. álm.” – 01 ELŐTÉR (7,89; 4,12); „nor. gk. álm.” – 02 KONYHA (7,84; 0,24).
+
 Átfedéskép: `A812_villamos_atfedes.png` · Tételes lista: `A812_villamos.csv`
 
 ## A-902
@@ -197,13 +232,13 @@ Koordináta-origó: x=0: 05.1 szoba homlokzati (rajzon bal) belső falsíkja; y=
 | mennyezeti_lampakiallas | 12 |
 | fali_lampakiallas | 7 |
 | gyengearamu_aljzat | 7 |
-| R_jelu_kiallas | 6 |
+| R_jelu_kiallas – motoros redőny (valószínű) | 6 |
+| hangjelzo_vagy_erzekelo – mozgásérzékelő (valószínű) | 4 |
 | termosztat | 4 |
 | ventilator_kiallas | 3 |
-| hangjelzo_vagy_erzekelo | 2 |
 | fix_bekotes | 1 |
 | antenna_tv_aljzat | 1 |
-| BK_doboz | 1 |
+| BK_doboz – riasztóközpont (valószínű) | 1 |
 | lakaselosztó | 1 |
 | kezelo_billentyuzet | 1 |
 | kaputelefon_belteri | 1 |
@@ -248,9 +283,9 @@ Koordináta-origó: x=0: 05.1 szoba homlokzati (rajzon bal) belső falsíkja; y=
 | 02 KONYHA | 1 | 1 | 2 | 9 |  |  |  |  |  | fix_bekotes |
 | 03 ÉTKEZŐ | 1 |  | 6 | 4 |  |  |  | 1 |  |  |
 | 04 NAPPALI | 1 | 1 | 3 | 5 | 4 | 1 |  | 1 | 1 | hangjelzo_vagy_erzekelo |
-| 05.1 SZOBA | 1 |  | 4 | 6 |  |  |  | 2 | 1 | BK_doboz |
+| 05.1 SZOBA | 1 |  | 4 | 6 |  |  |  | 2 | 1 | BK_doboz, hangjelzo_vagy_erzekelo |
 | 05.1 SZOBA (északi fülke) |  |  |  | 1 | 1 |  |  |  |  |  |
-| 05.2 SZOBA | 1 |  | 2 | 3 |  |  |  | 1 | 1 |  |
+| 05.2 SZOBA | 1 |  | 2 | 3 |  |  |  | 1 | 1 | hangjelzo_vagy_erzekelo |
 | 05.2 SZOBA (gardróbfülke) |  |  |  | 2 | 1 |  |  |  |  |  |
 | 05.3 SZOBA | 1 |  | 4 | 8 | 1 |  |  | 1 | 1 | hangjelzo_vagy_erzekelo |
 | 06.1 FÜRDŐ | 1 | 1 | 1 | 3 |  |  | 1 |  |  | EPH_csatlakozo |
@@ -270,6 +305,26 @@ Koordináta-origó: x=0: 05.1 szoba homlokzati (rajzon bal) belső falsíkja; y=
 | A902-HF03 | 04 NAPPALI | 3,77 | 9,80 | 4,05 | 8,05 |
 | A902-HF04 | 02 KONYHA | 9,05 | 9,95 | 2,40 | 4,05 |
 | A902-HF05 | 05.3 SZOBA | 10,85 | 14,37 | 4,10 | 8,05 |
+
+### Mire készült – a rajzlap módosítási szövegéből
+
+Forrás: 19. o. (átnézeti M1 KORR 2, dosszié 177) és 20. o. (parkoló, tároló, dosszié 170). Tömörítve; a hely a fenti táblákban és a CSV-ben van.
+
+| Terület | Villamos módosítás |
+|---|---|
+| 01 ELŐTÉR / 02 KONYHA | Az előtér és a konyha közötti pengefal megszűnik, a konyhai kapcsolóblokk követi a változást. |
+| 02 KONYHA | Sütő m=1,10 m, mikró m=1,30 m (magasszekrény a folyosó felé eső falon). A mosogató feletti falikar-kiállás és a mosogatógép-dugalj követi az új helyet. A pultdugaljak helye megváltozik; +1 pultdugalj a meglévővel egy szerelvényben. |
+| 02 KONYHA | KORR 2 (2025.12.15.): a „d” kapcsoló változik. |
+| 03 ÉTKEZŐ | A „b” mennyezeti lámpakiállás eltolva. |
+| 04 NAPPALI | +1 falikar-kiállás a 05.1 szoba felé eső válaszfalon, m=2,85 m. Az „n,p” mennyezeti lámpakiállás eltolva. |
+| 05.1 SZOBA | A válaszfal a szoba felé tolódik. Az ágy két oldalán 1-1 dugalj + 1-1 váltókapcsoló egy szerelvényben, m=65 cm. **+1 dugalj szekrényvilágításhoz.** |
+| 05.2 SZOBA | +1 dugalj a TV-blokk részeként. |
+| 05.3 SZOBA | Az ágy két oldalán 1-1 dugalj + 1-1 váltókapcsoló egy szerelvényben, m=65 cm. **+2 dugalj szekrényvilágításhoz.** |
+| 06.2 FÜRDŐ | A törölközőszárító (TSZ) a szoba felé eső válaszfalra kerül, a kiállása követi. |
+
+**Lakáson kívül:** AT8-01 szinti tároló: 2 dugalj. P-0-65 beálló: autótöltő. T-0-26 tároló és P-0-64 beálló: nincs módosítás.
+
+**Álmennyezet:** Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő. Feliratok ezen a lapon: „imp. gk. álm.” – 08 WC (5,45; 3,50); „imp. gk. álm.” – 08 WC (6,00; 3,88).
 
 Átfedéskép: `A902_villamos_atfedes.png` · Tételes lista: `A902_villamos.csv`
 

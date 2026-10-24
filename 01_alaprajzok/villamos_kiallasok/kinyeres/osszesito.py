@@ -17,7 +17,9 @@ for flat in ('A811', 'A812', 'A902'):
     L += [f"## {m['lakas']}", '', f"Forrás: `WGR1_meretezett_alaprajzok.pdf` {m['oldal']}. oldal (dosszié {m['dosszie']}), {m['lepték']}, {m['verzio']}.", '',
           f"Koordináta-origó: {m['koordinatak']['origo']}", '']
     c = collections.Counter(r['tipus'] for r in K)
-    L += ['| Típus | db |', '|---|---|'] + [f'| {t} | {n} |' for t, n in sorted(c.items(), key=lambda x: -x[1])] + ['']
+    TNEV = {'hangjelzo_vagy_erzekelo': 'hangjelzo_vagy_erzekelo – mozgásérzékelő (valószínű)', 'BK_doboz': 'BK_doboz – riasztóközpont (valószínű)',
+            'R_jelu_kiallas': 'R_jelu_kiallas – motoros redőny (valószínű)'}
+    L += ['| Típus | db |', '|---|---|'] + [f'| {TNEV.get(t, t)} | {n} |' for t, n in sorted(c.items(), key=lambda x: -x[1])] + ['']
     L += ['### Mennyezeti lámpakiállások', '', '| Azonosító | Helyiség | Áramkör | x | y |', '|---|---|---|---|---|']
     for r in K:
         if r['tipus'] == 'mennyezeti_lampakiallas':
@@ -38,6 +40,18 @@ for flat in ('A811', 'A812', 'A902'):
     L += ['', '### Mennyezeti hűtő-fűtő mezők (ide nem fúrunk)', '', '| Azonosító | Helyiség | x-tól | x-ig | y-tól | y-ig |', '|---|---|---|---|---|---|']
     for z in Z:
         L.append(f"| {z['azonosito']} | {z['helyiseg']} | {fmt(z['x_min'])} | {fmt(z['x_max'])} | {fmt(z['y_min'])} | {fmt(z['y_max'])} |")
+    mod = m.get('modositasok_villamos')
+    if mod:
+        L += ['', '### Mire készült – a rajzlap módosítási szövegéből', '',
+              f"Forrás: {mod['forras']}. Tömörítve; a hely a fenti táblákban és a CSV-ben van.", '',
+              '| Terület | Villamos módosítás |', '|---|---|']
+        L += [f"| {t['terulet']} | {t['szoveg']} |" for t in mod['tetelek']]
+    if m.get('lakason_kivul'):
+        L += ['', '**Lakáson kívül:** ' + ' '.join(m['lakason_kivul'])]
+    a = m.get('almennyezet')
+    if a:
+        fel = '; '.join(f"„{f['felirat']}” – {f['helyiseg']} ({fmt(f['x_m'])}; {fmt(f['y_m'])})" for f in a['feliratok']) or 'nincs felirat a lapon'
+        L += ['', f"**Álmennyezet:** {a['megjegyzes']} Feliratok ezen a lapon: {fel}."]
     L += ['', f"Átfedéskép: `{flat}_villamos_atfedes.png` · Tételes lista: `{flat}_villamos.csv`", '']
 open(os.path.join(OUT, 'OSSZESITO.md'), 'w').write('\n'.join(L) + '\n')
 print('OSSZESITO.md kész')

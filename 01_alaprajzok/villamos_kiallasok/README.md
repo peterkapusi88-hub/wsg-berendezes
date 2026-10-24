@@ -44,21 +44,31 @@ A lapokon ez áll: „Jelmagyarázatot lásd mellékletben!”. Maga a jelmagyar
 | félkör a falnál | dugalj; kódok: P pult, H hűtő, MG mosogatógép, Mi mikró, S sütő, EL elszívó, M mosógép, SZ szárítógép, TSZ törölközőszárító, B fürdőszobai (tükör melletti) | IGAZOLT a felsoroltakra, a „B” jelentése NEM IGAZOLT |
 | S/F kör | főzőlap/sütő fix bekötése | VALÓSZÍNŰ |
 | M körben | elszívó ventilátor; a betű a kapcsoló áramkör | VALÓSZÍNŰ |
-| ⊓ 1 / 2 / 3, BK | gyengeáramú aljzat (TV-blokk, szobák) | a kódok jelentése NEM IGAZOLT (valószínűleg TV/adat/telefon) |
+| ⊓ 1 / 2 / 3, illetve BK a TV-blokkban | gyengeáramú aljzat (TV-blokk, szobák) | a kódok jelentése NEM IGAZOLT (valószínűleg TV/adat/telefon) |
+| önálló BK doboz (kisebb felirattal) | riasztó (biztonsági) központ | VALÓSZÍNŰ: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van |
 | négyzet + kör | TV/antenna aljzat | VALÓSZÍNŰ |
 | R körben, minden ablaknál | motoros redőny kiállása | VALÓSZÍNŰ (a `GOAL.md` szerint a lakásokban motoros redőny van) |
-| kupola hullámokkal | mozgásérzékelő vagy hangjelző (riasztó) | NEM IGAZOLT |
+| kupola hullámokkal | mozgásérzékelő (riasztó) | VALÓSZÍNŰ: az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott ez a jel áll |
 | billentyűzet, kaputelefon, ajtótok-eszköz, EL4, kék T | riasztó-kezelő, videós kaputelefon, elektromos zár vagy nyitásérzékelő, lakáselosztó, hűtő-fűtő termosztát | VALÓSZÍNŰ |
 | kék szaggatott átló | mennyezeti hűtő-fűtő mező; a téglalap az átló végpontjaiból, ±10 cm | VALÓSZÍNŰ (a felirat: „mennyezeti hűtés-fűtés”) |
 
 A nem igazolt jelentések a `WGR1_műszaki melléklet.pdf`-ből vagy a fejlesztőtől tisztázhatók. Ehhez Péter engedélye kell.
+
+## Mire készült egy-egy kiállás
+A rajzlapok „Elektromos módosítás (erős és gyengeáram)” blokkja megmondja, melyik kiállás miért készült. Lakásonként tömörítve az `OSSZESITO.md`-ben és a JSON `meta.modositasok_villamos` mezőjében. Tervezéshez a legfontosabbak:
+- **A-902:** a 05.1-ben 1, a 05.3-ban 2 dugalj **szekrényvilágításhoz** készült – a gardrób LED-je ezekről megy, új kiállás nélkül. Melyik dugalj az, a rajz nem jelöli külön: helyszínen azonosítandó.
+- **A-902:** a nappali falikarja (2,85 m) a 05.1 felé eső válaszfalon van; a „b” (étkező) és az „n,p” (nappali) mennyezeti kiállást a módosítás eltolta – a CSV a módosított helyet tartalmazza.
+- **A-811:** a 05.2-3 „m” lámpája 3 helyről, a közlekedő „h” lámpája 3 helyről kapcsolható; a TV-blokk a 05.1-ben m=1,20 m.
+- **A-812:** a 05.2 TV-blokkja m=1,20 m; a 08/09 fürdő „m” és „l” lámpája egy csillárkapcsolón van.
+- **Lakáson kívül** mindhárom lakásnál: a szinti tárolóban (AT8-01/-02/-03) 2-2 dugalj, az egyik beállóban (P-0-65 / P-0-32 / P-0-33) autótöltő.
+- **Álmennyezet** Péter átvételi összesítője szerint csak az előtérben, a WC-ben és a fürdőben van (min. 2,40 m). A rajz zöld „gk. álm.” feliratait az `OSSZESITO.md` lakásonként felsorolja; a pontos kiterjedés helyszínen ellenőrizendő.
 
 ## Kötelező tervezési szabályok (minden AI-nak)
 1. **Világítás és minden áramot igénylő elem csak meglévő kiállásra kerülhet.** Ezek a mennyezeti ⊗, a fali lámpakiállás és a dugalj. Új kiállás, vésés, falon kívüli új kábelezés **nincs**.
 2. **Függeszték, csillár, mennyezeti lámpa csak a ⊗ kiállás helyére kerülhet.** Ha máshová kell fény: dugaljról táplált állólámpa vagy bútorba épített LED, illetve akkus lámpa.
    - Kiállástól eltolt függeszték mennyezeti rögzítést igényel, ezért csak Péter külön jóváhagyásával.
 3. **A hűtő-fűtő mezőkbe (HF) nem fúrunk.** Függönysín a szemöldökre vagy a falra kerül, a mezőn kívül.
-4. **Bútor, panel vagy tapéta nem takarhatja** a kapcsolót, a termosztátot, a lakáselosztót (EL4), a BK-dobozt, a kaputelefont és a riasztó-kezelőt.
+4. **Bútor, panel vagy tapéta nem takarhatja** a kapcsolót, a termosztátot, a lakáselosztót (EL4), a BK-dobozt, a kaputelefont, a riasztó-kezelőt és a mozgásérzékelőt (a szobaajtók sarkában is van; magas szekrény ne kerüljön elé).
    - A dugalj hozzáférhető marad.
    - Falpanelen és lamellán kivágás kell a doboz helyén (`doboz_x/y` + magasság).
 5. **A TV-blokk helye kötött:**
@@ -75,7 +85,15 @@ A nem igazolt jelentések a `WGR1_műszaki melléklet.pdf`-ből vagy a fejleszt�
 - **Helyszíni ellenőrzés:** a hétfői fotózás „mennyezet, panelek/kiállások” sorai alapján (`08_allapotfelmeres/FOTO_KAMERA_KAPCSOLAT.csv`).
   - Az eltérő tételek a CSV-ben **HELYSZÍNEN MÉRT** státuszt kapnak, a mért koordinátával és a fotó azonosítójával.
   - A tervi értéket megjegyzésben megtartjuk.
+- **Azonosítók:** a már kiadott azonosító nem számozódik át. Újrakinyeréskor a szkript a korábbi JSON alapján megtartja (azonos típus, ≤3 cm); új tétel a következő szabad sorszámot kapja, megszűnt tétel száma nem kerül újra kiosztásra.
 - **Tudott hiányok:**
   - a jelmagyarázat;
-  - az alapértelmezett szerelési magasságok (dugalj, kapcsoló), ahol a rajzon nincs „m=”;
-  - néhány fali doboz jel nélkül (`doboz_jel_nelkul`, kézi ellenőrzés).
+  - az alapértelmezett szerelési magasságok (dugalj, kapcsoló, mozgásérzékelő), ahol a rajzon nincs „m=”;
+  - melyik dugalj a szekrényvilágításé (A-902 05.1, 05.3).
+
+## Független ellenőrzés (2026-10-24)
+Egy külön ellenőrző futás a kinyerést nem látva, 300 dpi-s kivágásokon szobáról szobára vetette össze a CSV-t a rajzzal. A mennyezeti és fali lámpák, kapcsolók, dugaljak darabszáma, betűje, kódja és magassága mindhárom lakásnál egyezett. Javítva:
+- **Hiányzó mozgásérzékelők:** a szobaajtók sarkára mutató, ferdén rajzolt jelek (A-811: S06, S07; A-902: S08, S09).
+- **Hiányzó ventilátor:** A-811 06.1 fürdő, „s” (V03); az A-811 08 WC ventilátora (V02) megkapta a „b” betűt.
+- **Rossz helyiség:** A-811 K20, T03, D40 a 05.1 szoba saját kapcsolója, termosztátja és dugalja (az ajtó előtti részen), nem a közlekedőé, illetve a HTH-é.
+- **Téves „jel nélküli doboz”:** a bejárati ajtón kívüli csengőnyomó dobozai kizárva (A-811: 1, A-812: 2); a fix bekötés és a TSZ fali doboza a saját jeléhez rendelve (A-811: X01; A-812: X01, D42).

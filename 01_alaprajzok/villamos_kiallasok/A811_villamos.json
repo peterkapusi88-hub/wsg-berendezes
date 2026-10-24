@@ -22,6 +22,63 @@
    "doboz_x_m_doboz_y_m": "a fali szerelvénydoboz helye a falsíkon – fali eszköznél ez a fizikai hely",
    "magassag_m": "szerelési magasság a padlótól, ha a rajzon szerepel"
   },
+  "modositasok_villamos": {
+   "forras": "5. o. (alaprajz M1, dosszié 150) és 6. o. (parkoló, tároló, dosszié 151)",
+   "tetelek": [
+    {
+     "terulet": "02 KONYHA",
+     "szoveg": "A konyhatechnológia sorrendje megváltozik, az elektromos kiállások követik. +1 pultdugalj. Mikró m=1,30 m."
+    },
+    {
+     "terulet": "03 ÉTKEZŐ",
+     "szoveg": "+1 „g” váltókapcsoló (a váltópárja a nappaliban). A „g” mennyezeti lámpakiállás helye módosul."
+    },
+    {
+     "terulet": "04 NAPPALI",
+     "szoveg": "+1 oldalfali kiállás m=2,65 m. A konyhai pengefal megszűnése miatt a kapcsolók („g” és „c,d”), a termosztát és a **mozgásérzékelő** a nappali válaszfalának sarkára kerül."
+    },
+    {
+     "terulet": "05.1 SZOBA",
+     "szoveg": "Az ágy két oldalán 1-1 többlet dugalj a meglévők mellé, m=65 cm. TV-blokk m=1,20 m. +2 dugalj."
+    },
+    {
+     "terulet": "05.2-3 SZOBA",
+     "szoveg": "A két szoba összevonva. Az ágy két oldalán 1-1 többlet „m” váltókapcsoló a dugaljak mellé, m=65 cm. +2 mennyezeti lámpakiállás („m” és „l”); az „m” 3 helyről kapcsolható. A **biztonsági központ** áthelyezésre kerül."
+    },
+    {
+     "terulet": "06.1 FÜRDŐ",
+     "szoveg": "A mosdó és a WC helycseréjét az elektromos kiállások követik; az elszívó ventilátor az ajtó mögül a mosdó fölé kerül."
+    },
+    {
+     "terulet": "06.2 FÜRDŐ",
+     "szoveg": "Az elrendezés módosul, az elektromos kiállások követik."
+    },
+    {
+     "terulet": "07 KÖZLEKEDŐ",
+     "szoveg": "A „h” mennyezeti lámpakiállás 3 helyről kapcsolható."
+    },
+    {
+     "terulet": "09 HTH",
+     "szoveg": "+1 dugalj a szárítógépnek a mosógép-dugalj fölött; +1 dugalj a kapcsoló alatt."
+    }
+   ]
+  },
+  "lakason_kivul": [
+   "AT8-03 szinti tároló: 2 dugalj.",
+   "P-0-33 beálló: autótöltő.",
+   "T-0-06 tároló és P-0-34 beálló: nincs módosítás."
+  ],
+  "almennyezet": {
+   "megjegyzes": "Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő.",
+   "feliratok": [
+    {
+     "felirat": "imp.gk. álm.",
+     "x_m": 7.793,
+     "y_m": 5.898,
+     "helyiseg": "08 WC"
+    }
+   ]
+  },
   "kinyerve": "2026-10-24, kinyeres/villamos_kinyeres.py v2 (Claude)"
  },
  "kiallasok": [
@@ -491,6 +548,21 @@
    "forras": "5. o. (dosszié 150)"
   },
   {
+   "azonosito": "A811-K20",
+   "tipus": "kapcsolo",
+   "helyiseg": "05.1 SZOBA",
+   "aramkor": "n",
+   "kod": "",
+   "x_m": 4.82,
+   "y_m": 1.842,
+   "doboz_x_m": 4.82,
+   "doboz_y_m": 1.615,
+   "magassag_m": "",
+   "megjegyzes": "szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
    "azonosito": "A811-K10",
    "tipus": "kapcsolo",
    "helyiseg": "05.2-3 SZOBA",
@@ -637,21 +709,6 @@
    "doboz_y_m": 2.738,
    "magassag_m": "",
    "megjegyzes": "szerelési magasság nincs a rajzon",
-   "statusz": "TERV SZERINT",
-   "forras": "5. o. (dosszié 150)"
-  },
-  {
-   "azonosito": "A811-K20",
-   "tipus": "kapcsolo",
-   "helyiseg": "07 KÖZLEKEDŐ",
-   "aramkor": "n",
-   "kod": "",
-   "x_m": 4.82,
-   "y_m": 1.842,
-   "doboz_x_m": 4.82,
-   "doboz_y_m": 1.615,
-   "magassag_m": "",
-   "megjegyzes": "szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
   },
@@ -956,6 +1013,21 @@
    "forras": "5. o. (dosszié 150)"
   },
   {
+   "azonosito": "A811-D40",
+   "tipus": "dugalj",
+   "helyiseg": "05.1 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 4.82,
+   "y_m": 1.775,
+   "doboz_x_m": 4.82,
+   "doboz_y_m": 1.615,
+   "magassag_m": "",
+   "megjegyzes": "szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
    "azonosito": "A811-D20",
    "tipus": "dugalj",
    "helyiseg": "05.1 SZOBA",
@@ -1256,21 +1328,6 @@
    "forras": "5. o. (dosszié 150)"
   },
   {
-   "azonosito": "A811-D40",
-   "tipus": "dugalj",
-   "helyiseg": "09 HTH",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 4.82,
-   "y_m": 1.775,
-   "doboz_x_m": 4.82,
-   "doboz_y_m": 1.615,
-   "magassag_m": "",
-   "megjegyzes": "szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)",
-   "statusz": "TERV SZERINT",
-   "forras": "5. o. (dosszié 150)"
-  },
-  {
    "azonosito": "A811-D41",
    "tipus": "dugalj",
    "helyiseg": "09 HTH",
@@ -1338,10 +1395,25 @@
    "kod": "S/F",
    "x_m": 6.745,
    "y_m": 8.718,
+   "doboz_x_m": 6.746,
+   "doboz_y_m": 8.574,
+   "magassag_m": "",
+   "megjegyzes": "a fali doboz a jeltől 14 cm-re van (a legközelebbi doboz nélküli jelhez rendelve); főzőlap/sütő fix bekötés (S/F)",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
+   "azonosito": "A811-V03",
+   "tipus": "ventilator_kiallas",
+   "helyiseg": "06.1 FÜRDŐ",
+   "aramkor": "s",
+   "kod": "",
+   "x_m": 8.157,
+   "y_m": 2.211,
    "doboz_x_m": "",
    "doboz_y_m": "",
    "magassag_m": "",
-   "megjegyzes": "főzőlap/sütő fix bekötés (S/F)",
+   "megjegyzes": "elszívó ventilátor kiállása; a betű a kapcsoló áramkör",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
   },
@@ -1364,7 +1436,7 @@
    "azonosito": "A811-V02",
    "tipus": "ventilator_kiallas",
    "helyiseg": "08 WC",
-   "aramkor": "",
+   "aramkor": "b",
    "kod": "",
    "x_m": 7.775,
    "y_m": 5.453,
@@ -1491,7 +1563,7 @@
    "doboz_x_m": "",
    "doboz_y_m": "",
    "magassag_m": "",
-   "megjegyzes": "BK jelű fali doboz – jelentése nem igazolt (gyengeáramú/média elosztó?)",
+   "megjegyzes": "önálló BK doboz – VALÓSZÍNŰLEG A RIASZTÓ (BIZTONSÁGI) KÖZPONT: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; nem takarható, hozzáférhető marad",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
   },
@@ -1506,7 +1578,37 @@
    "doboz_x_m": 4.97,
    "doboz_y_m": 6.65,
    "magassag_m": "",
-   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT",
+   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
+   "azonosito": "A811-S06",
+   "tipus": "hangjelzo_vagy_erzekelo",
+   "helyiseg": "05.1 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 4.657,
+   "y_m": 2.338,
+   "doboz_x_m": 5.02,
+   "doboz_y_m": 2.7,
+   "magassag_m": "",
+   "megjegyzes": "ferdén rajzolt jel: a fali hely a vezetővonal falnál lévő vége (az ajtósarok); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
+   "azonosito": "A811-S07",
+   "tipus": "hangjelzo_vagy_erzekelo",
+   "helyiseg": "05.2-3 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 4.691,
+   "y_m": 3.13,
+   "doboz_x_m": 5.02,
+   "doboz_y_m": 2.8,
+   "magassag_m": "",
+   "megjegyzes": "ferdén rajzolt jel: a fali hely a vezetővonal falnál lévő vége (az ajtósarok); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
   },
@@ -1601,6 +1703,21 @@
    "forras": "5. o. (dosszié 150)"
   },
   {
+   "azonosito": "A811-T03",
+   "tipus": "termosztat",
+   "helyiseg": "05.1 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 4.82,
+   "y_m": 2.112,
+   "doboz_x_m": "",
+   "doboz_y_m": "",
+   "magassag_m": "",
+   "megjegyzes": "mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)",
+   "statusz": "TERV SZERINT",
+   "forras": "5. o. (dosszié 150)"
+  },
+  {
    "azonosito": "A811-T02",
    "tipus": "termosztat",
    "helyiseg": "05.2-3 SZOBA (gardrób)",
@@ -1612,21 +1729,6 @@
    "doboz_y_m": 3.925,
    "magassag_m": "",
    "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)",
-   "statusz": "TERV SZERINT",
-   "forras": "5. o. (dosszié 150)"
-  },
-  {
-   "azonosito": "A811-T03",
-   "tipus": "termosztat",
-   "helyiseg": "07 KÖZLEKEDŐ",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 4.82,
-   "y_m": 2.112,
-   "doboz_x_m": "",
-   "doboz_y_m": "",
-   "magassag_m": "",
-   "megjegyzes": "mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
   },
@@ -1704,36 +1806,6 @@
    "megjegyzes": "videós kaputelefon beltéri egység; fali bekötési pont (rajzi ×) x≈6,17, y≈6,40",
    "statusz": "TERV SZERINT",
    "forras": "5. o. (dosszié 150)"
-  },
-  {
-   "azonosito": "A811-Z01",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "08 WC",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 8.524,
-   "y_m": 6.6,
-   "doboz_x_m": 8.524,
-   "doboz_y_m": 6.6,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "5. o."
-  },
-  {
-   "azonosito": "A811-Z02",
-   "tipus": "doboz_jel_nelkul",
-   "helyiseg": "02 KONYHA",
-   "aramkor": "",
-   "kod": "",
-   "x_m": 6.746,
-   "y_m": 8.574,
-   "doboz_x_m": 6.746,
-   "doboz_y_m": 8.574,
-   "magassag_m": "",
-   "megjegyzes": "fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés",
-   "statusz": "TERV SZERINT",
-   "forras": "5. o."
   }
  ],
  "hutes_futes_zonak": [
@@ -1812,6 +1884,18 @@
    "x_m": 8.61,
    "y_m": 6.6,
    "ok": "a lakás helyiségein kívül (szomszéd vagy rajzrészlet)"
+  },
+  {
+   "tipus": "doboz_jel_nelkul",
+   "x_m": 8.524,
+   "y_m": 6.6,
+   "ok": "a bejárati ajtó lépcsőházi oldalán (csengőnyomó doboza) – nem a lakásban"
+  },
+  {
+   "tipus": "doboz_jel_nelkul",
+   "x_m": 8.65,
+   "y_m": 6.6,
+   "ok": "a bejárati ajtó lépcsőházi oldalán (csengőnyomó doboza) – nem a lakásban"
   }
  ]
 }

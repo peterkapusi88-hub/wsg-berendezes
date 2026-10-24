@@ -22,6 +22,69 @@
    "doboz_x_m_doboz_y_m": "a fali szerelvénydoboz helye a falsíkon – fali eszköznél ez a fizikai hely",
    "magassag_m": "szerelési magasság a padlótól, ha a rajzon szerepel"
   },
+  "modositasok_villamos": {
+   "forras": "19. o. (átnézeti M1 KORR 2, dosszié 177) és 20. o. (parkoló, tároló, dosszié 170)",
+   "tetelek": [
+    {
+     "terulet": "01 ELŐTÉR / 02 KONYHA",
+     "szoveg": "Az előtér és a konyha közötti pengefal megszűnik, a konyhai kapcsolóblokk követi a változást."
+    },
+    {
+     "terulet": "02 KONYHA",
+     "szoveg": "Sütő m=1,10 m, mikró m=1,30 m (magasszekrény a folyosó felé eső falon). A mosogató feletti falikar-kiállás és a mosogatógép-dugalj követi az új helyet. A pultdugaljak helye megváltozik; +1 pultdugalj a meglévővel egy szerelvényben."
+    },
+    {
+     "terulet": "02 KONYHA",
+     "szoveg": "KORR 2 (2025.12.15.): a „d” kapcsoló változik."
+    },
+    {
+     "terulet": "03 ÉTKEZŐ",
+     "szoveg": "A „b” mennyezeti lámpakiállás eltolva."
+    },
+    {
+     "terulet": "04 NAPPALI",
+     "szoveg": "+1 falikar-kiállás a 05.1 szoba felé eső válaszfalon, m=2,85 m. Az „n,p” mennyezeti lámpakiállás eltolva."
+    },
+    {
+     "terulet": "05.1 SZOBA",
+     "szoveg": "A válaszfal a szoba felé tolódik. Az ágy két oldalán 1-1 dugalj + 1-1 váltókapcsoló egy szerelvényben, m=65 cm. **+1 dugalj szekrényvilágításhoz.**"
+    },
+    {
+     "terulet": "05.2 SZOBA",
+     "szoveg": "+1 dugalj a TV-blokk részeként."
+    },
+    {
+     "terulet": "05.3 SZOBA",
+     "szoveg": "Az ágy két oldalán 1-1 dugalj + 1-1 váltókapcsoló egy szerelvényben, m=65 cm. **+2 dugalj szekrényvilágításhoz.**"
+    },
+    {
+     "terulet": "06.2 FÜRDŐ",
+     "szoveg": "A törölközőszárító (TSZ) a szoba felé eső válaszfalra kerül, a kiállása követi."
+    }
+   ]
+  },
+  "lakason_kivul": [
+   "AT8-01 szinti tároló: 2 dugalj.",
+   "P-0-65 beálló: autótöltő.",
+   "T-0-26 tároló és P-0-64 beálló: nincs módosítás."
+  ],
+  "almennyezet": {
+   "megjegyzes": "Péter átvételi összesítője szerint gipszkarton álmennyezet csak az előtérben, a WC-ben és a fürdőben van, min. 2,40 m. A rajzon zöld „gk. álm.” felirat jelöli (imp. = impregnált, nor. = normál); a pontos kiterjedés helyszínen ellenőrizendő.",
+   "feliratok": [
+    {
+     "felirat": "imp. gk. álm.",
+     "x_m": 5.454,
+     "y_m": 3.504,
+     "helyiseg": "08 WC"
+    },
+    {
+     "felirat": "imp. gk. álm.",
+     "x_m": 5.996,
+     "y_m": 3.885,
+     "helyiseg": "08 WC"
+    }
+   ]
+  },
   "kinyerve": "2026-10-24, kinyeres/villamos_kinyeres.py v2 (Claude)"
  },
  "kiallasok": [
@@ -1671,7 +1734,7 @@
    "doboz_x_m": "",
    "doboz_y_m": "",
    "magassag_m": "",
-   "megjegyzes": "BK jelű fali doboz – jelentése nem igazolt (gyengeáramú/média elosztó?)",
+   "megjegyzes": "önálló BK doboz – VALÓSZÍNŰLEG A RIASZTÓ (BIZTONSÁGI) KÖZPONT: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; nem takarható, hozzáférhető marad",
    "statusz": "TERV SZERINT",
    "forras": "18. o. (dosszié 176)"
   },
@@ -1686,7 +1749,37 @@
    "doboz_x_m": 7.149,
    "doboz_y_m": 4.049,
    "magassag_m": "",
-   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT",
+   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
+   "statusz": "TERV SZERINT",
+   "forras": "18. o. (dosszié 176)"
+  },
+  {
+   "azonosito": "A902-S08",
+   "tipus": "hangjelzo_vagy_erzekelo",
+   "helyiseg": "05.1 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 3.267,
+   "y_m": 4.352,
+   "doboz_x_m": 3.569,
+   "doboz_y_m": 4.049,
+   "magassag_m": "",
+   "megjegyzes": "ferdén rajzolt jel: a fali hely a vezetővonal falnál lévő vége (az ajtósarok); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
+   "statusz": "TERV SZERINT",
+   "forras": "18. o. (dosszié 176)"
+  },
+  {
+   "azonosito": "A902-S09",
+   "tipus": "hangjelzo_vagy_erzekelo",
+   "helyiseg": "05.2 SZOBA",
+   "aramkor": "",
+   "kod": "",
+   "x_m": 3.305,
+   "y_m": 2.305,
+   "doboz_x_m": 3.649,
+   "doboz_y_m": 2.649,
+   "magassag_m": "",
+   "megjegyzes": "ferdén rajzolt jel: a fali hely a vezetővonal falnál lévő vége (az ajtósarok); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
    "statusz": "TERV SZERINT",
    "forras": "18. o. (dosszié 176)"
   },
@@ -1701,7 +1794,7 @@
    "doboz_x_m": 10.849,
    "doboz_y_m": 5.9,
    "magassag_m": "",
-   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT",
+   "megjegyzes": "vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll",
    "statusz": "TERV SZERINT",
    "forras": "18. o. (dosszié 176)"
   },

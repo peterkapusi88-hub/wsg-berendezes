@@ -82,7 +82,7 @@ A812-D38,dugalj,06.1 FÜRDŐ (HTH),,B,8.32,10.555,,,,TERV SZERINT,12. o. (dosszi
 A812-D39,dugalj,06.1 FÜRDŐ (HTH),,B,8.47,10.555,8.611,10.555,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
 A812-D40,dugalj,06.2 FÜRDŐ,,B,6.695,16.445,6.554,16.445,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
 A812-D41,dugalj,06.2 FÜRDŐ,,B,6.845,16.445,,,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
-A812-D42,dugalj,06.2 FÜRDŐ,,TSZ,6.813,15.505,,,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; kód: törölközőszárító
+A812-D42,dugalj,06.2 FÜRDŐ,,TSZ,6.813,15.505,6.554,15.505,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; a fali doboz a jeltől 18 cm-re van (a legközelebbi doboz nélküli jelhez rendelve); kód: törölközőszárító
 A812-D43,dugalj,07 KÖZLEKEDŐ,,,6.345,9.68,6.185,9.678,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely)
 A812-D44,dugalj,07 KÖZLEKEDŐ (gardrób rész),,,7.78,6.126,7.78,6.277,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon
 A812-D45,dugalj,08/09 FÜRDŐ,,B,8.297,8.8,,,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon; kód: fürdőszobai (tükör melletti) dugalj – „B” jelentése nem igazolt
@@ -91,7 +91,7 @@ A812-D47,dugalj,08/09 FÜRDŐ,,TSZ,7.525,7.552,7.354,7.551,,TERV SZERINT,12. o. 
 A812-D48,dugalj,10.2 GARDRÓB,,,4.4,12.455,4.401,12.606,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon
 A812-D49,dugalj,10.3 GARDRÓB,,,8.545,13.542,8.696,13.543,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon
 A812-D50,dugalj,11 ERKÉLY,,,-0.64,0.65,-0.474,0.649,,TERV SZERINT,12. o. (dosszié 179),szerelési magasság nincs a rajzon
-A812-X01,fix_bekotes,02 KONYHA,,S/F,8.082,1.5,,,,TERV SZERINT,12. o. (dosszié 179),főzőlap/sütő fix bekötés (S/F)
+A812-X01,fix_bekotes,02 KONYHA,,S/F,8.082,1.5,8.226,1.499,,TERV SZERINT,12. o. (dosszié 179),a fali doboz a jeltől 14 cm-re van (a legközelebbi doboz nélküli jelhez rendelve); főzőlap/sütő fix bekötés (S/F)
 A812-V01,ventilator_kiallas,06.1 FÜRDŐ (HTH),n,,7.855,10.111,,,,TERV SZERINT,12. o. (dosszié 179),elszívó ventilátor kiállása; a betű a kapcsoló áramkör
 A812-V02,ventilator_kiallas,06.2 FÜRDŐ,t,,8.597,15.884,,,,TERV SZERINT,12. o. (dosszié 179),elszívó ventilátor kiállása; a betű a kapcsoló áramkör
 A812-V03,ventilator_kiallas,08/09 FÜRDŐ,m,,8.539,9.387,,,,TERV SZERINT,12. o. (dosszié 179),elszívó ventilátor kiállása; a betű a kapcsoló áramkör
@@ -103,8 +103,8 @@ A812-G05,gyengearamu_aljzat,05.1 SZOBA,,1,4.53,7.729,4.58,7.866,,TERV SZERINT,12
 A812-G06,gyengearamu_aljzat,05.2 SZOBA,,2,5.007,11.069,5.03,11.206,1.2,TERV SZERINT,12. o. (dosszié 179),"magasság a rajzról: m=1.20m; gyengeáramú aljzat (⊓ jel), kód: 2 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
 A812-G07,gyengearamu_aljzat,05.3 SZOBA,,3,4.81,12.895,4.76,12.754,,TERV SZERINT,12. o. (dosszié 179),"gyengeáramú aljzat (⊓ jel), kód: 3 – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)"
 A812-G08,antenna_tv_aljzat,03-04 ÉTKEZŐ-NAPPALI,,,1.405,0.132,1.52,0.024,,TERV SZERINT,12. o. (dosszié 179),négyzet + kör: TV/antenna aljzat (valószínű)
-A812-G09,BK_doboz,07 KÖZLEKEDŐ (gardrób rész),,BK,8.134,5.275,,,,TERV SZERINT,12. o. (dosszié 179),BK jelű fali doboz – jelentése nem igazolt (gyengeáramú/média elosztó?)
-A812-S01,hangjelzo_vagy_erzekelo,01 ELŐTÉR,,,6.02,3.591,5.999,2.915,,TERV SZERINT,12. o. (dosszié 179),"vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hanghullám jel – hangjelző vagy mozgásérzékelő (riasztó-előkészítés?), NEM IGAZOLT"
+A812-G09,BK_doboz,07 KÖZLEKEDŐ (gardrób rész),,BK,8.134,5.275,,,,TERV SZERINT,12. o. (dosszié 179),"önálló BK doboz – VALÓSZÍNŰLEG A RIASZTÓ (BIZTONSÁGI) KÖZPONT: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; nem takarható, hozzáférhető marad"
+A812-S01,hangjelzo_vagy_erzekelo,01 ELŐTÉR,,,6.02,3.591,5.999,2.915,,TERV SZERINT,12. o. (dosszié 179),"vezetővonalas csoport: a fali hely a vezetővonal falnál lévő vége (közös szerelvényhely); kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll"
 A812-R01,R_jelu_kiallas,03-04 ÉTKEZŐ-NAPPALI,,,-0.15,4.23,,,,TERV SZERINT,12. o. (dosszié 179),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
 A812-R02,R_jelu_kiallas,03-04 ÉTKEZŐ-NAPPALI,,,-0.15,1.27,,,,TERV SZERINT,12. o. (dosszié 179),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
 A812-R03,R_jelu_kiallas,05.1 SZOBA,,,3.17,7.275,,,,TERV SZERINT,12. o. (dosszié 179),"ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT"
@@ -120,7 +120,3 @@ A812-E01,lakaselosztó,01 ELŐTÉR,,EL4,8.003,4.447,,,,TERV SZERINT,12. o. (doss
 A812-S02,kezelo_billentyuzet,01 ELŐTÉR,,,7.54,3.45,,,,TERV SZERINT,12. o. (dosszié 179),billentyűzetes kezelő – valószínűleg riasztó-kezelő (NEM IGAZOLT)
 A812-S03,kaputelefon_belteri,01 ELŐTÉR,,,7.35,3.14,,,,TERV SZERINT,12. o. (dosszié 179),videós kaputelefon beltéri egység (a billentyűzetes kezelőtől balra)
 A812-S04,bejarati_ajto_eszkoz,01 ELŐTÉR,,,8.4,3.06,,,,TERV SZERINT,12. o. (dosszié 179),a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)
-A812-Z01,doboz_jel_nelkul,06.2 FÜRDŐ,,,6.554,15.505,6.554,15.505,,TERV SZERINT,12. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"
-A812-Z02,doboz_jel_nelkul,01 ELŐTÉR,,,8.65,2.799,8.65,2.799,,TERV SZERINT,12. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"
-A812-Z03,doboz_jel_nelkul,02 KONYHA,,,8.226,1.499,8.226,1.499,,TERV SZERINT,12. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"
-A812-Z04,doboz_jel_nelkul,01 ELŐTÉR,,,8.524,2.801,8.524,2.801,,TERV SZERINT,12. o.,"fali doboz, amelyhez a szkript nem rendelt jelet – kézi ellenőrzés"
