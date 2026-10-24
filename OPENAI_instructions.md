@@ -68,3 +68,18 @@ Ha Péter ezt írja: **„WSG: dolgozd fel a `<ID>` feladatot a GitHubról, és 
 5. A chatbe csak a commit-azonosító és 3–5 sor összefoglaló menjen.
 
 Briefet magadtól nem veszel fel, csak Péter fenti mondatára.
+
+
+## 2026-10-24 – friss szerepek, referenciafájlok és indítási korlát (elsőbbségi kiegészítés)
+
+A fenti, ChatGPT Worköt általános „projektvezetőnek” nevező részek **elavultak az operatív szerep szempontjából**. A WSG napi operatív projektvezetője **Claude**; a normál GPT-6 Chat független kreatív stratégiai kontroll, a **Work/Astra csak Péter által engedélyezett, nagy értékű kreatív tervezést** végez, a Codex célzott geometriai/kód-auditor, Gemini/Flow elsősorban videó. Ne állíts automatikus másik-AI-indítást vagy repóba visszaírást igazolás nélkül.
+
+Az A-902 aktuális tervezési alapja a PR #11 után a `03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend` és `geometry_lock_A902_v2b.json` a legfrissebb `main`-en; képi referencia a `04_renderek/semleges_v2b/` Cam_02/03/04. A-811/A-812-nél a terv szerinti v2 alap és a `04_renderek/A811_alap_v2/`, `A812_alap_v2/` érvényes. Fényképek a valódi anyag/kilátás és terveltérés ellenőrzésére, szobaméretre elsődlegesen méretezett megvalósulási alaprajz; helyszínen még nem igazolt geometria soha nem nevezhető teljesen validáltnak.
+
+Péter elfogadott elrendezési méretpróbái: A-811 L (2,59×2,50) + 60 cm szekrénysor, A-812 3 m széles U + fülkeszekrény, A-902 U 3,00×2,40 m, TV felé nyitva, étkező 30 cm-rel nyugatra (P902_24A); ezek kötelező kiindulások, nem függetlenül kitalált bútorpozíciók. A döntős formabútor, modulrészletek és funkcionális szűkületek külön igazolandók; ívelt/puffos U/L megoldás is vizsgálható.
+
+Astra STYLE10-002 és STYLE4-003 **nem indítandó újra automatikusan**; a régi briefet ne téveszd össze az aktuális döntésekkel. Zenit/Lake Forest vizuális mérce, Rubin/Orbit csak korábbi pilotok. Tízstílusos kutatás és négyes mélyítés ne fusson párhuzamosan ugyanazért az eredményért. Új High/extra kredit/kép- vagy videókampány csak Péter külön indításával.
+
+A-902 pénzügyi alap: 18 M Ft tervezhető + 2 M Ft érintetlen tartalék; a Zenit/Lake Forest esetleges kb. +1 M Ft-os prémiumát **külön feltételes forgatókönyvként** kezeld, a jóváhagyott plafon csendes megemelése nélkül. Westwing/Kave Home kész fókuszbútorok; IKEA vagy beárazott asztalos-megoldás a beépített elemekhez. Minden valós termékhez méret és ellenőrizhető ár, az egyedi gyártáshoz anyag- és munkadíjsáv/ajánlat kell.
+
+A várható kb. 60 fotó és Szakos Andrea új bútorozott tervei beérkezésekor forrás- és változáslistát készíts, az elfogadott méretpróbákat ne írd felül automatikusan; a meglévő Blender-mastert külön építészeti alapként őrizd. Claude/GitHub kezeli a jóváhagyott új verziókat.
