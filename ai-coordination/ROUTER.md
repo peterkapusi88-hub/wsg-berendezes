@@ -42,3 +42,7 @@ A-811/A-812/A-902: 10/10/20 M Ft **bruttó teljes költségplafon**, 10% tartal�
 `tervezet` → `átadásra kész` → `Work indítva` → `eredmény látható` → `Claude függetlenül validálta` → `Péter jóváhagyta`. **Egy PR létrejötte nem jelenti, hogy Work futott, vagy hogy Astra eredményt küldött.**
 
 További részletek: `ai-coordination/WORK_TRIGGER_SETUP.md`, `ai-coordination/REQUEST_TEMPLATE.md`, `ai-coordination/RESULT_TEMPLATE.md`.
+
+## Kötelező reality gate minden AI-átadásnál
+
+A teljes `ai-coordination/RENDER_REALITY_GATE.md` minden stílus-, render-, videó-, termék- és költségfeladat előtt alkalmazandó. Claude a briefbe valós állapot/reality card és bizonytalanság mezőt tesz, Astra kreatív munkában és a kimenetben render–specifikáció eltéréseket ad, Codex a geometriát teszteli, Gemini az állóképet nem változtathatja meg; a videós benchmark nem jelent valós kivitelezési validációt. A megtartandó szürke tölgy padlót és eredeti fehér falakat csak kifejezett, valósághű és beárazott jóváhagyás után lehet cserélni/színezni. Minden kimenet egyértelmű KONCEPCIÓ/ELŐSZŰRT/PASS/FAIL státuszt kap. Régi látványképek alapesetben nem validáltak.
