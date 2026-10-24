@@ -1,0 +1,1430 @@
+{
+ "lakas": "A-812",
+ "verzio": "geometria v1 – ELŐZETES (tervből, helyszínen nem mért)",
+ "datum": "2026-10-24",
+ "forras": {
+  "pdf": "WGR1_meretezett_alaprajzok.pdf (vevői adat, nincs a repóban)",
+  "pdf_sha256": "1a68724639fda41f14a70c47e682f18e9a367588e961fef85810ce31c4df9881",
+  "oldal": 12,
+  "leptek": "1:100",
+  "rajz": "M1 KORR (2026.04.28.), 12. old. átnézeti lap 1:100, dosszié 179 (a 11. old. 1:50-es lap csak részlet)",
+  "m2": "2. old. megvalósulási terv 1:125 (2026.05.20.), illesztve",
+  "padlo": "burkolatkiosztási terv (A-811: 7. old., A-812: 14. old.)"
+ },
+ "koordinata": {
+  "egyseg": "m",
+  "x": "rajzon jobbra",
+  "y": "rajzon felfelé",
+  "origo": "x=0: a nappali homlokzati belső falsíkja; y=0: a nappali rajzon alsó belső falsíkja – azonos a villamos JSON rendszerével",
+  "pt_per_m": 28.3465,
+  "X0_pt": 539.36,
+  "Y0_pt": 600.95,
+  "tajolas": "a rajz É-jele szerint a +y irány ≈ 53° (ÉK), a −x irány (a homlokzati üvegfal) ≈ ÉNy – tájékoztató",
+  "szomszed": "A-812: x közös, y_A812 = y_A811 − 11,85 (2. old. illesztés)"
+ },
+ "H": 2.7,
+ "H_forras": "Kémeri műszaki ellenőr mérése 2,69–2,73 m (2026-10-21, GOAL.md); a műszaki melléklet: 8. em. 2,70 m",
+ "meretek": "vakolatlan tervsíkok; a kész falsík oldalanként ~1–2 cm-rel beljebb lehet",
+ "walls": {
+  "Kulso_01": [
+   3.02,
+   16.82,
+   9.02,
+   17.12
+  ],
+  "Fal_02": [
+   6.42,
+   14.355,
+   6.52,
+   16.82
+  ],
+  "Kulso_03": [
+   8.72,
+   6.1,
+   9.02,
+   16.82
+  ],
+  "Kulso_04": [
+   3.015,
+   15.81,
+   3.32,
+   16.808
+  ],
+  "Fal_05": [
+   6.52,
+   14.355,
+   6.595,
+   14.465
+  ],
+  "Fal_06": [
+   7.305,
+   14.34,
+   7.385,
+   14.465
+  ],
+  "Fal_07": [
+   7.385,
+   14.355,
+   8.72,
+   14.455
+  ],
+  "Kulso_08": [
+   3.015,
+   10.98,
+   3.32,
+   13.01
+  ],
+  "Fal_09": [
+   7.105,
+   12.615,
+   7.185,
+   12.745
+  ],
+  "Fal_10": [
+   3.32,
+   12.63,
+   6.245,
+   12.73
+  ],
+  "Fal_11": [
+   7.185,
+   12.63,
+   7.32,
+   12.73
+  ],
+  "Fal_12": [
+   7.32,
+   12.63,
+   8.72,
+   12.73
+  ],
+  "Fal_13": [
+   7.22,
+   11.63,
+   7.32,
+   12.63
+  ],
+  "Fal_14": [
+   6.07,
+   10.89,
+   6.17,
+   11.9
+  ],
+  "Fal_15": [
+   4.07,
+   11.23,
+   6.07,
+   11.33
+  ],
+  "Fal_16": [
+   7.22,
+   8.45,
+   7.32,
+   10.88
+  ],
+  "Fal_17": [
+   6.055,
+   9.99,
+   6.185,
+   10.07
+  ],
+  "Fal_18": [
+   6.07,
+   7.815,
+   6.17,
+   9.99
+  ],
+  "Fal_19": [
+   7.32,
+   9.7,
+   8.15,
+   9.8
+  ],
+  "Kulso_20": [
+   3.02,
+   7.835,
+   3.32,
+   8.105
+  ],
+  "Fal_21": [
+   3.32,
+   7.89,
+   6.07,
+   7.99
+  ],
+  "Fal_22": [
+   7.22,
+   5.6,
+   7.32,
+   7.7
+  ],
+  "Fal_23": [
+   6.055,
+   6.875,
+   6.185,
+   6.955
+  ],
+  "Kulso_24": [
+   3.015,
+   5.6,
+   3.32,
+   6.93
+  ],
+  "Fal_25": [
+   6.07,
+   5.7,
+   6.17,
+   6.875
+  ],
+  "Fal_26": [
+   7.32,
+   6.3,
+   8.72,
+   6.4
+  ],
+  "Kulso_27": [
+   8.25,
+   6.1,
+   8.72,
+   6.3
+  ],
+  "Kulso_28": [
+   8.25,
+   4.15,
+   8.55,
+   6.1
+  ],
+  "Kulso_29": [
+   -0.97,
+   5.6,
+   3.015,
+   5.905
+  ],
+  "Kulso_30": [
+   -0.975,
+   5.0,
+   -0.67,
+   5.6
+  ],
+  "Fal_31": [
+   3.22,
+   4.7,
+   3.32,
+   5.6
+  ],
+  "Fal_32": [
+   5.47,
+   4.7,
+   5.57,
+   5.3
+  ],
+  "Kulso_33": [
+   -0.67,
+   4.695,
+   0.0,
+   5.0
+  ],
+  "Fal_34": [
+   3.32,
+   4.7,
+   5.47,
+   4.8
+  ],
+  "Fal_35": [
+   5.57,
+   4.7,
+   6.17,
+   4.8
+  ],
+  "Fal_36": [
+   7.22,
+   4.7,
+   8.25,
+   4.8
+  ],
+  "Fal_37": [
+   -0.3,
+   4.575,
+   0.0,
+   4.695
+  ],
+  "Fal_38": [
+   7.22,
+   4.1,
+   7.32,
+   4.7
+  ],
+  "Fal_39": [
+   8.25,
+   4.0,
+   8.5,
+   4.15
+  ],
+  "Kulso_40": [
+   8.25,
+   -0.308,
+   8.5,
+   2.95
+  ],
+  "Fal_41": [
+   5.8,
+   2.8,
+   8.25,
+   2.9
+  ],
+  "Kulso_42": [
+   -0.305,
+   -1.031,
+   0.0,
+   0.925
+  ],
+  "Fal_43": [
+   -0.465,
+   -0.07,
+   -0.305,
+   0.01
+  ],
+  "Kulso_44": [
+   0.0,
+   -0.3,
+   6.45,
+   -0.0
+  ],
+  "Kulso_45": [
+   7.3,
+   -0.3,
+   8.25,
+   -0.0
+  ]
+ },
+ "aknak": {
+  "Akna_konyha": [
+   6.45,
+   -0.3,
+   7.3,
+   0.6
+  ],
+  "Akna_gardrob_10_2": [
+   5.47,
+   11.9,
+   6.17,
+   12.63
+  ],
+  "Akna_05_1": [
+   5.47,
+   5.3,
+   6.17,
+   5.7
+  ],
+  "Akna_furdo_06_1": [
+   8.15,
+   9.7,
+   8.72,
+   10.4
+  ],
+  "Akna_furdo_06_2": [
+   8.01,
+   16.205,
+   8.72,
+   16.82
+  ]
+ },
+ "szemoldok": {
+  "Ajto_05_1_szemoldok": [
+   6.055,
+   6.955,
+   2.1,
+   6.185,
+   7.815,
+   2.7
+  ],
+  "Ajto_05_2_szemoldok": [
+   6.055,
+   10.07,
+   2.1,
+   6.185,
+   10.89,
+   2.7
+  ],
+  "Ajto_05_3_szemoldok": [
+   6.245,
+   12.63,
+   2.1,
+   7.105,
+   12.73,
+   2.7
+  ],
+  "Ajto_furdo_06_2_szemoldok": [
+   6.595,
+   14.355,
+   2.1,
+   7.305,
+   14.455,
+   2.7
+  ],
+  "Ajto_hth_06_1_szemoldok": [
+   7.22,
+   10.88,
+   2.1,
+   7.32,
+   11.63,
+   2.7
+  ],
+  "Ajto_furdo_08_09_szemoldok": [
+   7.22,
+   7.7,
+   2.1,
+   7.32,
+   8.45,
+   2.7
+  ],
+  "Ajto_bejarat_szemoldok": [
+   8.25,
+   2.95,
+   2.1,
+   8.5,
+   4.0,
+   2.7
+  ],
+  "Uvegfal_nappali_szemoldok": [
+   -0.3,
+   0.925,
+   2.57,
+   0.0,
+   4.575,
+   2.7
+  ],
+  "Ablak_05_1_szemoldok": [
+   3.02,
+   6.93,
+   2.57,
+   3.32,
+   7.835,
+   2.7
+  ],
+  "Ablak_05_2_szemoldok": [
+   3.02,
+   8.105,
+   2.57,
+   3.32,
+   10.98,
+   2.7
+  ],
+  "Ablak_05_3_szemoldok": [
+   3.02,
+   13.01,
+   2.57,
+   3.32,
+   15.81,
+   2.7
+  ]
+ },
+ "ajtok": {
+  "Ajto_05_1": {
+   "tipus": "nyilo",
+   "fal": "y",
+   "nyilas": [
+    6.955,
+    7.815
+   ],
+   "fal_sik": [
+    6.055,
+    6.185
+   ],
+   "zsaner": [
+    6.055,
+    7.775
+   ],
+   "irany": "-x",
+   "r": 0.82,
+   "magassag": 2.1,
+   "nevleges": "90/2,10",
+   "szobak": [
+    "05.1",
+    "07"
+   ],
+   "megj": ""
+  },
+  "Ajto_05_2": {
+   "tipus": "nyilo",
+   "fal": "y",
+   "nyilas": [
+    10.07,
+    10.89
+   ],
+   "fal_sik": [
+    6.055,
+    6.185
+   ],
+   "zsaner": [
+    6.055,
+    10.89
+   ],
+   "irany": "-x",
+   "r": 0.82,
+   "magassag": 2.1,
+   "nevleges": "90/2,10",
+   "szobak": [
+    "05.2",
+    "07"
+   ],
+   "megj": ""
+  },
+  "Ajto_05_3": {
+   "tipus": "nyilo",
+   "fal": "x",
+   "nyilas": [
+    6.245,
+    7.105
+   ],
+   "fal_sik": [
+    12.63,
+    12.73
+   ],
+   "zsaner": [
+    7.105,
+    12.745
+   ],
+   "irany": "+y",
+   "r": 0.82,
+   "magassag": 2.1,
+   "nevleges": "90/2,10",
+   "szobak": [
+    "05.3 / 10.3",
+    "07"
+   ],
+   "megj": ""
+  },
+  "Ajto_furdo_06_2": {
+   "tipus": "nyilo",
+   "fal": "x",
+   "nyilas": [
+    6.595,
+    7.305
+   ],
+   "fal_sik": [
+    14.355,
+    14.455
+   ],
+   "zsaner": [
+    6.635,
+    14.465
+   ],
+   "irany": "+y",
+   "r": 0.67,
+   "magassag": 2.1,
+   "nevleges": "75/2,10",
+   "szobak": [
+    "06.2",
+    "10.3"
+   ],
+   "megj": ""
+  },
+  "Ajto_hth_06_1": {
+   "tipus": "nyilo",
+   "fal": "y",
+   "nyilas": [
+    10.88,
+    11.63
+   ],
+   "fal_sik": [
+    7.22,
+    7.32
+   ],
+   "zsaner": [
+    7.205,
+    11.59
+   ],
+   "irany": "-x",
+   "r": 0.67,
+   "magassag": 2.1,
+   "nevleges": "75/2,10",
+   "szobak": [
+    "06.1 (HTH)",
+    "07"
+   ],
+   "megj": "kifelé, a közlekedőbe nyílik"
+  },
+  "Ajto_furdo_08_09": {
+   "tipus": "nyilo",
+   "fal": "y",
+   "nyilas": [
+    7.7,
+    8.45
+   ],
+   "fal_sik": [
+    7.22,
+    7.32
+   ],
+   "zsaner": [
+    7.205,
+    8.41
+   ],
+   "irany": "-x",
+   "r": 0.67,
+   "magassag": 2.1,
+   "nevleges": "75/2,10",
+   "szobak": [
+    "08/09",
+    "07"
+   ],
+   "megj": "kifelé, a közlekedőbe nyílik"
+  },
+  "Ajto_bejarat": {
+   "tipus": "nyilo",
+   "fal": "y",
+   "nyilas": [
+    2.95,
+    4.0
+   ],
+   "fal_sik": [
+    8.25,
+    8.5
+   ],
+   "zsaner": [
+    8.35,
+    3.972
+   ],
+   "irany": "-x",
+   "r": 0.994,
+   "magassag": 2.1,
+   "nevleges": "1,05/2,10",
+   "szobak": [
+    "01",
+    "lépcsőház"
+   ],
+   "megj": ""
+  }
+ },
+ "ablakok": {
+  "Uvegfal_nappali": {
+   "tengely": "y",
+   "f": [
+    0.925,
+    4.575
+   ],
+   "b": [
+    -0.28,
+    -0.2
+   ],
+   "fal": [
+    -0.3,
+    0.0
+   ],
+   "Hn": 2.57,
+   "nevleges": "3,65/2,57",
+   "uvegek": [
+    [
+     1.06,
+     1.762
+    ],
+    [
+     1.923,
+     2.625
+    ],
+    [
+     2.795,
+     4.45
+    ]
+   ],
+   "nyilo": [
+    {
+     "nev": "Erkelyajto_nappali_a",
+     "nyilas": [
+      0.98,
+      1.843
+     ],
+     "zsaner": [
+      -0.18,
+      0.98
+     ],
+     "irany": "+x",
+     "r": 0.863
+    },
+    {
+     "nev": "Erkelyajto_nappali_b",
+     "nyilas": [
+      1.843,
+      2.705
+     ],
+     "zsaner": [
+      -0.18,
+      2.705
+     ],
+     "irany": "+x",
+     "r": 0.863
+    }
+   ],
+   "szobak": [
+    "03-04"
+   ],
+   "megj": "kétszárnyú erkélyajtó + fix mező"
+  },
+  "Ablak_05_1": {
+   "tengely": "y",
+   "f": [
+    6.93,
+    7.835
+   ],
+   "b": [
+    3.04,
+    3.12
+   ],
+   "fal": [
+    3.02,
+    3.32
+   ],
+   "Hn": 2.57,
+   "nevleges": "0,90/2,57",
+   "uvegek": [
+    [
+     7.065,
+     7.755
+    ]
+   ],
+   "nyilo": [
+    {
+     "nev": "Ablakszarny_05_1",
+     "nyilas": [
+      6.985,
+      7.835
+     ],
+     "zsaner": [
+      3.14,
+      7.835
+     ],
+     "irany": "+x",
+     "r": 0.85,
+     "tipus": "ablak"
+    }
+   ],
+   "szobak": [
+    "05.1"
+   ],
+   "megj": "padlóig érő nyíló ablak (45°-os nyitásjel); francia erkély korlátja a rajzon nem szerepel – helyszínen ellenőrizendő"
+  },
+  "Ablak_05_2": {
+   "tengely": "y",
+   "f": [
+    8.105,
+    10.98
+   ],
+   "b": [
+    3.04,
+    3.12
+   ],
+   "fal": [
+    3.02,
+    3.32
+   ],
+   "Hn": 2.57,
+   "nevleges": "2,87/2,57",
+   "uvegek": [
+    [
+     8.185,
+     8.715
+    ],
+    [
+     8.875,
+     9.405
+    ],
+    [
+     9.625,
+     10.155
+    ],
+    [
+     10.315,
+     10.845
+    ]
+   ],
+   "nyilo": [
+    {
+     "nev": "Ablakszarny_05_2_a",
+     "nyilas": [
+      8.105,
+      8.795
+     ],
+     "zsaner": [
+      3.14,
+      8.105
+     ],
+     "irany": "+x",
+     "r": 0.69,
+     "tipus": "ablak"
+    },
+    {
+     "nev": "Ablakszarny_05_2_b",
+     "nyilas": [
+      8.795,
+      9.485
+     ],
+     "zsaner": [
+      3.14,
+      9.485
+     ],
+     "irany": "+x",
+     "r": 0.69,
+     "tipus": "ablak"
+    },
+    {
+     "nev": "Ablakszarny_05_2_c",
+     "nyilas": [
+      9.545,
+      10.235
+     ],
+     "zsaner": [
+      3.14,
+      9.545
+     ],
+     "irany": "+x",
+     "r": 0.69,
+     "tipus": "ablak"
+    },
+    {
+     "nev": "Ablakszarny_05_2_d",
+     "nyilas": [
+      10.235,
+      10.925
+     ],
+     "zsaner": [
+      3.14,
+      10.925
+     ],
+     "irany": "+x",
+     "r": 0.69,
+     "tipus": "ablak"
+    }
+   ],
+   "szobak": [
+    "05.2"
+   ],
+   "megj": "két kétszárnyú, padlóig érő nyíló ablak"
+  },
+  "Ablak_05_3": {
+   "tengely": "y",
+   "f": [
+    13.01,
+    15.81
+   ],
+   "b": [
+    3.04,
+    3.12
+   ],
+   "fal": [
+    3.02,
+    3.32
+   ],
+   "Hn": 2.57,
+   "nevleges": "2,80/2,57",
+   "uvegek": [
+    [
+     13.145,
+     13.847
+    ],
+    [
+     14.007,
+     14.71
+    ],
+    [
+     14.93,
+     15.675
+    ]
+   ],
+   "nyilo": [
+    {
+     "nev": "Ablakszarny_05_3_a",
+     "nyilas": [
+      13.065,
+      13.927
+     ],
+     "zsaner": [
+      3.14,
+      13.065
+     ],
+     "irany": "+x",
+     "r": 0.862,
+     "tipus": "ablak"
+    },
+    {
+     "nev": "Ablakszarny_05_3_b",
+     "nyilas": [
+      13.927,
+      14.79
+     ],
+     "zsaner": [
+      3.14,
+      14.79
+     ],
+     "irany": "+x",
+     "r": 0.862,
+     "tipus": "ablak"
+    },
+    {
+     "nev": "Ablakszarny_05_3_c",
+     "nyilas": [
+      14.85,
+      15.755
+     ],
+     "zsaner": [
+      3.14,
+      15.755
+     ],
+     "irany": "+x",
+     "r": 0.905,
+     "tipus": "ablak"
+    }
+   ],
+   "szobak": [
+    "05.3"
+   ],
+   "megj": "kétszárnyú + egyszárnyú, padlóig érő nyíló ablak"
+  }
+ },
+ "szobak": {
+  "nappali_etkezo": {
+   "nev": "03-04 ÉTKEZŐ-NAPPALI",
+   "padlo": "parketta",
+   "r": [
+    [
+     0,
+     0,
+     5.85,
+     4.7
+    ],
+    [
+     5.85,
+     2.9,
+     7.22,
+     4.7
+    ],
+    [
+     0,
+     4.7,
+     3.22,
+     5.6
+    ],
+    [
+     -0.67,
+     5.0,
+     0,
+     5.6
+    ]
+   ]
+  },
+  "konyha": {
+   "nev": "02 KONYHA",
+   "padlo": "parketta",
+   "r": [
+    [
+     5.85,
+     0,
+     6.45,
+     2.8
+    ],
+    [
+     6.45,
+     0.6,
+     7.3,
+     2.8
+    ],
+    [
+     7.3,
+     0,
+     8.25,
+     2.8
+    ]
+   ]
+  },
+  "eloter": {
+   "nev": "01 ELŐTÉR",
+   "padlo": "parketta",
+   "r": [
+    [
+     7.32,
+     2.9,
+     8.25,
+     4.7
+    ],
+    [
+     7.22,
+     2.9,
+     7.32,
+     4.1
+    ]
+   ]
+  },
+  "kozlekedo": {
+   "nev": "07 KÖZLEKEDŐ",
+   "padlo": "parketta",
+   "r": [
+    [
+     6.17,
+     4.7,
+     7.22,
+     12.63
+    ]
+   ]
+  },
+  "kozlekedo_gardrob": {
+   "nev": "07 KÖZLEKEDŐ (gardrób rész)",
+   "padlo": "parketta",
+   "r": [
+    [
+     7.32,
+     4.8,
+     8.25,
+     6.3
+    ]
+   ]
+  },
+  "05_1": {
+   "nev": "05.1 SZOBA",
+   "padlo": "parketta",
+   "r": [
+    [
+     3.32,
+     4.8,
+     5.47,
+     7.89
+    ],
+    [
+     5.47,
+     5.7,
+     6.07,
+     7.89
+    ]
+   ]
+  },
+  "05_1_fulke": {
+   "nev": "05.1 SZOBA (fülke a közlekedő felé)",
+   "padlo": "parketta",
+   "r": [
+    [
+     5.57,
+     4.8,
+     6.17,
+     5.3
+    ]
+   ]
+  },
+  "05_2": {
+   "nev": "05.2 SZOBA",
+   "padlo": "parketta",
+   "r": [
+    [
+     3.32,
+     7.99,
+     6.07,
+     11.23
+    ],
+    [
+     3.32,
+     11.23,
+     4.07,
+     11.33
+    ]
+   ]
+  },
+  "gardrob_10_2": {
+   "nev": "10.2 GARDRÓB",
+   "padlo": "parketta",
+   "r": [
+    [
+     3.32,
+     11.33,
+     5.47,
+     12.63
+    ],
+    [
+     5.47,
+     11.33,
+     6.07,
+     11.9
+    ]
+   ]
+  },
+  "05_3": {
+   "nev": "05.3 SZOBA",
+   "padlo": "parketta",
+   "r": [
+    [
+     3.32,
+     12.73,
+     6.42,
+     16.82
+    ]
+   ]
+  },
+  "gardrob_10_3": {
+   "nev": "10.3 GARDRÓB",
+   "padlo": "parketta",
+   "r": [
+    [
+     6.42,
+     12.73,
+     8.72,
+     14.355
+    ]
+   ]
+  },
+  "furdo_06_2": {
+   "nev": "06.2 FÜRDŐ",
+   "padlo": "keramia",
+   "r": [
+    [
+     6.52,
+     14.455,
+     8.72,
+     16.205
+    ],
+    [
+     6.52,
+     16.205,
+     8.01,
+     16.82
+    ]
+   ]
+  },
+  "hth_06_1": {
+   "nev": "06.1 FÜRDŐ (HTH)",
+   "padlo": "keramia",
+   "r": [
+    [
+     7.32,
+     10.4,
+     8.72,
+     12.63
+    ],
+    [
+     7.32,
+     9.8,
+     8.15,
+     10.4
+    ]
+   ]
+  },
+  "furdo_08_09": {
+   "nev": "08/09 FÜRDŐ",
+   "padlo": "keramia",
+   "r": [
+    [
+     7.32,
+     6.4,
+     8.72,
+     9.7
+    ]
+   ]
+  }
+ },
+ "kuszob": {
+  "P_kuszob_Ajto_05_1": {
+   "r": [
+    6.055,
+    6.955,
+    6.185,
+    7.815
+   ],
+   "anyag": "parketta"
+  },
+  "P_kuszob_Ajto_05_2": {
+   "r": [
+    6.055,
+    10.07,
+    6.185,
+    10.89
+   ],
+   "anyag": "parketta"
+  },
+  "P_kuszob_Ajto_05_3": {
+   "r": [
+    6.245,
+    12.63,
+    7.105,
+    12.73
+   ],
+   "anyag": "parketta"
+  },
+  "P_kuszob_Ajto_furdo_06_2": {
+   "r": [
+    6.595,
+    14.355,
+    7.305,
+    14.455
+   ],
+   "anyag": "keramia"
+  },
+  "P_kuszob_Ajto_hth_06_1": {
+   "r": [
+    7.22,
+    10.88,
+    7.32,
+    11.63
+   ],
+   "anyag": "keramia"
+  },
+  "P_kuszob_Ajto_furdo_08_09": {
+   "r": [
+    7.22,
+    7.7,
+    7.32,
+    8.45
+   ],
+   "anyag": "keramia"
+  }
+ },
+ "padloanyag": {
+  "parketta": "Egger Grey Soria Oak EL2065, Classic 8/32 4V Aqua (593610) – burkolatkiosztási terv",
+  "keramia": "Glitch Salt matt 60×60 (03285A), fuga Holdfény 103 – burkolatkiosztási terv"
+ },
+ "erkely": {
+  "lapok": [
+   [
+    -2.035,
+    -1.025,
+    -0.465,
+    2.34
+   ],
+   [
+    -1.15,
+    2.34,
+    -0.465,
+    4.52
+   ]
+  ],
+  "z": -0.15,
+  "korlat": [
+   [
+    "x",
+    -2.005,
+    -0.945,
+    2.31
+   ],
+   [
+    "y",
+    2.31,
+    -2.035,
+    -1.105
+   ],
+   [
+    "x",
+    -1.105,
+    2.31,
+    4.52
+   ]
+  ],
+  "valaszfal": [
+   [
+    -2.035,
+    -1.025,
+    -0.465,
+    -0.945
+   ]
+  ],
+  "megj": "a kontúr a rajz erkélyvonalaiból (a bal szél a 12. old.-on nem kirajzolt: az A-811-ével egyező x −2,035 feltételezve); padlószint, korlát NEM IGAZOLT"
+ },
+ "erkely_terv_m2": 7.04,
+ "plafon": [
+  [
+   -0.97,
+   -0.3,
+   8.5,
+   5.905
+  ],
+  [
+   3.02,
+   5.905,
+   9.02,
+   17.12
+  ],
+  [
+   8.5,
+   4.0,
+   9.02,
+   5.905
+  ]
+ ],
+ "kamerak": {
+  "Cam_02_Nappali_erkely": {
+   "loc": [
+    5.5,
+    0.55,
+    1.5
+   ],
+   "cel": [
+    0.0,
+    3.9,
+    1.25
+   ],
+   "statusz": "ÖSSZEHASONLÍTÓ – B fázis (nappali → erkélyüveg)"
+  },
+  "Cam_03_Etkezo_konyha": {
+   "loc": [
+    0.55,
+    4.5,
+    1.5
+   ],
+   "cel": [
+    7.2,
+    0.9,
+    1.2
+   ],
+   "statusz": "ÖSSZEHASONLÍTÓ – B fázis (ablak felől → étkező, konyha)"
+  },
+  "Cam_04_Haloszoba": {
+   "loc": [
+    6.15,
+    13.05,
+    1.5
+   ],
+   "cel": [
+    3.3,
+    15.9,
+    1.2
+   ],
+   "statusz": "ÖSSZEHASONLÍTÓ – B fázis (05.3 háló)"
+  },
+  "Cam_05_Haloszoba_05_2": {
+   "loc": [
+    5.85,
+    8.25,
+    1.5
+   ],
+   "cel": [
+    3.3,
+    10.6,
+    1.2
+   ],
+   "statusz": "kiegészítő nézet (05.2)"
+  }
+ },
+ "m2_osszevetes": [
+  {
+   "helyiseg": "Nappali+étkező",
+   "terv_m2": 33.85,
+   "modell_m2": 33.26,
+   "elteres_szazalek": -1.7,
+   "szobak": [
+    "nappali_etkezo"
+   ]
+  },
+  {
+   "helyiseg": "Konyha",
+   "terv_m2": 6.35,
+   "modell_m2": 6.21,
+   "elteres_szazalek": -2.2,
+   "szobak": [
+    "konyha"
+   ]
+  },
+  {
+   "helyiseg": "Előtér",
+   "terv_m2": 1.78,
+   "modell_m2": 1.79,
+   "elteres_szazalek": 0.8,
+   "szobak": [
+    "eloter"
+   ]
+  },
+  {
+   "helyiseg": "Közlekedő",
+   "terv_m2": 8.63,
+   "modell_m2": 8.63,
+   "elteres_szazalek": -0.0,
+   "szobak": [
+    "kozlekedo",
+    "05_1_fulke"
+   ]
+  },
+  {
+   "helyiseg": "Gardrób (közlekedő)",
+   "terv_m2": 1.48,
+   "modell_m2": 1.39,
+   "elteres_szazalek": -5.7,
+   "szobak": [
+    "kozlekedo_gardrob"
+   ]
+  },
+  {
+   "helyiseg": "Szoba (05.1)",
+   "terv_m2": 8.15,
+   "modell_m2": 7.96,
+   "elteres_szazalek": -2.4,
+   "szobak": [
+    "05_1"
+   ]
+  },
+  {
+   "helyiseg": "Szoba (05.2)",
+   "terv_m2": 9.5,
+   "modell_m2": 8.99,
+   "elteres_szazalek": -5.4,
+   "szobak": [
+    "05_2"
+   ]
+  },
+  {
+   "helyiseg": "Gardrób (10.2)",
+   "terv_m2": 3.21,
+   "modell_m2": 3.14,
+   "elteres_szazalek": -2.3,
+   "szobak": [
+    "gardrob_10_2"
+   ]
+  },
+  {
+   "helyiseg": "Szoba (05.3, gardróbbal)",
+   "terv_m2": 16.97,
+   "modell_m2": 16.42,
+   "elteres_szazalek": -3.3,
+   "szobak": [
+    "05_3",
+    "gardrob_10_3"
+   ]
+  },
+  {
+   "helyiseg": "Fürdő (06.2)",
+   "terv_m2": 4.31,
+   "modell_m2": 4.77,
+   "elteres_szazalek": 10.6,
+   "szobak": [
+    "furdo_06_2"
+   ]
+  },
+  {
+   "helyiseg": "Ht.hg. (06.1)",
+   "terv_m2": 3.45,
+   "modell_m2": 3.62,
+   "elteres_szazalek": 4.9,
+   "szobak": [
+    "hth_06_1"
+   ]
+  },
+  {
+   "helyiseg": "Fürdő (08/09)",
+   "terv_m2": 4.37,
+   "modell_m2": 4.62,
+   "elteres_szazalek": 5.7,
+   "szobak": [
+    "furdo_08_09"
+   ]
+  }
+ ],
+ "terv_ossz_m2": 102.05,
+ "modell_ossz_m2": 100.79,
+ "szoba_fal_atfedes": {
+  "nappali_etkezo": 0.005,
+  "kozlekedo": 0.0038,
+  "05_1": 0.0012,
+  "05_2": 0.0014,
+  "gardrob_10_3": 0.0026,
+  "furdo_06_2": 0.0018,
+  "hth_06_1": 0.0003,
+  "furdo_08_09": 0.0003
+ },
+ "statusz": {
+  "falak_nyilasok": "TERV SZERINT (vektoros rajzból)",
+  "belmagassag": "HELYSZÍNEN MÉRT tartomány (Kémeri), modell: 2,70 m",
+  "erkely": "ELŐZETES – kontúr a rajzból, szint és korlát nem igazolt",
+  "szaniter": "NINCS MODELLEZVE"
+ }
+}

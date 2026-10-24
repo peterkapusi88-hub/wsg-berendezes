@@ -1,0 +1,177 @@
+{
+ "lakas": "A-812",
+ "jelolok": 121,
+ "tipusonként": {
+  "mennyezeti_lampakiallas": 18,
+  "fali_lampakiallas": 5,
+  "kapcsolo": 19,
+  "dugalj": 50,
+  "fix_bekotes": 1,
+  "ventilator_kiallas": 3,
+  "gyengearamu_aljzat": 7,
+  "antenna_tv_aljzat": 1,
+  "BK_doboz": 1,
+  "hangjelzo_vagy_erzekelo": 1,
+  "R_jelu_kiallas": 7,
+  "termosztat": 4,
+  "lakaselosztó": 1,
+  "kezelo_billentyuzet": 1,
+  "kaputelefon_belteri": 1,
+  "bejarati_ajto_eszkoz": 1
+ },
+ "falra_illesztve": [
+  [
+   "A812-FL02",
+   "fali_lampakiallas",
+   0.09
+  ],
+  [
+   "A812-FL03",
+   "fali_lampakiallas",
+   0.086
+  ],
+  [
+   "A812-FL04",
+   "fali_lampakiallas",
+   0.075
+  ],
+  [
+   "A812-D02",
+   "dugalj",
+   0.149
+  ],
+  [
+   "A812-D07",
+   "dugalj",
+   0.485
+  ],
+  [
+   "A812-D09",
+   "dugalj",
+   0.43
+  ],
+  [
+   "A812-D37",
+   "dugalj",
+   0.099
+  ],
+  [
+   "A812-D38",
+   "dugalj",
+   0.155
+  ],
+  [
+   "A812-D39",
+   "dugalj",
+   0.109
+  ],
+  [
+   "A812-D41",
+   "dugalj",
+   0.325
+  ],
+  [
+   "A812-D45",
+   "dugalj",
+   0.423
+  ],
+  [
+   "A812-V01",
+   "ventilator_kiallas",
+   0.295
+  ],
+  [
+   "A812-V02",
+   "ventilator_kiallas",
+   0.123
+  ],
+  [
+   "A812-V03",
+   "ventilator_kiallas",
+   0.181
+  ],
+  [
+   "A812-G01",
+   "gyengearamu_aljzat",
+   0.385
+  ],
+  [
+   "A812-G02",
+   "gyengearamu_aljzat",
+   0.244
+  ],
+  [
+   "A812-G03",
+   "gyengearamu_aljzat",
+   0.244
+  ],
+  [
+   "A812-G04",
+   "gyengearamu_aljzat",
+   0.356
+  ],
+  [
+   "A812-G09",
+   "BK_doboz",
+   0.116
+  ],
+  [
+   "A812-T01",
+   "termosztat",
+   0.864
+  ],
+  [
+   "A812-T02",
+   "termosztat",
+   0.537
+  ],
+  [
+   "A812-T04",
+   "termosztat",
+   0.541
+  ],
+  [
+   "A812-E01",
+   "lakaselosztó",
+   0.247
+  ],
+  [
+   "A812-S02",
+   "kezelo_billentyuzet",
+   0.55
+  ],
+  [
+   "A812-S03",
+   "kaputelefon_belteri",
+   0.24
+  ],
+  [
+   "A812-S04",
+   "bejarati_ajto_eszkoz",
+   0.11
+  ]
+ ],
+ "kulso_homlokzaton": [
+  [
+   "A812-FL05",
+   "fali_lampakiallas",
+   1.832
+  ],
+  [
+   "A812-D50",
+   "dugalj",
+   0.169
+  ]
+ ],
+ "mennyezet_kivul": [],
+ "almennyezet": {
+  "magassag": {
+   "01 ELŐTÉR": 2.5,
+   "06.1 FÜRDŐ (HTH)": 2.4,
+   "06.2 FÜRDŐ": 2.4,
+   "08/09 FÜRDŐ": 2.4
+  },
+  "forras": "a rajz zöld felirata (A-812 előtér: „gk. álm. as.: +2,50 m”); a fürdőkben Péter átvételi összesítője (min. 2,40 m)"
+ },
+ "hutes_futes_mezo": 8
+}
