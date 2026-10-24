@@ -30,3 +30,11 @@
 **Kész definíciója:** …
 
 **Ellenőrző lista Claude-nak:** ugyanazt a briefet küldted? biztosan csak egyszer indítod? elérhetők a hivatkozott fájlok? a képek ténylegesen a repóban vannak? a feladat része-e a keret és a 10% tartalék?
+
+## Kötelező Render Reality Gate mezők
+
+- **Reality card / preflight:** repoelérési út vagy tartalom; verzió, kamera, forrás-Blender/fotó és bizonytalanság.
+- **Meglévő/megtartott felületek:** WSG szürke tölgy padló; fehér falak; mennyezet, fekete nyílászárók, fix geometria. Padló pontos dekor/SKU helyszíni bizonyításig `NEM IGAZOLT`.
+- **Tervezett új felületek:** hol, hány m², konkrét panel/tapéta/festés, valós vizuális megjelenés, bruttó anyag- és szerelési ár/státusz.
+- **Render-szint:** `KONCEPCIÓ – NEM VALIDÁLT` | `ELŐSZŰRT – FELTÉTELES` | részletes termékhűség-vizsgálatra kért.
+- **Preflight gate:** `ai-coordination/RENDER_REALITY_GATE.md` szerinti anyag-/geometrialezárás és vizuális PASS/FAIL elvárások; takart padló `nem ellenőrizhető`.
