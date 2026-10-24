@@ -30,11 +30,11 @@
    [
     0,
     0,
-    5.85,
+    5.8,
     4.7
    ],
    [
-    5.85,
+    5.8,
     2.9,
     7.22,
     4.7
@@ -54,7 +54,7 @@
   ],
   "konyha": [
    [
-    5.85,
+    5.8,
     0,
     6.45,
     2.8
@@ -224,14 +224,14 @@
  "room_terv_m2": {
   "Nappali+étkező": {
    "terv": 33.85,
-   "modell": 33.26,
+   "modell": 33.12,
    "szobak": [
     "nappali_etkezo"
    ]
   },
   "Konyha": {
    "terv": 6.35,
-   "modell": 6.21,
+   "modell": 6.35,
    "szobak": [
     "konyha"
    ]
@@ -1658,12 +1658,12 @@
    0.0,
    0.0,
    -0.02,
-   5.85,
+   5.8,
    4.7,
    0.0
   ],
   "P_nappali_etkezo_2": [
-   5.85,
+   5.8,
    2.9,
    -0.02,
    7.22,
@@ -1687,7 +1687,7 @@
    0.0
   ],
   "P_konyha_1": [
-   5.85,
+   5.8,
    0.0,
    -0.02,
    6.45,
@@ -2215,6 +2215,8 @@
   ],
   "scene_camera": "Cam_02_Nappali_erkely",
   "engine": "BLENDER_EEVEE",
+  "raytracing": true,
+  "taa_samples": 32,
   "view_transform": "AgX",
   "look": "AgX - Medium High Contrast",
   "exposure": 0.75,

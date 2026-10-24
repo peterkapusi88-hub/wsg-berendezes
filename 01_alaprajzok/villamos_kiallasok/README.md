@@ -19,6 +19,15 @@ Gyors áttekintés: **`OSSZESITO.md`**. Tételes adat: `<LAKÁS>_villamos.csv` /
 ## Blender
 Az A-902 kiállásai és hűtő-fűtő mezői a v2b modellben is megvannak: `A902_Villamos_TERV` gyűjtemény (renderben rejtve, nézetben látható), azonosítóval elnevezett jelölőkkel. Szkript: `03_blender/geometry_v2/add_kiallas_reteg.py`; ellenőrző felülnézet: `04_renderek/A902_alap_v2b/A902_Alap-v2b_blender_06_alaprajz-kiallasok.png`.
 
+Az A-811-nek és az A-812-nek is van alaprajzi Blender-modellje (2026-10-24, ELŐZETES, draft PR). Az `A811_Villamos_TERV` és az `A812_Villamos_TERV` réteg ugyanígy épül:
+- szkript: `03_blender/geometry_A811_A812/build_a8_modell.py`;
+- ellenőrzés: `<lakás>_kiallas_reteg_ellenorzes.json`;
+- felülnézet: `04_renderek/A811_alap_v1/`, `04_renderek/A812_alap_v1/`.
+
+**A lámpajelölő magassága álmennyezetnél:**
+- A-811: WC 2,40 (rajz); előtér és fürdők 2,40 (Péter összesítője).
+- A-812: előtér 2,50 (rajz); fürdők 2,40.
+
 ## Koordináták
 Egység: méter. x a rajzon jobbra, y a rajzon felfelé. Pontosság a rajzhoz képest ±1 cm (1:50), illetve ±2 cm (1:100).
 
@@ -26,7 +35,8 @@ Egység: méter. x a rajzon jobbra, y a rajzon felfelé. Pontosság a rajzhoz k�
 - **A-902:** x=0 a 05.1 szoba homlokzati belső falsíkja, y=0 a 05.2 szoba alsó belső falsíkja. **Azonos a Blender-modellel** (`03_blender/WSG_A902_*`).
 - **A-811:** x=0 a 04 nappali erkély felőli belső falsíkja, y=0 a 05.1 szoba rajzon alsó belső falsíkja.
 - **A-812:** x=0 a 04 nappali erkély felőli belső falsíkja, y=0 a 04 nappali rajzon alsó belső falsíkja.
-- Az A-811 és az A-812 helyi rendszer, mert Blender-modell még nincs.
+- Az A-811 és az A-812 rendszere azonos a Blender-modellel (`03_blender/WSG_A811_*`, `WSG_A812_*`, 2026-10-24).
+- A 8. emeleti megvalósulási terv illesztése szerint a két lakás x-e közös, és y_A812 = y_A811 − 11,85: az A-811 felső fala az A-812 alsó fala.
 
 **Mezők:**
 - `x_m`, `y_m`: a rajzi jel középpontja. Mennyezeti lámpánál ez maga a kiállás helye.
@@ -34,7 +44,10 @@ Egység: méter. x a rajzon jobbra, y a rajzon felfelé. Pontosság a rajzhoz k�
   - Ha több jel egy vezetővonalon ül (például kapcsolóoszlop, TV-blokk, ágy melletti kapcsoló + dugalj), mind a vezetővonal falnál lévő végére kerül.
 - `magassag_m`: szerelési magasság a padlótól. Csak ott van kitöltve, ahol a rajzon „m=…” felirat szerepel.
 
-**Helyiség-hozzárendelés:** az A-902-n a Blender-geometria helyiségein alapul. Az A-811-en és az A-812-n kézzel rögzített, közelítő téglalapokon (a koordináta a mérvadó).
+**Helyiség-hozzárendelés:**
+- Az A-902-n a Blender-geometria helyiségein alapul.
+- Az A-811-en és az A-812-n kézzel rögzített, közelítő téglalapokon (a koordináta a mérvadó).
+- A modell pontos helyiségkontúrjai a `geometry_lock_A811/A812.json` `rooms` kulcsában.
 
 ## Jelkulcs – mennyire biztos
 A lapokon ez áll: „Jelmagyarázatot lásd mellékletben!”. Maga a jelmagyarázat **nincs** a feldolgozott PDF-ben, és a vevői **műszaki mellékletben** (`WGR1_műszaki melléklet.pdf`, 2024.02.13., Péter engedélyével átnézve, nincs a repóban) sincs. A melléklet szövege viszont több jel jelentését igazolja – ezek az alábbi táblában „műszaki melléklet (2024.02.13.)” forrással szerepelnek.

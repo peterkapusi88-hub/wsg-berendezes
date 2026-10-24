@@ -162,8 +162,8 @@ FL = {
        szobak=['05.3'], megj='kétszárnyú + egyszárnyú, padlóig érő nyíló ablak'),
   },
   szobak={
-   'nappali_etkezo': ('03-04 ÉTKEZŐ-NAPPALI', 'parketta', [[0, 0, 5.85, 4.7], [5.85, 2.9, 7.22, 4.7], [0, 4.7, 3.22, 5.6], [-0.67, 5.0, 0, 5.6]]),
-   'konyha': ('02 KONYHA', 'parketta', [[5.85, 0, 6.45, 2.8], [6.45, 0.6, 7.3, 2.8], [7.3, 0, 8.25, 2.8]]),
+   'nappali_etkezo': ('03-04 ÉTKEZŐ-NAPPALI', 'parketta', [[0, 0, 5.80, 4.7], [5.80, 2.9, 7.22, 4.7], [0, 4.7, 3.22, 5.6], [-0.67, 5.0, 0, 5.6]]),
+   'konyha': ('02 KONYHA', 'parketta', [[5.80, 0, 6.45, 2.8], [6.45, 0.6, 7.3, 2.8], [7.3, 0, 8.25, 2.8]]),   # 5,80 + 2,45 (méretszám)
    'eloter': ('01 ELŐTÉR', 'parketta', [[7.32, 2.9, 8.25, 4.7], [7.22, 2.9, 7.32, 4.1]]),
    'kozlekedo': ('07 KÖZLEKEDŐ', 'parketta', [[6.17, 4.7, 7.22, 12.63]]),
    'kozlekedo_gardrob': ('07 KÖZLEKEDŐ (gardrób rész)', 'parketta', [[7.32, 4.8, 8.25, 6.3]]),
@@ -338,10 +338,18 @@ for flat, P in FL.items():
         kuszob[f'P_kuszob_{n}'] = dict(r=r3([a0, w0, a1, w1] if a['fal'] == 'x' else [w0, a0, w1, a1]), anyag=anyag)
     # m² összevetés
     def area(rs): return unary_union([box(*r) for r in rs]).area
+    def melyedes(k):   # a szobához csatlakozó ablakmélyedés (a tok belső síkja és a belső falsík között)
+        s_ = 0.0
+        for w in P['ablakok'].values():
+            (f0, f1), (b0, b1), (x0, x1) = w['f'], w['b'], w['fal']
+            for r in P['szobak'][k][2]:
+                if abs(r[0] - x1) < 0.002: s_ += max(0.0, min(f1, r[3]) - max(f0, r[1])) * (x1 - b1)
+        return s_
     m2 = []
     for nev, (t, keys) in P['terv_m2'].items():
-        a = sum(area(P['szobak'][k][2]) for k in keys)
-        m2.append(dict(helyiseg=nev, terv_m2=t, modell_m2=round(a, 2), elteres_szazalek=round((a - t) / t * 100, 1), szobak=keys))
+        a = sum(area(P['szobak'][k][2]) for k in keys); am = a + sum(melyedes(k) for k in keys)
+        m2.append(dict(helyiseg=nev, terv_m2=t, modell_m2=round(a, 2), modell_m2_ablakmelyedessel=round(am, 2),
+                       elteres_m2=round(am - t, 2), elteres_szazalek=round((am - t) / t * 100, 1), szobak=keys))
     # ellenőrzés: szobák nem fedik a falakat (1 cm²-nél nagyobb átfedés)
     WU = unary_union([box(*r) for r in rects] + [box(*r) for r in P['aknak'].values()])
     atfedes = {}
@@ -363,11 +371,12 @@ for flat, P in FL.items():
         szobak={k: dict(nev=v[0], padlo=v[1], r=v[2]) for k, v in P['szobak'].items()}, kuszob=kuszob,
         padloanyag=dict(parketta=PARKETTA, keramia=KERAMIA), erkely=P['erkely'], erkely_terv_m2=P['erkely_m2'], plafon=P['plafon'],
         kamerak=P['kamerak'], m2_osszevetes=m2, terv_ossz_m2=P['terv_ossz'],
-        modell_ossz_m2=round(sum(area(v[2]) for v in P['szobak'].values()), 2), szoba_fal_atfedes=atfedes,
+        modell_ossz_m2=round(sum(area(v[2]) for v in P['szobak'].values()), 2),
+        modell_ossz_m2_ablakmelyedessel=round(sum(area(v[2]) + melyedes(k) for k, v in P['szobak'].items()), 2), szoba_fal_atfedes=atfedes,
         statusz=dict(falak_nyilasok='TERV SZERINT (vektoros rajzból)', belmagassag='HELYSZÍNEN MÉRT tartomány (Kémeri), modell: 2,70 m',
                      erkely='ELŐZETES – kontúr a rajzból, szint és korlát nem igazolt', szaniter='NINCS MODELLEZVE'))
     json.dump(out, open(os.path.join(HERE, f'{flat}_geometria_ELOZETES.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(flat, 'sávok', len(B), 'sraff', nh, '→ falak', len(walls), '| aknák', len(P['aknak']), '| ajtók', len(P['ajtok']), '| ablakok', len(P['ablakok']),
           '| szoba–fal átfedés', atfedes)
-    for m in m2: print('   ', m['helyiseg'].ljust(28), m['terv_m2'], '→', m['modell_m2'], f"({m['elteres_szazalek']:+.1f}%)")
-    print('    összesen terv', P['terv_ossz'], 'modell', out['modell_ossz_m2'])
+    for m in m2: print('   ', m['helyiseg'].ljust(28), m['terv_m2'], '→', m['modell_m2'], '+ mélyedés →', m['modell_m2_ablakmelyedessel'], f"({m['elteres_m2']:+.2f} m², {m['elteres_szazalek']:+.1f}%)")
+    print('    összesen terv', P['terv_ossz'], 'modell', out['modell_ossz_m2'], '(ablakmélyedéssel', out['modell_ossz_m2_ablakmelyedessel'], ')')

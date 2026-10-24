@@ -11,6 +11,9 @@ A `ai-coordination/RENDER_REALITY_GATE.md` szerint. **Egyik eddigi kép sem PASS
 | `alap/` | IKEA-méretű bútorelrendezés (méretpróba) | **GEOMETRIAI MUNKAKÉP** | nem esztétikai minta; validátor-hibák (05.2, 05.3, WC) nyitottak |
 | `semleges/` | üres, semleges belső nézetek (Cam_02–05) | **GEOMETRIAI ALAP – ELŐZETES** | brosúra-geometria ±15 cm; a **Cam_05 terasznézet elavult** (sík terasz) |
 | `terasz_v2_geometria/` | A-902 többszintű tetőkert, v2 (Cam_07–09) | **GEOMETRIAI ALAP – ELŐZETES** | tervdokumentum és videó; a zöldtető szintje, a domb és a járósáv becslés; nem stíluskép |
+| `A902_alap_v2b/` | A-902 bútor nélküli alapképek a v2b modellből (Cam_02/03/04) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | reality card a mappában; a padló dekorja és a falsík helyszínen nem igazolt |
+| `A811_alap_v1/` | A-811 bútor nélküli alapképek az alaprajzi modellből (Cam_02–05) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | reality card a mappában; a parketta-tónus becslés; az erkélyszint és a korlát nem igazolt |
+| `A812_alap_v1/` | A-812 bútor nélküli alapképek az alaprajzi modellből (Cam_02–05) + kiállás-felülnézet | **ALAPKÉP – TERV SZERINT / ELŐSZŰRT – FELTÉTELES** | ua.; a hálók padlóig érő ablakánál a korlát nem igazolt |
 
 **Szabály a továbbiakra:**
 - Új kép csak Reality Carddal készülhet, a fájlnév mellett a státusszal.

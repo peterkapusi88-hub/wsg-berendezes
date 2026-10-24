@@ -182,6 +182,7 @@ sc.camera = bpy.data.objects['Cam_02_Nappali_erkely']
 r = sc.render; vs = sc.view_settings
 r.engine = 'BLENDER_EEVEE'; r.resolution_x, r.resolution_y, r.resolution_percentage = 1600, 1000, 100
 r.image_settings.file_format = 'PNG'
+sc.eevee.use_raytracing = True; sc.eevee.taa_render_samples = 32   # mint az A-902 v2b-ben (sugárkövetés nélkül a beltér egyenletesen „kivilágosodik”)
 vs.view_transform = 'AgX'; vs.look = 'AgX - Medium High Contrast'; vs.exposure = 0.75; vs.gamma = 1.0
 w = bpy.data.worlds.new('Vilag_semleges'); sc.world = w; w.use_nodes = True
 bg = w.node_tree.nodes['Background']; bg.inputs['Color'].default_value = (0.86, 0.88, 0.92, 1); bg.inputs['Strength'].default_value = 1.0
@@ -312,7 +313,8 @@ lock = dict(
     terrace_zones={f'erkely_{i + 1}': dict(r=r, z=E['z'], butorozhato=True, megj='ELŐZETES') for i, r in enumerate(E['lapok'])},
     cameras={o.name: cam_params(o) for o in sc.objects if o.type == 'CAMERA'},
     render=dict(resolution_x=r.resolution_x, resolution_y=r.resolution_y, percentage=r.resolution_percentage, pixel_aspect=[r.pixel_aspect_x, r.pixel_aspect_y],
-                scene_camera=sc.camera.name, engine=r.engine, view_transform=vs.view_transform, look=vs.look, exposure=round(vs.exposure, 3), gamma=round(vs.gamma, 3),
+                scene_camera=sc.camera.name, engine=r.engine, raytracing=sc.eevee.use_raytracing, taa_samples=sc.eevee.taa_render_samples,
+                view_transform=vs.view_transform, look=vs.look, exposure=round(vs.exposure, 3), gamma=round(vs.gamma, 3),
                 vilag='egyszínű (0,86/0,88/0,92), erősség 1,0; nincs nap és belső lámpa'),
     statusz=dict(falak_nyilasok='TERV SZERINT (vektoros rajz; helyszínen nem mért)', belmagassag=f'{H} m (Kémeri mérés: ' + G['H_forras'].split('mérése ')[1].split(' (')[0] + ')',
                  anyagok='fal, mennyezet, nyílászáró: az A-902 v2b anyagai (fotóval igazolt az A-902-ben); parketta és kerámia: BECSLÉS',

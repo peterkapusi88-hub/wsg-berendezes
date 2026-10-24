@@ -23,17 +23,18 @@ def kep():
 vk = bpy.data.collections[f'{L}_Villamos_TERV']; vk.hide_render = True
 # semleges beállítás (a fájlban is így van; itt csak biztosítjuk)
 r.engine = 'BLENDER_EEVEE'; r.resolution_x, r.resolution_y, r.resolution_percentage = 1600, 1000, 100
+sc.eevee.use_raytracing = True; sc.eevee.taa_render_samples = 32
 vs.view_transform = 'AgX'; vs.look = 'AgX - Medium High Contrast'; vs.exposure = 0.75; vs.gamma = 1.0
 bg = sc.world.node_tree.nodes['Background']; bg.inputs['Color'].default_value = (0.86, 0.88, 0.92, 1); bg.inputs['Strength'].default_value = 1.0
 for o in bpy.data.objects:
     if o.type == 'LIGHT': o.hide_render = True
-KAM = [(o.name, f"{L[0]}-{L[1:]}" ) for o in sorted(bpy.data.objects, key=lambda o: o.name) if o.type == 'CAMERA' and o.data.type == 'PERSP']
+KAM = [o.name for o in sorted(bpy.data.objects, key=lambda o: o.name) if o.type == 'CAMERA' and o.data.type == 'PERSP']
 NEV = {'Cam_02': '02_nappali-erkely', 'Cam_03': '03_etkezo-konyha', 'Cam_04': '04_haloszoba', 'Cam_05': '05_haloszoba-2'}
 log = dict(blender=bpy.app.version_string, fajl=os.path.basename(bpy.data.filepath), lakas=L, kepek=[],
-           beallitas=dict(motor=r.engine, felbontas=[r.resolution_x, r.resolution_y], view=vs.view_transform, look=vs.look, expozicio=vs.exposure,
+           beallitas=dict(motor=r.engine, sugarkovetes=sc.eevee.use_raytracing, mintak=sc.eevee.taa_render_samples, felbontas=[r.resolution_x, r.resolution_y], view=vs.view_transform, look=vs.look, expozicio=vs.exposure,
                           egbolt='egyszínű (0,86/0,88/0,92), erősség 1,0', fenyek='nincs'),
            rejtve=[f'{L}_Villamos_TERV'], bútor='nincs a modellben')
-for cam, _ in KAM:
+for cam in KAM:
     fn = f"{L}_Alap-v1_blender_{NEV[cam[:6]]}.png"
     sc.camera = bpy.data.objects[cam]; r.filepath = os.path.join(OUT, fn); t = time.time(); kep()
     log['kepek'].append(dict(kamera=cam, fajl=fn, mp=round(time.time() - t, 1)))

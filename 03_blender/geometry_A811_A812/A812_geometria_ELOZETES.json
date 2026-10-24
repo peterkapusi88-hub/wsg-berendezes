@@ -888,11 +888,11 @@
     [
      0,
      0,
-     5.85,
+     5.8,
      4.7
     ],
     [
-     5.85,
+     5.8,
      2.9,
      7.22,
      4.7
@@ -916,7 +916,7 @@
    "padlo": "parketta",
    "r": [
     [
-     5.85,
+     5.8,
      0,
      6.45,
      2.8
@@ -1301,8 +1301,10 @@
   {
    "helyiseg": "Nappali+étkező",
    "terv_m2": 33.85,
-   "modell_m2": 33.26,
-   "elteres_szazalek": -1.7,
+   "modell_m2": 33.12,
+   "modell_m2_ablakmelyedessel": 33.85,
+   "elteres_m2": -0.0,
+   "elteres_szazalek": -0.0,
    "szobak": [
     "nappali_etkezo"
    ]
@@ -1310,8 +1312,10 @@
   {
    "helyiseg": "Konyha",
    "terv_m2": 6.35,
-   "modell_m2": 6.21,
-   "elteres_szazalek": -2.2,
+   "modell_m2": 6.35,
+   "modell_m2_ablakmelyedessel": 6.35,
+   "elteres_m2": 0.0,
+   "elteres_szazalek": 0.0,
    "szobak": [
     "konyha"
    ]
@@ -1320,6 +1324,8 @@
    "helyiseg": "Előtér",
    "terv_m2": 1.78,
    "modell_m2": 1.79,
+   "modell_m2_ablakmelyedessel": 1.79,
+   "elteres_m2": 0.01,
    "elteres_szazalek": 0.8,
    "szobak": [
     "eloter"
@@ -1329,6 +1335,8 @@
    "helyiseg": "Közlekedő",
    "terv_m2": 8.63,
    "modell_m2": 8.63,
+   "modell_m2_ablakmelyedessel": 8.63,
+   "elteres_m2": -0.0,
    "elteres_szazalek": -0.0,
    "szobak": [
     "kozlekedo",
@@ -1339,6 +1347,8 @@
    "helyiseg": "Gardrób (közlekedő)",
    "terv_m2": 1.48,
    "modell_m2": 1.39,
+   "modell_m2_ablakmelyedessel": 1.39,
+   "elteres_m2": -0.09,
    "elteres_szazalek": -5.7,
    "szobak": [
     "kozlekedo_gardrob"
@@ -1348,7 +1358,9 @@
    "helyiseg": "Szoba (05.1)",
    "terv_m2": 8.15,
    "modell_m2": 7.96,
-   "elteres_szazalek": -2.4,
+   "modell_m2_ablakmelyedessel": 8.14,
+   "elteres_m2": -0.01,
+   "elteres_szazalek": -0.1,
    "szobak": [
     "05_1"
    ]
@@ -1357,7 +1369,9 @@
    "helyiseg": "Szoba (05.2)",
    "terv_m2": 9.5,
    "modell_m2": 8.99,
-   "elteres_szazalek": -5.4,
+   "modell_m2_ablakmelyedessel": 9.56,
+   "elteres_m2": 0.06,
+   "elteres_szazalek": 0.6,
    "szobak": [
     "05_2"
    ]
@@ -1366,6 +1380,8 @@
    "helyiseg": "Gardrób (10.2)",
    "terv_m2": 3.21,
    "modell_m2": 3.14,
+   "modell_m2_ablakmelyedessel": 3.14,
+   "elteres_m2": -0.07,
    "elteres_szazalek": -2.3,
    "szobak": [
     "gardrob_10_2"
@@ -1375,7 +1391,9 @@
    "helyiseg": "Szoba (05.3, gardróbbal)",
    "terv_m2": 16.97,
    "modell_m2": 16.42,
-   "elteres_szazalek": -3.3,
+   "modell_m2_ablakmelyedessel": 16.98,
+   "elteres_m2": 0.01,
+   "elteres_szazalek": 0.0,
    "szobak": [
     "05_3",
     "gardrob_10_3"
@@ -1385,6 +1403,8 @@
    "helyiseg": "Fürdő (06.2)",
    "terv_m2": 4.31,
    "modell_m2": 4.77,
+   "modell_m2_ablakmelyedessel": 4.77,
+   "elteres_m2": 0.46,
    "elteres_szazalek": 10.6,
    "szobak": [
     "furdo_06_2"
@@ -1394,6 +1414,8 @@
    "helyiseg": "Ht.hg. (06.1)",
    "terv_m2": 3.45,
    "modell_m2": 3.62,
+   "modell_m2_ablakmelyedessel": 3.62,
+   "elteres_m2": 0.17,
    "elteres_szazalek": 4.9,
    "szobak": [
     "hth_06_1"
@@ -1403,6 +1425,8 @@
    "helyiseg": "Fürdő (08/09)",
    "terv_m2": 4.37,
    "modell_m2": 4.62,
+   "modell_m2_ablakmelyedessel": 4.62,
+   "elteres_m2": 0.25,
    "elteres_szazalek": 5.7,
    "szobak": [
     "furdo_08_09"
@@ -1410,9 +1434,9 @@
   }
  ],
  "terv_ossz_m2": 102.05,
- "modell_ossz_m2": 100.79,
+ "modell_ossz_m2": 100.78,
+ "modell_ossz_m2_ablakmelyedessel": 102.83,
  "szoba_fal_atfedes": {
-  "nappali_etkezo": 0.005,
   "kozlekedo": 0.0038,
   "05_1": 0.0012,
   "05_2": 0.0014,

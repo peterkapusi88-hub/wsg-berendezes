@@ -42,7 +42,7 @@ FLATS = {
              ('jakuzzi_aramkiallas', 3.77, 9.29, '', 'kültéri jakuzzi-áramkiállás; fali bekötési pont x≈3,50 (a rajzi × helye)')]),
  'A811': dict(page=5, scale=50, X0=434.02, Y0=748.0, dosszie=150,
    verzio='M1 (érvényes; KORR-alaprajz nem készült)',
-   origo='x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 05.1 szoba rajzon alsó belső falsíkja. Helyi rendszer (Blender-modell még nincs).',
+   origo='x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 05.1 szoba rajzon alsó belső falsíkja. Azonos a Blender-modell (WSG_A811_*) koordinátáival.',
    kulso=[R(8.45, 6.20, 9.50, 7.60)],   # a bejárati ajtó lépcsőházi oldala (csengő, csengőnyomó doboza)
    rooms=[('05.1 SZOBA', R(-0.70, 0, 4.43, 2.69)), ('05.1 SZOBA', R(4.43, 1.60, 5.00, 2.69)),
           ('05.2-3 SZOBA', R(0, 2.81, 5.02, 3.85)), ('05.2-3 SZOBA', R(0, 3.85, 3.23, 6.56)), ('05.2-3 SZOBA (gardrób)', R(3.32, 3.85, 5.02, 6.56)),
@@ -57,7 +57,7 @@ FLATS = {
              ('EPH_csatlakozo', 7.47, 0.37, '', 'kád melletti kör (×|||) – valószínűleg EPH (NEM IGAZOLT)')]),
  'A812': dict(page=12, scale=100, X0=539.36, Y0=600.95, dosszie=179,
    verzio='M1 KORR (2026.04.28.) – átnézeti lap 1:100, a teljes lakás (az 1:50-es 11. oldal csak részlet)',
-   origo='x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 04 nappali rajzon alsó belső falsíkja. Helyi rendszer (Blender-modell még nincs).',
+   origo='x=0: 04 nappali homlokzati (erkélyajtós, rajzon bal) belső falsíkja; y=0: 04 nappali rajzon alsó belső falsíkja. Azonos a Blender-modell (WSG_A812_*) koordinátáival.',
    kulso=[R(8.45, 2.30, 9.50, 3.70)],   # a bejárati ajtó lépcsőházi oldala (csengő, csengőnyomó doboza)
    rooms=[('03-04 ÉTKEZŐ-NAPPALI', R(0, 0, 3.20, 5.60)), ('03-04 ÉTKEZŐ-NAPPALI', R(3.20, 0, 5.85, 4.70)),
           ('02 KONYHA', R(5.85, 0, 8.25, 2.85)), ('01 ELŐTÉR', R(5.85, 2.85, 8.35, 4.75)),

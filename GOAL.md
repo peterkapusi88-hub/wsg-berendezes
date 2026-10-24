@@ -86,6 +86,14 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - **2026-10-24 09:10 – villamos kiállások rögzítve mindhárom lakásra** (Péter kérésére, a méretezett PDF vektoraiból): `01_alaprajzok/villamos_kiallasok/` – JSON/CSV, összesítő, ellenőrző átfedéskép, hűtő-fűtő mezők, kinyerő szkript. Korábban csak képként volt a repóban, koordináta nélkül. Független ellenőrzés után javítva (4 hiányzó mozgásérzékelő, 1 ventilátor, 3 rossz helyiség, 6 téves doboz). A rajzlapok módosítási szövegéből: kupola = mozgásérzékelő, önálló BK = riasztóközpont (valószínű); A-902-ben szekrényvilágítás-dugalj 05.1: 1, 05.3: 2. Nyitott: R, 1/2/3 jelentése, alapértelmezett szerelési magasságok, helyszíni ellenőrzés.
 - **2026-10-24 13:10 – PR #4 (kiállások) és PR #5 (A-902 geometria v2b) a main-ben** (Péter jóváhagyásával). A vevői műszaki melléklet (2024.02.13.) átnézve: az R jel motoros redőny kiállása, a kupola-jel mozgásérzékelő (igazolva); a mennyezeti hűtő-fűtő panelek a födémbe integráltak; minden lakóhelyiségben van RJ45 informatikai blokk; a riasztó az alapban csak elővezetékezés (beépült-e: nincs adat).
 - **2026-10-24 14:10 – A-902 v2b: kiállás-réteg a Blender-modellben és bútor nélküli alapképek** a B fázishoz (Cam_02/03/04, semleges szórt fény; reality card: `04_renderek/A902_alap_v2b/`). Beolvasztva a mainbe (PR #7, Péter, 14:25). Észrevétel: a fő helyiségek mennyezeti kiállásai (ML03–ML08) a hűtő-fűtő mezőn belül vannak – lámparögzítés előtt hőkamerás ellenőrzés (hétfő).
+- **2026-10-24 15:30 – A-811 és A-812 Blender-alapmodell (ELŐZETES, tervből)**, Péter kérésére. Draft PR, a „mehet”-re vár.
+  - **Forrás és tartalom:** a méretezett alaprajz vektoros falvonalai. Falak, aknák, ajtók, üvegfalak, padló, erkély, kamerák, kiállás-réteg és lock.
+  - **Ellenőrzés:**
+    - validátor v2: PASS;
+    - helyiség-m² a megvalósulási tervvel ±0,1 m²-en belül (a fürdők kivételével: előtétfal);
+    - a rajzi méretszámok egyeznek.
+  - **Alapképek:** bútor nélkül, az A-902-vel azonos semleges beállítással, reality carddal. Helye: `04_renderek/A811_alap_v1/`, `04_renderek/A812_alap_v1/`. Leírás: `03_blender/geometry_A811_A812/README.md`.
+  - **Észrevétel:** itt is hűtő-fűtő mezőben van a nappali és a hálók mennyezeti kiállása. Az A-812 hálóinak padlóig érő ablakánál korlát a rajzon nincs. Mindkettő hétfőn ellenőrizendő.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
@@ -116,7 +124,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
 3. Asztalos-rajzok + szabásjegyzék a forma-darabokhoz; ajánlatkérés csak „mehet" után.
-4. Hétfő: fotók → geometria, A-811/A-812 alap, AI-képek a valódi lakásról.
+4. Hétfő: fotók és mérés → mindhárom modell véglegesítése (az A-811/A-812 alapmodell kész, ELŐZETES), AI-képek a valódi lakásról.
 5. Ajánlatok összevetése (8 cég + IKEA + Andi), döntés.
 
 ## 9. Mappatérkép

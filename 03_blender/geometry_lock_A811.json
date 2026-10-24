@@ -1844,6 +1844,8 @@
   ],
   "scene_camera": "Cam_02_Nappali_erkely",
   "engine": "BLENDER_EEVEE",
+  "raytracing": true,
+  "taa_samples": 32,
   "view_transform": "AgX",
   "look": "AgX - Medium High Contrast",
   "exposure": 0.75,
