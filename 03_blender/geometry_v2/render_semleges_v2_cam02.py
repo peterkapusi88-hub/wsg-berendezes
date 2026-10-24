@@ -4,14 +4,15 @@
 # CSAK KÉZI futtatásra: semmi (workflow, Validator, más szkript, ütemezett feladat) nem hívja.
 # Nem írja felül az élő .blend-et; kimenete nem referencia. Ld. 03_blender/validator_report_2026-10-24_semleges_v2.md
 # =====================================================================================
-if __name__ == "__main__" and False:  # biztosíték: importkor/véletlen futtatáskor nem csinál semmit
-    pass
+import os as _os
+if _os.environ.get("WSG_KEZI_FUTTATAS") != "1":  # biztosíték: csak tudatos kézi indításra fut
+    raise SystemExit("ELŐZETES / NEM VALIDÁLT renderszkript – futtatás csak WSG_KEZI_FUTTATAS=1 mellett, Péter kérésére.")
 # A-902 semleges geometria-alap v2 – Cam_02 (nappali → terasz)
 # Bemenet: 03_blender/WSG_A902_v2_terasz_ELOZETES_20261024.blend MÁSOLATA (az élő fájlt és a repófájlt nem írja felül).
 # Változtatás csak a másolaton, csak megjelenés: bútor- és stílusrétegek rejtve; nyílászáró-profilok BELÜL FEHÉR (IGAZOLT-F),
 # beltéri ajtólap világosszürke, tok szürke (IGAZOLT-F). Geometria nem változik. Validátor a render előtt fut.
 # Futtatás (bpy 5.2.3 modul, NEM a szkript mappájából indítva):
-#   python3 -c "import sys,bpy; sys.argv=['x','<v2 másolat.blend>','<repo>/03_blender/geometry_lock_A902.json','<kimeneti mappa>']; exec(open('<ez a fájl>').read())"
+#   WSG_KEZI_FUTTATAS=1 python3 -c "import sys,bpy; sys.argv=['x','<v2 másolat.blend>','<repo>/03_blender/geometry_lock_A902.json','<kimeneti mappa>']; exec(open('<ez a fájl>').read())"
 # Kimenet: A902_semleges_v2_1_nappali.png + validator_result.json
 import bpy, sys, os, json
 blend, lock, outdir = sys.argv[-3], sys.argv[-2], sys.argv[-1]
