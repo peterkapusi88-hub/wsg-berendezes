@@ -146,3 +146,25 @@ A forrás maga sem validált: ChatGPT-koncepció, reality card nélkül. Ezért 
 
 - Felület: **Google Flow** (flow.google.com). Ugyanaz a Google AI-előfizetés és kreditkeret van mögötte, mint a Gemininek, de itt modellenként választható a beállítás, és látszik a kreditköltség.
 - Semmilyen extra kredit vagy előfizetés nem lett vásárolva. A Flow első használatakor Péter elfogadta az adatvédelmi tájékoztatót; a feltöltéskor megjelent „kép használatára vonatkozó jogok” megerősítést Claude fogadta el a forrásrender feltöltéséhez.
+
+## 9. Péter értékelése és módosított ajánlás (2026-10-24 05:01)
+
+**Péter értékelése:** a **Veo 3.1 Lite térélménye** tetszik jobban. Többet mutat a nappaliból, főleg a bal oldali TV-falból, jobban érzékelteti a mélységet és a bútorok viszonyát, és ingatlanbemutató hatású, nem „mozgó fotó”. Ugyanúgy 10 kredit, mint az Omni. Az **Omni Flash függönymozgása** természetesebb, ez tetszik. Ez az értékelés **felülírja az 5–6. pont pontszám-alapú sorrendjét**. A cél nem a legpontosabb videó, hanem az, amelybe a vevő vagy Péter bele tud szeretni. A geometriai hűség külön, szigorú feltétel marad.
+
+| Feladat | Ajánlott modell |
+|---|---|
+| Finom, hangulatos, fotóhű animáció | Omni 1.1 Flash |
+| Térbemutató, több részlet feltárása | Veo 3.1 Lite |
+| Pontos, geometriakötött bejárás | Blender-kamerapályák + AI-videó (kezdő- és záróképkocka) |
+| Szabadabb, filmes marketingvideó | Veo 3.1 Fast, kötelező külön geometriai ellenőrzéssel |
+
+**Claude megjegyzései a következő teszthez**
+1. A Lite „többet mutat” előnye **részben valós, részben kitalált**. A TV és a tölgy szekrény összhangban van a forrás bal szélével. A TV mögötti lamellás tölgy falburkolat (7 mp után) és a mennyezeti fénysáv viszont kitalált. A kezdő- és záróképkocka pontosan ezt hivatott kiszűrni.
+2. **Stílusprobléma:** a Blender-nézetek semleges makettek, nem a ChatGPT Lake Forest megjelenését hordozzák. Ha mindkét képkocka nyers Blender-kép, a videó makettnek fog kinézni. Járható utak:
+   - **(a)** A kezdőkép a meglévő ChatGPT-render. A záróképet Blenderből renderelem a lezárt A-902 geometriával, ugyanabból a kamerapályából ~40–80 cm-rel beljebb és balra (a TV-fal felé). Ezt a ChatGPT/Astra ugyanazzal a Lake Forest-prompttal stílusozza. Kockázat: a két AI-kép anyagai eltérhetnek.
+   - **(b)** Mindkét képkocka Blenderből, mindkettőt ugyanazzal a stíluspromptal stílusozzuk. Ez konzisztensebb, de a ChatGPT-render nem lesz benne.
+   - Javaslat: **(a)**, mert a tetszett render megmarad, és csak egy új képet kell illeszteni.
+3. A Flow „Vége” képkocka-mezője a Lite beállításainál is megjelent, de **Lite-tal még nem teszteltem**. A Lite fix 8 mp-es, ez egy ~40–80 cm-es pályához bőven elég.
+4. Modellenként n = 1. Egy-két ismétlés nélkül a Lite és az Omni közti különbség részben véletlen is lehet.
+
+**Következő teszt (terv, Péter „mehet”-jére vár):** Veo 3.1 Lite, kezdőkép = ChatGPT-render, záró = stílusozott Blender-nézet a TV-fal felé. 10 kredit + a záróképkocka stílusozása. Előtte: Blender nem mentett állapotának ellenőrzése, `geometry_validator.py` (lock: `geometry_lock_A902.json`), riport a `03_blender/validator_report_*.md`-be.
