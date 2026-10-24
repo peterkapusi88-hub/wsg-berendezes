@@ -106,7 +106,7 @@ Péter engedélyével átnézve (2026-10-24); a dokumentum szerződésmelléklet
 - **Azonosítók:** a már kiadott azonosító nem számozódik át. Újrakinyeréskor a szkript a korábbi JSON alapján megtartja (azonos típus, ≤3 cm); új tétel a következő szabad sorszámot kapja, megszűnt tétel száma nem kerül újra kiosztásra.
 - **Tudott hiányok:**
   - a jelmagyarázat (a műszaki mellékletben sincs; a maradék kódok: 1/2/3, TV-blokkon belüli BK, „B”, négyzet + kör);
-  - hogy a riasztó (érzékelők, központ, kezelő) és a motoros redőny ténylegesen beépült-e – a melléklet szerint az alap csak előkészítés, mindkettő külön rendelhető volt;
+  - hogy a riasztó (érzékelők, központ, kezelő) ténylegesen beépült-e – a melléklet szerint az alap csak elővezetékezés, a rendszer külön rendelhető volt (a motoros redőny a `GOAL.md` szerint megvan);
   - az alapértelmezett szerelési magasságok (dugalj, kapcsoló, mozgásérzékelő), ahol a rajzon nincs „m=”;
   - melyik dugalj a szekrényvilágításé (A-902 05.1, 05.3).
 
