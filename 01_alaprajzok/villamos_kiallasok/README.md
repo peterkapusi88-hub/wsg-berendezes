@@ -78,7 +78,7 @@ Péter engedélyével átnézve (2026-10-24); a dokumentum szerződésmelléklet
 1. **Világítás és minden áramot igénylő elem csak meglévő kiállásra kerülhet.** Ezek a mennyezeti ⊗, a fali lámpakiállás és a dugalj. Új kiállás, vésés, falon kívüli új kábelezés **nincs**.
 2. **Függeszték, csillár, mennyezeti lámpa csak a ⊗ kiállás helyére kerülhet.** Ha máshová kell fény: dugaljról táplált állólámpa vagy bútorba épített LED, illetve akkus lámpa.
    - Kiállástól eltolt függeszték mennyezeti rögzítést igényel, ezért csak Péter külön jóváhagyásával.
-3. **A hűtő-fűtő mezőkbe (HF) nem fúrunk.** Függönysín a szemöldökre vagy a falra kerül, a mezőn kívül.
+3. **A hűtő-fűtő mezőkbe (HF) nem fúrunk.** Függönysín a szemöldökre vagy a falra kerül, a mezőn kívül. Máshol bútor, polc, TV-konzol rögzítéséhez fúrni szabad (Péter, 2026-10-24) – előtte vezetékkereső, a dobozok függőleges és vízszintes vonalában ne.
 4. **Bútor, panel vagy tapéta nem takarhatja** a kapcsolót, a termosztátot, a lakáselosztót (EL4), a BK-dobozt, a kaputelefont, a riasztó-kezelőt és a mozgásérzékelőt (a szobaajtók sarkában is van; magas szekrény ne kerüljön elé).
    - A dugalj hozzáférhető marad.
    - Falpanelen és lamellán kivágás kell a doboz helyén (`doboz_x/y` + magasság).
@@ -86,7 +86,7 @@ Péter engedélyével átnézve (2026-10-24); a dokumentum szerződésmelléklet
    - A TV-fal mellett vagy mögött legyen dugalj, a kábel bútorban vagy panel mögött fusson, vésés nélkül. TV + hangprojektor + médialejátszó: rejtett elosztó.
    - A TV-fal nem takarhat kapcsolót, termosztátot, mozgásérzékelőt (4. szabály).
    - Wi-Fi: a vasbeton födém és a falazóblokk falak csillapítanak. Ha a TV messze van a routertől, mesh-pont javasolt, amely a legközelebbi szobai RJ45 aljzatra köthető (minden lakóhelyiségben van egy).
-   - Falra szerelt TV: a konzol fúrása nem áram miatti fúrás, de a falban védőcsöves vezeték lehet – fúrás előtt vezetékkereső; a dobozok függőleges és vízszintes vonalában ne fúrj.
+   - Falra szerelt TV: a konzolhoz fúrni szabad (3. szabály), előtte vezetékkereső.
    - Dugalj a nappaliban (TV-hely jelöltek, a fali doboz helye):
 
      | Lakás | Gyári TV-blokk | További dugalj a nappaliban |

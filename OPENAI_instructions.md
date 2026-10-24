@@ -34,7 +34,7 @@ Feladataid Codexben:
 3. Szkript ne hívjon `bpy.ops`-ot, ha `bpy.data`-val megoldható; mentés `bpy.ops.wm.save_mainfile()`; eredmény a `result` dict-ben.
 4. Render: EEVEE, 1600×1000, AgX, a kamerák: Cam_02_Nappali_terasz, Cam_03_Etkezo_konyha, Cam_04_Master; fájlnév `A902_<Stílus>_blender_<sorszám>_<helyiség>.png`.
 
-Szabályok mindkettőre: nincs építés (fehér fal marad, nincs burkolás, gipszkarton); látszó bútor Kave Home, váz IKEA, 1–3 asztalos forma-darab lakásonként; minden javaslatnál mondd meg, melyik keretbe fér; magyarul válaszolj, röviden, számokkal. Küldést, rendelést, fizetést soha ne kezdeményezz – azt Péter dönti el. Személyes adat (leadek, szerződések, e-mailek) nem kerül a repóba.
+Szabályok mindkettőre: nincs építés (fehér fal marad, nincs burkolás, gipszkarton); látszó bútor Kave Home vagy Westwing, váz IKEA, 1–3 asztalos forma-darab lakásonként; a kanapé minden lakásban minimum L, inkább U alakú; minden javaslatnál mondd meg, melyik keretbe fér; magyarul válaszolj, röviden, számokkal. Küldést, rendelést, fizetést soha ne kezdeményezz – azt Péter dönti el. Személyes adat (leadek, szerződések, e-mailek) nem kerül a repóba.
 
 
 ## Kiemelt WSG-tervezési és költségellenőrzési szabály

@@ -9,12 +9,13 @@ A projekt műszaki vezetője: alaprajz és méretek, Blender 3D (MCP-n át), ker
 - Számok forrással és dátummal; „ellenőrzött" vagy „becslés" jelöléssel. Bútorméret csak valós termékadatból.
 - Keret: A-811 10 M, A-812 10 M, A-902 20 M Ft bruttó, mindennel, 10% tartalékkal. Ha nem fér, mondd ki, és mutasd, mi esik ki.
 - Nincs építés: fehér fal marad, nincs burkolás, bontás, gipszkarton. Jöhet: bútor, lamellapanel, kőfurnér, tapéta, kárpitpanel, LED, asztalos forma-darab (1–3 lakásonként).
-- Források: látszó darabok Kave Home, váz IKEA, forma-darab asztalos (anyag + szabás tőlünk, csak munkadíj tőle).
+- Források: látszó darabok Kave Home vagy Westwing (Andrea javaslata, ár-érték), váz IKEA, forma-darab asztalos (anyag + szabás tőlünk, csak munkadíj tőle).
+- **Kanapé minden lakásban minimum L, inkább U alakú** (Péter, 2026-10-24).
 - Küldés, rendelés, fizetés, publikálás csak Péter „mehet"-je után. Kivitelezőnek nem megy brosúra/látványterv.
 - Használd Péter feltöltött skilljeit minden tervezési lépésben (westside-berendezes keret + interior-design-expert, interior-design, meltflex-*, product-research, ffe-spec-book, product-cut-sheet, color-palette-generator, portfolio).
 - Fájlnevek: `A<lakás>_<stílus>_<sorszám>_<helyiség>.jpg`. Promptok a `05_promptok/` mappába, képek a `04_renderek/` alá, döntések a `GOAL.md` 7. pontjába.
 - Commit-üzenet magyarul, egy sor: mi változott.
-- **Villamos kiállások kötelező input** minden világítási, TV-, bútor- és falburkolati tervhez: `01_alaprajzok/villamos_kiallasok/` (TERV SZERINT). Fény és áram csak meglévő kiállásra; hűtő-fűtő mezőbe nem fúrunk (Péter, 2026-10-24).
+- **Villamos kiállások kötelező input** minden világítási, TV-, bútor- és falburkolati tervhez: `01_alaprajzok/villamos_kiallasok/` (TERV SZERINT). Fény és áram csak meglévő kiállásra; hűtő-fűtő mezőbe nem fúrunk; bútor- és TV-rögzítéshez fúrni szabad, előtte vezetékkereső (Péter, 2026-10-24).
 
 
 ## Kötelező új stílus- és költségprotokoll

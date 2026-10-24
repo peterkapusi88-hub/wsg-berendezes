@@ -32,16 +32,17 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 1. **Egy paletta végigvíve**, lakásonként egy akcent. Zenit: greige + füstös tölgy/dió + beton + fekete fém + bronz tükör, akcent mustár/olíva. Lake Forest: krém + travertin + világos tölgy + pezsgő-arany + fehér márvány.
 2. **Különleges formák és végig burkolt/beépített falak** – ez adja a két referencia érzését. Megoldás építés nélkül: lamellapanel, kőfurnér, textúrás tapéta, kárpitpanel, padlótól plafonig bútortömegek takarólappal, rejtett LED a bútorok tetején/alján.
 3. **Nincs építés**: fehér falak maradnak, nincs burkolás, bontás, gipszkarton; legfeljebb tapétázó (1 nap/lakás) és asztalos.
-4. **Források**: ami látszik (kanapé, asztalok, székek, ágyak, tükrök, lámpák) → **Kave Home**; ami váz (PAX, METOD, BESTÅ) → **IKEA**; lakásonként 1–3 „forma-darab" → **asztalos** (anyagot és szabást mi adjuk a lapszabászattól, az asztalos csak a munkát számlázza).
+4. **Források**: ami látszik (kanapé, asztalok, székek, ágyak, tükrök, lámpák) → **Kave Home** vagy **Westwing** (westwing.hu – Andrea javaslata: jó ár-érték arány; saját márka a Westwing Collection); ami váz (PAX, METOD, BESTÅ) → **IKEA**; lakásonként 1–3 „forma-darab" → **asztalos** (anyagot és szabást mi adjuk a lapszabászattól, az asztalos csak a munkát számlázza).
 5. **Fény = luxus**: Philips Hue, 2700 K, rétegezve, jelenetek.
 6. Praktikum: minden hálóhoz gardrób, mosó-szárító a HTH-ban, előtérben pad + cipős + tükör, konyhában magasszekrény-sor.
+7. **Kanapé: minimum L, inkább U alakú** mindhárom lakásban (Péter, 2026-10-24: „nagyon fontos”).
 
 ## 5. Szabályok minden terv-lépéshez
 - Közlekedő 90–120 cm, mellék 60–90, szűkület min. 45; kanapé–asztal 45–50; étkezőszék hátratolás 90; ágy mellett min. 60.
 - Bútorméret mindig valós termékadatból (IKEA API: `https://sik.search.blue.cdtapps.com/hu/hu/search-result-page?q=<keresés>&size=8&types=PRODUCT`; Kave Home árak csak a webshopban látszanak).
 - Ár mindig dátummal és forrással; jelöld: „ellenőrzött" vagy „becslés".
 - Asztalos-anyagszabály: matt/strukturált laminált bútorlap (Egger H1180 Halifax tölgy, H3710 Carini dió, F274 beton), bordázott MDF, hajlított MDF az ívekhez; furnér max. egy felületen; nincs tömörfa, kő, festett front; Blum/Hettich csak fiókban; belső mindig fehér.
-- **Fény és áram csak meglévő kiállásra** (`01_alaprajzok/villamos_kiallasok/`): új kiállás, vésés, fúrás nincs; függeszték csak a mennyezeti ⊗ fölé; a hűtő-fűtő mezőbe nem fúrunk; kapcsoló, termosztát, elosztó, kaputelefon, mozgásérzékelő nem takarható; falpanelen kivágás a dobozoknál.
+- **Fény és áram csak meglévő kiállásra** (`01_alaprajzok/villamos_kiallasok/`): új kiállás és áram miatti vésés, fúrás nincs; bútor, polc, TV-konzol rögzítéséhez fúrni szabad (előtte vezetékkereső); függeszték csak a mennyezeti ⊗ fölé; a hűtő-fűtő mezőbe nem fúrunk; kapcsoló, termosztát, elosztó, kaputelefon, mozgásérzékelő nem takarható; falpanelen kivágás a dobozoknál.
 - Minden küldés, rendelés, fizetés előtt Péter „mehet"-je kell. Andinak (Szakos Andrea, belsőépítész, a Zenit és a Lake Forest tervezője) csak jóváhagyás után megy anyag.
 - Kivitelezőknek nem megy brosúra/látványterv („leesik, hogy van pénz").
 
@@ -88,7 +89,9 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
 - *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
-- *(2026-10-24, Péter)* **Nem fúrunk és nem vésünk új áramért:** mennyezeti lámpa, LED és minden áramot igénylő elem a terv szerinti kiállásokra kerül. A kiállásokat lakásonként a `01_alaprajzok/villamos_kiallasok/` rögzíti.
+- *(2026-10-24, Péter)* **Nem fúrunk és nem vésünk új áramért:** mennyezeti lámpa, LED és minden áramot igénylő elem a terv szerinti kiállásokra kerül. A kiállásokat lakásonként a `01_alaprajzok/villamos_kiallasok/` rögzíti. Bútor, polc, TV-konzol rögzítéséhez fúrni szabad, ez normális (Péter, 13:15); előtte vezetékkereső, a mennyezeti hűtő-fűtő mezőbe soha.
+- *(2026-10-24, Péter)* **Kanapé: minimum L, inkább U alakú** mindhárom lakásban. Első becslés (Claude, alaprajzból, nem mért): az A-902 nappaliban U kb. 300 × 230 cm-ig elfér – TV a déli falon, kanapé háttal a teraszüvegnek, mögötte 90 cm-es út, a DNy-i bejárat és a kapcsolóoszlop szabad. Az A-811 és A-812 nappali-étkezője kb. 28–30 m²: ott az U csak szorosan, az étkező rovására fér el, az L kényelmes. A stílustervben U és L változat is kell; a végleges méretet a validátor méri.
+- *(2026-10-24, Péter)* **Westwing** (westwing.hu) is forrás a látszó bútorokhoz – Andrea javaslata, jó ár-érték arány. A webshop automatikus lekérést nem enged (robots), az árat böngészőben, dátummal kell ellenőrizni.
 - *(2026-10-24, Péter)* Kültéren a társasházi „közös rész” szabályokkal nem korlátozzuk a tervet: fal, WPC és korlát rögzítésre használható. Egyetlen kikötés: a vízszigetelés nem sérülhet.
 - *(2026-10-24, Péter)* **A TV helye szabad:** a tartalom interneten jön, a TV-hez csak dugalj kell; a gyári TV-blokk nem köti a helyét. Feltétel: dugalj a TV-falnál, a kábel rejtve, vésés nélkül, a kapcsoló, a termosztát és az érzékelő szabadon marad (`01_alaprajzok/villamos_kiallasok/README.md`, 5. szabály).
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
@@ -96,7 +99,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Tapétázó beengedhető-e.
 - Asztalos: Andi zenites asztalosa + 2 másik, két ár (komplett / csak munkadíj) ugyanarra a rajzra.
 - Akvárium a 902 dolgozójában csak saját használatra.
-- *(2026-10-24, részben eldöntve)* A-902 nappali: a TV helye szabad (Péter). L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal) – a stílustervezés dönti el; az L2 TV-fala a déli fal kapcsolóoszlopát (x 7,15) szabadon hagyja, dugalja a D19. (audit 9.1)
+- *(2026-10-24, részben eldöntve)* A-902 nappali: a TV helye szabad (Péter), a kanapé L vagy inkább U. L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal) – a stílustervezés dönti el; az L2 TV-fala a déli fal kapcsolóoszlopát (x 7,15) szabadon hagyja, dugalja a D19. (audit 9.1)
 - *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör A fázisa (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
 - *(2026-10-24, nyitott)* Állóképhez a ChatGPT legyen-e az alap, és a Gemini maradjon a videónál? A TEST-002 alapján javasolt. A következő stílusteszt előtt kell-e javított Blender-alapkép és Astra-prompt v2 (pozitív luxusblokk, ajtó nélküli hátsó fal, greige padló)?
 
