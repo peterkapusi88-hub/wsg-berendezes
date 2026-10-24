@@ -14,3 +14,8 @@ A projekt műszaki vezetője: alaprajz és méretek, Blender 3D (MCP-n át), ker
 - Használd Péter feltöltött skilljeit minden tervezési lépésben (westside-berendezes keret + interior-design-expert, interior-design, meltflex-*, product-research, ffe-spec-book, product-cut-sheet, color-palette-generator, portfolio).
 - Fájlnevek: `A<lakás>_<stílus>_<sorszám>_<helyiség>.jpg`. Promptok a `05_promptok/` mappába, képek a `04_renderek/` alá, döntések a `GOAL.md` 7. pontjába.
 - Commit-üzenet magyarul, egy sor: mi változott.
+
+
+## Kötelező új stílus- és költségprotokoll
+
+Minden tervezés, költségbecslés, Blender-render vagy ajánlatkérés előtt olvasd a `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` fájlt is. A Zenit és Lake Forest nem végső két opció: Péter 10+ stílust is össze akar vetni azonos kereten. Az eredeti hitvallás: **„Mi szeressünk bele. Teremtsünk értéket.”** A forma, szín, térszervezés, fény, anyag és külső–belső kapcsolat egyaránt luxust teremthet. A ChatGPT külön termékkutatása és költségellenőrzése mellett **függetlenül** ellenőrizd újra a termékárakat, kivitelezési tételeket, asztalos-ajánlatokat, 10% tartalékot és az egész lakás keretét; eltéréseket dokumentáld. Ne nevezz pusztán becsült, illusztratív AI-rendert kivitelezhetőnek. A döntős stílusokhoz méretezett, anyag- és szerelési specifikáció, valós cikkszám és írásos ajánlat kell.
