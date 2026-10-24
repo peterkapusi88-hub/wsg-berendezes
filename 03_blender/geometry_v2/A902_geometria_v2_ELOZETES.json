@@ -1,0 +1,671 @@
+{
+ "verzio": "A902 geometria v2 – ELŐZETES",
+ "datum": "2026-10-24",
+ "coord": "lock v1-gyel azonos",
+ "rooms": {
+  "05_2": [
+   0.0,
+   0.0,
+   3.65,
+   2.65
+  ],
+  "05_2_gardrob": [
+   0.0,
+   2.65,
+   2.42,
+   3.35
+  ],
+  "05_1": [
+   0.0,
+   3.45,
+   3.57,
+   8.05
+  ],
+  "05_1_eszaki": [
+   0.0,
+   8.05,
+   3.02,
+   8.95
+  ],
+  "kozlekedo": [
+   2.52,
+   2.65,
+   5.3,
+   4.05
+  ],
+  "nappali_etkezo": [
+   3.67,
+   4.05,
+   10.75,
+   8.05
+  ],
+  "konyha": [
+   8.45,
+   1.35,
+   10.55,
+   4.05
+  ],
+  "eloter": [
+   5.6,
+   0.0,
+   8.35,
+   2.0
+  ],
+  "eloter_atjaro": [
+   7.3,
+   2.0,
+   8.35,
+   4.05
+  ],
+  "wc": [
+   5.6,
+   2.1,
+   6.6,
+   3.95
+  ],
+  "furdo_06_1": [
+   3.75,
+   0.0,
+   5.5,
+   2.65
+  ],
+  "05_3": [
+   10.85,
+   4.1,
+   14.37,
+   8.05
+  ],
+  "furdo_06_2": [
+   14.47,
+   5.2,
+   16.4,
+   8.05
+  ]
+ },
+ "room_notes": {
+  "05_2": {
+   "terv_m2": 11.66,
+   "megj": "3.65 × 3.35 a fülkével"
+  },
+  "05_2_gardrob": {
+   "terv_m2": null,
+   "megj": "fülke 2.42 széles"
+  },
+  "05_1": {
+   "terv_m2": 19.58,
+   "megj": "5.50 a fülkével; K-i rész 4.00 (4.05–8.05); D-i fal x 2.42–3.57 között y 4.05-nél"
+  },
+  "05_1_eszaki": {
+   "terv_m2": null,
+   "megj": "északi fülke (pillér mögött)"
+  },
+  "kozlekedo": {
+   "terv_m2": 3.23,
+   "megj": "2.48 × 1.20 (+ ajtózsebek)"
+  },
+  "nappali_etkezo": {
+   "terv_m2": 27.87,
+   "megj": "7.08 hossz; É-i falsík 8.05, üvegfal belső síkja ~7.93–8.27 tok"
+  },
+  "konyha": {
+   "terv_m2": 5.24,
+   "megj": "konyhafal (K) 3.90: y 1.35–5.25; 10.55–10.75 szerelt gk. technikai fal y 4.1–4.55 (elszívó)"
+  },
+  "eloter": {
+   "terv_m2": 6.98,
+   "megj": "bejárati fülke x 6.70–8.30, y 0.00–0.85; ajtó 1.05×2.10"
+  },
+  "eloter_atjaro": {
+   "terv_m2": null,
+   "megj": "előtér → nappali átjáró"
+  },
+  "wc": {
+   "terv_m2": 1.88,
+   "megj": "1.30 × 1.85 (bidés ülőke); pontos kontúr L-alakú – helyszínen mérendő"
+  },
+  "furdo_06_1": {
+   "terv_m2": 4.46,
+   "megj": "1.75 × 2.65, kád 170×70"
+  },
+  "05_3": {
+   "terv_m2": 14.65,
+   "megj": "3.525 × 3.95"
+  },
+  "furdo_06_2": {
+   "terv_m2": 4.39,
+   "megj": "1.925 × 2.85; épített zuhany 1.825 × 0.85 (y 7.20–8.05), 5/5 padka"
+  }
+ },
+ "terrace": {
+  "T09_greslap_Ny": {
+   "box": [
+    3.44,
+    8.5,
+    9.29,
+    12.4
+   ],
+   "z": -0.15,
+   "anyag": "világos szürke greslap (nagyformátum, ~60×60 – videó)",
+   "m2_terv": 23.62,
+   "abs_szint": "+28,40",
+   "status": "DOKUMENTUM + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "T10_greslap_K": {
+   "box": [
+    11.39,
+    8.5,
+    16.27,
+    12.4
+   ],
+   "z": -0.15,
+   "anyag": "világos szürke greslap",
+   "m2_terv": 19.34,
+   "abs_szint": "+28,40",
+   "status": "DOKUMENTUM + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "T11_WPC_kozepso": {
+   "box": [
+    9.29,
+    8.5,
+    11.39,
+    12.4
+   ],
+   "z": 0.47,
+   "anyag": "sötét szürkésbarna bordázott WPC (»11 TERASZ kültéri fa burkolat«)",
+   "m2_terv": "25.00 (a T11 összesen)",
+   "abs_szint": "+29,02",
+   "status": "DOKUMENTUM + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "T11_WPC_harant": {
+   "box": [
+    3.44,
+    12.4,
+    16.27,
+    13.41
+   ],
+   "z": 0.47,
+   "anyag": "WPC",
+   "abs_szint": "+29,02",
+   "status": "DOKUMENTUM + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "T11_WPC_eszaki_nyelv": {
+   "box": [
+    9.29,
+    13.41,
+    11.39,
+    14.46
+   ],
+   "z": 0.47,
+   "anyag": "WPC",
+   "status": "ELŐZETES – vonalból értelmezve",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "T11_WPC_jarosav_megjegyzes": {
+   "note": "A videón (t=4–12 s, 36–46 s, panoráma) WPC járósáv fut a zöldtető szélén, a korlát mentén; a terven nem szerepel → helye, szélessége, szintje HIÁNYZIK. Blenderben NINCS modellezve, amíg nincs mérés.",
+   "src": "videó IMG_2481"
+  },
+  "T11_WPC_panorama_pont": {
+   "box": [
+    7.62,
+    18.95,
+    11.42,
+    19.79
+   ],
+   "z": 0.47,
+   "anyag": "WPC pihenő a É-i korlátnál",
+   "status": "ELŐZETES – terv-kontúr + videó",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Zoldtető": {
+   "box": [
+    3.71,
+    13.41,
+    16.04,
+    19.8
+   ],
+   "z": 0.77,
+   "anyag": "extenzív zöldtető: fű/szukkulens, kavicssáv, csepegtető cső, aknafedlapok",
+   "m2_terv": 71.18,
+   "status": "terület DOKUMENTUM; felszínmagasság ELŐZETES (videóbecslés), terhelhetőség HIÁNYZIK; NEM bútorozható/járható alapból",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Zoldtető_tagolas": {
+   "fu_Ny": [
+    3.71,
+    13.41,
+    7.62,
+    19.8
+   ],
+   "domb_agyas": [
+    7.62,
+    14.58,
+    12.0,
+    18.83
+   ],
+   "fu_K": [
+    12.0,
+    13.41,
+    16.04,
+    19.8
+   ],
+   "domb_magassag": 0.25,
+   "note": "két szélen sík fű pop-up esőztetővel, középen enyhén dombos évelő-ágyás (mulcs, kavics, csepegtető) – Péter megfigyelése + IMG_2498; zónahatár ELŐZETES (videóbecslés)"
+  },
+  "Ontozoszelep_akna": {
+   "box": [
+    9.17,
+    13.3,
+    9.45,
+    13.41
+   ],
+   "note": "zöld fedlapos szelepakna a WPC sarkánál (IMG_2498 t05–07); hely ELŐZETES"
+  },
+  "Zoldtető_szegely": {
+   "note": "világos előregyártott beton szegély a WPC és a zöldtető között, ~35–45 cm a WPC fölött, kb. térdmagas (IMG_2498) – ülőperem-adottság, terhelhetőség HIÁNYZIK – ELŐZETES"
+  },
+  "Lepcso_Ny": {
+   "box": [
+    6.48,
+    12.1,
+    7.68,
+    12.4
+   ],
+   "z_from": -0.15,
+   "z_to": 0.47,
+   "fokok": "3–4 fok (videó: 3 WPC fok)",
+   "status": "DOKUMENTUM (nyíl) + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Lepcso_K": {
+   "box": [
+    11.39,
+    12.1,
+    12.59,
+    12.4
+   ],
+   "z_from": -0.15,
+   "z_to": 0.47,
+   "status": "DOKUMENTUM (nyíl) + VIDEÓ",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Jakuzzi_elokeszites": {
+   "box": [
+    4.1,
+    9.74,
+    6.1,
+    11.74
+   ],
+   "z": -0.15,
+   "note": "2.00 m széles szaggatott keret a 18. oldalon (É-i éle a rajz szélén kívül → mélység HIÁNYZIK, 2.00 feltételezve); áramkiállás (3.82, 9.69); fagymentes kültéri csap (4.14, 9.0). Terhelhetőség: HIÁNYZIK (statikus nyilatkozat)",
+   "src": "PDF p18 vektor 1:50 (vakolatlan)"
+  },
+  "Korlat": {
+   "vonal": {
+    "Ny": 3.39,
+    "K": 16.32,
+    "É": 20.11
+   },
+   "magassag": 1.1,
+   "anyag": "antracit fém, függőleges pálcás, mellvéden (videó)",
+   "status": "nyomvonal DOKUMENTUM, magasság ELŐZETES",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Mellved_kulso": {
+   "vonal": {
+    "Ny": 2.83,
+    "K": 16.86,
+    "É": 20.61
+   },
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Erkely_13": {
+   "m2_terv": 11.26,
+   "anyag": "greslap",
+   "note": "Ny-i oldal, 05.1/05.2 előtt; nincs a videóban",
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "Homlokzat": {
+   "anyag": "világos szürke/fehér foltos klinker tégla, fekete nyílászárók, felette sötét álló fémburkolat (videó)",
+   "status": "VIDEÓ"
+  },
+  "Ajtok_terasz": {
+   "note": "4.50 × 2.53 tolóajtós üvegfal (nappali) és 1.80 × 2.53 (05.3); fellépés 15 cm, 2025-10-13-i korrekció szerint módosult → helyszínen mérendő",
+   "src": "PDF p18 vektor 1:50 (vakolatlan)"
+  }
+ },
+ "facts": {
+  "belmagassag": {
+   "ertek": 2.9,
+   "status": "IGAZOLT – Péter közlése 2026-10-24 (+ brosúra)",
+   "megj": "a 18. oldalon 'm=2.85' egy szerelési/nyílásmagasság-jelölés, nem belmagasság"
+  },
+  "parketta_A902": {
+   "ertek": "Egger Grey Treviso Oak EL2184, Classic 8/32 4V Aqua+ (591760), szegőléc 6 cm (1818766), burkolatváltó szálcsiszolt titán T-profil",
+   "status": "IGAZOLT – dokumentum (burkolatkiosztási terv, 21. old.); helyszíni fotóval megerősítendő"
+  },
+  "parketta_A811_A812": {
+   "ertek": "Egger Grey Soria Oak EL2065, Classic 8/32 4V Aqua (593610)",
+   "status": "IGAZOLT – dokumentum (7. és 14. old.)"
+  },
+  "konyha_padlo_A902": {
+   "ertek": "ELLENTMONDÁS: 18. old. 'kerámia' vs. 21. old. 'lam.parketta'",
+   "status": "HIÁNYZIK – hétfőn fotó"
+  },
+  "meretek_jellege": "a terven szereplő méretek vakolatlan falfelületre vonatkoznak (−1…−3 cm/oldal vakolat), tájékoztató jellegűek",
+  "terulet_A902": {
+   "belso_m2": 99.94,
+   "terasz_m2": 79.22,
+   "bontas": "T09 23.62 + T11 25.00 + T10 19.34 + erkély 11.26",
+   "zoldtető_m2": 71.18,
+   "osszes_kulter": 150.4,
+   "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
+  },
+  "mennyezeti_hutes_futes": "a 18. oldalon zónák jelölve; fúrás/rögzítés csak panelmentes sávban – pontos panelkiosztás HIÁNYZIK"
+ },
+ "diff_vs_v1": [
+  {
+   "room": "05_2",
+   "v1": [
+    0,
+    0,
+    3.62,
+    2.55
+   ],
+   "v2": [
+    0.0,
+    0.0,
+    3.65,
+    2.65
+   ],
+   "delta_cm_W_S_E_N": [
+    0,
+    0,
+    3,
+    10
+   ],
+   "terv_m2": 11.66,
+   "megj": "3.65 × 3.35 a fülkével"
+  },
+  {
+   "room": "05_2_gardrob",
+   "v1": [
+    0,
+    2.55,
+    2.42,
+    3.35
+   ],
+   "v2": [
+    0.0,
+    2.65,
+    2.42,
+    3.35
+   ],
+   "delta_cm_W_S_E_N": [
+    0,
+    10,
+    0,
+    0
+   ],
+   "terv_m2": null,
+   "megj": "fülke 2.42 széles"
+  },
+  {
+   "room": "05_1",
+   "v1": [
+    0,
+    3.45,
+    3.62,
+    7.97
+   ],
+   "v2": [
+    0.0,
+    3.45,
+    3.57,
+    8.05
+   ],
+   "delta_cm_W_S_E_N": [
+    0,
+    0,
+    -5,
+    8
+   ],
+   "terv_m2": 19.58,
+   "megj": "5.50 a fülkével; K-i rész 4.00 (4.05–8.05); D-i fal x 2.42–3.57 között y 4.05-nél"
+  },
+  {
+   "room": "05_1_eszaki",
+   "v1": [
+    0,
+    7.97,
+    2.95,
+    8.95
+   ],
+   "v2": [
+    0.0,
+    8.05,
+    3.02,
+    8.95
+   ],
+   "delta_cm_W_S_E_N": [
+    0,
+    8,
+    7,
+    0
+   ],
+   "terv_m2": null,
+   "megj": "északi fülke (pillér mögött)"
+  },
+  {
+   "room": "kozlekedo",
+   "v1": [
+    2.52,
+    2.65,
+    5.45,
+    4.04
+   ],
+   "v2": [
+    2.52,
+    2.65,
+    5.3,
+    4.05
+   ],
+   "delta_cm_W_S_E_N": [
+    0,
+    0,
+    -15,
+    1
+   ],
+   "terv_m2": 3.23,
+   "megj": "2.48 × 1.20 (+ ajtózsebek)"
+  },
+  {
+   "room": "nappali_etkezo",
+   "v1": [
+    3.72,
+    4.04,
+    10.64,
+    7.97
+   ],
+   "v2": [
+    3.67,
+    4.05,
+    10.75,
+    8.05
+   ],
+   "delta_cm_W_S_E_N": [
+    -5,
+    1,
+    11,
+    8
+   ],
+   "terv_m2": 27.87,
+   "megj": "7.08 hossz; É-i falsík 8.05, üvegfal belső síkja ~7.93–8.27 tok"
+  },
+  {
+   "room": "konyha",
+   "v1": [
+    8.55,
+    1.3,
+    10.64,
+    5.15
+   ],
+   "v2": [
+    8.45,
+    1.35,
+    10.55,
+    4.05
+   ],
+   "delta_cm_W_S_E_N": [
+    -10,
+    5,
+    -9,
+    -110
+   ],
+   "terv_m2": 5.24,
+   "megj": "konyhafal (K) 3.90: y 1.35–5.25; 10.55–10.75 szerelt gk. technikai fal y 4.1–4.55 (elszívó)"
+  },
+  {
+   "room": "eloter",
+   "v1": [
+    5.55,
+    0,
+    8.45,
+    1.95
+   ],
+   "v2": [
+    5.6,
+    0.0,
+    8.35,
+    2.0
+   ],
+   "delta_cm_W_S_E_N": [
+    5,
+    0,
+    -10,
+    5
+   ],
+   "terv_m2": 6.98,
+   "megj": "bejárati fülke x 6.70–8.30, y 0.00–0.85; ajtó 1.05×2.10"
+  },
+  {
+   "room": "eloter_atjaro",
+   "v1": [
+    7.4,
+    1.95,
+    8.45,
+    4.04
+   ],
+   "v2": [
+    7.3,
+    2.0,
+    8.35,
+    4.05
+   ],
+   "delta_cm_W_S_E_N": [
+    -10,
+    5,
+    -10,
+    1
+   ],
+   "terv_m2": null,
+   "megj": "előtér → nappali átjáró"
+  },
+  {
+   "room": "wc",
+   "v1": [
+    5.55,
+    2.05,
+    6.6,
+    3.94
+   ],
+   "v2": [
+    5.6,
+    2.1,
+    6.6,
+    3.95
+   ],
+   "delta_cm_W_S_E_N": [
+    5,
+    5,
+    0,
+    1
+   ],
+   "terv_m2": 1.88,
+   "megj": "1.30 × 1.85 (bidés ülőke); pontos kontúr L-alakú – helyszínen mérendő"
+  },
+  {
+   "room": "furdo_06_1",
+   "v1": [
+    3.72,
+    0,
+    5.45,
+    2.55
+   ],
+   "v2": [
+    3.75,
+    0.0,
+    5.5,
+    2.65
+   ],
+   "delta_cm_W_S_E_N": [
+    3,
+    0,
+    5,
+    10
+   ],
+   "terv_m2": 4.46,
+   "megj": "1.75 × 2.65, kád 170×70"
+  },
+  {
+   "room": "05_3",
+   "v1": [
+    11.0,
+    4.04,
+    14.5,
+    7.97
+   ],
+   "v2": [
+    10.85,
+    4.1,
+    14.37,
+    8.05
+   ],
+   "delta_cm_W_S_E_N": [
+    -15,
+    6,
+    -13,
+    8
+   ],
+   "terv_m2": 14.65,
+   "megj": "3.525 × 3.95"
+  },
+  {
+   "room": "furdo_06_2",
+   "v1": [
+    14.6,
+    5.13,
+    16.5,
+    7.97
+   ],
+   "v2": [
+    14.47,
+    5.2,
+    16.4,
+    8.05
+   ],
+   "delta_cm_W_S_E_N": [
+    -13,
+    7,
+    -10,
+    8
+   ],
+   "terv_m2": 4.39,
+   "megj": "1.925 × 2.85; épített zuhany 1.825 × 0.85 (y 7.20–8.05), 5/5 padka"
+  }
+ ],
+ "status": "ELŐZETES – tervdokumentumból; a lock v1-et NEM írja felül. Véglegesítés: hétfői helyszíni mérés/fotó után, Péter jóváhagyásával."
+}

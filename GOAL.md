@@ -1,6 +1,6 @@
 # GOAL.md – Westside Grand berendezés (A-811, A-812, A-902)
 
-> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24.
+> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz).
 
 ## 1. Cél egy mondatban
 Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 11–13., Westside Grand I., átadva 2026-10-21) berendezése úgy, hogy **olcsón összerakva drágának hasson**, és eladáskor (vagy bérbeadáskor) a vevő két különböző, kész hangulatot lásson: egy **Zenit-** és egy **Lake Forest-verziót**.
@@ -9,14 +9,16 @@ Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 1
 | | A-811 | A-812 | A-902 |
 |---|---|---|---|
 | Szint | 8. | 8. | 9., penthouse |
-| Alapterület | 92 m² (ért. 102) | 102 m² (ért. 110) | 101 m² (ért. 142) |
+| Alapterület (megvalósulási terv 2026-07-08) | 90,68 m² (brosúra 92) | 102,05 m² | 99,94 m² |
 | Beosztás | nappali-étkező-konyha + előtér ~41 m², 2 háló (master gardróbbal), fürdő káddal + fürdő zuhannyal | nappali-étkező-konyha ~44 m², 3 háló (2 gardróbbal), 2 fürdő | nappali-étkező-konyha ~45 m² nyitott konyhával, 3 háló, 2 fürdő (kád + walk-in zuhany) |
-| Kültér | 13 m² erkély | 6 m² erkély | 158 m² terasz, ebből 84 m² tetőkert, jakuzzi-előkészítés |
-| Belmagasság | ~2,57 m ablakok | ua. | 2,90 m |
+| Kültér | 14,30 m² erkély | 7,04 m² erkély | 79,22 m² terasz (greslap 23,62 + 19,34, emelt WPC 25,00 [+62 cm], erkély 11,26) + 71,18 m² zöldtető = 150,4 m²; jakuzzi-előkészítés a Ny greslapon |
+| Belmagasság | ismeretlen (ablak 2,57) – hétfőn mérendő | ua. | **2,90 m (IGAZOLT, Péter)** |
+| Parketta (burkolatkiosztási terv) | Egger Grey Soria Oak EL2065 | Egger Grey Soria Oak EL2065 | **Egger Grey Treviso Oak EL2184** |
+| Vevői módosítás | 05.2+05.3 összevonva (+2,70×1,70 gardrób), nagyobb nappali, épített zuhany, pengefal megszűnt | 08/09 összevont fürdő **egyedi sarokkád (beépítve)**, 06.1 → HTH, épített zuhany | épített zuhany 06.2, bidés WC |
 | Adottság | Egger szürke tölgy parketta, fehér fal, fekete nyílászáró, motoros redőny, Grohe/Geberit fürdők, mennyezeti fűtő-hűtő panel (fúrás csak ott, ahol nincs panel), riasztó, videós kaputelefon. **Konyhabútor nincs.** | ua. | ua. + jakuzzi-terasz |
 | Rendeltetés | eladás/bérbeadás | eladás/bérbeadás | eladás, de Péter saját lakása is lehet |
 
-A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizendő): 05.1 master 3,57×5,50 (4,00 tiszta + gardróbfülke), 05.2 3,65×3,35 (gardróbfülkével), 05.3 3,52×3,95, 06.1 fürdő 1,75×2,65 (kád 170×70), 06.2 en-suite 1,92×2,85 (zuhany 182×85), WC 1,30, közlekedő 2,48×1,20, nappali 7,08 hosszú, étkező 2,80 mély, konyhafal 3,90, teraszüveg 4,50 + 1,80, nyugati üvegfal 3,65 + erkélyajtó 1,88. Részletek: `01_alaprajzok/`, 3D: `03_blender/`.
+A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `03_blender/geometry_v2/`, eltérés a Blender v1-hez ±15 cm; hétfőn mérendő): 05.1 master 3,57×5,50 (4,00 tiszta + gardróbfülke), 05.2 3,65×3,35 (gardróbfülkével), 05.3 3,52×3,95, 06.1 fürdő 1,75×2,65 (kád 170×70), 06.2 en-suite 1,92×2,85 (zuhany 182×85), WC 1,30, közlekedő 2,48×1,20, nappali 7,08 hosszú, étkező 2,80 mély, konyhafal 3,90, teraszüveg 4,50 + 1,80, nyugati üvegfal 3,65 + erkélyajtó 1,88. Részletek: `01_alaprajzok/`, 3D: `03_blender/`.
 
 ## 3. Keret – fix plafon
 - **A-811: 10 M Ft · A-812: 10 M Ft · A-902: 20 M Ft** (ebből terasz ~4 M).
@@ -49,9 +51,18 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 - Külső ajánlatkérés kiment 8 lakberendező cégnek (10/10/20 M keret, tervezés + bútorválasztás + budget); IKEA teljes-lakás tervezés foglalandó.
 - Fotók a lakásokról hétfőn (2026-10-27) jönnek → geometria javítása, A-811/A-812 alap.
 - **Astra-inputcsomag A-902 v1 kész (2026-10-24):** `ai-coordination/inputs/A902_v1/` – rögzített geometria, stílusfüggetlen költségkiindulás (18 M tervezhető + 2 M tartalék), semleges Blender-nézetek (`04_renderek/semleges/`), kérés-tervezet. Nincs elindítva; PR #1 inaktív.
-- Függő: a Claude GitHub-app hozzáférése a `wsg-berendezes` repóhoz (addig a feltöltés a webes feltöltővel megy).
+- Claude GitHub-app hozzáférés működik (közvetlen push).
+- **2026-10-24 reggel – I. szakasz (hétfői állapotcsomagra felkészülés) kész:**
+  - `08_allapotfelmeres/`: ellenőrzőlista, IGAZOLT / ELŐZETES / HIÁNYZIK tábla, fotóbeviteli rend 255 tervezett felvétellel, stílusfüggetlen költségstratégia 3 lakásra, II. szakasz feldolgozási rend.
+  - A-902 geometria v2 (PDF vektorból) és eltéréslista.
+  - A teraszvideók elemzése: a terasz többszintű tetőkert.
+  - Blender `WSG_A902_v2_terasz_ELOZETES_20261024.blend` új fájlként; az élő fájl érintetlen, a nem mentett élő állapotról mentés készült a `~/Downloads/WSG_blender_mentesek/` mappába.
+  - Astra input v1.1 (nincs elindítva).
+  - Minden korábbi Zenit/LF-kép KONCEPCIÓ – NEM VALIDÁLT (`04_renderek/RENDER_STATUSZ.md`).
 
 ## 7. Nyitott döntések
+- *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
+- *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
 - Jakuzzi: Heissner vagy Correll.
 - Tapétázó beengedhető-e.
@@ -66,7 +77,7 @@ A-902 helyiségméretek (brosúra-alaprajzból, hétfőn fotóval ellenőrizend�
 5. Ajánlatok összevetése (8 cég + IKEA + Andi), döntés.
 
 ## 9. Mappatérkép
-`01_alaprajzok/` brosúra + lakásonkénti alaprajz · `02_referenciak/` Zenit és Lake Forest kontaktlapok · `03_blender/` .blend fájlok + `wsg_helpers.py` + rétegszkriptek · `04_renderek/` alap (Blender), `blender_stilusok/` (Zenit/LF EEVEE-nézetek), `ai_gemini/`, `ai_chatgpt/` · `05_promptok/` képgeneráló promptok · `06_koncepcio/` a koncepció-doksi markdownban · `07_skill/` a Claude-skillek forrása.
+`01_alaprajzok/` brosúra + lakásonkénti alaprajz · `02_referenciak/` Zenit és Lake Forest kontaktlapok · `03_blender/` .blend fájlok + `wsg_helpers.py` + rétegszkriptek · `04_renderek/` alap (Blender), `blender_stilusok/` (Zenit/LF EEVEE-nézetek), `ai_gemini/`, `ai_chatgpt/` · `05_promptok/` képgeneráló promptok · `06_koncepcio/` a koncepció-doksi markdownban · `07_skill/` a Claude-skillek forrása · `08_allapotfelmeres/` állapotfelmérés (checklist, adatstátusz, fotóbevitel, költségstratégia).
 
 
 ## Új, kiemelt tervezési alapelv – nyitott stíluslabor és költséghű kivitelezés

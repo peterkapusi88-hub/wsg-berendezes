@@ -1,5 +1,7 @@
 # A-902 – rögzített geometria (Astra-input, v1 · 2026-10-24)
 
+> **2026-10-24 06:30 – frissítés:** a parkettára (Grey Treviso Oak EL2184), a teraszra (többszintű tetőkert) és a kilátásra a `../A902_v1_1/INPUT_CSOMAG_v1_1.md` az irányadó. A Cam_05 terasznézet és az itteni terasz-leírás elavult.
+
 **Forrás:** `03_blender/geometry_lock_A902.json` (a Blender-modellből gépileg kiírva) – a modell a **brosúra-alaprajz** alapján készült, **helyszíni méréssel még nincs igazolva**. Koordináta: méter, origó a 05.2 szoba DNy-i sarka, x = kelet, y = észak. Fal belső síkok közti értékek.
 **Szabály a tervezéshez:** falak, nyílászárók, pillérek, aknák, belmagasság **fixek** (nincs bontás, gipszkarton, áthelyezés). Bútor, lamella/panel/tapéta, asztalos tömeg, világítás szabadon tervezhető.
 

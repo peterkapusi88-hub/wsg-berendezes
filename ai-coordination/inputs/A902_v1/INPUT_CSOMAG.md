@@ -1,5 +1,7 @@
 # A-902 – Astra kreatív inputcsomag v1 (2026-10-24)
 
+> **2026-10-24 06:30 – frissítés:** a parkettára (Grey Treviso Oak EL2184), a teraszra (többszintű tetőkert) és a kilátásra a `../A902_v1_1/INPUT_CSOMAG_v1_1.md` az irányadó. A Cam_05 terasznézet és az itteni terasz-leírás elavult.
+
 **Státusz: KÉSZ ÁTADÁSRA (adatok) · NINCS ELINDÍTVA.** PR #1 inaktív marad; ehhez a csomaghoz még nincs PR. Indítás csak a Work-keret megléte és Péter „mehet"-je után, a `ROUTER.md` szerint.
 
 Astra feladata a kreatív döntés. Ez a csomag **nem tartalmaz stílusjavaslatot** – csak azt, ami fix, amit mérni kell, amennyi pénz van, és ahol mozgástér van.

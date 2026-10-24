@@ -1,5 +1,7 @@
 # ASTRA-kérés TERVEZET – WSG-A902-STYLE-001
 
+> **2026-10-24 06:30 – frissítés:** a parkettára (Grey Treviso Oak EL2184), a teraszra (többszintű tetőkert) és a kilátásra a `../A902_v1_1/INPUT_CSOMAG_v1_1.md` az irányadó. A Cam_05 terasznézet és az itteni terasz-leírás elavult.
+
 **Státusz: TERVEZET – nincs PR, nincs indítás.** A `REQUEST_TEMPLATE.md` szerint kitöltve; élesítéskor Claude ebből készít `handoff/astra-A902-style-01` ágat és `[ASTRA-REVIEW]` draft PR-t, csak Péter jóváhagyásával. A PR #1 pilot (1 helyiség) sikere az előfeltétel.
 
 - **Task ID:** WSG-A902-STYLE-001
