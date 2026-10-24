@@ -168,3 +168,39 @@ A forrás maga sem validált: ChatGPT-koncepció, reality card nélkül. Ezért 
 4. Modellenként n = 1. Egy-két ismétlés nélkül a Lite és az Omni közti különbség részben véletlen is lehet.
 
 **Következő teszt (terv, Péter „mehet”-jére vár):** Veo 3.1 Lite, kezdőkép = ChatGPT-render, záró = stílusozott Blender-nézet a TV-fal felé. 10 kredit + a záróképkocka stílusozása. Előtte: Blender nem mentett állapotának ellenőrzése, `geometry_validator.py` (lock: `geometry_lock_A902.json`), riport a `03_blender/validator_report_*.md`-be.
+
+## 10. 2. teszt – Veo 3.1 Lite kezdő + záró képkockával (2026-10-24 05:08–05:25, Péter „mehet”)
+
+**Előkészítés**
+- Blender: az élő fájl (`~/Downloads/WSG_A902_stilusok.blend`) nem mentett változásokat tartalmazott. Nem mentettem, ideiglenes kamerákkal rendereltem, utána mindent visszaállítottam. Validator: LOCK 0 eltérés, a nappaliban nincs ajtó-előtér hiba. Részletek: `03_blender/validator_report_2026-10-24_videozarokep.md`.
+- Záró kamera: `Cam_02`-ből 40 cm előre és 20° balra (A-jelölt). A B és C jelölt is mentve.
+- Zárókép stílusozása: **ChatGPT, Chat mód**, képgenerálás a Plus-előfizetésen belül (Work/Astra-keret 06:49-ig elfogyott, ezért nem Astra futott). Bemenet a Blender A-kép mint geometria, a ChatGPT-render mint stílus. Prompt: `05_promptok/A902_LakeForest_1_nappali_zarokep_stilus_prompt_v1.md`. Kimenet: `A902_LakeForest_1_nappali_zarokep_stilusozott_v1.png`, 1586×992.
+- Videóprompt: `05_promptok/A902_LakeForest_1_nappali_video_prompt_v2_kezdo-zaro.md`.
+
+**Kredit (ellenőrzött):** 210 → 200, levonás **10** (Veo 3.1 Lite, 8 mp, 720p). A ChatGPT-képgenerálásért nem volt külön díj. Összes Flow-fogyasztás ma: **50 kredit** (250 → 200).
+
+**Mérés:** az első kocka és a kezdőkép eltérése 4,9 / 255 (az 1. tesztben 9,2). Az utolsó kocka a záróképhez tart: 12,3 / 255 7,5 mp-nél, és tovább csökken. Kockaváltás átlag/max 8,9 / 14,1, vágás vagy ugrás nincs.
+
+**Eredmény képkockánként** (`…_veo31lite_kezdo-zaro_kockak.jpg`, `…_morf_5-7s.jpg`)
+- **0–5 mp – kiváló.** Folyamatos, lassú balra fordulás enyhe előremozgással. Feltárul a travertin TV-fal a bronzkerettel, a világos tölgy lamellákkal, a nagy fekete TV-vel és a LED-es lebegő pados szekrénnyel. Ez egyezik a Blender LF-réteggel (`L_TVfal_travertin`, `L_lamella_*`, `L_TV55`, `L_TVfal_pad_LED`). Kanapé, fotel, puff, dohányzóasztal, csillár, festmény, állólámpa, üvegfal, terasz és kilátás végig stabil, a függöny nem torzul (a mozgás finomságát lejátszva kell megítélni).
+- **5,3–6,5 mp – hiba: áttűnéses morfolás.** Duplán látszik a festmény, a csillár és a TV, a kanapé a chaise-es formából a zárókép elrendezésébe olvad át, és egy második puff jelenik meg. **Ok:** a zárókép nem pontosan ugyanaz a bútorelrendezés és nézőpont, mint a kezdőkép. A modell 5 mp-nél túlfordult (a TV nagyobb, mint a záróképen), majd áttűnéssel „ugrott” a záróképre.
+- **6,5–8 mp:** stabil, a zárókép nézete.
+
+**Mentett fájlok** (`04_renderek/ai_video_tests/`)
+- `A902_LakeForest_1_nappali_veo31lite_kezdo-zaro_8s_720p.mp4` – a teljes eredeti, 7 503 971 B.
+- `A902_LakeForest_1_nappali_veo31lite_kezdo-zaro_0-5s_vagott_720p.mp4` – **a használható 0–5 mp-es szakasz**, 6 969 991 B. Böngészőben újrakódolva (MediaRecorder, H.264 MP4, ~14 Mbit/s, valós idejű rögzítés), ezért minimálisan gyengébb az eredetinél, és elvétve kockaejtés lehet. Végleges vágáshoz az eredetiből ffmpeg-gel érdemes újravágni (`-ss 0 -t 5 -c copy`).
+- A Flow-ból letöltött eredeti a Mac `~/Downloads/` mappájában is megvan.
+
+| Változat | Kredit | Geometria | Luxus | Mozgás | Videóhibák | Összbenyomás |
+|---|---:|---:|---:|---:|---:|---:|
+| Lite kezdő+záró, teljes 8 mp | 10 | 6 | 9 | 6 | 4 | 6 |
+| **Lite kezdő+záró, vágott 0–5 mp** | (10) | **8** | **9** | **8** | **8** | **8,5** |
+
+A vágott változat a legjobb eddigi eredmény. Hozza a Lite-térélményt, amit Péter kért; a függönymozgás Omni-szerű finomságát Péternek lejátszva kell megítélnie. A TV-fal ráadásul a tervezett Blender-réteg szerint jelenik meg, nem kitalálva.
+
+**Tanulság a munkarendhez**
+1. A záróképnek **pontosan ugyanazt a bútorelrendezést** kell mutatnia, mint a kezdőképnek. Ha nem, a modell áttűnéssel „csal”. Ezért a zárókép stílusozásakor a **kezdőképet kell szerkeszteni** („ugyanez a kép, a kamera 40 cm-rel előrébb és 20°-kal balra”), a Blender-nézet csak kamera- és falsegédlet legyen.
+2. A Veo Lite fix 8 mp-e hosszabb, mint amit egy 40 cm + 20° mozgás kitölt. Vagy rövidebb pályát kell adni (pl. 10–15°), vagy nagyobbat (60 cm + 30°), hogy a mozgás kitöltse a 8 mp-et, és ne legyen túllövés.
+3. Gyors gyakorlati út: a kezdőképes Lite-futásból mindig az első 5–6 mp-et használjuk, a zárókép csak irányt ad.
+
+**Javasolt következő lépés (nem indítva):** zárókép v2 a kezdőkép szerkesztéseként, azonos bútorral, majd Lite újra (10 kredit). Alternatíva: a vágott 0–5 mp-es klip mehet bemutatóanyagba most is, `KONCEPCIÓ ALAPÚ VIDEÓTESZT` címkével.
