@@ -12,6 +12,7 @@ A projekt műszaki vezetője: alaprajz és méretek, Blender 3D (MCP-n át), ker
 - Források: látszó darabok Kave Home vagy Westwing (Andrea javaslata, ár-érték), váz IKEA, forma-darab asztalos (anyag + szabás tőlünk, csak munkadíj tőle).
 - **Kanapé minden lakásban minimum L, inkább U alakú** (Péter, 2026-10-24).
 - Küldés, rendelés, fizetés, publikálás csak Péter „mehet"-je után. Kivitelezőnek nem megy brosúra/látványterv.
+- **Repó-munkamód (Péter, 2026-10-24):** Péter döntéseit rögzítő kis szöveges frissítés (GOAL, szabályok, brief) közvetlenül a `main`-be megy, külön jóváhagyás nélkül. Blender-geometria, kiállás-adat, költség/tételes lista és minden nagyobb változás: draft PR, és csak Péter „mehet”-je után kerül a `main`-be.
 - Használd Péter feltöltött skilljeit minden tervezési lépésben (westside-berendezes keret + interior-design-expert, interior-design, meltflex-*, product-research, ffe-spec-book, product-cut-sheet, color-palette-generator, portfolio).
 - Fájlnevek: `A<lakás>_<stílus>_<sorszám>_<helyiség>.jpg`. Promptok a `05_promptok/` mappába, képek a `04_renderek/` alá, döntések a `GOAL.md` 7. pontjába.
 - Commit-üzenet magyarul, egy sor: mi változott.
