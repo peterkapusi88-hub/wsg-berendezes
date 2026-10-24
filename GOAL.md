@@ -1,6 +1,6 @@
 # GOAL.md – Westside Grand berendezés (A-811, A-812, A-902)
 
-> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz).
+> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz; 09:00 Rubin/Orbit képteszt).
 
 ## 1. Cél egy mondatban
 Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 11–13., Westside Grand I., átadva 2026-10-21) berendezése úgy, hogy **olcsón összerakva drágának hasson**, és eladáskor (vagy bérbeadáskor) a vevő két különböző, kész hangulatot lásson: egy **Zenit-** és egy **Lake Forest-verziót**.
@@ -73,6 +73,12 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - B fázis: azonos kamerás képek, zárolva az ellenőrzött Blender-alapig.
   - A Codex geometriai auditja (draft PR #2) korlátai a briefben K1–K6 alatt szerepelnek.
   - Új kockázat: a teraszüvegezés osztása a fotón eltérhet a modelltől (hétfői mérés).
+- **2026-10-24 08:24–08:50 – Rubin Szalon / Ezüst Orbit képteszt (`WSG-20261024-GEMINI-RENDER-TEST-002`):**
+  - Cam_02, azonos pilotprompt + 5 bemeneti kép; Gemini („3.1 Pro” + Kép létrehozása), Péter kérésére ChatGPT-kontrollal.
+  - Mind a 4 kép KONCEPCIÓ – NEM VALIDÁLT, Gate-szinten FAIL-elemekkel: Gemini Orbit kitalált ajtó, ChatGPT Orbit fekete belső profil, mind a négyen nem valós teraszszintek.
+  - Péter értékelése: „gagyik, semmi luxus”.
+  - Diagnózis: elsősorban a prompt és a koncepció, a Gemini renderje tovább ront. Képen az Ezüst Orbit működik jobban; a kamerához a ChatGPT Rubin áll a legközelebb.
+  - Képek: `04_renderek/ai_gemini/`, `04_renderek/ai_chatgpt/`. Jelentés: `ai-coordination/results/WSG-20261024-GEMINI-RENDER-TEST-002.md`.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
@@ -85,6 +91,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Akvárium a 902 dolgozójában csak saját használatra.
 - *(2026-10-24, nyitott)* A-902 nappali: legyen-e TV? L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal)? (audit 9.1)
 - *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör A fázisa (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
+- *(2026-10-24, nyitott)* Állóképhez a ChatGPT legyen-e az alap, és a Gemini maradjon a videónál? A TEST-002 alapján javasolt. A következő stílusteszt előtt kell-e javított Blender-alapkép és Astra-prompt v2 (pozitív luxusblokk, ajtó nélküli hátsó fal, greige padló)?
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
