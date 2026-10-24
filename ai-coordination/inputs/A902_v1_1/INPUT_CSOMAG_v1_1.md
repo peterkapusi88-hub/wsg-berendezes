@@ -20,7 +20,8 @@
    - fürdők világos meleg szürke kőhatású lappal és fekete szerelvényekkel;
    - a teraszajtók sötét antracit téglás kávában, a fő homlokzat világos foltos tégla.
    - Belmagasság: mérve 2,90–2,93 m.
-7. A belső falak a tervhez képest ±15 cm-en belül vannak (`A902_eltereslista_v1_v2.md`). A belső nézetek (Cam_02–04) használhatók; a **Cam_05 terasznézet elavult**.
+7. **Kültér:** `08_allapotfelmeres/KULTER_KINEZET_3_LAKAS.md` – greslap, WPC, vakolt mellvéd, pálcás korlát, világos és sötét tégla, fekete fali lámpák; teraszbútor csak greslapon és WPC-n, súlyozott, fúrás nélkül.
+8. A belső falak a tervhez képest ±15 cm-en belül vannak (`A902_eltereslista_v1_v2.md`). A belső nézetek (Cam_02–04) használhatók; a **Cam_05 terasznézet elavult**.
 
 ## Képek
 | Fájl | Mire |

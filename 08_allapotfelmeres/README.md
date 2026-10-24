@@ -9,6 +9,8 @@
 | `FOTO_BEVITEL.md` + `FOTO_KAMERA_KAPCSOLAT.csv` | fájlnév- és mappaszabály, a fotók és a Blender-kamerák összekötése, tervezett fotólista |
 | `fotok/A811 · A812 · A902/<helyiség>/` | ide kerülnek a repóba szánt kicsinyített fotók; az eredetik a Macen maradnak |
 | `KOLTSEGSTRATEGIA_3_LAKAS.md` + `KOLTSEG_KIINDULAS_A811.csv` / `_A812.csv` | stílusfüggetlen keretfelosztás 10/10/20 M Ft bruttó, minimum 10% tartalékkal; becslés és ajánlat külön oszlopban |
+| `MUSZAKI_ELLENORI_ANYAG_KIVONAT_2026-10-21.md` | a két műszaki ellenőr anyagából: mért belmagasság, fotóval rögzített felületek, a berendezést érintő hibák |
+| `KULTER_KINEZET_3_LAKAS.md` | teraszok és erkélyek kinézete (burkolat, homlokzat, korlát, térelválasztó, fény, kiállások) és a kültéri bútorrendelés korlátai |
 | `II_SZAKASZ_FELDOLGOZASI_REND.md` | a csomag megérkezése utáni 24 órás feldolgozás sorrendje és kimenetei |
 
 Kapcsolódó:

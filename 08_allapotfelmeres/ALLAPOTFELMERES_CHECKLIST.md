@@ -60,6 +60,13 @@
 | D6 | Közlekedő | a gardróbrészben nincs gipszkarton álmennyezet (2026-04-28-i korrekció) | P3 |
 | D7 | Belmagasság | ~~nincs adat~~ → **2,69–2,73 m mérve** (Kémeri); csak kontroll | P3 |
 
+## D/2. Közös – kültéri rendeléshez
+| # | Mit | P |
+|---|---|---|
+| K1 | **Lift belső mérete** (szél. × mély. × magasság), ajtószélesség, teherbírás; a teraszajtók és az erkélyajtók szabad nyílása | P1 |
+| K2 | A-811 és A-812 erkély: mélység a homlokzattól a korlátig, hossz, ajtószárny-nyitás, küszöb | P1 |
+| K3 | A-902 erkély 13: fotó (korlát, homlokzat, burkolat) | P2 |
+
 ## E. Dokumentumok (a „Lakásátvétel és garanciák” projektből, csak a műszaki tartalom)
 - **Statikus nyilatkozat:** terasz és zöldtető terhelhetősége kg/m²-ben, jakuzzi-hely (A-902). **P1, ez a jakuzzi feltétele.**
 - Zöldtető-rendszer: gyártó, rétegrend, járhatóság, karbantartás; öntözésvezérlő helye és programja.
