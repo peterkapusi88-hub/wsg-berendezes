@@ -106,3 +106,13 @@ A döntős, részletes stílushoz:
 Mindig először a legfrissebb `GOAL.md` és a tényleges alaprajz/helyszíni adatok; majd ez a skill. Az itt leírt filozófia hosszú távú irányelv, nem helyettesíti a változó méreteket, a valós árakat vagy az engedélyeket. Ha a régi terv csak Zenit/Lake Forest-kizárólagosságot sugall, **a két stílus csak kiinduló kísérlet, nem végleges döntés**. Az eredeti nagy házas szöveg példái inspirációk, nem WSG-megrendelések.
 
 **A fő ellenőrző kérdés minden munkamenet végén: „Beleszeretnénk-e ebbe, és ugyanebben a minőségben, az adott lakás teljes keretén belül tényleg megvalósítható-e?”**
+
+## 9. Kötelező vizuális ambíció: valóban elképesztően drágának HATÓ végeredmény
+
+Péter pontosítása: **ne pusztán szép, kellemes, korrekt vagy diszkréten prémium legyen**, hanem a szemlélő első benyomása az legyen, hogy egy kivételesen drága, személyre szabott, ötcsillagos belsőépítészeti munka eredménye. Ez nem valótlanságot jelent: a renderben is az **ugyanúgy megépíthető és beárazott** látható minőséget kell mutatni.
+
+A várt luxus nem költségarányos: **drámai, mégis ízléses arányok; látványosan tudatos forma; szobrászati bútorok; különleges, de tiszta tömegek; homogén, elegáns színharmónia; építészeti fény; vizuálisan hibátlan csatlakozások; tér és panoráma kiemelése; rendezett, belakható funkcionalitás**. Nem elég egy IKEA-kanapéra luxus jelzőt írni vagy olcsó kőimitációval telepakolni mindent. Az olcsó megoldás **nem látszhat olcsónak**. A kiemelt részletek kapjanak különös figyelmet: beltéri nézetek kompozíciója, padló–mennyezet arány, ívek, frontosztás, színek, fényvisszaverés, megfelelően megtervezett burkolat-/bútorátmenetek és jó térérzet.
+
+Minden új stílushoz legyen rövid **WOW-próba**: mi az a 2–3 konkrét elem, ami miatt a látogató „ez rohadt drágának néz ki” benyomást kap? Miből és mennyiért tudjuk ezt tényleg kivitelezni? Mi az a gagyi vagy giccses hatás, amitől meg kell védeni a koncepciót? Ha a stílus korrekt, de jellegtelen, ne nevezd sikeresnek.
+
+A költségoptimalizálásnál az első kérdés nem pusztán az, hogy „hol lehet olcsóbb”, hanem: **hogyan őrizzük meg vagy növeljük a luxusérzetet alacsonyabb teljes bekerüléssel?** Ezt csak valós méretekkel, termékekkel, anyagmintákkal és asztalos-ajánlatokkal szabad véglegesnek tekinteni.
