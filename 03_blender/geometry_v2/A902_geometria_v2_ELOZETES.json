@@ -323,9 +323,35 @@
    "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
   },
   "Erkely_13": {
+   "poly": [
+    [
+     -0.3,
+     -0.2
+    ],
+    [
+     -2.01,
+     -0.2
+    ],
+    [
+     -2.01,
+     5.69
+    ],
+    [
+     -1.12,
+     5.69
+    ],
+    [
+     -1.12,
+     7.9
+    ],
+    [
+     -0.3,
+     7.9
+    ]
+   ],
    "m2_terv": 11.26,
    "anyag": "greslap",
-   "note": "Ny-i oldal, 05.1/05.2 előtt; nincs a videóban",
+   "note": "Ny-i oldal, 05.1/05.2 előtt, L-alak (külső kontúr a megvalósulási terv vonalaiból; a v1 lock téglalapja [-2.3,0,-0.3,6.05] volt); nincs a videóban – ELŐZETES",
    "src": "PDF p3 megvalósulási terv 1:125 (2026-07-08)"
   },
   "Homlokzat": {

@@ -47,7 +47,7 @@ terrace = {  # x0,y0,x1,y1, z (belső kész padlóhoz képest), anyag, forrás, 
  "Jakuzzi_elokeszites": dict(box=[4.10,9.74,6.10,11.74], z=-0.15, note="2.00 m széles szaggatott keret a 18. oldalon (É-i éle a rajz szélén kívül → mélység HIÁNYZIK, 2.00 feltételezve); áramkiállás (3.82, 9.69); fagymentes kültéri csap (4.14, 9.0). Terhelhetőség: HIÁNYZIK (statikus nyilatkozat)", src=SRC18),
  "Korlat":           dict(vonal={"Ny":3.39,"K":16.32,"É":20.11}, magassag=1.10, anyag="antracit fém, függőleges pálcás, mellvéden (videó)", status="nyomvonal DOKUMENTUM, magasság ELŐZETES", src=SRC3),
  "Mellved_kulso":    dict(vonal={"Ny":2.83,"K":16.86,"É":20.61}, src=SRC3),
- "Erkely_13":        dict(m2_terv=11.26, anyag="greslap", note="Ny-i oldal, 05.1/05.2 előtt; nincs a videóban", src=SRC3),
+ "Erkely_13":        dict(poly=[[-0.30,-0.20],[-2.01,-0.20],[-2.01,5.69],[-1.12,5.69],[-1.12,7.90],[-0.30,7.90]], m2_terv=11.26, anyag="greslap", note="Ny-i oldal, 05.1/05.2 előtt, L-alak (külső kontúr a megvalósulási terv vonalaiból; a v1 lock téglalapja [-2.3,0,-0.3,6.05] volt); nincs a videóban – ELŐZETES", src=SRC3),
  "Homlokzat":        dict(anyag="világos szürke/fehér foltos klinker tégla, fekete nyílászárók, felette sötét álló fémburkolat (videó)", status="VIDEÓ"),
  "Ajtok_terasz":     dict(note="4.50 × 2.53 tolóajtós üvegfal (nappali) és 1.80 × 2.53 (05.3); fellépés 15 cm, 2025-10-13-i korrekció szerint módosult → helyszínen mérendő", src=SRC18),
 }

@@ -44,6 +44,8 @@ A konyha É-i −110 cm-e definíciós különbség: a v1 a konyhazónát a napp
 | Lepcso_K |  | [11.39, 12.1, 12.59, 12.4] | -0.15→0.47 | DOKUMENTUM (nyíl) + VIDEÓ |
 | Jakuzzi_elokeszites |  | [4.1, 9.74, 6.1, 11.74] | -0.15 |  |
 
+**Erkély 13 (Ny, 11,26 m²):** a v1-ben téglalap volt [−2,30, 0,00, −0,30, 6,05]. A terv szerint **L-alakú**: −2,01…−0,30 × −0,20…5,69, és egy keskeny nyúlvány −1,12…−0,30 × 5,69…7,90, végig a 05.1 előtt. A v1 tehát 30 cm-rel szélesebb volt, és hiányzott belőle az északi nyúlvány. ELŐZETES.
+
 **Zöldtető tagolása (ELŐZETES, videó + Péter):** sík fű Ny [3.71,13.41,7.62,19.80], dombos évelőágyás [7.62,14.58,12.00,18.83] (+0,25 m), sík fű K [12.00,13.41,16.04,19.80]; betonszegély kb. térdmagas; pop-up esőztető a füvön, csepegtető az ágyásban.
 
 ## 4. Tények (IGAZOLT / ELŐZETES / HIÁNYZIK)
