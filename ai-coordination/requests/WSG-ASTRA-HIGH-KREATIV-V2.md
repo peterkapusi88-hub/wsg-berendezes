@@ -1,7 +1,7 @@
 # WSG-20261024-ASTRA-KREATIV-V2 – A-902: a lezárt STYLE10-002 A fázis után a közös tízes kreatív brief (Astra **MEDIUM**)
 
 - **Task ID:** `WSG-20261024-ASTRA-KREATIV-V2` · fájlnév `WSG-ASTRA-HIGH-KREATIV-V2.md` Péter 2026-10-24 19:17-es kérése szerint. **A névben szereplő „HIGH” történeti; a tartalom MEDIUM-szintű** (Péter 19:34, kötelező kreditkorlát). High/Ultra/Max: **TILOS** külön új engedély nélkül.
-- **Indítás: NEM INDÍTOTT.** Automatikus felvétel TILOS. Csak Péter indítja. **Indítás előtt a futtatófelületen a Medium szint ellenőrizhetően be van állítva; ha nem állítható vagy nem igazolható, a feladat nem indul** – jelezni kell.
+- **Indítás: INDÍTÁSRA KÉSZ – NEM INDÍTOTT, Péter külön engedélyére vár** (Claude-audit átvezetve 2026-10-24 21:00). Automatikus felvétel TILOS. Csak Péter indítja. **Indítás előtt a futtatófelületen a Medium szint ellenőrizhetően be van állítva; ha nem állítható vagy nem igazolható, a feladat nem indul** – jelezni kell.
 - **Cél AI:** ASTRA_WORK (ChatGPT Work), **MEDIUM**. Az 1. rész (lezárás) Astra nélkül megtörtént; a 2. rész futtatásának helyét (eredeti szál folytatása vagy új szál) Péter dönti el az indításkor.
 - **Típus:** STYLE_CONCEPT (a kész tízes döntős szintre emelése) + PRODUCT_RESEARCH + költség-előszűrés. **Kép, videó, Blender: nincs.** Nincs újrakutatás.
 - **Lakás:** A-902, a **teljes lakás** költsége. A-811/A-812 alapadatai referenciaként rendelkezésre állnak (4. pont), **a scope nem bővül rájuk.**
@@ -22,9 +22,19 @@
 
 ## 2. RÉSZ – A közös tízes kreatív brief (Astra MEDIUM, az 1. rész lezárása után)
 
+### 2.0 Audit-korrekciók – kötelező (Claude-audit 2026-10-24, `ai-coordination/audits/WSG-20261024-STYLE10-002_CLAUDE_AUDIT.md`)
+
+1. **Differenciálási mátrix (H1):** a tíz koncepció csontváza túl közeli volt (4× Lennon L, 7× L3, 2 asztalcsalád). Egy (kanapé-sziluett, elrendezéscsalád, étkező-geometria) hármas **csak egyszer** fordulhat elő; minden stílus nevezze meg elsődleges gesztusát (Claude A1 kódok A–I; egy kód legfeljebb 2×, legalább 7 kód). Kiindulás: az audit 2. pontjának táblája – Astra a kreatív tartalmat szabadon alakítja, a hármasok ismétlődését nem.
+2. **U csak L3 (H2):** a méretpróba szerint U kanapé (JÄTTEBO 285×160, Gala 300×225, generikus 300×240) a P902_24A étkezővel **csak nyugati TV-vel** fér el; L2 (déli TV) kizárólag L-kanapéval. S04 és S10 U-próbája L2-ben törlendő.
+3. **Igazolt termékadatok (H3):** Wolke 258×167×65, 1 050 000 Ft, 12–13 hét, **bal sarok**, 16 szín (teddy bouclé törtfehér/petrol/terrakotta/burgundi…); Lennon 800 000 Ft, 8–9 hét, **jobb sarok**, 20 szín (**sötétkék**, olíva, terrakotta, rozsda…) – a „kék Lennon nem létezik” állítás törlendő; JÄTTEBO U 928 000 (karfával) / 856 500 (karfa nélkül), sötétkék / szürke-bézs / sötétsárga-zöld. P02/P03 Melva árát kosárban kell ellenőrizni.
+4. **Kave Home egyenrangú (H4):** stílusonként legalább egy Kave Home **és** egy Westwing kanapé-/asztaljelölt, az audit 4. pontjának táblájából (Gala U 300×225 és Gala 210 dupla chaise valódi U; Blok sarok 290×230 ≈0,96 M; Blok/Vera chaise L; **Martina íves 246×112 + Neom puff** Péter félhold-ötletéhez; Neom moduláris; Nealy Ø150, Naanim/Argo/Vedira Ø120; Eamy/Ciselia/Granite székek; Corvena/Nema fotel). EUR×367 + lehetséges 5 % ÁFA + 112,99 € szállítás; HU végösszeg „nem igazolt”.
+5. **Kreatív küszöb mérhetővé (H5):** a képfázis Zenit/LF kalibrációs párral indul ugyanazon az alapon; thumbnail-sziluett és szürkeárnyalatos próba; meleg szűrő nélkül.
+6. **Költség (H6):** a 7. fejezet összegei helyesek; U Kave Home-mal (≈1,32 M) a 03b 1,00 M plafon felett → csak PREMIUM-táblában vagy tételcserével, kimondva.
+7. **Képek külön feladatban:** ebben a V2-ben továbbra **nincs képgenerálás**; a tíz nappali-látvány a `WSG-20261024-STYLE10-KEP-004.md` képfázisban készül, a `05_promptok/A902_STYLE10_Cam02_prompt_sablon_v2.md` sablonnal, külön jóváhagyás után.
+
 ### 2.1 Mit kérünk egy mondatban
 
-A STYLE10-002 kész tízes mezőnyét **nem újrakutatva**, hanem a Claude-keretrendszer, Péter javított szabályai és a legfrissebb műszaki alap szerint **döntős szintre emelve**: mind a tíz irány érje el a kreatív minőségi küszöböt, a három döntős (és a tartalék) kapjon valós termékekre épülő, teljes lakásos, 18 M-on belüli, azonos kamerán összevethető csomagot, és Claude-nak géppel ellenőrizhető geometriai átadást.
+A STYLE10-002 kész tízes mezőnyét **nem újrakutatva**, hanem a Claude-keretrendszer, Péter javított szabályai és a legfrissebb műszaki alap szerint **mind a tíz irányt kreatívan megerősítve**: mindegyik érje el a kreatív minőségi küszöböt, mindegyik kapjon valós termékekre épülő, teljes lakásos, 18 M-on belüli, azonos kamerán összevethető csomagot és Claude-nak géppel ellenőrizhető geometriai átadást. **Nem szűkítünk előre háromra** (Péter 20:34): a döntősöket Péter a képfázis (KEP-004) után választja; Astra rangsora csak javaslat.
 
 ### 2.2 Kötelező olvasnivaló (friss `main`)
 
@@ -84,7 +94,7 @@ Rubin Szalon és Ezüst Orbit: **dokumentált pilotok, nem kötelező résztvev�
 
 1. **A2 – kreatív továbbfejlesztés (Astra, Medium):** a tíz kész kártya a küszöbhöz igazítva (nem újraírva); S09/S10 döntési javaslat; hiányzó termékjelöltek (székek, fotel, lámpák, **Kave Home** kanapé-/asztaljelöltek az A6 árkönyvtárból); P15 és P02/P03 ár–SKU tisztázása; a 7. fejezet költségtábláinak frissítése P902_24A és az új jelöltek szerint; frissített 4 rangsor és 3 döntős + tartalék; a 16 kérdés Claude-nak frissítve. Kimenet: **új** `ai-coordination/results/WSG-20261024-ASTRA-KREATIV-V2.md` (fejléc a RESULT_TEMPLATE szerint: `WSG-RESULT`, Szerző-AI, Modell | nem igazolt, Bázis-commit, Státusz), semmit nem ír felül.
 2. **Elrendezés-validálás (Claude, kredit nélkül):** a döntősök bútorbefoglalói P902_24A-val, validátor v2 (lock v2b-1), ajtósöprés, 90 cm főút, székkihúzás, kiállás-azonosítók; eredmény `03_blender/validator_report_*.md` + `audits/`. Geometriai PASS-t képről nem állítunk.
-3. **Végső renderpromptok (B fázis, ZÁROLVA):** csak Claude géppel ellenőrzött alapja + Péter külön B-indítása után; sablon `05_promptok/A902_STYLE10_Cam02_prompt_sablon_v1.md` frissítve a `semleges_v2b` Cam_02 képre; azonos kamera, fény, expozíció; Gate-státusz minden képhez (KONCEPCIÓ – NEM VALIDÁLT / ELŐSZŰRT – FELTÉTELES / RENDER REALITY PASS – TÉTELES / AJÁNLATTAL VALIDÁLT / FAIL).
+3. **Végső renderpromptok és képek – külön feladat, ZÁROLVA:** `ai-coordination/requests/WSG-20261024-STYLE10-KEP-004.md` (Astra Medium, 12 kép: Zenit/LF kalibrációs pár + S01–S10, A sorozat semleges fény, B sorozat este), sablon `05_promptok/A902_STYLE10_Cam02_prompt_sablon_v2.md`; kapu: V2 lezárva, Cam_02 alap v2b-1-ből, termékrekordok, Péter külön „mehet”-je. Gate-státusz minden képhez (KONCEPCIÓ – NEM VALIDÁLT / ELŐSZŰRT – FELTÉTELES / RENDER REALITY PASS – TÉTELES / AJÁNLATTAL VALIDÁLT / FAIL). A V2 Astra-feladatban kép nem készül.
 
 ### 2.8 Tilalmak és átadás
 
@@ -99,4 +109,4 @@ Rubin Szalon és Ezüst Orbit: **dokumentált pilotok, nem kötelező résztvev�
 
 ---
 
-**Státusz: NEM INDÍTOTT.** Készítette: Claude, 2026-10-24 este; frissítve 20:30 (a teljes Astra-eredmény előkerülése után). Ez a brief Péter 2026-10-24 19:17, 19:27, 19:34, 19:38, 19:42, 20:07, 20:20 és 20:23 utasításait rögzíti; a korábbi STYLE10-002 és STYLE4-003 briefeket nem írja át, hanem hivatkozik rájuk.
+**Státusz: INDÍTÁSRA KÉSZ – NEM INDÍTOTT (Péter külön engedélyére vár).** Készítette: Claude, 2026-10-24 este; frissítve 20:30 (a teljes Astra-eredmény előkerülése után) és 21:00 (Claude-audit korrekciói, képfázis külön feladatban). Ez a brief Péter 2026-10-24 19:17, 19:27, 19:34, 19:38, 19:42, 20:07, 20:20 és 20:23 utasításait rögzíti; a korábbi STYLE10-002 és STYLE4-003 briefeket nem írja át, hanem hivatkozik rájuk.

@@ -1,0 +1,853 @@
+{
+ "datum": "2026-10-24 20:38",
+ "keszitette": "Claude – célzott audit (WSG-20261024-STYLE10-002_CLAUDE_AUDIT.md 3. pont)",
+ "motor": "03_blender/geometry_A811_A812/meretproba/kanape_meretproba_a902.py (lock geometry_lock_A902_v2b.json, terv szerinti, helyszínen nem mért)",
+ "etkezo": "terv, 0,30 m-rel nyugatra (P902_24A)",
+ "statusz": "MÉRETPRÓBA – nem stílusterv, nem validátor-PASS",
+ "futasok": {
+  "mellekut_0.90": [
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-U-285x160",
+    "kanape_nev": "IKEA JÄTTEBO U 285 × 160 (P04/P05)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.12,
+      5.075,
+      6.72,
+      7.925
+     ],
+     "tv_konzol": [
+      3.67,
+      5.6,
+      4.12,
+      7.4
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.45,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.08,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.85 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-U-285x160",
+    "kanape_nev": "IKEA JÄTTEBO U 285 × 160 (P04/P05)",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-LENNON-L-238x180",
+    "kanape_nev": "Westwing Lennon L 238 × 180 (P14)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.92,
+      5.06,
+      6.72,
+      7.44
+     ],
+     "tv_konzol": [
+      3.67,
+      5.35,
+      4.12,
+      7.15
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.45,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.08,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.80 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-LENNON-L-238x180",
+    "kanape_nev": "Westwing Lennon L 238 × 180 (P14)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.77,
+      5.6,
+      6.57,
+      7.98
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.33,
+     "tv_eltolas_m": -0.4,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.80 a TV-fallal párhuzamosan × 2.38 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-WOLKE-L-258x167",
+    "kanape_nev": "Westwing Wolke L 258 × 167 (P15)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.02,
+      5.06,
+      6.69,
+      7.64
+     ],
+     "tv_konzol": [
+      3.67,
+      5.45,
+      4.12,
+      7.25
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.42,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.08,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.58 a TV-fallal párhuzamosan × 1.67 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-WOLKE-L-258x167",
+    "kanape_nev": "Westwing Wolke L 258 × 167 (P15)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.98,
+      6.3,
+      7.56,
+      7.97
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.32,
+     "tv_eltolas_m": 0.2,
+     "kerulo_max_arany": 1.68,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.58 a TV-fallal párhuzamosan × 1.67 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-MELVA-L-238x143",
+    "kanape_nev": "Westwing Melva L 238 × 143 (P01–P03)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.22,
+      5.06,
+      6.65,
+      7.44
+     ],
+     "tv_konzol": [
+      3.67,
+      5.35,
+      4.12,
+      7.15
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.38,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.08,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.43 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-MELVA-L-238x143",
+    "kanape_nev": "Westwing Melva L 238 × 143 (P01–P03)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.155,
+      5.6,
+      6.585,
+      7.98
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.33,
+     "tv_eltolas_m": -0.2,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.43 a TV-fallal párhuzamosan × 2.38 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-L-190x160",
+    "kanape_nev": "IKEA JÄTTEBO L 190 × 160 (P06)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.12,
+      5.1,
+      6.72,
+      7.0
+     ],
+     "tv_konzol": [
+      3.67,
+      5.15,
+      4.12,
+      6.95
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.45,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.08,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.90 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-L-190x160",
+    "kanape_nev": "IKEA JÄTTEBO L 190 × 160 (P06)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.72,
+      5.8,
+      6.62,
+      7.4
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.75,
+     "tv_eltolas_m": -0.4,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.90 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-GALA-U-300x225",
+    "kanape_nev": "Kave Home Gala U 300 × 225",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.32,
+      5.05,
+      7.57,
+      8.05
+     ],
+     "tv_konzol": [
+      3.67,
+      5.65,
+      4.12,
+      7.45
+     ],
+     "legszukebb_ut_m": 0.9,
+     "nezotav_m": 3.3,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.78,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 0.95,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "3.00 a TV-fallal párhuzamosan × 2.25 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-GALA-U-300x225",
+    "kanape_nev": "Kave Home Gala U 300 × 225",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-BLOK-L-290x230",
+    "kanape_nev": "Kave Home Blok sarok L 290 × 230",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.32,
+      5.15,
+      7.62,
+      8.05
+     ],
+     "tv_konzol": [
+      3.67,
+      5.7,
+      4.12,
+      7.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.35,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.76,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.90 a TV-fallal párhuzamosan × 2.30 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-BLOK-L-290x230",
+    "kanape_nev": "Kave Home Blok sarok L 290 × 230",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "P902_24A-U-300x240",
+    "kanape_nev": "P902_24A befoglaló U 300 × 240 (generikus)",
+    "tv": "nyugati",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.9,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "P902_24A-U-300x240",
+    "kanape_nev": "P902_24A befoglaló U 300 × 240 (generikus)",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   }
+  ],
+  "mellekut_0.75": [
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-U-285x160",
+    "kanape_nev": "IKEA JÄTTEBO U 285 × 160 (P04/P05)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.22,
+      5.075,
+      6.82,
+      7.925
+     ],
+     "tv_konzol": [
+      3.67,
+      5.6,
+      4.12,
+      7.4
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.55,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.05,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.85 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-U-285x160",
+    "kanape_nev": "IKEA JÄTTEBO U 285 × 160 (P04/P05)",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-LENNON-L-238x180",
+    "kanape_nev": "Westwing Lennon L 238 × 180 (P14)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.02,
+      5.06,
+      6.82,
+      7.44
+     ],
+     "tv_konzol": [
+      3.67,
+      5.35,
+      4.12,
+      7.15
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.55,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.05,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.85,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.80 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-LENNON-L-238x180",
+    "kanape_nev": "Westwing Lennon L 238 × 180 (P14)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.48,
+      5.6,
+      6.86,
+      7.4
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.75,
+     "tv_eltolas_m": -0.4,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.8,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.80 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-WOLKE-L-258x167",
+    "kanape_nev": "Westwing Wolke L 258 × 167 (P15)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.22,
+      5.06,
+      6.89,
+      7.64
+     ],
+     "tv_konzol": [
+      3.67,
+      5.45,
+      4.12,
+      7.25
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.62,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.05,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.58 a TV-fallal párhuzamosan × 1.67 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-WOLKE-L-258x167",
+    "kanape_nev": "Westwing Wolke L 258 × 167 (P15)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.98,
+      6.3,
+      7.56,
+      7.97
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.32,
+     "tv_eltolas_m": 0.2,
+     "kerulo_max_arany": 1.62,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.58 a TV-fallal párhuzamosan × 1.67 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-MELVA-L-238x143",
+    "kanape_nev": "Westwing Melva L 238 × 143 (P01–P03)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.42,
+      5.06,
+      6.85,
+      7.44
+     ],
+     "tv_konzol": [
+      3.67,
+      5.35,
+      4.12,
+      7.15
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.58,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.05,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.43 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "WW-MELVA-L-238x143",
+    "kanape_nev": "Westwing Melva L 238 × 143 (P01–P03)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.48,
+      5.9,
+      6.86,
+      7.33
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.68,
+     "tv_eltolas_m": -0.4,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.8,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.38 a TV-fallal párhuzamosan × 1.43 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-L-190x160",
+    "kanape_nev": "IKEA JÄTTEBO L 190 × 160 (P06)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.22,
+      5.1,
+      6.82,
+      7.0
+     ],
+     "tv_konzol": [
+      3.67,
+      5.15,
+      4.12,
+      6.95
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.55,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.05,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.90 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "IKEA-JATTEBO-L-190x160",
+    "kanape_nev": "IKEA JÄTTEBO L 190 × 160 (P06)",
+    "tv": "deli",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      4.92,
+      5.8,
+      6.82,
+      7.4
+     ],
+     "tv_konzol": [
+      5.17,
+      4.05,
+      6.97,
+      4.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 2.75,
+     "tv_eltolas_m": -0.2,
+     "kerulo_max_arany": 1.19,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "1.90 a TV-fallal párhuzamosan × 1.60 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-GALA-U-300x225",
+    "kanape_nev": "Kave Home Gala U 300 × 225",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.32,
+      5.05,
+      7.57,
+      8.05
+     ],
+     "tv_konzol": [
+      3.67,
+      5.65,
+      4.12,
+      7.45
+     ],
+     "legszukebb_ut_m": 0.9,
+     "nezotav_m": 3.3,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.72,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 0.95,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "3.00 a TV-fallal párhuzamosan × 2.25 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-GALA-U-300x225",
+    "kanape_nev": "Kave Home Gala U 300 × 225",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-BLOK-L-290x230",
+    "kanape_nev": "Kave Home Blok sarok L 290 × 230",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.32,
+      5.15,
+      7.62,
+      8.05
+     ],
+     "tv_konzol": [
+      3.67,
+      5.7,
+      4.12,
+      7.5
+     ],
+     "legszukebb_ut_m": 1.0,
+     "nezotav_m": 3.35,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.7,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 1.0,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 1.0,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "2.90 a TV-fallal párhuzamosan × 2.30 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "KH-BLOK-L-290x230",
+    "kanape_nev": "Kave Home Blok sarok L 290 × 230",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "P902_24A-U-300x240",
+    "kanape_nev": "P902_24A befoglaló U 300 × 240 (generikus)",
+    "tv": "nyugati",
+    "elfer": true,
+    "elrendezes": {
+     "kanape_befoglalo": [
+      5.22,
+      5.05,
+      7.62,
+      8.05
+     ],
+     "tv_konzol": [
+      3.67,
+      5.65,
+      4.12,
+      7.45
+     ],
+     "legszukebb_ut_m": 0.9,
+     "nezotav_m": 3.35,
+     "tv_eltolas_m": 0.0,
+     "kerulo_max_arany": 1.75,
+     "cel_max_szelesseg_m": {
+      "terasz (tolóajtó)": 0.95,
+      "konyha (a pultsorok közé)": 1.0,
+      "hálók folyosója": 0.95,
+      "05.3 háló ajtaja": 0.9
+     },
+     "tajolas": "3.00 a TV-fallal párhuzamosan × 2.40 a TV felé"
+    }
+   },
+   {
+    "mellekut_m": 0.75,
+    "etkezo": "terv, 0,30 m-rel nyugatra",
+    "kanape": "P902_24A-U-300x240",
+    "kanape_nev": "P902_24A befoglaló U 300 × 240 (generikus)",
+    "tv": "deli",
+    "elfer": false,
+    "elrendezes": null
+   }
+  ]
+ }
+}
