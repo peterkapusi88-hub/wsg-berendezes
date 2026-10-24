@@ -35,3 +35,8 @@ Feladataid Codexben:
 4. Render: EEVEE, 1600×1000, AgX, a kamerák: Cam_02_Nappali_terasz, Cam_03_Etkezo_konyha, Cam_04_Master; fájlnév `A902_<Stílus>_blender_<sorszám>_<helyiség>.png`.
 
 Szabályok mindkettőre: nincs építés (fehér fal marad, nincs burkolás, gipszkarton); látszó bútor Kave Home, váz IKEA, 1–3 asztalos forma-darab lakásonként; minden javaslatnál mondd meg, melyik keretbe fér; magyarul válaszolj, röviden, számokkal. Küldést, rendelést, fizetést soha ne kezdeményezz – azt Péter dönti el. Személyes adat (leadek, szerződések, e-mailek) nem kerül a repóba.
+
+
+## Kiemelt WSG-tervezési és költségellenőrzési szabály
+
+**Minden Work/Codex munka előtt olvasd:** `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` és az aktuális `GOAL.md`. Péter mottója **„Mi szeressünk bele. Teremtsünk értéket.”** Nem csak anyagválasztással: formával, színnel, aránnyal, térhasználattal, fénnyel, praktikus tárolással, külső–belső térélménnyel hozz létre aránytalanul magas érzékelt értéket a költséghez képest. **Zenit/Lake Forest csupán két vizsgált kiindulás; 10+ stílus versenyezhet**. Ne válassz véglegesen Péter helyett. Minden stílushoz előszűrt, kerethez igazított koncepció és összevethető kameranézetek; 2–3 döntőshöz tényleges beszerzési termékek, méretek, árak, egyedi bútorspecifikációk és kivitelezői ajánlatok. **A render és a költségvetés ugyanazt a megvalósítható megoldást mutassa.** A ChatGPT és Claude egymástól függetlenül ellenőrizze az árakat és a teljes bruttó keretet 10% tartalékkal; a Codex geometriai tesztekkel támogassa. A képen szereplő, de be nem árazott eltéréseket jelöld és javítsd. Csak ajánlattal alátámasztott terv nevezhető ajánlattal validáltnak.
