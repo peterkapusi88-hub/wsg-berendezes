@@ -1,6 +1,6 @@
 # GOAL.md – Westside Grand berendezés (A-811, A-812, A-902)
 
-> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz; 09:00 Rubin/Orbit képteszt).
+> Ez a fájl a projekt memóriája. Bármelyik AI (Claude, ChatGPT, Gemini) ezt olvassa el először, és ebből dolgozik. Ha valami itt nem szerepel, kérdezz, ne találd ki. Frissítve: 2026-10-24 (reggel, I. szakasz; 09:00 Rubin/Orbit képteszt; 13:18 Péter döntései a négy stílusról).
 
 ## 1. Cél egy mondatban
 Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 11–13., Westside Grand I., átadva 2026-10-21) berendezése úgy, hogy **olcsón összerakva drágának hasson**, és eladáskor (vagy bérbeadáskor) a vevő két különböző, kész hangulatot lásson: egy **Zenit-** és egy **Lake Forest-verziót**.
@@ -102,7 +102,14 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Akvárium a 902 dolgozójában csak saját használatra.
 - *(2026-10-24, részben eldöntve)* A-902 nappali: a TV helye szabad (Péter), a kanapé L vagy inkább U. L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal) – a stílustervezés dönti el; az L2 TV-fala a déli fal kapcsolóoszlopát (x 7,15) szabadon hagyja, dugalja a D19. (audit 9.1)
 - *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör A fázisa (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
-- *(2026-10-24, nyitott)* Állóképhez a ChatGPT legyen-e az alap, és a Gemini maradjon a videónál? A TEST-002 alapján javasolt. A következő stílusteszt előtt kell-e javított Blender-alapkép és Astra-prompt v2 (pozitív luxusblokk, ajtó nélküli hátsó fal, greige padló)?
+- *(2026-10-24 13:07, Péter – eldöntve)* **Állókép: ChatGPT; a Gemini egyelőre nem képszerkesztésre, elsősorban videóra.** A ChatGPT-kép csak akkor számít elkészültnek, ha ténylegesen létrejött, a repóban van és ellenőrizhető.
+- *(2026-10-24 13:07–13:18, Péter)* **A Zenit és a Lake Forest a luxusminőség referenciairánya** („ezerszer izgalmasabb, szexibb”). A Rubin Szalon és az Ezüst Orbit első képei túl ingerszegények. A cél nem a költségvetés leegyszerűsítése, hanem a **kiemelkedő luxushatás valóban kivitelezhető áron**.
+- *(2026-10-24 13:18, Péter)* A négy stílus (Zenit, Lake Forest, Rubin Szalon, Ezüst Orbit) összevetése:
+  - a **vizuális minőség** és a **geometriai hűség** külön értékelendő;
+  - mind a négy **azonos, bruttó 18 M + 2 M tartalék** rendszerben;
+  - a fő látható tételekhez valós termékjelölt és ellenőrizhető ár kell.
+  - **Először** ellenőrizhető, alaprajzhű, semleges Cam_02 referenciakép készül, a bizonytalan elemek dokumentálásával.
+  - A kreatív stílusfejlesztés és a végleges promptok **Astra High** feladata. Claude a geometriai alapot, a költségellenőrzést és a GitHub-átadást készíti elő; a kész briefek a GitHubra kerülnek, Péternek ne kelljen fájlt másolnia.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
