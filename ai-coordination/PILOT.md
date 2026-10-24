@@ -43,3 +43,10 @@
 - `CLAUDE_PROJECT_KNOWLEDGE_SYNCED`: igen (szöveges fájlok; képek/.blend szándékosan nem).
 - `CLAUDE_RESULT_RETRIEVAL_MECHANISM`: igazolt a PR-komment és ágfájl **olvasása** Claude felől; a Work **írása** GitHubra nem igazolt → tartalék: Chrome-relay (`CLAUDE_HANDOFF_PROCEDURE.md` 3/C).
 - `WORK_EVENT_TRIGGER_CREATED`: továbbra is nem igazolt (Péter webes Work-feladata szükséges).
+
+## Manuális pilot lefutott – 2026-10-24 07:10
+- Astra/Work **kézzel indítva** (nem PR-triggerrel) futott. Eredmény: Rubin Szalon és Ezüst Orbit.
+- `WORK_RESULT_RETURNED_TO_GITHUB`: **igen, félkézi**. A ChatGPT GitHub-kapcsolata Péter kérésére írta a `main`-re: `ai-coordination/results/WSG-20261024-PILOT-001.md`, `f307765`.
+- `CLAUDE_RESUMED_FROM_GITHUB_RESULT`: **igen**. Az audit: `ai-coordination/audits/WSG-20261024-PILOT-001_CLAUDE_AUDIT.md`.
+- `PILOT_PR_READY_EVENT_FIRED`: továbbra is **nem**. `WORK_EVENT_TRIGGER_CREATED`: **nem igazolt**. A **PR #1-hez nem nyúltunk.**
+- **Következmény:** az elsődleges átadás mostantól a GitHub-postafiók (`HANDOFF_PROTOCOL.md`). Ehhez nem kell PR-trigger, csak Péter egy mondata ChatGPT-ben.

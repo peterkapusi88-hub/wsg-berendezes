@@ -15,7 +15,7 @@ Három új építésű, üres, kulcsrakész lakás (1134 Budapest, Szabolcs u. 1
 | Belmagasság (Kémeri műszaki ellenőr mérése, 2026-10-21) | **2,69–2,72 m** | **2,69–2,73 m** | **2,90–2,93 m** |
 | Parketta (burkolatkiosztási terv) | Egger Grey Soria Oak EL2065 | Egger Grey Soria Oak EL2065 | **Egger Grey Treviso Oak EL2184** |
 | Vevői módosítás | 05.2+05.3 összevonva (+2,70×1,70 gardrób), nagyobb nappali, épített zuhany, pengefal megszűnt | 08/09 összevont fürdő **egyedi sarokkád (beépítve)**, 06.1 → HTH, épített zuhany | épített zuhany 06.2, bidés WC |
-| Adottság | Egger szürke tölgy parketta, fehér fal, fekete nyílászáró, motoros redőny, Grohe/Geberit fürdők, mennyezeti fűtő-hűtő panel (fúrás csak ott, ahol nincs panel), riasztó, videós kaputelefon. **Konyhabútor nincs.** | ua. | ua. + jakuzzi-terasz |
+| Adottság | Egger szürke tölgy parketta, fehér fal, nyílászáró **belül fehér, kívül antracit** (IGAZOLT-F, 2026-10-21; a korábbi „fekete” téves), motoros redőny, Grohe/Geberit fürdők, mennyezeti fűtő-hűtő panel (fúrás csak ott, ahol nincs panel), riasztó, videós kaputelefon. **Konyhabútor nincs.** | ua. | ua. + jakuzzi-terasz |
 | Rendeltetés | eladás/bérbeadás | eladás/bérbeadás | eladás, de Péter saját lakása is lehet |
 
 A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `03_blender/geometry_v2/`, eltérés a Blender v1-hez ±15 cm; hétfőn mérendő): 05.1 master 3,57×5,50 (4,00 tiszta + gardróbfülke), 05.2 3,65×3,35 (gardróbfülkével), 05.3 3,52×3,95, 06.1 fürdő 1,75×2,65 (kád 170×70), 06.2 en-suite 1,92×2,85 (zuhany 182×85), WC 1,30, közlekedő 2,48×1,20, nappali 7,08 hosszú, étkező 2,80 mély, konyhafal 3,90, teraszüveg 4,50 + 1,80, nyugati üvegfal 3,65 + erkélyajtó 1,88. Részletek: `01_alaprajzok/`, 3D: `03_blender/`.
@@ -64,6 +64,13 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - 55 kiválogatott fotó a `fotok/` alatt;
     - a hibalista nincs a repóban.
 
+- **2026-10-24 07:10 – első Astra-pilot (manuális):** Rubin Szalon és Ezüst Orbit (A-902 nappali), KONCEPCIÓ / ELŐSZŰRT.
+  - Claude-audit: `ai-coordination/audits/WSG-20261024-PILOT-001_CLAUDE_AUDIT.md`. A számtan helyes (17,80 / 18,00 M). A CSV-sávokból számolt legrosszabb eset +3,35 M. Árajánlat: 0 Ft.
+  - Javított Cam_02 geometria-alap: **függő** (a próbarenderek elbuktak, lásd `03_blender/validator_report_2026-10-24_semleges_v2.md`).
+  - Tartós átadás: `ai-coordination/HANDOFF_PROTOCOL.md` (GitHub-postafiók).
+  - Kész, **nem indított** brief: `ai-coordination/requests/WSG-20261024-STYLE10-002.md`.
+  - Új kockázat: a teraszüvegezés osztása a fotón eltérhet a modelltől (hétfői mérés).
+
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
 - *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
@@ -73,6 +80,8 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
 - Tapétázó beengedhető-e.
 - Asztalos: Andi zenites asztalosa + 2 másik, két ár (komplett / csak munkadíj) ugyanarra a rajzra.
 - Akvárium a 902 dolgozójában csak saját használatra.
+- *(2026-10-24, nyitott)* A-902 nappali: legyen-e TV? L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal)? (audit 9.1)
+- *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).

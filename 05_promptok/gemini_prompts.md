@@ -1,5 +1,7 @@
 # Gemini / Nano Banana prompts – WSG A-902, két stílus
 
+> **ELAVULT (2026-10-24):** 24 mm, „light grey-oak” padló és „black-framed windows” helyett a kamerazár (20 mm), a Grey Treviso EL2184 és a belül fehér profil az irányadó. Új sablon: `A902_STYLE10_Cam02_prompt_sablon_v1.md`. A lenti szöveg csak a korábbi képek reprodukálásához marad meg.
+
 Képek bemenetként (sorrendben): [1] Blender-nézet (geometria, bútorelrendezés), [2] stílus-referencia (Zenit vagy Lake Forest render ugyanarról a helyiségtípusról), [3] opcionális termékfotó (Kave Home kanapé stb.).
 
 ## Közös instrukció (minden promptba)

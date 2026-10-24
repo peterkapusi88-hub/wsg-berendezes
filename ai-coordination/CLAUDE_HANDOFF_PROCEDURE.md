@@ -8,6 +8,7 @@ Ez a `ROUTER.md` Claude-oldali végrehajtása. Csak igazolt képességek szerepe
 - Képek, renderek, `.blend`: nem a projekt-tudásbázisból, hanem a klónból (`/home/claude/wsg-berendezes`) vagy a Macről (`~/Downloads/wsg-berendezes`, élő Blender: `~/Downloads/WSG_A902_stilusok.blend`).
 
 ## 1. Munkamenet eleje (minden alkalommal)
+0. **Felhős munkamenetben** először `add_repo` (peterkapusi88-hub/wsg-berendezes) és friss klón. A Project tudásbázisa pillanatkép, nem friss forrás (2026-10-24: hiányzott belőle az A902_v1/v1.1 és a Gate). Az átadás menete: `HANDOFF_PROTOCOL.md`.
 1. `git -C /home/claude/wsg-berendezes fetch origin && git status` → ha a klón elmaradt: `git pull --ff-only`. Ha a helyi munka nem tiszta: **nem írok felül**, külön ágra commitolok.
 2. `GOAL.md` → `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` → `CLAUDE.md` → `ai-coordination/ROUTER.md` olvasása.
 3. Nyitott PR-ek és friss commitok: `gh api repos/peterkapusi88-hub/wsg-berendezes/pulls`, `gh api .../commits?per_page=10`.

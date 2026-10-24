@@ -5,7 +5,7 @@
 ## A. Meglévő állapot – kötelező zárolás
 - **Meglévő padló:** Egger szürke tölgy parketta, megtartandó. **Pontos dekor/SKU, szín, szemcse és deszkaméret: a helyszíni fotó és termékazonosítás előtt NEM IGAZOLT.** A „light oak”, „grey oak” AI-interpretáció nem termékazonosítás. A padló csere vagy átszínezés nélkül jelenjen meg a megvalósítást állító renderben. Ha szőnyeg takarja: státusz „nem látható/nem ellenőrizhető”, ne „megfelelt”.
 - **Falak:** meglévő fehér, alapból fehérek maradnak. Krém/greige tónus lehet fényhatás; tényleges festés, vakolat, tapéta, dekorpanel csak kijelölt felületen, külön tétellel, mérettel és bruttó kivitelezési költséggel. Képről a fényhatás és felületcsere bizonytalansága jelezendő.
-- **Fix építészet:** falak, padló, mennyezet, belmagasság, ajtók, ablakok és fekete kereteik, gépészet, hűtő-fűtő mennyezeti panelek és panoráma/terasz valós forrásból. Nincs kitalált új helyiség, ablak, fülke, süllyesztett mennyezet, új kilátás.
+- **Fix építészet:** falak, padló, mennyezet, belmagasság, ajtók (világosszürke), ablakok és kereteik (**belül fehér, kívül antracit** – IGAZOLT-F 2026-10-21), gépészet, hűtő-fűtő mennyezeti panelek és panoráma/terasz valós forrásból. Nincs kitalált új helyiség, ablak, fülke, süllyesztett mennyezet, új kilátás.
 - **Forrásbizonytalanság:** brosúraméret / Blender-becslés / helyszínen lemért / termékkóddal igazolt – egymástól elkülönítve. Fotó hiányában a meglévő felület nem válik automatikusan hitelessé.
 
 ## B. Render előtti anyag- és tételkiosztás (preflight)

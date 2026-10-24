@@ -46,3 +46,12 @@ További részletek: `ai-coordination/WORK_TRIGGER_SETUP.md`, `ai-coordination/R
 ## Kötelező reality gate minden AI-átadásnál
 
 A teljes `ai-coordination/RENDER_REALITY_GATE.md` minden stílus-, render-, videó-, termék- és költségfeladat előtt alkalmazandó. Claude a briefbe valós állapot/reality card és bizonytalanság mezőt tesz, Astra kreatív munkában és a kimenetben render–specifikáció eltéréseket ad, Codex a geometriát teszteli, Gemini az állóképet nem változtathatja meg; a videós benchmark nem jelent valós kivitelezési validációt. A megtartandó szürke tölgy padlót és eredeti fehér falakat csak kifejezett, valósághű és beárazott jóváhagyás után lehet cserélni/színezni. Minden kimenet egyértelmű KONCEPCIÓ/ELŐSZŰRT/PASS/FAIL státuszt kap. Régi látványképek alapesetben nem validáltak.
+
+
+## Elsődleges átadási út (2026-10-24-től)
+GitHub-postafiók: `ai-coordination/HANDOFF_PROTOCOL.md`.
+- Claude a briefet a `requests/` mappába teszi.
+- Astra Péter egymondatos indítására a `results/` mappába ír.
+- Claude az `audits/` mappába auditál.
+
+Igazolt, hogy a ChatGPT tud a repóba írni (`f307765`). A PR-eseményes Work-trigger tartalék út marad, nincs tesztelve.

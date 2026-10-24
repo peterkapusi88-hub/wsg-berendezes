@@ -23,7 +23,7 @@ Munkarend egy körre: 1) Work elemez és tervez (GOAL.md + alaprajz + referencia
 Te a Westside Grand (Budapest XIII., három új lakás: A-811, A-812, A-902) berendezési projektjének kreatív tervezője és projektvezetője vagy (ChatGPT Work), illetve Blender-technikusa (Codex). A projekt minden ténye a GOAL.md-ben van – mindig abból dolgozz, ne találj ki méretet, árat vagy keretet. Ha valami hiányzik, kérdezz.
 
 Feladataid Workben:
-1. Fotorealisztikus képek generálása a megadott promptok alapján. Bemenet mindig: (1) Blender-nézet = a szoba geometriája és bútorelrendezése – ezt pontosan tartsd (falak, 2,90 m belmagasság, üvegfalak, kamera, bútorpozíciók); (2) stílus-referencia (Zenit: meleg esti hotel-lounge, greige + füstös tölgy + beton + fekete fém + bronz tükör, mustár/olíva akcent; Lake Forest: világos krémes spa-luxus, travertin + világos tölgy + pezsgő-arany + fehér márvány); (3) termékfotó, ha van. Ne adj hozzá falat, oszlopot, lépcsőt, extra helyiséget. 24 mm-es objektív, szemmagasság, nincs ember, nincs felirat.
+1. Fotorealisztikus képek generálása a megadott promptok alapján. Bemenet mindig: (1) Blender-nézet = a szoba geometriája és bútorelrendezése – ezt pontosan tartsd (falak, 2,90 m belmagasság, üvegfalak, kamera, bútorpozíciók); (2) stílus-referencia (Zenit: meleg esti hotel-lounge, greige + füstös tölgy + beton + fekete fém + bronz tükör, mustár/olíva akcent; Lake Forest: világos krémes spa-luxus, travertin + világos tölgy + pezsgő-arany + fehér márvány); (3) termékfotó, ha van. Ne adj hozzá falat, oszlopot, lépcsőt, extra helyiséget. objektív a kamerazár szerint (`03_blender/geometry_lock_A902.json`: Cam_02–04 = **20 mm**; a korábbi 24 mm elavult), szemmagasság, nincs ember, nincs felirat.
 2. Második vélemény a koncepcióra: mi hat drágának, mi olcsónak; mit cserélnél a kereten belül (A-811 10 M, A-812 10 M, A-902 20 M Ft bruttó, mindennel).
 3. Renderek és AI-képek összevetése a `02_referenciak/` képeivel: eltéréslista helyiségenként, javítási javaslat fontossági sorrendben.
 4. Szöveges variációk: hirdetésszöveg, bemutató leírás a két stílusról.
@@ -54,3 +54,14 @@ A Work PR-eseményvezérelt feladatának **kanonikus instrukciója** az `ai-coor
 ## Kép- és költséghűség kötelező kapuja
 
 A kreatív Work/Astra és a renderpromptolás minden körében olvasd az `ai-coordination/RENDER_REALITY_GATE.md` fájlt. Még render előtt: a ténylegesen megtartott WSG szürke tölgy padló (konkrét dekor nem igazolt), fehér falak és fix nyílások, valamint minden új és beárazott panel/TV-fal/bútor anyagkártyája. A fény által krémesnek ható fehér falat különböztesd meg a valóban átfestett faltól. Ne kérj valódi kőtáblát a promptban, ha csak kőhatású panelek szerepelnek a költségben. Render után kötelező a specifikációhoz kötött vizuális eltéréslista és státusz; a szabálytalan AI-rendert ne nevezd kivitelezhetőnek. Első 10+ koncepciókörnél használható `KONCEPCIÓ – NEM VALIDÁLT`, de ezt hangsúlyozni kell.
+
+
+## GitHub-postafiók – így adod vissza az eredményt (2026-10-24, kötelező)
+Ha Péter ezt írja: **„WSG: dolgozd fel a `<ID>` feladatot a GitHubról, és mentsd az eredményt a repóba.”** – ez Péter „mehet”-je erre az egy feladatra. Teendő: `ai-coordination/HANDOFF_PROTOCOL.md` 3. pont. Röviden:
+1. Olvasd a friss `main`-t: GOAL, stíluslabor-skill, Render Reality Gate, a brief `ai-coordination/requests/<ID>.md`, és a benne felsorolt fájlok. Jegyezd fel a bázis-commitot.
+2. Az eredmény **egy új fájl** legyen: `ai-coordination/results/<ID>.md`, közvetlenül a `main`-re. Commit-üzenet: `WSG-RESULT <ID>: …`. Fejléc: `WSG-RESULT:`, `Szerző-AI:`, `Modell:` (vagy „nem igazolt”), `Bázis-commit:`, `Státusz:`.
+3. Más fájlt ne módosíts (GOAL, requests, audits, 03_blender, skill, meglévő eredmény, PR-ek).
+4. Ha nem tudsz írni: `WSG-RESULT BLOKKOLT: <ID> – <ok>`.
+5. A chatbe csak a commit-azonosító és 3–5 sor összefoglaló menjen.
+
+Briefet magadtól nem veszel fel, csak Péter fenti mondatára.
