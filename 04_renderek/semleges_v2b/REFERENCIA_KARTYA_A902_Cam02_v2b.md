@@ -22,14 +22,14 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
 | `A902_semlegesv2b_3_master.png` | Cam_04 – kiegészítő, ellenőrző rárajzolás nélkül (lásd lent; a mellvéd-modellhiba miatt egy teraszelem rejtve) |
 | `kamera_parameterek.json` | a renderelt kamerák mátrixa, objektív, szenzor, felbontás |
 | `validator_v2b_referencia.json` | a Validator teljes kimenete |
-| `beallitasok.json` | mi változott a másolaton (rejtés, anyag, fény, render) |
+| `beallitasok.json` | kameránként: mi változott a másolaton (rejtés, anyag, fény, csak a renderhez tett igazítások, render) |
 
 **Kamera (Cam_02, lock v2b):**
 - hely [8,30; 4,40; 1,55] m; forgatás [1,479; 0; 0,858] rad (XYZ);
 - 20 mm, 36 mm szenzor (AUTO); vízszintes látószög 84°, függőleges 59°; 1600×1000.
 
 **Render:**
-- Cycles CPU, adaptív legfeljebb 512 minta, OIDN-zajszűrés;
+- Cycles CPU, legfeljebb 400 minta (adaptív, küszöb 0,018), OIDN-zajszűrés; mindhárom képnél azonos, képenként 22–27 perc;
 - AgX (look: None), expozíció +3,3 EV;
 - egyenletes, irány nélküli borult ég (nap nincs), a horizont alatt semleges szürke talaj.
 
@@ -74,6 +74,9 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
   - A Validator ezt nem fogja meg (a teraszelemeket csak változatlanságra nézi): érdemes egy „terasz ↔ belső tér átfedés” ellenőrzést felvenni.
 - **MODELLHIBA (javítandó) 2:** a fülke hátfala (`Kulso_E_05_1_0`) x 2,95-ig tart, a v2b-ben áthelyezett pillér x 3,02-től. Így **7 cm-es rés** maradt a homlokzaton, amely a Cam_04-en fényrésként látszana. A referencián csak a renderhez lezárva. A homlokzat másik rése az előtér déli falán van (x 6,60–6,70). Részletek és javaslat: a Validator-riport.
 - A falon maradt `Z_tapeta_greige` a fülke hátfalán (`Kulso_E_05_1_0`) is fehérre javítva.
+- **Halvány függőleges vonal a pillér déli lapján (x 3,32):** a lockban a pillér síkja (y 8,04) 1 cm-rel kiáll a mellette folytatódó külső fal síkjából (`Kulso_E_terasz_0`, y 8,05).
+  - Tűrésen belüli eltérés, valószínűleg modell-kerekítés, nem valós fuga. A stílusképeken nem kell visszaadni.
+  - Ha a helyszínen nincs lépcső, a lock-javításban igazítható (`Pillér_05_1_EK` y0: 8,04 → 8,05).
 
 
 ## Mi kell a PASS-hoz (helyszíni mérés és fotó)

@@ -53,6 +53,7 @@
 - A Cam_04 referencián az első rés fényrést adna. Ezért **csak a renderhez** egy fehér hézagzáró hasáb zárja (`Ref_v2b_hezagzaras`).
 - A második rés a három referencianézetből nem látszik.
 - A teraszüvegek tokja és a falkáva között modell-egyszerűsítésként kb. 3 cm-es rés van (tűrésen belül); ez a képen nem látszik.
+- Apróság (tűrésen belül): a `Pillér_05_1_EK` déli síkja (y 8,04) 1 cm-rel kiáll a `Kulso_E_terasz_0` síkjából (y 8,05). A Cam_04-en halvány függőleges vonalként látszik (x 3,32). Ha a helyszínen nincs lépcső, a lock-javításban igazítható: `Pillér_05_1_EK` y0 8,04 → 8,05.
 
 **Korlát:**
 - A PASS a **terv szerinti** lockhoz való egyezés, nem helyszíni igazolás.
