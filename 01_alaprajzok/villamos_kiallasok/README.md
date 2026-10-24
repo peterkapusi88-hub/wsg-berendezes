@@ -34,7 +34,7 @@ Egység: méter. x a rajzon jobbra, y a rajzon felfelé. Pontosság a rajzhoz k�
 **Helyiség-hozzárendelés:** az A-902-n a Blender-geometria helyiségein alapul. Az A-811-en és az A-812-n kézzel rögzített, közelítő téglalapokon (a koordináta a mérvadó).
 
 ## Jelkulcs – mennyire biztos
-A lapokon ez áll: „Jelmagyarázatot lásd mellékletben!”. Maga a jelmagyarázat **nincs** a feldolgozott PDF-ben.
+A lapokon ez áll: „Jelmagyarázatot lásd mellékletben!”. Maga a jelmagyarázat **nincs** a feldolgozott PDF-ben, és a vevői **műszaki mellékletben** (`WGR1_műszaki melléklet.pdf`, 2024.02.13., Péter engedélyével átnézve, nincs a repóban) sincs. A melléklet szövege viszont több jel jelentését igazolja – ezek az alábbi táblában „műszaki melléklet (2024.02.13.)” forrással szerepelnek.
 
 | Jel | Jelentés | Biztonság |
 |---|---|---|
@@ -43,16 +43,16 @@ A lapokon ez áll: „Jelmagyarázatot lásd mellékletben!”. Maga a jelmagyar
 | kis kör szárral, betűvel | kapcsoló; a betű a kapcsolt áramkör | IGAZOLT |
 | félkör a falnál | dugalj; kódok: P pult, H hűtő, MG mosogatógép, Mi mikró, S sütő, EL elszívó, M mosógép, SZ szárítógép, TSZ törölközőszárító, B fürdőszobai (tükör melletti) | IGAZOLT a felsoroltakra, a „B” jelentése NEM IGAZOLT |
 | S/F kör | főzőlap/sütő fix bekötése | VALÓSZÍNŰ |
-| M körben | elszívó ventilátor; a betű a kapcsoló áramkör | VALÓSZÍNŰ |
-| ⊓ 1 / 2 / 3, illetve BK a TV-blokkban | gyengeáramú aljzat (TV-blokk, szobák) | a kódok jelentése NEM IGAZOLT (valószínűleg TV/adat/telefon) |
-| önálló BK doboz (kisebb felirattal) | riasztó (biztonsági) központ | VALÓSZÍNŰ: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van |
+| M körben | falon kívüli elszívó ventilátor; páraérzékelős vagy a világításról kapcsolt; a betű a kapcsoló áramkör | IGAZOLT (műszaki melléklet (2024.02.13.): „falon kívüli légelszívó berendezések … a fürdő és WC helyiségekbe”) |
+| ⊓ 1 / 2 / 3, illetve BK a TV-blokkban | informatikai aljzat (RJ45, CAT5E – tv/telefon/internet); minden lakóhelyiségben egy blokk | a jel jelentése VALÓSZÍNŰ (műszaki melléklet (2024.02.13.): „minden lakóhelyiségbe kerül egy-egy informatikai blokk … CAT5E”); az 1/2/3 és a TV-blokkon belüli BK kód jelentése NEM IGAZOLT |
+| önálló BK doboz (kisebb felirattal) | a riasztó központi egységének előkészített helye | VALÓSZÍNŰ: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; műszaki melléklet (2024.02.13.): „központi és kezelő egység elhelyezés részére előkészítés” |
 | négyzet + kör | TV/antenna aljzat | VALÓSZÍNŰ |
-| R körben, minden ablaknál | motoros redőny kiállása | VALÓSZÍNŰ (a `GOAL.md` szerint a lakásokban motoros redőny van) |
-| kupola hullámokkal | mozgásérzékelő (riasztó) | VALÓSZÍNŰ: az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott ez a jel áll |
-| billentyűzet, kaputelefon, ajtótok-eszköz, EL4, kék T | riasztó-kezelő, videós kaputelefon, elektromos zár vagy nyitásérzékelő, lakáselosztó, hűtő-fűtő termosztát | VALÓSZÍNŰ |
+| R körben, minden ablaknál | motoros redőny (külső árnyékoló) kiállása a redőnyszekrénynél, nyílászárónként 1 | IGAZOLT (műszaki melléklet (2024.02.13.): „a redőnyszekrényeknél elektromos kiállás … nyílászárónként egy kiállással”; motor, palást, távirányító nem része az alapnak) |
+| kupola hullámokkal | mozgásérzékelő (riasztó-elővezetékezés) | IGAZOLT: műszaki melléklet (2024.02.13.): „az erkéllyel, terasszal rendelkező lakóhelyiségek esetében mozgásérzékelős riasztó … elővezetékezés” – a jelek pontosan ezekben a helyiségekben vannak (az A-812 erkély nélküli szobáiban nincs); az A-811 módosítási szövege is így nevezi |
+| billentyűzet, kaputelefon, ajtótok-eszköz, EL4, kék T | riasztó-kezelő helye, videós kaputelefon beltéri egység, riasztó-nyitásérzékelő a bejárati ajtón, lakáselosztó, hűtő-fűtő termosztát | kaputelefon és termosztát IGAZOLT (műszaki melléklet (2024.02.13.)); kezelő és nyitásérzékelő VALÓSZÍNŰ (a melléklet szerint a riasztó csak elővezetékezés, a kezelő helye előkészítve); EL4 VALÓSZÍNŰ |
 | kék szaggatott átló | mennyezeti hűtő-fűtő mező; a téglalap az átló végpontjaiból, ±10 cm | VALÓSZÍNŰ (a felirat: „mennyezeti hűtés-fűtés”) |
 
-A nem igazolt jelentések a `WGR1_műszaki melléklet.pdf`-ből vagy a fejlesztőtől tisztázhatók. Ehhez Péter engedélye kell.
+A még nem igazolt kódok (1/2/3, a TV-blokkon belüli BK, a „B” dugalj, a négyzet + kör) a fejlesztőtől vagy a helyszínen tisztázhatók.
 
 ## Mire készült egy-egy kiállás
 A rajzlapok „Elektromos módosítás (erős és gyengeáram)” blokkja megmondja, melyik kiállás miért készült. Lakásonként tömörítve az `OSSZESITO.md`-ben és a JSON `meta.modositasok_villamos` mezőjében. Tervezéshez a legfontosabbak:
@@ -63,6 +63,17 @@ A rajzlapok „Elektromos módosítás (erős és gyengeáram)” blokkja megmon
 - **Lakáson kívül** mindhárom lakásnál: a szinti tárolóban (AT8-01/-02/-03) 2-2 dugalj, az egyik beállóban (P-0-65 / P-0-32 / P-0-33) autótöltő.
 - **Álmennyezet** Péter átvételi összesítője szerint csak az előtérben, a WC-ben és a fürdőben van (min. 2,40 m). A rajz zöld „gk. álm.” feliratait az `OSSZESITO.md` lakásonként felsorolja; a pontos kiterjedés helyszínen ellenőrizendő.
 
+## A vevői műszaki mellékletből (2024.02.13.) – tervezéshez
+Péter engedélyével átnézve (2026-10-24); a dokumentum szerződésmelléklet, ezért **nincs a repóban**, csak az alábbi műszaki tények.
+- **A mennyezeti hűtő-fűtő panelek a vasbeton födémbe integráltak** (nappali, étkező, hálószobák). A HF-mezőkbe fúrni ezért tilos; függeszték csak a meglévő ⊗ kiállásra.
+- A melléklet szerint **kiegészítő fal- vagy padlóba épített hűtés-fűtés is készülhetett**, ahol a hőtechnika megkívánta. A rajzon csak mennyezeti mezőt találtunk; falra fúrás előtt (TV-konzol, polc) vezetékkereső, kétség esetén hőkamera fűtési üzemben.
+- **A villamos vezetékek födémben, falban és padlóban, védőcsőben** futnak. Csavarozás, fúrás előtt vezetékkereső.
+- **Minden lakóhelyiségben van informatikai blokk** (CAT5E, RJ45; tv/telefon/internet). Mesh Wi-Fi-pont, okos-otthon központ ezekre köthető.
+- **Riasztó:** az alap csak elővezetékezés (bejárati ajtón nyitásérzékelő, erkélyes/teraszos szobákban mozgásérzékelő, központ és kezelő helye). Ha nincs beépítve, a dobozok vakon is szabadon maradjanak.
+- **Redőny:** a műanyag nyílászárók redőnyszekrénnyel készültek, nyílászárónként 1 kiállással; a melléklet szerint a nyári hűtés csak külső árnyékolóval hatékony.
+- **Elszívók:** falon kívüliek, a fürdőben és a WC-ben; páraérzékelős vagy a világításról kapcsolt.
+- **Szerelvények:** Schneider vagy azzal egyenértékű. Belmagasság: 8. em. 2,70 m, 9. em. 2,90 m (±3 cm), álmennyezet alatt min. 2,40 m.
+
 ## Kötelező tervezési szabályok (minden AI-nak)
 1. **Világítás és minden áramot igénylő elem csak meglévő kiállásra kerülhet.** Ezek a mennyezeti ⊗, a fali lámpakiállás és a dugalj. Új kiállás, vésés, falon kívüli új kábelezés **nincs**.
 2. **Függeszték, csillár, mennyezeti lámpa csak a ⊗ kiállás helyére kerülhet.** Ha máshová kell fény: dugaljról táplált állólámpa vagy bútorba épített LED, illetve akkus lámpa.
@@ -71,11 +82,18 @@ A rajzlapok „Elektromos módosítás (erős és gyengeáram)” blokkja megmon
 4. **Bútor, panel vagy tapéta nem takarhatja** a kapcsolót, a termosztátot, a lakáselosztót (EL4), a BK-dobozt, a kaputelefont, a riasztó-kezelőt és a mozgásérzékelőt (a szobaajtók sarkában is van; magas szekrény ne kerüljön elé).
    - A dugalj hozzáférhető marad.
    - Falpanelen és lamellán kivágás kell a doboz helyén (`doboz_x/y` + magasság).
-5. **A TV-blokk helye kötött:**
-   - A-902: a nappali nyugati válaszfalán, a 05.1 felé, kb. y 6,0–6,5 m;
-   - A-811: a nappali és a 05.2-3 közötti falon;
-   - A-812: a nappali alsó falán.
-   - Máshová tett TV-hez nincs antenna/adat aljzat és dugalj.
+5. **A TV helye szabad** (Péter döntése, 2026-10-24): a tartalom interneten jön, a TV-hez csak dugalj kell; a gyári TV-blokk (RJ45 + antenna) nem köti a helyét.
+   - A TV-fal mellett vagy mögött legyen dugalj, a kábel bútorban vagy panel mögött fusson, vésés nélkül. TV + hangprojektor + médialejátszó: rejtett elosztó.
+   - A TV-fal nem takarhat kapcsolót, termosztátot, mozgásérzékelőt (4. szabály).
+   - Wi-Fi: a vasbeton födém és a falazóblokk falak csillapítanak. Ha a TV messze van a routertől, mesh-pont javasolt, amely a legközelebbi szobai RJ45 aljzatra köthető (minden lakóhelyiségben van egy).
+   - Falra szerelt TV: a konzol fúrása nem áram miatti fúrás, de a falban védőcsöves vezeték lehet – fúrás előtt vezetékkereső; a dobozok függőleges és vízszintes vonalában ne fúrj.
+   - Dugalj a nappaliban (TV-hely jelöltek, a fali doboz helye):
+
+     | Lakás | Gyári TV-blokk | További dugalj a nappaliban |
+     |---|---|---|
+     | A-902 | nyugati válaszfal, y 6,25–6,33 (D16, D17; RJ45 G01–G04, antenna G08) | déli fal x 7,15 a fő kapcsolóoszlopnál (D19 – a TV ne takarja a kapcsolókat); nyugati fal y 4,75 (D18); északi (terasz felőli) fal x 4,24 (D15) |
+     | A-811 | a 05.2-3 felé eső fal, x 1,87–1,95 (D15, D16; RJ45 G01–G04, antenna G07) | erkélyfal y 10,59 (D14); felső fal (y 11,53) x 0,6 és 3,2 (D10, D11); kapcsolóoszlop x 4,97 (D17) |
+     | A-812 | alsó fal, x 1,60–1,68 (D17, D18; RJ45 G01–G04, antenna G08) | alsó fal x 4,6 (D19); erkélyfal y 0,77 és 4,73 (D16, D14); felső falszakaszok: x 2,22 (D13), x 3,87 (D15) |
 6. Minden renderen és tételes listán a lámpa, a TV és az áramot igénylő bútor **kiállás-azonosítóval** szerepeljen (pl. „függeszték → A902-ML04 »b«”).
 
 ## Frissítés
@@ -87,7 +105,8 @@ A rajzlapok „Elektromos módosítás (erős és gyengeáram)” blokkja megmon
   - A tervi értéket megjegyzésben megtartjuk.
 - **Azonosítók:** a már kiadott azonosító nem számozódik át. Újrakinyeréskor a szkript a korábbi JSON alapján megtartja (azonos típus, ≤3 cm); új tétel a következő szabad sorszámot kapja, megszűnt tétel száma nem kerül újra kiosztásra.
 - **Tudott hiányok:**
-  - a jelmagyarázat;
+  - a jelmagyarázat (a műszaki mellékletben sincs; a maradék kódok: 1/2/3, TV-blokkon belüli BK, „B”, négyzet + kör);
+  - hogy a riasztó (érzékelők, központ, kezelő) és a motoros redőny ténylegesen beépült-e – a melléklet szerint az alap csak előkészítés, mindkettő külön rendelhető volt;
   - az alapértelmezett szerelési magasságok (dugalj, kapcsoló, mozgásérzékelő), ahol a rajzon nincs „m=”;
   - melyik dugalj a szekrényvilágításé (A-902 05.1, 05.3).
 

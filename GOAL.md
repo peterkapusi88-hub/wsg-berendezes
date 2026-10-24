@@ -83,18 +83,20 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Diagnózis: elsősorban a prompt és a koncepció, a Gemini renderje tovább ront. Képen az Ezüst Orbit működik jobban; a kamerához a ChatGPT Rubin áll a legközelebb.
   - Képek: `04_renderek/ai_gemini/`, `04_renderek/ai_chatgpt/`. Jelentés: `ai-coordination/results/WSG-20261024-GEMINI-RENDER-TEST-002.md`.
 - **2026-10-24 09:10 – villamos kiállások rögzítve mindhárom lakásra** (Péter kérésére, a méretezett PDF vektoraiból): `01_alaprajzok/villamos_kiallasok/` – JSON/CSV, összesítő, ellenőrző átfedéskép, hűtő-fűtő mezők, kinyerő szkript. Korábban csak képként volt a repóban, koordináta nélkül. Független ellenőrzés után javítva (4 hiányzó mozgásérzékelő, 1 ventilátor, 3 rossz helyiség, 6 téves doboz). A rajzlapok módosítási szövegéből: kupola = mozgásérzékelő, önálló BK = riasztóközpont (valószínű); A-902-ben szekrényvilágítás-dugalj 05.1: 1, 05.3: 2. Nyitott: R, 1/2/3 jelentése, alapértelmezett szerelési magasságok, helyszíni ellenőrzés.
+- **2026-10-24 13:10 – PR #4 (kiállások) és PR #5 (A-902 geometria v2b) a main-ben** (Péter jóváhagyásával). A vevői műszaki melléklet (2024.02.13.) átnézve: az R jel motoros redőny kiállása, a kupola-jel mozgásérzékelő (igazolva); a mennyezeti hűtő-fűtő panelek a födémbe integráltak; minden lakóhelyiségben van RJ45 informatikai blokk; a riasztó és a redőny az alapban csak előkészítés.
 
 ## 7. Nyitott döntések
 - *(2026-10-24, rögzítve)* Az A-902 nagy terasza **meglévő, többszintű tetőkert**: greslap, emelt WPC lépcsőkkel, zöldtető két sík füves szélével és középső dombos évelőágyással, térdmagas betonszegély, pálcás korlát. Nem kitalálandó és nem építendő; a Blender és az Astra-render ezt mutassa. A kilátás a helyszíni videókból rekonstruálandó. Zöldtetőre bútor vagy jakuzzi csak igazolt terhelhetőséggel kerülhet (Péter).
 - *(2026-10-24)* A-812: az egyedi sarokkád be van építve (Péter), nem költségtétel.
 - *(2026-10-24, Péter)* **Nem fúrunk és nem vésünk új áramért:** mennyezeti lámpa, LED és minden áramot igénylő elem a terv szerinti kiállásokra kerül. A kiállásokat lakásonként a `01_alaprajzok/villamos_kiallasok/` rögzíti.
 - *(2026-10-24, Péter)* Kültéren a társasházi „közös rész” szabályokkal nem korlátozzuk a tervet: fal, WPC és korlát rögzítésre használható. Egyetlen kikötés: a vízszigetelés nem sérülhet.
+- *(2026-10-24, Péter)* **A TV helye szabad:** a tartalom interneten jön, a TV-hez csak dugalj kell; a gyári TV-blokk nem köti a helyét. Feltétel: dugalj a TV-falnál, a kábel rejtve, vésés nélkül, a kapcsoló, a termosztát és az érzékelő szabadon marad (`01_alaprajzok/villamos_kiallasok/README.md`, 5. szabály).
 - Melyik lakás melyik verzió (javaslat: A-811 Zenit, A-812 Lake Forest, A-902 amelyik saját lakásként is tetszik).
 - Jakuzzi: Heissner vagy Correll.
 - Tapétázó beengedhető-e.
 - Asztalos: Andi zenites asztalosa + 2 másik, két ár (komplett / csak munkadíj) ugyanarra a rajzra.
 - Akvárium a 902 dolgozójában csak saját használatra.
-- *(2026-10-24, nyitott)* A-902 nappali: legyen-e TV? L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal)? (audit 9.1)
+- *(2026-10-24, részben eldöntve)* A-902 nappali: a TV helye szabad (Péter). L1 (kanapé a nyugati falon) vagy L2 (déli TV-fal) – a stílustervezés dönti el; az L2 TV-fala a déli fal kapcsolóoszlopát (x 7,15) szabadon hagyja, dugalja a D19. (audit 9.1)
 - *(2026-10-24, nyitott)* Indulhat-e a 10 stílusos Astra-kör A fázisa (STYLE10-002)? Bekapcsoljuk-e a Claude-oldali ütemezett eredmény-ellenőrzést?
 - *(2026-10-24, nyitott)* Állóképhez a ChatGPT legyen-e az alap, és a Gemini maradjon a videónál? A TEST-002 alapján javasolt. A következő stílusteszt előtt kell-e javított Blender-alapkép és Astra-prompt v2 (pozitív luxusblokk, ajtó nélküli hátsó fal, greige padló)?
 

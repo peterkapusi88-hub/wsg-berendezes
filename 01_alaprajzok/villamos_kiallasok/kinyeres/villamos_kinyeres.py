@@ -35,9 +35,9 @@ FLATS = {
           ('06.2 FÜRDŐ', R(14.475, 5.20, 16.40, 8.05)),
           ('13 ERKÉLY', R(-2.01, -0.20, -0.30, 5.69)), ('13 ERKÉLY', R(-1.12, 5.69, -0.30, 7.90)),
           ('09 TERASZ', R(3.02, 8.35, 10.34, 19.8)), ('10 TERASZ', R(10.34, 8.35, 16.72, 19.8))],
-   specials=[('kaputelefon_belteri', 6.93, 1.00, '', 'videós kaputelefon beltéri egység (a fali × a bekötési pont)'),
-             ('kezelo_billentyuzet', 7.15, 1.39, '', 'billentyűzetes kezelő a bejárati „a” kapcsoló fölött – valószínűleg riasztó-kezelő (jelmagyarázat nélkül NEM IGAZOLT)'),
-             ('bejarati_ajto_eszkoz', 7.41, 0.70, '', 'a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)'),
+   specials=[('kaputelefon_belteri', 6.93, 1.00, '', 'videós kaputelefon beltéri egység, a standard része (a műszaki melléklet (2024.02.13.)); a fali × a bekötési pont'),
+             ('kezelo_billentyuzet', 7.15, 1.39, '', 'billentyűzetes kezelő a bejárati „a” kapcsoló fölött – a riasztó kezelőegységének előkészített helye (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.) szerint a riasztó csak elővezetékezés, a kezelő helye előkészítve)'),
+             ('bejarati_ajto_eszkoz', 7.41, 0.70, '', 'a bejárati ajtótokon – riasztó-nyitásérzékelő elővezetékezése (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.): „a lakásbejárati ajtónál nyitásérzékelős … elővezetékezés”)'),
              ('EPH_csatlakozo', 4.12, 0.59, '', 'kád melletti kör (×|||) – valószínűleg EPH egyenpotenciál-csatlakozás (NEM IGAZOLT)'),
              ('jakuzzi_aramkiallas', 3.77, 9.29, '', 'kültéri jakuzzi-áramkiállás; fali bekötési pont x≈3,50 (a rajzi × helye)')]),
  'A811': dict(page=5, scale=50, X0=434.02, Y0=748.0, dosszie=150,
@@ -50,10 +50,10 @@ FLATS = {
           ('01 ELŐTÉR', R(6.17, 6.85, 8.24, 8.45)), ('07 KÖZLEKEDŐ', R(5.12, 1.49, 6.17, 7.85)),
           ('08 WC', R(7.31, 4.85, 8.24, 6.75)), ('06.2 FÜRDŐ', R(6.26, 2.43, 8.24, 4.76)), ('06.1 FÜRDŐ', R(6.26, 0, 8.24, 2.33)),
           ('09 HTH', R(4.52, 0, 6.17, 1.49)), ('10 ERKÉLY', R(-2.45, 0.40, -0.25, 11.30))],
-   specials=[('kaputelefon_belteri', 5.95, 6.38, '', 'videós kaputelefon beltéri egység; fali bekötési pont (rajzi ×) x≈6,17, y≈6,40'),
+   specials=[('kaputelefon_belteri', 5.95, 6.38, '', 'videós kaputelefon beltéri egység, a standard része (a műszaki melléklet (2024.02.13.)); fali bekötési pont (rajzi ×) x≈6,17, y≈6,40'),
              ('csengo_kulso', 8.61, 6.60, '', 'a bejárati ajtó külső oldalán (lépcsőház) – nem a lakásban'),
-             ('kezelo_billentyuzet', 7.31, 7.50, '', 'billentyűzetes kezelő az „a” kapcsoló fölött – valószínűleg riasztó-kezelő (NEM IGAZOLT)'),
-             ('bejarati_ajto_eszkoz', 8.40, 6.86, '', 'a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)'),
+             ('kezelo_billentyuzet', 7.31, 7.50, '', 'billentyűzetes kezelő az „a” kapcsoló fölött – a riasztó kezelőegységének előkészített helye (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.) szerint a riasztó csak elővezetékezés, a kezelő helye előkészítve)'),
+             ('bejarati_ajto_eszkoz', 8.40, 6.86, '', 'a bejárati ajtótokon – riasztó-nyitásérzékelő elővezetékezése (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.): „a lakásbejárati ajtónál nyitásérzékelős … elővezetékezés”)'),
              ('EPH_csatlakozo', 7.47, 0.37, '', 'kád melletti kör (×|||) – valószínűleg EPH (NEM IGAZOLT)')]),
  'A812': dict(page=12, scale=100, X0=539.36, Y0=600.95, dosszie=179,
    verzio='M1 KORR (2026.04.28.) – átnézeti lap 1:100, a teljes lakás (az 1:50-es 11. oldal csak részlet)',
@@ -67,10 +67,10 @@ FLATS = {
           ('10.3 GARDRÓB', R(6.30, 12.74, 8.72, 14.36)), ('06.2 FÜRDŐ', R(6.40, 14.45, 8.72, 16.95)),
           ('06.1 FÜRDŐ (HTH)', R(7.31, 9.80, 8.72, 12.62)), ('08/09 FÜRDŐ', R(7.31, 6.41, 8.72, 9.71)),
           ('11 ERKÉLY', R(-2.45, -0.35, -0.25, 6.40))],
-   specials=[('kaputelefon_belteri', 7.35, 3.14, '', 'videós kaputelefon beltéri egység (a billentyűzetes kezelőtől balra)'),
+   specials=[('kaputelefon_belteri', 7.35, 3.14, '', 'videós kaputelefon beltéri egység, a standard része (a műszaki melléklet (2024.02.13.)); a billentyűzetes kezelőtől balra'),
              ('csengo_kulso', 8.61, 2.80, '', 'a bejárati ajtó külső oldalán (lépcsőház) – nem a lakásban'),
-             ('kezelo_billentyuzet', 7.54, 3.45, '', 'billentyűzetes kezelő – valószínűleg riasztó-kezelő (NEM IGAZOLT)'),
-             ('bejarati_ajto_eszkoz', 8.40, 3.06, '', 'a bejárati ajtótokon – elektromos zár vagy nyitásérzékelő (NEM IGAZOLT)')]),
+             ('kezelo_billentyuzet', 7.54, 3.45, '', 'billentyűzetes kezelő – a riasztó kezelőegységének előkészített helye (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.) szerint a riasztó csak elővezetékezés, a kezelő helye előkészítve)'),
+             ('bejarati_ajto_eszkoz', 8.40, 3.06, '', 'a bejárati ajtótokon – riasztó-nyitásérzékelő elővezetékezése (VALÓSZÍNŰ; a műszaki melléklet (2024.02.13.): „a lakásbejárati ajtónál nyitásérzékelős … elővezetékezés”)')]),
 }
 # A rajzlapok „Elektromos módosítás (erős és gyengeáram)” és „Pincei tárolóval, gk.beállóval kapcsolatos módosítás”
 # blokkja, tömörítve (a szöveg a rajzlapról; a hely a fenti kinyerésből). Tervezéshez fontos, mert megmondja, mire
@@ -553,12 +553,12 @@ def main():
             if s.get('utolag_doboz') is not None: mj.append(f"a fali doboz a jeltől {s['utolag_doboz']} cm-re van (a legközelebbi doboz nélküli jelhez rendelve)")
             if s['t'] == 'LAMPA' and s.get('x', 2) < 2: mj.append('kör X nélkül – ellenőrizendő')
             if s.get('kod') in KOD_JELENTES and s['t'] in ('DUGALJ', 'FALI_LAMPA', 'LAMPA_FAL'): mj.append('kód: ' + KOD_JELENTES[s['kod']])
-            if s['t'] == 'R': mj.append('ablakonként; jelentése a jelmagyarázatban – valószínűleg redőny/árnyékoló-kiállás, NEM IGAZOLT')
-            if s['t'] == 'KUPOLA': mj.append('kupola + hullám jel – VALÓSZÍNŰLEG MOZGÁSÉRZÉKELŐ (riasztó): az A-811 módosítási szövege a „g”, „c,d” kapcsolókkal és a termosztáttal együtt mozgásérzékelőt tesz a nappali válaszfal sarkára, és ott pontosan ez a jel áll')
-            if s['t'] == 'BK': mj.append('önálló BK doboz – VALÓSZÍNŰLEG A RIASZTÓ (BIZTONSÁGI) KÖZPONT: az A-811 módosítási szövege szerint a 05.2-3 összevonásakor „a biztonsági központ áthelyezésre kerül”, és az A-811 egyetlen önálló BK doboza a 05.2-3 gardróbjában van; nem takarható, hozzáférhető marad')
-            if s['t'] == 'GYENGE': mj.append(('TV-blokk ' if s.get('tv') else '') + 'gyengeáramú aljzat (⊓ jel), kód: ' + s.get('kod', '') + ' – a kódok (1/2/3/BK) jelentése a jelmagyarázatban, NEM IGAZOLT (valószínűleg TV/adat/telefon)')
+            if s['t'] == 'R': mj.append('motoros redőny (külső árnyékoló) kiállása a redőnyszekrénynél, nyílászárónként 1 – IGAZOLT: a műszaki melléklet (2024.02.13.); a motor, a palást és a távirányító nem része az alapnak')
+            if s['t'] == 'KUPOLA': mj.append('mozgásérzékelő – riasztó-elővezetékezés; IGAZOLT: a műszaki melléklet (2024.02.13.) szerint az erkélyes/teraszos lakóhelyiségekben mozgásérzékelős elővezetékezés készül (a jelek pontosan ezekben vannak), és az A-811 módosítási szövege is így nevezi; a riasztórendszer maga nem része az alapnak')
+            if s['t'] == 'BK': mj.append('önálló BK doboz – a riasztó központi egységének előkészített helye (VALÓSZÍNŰ: az A-811 módosítási szövege „biztonsági központ”-ot helyez át ide; a műszaki melléklet (2024.02.13.): „központi és kezelő egység elhelyezés részére előkészítés”); nem takarható, hozzáférhető marad')
+            if s['t'] == 'GYENGE': mj.append(('TV-blokk ' if s.get('tv') else '') + 'informatikai aljzat (⊓ jel; a műszaki melléklet (2024.02.13.): minden lakóhelyiségben egy informatikai blokk tv/telefon/internet részére, CAT5E, RJ45), kód: ' + s.get('kod', '') + ' – az 1/2/3/BK kód jelentése NEM IGAZOLT')
             if s['t'] == 'ANTENNA': mj.append('négyzet + kör: TV/antenna aljzat (valószínű)')
-            if s['t'] == 'VENT': mj.append('elszívó ventilátor kiállása; a betű a kapcsoló áramkör')
+            if s['t'] == 'VENT': mj.append('falon kívüli elszívó ventilátor kiállása (a műszaki melléklet (2024.02.13.): páraérzékelős vagy a világításról kapcsolt); a betű a kapcsoló áramkör')
             if s['t'] == 'FIX': mj.append('főzőlap/sütő fix bekötés (S/F)')
             if s['t'] == 'TERMOSZTAT': mj.append('mennyezeti hűtés-fűtés termosztátja (gépészeti kék jel)')
             if s['t'] == 'SPEC': mj.append(s['megj'])
