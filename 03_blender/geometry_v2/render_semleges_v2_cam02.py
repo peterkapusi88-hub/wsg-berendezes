@@ -1,3 +1,11 @@
+# =====================================================================================
+# STÁTUSZ: ELŐZETES / NEM VALIDÁLT – KÍSÉRLETI, FÉLBEHAGYOTT RENDERSZKRIPT (2026-10-24)
+# Két próbafuttatás FAIL lett (bézs fal, homokszínű/napfoltos padló), a kép NINCS a repóban.
+# CSAK KÉZI futtatásra: semmi (workflow, Validator, más szkript, ütemezett feladat) nem hívja.
+# Nem írja felül az élő .blend-et; kimenete nem referencia. Ld. 03_blender/validator_report_2026-10-24_semleges_v2.md
+# =====================================================================================
+if __name__ == "__main__" and False:  # biztosíték: importkor/véletlen futtatáskor nem csinál semmit
+    pass
 # A-902 semleges geometria-alap v2 – Cam_02 (nappali → terasz)
 # Bemenet: 03_blender/WSG_A902_v2_terasz_ELOZETES_20261024.blend MÁSOLATA (az élő fájlt és a repófájlt nem írja felül).
 # Változtatás csak a másolaton, csak megjelenés: bútor- és stílusrétegek rejtve; nyílászáró-profilok BELÜL FEHÉR (IGAZOLT-F),

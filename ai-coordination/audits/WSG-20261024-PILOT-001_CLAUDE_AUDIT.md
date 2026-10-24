@@ -204,4 +204,4 @@ A két audit egymástól függetlenül készült. Ahol egybeesnek, ott erősíti
 1. Legyen-e TV a nappaliban? Ha igen: L1 elrendezés (kanapé a nyugati falon) TV-megoldással, vagy L2 (déli TV-fal, kanapé vele szemben)?
 2. Indítható-e a 10 stílusos Astra-kör **A fázisa** (`ai-coordination/requests/WSG-20261024-STYLE10-002.md`)? Jelenleg **NEM INDÍTOTT**. A B fázis zárolva az ellenőrzött Blender-alapig.
 3. Bekapcsoljuk-e Claude oldalán az ütemezett eredmény-ellenőrzést (`HANDOFF_PROTOCOL.md` 6. pont)?
-4. Mergeljük-e a Codex PR #2-t a `main`-be? Akkor Astra közvetlenül is olvashatja.
+4. ~~Mergeljük-e a Codex PR #2-t?~~ Megtörtént (Péter jóváhagyásával, 2026-10-24).
