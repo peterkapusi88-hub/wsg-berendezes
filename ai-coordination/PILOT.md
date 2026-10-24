@@ -29,3 +29,11 @@
 - `CLAUDE_RESUMED_FROM_GITHUB_RESULT`: nem
 - `CODEX_AUTOMATIC`: nem
 - `GEMINI_AUTOMATIC`: nem
+
+## Előkészített GitHub próba – 2026-10-24
+- **[Draft PR #1](https://github.com/peterkapusi88-hub/wsg-berendezes/pull/1)** létrehozva.
+- Cím: `[SETUP - INAKTÍV] WSG Astra kreatív átadás próba` (szándékosan **nem** `[ASTRA-REVIEW]`).
+- Ág: `pilot/wsg-astra-handoff-inactive`.
+- Brief: `ai-coordination/requests/WSG-20261024-PILOT-001.md` (csak a pilot-ágon).
+- Work eseménytrigger továbbra is **nincs igazolva**; a draft PR **nem futtat Astrát**.
+- Élesítés csak külön egyeztetés után: trigger ellenőrzése, kreditkeret rendelkezésre állása, PR címmódosítás és `ready for review`.
