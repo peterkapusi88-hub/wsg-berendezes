@@ -171,6 +171,14 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - Első lépésként csak az S01 Kyoto Ink Cam_02 tesztképet készíti elő, és a generálás indítása előtt megáll jóváhagyásért.
     - Ha egy lépés nem támogatott, pontosan leírja, hol akad el.
     - Tömeges generálás nincs.
+- *(2026-10-25 01:01, Péter – eldöntve)* A Letöltések mappát hozzáadta ehhez a munkamenethez. Az S01 Cam_02 tesztkép generálása „mehet”, a képek letöltése teljes felbontásban.
+- *(2026-10-25 01:23, Péter – eldöntve)*
+  - **Mehet:** a Cam_02 geometriai javítása és a szürke bútortömbös Blender-referencia.
+  - **Áll:** a Kyoto Ink kreatív v2 renderpromptja és az újragenerálás.
+  - **Astra „Creative Upgrade V3”-on dolgozik** (Péter közlése): az egész enteriőr következetes prémium minőségérzete, főleg a falak, a burkolatok és az integrált tárolók révén. Claude nem indít és nem duplikál Astra-munkát.
+  - **Ha Astra kiegészítése elkészül,** Claude a geometriai v2 javítással együtt új, verziózott promptba egyesíti.
+  - **Megőrzendő:** az eredeti promptok és képek.
+  - **Generálás nincs,** amíg Péter az egyesített változatot jóvá nem hagyja.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
