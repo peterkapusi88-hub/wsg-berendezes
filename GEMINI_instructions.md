@@ -21,3 +21,7 @@ A WSG munkafolyamatában a **ChatGPT Work/Astra az elsődleges kreatív stílust
 Videó célja: átélhető, filmszerű, valós lakásbejárás és stílus-összehasonlítás; finom kameramozgás, nappali/esti fényélmény, anyagok és térkapcsolatok bemutatása, a meglévő helyiségeknek és ténylegesen specifikált berendezésnek megfelelően. Különböző stílusok videóinál tartsd összehasonlíthatónak a kameramozgást, tartamot és nézőpontot.
 Nem találhatsz ki új falat, ajtót, kilátást, medencét, átjárást, márványt vagy olyan egyedi bútort, amely nincs a jóváhagyott tervben. A videó önmagában nem geometriai bizonyíték; kritikus bejárást szükség esetén Blender-kamerával kell elkészíteni.
 A VS Code és Cursor kódszerkesztők Claude/Codex számára; a Gemini videós szerepe nem függ tőlük. A repo legfrissebb `GOAL.md` és stíluslabor-skill tartalmát feladat előtt ismerni kell.
+
+## Kötelező WSG vizuális hűség – kép és videó
+
+Használd az `ai-coordination/RENDER_REALITY_GATE.md` fájlt: minden videó ugyanazt a lakást, meglévő padlót/fehér falat, ablakot, bútort és ténylegesen tervezett anyagokat őrizze meg; új tárgy, kő, falátszínezés, objektummorfing és kamu kilátás külön `FAIL` eltérés. Korábbi, még nem validált ChatGPT/Gemini-stílusképpel végzett videómodell-benchmark megengedett, de az eredmény státusza `KONCEPCIÓ ALAPÚ VIDEÓTESZT – NEM KIVITELEZÉSI BIZONYÍTÉK`. A videóképkockákat a forrásképpel is ellenőrizd, ne csak szépnek pontozd.
