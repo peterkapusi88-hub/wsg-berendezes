@@ -235,3 +235,9 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
     - Az 1c kapuja a Cam_11-hez teljesült; az 1a/1b Gate és Péter „mehet”-je továbbra is kell.
     - Az ágy 180 × 200 cm-es, tengelye y 6,40.
     - Az első tesztkép futtatását Claude a böngészőben próbálja automatizálni, és a generálás előtt megáll (Péter, 00:48).
+  - **2026-10-25 01:20 – az első tesztkép kész, automatizáltan** (Claude in Chrome, Péter „mehet”, 01:01).
+    - A teljes lánc működik: új chat, 9 referencia, prompt, generálás, letöltés eredeti felbontásban, átvétel, archiválás, napló.
+    - Kép: `A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A.png`, 1586 × 992 (a ChatGPT natív felbontása).
+    - **Gate: FAIL / ÚJRATERVEZÉS.** A tér szélesebb és mélyebb lett, az étkező a nappali bal előterébe került, a függeszték nem létező mennyezeti ponton lóg, és listán kívüli, travertinhatású dohányzóasztal jelent meg.
+    - Audit: `ai-coordination/results/WSG-20261024-STYLE10-KEP-004_r1.md`.
+    - Javaslat: prompt v2 a Cam_02-csomagokhoz, elrendezési blokkal és szürke tömbös elrendezés-vázlatképpel, majd egy újragenerálás. Péter dönt.
