@@ -12,6 +12,7 @@
 | Belmagasság a modellben | 2,70 m (Kémeri: 2,69–2,72) | 2,70 m (Kémeri: 2,69–2,73) |
 | Validátor v2 | PASS – LOCK 0, ERKÉLY 0, kamera rendben | PASS – ua. |
 | Alapképek | `04_renderek/A811_alap_v1/` | `04_renderek/A812_alap_v1/` |
+| Kamera-paraméterlap | `kamera_parameterlap_A811_A812.md` | ua. |
 
 ## Mi van a modellben
 - **Falak, pillérek, aknák** (`<lakás>_Falak`): 43 és 45 falelem, 2 és 5 gépészeti akna (tömör tömb). A homlokzati pilléreken az erkély felé a hőszigetelés is.
