@@ -149,6 +149,19 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Brisia helyett választhatok:** a Brisia család függesztett változata lett, 1 gömb Ø50 (Kave L00152CR05, E27, Ø97 mm-es nyílás). A 4 gömbös Brisia mennyezeti, nem lóg az asztal fölé.
   - **Olvasólámpa:** designos legyen, és Hue-izzó férjen bele. S01: Kave Raze (E27); S02: Kave Aleyla, bordó (E14). Minden későbbi stílusnál ugyanez a szabály.
   - **A Kave-oldalt a böngészőben olvashatom és fotózhatom**, ahogy ő is teszi („nekik csináljuk a businesst”).
+- *(2026-10-25 00:05, Péter – eldöntve)*
+  - **KEP-004 1a: az előkészítés jóváhagyva („mehet”).** Elsőként egyetlen képet tesztelünk, Péter közvetlenül a ChatGPT Imagesben futtatja: **S01 Kyoto Ink, Cam_02 nappali–terasz** (csomag 03). Ellenőrzés után Péter dönt a többi kép indításáról. AI-képet Claude nem generál.
+  - **PR #15: beolvasztás még nem.** Előbb:
+    - a master ágy tengelye y = 6,40 m a Blender bútorrétegében;
+    - a fejvég és a kapcsolók hozzáférhetőségének ellenőrzése, a Cam_11-nézet ellenőrzése;
+    - a PR frissítése az aktuális main-ről, a validátor újrafuttatása;
+    - a merge-jóváhagyást Péter külön adja.
+  - A Cam_04 és a Cam_11 egyaránt marad. Az Astra eredeti promptjai változatlanok. A 16 előkészített képcsomag megmarad.
+- *(2026-10-25 00:30, Péter kérdése – nyitott)* **180 vagy 200 cm széles ágy a master 05.1-ben?**
+  - Az ágy helye a terv szerinti: a tervrajzon y 5,48–7,31, a modellben 5,50–7,30.
+  - **180:** kényelmesen elfér. A K13/K14 kapcsolók 18–21 cm-re vannak a fejvégtől, az északi átjáró a gardróbfrontig 0,74 m.
+  - **200:** csak legfeljebb kb. 2,05 m külső szélességű kerettel/fejvéggel fér a kapcsolók közé. Az átjáró így 0,62 m (minimum 0,60), az 50 cm-es gardróbajtó kinyitva kb. 12 cm-re áll meg az ágytól.
+  - Claude javaslata: 180×200. Döntés Péteré; 200 esetén konkrét termék külső méretével méretezünk.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -203,3 +216,9 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
   - **2026-10-25 00:05 frissítés:** 16 csomag; Brisia-függeszték az S02 étkezőbe, Raze és Aleyla olvasólámpa. Hue-visszaellenőrzés mind a 16 promptra.
     - A 2–3. adagban a Novae beépített LED-es, ezért cserélendő.
     - Kave-specifikációk a böngészőből.
+  - **2026-10-25 00:40 – a PR #15 frissítve, nincs beolvasztva.**
+    - A master ágy tengelye y 6,40 a bútorrétegben (v2b-1-k11b).
+    - Validátor, master-bútor mód: **PASS 0/0**. Előtte FAIL 6/5 volt: a K14 kapcsoló takarva, az éjjeliszekrények a falban és az ajtó útjában.
+    - A Cam_11 a helyén marad ([3,20; 6,10; 1,20], az ágyon).
+    - Riport a PR-ágon: `03_blender/validator_report_2026-10-25_v2b1k11b_agy640.md`. Merge Péter külön jóváhagyásával.
+  - **Első teszt (00:05):** csak a 03-as csomag (S01 Kyoto Ink, Cam_02), Péter futtatja.
