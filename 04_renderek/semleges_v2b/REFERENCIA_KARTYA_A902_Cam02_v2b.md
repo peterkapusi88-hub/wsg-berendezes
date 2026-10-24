@@ -70,8 +70,8 @@ A kép üres, bútor nélküli, alaprajzhű összehasonlító alap a stíluskép
 5. **Nyugati válaszfal anyaga:** tégla, gipszkarton vagy egyéb. Kopogtatás és fotó a dugaljnyílásnál.
 6. **Kilátás:** egy fotó a Cam_02 irányában, nyitott függönnyel, 1,55 m magasról.
 
-## Viszony a PR #7 alapképeihez (`04_renderek/A902_alap_v2b/`)
-Egy párhuzamos Claude-munkamenet ugyanebből a v2b fájlból készített bútor nélküli alapképeket (draft PR #7, EEVEE). Eltérések:
+## Viszony a PR #7 alapképeihez (`04_renderek/A902_alap_v2b/`, a `main`-ben 14:25 óta)
+Egy párhuzamos Claude-munkamenet ugyanebből a v2b fájlból bútor nélküli alapképeket készített (PR #7, EEVEE, Péter jóváhagyásával beolvasztva). A PR #7 a .blend-be csak egy renderben rejtett kiállás-réteget tett, a geometria azonos. Eltérések:
 - A PR #7 Cam_02-képén a **nyugati válaszfal halványan bézs**. Ennek oka nem a padlóról visszaverődő fény, hanem a v2b fájlban a falon maradt `Z_tapeta_greige` (Zenit-tapéta) anyag. Ez a Gate szerint falszínhiba.
   - Itt a fal fehérre javítva.
 - Itt a padlón deszkaminta és 4V horony van (közelítés), valamint 6 cm-es szegőléc; a PR #7-ben sík tónus.
