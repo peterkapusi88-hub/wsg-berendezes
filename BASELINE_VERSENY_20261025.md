@@ -5,7 +5,7 @@ Ez az ág (`competition/baseline-20261025-v3`; a rögzített commit SHA-ja a GOA
 | Beemelt ág | PR | Végső commit | Státusz | Mit ad |
 |---|---|---|---|---|
 | `kep004/kameracsomag-C-K1` | #20 r2 (tartalmazza a #17 és #18 tartalmát) | `f190e5f` | **JAVASLAT, lezárt és átadott** (a párhuzamos Claude 04:50) – a kamerákat Péter elfogadta, merge nincs; a lock v2b-1-k13 és a .blend csak repóbeli javaslat | végleges C elrendezés, Cam_03 K1, Cam_12 v3, fénycsere, kerek asztal Blender-méretpróba, keleti teraszszárny 96 eset, validátor-nyilvántartás, **közös geometriai és fénybemenet: `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md`** |
-| `competition/kozos-bemenetek-20261025` | #19 | `a051e57` | **draft** – koncepció elfogadva (Péter 04:27), merge nincs | fix-alap költségtábla, Hue-alap, 6 közös kalibrációs prompt (61/64 kékórás), §0 blokk v3.1, preflight, kerek-asztal 2D-próba (a PR #20-éval egybevág) |
+| `competition/kozos-bemenetek-20261025` | #19 | `cf3b523` | **draft** – koncepció elfogadva (Péter 04:27), merge nincs | fix-alap költségtábla, Hue-alap, 6 közös kalibrációs prompt (61/64 kékórás), §0 blokk v3.1, preflight, kerek-asztal 2D-próba (a PR #20-éval egybevág) |
 
 **Szabályok:**
 - A versenyzők saját ága **ebből a commitból** indul; a draft PR-ek **célága ez az ág**, nem a `main`.
