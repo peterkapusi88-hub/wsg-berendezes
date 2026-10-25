@@ -69,3 +69,5 @@ CP-FINAL-1 – uj furdospecifikacio es teljes koltseg | 7fb2c14177d537f4dd2e98a0
 CP-FINAL-2 – stilusok uj furdo es feny specifikacio | da89fb68eb0d0ffe5fefc7799b9209749e0254b6 | 2026-10-25T15:18:54.700831+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-FINAL-3 – stilusok uj furdo es feny specifikacio | 665901e1993ee78f9918173b0f2d488f403b4b71 | 2026-10-25T15:19:11.948731+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-QA-0 – angol nyelvi javitas regeneracio nelkul | 86af9b0f69bfaf2e50493b09c7ffb4762cace99b | 2026-10-25T15:19:42.931812+00:00 | távoli tartalom-visszaolvasás PASS
