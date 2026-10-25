@@ -437,7 +437,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Kreatív verseny:** három résztvevő (Astra, Fable, Opus) azonos, valós geometriai szabályokból dolgozik; a régi bútortömbök nem korlátozzák az új terveket.
   - **Nem engedély:** a PR #17 és #18 beolvasztására (külön döntés), képgenerálásra.
 
-- *(2026-10-25 04:35 CET, Claude – eredmény)* **Kameracsomag C: draft PR #20** (a #17 és a #18 tartalmát is hozza). Részletek: `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r1.md`.
+- *(2026-10-25 04:31 CET, Claude – eredmény)* **Kameracsomag C: draft PR #20** (a #17 és a #18 tartalmát is hozza). Részletek: `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r1.md`.
   - **C végleges:**
     - közös étkező-befoglaló 160 × 90, x 8,00–8,90; y 5,40–7,00 (S01-en 10 cm-rel délebbre); kanapé háttámla x 6,67 (L) / 6,60 (U);
     - a kötelező méretek 40 és 60 cm mély TV-fallal is teljesülnek;
