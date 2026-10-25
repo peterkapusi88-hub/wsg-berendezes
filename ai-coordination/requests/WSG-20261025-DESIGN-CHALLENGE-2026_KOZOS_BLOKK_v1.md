@@ -1,5 +1,7 @@
 # WSG DESIGN CHALLENGE 2026 – közös §0 blokk és célzott javítások a három indítóprompthoz (v2, 2026-10-25 05:40 CET)
 
+**v3.1 – a PR #20 r2 átadása (04:50) alapján:** §0.1 a `GEOMETRIA_C_KAMERACSOMAG_v2.md`-re mutat; a Cam_12-korlát törölve (a v3 kamera a TV-falat nem látja); kerek asztal a PR #20 Blender-próbája szerint; fény §0.10 pontosítva; kalibráció 61/64 javítva.
+
 **v3 – Péter 04:49:** a baseline v2 (`a8ab8d3`) ELŐZETES, nem indításra jóváhagyott; a végleges baseline a PR #20 lezárása után készül; fénystratégia egységesítve (§0.10); a Cam_12-korlát nem abszolút (§0.1).
 
 **v2 – Péter 04:27-es négy javítása:** közös verseny-baseline (§0.9), étkezőasztal-szabály (§0.1), képszám 60 saját + 6 közös (§0.4), a fix-alap versenyfeltételezés és a végső kapun ellenőrzött (§0.1, §0.5).
@@ -34,20 +36,25 @@ versenyzőnek azonos kiegészítések; olvasd el, mielőtt tervezel):
   függeszték lehetőleg az asztal közepe fölött; a TV-falnak a lehető legtöbb
   geometriai szabadság marad; teljes bekerülés a 18 M-on belül. A kötött
   geometriai alap a PR #20 közös bemenete:
-  ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v1.md – a
+  ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md (a v1-et
+  felülírja; mindhárom versenyzőnek szó szerint azonos) – a
   jóváhagyott geometriai alapváltozat a 160 × 90-es hosszanti asztalhely
   (x 8,00–8,90; y 5,40–7,00; 2+2+1+1; az ML04 0,12 m-re a közepétől), a
   kanapé háttámlája legfeljebb x 6,67 (L) / 6,60 (U), kanapé–TV-bútor
   ≥ 0,60 m. Igazolt asztal: Westwing Toni 160 × 90 az S01 Lennon L-lel. Az
   S02 Anouk 180 × 90 NEM elfogadott (a függönysávval 0,78 m-es kihúzás,
   Péter 04:39): U-kanapés stílusban is ténylegesen hatszemélyes, a 160-as
-  helyre illeszkedő vagy külön igazolt asztal kell. KEREK, hat szék körben
-  (ai-coordination/results/WSG-20261025-A902-ELRENDEZES-C-KEREK-ASZTAL_r1.md,
-  a PR #18 motorjával, függönysáv nélkül – a PR #20 szabályaival
-  újrafuttatandó): Ø120–Ø130 mindkét kanapéval, de csak legfeljebb 40 cm
-  mély TV-bútorsávval (ML04 0,13–0,25); 60 cm-es TV-szekrénnyel kerek
-  asztal csak a 160 mély U-kanapéval; Ø140 csak U-val; Ø150 (Kave Home
-  Nealy) a C-ben NEM ajánlott. Minden asztalhoz gyártó, cikkszám, méret,
+  helyre illeszkedő vagy külön igazolt asztal kell (jelöltek a PR #20
+  eredményfájljában: Toni 160, Kave Home Kesia 160(220) × 90 bővíthető,
+  Argo 160 × 90). KEREK, hat szék körben – a PR #20 Blender-méretpróbája
+  (validátor PASS, függönysávval; GEOMETRIA v2 2. pont): Ø150 (pl. Kave Home
+  Nealy) csak sík, ≤ 4 cm-es TV-fallal és a kanapé legnyugatibb helyén
+  (háttámla L x 6,11 / U x 5,91), az ML04 0,31–0,41 m-re oldalt; Ø140
+  ugyanígy; Ø130 40 cm-es TV-bútorral U-kanapéval (ML04 0,21); 40–60 cm-es
+  TV-szekrénnyel a Ø150 nem fér el. A kerek asztal tehát a TV-fal
+  mélységét és a kanapé helyét is megköti, a függeszték nem kerül középre
+  (az ML04 fix, a mennyezetbe nem fúrunk) – ezt a kompromisszumot a tervben
+  ki kell mondani. (A PR #19 2D-próbája ugyanerre jut.) Minden asztalhoz gyártó, cikkszám, méret,
   ár, forrás; minden új változat (más méret, forma, kanapémélység) külön
   Blender-méretpróbát kap Claude-tól, a C megfelelősége nem vihető át
   automatikusan – igazolásig a státusz „elrendezésben ellenőrizendő”.
@@ -61,13 +68,15 @@ versenyzőnek azonos kiegészítések; olvasd el, mielőtt tervezel):
   nem látszik. CAM_12 v3 (PR #20, Péter 04:39): [4,40; 7,88; 1,60], −48°,
   22 mm – a közös hero- és összehasonlító kamera; előtérben a kanapé eleje
   (a kép 16–23 %-a), az étkező az ML04-gyel, a konyha, a W03 a 05.3 ajtóval,
-  a W02 és a W07; a TV-fal és a terasz nem látszik. A kamera nem kreatív
-  korlát: a TV-fal északi végén (y 7,65–8,05) a mennyezetig érő szekrény
-  tilalma csak kamerahelyből ered – ha oda erős, kivitelezhető kompozíciót
-  tervezel, írd le, Claude alternatív hero kamerát vizsgál, és bemutatja a
-  kompromisszumot; az enteriőrt a kép kedvéért nem butítjuk le, a kamerát
-  vizsgáljuk újra (Péter 04:49). A kamerakorlát tehát NEM abszolút
-  építészeti tilalom. A végleges
+  a W02 és a W07; a TV-fal és a terasz nem látszik. A Cam_12 v3 a TV-falat
+  (x ≤ 4,27) egyáltalán nem látja – a fal a kamera mögött van –, ezért a
+  TV-fal, az északi vége is, szabadon tervezhető, mennyezetig érő
+  szekrénnyel is; korábbi „kamerakorlát” nincs. Csak a kamera állóhelyét
+  (x 4,30–4,50; y 7,75–8,05) hagyd szabadon. Ha a terved más nézőpontot
+  kíván (pl. kerek asztal miatt nyugatabbra tolt kanapé a kép előterében),
+  írd le: Claude második hero kamerát vizsgál, és bemutatja a
+  kompromisszumot – az enteriőrt a kép kedvéért nem butítjuk le (Péter
+  04:49). A végleges
   FRAME LAYOUT-okat Claude adja; a kompozíciót a látható elemek
   hierarchiájaként írd le.
 - KÖLTSÉG: ai-coordination/inputs/A902_verseny/KOZOS_FIX_ALAP_v1.csv – a
@@ -124,7 +133,8 @@ együtt, legfeljebb 18,00 M, a tartalék érintetlen.
 
 0.6 Képek sorrendje (Péter): a kész 66 promptból a képek egyesével,
 Claude Chrome-ból, ChatGPT Images-szel készülnek, „koncepció” státuszban,
-előbb a hero-nézetek (minden stílus Cam_12, majd Cam_02), utána a többi.
+előbb a hero-nézetek (minden stílus Cam_12 nappal, majd Cam_02 kék óra),
+utána a többi.
 A Blender- és költségkapu utáni végső összehasonlító képek csak a
 továbbjutó koncepciókra készülnek újra, azonos kamerával és referenciával.
 
@@ -133,14 +143,19 @@ keresztellenőrzött ≤ 18 M, renderhűség) megfelelt tervek közül Péter d�
 látvány alapján; az integrációtól kezdve a csomagok kódnevet (X/Y/Z) kapnak.
 Ne értékeld magadat győztesnek, ne írj a másik két versenyzőről.
 
-0.10 Fénystratégia (Péter, 2026-10-25 04:49 – felülírja az r2 brief §11.6
-és a §0.1 kameraleírásainak ettől eltérő fényét): Cam_02 = kék óra / este,
-a TV-fal Hue-világítása a kép fő fényforrása (rejtett vonalfények, ML05
-függeszték, kiegészítő lámpák 2200–2700 K; kint a dusk-kék város);
-Cam_12 = NAPPALI fény (a hero nézet világos, természetes fényben, a Hue
-csak kiegészítő vagy kikapcsolva); Cam_03 = nappali; Cam_04 = esti Hue;
-Cam_11 = nappali panoráma; Cam_10 = kizárólag műfény. Mind a tíz stílus és
-a hat közös kalibráció ugyanezt követi; a C1/C2 Cam_02 kalibráció esti.
+0.10 Fénystratégia (Péter, 2026-10-25 04:40/04:49 – felülírja az r2 brief
+§11.6-ot és a §0.1 kameraleírásainak ettől eltérő fényét; részletek:
+GEOMETRIA_C_KAMERACSOMAG_v2.md 3. pont): Cam_02 = kék óra / kora este,
+prémium rétegzett Hue (2200–2700 K, RGB nélkül), a TV-fal a WOW-elem – a
+rejtett LED-ek profilból, egyenletesen világítanak (nem pontsoros), a kép
+közepes expozíciójú, nem sötét és nem kontrasztos, nincs bebukó fekete és
+kiégett fény, a falélek, nyílások, padló–fal vonal, teraszburkolat, korlát
+és zöldtető olvasható marad, fény csak a megnevezett lámpatestekből;
+Cam_12 v3 = NAPPALI, természetes, világos luxusenteriőr-fotó (a Hue
+kiegészítő vagy kikapcsolva); Cam_03 = nappali; Cam_04 = esti Hue;
+Cam_11 = nappali panoráma; Cam_10 = kizárólag műfény. A kamerák geometriája
+és a kep_id-k változatlanok. Mind a tíz stílus és a hat közös kalibráció
+ugyanezt követi; a C1/C2 Cam_02 kalibráció kékórás.
 
 0.8 Folytatás megszakadásnál: ha a futás (kontextus, keret, GitHub-írás)
 megszakad, új munkamenetben a saját 00_CHECKPOINT_NAPLO.md és
