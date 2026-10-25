@@ -63,3 +63,5 @@ CP-S08-all – hat kamera es uj furdo | 28db14c3fa077b00da22d51111b2b80d10198b34
 CP-S09-all – hat kamera es uj furdo | 13ebb5bf4da0565178bfc7409a3d7a58e808bb2a | 2026-10-25T15:12:26.935087+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S10-all – ujraellenorzes PASS | 92f6a88c13bb8c797d8a9d2318ed64de30ea2b02 | 2026-10-25T15:13:41.208042+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-FINAL-1 – uj furdospecifikacio es teljes koltseg | 7fb2c14177d537f4dd2e98a0917449090bf81b52 | 2026-10-25T15:18:24.736546+00:00 | távoli tartalom-visszaolvasás PASS
