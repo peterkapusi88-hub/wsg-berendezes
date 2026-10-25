@@ -77,3 +77,9 @@ CP-QA-1 – angol nyelvi javitas regeneracio nelkul | 312ff21261af9058058763adb1
 CP-QA-2 – angol nyelvi javitas regeneracio nelkul | a5e8d79638c7d31b4a6d3b1c4d23129a58672a58 | 2026-10-25T15:20:10.857144+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-ELEMLISTA – 496 meretezesi es koltsegatadasi sor | 8a65a43237bcee114023a6f33769a578ddf4faa3 | 2026-10-25T15:20:46.080364+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-REALITY – uj tulajdonosi furdo feluliras | ac48db13e7cc216691acae038c0e88594dfed776 | 2026-10-25T15:21:35.036453+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-EVIDENCE – ot kep Git blob SHA ellenorizve | 3adfb1385c2e9b7e6667d44b98002bd73ce8fb11 | 2026-10-25T15:22:24.738519+00:00 | távoli tartalom-visszaolvasás PASS
+
+Korábbi prioritásos CP2-P visszaolvasott SHA:1a86da4da7c8459a9f41acbd00facc3fadf87901; S01/S02 Cam02/Cam12 négy prompt. A korábbi munkamenetben ellenőrzött, a folytatásban változatlanul megtartott tartalom.
