@@ -15,3 +15,5 @@ CP1.04: LA Horizon teljes stílusspecifikáció mentése – df73727f4292891e71c
 CP1.05: Miami Streamline teljes stílusspecifikáció mentése – beef15bc780abcfbd60e1ef85244c96d072189bc – 2026-10-25T04:58:25.303Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.06: Zenit Atelier teljes stílusspecifikáció mentése – 2623ceedad3d7daeef87bf4998fe2fce85caafa1 – 2026-10-25T04:58:34.919Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1.07: Lake Forest Couture teljes stílusspecifikáció mentése – ebda3c01f3f12c5206fbdba8e5e83e1ef43f48bf – 2026-10-25T04:59:45.371Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
