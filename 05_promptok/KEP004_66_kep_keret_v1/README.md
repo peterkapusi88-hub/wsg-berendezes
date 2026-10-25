@@ -13,7 +13,7 @@
 |---|---|---|---|---|
 | 1 | nappali–terasz | Cam_02 | `04_renderek/A902_alap_v2b1/…_02_nappali-terasz.png` | geometriai kontrollnézet; 1b: stílus-tömbkép |
 | 2 | nappali hero | **Cam_12** (JAVASLAT, PR #17) | `04_renderek/A902_cam12_hero_javaslat/A902_Alap-v2b1k12_blender_12_nappali-hero_JAVASLAT.png` | ÉNy-i sarok, 22 mm; a W02 + W07 összekötő fal és a konyha pultfala látszik |
-| 3 | konyha–étkező | Cam_03 | `…/A902_Alap-v2b1_blender_03_etkezo-konyha.png` | Átfedés a Cam_12-vel → Péter dönt (marad / konyhára irányítjuk) |
+| 3 | konyha–étkező | Cam_03 | `…/A902_Alap-v2b1_blender_03_etkezo-konyha.png` (régi) | **Péter 02:33 CET: konyhaorientált új kamerajavaslat** (Claude), hogy ne fedjen át a Cam_12-vel |
 | 4 | master | Cam_04 | `…/A902_Alap-v2b1_blender_04_master.png` | ágy 180 × 200, tengely y 6,40 |
 | 5 | master panoráma | Cam_11 | `04_renderek/A902_cam11_javaslat_v1/…` | a PR #15-tel a main-en |
 | 6 | fürdő 06.2 | Cam_10 | `…/A902_Alap-v2b1_blender_10_furdo-06-2.png` | csak műfény; a meglévő burkolat marad |
@@ -26,7 +26,7 @@
 ## 2. Futtatási sorrend (adagok és kapuk)
 | Adag | Tartalom | Előfeltétel | Állapot |
 |---|---|---|---|
-| **A0 – geometriajavító próba** | 1 kép: S01 Cam_02, szerkesztő módban. A 1b tömbkép vagy az alapkép a szerkesztett forráskép, a termékfotók másodlagosak. | Péter „mehet” | **javasolt** – a V3-teszt geometriai hibája miatt (10–13,5 %). A V3_TEST (r2) után: az S02 héja ±1 %-on belül, az S01-ben ~+8 % belmagasság, mindkettőn túlméretes falbútor → S01-re továbbra is indokolt (`WSG-20261025-KEP-004_V3_TEST_gate.md`, 8. pont) |
+| **A0 – geometriajavító próba** | 1 kép: S01 Cam_02, szerkesztő módban. A 1b tömbkép vagy az alapkép a szerkesztett forráskép, a termékfotók másodlagosak. | Péter „mehet” | **javasolt** – a V3-teszt geometriai hibája miatt (10–13,5 %). A V3_TEST (r2) után: az S02 héja ±1 %-on belül, az S01-ben ~+8 % belmagasság, mindkettőn túlméretes falbútor → S01-re továbbra is indokolt (`WSG-20261025-KEP-004_V3_TEST_gate.md`, 8. pont). **Péter 02:33 CET: most nem – előbb a V3.1 kreatív újratervezés.** |
 | **A1** | S01 + S02 Cam_02 V3 | V3.1 (világítás, függöny); az A0 módszere, ha bevált | V3-teszt kész (V3_r1 02:18/02:23; V3_TEST r2 02:35/02:38 – Péter 02:22-es tesztpárja), végleges vár |
 | **A2** | S01 + S02 Cam_12 hero | PR #17 „mehet”; V3.1, benne W02/W07 és konyhafront | vár |
 | **B** | S01 + S02 Cam_03, Cam_04, Cam_11 | A1/A2 Gate PASS-közeli (geometria tűrésen belül) | vár |
@@ -48,7 +48,12 @@
 | `05_promptok/KEP004_ChatGPT_Images_V3_TEST/` | S01/S02 Cam_02 V3_TEST (r2: javított 1b tömbkép, fizikailag lehetséges tükörkép, pad nélkül, nyílászáró/padló-sor), futtatva | megőrizve |
 | következő: `KEP004_ChatGPT_Images_V3_1/` | V3.1 (LED, függöny, összekötő fal, konyha) + az A0 módszere + Cam_12 FRAME LAYOUT | V3.1 után |
 
-**2026-10-25 02:30 CET – kiegészített V3.1-kérés:** `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1.md`. A B része szerint változik a csomagépítés:
+**2026-10-25 02:50 CET – végleges V3.1-brief, r2:** `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1_r2.md` (az r1 felülírva).
+- Astra mind a 66 kreatív promptot egy Work-futásban adja, checkpointolva.
+- Helye: `05_promptok/KEP004_ASTRA_V3_1_r1/`, a manifestben `statusz` + `validalas` mezővel.
+- A `COMPLETE` kreatív promptot jelent, nem futtatható csomagot. Futtatható csomag csak Claude auditja után készül.
+
+A B része szerint változik a csomagépítés:
 - teljes berendezés a „Nothing else stands in the room” tiltás helyett;
 - nézetenkénti fény;
 - új tömbképek a V3.1 elemlistából;

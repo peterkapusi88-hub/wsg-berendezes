@@ -294,7 +294,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - a fal nem ötletes, nem exkluzív;
     - a TV mögötti szekrény ingerszegény;
     - a panelek nem érnek a mennyezetig, és nem egyforma magasak;
-    - a „minden fal burkolt” elv sem jó a nagy, egybefüggő falakon.
+    - ~~a „minden fal burkolt” elv sem jó a nagy, egybefüggő falakon~~ – **Claude félreértése, javítva (Péter 02:33 CET):** a korábban kért átfogó faltervezés **nem látszik megvalósulni a képeken**, főleg a nagy falszakaszokon.
   - **Kérdései:** az első Zenit/Lake Forest képek a legjobbak, de nem tudjuk, mi van rajtuk és mennyibe kerül. Nem korlátozza-e túl a Blender a formavilágot? Elölről vagy hátulról kezdjük?
   - **Hat ötlete, becsült költséggel, a V3.1-kéréshez:**
     1. teljes TV-fal tapéta vagy dekorpanel;
@@ -321,7 +321,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Mérce:** a v1 Zenit/Lake Forest hat WOW-összetevője.
   - **Új kötelezők:**
     - mennyezetig vagy egyetlen közös vonalig érő TV-fal;
-    - falhierarchia;
+    - ~~falhierarchia~~ → az r2-ben: teljes faltervezés, minden jelentős, látható tömör falnak legyen terve (Péter 02:33);
     - Péter hat eszközéből legalább három;
     - teljes berendezés: dohányzóasztal, szőnyeg, lámpák, függöny, lámpatest az ML05-ön;
     - méretezett elemlista;
@@ -334,6 +334,60 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - a Cam_03 átfedése;
     - az étkező 0,15 m-es eltolása;
     - a W02 + W07 értelmezése.
+
+- *(2026-10-25 02:33, 02:35 és 02:43 CET, Péter – eldöntve)* **A V3.1-brief felülvizsgálata, 66 prompt, kötelező mentés.**
+  - **Sorrend:** Astra kreatív koncepciója → Claude Blender-validálása és független áraudita → ChatGPT Images.
+  - **Falak:** minden jelentős, látható tömör falnak legyen tudatos belsőépítészeti terve; nem kell mindenhol fizikai burkolat.
+    - Eszközök: tapéta, panel, grafika, integrált tároló, nagy mű, textil, strukturált felület, rejtett fény.
+    - Nem alapmegoldás: egy hangsúlyos fal, a többi üresen fehér.
+    - Kifejezetten tervezendő: W01, W02/W07, a 05.3 ajtó környezete, az étkező és a konyha falai, a hálók fontos falai.
+  - **TV-fal:**
+    - a V3 KI3/BN3 forma és magasság nem kötelező;
+    - a mennyezetig futó elem vagy a közös vonal preferencia, nem tilalom;
+    - S01/S02-höz három TV-fal-koncepció kell, egy főváltozattal.
+  - **Berendezés:**
+    - teljesebb, de nincs kötelező darabszám, a közlekedési méret elsőbbséget élvez;
+    - ML05: vizsgálandó, nem automatikus rögzítési engedély.
+  - **Fény:**
+    - Cam_02 világos nappali fény, Cam_12 kékórás/esti, rétegzett Hue;
+    - minden stílus azonos kamera–fény szabállyal;
+    - maradjon geometriai kontrollnézet;
+    - Hue mindenhol, kivéve a szekrénybelső fényt;
+    - a LED-ek műszaki és költségellenőrzése kötelező.
+  - **Elrendezés:**
+    - a P902_24A nem megváltoztathatatlan;
+    - a 0,36–0,38 m-es kanapé–szék távolság nem elfogadható, a +15 cm önmagában kevés;
+    - Claude 2–3 valós alternatívát vizsgál: hat ülőhely, székmozgatás, konyhai hozzáférés, költségkülönbség;
+    - a Lennon L és a JÄTTEBO U a kiindulópont.
+  - **PR-ek:**
+    - PR #16: kreatív forrás, nem végleges, nincs merge;
+    - PR #17: a Cam_12 kreatív alapnak megfelel, merge nincs jóváhagyva – Claude jelezze, mi kell hozzá.
+  - **Kamera:** a Cam_03 legyen konyhaorientált.
+  - **W02 + W07:** az összekötő fal, egyetlen kompozícióként.
+  - **Nincs új S01 geometriai próba.**
+  - **Anyag:**
+    - BiBo: navy laminált az alap, festett MDF csak külön indoklással és jóváhagyással;
+    - gazdaságos gyártástechnológia, a látvány nem romolhat.
+  - **Költség:** 18 M + 2 M tartalék; a kiváltott tételeket tételesen.
+  - **Astra-kimenet (02:35):** mind a 66 teljes, önálló angol kreatív prompt egyetlen Work-feladatban.
+    - 10 stílus × 6 kamera, valamint C1/C2 × Cam_02/04/11;
+    - a kalibráció az S06/S07-en felül, nem helyettük;
+    - moduláris felépítés;
+    - azonos terv a nappali–konyhai, illetve a két master-nézetben;
+    - manifest, 66/66.
+  - **Mentés (02:43):** kötelező, folyamatos GitHub-checkpointolás (CP0–CP2, utána legfeljebb 6–10 promptonként), mert kb. 26 % maradt a heti Work-keretből.
+  - **Nem engedély:** képgenerálásra, merge-re, rendelésre, külső kötelezettségvállalásra, a 66 kép futtatására.
+- *(2026-10-25 02:50 CET, Claude – eredmény)* **Végleges V3.1-brief, r2:** `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1_r2.md` – INDÍTÁSRA KÉSZ.
+  - Az r1 felülírva, bannerrel jelölve.
+  - A félreértés miatt javított pontok a brief a) részében.
+  - **PR #17:** technikailag tiszta (mergeable, nincs fájlütközés). Tartalmi feltételek:
+    - az elrendezési alternatíva kiválasztása után a Cam_12 kivágás újraellenőrzése;
+    - javasolt az új Cam_03-mal együtt egy kamera-PR-ben;
+    - validátor-újrafuttatás;
+    - Péter „mehet”-je.
+  - **Claude következő feladatai:**
+    - 2–3 elrendezési alternatíva;
+    - az új, konyhaorientált Cam_03.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -418,3 +472,6 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
   - **2026-10-25 02:30 CET – kiegészített V3.1-kérés a main-en (TERVEZET)**, Péter 02:05 CET-es visszajelzése alapján: nincs WOW.
     - Fájl: `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1.md`.
     - Az Astra-futást Péter indítja. Képgenerálás és Blender-módosítás nincs.
+  - **2026-10-25 02:50 CET – V3.1-brief r2 a main-en (INDÍTÁSRA KÉSZ),** Péter 02:33, 02:35 és 02:43 CET-es pontosításaival.
+    - Tartalom: 66 teljes prompt, egyetlen Work-futás, kötelező GitHub-checkpointolás.
+    - Az r1 felülírva. Az indítás Péteré.

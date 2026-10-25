@@ -1,4 +1,6 @@
 # WSG A-902 – ASTRA CREATIVE UPGRADE V3.1 (kiegészített kérés)
+
+> **FELÜLÍRVA – indításra NEM használható.** Érvényes változat: `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1_r2.md` (Péter 02:33, 02:35 és 02:43 CET-es pontosításai). Ez az r1 csak visszakövetésre marad; tartalma változatlan.
 ## Integrált építészeti világítás, teljes lakásminőség, WOW-korrekció, 66 képes végrehajtási terv
 
 - **Task ID:** WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1
