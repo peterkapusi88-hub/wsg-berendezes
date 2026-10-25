@@ -2,7 +2,7 @@ WSG-COMPETITION-RESULT: OPUS55-V3_1
 Versenyző: C – Claude Opus 5.5
 Modell és gondolkodási szint: claude-opus-5-5 (a munkamenet konfigurált modellazonosítója); gondolkodási szint „High” Péter utasítása szerint – a munkamenetből nem igazolt
 Bázis-commit: 45632b5ad5586e1f3f884a8f723c1cc13cda6da3
-Utolsó ellenőrzött commit: f5457cbd87f3d1a524ea936f3aec1f9103fd5fd2 (CP12; a záró CP SHA-ja a checkpointnaplóban és a PR-leírásban)
+Utolsó ellenőrzött commit: bdede2ed2d2ca725f6c16b222a686a1cf724800d (CP13 – a teljes tartalom; a záró CP csak ezt a fejlécet, a README státuszát és a naplót frissíti)
 Státusz: TELJES
 
 # DC2026 · C versenyző – integrációs összefoglaló (V3.1 r1)

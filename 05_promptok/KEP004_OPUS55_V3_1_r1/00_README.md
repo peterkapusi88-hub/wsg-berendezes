@@ -12,7 +12,7 @@ a brief verziója r2, ez a kimenet r1
 | Kalibrációs forráscommit (csak olvasva, nem másolva) | `2452dfc54f26467791dccbd9ce620cd7af0435bb` (ág: `competition/inditas-20261025`) |
 | Draft PR célága | `competition/baseline-20261025-v3` |
 | Brief | `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1_r2.md` + a versenyindító VB-blokk (VB.1–VB.10, elsőbbséggel) |
-| Státusz | lásd `00_CHECKPOINT_NAPLO.md` és `01_MANIFEST_66.csv` |
+| Státusz | **TELJES** – 60/60 saját COMPLETE + 6 KOZOS; minden sor NEEDS_CLAUDE_VALIDATION; részletek: `00_CHECKPOINT_NAPLO.md`, `01_MANIFEST_66.csv` |
 
 ## Mi ez
 Önálló, független kreatív belsőépítészeti csomag az A-902 lakásra: tíz stílus (S01–S10), az S01/S02-höz három-három TV-fal-koncepció, S03–S10-hez egy-egy, **60 saját, önálló angol renderprompt** (10 stílus × Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10), méretezett elemlista, költség- és kockázati terv. A 61–66. sor (C1 Zenit, C2 Lake Forest kalibráció) **közös, nem e versenyző munkája**; a manifest csak hivatkozik rá (`KOZOS`).
