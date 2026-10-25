@@ -203,3 +203,18 @@ A Gate B) része szerint. Generált kép nincs, ezért a C) audit nem releváns.
 3. **Merge:** külön engedéllyel.
    - Ez az ág a PR #17 és a PR #18 tartalmát is hozza, ezért ha ezt olvasztjuk be, a #17 és a #18 lezárható.
    - Merge előtt: Péter „mehet”-je és egy friss validátorfutás a main aktuális állapotán.
+
+## 9. Kiegészítés – Péter 04:39, 04:40 és 04:49 CET (2026-10-25 05:25)
+- **Elfogadva:** Cam_12 v3 és Cam_03 K1.
+- **A kamera nem kreatív korlát.** A 3. pontban szereplő „a TV-fal északi végén nincs mennyezetig érő szekrény” korlát **visszavonva**: a v3 kamera (x 4,40) a TV-falat (x ≤ 4,27) nem látja. Csak az állóhely marad szabadon; más tervhez második hero kamera vizsgálható.
+- **Fénycsere:**
+  - Cam_02: kék óra / este, Hue, a TV-fal a WOW-elem;
+  - Cam_12 v3: nappal;
+  - Cam_03: nappal.
+  - A kamerák geometriája változatlan.
+- **Étkező:**
+  - a 160 × 90 az alapváltozat;
+  - az S02 Anouk 180 nem elfogadott;
+  - kerek, ovális vagy más forma nem tiltott, de külön méretpróbát igényel – a kerek Blender-próba eredménye: `GEOMETRIA_C_KAMERACSOMAG_v2.md`, 2. pont.
+- **Teraszajtó:** feltételes; az 5+1 jelölt kompromisszum (96 eset, `c_keleti_szarny.py`).
+- **Átadás a verseny-baseline-hoz:** `WSG-20261025-A902-KAMERACSOMAG-C_r2_ATADAS.md`.

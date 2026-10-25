@@ -1,3 +1,8 @@
+> **FELÜLÍRVA (2026-10-25 05:20 CET):** érvényes változat: `GEOMETRIA_C_KAMERACSOMAG_v2.md`.
+> - Péter 04:39: a kamera nem kreatív korlát; asztalforma; teraszajtó.
+> - Péter 04:40/04:49: fénycsere, Cam_02 kék óra / Hue, Cam_12 nappal.
+> - A v1 „a TV-fal északi végén nincs mennyezetig érő szekrény” szabálya érvénytelen: a Cam_12 v3 a TV-falat nem látja.
+
 # A-902 – közös geometriai bemenet a tervversenyhez: C elrendezés + kamerák (v1, Claude, 2026-10-25)
 
 **Kinek:** Astra, Fable és Opus – mindhárom versenyzőnek azonos.
