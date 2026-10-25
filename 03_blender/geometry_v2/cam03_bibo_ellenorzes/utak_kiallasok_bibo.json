@@ -1,0 +1,1165 @@
+{
+ "valtozatok": {
+  "U": {
+   "utak": {
+    "dx+0.00": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.85
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.75,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.65
+     },
+     "szekkihuzas": [
+      1.4,
+      1.4,
+      1.85,
+      1.85,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.88,
+     "szek_kanape": 1.03,
+     "ML04_asztalkozep": 0.124
+    },
+    "dx-0.05": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.9
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.75,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.7
+     },
+     "szekkihuzas": [
+      1.35,
+      1.35,
+      1.9,
+      1.9,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.929,
+     "szek_kanape": 0.98,
+     "ML04_asztalkozep": 0.166
+    },
+    "dx-0.10": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.95
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.7,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.75
+     },
+     "szekkihuzas": [
+      1.3,
+      1.3,
+      1.95,
+      1.95,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.978,
+     "szek_kanape": 0.93,
+     "ML04_asztalkozep": 0.212
+    }
+   },
+   "pultkoz": {
+    "eszaki_resz_K_NY": 0.86,
+    "oszlop_elott": 0.86,
+    "deli_resz_pillér_K": 0.88,
+    "deli_pult_elott_melyseg_a_pillersarokig": 0.38
+   }
+  },
+  "A": {
+   "utak": {
+    "dx+0.00": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.85
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.75,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.65
+     },
+     "szekkihuzas": [
+      1.4,
+      1.4,
+      1.85,
+      1.85,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.88,
+     "szek_kanape": 1.03,
+     "ML04_asztalkozep": 0.124
+    },
+    "dx-0.05": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.9
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.75,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.7
+     },
+     "szekkihuzas": [
+      1.35,
+      1.35,
+      1.9,
+      1.9,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.929,
+     "szek_kanape": 0.98,
+     "ML04_asztalkozep": 0.166
+    },
+    "dx-0.10": {
+     "utak_betolt": {
+      "terasz (tolóajtó, keleti rész)": 0.9,
+      "konyha (a pultsorok közé)": 0.95,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.95
+     },
+     "utak_ulo": {
+      "terasz (tolóajtó, keleti rész)": 0.7,
+      "konyha (a pultsorok közé)": 0.75,
+      "hálók folyosója": 0.9,
+      "05.3 háló ajtaja": 0.75
+     },
+     "szekkihuzas": [
+      1.3,
+      1.3,
+      1.95,
+      1.95,
+      1.35,
+      1.05
+     ],
+     "huto_oszlop_szek_asztal": 0.978,
+     "szek_kanape": 0.93,
+     "ML04_asztalkozep": 0.212
+    }
+   },
+   "pultkoz": {
+    "eszaki_resz_K_NY": 0.86,
+    "deli_resz_pillér_K": 0.88,
+    "geposzlop_elott": 2.08
+   }
+  }
+ },
+ "kiallasok": {
+  "U": {
+   "A902-K02": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 8.498,
+    "y": 2.364,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-T1",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K03": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 8.498,
+    "y": 2.364,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-T1",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K07": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K08": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K09": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D12": {
+    "tipus": "dugalj",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D13": {
+    "tipus": "dugalj",
+    "kod": "H",
+    "x": 10.725,
+    "y": 5.199,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-FL01": {
+    "tipus": "fali_lampakiallas",
+    "kod": "",
+    "x": 10.534,
+    "y": 3.149,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-ML03": {
+    "tipus": "mennyezeti_lampakiallas",
+    "kod": "",
+    "x": 9.499,
+    "y": 2.699,
+    "z": null,
+    "tombok": []
+   },
+   "A902-D02": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 3.79,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D03": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 3.709,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D04": {
+    "tipus": "dugalj",
+    "kod": "MG",
+    "x": 10.525,
+    "y": 3.31,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D05": {
+    "tipus": "dugalj",
+    "kod": "EL",
+    "x": 8.973,
+    "y": 3.224,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     }
+    ]
+   },
+   "A902-D06": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 2.25,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D07": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 2.17,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D08": {
+    "tipus": "dugalj",
+    "kod": "Mi",
+    "x": 9.349,
+    "y": 1.835,
+    "z": 1.3,
+    "tombok": [
+     {
+      "id": "KO-S1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-S1_fedlap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-S1_fozolap",
+      "z": [
+       0.94,
+       0.946
+      ]
+     }
+    ]
+   },
+   "A902-D09": {
+    "tipus": "dugalj",
+    "kod": "S",
+    "x": 9.349,
+    "y": 1.373,
+    "z": 1.1,
+    "tombok": [
+     {
+      "id": "KO-S1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-S1_fedlap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-S1_fozolap",
+      "z": [
+       0.94,
+       0.946
+      ]
+     },
+     {
+      "id": "KO-S2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D10": {
+    "tipus": "dugalj",
+    "kod": "",
+    "x": 10.249,
+    "y": 1.373,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D14": {
+    "tipus": "dugalj",
+    "kod": "M",
+    "x": 10.525,
+    "y": 4.151,
+    "z": null,
+    "tombok": []
+   },
+   "A902-X01": {
+    "tipus": "fix_bekotes",
+    "kod": "S/F",
+    "x": 8.776,
+    "y": 3.224,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     }
+    ]
+   }
+  },
+  "A": {
+   "A902-K02": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 8.498,
+    "y": 2.364,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     }
+    ]
+   },
+   "A902-K03": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 8.498,
+    "y": 2.364,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     }
+    ]
+   },
+   "A902-K07": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K08": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-K09": {
+    "tipus": "kapcsolo",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D12": {
+    "tipus": "dugalj",
+    "kod": "",
+    "x": 10.734,
+    "y": 5.65,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "id": "ET-02",
+      "z": [
+       0.15,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D13": {
+    "tipus": "dugalj",
+    "kod": "H",
+    "x": 10.725,
+    "y": 5.199,
+    "z": null,
+    "tombok": [
+     {
+      "id": "ET-01",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-FL01": {
+    "tipus": "fali_lampakiallas",
+    "kod": "",
+    "x": 10.534,
+    "y": 3.149,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-ML03": {
+    "tipus": "mennyezeti_lampakiallas",
+    "kod": "",
+    "x": 9.499,
+    "y": 2.699,
+    "z": null,
+    "tombok": []
+   },
+   "A902-D02": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 3.79,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D03": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 3.709,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D04": {
+    "tipus": "dugalj",
+    "kod": "MG",
+    "x": 10.525,
+    "y": 3.31,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D05": {
+    "tipus": "dugalj",
+    "kod": "EL",
+    "x": 8.973,
+    "y": 3.224,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-NY_fozolap",
+      "z": [
+       0.94,
+       0.946
+      ]
+     },
+     {
+      "id": "KO-ELSZ",
+      "z": [
+       2.6,
+       2.9
+      ]
+     }
+    ]
+   },
+   "A902-D06": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 2.25,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D07": {
+    "tipus": "dugalj",
+    "kod": "P",
+    "x": 10.525,
+    "y": 2.17,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-K2",
+      "z": [
+       1.45,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D08": {
+    "tipus": "dugalj",
+    "kod": "Mi",
+    "x": 9.349,
+    "y": 1.835,
+    "z": 1.3,
+    "tombok": [
+     {
+      "id": "KO-T1",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D09": {
+    "tipus": "dugalj",
+    "kod": "S",
+    "x": 9.349,
+    "y": 1.373,
+    "z": 1.1,
+    "tombok": [
+     {
+      "id": "KO-T1",
+      "z": [
+       0,
+       2.75
+      ]
+     }
+    ]
+   },
+   "A902-D10": {
+    "tipus": "dugalj",
+    "kod": "",
+    "x": 10.249,
+    "y": 1.373,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-K1",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-K1_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     }
+    ]
+   },
+   "A902-D14": {
+    "tipus": "dugalj",
+    "kod": "M",
+    "x": 10.525,
+    "y": 4.151,
+    "z": null,
+    "tombok": []
+   },
+   "A902-X01": {
+    "tipus": "fix_bekotes",
+    "kod": "S/F",
+    "x": 8.776,
+    "y": 3.224,
+    "z": null,
+    "tombok": [
+     {
+      "id": "KO-NY",
+      "z": [
+       0,
+       0.9
+      ]
+     },
+     {
+      "id": "KO-NY_munkalap",
+      "z": [
+       0.9,
+       0.94
+      ]
+     },
+     {
+      "id": "KO-NY_fozolap",
+      "z": [
+       0.94,
+       0.946
+      ]
+     },
+     {
+      "id": "KO-ELSZ",
+      "z": [
+       2.6,
+       2.9
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "kapcsolo_athelyezes": {
+  "függőleges 4-es keret (≈ 8 cm széles) – a 045 fotón függőleges oszlop": {
+   "uj_kozep_min_y": 5.71,
+   "elmozdulas_eszakra_min_cm": 6.0,
+   "keret_y": [
+    5.67,
+    5.75
+   ],
+   "ajto_tok_modell_y": 6.05,
+   "megj": "a valós ajtótok-borítás szélessége ismeretlen (a modellben nincs); becslés 6–8 cm → szabad falsáv kb. 5,65–5,97"
+  },
+  "vízszintes 4-es keret (≈ 29 cm)": {
+   "uj_kozep_min_y": 5.815,
+   "elmozdulas_eszakra_min_cm": 16.5,
+   "keret_y": [
+    5.67,
+    5.96
+   ],
+   "ajto_tok_modell_y": 6.05,
+   "megj": "a valós ajtótok-borítás szélessége ismeretlen (a modellben nincs); becslés 6–8 cm → szabad falsáv kb. 5,65–5,97"
+  },
+  "alternatíva: K-csonk nyugati lapja": {
+   "uj_hely": "x 10,55 · y ≈ 4,90 (a K-csonk északi végétől 15 cm), z mint most",
+   "elmozdulas": "≈ 0,75 m délre + 0,20 m a visszaugrás körül",
+   "feltetel": "a keleti sor y 4,10-nél ér véget, a K-csonk 0,95 m-es lapja szabad; a tükörsáv csonkítatlan marad"
+  }
+ },
+ "oszlop_max_szelesseg_athelyezes_nelkul_m": 0.55
+}

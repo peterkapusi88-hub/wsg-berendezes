@@ -1,0 +1,1661 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/forras/WSG_A902_v2b1k13_MASOLAT_cam12v3_korrekcio.blend",
+ "sha256_elotte": "e01170d315193f8785bbeee5f7d319ce3c8adec886375962cee83e0a3f70ddbd",
+ "proba": false,
+ "kepek": [
+  {
+   "fajl": "A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_KORR_semleges.png",
+   "mp": 49.4,
+   "sha256": "92f9ebed9e35e2e7b7e2ff1e36b21b951dfc892b017a12333788089526669cef"
+  },
+  {
+   "fajl": "A902_S02_Cam03K1_BIBO_U_tombrender.png",
+   "mp": 59.1,
+   "sha256": "db95fc68f9673c1273472664fa473eb5a1e2c442645b1c17f855c77718b472d1"
+  },
+  {
+   "fajl": "A902_S02_Cam03K1_BIBO_A_tombrender.png",
+   "mp": 54.6,
+   "sha256": "2487529211084223ef47d81999324f2b84c9efcce84d8f55a04c7757a17c4405"
+  },
+  {
+   "fajl": "A902_S02_konyha_BIBO_ures_felulnezet.png",
+   "mp": 65.5,
+   "sha256": "6f8a6031fbf3850a2363d4971ce40460534bc6b605ddae4e8db3b42aa7140c18"
+  },
+  {
+   "fajl": "A902_S02_konyha_BIBO_U_felulnezet.png",
+   "mp": 54.9,
+   "sha256": "836dee05ae8e2db7cfc8d1d4122c0cd41f4c1f5711114d2b381115ba3aa77b1f"
+  },
+  {
+   "fajl": "A902_S02_konyha_BIBO_A_felulnezet.png",
+   "mp": 41.4,
+   "sha256": "1c1dfde1aec9a058d3ed4e0fb26be57a7548bc55844e012a0c0e4d2f58b13646"
+  }
+ ],
+ "validator": {
+  "ures": "PASS – 0 hiba, 0 figyelmeztetés; réteg: []",
+  "U": "FAIL – 11 hiba, 13 figyelmeztetés; réteg: ['Stil_BIBO_U']",
+  "A": "FAIL – 9 hiba, 15 figyelmeztetés; réteg: ['Stil_BIBO_A']"
+ },
+ "vetites": {
+  "K-pultfal déli vége (10,55; 1,35)": [
+   {
+    "P": [
+     10.55,
+     1.35,
+     0.0
+    ],
+    "px": [
+     642.3,
+     587.1,
+     6.2
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     10.55,
+     1.35,
+     2.9
+    ],
+    "px": [
+     642.3,
+     171.3,
+     6.2
+    ],
+    "lathato": false
+   }
+  ],
+  "déli fal nyugati vége = pillér keleti lapja (9,05; 1,35)": [
+   {
+    "P": [
+     9.05,
+     1.35,
+     0.0
+    ],
+    "px": [
+     857.3,
+     587.1,
+     6.2
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     9.05,
+     1.35,
+     2.9
+    ],
+    "px": [
+     857.3,
+     171.3,
+     6.2
+    ],
+    "lathato": true
+   }
+  ],
+  "pillér ÉK-i sarka (9,05; 2,35)": [
+   {
+    "P": [
+     9.05,
+     2.35,
+     0.0
+    ],
+    "px": [
+     868.4,
+     628.4,
+     5.2
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     9.05,
+     2.35,
+     2.9
+    ],
+    "px": [
+     868.4,
+     132.7,
+     5.2
+    ],
+    "lathato": true
+   }
+  ],
+  "pillér ÉNy-i sarka / mellvéd töve (8,35; 2,35)": [
+   {
+    "P": [
+     8.35,
+     2.35,
+     0.0
+    ],
+    "px": [
+     988.0,
+     628.4,
+     5.2
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     8.35,
+     2.35,
+     0.85
+    ],
+    "px": [
+     988.0,
+     483.1,
+     5.2
+    ],
+    "lathato": false
+   }
+  ],
+  "mellvéd északi vége (8,35–8,45; 4,05)": [
+   {
+    "P": [
+     8.45,
+     4.05,
+     0.85
+    ],
+    "px": [
+     1054.0,
+     537.1,
+     3.5
+    ],
+    "lathato": true
+   },
+   {
+    "P": [
+     8.35,
+     4.05,
+     0.85
+    ],
+    "px": [
+     1079.4,
+     537.1,
+     3.5
+    ],
+    "lathato": true
+   }
+  ],
+  "K-csonk/W03-a sarok (10,55→10,75; 5,05)": [
+   {
+    "P": [
+     10.55,
+     5.05,
+     0.0
+    ],
+    "px": [
+     408.9,
+     905.3,
+     2.5
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     10.75,
+     5.05,
+     0.0
+    ],
+    "px": [
+     337.8,
+     905.3,
+     2.5
+    ],
+    "lathato": false
+   }
+  ],
+  "05.3 ajtó déli tok (10,75; 6,05)": [
+   {
+    "P": [
+     10.75,
+     6.05,
+     0.0
+    ],
+    "px": [
+     29.6,
+     1260.9,
+     1.5
+    ],
+    "lathato": false
+   },
+   {
+    "P": [
+     10.75,
+     6.05,
+     2.1
+    ],
+    "px": [
+     29.6,
+     16.4,
+     1.5
+    ],
+    "lathato": false
+   }
+  ],
+  "K07–K09 doboz (10,734; 5,65; ~1,10)": [
+   {
+    "P": [
+     10.734,
+     5.65,
+     1.1
+    ],
+    "px": [
+     199.3,
+     559.1,
+     1.9
+    ],
+    "lathato": false
+   }
+  ],
+  "FL01 (10,534; 3,149)": [
+   {
+    "P": [
+     10.534,
+     3.149,
+     2.0
+    ],
+    "px": [
+     581.1,
+     271.0,
+     4.401
+    ],
+    "lathato": false
+   }
+  ],
+  "ML03 (9,499; 2,699)": [
+   {
+    "P": [
+     9.499,
+     2.699,
+     2.9
+    ],
+    "px": [
+     791.0,
+     115.5,
+     4.851
+    ],
+    "lathato": true
+   }
+  ]
+ },
+ "blokkok": {
+  "U_KO_K1": {
+   "bbox": [
+    9.93,
+    1.35,
+    0.0,
+    10.55,
+    4.1,
+    0.9
+   ],
+   "kep_px": [
+    517,
+    458,
+    731,
+    758
+   ],
+   "kozep_px": [
+    654.5,
+    565.4,
+    4.825
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_K1_munkalap": {
+   "bbox": [
+    9.93,
+    1.35,
+    0.9,
+    10.55,
+    4.1,
+    0.94
+   ],
+   "kep_px": [
+    517,
+    452,
+    731,
+    527
+   ],
+   "kozep_px": [
+    654.5,
+    478.9,
+    4.825
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_K1_mosogato": {
+   "bbox": [
+    10.02,
+    3.3,
+    0.935,
+    10.46,
+    3.8,
+    0.942
+   ],
+   "kep_px": [
+    561,
+    489,
+    681,
+    506
+   ],
+   "kozep_px": [
+    624.4,
+    496.8,
+    4.0
+   ],
+   "kozep_lathato": false
+  },
+  "U_ET_01": {
+   "bbox": [
+    10.13,
+    5.05,
+    0.0,
+    10.75,
+    5.65,
+    2.75
+   ],
+   "kep_px": [
+    192,
+    0,
+    558,
+    1000
+   ],
+   "kozep_px": [
+    400.0,
+    422.5,
+    2.2
+   ],
+   "kozep_lathato": false
+  },
+  "U_ET_02": {
+   "bbox": [
+    10.74,
+    5.65,
+    0.15,
+    10.75,
+    6.05,
+    2.75
+   ],
+   "kep_px": [
+    30,
+    0,
+    196,
+    1000
+   ],
+   "kozep_px": [
+    122.9,
+    398.1,
+    1.7
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_01": {
+   "bbox": [
+    8.0,
+    5.4,
+    0.72,
+    8.9,
+    7.0,
+    0.75
+   ],
+   "kep_px": [
+    1027,
+    682,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1458.4,
+    875.7,
+    1.35
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_01b": {
+   "bbox": [
+    8.25,
+    6.0,
+    0.0,
+    8.65,
+    6.4,
+    0.72
+   ],
+   "kep_px": [
+    1259,
+    819,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1458.4,
+    1122.6,
+    1.35
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02a": {
+   "objektumok": [
+    "U_DI_02a_ules",
+    "U_DI_02a_hat"
+   ]
+  },
+  "U_DI_02b": {
+   "objektumok": [
+    "U_DI_02b_ules",
+    "U_DI_02b_hat"
+   ]
+  },
+  "U_DI_02c": {
+   "objektumok": [
+    "U_DI_02c_ules",
+    "U_DI_02c_hat"
+   ]
+  },
+  "U_DI_02d": {
+   "objektumok": [
+    "U_DI_02d_ules",
+    "U_DI_02d_hat"
+   ]
+  },
+  "U_DI_02e": {
+   "objektumok": [
+    "U_DI_02e_ules",
+    "U_DI_02e_hat"
+   ]
+  },
+  "U_DI_02f": {
+   "objektumok": [
+    "U_DI_02f_ules",
+    "U_DI_02f_hat"
+   ]
+  },
+  "U_DI_03": {
+   "bbox": [
+    8.186,
+    5.911,
+    1.6,
+    8.911,
+    6.636,
+    1.87
+   ],
+   "kep_px": [
+    1092,
+    12,
+    1600,
+    318
+   ],
+   "kozep_px": [
+    1427.7,
+    208.3,
+    1.276
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_03k": {
+   "bbox": [
+    8.544,
+    6.269,
+    1.87,
+    8.554,
+    6.279,
+    2.9
+   ],
+   "kep_px": [
+    1422,
+    0,
+    1434,
+    115
+   ],
+   "kozep_px": [
+    1427.7,
+    -244.5,
+    1.276
+   ],
+   "kozep_lathato": true
+  },
+  "U_KO_S1": {
+   "bbox": [
+    9.05,
+    1.35,
+    0.0,
+    9.93,
+    1.97,
+    0.9
+   ],
+   "kep_px": [
+    724,
+    458,
+    864,
+    611
+   ],
+   "kozep_px": [
+    794.0,
+    530.5,
+    5.89
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_S1_fedlap": {
+   "bbox": [
+    9.05,
+    1.35,
+    0.9,
+    9.93,
+    1.97,
+    0.94
+   ],
+   "kep_px": [
+    724,
+    452,
+    864,
+    468
+   ],
+   "kozep_px": [
+    794.0,
+    459.5,
+    5.89
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_S1_fozolap": {
+   "bbox": [
+    9.2,
+    1.42,
+    0.94,
+    9.78,
+    1.93,
+    0.946
+   ],
+   "kep_px": [
+    748,
+    452,
+    840,
+    461
+   ],
+   "kozep_px": [
+    793.9,
+    456.3,
+    5.875
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_K2": {
+   "bbox": [
+    10.18,
+    1.35,
+    1.45,
+    10.55,
+    4.1,
+    2.75
+   ],
+   "kep_px": [
+    517,
+    50,
+    695,
+    385
+   ],
+   "kozep_px": [
+    631.4,
+    261.5,
+    4.825
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_S2": {
+   "bbox": [
+    9.05,
+    1.35,
+    1.45,
+    10.18,
+    1.72,
+    2.75
+   ],
+   "kep_px": [
+    689,
+    181,
+    861,
+    380
+   ],
+   "kozep_px": [
+    775.6,
+    283.3,
+    6.015
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_T1": {
+   "bbox": [
+    8.45,
+    2.35,
+    0.0,
+    9.07,
+    2.95,
+    2.75
+   ],
+   "kep_px": [
+    865,
+    130,
+    993,
+    662
+   ],
+   "kozep_px": [
+    925.2,
+    394.7,
+    4.9
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_T1_suto": {
+   "bbox": [
+    9.07,
+    2.42,
+    0.82,
+    9.075,
+    2.88,
+    1.88
+   ],
+   "kep_px": [
+    865,
+    300,
+    872,
+    501
+   ],
+   "kozep_px": [
+    868.5,
+    399.2,
+    4.9
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_NY": {
+   "bbox": [
+    8.45,
+    2.95,
+    0.0,
+    9.07,
+    4.05,
+    0.9
+   ],
+   "kep_px": [
+    873,
+    488,
+    1054,
+    753
+   ],
+   "kozep_px": [
+    951.4,
+    602.5,
+    4.05
+   ],
+   "kozep_lathato": false
+  },
+  "U_KO_NY_munkalap": {
+   "bbox": [
+    8.35,
+    2.95,
+    0.9,
+    9.07,
+    4.05,
+    0.94
+   ],
+   "kep_px": [
+    873,
+    480,
+    1079,
+    524
+   ],
+   "kozep_px": [
+    962.4,
+    499.3,
+    4.05
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_K1": {
+   "bbox": [
+    9.93,
+    1.35,
+    0.0,
+    10.55,
+    4.1,
+    0.9
+   ],
+   "kep_px": [
+    517,
+    458,
+    731,
+    758
+   ],
+   "kozep_px": [
+    654.5,
+    565.4,
+    4.825
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_K1_munkalap": {
+   "bbox": [
+    9.93,
+    1.35,
+    0.9,
+    10.55,
+    4.1,
+    0.94
+   ],
+   "kep_px": [
+    517,
+    452,
+    731,
+    527
+   ],
+   "kozep_px": [
+    654.5,
+    478.9,
+    4.825
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_K1_mosogato": {
+   "bbox": [
+    10.02,
+    3.3,
+    0.935,
+    10.46,
+    3.8,
+    0.942
+   ],
+   "kep_px": [
+    561,
+    489,
+    681,
+    506
+   ],
+   "kozep_px": [
+    624.4,
+    496.8,
+    4.0
+   ],
+   "kozep_lathato": false
+  },
+  "A_ET_01": {
+   "bbox": [
+    10.13,
+    5.05,
+    0.0,
+    10.75,
+    5.65,
+    2.75
+   ],
+   "kep_px": [
+    192,
+    0,
+    558,
+    1000
+   ],
+   "kozep_px": [
+    400.0,
+    422.5,
+    2.2
+   ],
+   "kozep_lathato": false
+  },
+  "A_ET_02": {
+   "bbox": [
+    10.74,
+    5.65,
+    0.15,
+    10.75,
+    6.05,
+    2.75
+   ],
+   "kep_px": [
+    30,
+    0,
+    196,
+    1000
+   ],
+   "kozep_px": [
+    122.9,
+    398.1,
+    1.7
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_01": {
+   "bbox": [
+    8.0,
+    5.4,
+    0.72,
+    8.9,
+    7.0,
+    0.75
+   ],
+   "kep_px": [
+    1027,
+    682,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1458.4,
+    875.7,
+    1.35
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_01b": {
+   "bbox": [
+    8.25,
+    6.0,
+    0.0,
+    8.65,
+    6.4,
+    0.72
+   ],
+   "kep_px": [
+    1259,
+    819,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1458.4,
+    1122.6,
+    1.35
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02a": {
+   "objektumok": [
+    "A_DI_02a_ules",
+    "A_DI_02a_hat"
+   ]
+  },
+  "A_DI_02b": {
+   "objektumok": [
+    "A_DI_02b_ules",
+    "A_DI_02b_hat"
+   ]
+  },
+  "A_DI_02c": {
+   "objektumok": [
+    "A_DI_02c_ules",
+    "A_DI_02c_hat"
+   ]
+  },
+  "A_DI_02d": {
+   "objektumok": [
+    "A_DI_02d_ules",
+    "A_DI_02d_hat"
+   ]
+  },
+  "A_DI_02e": {
+   "objektumok": [
+    "A_DI_02e_ules",
+    "A_DI_02e_hat"
+   ]
+  },
+  "A_DI_02f": {
+   "objektumok": [
+    "A_DI_02f_ules",
+    "A_DI_02f_hat"
+   ]
+  },
+  "A_DI_03": {
+   "bbox": [
+    8.186,
+    5.911,
+    1.6,
+    8.911,
+    6.636,
+    1.87
+   ],
+   "kep_px": [
+    1092,
+    12,
+    1600,
+    318
+   ],
+   "kozep_px": [
+    1427.7,
+    208.3,
+    1.276
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_03k": {
+   "bbox": [
+    8.544,
+    6.269,
+    1.87,
+    8.554,
+    6.279,
+    2.9
+   ],
+   "kep_px": [
+    1422,
+    0,
+    1434,
+    115
+   ],
+   "kozep_px": [
+    1427.7,
+    -244.5,
+    1.276
+   ],
+   "kozep_lathato": true
+  },
+  "A_KO_T1": {
+   "bbox": [
+    9.05,
+    1.35,
+    0.0,
+    9.65,
+    1.97,
+    2.75
+   ],
+   "kep_px": [
+    768,
+    173,
+    864,
+    611
+   ],
+   "kozep_px": [
+    815.1,
+    390.9,
+    5.89
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_T1_suto": {
+   "bbox": [
+    9.12,
+    1.97,
+    0.8,
+    9.58,
+    1.975,
+    1.86
+   ],
+   "kep_px": [
+    779,
+    315,
+    853,
+    484
+   ],
+   "kozep_px": [
+    815.9,
+    399.1,
+    5.578
+   ],
+   "kozep_lathato": true
+  },
+  "A_KO_S1": {
+   "bbox": [
+    9.65,
+    1.35,
+    0.0,
+    9.93,
+    1.97,
+    0.9
+   ],
+   "kep_px": [
+    724,
+    458,
+    771,
+    611
+   ],
+   "kozep_px": [
+    748.7,
+    530.5,
+    5.89
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_S1_fedlap": {
+   "bbox": [
+    9.65,
+    1.35,
+    0.9,
+    9.93,
+    1.97,
+    0.94
+   ],
+   "kep_px": [
+    724,
+    452,
+    771,
+    468
+   ],
+   "kozep_px": [
+    748.7,
+    459.5,
+    5.89
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_K2": {
+   "bbox": [
+    10.18,
+    1.97,
+    1.45,
+    10.55,
+    4.1,
+    2.75
+   ],
+   "kep_px": [
+    517,
+    50,
+    684,
+    385
+   ],
+   "kozep_px": [
+    619.9,
+    253.9,
+    4.515
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_NY": {
+   "bbox": [
+    8.45,
+    2.35,
+    0.0,
+    9.07,
+    4.05,
+    0.9
+   ],
+   "kep_px": [
+    865,
+    475,
+    1054,
+    753
+   ],
+   "kozep_px": [
+    941.0,
+    586.6,
+    4.35
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_NY_munkalap": {
+   "bbox": [
+    8.35,
+    2.35,
+    0.9,
+    9.07,
+    4.05,
+    0.94
+   ],
+   "kep_px": [
+    865,
+    468,
+    1079,
+    524
+   ],
+   "kozep_px": [
+    951.2,
+    490.5,
+    4.35
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_NY_fozolap": {
+   "bbox": [
+    8.52,
+    2.93,
+    0.94,
+    9.03,
+    3.51,
+    0.946
+   ],
+   "kep_px": [
+    881,
+    479,
+    1005,
+    495
+   ],
+   "kozep_px": [
+    938.6,
+    486.3,
+    4.33
+   ],
+   "kozep_lathato": false
+  },
+  "A_KO_ELSZ": {
+   "bbox": [
+    8.53,
+    2.77,
+    2.6,
+    9.03,
+    3.67,
+    2.9
+   ],
+   "kep_px": [
+    878,
+    51,
+    1011,
+    167
+   ],
+   "kozep_px": [
+    937.5,
+    115.4,
+    4.33
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02a_ules": {
+   "bbox": [
+    7.63,
+    5.838,
+    0.0,
+    8.18,
+    6.363,
+    0.45
+   ],
+   "kep_px": [
+    1459,
+    917,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1747.1,
+    1153.6,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02a_hat": {
+   "bbox": [
+    7.63,
+    5.838,
+    0.45,
+    7.69,
+    6.363,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    1897.3,
+    923.7,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02b_ules": {
+   "bbox": [
+    7.63,
+    6.438,
+    0.0,
+    8.18,
+    6.963,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2415.7,
+    1705.3,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02b_hat": {
+   "bbox": [
+    7.63,
+    6.438,
+    0.45,
+    7.69,
+    6.963,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2671.9,
+    1313.2,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02c_ules": {
+   "bbox": [
+    8.72,
+    5.838,
+    0.0,
+    9.27,
+    6.363,
+    0.45
+   ],
+   "kep_px": [
+    893,
+    917,
+    1346,
+    1000
+   ],
+   "kozep_px": [
+    1078.9,
+    1153.6,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02c_hat": {
+   "bbox": [
+    9.21,
+    5.838,
+    0.45,
+    9.27,
+    6.363,
+    0.75
+   ],
+   "kep_px": [
+    893,
+    761,
+    980,
+    1000
+   ],
+   "kozep_px": [
+    928.7,
+    923.7,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02d_ules": {
+   "bbox": [
+    8.72,
+    6.438,
+    0.0,
+    9.27,
+    6.963,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    1275.8,
+    1705.3,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02d_hat": {
+   "bbox": [
+    9.21,
+    6.438,
+    0.45,
+    9.27,
+    6.963,
+    0.75
+   ],
+   "kep_px": [
+    944,
+    971,
+    1163,
+    1000
+   ],
+   "kozep_px": [
+    1019.6,
+    1313.2,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02e_ules": {
+   "bbox": [
+    8.188,
+    5.03,
+    0.0,
+    8.712,
+    5.58,
+    0.45
+   ],
+   "kep_px": [
+    1060,
+    742,
+    1370,
+    1000
+   ],
+   "kozep_px": [
+    1195.9,
+    876.8,
+    2.245
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02e_hat": {
+   "bbox": [
+    8.188,
+    5.03,
+    0.45,
+    8.712,
+    5.09,
+    0.75
+   ],
+   "kep_px": [
+    1060,
+    637,
+    1256,
+    751
+   ],
+   "kozep_px": [
+    1157.0,
+    693.3,
+    2.49
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02f_ules": {
+   "bbox": [
+    8.188,
+    6.82,
+    0.0,
+    8.712,
+    7.37,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2753.6,
+    2862.8,
+    0.455
+   ],
+   "kozep_lathato": false
+  },
+  "U_DI_02f_hat": {
+   "bbox": [
+    8.188,
+    7.31,
+    0.45,
+    8.712,
+    7.37,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    5032.8,
+    4181.5,
+    0.21
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02a_ules": {
+   "bbox": [
+    7.63,
+    5.838,
+    0.0,
+    8.18,
+    6.363,
+    0.45
+   ],
+   "kep_px": [
+    1459,
+    917,
+    1600,
+    1000
+   ],
+   "kozep_px": [
+    1747.1,
+    1153.6,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02a_hat": {
+   "bbox": [
+    7.63,
+    5.838,
+    0.45,
+    7.69,
+    6.363,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    1897.3,
+    923.7,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02b_ules": {
+   "bbox": [
+    7.63,
+    6.438,
+    0.0,
+    8.18,
+    6.963,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2415.7,
+    1705.3,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02b_hat": {
+   "bbox": [
+    7.63,
+    6.438,
+    0.45,
+    7.69,
+    6.963,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2671.9,
+    1313.2,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02c_ules": {
+   "bbox": [
+    8.72,
+    5.838,
+    0.0,
+    9.27,
+    6.363,
+    0.45
+   ],
+   "kep_px": [
+    893,
+    917,
+    1346,
+    1000
+   ],
+   "kozep_px": [
+    1078.9,
+    1153.6,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02c_hat": {
+   "bbox": [
+    9.21,
+    5.838,
+    0.45,
+    9.27,
+    6.363,
+    0.75
+   ],
+   "kep_px": [
+    893,
+    761,
+    980,
+    1000
+   ],
+   "kozep_px": [
+    928.7,
+    923.7,
+    1.45
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02d_ules": {
+   "bbox": [
+    8.72,
+    6.438,
+    0.0,
+    9.27,
+    6.963,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    1275.8,
+    1705.3,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02d_hat": {
+   "bbox": [
+    9.21,
+    6.438,
+    0.45,
+    9.27,
+    6.963,
+    0.75
+   ],
+   "kep_px": [
+    944,
+    971,
+    1163,
+    1000
+   ],
+   "kozep_px": [
+    1019.6,
+    1313.2,
+    0.85
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02e_ules": {
+   "bbox": [
+    8.188,
+    5.03,
+    0.0,
+    8.712,
+    5.58,
+    0.45
+   ],
+   "kep_px": [
+    1060,
+    742,
+    1370,
+    1000
+   ],
+   "kozep_px": [
+    1195.9,
+    876.8,
+    2.245
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02e_hat": {
+   "bbox": [
+    8.188,
+    5.03,
+    0.45,
+    8.712,
+    5.09,
+    0.75
+   ],
+   "kep_px": [
+    1060,
+    637,
+    1256,
+    751
+   ],
+   "kozep_px": [
+    1157.0,
+    693.3,
+    2.49
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02f_ules": {
+   "bbox": [
+    8.188,
+    6.82,
+    0.0,
+    8.712,
+    7.37,
+    0.45
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    2753.6,
+    2862.8,
+    0.455
+   ],
+   "kozep_lathato": false
+  },
+  "A_DI_02f_hat": {
+   "bbox": [
+    8.188,
+    7.31,
+    0.45,
+    8.712,
+    7.37,
+    0.75
+   ],
+   "kep_px": null,
+   "kozep_px": [
+    5032.8,
+    4181.5,
+    0.21
+   ],
+   "kozep_lathato": false
+  }
+ },
+ "validator_forras": {
+  "lock": "/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/forras/geometry_lock_A902_v2b.json",
+  "lock_sha": "2ca9373596b3445d984ad1fdbaaa9d12848c21b25908f6dc8d7fdfc3f9eb3d1b",
+  "villamos_sha": "f881dcceb5f8c99df098f11e5ac7e9fd06eee0f1f226e34cc94647445bb04c4c",
+  "validator_sha": "b7d7f6a678f3ccc6bf0dd06023073f879d85a1aab916c101ad097f08129e8d77"
+ },
+ "kamera": {
+  "loc": [
+   9.45,
+   7.55,
+   1.5
+  ],
+  "rot_deg": [
+   90.0,
+   0.0,
+   -180.0
+  ],
+  "lens": 20.0,
+  "shift_y": -0.08,
+  "sensor": [
+   36.0,
+   "AUTO"
+  ],
+  "res": [
+   1600,
+   1000
+  ]
+ },
+ "render": {
+  "engine": "BLENDER_EEVEE",
+  "device": "GPU",
+  "samples": 256,
+  "denoise": true,
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "feny_W": 220.0
+ },
+ "sha256_utana": "e01170d315193f8785bbeee5f7d319ce3c8adec886375962cee83e0a3f70ddbd",
+ "mentve": false,
+ "dirty_a_futas_vegen": true
+}

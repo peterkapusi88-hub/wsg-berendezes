@@ -1,0 +1,17 @@
+00:00.016  color_management | Using OCIO=/Applications/Blender.app/Contents/Resources/5.2/datafiles/colormanagement/config.ocio
+00:00.757  blend            | Read blend: "/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/forras/WSG_A902_v2b1k13_MASOLAT_cam12v3_korrekcio.blend"
+/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/11_render_cam03_bibo.py:86: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new('JEL_b_' + nev); m.use_nodes = True; b = m.node_tree.nodes['Principled BSDF']
+00:50.537  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_KORR_semleges.png'
+01:49.673  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_S02_Cam03K1_BIBO_U_tombrender.png'
+02:44.318  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_S02_Cam03K1_BIBO_A_tombrender.png'
+03:49.851  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_S02_konyha_BIBO_ures_felulnezet.png'
+04:44.777  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_S02_konyha_BIBO_U_felulnezet.png'
+05:26.201  render           | Saved: '/Users/peterkapusi/Downloads/WSG_CAM12_V3_KORREKCIO/bibo/A902_S02_konyha_BIBO_A_felulnezet.png'
+PASS – 0 hiba, 0 figyelmeztetés; réteg: []
+FAIL – 11 hiba, 13 figyelmeztetés; réteg: ['Stil_BIBO_U']
+FAIL – 9 hiba, 15 figyelmeztetés; réteg: ['Stil_BIBO_A']
+KESZ {'ures': 'PASS – 0 hiba, 0 figyelmeztetés; réteg: []', 'U': "FAIL – 11 hiba, 13 figyelmeztetés; réteg: ['Stil_BIBO_U']", 'A': "FAIL – 9 hiba, 15 figyelmeztetés; réteg: ['Stil_BIBO_A']"}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
