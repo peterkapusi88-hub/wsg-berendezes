@@ -7,3 +7,5 @@ CP0 – 2026-10-25 06:48 Europe/Budapest: 53265536283efd216d0334cebee045dd4cbe00
 CP1.01: Kyoto Ink teljes stílusspecifikáció mentése – 0d219691e5d7b16fdd325c53a336a71f6da496b4 – 2026-10-25T04:54:10.833Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.02: BiBo Nocturne teljes stílusspecifikáció mentése – 1b48b0d5c977ad375bce0d3f983f2a396349e301 – 2026-10-25T04:57:52.753Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1.03: Alelí Casa teljes stílusspecifikáció mentése – 668e1c672b1dcc376c7d29333c282f7b148e417c – 2026-10-25T04:58:07.030Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
