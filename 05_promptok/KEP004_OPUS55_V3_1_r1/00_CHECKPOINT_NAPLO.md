@@ -13,4 +13,5 @@ Bázis: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Mentésnek csak a távoli Gi
 | CP1f | 2026-10-25 06:16 | S09, S10 stílus-specifikáció (DRAFT) – a tíz stílus kreatív specifikációja teljes, tételes lista/költség a CP2-től | `07004640881c17bef262cde6f33ea6c40ba79a3d` | OK – távoli fej = 0700464…, egyezik |
 | CP2a | 2026-10-25 06:19 | a négy kiemelt mintaprompt: S01/S02 × Cam_02/Cam_12 (S01 COMPLETE; S02 DRAFT – a 160×90-es asztal, a JÄTTEBO-huzat és az ML04 termékellenőrzése folyik) | `5970ff8a9ee0577ee50215b5c114ce01981c0ac2` | OK – távoli fej = 5970ff8…, egyezik |
 | CP2b | 2026-10-25 06:22 | S01/S02 mind a 12 prompt (a négy kiemelt termékadattal kiegészítve, a többi nyolc új); termékek a 2026-10-25-i Westwing/IKEA-ellenőrzés szerint | `c6ab694518e9bb57a40b1d5a4b49749482a46294` | OK – távoli fej = c6ab694…, egyezik |
-| CP3 | 2026-10-25 06:26 | S03 Alelí Casa – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
+| CP3 | 2026-10-25 06:26 | S03 Alelí Casa – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | `db1925e7a226513624eac252cc7bf5f81e602a1b` | OK – távoli fej = db1925e…, egyezik |
+| CP4 | 2026-10-25 06:26 | S04 LA Horizon – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
