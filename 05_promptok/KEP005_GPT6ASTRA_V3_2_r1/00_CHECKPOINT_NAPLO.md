@@ -15,3 +15,5 @@ CP-S12-priority: Organic relief and supplied montage incorporated | 696188690c12
 CP-S12-complete: six full Organic base prompts | 452de00bf13467abdbe6c65ea9ede985cc41b3dd | 2026-10-25T20:23:16.281450+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 CP-S13-complete: six Westside Grand Continuum prompts | 5ae65758fdde2ecc1cb1693487fcf6866a702d34 | 2026-10-25T20:23:33.417771+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+CP-S14-complete: six Modern White Luxury prompts | 318a59e2fad03a78473ba69ac8546e2217a0b8cd | 2026-10-25T20:24:08.835938+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
