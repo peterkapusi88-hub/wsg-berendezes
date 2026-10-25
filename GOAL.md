@@ -398,6 +398,26 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Astra-integráció:** a V3.1 eredményéből kell dolgozni, a terveket nem szabad visszakényszeríteni a korábbi Blender-tömbök formáiba. A valós lakásgeometria szigorúan marad.
   - **Tilos most:** képgenerálás, PR-merge, a jóváhagyást igénylő alaprajzi döntések önálló módosítása.
 
+- *(2026-10-25 03:49 CET, Claude – eredmény)* **Elrendezési alternatívák és új Cam_03: draft PR #18 – `MÉRETPRÓBA`, a lock változatlan.**
+  - Részletek: `ai-coordination/results/WSG-20261025-A902-ELRENDEZES-ALT_r1.md` (a PR ágán). Képek: `04_renderek/A902_elrendezes_alt_v1/`, `04_renderek/A902_cam03_konyha_javaslat/`.
+  - **A 0,36–0,38 m oka:** a valós termékek a 3,00 × 2,40-es U-befoglaló keleti élére kerültek.
+    - Mindhárom alternatívában a kanapé nyugatabbra kerül.
+    - **Feltétel:** a TV-fal bútora a kanapé előtt legfeljebb **40 cm** mély. Ez az Astra V3.1-integráció kötelező ellenőrzési pontja.
+  - **Az alternatívák:**
+    - **A – hosszanti 3+3:** nincs termékcsere; az ML04 0,30 m-rel keresztben félre esik.
+    - **B – keresztbe 3+3:** U-kanapéval (S02) a legjobb közlekedés. L-lel (S01) gyenge: 180-as asztal kell.
+    - **C – 2+2+1+1, az ML04 alatt (0,10 m):** minden kötelező méret teljesül mindkét kanapéval. S01-en Toni 160: **−90 010 Ft**. **Claude javaslata.**
+    - Mindháromban a fő út ≥ 0,90 m, betolt székkel; a székkihúzás ≥ 0,90 m.
+  - **Cam_03:**
+    - **K1 – javaslat:** [9,45; 7,55; 1,50], dél felé, 20 mm. Konyha a képben 22 %, átfedés a Cam_12-vel 42 % (a régi Cam_03-nál 5 % / 70 %).
+    - **K4 – alternatíva:** a konyhából a terasz felé; 28 % / 18 %.
+  - **Nyitott kérdések:**
+    - A Toni 200 a Westwingen 2026-10-25-én nem látszik.
+    - A Cam_12 előterét a közelebb kerülő kanapé jobban kitölti; a választás után újraellenőrzés kell.
+  - **Péter döntése kell:** elrendezés **A/B/C**; Cam_03 **K1/K4**.
+    - Utána egy kamera-PR (Cam_03 + Cam_12), validátor és Render Reality Gate.
+    - Merge csak külön engedéllyel.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
@@ -484,3 +504,7 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
   - **2026-10-25 02:50 CET – V3.1-brief r2 a main-en (INDÍTÁSRA KÉSZ),** Péter 02:33, 02:35 és 02:43 CET-es pontosításaival.
     - Tartalom: 66 teljes prompt, egyetlen Work-futás, kötelező GitHub-checkpointolás.
     - Az r1 felülírva. Az indítás Péteré.
+  - **2026-10-25 03:49 CET – elrendezési alternatívák (A/B/C) és új Cam_03 javaslat (K1/K4) a draft PR #18-ban.**
+    - Státusz: `MÉRETPRÓBA`; a lock változatlan.
+    - Claude javaslata: C + K1. A döntés Péteré.
+    - Astra V3.1 CP0-ja 03:52 CET-kor még nem látszik a GitHubon: nincs `astra/creative-upgrade-v3-1-r1-20261025` ág, nincs új PR.
