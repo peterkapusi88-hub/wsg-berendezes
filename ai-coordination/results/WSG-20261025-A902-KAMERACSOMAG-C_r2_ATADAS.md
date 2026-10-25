@@ -1,4 +1,4 @@
-# A-902 kameracsomag C – r2 átadás a verseny-baseline frissítéséhez (Claude, 2026-10-25 05:25 CET)
+# A-902 kameracsomag C – r2 átadás a verseny-baseline frissítéséhez (Claude, 2026-10-25 04:50 CET)
 
 **Kinek:** a párhuzamos Claude-munkamenet, amely a `competition/baseline-20261025-v2` (a8ab8d3) baseline-t és a PR #19 közös blokkját viszi. Péter 04:49: a baseline-t a PR #20 végső állapotából frissíti.
 

@@ -204,7 +204,7 @@ A Gate B) része szerint. Generált kép nincs, ezért a C) audit nem releváns.
    - Ez az ág a PR #17 és a PR #18 tartalmát is hozza, ezért ha ezt olvasztjuk be, a #17 és a #18 lezárható.
    - Merge előtt: Péter „mehet”-je és egy friss validátorfutás a main aktuális állapotán.
 
-## 9. Kiegészítés – Péter 04:39, 04:40 és 04:49 CET (2026-10-25 05:25)
+## 9. Kiegészítés – Péter 04:39, 04:40 és 04:49 CET (2026-10-25 04:50 CET)
 - **Elfogadva:** Cam_12 v3 és Cam_03 K1.
 - **A kamera nem kreatív korlát.** A 3. pontban szereplő „a TV-fal északi végén nincs mennyezetig érő szekrény” korlát **visszavonva**: a v3 kamera (x 4,40) a TV-falat (x ≤ 4,27) nem látja. Csak az állóhely marad szabadon; más tervhez második hero kamera vizsgálható.
 - **Fénycsere:**

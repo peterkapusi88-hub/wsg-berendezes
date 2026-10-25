@@ -1,4 +1,4 @@
-# A-902 – közös geometriai és fénybemenet a tervversenyhez (v2, Claude, 2026-10-25 05:10 CET)
+# A-902 – közös geometriai és fénybemenet a tervversenyhez (v2, Claude, 2026-10-25 04:50 CET)
 
 **Kinek:** Astra, Fable és Opus – mindhárom versenyzőnek szó szerint azonos.
 - Helye: a draft PR #20 (`kep004/kameracsomag-C-K1`).
