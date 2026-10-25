@@ -33,3 +33,5 @@ CP-S03-hero – ket teljes nappali prompt | e1eb0453687d5db09cd4187ad3dd3ae726c6
 CP-S04-hero – ket teljes nappali prompt | 2b3ccaa42159b0c2cd14f326219267c3d729f53e | 2026-10-25T15:08:38.426235+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S05-hero – ket teljes nappali prompt | 540a81136f9a9c404bea79e39b94f9ad49b5328f | 2026-10-25T15:08:48.737705+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S06-hero – ket teljes nappali prompt | a704b5448ff59c532e5950eb980a47db9590838c | 2026-10-25T15:09:00.672998+00:00 | távoli tartalom-visszaolvasás PASS
