@@ -511,7 +511,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Ne tiltsuk általánosan:** sem a TV-fal északi részét a kamera miatt, sem a kerek vagy ovális asztalt; minden eltérő forma külön méretpróbát kap.
   - **A közös baseline v2** (`a8ab8d3`, a másik munkamenet) indítása felfüggesztve, amíg a PR #20 kész nincs. A baseline-t a másik munkamenet frissíti.
   - **Nincs** merge és képgenerálás.
-- *(2026-10-25 04:52 CET, Claude – eredmény)* **PR #20 végleges: `25a2ec1`.**
+- *(2026-10-25 04:52 CET, Claude – eredmény)* **PR #20 végleges: `f190e5f`** (a tartalom `25a2ec1`, utána csak időpontjavítás).
   - **Fénycsere:** a `GEOMETRIA_C_KAMERACSOMAG_v2.md`-ben.
   - **A Cam_12 v3 a TV-falat nem látja** → a TV-fal északi vége szabad; a v1 korlát visszavonva.
   - **Kerek asztal, Blender-próba (validátor PASS):**
