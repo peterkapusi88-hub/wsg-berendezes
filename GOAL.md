@@ -247,6 +247,18 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Nyitott döntések:**
     - a kanapéhát és a nyugati széktámla között 0,36–0,38 m van (az étkező 0,15 m-rel keletre tolható);
     - a D18 dugalj a magas szekrény mögé esik, szervizkivágás kell.
+- *(2026-10-25 03:00, Claude – javaslat, Péter dönt)* **A hero kamera: Cam_12_Nappali_Hero v2.**
+  - Hely és optika: az ÉNy-i sarok [3,95; 7,90; 1,45], délkelet felé, vízszintesen, 22 mm, shift −0,08.
+  - Draft PR #17 (v2b-1-k12). Validátor: üres PASS, S01/S02 V3 tömb PASS 0/8.
+  - Látszik: a kanapé eleje, az étkező (ML04 függeszték is), a konyha pultfala, a W03 a 05.3 ajtóval, a **W02** és a **közlekedő torka (W07)**.
+  - Vizsgálva: K1/K2 ÉNy, K3 DNy (panorámás, de konyha és összekötő fal nélkül), H1 tengelyes, 20/22/24 mm.
+  - **Döntésre:**
+    - a Cam_12 és a Cam_03 átfedése (marad, vagy a Cam_03 a konyhára irányul);
+    - az étkező 0,15 m-rel keletre kerüljön-e;
+    - a D18 szervizkivágás;
+    - a konyhabútor (nincs gyári) stílusonként a V3.1-ben.
+  - V3.1-bemenet (látható falszakaszok, összekötő fal, LED-keret kiállásokkal): `ai-coordination/requests/WSG-20261025-ASTRA-V3_1_INPUT_Cam12_falak_vilagitas.md`.
+  - 66 képes keret (regiszter, adagok, átvétel v2, ellenőrzőlista): `05_promptok/KEP004_66_kep_keret_v1/`.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -321,3 +333,6 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
     - Prompt: `05_promptok/KEP004_ChatGPT_Images_V3_teszt/` (V3 r1 + geometriai v2 + V3 tömbkép 1b-ként).
     - Az elrendezés helyes. A geometria a terasz felőli padlósíkon 10–13,5 %-kal eltér, ezért FAIL. Mindkét kép `KONCEPCIÓ – NEM VALIDÁLT`.
     - Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md`. A végleges sorozat Astra V3.1 után jön.
+  - **2026-10-25 03:00 – a hero kamera javaslata draft PR #17-ben** (Cam_12 v2, ÉNy-i sarok, 22 mm). V3.1-bemenet és 66 képes keret a main-en.
+    - Következő adag-javaslat: **A0** – egy geometriajavító próbakép szerkesztő módban (S01 Cam_02), Péter „mehet”-jével.
+    - Utána V3.1 után **A1/A2**: S01/S02 Cam_02 végleges + S01/S02 Cam_12 hero.
