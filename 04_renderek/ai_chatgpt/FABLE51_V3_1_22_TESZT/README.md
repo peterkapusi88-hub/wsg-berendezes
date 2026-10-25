@@ -17,8 +17,8 @@
 | BLOCKED – Cam_12 hero, Péter 07:46-os döntése: visszatartva a javított referenciáig | 5 (06, 08, 10, 12, 22) |
 | FAILED | 0 |
 | Geometria: PASS – feltételes | 1 (15 – S01 master Cam_11) |
-| Geometria: feltételes, kisebb eltérés | 2 (16, 20 – fürdők) |
-| Geometria: FAIL | 14 (ebből a 13-ast Péter vizuálisan elfogadta: „a konyha a Kyotonál már jó”) |
+| Geometria: feltételes, kisebb eltérés / tervközeli | 3 (16, 20 – fürdők; 17 – S02 konyha, Péter 08:19: elfogadva) |
+| Geometria: FAIL | 13 |
 
 A Cam_12 hero képek közül a 02 és a 04 még Péter megállítása előtt elkészült. **Mindkettő súlyos GEOMETRY FAIL.**
 
@@ -26,7 +26,7 @@ A Cam_12 hero képek közül a 02 és a 04 még Péter megállítása előtt elk
 1. **Cam_02, minden kép (01, 03, 05, 07, 09, 11, 21).** A kamera kb. 30–45°-kal balra fordul, és a W01 TV-falat szemből mutatja ahelyett, hogy ferdén a bal harmadban lenne. A falsarok, a padló–fal vonal és az üvegfal osztása nem fedi az alapképet. A terasz (WPC-dobogó, korlát, zöldtető, panoráma) viszont mindig felismerhető.
 2. **Cam_12 (02, 04).** A konyha hátsó falas sorrá alakul, kitalált szigettel/pultvéggel. A W02 faltest, a K-csonk és a 05.3 ajtó elmozdul, és megjelenik egy kitalált folyosónyílás.
 3. **Cam_04 (14, 18).** A szoba teljesen átrendeződik: az üvegfal a bal oldalra kerül, az ágy a szemközti falra, a gardrób a hátsó falra. **Forrásütközés:** a Fable Cam_04 prompt üvegfalat ír a bal szélre, az alapkép ezt nem mutatja. A 077-es fotó nélkül is ugyanez történt (18).
-4. **Cam_03 (13, 17).** A konyhafolyosó szűkebb kivágásban jelenik meg (13), illetve L/U alakú konyhává és pultvéggé rendeződik (17).
+4. **Cam_03.** 13: a két pultsor fel van cserélve, és a jobb sor a pillér és a mellvéd zónáját tölti ki. 17: a tervhez közeli (déli fal, pillér, mellvéd, nyílás egy vonalban), de U-alakú, mert pult fordul a déli falra; Péter elfogadta (08:19).
 5. **Képarány:** négy kép nem 16:10 (02, 03, 16, 17).
 6. **Padló:** a képek többségén melegebb, világosabb vagy barnább a tölgy, mint a meglévő hűvös szürke Treviso. Ez nem igazolt; legközelebb a 07, 15 és 19 jár.
 
