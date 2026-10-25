@@ -60,7 +60,7 @@ A 60-as futás GEOMETRY LOCK-ját itt ne használd, mert az a Blender Cam_10-re 
   - a nyitott sáv megvilágított, a hatszögek árnyékot vetnek;
   - a nyomólap és a WC a helyén van;
   - a törölközőszárító kábele rendezett;
-  - a zuhany-végfal a padkától a belső sarokig ér, 2,40 m magas, fogasokkal; a trompe-l’oeil lapos kép, nem ablak;
+  - a zuhany-végfal a padkától a belső sarokig és a csempe tetejéig (2,85 m) ér, egy darabban, fugához igazítva, fogasokkal; a trompe-l’oeil lapos kép, nem ablak;
   - a pult vége és a mosdó a bal alsó sarokban egyezik az image 3-mal;
   - ablak nincs;
   - a LED folyamatos vonal.
