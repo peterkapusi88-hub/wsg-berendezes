@@ -55,3 +55,5 @@ CP-S04-all – hat kamera es uj furdo | 86e4edf81b28d2b2940af0243bdd67d952a9708f
 CP-S05-all – hat kamera es uj furdo | eac5f42a604d07187e3ca5696e6e3f4df68ea6b0 | 2026-10-25T15:11:22.851745+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S06-all – hat kamera es uj furdo | 4601a1c8c5804b47fb46fce1e20ee49f81ba0fd5 | 2026-10-25T15:11:34.230463+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S07-all – hat kamera es uj furdo | f8cd2d4f9d18ba36b567b23c3d0c671a7cd4dcf1 | 2026-10-25T15:11:52.441747+00:00 | távoli tartalom-visszaolvasás PASS
