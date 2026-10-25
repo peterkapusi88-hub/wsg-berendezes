@@ -48,6 +48,12 @@
 | `05_promptok/KEP004_ChatGPT_Images_V3_TEST/` | S01/S02 Cam_02 V3_TEST (r2: javított 1b tömbkép, fizikailag lehetséges tükörkép, pad nélkül, nyílászáró/padló-sor), futtatva | megőrizve |
 | következő: `KEP004_ChatGPT_Images_V3_1/` | V3.1 (LED, függöny, összekötő fal, konyha) + az A0 módszere + Cam_12 FRAME LAYOUT | V3.1 után |
 
+**2026-10-25 02:30 CET – kiegészített V3.1-kérés:** `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1.md`. A B része szerint változik a csomagépítés:
+- teljes berendezés a „Nothing else stands in the room” tiltás helyett;
+- nézetenkénti fény;
+- új tömbképek a V3.1 elemlistából;
+- rövidebb prompt, legfeljebb kb. 10–11 ezer karakter.
+
 **Összefűzés:**
 1. fejléc;
 2. közös FIXED (a V3 felületkivétellel);

@@ -287,6 +287,53 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - fő vagy gazdaságos anyagváltozat, a 18 M-es egyeztetéssel (Claude független árellenőrzése még hátravan);
     - a PR #16 beolvasztása;
     - a geometriajavítás módja: magassági megkötések a V3.1-ben + az A0 szerkesztő módú próba.
+- *(2026-10-25 02:05 CET, Péter – visszajelzés)* **A V3-tesztképek nem adnak WOW-hatást.** Innentől CET: a téli időszámítás 03:00 CEST-kor (= 02:00 CET) kezdődött.
+  - **Javult:** a geometria, a valósághűbb terasz, a render minősége; a kanapék rendben.
+  - **Hiányzik:**
+    - a WOW-hatás;
+    - a fal nem ötletes, nem exkluzív;
+    - a TV mögötti szekrény ingerszegény;
+    - a panelek nem érnek a mennyezetig, és nem egyforma magasak;
+    - a „minden fal burkolt” elv sem jó a nagy, egybefüggő falakon.
+  - **Kérdései:** az első Zenit/Lake Forest képek a legjobbak, de nem tudjuk, mi van rajtuk és mennyibe kerül. Nem korlátozza-e túl a Blender a formavilágot? Elölről vagy hátulról kezdjük?
+  - **Hat ötlete, becsült költséggel, a V3.1-kéréshez:**
+    1. teljes TV-fal tapéta vagy dekorpanel;
+    2. konzol + magas oldalelemek + erős háttérfal;
+    3. nagy egyedi print vagy vászon;
+    4. szélesebb, texturált kárpitpanel;
+    5. „titkos fegyver”: dekorlap, nyomott panel, tapétázott front;
+    6. grafikus tárolófrontok.
+  - **„4 kép”:** kettő ebből a munkamenetből (`_V3_r1`, 02:18 és 02:23 CEST). Kettő a második Claude-munkamenetből (`_V3_TEST`, 02:35 és 02:38 CEST, r2-csomag), Péter 02:22-es engedélyével, archiválva.
+- *(2026-10-25 02:30 CET, Claude – javaslat, Péter dönt)* **Kiegészített V3.1-kérés Astrának (TERVEZET):** `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1.md`.
+  - **Diagnózis:** nem a Blender fékez, hanem a saját szabályaink:
+    - semleges, borult fény;
+    - üres szoba: dohányzóasztal- és lámpatiltás, üres ML05;
+    - alacsony elemek a 2,90 m-es belmagasság alatt;
+    - mindenhol halk tapéta;
+    - kicsi mű;
+    - kb. 19 ezer karakteres, tiltásokkal teli prompt.
+    - A geometria már kezelhető (S02 `_V3_TEST`: héj ±1 %), a WOW mégis hiányzik, tehát a specifikáció a szűk keresztmetszet.
+  - **Új sorrend:**
+    1. előbb a terv, a rögzített héjon belül;
+    2. utána Blender-méretezés és ár;
+    3. végül a render.
+    - A V3 r1 tömbjei nem kötelezők.
+  - **Mérce:** a v1 Zenit/Lake Forest hat WOW-összetevője.
+  - **Új kötelezők:**
+    - mennyezetig vagy egyetlen közös vonalig érő TV-fal;
+    - falhierarchia;
+    - Péter hat eszközéből legalább három;
+    - teljes berendezés: dohányzóasztal, szőnyeg, lámpák, függöny, lámpatest az ML05-ön;
+    - méretezett elemlista;
+    - nézetenkénti fény: Cam_02 nappal, Cam_12 este.
+  - **Döntésre:**
+    - a fényszabály cseréje;
+    - az Astra-futás indítása és szintje (Medium vagy High);
+    - PR #17;
+    - az A0-próba;
+    - a Cam_03 átfedése;
+    - az étkező 0,15 m-es eltolása;
+    - a W02 + W07 értelmezése.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -368,3 +415,6 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
     - S01 és S02 Cam_02, r2-csomag: javított 1b tömbkép, fizikailag lehetséges tükörkép, pad nélkül; képenként egy generálás.
     - **S02:** héj ±1 % → `ELŐSZŰRT – FELTÉTELES`. **S01:** belmagasság ~+8 % → FAIL. A falbútorok magasabbak, az étkező keletebbre került.
     - Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md`. Prompt és integráció: `05_promptok/KEP004_ChatGPT_Images_V3_TEST/`.
+  - **2026-10-25 02:30 CET – kiegészített V3.1-kérés a main-en (TERVEZET)**, Péter 02:05 CET-es visszajelzése alapján: nincs WOW.
+    - Fájl: `ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1.md`.
+    - Az Astra-futást Péter indítja. Képgenerálás és Blender-módosítás nincs.
