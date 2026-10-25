@@ -422,6 +422,21 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - Utána egy kamera-PR (Cam_03 + Cam_12), validátor és Render Reality Gate.
     - Merge csak külön engedéllyel.
 
+- *(2026-10-25 04:08 CET, Péter – eldöntve)* **A-902: C elrendezés + K1 Cam_03; a Cam_12 kompozíciója felülvizsgálandó.**
+  - **Elrendezés C** (hosszanti asztal 2+2+1+1, az ML04 alatt) a továbbtervezés alapja, S01 Lennon L és S02 JÄTTEBO U esetén is.
+    - Indok: hat hely; az ML04 10 cm-en belül az asztal közepén; mindkét kanapéval jó; megmarad a legfeljebb 60 cm mély TV-fal-szekrény lehetősége (Astra, Fable és Opus kreatív szabadsága); S01-en a Toni 160 olcsóbb.
+  - **Feltételek:**
+    - a teraszajtó keleti, ténylegesen tolható része helyszínen ellenőrizendő;
+    - ellenőrizendő az északi székkihúzás 0,90 m-es határhelyzete és az ülő vendégek melletti 0,70–0,80 m-es szűkületek;
+    - a 60 cm-es TV-szekrény felső lehetőség, nem kötelező mélység;
+    - a TV képernyősíkja és a nézőtáv maradjon megfelelő;
+    - a végleges kanapépozíció és ülésrend a geometriai ellenőrzés után rögzítendő.
+  - **Cam_03 = K1:** konyhaorientált, nappali fény; a konyhabútorok és a magas elemek megtervezettsége jól látsszon.
+  - **Cam_12:** kötelező kompozíciós felülvizsgálat. A kanapé ne foglaljon túl nagy képterületet, ne takarja a nappali–étkező–konyha és a W02/W07 fontos elemeit. A kivágást a valós geometrián belül kell optimalizálni, nem a korábbi beállítást mechanikusan megtartani.
+  - **Következő lépés (Claude):** egységes kameracsomag (C elrendezés, K1 Cam_03, korrigált Cam_12), validátor és Render Reality Gate; utána a végleges méretek és kameraképek bemutatása.
+  - **Kreatív verseny:** három résztvevő (Astra, Fable, Opus) azonos, valós geometriai szabályokból dolgozik; a régi bútortömbök nem korlátozzák az új terveket.
+  - **Nem engedély:** a PR #17 és #18 beolvasztására (külön döntés), képgenerálásra.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
