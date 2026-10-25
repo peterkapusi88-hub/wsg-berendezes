@@ -1,0 +1,50 @@
+WSG A-902 · OPUS55-V3.1 · A902_S04_LAHorizon_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero) · re-run v2 (corrected package)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES (in this order)
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim (source: integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S04_LAHorizon_1_nappali-hero_Cam_12_A_v1_3.prompt.md):
+
+=== BEGIN PROMPT A902_S04_LAHorizon_1_nappali-hero_Cam_12_A ===
+S04 LA HORIZON – "Golden Hour Horizon" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Californian modernism of long horizontals: walnut lines, sand linen textures, tobacco-bronze glass, taupe upholstery, a little brushed bronze; relaxed, sunlit, cinematic. Honest materials: walnut-effect laminate, sand linen-effect vinyl wallcovering, tinted glass, wool.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Lilo bouclé corner sofa in light brown, L-shaped with softly rounded backs and arms, 260 × 176 cm, 79 cm high, corner element on the south end, back to the east towards the dining table, facing the TV wall behind the camera. The Westwing Calla extendable dining table in dark oak, 160 × 90 cm closed (extending to 240 cm for guests), 75 cm high under ML04, six Westwing Calan velvet chairs in brown, 55 × 52 × 78 cm, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the sofa's rounded back and arm as a low soft-brown bouclé band with sand, taupe and rust cushions and a camel throw. Middle left: the dining table with chairs and the ML04 pendant (the Kave Home Ardali pendant, Ø 50 cm smoked glass and brushed steel); behind it the kitchen with dark walnut-effect base fronts, cream tall units and the fridge column. Far left: W03 with the light-grey door of room 05.3. Right of centre, almost frontal: the south wall W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the ML05 fitting may enter at the top.
+
+THE HORIZON WALK – W02 + W07. Both W02 and the corridor throat (return, pillar, corridor south wall) are covered floor to ceiling in a sand linen-effect wallcovering with a soft horizontal weave. At exactly 0.90 m a 12 cm high, 1.5 cm thick walnut-effect laminate band runs continuously across W02, around the return and the pillar and along the corridor wall – the interior horizon carried through the apartment; it stops 15 cm before the switch column. Above the band on W02 hangs a landscape-format abstract canvas, 180 cm wide × 110 cm high – horizontal layers of ochre, sand and blue-grey like a desert horizon at dusk – in a thin walnut floating frame, its lower edge 30 cm above the band. Nothing deeper than 2 cm sits on this wall at floor level.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; above it a flush walnut-effect panel from the door head to the ceiling; on both sides the sand wallcovering, the walnut band ending neatly at the door frame.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses; base units with custom dark walnut-effect laminate fronts (Egger Carini walnut family); the tall oven-and-microwave wall and the fridge column in cream matt fronts up to the kitchen soffit; worktop in light-grey stone-effect laminate; splashback in tobacco-bronze back-painted safety glass; no wall cabinets.
+
+LIGHT. Daytime: bright, soft north light from the glazing behind the camera, no sun patches; the linen texture and walnut grain read in detail; warm neutral white balance. Hue fittings off or barely on.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat exactly. Avoid these proven errors: a plant, tree or any object standing in front of W02 or in the mouth of the bedroom corridor; a palm-tree or beach mural; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one; real stone; furniture taller than stated. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S04_LAHorizon_1_nappali-hero_Cam_12_A ===

@@ -1,0 +1,267 @@
+[
+ {
+  "nr": "01",
+  "kep_id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v2",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_v1_2.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "01_A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__v2.txt",
+  "uzenet_sha256": "52fa40b2d5c7767c88ef081572befdf7b5ada28caab029b220eaf0d372f4a8d5",
+  "cel_fajl": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v2.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "07",
+  "kep_id": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v2",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_v1_2.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "07_A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A__v2.txt",
+  "uzenet_sha256": "c85be5943fbfcbaffc9c9f093b2511b329c62a482f0278a22ee349b6542aab71",
+  "cel_fajl": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v2.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "13",
+  "kep_id": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "13_A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "4f07e5be4860adb3cc6ae8c27678787813d70a533866962832baaac652c8e12e",
+  "cel_fajl": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "19",
+  "kep_id": "A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "19_A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "b0097c3814a0b6a87b5c07c466ef1ce99be1843c5c401a80321c4ddece6029c6",
+  "cel_fajl": "A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "25",
+  "kep_id": "A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "25_A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "80eb70ec9b1ef461199889f2f1c00a66e86539cffcf73b21f98d57f690c24cfb",
+  "cel_fajl": "A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "31",
+  "kep_id": "A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "31_A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "f3462b625431dd2dd38d2ab428d625f64d35805a1bcb582b97052d422ac2d23f",
+  "cel_fajl": "A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "37",
+  "kep_id": "A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "37_A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "db128bdc6d249ce0c9bcca6abb39048ef17093e348685bff8488ee0af25262ae",
+  "cel_fajl": "A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "43",
+  "kep_id": "A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "43_A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "f63bb794a8ed85416735ef09071727b54bb516486b14dc7c6f1a324a07e2c3a3",
+  "cel_fajl": "A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "49",
+  "kep_id": "A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "49_A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "048b9720c273a9d93ef660ad1e6a8ccf74e06aaab75aeb76dda34c9a0de1f5a8",
+  "cel_fajl": "A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "55",
+  "kep_id": "A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v1",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "55_A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A__v1.txt",
+  "uzenet_sha256": "41d986bfc01e1955cb0ff7af722befc5a4cb66925631d98dc8dacf793051f47f",
+  "cel_fajl": "A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ },
+ {
+  "nr": "14",
+  "kep_id": "A902_S03_AleliCasa_1_nappali-hero_Cam_12_A",
+  "kamera": "Cam_12",
+  "verzio": "v2",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S03_AleliCasa_1_nappali-hero_Cam_12_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "14_A902_S03_AleliCasa_1_nappali-hero_Cam_12_A__v2.txt",
+  "uzenet_sha256": "0b35b07ce3c9eac303b97e9b920e399b6f65a0f6df1e15ad8f8b98fe8bf15d8a",
+  "cel_fajl": "A902_S03_AleliCasa_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "17",
+  "kep_id": "A902_S03_AleliCasa_3_master_Cam_11_A",
+  "kamera": "Cam_11",
+  "verzio": "v2",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_3_master_Cam_11_A.prompt.md",
+  "csatolmanyok": [
+   "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "17_A902_S03_AleliCasa_3_master_Cam_11_A__v2.txt",
+  "uzenet_sha256": "36f2f1b2668b07ef97fa219c49f0373f41b5ad7a986fc6d24034f2e4d6713c37",
+  "cel_fajl": "A902_S03_AleliCasa_3_master_Cam_11_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "20",
+  "kep_id": "A902_S04_LAHorizon_1_nappali-hero_Cam_12_A",
+  "kamera": "Cam_12",
+  "verzio": "v2",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S04_LAHorizon_1_nappali-hero_Cam_12_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "20_A902_S04_LAHorizon_1_nappali-hero_Cam_12_A__v2.txt",
+  "uzenet_sha256": "f8f86fdb81629232c954f89a044810229067a7d0c49e39054c2628beac11a261",
+  "cel_fajl": "A902_S04_LAHorizon_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "27",
+  "kep_id": "A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A",
+  "kamera": "Cam_03",
+  "verzio": "v2",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "csatolmanyok": [
+   "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "27_A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A__v2.txt",
+  "uzenet_sha256": "3796824d566299b3e919246715a441bd3757ff78703a642c219e89373ccefe33",
+  "cel_fajl": "A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "50",
+  "kep_id": "A902_S09_ParisCollector_1_nappali-hero_Cam_12_A",
+  "kamera": "Cam_12",
+  "verzio": "v2",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_1_nappali-hero_Cam_12_A.prompt.md",
+  "csatolmanyok": [
+   "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "50_A902_S09_ParisCollector_1_nappali-hero_Cam_12_A__v2.txt",
+  "uzenet_sha256": "4d536fee65b08b624e25e17a9ef60932c2f217cd8942b55a28adbdcb59df649e",
+  "cel_fajl": "A902_S09_ParisCollector_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "52",
+  "kep_id": "A902_S09_ParisCollector_3_master_Cam_04_A",
+  "kamera": "Cam_04",
+  "verzio": "v2",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_3_master_Cam_04_A.prompt.md",
+  "csatolmanyok": [
+   "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "52_A902_S09_ParisCollector_3_master_Cam_04_A__v2.txt",
+  "uzenet_sha256": "37e3a34c36314d4560464c37d0c90b166cb645fafc0d90e89b9f758eadcf2a4e",
+  "cel_fajl": "A902_S09_ParisCollector_3_master_Cam_04_A__OPUS55_V3_1__v2.png"
+ },
+ {
+  "nr": "13",
+  "kep_id": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "verzio": "v2",
+  "prompt_forras": "integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A_v1_3.prompt.md",
+  "csatolmanyok": [
+   "Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png",
+   "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg"
+  ],
+  "uzenet": "13_A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A__v2.txt",
+  "uzenet_sha256": "b11a3bd2d0019bd75504ff7fba4a259ee3dd55958759977e2c111b1b7b39ee68",
+  "cel_fajl": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v2.png",
+  "megj": "Cam_02 v2-csomag: KORR alap + 1b + padlófotó, image-to-image szabály (13 után)"
+ }
+]

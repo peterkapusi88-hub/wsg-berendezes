@@ -1,0 +1,21 @@
+=== BEGIN PROMPT A902_S03_AleliCasa_1_nappali-hero_Cam_12_A ===
+S03 ALELÍ CASA – "Terracotta Loggia" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. A cultivated Mediterranean–Italian home in walnut, terracotta clay, olive green, raw linen and chalk white; arches as furniture, sun-warmed limewash textures, glazed ceramics, an olive tree. Honest materials: clay-and-terracotta limewash-effect vinyl wallcovering (not plaster), walnut-effect laminate, bent MDF arches, real ceramics.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Lennon modular corner sofa, L-shaped, in terracotta woven fabric, 238 × 180 cm, 68 cm high with its back to the east towards the dining table, long seat north–south, facing the TV wall behind the camera. The Westwing Archie dining table in dark mango wood, 160 × 90 cm, 76 cm high on the north–south axis under ML04, six Kave Home Eamy chairs in brown polyurethane with walnut-stained ash veneer and black metal, 55 × 53 × 75 cm, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; eye height 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the terracotta sofa back and arm as a low band with rust, ecru and olive linen cushions and a linen throw. Middle left: the dining table, its chairs and the dining pendant at ML04 (the Kave Home Drava pendant in glazed burgundy ceramic); behind it the olive-green kitchen with walnut-effect worktop and the olive fridge column. Far left edge: W03 with the light-grey door of room 05.3. Right of centre, almost frontal: the south wall W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the ML05 pendant (the Westwing Clouds linen pendant, Ø 50 × 29 cm) may enter at the top. The TV wall, glazing and terrace are not visible.
+
+THE LIMEWASH WALK – W02 + W07 AS ONE COMPOSITION. W02 and the whole corridor throat (return, pillar, south wall of the corridor) are covered floor to ceiling in a terracotta-and-clay limewash-effect vinyl wallcovering with soft cloudy variations – warm, matt, hand-made looking, honestly a wallcovering. On W02, west of the switch column, hangs a large arch-topped canvas 120 cm wide × 190 cm high, an abstract of overlapping olive and terracotta forms, in a thin walnut floating frame, its centre at 1.50 m. On the face of the pillar a 2 cm walnut-effect laminate vertical strip echoes the arcade wall. The switch column at the east end of W02 stays free in a clean 15 cm margin. Nothing deeper than 4 cm stands along this wall at floor level.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; on both sides and above it the limewash wallcovering; a slim 6 cm walnut-effect ledge runs above the door head.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with IKEA NICKEBO matt grey-green fronts (a soft sage-olive), walnut-effect laminate worktop (IKEA EKBACKEN brown walnut effect), a cream compact-laminate splashback, one open walnut-effect shelf on the east wall with green and ochre glazed bowls; no wall cabinets; the fridge column in the same olive fronts up to the kitchen soffit.
+
+LIGHT. Daytime, soft bright north light from the glazing behind the camera, no sun patches; the limewash texture, linen weave and ceramic glazes read in detail; warm neutral white balance. Hue fittings off or barely glowing.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat exactly; no new arch or niche in any wall. Avoid these proven errors: a plant, tree or any object standing in front of W02 or in the mouth of the bedroom corridor; real plaster, stucco or tiles on the walls; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one; furniture taller than stated. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S03_AleliCasa_1_nappali-hero_Cam_12_A ===

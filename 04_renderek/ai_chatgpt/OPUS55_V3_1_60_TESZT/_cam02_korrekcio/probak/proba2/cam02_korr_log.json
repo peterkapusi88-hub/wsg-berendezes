@@ -1,0 +1,164 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "/Users/peterkapusi/Downloads/WSG_CAM02_KORREKCIO/forras/WSG_A902_v2b1k13_MASOLAT_cam02_korrekcio.blend",
+ "sha256_elotte": "e01170d315193f8785bbeee5f7d319ce3c8adec886375962cee83e0a3f70ddbd",
+ "proba": true,
+ "kepek": [
+  {
+   "fajl": "/Users/peterkapusi/Downloads/WSG_CAM02_KORREKCIO/proba2/A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png",
+   "mp": 9.6,
+   "sha256": "271c76673dddeb9f9b946fa9e6d11847839a1a20b517fd9b758dc4a8d5a8bd0f"
+  }
+ ],
+ "validator": {
+  "ures": "PASS – 0 hiba, 0 figyelmeztetés; réteg: []",
+  "referencia": "FAIL – 6 hiba, 3 figyelmeztetés; réteg: []"
+ },
+ "vetites": {
+  "W01 déli vége (x 3,67; y 4,05) alj/tető": [
+   {
+    "P": [
+     3.67,
+     4.05,
+     0.0
+    ],
+    "px": [
+     -60.7,
+     825.0,
+     3.401
+    ]
+   },
+   {
+    "P": [
+     3.67,
+     4.05,
+     2.9
+    ],
+    "px": [
+     -133.6,
+     33.9,
+     3.136
+    ]
+   }
+  ],
+  "W01 × északi fal sarok (x 3,67; y 8,05) alj/tető": [
+   {
+    "P": [
+     3.67,
+     8.05,
+     0.0
+    ],
+    "px": [
+     760.3,
+     648.6,
+     6.007
+    ]
+   },
+   {
+    "P": [
+     3.67,
+     8.05,
+     2.9
+    ],
+    "px": [
+     758.5,
+     208.3,
+     5.741
+    ]
+   }
+  ],
+  "üvegfal nyugati vége (x 4,44; y 8,0) alj": [
+   {
+    "P": [
+     4.44,
+     8.0,
+     0.0
+    ],
+    "px": [
+     832.6,
+     674.7,
+     5.394
+    ]
+   },
+   {
+    "P": [
+     4.44,
+     8.0,
+     2.53
+    ],
+    "px": [
+     834.1,
+     248.8,
+     5.163
+    ]
+   }
+  ],
+  "üvegfal keleti vége (x 8,94; y 8,0) alj": [
+   {
+    "P": [
+     8.94,
+     8.0,
+     0.0
+    ],
+    "px": [
+     2192.8,
+     1108.3,
+     2.005
+    ]
+   }
+  ],
+  "TV-tengely (x 3,71; y 6,27; z 1,20)": [
+   {
+    "P": [
+     3.71,
+     6.27,
+     1.2
+    ],
+    "px": [
+     500.1,
+     484.6,
+     4.707
+    ]
+   }
+  ]
+ },
+ "validator_forras": {
+  "lock_sha": "2ca9373596b3445d984ad1fdbaaa9d12848c21b25908f6dc8d7fdfc3f9eb3d1b",
+  "villamos_sha": "f881dcceb5f8c99df098f11e5ac7e9fd06eee0f1f226e34cc94647445bb04c4c",
+  "validator_sha": "b7d7f6a678f3ccc6bf0dd06023073f879d85a1aab916c101ad097f08129e8d77"
+ },
+ "kamera": {
+  "loc": [
+   8.3,
+   4.4,
+   1.55
+  ],
+  "rot_rad": [
+   1.4791,
+   0.0,
+   0.8577
+  ],
+  "lens": 20.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "sensor": [
+   36.0,
+   "AUTO"
+  ],
+  "res": [
+   1600,
+   1000
+  ]
+ },
+ "render": {
+  "engine": "BLENDER_EEVEE",
+  "samples": 32,
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "feny_W": 150.0
+ },
+ "sha256_utana": "e01170d315193f8785bbeee5f7d319ce3c8adec886375962cee83e0a3f70ddbd",
+ "mentve": false
+}

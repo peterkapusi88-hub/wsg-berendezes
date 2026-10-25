@@ -1,49 +1,63 @@
 # OPUS55 V3.1 – ChatGPT Images koncepcióteszt, 60 sor (2026-10-25)
 
-**Minden kép státusza: KONCEPCIÓ – NEM VALIDÁLT.** Egyik kép sem kivitelezhető látványterv, és egyik sem igazolja a padlót, a termékeket vagy a költséget. Az auditban nyitott tételek (K-02 S03–S10, K-03 S04, K-04, K-05, K-06, K-08 … K-19) képenként a `GENERALASI_NAPLO.csv` `nyitott_audit_tetelek` oszlopában.
+**Minden kép státusza: KONCEPCIÓ – NEM VALIDÁLT.** Egyik kép sem kivitelezhető látványterv, és egyik sem igazolja a padlót, a termékeket vagy a költséget. Az auditban nyitott tételek (K-02 … K-19) képenként a `GENERALASI_NAPLO.csv` `nyitott_audit_tetelek` oszlopában.
 
-## Eredmény
+## Eredmény (a javítókör után)
 | Státusz | db |
 |---|---|
-| DONE | **52** |
+| DONE | **60** |
 | FAILED | 0 (egy technikai hiba volt – 18-as –, egy újrapróbával DONE) |
-| BLOCKED | **8** (a Cam_02 sorai: 13, 19, 25, 31, 37, 43, 49, 55) |
+| BLOCKED | 0 (az első körben 8 Cam_02-sor volt BLOCKED, a javítókörben elkészültek) |
 | SKIPPED_LIMIT | 0 |
-| **Összesen** | **60** |
+| **Összesen** | **60 sor, 69 PNG** (60 × v1 + 9 × v2; a v1-eket nem írtam felül) |
 
-Futás: 08:57–10:17, egy ChatGPT-fiók (Plus), Claude in Chrome, saját lap. Képenként új beszélgetés, egy kép. A Fable-lapokat és -beszélgetéseket nem érintettem.
+- 1. kör: 08:57–10:17, 52 DONE + 8 BLOCKED.
+- Javítókör: 14:53–15:14 (Péter: „oldd meg az összes rosszat”). 17 generálás: 8 BLOCKED Cam_02-sor v1-ként, 9 v2 (01, 07, 13, 14, 17, 20, 27, 50, 52). Napló: `GENERALASI_NAPLO_v2.csv`, üzenetek: `uzenetek_v2/`, terv: `plan_v2.json`.
+- Egy ChatGPT-fiók (Plus), Claude in Chrome, saját lap, képenként új beszélgetés, egy kép. A Fable-lapokat és -beszélgetéseket nem érintettem.
 
-## Kameránként (geometria a Blender-alapra vetítve, `_gate/`)
-| Kamera | Eredmény | Jellemző hiba |
+## Kameránként (a legfrissebb változat geometriája, Blender-alapra vetítve, `_gate/`)
+| Kamera | Eredmény | Jellemző eltérés |
 |---|---|---|
 | Cam_10 fürdő | 10/10 **PASS** (feltételes) | a beépített elemek pontosan fednek; a mosdó néha 3–5 %-kal lejjebb, a kézizuhany 3 képen hiányzik |
-| Cam_11 master panoráma | 8 PASS, 1 feltételes (35), 1 FAIL (17) | a padló–fal vonal ~5 %-kal magasabban; a 17-esen a kamera 10–15°-kal jobbra fordult |
-| Cam_03 konyha K1 | 10/10 feltételes – tervközeli | a sorok mindig a helyes oldalon (a Fable-féle csere nem jött elő); a kamera közelebbi/szűkebb; 27, 39: íves végelem a mellvéd elé nyúlik |
-| Cam_12 hero v3 | 10/10 feltételes – tervközeli | a térváz mindig felismerhető, sziget nincs; a kamera rendszeresen hátrébb/balra (W02 bal éle ~45 % az 55 % helyett) |
-| Cam_04 master | 10/10 feltételes – közepes | a Fable-féle kitalált üvegfal egyszer sem jött elő, az ágy mindig a jobb oldali fejvégfalon; a bal falszakasz/fülke átrendeződik (a gardrób szemből látszik) |
-| Cam_02 nappali–terasz | 2/2 **GEOMETRY_FAIL**, 8 BLOCKED | a kamera a TV-fal felé fordul; a 045/004/003 fotókkal (07) enyhébb, az üveg és a terasz stimmel, de a TV-fal még mindig szemből |
+| Cam_11 master panoráma | 8 PASS, 2 feltételes (35; 17 v2) | a 17-es v2-n a kamera már nem fordul el, de az üvegfal jobb szakasza keskenyebb, és kitalált téglapillér jelenik meg |
+| Cam_03 konyha K1 | 10/10 feltételes – tervközeli | a sorok a helyes oldalon vannak. **27 v2: az íves végelem továbbra is a mellvéd elé nyúlik**, a lock-sor nem hatott. 39 ugyanilyen. |
+| Cam_12 hero v3 | 10/10 feltételes – tervközeli | 14/20/50 v2: a W02 élei (~45 % / ~87 %) a lockkal egyeznek, a W02 előtt nincs fa, és az 50-esen nincs kitalált ablak. A többi v1-en a kamera hátrébb/balra áll. |
+| Cam_04 master | 10/10 feltételes – közepes | az ágy mindig a jobb oldali fejvégfalon van; a bal fal/gardrób szemből látszik. 52 v2: a kitalált komód eltűnt. |
+| Cam_02 nappali–terasz | 7 feltételes – közepes, 3 feltételes – gyenge, **0 FAIL** | az üvegfal, osztó, terasz, dobogó és korlát mindig a helyén van. A kamera hátrébb áll, a belső sarok ~53–55 %-nál van a ~47 % helyett, a W01 rövidülése laposabb. **Gyenge** (31, 43, 07 v2): a TV-fal majdnem szemből látszik. |
 
-**Legjobban tartó kamerák:** Cam_10 > Cam_11 > Cam_03 > Cam_12 > Cam_04 >> Cam_02.
+**Legjobban tartó kamerák:** Cam_10 > Cam_11 > Cam_12 (v2 csomaggal) ≈ Cam_03 > Cam_04 > Cam_02.
+
+## A javítókör módszere
+1. **Cam_02 – új, megvilágított semleges alap.** Lásd `_cam02_korrekcio/`.
+   - A `v2b1k13` blend **másolatából** készült, a lock szerinti kamerával: [8.3, 4.4, 1.55], rot [1.4791, 0, 0.8577], 20 mm.
+   - Bútorok és lámpák rejtve; EEVEE; három area-fény: északi ablak, DK-i derítő, mennyezeti derítő.
+   - Élátfedés a régi alappal: 99,1 %.
+   - Geometry Validator, „üres” mód: **PASS 0/0**. A „referencia” mód FAIL 6-ot ad; ezek a fürdő régi, már meglévő ütközései, nem a Cam_02 hibái.
+   - Képek: `vegleges/…KORR_semleges.png` (sha256 `75ec3c85…`) és `…KORR_1b_TVfal_zona.png` (sha256 `3f247d98…`). Utóbbi a W01 TV-fal zónáját sötét blokkal jelöli (x 3,67–4,07; y 4,05–8,05).
+   - Az élő Blender-fájlhoz nem nyúltam; a másolat sha256-ja a futás után változatlan.
+2. **Cam_02 csatolmánycsomag:** 1. KORR alap, 2. 1b TV-fal-zóna, 3. ME-BAL-080 padló.
+   - A helyszíni fotókat (045/004/003) **kivettem**. A 13-as első javított próbája 6 csatolmánnyal 38 %-os sarkot adott, vagyis a fotók rontották a kameratartást.
+   - Az üzenet elejére bekerült a „0. METHOD: IMAGE-TO-IMAGE EDIT of image 1” szabály.
+3. **Integrátori v1.3 promptmásolatok** (`_patch_v1_3/`, 10 fájl + `patch_v1_3_naplo.json`). A naplóban hivatkozott `05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/` útvonal tartalma ez a mappa; a 05_promptok-ba nem írtam.
+   - **K-02** (S03–S10 Cam_02): az ML04 függeszték a képen kívül van, a jobb szélen nem rajzolható. A 31-es és a 49-es ezt megszegte, a függeszték a jobb felső sarokban látszik.
+   - **K-03** (S03/S04 Cam_12): az olajfa kikerült, és tiltott lett bármilyen tárgy a W02 előtt. Ez a 14-es és a 20-as v2-n működött.
+4. **Fejléc-kiegészítések:**
+   - 27: az íves végelem a mellvéden belül marad. **Nem hatott.**
+   - 50: nincs ablak az előszobában. **Hatott.**
+   - 52: a bal előtér üres marad. **Hatott.**
 
 ## Stílusonként
-Minden stílusból 5 kép készült (S01, S02: 6 – ezeknél a Cam_02 is lefutott, FAIL). Minden stílusnál Cam_10 és (a 17-es és 35-ös kivételével) Cam_11 PASS; Cam_12/03/04 feltételes.
+Minden stílusból 6 kép van, 10 × 6 = 60. A vizuális sorrendem szerint a top 3: **S10 Desert Modern 70, S02 BiBo Nocturne, S06 Zenit Atelier**. Ez ízlésítélet, nem költség- és nem kivitelezhetőségi rangsor.
 
-## Módszer
-- **Források:** `competition/opus55-v3-1-20261025` @ `7d3c67f823c646d9daef06b294826e89c1c61467` (56 prompt) és `integrator/opus55-v3-1-audit-20261025` @ `94f80688dff460dd1c726e3bca2338d603f047c6` (S01/S02 Cam_02 + Cam_12 v1.2; sha256 a patch-README szerint egyezik). A manifest 61–66. sorát nem generáltam.
-- **Üzenet** (`uzenetek/NN_<kep_id>.txt`): fejléc (azonosító, csatolmányszerepek, kameránkénti GEOMETRY LOCK %-os elemsorrenddel, „pontosan EGY kép”), utána az Opus-prompt **szó szerint**, BEGIN/END jelölőkkel. Beküldés előtt a szerkesztő tartalmát és a csatolmány-sorrendet minden képnél szkript ellenőrizte (52/52 + 1 újrapróba egyezés).
-- **Csatolmányok** (mindig az 1. a Blender-alap):
-  - Cam_02 `A902_alap_v2b1/…02_nappali-terasz.png`; Cam_03 `A902_kameracsomag_C/…03_konyha-etkezo_K1_JAVASLAT.png`; Cam_04 `A902_alap_v2b1/…04_master.png`; Cam_11 `A902_cam11_javaslat_v1/…11_master-panorama_JAVASLAT.png`; Cam_10 `A902_alap_v2b1/…10_furdo-06-2.png`.
-  - **Cam_12:** `A902_cam12_v3_korrekcio/…v3_KORR_semleges.png` (@09c2762, sha `8ffd40c0…`). Ugyanaz a v3 kamera, mint a `JAVASLAT_v3` (sha `66a9c6af…`), csak megvilágítva; a brief engedi a bizonyítottan azonos, jobban megvilágított alapot.
-  - 2. kép: ME-BAL-080 padlófotó (fürdőnél ME-BAL-064).
-  - 3+. helyszíni fotók csak anyag/környezet szereppel: Cam_02: 045, 004, 003; Cam_12: 046; Cam_03: 056; Cam_11: 077; Cam_10: 066; Cam_04: nincs fotó. **Kivétel:** a 01-es kép csak 1+2 csatolmánnyal ment, a többi fotót Péter 08:57-es kérdése után adtam hozzá.
-- **Letöltés:** az eredeti PNG (1586 × 992) változatlanul, JS-blob → `~/Downloads` → `~/Downloads/WSG_OPUS55_V3_1_RENDEREK/`; méret és sha256 a naplóban.
+## Fájlok
+- `<IMAGE_ID>__OPUS55_V3_1__v1.png` / `__v2.png` – az eredeti, letöltött 1586 × 992-es PNG; méret és sha256 a naplókban.
+- `A902_OPUS55_V3_1_kontaktlap_v2.jpg` – mind a 60 sor, a legfrissebb változattal; a kék felirat a javítókörben készült képeket jelöli. A régi `…_kontaktlap.jpg` az 1. kör állapota.
+- `_gate/<kep_id>__gate.jpg`, `…__v2__gate.jpg` – alap | render | 50 % keverék | élkép. A Cam_02 sorai a KORR alapra vetítve.
+- `_munka/` – a generáló, a kapukép- és a naplószkriptek (`build_v2.py`, `claim_v2.py`, `gate2.py`, `kontakt_v2.py`).
 
-## Újragenerálandó / javítandó
-1. **Cam_02, mind a 10** – előbb olvasható, megvilágított Cam_02 semleges alap kell (a Cam_12 v3 KORR mintájára, Blender + validátor). Utána a 8 BLOCKED sor és a 01/07 újra.
-2. **17** (S03 Cam_11) – kamerafordulás.
-3. **14, 20** – olajfa a W02 előtt (K-03; az S03-ban is előjön, nem csak az S04-ben).
-4. Opcionális: **27** (S05 konyha, íves végelem a mellvéd előtt), **50** (kitalált ablak az előszobában?), **52** (kitalált komód).
-5. **Fürdők (mind):** gyenge pakolófelület – ez az Opus-promptok hibája, nem a generálásé (Péter Fable-kritikája itt is áll).
-
-## Folytatás
-`plan.json` + `uzenetek/` + `GENERALASI_NAPLO.csv`: a BLOCKED sorok (13, 19, 25, 31, 37, 43, 49, 55) újraindíthatók; a kész képeket nem írom felül (új verzió: `__v2`).
+## Nyitott / következő lépés
+1. **Cam_02:** még mindig hátrébb álló kamera, ~7–8 %-os sarokeltolódás. Nem javasolok vakon további ChatGPT-regenerálást. Ha kell, előbb a döntős stílusokra érdemes kis kép-a-képben maszkos szerkesztést vagy Blender-tömegmodellt adni.
+2. **27 (és 39) Cam_03:** a mellvédvonalat Blenderben kell jelölni az alapon (1b-típusú jelölőkép), csak utána érdemes újrafuttatni.
+3. **Cam_12 v1-sorok** (02, 08, 26, 32, 38, 44, 56): a v2-csomag (K-03 tiltólista) tartja a kamerát. A döntősöknél érdemes ezzel újrafuttatni.
+4. **Fürdők (mind):** gyenge a pakolófelület. Ez az Opus-promptok hibája, nem a generálásé.
+5. A részletes Blender-validáció és a költségellenőrzés a döntős koncepciókra jön, Péter döntése után.

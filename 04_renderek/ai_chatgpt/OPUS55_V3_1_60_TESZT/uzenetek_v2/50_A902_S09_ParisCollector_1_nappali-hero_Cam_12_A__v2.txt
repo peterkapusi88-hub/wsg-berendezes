@@ -1,0 +1,51 @@
+WSG A-902 · OPUS55-V3.1 · A902_S09_ParisCollector_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero) · re-run v2 (corrected package)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES (in this order)
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+   k) Through the opening above the parapet only the entrance hall with white walls and the apartment entrance door may appear – do not invent any window there.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_1_nappali-hero_Cam_12_A.prompt.md):
+
+=== BEGIN PROMPT A902_S09_ParisCollector_1_nappali-hero_Cam_12_A ===
+S09 PARIS COLLECTOR – "Salon des Collectionneurs" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. A Parisian collector's salon: white boiserie frames, chalk fabric-texture walls, olive velvet, plum and chalk in one monumental artwork, brown glass, brushed brass in small doses, framed-front kitchen. Honest materials: polyurethane mouldings painted in the wall white (approved painting exception), textile-effect vinyl wallcovering, IKEA HAVSTORP factory-finished framed fronts, white marble-effect laminate.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Lennon modular corner sofa in olive bouclé, L-shaped, 238 × 180 cm, 68 cm high, back to the east towards the dining table, facing the TV wall behind the camera. Dining: The Westwing Luca dining table in herringbone mango wood on slim golden legs, 160 × 90 cm, 75 cm high under ML04 with four Westwing Calan velvet side chairs in olive (55 × 52 × 78 cm) on the long sides and two Westwing Calan velvet armchairs (66 × 60 × 78 cm) at the ends. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the olive bouclé sofa back as a low band with plum, chalk and olive velvet cushions and a camel throw. Middle left: the herringbone mango table with olive velvet chairs and the two olive velvet armchairs at its ends, the smoked-glass pendant at ML04 (the Kave Home Ardali pendant, Ø 50 cm smoked glass and brushed steel) above; behind it the beige framed-front kitchen. Far left: W03 with the light-grey door of room 05.3 framed by a moulding. Right of centre, almost frontal: W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the brass globe pendant at ML05 may enter at the top.
+
+THE SALON WALL – W02 + W07. W02 and the corridor throat are covered floor to ceiling in a chalk-white fabric-texture wallcovering. Along the lower part, up to 0.95 m, thin profiled mouldings form a run of boiserie panels across W02, around the return and the pillar and along the corridor wall, painted in the wall white, at most 2 cm deep. Just below the ceiling a slim brushed-brass-coloured picture rail runs the whole length. From it hangs the soul of the apartment: an original abstract painting-print of large plum and chalk forms with one olive stroke, 160 cm wide × 200 cm high, on matt canvas in a thin dark floating frame, centred on W02 west of the switch column, its lower edge 60 cm above the floor. On the pillar and the return two smaller prints of the same series, 40 × 50 cm, in brass frames. The switch column stays free in a clean 15 cm margin.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; a moulding frame traces the door surround on the wall at 8 cm distance and a horizontal boiserie panel fills the band above the door head.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with IKEA HAVSTORP beige framed fronts (factory finish) and small brushed-brass knobs; the fridge column in HAVSTORP up to the soffit; worktop and splashback in white marble-effect laminate, honestly a laminate; one walnut-effect open shelf on brass brackets with porcelain; no wall cabinets.
+
+LIGHT. Daytime, bright soft north light from the glazing behind the camera, no sun patches; the moulding shadows and the velvet sheen read clearly; warm neutral balance. Hue fittings off.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat. Avoid these proven errors: gilded mouldings; a herringbone or new floor; a crowded gallery wall of many small frames; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S09_ParisCollector_1_nappali-hero_Cam_12_A ===

@@ -1,0 +1,49 @@
+WSG A-902 · OPUS55-V3.1 · A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A · camera Cam_02 (living room – terrace) · run v1 (corrected package)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES (in this order)
+- Image 1 (Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral, daylit Blender render of the real apartment shell from the exact camera Cam_02 (same camera as before, only better lit so wall planes read). Nothing in image 1 may be moved, added or removed: walls, corners, openings, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 1b (Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png): the same camera with one dark-grey block marking the W01 TV-wall zone – placement and perspective guide only; the block colour is not a material.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+
+GEOMETRY LOCK (mandatory)
+0. METHOD: treat this as an IMAGE-TO-IMAGE EDIT of image 1, not a new composition. Furnish, finish and light image 1 itself. Every wall edge, the inside corner at about 48 %, the floor and ceiling lines and the window frame edges in your output must lie exactly on top of those in image 1 – if your image were laid over image 1 at 50 % opacity, the room edges would coincide. The TV wall therefore stays a steep, receding band on the left; never turn it towards the viewer.
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera at 1.55 m, 20 mm, standing in the living room and looking north-west. Verticals stay vertical. Do not rotate, pan, crop, zoom, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–48 %: the TV wall W01, seen in STRONG OBLIQUE PERSPECTIVE, receding from the left edge to the inside room corner at about 48 %. Its floor line rises from about 81 % of the image height at the left edge to about 65 % at the corner; its ceiling line drops from about 6 % to about 21 %. The TV wall is NEVER seen frontally or square-on; the TV and its furniture are foreshortened along this receding wall.
+   b) about 48 %: the vertical inside corner between the TV wall and the window wall.
+   c) 48–53 %: the narrow solid white wall strip W04 between that corner and the glazing.
+   d) 53–100 %: the 4.50 m glass wall with white frames and one vertical mullion at about 71 %, running towards the camera on the right; through it the terrace exactly as in image 1 – the black vertical-bar railing, the raised deck with its steps on the right, the green roof behind – and the open sky/view above.
+   e) Ceiling: flat, white, continuous at 2.90 m; no coves, beams, bulkheads or recessed spots.
+   f) Image 1b shows the SAME camera with one dark-grey block on W01: it marks the whole TV-wall composition zone (4.00 m wide, floor to ceiling, at most 0.40 m deep). The TV-wall design of the brief must occupy exactly this block's place and shape – a long, strongly foreshortened band receding from the left edge to the corner at about 48 %. Its near (left) end is cut by the left image edge; its far end touches the corner.
+3. Forbidden: turning the camera towards the TV wall; showing W01 frontally; moving the corner; adding walls, columns, niches or openings; changing the glass division; any element the camera cannot see from this position (the dining pendant ML04, the kitchen and wall W02 are outside the frame).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim (source: integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A_v1_3.prompt.md):
+
+=== BEGIN PROMPT A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A ===
+S05 MIAMI STREAMLINE – "Deco Rose" · A-902 living room – terrace · camera Cam_02 · blue hour / early evening, premium layered Philips Hue light · the TV wall is the WOW element; geometric control view. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Streamline Moderne for today: rounded D-shaped ends, triple horizontal "speed lines", stepped ziggurat frames with soft corners, dusty-rose corduroy, champagne and chalk white held in check by thin graphite edges; turquoise only in the bathroom. Optimistic, sunny, sculptural – never kitsch, no neon, no flamingos. Honest materials: chalk, champagne and dusty-rose matt laminates on MDF, bent MDF for the curves, factory-foiled fluted MDF, corduroy upholstery.
+
+SPACE PLAN (one plan for Cam_02, Cam_12, Cam_03). Layout C: The Westwing Melva corduroy corner sofa in dusty rose, L-shaped, low and solid, 238 × 143 cm, 75 cm high, its corner element at the south end stands in the west half of the living zone with its back to the east towards the dining table, the long seat north–south facing the TV wall; north end clear of the glass; at least 60 cm to the TV-wall furniture. Dining: The Westwing Archie dining table in white-washed oak, 160 × 90 cm, 75 cm high on the north–south axis under ML04 with six Westwing Samantha bouclé chairs in dusty rose with slim red-lacquered legs, softly rounded, 55 × 55 × 80 cm, 2+2+1+1. Kitchen in two rows behind the c. 85 cm west parapet.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_02) fixes geometry and framing; 1.55 m, 20 mm, looking north-west. Left third: the TV wall W01 – the hero. Centre: the rose corduroy sofa from its east back, the cream wool rug, the round coffee table. Right half: the 4.50 m glazing with white frames, cream voile stacked at the west end, and the terrace exactly as built – porcelain tiles 15 cm below the floor, the raised ribbed WPC deck at +0.62 m, the green roof, the anthracite bar railing – with the real Buda hills and city roofs in the blue hour. Lower right corner: the west side of the dining table with two chairs. Top edge: the globe pendant at ML05.
+
+TV WALL W01 – "ZIGGURAT PORTAL" (4.00 m wide, 2.90 m high). The two outer parts of the wall, floor to 15 mm below the ceiling, are clad in vertical cream fluted MDF panels, at most 4 cm deep. In the centre stands the portal: three nested frames with rounded corners (radii 12, 18 and 24 cm), each 1.8 cm thick – chalk white inside, champagne in the middle, dusty rose outside – stepping forward 5.4 cm in total, 230 cm wide and 200 cm high, rising from the top of the media cabinet to 2.45 m, below the ceiling. Inside it hangs the 65-inch TV, screen off, centre at 1.25 m. Under the portal a 300 cm long, 45 cm high, 45 cm deep champagne-beige media cabinet with both ends rounded into half-circles, its front carrying three fine horizontal grooves – the speed lines – and a recessed plinth. On the cabinet: a chrome-free champagne-coloured bowl and a stack of design books.
+
+LIGHT (Philips Hue, 2200–2700 K, no RGB). Behind the inner and outer step of the portal, along both sides and the top, hidden Hue strips in flexible opal profiles make each step glow – a stepped Deco halo around the dark screen; a hidden strip under the media cabinet lays a soft line on the floor. The ML05 pendant – the Kave Home Brisia pendant, one Ø 50 cm frosted glass globe on a brushed-brass rod with an E27 Hue bulb, lowest point at least 2.15 m – glows dimmed. The dining pendant at ML04 hangs outside this frame: do not draw any pendant at the right edge; at most a faint warm spill of its light reaches the right edge of the floor and the table. No downlights, no ceiling cove.
+
+EXPOSURE. Mid-key, not dark, not contrasty; wall edges, floor–wall line, window frames, terrace deck, railing and green roof readable; deep-blue sky with a pink last band and first city lights.
+
+OTHER WALLS. The solid strip between the TV wall and the glazing continues the cream fluted panels to the corner.
+
+TEXTILES AND STYLING (only these). A Westwing Mason hand-tufted cream wool rug, 200 × 300 cm, under the seating group; the Westwing Antigua round coffee table, Ø 78 cm, 45 cm high, with a travertine-effect glass top (honestly glass, not stone), 45–50 cm in front of the sofa; cream voile curtains floor to ceiling on a wall-mounted track at the window head; turquoise and champagne velvet cushions, a cream bouclé throw.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside, anthracite outside in a dark brick reveal; switches and sockets visible.
+
+REALITY RULES. Keep image 1's geometry. Avoid these proven errors: a pendant lamp drawn at the right edge or anywhere above the dining table; neon or coloured RGB light; gold strips in every joint; a portal reaching the ceiling or deeper than stated; a floor lighter or cooler than the real one; a light brick reveal; a ceiling cove; visible LED dots; a fictional skyline or palm beach. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A ===

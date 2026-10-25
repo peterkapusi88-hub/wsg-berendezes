@@ -1,0 +1,49 @@
+WSG A-902 · OPUS55-V3.1 · A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A · camera Cam_02 (living room – terrace) · run v1 (corrected package)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES (in this order)
+- Image 1 (Cam_02_image1_A902_Alap-v2b1k13_blender_02_nappali-terasz_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral, daylit Blender render of the real apartment shell from the exact camera Cam_02 (same camera as before, only better lit so wall planes read). Nothing in image 1 may be moved, added or removed: walls, corners, openings, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 1b (Cam_02_image1b_A902_Cam02_KORR_1b_TVfal_zona.png): the same camera with one dark-grey block marking the W01 TV-wall zone – placement and perspective guide only; the block colour is not a material.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+
+GEOMETRY LOCK (mandatory)
+0. METHOD: treat this as an IMAGE-TO-IMAGE EDIT of image 1, not a new composition. Furnish, finish and light image 1 itself. Every wall edge, the inside corner at about 48 %, the floor and ceiling lines and the window frame edges in your output must lie exactly on top of those in image 1 – if your image were laid over image 1 at 50 % opacity, the room edges would coincide. The TV wall therefore stays a steep, receding band on the left; never turn it towards the viewer.
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera at 1.55 m, 20 mm, standing in the living room and looking north-west. Verticals stay vertical. Do not rotate, pan, crop, zoom, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–48 %: the TV wall W01, seen in STRONG OBLIQUE PERSPECTIVE, receding from the left edge to the inside room corner at about 48 %. Its floor line rises from about 81 % of the image height at the left edge to about 65 % at the corner; its ceiling line drops from about 6 % to about 21 %. The TV wall is NEVER seen frontally or square-on; the TV and its furniture are foreshortened along this receding wall.
+   b) about 48 %: the vertical inside corner between the TV wall and the window wall.
+   c) 48–53 %: the narrow solid white wall strip W04 between that corner and the glazing.
+   d) 53–100 %: the 4.50 m glass wall with white frames and one vertical mullion at about 71 %, running towards the camera on the right; through it the terrace exactly as in image 1 – the black vertical-bar railing, the raised deck with its steps on the right, the green roof behind – and the open sky/view above.
+   e) Ceiling: flat, white, continuous at 2.90 m; no coves, beams, bulkheads or recessed spots.
+   f) Image 1b shows the SAME camera with one dark-grey block on W01: it marks the whole TV-wall composition zone (4.00 m wide, floor to ceiling, at most 0.40 m deep). The TV-wall design of the brief must occupy exactly this block's place and shape – a long, strongly foreshortened band receding from the left edge to the corner at about 48 %. Its near (left) end is cut by the left image edge; its far end touches the corner.
+3. Forbidden: turning the camera towards the TV wall; showing W01 frontally; moving the corner; adding walls, columns, niches or openings; changing the glass division; any element the camera cannot see from this position (the dining pendant ML04, the kitchen and wall W02 are outside the frame).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim (source: integrator v1.3 corrected copy (K-02/K-03, Claude 2026-10-25, from competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467), 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_3_7d3c67f/A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A_v1_3.prompt.md):
+
+=== BEGIN PROMPT A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A ===
+S04 LA HORIZON – "Golden Hour Horizon" · A-902 living room – terrace · camera Cam_02 · blue hour / early evening, premium layered Philips Hue light · the TV wall is the WOW element; geometric control view. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Cinematic Californian modernism made of horizontals: one long, low walnut horizon floating along the wall, tobacco-bronze glass, sand and taupe, brushed bronze in small doses; the real Buda panorama is the screen this room was built to watch. Honest materials: walnut-effect laminate (Egger Carini walnut family), real tinted tempered glass, sand linen-effect vinyl wallcovering, wool.
+
+SPACE PLAN (one plan for Cam_02, Cam_12, Cam_03). Layout C. The Westwing Lilo bouclé corner sofa in light brown, L-shaped with softly rounded backs and arms, 260 × 176 cm, 79 cm high, corner element on the south end stands with its back to the east towards the dining table, the long seat north–south facing the TV wall; north end clear of the glass; at least 60 cm to the TV furniture. Dining: The Westwing Calla extendable dining table in dark oak, 160 × 90 cm closed (extending to 240 cm for guests), 75 cm high on the north–south axis under ML04 with six Westwing Calan velvet chairs in brown, 55 × 52 × 78 cm, 2+2+1+1. Kitchen in two rows behind the c. 85 cm west parapet.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_02) fixes geometry and framing; 1.55 m, 20 mm, looking north-west. Left third: the TV wall W01 – the hero. Centre: the low rounded sofa from its east back, the Kave Home Malenka brown wool rug, a low walnut coffee table. Right half: the 4.50 m glazing with white frames, sand linen curtains stacked at the west end, and the terrace exactly as built – porcelain tiles 15 cm below the floor, the raised ribbed WPC deck at +0.62 m, the green roof, the anthracite bar railing – with the real Buda hills and city roofs in the blue hour. Lower right corner: the dining table's west side with two chairs. Top edge: the ML05 pendant.
+
+TV WALL W01 – "HORIZON WALL" (4.00 m, floor to the 2.90 m ceiling). The entire wall is clad from floor to 15 mm below the ceiling in walnut-effect laminate panels, at most 4 cm proud, with 10 mm horizontal grooves every 30 cm – fine horizon lines running the full 4 m, aligned with the top of the console and with the 2.53 m glazing head. Floating in front: one continuous walnut-effect console 380 cm long, 32 cm high, 40 cm deep, its underside 26 cm above the floor, with four sliding doors of tobacco-bronze tinted tempered glass in a slim bronze track, the shadows of books and a record player faintly visible behind the glass. The 65-inch TV hangs on the panelling slightly north of centre, screen centre at 1.15 m, screen off. On the console's north end a bronze table lamp with a linen shade; a low stack of art books and one sculptural sand-coloured ceramic.
+
+LIGHT (Philips Hue, 2200–2700 K, no RGB). One horizon of light: a hidden Hue strip runs the full length under the floating console, laying a perfectly even warm band on the floor; a second hidden strip in the top shadow joint grazes down the grooved panelling so every horizontal groove draws a fine shadow line – the wall reads like a sunset strata. The bronze table lamp (E27 Hue) glows warm. The ML05 fitting – the Westwing Dancing large white pendant, Ø 65 × 38 cm, E27 – is dimmed, lowest point at least 2.15 m. The dining pendant at ML04 hangs outside this frame: do not draw any pendant at the right edge; at most a faint warm spill of its light reaches the right edge of the floor and the table. No downlights, no ceiling cove.
+
+EXPOSURE. Mid-key, not dark, not contrasty; wall edges, floor–wall line, window frames, terrace deck, railing and green roof readable; outside a deep-blue sky with a long amber band over the hills – the real horizon echoing the interior line.
+
+OTHER WALLS. The solid strip between the TV wall and the glazing continues the grooved walnut panelling to the corner.
+
+TEXTILES AND STYLING (only these). Kave Home Malenka brown wool rug 200 × 300 cm; sand linen floor-to-ceiling curtains on a wall-mounted track at the window head; taupe, sand and rust cushions; a camel wool throw.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside, anthracite outside in a dark brick reveal; switches and sockets visible.
+
+REALITY RULES. Keep image 1's geometry. Avoid these proven errors: a pendant lamp drawn at the right edge or anywhere above the dining table; a floor lighter or cooler than the real one; a light brick reveal; a ceiling cove or ceiling light line; real stone or a palm-tree mural; a console longer or deeper than stated or touching the floor; visible LED dots; a fictional skyline or sea. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A ===
