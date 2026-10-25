@@ -49,3 +49,5 @@ CP-S01-all – teljes onallo promptok | 3146a11506f56cd29713656b21d72d20da9ca211
 CP-S02-all – hat kamera es uj furdo | 6587fbb4dc19694094500c464f5ee66d0319a841 | 2026-10-25T15:10:40.023664+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S03-all – hat kamera es uj furdo | bfa681da3ca99687367d04f812ecd249e8f3f363 | 2026-10-25T15:10:52.247996+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S04-all – hat kamera es uj furdo | 86e4edf81b28d2b2940af0243bdd67d952a9708f | 2026-10-25T15:11:04.732110+00:00 | távoli tartalom-visszaolvasás PASS
