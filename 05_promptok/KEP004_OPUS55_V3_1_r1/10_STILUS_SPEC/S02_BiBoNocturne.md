@@ -69,6 +69,8 @@
     - D45 – törölközőszárító.
     - Új kiállás, vésés nincs.
 
+  - **r1e – letisztult (Péter 18:21):** a WC-szekrény a mennyezetig ér, a ventilátor lamellás betét mögé kerül; egyetlen kerek „hold”-nyílás egy vázával; a végfal sima navy üveg egy kis teliholddal és halvány fénycsíkkal; sárgaréz csillag-fogasok. Csak valódi áramforrású fény, a kábelek rendezettek.
+
 ## 5. Termék- és elemlista
 | ID | sor | helyiség / fal | elem | elhelyezési szándék | méret (cm) | anyag / termék | rögzítés | táp | fő Ft | gazd. Ft | státusz |
 |---|---|---|---|---|---|---|---|---|---:|---:|---|
