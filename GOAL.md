@@ -501,6 +501,26 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Claude (PR #19 `competition/kozos-bemenetek-20261025`):** §0 v3 – §0.10 fénystratégia (felülírja az r2 §11.6-ot), szövegcsere a három prompt fényleírására; a két Cam_02 kalibrációs prompt (C1 Zenit, C2 Lake Forest) átírva esti/kékórás, Hue-TV-falas változatra (6 644 / 6 495 karakter); §0.1 a Cam_12-korlát „nem abszolút” értelmezésével; preflight: **FELTÉTELESEN INDÍTHATÓ – még nem indítható.** Nem történt merge, képgenerálás, versenyzői futás.
   - **Következő:** a PR #20 végleges mentése → baseline v3 (main + PR #20 végleges + PR #19) → új SHA a GOAL §7-be → Péter „mehet”.
 
+- *(2026-10-25 04:40 és 04:49 CET, Péter – eldöntve)* **Fénycsere: Cam_02 ↔ Cam_12; koordináció a párhuzamos munkamenettel.**
+  - **Fény:**
+    - Cam_02: kék óra / este, prémium rétegzett Hue; a TV-fal a WOW-elem; a terasz felismerhető; nem túl sötét vagy kontrasztos.
+    - Cam_12 v3: nappal, világos luxusenteriőr-összehasonlítás.
+    - Cam_03: nappal. Cam_04: este, Hue. Cam_11: nappal. Cam_10: műfény.
+  - **Ami nem változik:** a kamerák geometriája, a `kep_id`-k, a semleges Blender-alapképek.
+  - **A három versenyzőnek** azonos fény; a két Cam_02 kalibráció is esti.
+  - **Ne tiltsuk általánosan:** sem a TV-fal északi részét a kamera miatt, sem a kerek vagy ovális asztalt; minden eltérő forma külön méretpróbát kap.
+  - **A közös baseline v2** (`a8ab8d3`, a másik munkamenet) indítása felfüggesztve, amíg a PR #20 kész nincs. A baseline-t a másik munkamenet frissíti.
+  - **Nincs** merge és képgenerálás.
+- *(2026-10-25 05:28 CET, Claude – eredmény)* **PR #20 végleges: `25a2ec1`.**
+  - **Fénycsere:** a `GEOMETRIA_C_KAMERACSOMAG_v2.md`-ben.
+  - **A Cam_12 v3 a TV-falat nem látja** → a TV-fal északi vége szabad; a v1 korlát visszavonva.
+  - **Kerek asztal, Blender-próba (validátor PASS):**
+    - Ø150 csak sík TV-fallal és nyugatra tolt kanapéval; az ML04 0,31–0,41 m-re oldalt;
+    - Ø130 40 cm-es TV-bútorral U-val.
+  - **Keleti teraszszárny:** nincs olyan hatszemélyes változat, amely minden utat megtart → az 5+1 / 3+3 / bővíthető asztal kompromisszum, hétfőn dől el.
+  - **Validátor-nyilvántartás** kész.
+  - **Átadás a baseline-hoz:** `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r2_ATADAS.md`. Ebben szerepel a baseline v2-ben még javítandó 6 pont: fény, a TV-fal-korlát, a kalibráció térrendje, a Nealy ovális, a Gala 300 × 225 és a Martina.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
