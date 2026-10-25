@@ -1,0 +1,21 @@
+=== BEGIN PROMPT A902_S09_ParisCollector_1_nappali-hero_Cam_12_A ===
+S09 PARIS COLLECTOR – "Salon des Collectionneurs" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. A Parisian collector's salon: white boiserie frames, chalk fabric-texture walls, olive velvet, plum and chalk in one monumental artwork, brown glass, brushed brass in small doses, framed-front kitchen. Honest materials: polyurethane mouldings painted in the wall white (approved painting exception), textile-effect vinyl wallcovering, IKEA HAVSTORP factory-finished framed fronts, white marble-effect laminate.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Lennon modular corner sofa in olive bouclé, L-shaped, 238 × 180 cm, 68 cm high, back to the east towards the dining table, facing the TV wall behind the camera. Dining: The Westwing Luca dining table in herringbone mango wood on slim golden legs, 160 × 90 cm, 75 cm high under ML04 with four Westwing Calan velvet side chairs in olive (55 × 52 × 78 cm) on the long sides and two Westwing Calan velvet armchairs (66 × 60 × 78 cm) at the ends. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the olive bouclé sofa back as a low band with plum, chalk and olive velvet cushions and a camel throw. Middle left: the herringbone mango table with olive velvet chairs and the two olive velvet armchairs at its ends, the smoked-glass pendant at ML04 (the Kave Home Ardali pendant, Ø 50 cm smoked glass and brushed steel) above; behind it the beige framed-front kitchen. Far left: W03 with the light-grey door of room 05.3 framed by a moulding. Right of centre, almost frontal: W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the brass globe pendant at ML05 may enter at the top.
+
+THE SALON WALL – W02 + W07. W02 and the corridor throat are covered floor to ceiling in a chalk-white fabric-texture wallcovering. Along the lower part, up to 0.95 m, thin profiled mouldings form a run of boiserie panels across W02, around the return and the pillar and along the corridor wall, painted in the wall white, at most 2 cm deep. Just below the ceiling a slim brushed-brass-coloured picture rail runs the whole length. From it hangs the soul of the apartment: an original abstract painting-print of large plum and chalk forms with one olive stroke, 160 cm wide × 200 cm high, on matt canvas in a thin dark floating frame, centred on W02 west of the switch column, its lower edge 60 cm above the floor. On the pillar and the return two smaller prints of the same series, 40 × 50 cm, in brass frames. The switch column stays free in a clean 15 cm margin.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; a moulding frame traces the door surround on the wall at 8 cm distance and a horizontal boiserie panel fills the band above the door head.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with IKEA HAVSTORP beige framed fronts (factory finish) and small brushed-brass knobs; the fridge column in HAVSTORP up to the soffit; worktop and splashback in white marble-effect laminate, honestly a laminate; one walnut-effect open shelf on brass brackets with porcelain; no wall cabinets.
+
+LIGHT. Daytime, bright soft north light from the glazing behind the camera, no sun patches; the moulding shadows and the velvet sheen read clearly; warm neutral balance. Hue fittings off.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat. Avoid these proven errors: gilded mouldings; a herringbone or new floor; a crowded gallery wall of many small frames; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S09_ParisCollector_1_nappali-hero_Cam_12_A ===

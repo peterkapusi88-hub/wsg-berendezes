@@ -1,0 +1,21 @@
+=== BEGIN PROMPT A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A ===
+S05 MIAMI STREAMLINE – "Deco Rose" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Sunny Streamline Moderne: rounded ends, triple horizontal speed lines, stepped soft-cornered frames, dusty-rose corduroy, champagne, chalk white and fine graphite edges; a round porthole mirror. Honest materials: matt laminates on MDF, bent MDF curves, silk-effect vinyl wallcovering, real mirror glass with safety backing, corduroy upholstery.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Melva corduroy corner sofa in dusty rose, L-shaped, low and solid, 238 × 143 cm, 75 cm high, its corner element at the south end, back to the east towards the dining table, facing the TV wall behind the camera. Dining: The Westwing Archie dining table in white-washed oak, 160 × 90 cm, 75 cm high under ML04, six Westwing Samantha bouclé chairs in dusty rose with slim red-lacquered legs, softly rounded, 55 × 55 × 80 cm, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the rose corduroy sofa back as a low band with turquoise and champagne cushions and a cream throw. Middle left: the dining table and chairs with the ML04 pendant (the Kave Home Novae pendant, Ø 40 cm frosted glass and light-grey brushed metal); behind it the chalk-white kitchen with a rounded champagne end panel and the terrazzo-effect worktop. Far left: W03 with the light-grey door of room 05.3. Right of centre, almost frontal: W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the ML05 globe pendant may enter at the top.
+
+SPEED-LINE PROMENADE – W02 + W07. W02 and the corridor throat are covered floor to ceiling in a chalk-white wallcovering with a faint silk sheen. At 0.95 m three parallel champagne laminate strips, each 2 cm high and 1 cm thick with 4 cm gaps, run across W02, around the return and around the pillar – where they bend around the corner in one smooth radius, the Streamline gesture – and continue into the corridor; they stop 15 cm before the switch column. On W02 hangs a round real mirror, Ø 90 cm, in a thin champagne metal frame, centre at 1.60 m, reflecting the bright living room and the light of the glazing in a physically correct way; beside it, west of the mirror, an abstract Deco canvas 100 × 140 cm of overlapping rose, turquoise and champagne arcs in a thin chalk frame. Nothing deeper than 3 cm on this wall.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; above it a two-step champagne laminate panel with rounded lower corners, at most 3 cm deep; the speed lines end neatly at the door frame.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with chalk-white matt fronts; the dining-side end of the west row closes with a champagne end panel rounded to a 30 cm radius; the fridge column in chalk white with three champagne speed-line grooves; worktop and splashback in terrazzo-effect laminate (white base with small grey and rose chips), honestly a laminate; no wall cabinets, one rounded champagne shelf.
+
+LIGHT. Daytime, bright soft north light from the glazing behind the camera, no sun patches; the silk wallcovering glows gently, corduroy ribs readable; clean warm white balance. Hue fittings off or barely glowing.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat. Avoid these proven errors: a mirror with an impossible reflection; neon or flamingo decor; gold lines in every joint; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one; real terrazzo or marble. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A ===
