@@ -402,7 +402,11 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Részletek: `ai-coordination/results/WSG-20261025-A902-ELRENDEZES-ALT_r1.md` (a PR ágán). Képek: `04_renderek/A902_elrendezes_alt_v1/`, `04_renderek/A902_cam03_konyha_javaslat/`.
   - **A 0,36–0,38 m oka:** a valós termékek a 3,00 × 2,40-es U-befoglaló keleti élére kerültek.
     - Mindhárom alternatívában a kanapé nyugatabbra kerül.
-    - **Feltétel:** a TV-fal bútora a kanapé előtt legfeljebb **40 cm** mély. Ez az Astra V3.1-integráció kötelező ellenőrzési pontja.
+    - ~~**Feltétel:** a TV-fal bútora a kanapé előtt legfeljebb **40 cm** mély.~~ **Pontosítva 03:56 CET** (érzékenységvizsgálat, eredmény §3.1): a számok 40 cm-rel készültek.
+      - **C:** a brief szerinti 60 cm-es szekrény mindkét kanapéval elfér (S01-nél a kanapé 7 cm-rel keletebbre).
+      - **A:** az L előtt legfeljebb 45 cm. **B:** az U előtt legfeljebb 50 cm.
+      - Maga a TV a falsíkon marad.
+      - Ez az Astra V3.1-integráció kötelező ellenőrzési pontja.
   - **Az alternatívák:**
     - **A – hosszanti 3+3:** nincs termékcsere; az ML04 0,30 m-rel keresztben félre esik.
     - **B – keresztbe 3+3:** U-kanapéval (S02) a legjobb közlekedés. L-lel (S01) gyenge: 180-as asztal kell.
