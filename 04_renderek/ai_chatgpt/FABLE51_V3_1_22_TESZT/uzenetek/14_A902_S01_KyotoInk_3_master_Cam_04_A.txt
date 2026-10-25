@@ -1,0 +1,34 @@
+IMAGE ID: A902_S01_KyotoInk_3_master_Cam_04_A
+SOURCE VERSION: FABLE51-V3.1 (branch competition/fable51-v3-1-20261025, commit b44541205cdd79e3d1f33ee8074c2bc280beb7a7)
+STATUS: KONCEPCIÓ – NEM VALIDÁLT
+
+Please generate exactly ONE image (landscape, same aspect ratio as image 1). Attached reference images, in order:
+- image 1: neutral Blender base image of camera Cam_04 - AUTHORITATIVE for room shell, camera, framing, openings and floor-wall lines
+- image 2: real site photo of the existing laminate floor and skirting (colour, grain, plank direction) - match it; the exact decor code is not verified
+- image 3: real site photo of the master bedroom glass wall, balcony railing and real view
+
+Keep the original walls, ceiling, windows and doors, the existing laminate floor and real surfaces, the camera view and perspective, the real terrace and view; add only the furniture, materials and lighting named in the prompt; no new walls, pillars, rooms or invented ceiling elements.
+
+The creative prompt follows verbatim:
+
+CONCEPT ONLY – NOT VALIDATED. Photorealistic early-evening interior photograph of the master bedroom 05.1 of apartment A-902 in Budapest, style "S01 Kyoto Ink": contemporary Japanese luxury – one graphite ink line through pale stone-coloured woven planes, pale oak, charcoal linen, calm voids. Same master plan as the daytime panorama view of this style.
+
+CAMERA AND GEOMETRY (image 1 is authoritative). Camera Cam_04: in the south-west corner of the room beside the door, eye height 1.50 m, 20 mm lens, looking north-east. Use the neutral Blender base image strictly for the shell and the camera: exact framing, the 3.57 m wide room, 2.90 m white ceiling with flat heating/cooling panels (nothing fixed to it except the existing light point), verticals vertical. Centre-right: the east headboard wall with the bed. Left-centre background: the north niche filled by the full-height wardrobe wall. Right foreground: the start of the south wardrobe strip beside the door. Left edge: the east end of the west glazing with its curtain; dusk outside.
+
+LIGHT – EARLY EVENING HUE SCENE. Outside the glass a deep-blue dusk. Inside only the named Hue layers at 2200–2700 K, no coloured light: the hidden light behind the headboard panels, the two reading lights, the ceiling fitting at a low level. Medium exposure, no crushed blacks, no blown highlights; wall edges and the floor–wall line stay readable; hidden strips glow evenly from profiles, never as dots.
+
+HEADBOARD WALL (east wall, 3.57 m wide). A full-wall composition fixed to the wall, finishing 15 mm below the ceiling: three vertical panels 0.80 m wide each (2.40 m total, centred on the bed axis), from the floor to 2.885 m, flat MDF wrapped in a pale stone-coloured woven-texture vinyl-backed textile wallcovering (named honestly: wallcovering, not grasscloth), separated by 30 mm deep graphite laminate reveals; each reveal hides a vertical Hue strip so the three panels float in a soft seam of warm light. Either side of the panels, the remaining 0.585 m of wall to the corners is faced floor-to-ceiling with 4 cm matt graphite unicolour laminate (Egger U961 ST7) with cut-outs leaving the existing sockets and switches beside the bed fully visible and reachable. Across the whole wall at 0.95 m above the floor runs a 60 mm recessed graphite band – the room's ink line – passing behind the headboard cushion. Fixed to the graphite side fields, two floating night tables 0.50 × 0.35 × 0.15 m in graphite laminate at 0.55 m height, each with a slim matt-black wall-mounted reading lamp above (E14, Hue White Ambiance bulb, fed from the existing socket beside the bed; fitting selection CONDITIONAL).
+
+BED. IKEA NORDLI storage bed frame for a 180 × 200 cm mattress (white frame, 180 × 202 × 30 cm) with its axis on the room's centre line, a loose upholstered headboard cushion 1.80 × 0.60 m in charcoal linen leaning against the panels; bedding in washed charcoal and stone linen, a folded ink-grey wool throw at the foot, two taupe pillows. At least 0.60 m of free floor on both sides. A flat-woven wool rug 170 × 240 cm in graphite under the lower two thirds of the bed (product CONDITIONAL).
+
+WARDROBE WALL – NORTH NICHE (owner decision, fixed). A floor-to-ceiling wardrobe wall fills the whole north niche, about 3.00 m wide × 0.90 m deep × 2.90 m high, its fronts flush with the face of the pillar at the niche opening: handleless push-to-open doors, flat panels wrapped in the same pale stone woven-texture wallcovering as the headboard panels, 3 mm graphite shadow reveals and a recessed graphite plinth; the existing socket and data outlet on the niche back wall stay accessible behind a cut-out. No visible carcass edges.
+
+SOUTH WARDROBE STRIP (right foreground). The 2.42 m wardrobe strip beside the door in the same front family – stone woven-texture doors with graphite reveals – partly in frame; the door itself stays light grey with a black handle.
+
+GLASS, CURTAIN (left edge). The west glazing with white frames inside, anthracite outside; a floor-length pale stone linen-look curtain on a wall-mounted track in the 0.33 m wall strip above the glass (not the ceiling), drawn partly; roller shutter up.
+
+CEILING POINT. The existing ceiling point carries a paper-look opal pendant Ø 40 cm on a black cord, hung to 2.20 m, Hue E27 at 15 % (fitting CONDITIONAL). Nothing else on the ceiling.
+
+FLOOR AND SHELL. The existing medium grey-brown oak laminate floor with grain and knots, 6 cm skirting (not light oak, not cool grey); white ceiling. Materials honest: wallcovering as wallcovering, graphite laminate as matt laminate, linen as linen.
+
+AVOID (proven failures): any element taller than specified (panels and wardrobe to 2.885 m, night tables 0.55 m); a floor-to-ceiling mirror; a different glazing division; a lighter floor; visible LED dots or coloured light; invented ceiling fixtures; furniture not listed; the sockets beside the bed covered.

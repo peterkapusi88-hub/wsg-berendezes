@@ -1,0 +1,41 @@
+IMAGE ID: A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A
+SOURCE VERSION: FABLE51-V3.1 (branch competition/fable51-v3-1-20261025, commit b44541205cdd79e3d1f33ee8074c2bc280beb7a7)
+STATUS: KONCEPCIÓ – NEM VALIDÁLT
+
+Please generate exactly ONE image (landscape, same aspect ratio as image 1). Attached reference images, in order:
+- image 1: neutral Blender base image of camera Cam_02 - AUTHORITATIVE for room shell, camera, framing, openings and floor-wall lines
+- image 2: real site photo of the existing laminate floor and skirting (colour, grain, plank direction) - match it; the exact decor code is not verified
+- image 3: real site photo of this living room towards the glass wall and terrace - real window frames and terrace
+- image 4: real site photo of the terrace: light-grey tiles, raised brown WPC deck, steps, anthracite frames
+- image 5: real site photo of the dark brick reveal around the terrace glazing
+- image 6: real site photo of the green roof, railing and the real city / Buda hills panorama
+
+Keep the original walls, ceiling, windows and doors, the existing laminate floor and real surfaces, the camera view and perspective, the real terrace and view; add only the furniture, materials and lighting named in the prompt; no new walls, pillars, rooms or invented ceiling elements.
+
+The creative prompt follows verbatim:
+
+CONCEPT ONLY – NOT VALIDATED. Photorealistic interior photograph of the living room of apartment A-902 in Budapest, style "S04 LA Horizon": cinematic horizontal luxury – walnut horizons that run the full length of the wall in conversation with the real Buda panorama, tobacco and silver tones, a low taupe bouclé lounge, smoked glass; nothing rises above the horizontal lines. One of six coordinated views; this is the evening hero of the TV wall.
+
+CAMERA AND GEOMETRY (image 1 is authoritative). Camera Cam_02: near the north-east corner of the living room, eye height 1.55 m, 20 mm lens, looking north-west. Use the neutral Blender base image strictly for the shell, the openings and the camera: exact framing, 2.90 m white ceiling with flat heating/cooling panels (nothing fixed to it except the two existing light points), white window frames in their dark brick reveal, the real exterior. Verticals vertical. Left third: the 4.00 m TV wall W01. Middle: the sofa with its back to the camera. Right third: the glass wall, the terrace and the real panorama. Lower right: the west long side of the dining table with two chairs. Top edge: the living pendant point ML05.
+
+LIGHT – BLUE HOUR. Deep blue dusk outside, Buda's hills and the city roofs as silhouettes with scattered warm window lights; the terrace lit only by spill from inside. Inside no daylight; every source is a named Philips Hue layer at 2200–2700 K, warm white, no coloured light. Medium exposure: no crushed blacks, no blown highlights; wall edges, floor–wall line, terrace tiles, WPC deck, railing and green roof readable. Hidden LED lines glow evenly from profiles with opal covers, never as dots.
+
+THE TV WALL W01 – "HORIZON" (the WOW element, left third). The whole 4.00 m wall is composed as three horizontal layers that each run uninterrupted from the south wall to the window reveal, with a line of hidden light at each boundary:
+1. Lower layer, 0.30–0.75 m: a floating walnut-effect laminate console (Egger H3710 Carini walnut, honestly a laminate) 4.00 m long × 0.45 m high × 0.45 m deep, five push-to-open flap fronts, its northern 0.40 m an open shelf; at its south end the console drops to the floor as a closed 1.20 m wide, 0.60 m deep storage head. Under the floating part a continuous warm light line in the 0.30 m gap to the floor (Hue Lightstrip Plus in a profile, driver inside, fed from the existing socket behind the console). Behind the console's top edge a 60 mm groove hides a second strip grazing upward across the middle layer.
+2. Middle layer, 0.75–2.10 m: a 40 mm panel field in a bronze-grey, finely horizontal-grained textile-effect vinyl wallcovering (honestly a wallcovering) over the full 4.00 m, no vertical joints. A 65-inch TV (about 1.45 × 0.84 m, slim black) hangs on its own bracket centred in this layer at 1.35 m, over the existing socket group, back ventilated, sockets reachable behind a removable section.
+3. Upper layer, 2.10–2.90 m: silver-grey textile-effect wallcovering applied directly to the wall up to the ceiling, no panel.
+The boundary between the middle and upper layers is a 40 mm × 100 mm walnut-effect laminate ledge at exactly 2.10 m along the whole 4.00 m, carrying a hidden Hue strip that washes the silver upper layer and the ceiling with warm light (fed from the existing wall light point near the north end of the wall; CONDITIONAL – electrical audit). Nothing stands in the north corner by the glass; the open shelf there is only 0.45 m high.
+
+SEATING GROUP (middle). Westwing Lennon modular corner sofa, right-hand L, 238 × 180 × 68 cm, in greyish-beige bouclé: the 238 cm seat north–south with its back to the camera and the dining zone, the 180 cm chaise reaching west towards the TV wall at the south end; the north end leaves the floor by the glass free. Cushions in taupe, tobacco and silver-grey, a tobacco wool throw. In front a long low coffee table 140 × 60 × 30 cm – a walnut-effect laminate slab on a slim matt-black steel frame – with a smoked-glass tray and a low stack of photo books. Under the group a Kave Home Marely white wool rug 200 × 300 cm laid north–south. A Kave Home Madali floor lamp (glossy black steel, black marble base, 160 cm) at the sofa's south end with a Hue White Ambiance E27 bulb. Clear walkway sofa–console at least 0.60 m; sofa–coffee table 0.45–0.50 m.
+
+GLASS WALL, CURTAIN, TERRACE (right third). Full-height glazing with white frames inside, anthracite outside, in the dark brick reveal; a tobacco-brown sheer in front of a silver-grey dim-out curtain on a wall-mounted double track on the inner face of the lintel (not the ceiling), stacked to the sides so the panorama stays open; the roller-shutter cover free. Beyond: the terrace with light-grey ceramic tiles 15 cm below floor level, the raised brown ribbed WPC deck, the green roof planting, the anthracite railing and the real blue-hour view of the Buda hills and city roofs – the view the horizontal lines of the room are tuned to. No other skyline, no water.
+
+DINING EDGE (lower right). The west long side of a Westwing Toni oval dining table 160 × 90 × 75 cm in dark-oak veneer with geometric dark-oak legs, two Kave Home Ciselia chairs (beige chenille, beige steel legs, 52.5 × 55 × 75 cm) tucked in, a comfortable distance behind the sofa back. Partly in frame above it: the Kave Home Ardali pendant, Ø 50 cm smoked glass with brushed steel, glowing warm with a Hue E27 bulb.
+
+CEILING POINT ML05 (top edge). A single large smoked-glass globe Ø 40 cm on a black cord hung to 2.15 m, Hue White Ambiance E27 at 20 % (fitting CONDITIONAL).
+
+FLOOR AND SHELL. The existing medium grey-brown oak laminate floor with grain and knots and 6 cm matching skirting (not light oak, not cool grey); white ceiling. Materials honest: walnut-effect as laminate, the two wallcoverings as wallcoverings, bouclé as fabric, smoked glass as glass, marble only on the lamp base.
+
+EVENING LIGHT LAYERS (Hue scene "Horizon"): console underglow 4 m; the groove graze up the bronze-grey field 4 m; the ledge wash over the silver upper layer and ceiling 4 m; the Ardali over the table; the ML05 globe at 20 %; the Madali floor lamp. Three parallel warm lines across the whole wall, echoing the horizon outside. TV screen off, matte dark.
+
+AVOID (proven failures): a different panorama; a light brick reveal; a lighter or cooler floor; any element rising above the specified layers (console top 0.75 m, ledge at 2.10 m, storage head 0.75 m) or a tall cabinet; visible LED dots or coloured light; real timber or stone in place of the laminates; furniture or lamps not listed; ceiling coves or recessed spots.

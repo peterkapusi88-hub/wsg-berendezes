@@ -1,0 +1,33 @@
+IMAGE ID: A902_S02_BiBoNocturne_3_master_Cam_04_A
+SOURCE VERSION: FABLE51-V3.1 (branch competition/fable51-v3-1-20261025, commit b44541205cdd79e3d1f33ee8074c2bc280beb7a7)
+STATUS: KONCEPCIÓ – NEM VALIDÁLT
+
+Please generate exactly ONE image (landscape, same aspect ratio as image 1). Attached reference images, in order:
+- image 1: neutral Blender base image of camera Cam_04 - AUTHORITATIVE for room shell, camera, framing, openings and floor-wall lines
+- image 2: real site photo of the existing laminate floor and skirting (colour, grain, plank direction) - match it; the exact decor code is not verified
+
+Keep the original walls, ceiling, windows and doors, the existing laminate floor and real surfaces, the camera view and perspective, the real terrace and view; add only the furniture, materials and lighting named in the prompt; no new walls, pillars, rooms or invented ceiling elements.
+
+The creative prompt follows verbatim:
+
+CONCEPT ONLY – NOT VALIDATED. Photorealistic early-evening interior photograph of the master bedroom 05.1 of apartment A-902 in Budapest, style "S02 BiBo Nocturne": an intimate night residence – deep plum upholstery, matt navy laminate, real smoked-bronze mirror, silver-grey textile, brushed brass. Same master plan as the daytime panorama view of this style.
+
+CAMERA AND GEOMETRY (image 1 is authoritative). Camera Cam_04: in the south-west corner beside the door, eye height 1.50 m, 20 mm lens, looking north-east. Use the neutral Blender base image strictly for the shell and the camera: exact framing, the 3.57 m wide room, 2.90 m white ceiling with flat heating/cooling panels (nothing fixed to it except the existing light point), verticals vertical. Centre-right: the east headboard wall with the bed. Left-centre background: the north niche with the full-height wardrobe wall. Right foreground: the start of the south wardrobe strip. Left edge: the east end of the west glazing with its curtain; dusk outside.
+
+LIGHT – EARLY EVENING HUE SCENE. Deep-blue dusk outside. Inside only the named Hue layers at 2200–2700 K, no coloured light: the hidden light along the top of the headboard panel, two brass reading lights, the ceiling fitting low. Medium exposure; wall edges and the floor–wall line readable; hidden strips glow evenly from profiles, never as dots; the mirror fronts reflect only what is in the room.
+
+HEADBOARD WALL (east wall, 3.57 m wide). A navy laminate backboard (Egger U599-family indigo, matt) covers the whole wall from the floor to 2.10 m, 40 mm thick, with cut-outs leaving the sockets and switches beside the bed fully visible. Onto it, centred on the bed axis, three upholstered panels 0.80 m wide × 1.50 m high each (2.40 m total) from 0.35 m to 1.85 m, deep plum matte velvet-look fabric with a soft 30 mm padding and 15 mm navy reveals between them. Along the top edge of the navy backboard a recessed profile hides a Hue strip washing the white wall above with warm light up to the ceiling (driver behind the board, fed from the socket beside the bed). Two floating night tables 0.50 × 0.35 × 0.15 m in navy laminate at 0.55 m beside the bed; above each a small brushed-brass wall-mounted reading lamp with a swivel head (E14 Hue White Ambiance, fed from the existing socket; fitting CONDITIONAL).
+
+BED. IKEA NORDLI storage bed frame for a 180 × 200 mattress (white, 180 × 202 × 30 cm), axis on the room's centre line, dressed in charcoal washed-linen bedding with a plum velvet bolster and two silver-grey pillows, a navy wool throw at the foot; a soft silver-grey wool rug 170 × 240 cm under the lower two thirds (product CONDITIONAL). At least 0.60 m free floor both sides.
+
+WARDROBE WALL – NORTH NICHE (owner decision, fixed). A floor-to-ceiling wardrobe wall fills the whole north niche, about 3.00 m wide × 0.90 m deep × 2.90 m high, fronts flush with the pillar face: push-to-open doors faced with real smoked-bronze tinted mirror glass (safety-backed) in slim matte-black aluminium frames, 3 mm reveals; the mirror doors softly reflect the dusk window and the plum headboard – a physically correct reflection, nothing invented; the socket and data outlet on the niche back wall accessible behind a cut-out. No mirror on the ceiling or above the bed.
+
+SOUTH WARDROBE STRIP (right foreground). The 2.42 m wardrobe strip by the door in the same smoked-mirror front family, partly in frame; the door stays light grey with a black handle.
+
+GLASS, CURTAIN (left edge). The west glazing with white frames inside, anthracite outside; a floor-length charcoal velvet-look curtain with a silver-grey voile on a wall-mounted double track in the 0.33 m wall strip above the glass (not the ceiling), half drawn; shutter up.
+
+CEILING POINT. The existing point carries the Kave Home Drava pendant in burgundy ceramic (small, Ø 12.5 cm, E14 Hue bulb) hung to 2.20 m at 15 %; nothing else on the ceiling.
+
+FLOOR AND SHELL. The existing medium grey-brown oak laminate floor with grain and knots, 6 cm skirting (not light oak, not cool grey); white ceiling and white wall above the backboard. Materials honest: navy laminate as matt laminate, velvet-look as fabric, the mirror as real tinted glass.
+
+AVOID (proven failures): any element taller than specified (backboard 2.10 m, panels 0.35–1.85 m, wardrobe to 2.90 m); a mirror reaching the floor, on the ceiling, or reflecting things not in the room; a different glazing division; a lighter floor; visible LED dots or coloured light; invented ceiling fixtures; furniture not listed; covered sockets.

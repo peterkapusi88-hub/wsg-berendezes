@@ -1,0 +1,32 @@
+IMAGE ID: A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A
+SOURCE VERSION: FABLE51-V3.1 (branch competition/fable51-v3-1-20261025, commit b44541205cdd79e3d1f33ee8074c2bc280beb7a7)
+STATUS: KONCEPCIÓ – NEM VALIDÁLT
+
+Please generate exactly ONE image (landscape, same aspect ratio as image 1). Attached reference images, in order:
+- image 1: neutral Blender base image of camera Cam_03 K1 - AUTHORITATIVE for room shell, camera, framing, openings and floor-wall lines
+- image 2: real site photo of the existing laminate floor and skirting (colour, grain, plank direction) - match it; the exact decor code is not verified
+- image 3: real site photo of the kitchen wall (the laminate floor continues in the kitchen, white walls)
+
+Keep the original walls, ceiling, windows and doors, the existing laminate floor and real surfaces, the camera view and perspective, the real terrace and view; add only the furniture, materials and lighting named in the prompt; no new walls, pillars, rooms or invented ceiling elements.
+
+The creative prompt follows verbatim:
+
+CONCEPT ONLY – NOT VALIDATED. Photorealistic daytime interior photograph of the kitchen and dining zone of apartment A-902 in Budapest, style "S01 Kyoto Ink": contemporary Japanese luxury – one graphite ink line through pale washi-textured planes, pale oak, light concrete-effect surfaces, calm voids. Same room, furniture and materials as the other living-room views of this style.
+
+CAMERA AND GEOMETRY (image 1 is authoritative). Camera Cam_03: at the north edge of the dining zone, eye height 1.50 m, level, 20 mm lens, looking due south along the kitchen. Use the neutral Blender base image strictly for the shell, the openings and the camera: exact framing, 2.90 m white ceiling with flat heating/cooling panels, verticals vertical. The kitchen is the subject: the east run with its two rows, the tall south appliance wall closing the view, the fridge column at the left in front of the dining wall, the lower west run and the ~0.85 m parapet on the right with the living room only sensed beyond it; the north end of the dining table with chairs and the dining pendant in the lower right foreground; at the left edge the surround of the light-grey 05.3 door. The terrace and the TV wall are not in frame.
+
+LIGHT – DAYLIGHT. Bright, even daylight from the living-room glass behind and right of the camera; neutral white balance; the worktop light at the existing wall point glows faintly warm; no sun patches, no warm grading.
+
+KITCHEN (centre, east run). No kitchen exists in the apartment; show an IKEA METOD carcass kitchen on the plan layout, two runs 62 cm deep with 85–86 cm clear floor between them. East run along the 2.75 m wall: base cabinets 0.80 m high on a 10 cm recessed black plinth, fronts in matt graphite unicolour laminate (Egger U961 ST7, honestly a matt laminate), handleless with 3 mm reveals, an undermount black sink with a black single-lever tap under the wall light point, an induction hob further south; a 4 cm worktop in light concrete-effect laminate (Egger F274 family, honestly laminate, not concrete); a flush splashback in the same concrete-effect HPL from worktop to the uppers. Upper row: cabinets 0.80 m high, fronts in pale ash-effect laminate (Egger H1180-family oak decor, straight fine grain), with a 60 mm graphite reveal beneath hiding a warm functional light strip; above the uppers a closed graphite top box row to 2.75 m so the run reads as one block with a 15 cm white band under the ceiling. The existing wall light point above the worktop carries a small matt-black E27 wall spot with a Hue bulb, angled down. The south end of the run is closed by a tall appliance column in graphite laminate (oven and microwave behind a flush door, closed above), the same height as the top box row.
+
+FRIDGE COLUMN AND DINING WALL (left). In front of the 1.00 m dining wall section stands the IKEA METOD tall housing 0.60 m wide, 0.62 m deep, 2.28 m high plus a closed top box to 2.75 m, graphite laminate fronts, integrated fridge-freezer; the dining light switches and socket beside it stay free. The 0.40 m wall strip beside it is wrapped in the pale stone washi-textured vinyl-backed wallcovering (named honestly). At the far left edge the light-grey 05.3 door with its black handle and frame stays as it is; above it a 2 cm graphite laminate lintel panel from 2.10 m to 2.90 m spans from the door to the fridge column.
+
+WEST RUN AND PARAPET (right). Low base cabinets only, graphite fronts, the same concrete-effect worktop at 0.90 m, ending before the existing ~0.85 m high parapet wall, which stays white-painted with a 4 cm concrete-effect laminate cap; no island, no full-height wall, the living room open beyond.
+
+DINING (lower right foreground). The north end of the Westwing Toni oval dining table 160 × 90 × 75 cm, light oak veneer, geometric oak legs; a Kave Home Eamy chair (light-grey chenille, natural ash back, black metal, 55 × 53 × 75 cm) at the end and two along the visible side; on the table a dark stoneware tray with unglazed bowls. Above it, in the upper right of the frame, the Kave Home Somar pendant Ø 76 cm, pale woven fibre on steel rods, hung to 1.60 m, with a Hue E27 bulb at a faint glow.
+
+FLOOR, CEILING, SHELL. The existing medium grey-brown oak laminate floor with visible grain and knots continues through the kitchen, 6 cm matching skirting (not light oak, not cool grey, no tiles); white flat ceiling, no fixtures except the dining pendant; white walls wherever no treatment is named. Materials honest: laminate as laminate, concrete-effect as laminate/HPL, wallcovering as wallcovering, oak veneer only on the table.
+
+MOOD. A precise, calm kitchen in two tones – graphite base, pale ash upper – with the concrete-effect plane between them; the ink lintel over the grey door connects kitchen, dining wall and room.
+
+AVOID (proven failures): a lighter or cooler floor or kitchen floor tiles; an island or a full-height wall on the parapet; a different number of fronts; elements taller than specified (uppers to 2.75 m, fridge column 2.75 m); any window or terrace in frame; recessed ceiling lights; furniture not listed.

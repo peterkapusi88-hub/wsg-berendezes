@@ -1,0 +1,41 @@
+IMAGE ID: A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A
+SOURCE VERSION: FABLE51-V3.1 (branch competition/fable51-v3-1-20261025, commit b44541205cdd79e3d1f33ee8074c2bc280beb7a7)
+STATUS: KONCEPCIÓ – NEM VALIDÁLT
+
+Please generate exactly ONE image (landscape, same aspect ratio as image 1). Attached reference images, in order:
+- image 1: neutral Blender base image of camera Cam_02 - AUTHORITATIVE for room shell, camera, framing, openings and floor-wall lines
+- image 2: real site photo of the existing laminate floor and skirting (colour, grain, plank direction) - match it; the exact decor code is not verified
+- image 3: real site photo of this living room towards the glass wall and terrace - real window frames and terrace
+- image 4: real site photo of the terrace: light-grey tiles, raised brown WPC deck, steps, anthracite frames
+- image 5: real site photo of the dark brick reveal around the terrace glazing
+- image 6: real site photo of the green roof, railing and the real city / Buda hills panorama
+
+Keep the original walls, ceiling, windows and doors, the existing laminate floor and real surfaces, the camera view and perspective, the real terrace and view; add only the furniture, materials and lighting named in the prompt; no new walls, pillars, rooms or invented ceiling elements.
+
+The creative prompt follows verbatim:
+
+CONCEPT ONLY – NOT VALIDATED. Photorealistic interior photograph of the living room of apartment A-902 in Budapest, style "S06 Zenit Atelier": a dark atlas – one wide, closed, smoked-walnut mass cut by a single narrow slot of light, matt graphite fields, deep greige chenille seating, smoked glass and black steel, a small strip of real bronze mirror; mustard and olive only in textiles. One of six coordinated views; this is the evening hero of the TV wall.
+
+CAMERA AND GEOMETRY (image 1 is authoritative). Camera Cam_02: near the north-east corner of the living room, eye height 1.55 m, 20 mm lens, looking north-west. Use the neutral Blender base image strictly for the shell, the openings and the camera: exact framing, 2.90 m white ceiling with flat heating/cooling panels (nothing fixed to it except the two existing light points), white window frames in their dark brick reveal, the real exterior. Verticals vertical. Left third: the 4.00 m TV wall W01. Middle: the sofa with its back to the camera. Right third: glass wall, terrace, real panorama. Lower right: the near edge of the round dining table with two chairs. Top edge: the living pendant point ML05.
+
+LIGHT – BLUE HOUR. Deep blue dusk outside, Buda's hills and the city roofs as silhouettes with scattered warm window lights; the terrace lit only by spill from inside. Inside no daylight; every source is a named Philips Hue layer at 2200–2700 K, warm white, no coloured light. Medium exposure: no crushed blacks even on the dark walnut, no blown highlights; wall edges, floor–wall line, terrace tiles, WPC deck, railing and green roof readable. Hidden LED lines glow evenly from profiles with opal covers, never as dots.
+
+THE TV WALL W01 – "ONE CUT OF LIGHT" (the WOW element, left third). From the south wall northward:
+1. The walnut mass: a closed, floor-to-ceiling cabinet run 2.40 m long × 2.885 m high × 0.40 m deep in smoked walnut-effect laminate (Egger Carini-walnut family, dark tone – honestly a laminate), six handleless doors with 3 mm graphite reveals, a 15 mm shadow gap under the ceiling, a 10 cm recessed graphite plinth with a continuous warm light line beneath (Hue Lightstrip Plus in a profile, fed from the existing socket behind). Its northern 1.20 m is opened between 0.55 m and 1.95 m as a TV niche with a graphite back panel: the 65-inch TV (about 1.45 × 0.84 m, slim black) sits inside it on its own bracket, centre 1.25 m, over the existing socket group, the niche back removable for the sockets; below the niche the mass continues as drawer fronts.
+2. The cut: at the north end of the walnut mass a vertical slot 0.12 m wide × 2.60 m high (0.15–2.75 m) and 0.25 m deep, built as part of the cabinet, graphite back and sides, both side faces carrying hidden vertical Hue strips so the slot glows as one clean, deep seam of warm light splitting the dark mass from the field beyond.
+3. The graphite field: from the slot to the window reveal (1.48 m) a 40 mm panel field in matt graphite unicolour laminate (Egger U961 ST7) from 0.15 m to the shadow gap; close to the glass a single vertical strip of real bronze-tinted mirror 0.20 m wide × 2.00 m high (0.40–2.40 m), reflecting a physically correct sliver of the room. Nothing stands in the north corner.
+All top edges at the shadow gap; two materials, one light.
+
+SEATING GROUP (middle). IKEA JÄTTEBO 3.5-seat modular U sofa with two chaises and arms, 285 × 160 × 71 cm, Samsala grey-beige chenille-like fabric: the 285 cm back runs north–south facing the camera and the dining zone, the chaises reach west towards the TV wall, the north end leaving the floor by the glass free; in this style the sofa stands somewhat further west, closer to the TV wall, than in the long-table layouts, still leaving at least 0.60 m to the walnut mass. Cushions in greige, mustard and olive, a charcoal wool throw. Between the chaises a round coffee table Ø 90 × 35 cm, smoked walnut-effect laminate top on a black steel base, with a smoked-glass bowl and a bronze dish. Under the group a Kave Home Malenka brown wool rug 200 × 300 cm. A Kave Home Madali floor lamp (glossy black steel, black marble base, 160 cm) at the south arm with a Hue White Ambiance E27 bulb.
+
+GLASS WALL, CURTAIN, TERRACE (right third). Full-height glazing with white frames inside, anthracite outside, in the dark brick reveal; a dark pearl-grey dim-out curtain behind a charcoal sheer on a wall-mounted double track on the inner face of the lintel (not the ceiling), stacked to the sides; roller-shutter cover free. Beyond: the terrace with light-grey ceramic tiles 15 cm below floor level, the raised brown ribbed WPC deck, the green roof planting, the anthracite railing and the real blue-hour view of the Buda hills and city roofs. No other skyline, no water.
+
+DINING EDGE (lower right). The near edge of a Kave Home Argo round dining table, Ø 119 × 76 cm, black-tinted glass top on black steel legs, with two Kave Home Ciselia chairs (beige chenille, black steel legs, 52.5 × 55 × 75 cm); the table stands near the dining pendant point, a comfortable distance behind the sofa back. Partly in frame above it a large matt-black ring pendant Ø 80 cm with three Hue E27 bulbs inside its rim (fitting CONDITIONAL; alternative: the Kave Home Ardali Ø 50 smoked-glass pendant), glowing warm – the pendant hangs slightly off the table's centre, as the ceiling point is fixed.
+
+CEILING POINT ML05 (top edge). A smoked-glass globe Ø 40 cm on a black cord hung to 2.15 m, Hue White Ambiance E27 at 20 % (fitting CONDITIONAL).
+
+FLOOR AND SHELL. The existing medium grey-brown oak laminate floor with grain and knots and 6 cm matching skirting (not light oak, not cool grey, not black); white ceiling. Materials honest: smoked walnut-effect as laminate, graphite as matt laminate, the mirror as real bronze-tinted glass, chenille as fabric, marble only on the lamp base.
+
+EVENING LIGHT LAYERS (Hue scene "Zenit"): plinth line under the walnut mass 2.4 m; the vertical cut 2.6 m; the ring over the table; the ML05 globe at 20 %; the Madali floor lamp. The walnut reads deep but never black; the cut is the brightest line in the room. TV screen off, matte dark.
+
+AVOID (proven failures): a different panorama; a light brick reveal; a lighter or cooler floor; LED lines on every edge; a tall cabinet taller than 2.885 m or the slot wider than 0.12 m; a mirror reaching the floor or reflecting things not in the room; visible LED dots or coloured light; furniture or lamps not listed; ceiling coves or recessed spots.
