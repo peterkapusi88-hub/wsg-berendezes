@@ -45,3 +45,5 @@ CP-S09-hero – ket teljes nappali prompt | 699d179953334721ec26a07c823884feaf42
 CP-S10-hero – teljes onallo promptok | 199c4c226720bc2764f1b80fdb61f6a1e70e0a36 | 2026-10-25T15:10:02.971861+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S01-all – teljes onallo promptok | 3146a11506f56cd29713656b21d72d20da9ca211 | 2026-10-25T15:10:14.126128+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S02-all – hat kamera es uj furdo | 6587fbb4dc19694094500c464f5ee66d0319a841 | 2026-10-25T15:10:40.023664+00:00 | távoli tartalom-visszaolvasás PASS
