@@ -41,3 +41,5 @@ CP-S07-hero – ket teljes nappali prompt | 134c3802c83ed20c0fae66552703b0c09ac5
 CP-S08-hero – ket teljes nappali prompt | d143341c54be3d0ac15ce5cbe0103583e789bc20 | 2026-10-25T15:09:31.292757+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-S09-hero – ket teljes nappali prompt | 699d179953334721ec26a07c823884feaf4209e6 | 2026-10-25T15:09:42.127340+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S10-hero – teljes onallo promptok | 199c4c226720bc2764f1b80fdb61f6a1e70e0a36 | 2026-10-25T15:10:02.971861+00:00 | távoli tartalom-visszaolvasás PASS
