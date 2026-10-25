@@ -16,4 +16,5 @@ Bázis: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Mentésnek csak a távoli Gi
 | CP3 | 2026-10-25 06:26 | S03 Alelí Casa – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | `db1925e7a226513624eac252cc7bf5f81e602a1b` | OK – távoli fej = db1925e…, egyezik |
 | CP4 | 2026-10-25 06:26 | S04 LA Horizon – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | `0027336dd4ff8fee96c98425003d11ac45ab3229` | OK – távoli fej = 0027336…, egyezik |
 | CP5 | 2026-10-25 06:26 | S05 Miami Streamline – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | `677f06e2332987129c27add6d04ccd0054ad59e1` | OK – távoli fej = 677f06e…, egyezik |
-| CP6 | 2026-10-25 06:26 | S06 Zenit Atelier – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
+| CP6 | 2026-10-25 06:26 | S06 Zenit Atelier – hat prompt (Cam_02, Cam_12, Cam_03, Cam_04, Cam_11, Cam_10) | `7f2b03f2a751402e877ac3d03efbf56702d76fb1` | OK – távoli fej = 7f2b03f…, egyezik |
+| CP7 | 2026-10-25 06:28 | S07 Lake Forest Couture – hat prompt | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
