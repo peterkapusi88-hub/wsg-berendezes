@@ -18,7 +18,9 @@
 | CP3 | 06:39 | S03 Cam_02 + Cam_12 (14/60) | `b68e34e` | OK |
 | CP4 | 06:43 | `S04_LAHorizon.md` spec + S04 Cam_02 + Cam_12 (16/60) | `7500b7c` | OK |
 | CP5 | 06:47 | `S05_MiamiStreamline.md` spec + S05 Cam_02 + Cam_12 (18/60) | `32ac1a9` | OK |
-| **CP6 – SOS** | 06:52 | `S06_ZenitAtelier.md` spec + S06 Cam_02 + Cam_12 (20/60); napló, folytatási terv | _(e commit; SHA a PR #23-ban és a `git log`-ban)_ | _(push után ls-remote)_ |
+| **CP6 – SOS** | 06:52 | `S06_ZenitAtelier.md` spec + S06 Cam_02 + Cam_12 (20/60); napló, folytatási terv | `f219bcab2ac1ffa4b7435ddc45e7aa66af5fc169` | OK – ls-remote egyezik; GitHub contents API: 20 promptfájl, 6 spec a távoli ágon |
+
+| CP6b | 06:55 | napló SHA-kiegészítés, PR #23 leírás frissítve | _(ez a commit)_ | _(ls-remote)_ |
 
 ## Állapot a CP6 SOS-mentésnél (2026-10-25 06:52 CET)
 **Kész (COMPLETE, a távoli ágon):**
