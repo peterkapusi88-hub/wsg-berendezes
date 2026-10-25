@@ -64,7 +64,7 @@ A Blender három dolgot rögzített: a héjat, a kamerát, valamint a kanapé é
 | F3 | **Arányok** | S01: KI3-L 48 cm magas; KI3-V 220 cm; KI3-P z 0,55–2,45. S02: BN3-P z 0,55–2,45; BN3-R z 0,40–2,20. A belmagasság 2,90 m: három különböző felső vonal, egyik sem ér a mennyezetig. | §11.2: mennyezetig vagy egyetlen közös vonalig |
 | F4 | **Mindenhol ugyanaz a halk fal** | „The wallpaper is a low-contrast fine texture”, a W01–W04-en, 14–18 m²-en | §11.3: falhierarchia |
 | F5 | **Kicsi gesztus** | A mű 100×180 (S01) és 120×160 cm (S02); a TV-fal egyetlen sík panel | §11.4: Péter hat eszköze, nagyobb lépték |
-| F6 | **A prompt formája** | Kb. 19 000 karakter, kb. 77–79 tiltó kifejezés (no, not, never, without…). A szürke tömbkép (1b) a V3 r1 rövid dobozait mutatta, a képgenerátor ezeket másolta. | §11.7–11.9 és a B rész |
+| F6 | **A prompt formája** | Kb. 19 000 karakter, kb. 77–79 tiltó kifejezés (no, not, never, without…). A szürke tömbkép (1b) a V3 r1 rövid dobozait mutatta, és a képek ezt az arányrendszert követték. | §11.7–11.9 és a B rész |
 
 **Következtetés:**
 - **A geometria már kezelhető:** az S02 `_V3_TEST` héja ±1 %-on belül van, a WOW mégis hiányzik. A szűk keresztmetszet tehát a specifikáció, a berendezés és a fény.
@@ -90,7 +90,7 @@ A Blender három dolgot rögzített: a héjat, a kamerát, valamint a kanapé é
 6. **Látványos lámpatest a nappali mennyezeti pontján:** Zenitnél gyűrű, Lake Forestnél gömbcsillár. Nálunk ez az ML05 meglévő kiállás (§11.5).
 
 **Ezt ne vedd át:**
-- kitalált panoráma (Parlament) és nyílások;
+- a valóditól eltérő panoráma (pl. Parlament) és kitalált nyílások;
 - mennyezeti fénycsík, álmennyezet;
 - lámpa kiállás nélkül;
 - valódinak mutatott kő;
