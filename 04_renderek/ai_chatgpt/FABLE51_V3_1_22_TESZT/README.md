@@ -38,3 +38,10 @@ A 21-es kép Wolke-szerű L kanapéja koncepcióteszt. A promptban szereplő 258
 
 ## Érintetlen maradt
 PR #23, PR #22, a közös baseline és a `main`. Merge nem történt.
+
+## Kiegészítés 08:30 – 13 v2 újragenerálás (Péter kérésére)
+`A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__FABLE51_V3_1__v2.png`: azonos bemenet, új beszélgetés (https://chatgpt.com/c/6addae83-62ac-83eb-9243-ed4af1190dd6). A v1 megmaradt. A v2 **GEOMETRY FELTÉTELES – tervközeli**, a sorozat legjobb konyha-geometriája:
+- a keleti sor a helyes oldalon van;
+- a pillér, a mellvéd és a déli fal az alapkép szerinti helyen áll.
+
+Eltérések: rövid L-visszafordulás a déli falon, és a padló melegebb a meglévőnél. Részletek a `KAPU_ERTEKELES.csv`-ben.
