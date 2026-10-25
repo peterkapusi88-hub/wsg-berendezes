@@ -1,0 +1,44 @@
+WSG A-902 · OPUS55-V3.1 · A902_S10_DesertModern70_3_master_Cam_11_A · camera Cam_11 (master bedroom panorama)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_11. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg): real site photo of the master-bedroom glass wall and the real view, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level seated camera at 1.20 m, 20 mm, looking due west, almost square-on to the glass wall. Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–4 %: the narrow return of the left (south) side wall – the south wardrobe strip may sit here at the edge.
+   b) 4–18 %: solid white wall left of the glazing.
+   c) 18–82 %: the 3.64 m glass wall in a white frame, three panels: the opening sash on the left (about 21–35 %), a narrow middle panel (about 36–49 %), a wide fixed panel on the right (about 50–79 %). Keep this division exactly; no extra mullions or transoms.
+   d) Behind the glass: the balcony slab lower than the room floor, the black vertical-bar railing at about 54–80 % of the image height as in image 1, and the real view above it.
+   e) 82–96 %: solid white wall right of the glazing; 96–100 %: the right (north) side wall where the north wardrobe front enters at the edge.
+   f) The floor–wall line runs level at about 83 % of the image height.
+3. Forbidden: changing the size, position or division of the glass wall; adding windows or doors; furniture blocking the opening sash; the headboard or bed head (behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_3_master_Cam_11_A.prompt.md):
+
+=== BEGIN PROMPT A902_S10_DesertModern70_3_master_Cam_11_A ===
+S10 DESERT MODERN 70 – "Mesa" · A-902 master bedroom 05.1 panorama · camera Cam_11 · daytime, the real view · geometric control view. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. A warm desert-modern bedroom facing the Buda hills: cream and sand linen, a rust throw, sand wardrobe fronts with real cane inserts, sand linen curtains, clay objects. Honest materials: matt laminate fronts with framed cane webbing, linen, wool.
+
+ROOM PLAN (identical in Cam_04 and Cam_11). Master 05.1, 3.57 m wide, 2.90 m white ceiling. The bed, the Westwing Dream corduroy bed in olive, 196 × 222 cm outer size for a 180 × 200 mattress, 110 cm high headboard, head against the east wall behind the camera; at least 60 cm beside it. North niche: floor-to-ceiling wardrobe wall about 3.00 × 0.90 × 2.90 m, fronts flush with the pillar; the 2.42 m south strip by the door in the same fronts.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_11) fixes geometry and framing; seated eye point 1.20 m, 20 mm, level, looking due west. Centre: the 3.64 m glass wall with its three white-framed panels exactly as built – opening sash at the left (south), narrow middle panel, wide fixed panel right – anthracite outside; the balcony with light-grey porcelain tiles 15 cm lower and the black vertical-bar railing; the real view of city roofs, a church spire and the Buda hills; the light-grey brick façade return at the right end as photographed. Lower foreground: the bed foot with cream and sand linen and a rust wool throw. Right edge: the sand north wardrobe wall with its framed cane inserts. Left edge: the south wardrobe strip in sand.
+
+WINDOW AND FLOOR. Sand linen curtains, floor to ceiling, on a wall-mounted track in the 0.33 m strip above the glass, gathered to both sides; shutters up. A Westwing Loire round beige chenille rug, Ø 200 cm, lies under the lower part of the bed. A low cane-and-walnut stool at the bed foot with a clay cup and a book, clear of the opening sash; a large clay pot with a tall dry grass arrangement by the fixed glass.
+
+LIGHT. Daytime, soft neutral light from the west, no sun patches; frames, railing and hills readable; Hue fittings off.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
+
+DETAIL AND LIGHT FITTINGS. The framed cane-webbing inserts of the two central wardrobe doors show the real open hexagonal weave against a white interior, held in walnut-effect frames; the other doors are plain sand matt laminate. At the top of the frame the ceiling point ML06 carries a woven natural-fibre pendant (E27 Hue), unlit. Rust, sand and clay repeat the desert palette under neutral daylight.
+
+REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional desert or canyon view; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash; a wardrobe not reaching the ceiling. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S10_DesertModern70_3_master_Cam_11_A ===

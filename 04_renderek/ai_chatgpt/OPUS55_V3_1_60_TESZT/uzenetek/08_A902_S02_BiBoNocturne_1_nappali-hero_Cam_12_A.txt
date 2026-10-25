@@ -1,0 +1,50 @@
+WSG A-902 · OPUS55-V3.1 · A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A_v1_2.prompt.md):
+
+=== BEGIN PROMPT A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A ===
+S02 BIBO NOCTURNE – "Blue Hour Salon" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography · the shared hero and comparison view. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. An intimate salon in deep navy and silver: navy masses with softly rounded contours, a silver-grey textile shimmer on the walls, narrow real smoked-bronze mirror, brushed brass in small doses, cream chenille, white wool. By day it is crisp and luminous – the navy reads as rich ink blue against silver and white, never as black. Honest materials only: navy matt laminate (not painted lacquer), textile-effect vinyl wallcovering, real tinted mirror glass with safety backing.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: the IKEA JÄTTEBO U-shaped sofa in the dark-blue Samsala cover, 285 × 160 cm, back to the east towards the dining zone, both arms towards the TV wall behind the camera. The dining table – the Westwing Toni oval dining table in black, 160 × 90 cm, 75 cm high – on the north–south axis under ML04, six Kave Home Ciselia chairs in beige chenille with black steel legs, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; eye height 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the U-sofa's back and its south arm as a low horizontal navy band (about a quarter of the frame) with cream bouclé and plum velvet cushions and a silver throw. Middle left: the dining table and chairs with the smoked-glass pendant at ML04 above, and behind them the navy kitchen with its smoked-mirror splashback and the navy fridge column. Far left edge: wall W03 with the light-grey door of room 05.3. Right of centre, almost frontal: the south wall W02 – the main surface. Right edge: W07, the throat of the bedroom corridor. Upper band: white ceiling; the ML05 pendant may enter at the top edge. The TV wall, glazing and terrace are outside this view.
+
+THE CABIN SALON – W02 + W07 AS ONE COMPOSITION. A navy laminate dado, only 1.8 cm thick, runs from the floor up to exactly 1.10 m across the whole of W02, turns around the corridor return and the pillar with a rounded edge profile and continues along the corridor's south wall – like the panelled lower wall of a 1930s ocean-liner salon. Above it, up to the ceiling, the silver-grey textile-effect wallcovering with its fine woven sheen. A 1 cm shadow line separates dado and wallcovering. On W02, west of the switch column, hangs the artwork: an original abstract print, a slow gradient from deep blue into plum with one luminous silver band, 140 cm wide × 180 cm high, in a thin brushed-brass-coloured floating frame, its centre at 1.55 m. The switches, thermostat and sensor at the east end of W02 stay free inside a clean 15 cm margin cut out of dado and wallcovering. Nothing deeper than 2 cm sits on this wall, so the route between the sofa's south end and W02 stays at its full width.
+
+DOOR 05.3 – W03. The light-grey door, frame and black handle stay exactly as they are. Above the door, from the door head to the ceiling, a flush navy laminate panel; beside the door the navy dado and the silver wallcovering continue.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with custom matt navy laminate fronts – the same decor as the TV-wall cabinets – each with a slim brushed-brass-coloured edge pull on the top edge; the fridge column against the east wall in the same navy up to the kitchen soffit; worktop IKEA EKBACKEN grey-beige stone-effect laminate; behind the east row a splashback of real smoked-bronze mirror glass with safety backing, reflecting the kitchen and dining zone physically correctly; no wall cabinets, only one 25 cm deep navy shelf; the parapet towards the dining zone as built.
+
+LIGHT. Daytime: soft, bright north light from the glazing behind the camera, no sun patches; the silver weave shimmers gently, brass catches small highlights, the navy is deep and saturated. Hue fittings off or barely glowing: the ML04 pendant (the Kave Home Idela pendant, Ø 26 cm smoked glass with a black marble detail) and the large white ML05 pendant (Westwing Dancing, Ø 65 cm) read as objects. Nothing on the white ceiling with its heating/cooling panels.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat exactly. Avoid these proven errors: a plant, tree or any object standing in front of W02 or in the mouth of the bedroom corridor; a mirror with an impossible reflection; a mirrored wall or floor-to-ceiling mirror; navy as glossy painted lacquer or as black; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one; furniture taller than stated. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A ===

@@ -1,0 +1,50 @@
+WSG A-902 · OPUS55-V3.1 · A902_S10_DesertModern70_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_1_nappali-hero_Cam_12_A.prompt.md):
+
+=== BEGIN PROMPT A902_S10_DesertModern70_1_nappali-hero_Cam_12_A ===
+S10 DESERT MODERN 70 – "Mesa" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. 1970s desert modernism: grounded stepped masses, sand, ochre, cocoa and rust, real cane webbing, walnut, smoked glass, an olive-ochre U-sofa; the walls carry the layered strata of a rock face. Honest materials: matt uni laminates, a custom-printed vinyl wall graphic (not paint, not stone), cane webbing, walnut veneer table.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The IKEA JÄTTEBO U-shaped sofa in the dark yellow-green Samsala cover – a 1970s olive-ochre – 285 × 160 cm, 71 cm high, back to the east towards the dining table, both arms towards the TV wall behind the camera. Dining: The Kave Home Kesia extendable dining table in walnut veneer with black steel legs, 160 × 90 cm closed (220 cm extended), 76 cm high under ML04, six Westwing Sissi chairs in dark wood with Viennese cane backs, 46 × 56 × 85 cm, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the olive-ochre U-sofa's back and south arm as a low band with rust, ochre and cream cushions and a striped wool throw. Middle left: the walnut table with cane-backed dark-wood chairs and the burgundy ceramic pendant at ML04 (the Kave Home Drava pendant in glazed burgundy ceramic); behind it the cocoa-and-ochre kitchen with the ochre fridge column. Far left: W03 with the light-grey door of room 05.3. Right of centre, almost frontal: W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the large woven pendant at ML05 may enter at the top.
+
+STRATA – W02 + W07. W02 and the corridor throat are covered floor to ceiling in a custom-printed matt vinyl wall graphic of soft horizontal, gently undulating bands – ochre, rust, sand and cocoa, with thin cream lines between them – like the layered rock of a mesa or the levels of the green roof outside. The bands continue unbroken around the return and the pillar into the corridor, so the strata wrap the corner. Around the switch column the graphic leaves a clean sand-coloured margin of 15 cm. Nothing stands on this wall; nothing protrudes.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; above the door a flush ochre laminate panel to the ceiling; on the stubs beside the door the strata continue as just two faint sand bands.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses; base units in cocoa (dark brown) matt laminate fronts; the tall appliance wall and the fridge column in ochre matt laminate up to the soffit; slim walnut-effect edge pulls; worktop in sand stone-effect laminate; splashback a terracotta compact-laminate panel; one walnut-effect open shelf; no wall cabinets.
+
+LIGHT. Daytime, bright soft north light from the glazing behind the camera, no sun patches; the printed strata, cane weave and corduroy-like Samsala texture read in detail; warm neutral balance. Hue fittings off.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat. Avoid these proven errors: a desert landscape mural or cacti; real stone or adobe plaster; a raised floor; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S10_DesertModern70_1_nappali-hero_Cam_12_A ===

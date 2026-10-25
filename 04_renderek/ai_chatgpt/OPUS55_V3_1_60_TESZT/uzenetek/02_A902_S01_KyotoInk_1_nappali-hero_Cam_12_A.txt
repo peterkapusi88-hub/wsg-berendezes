@@ -1,0 +1,50 @@
+WSG A-902 · OPUS55-V3.1 · A902_S01_KyotoInk_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S01_KyotoInk_1_nappali-hero_Cam_12_A_v1_2.prompt.md):
+
+=== BEGIN PROMPT A902_S01_KyotoInk_1_nappali-hero_Cam_12_A ===
+S01 KYOTO INK – "Ink and Washi" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography · the shared hero and comparison view. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Contemporary Japanese luxury from two materials: graphite "ink" – matt graphite laminate drawn as long horizontal lines – and "washi" – a warm off-white paper-fibre texture (MDF panels and walls covered with a paper-fibre vinyl wallcovering, not real paper). Pale oak, taupe weave, grey linen, wool; one moss-green accent. Quiet, precise, generous emptiness; one monumental ink brushstroke as the soul of the room. Honest materials only: laminate reads as laminate, wallcovering as wallcovering, the oak worktop as real oak veneer.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: the Westwing Lennon right-hand L sofa, taupe woven fabric, 238 × 180 cm, 68 cm high, back to the east towards the dining table, long seat north–south facing the TV wall (behind the camera). The Westwing Toni oval dining table, light oak, 160 × 90 cm, stands under the pendant point ML04 on the north–south axis, six Kave Home Eamy chairs in light-grey chenille, natural ash and black metal, two per long side and one at each end. Two parallel kitchen rows sit behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; eye height 1.60 m, 22 mm, looking south-east from the north-west corner of the living room. Foreground, lower left to centre: the back and arm of the Lennon sofa as a low horizontal band (about a fifth of the frame) with moss and off-white linen cushions and a grey wool throw. Middle left: the dining table with its chairs and the Somar pendant above it, behind it the kitchen – graphite fronts, oak worktop, the fridge column against the east wall. Far left edge: wall W03 with the light-grey door of room 05.3. Right of centre, almost frontal: the solid south wall W02, the main surface of the image. Right edge: W07, the throat of the corridor to the bedrooms. Upper band: the white ceiling; the tall rice-paper lantern at ML05 (Westwing Misaki, Ø 40 × 70 cm) may just enter at the top edge. The TV wall, the glazing and the terrace are not in this view.
+
+THE INK PATH – W02 + W07 AS ONE COMPOSITION (2.10 m × 2.90 m main wall plus the corridor throat). Both are covered from floor to ceiling in the same warm off-white washi-texture wallcovering as the TV wall, its paper fibres legible in daylight. One continuous graphite line – a 4 cm high, 8 cm deep matt graphite laminate rail at exactly 2.10 m, the height of the door heads – runs across W02, turns around the corridor return and the pillar and continues into the throat: a single calligraphic stroke drawn through the apartment. On W02, west of the switch column, hangs the monumental artwork: an original single-gesture sumi ink brushstroke, black and grey on warm white canvas, 120 cm wide × 200 cm high, in a thin graphite floating frame, its centre at 1.45 m. The switches, thermostat and sensor at the east end of W02 stay free with a clean 15 cm margin; nothing deeper than 4 cm stands at floor level along this wall, so the route to the bedrooms stays wide.
+
+DOOR 05.3 – W03. The light-grey door, its frame and black handle stay exactly as they are. The wall band above the door, from 2.10 m to the ceiling, is a flush matt graphite laminate panel whose lower edge continues the 2.10 m ink line; the solid wall stubs beside the door carry the washi wallcovering.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with custom matt graphite laminate fronts, handleless with a routed finger grip, fine 3 mm joints; a 38 mm worktop in real oak veneer (IKEA KARLBY oak), the only wood-veneer surface of the apartment; behind the east row a graphite back-painted glass splashback; instead of wall cabinets one single pale-oak open shelf 240 cm long on the east wall with a few black and white ceramics; the fridge column against the east wall wrapped in the same graphite fronts up to the kitchen soffit; the parapet towards the dining zone stays as built.
+
+LIGHT. Daytime: soft, bright, natural north light from the glazing behind the camera, no sun patches; the washi texture, the oak and the wool read in fine detail; white balance neutral, walls warm off-white where papered and pure white elsewhere. The Hue fittings are off or barely glowing: the rice-paper lantern at ML05 and the Somar pendant (Ø 76 cm) at ML04 are seen as objects. No downlights, nothing on the white ceiling with its heating/cooling panels.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; interior doors light grey with black handles; window frames white inside; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and the corridor throat exactly; no new niche, cove or dropped ceiling. Avoid these proven errors: a plant, tree or any object standing in front of W02 or in the mouth of the bedroom corridor; a floor lighter or cooler than the real one; a dining table moved east or enlarged; extra chairs or furniture not listed; a different number of kitchen fronts than a regular METOD layout; furniture taller than stated; a painted or wood-grained version of the graphite laminate. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S01_KyotoInk_1_nappali-hero_Cam_12_A ===

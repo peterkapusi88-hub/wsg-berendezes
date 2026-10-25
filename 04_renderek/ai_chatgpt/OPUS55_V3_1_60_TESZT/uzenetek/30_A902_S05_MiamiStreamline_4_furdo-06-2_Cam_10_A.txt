@@ -1,0 +1,41 @@
+WSG A-902 · OPUS55-V3.1 · A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A · camera Cam_10 (bathroom 06.2)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_10. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg): real site photo of this bathroom as built (Geostone tiles, decor wall, black fittings, basin) – material and fitting reference only, taken from a different position. Not a camera or layout reference.
+- Image 3 (photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg): real site photo of the WC niche, towel radiator and door of this bathroom, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – standing in the bathroom doorway at 1.50 m, 16 mm, looking east. Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed, already built elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–20 %: the shower side wall in the darker hexagonal-relief decor tile, receding.
+   b) 14–26 % at the top: the black square rain shower head on its wall arm; 20–29 % at mid height: the black concealed mixer plates; bottom 20–37 %: the linear drain at the far end of the shower and the shower kerb line.
+   c) 20–68 %: the far east wall in large light-grey 60 × 60 tiles; the white wall-hung basin centred at about 41–58 % with the black tap at about 50 %.
+   d) 68–82 %: the right side wall receding; 82–100 %: the shaft / wall block projecting into the south-east corner.
+   e) The tile joints, tile sizes and all sanitaryware stay exactly as in image 1.
+3. Forbidden: moving, resizing or replacing the basin, shower head, mixer, drain or tiles; re-tiling any wall; a window, skylight or daylight; widening the room; anything in the WC niche behind the right edge.
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A.prompt.md):
+
+=== BEGIN PROMPT A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A ===
+S05 MIAMI STREAMLINE – "Deco Rose" · A-902 bathroom 06.2 · camera Cam_10 · artificial light only (windowless). CONCEPT – NOT VALIDATED.
+
+STYLE DNA. The bathroom brings the muted turquoise of the style: two overlapping rounded mirror shapes in thin champagne frames, a round opal wall light, a chalk shelf with rounded ends, turquoise and cream towels, one rose ceramic. The built tiles remain exactly as they are.
+
+THE ROOM AS BUILT – KEEP EXACTLY. L-shaped bathroom, 1.925 m wide, 2.90 m ceiling. Ceramiche Piemme Geostone Grigio matt 60 × 60 porcelain tiles – light warm grey, softly banded stone pattern – on floor and all walls up to 2.85 m, white paint above, 2 mm light-grey grout, full tile rows from the top. The Geostone Esagonetta Grigio 3D hexagonal decor tile on the whole shower back wall (left) and above the 1.20 m WC ledge. Walk-in shower on the left behind a 5 × 5 cm tiled kerb with anodised aluminium edge, 70 cm linear drain along the far wall, no glass screen; black Grohe Cubeo concealed mixer, black Grohe Cube 250 square head shower on a wall arm, black hand shower inside the shower. Centred on the far (east) wall: the white Geberit Smyle Square 60 × 48 wall-hung basin with a black Grohe Cubeo tap. Black towel radiator on the door wall. A shaft block in the south-east corner at the right; the WC niche behind the right edge.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_10) fixes geometry and framing; doorway, 1.50 m, 16 mm, looking east. Centre: basin, mirror composition and wall light; left: the shower; right: the shaft block.
+
+WHAT THE STYLE ADDS (only this). Above the basin a mirror composition of two overlapping shapes – a rounded rectangle 60 × 90 cm and, overlapping its upper right corner, a round Ø 50 cm mirror – both in thin champagne-coloured metal frames, safety-backed, fixed to the tiles. Above it, at the existing wall light point, a round opal IP44 wall light with an E14 Philips Hue bulb. Under the basin a turquoise textile basket. On the tiled wall above the WC ledge (out of view) a chalk-white moisture-resistant shelf with rounded ends. On the basin a rose ceramic cup; on the radiator a muted turquoise and a cream towel.
+
+LIGHT. Artificial light only from the existing points: the round wall light and the ceiling fitting (IP44 with a Hue bulb), warm white about 2700 K; no window, no daylight. Even exposure: tile pattern, hexagon relief and grout readable; the mirrors reflect only the doorway and the opposite tiled wall.
+
+POWER AND ACCESS. The bathroom sockets beside the mirror stay visible and free; the round wall light is the only fitting on the existing wall point, above the overlapping mirrors. The basket stands outside the wet zone; the shower kerb and drain stay free.
+
+REALITY RULES. Keep every tile, kerb, drain, fitting, basin and radiator exactly as built. Avoid these proven errors: a window or daylight; a glass shower screen; new tiles, mosaic or turquoise tiles; a floor-to-ceiling mirror; a physically impossible reflection; moved or enlarged sanitaryware; a wall niche. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A ===

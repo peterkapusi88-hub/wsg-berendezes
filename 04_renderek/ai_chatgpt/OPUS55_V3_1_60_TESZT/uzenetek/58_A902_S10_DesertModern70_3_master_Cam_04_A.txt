@@ -1,0 +1,43 @@
+WSG A-902 · OPUS55-V3.1 · A902_S10_DesertModern70_3_master_Cam_04_A · camera Cam_04 (master bedroom)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_04_image1_A902_Alap-v2b1_blender_04_master.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_04. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera at 1.50 m, 20 mm, from the south-west corner of the master bedroom looking north-east. Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–37 %: a plain solid wall on the left (the north side), receding to an inside corner at about 37 %.
+   b) 37–48 %: the north niche and the pillar: a short wall face from the corner at 37 % to about 43 %, then the side face of the pillar to the corner at about 48 %. The full-height wardrobe wall belongs to this north niche (left and deep in the picture), its front flush with the pillar face; it does not extend onto the right-hand wall.
+   c) 48–100 %: the long solid EAST wall, running from the corner at 48 % towards the camera on the right – this is the headboard wall; the bed stands with its headboard against THIS wall.
+   d) Ceiling: flat, white, at 2.90 m, with only the existing ceiling point ML06; no coves or spots.
+3. Forbidden: ANY window, glass wall, balcony door, balcony or daylight opening anywhere in this frame (the glass wall is behind the camera and is NOT visible); putting the bed against the far or left wall; putting the wardrobe on the right-hand wall or on the far wall outside the niche; adding doors, mirrors-as-doors or openings that are not in image 1; moving the corners or the pillar.
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_3_master_Cam_04_A.prompt.md):
+
+=== BEGIN PROMPT A902_S10_DesertModern70_3_master_Cam_04_A ===
+S10 DESERT MODERN 70 – "Mesa" · A-902 master bedroom 05.1 · camera Cam_04 · evening, Philips Hue scene. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. The bedroom is the cocoa-and-linen retreat of the desert house: a three-part headboard screen of cocoa linen and real cane webbing under a walnut ledge, ochre walls, sand wardrobe fronts with cane inserts, an olive corduroy bed, ceramic lamps. Honest materials: linen upholstery, real cane webbing in walnut-effect frames, linen-effect vinyl wallcovering, matt laminates.
+
+ROOM PLAN (identical in Cam_04 and Cam_11). Master 05.1, 3.57 × 5.50 m with the north niche, 2.90 m white ceiling. The bed, the Westwing Dream corduroy bed in olive, 196 × 222 cm outer size for a 180 × 200 mattress, 110 cm high headboard, head against the east wall on the axis, foot to the west glass; at least 60 cm beside it. Floor-to-ceiling wardrobe wall in the north niche (about 3.00 × 0.90 × 2.90 m, fronts flush with the pillar); the 2.42 m south strip in the same fronts.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_04) fixes geometry and framing; 1.50 m, 20 mm, from the south-west corner looking north-east. Centre and right: the headboard wall and bed. Left and deep: the wardrobe wall. Top: white ceiling with ML06.
+
+HEADBOARD WALL – "CANE SCREEN". The east wall is covered in a warm ochre linen-effect wallcovering. Behind the bed stands a 300 cm wide, 130 cm high screen of three framed fields: the central one upholstered in cocoa linen, the two outer ones of real cane webbing in walnut-effect frames, capped by a continuous 10 cm deep walnut-effect ledge; under the ledge a hidden Philips Hue strip washes down over the cane, so the weave throws a fine warm pattern. The olive corduroy bed's own tall headboard stands in front of the central field. On each side a walnut-effect nightstand; on each a lamp with a glazed sand ceramic base and linen shade (E27 Hue). Switches and sockets stay accessible.
+
+WARDROBE WALL. Sand matt laminate doors in an even rhythm; the central two doors carry framed real cane-webbing inserts; recessed cocoa plinth.
+
+TEXTILES. Cream and sand linen bedding, a rust wool throw, ochre and cocoa cushions; a Westwing Loire round beige chenille rug, Ø 200 cm, under the lower part of the bed; sand linen curtains at the window (left).
+
+LIGHT (Hue, 2200–2700 K, no RGB). The cane wash and the two ceramic lamps carry the scene; ML06 holds a woven natural-fibre ceiling pendant with an E27 Hue bulb, dimmed. Mid-key: cane weave, joints, floor–wall line and window frames readable; dusk outside.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor exactly as in the site photo; white window frames inside; switches, sockets and thermostat free.
+
+REALITY RULES. Keep image 1's walls, niche, pillar, openings and ceiling. Avoid these proven errors: a raised platform; a wardrobe not reaching the ceiling or proud of the pillar; a ceiling cove; visible LED dots; orange instead of ochre; a floor lighter or cooler than the real one; a bed larger than stated. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S10_DesertModern70_3_master_Cam_04_A ===

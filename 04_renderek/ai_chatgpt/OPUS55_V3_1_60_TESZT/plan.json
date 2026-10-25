@@ -1,0 +1,1078 @@
+[
+ {
+  "nr": "01",
+  "kep_id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A",
+  "stilus": "S01",
+  "kamera": "Cam_02",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_v1_2.prompt.md",
+  "v1_2": true,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "uzenet": "01_A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9681,
+  "uzenet_sha256": "14494a592da958c30fc23b02a5678e0132e8d0a8b139ca9a057dc140d08fa672",
+  "prompt_sha256": "d21e4c16c8881a20e78e5474d4b45b5e7a427ec489406d7a3e43fc1da2f10908",
+  "cel_fajl": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png",
+  "extra": []
+ },
+ {
+  "nr": "02",
+  "kep_id": "A902_S01_KyotoInk_1_nappali-hero_Cam_12_A",
+  "stilus": "S01",
+  "kamera": "Cam_12",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S01_KyotoInk_1_nappali-hero_Cam_12_A_v1_2.prompt.md",
+  "v1_2": true,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "02_A902_S01_KyotoInk_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 9859,
+  "uzenet_sha256": "bb6d3a4ea6ebbe2f1145f5109731b2ffa61f4f69ec61a86353ee4c5afa9d8ceb",
+  "prompt_sha256": "4c757f0089f9fa4c3659c2b6109971dabaf32be7ba66e00da85b7664833dd0f1",
+  "cel_fajl": "A902_S01_KyotoInk_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "03",
+  "kep_id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S01",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "03_A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 8058,
+  "uzenet_sha256": "309108b5bcc5d22dda9b12f514051883d0afea1c13fb7a90399789eee5c7f565",
+  "prompt_sha256": "b98f57648231f27ff6e7050414a66d7cbecfa87a92b9cbd115e6ab1b57a37092",
+  "cel_fajl": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "04",
+  "kep_id": "A902_S01_KyotoInk_3_master_Cam_04_A",
+  "stilus": "S01",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "04_A902_S01_KyotoInk_3_master_Cam_04_A.txt",
+  "uzenet_chars": 7621,
+  "uzenet_sha256": "b42bdb976260bb9b065f10f3f1735654bdcf8ef9a118101156fb624d68fcdf2b",
+  "prompt_sha256": "7629e6c75e0f45cdd1bb32f3020499b4605ae31dbadd3c1bad58c1d95719a39c",
+  "cel_fajl": "A902_S01_KyotoInk_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "05",
+  "kep_id": "A902_S01_KyotoInk_3_master_Cam_11_A",
+  "stilus": "S01",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "05_A902_S01_KyotoInk_3_master_Cam_11_A.txt",
+  "uzenet_chars": 7407,
+  "uzenet_sha256": "8d63a2c41caf2ca64e7a3ad511d9f8b1a8cb3aa59f3a143c14309037f08d34ac",
+  "prompt_sha256": "3409e4982cbbc273558384961d5344eb17cece8d7528a36774c20902b0805c2d",
+  "cel_fajl": "A902_S01_KyotoInk_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "06",
+  "kep_id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A",
+  "stilus": "S01",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "06_A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6922,
+  "uzenet_sha256": "b006614bed9eab4d3bfe02c9ce35556a9e688bd7e950c4c9a6cc13f8772bc9bd",
+  "prompt_sha256": "e65de71a6cc6bfb93b667c42cef23fa07fdf23c0f08eebf97ba0bdb99bec8838",
+  "cel_fajl": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "07",
+  "kep_id": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A",
+  "stilus": "S02",
+  "kamera": "Cam_02",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_v1_2.prompt.md",
+  "v1_2": true,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "07_A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 10282,
+  "uzenet_sha256": "b78182569517b44f5f85e547458544fe69c550d7d535a544f0aa9229f63c19c9",
+  "prompt_sha256": "6062503516ab3781615d952b8b81c545cd2b0e5de112329ffad867d2adfeba83",
+  "cel_fajl": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "08",
+  "kep_id": "A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A",
+  "stilus": "S02",
+  "kamera": "Cam_12",
+  "prompt_forras": "integrator v1.2 corrected copy (K-02/K-03), integrator/opus55-v3-1-audit-20261025 @ 94f80688dff460dd1c726e3bca2338d603f047c6, 05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A_v1_2.prompt.md",
+  "v1_2": true,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "08_A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 9522,
+  "uzenet_sha256": "fff554df291be03a84307429ac20f443ff90075db6c7dc39edf635d50f1480d8",
+  "prompt_sha256": "d37fd60b2c41010b9b6cc5e5096109cfbf42224741ca174ef8239e12695b23f0",
+  "cel_fajl": "A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "09",
+  "kep_id": "A902_S02_BiBoNocturne_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S02",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S02_BiBoNocturne_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "09_A902_S02_BiBoNocturne_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 7495,
+  "uzenet_sha256": "2c1fb39d7929679e438d12fbd0e305daa90b864584c27e4d5fe2f2a544da5257",
+  "prompt_sha256": "c598e14a0db13c379d7407eefdd6b3eedc21c987a7bb3d034458f13c52f13e92",
+  "cel_fajl": "A902_S02_BiBoNocturne_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "10",
+  "kep_id": "A902_S02_BiBoNocturne_3_master_Cam_04_A",
+  "stilus": "S02",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S02_BiBoNocturne_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "10_A902_S02_BiBoNocturne_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6894,
+  "uzenet_sha256": "eca503d8218a5bdc5d095d800fd6078cf6810f036553490c22a6ed0910d7af5a",
+  "prompt_sha256": "3586108ec8d6bf656084586ce2006a701b8b63a4c87a501b2bca28ee1c78489b",
+  "cel_fajl": "A902_S02_BiBoNocturne_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "11",
+  "kep_id": "A902_S02_BiBoNocturne_3_master_Cam_11_A",
+  "stilus": "S02",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S02_BiBoNocturne_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "11_A902_S02_BiBoNocturne_3_master_Cam_11_A.txt",
+  "uzenet_chars": 7031,
+  "uzenet_sha256": "e718075ba4ddcd599f68b5d49ae66bbd797ead97da3611b66bce742fa5aeed23",
+  "prompt_sha256": "9977550dbb37305302fa09d4a4efa00b474b1393331aa36285d9404ffe04963e",
+  "cel_fajl": "A902_S02_BiBoNocturne_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "12",
+  "kep_id": "A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A",
+  "stilus": "S02",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "12_A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6671,
+  "uzenet_sha256": "6cd4a28966cd5800439dc54c2db7228abc3badd9b5419e6a7aaca4d55d5eb924",
+  "prompt_sha256": "d34a862fdd2bcdb1d48329873e01f454aa151abe922b835c2324e2b359cff79e",
+  "cel_fajl": "A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "13",
+  "kep_id": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A",
+  "stilus": "S03",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "13_A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9348,
+  "uzenet_sha256": "304b9088b4364610012cbf9e624d0dd64b0ae30e32d2a47e6db9ac69bf74e5bd",
+  "prompt_sha256": "e7cd10ea7f821fa86760705463381002b9bb21d88f77fc44300181acdf1bc6be",
+  "cel_fajl": "A902_S03_AleliCasa_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "14",
+  "kep_id": "A902_S03_AleliCasa_1_nappali-hero_Cam_12_A",
+  "stilus": "S03",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "14_A902_S03_AleliCasa_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8548,
+  "uzenet_sha256": "3d997159c8f3263245821e1425e70a1ec9e2255a4ad2b675d8dfdb16755bf112",
+  "prompt_sha256": "608aee1c6446a4788c64caf62e9da1360c8f4a07dd855e9f0b3dfcb7340f7f29",
+  "cel_fajl": "A902_S03_AleliCasa_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "15",
+  "kep_id": "A902_S03_AleliCasa_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S03",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "15_A902_S03_AleliCasa_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 7040,
+  "uzenet_sha256": "a472eab5368b34045b27264b565ef32825e97bb5f791a79eb3a956d87c725e19",
+  "prompt_sha256": "52296759dc0c7e4bb5750cbe24c624dd7cb5b1f4cf0c14f7129a56056da66bb6",
+  "cel_fajl": "A902_S03_AleliCasa_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "16",
+  "kep_id": "A902_S03_AleliCasa_3_master_Cam_04_A",
+  "stilus": "S03",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "16_A902_S03_AleliCasa_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6404,
+  "uzenet_sha256": "288a4ecbd9812f4c66585270b24f4dc13c58123e2e9f92133d17f7b11700caa4",
+  "prompt_sha256": "bb025959e8a400b1ae8be0cc8cba7cf478042f1ec3e3b1131cb5ef3d674a87cf",
+  "cel_fajl": "A902_S03_AleliCasa_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "17",
+  "kep_id": "A902_S03_AleliCasa_3_master_Cam_11_A",
+  "stilus": "S03",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "17_A902_S03_AleliCasa_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6823,
+  "uzenet_sha256": "727f911721005541e66f3cc603edb7144c05b2c547beed4edf81e4141819a36d",
+  "prompt_sha256": "cff17373e27385902b7471e069e90b13cfef4537083f063043979a70dfef80c9",
+  "cel_fajl": "A902_S03_AleliCasa_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "18",
+  "kep_id": "A902_S03_AleliCasa_4_furdo-06-2_Cam_10_A",
+  "stilus": "S03",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S03_AleliCasa_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "18_A902_S03_AleliCasa_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6412,
+  "uzenet_sha256": "eace8c3649b877eb1c548ed192669579053610de41ed05e5c474b70c9a1d66c7",
+  "prompt_sha256": "ba324aa602d0277381cc2f2e047f851599205dcd49b5bd987438c79b2f0f5302",
+  "cel_fajl": "A902_S03_AleliCasa_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "19",
+  "kep_id": "A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A",
+  "stilus": "S04",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "19_A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9119,
+  "uzenet_sha256": "7ca559ad19fdc40dea8dd4d965e9ecdc05bc5e6babf94eec997f0d5780a22080",
+  "prompt_sha256": "373e5ce5b5536de135395ed4a41c8b4b8be6f3c1c085d10905c2112b0ccdf8fb",
+  "cel_fajl": "A902_S04_LAHorizon_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "20",
+  "kep_id": "A902_S04_LAHorizon_1_nappali-hero_Cam_12_A",
+  "stilus": "S04",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "20_A902_S04_LAHorizon_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8347,
+  "uzenet_sha256": "87b4100c98e09d0acdf40fdca703524503c80fa256869f45dfc51fe70de148dc",
+  "prompt_sha256": "fc1bc34aa901cea6d2b905d073f9b22a3835b0a369c49b21dc753fb4af17f61a",
+  "cel_fajl": "A902_S04_LAHorizon_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "21",
+  "kep_id": "A902_S04_LAHorizon_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S04",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "21_A902_S04_LAHorizon_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6992,
+  "uzenet_sha256": "b7eff3eef17c22701ea41644620ca3fce4ef7a7fd52bef1ea4678587e29a8137",
+  "prompt_sha256": "3566b5816666c3d4c063af85e1f1ba29c00eae29a92ebd92e9e5b5ac4d443c64",
+  "cel_fajl": "A902_S04_LAHorizon_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "22",
+  "kep_id": "A902_S04_LAHorizon_3_master_Cam_04_A",
+  "stilus": "S04",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "22_A902_S04_LAHorizon_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6292,
+  "uzenet_sha256": "8cfdfad689415069f8cbabec59e0bba1683599342a35cd5774e759dc84adedeb",
+  "prompt_sha256": "4ee59f395ac104c30af35b15abf597dc031d2b71c362c06547dc0f522cf8ca90",
+  "cel_fajl": "A902_S04_LAHorizon_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "23",
+  "kep_id": "A902_S04_LAHorizon_3_master_Cam_11_A",
+  "stilus": "S04",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "23_A902_S04_LAHorizon_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6631,
+  "uzenet_sha256": "e2ef4e6b77ed1359d14343ecf568c56eff20d90f37d22658e3301ac2137e3564",
+  "prompt_sha256": "bb677f0feef435056520793ba3014e6991afe0ab15debae38e88daef8fdb88db",
+  "cel_fajl": "A902_S04_LAHorizon_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "24",
+  "kep_id": "A902_S04_LAHorizon_4_furdo-06-2_Cam_10_A",
+  "stilus": "S04",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S04_LAHorizon_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "24_A902_S04_LAHorizon_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6234,
+  "uzenet_sha256": "f872aaed36406f31a3a9b4bcb16ab179f155f866b37ad49a699e2992a4c76c67",
+  "prompt_sha256": "5626b87a29ad69cf58d04b399a6b8baa4e21338553a6eedd61524088d13cf15c",
+  "cel_fajl": "A902_S04_LAHorizon_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "25",
+  "kep_id": "A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A",
+  "stilus": "S05",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "25_A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9363,
+  "uzenet_sha256": "69f4b5302da67ec445d90b8a34d07d0e8b6cf7b9579da5ef65716b3c4cfa813d",
+  "prompt_sha256": "39a18f47b6b3d2c699dc1c747fe11a0bcd5d4d7ca0ea69b099db53e80b7467cc",
+  "cel_fajl": "A902_S05_MiamiStreamline_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "26",
+  "kep_id": "A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A",
+  "stilus": "S05",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "26_A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8494,
+  "uzenet_sha256": "06f0d3241042542d9bd2f2e209d89574aacaa3ff4e6d0d3472e4d9420f8fa73a",
+  "prompt_sha256": "b8a70784d8804d97f4feb036da9c97ff2f5c5b3e00606fcd2362ca95736d7ba7",
+  "cel_fajl": "A902_S05_MiamiStreamline_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "27",
+  "kep_id": "A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S05",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "27_A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6968,
+  "uzenet_sha256": "d1799b36c8c3fcbc6ff288c6d5b8cd580a96100b8d3af0e28b155be765a310ae",
+  "prompt_sha256": "2848319183e0d0a5959b0e22f5de8bf74a09c5001e711b8424775b9032039bb8",
+  "cel_fajl": "A902_S05_MiamiStreamline_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "28",
+  "kep_id": "A902_S05_MiamiStreamline_3_master_Cam_04_A",
+  "stilus": "S05",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "28_A902_S05_MiamiStreamline_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6444,
+  "uzenet_sha256": "70e980649192a46510f174f5d1b49acf94d7a8e20ea29a49edc1ac925f739fc4",
+  "prompt_sha256": "adb16adf82a004ef265e8cafb97fa511776e43778d40627203e653403158aba4",
+  "cel_fajl": "A902_S05_MiamiStreamline_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "29",
+  "kep_id": "A902_S05_MiamiStreamline_3_master_Cam_11_A",
+  "stilus": "S05",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "29_A902_S05_MiamiStreamline_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6772,
+  "uzenet_sha256": "ee1d36ba4d3f4ed8a17b7656ad88163edc0b638fcd45864adebb8d6df9621be4",
+  "prompt_sha256": "83025ea944c117f3681f93d6fe730f175c9e9a185e0fd29de9374e4be04a5224",
+  "cel_fajl": "A902_S05_MiamiStreamline_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "30",
+  "kep_id": "A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A",
+  "stilus": "S05",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "30_A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6378,
+  "uzenet_sha256": "307830455b190ce17ef77a1426ca909f11dbf4849fab655f948ddb1541e6dba8",
+  "prompt_sha256": "a469715fdc6a437f2417092a626f16ab44cc365005ba146f308eaf97afe0407c",
+  "cel_fajl": "A902_S05_MiamiStreamline_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "31",
+  "kep_id": "A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A",
+  "stilus": "S06",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "31_A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9507,
+  "uzenet_sha256": "65b89a8cdbf3f3160216f696ab4e43201d76e84e8dadd2ef3036210e0c8d56a2",
+  "prompt_sha256": "dd18b1d6d9d065f7e2518c95664eb6f4a26af2303faab75347addc93a346ea8d",
+  "cel_fajl": "A902_S06_ZenitAtelier_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "32",
+  "kep_id": "A902_S06_ZenitAtelier_1_nappali-hero_Cam_12_A",
+  "stilus": "S06",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "32_A902_S06_ZenitAtelier_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8395,
+  "uzenet_sha256": "91c92606a2bd251125b9175fb1edab557a0234e8ed263250536d512987d98ad4",
+  "prompt_sha256": "e098b54fd9bf2977e104e75001c7edae062a4140d1bb2594d8ec34fa0152c42d",
+  "cel_fajl": "A902_S06_ZenitAtelier_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "33",
+  "kep_id": "A902_S06_ZenitAtelier_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S06",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "33_A902_S06_ZenitAtelier_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6885,
+  "uzenet_sha256": "d28d20af816abaac39c4f615fa5a04cec11d5d1179a360aa130ace00badc8266",
+  "prompt_sha256": "41e2a9ecc5effb875cb5490b087331a718278c31afcd5d16e21cbf702ab380ca",
+  "cel_fajl": "A902_S06_ZenitAtelier_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "34",
+  "kep_id": "A902_S06_ZenitAtelier_3_master_Cam_04_A",
+  "stilus": "S06",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "34_A902_S06_ZenitAtelier_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6435,
+  "uzenet_sha256": "2062ed23617028115edfa548ca4d0b3f31800f66e8b339ff3dcf2d7f1bee17c1",
+  "prompt_sha256": "902b0b103b5b7ce8d9626b19116df6c551840c39fd3783b75ec2449deece934a",
+  "cel_fajl": "A902_S06_ZenitAtelier_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "35",
+  "kep_id": "A902_S06_ZenitAtelier_3_master_Cam_11_A",
+  "stilus": "S06",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "35_A902_S06_ZenitAtelier_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6697,
+  "uzenet_sha256": "4c57c80eac739ce8162f5f30d2f3aa4d241ba6faa845cfd6d7ebfc0857c27e64",
+  "prompt_sha256": "d62b00b069fbb66bc4cd1ace4db1bc2007f8ccb70018b17833bb3a570bb7f19d",
+  "cel_fajl": "A902_S06_ZenitAtelier_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "36",
+  "kep_id": "A902_S06_ZenitAtelier_4_furdo-06-2_Cam_10_A",
+  "stilus": "S06",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "36_A902_S06_ZenitAtelier_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6333,
+  "uzenet_sha256": "0468ec8b6142868649ca74537330ed9e68818e5508619972452b32363355ad98",
+  "prompt_sha256": "0355ca0a062b9daad4a18d00e92f260ee227d4a295386b91985080c760761e10",
+  "cel_fajl": "A902_S06_ZenitAtelier_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "37",
+  "kep_id": "A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A",
+  "stilus": "S07",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "37_A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9246,
+  "uzenet_sha256": "5f7e30e4a9456b16422de9fa65521e57969f91a8f44ee86d901078178e80fb5a",
+  "prompt_sha256": "5905d73e0667b6143aac7b5df529ec57e42906ba7f7f575880aa4cdb5f5c7768",
+  "cel_fajl": "A902_S07_LakeForestCouture_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "38",
+  "kep_id": "A902_S07_LakeForestCouture_1_nappali-hero_Cam_12_A",
+  "stilus": "S07",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "38_A902_S07_LakeForestCouture_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8344,
+  "uzenet_sha256": "bc863e968a20e6563423ea9ba77fe1fc14d6d047e1374a96232b292ad554261d",
+  "prompt_sha256": "1898d7c6839e1f2d1d57ac161d34124da6789207caea2f04d2f3632117669acd",
+  "cel_fajl": "A902_S07_LakeForestCouture_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "39",
+  "kep_id": "A902_S07_LakeForestCouture_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S07",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "39_A902_S07_LakeForestCouture_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6906,
+  "uzenet_sha256": "0c868f2adbbc0a01ab082f2df01defcaeed20e4193a86ff7d4bc7c69dde27620",
+  "prompt_sha256": "b96019286a2fefde99be94f3dcf615c30d7e004ab5d46ca3cddf8cbeeafa75a0",
+  "cel_fajl": "A902_S07_LakeForestCouture_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "40",
+  "kep_id": "A902_S07_LakeForestCouture_3_master_Cam_04_A",
+  "stilus": "S07",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "40_A902_S07_LakeForestCouture_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6333,
+  "uzenet_sha256": "d261e2ef94eaec5238087590f367d51236f746868c80d4b1cb2d4f3bd1ed1751",
+  "prompt_sha256": "5a3bf46ca2935cde24d8f874e1fd84f635612a69267775d244dc2cae06db671d",
+  "cel_fajl": "A902_S07_LakeForestCouture_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "41",
+  "kep_id": "A902_S07_LakeForestCouture_3_master_Cam_11_A",
+  "stilus": "S07",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "41_A902_S07_LakeForestCouture_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6625,
+  "uzenet_sha256": "a56a8bec944805cf3b295af64858f626610b3b85bebd89d43b31277f94288b4d",
+  "prompt_sha256": "9ed197416c3e85042b07abe6e4d85d5280722fedc70ec5b096eb19a0746855f7",
+  "cel_fajl": "A902_S07_LakeForestCouture_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "42",
+  "kep_id": "A902_S07_LakeForestCouture_4_furdo-06-2_Cam_10_A",
+  "stilus": "S07",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S07_LakeForestCouture_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "42_A902_S07_LakeForestCouture_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6256,
+  "uzenet_sha256": "6885781a24c3d94c2b05f8bc261008b8e1f9bdfe2ec5896c8b5338ba23ca6125",
+  "prompt_sha256": "47dc1a70618260fddad77ba2c6c6f8cc97cbeab286c07142aac1cb99f230d9ce",
+  "cel_fajl": "A902_S07_LakeForestCouture_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "43",
+  "kep_id": "A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A",
+  "stilus": "S08",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "43_A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9248,
+  "uzenet_sha256": "ce9c0a5891edf2decc43a97ced7e5bf2e40c98b5b9f568cc5c2ab493cc4f6ccd",
+  "prompt_sha256": "6962480d4b5bf67c323faf54696cced09623a9d9887af189efc97c91d8aaf6e6",
+  "cel_fajl": "A902_S08_MilanoRadical_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "44",
+  "kep_id": "A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A",
+  "stilus": "S08",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "44_A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8204,
+  "uzenet_sha256": "abb4a5d595fb808701e4acac0ab818156a6cd27fb41bd7712af12bfb8e9060c9",
+  "prompt_sha256": "bb683309b1f917144aefb5675add532a3c453737e55acba25861901da2bb62aa",
+  "cel_fajl": "A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "45",
+  "kep_id": "A902_S08_MilanoRadical_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S08",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "45_A902_S08_MilanoRadical_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6789,
+  "uzenet_sha256": "32af28ab51ec71297649189b3bbbfbf1524292737b03f4e4764ea6201998c4eb",
+  "prompt_sha256": "fd2a117a90d9921e1846c566487d2ddfc2a1687708ac9e0c1ae1affccc54f948",
+  "cel_fajl": "A902_S08_MilanoRadical_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "46",
+  "kep_id": "A902_S08_MilanoRadical_3_master_Cam_04_A",
+  "stilus": "S08",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "46_A902_S08_MilanoRadical_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6308,
+  "uzenet_sha256": "8d2978eaefba867037bc8b459063f5de788601c043d4112fc3303f8f7f874f19",
+  "prompt_sha256": "0764fbc750f107153ba68ec2a9c16330ef011ff33c7c3f92efe6b39c68efe9ae",
+  "cel_fajl": "A902_S08_MilanoRadical_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "47",
+  "kep_id": "A902_S08_MilanoRadical_3_master_Cam_11_A",
+  "stilus": "S08",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "47_A902_S08_MilanoRadical_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6575,
+  "uzenet_sha256": "2286f51e457ee0767d6cecfb650d419128f14b61cfac4e5f0f0a71e2dac5a8d5",
+  "prompt_sha256": "5af4b78d3cf0f17d7e51b187e5d3f8a8ca1f31facb328b75fe48d9d11a6fb175",
+  "cel_fajl": "A902_S08_MilanoRadical_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "48",
+  "kep_id": "A902_S08_MilanoRadical_4_furdo-06-2_Cam_10_A",
+  "stilus": "S08",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "48_A902_S08_MilanoRadical_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6339,
+  "uzenet_sha256": "f1dcbf681045cbc79c0a641dd8fc8f68def441382ece4fb63dcf0d22ad77b70f",
+  "prompt_sha256": "3ff83ff5285d2e95a5e02795a62353a693e8b5c51656abdd1bfdd48ce3362a5a",
+  "cel_fajl": "A902_S08_MilanoRadical_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "49",
+  "kep_id": "A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A",
+  "stilus": "S09",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "49_A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9330,
+  "uzenet_sha256": "749c637b7b196dbe73bbc4db344cfc46f6c0c55fdb9d9b3871cd994f7eabcc9c",
+  "prompt_sha256": "e8d615798e9d19bf7bc9d38ab5c4593f31d0af21f6b9966cdf5f2cac86ccf8b5",
+  "cel_fajl": "A902_S09_ParisCollector_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "50",
+  "kep_id": "A902_S09_ParisCollector_1_nappali-hero_Cam_12_A",
+  "stilus": "S09",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "50_A902_S09_ParisCollector_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8554,
+  "uzenet_sha256": "dab3de6d8470ade6c6388d86e66d31e725453db08ef4280bebe5a5df70b632af",
+  "prompt_sha256": "dd58c3b4a160b8449214e306610afba7e87a8cf4fae4090cef865e25669fe119",
+  "cel_fajl": "A902_S09_ParisCollector_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "51",
+  "kep_id": "A902_S09_ParisCollector_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S09",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "51_A902_S09_ParisCollector_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6910,
+  "uzenet_sha256": "022245bc77bd27ac26e9674c9ed8fdc76d7cf3dfb18371677c31a1ad8f8939b1",
+  "prompt_sha256": "625e0b85081fd00e0a8702498a6b746e1f4bff728f56b0d2ac96d34f8f23bc18",
+  "cel_fajl": "A902_S09_ParisCollector_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "52",
+  "kep_id": "A902_S09_ParisCollector_3_master_Cam_04_A",
+  "stilus": "S09",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "52_A902_S09_ParisCollector_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6358,
+  "uzenet_sha256": "33ba742414dd36fd3bf9ed13753ff10f2ae1032c74ae2dd63a3802b95243193c",
+  "prompt_sha256": "6fed8fc130c6877459b3be69d0dc584a15a24e19df5a6b7c31ca433165d8873b",
+  "cel_fajl": "A902_S09_ParisCollector_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "53",
+  "kep_id": "A902_S09_ParisCollector_3_master_Cam_11_A",
+  "stilus": "S09",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "53_A902_S09_ParisCollector_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6691,
+  "uzenet_sha256": "f42519e58ab21742d943fe0b221597f560aca0390e1bee635050056de434f958",
+  "prompt_sha256": "84b9c1a74cca0fffd9725b1e89689c93f03b487a37d5e473fef056216f8db6c2",
+  "cel_fajl": "A902_S09_ParisCollector_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "54",
+  "kep_id": "A902_S09_ParisCollector_4_furdo-06-2_Cam_10_A",
+  "stilus": "S09",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "54_A902_S09_ParisCollector_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6368,
+  "uzenet_sha256": "cb6967283a8917ff428abbac52c8929ec068279d1418109be92bad4f72424c01",
+  "prompt_sha256": "fc4833a25e615508c726f2b96a567adfff1801ad93f0c49de316539e74754781",
+  "cel_fajl": "A902_S09_ParisCollector_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "55",
+  "kep_id": "A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A",
+  "stilus": "S10",
+  "kamera": "Cam_02",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_02_image1_A902_Alap-v2b1_blender_02_nappali-terasz.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-045_nappali_terasz_fele.jpg",
+   "photo_A902_11_ME-BAL-004_terasz_dobogo_ajto.jpg",
+   "photo_A902_12_ME-BAL-003_zoldteto_fu_korlat_kilatas.jpg"
+  ],
+  "uzenet": "55_A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A.txt",
+  "uzenet_chars": 9370,
+  "uzenet_sha256": "adb4d18f7d4626ae0def690ae5f5c81977bf39fcb7f102fab9e711ba401cca88",
+  "prompt_sha256": "8ee71a93f5b566df5d999845cda058f5baf3df52c6177ff52bb0b072a4d6c4a7",
+  "cel_fajl": "A902_S10_DesertModern70_1_nappali-terasz_Cam_02_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "56",
+  "kep_id": "A902_S10_DesertModern70_1_nappali-hero_Cam_12_A",
+  "stilus": "S10",
+  "kamera": "Cam_12",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_1_nappali-hero_Cam_12_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg"
+  ],
+  "uzenet": "56_A902_S10_DesertModern70_1_nappali-hero_Cam_12_A.txt",
+  "uzenet_chars": 8124,
+  "uzenet_sha256": "64bffc6e65ef6dbba5585ba45864cc1177d60da96c1f1b21d3c3159dacfbe060",
+  "prompt_sha256": "ced14a629d6f85956b76653c6d1cef8f51937e5f3e9f56e6eedc7f69ba52e0dc",
+  "cel_fajl": "A902_S10_DesertModern70_1_nappali-hero_Cam_12_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "57",
+  "kep_id": "A902_S10_DesertModern70_2_etkezo-konyha_Cam_03_A",
+  "stilus": "S10",
+  "kamera": "Cam_03",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_03_image1_A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_02_ME-BAL-056_konyhafal_kiallasok.jpg"
+  ],
+  "uzenet": "57_A902_S10_DesertModern70_2_etkezo-konyha_Cam_03_A.txt",
+  "uzenet_chars": 6853,
+  "uzenet_sha256": "27ed1476c98833f2f8dded626de87b2ce61ae09237e54d8793f699a8223333ce",
+  "prompt_sha256": "7e8defad12c827607bee4743a2ef45184907164c1ef3535dca58ee07e8ac9a6d",
+  "cel_fajl": "A902_S10_DesertModern70_2_etkezo-konyha_Cam_03_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "58",
+  "kep_id": "A902_S10_DesertModern70_3_master_Cam_04_A",
+  "stilus": "S10",
+  "kamera": "Cam_04",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_3_master_Cam_04_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_04_image1_A902_Alap-v2b1_blender_04_master.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [],
+  "uzenet": "58_A902_S10_DesertModern70_3_master_Cam_04_A.txt",
+  "uzenet_chars": 6341,
+  "uzenet_sha256": "93922fd2d26ef9619473ebe7deffec06ae029798b4a70bfaa3d22c4bb400d936",
+  "prompt_sha256": "bfeea5a4d2c3b9c254a73f662c08144ef2f76f233ea3f1e72ad2ed0f13b7242c",
+  "cel_fajl": "A902_S10_DesertModern70_3_master_Cam_04_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "59",
+  "kep_id": "A902_S10_DesertModern70_3_master_Cam_11_A",
+  "stilus": "S10",
+  "kamera": "Cam_11",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_3_master_Cam_11_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_11_image1_A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+  "image2": "image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg",
+  "extra": [
+   "photo_A902_00_ME-BAL-077_szoba_uvegfal_kilatas.jpg"
+  ],
+  "uzenet": "59_A902_S10_DesertModern70_3_master_Cam_11_A.txt",
+  "uzenet_chars": 6616,
+  "uzenet_sha256": "0a2b243a997b1702ceaafbe63ce702bd0b87a4b796029ba73996273cc9383fee",
+  "prompt_sha256": "2c59c504f7f43685dbad6a4cab02ac2fdedb9f4aab4021a6e7582495985d9678",
+  "cel_fajl": "A902_S10_DesertModern70_3_master_Cam_11_A__OPUS55_V3_1__v1.png"
+ },
+ {
+  "nr": "60",
+  "kep_id": "A902_S10_DesertModern70_4_furdo-06-2_Cam_10_A",
+  "stilus": "S10",
+  "kamera": "Cam_10",
+  "prompt_forras": "competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S10_DesertModern70_4_furdo-06-2_Cam_10_A.prompt.md",
+  "v1_2": false,
+  "image1": "Cam_10_image1_A902_Alap-v2b1_blender_10_furdo-06-2.png",
+  "image2": "image2_A902_06-2_ME-BAL-064_zuhany_mosdo.jpg",
+  "extra": [
+   "photo_A902_06-2_ME-BAL-066_wc_fulke_torolkozoszarito_ajto.jpg"
+  ],
+  "uzenet": "60_A902_S10_DesertModern70_4_furdo-06-2_Cam_10_A.txt",
+  "uzenet_chars": 6324,
+  "uzenet_sha256": "90d62ab81fac251c3971e37eed5e2189d3c9109985ec0b60412852071e69c8de",
+  "prompt_sha256": "df58bdc21e8cc775f87f7ad06e85150a9e152be9e6df6b970a6563b6ca93eb55",
+  "cel_fajl": "A902_S10_DesertModern70_4_furdo-06-2_Cam_10_A__OPUS55_V3_1__v1.png"
+ }
+]

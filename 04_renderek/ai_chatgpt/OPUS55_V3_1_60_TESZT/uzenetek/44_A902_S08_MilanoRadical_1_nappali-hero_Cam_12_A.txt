@@ -1,0 +1,50 @@
+WSG A-902 · OPUS55-V3.1 · A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A · camera Cam_12 v3 (living room hero)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_12_image1_A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_12. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+- Image 3 (photo_A902_04_ME-BAL-046_nappali_eloter_fele.jpg): real site photo of living room towards the entrance hall, taken from a DIFFERENT position – reference ONLY for the real existing materials, surfaces, railing, terrace and outside view. Do NOT copy its camera, framing or layout; image 1 decides the geometry.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 (level camera at 1.60 m, 22 mm, looking diagonally south-east). Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements visible in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–1 %: the narrow white side of the shaft wall at the very left edge.
+   b) 0–12 %: the existing light-grey 05.3 door with its darker grey frame (its right jamb at about 12 %), and above it the plain wall band from the door head (2.10 m) to the ceiling (2.90 m). The door stays closed, same size, same place.
+   c) 12–23 %: the 1.00 m dining-wall section W03-a, receding.
+   d) about 23 %: a 0.20 m step back in the wall (vertical corner line).
+   e) 24–45 %: the K-stub and the long east kitchen wall, running away from the camera. The kitchen is open towards the dining area; there is no wall between them.
+   f) 45–55 %: the free end of the low, about 0.85 m high parapet on the kitchen's west side, running away from the camera; above it the opening to the entrance hall under a 2.10 m lintel, with a white pier and the entrance hall visible through it.
+   g) 55–86 %: wall W02 – one solid, full-height wall, 2.10 m wide and 2.90 m high, seen almost frontally; the switch column sits near its left (east) edge.
+   h) 86–92 %: the W07 return (the side face of the corridor wall) and the narrow pillar behind it.
+   i) 92–100 %: the throat of the corridor to the bedrooms, keeping its full width and free of any object.
+   j) Ceiling: flat, white, continuous at 2.90 m, with no coves, beams, bulkheads, recessed spots or new light points.
+3. Forbidden: any new wall, partition, column, niche or full-height element; any kitchen island or peninsula; a kitchen on any wall other than the east kitchen wall (centre-left) and the kitchen side of the existing parapet; moving, resizing, removing or adding doors or openings; changing the corridor geometry; moving, widening or shortening W02; a different floor or ceiling height; anything the camera could not see from this position (the TV wall, the glass wall and the terrace are behind the camera).
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A.prompt.md):
+
+=== BEGIN PROMPT A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A ===
+S08 MILANO RADICAL – "Radical Grid" · A-902 living – dining – kitchen hero view · camera Cam_12 (v3) · daytime, natural bright light, high-end interior photography. CONCEPT – NOT VALIDATED.
+
+STYLE DNA. Italian radical design, disciplined: orthogonal volumes, chalk white and graphite, one muted mustard-yellow plane per space, a walnut counterpoint, black metal; a wall that turns into a giant geometric graphic. Honest materials: matt laminates, a printed vinyl wall graphic (not paint), black mango wood table, corduroy, bouclé.
+
+SPACE PLAN (identical in Cam_02, Cam_12, Cam_03). Layout C: The Westwing Lennon modular corner sofa in light-grey corduroy, L-shaped and blocky, 238 × 180 cm, 68 cm high, back to the east towards the dining table, facing the TV wall behind the camera. Dining: The Westwing Luca dining table in black mango wood, rectangular, 160 × 90 cm, 75 cm high under ML04, six Westwing Adrien curved bouclé chairs in black, 56 × 51 × 82 cm, 2+2+1+1. Two kitchen rows behind the c. 85 cm west parapet. Main routes at least 90 cm with chairs pushed in.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_12 v3) fixes geometry, framing and the level horizon; 1.60 m, 22 mm, looking south-east from the north-west corner. Foreground lower left to centre: the grey corduroy sofa back as a low blocky band with mustard and graphite cushions. Middle left: the black rectangular table with black bouclé chairs and the small smoked-glass pendant at ML04 (the Kave Home Idela pendant, Ø 26 cm smoked glass with a black marble detail); behind it the chalk-white kitchen with one mustard fridge column. Far left: W03 with the light-grey door of room 05.3 and a framed geometric print beside the fridge column. Right of centre, almost frontal: W02 – the main surface. Right edge: W07, the corridor throat. Upper band: white ceiling; the white cylinder lantern at ML05 may enter at the top.
+
+THE TURNING GRAPHIC – W02 + W07. W02 and the corridor throat are covered floor to ceiling in a custom-printed matt vinyl wall graphic: a chalk-white ground crossed by two broad graphite bands – one diagonal, one vertical – a single muted mustard square and one walnut-brown circle, all with crisp edges, composed so that the graphite diagonal runs off W02, folds around the return and the pillar and continues along the corridor wall – the graphic turns the corner like a sculpture. Around the switch column the graphic leaves a clean chalk margin of 15 cm. Nothing stands at floor level along this wall.
+
+DOOR 05.3 – W03. Door, frame and black handle unchanged; above the door a flush graphite laminate panel to the ceiling; beside it chalk wallcovering and, on the short wall strip next to the fridge column, a 70 × 100 cm geometric print in a thin black frame.
+
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with chalk-white matt fronts on both rows and the tall appliance wall; the fridge column alone in muted mustard-yellow laminate up to the soffit; slim graphite bar handles; worktop light-grey concrete-effect laminate; splashback a graphite compact-laminate panel; one black metal shelf; no wall cabinets.
+
+LIGHT. Daytime, bright soft north light from the glazing behind the camera, no sun patches; crisp neutral white balance so chalk stays white and the mustard reads muted. Hue fittings off.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; light-grey interior doors with black handles; switches and sockets visible.
+
+REALITY RULES. Keep image 1's walls, openings, ceiling and corridor throat. Avoid these proven errors: Memphis confetti or squiggles; a painted mural instead of a printed wall graphic; extra colours; a dining table moved east or enlarged; extra furniture; a floor lighter or cooler than the real one. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S08_MilanoRadical_1_nappali-hero_Cam_12_A ===

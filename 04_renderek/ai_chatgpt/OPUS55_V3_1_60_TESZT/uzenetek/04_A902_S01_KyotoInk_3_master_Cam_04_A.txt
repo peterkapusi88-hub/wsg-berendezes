@@ -1,0 +1,43 @@
+WSG A-902 · OPUS55-V3.1 · A902_S01_KyotoInk_3_master_Cam_04_A · camera Cam_04 (master bedroom)
+STATUS: CONCEPT TEST – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first; it overrides anything in the creative brief that conflicts with image 1.
+
+ATTACHED IMAGES AND THEIR ROLES
+- Image 1 (Cam_04_image1_A902_Alap-v2b1_blender_04_master.png): the MANDATORY geometry and camera reference – a neutral Blender render of the real apartment shell from the exact camera Cam_04. Nothing in image 1 may be moved, added or removed: walls, corners, openings, doors, parapets, glazing, ceiling and floor lines stay exactly where they are. Its flat colours are neutral placeholders, not the materials.
+- Image 2 (image2_A902_04_ME-BAL-080_parketta_szegely_kozel.jpg): real site photo of the existing floor and skirting – material and colour reference only: a medium grey-brown oak-look laminate with visible grain and knots and matching skirting. Keep exactly this tone – not lighter, not warmer, not more orange. Not a camera or layout reference.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera at 1.50 m, 20 mm, from the south-west corner of the master bedroom looking north-east. Verticals stay vertical. Do not crop, zoom, rotate, widen or re-frame. Same landscape framing and 16:10 aspect as image 1.
+2. Fixed elements in image 1, from LEFT to RIGHT (approximate horizontal position in the frame):
+   a) 0–37 %: a plain solid wall on the left (the north side), receding to an inside corner at about 37 %.
+   b) 37–48 %: the north niche and the pillar: a short wall face from the corner at 37 % to about 43 %, then the side face of the pillar to the corner at about 48 %. The full-height wardrobe wall belongs to this north niche (left and deep in the picture), its front flush with the pillar face; it does not extend onto the right-hand wall.
+   c) 48–100 %: the long solid EAST wall, running from the corner at 48 % towards the camera on the right – this is the headboard wall; the bed stands with its headboard against THIS wall.
+   d) Ceiling: flat, white, at 2.90 m, with only the existing ceiling point ML06; no coves or spots.
+3. Forbidden: ANY window, glass wall, balcony door, balcony or daylight opening anywhere in this frame (the glass wall is behind the camera and is NOT visible); putting the bed against the far or left wall; putting the wardrobe on the right-hand wall or on the far wall outside the niche; adding doors, mirrors-as-doors or openings that are not in image 1; moving the corners or the pillar.
+4. Output: exactly one photorealistic image, same framing and 16:10 landscape aspect as image 1, no text, no labels, no collage, no split view.
+5. If anything in the creative brief below conflicts with image 1, image 1 wins.
+
+CREATIVE BRIEF – Claude Opus 5.5 V3.1 prompt, verbatim and unchanged (source: competition/opus55-v3-1-20261025 @ 7d3c67f823c646d9daef06b294826e89c1c61467, 05_promptok/KEP004_OPUS55_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_04_A.prompt.md):
+
+=== BEGIN PROMPT A902_S01_KyotoInk_3_master_Cam_04_A ===
+S01 KYOTO INK – "Ink and Washi" · A-902 master bedroom 05.1 · camera Cam_04 · evening, Philips Hue scene (headboard light, reading lights). CONCEPT – NOT VALIDATED.
+
+STYLE DNA. A Japanese sleeping room as a paper lantern: warm off-white paper-fibre textures, taupe woven upholstery, one graphite ink line, grey linen, pale oak; the bedroom is lighter and softer than the living room, without its strong graphite masses. Honest materials: paper-fibre vinyl wallcovering (not real paper), woven upholstery fabric, textile-wrapped laminate wardrobe fronts (not real grasscloth), graphite laminate.
+
+ROOM PLAN (identical in Cam_04 and Cam_11). Master 05.1, 3.57 × 5.50 m including the north wardrobe niche, 2.90 m white ceiling with heating/cooling panels. The bed, the Westwing Amelia upholstered bed in light beige, 200 × 231 cm outer size for a 180 × 200 mattress, with a low 61 cm headboard, stands with its head against the east wall on the room axis, foot towards the west glass wall; at least 60 cm free on both sides. A floor-to-ceiling wardrobe wall fills the whole north niche, about 3.00 m wide, 0.90 m deep, 2.90 m high, its fronts flush with the face of the pillar; the 2.42 m wardrobe strip on the south side by the door uses the same front family.
+
+CAMERA AND COMPOSITION. Image 1 (neutral Blender base of Cam_04) fixes geometry and framing; eye height 1.50 m, 20 mm, from the south-west corner looking north-east. Centre and right: the east headboard wall with the bed, the two floating nightstands and reading lamps. Left and deep in the picture: the north niche wardrobe wall in its full height. The south wardrobe strip may enter at the right edge. Top: the white ceiling with the existing ceiling point ML06.
+
+HEADBOARD WALL – "PAPER SCREEN". Across the east wall runs a 340 cm wide, 120 cm high upholstered band made of four panels in taupe woven fabric, fine vertical joints between them. Directly above it a 4 cm high matt graphite rail runs the full width – the same ink line as in the living room – and above the rail the wall is covered up to the ceiling in the warm off-white paper-fibre wallcovering. On top of the rail a hidden Philips Hue light strip in an opal profile washes the paper texture upwards in a soft, even glow that fades towards the ceiling – the headboard wall glows like a shoji screen at night. The switches and sockets beside the bed stay accessible through neat cut-outs in the upholstered band. On each side a floating matt graphite nightstand box, 50 cm wide, 18 cm high, 30 cm deep, fixed to the band; on each a small paper-shade table lamp with an E14 Hue bulb, plugged into the bedside socket, glowing warm.
+
+WARDROBE WALL (north niche, floor to ceiling). Handleless push-to-open doors in a regular rhythm of equal widths, their faces wrapped in a pale stone-coloured woven-texture vinyl wallcovering, separated by 3 mm graphite shadow reveals, on a recessed graphite plinth; no visible carcass edges; the niche back-wall socket stays accessible behind the doors.
+
+BED AND TEXTILES. Off-white washed-linen bedding, two taupe and two moss-green cushions, a taupe wool throw across the foot; a Westwing Mason hand-tufted light-grey wool rug, 200 × 300 cm under the lower two-thirds of the bed; on one nightstand a black ceramic cup and a book.
+
+LIGHT (all Hue, 2200–2700 K, no RGB). The headboard up-light and the two paper table lamps carry the scene; the ceiling point ML06 carries a flat white paper drum fitting with an E27 Hue bulb, dimmed low. Mid-key exposure: the wardrobe joints, the floor–wall line, the window frames at the left edge and the room corners remain readable; no crushed blacks, no blown highlights. Outside the glass: dusk, deep blue, no sunlight.
+
+EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside, anthracite outside; switches, sockets and the thermostat free.
+
+REALITY RULES. Keep image 1's walls, niche, pillar, openings and ceiling. Avoid these proven errors: a floor lighter or cooler than the real one; a different number of wardrobe doors than a regular even rhythm; a wardrobe not reaching the ceiling or standing proud of the pillar; a ceiling cove, dropped ceiling or ceiling light line; visible LED dots; a bed larger than 180 × 200 or moved off the axis. Status: CONCEPT – NOT VALIDATED.
+=== END PROMPT A902_S01_KyotoInk_3_master_Cam_04_A ===
