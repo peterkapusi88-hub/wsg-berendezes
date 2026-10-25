@@ -120,3 +120,30 @@ A költségoptimalizálásnál az első kérdés nem pusztán az, hogy „hol le
 ## 10. Kötelező Render Reality Gate – padló/fal/anyag/geometria ellenőrzése
 
 **MINDEN új látványterv, Blender-kép és Gemini-videó tervezésénél alkalmazandó:** `ai-coordination/RENDER_REALITY_GATE.md`. Kreatív koncepcióképnél a nem validált státusz megengedett, de a valósághűnek / költségeltnek nevezett tervnek előzetes felületi-anyagkiosztás, render utáni vizuális eltéréslista és kifejezett PASS/FAIL döntés kell. A WSG eredeti szürke tölgy parkettája megtartandó, pontos termékdekorja helyszíni fotóig nem bizonyított; alapfalfestés fehér, minden ettől eltérő tényleges festés/panel/tapéta külön specifikáció és ár. A meleg fényt ne keverd össze valós falátszínezéssel. A képen lévő valódi márvány/travertin látszata nem lehet drágább a beárazott dekorhelyettesítő tényleges anyagminőségénél. Takart, be nem azonosított felület `nem ellenőrizhető`, nem `megfelelt`. Nincs `RENDER REALITY PASS` az egyedi, tételes audit nélkül.
+
+## 11. Mindennapi használhatóság – Péter édesanyjának praktikus elvei (Péter, 2026-10-25)
+
+**Kötelező minden stílusban, minden lakásban.** A luxus itt azt jelenti, hogy minden kézre esik, a pult üres és rendezett, a tárolás rejtett, de logikus. Ezek a szempontok nem eshetnek ki egy render kedvéért; a látványban rendezetten, takarva jelenjenek meg. Ha valamelyik egy lakásban nem fér el vagy a keretet veszélyezteti: mondd ki, mutasd az alternatívát, Péter dönt. *Jelölés: „(elv)” = Péter/édesanyja kérése; „(szakmai kiegészítés)” = Claude javaslata, ellenőrizendő.*
+
+### 11.1 Konyha
+1. **Sorrend balról jobbra (elv):** hűtő → kis munkapult → mosogató → nagyobb munkafelület → főzőlap/tűzhely → kis munkapult → **magas torony** (mikró + sütő + kamraszekrény). A logika a munkafolyamat: kivesz → mos → előkészít → főz → letesz; a torony a sor végén áll, nem szakítja meg a pultot.
+   - Mosogatógép a mosogató mellett, a nagyobb munkafelület alatt (szakmai kiegészítés).
+   - **Szélességsáv (becslés, szakmai szokás; a végleges szám a kiválasztott termékből):** hűtő 60 · kis pult 30–45 · mosogató 60–80 · nagy munkafelület ≥ 90, ideálisan 120 · főzőlap 60–80 · kis pult 30–45 · torony 60 cm. **Egyenes falon minimum ≈ 3,90 m, kényelmesen ≈ 4,6–4,8 m.**
+   - **Illesztés a valósághoz:** a sorrend sablon, a meglévő víz-, lefolyó-, elszívó-, főzőlap/sütő (S/F) és dugaljkiállásokhoz (`01_alaprajzok/villamos_kiallasok/`) igazítjuk. Ha egy falon nem fér: L, U vagy kétsoros elrendezés, a sorrend logikájának megtartásával; a tükrözött irány megengedett. Kiállás-áthelyezés építési munka → csak árazva és Péter döntésével. Minden lakásnál külön **„konyhasorrend-próba”**: kiállás ↔ sablon eltéréslista.
+   - *A-902 előzetes megjegyzés (terv szerinti kiállás + v2b lock, helyszínen ellenőrizendő):* a konyha U-szerű – keleti fal ≈ 2,70 m (mosogatógép- és pultdugaljak), déli fal ≈ 1,50 m (sütő m = 1,10, mikró m = 1,30 → itt a torony), nyugati 0,85 m magas fal mellett S/F + elszívó (főzőlap). A sablon itt U-formában valósul meg; a hűtő helye (D10, kódja a rajzon nem azonosítható) **ismeretlen**.
+2. **Kihúzható zuhanyfejes csaptelep (elv)** a konyhai mosogatónál és a háztartási helyiségben (HTH). A HTH-ban csak ott, ahol van vagy beárazottan kialakítható kiöntő/mosdó víz- és lefolyóbekötéssel – meglévő bekötés nélkül nem ígérjük (ismeretlen = ismeretlen).
+3. **„Reggeli állomás” pultszakasz (elv):** a folyamatosan használt gépek (kávéfőző, kenyérpirító, vízforraló stb.) állandó helye, legalább 2 pultdugaljjal. Lehetőleg a mosogató–hűtő közelében. Szakmai kiegészítés: felnyíló/redőnyös „gépgarázs” szekrény, hogy este rendezett, üres pult látsszon.
+4. **Ritkán használt gépek (elv):** dagasztógép, turmix, robotgép stb. zárt helyen, csak használatkor vesszük elő – nem a pulton. Szakmai kiegészítés: a nehéz gép alsó fiókba vagy kihúzható polcra kerüljön, ne felső szekrénybe.
+5. **Teljes magasságú, kétajtós kamraszekrény (elv):** belül fiókok, kisebb és nagyobb (állítható) polcok, **bortartó**; az ajtók belső oldalán kisebb tárolók (tea, fűszer). Szakmai kiegészítés: az ajtótároló miatt a belső polc/fiók sekélyebb, ezt méretezni kell; jellemző megoldás IKEA METOD/PAX váz + belső fiók-/ajtótartó-rendszer vagy asztalos – tételesen beárazva.
+   - **B-terv, ha nem fér:** előre kihúzható, magas, keskeny kamraszekrény kosarakkal (száraztészta, konzerv stb.).
+
+### 11.2 Gardrób
+6. **Ahol csak lehet, legyen gardróbszekrény (elv), mennyezetig érve.** A felső részben, ahol a szélesség megengedi, **mindig lehúzható ruhalift** (pantográf), mert a felső zóna különben rosszul használható. Szakmai kiegészítés: az IKEA PAX váz 201 vagy 236 cm magas, a 2,57–2,90 m-es belmagasságig ráépített felső modul/takarás kell; a ruhalift szélességtartománya és terhelhetősége gyártónként eltér, termékből ellenőrizendő. A mennyezeti fűtő-hűtő panelbe nem rögzítünk – csak falhoz/korpuszhoz, vezetékkeresés után.
+
+### 11.3 Fürdőszoba
+7. **A mosdó és a tükör alatt fiók (elv),** amelyben a hajszárító és minden tartozéka (hajsütő/-vasaló, kefék, feltétek) elfér, **a fiókban beépített elektromos dugaljjal**, hogy a hajszárító bedugva maradhasson. Szakmai kiegészítés – villanyszerelővel ellenőrizendő: a fürdőszobai zónák előírásai (MSZ HD 60364-7-701), 30 mA-es áram-védő kapcsoló, a fiók mozgását követő kábelvezetés, a forró készülék miatti hőálló kialakítás, és a mosdó szifonja miatt kivágott fiók. Kiindulás a meglévő tükör melletti dugalj (a rajzon „B” kód, jelentése nem igazolt).
+
+### 11.4 Hogyan alkalmazd
+- Minden stíluskártyában és helyiségtervben pipáld ki a 11.1–11.3 pontokat; a nem teljesülőt indokold.
+- A tételes listában külön sor: kihúzható csaptelep(ek), reggeli állomás/gépgarázs, kamraszekrény belső vasalata + bortartó + ajtótárolók, ruhalift(ek), fiókba épített dugalj + villanyszerelés.
+- Renderprompt: rendezett, üres pult a reggeli állomás kivételével; zárt frontok; a kamra- és a gardróbszekrény mennyezetig ér.

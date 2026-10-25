@@ -536,6 +536,11 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Lábazat szürkésbarna; sík fehér mennyezet spot/kávás LED nélkül; fürdő 06.2 csempe semleges szürke, hátfal hatszöges relief.
   - **Nappali teraszüvegfal előtti belső lépcső: kb. 15 cm × 25 cm (fotóból becsülve, 13–17 cm), x ≈ 3,67–9,25.** A modellben eddig nem szerepelt; a k13 másolaton jelölve (`FOTO_ELTERES_lepcso_nappali_uvegfal`), a lock nem változik a „mehet” előtt (draft PR).
   - Összevetés: `08_allapotfelmeres/fotok_profi_20261025/` ↔ Astra V3.1 renderek; jelentés a `renders/gpt6astra-v3-1-60-tests` ágon.
+- *(2026-10-25 23:25 CET, Péter – eldöntve)* **Mindennapi használhatósági elvek (Péter édesanyjának praktikus tanácsai) – kötelező minden stílusban és lakásban.** Teljes szöveg: `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` 11. pont.
+  - Konyha balról jobbra: hűtő → kis pult → mosogató → nagyobb munkafelület → főzőlap → kis pult → torony (mikró, sütő, kamra); a meglévő kiállásokhoz illesztve (L/U/kétsoros forma megengedett), lakásonként konyhasorrend-próbával.
+  - Kihúzható csaptelep a konyhában és a HTH-ban (ott csak meglévő/beárazott víz-lefolyó mellett); reggeli állomás pultszakasz; ritka gépek zárt helyen.
+  - Mennyezetig érő kétajtós kamraszekrény (fiókok, polcok, bortartó, ajtótárolók); B-terv: kihúzható keskeny kamra kosarakkal.
+  - Ahol lehet, mennyezetig érő gardrób, a felső részben ruhalifttel; fürdőben mosdó alatti hajszárítós fiók beépített dugaljjal (villanyszerelői ellenőrzéssel).
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
