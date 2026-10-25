@@ -12,8 +12,8 @@
 | # | Nézet | Kamera | Alapkép (1. kép) | Megjegyzés |
 |---|---|---|---|---|
 | 1 | nappali–terasz | Cam_02 | `04_renderek/A902_alap_v2b1/…_02_nappali-terasz.png` | geometriai kontrollnézet; 1b: stílus-tömbkép |
-| 2 | nappali hero | **Cam_12** (JAVASLAT, PR #17) | `04_renderek/A902_cam12_hero_javaslat/A902_Alap-v2b1k12_blender_12_nappali-hero_JAVASLAT.png` | ÉNy-i sarok, 22 mm; a W02 + W07 összekötő fal és a konyha pultfala látszik |
-| 3 | konyha–étkező | Cam_03 | `…/A902_Alap-v2b1_blender_03_etkezo-konyha.png` (régi) | **Péter 02:33 CET: konyhaorientált új kamerajavaslat** (Claude), hogy ne fedjen át a Cam_12-vel |
+| 2 | nappali hero | **Cam_12** (JAVASLAT v3, kameracsomag C) | **új: `04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png`** (v2: `04_renderek/A902_cam12_hero_javaslat/…`) | ÉNy-i sarok, 22 mm; a W02 + W07 összekötő fal és a konyha pultfala látszik |
+| 3 | konyha–étkező | Cam_03 | **új: `04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png`** (régi: `…/A902_Alap-v2b1_blender_03_etkezo-konyha.png`) | **Péter 04:08 CET: K1 elfogadva** – [9,45; 7,55; 1,50], dél felé, 20 mm; a lockba a kameracsomag merge-ével kerül |
 | 4 | master | Cam_04 | `…/A902_Alap-v2b1_blender_04_master.png` | ágy 180 × 200, tengely y 6,40 |
 | 5 | master panoráma | Cam_11 | `04_renderek/A902_cam11_javaslat_v1/…` | a PR #15-tel a main-en |
 | 6 | fürdő 06.2 | Cam_10 | `…/A902_Alap-v2b1_blender_10_furdo-06-2.png` | csak műfény; a meglévő burkolat marad |
