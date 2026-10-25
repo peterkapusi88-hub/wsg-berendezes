@@ -27,3 +27,5 @@ CP1.10: Desert Modern 70 teljes stílusspecifikáció mentése – 20ceb5a6ab07b
 CP1 kész: közös reality-elvek és hat kamerakompozíció – 7fa520bb4fe00477edebb365f4d55e7a16a0bd91 – 2026-10-25T05:03:57.100Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP2-SAFE – furdo uj irany es folytatasi sorrend | 854905a7a27582482b004b4ca596a8602255641f | 2026-10-25T15:04:24.856748+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-S03-hero – ket teljes nappali prompt | e1eb0453687d5db09cd4187ad3dd3ae726c679e4 | 2026-10-25T15:08:23.033078+00:00 | távoli tartalom-visszaolvasás PASS
