@@ -527,6 +527,16 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Indítási instrukció mindhárom versenyzőnek:** forráscommit `45632b5…` (kalibráció: `competition/inditas-20261025` @ `2452dfc…`; indítócsomag: ugyanezen az ágon, `3b85062…`); saját ág a baseline-ból, draft PR célága `competition/baseline-20261025-v3`; a §0 blokk v3.1 a prompt elejére; a 11 szövegcsere (KOZOS_BLOKK 2. pont: forráscommit, ág/célág, kalibráció 60+6, Cam_03 K1, C elrendezés + GEOMETRIA v2, költség fix-alap, benchmark-pótlás, fény §0.10, Astra fallback, B/C függetlenség).
   - **Preflight: INDÍTHATÓ** – a §0 v3.1 beillesztésével; a futásokat csak Péter indítja. Nem történt merge, képgenerálás, versenyzői futás.
 
+- *(2026-10-25 17:34 CET, Péter – eldöntve)* **KÉZJEGY-program: egyedi AI-művészet mint a lakások védjegye** – `06_koncepcio/WSG_KEZJEGY_AI_muveszet_program_v1.md` (hivatkozás: „KÉZJEGY” / `KÉZJEGY-01`).
+  - Lakásonként egy művészi motívum, 3–4 hordozón: tapéta, vizes falon üveg/akril/HPL, vászon, textil.
+  - Sorrend: előbb az Astra stílusonként 3–5 művészi irányt ad, utána Claude nyomdakész specifikációt készít. Ajánlatot csak Péter „mehet”-jével kérünk; A4-es anyagminta kell.
+  - Az első próba egy döntős stíluson: zuhanyvégfal + TV-fal tapéta + egy kézzel befejezett vászon.
+  - Falfestmény csak Péter külön döntésével, mert eltér a „fehér fal marad” szabálytól.
+  - Az A-902 fürdő zuhanyvégfala (r1d, `wsg/a902-furdo-r1b-20261025`): keret nélkül, hátoldalán nyomtatott, a csempére ragasztott panel, padlótól a csempe tetejéig. Az anyag még nyitott:
+    - nyomtatott üveg ≈ 420 e Ft;
+    - HPL ≈ 250 e Ft;
+    - akril vagy alu-kompozit ≈ 120–180 e Ft.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
