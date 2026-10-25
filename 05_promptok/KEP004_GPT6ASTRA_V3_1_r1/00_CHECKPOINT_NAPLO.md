@@ -9,3 +9,5 @@ CP1.01: Kyoto Ink teljes stílusspecifikáció mentése – 0d219691e5d7b16fdd32
 CP1.02: BiBo Nocturne teljes stílusspecifikáció mentése – 1b48b0d5c977ad375bce0d3f983f2a396349e301 – 2026-10-25T04:57:52.753Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.03: Alelí Casa teljes stílusspecifikáció mentése – 668e1c672b1dcc376c7d29333c282f7b148e417c – 2026-10-25T04:58:07.030Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1.04: LA Horizon teljes stílusspecifikáció mentése – df73727f4292891e71cf20bff248af8191d99f80 – 2026-10-25T04:58:15.805Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
