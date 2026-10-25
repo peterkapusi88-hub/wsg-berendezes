@@ -1,6 +1,8 @@
-# Opus 5.5 V3.1 – integrátori szövegcsere v1.1 (K-02, K-03) a négy induló promptra
+# Opus 5.5 V3.1 – integrátori szövegcsere v1.1 (K-02, K-03) – **TERVEZET, b24bee7-alapú, NEM FUTTATHATÓ**
 
-**Claude integrátor, 2026-10-25.** A versenyzői fájlok (PR #22 ága) változatlanok; ezek **javított másolatok**. A futtatható változat a `_v1_1.prompt.md`. Képet nem generáltam.
+> **Elavult forrás.** Ez a változat a `b24bee7` (CP10) állapotra készült, mielőtt a végső `7d3c67f` elérhető lett. Az S02 két fájlja a végleges forrásban eltér (ML04: Kave Home Idela, ML05: Westwing Dancing). Az itteni S02 fájlok a régi lámpákat (Brisia, sárgaréz-opál) tartalmazzák, ezért **nem vehetők át**. Az S01 két fájlja bájtra azonos a v1.2-vel. **Érvényes változat:** `../KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_2_7d3c67f/`. Ez a mappa csak verziózott tervezetként marad meg.
+
+**Claude integrátor, 2026-10-25.** A versenyzői fájlok (PR #22 ága) változatlanok; ezek javított másolatok. Képet nem generáltam.
 
 ## Mit cserél
 | Kép | Lelet | Csere |
