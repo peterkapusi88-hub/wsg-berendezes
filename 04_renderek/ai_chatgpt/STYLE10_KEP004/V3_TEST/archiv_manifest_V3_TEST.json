@@ -1,0 +1,218 @@
+[
+ {
+  "kep_id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST",
+  "stilus": "S01",
+  "kamera": "Cam_02",
+  "prompt_verzio": "KEP004-CGI-V3TEST-r2",
+  "atveteli_fajl": "Modern Nappali Terasszal és Városi Kilátással.png",
+  "archiv_nev": "V3_TEST/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST.png",
+  "sha256": "2fd2bd787fb7465f82a92d7dd4f858957fe2929559b9035aab94a712aa3b4f8a",
+  "bajt": 2670431,
+  "kep_px": [
+   1586,
+   992
+  ],
+  "prompt_fajl": "V3_TEST/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST.prompt.txt",
+  "prompt_sha256": "eb4f190841dd4c51033f4d96fcf4f6bb30e72469e4abf9fbb74026df06f8970c",
+  "prompt_karakter": 20238,
+  "chat": "https://chatgpt.com/c/6add4e63-b7c4-83ed-aefc-821359a091f3",
+  "felulet": "ChatGPT Plus · Chat mód · „Kép létrehozása” · Gondolkodási erőfeszítés: Erős (High)",
+  "letoltes_utc": "2026-10-25T00:35:31Z",
+  "jovahagyas": "Péter 2026-10-25 01:55 és 02:22 (CEST) – pontosan két generálás, képenként egy",
+  "ujrageneralas": 0,
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_kep1b_tomeg_Cam02_S01_V3TEST_v1.png",
+    "forras": "A902_Cam02_tomeg_S01_V3TEST_v1.png",
+    "sha256": "ed70d29ed75dd495afd9f285a62d3a461055384b0eae4dde37462445bda89c86",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "04_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_kep2c_panorama_terasz.jpg",
+    "forras": "A902_terasz_panorama_v0b_videobol.jpg",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_termek_ww_Lennon_L_jobbos_szurkesbarna_DEQ21WES12329-168260.jpg",
+    "forras": "06_termek_ww_Lennon_L_jobbos_szurkesbarna_DEQ21WES12329-168260.jpg",
+    "sha256": "c2814e421f3f0859ff483a258dd825a69133f8dccfe342ae5caf2bc745ca6c67",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 7,
+    "fajl": "07_termek_ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "forras": "07_termek_ww_Toni_ovalis_200x90_vilagos_tolgy_DEQ19WES60483-150724.jpg",
+    "sha256": "da0652a02a2f0c33da0d6f8276653ffe6843adedd0e8c4aba0c3fbf2485b9fa2",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 8,
+    "fajl": "08_termek_KH_Eamy_szek_vilagosszurke.jpg",
+    "forras": "08_termek_KH_Eamy_szek_vilagosszurke.jpg",
+    "sha256": "77f8266ad16149911604464655a2dda8f479a3a632520a42cefd4c7dc0e17d6a",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 9,
+    "fajl": "09_termek_KH_Nifelia_szonyeg_200x300.jpg",
+    "forras": "09_termek_KH_Nifelia_szonyeg_200x300.jpg",
+    "sha256": "6960a165ce58a17f45992fedb2c4b3df79a2579efeeea9806760a606803ddaba",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   }
+  ],
+  "gate": "KONCEPCIÓ – NEM VALIDÁLT · Gate: geometriai kontroll FAIL (javítható) – belmagasság ~+8 %, falbútorok nagyobbak",
+  "audit": "ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md"
+ },
+ {
+  "kep_id": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST",
+  "stilus": "S02",
+  "kamera": "Cam_02",
+  "prompt_verzio": "KEP004-CGI-V3TEST-r2",
+  "atveteli_fajl": "Modern nappali terasszal és városi panorámával.png",
+  "archiv_nev": "V3_TEST/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST.png",
+  "sha256": "e580f2fda62a44f634b49e75b35fcf653cada18d6d79e20f684381246b82a4f4",
+  "bajt": 2437887,
+  "kep_px": [
+   1586,
+   992
+  ],
+  "prompt_fajl": "V3_TEST/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST.prompt.txt",
+  "prompt_sha256": "aea9d602368f1322e7f84df9d2d9d75c769f856031fd8f09ce29653e92de7f16",
+  "prompt_karakter": 21327,
+  "chat": "https://chatgpt.com/c/6add4f5c-edf0-83eb-ba22-703be2d0c91b",
+  "felulet": "ChatGPT Plus · Chat mód · „Kép létrehozása” · Gondolkodási erőfeszítés: Erős (High)",
+  "letoltes_utc": "2026-10-25T00:38:54Z",
+  "jovahagyas": "Péter 2026-10-25 01:55 és 02:22 (CEST) – pontosan két generálás, képenként egy",
+  "ujrageneralas": 0,
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_kep1_blender_alap_Cam02_v2b1.png",
+    "forras": "A902_Alap-v2b1_blender_02_nappali-terasz.png",
+    "sha256": "cb60ec8ebc5be727dbd106477ab0fa36f8f2ecaa842fee3b9e20befbaf8aa8b7",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_kep1b_tomeg_Cam02_S02_V3TEST_v1.png",
+    "forras": "A902_Cam02_tomeg_S02_V3TEST_v1.png",
+    "sha256": "b78dd0736a5cd279f3aafc4d8607324a27bc8224f35f55fd8a4a6e66e1a87a73",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_kep2_padlo_ME-BAL-080.jpg",
+    "forras": "A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "forras": "04_kep2b_helyszin_falak-profilok-terasz.jpg",
+    "sha256": "2a5ef83f2d6d978b77b2590aaed883a7c2789972baa34d9797097b4a9102aa62",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_kep2c_panorama_terasz.jpg",
+    "forras": "A902_terasz_panorama_v0b_videobol.jpg",
+    "sha256": "9d0457ee8479f6644d0070de424a0c11a10e2557cd7223c2b021b8ff33a74f2e",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": []
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_termek_ikea_JATTEBO_U_Samsala_sotetkek_49607648.jpg",
+    "forras": "06_termek_ikea_JATTEBO_U_Samsala_sotetkek_49607648.jpg",
+    "sha256": "a9f482e59e27d150fd2c89bce9ad9e0eaab853c5bd61ac93ff5cd3e199f41aa7",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 7,
+    "fajl": "07_termek_ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "forras": "07_termek_ww_Anouk_uveg_180x90_23WES68910.jpg",
+    "sha256": "1c330875218b39f211773d0a295c9ea94ccb8183718e5e681bcaf656498c53bd",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 8,
+    "fajl": "08_termek_KH_Ciselia_szek_bezs_fekete.jpg",
+    "forras": "08_termek_KH_Ciselia_szek_bezs_fekete.jpg",
+    "sha256": "bf54ee5629e3f31729602df92e482a9090d68d1ba144bdbc77cce636ece2bea5",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   },
+   {
+    "sorrend": 9,
+    "fajl": "09_termek_KH_Marely_szonyeg_feher_200x300.jpg",
+    "forras": "09_termek_KH_Marely_szonyeg_feher_200x300.jpg",
+    "sha256": "22ca3e185524c63baac6731018edb2a1a0a44af137c69b427a55d5aef57527d6",
+    "pixel_azonos_a_forrassal": true,
+    "c2pa_levalasztva": [
+     "APP11"
+    ]
+   }
+  ],
+  "gate": "KONCEPCIÓ – NEM VALIDÁLT · Gate: ELŐSZŰRT – FELTÉTELES (héj ±1 %; falbútor-magasság és étkezőhely javítandó)",
+  "audit": "ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md"
+ }
+]

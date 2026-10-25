@@ -1,0 +1,14 @@
+00:00.017  color_management | Using OCIO=/Applications/Blender.app/Contents/Resources/5.2/datafiles/colormanagement/config.ocio
+00:00.600  blend            | Read blend: "/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/src_main_v2b1k11b.blend"
+00:09.034  render           | Saved: '/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/kepek/A902_Cam02_alap_ellenorzes_V3TEST.png'
+00:17.611  render           | Saved: '/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/kepek/A902_Cam02_tomeg_S01_V3TEST_v1.png'
+00:23.094  render           | Saved: '/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/kepek/A902_Cam02_tomeg_S02_V3TEST_v1.png'
+00:27.120  render           | Saved: '/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/kepek/A902_Cam02_tomeg_S01_V3TEST_felulnezet_v1.png'
+00:31.117  render           | Saved: '/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_tomeg_cam02_v3test_v1/kepek/A902_Cam02_tomeg_S02_V3TEST_felulnezet_v1.png'
+PASS – 0 hiba, 0 figyelmeztetés; réteg: []
+PASS – 0 hiba, 8 figyelmeztetés; réteg: ['Stil_TOMEG_S01_V3TEST']
+PASS – 0 hiba, 9 figyelmeztetés; réteg: ['Stil_TOMEG_S02_V3TEST']
+KESZ {'ures': 'PASS – 0 hiba, 0 figyelmeztetés; réteg: []', 'tomeg_S01': "PASS – 0 hiba, 8 figyelmeztetés; réteg: ['Stil_TOMEG_S01_V3TEST']", 'tomeg_S02': "PASS – 0 hiba, 9 figyelmeztetés; réteg: ['Stil_TOMEG_S02_V3TEST']"}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

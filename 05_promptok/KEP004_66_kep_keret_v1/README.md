@@ -26,8 +26,8 @@
 ## 2. Futtatási sorrend (adagok és kapuk)
 | Adag | Tartalom | Előfeltétel | Állapot |
 |---|---|---|---|
-| **A0 – geometriajavító próba** | 1 kép: S01 Cam_02, szerkesztő módban. A 1b tömbkép vagy az alapkép a szerkesztett forráskép, a termékfotók másodlagosak. | Péter „mehet” | **javasolt** – a V3-teszt geometriai hibája miatt (10–13,5 %) |
-| **A1** | S01 + S02 Cam_02 V3 | V3.1 (világítás, függöny); az A0 módszere, ha bevált | V3-teszt kész (02:18/02:23), végleges vár |
+| **A0 – geometriajavító próba** | 1 kép: S01 Cam_02, szerkesztő módban. A 1b tömbkép vagy az alapkép a szerkesztett forráskép, a termékfotók másodlagosak. | Péter „mehet” | **javasolt** – a V3-teszt geometriai hibája miatt (10–13,5 %). A V3_TEST (r2) után: az S02 héja ±1 %-on belül, az S01-ben ~+8 % belmagasság, mindkettőn túlméretes falbútor → S01-re továbbra is indokolt (`WSG-20261025-KEP-004_V3_TEST_gate.md`, 8. pont) |
+| **A1** | S01 + S02 Cam_02 V3 | V3.1 (világítás, függöny); az A0 módszere, ha bevált | V3-teszt kész (V3_r1 02:18/02:23; V3_TEST r2 02:35/02:38 – Péter 02:22-es tesztpárja), végleges vár |
 | **A2** | S01 + S02 Cam_12 hero | PR #17 „mehet”; V3.1, benne W02/W07 és konyhafront | vár |
 | **B** | S01 + S02 Cam_03, Cam_04, Cam_11 | A1/A2 Gate PASS-közeli (geometria tűrésen belül) | vár |
 | **C1/C2** | 1–2 további, karakteresen eltérő stílus (javaslat: S04 LA Horizon, S08 Milano Radical) Cam_02, majd Cam_12 | Astra V3 r2: részletes blokk ezekhez (a V3 r1 §5 csak falstratégiát ad) | vár |
@@ -45,6 +45,7 @@
 | `05_promptok/KEP004_ChatGPT_Images_v1/` | 16 prompt (V2 stílusblokk), 2026-10-24 | megőrizve, nem írjuk át |
 | `05_promptok/KEP004_ChatGPT_Images_v2_geometria/` | Cam_02 FRAME LAYOUT blokk (P902_24A) | megőrizve |
 | `05_promptok/KEP004_ChatGPT_Images_V3_teszt/` | S01/S02 Cam_02 V3 próbakép, futtatva | megőrizve |
+| `05_promptok/KEP004_ChatGPT_Images_V3_TEST/` | S01/S02 Cam_02 V3_TEST (r2: javított 1b tömbkép, fizikailag lehetséges tükörkép, pad nélkül, nyílászáró/padló-sor), futtatva | megőrizve |
 | következő: `KEP004_ChatGPT_Images_V3_1/` | V3.1 (LED, függöny, összekötő fal, konyha) + az A0 módszere + Cam_12 FRAME LAYOUT | V3.1 után |
 
 **Összefűzés:**

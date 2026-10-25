@@ -9,6 +9,12 @@
 - Elrendezés megfelel; geometria FAIL (a terasz felőli padlósík 10–13,5 %); `KONCEPCIÓ – NEM VALIDÁLT`.
 - Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md`; bizonyítékok: `_gate_v3teszt/`; manifest: `archiv_manifest_v3teszt.json`.
 
+**Állapot (2026-10-25, 02:39 CEST):** +2 kép a `V3_TEST/` almappában. Ez **Péter 02:22-es döntése szerinti tesztpár**: S01 és S02 Cam_02, r2-csomag, javított 1b tömbkép; Péter „mehet” 01:55 és 02:22; képenként egy generálás. A fenti két `_V3_r1` kép A/B-referencia.
+- **S02:** a héj ±1 %-on belül – ez eddig a legpontosabb kép. A tükör fizikailag lehetséges belső teret mutat. Gate: `ELŐSZŰRT – FELTÉTELES`.
+- **S01:** a belmagasság ~+8 %, ezért geometriai kontrollként FAIL (javítható).
+- **Mindkettő:** a falbútorok magasabbak, az étkező keletebbre került. `KONCEPCIÓ – NEM VALIDÁLT`.
+- Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md`; bizonyítékok: `V3_TEST/_gate_V3TEST/`; manifest: `V3_TEST/archiv_manifest_V3_TEST.json`.
+
 **Mi kerül ide** (lépésenként egy commit):
 - a KEP-004 ChatGPT-ben (normál chat, nem Work) generált képei, kanonikus néven: `<kép-ID>.png`, ismétlésnél `<kép-ID>_v2.png`;
 - mellettük a futtatott prompt: `<kép-ID>.prompt.txt`;

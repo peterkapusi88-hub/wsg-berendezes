@@ -1,0 +1,229 @@
+{
+ "r1": {
+  "S01": {
+   "fajl": "PROMPT_A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_r1.prompt.txt",
+   "sha256": "8a26bfad37d527c41e60c069276552d73d0d0a06a54f46bf05b4425c81f845ce",
+   "karakter": 18957
+  },
+  "S02": {
+   "fajl": "PROMPT_A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_r1.prompt.txt",
+   "sha256": "03966065d536df71ca6a40de0307e221d5b5c73d321066a463315b27416b785f",
+   "karakter": 19275
+  }
+ },
+ "r2": {
+  "S01": {
+   "fajl": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST.prompt.txt",
+   "sha256": "eb4f190841dd4c51033f4d96fcf4f6bb30e72469e4abf9fbb74026df06f8970c",
+   "karakter": 20238
+  },
+  "S02": {
+   "fajl": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST.prompt.txt",
+   "sha256": "aea9d602368f1322e7f84df9d2d9d75c769f856031fd8f09ce29653e92de7f16",
+   "karakter": 21327
+  }
+ },
+ "csere": {
+  "S01": [
+   {
+    "mi": "kép-ID",
+    "regi": "image ID A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_r1",
+    "uj": "image ID A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST"
+   },
+   {
+    "mi": "fejléc: verzió és forrás",
+    "regi": "· prompt version KEP004-CGI-V3TEST-r1 (2026-10-25, compiled by Claude from Astra Creative Upgrade V3 r1 – PR #16, commit be6b1f3 – and the Cam_02 geometry v2; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_V3_teszt/README.md)",
+    "uj": "· prompt version KEP004-CGI-V3TEST-r2 (2026-10-25, compiled by Claude from Astra Creative Upgrade V3 r1 – PR #16, commit be6b1f3 – the Cam_02 geometry v2 and the verified V3 massing; built on package r1, every change listed in 05_promptok/KEP004_ChatGPT_Images_V3_TEST/INTEGRACIO_V3_TEST.md)"
+   },
+   {
+    "mi": "fejléc: jóváhagyás (Péter 02:22, ebben a munkamenetben)",
+    "regi": "RUN AUTHORISATION: the project owner approved exactly one generation of this V3 test image on 2026-10-25 02:06. Generate exactly ONE image.",
+    "uj": "RUN AUTHORISATION: the project owner approved exactly two V3 test generations on 2026-10-25 02:22 – one S01 Kyoto Ink and one S02 BiBo Nocturne image. Generate exactly ONE image."
+   },
+   {
+    "mi": "geometria: nyílászárók, padló, terasz (Péter 02:22: „az eredeti geometriát, nyílászárókat és padlót őrizd meg”; a padnak nincs ellenőrzött helye)",
+    "regi": "W02 (south) and W03 (east) are outside this frame.\n",
+    "uj": "W02 (south) and W03 (east) are outside this frame.\n- Openings and floor: keep the glazing exactly as in image 1 – the same white profiles and their division, the same sill line and door positions, nothing added or widened – and the existing grey-brown oak laminate of image 2 with its 6 cm skirting wherever floor is visible.\n- Terrace: exactly as in images 1 and 2b – the existing porcelain tiles, the raised WPC deck with its steps, the planted green roof and the anthracite railing, including the railing segment in front of the left glass pane. No terrace furniture is shown in this test image.\n"
+   },
+   {
+    "mi": "futtatási jegyzet: jóváhagyás",
+    "regi": "- Owner approval 2026-10-25 02:06: exactly one generation of this V3 test image. It tests the Creative Upgrade V3 wall concept together with the corrected Cam_02 geometry; it is not the final image series.",
+    "uj": "- Owner approval 2026-10-25 02:22: exactly two V3 test generations (S01 and S02), one image each, from package version r2. It tests the Creative Upgrade V3 wall concept together with the corrected Cam_02 geometry; it is not the final image series.\n- Daylight – identical wording in both V3 test prompts (S01 and S02): soft neutral overcast daylight entering through the glass wall, no direct sun or sun patches, all interior lights off; exposure balanced so that the white ceiling keeps its detail and the darkest fronts are not crushed."
+   },
+   {
+    "mi": "stílusblokk-fejléc",
+    "regi": "=== STYLE BLOCK – Astra Creative Upgrade V3 r1, verbatim except the 'Light' paragraph (test version, see its first words) ===",
+    "uj": "=== STYLE BLOCK – Astra Creative Upgrade V3 r1, verbatim except the 'Light' paragraph (test version, see its first words) and the technical integration of the position, terrace-bench, inputs and output lines (Claude, 2026-10-25) ==="
+   },
+   {
+    "mi": "pozíciók: ellenőrizve (Blender v2b-1-k11b, validátor PASS)",
+    "regi": "- Proposed, not yet validated wall positions: KI3-V y=4.35–4.95; KI3-L y=5.15–7.55; KI3-P y=5.05–7.65. Claude must verify these against devices, openings, cabinet-door sweeps and circulation before execution. Do not alter the room if a component conflicts.",
+    "uj": "- Verified wall positions (Claude, 2026-10-25 – Blender v2b-1-k11b, validator PASS, shown in image 1b): KI3-V y=4.35–4.95; KI3-L y=5.15–7.55; KI3-P y=5.05–7.65. Socket D18 stays reachable through the back of the tower's lowest compartment; D16/D17/G08 sit behind the removable service back of KI3-L. Do not alter the room."
+   },
+   {
+    "mi": "kültéri pad: nincs ellenőrzött hely → nem jelenik meg",
+    "regi": "- Retain the already specified KI-O freestanding terrace bench only at the approved position on existing gres, W160×H42×D60 cm, aluminium/outdoor HPL. Do not redesign the terrace planting, railing or level changes.",
+    "uj": "- KI-O terrace bench (W160×H42×D60 cm, aluminium/outdoor HPL): no verified position has been fixed yet, so it is not shown in this image. Do not redesign the terrace planting, railing or level changes."
+   },
+   {
+    "mi": "bemenetek: a ténylegesen csatolt képek",
+    "regi": "Inputs (Claude to assemble): verified Cam_02 base first; updated and approved V3 massing/layout guide as image 1b; actual EL2184 floor and frame/terrace/panorama references; exact retained product photos; selected V3 wallpaper/laminate/graphic samples explicitly labelled as materials only. Do not use the failed S01 render as the geometry or layout input. Do not change the camera to show W02 or the whole dining group.",
+    "uj": "Inputs: exactly the attached images listed at the top – the verified Cam_02 base (image 1), the verified V3 massing guide (image 1b), the actual floor, wall/frame/terrace and panorama photos (images 2–2c) and the retained product photos. No material sample images are attached; follow the material descriptions in words. Do not use the failed S01 render as the geometry or layout input. Do not change the camera to show W02 or the whole dining group."
+   },
+   {
+    "mi": "kimenet: V3_TEST mappa és név",
+    "regi": "Output proposal: 04_renderek/ai_chatgpt/STYLE10_KEP004/CREATIVE_UPGRADE_V3/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_r1.png (+ matching executed .prompt.txt). New destination only; do not overwrite any V2 or first-test image.",
+    "uj": "Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/V3_TEST/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST.png (+ matching executed .prompt.txt). New destination only; do not overwrite any V2 or first-test image."
+   },
+   {
+    "mi": "futtatási jegyzet: 1b tömbkép (KI3-P egy befoglaló)",
+    "regi": "the Blender check found no collision with walls, openings or door swings and no covered switch.",
+    "uj": "the Blender check found no collision with walls, openings or door swings and no covered switch. In image 1b the KI3-P field is drawn as one 260 × 190 cm envelope; how its two overlapping planes are divided follows the style block."
+   }
+  ],
+  "S02": [
+   {
+    "mi": "kép-ID",
+    "regi": "image ID A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_r1",
+    "uj": "image ID A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST"
+   },
+   {
+    "mi": "fejléc: verzió és forrás",
+    "regi": "· prompt version KEP004-CGI-V3TEST-r1 (2026-10-25, compiled by Claude from Astra Creative Upgrade V3 r1 – PR #16, commit be6b1f3 – and the Cam_02 geometry v2; sources and checksums in 05_promptok/KEP004_ChatGPT_Images_V3_teszt/README.md)",
+    "uj": "· prompt version KEP004-CGI-V3TEST-r2 (2026-10-25, compiled by Claude from Astra Creative Upgrade V3 r1 – PR #16, commit be6b1f3 – the Cam_02 geometry v2 and the verified V3 massing; built on package r1, every change listed in 05_promptok/KEP004_ChatGPT_Images_V3_TEST/INTEGRACIO_V3_TEST.md)"
+   },
+   {
+    "mi": "fejléc: jóváhagyás (Péter 02:22, ebben a munkamenetben)",
+    "regi": "RUN AUTHORISATION: the project owner approved exactly one generation of this V3 test image on 2026-10-25 02:06. Generate exactly ONE image.",
+    "uj": "RUN AUTHORISATION: the project owner approved exactly two V3 test generations on 2026-10-25 02:22 – one S01 Kyoto Ink and one S02 BiBo Nocturne image. Generate exactly ONE image."
+   },
+   {
+    "mi": "geometria: nyílászárók, padló, terasz (Péter 02:22: „az eredeti geometriát, nyílászárókat és padlót őrizd meg”; a padnak nincs ellenőrzött helye)",
+    "regi": "W02 (south) and W03 (east) are outside this frame.\n",
+    "uj": "W02 (south) and W03 (east) are outside this frame.\n- Openings and floor: keep the glazing exactly as in image 1 – the same white profiles and their division, the same sill line and door positions, nothing added or widened – and the existing grey-brown oak laminate of image 2 with its 6 cm skirting wherever floor is visible.\n- Terrace: exactly as in images 1 and 2b – the existing porcelain tiles, the raised WPC deck with its steps, the planted green roof and the anthracite railing, including the railing segment in front of the left glass pane. No terrace furniture is shown in this test image.\n"
+   },
+   {
+    "mi": "futtatási jegyzet: jóváhagyás",
+    "regi": "- Owner approval 2026-10-25 02:06: exactly one generation of this V3 test image. It tests the Creative Upgrade V3 wall concept together with the corrected Cam_02 geometry; it is not the final image series.",
+    "uj": "- Owner approval 2026-10-25 02:22: exactly two V3 test generations (S01 and S02), one image each, from package version r2. It tests the Creative Upgrade V3 wall concept together with the corrected Cam_02 geometry; it is not the final image series.\n- Daylight – identical wording in both V3 test prompts (S01 and S02): soft neutral overcast daylight entering through the glass wall, no direct sun or sun patches, all interior lights off; exposure balanced so that the white ceiling keeps its detail and the darkest fronts are not crushed."
+   },
+   {
+    "mi": "stílusblokk-fejléc",
+    "regi": "=== STYLE BLOCK – Astra Creative Upgrade V3 r1, verbatim except the 'Light' paragraph (test version, see its first words) ===",
+    "uj": "=== STYLE BLOCK – Astra Creative Upgrade V3 r1, verbatim except the 'Light' paragraph (test version, see its first words) and the technical integration of the mirror, position, terrace-bench, inputs and output lines (Claude, 2026-10-25) ==="
+   },
+   {
+    "mi": "geometria: a BN3-V két oszlopa a képen (tükör a TV-panel felőli oldalon)",
+    "regi": "the asymmetrical tall cabinet BN3-V (90 × 220 cm: one door column and one fixed mirror column) stands at the far left and is cut by the left frame edge (about 0–18 % of the width, 23–84 % of the height);",
+    "uj": "the asymmetrical tall cabinet BN3-V (90 × 220 cm) stands at the far left and is cut by the left frame edge (about 0–18 % of the width, 23–84 % of the height): its outer opening door column is at about 0–10 % of the width, its fixed mirror column, next to the TV wall panel, at about 10–17 % of the width and 25–71 % of the height, with a low closed service panel below the mirror;"
+   },
+   {
+    "mi": "tükör: csak fizikailag lehetséges visszaverődés (Péter 02:22)",
+    "regi": "Let the mirror reflect only real visible architecture and the actual exterior view.",
+    "uj": "The mirror shows only what it can physically reflect from this camera position: the room behind and to the right of the camera – parts of the navy sofa, the beige dining chairs and the glass table edge, the white east wall, the ceiling and the edge of a light-grey interior door – in correct mirror perspective; never the exterior view, the skyline, a window or the camera."
+   },
+   {
+    "mi": "BN3-V: melyik oszlop nyílik, melyik a fix tükörmező",
+    "regi": "One 45 cm-wide storage column with vertically divided opening fronts, plus one 45 cm-wide fixed mirror/service field.",
+    "uj": "One 45 cm-wide storage column with vertically divided opening fronts (the outer, left column in this view), plus one 45 cm-wide fixed mirror/service field (the column next to the TV wall panel, with a low closed service panel below the mirror)."
+   },
+   {
+    "mi": "pozíciók: ellenőrizve (Blender v2b-1-k11b, validátor PASS)",
+    "regi": "- Proposed positions, to be verified by Claude: tall cabinet y=4.25–5.15; low cabinet and background y=5.25–7.65 on the actual west wall.",
+    "uj": "- Verified positions (Claude, 2026-10-25 – Blender v2b-1-k11b, validator PASS, shown in image 1b): tall cabinet y=4.25–5.15; low cabinet and background y=5.25–7.65 on the actual west wall."
+   },
+   {
+    "mi": "kültéri pad: nincs ellenőrzött hely → nem jelenik meg; a karfatálca marad",
+    "regi": "- Retain BN-O freestanding outdoor bench W150×H42×D60 cm on its approved existing gres location, aluminium/outdoor HPL with navy outdoor textile, and the W25×D35 cm removable arm tray. Do not add another central object or change the terrace.",
+    "uj": "- BN-O outdoor bench (W150×H42×D60 cm, aluminium/outdoor HPL with navy outdoor textile): no verified position has been fixed yet, so it is not shown in this image. Keep the W25×D35 cm removable arm tray on the sofa arm. Do not add another central object or change the terrace."
+   },
+   {
+    "mi": "bemenetek: a ténylegesen csatolt képek",
+    "regi": "Inputs (Claude to assemble): verified Cam_02 base and updated, approved V3 massing/layout guide as image 1b; actual floor/frame/terrace/panorama photos; exact U, Anouk, Ciselia, Marely and updated Brisia reference photos; the selected V3 silver-grey wallpaper, navy front and mirror samples identified as materials only. Actual geometry overrides all mood references. No failed render as layout evidence and no camera shift to display additional walls.",
+    "uj": "Inputs: exactly the attached images listed at the top – the verified Cam_02 base (image 1), the verified V3 massing guide (image 1b), the actual floor, wall/frame/terrace and panorama photos (images 2–2c) and the U, Anouk, Ciselia and Marely product photos. The Brisia pendant photo and material sample images are not attached (the pendant is outside this frame; samples are not selected yet). Actual geometry overrides all mood references. No failed render as layout evidence and no camera shift to display additional walls."
+   },
+   {
+    "mi": "kimenet: V3_TEST mappa és név",
+    "regi": "Output proposal: 04_renderek/ai_chatgpt/STYLE10_KEP004/CREATIVE_UPGRADE_V3/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_r1.png (+ matching executed .prompt.txt). New destination only; no overwriting of earlier image packages.",
+    "uj": "Output: 04_renderek/ai_chatgpt/STYLE10_KEP004/V3_TEST/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST.png (+ matching executed .prompt.txt). New destination only; no overwriting of earlier image packages."
+   },
+   {
+    "mi": "futtatási jegyzet: 1b tömbkép (tükörmező, szervizlap)",
+    "regi": "the Blender check found no collision with walls, openings or door swings and no covered switch.",
+    "uj": "the Blender check found no collision with walls, openings or door swings and no covered switch. In image 1b the lighter grey field in the tall cabinet is the fixed mirror column next to the TV wall panel, the darker outer column is the opening door column, and the low dark block under the mirror is a closed service panel."
+   }
+  ]
+ },
+ "ellenorzes": {
+  "S01": {
+   "hibak": [],
+   "tiltott_lista": [
+    "02:06",
+    "approved position",
+    "approved existing gres",
+    "Claude must verify",
+    "to be verified by Claude",
+    "Proposed, not yet validated",
+    "Inputs (Claude to assemble)",
+    "Output proposal",
+    "CREATIVE_UPGRADE_V3/",
+    "_V3_r1",
+    "KEP004-CGI-V3TEST-r1",
+    "architecture and the actual exterior view",
+    "painted white, smooth",
+    "Retain the already specified",
+    "Retain BN-O",
+    "selected V3",
+    "keep the upper wall mostly empty"
+   ],
+   "kotelezo_lista": [
+    "KEP004-CGI-V3TEST-r2",
+    "02:22",
+    "image ID A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST",
+    "Creative Upgrade V3 surface exception",
+    "OWNER REQUIREMENT – lighting",
+    "No terrace furniture is shown",
+    "not shown in this image",
+    "Verified wall positions",
+    "V3_TEST/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_TEST.png",
+    "Daylight – identical wording in both V3 test prompts"
+   ]
+  },
+  "S02": {
+   "hibak": [],
+   "tiltott_lista": [
+    "02:06",
+    "approved position",
+    "approved existing gres",
+    "Claude must verify",
+    "to be verified by Claude",
+    "Proposed, not yet validated",
+    "Inputs (Claude to assemble)",
+    "Output proposal",
+    "CREATIVE_UPGRADE_V3/",
+    "_V3_r1",
+    "KEP004-CGI-V3TEST-r1",
+    "architecture and the actual exterior view",
+    "painted white, smooth",
+    "Retain the already specified",
+    "Retain BN-O",
+    "selected V3",
+    "keep the upper wall mostly empty"
+   ],
+   "kotelezo_lista": [
+    "KEP004-CGI-V3TEST-r2",
+    "02:22",
+    "image ID A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST",
+    "Creative Upgrade V3 surface exception",
+    "OWNER REQUIREMENT – lighting",
+    "No terrace furniture is shown",
+    "not shown in this image",
+    "Verified positions",
+    "V3_TEST/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_TEST.png",
+    "Daylight – identical wording in both V3 test prompts",
+    "what it can physically reflect",
+    "never the exterior view"
+   ]
+  }
+ }
+}

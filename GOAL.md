@@ -259,6 +259,34 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - a konyhabútor (nincs gyári) stílusonként a V3.1-ben.
   - V3.1-bemenet (látható falszakaszok, összekötő fal, LED-keret kiállásokkal): `ai-coordination/requests/WSG-20261025-ASTRA-V3_1_INPUT_Cam12_falak_vilagitas.md`.
   - 66 képes keret (regiszter, adagok, átvétel v2, ellenőrzőlista): `05_promptok/KEP004_66_kep_keret_v1/`.
+- *(2026-10-25 01:55 és 02:22 CEST, Péter – eldöntve)* **V3 Cam_02 tesztpár: a felelős a második Claude-munkamenet („1. opció”).**
+  - **01:55:** azonnali képteszt S01 + S02 Cam_02. Előtte:
+    - a V3-blokkokat egyesíteni kell a geometria v2-vel, a tömbreferenciával, a FIXED/Hue szabályokkal, a helyszíni és a termékfotókkal;
+    - a V3 TV-szekrényei és magas tárolói a régi tömböktől eltérő méretűek – ezt ellenőrizni kell;
+    - a falfelület-kivétel legyen pontos;
+    - „ne generáljunk ismét geometriailag hibás képet”;
+    - azonos nappali fény; új mappa, felülírás nélkül.
+  - **02:22:**
+    - a másik munkamenet csomagja felhasználható; a két javított tömbkép és a PASS validátor az alap;
+    - a BiBo-tükör csak fizikailag lehetséges képet mutathat; a pad ellenőrzött hely nélkül nem jelenik meg;
+    - **MEHET pontosan két generálás, egy-egy kép**; a V3.1 LED-et nem kell megvárni;
+    - „Ne indíts további képeket.”
+- *(2026-10-25 02:39 CEST, Claude – eredmény)* **A két V3_TEST kép elkészült** (r2-csomag, képenként egy generálás).
+  - Archív: `04_renderek/ai_chatgpt/STYLE10_KEP004/V3_TEST/`. Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md`.
+  - **S02:** a héj ±1 %-on belül, ez eddig a legpontosabb kép; a tükör belső teret mutat → `ELŐSZŰRT – FELTÉTELES`.
+  - **S01:** a belmagasság ~+8 % → geometriai kontrollként FAIL (javítható).
+  - Mindkettő `KONCEPCIÓ – NEM VALIDÁLT`.
+  - **Mindkettőn:**
+    - a falbútorok magasabbak: a magas szekrény ≈2,45 m, az alsó ≈0,65 m, a TV ~72–75″;
+    - az étkező ≈0,3–0,4 m-rel keletebbre került, így a kép tágasabbnak mutatja a 0,36–0,38 m-es kanapé–szék távolságot.
+  - **Kreatív (Claude, 1–10), V2 → S01 V3_TEST → S02 V3_TEST:** prémium 5 → 7 → 8, WOW 4 → 6 → 7,5.
+  - A másik munkamenet két `_V3_r1` képe (02:18/02:23, Péter 02:06) A/B-referencia.
+  - **Döntésre:**
+    - BN3-V: festett MDF vagy navy laminált (az 5. pont szerint „nincs festett front”);
+    - a kanapé–szék távolság: kerüljön-e az étkező 0,15 m-rel keletre;
+    - fő vagy gazdaságos anyagváltozat, a 18 M-es egyeztetéssel (Claude független árellenőrzése még hátravan);
+    - a PR #16 beolvasztása;
+    - a geometriajavítás módja: magassági megkötések a V3.1-ben + az A0 szerkesztő módú próba.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -336,3 +364,7 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
   - **2026-10-25 03:00 – a hero kamera javaslata draft PR #17-ben** (Cam_12 v2, ÉNy-i sarok, 22 mm). V3.1-bemenet és 66 képes keret a main-en.
     - Következő adag-javaslat: **A0** – egy geometriajavító próbakép szerkesztő módban (S01 Cam_02), Péter „mehet”-jével.
     - Utána V3.1 után **A1/A2**: S01/S02 Cam_02 végleges + S01/S02 Cam_12 hero.
+  - **2026-10-25 02:39 CEST – a V3_TEST tesztpár (Péter 02:22-es döntése, a második munkamenet).**
+    - S01 és S02 Cam_02, r2-csomag: javított 1b tömbkép, fizikailag lehetséges tükörkép, pad nélkül; képenként egy generálás.
+    - **S02:** héj ±1 % → `ELŐSZŰRT – FELTÉTELES`. **S01:** belmagasság ~+8 % → FAIL. A falbútorok magasabbak, az étkező keletebbre került.
+    - Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3_TEST_gate.md`. Prompt és integráció: `05_promptok/KEP004_ChatGPT_Images_V3_TEST/`.
