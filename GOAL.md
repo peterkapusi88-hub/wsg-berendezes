@@ -491,6 +491,11 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Nem történt:** képgenerálás, versenyzői futás, PR-merge.
   - **Péter döntése kell:** PR #19 „mehet” (a baseline-ban már benne van, a mainhez kell); a §0 v2 beillesztése a három promptba; az Astra V3.1-futás állapota a Workben.
 
+- *(2026-10-25 06:30 CET, Claude – eredmény)* **Verseny-baseline v2 és a PR #19 ↔ PR #20 konzisztencia (Péter 04:39 kérése).**
+  - **Végleges közös forrásállapot:** ág `competition/baseline-20261025-v2`, **rögzített commit `a8ab8d3360f9e762a445bb90416aaa4701278bfb`** = main `bc92d44` (Péter 04:39-es döntéseivel) + PR #20 kameracsomag C (végleges C, Cam_03 K1, Cam_12 v3, validátor PASS; tartalmazza a #17 és #18 tartalmát; JAVASLAT, merge nincs) + PR #19 (közös bemenetek, draft). A mainbe semmi nincs beolvasztva, az élő Blender érintetlen. A versenyzők ága ebből indul, draft PR-jük célága a baseline ág. Leírás: `BASELINE_VERSENY_20261025.md` az ágon. **Az első baseline (`competition/baseline-20261025` @ `32ba7bd`, #17/#18 alapú) ELAVULT** – nem indult belőle versenyző, törölhető.
+  - **Konzisztencia PR #19 ↔ PR #20:** a §0.1 a PR #20 `GEOMETRIA_C_KAMERACSOMAG_v1.md`-re mutat (160 × 90 asztalhely x 8,00–8,90 / y 5,40–7,00, 2+2+1+1, ML04 0,12 m; kanapéháttámla ≤ x 6,67 L / 6,60 U); **az Anouk 180 kivéve** (Péter 04:39: nem elfogadható); Cam_12 v3 és a TV-fal északi végének kamerakorlátja Péter értelmezésével („nem kreatív korlát”, alternatív hero kamera vizsgálható); teraszajtó feltételes (5+1 jelölt kompromisszum). A kerek-asztal méretpróba a PR #18 motorjával, függönysáv nélkül készült – a PR #20 szabályaival újrafuttatandó. Ellentmondás nem maradt.
+  - **Preflight v2 – INDÍTHATÓ** a §0 v2 beillesztésével és a tíz szövegcserével (forráscommit → `a8ab8d3…`). Kép, versenyzői futás, merge nem történt.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
