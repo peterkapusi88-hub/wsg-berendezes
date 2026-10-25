@@ -11,5 +11,7 @@ WHAT THE STYLE ADDS (only this). Above the basin a rectangular mirror 60 cm wide
 
 LIGHT. Artificial light only from the existing points: the black wall light and the ceiling fitting (IP44 with a Hue bulb), warm white about 2700 K; no window, no daylight. Even exposure: tile pattern, hexagon relief and grout readable; the mirror reflects only the doorway and the opposite tiled wall.
 
+POWER AND ACCESS. The bathroom sockets beside the mirror stay visible and free; the towel ladder leans on the tiles without covering them. The black wall light is the only fitting on the existing wall point; nothing hangs inside the shower.
+
 REALITY RULES. Keep every tile, kerb, drain, fitting, basin and radiator exactly as built. Avoid these proven errors: a window or daylight; a glass shower screen; new tiles or mosaic; a floor-to-ceiling mirror; a physically impossible reflection; moved or enlarged sanitaryware; a wall niche. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S06_ZenitAtelier_4_furdo-06-2_Cam_10_A ===

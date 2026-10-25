@@ -11,5 +11,7 @@ WHAT THE STYLE ADDS (only this). Above the basin a vertical "pill" mirror, 60 cm
 
 LIGHT. Artificial light only: the mirror halo and the existing ceiling point with an IP44 opal flush fitting and a Hue bulb, both warm white about 2700 K; no window, no daylight. Even exposure: tiles, hexagon relief and grout lines readable; the mirror reflects only the doorway and the opposite tiled wall.
 
+POWER AND ACCESS. The mirror halo is powered from the existing bathroom socket beside the mirror through a concealed cable behind the mirror's stand-off; the socket itself stays accessible. Nothing hangs inside the shower; the kerb and drain stay free.
+
 REALITY RULES. Keep every tile, kerb, drain, fitting, basin and radiator exactly as built. Avoid these proven errors: a window or daylight; a glass shower screen; new tiles, mosaic or a re-tiled wall; a floor-to-ceiling mirror; a physically impossible reflection; moved or enlarged sanitaryware; a wall niche; visible LED dots. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S02_BiBoNocturne_4_furdo-06-2_Cam_10_A ===

@@ -11,5 +11,7 @@ WHAT THE STYLE ADDS (only this). Above the basin a mirror with a stepped outline
 
 LIGHT. Artificial light only from the existing points: the ceramic wall light and the ceiling fitting (IP44 with a Hue bulb), warm white about 2700 K; no window, no daylight. Even exposure: tile pattern, hexagon relief and grout readable; the mirror reflects only the doorway and the opposite tiled wall.
 
+POWER AND ACCESS. The bathroom sockets beside the mirror stay visible and free; the ceramic wall light is the only fitting on the existing wall point, above the taller mirror. The cane basket stands outside the wet zone; the shower kerb and drain stay free.
+
 REALITY RULES. Keep every tile, kerb, drain, fitting, basin and radiator exactly as built. Avoid these proven errors: a window or daylight; a glass shower screen; terracotta or new tiles; a floor-to-ceiling mirror; a physically impossible reflection; moved or enlarged sanitaryware; a wall niche. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S10_DesertModern70_4_furdo-06-2_Cam_10_A ===

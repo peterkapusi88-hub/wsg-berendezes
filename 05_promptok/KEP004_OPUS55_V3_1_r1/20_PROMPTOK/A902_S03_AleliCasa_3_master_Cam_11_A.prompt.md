@@ -13,5 +13,7 @@ LIGHT. Daytime, neutral soft light from the west glazing, no direct sun on the f
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The olive linen inset of the central wardrobe doors sits under an arch-shaped walnut-effect edge, 2 mm proud, its weave visible in the daylight; the other doors are plain walnut-effect laminate with continuous grain. At the top of the frame the ceiling point ML06 carries a woven rattan fitting (E27 Hue), unlit. Raw linen, cocoa and olive repeat softly; nothing terracotta-orange competes with the view.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional view, sea or cypress landscape; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash; a wardrobe not reaching the ceiling. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S03_AleliCasa_3_master_Cam_11_A ===

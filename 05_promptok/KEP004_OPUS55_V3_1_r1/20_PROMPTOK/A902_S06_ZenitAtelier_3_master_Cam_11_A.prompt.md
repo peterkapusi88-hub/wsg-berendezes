@@ -13,5 +13,7 @@ LIGHT. Daytime, soft neutral light from the west, no sun patches; frames, railin
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The smoked walnut-effect doors show a continuous vertical grain across joints of 3 mm; the bronze-mirror pair in the centre is set flush in the same plane, framed by a 1 cm black edge. At the top of the frame the ceiling point ML06 carries a black metal globe fitting (E27 Hue), unlit. Mustard and taupe on the bed are the only colour; walls not treated in this room stay white.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a mirror showing the window as a second window; a fictional skyline; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S06_ZenitAtelier_3_master_Cam_11_A ===

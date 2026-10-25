@@ -11,5 +11,7 @@ WHAT THE STYLE ADDS (only this). Above the basin a rectangular mirror 60 cm wide
 
 LIGHT. Artificial light only, from the existing points: the ceiling fitting at the existing ceiling point (an IP44 white flush fitting with a GU10 Hue bulb) and the opal wall light above the mirror, both warm white about 2700 K; no window, no daylight, no light from inside the shower walls. Soft, even exposure: the tile pattern, the hexagon relief and the grout lines stay readable; the mirror reflects only what is physically in front of it – the doorway and the opposite tiled wall.
 
+POWER AND ACCESS. The bathroom sockets beside the mirror stay visible and free; the wall light is the only fitting on the existing wall point, the ceiling fitting the only one on the ceiling point. Nothing hangs inside the shower; the shower kerb and drain stay free.
+
 REALITY RULES. Keep every tile, kerb, drain, fitting, the basin and the radiator exactly as built. Avoid these proven errors: a window, skylight or daylight; a glass shower screen; new or different tiles, mosaic or a re-tiled wall; a floor-to-ceiling mirror; a mirror reflection that is physically impossible; moved sanitaryware or a larger basin; a niche cut into the wall. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A ===

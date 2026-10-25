@@ -13,5 +13,7 @@ LIGHT. Daytime, neutral soft light from the west, no sun patches on the floor; f
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The 10 mm horizontal grooves of the walnut-effect wardrobe fronts line up across every door and continue at the same heights on the south strip – the horizon grid of the living room repeated in the bedroom. At the top of the frame the ceiling point ML06 carries a flat brushed-bronze fitting (E27 Hue), unlit. The camel throw and one rust cushion are the only warm accents against the pearl-grey and white bed.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional skyline, ocean or palms; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash; a wardrobe not reaching the ceiling. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S04_LAHorizon_3_master_Cam_11_A ===

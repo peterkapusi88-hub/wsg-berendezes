@@ -13,5 +13,7 @@ LIGHT. Daytime, soft neutral light from the west, no sun patches; whites stay wh
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. Each ivory door is wrapped in a fine textile-effect vinyl and edged by a 1 cm champagne-coloured metal frame; push-to-open, no handles, joints 3 mm. At the top of the frame the ceiling point ML06 carries an opal glass globe fitting (E27 Hue), unlit. The palette stays luminous – white, ivory, pearl grey – with the bouclé pouf as the only texture accent.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional lake, forest or skyline; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash; a wardrobe not reaching the ceiling. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S07_LakeForestCouture_3_master_Cam_11_A ===

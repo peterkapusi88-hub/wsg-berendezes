@@ -13,5 +13,7 @@ LIGHT. Daytime, soft neutral light from the west, no sun patches; frames, railin
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The white BERGSBO doors show their factory-made raised frames and small round brushed-brass knobs at a consistent height; above them a flush white cover panel closes the wardrobe to the ceiling. At the top of the frame the ceiling point ML06 carries an opal glass fitting (E27 Hue), unlit. Plum, ivory and a single rose keep the Parisian tone personal rather than decorative.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional Paris skyline or Eiffel Tower; a changed glass division; ceiling-mounted curtains; a herringbone floor; a floor lighter or cooler than the real one; furniture blocking the opening sash. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S09_ParisCollector_3_master_Cam_11_A ===

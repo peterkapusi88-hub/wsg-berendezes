@@ -11,5 +11,7 @@ WHAT THE STYLE ADDS (only this). Above the basin two rectangular mirrors in thin
 
 LIGHT. Artificial light only from the existing points: the cylinder wall light and the ceiling fitting (IP44 with a Hue bulb), warm white about 2700 K; no window, no daylight. Even exposure: tile pattern, hexagon relief and grout readable; each mirror reflects only the doorway and the opposite tiled wall from its own angle.
 
+POWER AND ACCESS. The bathroom sockets beside the mirrors stay visible and free; the cylinder wall light is the only fitting on the existing wall point. The wire basket stands outside the wet zone; the shower kerb and drain stay free.
+
 REALITY RULES. Keep every tile, kerb, drain, fitting, basin and radiator exactly as built. Avoid these proven errors: a window or daylight; a glass shower screen; new or yellow tiles; a floor-to-ceiling mirror; a physically impossible reflection; moved or enlarged sanitaryware; a wall niche. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S08_MilanoRadical_4_furdo-06-2_Cam_10_A ===

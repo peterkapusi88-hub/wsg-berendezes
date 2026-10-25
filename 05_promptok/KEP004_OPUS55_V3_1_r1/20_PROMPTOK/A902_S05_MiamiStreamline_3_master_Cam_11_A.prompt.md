@@ -13,5 +13,7 @@ LIGHT. Daytime, soft neutral light from the west, no sun patches; frames, railin
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The three champagne-inlaid speed-line grooves at 0.95 m run uninterrupted across all chalk-white doors; the porthole mirror sits flush in its door, its 1 cm champagne ring frame catching the daylight. At the top of the frame the ceiling point ML06 carries the Westwing Clouds linen pendant (E27 Hue), unlit. Dusty pink, champagne and one turquoise pouf keep the Miami palette soft in daylight.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a mirror showing the camera's own window view as a second window; a fictional sea or palms; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S05_MiamiStreamline_3_master_Cam_11_A ===

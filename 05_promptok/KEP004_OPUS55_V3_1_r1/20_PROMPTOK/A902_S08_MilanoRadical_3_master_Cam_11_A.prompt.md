@@ -13,5 +13,7 @@ LIGHT. Daytime, soft neutral light from the west, no sun patches; frames, railin
 
 EXISTING SURFACES. The existing medium grey-brown oak-look floor with strong grain and 6 cm skirting exactly as in the site photo; white window frames inside; switches and sockets visible.
 
+DETAIL AND LIGHT FITTINGS. The graphite reveal grid of 4 mm frames each chalk door; the single narrow mustard door sits in the middle of the north wall as the only colour plane in this view. At the top of the frame the ceiling point ML06 carries the Westwing Clouds linen pendant (E27 Hue), unlit. Black metal, white linen and graphite keep the composition graphic and calm.
+
 REALITY RULES. Keep image 1's glass division, balcony, railing and real view, walls, niche and pillar. Avoid these proven errors: a fictional skyline; a changed glass division; ceiling-mounted curtains; a floor lighter or cooler than the real one; furniture blocking the opening sash; a wardrobe not reaching the ceiling. Status: CONCEPT – NOT VALIDATED.
 === END PROMPT A902_S08_MilanoRadical_3_master_Cam_11_A ===

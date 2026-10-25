@@ -11,7 +11,7 @@ THE LIMEWASH WALK – W02 + W07 AS ONE COMPOSITION. W02 and the whole corridor t
 
 DOOR 05.3 – W03. Door, frame and black handle unchanged; on both sides and above it the limewash wallcovering; a slim 6 cm walnut-effect ledge runs above the door head.
 
-KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with custom sage-olive matt laminate fronts, walnut-effect laminate worktop (IKEA EKBACKEN brown walnut effect), a cream compact-laminate splashback, one open walnut-effect shelf on the east wall with green and ochre glazed bowls; no wall cabinets; the fridge column in the same olive fronts up to the kitchen soffit.
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses with IKEA NICKEBO matt grey-green fronts (a soft sage-olive), walnut-effect laminate worktop (IKEA EKBACKEN brown walnut effect), a cream compact-laminate splashback, one open walnut-effect shelf on the east wall with green and ochre glazed bowls; no wall cabinets; the fridge column in the same olive fronts up to the kitchen soffit.
 
 LIGHT. Daytime, soft bright north light from the glazing behind the camera, no sun patches; the limewash texture, linen weave and ceramic glazes read in detail; warm neutral white balance. Hue fittings off or barely glowing.
 

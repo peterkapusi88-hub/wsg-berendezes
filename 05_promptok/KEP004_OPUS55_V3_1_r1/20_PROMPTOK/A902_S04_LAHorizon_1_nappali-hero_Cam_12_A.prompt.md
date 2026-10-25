@@ -11,7 +11,7 @@ THE HORIZON WALK – W02 + W07. Both W02 and the corridor throat (return, pillar
 
 DOOR 05.3 – W03. Door, frame and black handle unchanged; above it a flush walnut-effect panel from the door head to the ceiling; on both sides the sand wallcovering, the walnut band ending neatly at the door frame.
 
-KITCHEN (shown identically in Cam_03). IKEA METOD carcasses; base units with IKEA VOXTORP dark walnut-effect fronts; the tall oven-and-microwave wall and the fridge column in cream matt fronts up to the kitchen soffit; worktop in light-grey stone-effect laminate; splashback in tobacco-bronze back-painted safety glass; no wall cabinets.
+KITCHEN (shown identically in Cam_03). IKEA METOD carcasses; base units with custom dark walnut-effect laminate fronts (Egger Carini walnut family); the tall oven-and-microwave wall and the fridge column in cream matt fronts up to the kitchen soffit; worktop in light-grey stone-effect laminate; splashback in tobacco-bronze back-painted safety glass; no wall cabinets.
 
 LIGHT. Daytime: bright, soft north light from the glazing behind the camera, no sun patches; the linen texture and walnut grain read in detail; warm neutral white balance. Hue fittings off or barely on.
 
