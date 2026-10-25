@@ -30,23 +30,42 @@ versenyzőnek azonos kiegészítések; olvasd el, mielőtt tervezel):
   használható ülőhely; az ülőcsoporttal együtt ellenőrzött közlekedés és
   székkihúzás; a konyha, a teraszajtó és a folyosó megközelíthető; az ML04
   függeszték lehetőleg az asztal közepe fölött; a TV-falnak a lehető legtöbb
-  geometriai szabadság marad; teljes bekerülés a 18 M-on belül. Igazolt
-  változatok (Claude méretpróba): téglalap/ovális C 2+2+1+1 – Toni 160 × 90 az
-  S01 Lennon L-lel (180 mély), Anouk 180 × 90 az S02 JÄTTEBO U-val (160
-  mély), ML04 0,10 m, 60 cm-es TV-szekrény mindkettővel; KEREK, hat szék
-  körben (ai-coordination/results/WSG-20261025-A902-ELRENDEZES-C-KEREK-ASZTAL_r1.md):
-  Ø120–Ø130 mindkét kanapéval, de csak legfeljebb 40 cm mély TV-bútorsávval
-  (ML04 0,13–0,25); 60 cm-es TV-szekrénnyel kerek asztal csak a 160 mély
-  U-kanapéval; Ø140 csak U-val; Ø150 (Kave Home Nealy) a C-ben NEM ajánlott.
-  Minden asztalhoz gyártó, cikkszám, méret, ár, forrás; minden új változat
-  (más méret, forma, kanapémélység) külön méretpróbát kap Claude-tól, a C
-  megfelelősége nem vihető át automatikusan – igazolásig a státusz
-  „elrendezésben ellenőrizendő”. Koordinátát nem találsz ki.
+  geometriai szabadság marad; teljes bekerülés a 18 M-on belül. A kötött
+  geometriai alap a PR #20 közös bemenete:
+  ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v1.md – a
+  jóváhagyott geometriai alapváltozat a 160 × 90-es hosszanti asztalhely
+  (x 8,00–8,90; y 5,40–7,00; 2+2+1+1; az ML04 0,12 m-re a közepétől), a
+  kanapé háttámlája legfeljebb x 6,67 (L) / 6,60 (U), kanapé–TV-bútor
+  ≥ 0,60 m. Igazolt asztal: Westwing Toni 160 × 90 az S01 Lennon L-lel. Az
+  S02 Anouk 180 × 90 NEM elfogadott (a függönysávval 0,78 m-es kihúzás,
+  Péter 04:39): U-kanapés stílusban is ténylegesen hatszemélyes, a 160-as
+  helyre illeszkedő vagy külön igazolt asztal kell. KEREK, hat szék körben
+  (ai-coordination/results/WSG-20261025-A902-ELRENDEZES-C-KEREK-ASZTAL_r1.md,
+  a PR #18 motorjával, függönysáv nélkül – a PR #20 szabályaival
+  újrafuttatandó): Ø120–Ø130 mindkét kanapéval, de csak legfeljebb 40 cm
+  mély TV-bútorsávval (ML04 0,13–0,25); 60 cm-es TV-szekrénnyel kerek
+  asztal csak a 160 mély U-kanapéval; Ø140 csak U-val; Ø150 (Kave Home
+  Nealy) a C-ben NEM ajánlott. Minden asztalhoz gyártó, cikkszám, méret,
+  ár, forrás; minden új változat (más méret, forma, kanapémélység) külön
+  Blender-méretpróbát kap Claude-tól, a C megfelelősége nem vihető át
+  automatikusan – igazolásig a státusz „elrendezésben ellenőrizendő”.
+  Teraszajtó: feltételes – a hétfői helyszíni ellenőrzésig a hat ülőhely és
+  a terasz egyidejű használata nem igazolt; ha csak a legkeletibb szárny
+  nyílik, az északi végszék pótszék (5+1, külön jelölt kompromisszum).
+  Koordinátát nem találsz ki.
 - CAM_03: a konyhaorientált K1 kamera ([9,45; 7,55; 1,50], dél felé, 20 mm;
   konyha a kép ~22 %-a) – a konyha két pultsora, hűtőoszlopa és magas elemfala
   a kép tárgya, elöl az étkező széle és az ML04 függeszték; a terasz és a TV-fal
-  nem látszik. A végleges FRAME LAYOUT-ot Claude adja; a kompozíciót a látható
-  elemek hierarchiájaként írd le.
+  nem látszik. CAM_12 v3 (PR #20, Péter 04:39): [4,40; 7,88; 1,60], −48°,
+  22 mm – a közös hero- és összehasonlító kamera; előtérben a kanapé eleje
+  (a kép 16–23 %-a), az étkező az ML04-gyel, a konyha, a W03 a 05.3 ajtóval,
+  a W02 és a W07; a TV-fal és a terasz nem látszik. A kamera nem kreatív
+  korlát: a TV-fal északi végén (y 7,65–8,05) a mennyezetig érő szekrény
+  tilalma csak kamerahelyből ered – ha oda erős, kivitelezhető kompozíciót
+  tervezel, írd le, Claude alternatív hero kamerát vizsgál, és bemutatja a
+  kompromisszumot; az enteriőrt a kép kedvéért nem butítjuk le. A végleges
+  FRAME LAYOUT-okat Claude adja; a kompozíciót a látható elemek
+  hierarchiájaként írd le.
 - KÖLTSÉG: ai-coordination/inputs/A902_verseny/KOZOS_FIX_ALAP_v1.csv – a
   18,00 M bruttó = 8,40 M közös fix (gépek, mosogató, 05.2 és 05.3 háló,
   előtér, mosó-szárító, terasz, szállítás/szerelés, tervezés) + 9,60 M
@@ -121,12 +140,12 @@ csomagban átadod a chatben, és Claude változtatás nélkül committálja a sa
 verseny-baseline-ból indul: ág `competition/baseline-20261025`, rögzített
 commit SHA a GOAL §7-ben és a PR #19 leírásában (a tag
 `verseny-baseline-20261025` opcionális, Péter hozza létre; a Claude-proxy
-tag-írást nem enged). Ez
-a main 29e72cf állapota + a PR #17 (Cam_12 kamera, JAVASLAT), a PR #18
-(C elrendezés, Cam_03 K1 javaslat, MÉRETPRÓBA) és a PR #19 (közös
-bemenetek, draft) tartalma. A baseline nem a main: a három PR a mainbe nem
-lett beolvasztva, a Cam_12/Cam_03 kamerák státusza javaslat, a kameracsomag
-validálása folyik. A saját ágadat a baseline-ból hozod létre, és a draft
+tag-írást nem enged). Ez a main friss állapota + a PR #20 (kameracsomag C:
+végleges C elrendezés, Cam_03 K1, Cam_12 v3, validátor PASS, reality
+cardok; tartalmazza a PR #17 és #18 tartalmát; JAVASLAT, Péter 04:39-kor
+elfogadta a kamerákat, merge nincs) és a PR #19 (közös bemenetek, draft)
+tartalma. A baseline nem a main: a PR-ek a mainbe nem lettek beolvasztva;
+az élő Blender-fájl a Macen érintetlen. A saját ágadat a baseline-ból hozod létre, és a draft
 PR-ed CÉLÁGA a `competition/baseline-20261025`, nem a main. A baseline-t
 nem módosítod.
 ```
