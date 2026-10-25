@@ -530,6 +530,12 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Feltöltve: `08_allapotfelmeres/fotok_profi_20261025/` – 102 kép (A-811 27, A-812 23, A-902 33, külső/közterek/garázs 19), eredeti felbontásban, leltárral és kontaktlapokkal. Helyiség és nézési irány az 1:50-es alaprajzból hozzárendelve (Claude), 23 elsődleges látványterv-kamera kijelölve.
   - Munkamenet: `FOTOKAMERA_LATVANYTERV.md` (A: maszkos AI-berendezés a fotón → KONCEPCIÓ; B: Blender-kameraillesztés + méretvezető → ELŐSZŰRT; C: valós termék + reality card). A fotó bizonyíték, nem méretforrás; EXIF nincs, retusált/vágott export.
   - Nyitott: az A-811/A-812 parketta a fotón melegebb, mint a tervezett Grey Soria Oak → helyszíni ellenőrzés; pilot kép az A szinten Péter jóváhagyásával (javaslat: A-902 3726).
+- *(2026-10-25 20:30–20:53 CET, Péter – eldöntve)* **Fotóval igazolt prompt-elvek az A-902-höz (v1) – minden új kép- és videóprompt hivatkozza.**
+  - Fájl: `05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md`; padló-referencia: `05_promptok/FOTOVALIDALT_REF/A902_KZS3695_profi_padlo.jpg` (a ME-080 legfeljebb kiegészítő).
+  - Padló: a profi fotó a mérvadó, legfeljebb enyhén melegebb – HSV-telítettség 10–15% (fotó ~6%, ME-080 ~10%, az Astra V3.1 S01–S05 renderek 16–60% → padló FAIL, holnap padlójavítással újragenerálva).
+  - Lábazat szürkésbarna; sík fehér mennyezet spot/kávás LED nélkül; fürdő 06.2 csempe semleges szürke, hátfal hatszöges relief.
+  - **Nappali teraszüvegfal előtti belső lépcső: kb. 15 cm × 25 cm (fotóból becsülve, 13–17 cm), x ≈ 3,67–9,25.** A modellben eddig nem szerepelt; a k13 másolaton jelölve (`FOTO_ELTERES_lepcso_nappali_uvegfal`), a lock nem változik a „mehet” előtt (draft PR).
+  - Összevetés: `08_allapotfelmeres/fotok_profi_20261025/` ↔ Astra V3.1 renderek; jelentés a `renders/gpt6astra-v3-1-60-tests` ágon.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
