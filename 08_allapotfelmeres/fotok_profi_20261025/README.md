@@ -19,7 +19,12 @@
 - Szín: a profi fotó a legjobb elérhető forrás a padló (szürke tölgy hatású parketta), falfehér, ajtó, burkolatok tényleges tónusára, de fehéregyensúly-/expozíció-módosítás lehet rajta → színmintát több képről és lehetőleg helyszíni referenciával vegyünk.
 - Garázsképeken harmadik fél autói (rendszám) látszhatnak: belső munkaanyag, külső publikálásra nem.
 
-## Következő lépés (nincs még elvégezve)
-1. Helyiségkód + irány hozzárendelése a `LELTAR_profi_20261025.csv`-ben (`FOTO_BEVITEL.md` kódjai), és összekötés a `FOTO_KAMERA_KAPCSOLAT.csv` tervezett felvételeivel.
-2. Blender-kamerák illesztése a kulcsképekhez (fotó–render egyezés), padló/fal/ajtó színminták.
-3. Promptokhoz és rendelési specifikációhoz a valós felületek „reality card”-ja helyiségenként.
+## Helyiség-hozzárendelés (2026-10-25, Claude, az 1:50-es méretezett alaprajzok alapján)
+A `LELTAR_profi_20261025.csv` minden sorában: `helyiseg_kod` (a `FOTO_BEVITEL.md` kódjai; közös terek: `KOZOS_…`, `KULSO_…`), `irany` (mit lát a kamera, tájékozódási ponttal), `bizonyossag` (magas / közepes), `latvanyterv_kamera_prioritas` (1 = elsődleges nézet a későbbi látványtervekhez). A fájlneveket nem írtuk át (a fotós `KZS_` neve a visszakereshető azonosító). Összesen 102 kép, ebből 23 elsődleges látványterv-kamera.
+
+Fotókamerás látványterv-munkamenet: `FOTOKAMERA_LATVANYTERV.md`.
+
+## Következő lépés
+1. Blender-kamerák illesztése (`Cam_F_<KZS-szám>`) az 1. prioritású képekhez, padló/fal/ajtó színminták.
+2. Összekötés a `FOTO_KAMERA_KAPCSOLAT.csv` tervezett felvételeivel; a hiányzó nézetek listája.
+3. Helyiségenkénti reality card a promptokhoz és a rendelési specifikációhoz.
