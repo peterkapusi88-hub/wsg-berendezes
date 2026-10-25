@@ -75,3 +75,5 @@ CP-QA-0 – angol nyelvi javitas regeneracio nelkul | 86af9b0f69bfaf2e50493b09c7
 CP-QA-1 – angol nyelvi javitas regeneracio nelkul | 312ff21261af9058058763adb132e9dcae822195 | 2026-10-25T15:19:57.025671+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-QA-2 – angol nyelvi javitas regeneracio nelkul | a5e8d79638c7d31b4a6d3b1c4d23129a58672a58 | 2026-10-25T15:20:10.857144+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-ELEMLISTA – 496 meretezesi es koltsegatadasi sor | 8a65a43237bcee114023a6f33769a578ddf4faa3 | 2026-10-25T15:20:46.080364+00:00 | távoli tartalom-visszaolvasás PASS
