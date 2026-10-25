@@ -20,4 +20,5 @@ Bázis: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Mentésnek csak a távoli Gi
 | CP7 | 2026-10-25 06:28 | S07 Lake Forest Couture – hat prompt | `1d04fa486d72b902f5b99717ca678fe2d1ca3ce3` | OK – távoli fej = 1d04fa4…, egyezik |
 | CP8 | 2026-10-25 06:30 | S08 Milano Radical – hat prompt | `32d6f1e9984526a7a34a1656ea512906992a68d0` | OK – távoli fej = 32d6f1e…, egyezik |
 | CP9 | 2026-10-25 06:32 | S09 Paris Collector – hat prompt | `fbacc7277c64c2e20072fde7f7007259e4f668e5` | OK – távoli fej = fbacc72…, egyezik |
-| CP10 | 2026-10-25 06:33 | S10 Desert Modern 70 – hat prompt (60/60 saját prompt fájl kész) | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
+| CP10 | 2026-10-25 06:33 | S10 Desert Modern 70 – hat prompt (60/60 saját prompt fájl kész) | `b24bee77cb649e9181fa282317a31bba397fcb3d` | OK – távoli fej = b24bee7…, egyezik |
+| CP11 | 2026-10-25 06:48 | 10 véglegesített stílusspecifikáció (tételes lista, Hue-zónák, fő/gazdaságos költség, kiváltások, kockázatok); 40_ELEMLISTA_V3_1.csv (511 tétel, mind a 10 stílus – az S01/S02 elemlistája a CP2 helyett itt került be); 50_KOLTSEG_ES_KOCKAZAT.md. Stílusfüggő fő: 8,48–9,29 M, mind ≤ 9,60 M | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |

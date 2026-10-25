@@ -11,7 +11,7 @@
 - **Péter hat eszköze:** 2 (aszimmetrikus tároló-kompozíció), 6 (grafikus frontok – színmezők), 1 (falgrafika), 3 (nyomat), 5 (laminált).
 
 ## 2. Nappali–étkező–konyha
-**Elrendezés:** C alapváltozat; **L-kanapé** szürke-bézs, blokkos, alacsony moduláris (a listán; ha nem a C-ben igazolt befoglaló: **méretpróba kell**). Étkező: 160 × 90-es téglalap **fekete vagy dió** asztal (a listán) + hat szék (a listán: fekete fa/fém, karakteres).
+**Elrendezés:** C alapváltozat; **Westwing Lennon L** 238 × 180 × 68 világosszürke kordbársony (a C-ben igazolt befoglaló; a 60 cm mély grafit toronnyal a kanapé–torony távolság **határeset**, Blender-próba kell). Étkező: Westwing Luca 160 × 90 fekete mangó asztal + hat Westwing Adrien fekete bouclé szék.
 - **Asztalváltozat:** 160 × 90 (alap); **kreatív alternatíva:** Ø 130 kerek dió asztal – csak 40 cm-es TV-bútorral és U-kanapéval (VB.2) → a 60 cm-es grafit torony miatt **nem** ebben a változatban; külön méretpróba.
 - **Teraszajtó:** középső szárny; csak keleti → 5+1.
 
@@ -29,13 +29,13 @@
 
 **Konyha:** METOD-váz; **krétafehér matt** front mindkét soron, a **hűtőoszlop mustársárga** laminált (az egyetlen színes konyhai sík), grafit vékony fogantyúléc; munkalap: világosszürke beton-hatású laminált; hátfal: grafit kompakt laminált; a keleti falon fekete fém polc, alatta Hue (FL01 – FELTÉTELES).
 
-**Mennyezet:** ML05 – geometrikus opál függeszték (henger/korong, E27, a listán), alja ≥ 2,15 m; ML04 – Kave Home Novae Ø 40 (szálcsiszolt fém + matt üveg; foglalat ellenőrizendő) vagy a listán szereplő fekete henger.
+**Mennyezet:** ML05 – Westwing Misaki rizspapír henger Ø 40 × 70 (2 × E27), alja ≥ 2,15 m; ML04 – Kave Home Idela Ø 26 füstüveg fekete márvány részlettel (foglalat FELTÉTELES).
 
-**Textil:** grafit–kréta geometrikus gyapjú szőnyeg (a listán); szürke len függöny; sárga és grafit párnák; fekete fém dohányzóasztal; egy szobrászi kaktusz-szerű (euphorbia) növény.
+**Textil:** Westwing Mason világosszürke gyapjú szőnyeg 200 × 300; szürke len függöny; sárga és grafit párnák; Westwing Naruto 140 × 80 organikus, valódi fehér márvány lapú dohányzóasztal; egy szobrászi kaktusz-szerű (euphorbia) növény.
 
 ## 3. Master 05.1
 - **Fejvégfal:** színblokk-kárpitpanelek – 3 téglalap különböző méretben (kréta 120 × 120, grafit 90 × 150, kis sárga 40 × 40), egymást átfedő, eltolt kompozícióban, a panelek mögül Hue (D21 – FELTÉTELES).
-- **Ágy:** szürke/grafit kárpitozott ágy 180 × 200 (a listán).
+- **Ágy:** Westwing Amelia világosbézs kárpitozott ágy, 200 × 231 külső; matrac 180 × 200 (IKEA VÅGSTRANDA, gazdaságos: VALEVÅG); tengely y 6,40.
 - **Gardrób:** krétafehér laminált frontok, 4 mm-es grafit árnyékfuga-rács (a nappali rácsa), egyetlen sárga keskeny ajtó a középen.
 - **Éjjelik:** grafit laminált kockák; fekete fém, opálgömbös asztali lámpák (E14 Hue). Függöny: szürke len. ML06: opál korong.
 
@@ -45,13 +45,107 @@
 - **Textil:** grafit és sárga törölközők.
 
 ## 5. Termék- és elemlista
-*(Ez a rész a tételes termékellenőrzés után kerül ide – a specifikáció állapota ebben a commitban: DRAFT.)*
+| ID | sor | helyiség / fal | elem | elhelyezési szándék | méret (cm) | anyag / termék | rögzítés | táp | fő Ft | gazd. Ft | státusz |
+|---|---|---|---|---|---|---|---|---|---:|---:|---|
+| S08-K01 | 02a | konyha / K-pultfal, mellvéd, W03-a | IKEA METOD korpuszok + MAXIMERA fiókok + lábak, lábazat, vasalat (2 sor × ≈2,7 m, déli magas elemfal, hűtőoszlop) | két sor 62 cm, köz 85–86 cm (FELTÉTELES K1); hűtőoszlop a D13-nál | két sor ≈ 2,7 m + 2–3 magas elem 60×60×220 | IKEA METOD fehér váz (alsó 13 500, magas gépes 44 000 Ft/db – ikea.com/hu 2026-10-25) | falra/lábakra | D02–D07, D13, X01 (gépek: közös fix sor) | 450 000 | 450 000 | becslés |
+| S08-K02 | 02a | konyha / – | Frontok: krétafehér matt laminált (Egger W1000) + 1 mustár hűtőoszlop (Egger U163 Curry 67 089 Ft/tábla) + grafit rúdfogantyú | minden alsó, fiók, magas elem és hűtőoszlop | ≈ 8,5 m² front | krétafehér matt laminált (Egger W1000) + 1 mustár hűtőoszlop (Egger U163 Curry 67 089 Ft/tábla) + grafit rúdfogantyú / gazdaságos: IKEA fehér gyári front + mustár laminált hűtőoszlop | METOD-zsanér/fiók | – | 330 000 | 236 000 | becslés |
+| S08-K03 | 02a | konyha / – | Munkalap: világosszürke beton-hatású laminált (IKEA EKBACKEN) ×2 | mindkét soron | 2 × 246 cm | világosszürke beton-hatású laminált (IKEA EKBACKEN) ×2 | korpuszra | – | 60 000 | 60 000 | becslés |
+| S08-K04 | 02a | konyha / K-pultfal (keleti sor mögött) | Hátfal: grafit kompakt laminált panel | a keleti sor mögött, pult–felső él | ≈ 2,75 × 0,60 m | grafit kompakt laminált panel | ragasztott/csavarozott, a dugaljaknál kivágás | – | 55 000 | 40 000 | becslés |
+| S08-K05 | 02a | konyha / K-pultfal | Nyitott polc a keleti falon (felső szekrény helyett) + hűtőoszlop- és magas elem felső kitöltők az álmennyezetig (+2,45) | a pult fölött, FL01 alatt | 240 × 25 × 4 + kitöltők | laminált/fém a stílus szerint | falra (vezetékkeresővel) | – | 70 000 | 50 000 | becslés |
+| S08-K06 | 02a | konyha / – | Konyhaszerelés: IKEA-összeszerelés, munkalap-illesztés, kivágások | – | – | munkadíj (IKEA-szerelés 4–6 e Ft/óra; munkalap 12–19 e Ft/fm – meloim.hu) |  | – | 200 000 | 180 000 | becslés |
+| S08-W01 | 03a | nappali / W01 dél | MR-1 grafit torony (D18, tápok) | déli vég, z 2,53-ig | 60 × 253 × 60 | grafit laminált (Egger U961) | falhoz | D18 | 200 000 | 110 000 | becslés |
+| S08-W02 | 03a | nappali / W01 | MR-2 lebegő mustár doboz | a TV-től délre, alja z 1,30 | 120 × 40 × 40 | mustár laminált (Egger U163 Curry) | falra függesztve | – | 90 000 | 70 000 | becslés |
+| S08-W03 | 03a | nappali / W01 | MR-3 kréta alsó testek | a TV alatt, padlón, hátrahúzott lábazat | 240 × 45 × 40 | krétafehér laminált (W1000) | falhoz | D16/D17 | 190 000 | 120 000 | becslés |
+| S08-W04 | 03a | nappali / W01 | MR-4 nyitott dió kocka | északon, z 0,90 | 60 × 60 × 30 | dió laminált | falra | D16/D17 | 50 000 | 40 000 | becslés |
+| S08-W05 | 03a | nappali / W01 teljes | MR-5 kréta panelmező 60 cm-es rácsban, egy grafit oszlop | padlótól a mennyezet alatti fugáig, ≤ 4 cm | ≈ 11,6 m² | W1000 + U961 laminált + lécváz | falra | – | 220 000 | 0 | becslés |
+| S08-W06 | 03a | nappali / W01 | MR szállítás, szerelés | – | – | munkadíj |  | – | 80 000 | 60 000 | becslés |
+| S08-W07 | 03a | nappali / W03 szemöldök | 05.3 szemöldökpanel grafit | az ajtó fölött | ≈ 120 × 80 × 2 | grafit laminált | falra | – | 40 000 | 30 000 | becslés |
+| S08-N01 | 03b | nappali / ülőcsoport (C) | Kanapé – Westwing Lennon L, világosszürke kordbársony | háttámla keletre (≤ x 6,67 L / 6,60 U), hosszú ülés É–D, nyitott a TV felé; északi vége szabadon hagyja az üveget | 238 × 180 × 68 | Westwing Lennon kordbársony (21WES09639 világosszürke) | szabadon álló | – | 900 000 | 900 000 | ellenőrzött |
+| S08-N02 | 03d | étkező / ML04 alatt (C) | Étkezőasztal 160 × 90 | x 8,00–8,90; y 5,40–7,00 befoglaló, hosszanti | 160 × 90 × 75–76 | Westwing Luca mangófa étkezőasztal 160×90, fekete (DEQ23WES78746) | szabadon álló | – | 289 990 | 289 990 | ellenőrzött |
+| S08-N030 | 03d | étkező / asztal körül | Szék(ek) | 2+2+1+1; terasz csak keleti szárnynál: 5+1 (északi végszék pótszék) | – | Westwing Adrien bouclé szék 56×51×82 × 6 / gazdaságos: Kave Home Eamy szék 55×53×75 (179 EUR) × 6 | szabadon álló | – | 629 940 | 414 000 | ellenőrzött |
+| S08-N04 | 03e | nappali / ülőcsoport alatt | Szőnyeg | az ülőcsoport alatt, a TV-bútortól 20 cm-re | 200 × 300 | Westwing Mason 200×300 világosszürke/sötétkék | szabadon álló | – | 189 990 | 189 990 | ellenőrzött |
+| S08-N050 | 03c | nappali / kanapé előtt | Dohányzó-/kisasztal | kanapéelőtől 45–50 cm | – | Westwing Naruto organikus márvány 140×80×30 / gazdaságos: Westwing Antigua kerek, travertin-hatású üveglap Ø78×45 | szabadon álló | – | 330 000 | 79 990 | ellenőrzött |
+| S08-T01 | 03f | nappali–étkező / üvegfal y 8,05 | Függöny + fali sín: szürke len, varrott | falra szerelt sín a szemöldök belső síkján vagy a kávában; redőny-szervizfedél szabad | 4,6 m sín; ≈ 9,2 m szélesség × 2,85–2,90 m | szürke len, varrott / gazdaságos: IKEA STOCKHOLM 2025 / ÄNGSFRYLE 300×300 (19 990/db) ×3 + VIDGA fali sín | falra (mennyezetbe nem) | – | 195 000 | 123 000 | becslés |
+| S08-M01 | 04a | master 05.1 / keleti fal | Ágy | tengely y 6,40 | 200 × 231 | Westwing Amelia kárpitozott ágy 180×200, világosbézs, külső 200×231, fejvég 61 (DEQ23WES09502) | szabadon álló | – | 360 000 | 360 000 | ellenőrzött |
+| S08-M02 | 04a | master 05.1 / ágy | Matrac | – | 180 × 200 | IKEA VÅGSTRANDA zsákrugós matrac 180×200×28 (904.703.79) / gazdaságos: IKEA VALEVÅG zsákrugós matrac 180×200×24 (204.700.09) | szabadon álló | – | 229 900 | 129 900 | ellenőrzött |
+| S08-M03 | 04b | master 05.1 / keleti fal | Három egymást átfedő kárpit-téglalap (kréta 120×120, grafit 90×150, mustár 40×40) | eltolt kompozíció a fejvégen | ≈ 2,95 m² | kárpitozott MDF | falra | D21 | 125 000 | 90 000 | becslés |
+| S08-G01 | 04c | master 05.1 / északi fülke + déli sáv | PAX vázak: északi fülke 3×100, déli sáv 2×100 + 1×50 | északi fülke teljes szélességben; front a pillér síkjában (≈32 cm-es takarókeret elé) | 3,00 × 2,36 + 2,42 × 2,36 m váz | IKEA PAX gardróbváz 100×58×236 (50214560) × 5 | falhoz rögzítve | – | 225 000 | 225 000 | ellenőrzött |
+| S08-G02 | 04c | master 05.1 / – | PAX 50-es váz + belső (rudak, polcok, fiókok) + felső takarópanelek a mennyezetig + pillérsíkra hozó keret | a D26 és G05 kivágással hozzáférhető | – | IKEA PAX 50×58×236 (38 000) + belső + laminált takarók | falhoz | D26 (belső funkcionális fény, nem Hue) | 188 000 | 158 000 | becslés |
+| S08-G03 | 04c | master 05.1 / – | Gardrób-összeszerelés és beállítás | – | – | munkadíj |  | – | 80 000 | 70 000 | becslés |
+| S08-G04 | 04c | master 05.1 / északi fülke + déli sáv | Frontok: krétafehér laminált frontok 4 mm grafit fugarácsban, egy keskeny mustár ajtó | egyenletes ajtóritmus, nyomásra nyíló, 3 mm-es fugák | ≈ 15,7 m² (3,00 + 2,42 m × 2,90) | krétafehér laminált frontok 4 mm grafit fugarácsban, egy keskeny mustár ajtó / gazdaságos: IKEA FORSAND ajtók 50×229 (22 000 Ft/db zsanérral) × 11 | PAX-zsanér | – | 420 000 | 242 000 | becslés |
+| S08-M10 | 04d | master 05.1 / nyugati üvegfal, 0,33 m-es falsáv | Függöny + fali sín: szürke len | falra szerelt sín a 0,33 m-es sávban, oldalra húzva | 3,7 m sín; 2 lap ≈ 300 cm esés | szürke len | falra | – | 125 000 | 65 000 | becslés |
+| S08-M11 | 04d | master 05.1 / ágy alatt | Szőnyeg | az ágy alsó kétharmada alatt | Ø200 | Westwing Loire kerek zsenília Ø200, bézs / gazdaságos: Westwing Loire kerek zsenília Ø200, bézs | szabadon álló | – | 109 990 | 109 990 | ellenőrzött |
+| S08-M12 | 04d | master 05.1 / ágy | Ágytextil, pléd, párnák: fehér és grafit, kréta pléd, mustár párna | – | 180 × 200 | fehér és grafit, kréta pléd, mustár párna |  | – | 90 000 | 60 000 | becslés |
+| S08-M13 | 04d | master 05.1 / fejvégfal | Éjjelik: grafit laminált kocka ×2 45×45×45 | a fejvég két oldalán; a D20–D23 és K13/K14 hozzáférhető | 2 db | grafit laminált kocka ×2 45×45×45 | falra / szabadon | – | 80 000 | 50 000 | becslés |
+| S08-M14 | 04d | master 05.1 / ágy lábvége | fekete fém ülőke | a nyíló szárny lendülete szabad | – | fekete fém ülőke |  | – | 40 000 | 24 000 | becslés |
+| S08-F01 | 07 | fürdő 06.2 / keleti fal, mosdó fölött | Tükör: két eltolt téglalap tükör (50×80 + 40×60) vékony fekete keretben | a mosdótengelyen, csempére rögzítve, biztonsági fóliával | ≈ 60 × 90–100 | két eltolt téglalap tükör (50×80 + 40×60) vékony fekete keretben | csempére (rozsdamentes rögzítő) | – | 75 000 | 52 500 | becslés |
+| S08-F02 | 07 | fürdő 06.2 / WC-perem fölött / mosdó alatt | Tároló: grafit faliszekrény fehér belsővel + mustár polc + drótkosár | a burkolat előtt, fúrással; D43/D44 szabad | – | grafit faliszekrény fehér belsővel + mustár polc + drótkosár | csempére | – | 70 000 | 49 000 | becslés |
+| S08-F03 | 07 | fürdő 06.2 + 06.1 + WC 08 / – | Textil, kiegészítők; 06.1 és WC tükör, textil | – | – | törölközők, kosár, adagolók, növény; 06.1/WC egyszerű tükör + textil |  | – | 160 000 | 110 000 | becslés |
+| S08-F04 | 10 | fürdő 06.2 / FL04 (z ≈ 2,00) | IP44 fali lámpa: fekete henger IP44 fali lámpa (GU10) | a meglévő FL04 ponton, a tükör fölött | – | fekete henger IP44 fali lámpa (GU10) + Hue izzó | falra a kiállásra | FL04 | 44 990 | 34 990 | becslés |
+| S08-L05 | 10 | nappali/étkező / ML05 | Lámpatest a(z) ML05 ponton | alja ≥ 2,15 m; csak a meglévő kiálláson; rögzítés vizsgálandó | – | Westwing Misaki rizspapír függőlámpa Ø40×70, 2×E27 (DEQ21WES21200) + 2×E27/0×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML05 | 107 970 | 107 970 | ellenőrzött |
+| S08-L04 | 10 | nappali/étkező / ML04 | Lámpatest a(z) ML04 ponton | csak a meglévő kiálláson; rögzítés vizsgálandó | – | Kave Home Idela függeszték Ø26 (ár 2026-10-24 árkönyvtár; foglalat NEM igazolt) + 0×E27/1×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML04 | 78 990 | 78 990 | FELTÉTELES |
+| S08-L06 | 10 | master 05.1 / ML06 | ML06: Westwing Clouds len függeszték | – | Ø50×29 | Westwing Clouds lenvászon függőlámpa Ø50×29, 1×E27 | szabadon álló | ML06 | 32 990 | 32 990 | ellenőrzött |
+| S08-L07 | 10 | master 05.1 / éjjelik | Fekete fém opálgömbös asztali lámpa ×2 (E14) | éjjeliken | – | Westwing asztali lámpa E14 (Ilena len 64 990 / Danielle üveg 69 990 / Carla 84 990) – stílus szerinti típus × 2 | szabadon álló | D20–D23 | 129 980 | 129 980 | ellenőrzött |
+| S08-V01 | 11 | nappali + master / W02, W07, W03, W03-a, W04-sáv, master falak | Tapéta: krétafehér matt vlies (W03, W03-a, master); a W02+W07 egyedi nyomott grafika külön sor | padlótól mennyezetig; kapcsolóoszloptól 15 cm; közlekedőben ≤ 2 cm | ≈ 10 m² (3 tekercs) | krétafehér matt vlies (W03, W03-a, master); a W02+W07 egyedi nyomott grafika külön sor / gazdaságos: textilhatású vlies 11490 Ft/tekercs | ragasztott | – | 114 000 | 138 450 | becslés |
+| S08-V02 | 11 | nappali / W02 + W07 | Egyedi nyomott vinil falgrafika (kréta alap, grafit sávok, mustár négyzet, dió kör) W02 + W07, a sarkon átfordulva | W02 + W07 torok, padlótól mennyezetig | ≈ 10,5 m² | Egyedi nyomott vinil falgrafika (kréta alap, grafit sávok, mustár négyzet, dió kör) W02 + W07, a sarkon átfordulva | ragasztott | – | 207 000 | 115 500 | becslés |
+| S08-D01 | 12 | étkező / W03-a sáv | Geometrikus nyomat 70 × 100 fekete keretben | a hűtőoszlop melletti falsávon | 70 × 100 | nyomat + keret | falra | – | 45 000 | 30 000 | becslés |
+| S08-D02 | 12 | nappali + master / – | Mustár/grafit párnák, kréta pléd, vörösbarna kerámia, design-könyvek | – | – | textil, tárgyak |  | – | 150 000 | 100 000 | becslés |
+
+Forrás, link, dátum és kameraszám: `40_ELEMLISTA_V3_1.csv`. A Hue-tételek a 6. pontban.
 
 ## 6. Fény (Hue) – zónák és táp
-*(Ez a rész a tételes termékellenőrzés után kerül ide – a specifikáció állapota ebben a commitban: DRAFT.)*
+Elv: rejtett LED csak alu profilban, opál fedéllel, egyenletes vonal (nem pontsoros); 2200–2700 K; RGB nincs; csak meglévő kiállásról vagy dugaljról; HF-mezőbe nem fúrunk; G9 nincs (E27/E14/GU10).
+
+| ID | zóna / fal | futás | hossz | táp (meglévő pont) | fő Ft | gazd. Ft | kamera |
+|---|---|---|---|---|---:|---:|---|
+| S08-H10 | nappali / W01 | Hue fényvonal: mustár doboz alatti mosófény | 1.1 m | D18 – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES | 43 620 | 43 620 | Cam_02 |
+| S08-H11 | nappali / W01 | Hue fényvonal: dió kocka belső fény | 0.6 m | D16/D17 – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES | 41 970 | 41 970 | Cam_02 |
+| S08-H12 | nappali / W01 | Hue fényvonal: kréta testek alatti fény | 2.3 m | D16/D17 | 61 570 | 61 570 | Cam_02 |
+| S08-H14 | konyha / K-pultfal | Hue fényvonal: fém polc alatt | 2.4 m | FL01 – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES | 61 900 | 61 900 | Cam_03 |
+| S08-H15 | master 05.1 / fejvégfal | Hue fényvonal: grafit panel glóriája | 2.4 m | D21 – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES | 61 900 | 61 900 | Cam_04 |
+| S08-H00 | lakás / – | Hue Bridge | – | dugalj | 29 999 | 29 999 |  |
+| S08-H01 | nappali + master / kapcsolóoszlop mellé | Hue Tap Dial ×2 (nappali K10–K12 mellé, master K15/K16 mellé) | – | – | 44 980 | 44 980 |  |
+| S08-H02 | lakás / – | Villanyszerelő: szalagok, tápok, Hue-beüzemelés (≈14 óra + kiszállás) | – | – | 185 000 | 160 000 |  |
+| S08-H03 | fürdő 06.2 / mennyezet ML10 | IP44 mennyezeti lámpatest (GU10/E27) + Hue izzó | ≈ Ø25 | ML10 | 39 990 | 32 990 |  |
+| S08-H09 | lakás / – | Hue izzók: 1× E27, 2× E14 | – | – | 53 970 | 53 970 |  |
+
+**Lámpatestek:** ML05: Westwing Misaki rizspapír függőlámpa Ø40×70, 2×E27 (DEQ21WES21200) + 2×E27/0×E14 Hue izzó; ML04: Kave Home Idela függeszték Ø26 (ár 2026-10-24 árkönyvtár; foglalat NEM igazolt) + 0×E27/1×E14 Hue izzó; ML06: Westwing Clouds lenvászon függőlámpa Ø50×29, 1×E27; éjjelik: Westwing asztali lámpa E14 (Ilena len 64 990 / Danielle üveg 69 990 / Carla 84 990) – stílus szerinti típus × 2.
+
+**Jelenetek (javaslat):** „Kék óra” – fényvonalak 40–60 %, 2200 K; ML05 30 %, ML04 50 % 2700 K. „Vacsora” – ML04 80 %, a többi 30 %. „Mozi” – csak a TV-fal alsó fényvonala 20 %. Master „Este” – fejvégfény 40 %, éjjeli lámpák 30 %, ML06 ki.
+
+Minden új szalag-táp: **FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES** (kivéve a D16/D17 melletti padfényt, amely a TV-bútor saját dugaljára megy, ott is ellenőrizendő).
 
 ## 7. Költség (bruttó, M Ft)
-*(Ez a rész a tételes termékellenőrzés után kerül ide – a specifikáció állapota ebben a commitban: DRAFT.)*
+| sor | tétel | cél (M) | fő (M) | gazd. (M) | megjegyzés |
+|---|---|---:|---:|---:|---|
+| 02a | Konyhabútor | 1.50 | 1.17 | 1.02 | -0.33 a célhoz képest |
+| 03a | TV-fal és kísérőfalak | 1.10 | 0.87 | 0.43 | -0.23 a célhoz képest |
+| 03b | Kanapé | 1.00 | 0.90 | 0.90 | -0.10 a célhoz képest |
+| 03c | Fotel, dohányzó-/kisasztal, puff | 0.45 | 0.33 | 0.08 | -0.12 a célhoz képest |
+| 03d | Étkező (asztal + 6 hely) | 0.60 | 0.92 | 0.70 | +0.32 a célhoz képest |
+| 03e | Szőnyeg | 0.20 | 0.19 | 0.19 | -0.01 a célhoz képest |
+| 03f | Függöny + sín (nappali) | 0.25 | 0.20 | 0.12 | -0.05 a célhoz képest |
+| 04a | Ágy + matrac | 0.55 | 0.59 | 0.49 | +0.04 a célhoz képest |
+| 04b | Fejvégfal | 0.55 | 0.12 | 0.09 | -0.43 a célhoz képest |
+| 04c | Gardróbfal | 0.45 | 0.91 | 0.69 | +0.46 a célhoz képest |
+| 04d | Master: éjjelik, lámpák, függöny, textil | 0.45 | 0.44 | 0.31 | -0.01 a célhoz képest |
+| 07 | Fürdő 06.2 + 06.1 + WC | 0.50 | 0.30 | 0.21 | -0.20 a célhoz képest |
+| 10 | Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.02 | 0.98 | +0.02 a célhoz képest |
+| 11 | Falfelületek (tapéta, grafika) | 0.50 | 0.32 | 0.25 | -0.18 a célhoz képest |
+| 12 | Textil, dekor, művészet, növény | 0.50 | 0.20 | 0.13 | -0.30 a célhoz képest |
+| **Σ** | **Stílusfüggő összesen** | **9.60** | **8.48** | **6.60** | ✅ ≤ 9,60; mozgástér fő: 1.12 M |
+| FIX | Közös fix (KOZOS_FIX_ALAP_v1, változatlanul) | 8.40 | 8.40 | 8.40 | versenyfeltételezés, nem igazolt ár |
+| **ÖSSZ** | **Lakásszint (fix + stílusfüggő)** | **18.00** | **16.88** | **15.00** | a 2,00 M tartalék érintetlen |
+
+Tételek: 53 – ebből igazolt/árkönyvtári ár 20, becslés 32, FELTÉTELES 1. Az asztalos- és kárpitos tételek becslések, a döntős stílusnál 2–3 ajánlat kell (03a, 04b, 04c frontok). A sorok közötti átcsoportosítás szándékos: a gardróbfal (04c) őszintén 0,8–1,0 M, a cél 0,45 M fölött – ezt a 04b, 03c és 11 sorok alulfutása fedezi.
 
 ## 8. Kiváltott tételek és kockázatok
-*(Ez a rész a tételes termékellenőrzés után kerül ide – a specifikáció állapota ebben a commitban: DRAFT.)*
+**Kiváltott korábbi (V2/V3) tételek:**
+- Blokkos moduláris L (termék nélkül) → Lennon világosszürke kord (C-ben igazolt).
+- Geometrikus grafit–kréta szőnyeg → Mason világosszürke (igazolt ár; a geometria a falgrafikában marad).
+- Fekete fém dohányzóasztal → Naruto valódi márvány (karakter).
+
+**Kockázatok:**
+- MR-1 60 cm mély torony és Lennon: kanapé–torony 0,60 m határeset → Blender-próba; gazdaságos 45 cm.
+- Egyedi falgrafika nyomdai ára és a W07 sarok illesztése ajánlatköteles.
+- Közös: az ML04/ML05 rögzítése vizsgálandó; a 03a mennyezeti kapcsolat a HF03-mal FELTÉTELES; teraszajtó (hétfő): ha csak a keleti szárny nyílik → 5+1 ülés (az északi végszék pótszék).
