@@ -463,6 +463,26 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Nem része:** a kameracsomag (Cam_03 K1 + Cam_12 újrakivágás) – a másik Claude-munkamenet feladata (04:08-as döntés). Blender nem változott, kép nem készült, versenyzői ág/PR nem nyílt.
   - **Péter döntése kell:** PR #19 „mehet”; a §0 blokk beillesztése a három promptba; az Astra V3.1-futás állapota a Workben (03:58-kor CP0 nélkül) – újraindítás a versenypromptal vagy folytatás.
 
+- *(2026-10-25 04:39 CET, Péter – eldöntve)* **PR #20 átnézve: Cam_12 v3 és Cam_03 K1 elfogadva, étkezőforma nyitott, teraszajtó feltételes.**
+  - **Cam_12 v3** ([4,40; 7,88; 1,60], −48°, 22 mm) továbbtervezési alap és közös összehasonlító kamera.
+    - A kamera nem lehet a kreativitás korlátja: a TV-fal északi végén a mennyezetig érő szekrény tilalma kamerahelyből eredő korlát, nem építészeti szabály.
+    - Ha Astra, Fable vagy Opus oda erős, kivitelezhető kompozíciót tervez, Claude alternatív hero kamerát vizsgál, és bemutatja a kompromisszumot. Az enteriőrt nem butítjuk le a kép kedvéért.
+  - **Étkező:** a C elrendezés marad, az asztalforma nem végleges.
+    - A 160 × 90-es asztalhely a jóváhagyott geometriai alapváltozat; S01-en a Toni 160 megfelelő alap.
+    - S02-n az Anouk 180 nem fogadható el (függönnyel 0,78 m-es kihúzás): ténylegesen hatszemélyes alternatíva kell.
+    - Vizsgálandó a kerek Kave Home (vagy más kerek, hatszemélyes) asztal is. Kerek, ovális vagy más forma csak új Blender-méretpróba után fogadható el.
+  - **60 cm-es TV-szekrény:** lehetőség, nem kötelező.
+  - **Teraszajtó:** feltételes. A hétfői helyszíni ellenőrzés előtt a hat ülőhely és a terasz egyidejű használhatósága nem jelölhető igazoltnak.
+    - Ha csak a legkeletibb szárny nyílik: a hat helyet és a terasz elérését a lehető legjobban megőrző alternatíva kell.
+    - Az 5+1 alkalmi ülésrend külön jelölt kompromisszum, nem automatikus végállapot.
+  - **Cam_03 K1:** elfogadva.
+  - **GitHub:**
+    - a PR #20 nem olvasztható be, a #17/#18 nem zárható le;
+    - ellenőrizendő, hogy a PR #19 közös versenyblokkja és a PR #20 geometriai bemenete nem mond-e ellent egymásnak (asztalméret, Cam_12 miatti TV-fal-korlát, teraszajtó);
+    - a három versenyző azonos, naprakész bemenetet kap;
+    - a validátor-figyelmeztetések és a régi szaniterhibák külön dokumentálandók.
+  - **Fő cél:** maximális kreatív szabadság a valódi lakásban, tényleges elféréssel, jó kamerakompozícióval, 18 M Ft-on belül. Merge és képgenerálás nincs.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
