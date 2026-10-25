@@ -38,8 +38,8 @@ Forrás: VB.3, `GEOMETRIA_C_KAMERACSOMAG_v2.md` 3. pont, `WSG-20261025-A902-KAME
 **Fény:** nappal, semleges fehéregyensúly; a Hue ki van kapcsolva.
 
 ## Cam_10 – fürdő 06.2 (lock: [14,50; 6,62; 1,50], kelet, 16 mm)
-**Hierarchia:** (1) a **távoli keleti fal**: a fehér Geberit mosdó a fekete Grohe csappal, fölötte a **stílus tükörkompozíciója** és a FL04 falilámpa-pont (z ≈ 2,00); (2) **bal oldal**: a walk-in zuhany üvegfal nélkül, az Esagonetta dekorfallal, fekete fejzuhany, 70 cm-es folyóka; (3) **jobb oldal**: a DK-i sarokba benyúló akna/falblokk; a WC-fülke a jobb képszél mögött; (4) a hozzáadott **tároló** (a mosdó alatt/mellett vagy a WC-perem fölött), textil, kiegészítők, egy növény; (5) mennyezet: ML10.
-**Fény:** csak műfény a meglévő pontokról (ML10, FL04), 2700–3000 K; nincs ablak, nincs nappali fény.
+**Hierarchia:** (1) a **távoli keleti fal**: az aknától az üvegig érő **lebegő mosdópult**, benne a meglévő fehér Geberit mosdó (belesüllyesztve), fölötte a **stílus tükörkompozíciója** és a FL04-pont (z ≈ 2,00); (2) **bal oldal**: a walk-in zuhany az **új 100 × 200 cm-es fix üvegfallal** a padkán, mögötte az Esagonetta dekorfal, fekete fejzuhany, 70 cm-es folyóka; (3) **jobb oldal**: a keskeny **fali tároló-oszlop** az aknához simulva, a DK-i akna/falblokk; a WC-fülke a jobb képszél mögött; (4) **rejtett fények** (tükörglória / pult alatti padlófény / oszlopfény) és 1–2 stílustárgy; (5) mennyezet: ML10 – 3 fejes spotsín, egy fej a hatszög-dombordekort súrolja. (r1b, Péter 2026-10-25 16:00/16:04)
+**Fény:** csak műfény a meglévő pontokról (ML10, FL04 – a rejtett 24 V-os fények is a FL04-ről), esti hangulat 2200–2700 K; nincs ablak, nincs nappali fény.
 **Kötöttség:** semmit nem burkolunk újra; D43/D44 (a mosdótól délre) szabad.
 
 ## Nézetek közötti azonosság

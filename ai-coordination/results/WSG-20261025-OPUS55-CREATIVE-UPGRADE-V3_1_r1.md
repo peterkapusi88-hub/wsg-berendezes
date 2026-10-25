@@ -17,18 +17,18 @@ Státusz: TELJES
 
 | # | Stílus | W01 TV-fal (főváltozat) | Kanapé | Étkező | Stílusfüggő fő / gazd. (M) | Lakásszint fő (M) |
 |---|---|---|---|---|---|---|
-| S01 | Kyoto Ink | KI-A „Washi-lámpásfal” (+ KI-B murál, KI-C tokonoma) | Westwing Lennon L tóp szövött 238 × 180 | Toni 160 × 90 világos tölgy + 6 Eamy | 8,87 / 6,77 | 17,27 |
-| S02 | BiBo Nocturne | BN-A navy kabinetfal tükörrésekkel (+ BN-B bordázott navy, BN-C holdglória) | IKEA JÄTTEBO U Samsala sötétkék 285 × 160 | Toni 160 × 90 fekete + 6 Ciselia | 9,29 / 7,27 | 17,69 |
-| S03 | Alelí Casa | dió árkádfal három íves nyílással | Lennon L terrakotta | Archie 160 × 90 sötét mangó + 6 Eamy barna | 8,72 / 6,93 | 17,12 |
-| S04 | LA Horizon | lebegő dió konzol dohányüveg tolóajtókkal + hornyolt dió mező | Westwing Lilo bouclé világosbarna 260 × 176 | Calla bővíthető sötét tölgy 160 × 90 + 6 Calan | 8,98 / 7,23 | 17,38 |
-| S05 | Miami Streamline | D-végű konzol + háromlépcsős lekerekített portál + bordázott oszlopok | Westwing Melva rózsa kord 238 × 143 | Archie fehérre pácolt 160 × 90 + 6 Samantha | 8,79 / 7,28 | 17,19 |
-| S06 | Zenit Atelier | dió torony + Chicago beton mező + L alakú fénymetszés | JÄTTEBO U Samsala szürke-bézs | Toni 160 × 90 sötét tölgy + 6 Eamy konyak | 8,60 / 6,78 | 17,00 |
-| S07 | Lake Forest Couture | párnás couture-kárpitfal + íves tölgy konzol | Westwing Wolke Teddy bouclé 256 × 118 | Toni 160 × 90 világos tölgy + 6 Adrien | 8,96 / 7,13 | 17,36 |
-| S08 | Milano Radical | grafit torony + mustár lebegő doboz + kréta testek + dió kocka | Lennon L világosszürke kord | Luca 160 × 90 fekete + 6 Adrien fekete | 8,48 / 6,60 | 16,88 |
-| S09 | Paris Collector | két dió könyvtártorony + boiserie + alacsony szekrény | Lennon L olíva bouclé | Luca halszálkás 160 × 90 + 4 Calan + 2 Calan karfás | 8,87 / 7,21 | 17,27 |
-| S10 | Desert Modern 70 | „mesa”: homok talapzat, okker és kakaó lépcső nádfonattal, Ø 100 napkorong | JÄTTEBO U Samsala sötétsárga-zöld | Kesia bővíthető dió 160 × 90 (FELTÉTELES ár) + 6 Sissi | 8,75 / 6,83 | 17,15 |
+| S01 | Kyoto Ink | KI-A „Washi-lámpásfal” (+ KI-B murál, KI-C tokonoma) | Westwing Lennon L tóp szövött 238 × 180 | Toni 160 × 90 világos tölgy + 6 Eamy | 9,43 / 7,16 | 17,83 |
+| S02 | BiBo Nocturne | BN-A navy kabinetfal tükörrésekkel (+ BN-B bordázott navy, BN-C holdglória) | IKEA JÄTTEBO U Samsala sötétkék 285 × 160 | Toni 160 × 90 fekete + 6 Ciselia | 9,49 / 7,55 | 17,89 |
+| S03 | Alelí Casa | dió árkádfal három íves nyílással | Lennon L terrakotta | Archie 160 × 90 sötét mangó + 6 Eamy barna | 9,26 / 7,33 | 17,66 |
+| S04 | LA Horizon | lebegő dió konzol dohányüveg tolóajtókkal + hornyolt dió mező | Westwing Lilo bouclé világosbarna 260 × 176 | Calla bővíthető sötét tölgy 160 × 90 + 6 Calan | 9,49 / 7,64 | 17,89 |
+| S05 | Miami Streamline | D-végű konzol + háromlépcsős lekerekített portál + bordázott oszlopok | Westwing Melva rózsa kord 238 × 143 | Archie fehérre pácolt 160 × 90 + 6 Samantha | 9,45 / 7,68 | 17,85 |
+| S06 | Zenit Atelier | dió torony + Chicago beton mező + L alakú fénymetszés | JÄTTEBO U Samsala szürke-bézs | Toni 160 × 90 sötét tölgy + 6 Eamy konyak | 9,20 / 7,15 | 17,60 |
+| S07 | Lake Forest Couture | párnás couture-kárpitfal + íves tölgy konzol | Westwing Wolke Teddy bouclé 256 × 118 | Toni 160 × 90 világos tölgy + 6 Adrien | 9,50 / 7,54 | 17,90 |
+| S08 | Milano Radical | grafit torony + mustár lebegő doboz + kréta testek + dió kocka | Lennon L világosszürke kord | Luca 160 × 90 fekete + 6 Adrien fekete | 8,99 / 6,98 | 17,39 |
+| S09 | Paris Collector | két dió könyvtártorony + boiserie + alacsony szekrény | Lennon L olíva bouclé | Luca halszálkás 160 × 90 + 4 Calan + 2 Calan karfás | 9,50 / 7,61 | 17,90 |
+| S10 | Desert Modern 70 | „mesa”: homok talapzat, okker és kakaó lépcső nádfonattal, Ø 100 napkorong | JÄTTEBO U Samsala sötétsárga-zöld | Kesia bővíthető dió 160 × 90 (FELTÉTELES ár) + 6 Sissi | 9,41 / 7,22 | 17,81 |
 
-A lakásszint = 8,40 M közös fix (egy sorban, változatlanul) + a stílusfüggő rész; mind ≤ 18,00 M, a 2,00 M tartalék érintetlen. A sorbontás és a forrás a `50_KOLTSEG_ES_KOCKAZAT.md`-ben és stílusonként a specifikáció 7. pontjában van. **Szándékos átcsoportosítás:** a gardróbfal (04c) őszintén 0,79–0,99 M (a 0,45 M-es cél kétszerese: 15,7 m² front a mennyezetig), és a világítás (10) 0,95–1,32 M; ezt a 03c, 04b, 07 és 11 sor alulfutása fedezi.
+A lakásszint = 8,40 M közös fix (egy sorban, változatlanul) + a stílusfüggő rész; mind ≤ 18,00 M, a 2,00 M tartalék érintetlen. A sorbontás és a forrás a `50_KOLTSEG_ES_KOCKAZAT.md`-ben és stílusonként a specifikáció 7. pontjában van. **Szándékos átcsoportosítás:** a gardróbfal (04c) őszintén 0,75–0,96 M (a 0,45 M-es cél kétszerese: 15,7 m² front a mennyezetig), a fürdő (07) az r1b-ben ≈ 0,7 M, a világítás (10) ≈ 1,1–1,5 M; ezt a 03c, 04b és 11 sor alulfutása fedezi. A fürdő-bővítés miatt az S02-ben a konyhafront, a gardróbfront, a W01 textilmező és a dekor, az S04/S07/S09-ben a dekor-/művészeti sor csökkent; minden stílus ≥ 0,10 M mozgástérrel ≤ 9,60 M.
 
 ## 2. Elemlista és költség
 - `40_ELEMLISTA_V3_1.csv`: 511 tétel (r2 §11.7 mezők: ID, költségsor, helyiség, fal/pont, elem, elhelyezési szándék, Sz × M × Mé, anyag/termék, rögzítés/gyártás, villamos betáplálás, fő és gazdaságos bruttó ár, státusz, forrás/link, dátum, kamera, megjegyzés). Koordinátát nem adtam: falazonosító + méretezett szándék.
@@ -70,7 +70,18 @@ A lakásszint = 8,40 M közös fix (egy sorban, változatlanul) + a stílusfügg
 - Nem igazolt termékek, amelyeket ezért kiváltottam: IKEA VOXTORP sötét dió, BODBYN, AXSTAD, Egger F274; JÄTTEBO rozsda/vörösesbarna huzat; G9-es statement-lámpák (Hue G9 nincs).
 - A növények mindenütt opcionálisak, és egyik sem áll közlekedési sávban vagy a Cam_12 állóhelyén.
 
+## 8. Fürdő r1b – Péter kérése (2026-10-25 16:00 és 16:04, a záró CP után)
+- **Kérés:** 1 m-es üveg a zuhany szélén; az üvegtől a falig érő mosóbútor, amelybe a mosdó belesüllyed; fali tároló; 1–2 stílustárgy; több látványos, rejtett fény.
+- **Megoldás mind a 10 stílusban (Cam_10 prompt, spec 4. pont, elemlista F01–F09):**
+  - **Üvegfal:** 100 × 200 cm-es fix walk-in panel a padkán, a keleti (fejzuhanyos) faltól nyugat felé; ≈ 92 cm szabad belépő marad. Alap: Viva AQUA Max Walk-in, 8 mm, fekete profil, 55 955 Ft + 1 990 Ft szállítás (aquamixwebaruhaz.hu az argep.hu ár-összehasonlítóban, 2026-10-25). Színezett (S06, S10), bordázott (S05) vagy osztott „atelier” (S09) üveg: egyedi, becsült ár ≈ 180 e Ft beépítve.
+  - **Lebegő mosdópult az aknától az üvegig:** 130 × 48 cm, pult teteje 0,85, alja 0,30 m. A meglévő Geberit mosdó a helyén és a konzolján marad, a kompakt laminált munkalap körbe van marva (a mosdó belesüllyed, az elülső él egy síkban). A mosdó tengelye (y ≈ 6,63) az üveg felé esik, ezért a pult **aszimmetrikus**: balra ≈ 19 cm törölközőrés, jobbra ≈ 51 cm fiókblokk, a mosdó alatt U-fiók.
+  - **Fali tároló:** ≈ 20 × 110 × 18 cm-es oszlop a jobb sarokban, az aknához simulva, a D43/D44 dugaljtól ≥ 5 cm-re.
+  - **Rejtett fények (stílusonként 2–3):** tükörglória, pult alatti padlófény, oszlopfény. Csak 24 V SELV, IP65, alu profilban; táp a fiókblokkban, a FL04 lámpaáramkörről. Az ML10-re 3 fejes Hue GU10 spotsín kerül, egyik feje a hatszög-dombordekort súrolja.
+- **Költség:** a 07-es fürdősor ≈ 0,27–0,32 M-ról ≈ 0,62–0,72 M-ra, a fürdő összesen (07 + fürdőfény + tárgyak) ≈ 0,90–1,05 M.
+- **Nyitott, hétfőn mérendő:** a D43/D44 dugaljak magassága és pontos helye (ez dönti el az oszlop és a tükör szélességét); a padka szélessége és tartása az üvegprofilhoz; a szifon helyzete a U-fiókhoz. **CLAUDE VILLAMOS AUDIT:** fürdőzónák és a FL04 állandó tápja (Hue Wall Switch Module a K24 mögött).
+- **Közös fájlok:** a saját `02_KOZOS_REALITY_FIXED_elvek.md` és `03_KAMERA_KOMPOZICIOK.md` fürdőszabálya frissítve (üvegfal már nem tiltott). A bázis-repó közös forrásait (`A902_Cam10_…_v1.md`, `FURDO_06_2_BEEPITETT_ALLAPOT.md`) nem módosítottam; azok „üvegfal nincs” állítása a beépített állapotra igaz marad.
+
 ## 7. Önértékelés
-**Erősségek:** mind a tíz stílus a W01-et padlótól mennyezetig egyetlen anyagként dolgozza fel, a fényt bútorba zárt, profilos vonalakból adja, és a W02 + W07 összekötő falat is megtervezi – így a Cam_02 és a Cam_12 is falkompozíciót mutat, nem bútorkatalógust. A termékek valósak, magyar áron és méretben igazoltak, ahol lehetett; ahol nem, ott FELTÉTELES jelölés és alternatíva szerepel. Mind a tíz fő változat a 9,60 M alatt marad, 0,31–1,12 M mozgástérrel a becsült hős-tételekre.
+**Erősségek:** mind a tíz stílus a W01-et padlótól mennyezetig egyetlen anyagként dolgozza fel, a fényt bútorba zárt, profilos vonalakból adja, és a W02 + W07 összekötő falat is megtervezi – így a Cam_02 és a Cam_12 is falkompozíciót mutat, nem bútorkatalógust. A termékek valósak, magyar áron és méretben igazoltak, ahol lehetett; ahol nem, ott FELTÉTELES jelölés és alternatíva szerepel. Mind a tíz fő változat a 9,60 M alatt marad; a fürdő-bővítés (r1b) után a mozgástér 0,10–0,61 M – ez a döntős stílusnál szűk az asztalos-ajánlatok szórásához.
 
 **Bizonytalanságok:** a 03a, 04b és 04c egyedi tételei benchmark-becslések; három kanapé (Lilo, Melva, Wolke 256) méretpróbára vár; a Kave Home-foglalatok és -árak részben nem igazoltak; a gardróbfal őszinte ára a célérték kétszerese; a Hue-tápok mind a villamos audittól függnek; a teraszajtó-eset csak a 2026-10-26-i helyszíni ellenőrzés után dől el. A képhatást képgenerálás nélkül nem tudtam ellenőrizni – a promptok erősségét a renderek fogják eldönteni.
