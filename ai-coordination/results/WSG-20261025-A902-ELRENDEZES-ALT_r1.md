@@ -19,7 +19,7 @@
   - a JÄTTEBO U 1,60 m mély.
 - Ezért a kanapé indokolatlanul közel állt az étkezőhöz.
 - **Mindhárom alternatíva közös lépése:** a kanapé a termék valós mélységéhez igazítva nyugatabbra kerül.
-- **Feltétele:** a TV-fal bútora a kanapé előtti szakaszon (y 5,0–7,7) legfeljebb **40 cm mély** (a V3 KI3-L/BN3-L is 40 cm). Ez az Astra V3.1-integrációnál kötelező ellenőrzési pont.
+- ~~**Feltétele:** a TV-fal bútora a kanapé előtti szakaszon (y 5,0–7,7) legfeljebb **40 cm mély** (a V3 KI3-L/BN3-L is 40 cm).~~ **Pontosítva 03:56 CET, lásd §3.1:** a számok 40 cm mély TV-bútorral készültek. A C-ben a brief 60 cm-es szekrénye is elfér mindkét kanapéval; az A-ban az L előtt legfeljebb 45 cm, a B-ben az U előtt legfeljebb 50 cm. Ez az Astra V3.1-integrációnál kötelező ellenőrzési pont.
 
 **A második szűk pont:** a 05.3-as háló ajtajához vezető út, az étkező délkeleti széke és a hűtőoszlop sarka (x 9,95; y 5,25, D13) között. A hűtőoszlop helyét a D13 hűtődugalj rögzíti. Ezért nem lehet a hosszanti asztalt 3+3 székkel pontosan az ML04 lámpa alá tenni.
 
@@ -76,15 +76,39 @@ Forrás: a promptsablon v3.1 §1 és Péter.
 **Claude javaslata:** C.
 - A függeszték az asztal fölött középen lóg, ez a hero képen is látszik.
 - Mindkét kanapétípussal teljesül minden kötelező méret.
+- *(Kiegészítés 03:56 CET, §3.1)* Csak a C-ben fér el mindkét kanapéval a brief szerinti 60 cm-es TV-fal-szekrény. Így Astra TV-fal-koncepcióit nem kell visszafogni.
 - Ha a végeken ülés nem tetszik: A, ha nincs termékcsere; B, ha U-kanapés stílus a cél.
 
 ### Közös következmények
-- **TV-fal:** a kanapé előtti szakaszon legfeljebb 40 cm mély bútor. Magasabb vagy mélyebb elem csak a két szélén, és a közlekedő felé (y < 5,0) csak a folyosóút ellenőrzése után.
+- **TV-fal:** ~~a kanapé előtti szakaszon legfeljebb 40 cm mély bútor. Magasabb vagy mélyebb elem csak a két szélén,~~ a megengedett mélység az alternatívától függ (§3.1). A közlekedő felé (y < 5,0) bármilyen elem csak a folyosóút ellenőrzése után kerülhet.
 - **Dohányzóasztal:**
   - S01 L: a fő ülőrész előtt kb. 1,4 m szabad hely marad a TV-ig. Ebben 45–50 cm-es távolsággal elfér egy alacsony asztal.
   - S02 U: a U belseje kb. 0,95 × 0,65 m. Puff vagy tálca fér el, nagy dohányzóasztal nem.
 - **Toni 200 elérhetősége:** a Westwing termékoldalán 2026-10-25-én csak a 160 × 90-es Toni látszik (259 990 Ft, 9–11 munkanap). A 200-as újraellenőrzendő; ez az A változat S01-es asztalát is érinti.
 - **A Cam_12 kivágását** a választott elrendezéssel újra kell ellenőrizni (a PR #17 beolvasztásának feltétele).
+
+### 3.1 Kiegészítés (2026-10-25 03:56 CET) – mélyebb TV-fal-bútor
+**Miért:** a fenti számok 40 cm mély TV-bútorsávval készültek (x 3,67–4,07; y 4,25–7,65). Az Astra V3.1-brief (r2, §11.4) a W01-en legfeljebb 60 cm mély, mennyezetig érő zárt szekrénytestet is megenged.
+
+**Módszer:**
+- ugyanaz a motor és ugyanazok a kötelező méretek;
+- a bútorsáv mélysége 40, 45, 50, 55 és 60 cm, a kanapé teljes hossza előtt (a legrosszabb eset);
+- a kanapé legfeljebb 30 cm-rel keletebbre mehet, a kanapé–TV ≥ 0,60 m-hez szükséges mértékben;
+- az asztal és a székek helye változatlan.
+
+Szkript: `03_blender/geometry_v2/elrendezes_alt/tv_melyseg.py`, eredmény: `tv_melyseg.json`.
+
+| A kanapé előtt megengedett legnagyobb TV-bútor-mélység | S01 Lennon L | S02 JÄTTEBO U |
+|---|---|---|
+| **A** – hosszanti 3+3 | **45 cm** (a kanapé +2 cm keletre); 50 cm-től nincs megoldás | 60 cm (a kanapé +7 cm; szék–kanapé 0,96 m) |
+| **B** – keresztbe 3+3 | 60 cm, de a kanapé és a legnyugatibb székek közötti zsák 0,46 m-re szűkül (a kanapé +17 cm) | **50 cm** (a kanapé +2 cm); 55 cm-től nincs megoldás |
+| **C** – 2+2+1+1 | **60 cm** (a kanapé +7 cm; szék–kanapé 0,98 m; minden út ≥ 0,90 m) | **60 cm**, változtatás nélkül (kanapé–TV 0,73 m) |
+
+**Következmény:**
+- **C-vel a brief 60 cm-es felső határa mindkét kanapéval érvényes.** Az Astra-futáson nem kell változtatni.
+- **A-val az L előtt legfeljebb 45 cm, B-vel az U előtt legfeljebb 50 cm.** Ha Péter ezek egyikét választja, ezt az Astra-integrációnál kötelező feltételként kell kezelni.
+- **Mindegyik változat feltétele:** maga a TV a falsíkon vagy a fülkében marad (a képernyő x ≈ 3,77; nézőtáv C-ben 2,33–2,40 m).
+  - Ha a TV egy 60 cm-es szekrény elejére kerülne, a nézőtáv 2,0 m alá csökkenne.
 
 ## 4. Korlátok
 - Terv szerinti geometria, helyszínen nem mért; a konyhapult a fejlesztő bútorrajza szerint.
