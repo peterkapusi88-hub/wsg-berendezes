@@ -24,14 +24,24 @@ versenyzőnek azonos kiegészítések; olvasd el, mielőtt tervezel):
   ≥ 0,60 m; a W01 előtt legfeljebb 60 cm mély szekrénytest; a TV a falsíkon
   marad. Részletek: ai-coordination/results/WSG-20261025-A902-ELRENDEZES-ALT_r1.md
   (PR #18). Ezen belül szabad a bútor, a forma, a termék; a hat ülőhely kötött.
-  Étkezőasztal: a C elrendezés két asztallal lett méretpróbával igazolva –
-  Westwing Toni 160 × 90 (ovális) az S01 Lennon L (180 cm mély) kanapéval, és
-  Westwing Anouk 180 × 90 az S02 JÄTTEBO U (160 cm mély) kanapéval. Más
-  stílusban csak méretezett, ellenőrizhető (gyártó, cikkszám, hossz × szélesség)
-  asztal lehet, amely a C elrendezésben a kötelező méretekkel működik; a
-  kanapé mélysége és az asztal hossza együtt számít. Az elférést Claude a
-  méretpróba-motorral igazolja az integrációnál; igazolásig az asztal
-  státusza „elrendezésben ellenőrizendő”. Koordinátát nem találsz ki.
+  A C az ELFOGADOTT ALAPELRENDEZÉS, nem kötelező asztalforma és nem
+  változtathatatlan székrend (Péter, 04:28). Étkezőasztal: téglalap, ovális,
+  kerek vagy bővíthető egyaránt javasolható, feltételek: hat valóban
+  használható ülőhely; az ülőcsoporttal együtt ellenőrzött közlekedés és
+  székkihúzás; a konyha, a teraszajtó és a folyosó megközelíthető; az ML04
+  függeszték lehetőleg az asztal közepe fölött; a TV-falnak a lehető legtöbb
+  geometriai szabadság marad; teljes bekerülés a 18 M-on belül. Igazolt
+  változatok (Claude méretpróba): téglalap/ovális C 2+2+1+1 – Toni 160 × 90 az
+  S01 Lennon L-lel (180 mély), Anouk 180 × 90 az S02 JÄTTEBO U-val (160
+  mély), ML04 0,10 m, 60 cm-es TV-szekrény mindkettővel; KEREK, hat szék
+  körben (ai-coordination/results/WSG-20261025-A902-ELRENDEZES-C-KEREK-ASZTAL_r1.md):
+  Ø120–Ø130 mindkét kanapéval, de csak legfeljebb 40 cm mély TV-bútorsávval
+  (ML04 0,13–0,25); 60 cm-es TV-szekrénnyel kerek asztal csak a 160 mély
+  U-kanapéval; Ø140 csak U-val; Ø150 (Kave Home Nealy) a C-ben NEM ajánlott.
+  Minden asztalhoz gyártó, cikkszám, méret, ár, forrás; minden új változat
+  (más méret, forma, kanapémélység) külön méretpróbát kap Claude-tól, a C
+  megfelelősége nem vihető át automatikusan – igazolásig a státusz
+  „elrendezésben ellenőrizendő”. Koordinátát nem találsz ki.
 - CAM_03: a konyhaorientált K1 kamera ([9,45; 7,55; 1,50], dél felé, 20 mm;
   konyha a kép ~22 %-a) – a konyha két pultsora, hűtőoszlopa és magas elemfala
   a kép tárgya, elöl az étkező széle és az ML04 függeszték; a terasz és a TV-fal

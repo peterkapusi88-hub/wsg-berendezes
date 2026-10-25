@@ -32,7 +32,7 @@
 | 03a | W01 TV-/médiafal + tárolók, kísérőfalak panelei | 1,10 | 0,70–1,50 | Cam_02, Cam_12 |
 | 03b | kanapé (**minimum L, inkább U**; íves csak puffal) | 1,00 | 0,70–1,40 | Cam_02, Cam_12 |
 | 03c | fotel, dohányzó-/kisasztal, puff | 0,45 | 0,30–0,70 | Cam_02 |
-| 03d | étkező: asztal + 6 ülőhely (C elrendezés: S01 Lennon L → Toni 160 × 90; S02 JÄTTEBO U → Anouk 180 × 90; más asztal csak méretezve, elrendezésben ellenőrizve) | 0,60 | 0,40–0,90 | Cam_12, Cam_03 |
+| 03d | étkező: asztal + 6 ülőhely (C alapelrendezés; téglalap/ovális/kerek/bővíthető; igazolt: Toni 160 × 90 az L-lel, Anouk 180 × 90 az U-val, kerek Ø120–130 ≤ 40 cm TV-sávval; más csak méretezve, elrendezésben ellenőrizve) | 0,60 | 0,40–0,90 | Cam_12, Cam_03 |
 | 03e | szőnyeg | 0,20 | 0,10–0,35 | Cam_02 |
 | 03f | függöny + fali sín (4,50 m üveg + étkező) | 0,25 | 0,15–0,40 | Cam_02 |
 | 04a | ágy + matrac 180×200 | 0,55 | 0,40–0,80 | Cam_04, Cam_11 |
