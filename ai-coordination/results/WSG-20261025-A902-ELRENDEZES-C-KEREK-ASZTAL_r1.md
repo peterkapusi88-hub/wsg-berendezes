@@ -25,7 +25,7 @@
 
 Viszonyítás – a PR #18 téglalap/ovális C (2+2+1+1): ML04 **0,10 m**, 60 cm-es TV-szekrény **mindkét** kanapéval, ülő utak 0,70–0,85.
 
-## 3. Következtetés (szabály a versenyzőknek)
+## 3. Következtetés (2D – FELÜLÍRVA: a versenyzőknek a GEOMETRIA_C_KAMERACSOMAG_v2.md 2. pontja és az indítóprompt VB.2 pontja a mérvadó)
 1. **Kerek asztal megengedett**, de a C megfelelősége nem vihető át: **Ø120–Ø130 működik mindkét kanapéval** a kötelező méretekkel, **ha a TV-fal-bútor a kanapé előtt legfeljebb 40 cm mély**; az ML04 0,13–0,25 m-re kerül az asztal közepétől (a téglalap-C 0,10-e helyett).
 2. **60 cm mély TV-szekrénnyel kerek asztal csak a 160 cm mély U-kanapéval** (Ø120–Ø130) működik; a 180 cm mély L-kanapéval 60 cm-es szekrény + kerek asztal **nem** fér el. Vagyis a kerek asztal az L-kanapés stílusban **a TV-fal mélységét veszi el**.
 3. **Ø140 csak U-kanapéval** ajánlható (40 cm-es TV-sávval); L-lel az ülő vendég háta 0,34 m-re kerül a kanapétól – ez a 36 cm-es hiba visszatérése.

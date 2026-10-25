@@ -1,8 +1,8 @@
 # A-902 – közös geometriai és fénybemenet a tervversenyhez (v2, Claude, 2026-10-25 04:50 CET)
 
 **Kinek:** Astra, Fable és Opus – mindhárom versenyzőnek szó szerint azonos.
-- Helye: a draft PR #20 (`kep004/kameracsomag-C-K1`).
-- A közös versenybaseline-ba a párhuzamos Claude-munkamenet emeli be (Péter, 04:49).
+- Helye: a verseny-baseline v3 (`competition/baseline-20261025-v3`, commit `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`); forrása a draft PR #20 (`kep004/kameracsomag-C-K1`, végső commit `f190e5f`).
+- A három indítóprompt VB.2–VB.3 pontja ennek kivonata; eltérés esetén ez a fájl a részletes forrás.
 
 **Forrás:**
 - Péter 04:08, 04:39 és 04:40 CET (GOAL 7.);

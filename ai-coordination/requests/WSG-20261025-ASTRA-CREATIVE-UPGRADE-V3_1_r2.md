@@ -1,3 +1,5 @@
+> **WSG Design Challenge 2026 (2026-10-25):** a hárommodelles versenyben ezt a briefet a közös VB blokk (§0 v3.1) egészíti ki és ahol eltér, felülírja – különösen a képszámot (60 saját + 6 közös kalibráció), az ág- és mappaneveket, a fénytáblát (Cam_02 kék óra, Cam_12 nappal), a Cam_03/Cam_12 adatait, az elrendezést (C), a költségalapot (8,40 M fix + 9,60 M stílusfüggő) és a C rész folytató üzenetét. Mérvadó szöveg: `ai-coordination/requests/DC2026_inditas/` (A, B, C indítóprompt). A brief többi része érvényes.
+
 # WSG A-902 – ASTRA CREATIVE UPGRADE V3.1 – végleges brief (r2)
 ## Teljes lakásminőség, WOW-korrekció, integrált Hue-világítás és mind a 66 kreatív renderprompt
 
