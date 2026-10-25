@@ -157,6 +157,14 @@ Cam_11 = nappali panoráma; Cam_10 = kizárólag műfény. A kamerák geometriá
 és a kep_id-k változatlanok. Mind a tíz stílus és a hat közös kalibráció
 ugyanezt követi; a C1/C2 Cam_02 kalibráció kékórás.
 
+0.11 Validátor-státusz: a lakás NEM teljes egészében validált. A PR #20
+validátora a kameracsomagra PASS, de a régi 6 szaniterhiba (06.1/06.2) és
+a TV-fal elektromos figyelmeztetései (D16, D17, D18, G01–G04, G08) a külön
+hibanyilvántartásban élnek (03_blender/validator_nyilvantartas_A902_kameracsomag_C.md);
+a TV-csatlakozók tényleges helye, a parketta dekorja, a káva mélysége és a
+teraszajtó szárnya hétfőn (2026-10-26) a helyszínen ellenőrizendő. Ezeket a
+terved kockázatként jelöli, nem igazoltnak.
+
 0.8 Folytatás megszakadásnál: ha a futás (kontextus, keret, GitHub-írás)
 megszakad, új munkamenetben a saját 00_CHECKPOINT_NAPLO.md és
 01_MANIFEST_66.csv alapján a PENDING/DRAFT tételekkel folytatod, a COMPLETE
