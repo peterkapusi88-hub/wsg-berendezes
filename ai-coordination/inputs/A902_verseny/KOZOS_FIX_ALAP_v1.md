@@ -7,6 +7,8 @@
 ## 1. A szabály, egy mondatban
 **18,00 M = 8,40 M közös fix + 9,60 M stílusfüggő.** A versenyző a **9,60 M-os stílusfüggő keretet** tervezi és árazza tételesen; a 8,40 M-os fix részt változatlanul átveszi, nem tervezi és nem módosítja. A 2,00 M tartalék érintetlen.
 
+**A 8,40 M versenyfeltételezés, nem igazolt kivitelezési ár** (Péter, 2026-10-25 04:27). A tervezés alatt azonos minden versenyzőnél; a **végső költségkapun a fix részt is ellenőrizzük** – kiemelten a 3,60 M-os teraszt, a 0,45 M szállítást/szerelést, a 0,40 M tervezést és az 1,10 M gépeket – dátumozott árral vagy ajánlattal. A győztes **teljes**, keresztellenőrzött bruttó bekerülése (fix + stílusfüggő) nem lépheti túl a 18,00 M-ot.
+
 ## 2. Mi fix (8,40 M) – a versenyző nem tervezi
 | Sor | Tétel | M Ft | Miért közös |
 |---|---|---|---|
@@ -30,7 +32,7 @@
 | 03a | W01 TV-/médiafal + tárolók, kísérőfalak panelei | 1,10 | 0,70–1,50 | Cam_02, Cam_12 |
 | 03b | kanapé (**minimum L, inkább U**; íves csak puffal) | 1,00 | 0,70–1,40 | Cam_02, Cam_12 |
 | 03c | fotel, dohányzó-/kisasztal, puff | 0,45 | 0,30–0,70 | Cam_02 |
-| 03d | étkező: asztal + 6 ülőhely | 0,60 | 0,40–0,90 | Cam_12, Cam_03 |
+| 03d | étkező: asztal + 6 ülőhely (C elrendezés: S01 Lennon L → Toni 160 × 90; S02 JÄTTEBO U → Anouk 180 × 90; más asztal csak méretezve, elrendezésben ellenőrizve) | 0,60 | 0,40–0,90 | Cam_12, Cam_03 |
 | 03e | szőnyeg | 0,20 | 0,10–0,35 | Cam_02 |
 | 03f | függöny + fali sín (4,50 m üveg + étkező) | 0,25 | 0,15–0,40 | Cam_02 |
 | 04a | ágy + matrac 180×200 | 0,55 | 0,40–0,80 | Cam_04, Cam_11 |
@@ -51,6 +53,7 @@ A célértékek tájékoztatók: a stíluson belül szabadon átcsoportosíthat�
 3. Fő és gazdaságos változatot ad a stílusfüggő részre; a fix rész mindkettőben azonos.
 4. A Hue-tételeket a `HUE_ALAPCSOMAG_v1.md` fajlagos áraival számolja; eltérő terméknél forrást ad.
 5. A saját összegzése **tájékoztató**: a költségkaput a keresztellenőrzés dönti el (Astra → Claude; Fable → GPT-6; Opus → Astra vagy GPT-6). A hiányzó tételt az ellenőrző konzervatív benchmark-árral pótolja és jelöli – nem kizárás, hanem korrekció.
+6. **Végső kapu:** a fix rész tételei (01, 02b, 02c, 05, 06, 08, 09, 13a–e, 14) is ellenőrzött árat kapnak; ha a fix rész igazoltan drágább 8,40 M-nál, a különbség a stílusfüggő részt szűkíti, és a terv csak akkor felel meg, ha a teljes ≤ 18,00 M. Ez a 3,60 M-os terasz miatt a legnagyobb közös kockázat.
 
 ## 5. Mi nem ez a tábla
 - Nem árajánlat, nem termékválasztás. A jelenlegi sorok becslések (2026-10-24-i keretszámítás).

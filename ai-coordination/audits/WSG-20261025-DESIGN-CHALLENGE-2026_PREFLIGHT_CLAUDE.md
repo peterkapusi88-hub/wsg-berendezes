@@ -1,23 +1,25 @@
-# WSG DESIGN CHALLENGE 2026 – FINAL PREFLIGHT AUDIT (Claude Fable 5.1, írásvédett, 2026-10-25 05:05 CET)
+# WSG DESIGN CHALLENGE 2026 – FINAL PREFLIGHT AUDIT (Claude Fable 5.1, írásvédett, v2 2026-10-25 05:40 CET)
+
+**v2:** Péter 04:27-es négy javítása beépítve (közös baseline; étkezőasztal-szabály; 60 saját + 6 közös = 66; a fix alap versenyfeltételezés, a végső kapun ellenőrzött).
 
 **Tárgy:** a három indítóprompt (A GPT-6 Astra Medium · B Claude Fable 5.1 High · C Claude Opus 5.5 High), a végleges r2 brief (`ai-coordination/requests/WSG-20261025-ASTRA-CREATIVE-UPGRADE-V3_1_r2.md`, commit `978df16`) és a közös forráscommit `45d1e4d` ellen.
 **Hatókör:** csak audit. Nem indult versenymunka, nem készült versenyzői ág vagy PR, nem módosult közös forrásfájl, nem készült kép. A közös bemeneteket (fix-alap, Hue-alap, kalibráció, §0 blokk) külön draft PR-ben adom át.
 **Összeférhetetlenség kimondva:** az auditor (Fable) a B versenyző modellje. Ezért a geometriai kapu szkriptes és kódneves, a költségkaput keresztellenőrzés végzi (Fable tervét GPT-6), a döntőbíró Péter.
 
-## Verdikt: **INDÍTHATÓ – a közös §0 blokk beillesztése és a 2. pont nyolc szövegcseréje után.**
+## Verdikt: **INDÍTHATÓ – a közös §0 blokk (v2) beillesztése, a tíz szövegcsere és a `verseny-baseline-20261025` tag létrejötte után.**
 Enélkül a három modell a 36–38 cm-es, már elvetett elrendezésre, egy nem létező Cam_03-ra és egymástól eltérő költségalapra tervezne; a kanapé L/U követelménye egyik promptban sincs.
 
 ## A 15 ellenőrzés
 | # | Kérdés | Eredmény | Megjegyzés / javítás |
 |---|---|---|---|
-| 1 | Azonos forráscommit és r2 brief | **IGEN** | mindhárom `45d1e4d` + r2. A `45d1e4d` létezik a mainen (02:53, GOAL-frissítés), a brief `978df16`-ban. Megjegyzés: a `45d1e4d` **nem** tartalmazza a PR #18 elrendezést és a közös bemeneteket → a §0 blokk hivatkozza őket útvonallal; a rögzített commit marad a kreatív forrásbázis. |
-| 2 | 10 stílus, 3+3 TV-fal, 66 prompt | **IGEN, módosítva** | Péter 04:03: a 6 kalibrációt egyszer Claude írja → versenyzőnként 60 prompt + 10 spec; a manifest 66 soros marad (§0.4). |
+| 1 | Azonos forráscommit és r2 brief | **JAVÍTVA** | a `45d1e4d` nem tartalmazza a PR #17/#18/#19 közös bemeneteit → **új közös verseny-baseline:** ág `competition/baseline-20261025`, tag `verseny-baseline-20261025` = main `29e72cf` + PR #17 (Cam_12, JAVASLAT) + PR #18 (C elrendezés, Cam_03 K1, MÉRETPRÓBA) + PR #19 (közös bemenetek, draft). A main nem változott, a PR-ek nincsenek beolvasztva, az élő Blender érintetlen. A versenyzők ága a baseline-ból indul, a draft PR-ek célága a baseline ág. |
+| 2 | 10 stílus, 3+3 TV-fal, 66 prompt | **IGEN, pontosítva** | versenyzőnként **60 saját + 6 közös kalibráció = 66 képes készlet**; összesen 180 saját prompt; a 66 soros manifestben a 61–66. sor `KOZOS` (§0.4). S06/S07 teljes stílus marad. |
 | 3 | kep_id betű szerint | **IGEN** | mindhárom a regisztert hivatkozza; a kalibrációs 6 ID-t gépi ellenőrzéssel igazoltam a közös promptokon. |
 | 4 | Azonos kreatív/fal/Hue-követelmény | **IGEN** | a három szöveg tartalmilag azonos; a Hue az r2 §2–4-re támaszkodik → közös fajlagos árak a HUE_ALAPCSOMAG_v1-ben. |
-| 5 | Azonos építészeti korlátok és bútorszabadság | **IGEN, hiányos** | kanapé L/U szabály hiányzik mindháromból (GOAL §4.7) → §0.2. A beszerzési források (Kave Home/Westwing/IKEA/asztalos, Egger-anyagszabály) sincsenek nevesítve → §0.3. |
+| 5 | Azonos építészeti korlátok és bútorszabadság | **IGEN, hiányos** | kanapé L/U szabály hiányzik mindháromból (GOAL §4.7) → §0.2. A beszerzési források (Kave Home/Westwing/IKEA/asztalos, Egger-anyagszabály) sincsenek nevesítve → §0.3. Étkezőasztal: a C elrendezés S01 Toni 160 × 90 / S02 Anouk 180 × 90 asztallal igazolt; más asztal csak méretezve, elrendezésben ellenőrizve (§0.1). |
 | 6 | Kötelező utólagos Blender/Gate | **IGEN** | A §6, B §5, C §5 azonos tartalmú. |
 | 7 | Integrátor nem egyszerűsít vissza V3-ra | **IGEN** | mindháromban kimondva. |
-| 8 | Teljes 18 M, 2 M érintetlen | **IGEN, pontosítva** | „teljes lakásszintű” költségvetés versenyzőnként 10× → közös fix-alap 8,40 M + stílusfüggő 9,60 M (`KOZOS_FIX_ALAP_v1`), így a három modell azonos alapon és feleslegesen nem árazza a konyhagépet tízszer. |
+| 8 | Teljes 18 M, 2 M érintetlen | **IGEN, pontosítva** | közös fix-alap 8,40 M + stílusfüggő 9,60 M (`KOZOS_FIX_ALAP_v1`); a 8,40 M **versenyfeltételezés**, a végső kapun a fix rész (terasz 3,60, szállítás, tervezés, gépek) is ellenőrzött; a győztes teljes keresztellenőrzött bekerülése ≤ 18,00 M. |
 | 9 | Ellenőrizetlen ár nem jogosít győzelemre | **IGEN, enyhítve** | a „hiányzó tétel = nem igazolt” formai kizárás helyett benchmark-pótlás (§0.5); a saját becslés tájékoztató → nincs lowball-ösztönző. |
 | 10 | Végső kép csak auditált tervből | **IGEN, kiegészítve** | Péter: a 66 prompt képei koncepció státuszban azonnal készülnek (hero először); a végső összehasonlító képek a kapuk után (§0.6). Ez nem mond ellent a brief B részének. |
 | 11 | Külön ág/gyökér/PR | **IGEN** | A `astra/creative-upgrade-v3-1-r1-20261025`, B `competition/fable51-v3-1-20261025`, C `competition/opus55-v3-1-20261025`; gyökerek `KEP004_ASTRA/FABLE51/OPUS55_V3_1_r1`. |
@@ -32,7 +34,7 @@ Enélkül a három modell a 36–38 cm-es, már elvetett elrendezésre, egy nem 
 3. **Előszűrés:** Péter a 30 koncepcióból kiválasztja a továbbjutókat a hero képek alapján (javasolt 3–5).
 4. **1. kapu – geometria:** a továbbjutók elemlistájából mérethű Blender-tömbök, validator, utak/székkihúzás/ajtók/TV-mélység (`tv_melyseg.py`), Cam-ok kivágása; eredmény fájlban. Ha nem fér: azonos látványértékű módosítás, dokumentálva; jelentős kompromisszum → Péter.
 5. **2. kapu – kivitelezhetőség:** kiállások, Hue-betáplálás, hűtő-fűtő mezők, asztalos-anyagszabály, rögzítés.
-6. **3. kapu – költség:** keresztellenőrzés a 3. pont beosztásával, azonos fix-alap, dátumozott árak, benchmark-pótlás; ≤ 18,00 M, tartalék érintetlen.
+6. **3. kapu – költség:** keresztellenőrzés a 3. pont beosztásával, dátumozott árak, benchmark-pótlás; **a 8,40 M fix alap tételei is ellenőrzött árat kapnak** (terasz, szállítás/szerelés, tervezés, gépek); a teljes – fix + stílusfüggő – ≤ 18,00 M, tartalék érintetlen.
 7. **4. kapu – renderhűség:** a kapukon átment, szükség szerint módosított terv végső képei azonos Blender-kamerákkal és referenciákkal; geometriai eltéréslista a Gate szerint; PASS/FAIL.
 8. **Döntés:** Péter, a 4. kapu képei alapján (Cam_02 + Cam_12 + Cam_04/11 kötelező, Cam_03 és Cam_10 kiegészítő), kódnevek feloldása utána. Dokumentálás a GOAL §7-ben.
 
