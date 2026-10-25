@@ -437,6 +437,23 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **Kreatív verseny:** három résztvevő (Astra, Fable, Opus) azonos, valós geometriai szabályokból dolgozik; a régi bútortömbök nem korlátozzák az új terveket.
   - **Nem engedély:** a PR #17 és #18 beolvasztására (külön döntés), képgenerálásra.
 
+- *(2026-10-25 04:35 CET, Claude – eredmény)* **Kameracsomag C: draft PR #20** (a #17 és a #18 tartalmát is hozza). Részletek: `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r1.md`.
+  - **C végleges:**
+    - közös étkező-befoglaló 160 × 90, x 8,00–8,90; y 5,40–7,00 (S01-en 10 cm-rel délebbre); kanapé háttámla x 6,67 (L) / 6,60 (U);
+    - a kötelező méretek 40 és 60 cm mély TV-fallal is teljesülnek;
+    - az északi kihúzás 1,05 m, behúzott függönnyel 0,93 m;
+    - ülő vendégek mögött 0,70–0,75 m (nem javítható a fő utak rontása nélkül).
+  - **S02:** az Anouk étkezőasztalként csak 180-as; 160-as asztal kell, vagy függöny a kávában.
+  - **Teraszajtó:** ha csak a keleti, 0,93 m-es szárny nyílik, az északi végszék pótszék (5 + 1) – hétfőn ellenőrizendő.
+  - **Cam_12 v3:** [4,40; 7,88; 1,60], θ −48°, 22 mm, shift −0,05.
+    - A kanapé a kép 16/23 %-a (eddig 26/31 %).
+    - A v2 helyét a TV-fal 60 cm-es szekrénye a kép felében kitakarta volna.
+    - Új korlát: a TV-fal északi végén (y > 7,65) nincs magas szekrény.
+  - **Cam_03 K1:** a lockban; a konyha a kép 29 %-a.
+  - **Validátor:** v2b-1-k13 PASS (C tömbök: 0 hiba). Reality cardok kész.
+  - **Tervverseny:** közös geometriai bemenet a PR #19 §0 blokkjához: `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v1.md`.
+  - **Péter döntése kell:** Cam_12 v3; a 160 × 90-es közös étkező; merge.
+
 - *(2026-10-25 03:13–05:10 CET, Péter döntései + Claude – eredmény)* **WSG Design Challenge 2026 – hárommodelles tervverseny (A GPT-6 Astra Medium · B Claude Fable 5.1 High · C Claude Opus 5.5 High): preflight és közös bemenetek, draft PR #19.**
   - **Péter döntései (03:32–04:10):** mind a 66 prompt marad versenyzőnként (látni akarja, mit tudnak; a ChatGPT-képgenerálás nem limitált); a döntőbíró ő; a képek a kész promptokból egyesével, Claude Chrome-ból, ChatGPT Images-szel, **hero-nézetek először** (Cam_12, Cam_02); **C1/C2 kalibrációt egyszer Claude** írja; **költség-keresztellenőrzés** (Astra → Claude, Fable → GPT-6, Opus → Astra/GPT-6); a közös bemeneteket Claude a start előtt készíti el; az Astra Medium / Claude High effort-különbség elfogadva („nekem jó így”).
   - **Preflight-verdikt (Claude Fable):** `ai-coordination/audits/WSG-20261025-DESIGN-CHALLENGE-2026_PREFLIGHT_CLAUDE.md` – **INDÍTHATÓ** a közös §0 blokk beillesztésével és 8 célzott szövegcserével (`ai-coordination/requests/WSG-20261025-DESIGN-CHALLENGE-2026_KOZOS_BLOKK_v1.md`). Enélkül a három modell az elvetett 36–38 cm-es elrendezésre és nem létező Cam_03-ra tervezne, eltérő költségalappal, L/U-kanapészabály nélkül. Összeférhetetlenség kimondva: az auditor a B versenyző modellje → kódneves (X/Y/Z), szkriptes geometriai kapu; Fable költségét GPT-6 ellenőrzi.
