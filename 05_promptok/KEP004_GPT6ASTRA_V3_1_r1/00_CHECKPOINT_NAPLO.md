@@ -25,3 +25,5 @@ CP1.09: Paris Collector teljes stílusspecifikáció mentése – b490a41b5f24fe
 CP1.10: Desert Modern 70 teljes stílusspecifikáció mentése – 20ceb5a6ab07bbc270c9333cce645c734e3868a2 – 2026-10-25T05:00:16.105Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1 kész: közös reality-elvek és hat kamerakompozíció – 7fa520bb4fe00477edebb365f4d55e7a16a0bd91 – 2026-10-25T05:03:57.100Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP2-SAFE – furdo uj irany es folytatasi sorrend | 854905a7a27582482b004b4ca596a8602255641f | 2026-10-25T15:04:24.856748+00:00 | távoli tartalom-visszaolvasás PASS
