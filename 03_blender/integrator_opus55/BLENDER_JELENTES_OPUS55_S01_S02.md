@@ -1,6 +1,8 @@
 # A-902 · Opus 5.5 V3.1 (PR #22) – Blender-méretpróba, 2. kapu (Claude integrátor, 2026-10-25)
 
-**Státusz:** `MÉRETPRÓBA – TERV SZERINTI GEOMETRIA` (helyszínen nem mért, ±5–15 cm). **Bemenet:** az Opus-ág `b24bee7` állapota (a `7d3c67f` nem volt elérhető – lásd az auditot). **Hatály:** S01 Kyoto Ink és S02 BiBo Nocturne, Cam_02 és Cam_12 v3. Az S04 (Lilo), S05 (Melva), S07 (Wolke 256 × 118), S08 (torony–kanapé), S09 (karfás végszék), S10 (mesa-bútortestek) **nem futott**, mert ezek a termékek és méretek csak a végső commitban vannak.
+**Státusz:** `MÉRETPRÓBA – TERV SZERINTI GEOMETRIA` (helyszínen nem mért, ±5–15 cm).
+- **1–4. pont:** az Opus-ág `b24bee7` állapotára (az első kör, a végleges forrás előtt).
+- **5–6. pont: a végleges forrás, `7d3c67f`** (S01/S02 a v1.2 javított promptokkal; S04, S05, S07, S08, S09, S10).
 
 ## Bemenet és sértetlenség
 - .blend: `03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend` (v2b-1-k13), sha256 `e01170d3…70ddbd`. **Másolaton** fut (`A902_k13_MASOLAT_integrator.blend` a scratch mappában); a szkript nem ment.
@@ -82,3 +84,35 @@ Tömbképek (EEVEE, 800 × 500): `ki/A902_OPUS55_{S01,S02}_{Cam02,Cam12v3}_tomeg
 - az ML04-mondat cseréje a Cam_02-promptokban.
 
 Nem igazolt (hétfő, 2026-10-26): teraszajtó, kávamélység (az S02 U-kar és a függöny), G-dobozok helye, padlócímke és deszkairány, HF03 hőkamera az ML04/ML05-nél, a 06.2 szaniterei.
+
+---
+
+## 5. Végleges forrás (7d3c67f) – S01/S02 a v1.2 promptokkal
+Szkript: `04_blender_opus_vegleges.py` (ugyanazon a másolaton; sha előtte/utána `e01170d3…`); kimenet: `ki_vegleges/`. Változás az 1–4. ponthoz képest: a W02-növény törölve (v1.2), az S02 lámpái a végleges forrás szerint (ML04 Kave Home Idela Ø26, ML05 Westwing Dancing Ø65 × 38), a W02-mű alsó éle S01-ben 2,05 alá igazítva (a tintavonal-sín fölötte).
+
+| | S01F | S02F |
+|---|---|---|
+| Validátor | 1 téves hiba (S08 érzékelő, fal túloldala), 12 villamos figyelmeztetés (D/G a TV-fal mögött) | ua. |
+| Bútor ↔ bútor átfedés | **0** (az r1-ben lévő mű ↔ növény és mű ↔ sín megszűnt) | **0** |
+| Cam_02: TV-fal / takaratlan W01 | 25,5 % / 96,8 % | 25,0 % / 94,0 % |
+| Cam_02: ML04 vetület | x 1,04–2,33 – **képen kívül** | x 1,23–1,56 – **képen kívül** |
+| Cam_12 v3: kanapé | 16,5 % | 23,3 % |
+| Cam_12 v3: W02 takaratlan | **100 %** (r1: 83 %) | 85,7 % (a U háttámlája takar alul; r1: 72 %) |
+| Cam_12 állóhely | szabad | szabad |
+| Közlekedés (2D, 1. pont) | változatlan: minden kötelező út OK középső szárnnyal; keleti szárnynál 5+1 | ua. |
+
+## 6. Végleges forrás – S04, S05, S07, S08, S09, S10 (prioritás szerint)
+Szkriptek: `03_kozlekedes_2d_opus_S04_S10.py`, `03b_finomitas_S04_S05_S08.py` (1 cm-es felbontás), `04_blender_opus_vegleges.py`. A kanapék gyártói belső méretei nincsenek az elemlistában – **FELT** (lásd a táblát); a koordinátákat az integrátor rendelte hozzá. Teraszajtó, csak keleti szárny: minden stílusban 0,65–0,77 m → 5+1 kell (5+1-gyel 0,95–1,00 m).
+
+| Stílus | Ellenőrzött elem | Eredmény (középső szárny) | Verdikt |
+|---|---|---|---|
+| **S04** Lilo bouclé L 260 × 176 × 79 (FELT: ülés 100, sarokelem 100, sarok délen, északi vég y 7,59) | kanapé–HZ-1 konzol (32 magas, 40 mély) | 0,80 m; W02–kanapé 0,94; hálók felé 0,94 **olajfa nélkül**, az olajfával elzárva; északra tolva (y 7,70) a hálók felé 1,05, de az olajfával 0,55 | **NEM** a spec szerint (olajfa – K-03); olajfa nélkül **OK** |
+| **S05** Melva kord L 238 × 143 × 75 (FELT: ülés 90, sarok délen) | kanapé–MS-1 konzol; Samantha 55 × 55 székek; W02 tükör + vászon | kanapé–konzol 1,12; **05.3 felé 0,89 m** (1 cm hiány); a Ø 90 tükör + 100 cm vászon nem fér a W02 kapcsolóoszlop előtti ≈ 1,8 m-ére (villamos hiba K10–K12, T01) | **NEM** (K-14) – kis módosítással javítható |
+| **S07** Wolke Teddy 256 × 118 × 65 (FELT: ülés 95, rövid szár délen) | kanapé–LF-2 konzol | 1,33 m; minden út ≥ 0,90 (hálók 0,95) | **OK** – a nappali üresebb (Opus is jelzi) |
+| **S08** Lennon L + MR-1 grafit torony 60 × 253 × 60 | kanapé–torony; MR-2 sárga doboz | a D18 előtt: **0,58 m**; a fal déli végén: 0,72 m, de a hálók felé **0,85**; **MR-2 ↔ MR-1 40 cm-es ütközés**. 45 cm-es toronnyal: 0,73 m, minden út ≥ 0,90 (05.3 0,92) | **NEM** 60 cm-mel; **OK 45 cm-mel**, ha az MR-2 áthelyezve (K-13) |
+| **S09** Lennon L + 2 Calan karfás végszék (66 × FELT 60) | végszék-kihúzás, utak | kihúzás min. 1,05; konyha 0,90 (határ); terasz 0,90 | **OK**; keleti szárnynál 5+1 (az északi végre oldalszék) |
+| **S10** JÄTTEBO U + mesa (DM-1 400 × 30 × 45; DM-2 130 × 60 × 40; DM-3 70 × 160 × 40; napkorong Ø 100) | kanapé–mesa; Adularia 85 × 85 a U-ban; napkorong | kanapé–mesa 0,88; utak OK; **Adularia ↔ DM-1 fiókos lépcső 0,23 m** (a fiók nem nyitható); a napkorong (y 7,00–8,00) a TV és az üvegsarok közé épp befér | **OK** az utakra; **NEM** a dohányzóasztalra (K-08) |
+
+Kamera (minden stílus): az ML04 a Cam_02 képkeretén kívül van (x 1,14–1,84) – K-02 mind a tízben; a Cam_12 állóhelye szabad; az ML04 a Cam_12-ben mindenütt a képen van. Validátor: mindenütt a téves S08-érzékelő hiba + 9–12 villamos figyelmeztetés (D/G a TV-fal mögött); valódi ütközés csak az S08-ban (MR-1 ↔ MR-2). Az S05 portál ↔ TV 4,9 cm-es átfedése modellezési egyszerűsítés (a portál tömör tömbként), nem tervezési hiba.
+
+**A Cam_10 régi szaniterhibái** (6 hiba, 3 figyelmeztetés) változatlanok; külön kezelve (2. pont), a hétfői mérés után külön PR.
