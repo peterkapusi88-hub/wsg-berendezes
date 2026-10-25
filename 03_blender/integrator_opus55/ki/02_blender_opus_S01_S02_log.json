@@ -1,0 +1,1099 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "A902_k13_MASOLAT_integrator.blend",
+ "sha256": "e01170d315193f8785bbeee5f7d319ce3c8adec886375962cee83e0a3f70ddbd",
+ "validator": {
+  "ures": "PASS – 0 hiba, 0 figyelmeztetés; réteg: []",
+  "referencia": "FAIL – 6 hiba, 3 figyelmeztetés; réteg: []",
+  "OPUS_S01": "FAIL – 1 hiba, 14 figyelmeztetés; réteg: ['Stil_OPUS_S01']",
+  "OPUS_S02": "FAIL – 1 hiba, 13 figyelmeztetés; réteg: ['Stil_OPUS_S02']"
+ },
+ "kepterulet": {
+  "Cam_02|S01": {
+   "uveg_terasz_kilatas": 0.2641,
+   "TV_fal_butor_panel": 0.2246,
+   "kanape": 0.1324,
+   "mennyezet": 0.1026,
+   "egyeb_epitett": 0.0662,
+   "padlo": 0.0576,
+   "etkezo": 0.0483,
+   "noveny": 0.0447,
+   "TV_kepernyo": 0.0264,
+   "ML05_lampa": 0.016,
+   "szonyeg": 0.0101,
+   "dohanyzoasztal": 0.007
+  },
+  "Cam_12_v3|S01": {
+   "kanape": 0.1646,
+   "mennyezet": 0.1448,
+   "egyeb_epitett": 0.1214,
+   "W02": 0.0965,
+   "etkezo": 0.0854,
+   "W03_05_3": 0.0812,
+   "W07": 0.0706,
+   "W02_mu": 0.068,
+   "noveny": 0.0489,
+   "konyha_butor": 0.0463,
+   "padlo": 0.0352,
+   "ML05_lampa": 0.0204,
+   "ML04_lampa": 0.0132,
+   "W02_sav": 0.0034
+  },
+  "Cam_02|S02": {
+   "uveg_terasz_kilatas": 0.2499,
+   "TV_fal_butor_panel": 0.2205,
+   "kanape": 0.1675,
+   "mennyezet": 0.1003,
+   "egyeb_epitett": 0.0549,
+   "padlo": 0.0534,
+   "etkezo": 0.0494,
+   "noveny": 0.049,
+   "TV_kepernyo": 0.0264,
+   "ML05_lampa": 0.0208,
+   "dohanyzoasztal": 0.0056,
+   "szonyeg": 0.0024
+  },
+  "Cam_12_v3|S02": {
+   "kanape": 0.2327,
+   "mennyezet": 0.135,
+   "egyeb_epitett": 0.1186,
+   "W03_05_3": 0.0823,
+   "W02_mu": 0.0712,
+   "W07": 0.0688,
+   "etkezo": 0.0687,
+   "W02": 0.0549,
+   "konyha_butor": 0.0488,
+   "noveny": 0.0382,
+   "ML05_lampa": 0.0326,
+   "padlo": 0.0284,
+   "W02_sav": 0.0101,
+   "ML04_lampa": 0.0097
+  }
+ },
+ "lathatosag": {
+  "Cam_02|S01": {
+   "W01_TV_fal": {
+    "minta": 266,
+    "kepben": 251,
+    "takaratlan": 169,
+    "arany_kepben": 0.944,
+    "takaratlan_a_kepbenibol": 0.673
+   },
+   "W02": {
+    "minta": 147,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W07": {
+    "minta": 140,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W03_05_3_ajto": {
+    "minta": 40,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "etkezo_asztallap": {
+    "minta": 30,
+    "kepben": 1,
+    "takaratlan": 1,
+    "arany_kepben": 0.033,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "konyha_magas_elemek_eleje": {
+    "minta": 99,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "terasz_uveg_kilatas": {
+    "minta": 110,
+    "kepben": 84,
+    "takaratlan": 76,
+    "arany_kepben": 0.764,
+    "takaratlan_a_kepbenibol": 0.905
+   }
+  },
+  "Cam_12_v3|S01": {
+   "W01_TV_fal": {
+    "minta": 266,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W02": {
+    "minta": 147,
+    "kepben": 147,
+    "takaratlan": 122,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.83
+   },
+   "W07": {
+    "minta": 140,
+    "kepben": 126,
+    "takaratlan": 126,
+    "arany_kepben": 0.9,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "W03_05_3_ajto": {
+    "minta": 40,
+    "kepben": 40,
+    "takaratlan": 32,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.8
+   },
+   "etkezo_asztallap": {
+    "minta": 30,
+    "kepben": 30,
+    "takaratlan": 30,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "konyha_magas_elemek_eleje": {
+    "minta": 99,
+    "kepben": 99,
+    "takaratlan": 60,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.606
+   },
+   "terasz_uveg_kilatas": {
+    "minta": 110,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   }
+  },
+  "Cam_02|S02": {
+   "W01_TV_fal": {
+    "minta": 266,
+    "kepben": 251,
+    "takaratlan": 152,
+    "arany_kepben": 0.944,
+    "takaratlan_a_kepbenibol": 0.606
+   },
+   "W02": {
+    "minta": 147,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W07": {
+    "minta": 140,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W03_05_3_ajto": {
+    "minta": 40,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "etkezo_asztallap": {
+    "minta": 30,
+    "kepben": 1,
+    "takaratlan": 1,
+    "arany_kepben": 0.033,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "konyha_magas_elemek_eleje": {
+    "minta": 99,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "terasz_uveg_kilatas": {
+    "minta": 110,
+    "kepben": 84,
+    "takaratlan": 73,
+    "arany_kepben": 0.764,
+    "takaratlan_a_kepbenibol": 0.869
+   }
+  },
+  "Cam_12_v3|S02": {
+   "W01_TV_fal": {
+    "minta": 266,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   },
+   "W02": {
+    "minta": 147,
+    "kepben": 147,
+    "takaratlan": 106,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.721
+   },
+   "W07": {
+    "minta": 140,
+    "kepben": 126,
+    "takaratlan": 126,
+    "arany_kepben": 0.9,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "W03_05_3_ajto": {
+    "minta": 40,
+    "kepben": 40,
+    "takaratlan": 33,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.825
+   },
+   "etkezo_asztallap": {
+    "minta": 30,
+    "kepben": 30,
+    "takaratlan": 30,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 1.0
+   },
+   "konyha_magas_elemek_eleje": {
+    "minta": 99,
+    "kepben": 99,
+    "takaratlan": 61,
+    "arany_kepben": 1.0,
+    "takaratlan_a_kepbenibol": 0.616
+   },
+   "terasz_uveg_kilatas": {
+    "minta": 110,
+    "kepben": 0,
+    "takaratlan": 0,
+    "arany_kepben": 0.0,
+    "takaratlan_a_kepbenibol": null
+   }
+  }
+ },
+ "vetites": {
+  "Cam_02|S01": {
+   "OPUS_kanape": {
+    "x0": 0.218,
+    "x1": 0.721,
+    "y_alul": -0.147,
+    "y_felul": 0.375
+   },
+   "OPUS_etkezo": {
+    "x0": 0.732,
+    "x1": 3.854,
+    "y_alul": -5.059,
+    "y_felul": 0.282
+   },
+   "OPUS_tv": {
+    "x0": -0.084,
+    "x1": 0.478,
+    "y_alul": 0.166,
+    "y_felul": 0.965
+   },
+   "OPUS_dohanyzo": {
+    "x0": 0.376,
+    "x1": 0.521,
+    "y_alul": 0.215,
+    "y_felul": 0.362
+   },
+   "OPUS_ML05": {
+    "x0": 0.39,
+    "x1": 0.49,
+    "y_alul": 0.736,
+    "y_felul": 0.991
+   },
+   "OPUS_ML04_lampa": {
+    "x0": 1.041,
+    "x1": 2.332,
+    "y_alul": 0.582,
+    "y_felul": 1.25
+   },
+   "OPUS_W02_mu": {
+    "x0": -0.289,
+    "x1": -0.068,
+    "y_alul": -0.27,
+    "y_felul": 1.41
+   },
+   "OPUS_noveny": {
+    "x0": -0.133,
+    "x1": 0.086,
+    "y_alul": -0.147,
+    "y_felul": 0.711
+   }
+  },
+  "Cam_12_v3|S01": {
+   "OPUS_kanape": {
+    "x0": -0.026,
+    "x1": 0.882,
+    "y_alul": -0.844,
+    "y_felul": 0.323
+   },
+   "OPUS_etkezo": {
+    "x0": -0.031,
+    "x1": 0.38,
+    "y_alul": 0.031,
+    "y_felul": 0.423
+   },
+   "OPUS_tv": {
+    "x0": 1.152,
+    "x1": 3.741,
+    "y_alul": -3.431,
+    "y_felul": 1.134
+   },
+   "OPUS_dohanyzo": {
+    "x0": 0.376,
+    "x1": 1.013,
+    "y_alul": -2.539,
+    "y_felul": -0.169
+   },
+   "OPUS_ML05": {
+    "x0": 0.466,
+    "x1": 0.637,
+    "y_alul": 0.814,
+    "y_felul": 1.286
+   },
+   "OPUS_ML04_lampa": {
+    "x0": 0.105,
+    "x1": 0.275,
+    "y_alul": 0.566,
+    "y_felul": 0.665
+   },
+   "OPUS_W02_mu": {
+    "x0": 0.628,
+    "x1": 0.816,
+    "y_alul": 0.257,
+    "y_felul": 0.818
+   },
+   "OPUS_noveny": {
+    "x0": 0.738,
+    "x1": 0.85,
+    "y_alul": 0.068,
+    "y_felul": 0.644
+   }
+  },
+  "Cam_02|S02": {
+   "OPUS_kanape": {
+    "x0": 0.173,
+    "x1": 0.729,
+    "y_alul": -0.188,
+    "y_felul": 0.442
+   },
+   "OPUS_etkezo": {
+    "x0": 0.728,
+    "x1": 3.988,
+    "y_alul": -5.134,
+    "y_felul": 0.283
+   },
+   "OPUS_tv": {
+    "x0": -0.089,
+    "x1": 0.499,
+    "y_alul": 0.13,
+    "y_felul": 0.965
+   },
+   "OPUS_dohanyzo": {
+    "x0": 0.342,
+    "x1": 0.46,
+    "y_alul": 0.196,
+    "y_felul": 0.348
+   },
+   "OPUS_ML05": {
+    "x0": 0.366,
+    "x1": 0.515,
+    "y_alul": 0.73,
+    "y_felul": 0.961
+   },
+   "OPUS_ML04_lampa": {
+    "x0": 1.139,
+    "x1": 1.838,
+    "y_alul": 0.453,
+    "y_felul": 1.135
+   },
+   "OPUS_W02_mu": {
+    "x0": -0.309,
+    "x1": -0.069,
+    "y_alul": -0.195,
+    "y_felul": 1.507
+   },
+   "OPUS_noveny": {
+    "x0": -0.14,
+    "x1": 0.086,
+    "y_alul": -0.147,
+    "y_felul": 0.816
+   }
+  },
+  "Cam_12_v3|S02": {
+   "OPUS_kanape": {
+    "x0": -0.146,
+    "x1": 0.858,
+    "y_alul": -2.957,
+    "y_felul": 0.365
+   },
+   "OPUS_etkezo": {
+    "x0": -0.036,
+    "x1": 0.381,
+    "y_alul": 0.03,
+    "y_felul": 0.424
+   },
+   "OPUS_tv": {
+    "x0": 1.137,
+    "x1": 14.053,
+    "y_alul": -30.341,
+    "y_felul": 21.418
+   },
+   "OPUS_dohanyzo": {
+    "x0": 0.584,
+    "x1": 0.937,
+    "y_alul": -0.968,
+    "y_felul": -0.051
+   },
+   "OPUS_ML05": {
+    "x0": 0.422,
+    "x1": 0.678,
+    "y_alul": 0.801,
+    "y_felul": 1.257
+   },
+   "OPUS_ML04_lampa": {
+    "x0": 0.135,
+    "x1": 0.246,
+    "y_alul": 0.539,
+    "y_felul": 0.675
+   },
+   "OPUS_W02_mu": {
+    "x0": 0.609,
+    "x1": 0.825,
+    "y_alul": 0.31,
+    "y_felul": 0.821
+   },
+   "OPUS_noveny": {
+    "x0": 0.738,
+    "x1": 0.85,
+    "y_alul": 0.068,
+    "y_felul": 0.708
+   }
+  }
+ },
+ "kepek": [
+  {
+   "kamera": "Cam_02_Nappali_terasz",
+   "stilus": "S01",
+   "fajl": "A902_OPUS55_S01_Cam02_tomeg_integrator.png",
+   "mp": 4.2
+  },
+  {
+   "kamera": "Cam_12_Nappali_Hero",
+   "stilus": "S01",
+   "fajl": "A902_OPUS55_S01_Cam12v3_tomeg_integrator.png",
+   "mp": 3.8
+  },
+  {
+   "kamera": "Cam_02_Nappali_terasz",
+   "stilus": "S02",
+   "fajl": "A902_OPUS55_S02_Cam02_tomeg_integrator.png",
+   "mp": 4.0
+  },
+  {
+   "kamera": "Cam_12_Nappali_Hero",
+   "stilus": "S02",
+   "fajl": "A902_OPUS55_S02_Cam12v3_tomeg_integrator.png",
+   "mp": 3.9
+  }
+ ],
+ "tomeg": {
+  "S01": {
+   "OPUS_kanape_Lennon_fo_ules": [
+    5.72,
+    6.16,
+    0,
+    6.67,
+    7.59,
+    0.42
+   ],
+   "OPUS_kanape_Lennon_chaise": [
+    4.87,
+    5.21,
+    0,
+    6.67,
+    6.16,
+    0.42
+   ],
+   "OPUS_kanape_Lennon_hattamla_k": [
+    6.47,
+    5.21,
+    0.42,
+    6.67,
+    7.59,
+    0.68
+   ],
+   "OPUS_kanape_Lennon_kartamla_e": [
+    5.72,
+    7.41,
+    0.42,
+    6.47,
+    7.59,
+    0.6
+   ],
+   "OPUS_etkezo_Toni160_lap": [
+    8.0,
+    5.4,
+    0.72,
+    8.9,
+    7.0,
+    0.75
+   ],
+   "OPUS_etkezo_Toni160_lab": [
+    8.25,
+    5.95,
+    0,
+    8.65,
+    6.45,
+    0.72
+   ],
+   "OPUS_etkezo_szek_Eamy_0_ules": [
+    7.65,
+    5.825,
+    0,
+    8.18,
+    6.375,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_0_hat": [
+    7.65,
+    5.825,
+    0.46,
+    7.71,
+    6.375,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Eamy_1_ules": [
+    7.65,
+    6.425,
+    0,
+    8.18,
+    6.975,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_1_hat": [
+    7.65,
+    6.425,
+    0.46,
+    7.71,
+    6.975,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Eamy_2_ules": [
+    8.72,
+    5.825,
+    0,
+    9.25,
+    6.375,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_2_hat": [
+    9.19,
+    5.825,
+    0.46,
+    9.25,
+    6.375,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Eamy_3_ules": [
+    8.72,
+    6.425,
+    0,
+    9.25,
+    6.975,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_3_hat": [
+    9.19,
+    6.425,
+    0.46,
+    9.25,
+    6.975,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Eamy_4_ules": [
+    8.175,
+    5.05,
+    0,
+    8.725,
+    5.58,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_4_hat": [
+    8.175,
+    5.05,
+    0.46,
+    8.725,
+    5.11,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Eamy_5_ules": [
+    8.175,
+    6.82,
+    0,
+    8.725,
+    7.35,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Eamy_5_hat": [
+    8.175,
+    7.29,
+    0.46,
+    8.725,
+    7.35,
+    0.8
+   ],
+   "OPUS_tv_KI-A3_washi_panel": [
+    3.67,
+    4.05,
+    0,
+    3.71,
+    8.05,
+    2.885
+   ],
+   "OPUS_tv_KI-A2_torony": [
+    3.71,
+    4.45,
+    0,
+    4.11,
+    5.05,
+    2.53
+   ],
+   "OPUS_tv_KI-A1_uszo_pad": [
+    3.71,
+    5.05,
+    0.18,
+    4.13,
+    7.65,
+    0.56
+   ],
+   "OPUS_tv_kepernyo_65": [
+    3.71,
+    5.525,
+    0.735,
+    3.76,
+    6.975,
+    1.565
+   ],
+   "OPUS_dohanyzoasztal_FELT_O80": [
+    4.45,
+    6.45,
+    0.0,
+    5.25,
+    7.25,
+    0.35
+   ],
+   "OPUS_szonyeg_Nifelia_200x300_FELT_hely": [
+    4.3,
+    5.05,
+    0,
+    6.3,
+    7.95,
+    0.012
+   ],
+   "OPUS_ML05_lampa_Misaki_O40x70": [
+    5.42,
+    6.07,
+    2.15,
+    5.82,
+    6.47,
+    2.85
+   ],
+   "OPUS_ML04_lampa_Somar_O76_FELT_magassag": [
+    8.169,
+    5.894,
+    1.55,
+    8.929,
+    6.654,
+    1.9
+   ],
+   "OPUS_ML04_kabel": [
+    8.544,
+    6.269,
+    1.9,
+    8.554,
+    6.279,
+    2.9
+   ],
+   "OPUS_W02_mu_tusvonas_120x200": [
+    5.4,
+    4.05,
+    0.45,
+    6.6,
+    4.09,
+    2.45
+   ],
+   "OPUS_W02_tintavonal_sin_z210": [
+    5.18,
+    4.05,
+    2.1,
+    7.0,
+    4.13,
+    2.14
+   ],
+   "OPUS_noveny_W02_DNy_sarok_FELT_O45": [
+    5.225,
+    4.06,
+    0.0,
+    5.675,
+    4.51,
+    1.8
+   ]
+  },
+  "S02": {
+   "OPUS_kanape_JATTEBO_U_hat_ules": [
+    5.65,
+    4.975,
+    0,
+    6.6,
+    7.825,
+    0.42
+   ],
+   "OPUS_kanape_JATTEBO_U_del_kar": [
+    5.0,
+    4.975,
+    0,
+    5.65,
+    5.925,
+    0.42
+   ],
+   "OPUS_kanape_JATTEBO_U_eszak_kar": [
+    5.0,
+    6.875,
+    0,
+    5.65,
+    7.825,
+    0.42
+   ],
+   "OPUS_kanape_JATTEBO_U_hattamla_k": [
+    6.4,
+    4.975,
+    0.42,
+    6.6,
+    7.825,
+    0.8
+   ],
+   "OPUS_kanape_JATTEBO_U_hattamla_d": [
+    5.0,
+    4.975,
+    0.42,
+    6.4,
+    5.175,
+    0.8
+   ],
+   "OPUS_kanape_JATTEBO_U_hattamla_e": [
+    5.0,
+    7.625,
+    0.42,
+    6.4,
+    7.825,
+    0.8
+   ],
+   "OPUS_etkezo_Toni160_fekete_lap": [
+    8.0,
+    5.4,
+    0.72,
+    8.9,
+    7.0,
+    0.75
+   ],
+   "OPUS_etkezo_Toni160_fekete_lab": [
+    8.25,
+    5.95,
+    0,
+    8.65,
+    6.45,
+    0.72
+   ],
+   "OPUS_etkezo_szek_Ciselia_0_ules": [
+    7.63,
+    5.837,
+    0,
+    8.18,
+    6.362,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_0_hat": [
+    7.63,
+    5.837,
+    0.46,
+    7.69,
+    6.362,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Ciselia_1_ules": [
+    7.63,
+    6.438,
+    0,
+    8.18,
+    6.963,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_1_hat": [
+    7.63,
+    6.438,
+    0.46,
+    7.69,
+    6.963,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Ciselia_2_ules": [
+    8.72,
+    5.837,
+    0,
+    9.27,
+    6.362,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_2_hat": [
+    9.21,
+    5.837,
+    0.46,
+    9.27,
+    6.362,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Ciselia_3_ules": [
+    8.72,
+    6.438,
+    0,
+    9.27,
+    6.963,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_3_hat": [
+    9.21,
+    6.438,
+    0.46,
+    9.27,
+    6.963,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Ciselia_4_ules": [
+    8.188,
+    5.03,
+    0,
+    8.712,
+    5.58,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_4_hat": [
+    8.188,
+    5.03,
+    0.46,
+    8.712,
+    5.09,
+    0.8
+   ],
+   "OPUS_etkezo_szek_Ciselia_5_ules": [
+    8.188,
+    6.82,
+    0,
+    8.712,
+    7.37,
+    0.46
+   ],
+   "OPUS_etkezo_szek_Ciselia_5_hat": [
+    8.188,
+    7.31,
+    0.46,
+    8.712,
+    7.37,
+    0.8
+   ],
+   "OPUS_tv_BN-A1_deli_kabinet": [
+    3.67,
+    4.05,
+    0,
+    4.12,
+    4.85,
+    2.53
+   ],
+   "OPUS_tv_BN-A2_eszaki_kabinet": [
+    3.67,
+    7.35,
+    0,
+    4.07,
+    8.05,
+    2.53
+   ],
+   "OPUS_tv_BN-A3_ezust_mezo": [
+    3.67,
+    4.85,
+    0,
+    3.71,
+    7.35,
+    2.885
+   ],
+   "OPUS_tv_BN-A3_ezust_kabinetek_felett": [
+    3.67,
+    4.05,
+    2.53,
+    3.71,
+    8.05,
+    2.885
+   ],
+   "OPUS_tv_BN-A4_uszo_pad": [
+    3.71,
+    5.0,
+    0.22,
+    4.11,
+    7.2,
+    0.54
+   ],
+   "OPUS_tv_BN-A5_tukorres_del": [
+    3.71,
+    4.85,
+    0.54,
+    3.714,
+    5.0,
+    2.53
+   ],
+   "OPUS_tv_BN-A5_tukorres_eszak": [
+    3.71,
+    7.2,
+    0.54,
+    3.714,
+    7.35,
+    2.53
+   ],
+   "OPUS_tv_kepernyo_65": [
+    3.71,
+    5.525,
+    0.735,
+    3.76,
+    6.975,
+    1.565
+   ],
+   "OPUS_dohanyzoasztal_FELT_60x60": [
+    4.6,
+    6.1,
+    0,
+    5.2,
+    6.7,
+    0.4
+   ],
+   "OPUS_szonyeg_Marely_200x300_FELT_hely": [
+    4.3,
+    4.95,
+    0,
+    6.3,
+    7.95,
+    0.012
+   ],
+   "OPUS_ML05_lampa_sargarez_opal_FELT_O60": [
+    5.32,
+    5.97,
+    2.15,
+    5.92,
+    6.57,
+    2.7
+   ],
+   "OPUS_ML04_lampa_Brisia_O50_FELT_magassag": [
+    8.299,
+    6.024,
+    1.45,
+    8.799,
+    6.524,
+    1.95
+   ],
+   "OPUS_ML04_kabel": [
+    8.544,
+    6.269,
+    1.95,
+    8.554,
+    6.279,
+    2.9
+   ],
+   "OPUS_W02_navy_labazat_18mm": [
+    5.18,
+    4.05,
+    0,
+    7.0,
+    4.068,
+    1.1
+   ],
+   "OPUS_W02_mu_140x180": [
+    5.35,
+    4.068,
+    0.65,
+    6.75,
+    4.098,
+    2.45
+   ],
+   "OPUS_noveny_olajfa_W02_sarok_FELT_O45": [
+    5.225,
+    4.06,
+    0.0,
+    5.675,
+    4.51,
+    2.0
+   ]
+  }
+ },
+ "konyha": {
+  "KONYHA_nyugati_sor_fozolap": [
+   8.45,
+   2.35,
+   0,
+   9.05,
+   4.05,
+   0.9
+  ],
+  "KONYHA_keleti_sor": [
+   9.95,
+   1.95,
+   0,
+   10.55,
+   4.65,
+   0.9
+  ],
+  "KONYHA_huto_oszlop_D13": [
+   9.95,
+   4.65,
+   0,
+   10.55,
+   5.25,
+   2.2
+  ],
+  "KONYHA_deli_magas_elemek_suto_mikro": [
+   9.05,
+   1.35,
+   0,
+   9.95,
+   1.95,
+   2.2
+  ],
+  "KONYHA_keleti_sor_deli_vege": [
+   9.95,
+   1.35,
+   0,
+   10.55,
+   1.95,
+   0.9
+  ],
+  "KONYHA_sarok_elem": [
+   8.45,
+   1.35,
+   0,
+   8.95,
+   2.25,
+   0.9
+  ]
+ },
+ "cam12_allohely_utkozes": {
+  "S01": [
+   "OPUS_szonyeg_Nifelia_200x300_FELT_hely"
+  ],
+  "S02": [
+   "OPUS_szonyeg_Marely_200x300_FELT_hely"
+  ]
+ }
+}
