@@ -1,6 +1,6 @@
 # Verseny-baseline – WSG Design Challenge 2026 (2026-10-25)
 
-Ez az ág (`competition/baseline-20261025`, tag `verseny-baseline-20261025`) a három versenyző (A GPT-6 Astra · B Claude Fable 5.1 · C Claude Opus 5.5) **azonos, rögzített forrásállapota**. Tartalma: a `main` `29e72cf` állapota + három, a mainbe **nem** beolvasztott javaslati ág:
+Ez az ág (`competition/baseline-20261025`; rögzített SHA a GOAL §7-ben, tag opcionális) a három versenyző (A GPT-6 Astra · B Claude Fable 5.1 · C Claude Opus 5.5) **azonos, rögzített forrásállapota**. Tartalma: a `main` `29e72cf` állapota + három, a mainbe **nem** beolvasztott javaslati ág:
 
 | Beemelt ág | PR | Státusz | Mit ad |
 |---|---|---|---|
