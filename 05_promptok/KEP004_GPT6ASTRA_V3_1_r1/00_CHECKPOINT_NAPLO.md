@@ -11,3 +11,5 @@ CP1.02: BiBo Nocturne teljes stílusspecifikáció mentése – 1b48b0d5c977ad37
 CP1.03: Alelí Casa teljes stílusspecifikáció mentése – 668e1c672b1dcc376c7d29333c282f7b148e417c – 2026-10-25T04:58:07.030Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.04: LA Horizon teljes stílusspecifikáció mentése – df73727f4292891e71cf20bff248af8191d99f80 – 2026-10-25T04:58:15.805Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1.05: Miami Streamline teljes stílusspecifikáció mentése – beef15bc780abcfbd60e1ef85244c96d072189bc – 2026-10-25T04:58:25.303Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
