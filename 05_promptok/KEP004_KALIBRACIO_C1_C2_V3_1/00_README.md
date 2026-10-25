@@ -2,17 +2,17 @@
 
 **Mire:** a WSG Design Challenge 2026 (Astra · Fable · Opus) közös mércéje. Péter döntése (2026-10-25 04:03, 04:27): versenyzőnként **60 saját prompt + e 6 közös kalibráció = 66 képes készlet**; a hat kalibrációt **egyszer, Claude** írja, a versenyzők **nem** írnak C1/C2 promptot, de a 66 soros manifestjükben a 61–66. sor `KOZOS` státusszal erre a mappára mutat. A regiszter 61–66. sora (`05_promptok/KEP004_66_kep_keret_v1/KEP004_66_kep_regiszter.csv`), kep_id betű szerint.
 
-**Mit mutat:** a v1 Zenit- és Lake Forest-koncepció (`06_koncepcio/WSG_berendezes_Zenit_es_LakeForest_verzio.md`) újratervezve a valódi A-902 héjban, V3.1-szinten: minden látható tömör falnak terve van, Hue-fény, C elrendezés (PR #18, Péter döntése), valós termékméretek. **Szerep: a kreatív minimum referenciája, nem versenyző.** Nem helyettesíti az S06 Zenit Atelier és az S07 Lake Forest Couture teljes stílusát.
+**Mit mutat:** a v1 Zenit- és Lake Forest-koncepció (`06_koncepcio/WSG_berendezes_Zenit_es_LakeForest_verzio.md`) újratervezve a valódi A-902 héjban, V3.1-szinten: minden látható tömör falnak terve van, Hue-fény, C elrendezés (PR #18/#20, Péter döntése), valós termékméretek. **Fény (Péter 04:49):** Cam_02 este/kék óra a TV-fal Hue-világításával, Cam_04 esti Hue, Cam_11 nappali – a stílusképekkel azonos (§0.10). **Szerep: a kreatív minimum referenciája, nem versenyző.** Nem helyettesíti az S06 Zenit Atelier és az S07 Lake Forest Couture teljes stílusát.
 
 **Státusz:** `COMPLETE` kreatív prompt, `NEEDS_CLAUDE_VALIDATION` – nem futtatható csomag. Futtatható csomagot Claude a Blender-ellenőrzött FIXED/FRAME LAYOUT blokkokkal és az eredeti helyszíni referenciákkal épít, a stílusképekkel azonos kapukkal.
 
 ## Fájlok
 | nr | kep_id | kamera | fény | karakter |
 |---|---|---|---|---|
-| 61 | `A902_C1_Zenit_1_nappali-terasz_Cam_02_A` | Cam_02 | nappal | 5 796 |
+| 61 | `A902_C1_Zenit_1_nappali-terasz_Cam_02_A` | Cam_02 | **este / kék óra, Hue TV-fal** (Péter 04:49) | 6 644 |
 | 62 | `A902_C1_Zenit_3_master_Cam_04_A` | Cam_04 | este, Hue | 4 846 |
 | 63 | `A902_C1_Zenit_3_master_Cam_11_A` | Cam_11 | nappal | 3 847 |
-| 64 | `A902_C2_LakeForest_1_nappali-terasz_Cam_02_A` | Cam_02 | nappal | 5 604 |
+| 64 | `A902_C2_LakeForest_1_nappali-terasz_Cam_02_A` | Cam_02 | **este / kék óra, Hue TV-fal** (Péter 04:49) | 6 495 |
 | 65 | `A902_C2_LakeForest_3_master_Cam_04_A` | Cam_04 | este, Hue | 5 061 |
 | 66 | `A902_C2_LakeForest_3_master_Cam_11_A` | Cam_11 | nappal | 3 936 |
 

@@ -1,5 +1,7 @@
 # WSG DESIGN CHALLENGE 2026 – közös §0 blokk és célzott javítások a három indítóprompthoz (v2, 2026-10-25 05:40 CET)
 
+**v3 – Péter 04:49:** a baseline v2 (`a8ab8d3`) ELŐZETES, nem indításra jóváhagyott; a végleges baseline a PR #20 lezárása után készül; fénystratégia egységesítve (§0.10); a Cam_12-korlát nem abszolút (§0.1).
+
 **v2 – Péter 04:27-es négy javítása:** közös verseny-baseline (§0.9), étkezőasztal-szabály (§0.1), képszám 60 saját + 6 közös (§0.4), a fix-alap versenyfeltételezés és a végső kapun ellenőrzött (§0.1, §0.5).
 
 **Forrás:** a ChatGPT által összeállított három indítóprompt (A – GPT-6 Astra Medium; B – Claude Fable 5.1 High; C – Claude Opus 5.5 High) és preflight-kérés, Péter csatolmánya 2026-10-25 03:13; Péter döntései 03:32–04:10 (66 prompt marad; ő a döntőbíró; hero-nézetek először; C1/C2 egyszer, Claude; költség-keresztellenőrzés; közös bemenetek a start előtt; C elrendezés + K1 Cam_03 a PR #18-ból).
@@ -63,7 +65,9 @@ versenyzőnek azonos kiegészítések; olvasd el, mielőtt tervezel):
   korlát: a TV-fal északi végén (y 7,65–8,05) a mennyezetig érő szekrény
   tilalma csak kamerahelyből ered – ha oda erős, kivitelezhető kompozíciót
   tervezel, írd le, Claude alternatív hero kamerát vizsgál, és bemutatja a
-  kompromisszumot; az enteriőrt a kép kedvéért nem butítjuk le. A végleges
+  kompromisszumot; az enteriőrt a kép kedvéért nem butítjuk le, a kamerát
+  vizsgáljuk újra (Péter 04:49). A kamerakorlát tehát NEM abszolút
+  építészeti tilalom. A végleges
   FRAME LAYOUT-okat Claude adja; a kompozíciót a látható elemek
   hierarchiájaként írd le.
 - KÖLTSÉG: ai-coordination/inputs/A902_verseny/KOZOS_FIX_ALAP_v1.csv – a
@@ -129,6 +133,15 @@ keresztellenőrzött ≤ 18 M, renderhűség) megfelelt tervek közül Péter d�
 látvány alapján; az integrációtól kezdve a csomagok kódnevet (X/Y/Z) kapnak.
 Ne értékeld magadat győztesnek, ne írj a másik két versenyzőről.
 
+0.10 Fénystratégia (Péter, 2026-10-25 04:49 – felülírja az r2 brief §11.6
+és a §0.1 kameraleírásainak ettől eltérő fényét): Cam_02 = kék óra / este,
+a TV-fal Hue-világítása a kép fő fényforrása (rejtett vonalfények, ML05
+függeszték, kiegészítő lámpák 2200–2700 K; kint a dusk-kék város);
+Cam_12 = NAPPALI fény (a hero nézet világos, természetes fényben, a Hue
+csak kiegészítő vagy kikapcsolva); Cam_03 = nappali; Cam_04 = esti Hue;
+Cam_11 = nappali panoráma; Cam_10 = kizárólag műfény. Mind a tíz stílus és
+a hat közös kalibráció ugyanezt követi; a C1/C2 Cam_02 kalibráció esti.
+
 0.8 Folytatás megszakadásnál: ha a futás (kontextus, keret, GitHub-írás)
 megszakad, új munkamenetben a saját 00_CHECKPOINT_NAPLO.md és
 01_MANIFEST_66.csv alapján a PENDING/DRAFT tételekkel folytatod, a COMPLETE
@@ -138,7 +151,9 @@ csomagban átadod a chatben, és Claude változtatás nélkül committálja a sa
 
 0.9 Közös forrásállapot és ágak: a három versenyző azonos, rögzített
 verseny-baseline-ból indul: ág `competition/baseline-20261025-v2`, rögzített
-commit SHA a GOAL §7-ben és a PR #19 leírásában (a tag
+commit SHA a GOAL §7-ben és a PR #19 leírásában (ELŐZETES, amíg a PR #20
+kameracsomag le nem zárul; a végleges SHA-t Claude a PR #20 lezárása után
+adja, és csak Péter indít) (a tag
 `verseny-baseline-20261025` opcionális, Péter hozza létre; a Claude-proxy
 tag-írást nem enged). Ez a main friss állapota + a PR #20 (kameracsomag C:
 végleges C elrendezés, Cam_03 K1, Cam_12 v3, validátor PASS, reality
@@ -160,6 +175,7 @@ nem módosítod.
 | A, B, C | elrendezés (A §5, B §4, C §4) | „Claude integrátor 2–3 méretezett alternatívát készít …” | „Az elrendezés alapja a C változat (§0.1, PR #18); a méretezett bútorszándékot ezen belül add meg.” |
 | A, B, C | költség (A §8, B §7, C §7) | „Stílusonként adj: teljes lakásszintű becsült költségvetést …” | „Stílusonként adj: a 9,60 M-os stílusfüggő keret tételes fő és gazdaságos költségvetését a KOZOS_FIX_ALAP_v1 szerint, a 8,40 M fix sort változatlanul átvéve (§0.1).” |
 | A, B, C | költség, „Árazatlan vagy hiányzó … nem tekinthető igazoltnak” | ua. | „Árazatlan szükséges tételt a keresztellenőrző benchmark-árral pótol és jelöl (§0.5); törekedj a teljességre, mert a pótlás konzervatív. A 8,40 M fix alap versenyfeltételezés; a végső kapun ezt is ellenőrizzük, a győztes teljes bekerülése ≤ 18,00 M.” |
+| A, B, C | fény (A §7, B §6, C §6) | „Cam_02: … nappali fény, geometriai kontroll” / „Cam_12: … esti/kékórás … Hue” | „Cam_02: kék óra / este, a TV-fal Hue-világítása a fő fényforrás; Cam_12: nappali fény; Cam_03 nappali; Cam_04 esti Hue; Cam_11 nappali; Cam_10 műfény (§0.10).” |
 | A, B, C | ág (A §11, B §9, C §9) | „Kizárólag a rögzített közös commitból indíts” | „Kizárólag a `competition/baseline-20261025-v2` ág rögzített commitjából indíts; a draft PR célága `competition/baseline-20261025-v2`.” |
 | A | §2 | „A heti Work-keretem körülbelül 26%-a maradt.” | marad, kiegészítve: „Ha a keret elfogy, a §0.8 szerint folytatjuk; a kész részek nem vesznek el.” |
 | A | §11 ág | `astra/creative-upgrade-v3-1-r1-20261025` | marad, **de** a mappa és a results-fájl neve legyen egységes a brieffel: `05_promptok/KEP004_ASTRA_V3_1_r1/` és `…V3_1_r1.md` (ok); a brief „r2” a brief verziója, a kimenet „r1” az első kimenet – ezt a README első sorában mondd ki. |
