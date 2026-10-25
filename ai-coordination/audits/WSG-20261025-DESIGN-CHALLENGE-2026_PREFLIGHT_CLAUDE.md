@@ -6,13 +6,13 @@
 **Hatókör:** csak audit. Nem indult versenymunka, nem készült versenyzői ág vagy PR, nem módosult közös forrásfájl, nem készült kép. A közös bemeneteket (fix-alap, Hue-alap, kalibráció, §0 blokk) külön draft PR-ben adom át.
 **Összeférhetetlenség kimondva:** az auditor (Fable) a B versenyző modellje. Ezért a geometriai kapu szkriptes és kódneves, a költségkaput keresztellenőrzés végzi (Fable tervét GPT-6), a döntőbíró Péter.
 
-## Verdikt: **INDÍTHATÓ – a közös §0 blokk (v2) beillesztése, a tíz szövegcsere és a `verseny-baseline-20261025` tag létrejötte után.**
+## Verdikt: **INDÍTHATÓ – a közös §0 blokk (v2) beillesztése, a tíz szövegcsere és a `competition/baseline-20261025` rögzített commitja után.**
 Enélkül a három modell a 36–38 cm-es, már elvetett elrendezésre, egy nem létező Cam_03-ra és egymástól eltérő költségalapra tervezne; a kanapé L/U követelménye egyik promptban sincs.
 
 ## A 15 ellenőrzés
 | # | Kérdés | Eredmény | Megjegyzés / javítás |
 |---|---|---|---|
-| 1 | Azonos forráscommit és r2 brief | **JAVÍTVA** | a `45d1e4d` nem tartalmazza a PR #17/#18/#19 közös bemeneteit → **új közös verseny-baseline:** ág `competition/baseline-20261025`, tag `verseny-baseline-20261025` = main `29e72cf` + PR #17 (Cam_12, JAVASLAT) + PR #18 (C elrendezés, Cam_03 K1, MÉRETPRÓBA) + PR #19 (közös bemenetek, draft). A main nem változott, a PR-ek nincsenek beolvasztva, az élő Blender érintetlen. A versenyzők ága a baseline-ból indul, a draft PR-ek célága a baseline ág. |
+| 1 | Azonos forráscommit és r2 brief | **JAVÍTVA** | a `45d1e4d` nem tartalmazza a PR #17/#18/#19 közös bemeneteit → **új közös verseny-baseline:** ág `competition/baseline-20261025` (rögzített SHA a GOAL §7-ben; tag opcionális) = main `29e72cf` + PR #17 (Cam_12, JAVASLAT) + PR #18 (C elrendezés, Cam_03 K1, MÉRETPRÓBA) + PR #19 (közös bemenetek, draft). A main nem változott, a PR-ek nincsenek beolvasztva, az élő Blender érintetlen. A versenyzők ága a baseline-ból indul, a draft PR-ek célága a baseline ág. |
 | 2 | 10 stílus, 3+3 TV-fal, 66 prompt | **IGEN, pontosítva** | versenyzőnként **60 saját + 6 közös kalibráció = 66 képes készlet**; összesen 180 saját prompt; a 66 soros manifestben a 61–66. sor `KOZOS` (§0.4). S06/S07 teljes stílus marad. |
 | 3 | kep_id betű szerint | **IGEN** | mindhárom a regisztert hivatkozza; a kalibrációs 6 ID-t gépi ellenőrzéssel igazoltam a közös promptokon. |
 | 4 | Azonos kreatív/fal/Hue-követelmény | **IGEN** | a három szöveg tartalmilag azonos; a Hue az r2 §2–4-re támaszkodik → közös fajlagos árak a HUE_ALAPCSOMAG_v1-ben. |
