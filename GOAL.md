@@ -224,6 +224,29 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - a V3 és az eredeti csomagok érintetlenek;
     - ami nem fér bele a geometriába vagy a keretbe, azt jelölni kell, kivitelezhető alternatívával.
   - Érvényes marad: a hero kamera, a P902_24A, az U/L változatok, a szürke ajtók, a teljes falkezelés és a 66 képes ütemezés. **Generálás csak külön jóváhagyással.**
+- *(2026-10-25 01:58, Péter – eldöntve)* **Új nappali hero kamera: sarokból, átlósan.**
+  - A TV-fal felőli sarok közeléből. Látsszon: a kanapé eleje, az étkező, több konyha, az étkező mögötti fal, a szürke ajtók, jobbra a hálókhoz vezető rövid összekötő fal.
+  - 2–3 valós sarokállás vizsgálata Blenderben. Természetes perspektíva, nincs extrém nagylátószög, nem kell mindent belezsúfolni.
+  - **Új kötelező kreatív követelmény:** a hálókhoz vezető jobb oldali összekötő fal sem maradhat csupasz. Stílushoz illő, költségtudatos kezelést kap: tapéta, dekorpanel, grafika, később igazolt rejtett LED.
+    - A fal, az ajtók, a kapcsolók és a közlekedők helye és mérete változatlan.
+    - A falkezelés nem szűkítheti indokolatlanul a közlekedőt.
+  - A Cam_02 változatlan kontrollnézet. A V3.1-hez rögzíteni kell a kameraállást, a látható falszakaszokat és az összekötő fal igényét.
+- *(2026-10-25 02:06, Péter – eldöntve)* **MEHET a két Astra V3 Cam_02 próbakép** (S01 Kyoto Ink, S02 BiBo Nocturne).
+  - Claude futtatja, a bevált Chrome-automatizálással.
+  - Forrás: Astra PR #16, `be6b1f3`. Felhasználandó: a geometriai v2 javítás, a tömbreferencia, a helyszíni és termékfotók.
+  - A V3.1-ig tartó várakozás csak a végleges sorozatra vonatkozott. Képenként pontosan egy generálás.
+  - Világítás: a régi LED-tiltás nem jövőbeli szabály, de V3.1-es LED-et sem szabad kitalálni. A teszt és a végleges terv eltérését dokumentálni kell.
+  - Mindkét kép külön archiválandó, Gate-auditot kap. **A PR #16 beolvasztását ez nem jelenti, és a 66 képes sorozatra sem ad engedélyt.**
+  - Az ÉNy-i sarok a hero kamera fő jelöltje; a DNy-i sarokkal össze kell vetni.
+- *(2026-10-25 02:40, Claude – eredmény)* **A két V3 próbakép elkészült**, képenként egy generálással (02:18 és ≈02:23).
+  - Archív: `04_renderek/ai_chatgpt/STYLE10_KEP004/CREATIVE_UPGRADE_V3/`. Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md`.
+  - **Mindkettő `KONCEPCIÓ – NEM VALIDÁLT`.**
+  - **Elrendezés megfelel:** étkező a jobb alsó sarokban, nincs függeszték és dohányzóasztal, a TV-fal-együttes és a falkezelés egyben látszik.
+  - **Geometria FAIL:** a terasz felőli padlósík a jobb szélen 10–13,5 %-kal magasabban van (r1-ben ~20 %).
+  - **Javítandó:** S01 – 4 front helyett 3, a padló világosabb; S02 – lehetetlen tükörkép, világos téglakáva, a tükör a padlóig ér.
+  - **Nyitott döntések:**
+    - a kanapéhát és a nyugati széktámla között 0,36–0,38 m van (az étkező 0,15 m-rel keletre tolható);
+    - a D18 dugalj a magas szekrény mögé esik, szervizkivágás kell.
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
@@ -294,3 +317,7 @@ A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a projekt **kötelező értéka
     - **Gate: FAIL / ÚJRATERVEZÉS.** A tér szélesebb és mélyebb lett, az étkező a nappali bal előterébe került, a függeszték nem létező mennyezeti ponton lóg, és listán kívüli, travertinhatású dohányzóasztal jelent meg.
     - Audit: `ai-coordination/results/WSG-20261024-STYLE10-KEP-004_r1.md`.
     - Javaslat: prompt v2 a Cam_02-csomagokhoz, elrendezési blokkal és szürke tömbös elrendezés-vázlatképpel, majd egy újragenerálás. Péter dönt.
+  - **2026-10-25 02:40 – két V3 próbakép (S01, S02 Cam_02), Péter „mehet”-jével (02:06), képenként egy generálással.**
+    - Prompt: `05_promptok/KEP004_ChatGPT_Images_V3_teszt/` (V3 r1 + geometriai v2 + V3 tömbkép 1b-ként).
+    - Az elrendezés helyes. A geometria a terasz felőli padlósíkon 10–13,5 %-kal eltér, ezért FAIL. Mindkét kép `KONCEPCIÓ – NEM VALIDÁLT`.
+    - Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md`. A végleges sorozat Astra V3.1 után jön.

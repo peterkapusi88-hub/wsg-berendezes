@@ -12,3 +12,15 @@
 - **Egyezés az 1. alapképpel:** a tömbök nélküli ellenőrző render a v1-csomag 01-es alapképétől átlagosan 0,008/255, legfeljebb 1/255 eltérést mutat. A beállítás tehát azonos.
 
 **Felhasználás:** a geometriai blokkal együtt (`05_promptok/KEP004_ChatGPT_Images_v2_geometria/Cam02_GEOMETRIA_v2.md`), csak az Astra V3-mal egyesített, Péter által jóváhagyott promptban.
+
+## V3 tömbképek (2026-10-25, Astra Creative Upgrade V3 r1 befoglalói)
+| Fájl | Tartalom | sha256 |
+|---|---|---|
+| `A902_Cam02_tomeg_S01_V3_v1.png` | S01: KI3-V torony, KI3-P két sík, KI3-L, TV, Lennon jobbos L (hát x 7,17), Toni 200×90 + 6 Eamy | `2629cb2d…f9c4` |
+| `A902_Cam02_tomeg_S02_V3_v1.png` | S02: BN3-V (ajtós + tükörmező), BN3-P, BN3-L, TV, JÄTTEBO U 285×160, Anouk 180×90 + 6 Ciselia | `a37ead52…0036` |
+
+- Renderelve a v2b-1-k12 javaslati fájlból (`blender_cam12_v1/03_ellenorzes_tomegek.py`). A Cam_02 és minden geometria azonos a main v2b-1-k11b fájljával, csak a Cam_12 kamera többlet.
+- Validátor: mindkettő **PASS 0 hiba / 8 figyelmeztetés** – a TV-blokk és a D18 dugalj a szekrények mögött van. Részletek: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md` (2. pont).
+- Képtéri befoglalók és távolságok: `A902_Cam02_tomeg_V3_kepteri_v1.json`.
+- Felhasználás: 1b képként a V3 próbakép-promptokban (`05_promptok/KEP004_ChatGPT_Images_V3_teszt/`).
+

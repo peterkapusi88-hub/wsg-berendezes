@@ -5,6 +5,10 @@
 - Audit: `ai-coordination/results/WSG-20261024-STYLE10-KEP-004_r1.md`; bizonyítékképek: `_gate_r1/`.
 - Minden további lépéshez Péter „mehet”-je kell.
 
+**Állapot (2026-10-25 02:40):** +2 V3 próbakép a `CREATIVE_UPGRADE_V3/` almappában (S01 Kyoto Ink, S02 BiBo Nocturne, Cam_02; Péter „mehet”, 02:06; képenként egy generálás).
+- Elrendezés megfelel; geometria FAIL (a terasz felőli padlósík 10–13,5 %); `KONCEPCIÓ – NEM VALIDÁLT`.
+- Audit: `ai-coordination/results/WSG-20261025-KEP-004_V3teszt_r1.md`; bizonyítékok: `_gate_v3teszt/`; manifest: `archiv_manifest_v3teszt.json`.
+
 **Mi kerül ide** (lépésenként egy commit):
 - a KEP-004 ChatGPT-ben (normál chat, nem Work) generált képei, kanonikus néven: `<kép-ID>.png`, ismétlésnél `<kép-ID>_v2.png`;
 - mellettük a futtatott prompt: `<kép-ID>.prompt.txt`;

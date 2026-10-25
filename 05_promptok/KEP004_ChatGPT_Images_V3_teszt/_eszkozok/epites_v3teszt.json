@@ -1,0 +1,43 @@
+{
+ "forras": {
+  "astra_commit": "be6b1f333cf2923790e4577c9b716f5fcb3bb417",
+  "astra_fajl": "05_promptok/A902_S01_S02_Cam02_CREATIVE_UPGRADE_V3_r1.md",
+  "astra_fajl_sha256": "848739b4b42b0b76a0d94c3471b1d02423f969b9485f8da864625bdc6226a592"
+ },
+ "promptok": {
+  "S01": {
+   "kep_id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_r1",
+   "fajl": "05_promptok/KEP004_ChatGPT_Images_V3_teszt/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_V3_r1.prompt.txt",
+   "karakter": 18957,
+   "sha256": "8a26bfad37d527c41e60c069276552d73d0d0a06a54f46bf05b4425c81f845ce",
+   "csatolmany": 9,
+   "termekfotok": [
+    "Westwing Lennon modular corner sofa, right-hand chaise, taupe woven fabric (P14)",
+    "Westwing Toni oval dining table 200 × 90 cm, light oak veneer (P09)",
+    "Kave Home Eamy chair, light-grey chenille, natural ash (KH-CH-EAMY-LG) (cropped from the Kave Home product page, reduced resolution)",
+    "Kave Home Nifelia beige wool jacquard rug 200 × 300 (KH-RUG-NIFELIA) (cropped from the Kave Home product page, reduced resolution)"
+   ],
+   "tomegkep": "A902_Cam02_tomeg_S01_V3_v1.png",
+   "v1_forras": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A.prompt.txt",
+   "v1_sha256": "9981b35cf6824172d158f8eeba6bb899a19168e833c348e1572372c03c84d782",
+   "csere_light_eredeti": "Light: Neutral overcast daylight, identical exposure and white balance to the comparison series. No new decorative lights, no glowing textile panel, no cabinet halo, no warm grading. Somar connects only to A902-ML04, never ML05; ML05 remains without an added decorative fixture in this design. Keep A902-FL02, the TV service block and exterior FL05–07 accessible. Hue requirements from the current fixed supplement remain in force; no new LED circuit is part of this proposal."
+  },
+  "S02": {
+   "kep_id": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_r1",
+   "fajl": "05_promptok/KEP004_ChatGPT_Images_V3_teszt/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_V3_r1.prompt.txt",
+   "karakter": 19275,
+   "sha256": "03966065d536df71ca6a40de0307e221d5b5c73d321066a463315b27416b785f",
+   "csatolmany": 9,
+   "termekfotok": [
+    "IKEA JÄTTEBO 3.5-seat modular U with two chaises, Samsala dark blue (P04)",
+    "Westwing Anouk clear glass dining table 180 × 90 cm (P08)",
+    "Kave Home Ciselia chair, beige chenille, black steel legs (KH-CH-CISELIA-BK) (cropped from the Kave Home product page, reduced resolution)",
+    "Kave Home Marely white wool rug 200 × 300 (KH-RUG-MARELY-W) (cropped from the Kave Home product page, reduced resolution)"
+   ],
+   "tomegkep": "A902_Cam02_tomeg_S02_V3_v1.png",
+   "v1_forras": "A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A.prompt.txt",
+   "v1_sha256": "2961e872ac72317ab558f8b405b4940787463103c0a34ea203f905df63c3339d",
+   "csere_light_eredeti": "Light: Neutral overcast daylight, same exposure and white balance as S01. Satin fronts and actual reflections must provide the richness without warm amber light. No cabinet-integrated LED or luminous mirror perimeter is specified. Current Hue fixed supplement applies to existing fixtures; Brisia only at ML04, no new fixture on ML05. TV power stays D16/D17; FL02 and exterior FL05–07 remain accessible. No new ceiling anchor or electrical point."
+  }
+ }
+}
