@@ -1,0 +1,224 @@
+{
+ "statusz": "MÉRETPRÓBA – rögzített továbbtervezési alap (Péter 2026-10-25 04:08), nem kivitelezési terv; terv szerinti geometria, helyszínen nem mért",
+ "tv_fal": "W01: legfeljebb 60 cm mély, mennyezetig érő zárt szekrény (felső lehetőség, nem kötelező); a képernyő a falsíkon vagy a fülkében (x ≈ 3,77)",
+ "valtozatok": {
+  "S01": {
+   "kanape": "Westwing Lennon L 238×180 (jobbos), háttámla x 6.67",
+   "kanape_befoglalo": [
+    4.87,
+    5.21,
+    6.67,
+    7.59
+   ],
+   "asztal": "Westwing Toni ovális 160×90",
+   "asztal_befoglalo": [
+    8.0,
+    5.4,
+    8.9,
+    7.0
+   ],
+   "szekek_el_kozeppont_normalis": [
+    [
+     7.999999999999999,
+     6.1000000000000005,
+     -1,
+     0
+    ],
+    [
+     7.999999999999999,
+     6.7,
+     -1,
+     0
+    ],
+    [
+     8.899999999999999,
+     6.1000000000000005,
+     1,
+     0
+    ],
+    [
+     8.899999999999999,
+     6.7,
+     1,
+     0
+    ],
+    [
+     8.45,
+     5.4,
+     0,
+     -1
+    ],
+    [
+     8.45,
+     7.0,
+     0,
+     1
+    ]
+   ],
+   "szek": "6 × Kave Home Eamy 55×53",
+   "meres_TV60": {
+    "kihuzas": [
+     1.33,
+     1.33,
+     1.85,
+     1.85,
+     1.35,
+     1.05
+    ],
+    "kihuzas_fuggonnyel": [
+     1.33,
+     1.33,
+     1.85,
+     1.85,
+     1.35,
+     0.93
+    ],
+    "utak_betolt": {
+     "terasz (tolóajtó, keleti rész)": 0.9,
+     "konyha (a pultsorok közé)": 1.0,
+     "hálók folyosója": 0.95,
+     "05.3 háló ajtaja": 0.9
+    },
+    "utak_ulo": {
+     "terasz (tolóajtó, keleti rész)": 0.7,
+     "konyha (a pultsorok közé)": 0.75,
+     "hálók folyosója": 0.95,
+     "05.3 háló ajtaja": 0.7
+    },
+    "szek_kanape": 0.98,
+    "kanape_TV": 0.6,
+    "nezotav": 2.4,
+    "ML04": 0.12,
+    "huto_sarok": 0.906,
+    "kotelezo_ok": true
+   },
+   "meres_TV40": {
+    "utak_betolt": {
+     "terasz (tolóajtó, keleti rész)": 0.9,
+     "konyha (a pultsorok közé)": 1.0,
+     "hálók folyosója": 1.0,
+     "05.3 háló ajtaja": 0.9
+    },
+    "utak_ulo": {
+     "terasz (tolóajtó, keleti rész)": 0.7,
+     "konyha (a pultsorok közé)": 0.75,
+     "hálók folyosója": 1.0,
+     "05.3 háló ajtaja": 0.7
+    },
+    "szek_kanape": 0.98,
+    "kanape_TV": 0.8,
+    "nezotav": 2.4,
+    "kotelezo_ok": true
+   }
+  },
+  "S02": {
+   "kanape": "IKEA JÄTTEBO U 285×160, háttámla x 6.60",
+   "kanape_befoglalo": [
+    5.0,
+    4.975,
+    6.6,
+    7.825
+   ],
+   "asztal": "Westwing Anouk 180×90",
+   "asztal_befoglalo": [
+    8.0,
+    5.35,
+    8.9,
+    7.15
+   ],
+   "szekek_el_kozeppont_normalis": [
+    [
+     7.999999999999999,
+     6.15,
+     -1,
+     0
+    ],
+    [
+     7.999999999999999,
+     6.75,
+     -1,
+     0
+    ],
+    [
+     8.899999999999999,
+     6.15,
+     1,
+     0
+    ],
+    [
+     8.899999999999999,
+     6.75,
+     1,
+     0
+    ],
+    [
+     8.45,
+     5.35,
+     0,
+     -1
+    ],
+    [
+     8.45,
+     7.15,
+     0,
+     1
+    ]
+   ],
+   "szek": "6 × Kave Home Ciselia 52,5×55",
+   "meres_TV60": {
+    "kihuzas": [
+     1.4,
+     1.4,
+     1.85,
+     1.85,
+     1.3,
+     0.9
+    ],
+    "kihuzas_fuggonnyel": [
+     1.4,
+     1.4,
+     1.85,
+     1.85,
+     1.3,
+     0.78
+    ],
+    "utak_betolt": {
+     "terasz (tolóajtó, keleti rész)": 0.9,
+     "konyha (a pultsorok közé)": 0.9,
+     "hálók folyosója": 0.9,
+     "05.3 háló ajtaja": 0.9
+    },
+    "utak_ulo": {
+     "terasz (tolóajtó, keleti rész)": 0.75,
+     "konyha (a pultsorok közé)": 0.7,
+     "hálók folyosója": 0.9,
+     "05.3 háló ajtaja": 0.7
+    },
+    "szek_kanape": 1.03,
+    "kanape_TV": 0.73,
+    "nezotav": 2.33,
+    "ML04": 0.1,
+    "huto_sarok": 0.932,
+    "kotelezo_ok": true
+   },
+   "meres_TV40": {
+    "utak_betolt": {
+     "terasz (tolóajtó, keleti rész)": 0.9,
+     "konyha (a pultsorok közé)": 0.9,
+     "hálók folyosója": 0.9,
+     "05.3 háló ajtaja": 0.9
+    },
+    "utak_ulo": {
+     "terasz (tolóajtó, keleti rész)": 0.75,
+     "konyha (a pultsorok közé)": 0.7,
+     "hálók folyosója": 0.9,
+     "05.3 háló ajtaja": 0.7
+    },
+    "szek_kanape": 1.03,
+    "kanape_TV": 0.93,
+    "nezotav": 2.33,
+    "kotelezo_ok": true
+   }
+  }
+ }
+}

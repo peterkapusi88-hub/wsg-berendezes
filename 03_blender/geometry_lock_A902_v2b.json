@@ -1,5 +1,5 @@
 {
- "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért) · v2b-1-k10 (2026-10-24: Cam_10 + 06.2 akna) · v2b-1-k11 JAVASLAT (2026-10-24: Cam_11_Master_Panorama – draft PR, nem master)",
+ "verzio": "A902 geometria v2b – alaprajz szerinti, ELŐZETES (helyszínen nem mért) · v2b-1-k10 (2026-10-24: Cam_10 + 06.2 akna) · v2b-1-k11 JAVASLAT (2026-10-24: Cam_11_Master_Panorama – draft PR, nem master) · v2b-1-k13 KAMERACSOMAG C JAVASLAT (2026-10-25: Cam_03 K1, Cam_12 v3)",
  "datum": "2026-10-24",
  "forras": {
   "blend": "WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
@@ -1994,20 +1994,20 @@
    "sensor_height": 24.0,
    "sensor_fit": "AUTO",
    "shift_x": 0.0,
-   "shift_y": 0.0,
+   "shift_y": -0.08,
    "clip_start": 0.1,
    "clip_end": 200.0,
    "ortho_scale": 6.0,
    "dof": false,
    "loc": [
-    4.7,
-    7.7,
+    9.45,
+    7.55,
     1.5
    ],
    "rot": [
-    1.493,
+    1.5708,
     0.0,
-    -2.1112
+    -3.1416
    ],
    "rot_mode": "XYZ",
    "scale": [
@@ -2016,7 +2016,7 @@
     1.0
    ],
    "parent": null,
-   "statusz": "ÖSSZEHASONLÍTÓ – B fázis"
+   "statusz": "JAVASLAT – KAMERACSOMAG C (Péter 2026-10-25 04:08: K1 elfogadva; a lockba a merge-zel kerül): konyhaorientált Cam_03, nappali fény; hely [9,45; 7,55; 1,50] – az étkező északkeleti sarka mellől, a konyha tengelyében dél felé, vízszintes (rot [π/2; 0; −π]), 20 mm, shift_y −0,08; a két pultsor, a hűtőoszlop (D13) és a déli magas elemfal (sütő/mikró) a kép tárgya, előtérben az étkező széle és az ML04; a régi Cam_03 ([4,70; 7,70; 1,50], 20 mm) a Cam_12-vel 70 %-ban fedett át – paraméterei a javitasok v2b-1-k13 bejegyzésében"
   },
   "Cam_04_Master": {
    "tipus": "PERSP",
@@ -2273,20 +2273,20 @@
    "sensor_height": 24.0,
    "sensor_fit": "AUTO",
    "shift_x": 0.0,
-   "shift_y": -0.08,
+   "shift_y": -0.05,
    "clip_start": 0.1,
    "clip_end": 200.0,
    "ortho_scale": 6.0,
    "dof": false,
    "loc": [
-    3.95,
-    7.9,
-    1.45
+    4.4,
+    7.88,
+    1.6
    ],
    "rot": [
     1.5708,
     0.0,
-    -2.3562
+    -2.4086
    ],
    "rot_mode": "XYZ",
    "scale": [
@@ -2295,7 +2295,7 @@
     1.0
    ],
    "parent": null,
-   "statusz": "JAVASLAT v2 – nappali HERO nézet az ÉNy-i sarokból (TV-fal + teraszüveg) délkelet felé, átlósan (Péter 2026-10-25 01:58 és 02:06: sarokból, a kanapé eleje, az étkező, a konyha, az étkező mögötti fal a 05.3 szürke ajtóval, jobbra a hálókhoz vezető összekötő fal; nem extrém nagylátószög); hely [3,95; 7,90; 1,45] (a TV-faltól 0,28 m, az északi falsíktól 0,15 m), vízszintes kamera (a függőlegesek egyenesek), 22 mm, shift_y −0,08; a H1 tengelyes jelölt (x 4,25, 20 mm) elvetve; Péter külön jóváhagyásáig nem összehasonlító nézet; a Cam_02 marad a geometriailag kontrollált nappali nézet"
+   "statusz": "JAVASLAT v3 – KAMERACSOMAG C (Péter 2026-10-25 04:08: a C elrendezéssel kötelező kompozíciós felülvizsgálat): nappali HERO az ÉNy-i sarokból délkelet felé (θ −48°), hely [4,40; 7,88; 1,60] – a TV-faltól 0,73 m, így a W01 legfeljebb 60 cm mély, mennyezetig érő szekrénye sem takarja ki (a v2 helyén [3,95; 7,90] a 60 cm-es északi szekrény a kép 52–58 %-át töltené ki); vízszintes kamera, 22 mm, shift_y −0,05 (kevesebb kanapé-előtér); látszik: a kanapé eleje, az étkező az ML04-gyel, a konyha, a W03 a 05.3 ajtóval, a W02 és a W07; a v2 paraméterei a javitasok v2b-1-k13 bejegyzésében; Péter külön jóváhagyásáig nem összehasonlító nézet"
   }
  },
  "render": {
@@ -2389,6 +2389,83 @@
    ],
    "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem; bútor- és stílusréteg változatlan",
    "nem_valtozott": "minden más kamera; render.scene_camera = Cam_04_Master"
+  },
+  {
+   "azonosito": "v2b-1-k13",
+   "datum": "2026-10-25",
+   "keszitette": "Claude",
+   "jovahagyas": "Péter 2026-10-25 04:08: C elrendezés, K1 Cam_03, a Cam_12 kompozíciós felülvizsgálata, egységes kameracsomag; draft PR, a main-be csak külön „mehet” után",
+   "ok": "a C elrendezésben a kanapé 0,57–0,77 m-rel közelebb van a hero kamerához; a TV-fal (W01) a brief szerint legfeljebb 60 cm mély, mennyezetig érő szekrényt kaphat, ami a v2 kamerahelyen a kép felét kitakarná; a régi Cam_03 a Cam_12-vel 70 %-ban fedett át",
+   "geometria": [
+    "cameras.Cam_03_Etkezo_konyha: loc [4,70; 7,70; 1,50] → [9,45; 7,55; 1,50]; rot [1,493; 0; −2,1112] → [π/2; 0; −π]; 20 mm; shift_y 0 → −0,08",
+    "cameras.Cam_12_Nappali_Hero: loc [3,95; 7,90; 1,45] → [4,40; 7,88; 1,60]; rot z −3π/4 → −138°; 22 mm; shift_y −0,08 → −0,05"
+   ],
+   "regi_parameterek": {
+    "Cam_03_Etkezo_konyha": {
+     "tipus": "PERSP",
+     "lens_mm": 20.0,
+     "sensor_width": 36.0,
+     "sensor_height": 24.0,
+     "sensor_fit": "AUTO",
+     "shift_x": 0.0,
+     "shift_y": 0.0,
+     "clip_start": 0.1,
+     "clip_end": 200.0,
+     "ortho_scale": 6.0,
+     "dof": false,
+     "loc": [
+      4.7,
+      7.7,
+      1.5
+     ],
+     "rot": [
+      1.493,
+      0.0,
+      -2.1112
+     ],
+     "rot_mode": "XYZ",
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "parent": null,
+     "statusz": "ÖSSZEHASONLÍTÓ – B fázis"
+    },
+    "Cam_12_Nappali_Hero": {
+     "tipus": "PERSP",
+     "lens_mm": 22.0,
+     "sensor_width": 36.0,
+     "sensor_height": 24.0,
+     "sensor_fit": "AUTO",
+     "shift_x": 0.0,
+     "shift_y": -0.08,
+     "clip_start": 0.1,
+     "clip_end": 200.0,
+     "ortho_scale": 6.0,
+     "dof": false,
+     "loc": [
+      3.95,
+      7.9,
+      1.45
+     ],
+     "rot": [
+      1.5708,
+      0.0,
+      -2.3562
+     ],
+     "rot_mode": "XYZ",
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "parent": null,
+     "statusz": "JAVASLAT v2 – nappali HERO nézet az ÉNy-i sarokból (TV-fal + teraszüveg) délkelet felé, átlósan (Péter 2026-10-25 01:58 és 02:06: sarokból, a kanapé eleje, az étkező, a konyha, az étkező mögötti fal a 05.3 szürke ajtóval, jobbra a hálókhoz vezető összekötő fal; nem extrém nagylátószög); hely [3,95; 7,90; 1,45] (a TV-faltól 0,28 m, az északi falsíktól 0,15 m), vízszintes kamera (a függőlegesek egyenesek), 22 mm, shift_y −0,08; a H1 tengelyes jelölt (x 4,25, 20 mm) elvetve; Péter külön jóváhagyásáig nem összehasonlító nézet; a Cam_02 marad a geometriailag kontrollált nappali nézet"
+    }
+   },
+   "falak_nyilasok": "változatlan – 0 fal, 0 nyílás, 0 padló, 0 teraszelem; bútor- és stílusréteg változatlan",
+   "nem_valtozott": "minden más kamera; render.scene_camera = Cam_04_Master; a 66-os regiszter kép-ID-i"
   }
  ]
 }

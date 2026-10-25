@@ -1,0 +1,3922 @@
+[
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.5,
+   8.8,
+   7.1
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.85
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 1.047
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.5,
+   8.85,
+   7.1
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.8
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.15,
+  "huto_sarok": 1.009
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.5,
+   8.9,
+   7.1
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.8
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.1,
+  "huto_sarok": 0.972
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.5,
+   8.95,
+   7.1
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.06,
+  "huto_sarok": 0.937
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.45,
+   8.8,
+   7.05
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 1.015
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.45,
+   8.85,
+   7.05
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.15,
+  "huto_sarok": 0.976
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.45,
+   8.9,
+   7.05
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.1,
+  "huto_sarok": 0.938
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.45,
+   8.95,
+   7.05
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.05,
+  "huto_sarok": 0.902
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.4,
+   8.8,
+   7.0
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.21,
+  "huto_sarok": 0.985
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.4,
+   8.85,
+   7.0
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.17,
+  "huto_sarok": 0.945
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.4,
+   8.9,
+   7.0
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.12,
+  "huto_sarok": 0.906
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.4,
+   8.95,
+   7.0
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.09,
+  "huto_sarok": 0.868
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.35,
+   8.8,
+   6.95
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.23,
+  "huto_sarok": 0.957
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.35,
+   8.85,
+   6.95
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.19,
+  "huto_sarok": 0.915
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.35,
+   8.9,
+   6.95
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.65
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.16,
+  "huto_sarok": 0.875
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.35,
+   8.95,
+   6.95
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.65
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.13,
+  "huto_sarok": 0.836
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.3,
+   8.8,
+   6.9
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.26,
+  "huto_sarok": 0.93
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.3,
+   8.85,
+   6.9
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.23,
+  "huto_sarok": 0.888
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.3,
+   8.9,
+   6.9
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 0.846
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.3,
+   8.95,
+   6.9
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 1.0,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.8,
+  "nezotav": 2.4,
+  "ML04": 0.18,
+  "huto_sarok": 0.805
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.5,
+   8.8,
+   7.1
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.85
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 1.047
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.5,
+   8.85,
+   7.1
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.8
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.15,
+  "huto_sarok": 1.009
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.5,
+   8.9,
+   7.1
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.8
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.1,
+  "huto_sarok": 0.972
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.5,
+   8.95,
+   7.1
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.45,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.45,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.06,
+  "huto_sarok": 0.937
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.45,
+   8.8,
+   7.05
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.0,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 1.0
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 1.015
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.45,
+   8.85,
+   7.05
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   0.95,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.15,
+  "huto_sarok": 0.976
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.45,
+   8.9,
+   7.05
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   0.9,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.1,
+  "huto_sarok": 0.938
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.45,
+   8.95,
+   7.05
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.4,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   0.85,
+   1.4,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.05,
+  "huto_sarok": 0.902
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.4,
+   8.8,
+   7.0
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.21,
+  "huto_sarok": 0.985
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.4,
+   8.85,
+   7.0
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.75
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.17,
+  "huto_sarok": 0.945
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.4,
+   8.9,
+   7.0
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.12,
+  "huto_sarok": 0.906
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.4,
+   8.95,
+   7.0
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.35,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.35,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 1.0,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.09,
+  "huto_sarok": 0.868
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.35,
+   8.8,
+   6.95
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.95
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.23,
+  "huto_sarok": 0.957
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.35,
+   8.85,
+   6.95
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.19,
+  "huto_sarok": 0.915
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.35,
+   8.9,
+   6.95
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.65
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.16,
+  "huto_sarok": 0.875
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.35,
+   8.95,
+   6.95
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.3,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.3,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.95,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.65
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.13,
+  "huto_sarok": 0.836
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.1,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.3,
+   8.8,
+   6.9
+  ],
+  "kihuzas": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.23,
+   1.23,
+   1.95,
+   1.95,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.85,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.6,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.88,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.26,
+  "huto_sarok": 0.93
+ },
+ {
+  "stilus": "S01",
+  "dx": -0.05,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.3,
+   8.85,
+   6.9
+  ],
+  "kihuzas": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.28,
+   1.28,
+   1.9,
+   1.9,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.65,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.23,
+  "huto_sarok": 0.888
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.0,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.3,
+   8.9,
+   6.9
+  ],
+  "kihuzas": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.33,
+   1.33,
+   1.85,
+   1.85,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.2,
+  "huto_sarok": 0.846
+ },
+ {
+  "stilus": "S01",
+  "dx": 0.05,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.67,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.3,
+   8.95,
+   6.9
+  ],
+  "kihuzas": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.25,
+   1.15
+  ],
+  "kihuzas_fuggonnyel": [
+   1.38,
+   1.38,
+   1.8,
+   1.8,
+   1.25,
+   1.03
+  ],
+  "eszaki_kihuzas": 1.15,
+  "eszaki_fuggonnyel": 1.03,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.95,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.6,
+  "nezotav": 2.4,
+  "ML04": 0.18,
+  "huto_sarok": 0.805
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.9,
+   5.35,
+   8.8,
+   7.15
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.2,
+  "huto_sarok": 1.007
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.35,
+   8.85,
+   7.15
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.15,
+  "huto_sarok": 0.969
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.35,
+   8.9,
+   7.15
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.1,
+  "huto_sarok": 0.932
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": 0.0,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.35,
+   8.95,
+   7.15
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.05,
+  "huto_sarok": 0.896
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.3,
+   8.8,
+   7.1
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.21,
+  "huto_sarok": 0.977
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.3,
+   8.85,
+   7.1
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.17,
+  "huto_sarok": 0.937
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.3,
+   8.9,
+   7.1
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.12,
+  "huto_sarok": 0.899
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.05,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.3,
+   8.95,
+   7.1
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.09,
+  "huto_sarok": 0.861
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.25,
+   8.8,
+   7.05
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.947
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.25,
+   8.85,
+   7.05
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.19,
+  "huto_sarok": 0.907
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.25,
+   8.9,
+   7.05
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.16,
+  "huto_sarok": 0.867
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.1,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.25,
+   8.95,
+   7.05
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.13,
+  "huto_sarok": 0.828
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.2,
+   8.8,
+   7.0
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.26,
+  "huto_sarok": 0.92
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.2,
+   8.85,
+   7.0
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.878
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.2,
+   8.9,
+   7.0
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.2,
+  "huto_sarok": 0.837
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.15,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.2,
+   8.95,
+   7.0
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.18,
+  "huto_sarok": 0.797
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.15,
+   8.8,
+   6.95
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.3,
+  "huto_sarok": 0.894
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.15,
+   8.85,
+   6.95
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.27,
+  "huto_sarok": 0.851
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.15,
+   8.9,
+   6.95
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.24,
+  "huto_sarok": 0.809
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.2,
+  "tv_mely": 0.4,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.15,
+   8.95,
+   6.95
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.93,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.767
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.9,
+   5.35,
+   8.8,
+   7.15
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.2,
+  "huto_sarok": 1.007
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   7.95,
+   5.35,
+   8.85,
+   7.15
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.15,
+  "huto_sarok": 0.969
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": true,
+  "asztal": [
+   8.0,
+   5.35,
+   8.9,
+   7.15
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.9
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.1,
+  "huto_sarok": 0.932
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": 0.0,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.35,
+   8.95,
+   7.15
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.3,
+   0.9
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.3,
+   0.78
+  ],
+  "eszaki_kihuzas": 0.9,
+  "eszaki_fuggonnyel": 0.78,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.9,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.05,
+  "huto_sarok": 0.896
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.3,
+   8.8,
+   7.1
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.21,
+  "huto_sarok": 0.977
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.3,
+   8.85,
+   7.1
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.17,
+  "huto_sarok": 0.937
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.3,
+   8.9,
+   7.1
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.12,
+  "huto_sarok": 0.899
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.05,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.3,
+   8.95,
+   7.1
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.25,
+   0.95
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.25,
+   0.83
+  ],
+  "eszaki_kihuzas": 0.95,
+  "eszaki_fuggonnyel": 0.83,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.85,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.85
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.09,
+  "huto_sarok": 0.861
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.25,
+   8.8,
+   7.05
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.947
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.25,
+   8.85,
+   7.05
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.19,
+  "huto_sarok": 0.907
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.25,
+   8.9,
+   7.05
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.16,
+  "huto_sarok": 0.867
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.1,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.25,
+   8.95,
+   7.05
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.2,
+   1.0
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.2,
+   0.88
+  ],
+  "eszaki_kihuzas": 1.0,
+  "eszaki_fuggonnyel": 0.88,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.8,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.8
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.6,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.6
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.13,
+  "huto_sarok": 0.828
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.2,
+   8.8,
+   7.0
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.26,
+  "huto_sarok": 0.92
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.2,
+   8.85,
+   7.0
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.878
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.2,
+   8.9,
+   7.0
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.2,
+  "huto_sarok": 0.837
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.15,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.2,
+   8.95,
+   7.0
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.15,
+   1.05
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.15,
+   0.93
+  ],
+  "eszaki_kihuzas": 1.05,
+  "eszaki_fuggonnyel": 0.93,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.75,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.75
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": 0.5,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.5
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.18,
+  "huto_sarok": 0.797
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.1,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.9,
+   5.15,
+   8.8,
+   6.95
+  ],
+  "kihuzas": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.3,
+   1.3,
+   1.95,
+   1.95,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 0.93,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.3,
+  "huto_sarok": 0.894
+ },
+ {
+  "stilus": "S02",
+  "dx": -0.05,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   7.95,
+   5.15,
+   8.85,
+   6.95
+  ],
+  "kihuzas": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.35,
+   1.35,
+   1.9,
+   1.9,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.7,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 0.98,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.27,
+  "huto_sarok": 0.851
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.0,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.0,
+   5.15,
+   8.9,
+   6.95
+  ],
+  "kihuzas": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.4,
+   1.4,
+   1.85,
+   1.85,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.75,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 1.03,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.24,
+  "huto_sarok": 0.809
+ },
+ {
+  "stilus": "S02",
+  "dx": 0.05,
+  "dy": -0.2,
+  "tv_mely": 0.6,
+  "XB": 6.6,
+  "kotelezo_ok": false,
+  "asztal": [
+   8.05,
+   5.15,
+   8.95,
+   6.95
+  ],
+  "kihuzas": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.1,
+   1.1
+  ],
+  "kihuzas_fuggonnyel": [
+   1.45,
+   1.45,
+   1.8,
+   1.8,
+   1.1,
+   0.98
+  ],
+  "eszaki_kihuzas": 1.1,
+  "eszaki_fuggonnyel": 0.98,
+  "utak_betolt": {
+   "terasz (tolóajtó, keleti rész)": 0.9,
+   "konyha (a pultsorok közé)": 0.7,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": 0.7
+  },
+  "utak_ulo": {
+   "terasz (tolóajtó, keleti rész)": 0.8,
+   "konyha (a pultsorok közé)": null,
+   "hálók folyosója": 0.9,
+   "05.3 háló ajtaja": null
+  },
+  "szek_kanape": 1.08,
+  "kanape_TV": 0.73,
+  "nezotav": 2.33,
+  "ML04": 0.23,
+  "huto_sarok": 0.767
+ }
+]
