@@ -389,6 +389,15 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
     - 2–3 elrendezési alternatíva;
     - az új, konyhaorientált Cam_03.
 
+- *(2026-10-25 02:52 CET, Péter – eldöntve)* **Astra V3.1 elindítva, nyitott pontok lezárva.**
+  - **Astra:** az r2-brief (`978df16`) elfogadva. Astra Medium efforttal indul: 66 teljes kreatív prompt, kötelező GitHub-checkpointok.
+  - **Fény elfogadva:** Cam_02 nappal; Cam_12 kék óra/este, Hue; Cam_03 nappal; Cam_04 este, Hue; Cam_11 nappal; Cam_10 műfény.
+  - **Elrendezés:** Claude 2–3 valóban használható alternatívát készít: hat étkezőhely, valós székkihúzási és közlekedési méretek. A 36–38 cm-es közlekedő nem elfogadható. A végleges elrendezést Péter választja.
+  - **Cam_03:** új, konyhaorientált kamerajavaslat, amely érdemben különbözik a Cam_12-től.
+  - **PR #17:** egyelőre nincs beolvasztás. A végleges elrendezés és a kamerák kiválasztása után geometria- és Render Reality Gate-ellenőrzés jön; a merge-hez külön engedély kell.
+  - **Astra-integráció:** a V3.1 eredményéből kell dolgozni, a terveket nem szabad visszakényszeríteni a korábbi Blender-tömbök formáiba. A valós lakásgeometria szigorúan marad.
+  - **Tilos most:** képgenerálás, PR-merge, a jóváhagyást igénylő alaprajzi döntések önálló módosítása.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
