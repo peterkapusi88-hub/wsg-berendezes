@@ -6,8 +6,8 @@ Minden ár bruttó Ft, 2026-10-25 (ahol más: dátummal). **18,00 M = 8,40 M kö
 
 | sor | cél | S01 | S02 | S03 | S04 | S05 | S06 | S07 | S08 | S09 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 02a Konyhabútor | 1.50 | 1.29 | 1.18 | 1.09 | 1.19 | 1.23 | 1.18 | 1.23 | 1.17 | 1.06 | 1.18 |
-| 03a TV-fal és kísérőfalak | 1.10 | 1.00 | 1.22 | 1.20 | 0.83 | 0.93 | 0.99 | 0.88 | 0.87 | 1.00 | 0.72 |
+| 02a Konyhabútor | 1.50 | 1.29 | 1.23 | 1.09 | 1.21 | 1.23 | 1.18 | 1.23 | 1.17 | 1.06 | 1.18 |
+| 03a TV-fal és kísérőfalak | 1.10 | 1.00 | 1.28 | 1.20 | 0.83 | 0.93 | 0.99 | 0.88 | 0.87 | 1.00 | 0.72 |
 | 03b Kanapé | 1.00 | 0.80 | 0.93 | 0.80 | 0.85 | 1.00 | 0.93 | 0.90 | 0.90 | 0.85 | 0.93 |
 | 03c Fotel, dohányzó-/kisasztal, puff | 0.45 | 0.27 | 0.18 | 0.31 | 0.22 | 0.08 | 0.29 | 0.14 | 0.33 | 0.17 | 0.18 |
 | 03d Étkező (asztal + 6 hely) | 0.60 | 0.67 | 0.72 | 0.77 | 1.13 | 0.95 | 0.67 | 0.89 | 0.92 | 1.09 | 1.14 |
@@ -15,18 +15,18 @@ Minden ár bruttó Ft, 2026-10-25 (ahol más: dátummal). **18,00 M = 8,40 M kö
 | 03f Függöny + sín (nappali) | 0.25 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 | 0.20 |
 | 04a Ágy + matrac | 0.55 | 0.59 | 0.59 | 0.59 | 0.59 | 0.64 | 0.59 | 0.59 | 0.59 | 0.60 | 0.58 |
 | 04b Fejvégfal | 0.55 | 0.21 | 0.22 | 0.20 | 0.23 | 0.21 | 0.22 | 0.20 | 0.12 | 0.19 | 0.21 |
-| 04c Gardróbfal | 0.45 | 0.96 | 0.91 | 0.91 | 0.92 | 0.91 | 0.96 | 0.99 | 0.91 | 0.79 | 0.93 |
+| 04c Gardróbfal | 0.45 | 0.96 | 0.99 | 0.91 | 0.92 | 0.91 | 0.96 | 0.99 | 0.91 | 0.79 | 0.93 |
 | 04d Master: éjjelik, lámpák, függöny, textil | 0.45 | 0.52 | 0.54 | 0.50 | 0.39 | 0.46 | 0.44 | 0.46 | 0.44 | 0.48 | 0.49 |
-| 07 Fürdő 06.2 + 06.1 + WC | 0.50 | 0.62 | 0.66 | 0.63 | 0.61 | 0.75 | 0.72 | 0.66 | 0.62 | 0.76 | 0.74 |
-| 10 Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.49 | 1.39 | 1.09 | 1.53 | 1.37 | 1.22 | 1.41 | 1.17 | 1.32 | 1.26 |
+| 07 Fürdő 06.2 + 06.1 + WC | 0.50 | 0.29 | 0.32 | 0.28 | 0.27 | 0.30 | 0.32 | 0.28 | 0.30 | 0.28 | 0.29 |
+| 10 Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.32 | 1.31 | 0.95 | 1.35 | 1.21 | 1.07 | 1.26 | 1.02 | 1.17 | 1.10 |
 | 11 Falfelületek (tapéta, grafika) | 0.50 | 0.22 | 0.22 | 0.26 | 0.22 | 0.20 | 0.18 | 0.23 | 0.32 | 0.20 | 0.41 |
-| 12 Textil, dekor, művészet, növény | 0.50 | 0.41 | 0.34 | 0.47 | 0.40 | 0.35 | 0.38 | 0.41 | 0.24 | 0.48 | 0.28 |
-| **Σ fő** | **9.60** | **9.43** | **9.49** | **9.26** | **9.49** | **9.45** | **9.20** | **9.50** | **8.99** | **9.50** | **9.41** |
-| Σ gazdaságos | – | 7.16 | 7.55 | 7.33 | 7.64 | 7.68 | 7.15 | 7.54 | 6.98 | 7.61 | 7.22 |
-| mozgástér (fő) | – | 0.17 | 0.11 | 0.34 | 0.11 | 0.15 | 0.40 | 0.10 | 0.61 | 0.10 | 0.19 |
+| 12 Textil, dekor, művészet, növény | 0.50 | 0.36 | 0.36 | 0.41 | 0.38 | 0.30 | 0.33 | 0.40 | 0.20 | 0.47 | 0.22 |
+| **Σ fő** | **9.60** | **8.87** | **9.29** | **8.72** | **8.98** | **8.79** | **8.60** | **8.96** | **8.48** | **8.87** | **8.75** |
+| Σ gazdaságos | – | 6.77 | 7.27 | 6.93 | 7.23 | 7.28 | 6.78 | 7.13 | 6.60 | 7.21 | 6.83 |
+| mozgástér (fő) | – | 0.73 | 0.31 | 0.88 | 0.62 | 0.81 | 1.00 | 0.64 | 1.12 | 0.73 | 0.85 |
 | + közös fix | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 | 8.40 |
-| **Lakásszint fő** | **18.00** | **17.83** | **17.89** | **17.66** | **17.89** | **17.85** | **17.60** | **17.90** | **17.39** | **17.90** | **17.81** |
-| Lakásszint gazdaságos | – | 15.56 | 15.95 | 15.73 | 16.04 | 16.08 | 15.55 | 15.94 | 15.38 | 16.01 | 15.62 |
+| **Lakásszint fő** | **18.00** | **17.27** | **17.69** | **17.12** | **17.38** | **17.19** | **17.00** | **17.36** | **16.88** | **17.27** | **17.15** |
+| Lakásszint gazdaságos | – | 15.17 | 15.67 | 15.33 | 15.63 | 15.68 | 15.18 | 15.53 | 15.00 | 15.61 | 15.23 |
 
 Mind a tíz stílus fő változata ≤ 9,60 M (≤ 18,00 M lakásszinten). A becsült (asztalos/kárpitos) tételek ±20–25 %-os bizonytalansága miatt a mozgástér nem díszítés: a 03a hős-darabnál ennek kell fedeznie az ajánlati eltérést.
 
@@ -34,16 +34,16 @@ Mind a tíz stílus fő változata ≤ 9,60 M (≤ 18,00 M lakásszinten). A bec
 
 | stílus | tétel | ellenőrzött | becslés | FELTÉTELES | fő Ft becslés-része |
 |---|---:|---:|---:|---:|---:|
-| S01 Kyoto Ink | 57 | 22 | 35 | 0 | 5.44 M |
-| S02 BiBo Nocturne | 57 | 21 | 35 | 1 | 5.40 M |
-| S03 Alelí Casa | 51 | 19 | 31 | 1 | 5.50 M |
-| S04 LA Horizon | 55 | 20 | 34 | 1 | 5.07 M |
-| S05 Miami Streamline | 56 | 19 | 35 | 2 | 5.33 M |
-| S06 Zenit Atelier | 55 | 18 | 36 | 1 | 5.40 M |
-| S07 Lake Forest Couture | 52 | 19 | 32 | 1 | 5.32 M |
-| S08 Milano Radical | 57 | 21 | 35 | 1 | 4.89 M |
-| S09 Paris Collector | 55 | 19 | 34 | 2 | 5.31 M |
-| S10 Desert Modern 70 | 54 | 18 | 34 | 2 | 5.24 M |
+| S01 Kyoto Ink | 53 | 21 | 32 | 0 | 4.97 M |
+| S02 BiBo Nocturne | 55 | 20 | 34 | 1 | 5.30 M |
+| S03 Alelí Casa | 47 | 18 | 28 | 1 | 5.05 M |
+| S04 LA Horizon | 51 | 19 | 31 | 1 | 4.65 M |
+| S05 Miami Streamline | 52 | 19 | 31 | 2 | 4.68 M |
+| S06 Zenit Atelier | 51 | 18 | 32 | 1 | 4.81 M |
+| S07 Lake Forest Couture | 48 | 18 | 29 | 1 | 4.87 M |
+| S08 Milano Radical | 53 | 20 | 32 | 1 | 4.47 M |
+| S09 Paris Collector | 51 | 19 | 30 | 2 | 4.67 M |
+| S10 Desert Modern 70 | 50 | 18 | 30 | 2 | 4.58 M |
 
 ## 3. Árhorgonyok (benchmark a becslésekhez)
 
@@ -64,7 +64,7 @@ Mind a tíz stílus fő változata ≤ 9,60 M (≤ 18,00 M lakásszinten). A bec
 | Alu profil + opál fedél beépítése asztalos-horonyba | mind | horony nélkül pontsoros fény | asztalos-rajzban horony 17 × 8 mm | becslés |
 | ML04/ML05 rögzítése a mennyezeti kiállásra (HF-mező közelében) | mind | ha nem rögzíthető: kisebb/könnyebb lámpatest | lámpatest-tömeg ≤ 5 kg cél; Claude audit | FELTÉTELES |
 | Kave Home lámpák foglalata (Ardali, Brisia, Novae, Idela, Drava, Somar) | S01–S10 | ha G9/integrált LED: Hue nem megy | termékoldal-ellenőrzés; alternatíva: Westwing Misaki / Dancing / Styrka (E27, igazolt) | FELTÉTELES |
-| Fürdő (r1b): rejtett 24 V fények (tükörglória, pult alatti padlófény, oszlopfény) a FL04 lámpaáramkörről, táp a fiókblokkban | mind | zónasértés esetén áthelyezés vagy elmarad (−0,10 M) | csak SELV 24 V, IP65; táp a zónákon kívül; az üvegfal a fejzuhany 1. zónáját is lehatárolja – villanyszerelő igazolja | FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES |
+| Fürdő: IP-zóna (S02 tükörglória IP67) | S02 | zónán belül nem engedhető | csak a 2. zónán kívül, villanyszerelő igazolással; különben elmarad (−55 e Ft) | FELTÉTELES |
 | Hue izzók: Bridge-kapacitás (≤ 50 eszköz) | mind | nincs | 1 Bridge elég (≈ 12–20 eszköz) | ellenőrzött |
 
 ## 5. A közös fix rész kockázatai (tájékoztató, nem módosítom)

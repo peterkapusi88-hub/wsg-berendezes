@@ -38,15 +38,10 @@
 - **Gardrób:** homok laminált frontok, a középső két ajtón nádfonat-betét (gardrób FIXED: őszintén megnevezett anyag); belső funkcionális fény.
 - **Éjjelik:** dió-hatású; kerámia talpú asztali lámpák (E27 Hue). Függöny: homok len. ML06: rattan mennyezeti lámpa.
 
-## 4. Fürdő 06.2 (Cam_10, csak műfény) – r1b, Péter 2026-10-25 16:00/16:04 kérésére
-- **Megmarad:** a Geostone Grigio burkolat, az Esagonetta dekorfal, a padka, a folyóka, a fekete Grohe szerelvények, a fehér Geberit mosdó **a saját helyén és konzolján**, a WC, a törölközőszárító.
-- **Üvegfal (új, árazott tétel):** 100 × 200 cm-es fix walk-in panel a zuhany padkáján, a keleti (fejzuhanyos) faltól nyugat felé – 8 mm bronz színezett edzett üveg, matt fekete profil (egyedi üveges); matt fekete falprofil + stabilizátor a dekorfalhoz; a nyugati végen ≈ 92 cm szabad belépő. A padkára állítás és a stabilizátor rögzítése FELTÉTELES (helyszíni ellenőrzés, cső-/vezetékkereső).
-- **Lebegő mosdópult az aknától az üvegig:** 130 × 48 cm, pult teteje 0,85 m, alja 0,30 m. A mosdó **belesüllyed**: a munkalap körbe van marva, a perem pár mm-rel a pult fölött, az elülső él egy síkban. A mosdó az üveg felé esik (tengely y ≈ 6,63), ezért balra csak ≈ 19 cm nyitott törölközőrés, jobbra ≈ 51 cm kétfiókos blokk, a mosdó alatt U-fiók a szifon körül; 12 cm-es hátfalléc. Kivitel: homok matt laminált front, a fiókoszlopon függőleges dió-hatású lamellákkal; munkalap + hátfalléc terrakotta kompakt laminált.
-- **Fali tároló:** a jobb sarokban, az aknához simulva ≈ 20 × 110 × 18 cm-es oszlop a pult fölött 15 cm-től – dió-hatású nyitott oszlop lépcsős (zikkurat) tetővel; a D43/D44 dugaljtól ≥ 5 cm-re (helyük hétfőn mérendő).
-- **Tükör:** 60 × 85 tükör háromfokú lépcsős tetővel, vékony bronz keretben, 3 cm-es távtartón; alsó éle ≈ 1,00 m, felső ≤ 1,85 m, a kompozíció a dugaljak és az üveg között (y ≈ 6,25–7,08).
-- **FL04:** homokszínű mázas kerámia IP44 fali lámpa (E14).
-- **Látványos, rejtett fény:** tükörglória (a tükör 3 cm-es távtartóján körben), padlófény a lebegő pult alatt – 24 V SELV, IP65 szalag alu profilban, opál fedéllel; táp és Zigbee-vezérlő a jobb fiókblokk száraz üregében, a FL04 lámpaáramkörről (FELTÉTELES – CLAUDE VILLAMOS AUDIT: fürdőzónák, SELV, állandó táp – Hue Wall Switch Module a K24 mögött). **ML10:** matt bronz IP44 spotsín 3 billenthető Hue GU10-fejjel – egy a hatszög-dombordekort súrolja az üvegen át, egy a pultot, egy a tükörfalat.
-- **Stílustárgy(ak):** kézzel korongozott agyagkancsó szárított fűvel + sima folyami kő szappantartó.
+## 4. Fürdő 06.2
+- **Tükör:** lépcsős körvonalú tükör (két lekerekített téglalap 60 × 90 + 40 × 60 lépcsőben), vékony bronz keret; FL04: homokszínű kerámia IP44 fali lámpa (E14 Hue) – nedves zónában rattant nem használok.
+- **Tároló:** dió-hatású nedvességálló polc a WC-perem fölött; nádkosár.
+- **Textil:** homokszürke és rozsda törölközők; agyag tégely.
 
 ## 5. Termék- és elemlista
 | ID | sor | helyiség / fal | elem | elhelyezési szándék | méret (cm) | anyag / termék | rögzítés | táp | fő Ft | gazd. Ft | státusz |
@@ -81,15 +76,10 @@
 | S10-M12 | 04d | master 05.1 / ágy | Ágytextil, pléd, párnák: krém és homok len, rozsda pléd, okker/kakaó párnák | – | 180 × 200 | krém és homok len, rozsda pléd, okker/kakaó párnák |  | – | 90 000 | 60 000 | becslés |
 | S10-M13 | 04d | master 05.1 / fejvégfal | Éjjelik: dió-hatású éjjeli ×2 | a fejvég két oldalán; a D20–D23 és K13/K14 hozzáférhető | 2 db | dió-hatású éjjeli ×2 | falra / szabadon | – | 90 000 | 60 000 | becslés |
 | S10-M14 | 04d | master 05.1 / ágy lábvége | nád–dió ülőke + agyagkaspó száraz fűvel | a nyíló szárny lendülete szabad | – | nád–dió ülőke + agyagkaspó száraz fűvel |  | – | 80 000 | 48 000 | becslés |
-| S10-F05 | 07 | fürdő 06.2 / zuhany padkája (y ≈ 7,15–7,20), a K-i faltól 100 cm | Fix walk-in üvegfal 100 × 200: 8 mm bronz színezett edzett üveg, matt fekete profil (egyedi üveges) | a padkán a keleti (fejzuhanyos) faltól nyugat felé 100 cm; a nyugati végen ≈ 92 cm szabad belépő; stabilizátor a zuhany hátfalához (dekorcsempe – fúrás vezeték-/csőkeresővel) | 100 × 200 × 0,8 | 8 mm bronz színezett edzett üveg, matt fekete profil (egyedi üveges) / gazdaságos: Viva AQUA Max Walk-in 100×200, 8 mm, fekete profil | falprofil + padka-U-profil szilikonnal, stabilizátorrúd | – | 180 000 | 92 945 | becslés |
-| S10-F01 | 07 | fürdő 06.2 / K-i fal, mosdótengely (y ≈ 6,63) | Tükör: 60 × 85 tükör háromfokú lépcsős tetővel, vékony bronz keretben, 3 cm-es távtartón | alsó éle ≈ 1,00 m (a hátfalléc fölött), felső éle ≤ 1,85 m (a FL04 alatt); a tükörkompozíció y 6,25–7,08 között – a D43/D44 és az üveg között | ≈ 60 × 85 | 60 × 85 tükör háromfokú lépcsős tetővel, vékony bronz keretben, 3 cm-es távtartón | csempére, biztonsági fóliával | – | 90 000 | 63 000 | becslés |
-| S10-F02 | 07 | fürdő 06.2 / K-i fal, az aknától az üvegig (y ≈ 5,82–7,12) | Lebegő mosdópult, a meglévő mosdó belesüllyesztve: homok matt laminált front, a fiókoszlopon függőleges dió-hatású lamellákkal; munkalap + hátfalléc terrakotta kompakt laminált | pult teteje 0,85 m, alja 0,30 m; a mosdó a saját falikonzolján marad, a munkalap körbe van marva (a perem pár mm-rel a pult fölött, az elülső él egy síkban); balra ≈ 19 cm nyitott törölközőrés, jobbra ≈ 51 cm kétfiókos blokk, a mosdó alatt U-fiók a szifon körül; a vanity ≥ 4 cm-re az üvegprofiltól | 130 × 55 × 48 (+ 12 cm hátfalléc) | homok matt laminált front, a fiókoszlopon függőleges dió-hatású lamellákkal; munkalap + hátfalléc terrakotta kompakt laminált / gazdaságos: azonos méret, sima laminált front, kompakt laminált munkalap | falra függesztve (rejtett acél konzol), csempébe fúrva | – | 280 000 | 180 000 | becslés |
-| S10-F06 | 07 | fürdő 06.2 / K-i fal, jobb sarok az aknánál (y ≈ 5,83–6,03) | Fali tároló-oszlop: dió-hatású nyitott oszlop lépcsős (zikkurat) tetővel | a pult fölött 15 cm-től ≈ 2,10 m-ig; a D43/D44 dugaljtól ≥ 5 cm-re (helyük hétfőn mérendő) | ≈ 20 × 110 × 18 | dió-hatású nyitott oszlop lépcsős (zikkurat) tetővel / gazdaságos: egyszerű laminált nyitott polcoszlop | csempébe fúrva | – | 85 000 | 50 000 | becslés |
-| S10-F03 | 07 | fürdő 06.2 + 06.1 + WC 08 / – | Textil, kiegészítők; 06.1 és WC tükör, textil | – | – | törölközők, adagolók; 06.1/WC egyszerű tükör + textil |  | – | 110 000 | 80 000 | becslés |
-| S10-F07 | 12 | fürdő 06.2 / pult / zuhany | Stílustárgy(ak): kézzel korongozott agyagkancsó szárított fűvel + sima folyami kő szappantartó | a vízvonalon kívül; a zuhanyzsámoly a hátsó sarokban | – | kézzel korongozott agyagkancsó szárított fűvel + sima folyami kő szappantartó |  | – | 55 000 | 25 000 | becslés |
-| S10-F08 | 10 | fürdő 06.2 / tükör / pult / oszlop | Rejtett fény: tükörglória (a tükör 3 cm-es távtartóján körben) 2.9 m + padlófény a lebegő pult alatt 1.3 m | csak 24 V SELV, IP65 szalag alu profilban, opál fedéllel; a táp és a Zigbee-vezérlő a jobb fiókblokk száraz hátsó üregében | 4.2 m | 24 V IP65 LED-szalag + Hue-kompatibilis Zigbee 24 V vezérlő + IP-s táp + alu profil / gazdaságos: csak a pult alatti padlófény | profilban | FL04 lámpaáramkör (230 V a tükör távtartója és a hátfalléc mögött a vanity-ig) – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES (fürdőzónák, SELV, állandó táp: Hue Wall Switch Module a K24 mögött) | 113 860 | 104 290 | becslés |
-| S10-F09 | 10 | fürdő 06.2 / mennyezet ML10 | Mennyezeti spotsín (matt bronz), 3 billenthető GU10-fej, IP44 + 3 × Hue GU10 | egy fej a zuhany hatszög-dombordekorját súrolja az üvegen át, egy a pultot, egy a tükröt; csak a meglévő ML10 kiálláson | ≈ 60 cm | IP44 spotsín (matt bronz) + 3 × Philips Hue White Ambiance GU10 / gazdaságos: 1 fejes IP44 lámpatest + 1 × GU10 | mennyezeti kiállásra (a fürdőben nincs HF-mező) | ML10 | 79 970 | 39 990 | becslés |
-| S10-F04 | 10 | fürdő 06.2 / FL04 (z ≈ 2,00) | IP44 fali lámpa: homokszínű mázas kerámia IP44 fali lámpa (E14) | a meglévő FL04 ponton, a tükör fölött | – | homokszínű mázas kerámia IP44 fali lámpa (E14) + Hue E14 izzó | falra a kiállásra | FL04 | 44 990 | 34 990 | becslés |
+| S10-F01 | 07 | fürdő 06.2 / keleti fal, mosdó fölött | Tükör: lépcsős körvonalú tükör (60×90 + 40×60) vékony bronz keretben | a mosdótengelyen, csempére rögzítve, biztonsági fóliával | ≈ 60 × 90–100 | lépcsős körvonalú tükör (60×90 + 40×60) vékony bronz keretben | csempére (rozsdamentes rögzítő) | – | 85 000 | 59 500 | becslés |
+| S10-F02 | 07 | fürdő 06.2 / WC-perem fölött / mosdó alatt | Tároló: dió-hatású polc + nádkosár | a burkolat előtt, fúrással; D43/D44 szabad | – | dió-hatású polc + nádkosár | csempére | – | 50 000 | 35 000 | becslés |
+| S10-F03 | 07 | fürdő 06.2 + 06.1 + WC 08 / – | Textil, kiegészítők; 06.1 és WC tükör, textil | – | – | törölközők, kosár, adagolók, növény; 06.1/WC egyszerű tükör + textil |  | – | 160 000 | 110 000 | becslés |
+| S10-F04 | 10 | fürdő 06.2 / FL04 (z ≈ 2,00) | IP44 fali lámpa: homokszínű mázas kerámia IP44 fali lámpa (E14) | a meglévő FL04 ponton, a tükör fölött | – | homokszínű mázas kerámia IP44 fali lámpa (E14) + Hue izzó | falra a kiállásra | FL04 | 44 990 | 34 990 | becslés |
 | S10-L05 | 10 | nappali/étkező / ML05 | Lámpatest a(z) ML05 ponton | alja ≥ 2,15 m; csak a meglévő kiálláson; rögzítés vizsgálandó | – | Westwing Styrka banánrost függőlámpa Ø75×75, 1×E27 + 1×E27/0×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML05 | 138 980 | 138 980 | ellenőrzött |
 | S10-L04 | 10 | nappali/étkező / ML04 | Lámpatest a(z) ML04 ponton | csak a meglévő kiálláson; rögzítés vizsgálandó | – | Kave Home Drava kerámia függeszték (ár 2026-10-24 árkönyvtár; foglalat NEM igazolt) + 1×E27/0×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML04 | 41 990 | 41 990 | FELTÉTELES |
 | S10-L06 | 10 | master 05.1 / ML06 | ML06: Westwing Styrka Ø63 natúr szál függeszték | – | Ø63×50 | Westwing Styrka banánrost függőlámpa Ø63×50, 1×E27 | szabadon álló | ML06 | 84 990 | 84 990 | ellenőrzött |
@@ -112,6 +102,7 @@ Elv: rejtett LED csak alu profilban, opál fedéllel, egyenletes vonal (nem pont
 | S10-H00 | lakás / – | Hue Bridge | – | dugalj | 29 999 | 29 999 |  |
 | S10-H01 | nappali + master / kapcsolóoszlop mellé | Hue Tap Dial ×2 (nappali K10–K12 mellé, master K15/K16 mellé) | – | – | 44 980 | 44 980 |  |
 | S10-H02 | lakás / – | Villanyszerelő: szalagok, tápok, Hue-beüzemelés (≈14 óra + kiszállás) | – | – | 185 000 | 160 000 |  |
+| S10-H03 | fürdő 06.2 / mennyezet ML10 | IP44 mennyezeti lámpatest (GU10/E27) + Hue izzó | ≈ Ø25 | ML10 | 39 990 | 32 990 |  |
 | S10-H09 | lakás / – | Hue izzók: 4× E27, 0× E14 | – | – | 95 960 | 95 960 |  |
 
 **Lámpatestek:** ML05: Westwing Styrka banánrost függőlámpa Ø75×75, 1×E27 + 1×E27/0×E14 Hue izzó; ML04: Kave Home Drava kerámia függeszték (ár 2026-10-24 árkönyvtár; foglalat NEM igazolt) + 1×E27/0×E14 Hue izzó; ML06: Westwing Styrka banánrost függőlámpa Ø63×50, 1×E27; éjjelik: Westwing/KARE Josy kézműves asztali lámpa, E27 × 2.
@@ -134,26 +125,24 @@ Minden új szalag-táp: **FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES** (k
 | 04b | Fejvégfal | 0.55 | 0.21 | 0.15 | -0.34 a célhoz képest |
 | 04c | Gardróbfal | 0.45 | 0.93 | 0.69 | +0.48 a célhoz képest |
 | 04d | Master: éjjelik, lámpák, függöny, textil | 0.45 | 0.49 | 0.34 | +0.04 a célhoz képest |
-| 07 | Fürdő 06.2 + 06.1 + WC | 0.50 | 0.74 | 0.47 | +0.24 a célhoz képest |
-| 10 | Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.26 | 1.17 | +0.26 a célhoz képest |
+| 07 | Fürdő 06.2 + 06.1 + WC | 0.50 | 0.29 | 0.20 | -0.21 a célhoz képest |
+| 10 | Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.10 | 1.06 | +0.10 a célhoz képest |
 | 11 | Falfelületek (tapéta, grafika) | 0.50 | 0.41 | 0.25 | -0.09 a célhoz képest |
-| 12 | Textil, dekor, művészet, növény | 0.50 | 0.28 | 0.17 | -0.22 a célhoz képest |
-| **Σ** | **Stílusfüggő összesen** | **9.60** | **9.41** | **7.22** | ✅ ≤ 9,60; mozgástér fő: 0.19 M |
+| 12 | Textil, dekor, művészet, növény | 0.50 | 0.22 | 0.15 | -0.28 a célhoz képest |
+| **Σ** | **Stílusfüggő összesen** | **9.60** | **8.75** | **6.83** | ✅ ≤ 9,60; mozgástér fő: 0.85 M |
 | FIX | Közös fix (KOZOS_FIX_ALAP_v1, változatlanul) | 8.40 | 8.40 | 8.40 | versenyfeltételezés, nem igazolt ár |
-| **ÖSSZ** | **Lakásszint (fix + stílusfüggő)** | **18.00** | **17.81** | **15.62** | a 2,00 M tartalék érintetlen |
+| **ÖSSZ** | **Lakásszint (fix + stílusfüggő)** | **18.00** | **17.15** | **15.23** | a 2,00 M tartalék érintetlen |
 
-Tételek: 54 – ebből igazolt/árkönyvtári ár 18, becslés 34, FELTÉTELES 2. Az asztalos- és kárpitos tételek becslések, a döntős stílusnál 2–3 ajánlat kell (03a, 04b, 04c frontok). A sorok közötti átcsoportosítás szándékos: a gardróbfal (04c) őszintén 0,8–1,0 M, a cél 0,45 M fölött – ezt a 04b, 03c és 11 sorok alulfutása fedezi.
+Tételek: 50 – ebből igazolt/árkönyvtári ár 18, becslés 30, FELTÉTELES 2. Az asztalos- és kárpitos tételek becslések, a döntős stílusnál 2–3 ajánlat kell (03a, 04b, 04c frontok). A sorok közötti átcsoportosítás szándékos: a gardróbfal (04c) őszintén 0,8–1,0 M, a cél 0,45 M fölött – ezt a 04b, 03c és 11 sorok alulfutása fedezi.
 
 ## 8. Kiváltott tételek és kockázatok
 **Kiváltott korábbi (V2/V3) tételek:**
 - JÄTTEBO rozsda/vörösesbarna huzat (nem létezik) → Samsala sötétsárga-zöld.
 - Napkorong Ø 120 → Ø 100 (a TV-től északra Ø 120 nem fér el); okker lépcső 150 → 130 cm.
 - Naanim Ø 120 kerek asztal → csak kreatív alternatíva, a fő változat Kesia 160 × 90 (FELTÉTELES ár).
-- Fürdő (r1b, Péter kérése): a WC-perem fölötti kis szekrény/polc és a mosdó alatti kosár → lebegő mosdópult az aknától az üvegig + fali tároló-oszlop; a mosdó nem cserélődik.
 
 **Kockázatok:**
 - Kesia magyar ár nem olvasható (429-es blokk) – benchmark 300 e Ft, FELTÉTELES; alternatíva: Westwing Toni 160 sötét tölgy 259 990.
 - Styrka Ø 75 × 75 az ML05-ön: alsó él 2,15 m csak rövid függesztéssel; ha nem tartható → Styrka Ø 63 × 50.
 - Nádfonat-betétek ára és tartóssága (valódi nád) ajánlatköteles.
-- Fürdő: a D43/D44 dugaljak magassága és pontos helye (hétfői mérés) dönti el a fali oszlop és a tükör végleges szélességét; a 100 cm-es üveg padkára állítása és stabilizátora helyszíni; a rejtett 24 V-os fények a fürdőzónák miatt CLAUDE VILLAMOS AUDIT-köteles; a mosdópult asztalos-ajánlat (becslés 260–290 e Ft).
 - Közös: az ML04/ML05 rögzítése vizsgálandó; a 03a mennyezeti kapcsolat a HF03-mal FELTÉTELES; teraszajtó (hétfő): ha csak a keleti szárny nyílik → 5+1 ülés (az északi végszék pótszék).

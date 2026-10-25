@@ -36,15 +36,10 @@
 - **Gardrób:** elefántcsont textilhatású vinillel bevont frontok, vékony pezsgőszínű fém kerettel (gardrób FIXED: textilborítás), belső funkcionális fény.
 - **Éjjelik:** íves világos tölgy-hatású dobozok; opálgömbös asztali lámpák (E14/E27 Hue). Függöny: krém len. ML06: opál gömb.
 
-## 4. Fürdő 06.2 (Cam_10, csak műfény) – r1b, Péter 2026-10-25 16:00/16:04 kérésére
-- **Megmarad:** a Geostone Grigio burkolat, az Esagonetta dekorfal, a padka, a folyóka, a fekete Grohe szerelvények, a fehér Geberit mosdó **a saját helyén és konzolján**, a WC, a törölközőszárító.
-- **Üvegfal (új, árazott tétel):** 100 × 200 cm-es fix walk-in panel a zuhany padkáján, a keleti (fejzuhanyos) faltól nyugat felé – 8 mm víztiszta edzett üveg, keskeny matt fekete profil; matt fekete falprofil + stabilizátor a dekorfalhoz; a nyugati végen ≈ 92 cm szabad belépő. A padkára állítás és a stabilizátor rögzítése FELTÉTELES (helyszíni ellenőrzés, cső-/vezetékkereső).
-- **Lebegő mosdópult az aknától az üvegig:** 130 × 48 cm, pult teteje 0,85 m, alja 0,30 m. A mosdó **belesüllyed**: a munkalap körbe van marva, a perem pár mm-rel a pult fölött, az elülső él egy síkban. A mosdó az üveg felé esik (tengely y ≈ 6,63), ezért balra csak ≈ 19 cm nyitott törölközőrés, jobbra ≈ 51 cm kétfiókos blokk, a mosdó alatt U-fiók a szifon körül; 12 cm-es hátfalléc. Kivitel: elefántcsont, finoman bordázott MDF front nedvességálló lakkal (FELTÉTELES: gyártói igazolás), vékony pezsgő fogantyúléc; munkalap + hátfalléc travertin-hatású kompakt laminált (dekor ajánlatköteles).
-- **Fali tároló:** a jobb sarokban, az aknához simulva ≈ 20 × 110 × 18 cm-es oszlop a pult fölött 15 cm-től – elefántcsont oszlop bordázott üvegajtóval, belül fénnyel; a D43/D44 dugaljtól ≥ 5 cm-re (helyük hétfőn mérendő).
-- **Tükör:** ovális 60 × 85 tükör vékony pezsgő fémkeretben, 3 cm-es távtartón; alsó éle ≈ 1,00 m, felső ≤ 1,85 m, a kompozíció a dugaljak és az üveg között (y ≈ 6,25–7,08).
-- **FL04:** opál üveg IP44 fali lámpa (E14).
-- **Látványos, rejtett fény:** tükörglória (a tükör 3 cm-es távtartóján körben), padlófény a lebegő pult alatt – 24 V SELV, IP65 szalag alu profilban, opál fedéllel; táp és Zigbee-vezérlő a jobb fiókblokk száraz üregében, a FL04 lámpaáramkörről (FELTÉTELES – CLAUDE VILLAMOS AUDIT: fürdőzónák, SELV, állandó táp – Hue Wall Switch Module a K24 mögött). **ML10:** matt fehér IP44 spotsín 3 billenthető Hue GU10-fejjel – egy a hatszög-dombordekort súrolja az üvegen át, egy a pultot, egy a tükörfalat.
-- **Stílustárgy(ak):** fehér orchidea gyöngyházmázas kaspóban + pezsgőszínű tálca.
+## 4. Fürdő 06.2
+- **Tükör:** ovális 60 × 90 cm-es tükör pezsgőszínű vékony fémkeretben; FL04: opál IP44 fali lámpa (E14 Hue).
+- **Tároló:** világos tölgy-hatású nedvességálló polc a WC-perem fölött; fehér textil kosár.
+- **Textil:** puha szürke és krémfehér törölközők; pezsgőszínű szappanadagoló.
 
 ## 5. Termék- és elemlista
 | ID | sor | helyiség / fal | elem | elhelyezési szándék | méret (cm) | anyag / termék | rögzítés | táp | fő Ft | gazd. Ft | státusz |
@@ -77,21 +72,16 @@
 | S07-M12 | 04d | master 05.1 / ágy | Ágytextil, pléd, párnák: fehér és elefántcsont, gyöngyszürke pléd, bouclé párnák | – | 180 × 200 | fehér és elefántcsont, gyöngyszürke pléd, bouclé párnák |  | – | 90 000 | 60 000 | becslés |
 | S07-M13 | 04d | master 05.1 / fejvégfal | Éjjelik: íves tölgy-hatású éjjeli ×2 | a fejvég két oldalán; a D20–D23 és K13/K14 hozzáférhető | 2 db | íves tölgy-hatású éjjeli ×2 | falra / szabadon | – | 90 000 | 60 000 | becslés |
 | S07-M14 | 04d | master 05.1 / ágy lábvége | kerek bouclé puff | a nyíló szárny lendülete szabad | – | kerek bouclé puff |  | – | 50 000 | 30 000 | becslés |
-| S07-F05 | 07 | fürdő 06.2 / zuhany padkája (y ≈ 7,15–7,20), a K-i faltól 100 cm | Fix walk-in üvegfal 100 × 200: 8 mm víztiszta edzett üveg, keskeny matt fekete profil | a padkán a keleti (fejzuhanyos) faltól nyugat felé 100 cm; a nyugati végen ≈ 92 cm szabad belépő; stabilizátor a zuhany hátfalához (dekorcsempe – fúrás vezeték-/csőkeresővel) | 100 × 200 × 0,8 | 8 mm víztiszta edzett üveg, keskeny matt fekete profil / gazdaságos: Viva AQUA Max Walk-in 100×200, 8 mm, fekete profil | falprofil + padka-U-profil szilikonnal, stabilizátorrúd | – | 92 945 | 92 945 | ellenőrzött (ár-összehasonlító) |
-| S07-F01 | 07 | fürdő 06.2 / K-i fal, mosdótengely (y ≈ 6,63) | Tükör: ovális 60 × 85 tükör vékony pezsgő fémkeretben, 3 cm-es távtartón | alsó éle ≈ 1,00 m (a hátfalléc fölött), felső éle ≤ 1,85 m (a FL04 alatt); a tükörkompozíció y 6,25–7,08 között – a D43/D44 és az üveg között | ≈ 60 × 85 | ovális 60 × 85 tükör vékony pezsgő fémkeretben, 3 cm-es távtartón | csempére, biztonsági fóliával | – | 80 000 | 56 000 | becslés |
-| S07-F02 | 07 | fürdő 06.2 / K-i fal, az aknától az üvegig (y ≈ 5,82–7,12) | Lebegő mosdópult, a meglévő mosdó belesüllyesztve: elefántcsont, finoman bordázott MDF front nedvességálló lakkal (FELTÉTELES: gyártói igazolás), vékony pezsgő fogantyúléc; munkalap + hátfalléc travertin-hatású kompakt laminált (dekor ajánlatköteles) | pult teteje 0,85 m, alja 0,30 m; a mosdó a saját falikonzolján marad, a munkalap körbe van marva (a perem pár mm-rel a pult fölött, az elülső él egy síkban); balra ≈ 19 cm nyitott törölközőrés, jobbra ≈ 51 cm kétfiókos blokk, a mosdó alatt U-fiók a szifon körül; a vanity ≥ 4 cm-re az üvegprofiltól | 130 × 55 × 48 (+ 12 cm hátfalléc) | elefántcsont, finoman bordázott MDF front nedvességálló lakkal (FELTÉTELES: gyártói igazolás), vékony pezsgő fogantyúléc; munkalap + hátfalléc travertin-hatású kompakt laminált (dekor ajánlatköteles) / gazdaságos: azonos méret, sima laminált front, kompakt laminált munkalap | falra függesztve (rejtett acél konzol), csempébe fúrva | – | 290 000 | 180 000 | becslés |
-| S07-F06 | 07 | fürdő 06.2 / K-i fal, jobb sarok az aknánál (y ≈ 5,83–6,03) | Fali tároló-oszlop: elefántcsont oszlop bordázott üvegajtóval, belül fénnyel | a pult fölött 15 cm-től ≈ 2,10 m-ig; a D43/D44 dugaljtól ≥ 5 cm-re (helyük hétfőn mérendő) | ≈ 20 × 110 × 18 | elefántcsont oszlop bordázott üvegajtóval, belül fénnyel / gazdaságos: egyszerű laminált nyitott polcoszlop | csempébe fúrva | – | 85 000 | 50 000 | becslés |
-| S07-F03 | 07 | fürdő 06.2 + 06.1 + WC 08 / – | Textil, kiegészítők; 06.1 és WC tükör, textil | – | – | törölközők, adagolók; 06.1/WC egyszerű tükör + textil |  | – | 110 000 | 80 000 | becslés |
-| S07-F07 | 12 | fürdő 06.2 / pult / zuhany | Stílustárgy(ak): fehér orchidea gyöngyházmázas kaspóban + pezsgőszínű tálca | a vízvonalon kívül; a zuhanyzsámoly a hátsó sarokban | – | fehér orchidea gyöngyházmázas kaspóban + pezsgőszínű tálca |  | – | 55 000 | 25 000 | becslés |
-| S07-F08 | 10 | fürdő 06.2 / tükör / pult / oszlop | Rejtett fény: tükörglória (a tükör 3 cm-es távtartóján körben) 2.3 m + padlófény a lebegő pult alatt 1.3 m | csak 24 V SELV, IP65 szalag alu profilban, opál fedéllel; a táp és a Zigbee-vezérlő a jobb fiókblokk száraz hátsó üregében | 3.6 m | 24 V IP65 LED-szalag + Hue-kompatibilis Zigbee 24 V vezérlő + IP-s táp + alu profil / gazdaságos: csak a pult alatti padlófény | profilban | FL04 lámpaáramkör (230 V a tükör távtartója és a hátfalléc mögött a vanity-ig) – FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES (fürdőzónák, SELV, állandó táp: Hue Wall Switch Module a K24 mögött) | 111 880 | 104 290 | becslés |
-| S07-F09 | 10 | fürdő 06.2 / mennyezet ML10 | Mennyezeti spotsín (matt fehér), 3 billenthető GU10-fej, IP44 + 3 × Hue GU10 | egy fej a zuhany hatszög-dombordekorját súrolja az üvegen át, egy a pultot, egy a tükröt; csak a meglévő ML10 kiálláson | ≈ 60 cm | IP44 spotsín (matt fehér) + 3 × Philips Hue White Ambiance GU10 / gazdaságos: 1 fejes IP44 lámpatest + 1 × GU10 | mennyezeti kiállásra (a fürdőben nincs HF-mező) | ML10 | 79 970 | 39 990 | becslés |
-| S07-F04 | 10 | fürdő 06.2 / FL04 (z ≈ 2,00) | IP44 fali lámpa: opál üveg IP44 fali lámpa (E14) | a meglévő FL04 ponton, a tükör fölött | – | opál üveg IP44 fali lámpa (E14) + Hue E14 izzó | falra a kiállásra | FL04 | 44 990 | 34 990 | becslés |
+| S07-F01 | 07 | fürdő 06.2 / keleti fal, mosdó fölött | Tükör: ovális 60×90 tükör vékony pezsgő fémkeretben | a mosdótengelyen, csempére rögzítve, biztonsági fóliával | ≈ 60 × 90–100 | ovális 60×90 tükör vékony pezsgő fémkeretben | csempére (rozsdamentes rögzítő) | – | 65 000 | 45 500 | becslés |
+| S07-F02 | 07 | fürdő 06.2 / WC-perem fölött / mosdó alatt | Tároló: világos tölgy-hatású polc + fehér kosár | a burkolat előtt, fúrással; D43/D44 szabad | – | világos tölgy-hatású polc + fehér kosár | csempére | – | 50 000 | 35 000 | becslés |
+| S07-F03 | 07 | fürdő 06.2 + 06.1 + WC 08 / – | Textil, kiegészítők; 06.1 és WC tükör, textil | – | – | törölközők, kosár, adagolók, növény; 06.1/WC egyszerű tükör + textil |  | – | 160 000 | 110 000 | becslés |
+| S07-F04 | 10 | fürdő 06.2 / FL04 (z ≈ 2,00) | IP44 fali lámpa: opál üveg IP44 fali lámpa (E14) | a meglévő FL04 ponton, a tükör fölött | – | opál üveg IP44 fali lámpa (E14) + Hue izzó | falra a kiállásra | FL04 | 44 990 | 34 990 | becslés |
 | S07-L05 | 10 | nappali/étkező / ML05 | Lámpatest a(z) ML05 ponton | alja ≥ 2,15 m; csak a meglévő kiálláson; rögzítés vizsgálandó | – | Westwing Dancing nagy függőlámpa Ø65×38, fehér, 1×E27 + 1×E27/0×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML05 | 253 980 | 253 980 | ellenőrzött |
 | S07-L04 | 10 | nappali/étkező / ML04 | Lámpatest a(z) ML04 ponton | csak a meglévő kiálláson; rögzítés vizsgálandó | – | Kave Home Brisia Ø50, 1 matt gömb, szálcsiszolt sárgaréz, E27 – HU ár nem olvasható; benchmark + 1×E27/0×E14 Hue izzó | mennyezeti kiállásra; HF-mezőbe nem fúrunk – FELTÉTELES rögzítés | ML04 | 123 990 | 123 990 | FELTÉTELES |
 | S07-L06 | 10 | master 05.1 / ML06 | ML06: opál gömb (E27) | – | ≈ Ø30 | opálüveg + Hue E27 |  | ML06 | 63 990 | 53 990 | becslés |
 | S07-L07 | 10 | master 05.1 / éjjelik | Opálgömbös asztali lámpa ×2 (E14) | éjjeliken | – | Westwing asztali lámpa E14 (Ilena len 64 990 / Danielle üveg 69 990 / Carla 84 990) – stílus szerinti típus × 2 | szabadon álló | D20–D23 | 129 980 | 129 980 | ellenőrzött |
 | S07-V01 | 11 | nappali + master / W02, W07, W03, W03-a, W04-sáv, master falak | Tapéta: gyöngyszürke texturált textilhatású vlies (W02, W07, W03, master teljes keleti fal) | padlótól mennyezetig; kapcsolóoszloptól 15 cm; közlekedőben ≤ 2 cm | ≈ 26 m² (6 tekercs) | gyöngyszürke texturált textilhatású vlies (W02, W07, W03, master teljes keleti fal) / gazdaságos: textilhatású vlies 11490 Ft/tekercs | ragasztott | – | 232 000 | 161 940 | becslés |
-| S07-D01 | 12 | nappali / W02 | Kézzel készült fehér–gyöngy dombormű-vászon 120 × 160 + tölgy úszókeret | W02, képközép z 1,55 | 120 × 160 | műalkotás (texturált paszta vásznon) – művészi ajánlat | falra | – | 170 000 | 120 000 | becslés |
+| S07-D01 | 12 | nappali / W02 | Kézzel készült fehér–gyöngy dombormű-vászon 120 × 160 + tölgy úszókeret | W02, képközép z 1,55 | 120 × 160 | műalkotás (texturált paszta vásznon) – művészi ajánlat | falra | – | 220 000 | 120 000 | becslés |
 | S07-D02 | 12 | nappali + master / – | Bouclé és selyem párnák, kasmírhatású pléd, fehér vázák ágakkal | – | – | textil, tárgyak |  | – | 180 000 | 120 000 | becslés |
 
 Forrás, link, dátum és kameraszám: `40_ELEMLISTA_V3_1.csv`. A Hue-tételek a 6. pontban.
@@ -108,6 +98,7 @@ Elv: rejtett LED csak alu profilban, opál fedéllel, egyenletes vonal (nem pont
 | S07-H00 | lakás / – | Hue Bridge | – | dugalj | 29 999 | 29 999 |  |
 | S07-H01 | nappali + master / kapcsolóoszlop mellé | Hue Tap Dial ×2 (nappali K10–K12 mellé, master K15/K16 mellé) | – | – | 44 980 | 44 980 |  |
 | S07-H02 | lakás / – | Villanyszerelő: szalagok, tápok, Hue-beüzemelés (≈14 óra + kiszállás) | – | – | 185 000 | 160 000 |  |
+| S07-H03 | fürdő 06.2 / mennyezet ML10 | IP44 mennyezeti lámpatest (GU10/E27) + Hue izzó | ≈ Ø25 | ML10 | 39 990 | 32 990 |  |
 | S07-H09 | lakás / – | Hue izzók: 1× E27, 2× E14 | – | – | 53 970 | 53 970 |  |
 
 **Lámpatestek:** ML05: Westwing Dancing nagy függőlámpa Ø65×38, fehér, 1×E27 + 1×E27/0×E14 Hue izzó; ML04: Kave Home Brisia Ø50, 1 matt gömb, szálcsiszolt sárgaréz, E27 – HU ár nem olvasható; benchmark + 1×E27/0×E14 Hue izzó; ML06: opálüveg + Hue E27; éjjelik: Westwing asztali lámpa E14 (Ilena len 64 990 / Danielle üveg 69 990 / Carla 84 990) – stílus szerinti típus × 2.
@@ -130,25 +121,23 @@ Minden új szalag-táp: **FELTÉTELES – CLAUDE VILLAMOS AUDIT SZÜKSÉGES** (k
 | 04b | Fejvégfal | 0.55 | 0.20 | 0.14 | -0.35 a célhoz képest |
 | 04c | Gardróbfal | 0.45 | 0.99 | 0.69 | +0.54 a célhoz képest |
 | 04d | Master: éjjelik, lámpák, függöny, textil | 0.45 | 0.46 | 0.32 | +0.01 a célhoz képest |
-| 07 | Fürdő 06.2 + 06.1 + WC | 0.50 | 0.66 | 0.46 | +0.16 a célhoz képest |
-| 10 | Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.41 | 1.23 | +0.41 a célhoz képest |
+| 07 | Fürdő 06.2 + 06.1 + WC | 0.50 | 0.28 | 0.19 | -0.22 a célhoz képest |
+| 10 | Világítás (Hue, lámpatestek, villanyszerelő) | 1.00 | 1.26 | 1.12 | +0.26 a célhoz képest |
 | 11 | Falfelületek (tapéta, grafika) | 0.50 | 0.23 | 0.16 | -0.27 a célhoz képest |
-| 12 | Textil, dekor, művészet, növény | 0.50 | 0.41 | 0.27 | -0.09 a célhoz képest |
-| **Σ** | **Stílusfüggő összesen** | **9.60** | **9.50** | **7.54** | ✅ ≤ 9,60; mozgástér fő: 0.10 M |
+| 12 | Textil, dekor, művészet, növény | 0.50 | 0.40 | 0.24 | -0.10 a célhoz képest |
+| **Σ** | **Stílusfüggő összesen** | **9.60** | **8.96** | **7.13** | ✅ ≤ 9,60; mozgástér fő: 0.64 M |
 | FIX | Közös fix (KOZOS_FIX_ALAP_v1, változatlanul) | 8.40 | 8.40 | 8.40 | versenyfeltételezés, nem igazolt ár |
-| **ÖSSZ** | **Lakásszint (fix + stílusfüggő)** | **18.00** | **17.90** | **15.94** | a 2,00 M tartalék érintetlen |
+| **ÖSSZ** | **Lakásszint (fix + stílusfüggő)** | **18.00** | **17.36** | **15.53** | a 2,00 M tartalék érintetlen |
 
-Tételek: 52 – ebből igazolt/árkönyvtári ár 19, becslés 32, FELTÉTELES 1. Az asztalos- és kárpitos tételek becslések, a döntős stílusnál 2–3 ajánlat kell (03a, 04b, 04c frontok). A sorok közötti átcsoportosítás szándékos: a gardróbfal (04c) őszintén 0,8–1,0 M, a cél 0,45 M fölött – ezt a 04b, 03c és 11 sorok alulfutása fedezi.
+Tételek: 48 – ebből igazolt/árkönyvtári ár 18, becslés 29, FELTÉTELES 1. Az asztalos- és kárpitos tételek becslések, a döntős stílusnál 2–3 ajánlat kell (03a, 04b, 04c frontok). A sorok közötti átcsoportosítás szándékos: a gardróbfal (04c) őszintén 0,8–1,0 M, a cél 0,45 M fölött – ezt a 04b, 03c és 11 sorok alulfutása fedezi.
 
 ## 8. Kiváltott tételek és kockázatok
 **Kiváltott korábbi (V2/V3) tételek:**
 - Wolke L 258 × 167 (nem létező méret) → Wolke Teddy bouclé 256 × 118 (méretpróba).
 - Ciselia szék → Adrien fehér bouclé (gazdaságos: Ciselia marad).
 - Marely szőnyeg → Westwing Koli (váltakozó szálmagasság, magyar ár).
-- Fürdő (r1b, Péter kérése): a WC-perem fölötti kis szekrény/polc és a mosdó alatti kosár → lebegő mosdópult az aknától az üvegig + fali tároló-oszlop; a mosdó nem cserélődik.
 
 **Kockázatok:**
 - Wolke 256 × 118: kisebb, mint a korábban feltételezett – a nappali üresebbnek hathat; méretpróba + modulbővítés vizsgálandó.
 - LF-1 kárpitfal 11,6 m²: kárpitos ajánlat kell (benchmark 27,8–33,1 e Ft/m² + kárpit).
-- Fürdő: a D43/D44 dugaljak magassága és pontos helye (hétfői mérés) dönti el a fali oszlop és a tükör végleges szélességét; a 100 cm-es üveg padkára állítása és stabilizátora helyszíni; a rejtett 24 V-os fények a fürdőzónák miatt CLAUDE VILLAMOS AUDIT-köteles; a mosdópult asztalos-ajánlat (becslés 260–290 e Ft).
 - Közös: az ML04/ML05 rögzítése vizsgálandó; a 03a mennyezeti kapcsolat a HF03-mal FELTÉTELES; teraszajtó (hétfő): ha csak a keleti szárny nyílik → 5+1 ülés (az északi végszék pótszék).

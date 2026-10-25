@@ -21,7 +21,7 @@ The ceiling is white and carries radiant heating/cooling panels: nothing is fixe
 - Floor in living, dining, kitchen and bedrooms: the existing medium grey-brown oak-look floor exactly as in the site photo (image 2), with strong grain and a 6 cm matching skirting – not light oak, not cool grey, not concrete; its exact decor is not verified, so copy the photo, never re-invent it.
 - Interior doors light grey with black handles, in their real position and size.
 - Window and door frames white inside, anthracite outside, set in a dark brick reveal.
-- Bathroom 06.2 exactly as built: Geostone Grigio 60×60 matt porcelain on floor and walls to 2.85 m, Esagonetta Grigio hexagonal 3D decor tile on the shower back wall and above the WC ledge, walk-in shower (built without glass; Péter 2026-10-25: every style adds one fixed 100 × 200 cm walk-in glass panel on the kerb from the far wall), black Grohe fittings, white Geberit Smyle Square basin (kept in place – the new floating vanity is scribed around it) and WC, black towel radiator.
+- Bathroom 06.2 exactly as built: Geostone Grigio 60×60 matt porcelain on floor and walls to 2.85 m, Esagonetta Grigio hexagonal 3D decor tile on the shower back wall and above the WC ledge, walk-in shower without glass screen, black Grohe fittings, white Geberit Smyle Square basin and WC, black towel radiator.
 - Terrace exactly as built: porcelain tiles 15 cm below the floor, raised ribbed WPC deck at +0.62 m, green roof, anthracite bar railing; the real Buda view with city roofs and hills.
 
 ## R4 · Walls

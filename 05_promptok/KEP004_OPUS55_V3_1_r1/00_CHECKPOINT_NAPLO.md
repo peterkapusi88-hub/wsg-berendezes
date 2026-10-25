@@ -28,4 +28,5 @@ Bázis: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Mentésnek csak a távoli Gi
 
 **Lezárás:** a napló utolsó sorát ez a naplólezáró commit pótolja (csak ez a fájl változik); a végső fej SHA-ja a PR #22 leírásában szerepel.
 | CP15 (Péter-kérés, fürdő r1b) | 2026-10-25 16:13 | Péter 16:00/16:04: 10 Cam_10 prompt újragenerálva – 100×200 fix üvegfal a padkán, lebegő mosdópult az aknától az üvegig belesüllyesztett mosdóval, fali tároló-oszlop, 1–2 stílustárgy, 2–3 rejtett 24 V-os fény + ML10 spotsín; spec 4. pont, elemlista (549 tétel), 50-es költség, 02/03 fürdőszabály, összefoglaló 8. pont. Stílusfüggő fő 8,99–9,50 M, mind ≤ 9,60 M | `91b8fdb224acc7b8d41b499835b72e73e40ca5c4` | OK – távoli fej = 91b8fdb…, egyezik |
-| CP16 | 2026-10-25 16:13 | Összefoglaló fejléce a CP15-re; napló | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
+| CP16 | 2026-10-25 16:13 | Összefoglaló fejléce a CP15-re; napló | `2b05cd7af49a66b89d2bd74a4c19b6504b9f0328` | OK – távoli fej = 2b05cd7…, egyezik |
+| CP17 (visszaállítás) | 2026-10-25 16:18 | Péter 16:17: a versenyben az eredeti marad – a CP15–CP16 fürdő r1b visszavonva, a tartalom = CP14 (7d3c67f); az r1b a versenyen kívüli wsg/a902-furdo-r1b-20261025 ágon (3c20457) | (a következő CP-ben pótolva) | (a következő CP-ben pótolva) |
