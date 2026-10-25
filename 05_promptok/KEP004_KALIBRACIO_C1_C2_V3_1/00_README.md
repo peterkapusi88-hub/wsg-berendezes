@@ -4,6 +4,8 @@
 
 **Mit mutat:** a v1 Zenit- és Lake Forest-koncepció (`06_koncepcio/WSG_berendezes_Zenit_es_LakeForest_verzio.md`) újratervezve a valódi A-902 héjban, V3.1-szinten: minden látható tömör falnak terve van, Hue-fény, C elrendezés, valós termékek. **Szerep:** a kreatív minimum referenciája, nem versenyző. Nem helyettesíti az S06 Zenit Atelier és az S07 Lake Forest Couture teljes stílusát.
 
+**Hivatalos forrás (Péter, 05:38):** ág `competition/inditas-20261025`, commit `2452dfc54f26467791dccbd9ce620cd7af0435bb` – mindhárom versenyzőnek azonos, csak olvasható kivétel a `45632b5…` baseline alól. A promptfájlok e commit óta változatlanok; a baseline-commitbeli példány (öt prompt) elavult. A versenyzők manifestjében a 61–66. sor `megjegyzes` mezője ezt a forráscommitot rögzíti.
+
 **Fény (Péter 04:40/04:49, a versenyblokk VB.3 pontja):** Cam_02 kék óra / kora este, prémium rétegzett Hue, a TV-fal a WOW-elem; Cam_04 este, Hue; Cam_11 nappal – a stílusképekkel azonos.
 
 **Státusz:** `COMPLETE` kreatív prompt, `NEEDS_CLAUDE_VALIDATION` – nem futtatható csomag. A futtatható csomagot Claude a Blender-ellenőrzött FIXED/FRAME LAYOUT blokkokkal és az eredeti helyszíni referenciákkal építi, a stílusképekkel azonos kapukkal.

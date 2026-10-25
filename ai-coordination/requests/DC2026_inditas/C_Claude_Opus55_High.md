@@ -20,13 +20,13 @@
 
 **VB.1 Forrásállapot, ágak, elavult anyagok**
 - Közös, rögzített verseny-baseline (v3): ág `competition/baseline-20261025-v3`, commit `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Tartalma: a main `5ebc7d7` + a PR #20 kameracsomag C végső állapota (`f190e5f`; benne a PR #17 és #18) + a PR #19 közös versenybemenetei (`cf3b523`). A PR-ek a mainbe nincsenek beolvasztva; a Cam_12 v3 és a Cam_03 K1 Péter által elfogadott kamerajavaslat. Az élő Blender-fájl Péter gépén érintetlen.
-- Kizárólag ebből a commitból dolgozol. A saját ágadat (lásd a fejlécet) pontosan ebből a commitból hozod létre – nem a mainből, nem más ágból, nem újabb commitból; a draft PR-ed célága `competition/baseline-20261025-v3`. A main-t és a GOAL.md újabb változatát a verseny alatt nem olvasod: mindhárom versenyző ugyanazt az információt kapja; a verseny közben születő új tulajdonosi döntéseket Claude az integrációnál érvényesíti.
+- Kizárólag ebből a commitból dolgozol. **Egyetlen, csak olvasható kivétel:** a hat közös kalibrációs prompt (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/20_PROMPTOK/`) hivatalos forrása a javított változat: ág `competition/inditas-20261025`, commit `2452dfc54f26467791dccbd9ce620cd7af0435bb`. A baseline-commitban lévő kalibrációs példány (öt promptban nem igazolt termékadattal) elavult; a kalibrációt csak olvasod, nem másolod a saját ágadra. A saját ágadat (lásd a fejlécet) pontosan ebből a commitból hozod létre – nem a mainből, nem más ágból, nem újabb commitból; a draft PR-ed célága `competition/baseline-20261025-v3`. A main-t és a GOAL.md újabb változatát a verseny alatt nem olvasod: mindhárom versenyző ugyanazt az információt kapja; a verseny közben születő új tulajdonosi döntéseket Claude az integrációnál érvényesíti.
 - Nem módosítod: a baseline-ágat, a main-t, a GOAL.md-t, a közös fájlokat, a másik két versenyző ágát és PR-jét. PR-t nem merge-elsz és nem zársz le.
 - Közös, csak olvasható versenyfájlok a baseline-commitban:
   - `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md` – geometria, étkezőváltozatok, kamerák, fény;
   - `ai-coordination/inputs/A902_verseny/KOZOS_FIX_ALAP_v1.csv` és `.md` – közös költségalap;
   - `ai-coordination/inputs/A902_verseny/HUE_ALAPCSOMAG_v1.md` – Hue-rendszerelv és fajlagos árak;
-  - `05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/` – a hat közös kalibrációs prompt;
+  - `05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/` – a hat közös kalibrációs prompt, **a fenti kivétel szerint a `2452dfc54f26467791dccbd9ce620cd7af0435bb` commitból** olvasva;
   - `05_promptok/KEP004_66_kep_keret_v1/KEP004_66_kep_regiszter.csv` – a 66 soros képregiszter (kep_id);
   - `03_blender/validator_nyilvantartas_A902_kameracsomag_C.md` – a külön hibanyilvántartás;
   - `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r1.md` és `…_r2_ATADAS.md` – a kameracsomag bizonyítékai.
@@ -64,8 +64,8 @@
 
 **VB.5 Képszám és kalibráció** (Péter 04:03 és 04:27)
 - Versenyzőnként **60 SAJÁT kreatív prompt** (10 stílus × 6 kamera) **+ 6 KÖZÖS kalibrációs prompt = 66 képes készlet.** A három versenyző összesen 180 saját promptot készít.
-- A hat kalibrációt (C1 Zenit, C2 Lake Forest × Cam_02/Cam_04/Cam_11; regiszter 61–66. sor) Claude egyszer elkészítette (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/`): nem te írod, nem módosítod, C1/C2 stílusspecifikációt sem készítesz; mindhárom versenyző ugyanazt a mércét kapja.
-- A 66 soros manifested teljes marad: az 1–60. sor a saját promptod (PENDING / DRAFT / COMPLETE); a 61–66. sor `statusz` = KOZOS, `fajl` = a közös promptfájl útvonala, `validalas` = NEEDS_CLAUDE_VALIDATION, `megjegyzes` = „közös kalibráció, nem a versenyző munkája”.
+- A hat kalibrációt (C1 Zenit, C2 Lake Forest × Cam_02/Cam_04/Cam_11; regiszter 61–66. sor) Claude egyszer elkészítette (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/`; hivatalos forrás: ág `competition/inditas-20261025`, commit `2452dfc54f26467791dccbd9ce620cd7af0435bb`): nem te írod, nem módosítod, C1/C2 stílusspecifikációt sem készítesz; mindhárom versenyző ugyanazt a mércét kapja.
+- A 66 soros manifested teljes marad: az 1–60. sor a saját promptod (PENDING / DRAFT / COMPLETE); a 61–66. sor `statusz` = KOZOS, `fajl` = a közös promptfájl útvonala, `validalas` = NEEDS_CLAUDE_VALIDATION, `megjegyzes` = „közös kalibráció, nem a versenyző munkája; forrás: competition/inditas-20261025 @ 2452dfc54f26467791dccbd9ce620cd7af0435bb”. A `00_README.md`-ben is rögzíted a bázis-commitot (`45632b5…`) és a kalibrációs forráscommitot (`2452dfc…`).
 - Az S06 Zenit Atelier és az S07 Lake Forest Couture ettől függetlenül teljes, önálló stílus.
 
 **VB.6 Költség – közös alap és kapu** (KOZOS_FIX_ALAP_v1)
@@ -108,15 +108,24 @@ Ebben a munkamenetben:
 
 Péter belsőépítészeti skilljeit (westside-berendezes, wsg-ertekalapu-stiluslabor, interior-design-expert, interior-design, product-research, color-palette-generator, ffe-spec-book, product-cut-sheet) szöveges tervezésre és termékkutatásra használhatod; a képet vagy videót készítő meltflex- és portfolio-skilleket nem futtatod.
 
-**Git-indítás (Claude-munkamenet):**
+**Git-indítás (Claude-munkamenet) – kizárólag saját, elkülönített munkakönyvtárban:**
+Önálló klónban vagy külön git worktree-ben dolgozz. Ne válts ágat (`git checkout`/`git switch`) olyan közös, aktív munkakönyvtárban, amelyet az integrátor vagy egy másik versenyző használ; meglévő klón aktuális ágát, nem commitolt fájljait ne érintsd.
 ```
+# A) önálló klón (ajánlott)
+git clone https://github.com/peterkapusi88-hub/wsg-berendezes dc2026-opus55
+cd dc2026-opus55
+# B) vagy külön worktree egy meglévő klónból (a meglévő munkakönyvtár ága nem változik)
+#    git -C <meglévő-klón> fetch origin competition/baseline-20261025-v3
+#    git -C <meglévő-klón> worktree add ../dc2026-opus55 -b competition/opus55-v3-1-20261025 45632b5ad5586e1f3f884a8f723c1cc13cda6da3
+#    cd ../dc2026-opus55
+
 git fetch origin competition/baseline-20261025-v3
-git ls-remote --heads origin competition/opus55-v3-1-20261025       # üres kell legyen – ha nem: VB.10
-git checkout -b competition/opus55-v3-1-20261025 45632b5ad5586e1f3f884a8f723c1cc13cda6da3
+git ls-remote --heads origin competition/opus55-v3-1-20261025      # üres kell legyen – ha nem: VB.10
+git switch -c competition/opus55-v3-1-20261025 45632b5ad5586e1f3f884a8f723c1cc13cda6da3      # worktree-változatnál ez a lépés már megtörtént
 git rev-parse HEAD                                                  # = 45632b5ad5586e1f3f884a8f723c1cc13cda6da3
 # … CP0-fájlok, commit …
 git push -u origin competition/opus55-v3-1-20261025
-git ls-remote --heads origin competition/opus55-v3-1-20261025       # távoli visszaolvasás
+git ls-remote --heads origin competition/opus55-v3-1-20261025      # távoli visszaolvasás
 ```
 A draft PR-t a GitHub REST API-val nyisd (`POST repos/peterkapusi88-hub/wsg-berendezes/pulls`, `base=competition/baseline-20261025-v3`, `draft=true`); a GraphQL ebből a környezetből nem érhető el. A saját ágadat nem rebase-eled és nem merge-eled másra.
 
@@ -304,7 +313,7 @@ A draft PR célága `competition/baseline-20261025-v3`. Ha az ág már létezik:
 - Saját összefoglaló: `ai-coordination/results/WSG-20261025-OPUS55-CREATIVE-UPGRADE-V3_1_r1.md`
 
 A brief §11.12 szerkezetét használd, a 60+6 szabállyal:
-- `00_README.md` – tartalom, bázis-commit (45632b5…), források; első sorában: „a brief verziója r2, ez a kimenet r1”;
+- `00_README.md` – tartalom, bázis-commit (45632b5…), kalibrációs forráscommit (2452dfc…), források; első sorában: „a brief verziója r2, ez a kimenet r1”;
 - `00_CHECKPOINT_NAPLO.md` – checkpointonként: sorszám, idő, tartalom, commit SHA, a távoli ellenőrzés eredménye;
 - `01_MANIFEST_66.csv` – `nr;kep_id;stilus;kamera;fajl;statusz;validalas;checkpoint;karakterszam;mintaprompt;megjegyzes`; 66 sor: 1–60 saját, 61–66 KOZOS;
 - `02_KOZOS_REALITY_FIXED_elvek.md` – közös elvek angolul: a promptsablon v3.1 §1-éből átveendő a geometria és kamera, a meglévő felületek, az őszinte anyagnevek és a közlekedési méretek; nem átveendő a „Walls and ceilings: painted white” mondat (helyette a stílus falterve, a mennyezet fehér marad) és a „Series A neutral overcast” fényszabály (helyette a VB.3);

@@ -14,7 +14,7 @@ A futásokat Péter indítja; az indítás előtti két ellenőrzést az útmuta
 ## A 15 ellenőrzés
 | # | Kérdés | Eredmény | Megjegyzés |
 |---|---|---|---|
-| 1 | Azonos forráscommit és r2 brief | **IGEN** | mindhárom prompt: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3` (ág `competition/baseline-20261025-v3`) + r2 brief; a korábbi `45d1e4d` és a `32ba7bd`, `a8ab8d3`, `ce06496` baseline-SHA-k elavultként jelölve (VB.1). |
+| 1 | Azonos forráscommit és r2 brief | **IGEN** | mindhárom prompt: `45632b5ad5586e1f3f884a8f723c1cc13cda6da3` (ág `competition/baseline-20261025-v3`) + r2 brief; a korábbi `45d1e4d` és a `32ba7bd`, `a8ab8d3`, `ce06496` baseline-SHA-k elavultként jelölve (VB.1). Egyetlen, csak olvasható kivétel: a hat közös kalibráció hivatalos forrása `competition/inditas-20261025` @ `2452dfc54f26467791dccbd9ce620cd7af0435bb` (Péter 05:38). A B és C saját klónban vagy worktree-ben dolgozik. |
 | 2 | 10 stílus, 3+3 TV-fal, képszám | **IGEN** | versenyzőnként 60 saját + 6 közös kalibráció = 66 képes készlet; összesen 180 saját prompt; S06/S07 teljes stílus; S03–S10 egy-egy TV-fal (r2 §11.2). |
 | 3 | kep_id betű szerint | **IGEN** | regiszter 1–60 saját, 61–66 közös; a hat közös kalibráció jelölői gépileg ellenőrizve. |
 | 4 | Azonos kreatív, fal-, berendezési és Hue-követelmény | **IGEN** | a VB blokk bájtra azonos (sha256 mindháromban egyezik); a fény Péter 04:40/04:49-es döntése szerint (Cam_02 kék óra / Hue TV-fal, Cam_12 nappal), a két Cam_02 kalibráció is kékórás. |

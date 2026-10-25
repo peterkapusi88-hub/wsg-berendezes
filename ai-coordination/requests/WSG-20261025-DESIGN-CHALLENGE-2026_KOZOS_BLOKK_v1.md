@@ -9,6 +9,8 @@ Indítási útmutató: `ai-coordination/requests/DC2026_inditas/00_INDITASI_UTMU
 
 **Közös forrásállapot:** ág `competition/baseline-20261025-v3`, commit `45632b5ad5586e1f3f884a8f723c1cc13cda6da3` = main `5ebc7d7` + PR #20 r2 (`f190e5f`, kameracsomag C) + PR #19 (`cf3b523`, közös bemenetek). A PR-ek nincsenek beolvasztva.
 
+**Kalibrációs kivétel (Péter, 05:38):** a hat közös kalibrációs prompt hivatalos, csak olvasható forrása `competition/inditas-20261025` @ `2452dfc54f26467791dccbd9ce620cd7af0435bb` (a baseline-beli példány öt promptja nem igazolt termékadatot tartalmaz).
+
 **Források:** a ChatGPT által összeállított három indítóprompt és a preflight-kérés (Péter, 2026-10-25 03:13); Péter döntései 03:32–05:00 (66 képes készlet, 60 saját + 6 közös kalibráció; ő a döntőbíró; hero-nézetek először; C1/C2 egyszer, Claude; költség-keresztellenőrzés; közös baseline; C elrendezés és K1; asztalforma szabad, külön méretpróbával; fénycsere Cam_02 ↔ Cam_12; a Cam_12 nem kreatív korlát; a fix alap versenyfeltételezés); a PR #20 r2 átadása (04:50).
 
 **Miért „VB.x” a számozás:** az r2 briefnek saját 0. fejezete van (WOW-diagnózis), és az önellenőrző listája „§0.2”-re hivatkozik; a „§0.x” kettős jelentésű lett volna.
@@ -21,13 +23,13 @@ Indítási útmutató: `ai-coordination/requests/DC2026_inditas/00_INDITASI_UTMU
 
 **VB.1 Forrásállapot, ágak, elavult anyagok**
 - Közös, rögzített verseny-baseline (v3): ág `competition/baseline-20261025-v3`, commit `45632b5ad5586e1f3f884a8f723c1cc13cda6da3`. Tartalma: a main `5ebc7d7` + a PR #20 kameracsomag C végső állapota (`f190e5f`; benne a PR #17 és #18) + a PR #19 közös versenybemenetei (`cf3b523`). A PR-ek a mainbe nincsenek beolvasztva; a Cam_12 v3 és a Cam_03 K1 Péter által elfogadott kamerajavaslat. Az élő Blender-fájl Péter gépén érintetlen.
-- Kizárólag ebből a commitból dolgozol. A saját ágadat (lásd a fejlécet) pontosan ebből a commitból hozod létre – nem a mainből, nem más ágból, nem újabb commitból; a draft PR-ed célága `competition/baseline-20261025-v3`. A main-t és a GOAL.md újabb változatát a verseny alatt nem olvasod: mindhárom versenyző ugyanazt az információt kapja; a verseny közben születő új tulajdonosi döntéseket Claude az integrációnál érvényesíti.
+- Kizárólag ebből a commitból dolgozol. **Egyetlen, csak olvasható kivétel:** a hat közös kalibrációs prompt (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/20_PROMPTOK/`) hivatalos forrása a javított változat: ág `competition/inditas-20261025`, commit `2452dfc54f26467791dccbd9ce620cd7af0435bb`. A baseline-commitban lévő kalibrációs példány (öt promptban nem igazolt termékadattal) elavult; a kalibrációt csak olvasod, nem másolod a saját ágadra. A saját ágadat (lásd a fejlécet) pontosan ebből a commitból hozod létre – nem a mainből, nem más ágból, nem újabb commitból; a draft PR-ed célága `competition/baseline-20261025-v3`. A main-t és a GOAL.md újabb változatát a verseny alatt nem olvasod: mindhárom versenyző ugyanazt az információt kapja; a verseny közben születő új tulajdonosi döntéseket Claude az integrációnál érvényesíti.
 - Nem módosítod: a baseline-ágat, a main-t, a GOAL.md-t, a közös fájlokat, a másik két versenyző ágát és PR-jét. PR-t nem merge-elsz és nem zársz le.
 - Közös, csak olvasható versenyfájlok a baseline-commitban:
   - `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md` – geometria, étkezőváltozatok, kamerák, fény;
   - `ai-coordination/inputs/A902_verseny/KOZOS_FIX_ALAP_v1.csv` és `.md` – közös költségalap;
   - `ai-coordination/inputs/A902_verseny/HUE_ALAPCSOMAG_v1.md` – Hue-rendszerelv és fajlagos árak;
-  - `05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/` – a hat közös kalibrációs prompt;
+  - `05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/` – a hat közös kalibrációs prompt, **a fenti kivétel szerint a `2452dfc54f26467791dccbd9ce620cd7af0435bb` commitból** olvasva;
   - `05_promptok/KEP004_66_kep_keret_v1/KEP004_66_kep_regiszter.csv` – a 66 soros képregiszter (kep_id);
   - `03_blender/validator_nyilvantartas_A902_kameracsomag_C.md` – a külön hibanyilvántartás;
   - `ai-coordination/results/WSG-20261025-A902-KAMERACSOMAG-C_r1.md` és `…_r2_ATADAS.md` – a kameracsomag bizonyítékai.
@@ -65,8 +67,8 @@ Indítási útmutató: `ai-coordination/requests/DC2026_inditas/00_INDITASI_UTMU
 
 **VB.5 Képszám és kalibráció** (Péter 04:03 és 04:27)
 - Versenyzőnként **60 SAJÁT kreatív prompt** (10 stílus × 6 kamera) **+ 6 KÖZÖS kalibrációs prompt = 66 képes készlet.** A három versenyző összesen 180 saját promptot készít.
-- A hat kalibrációt (C1 Zenit, C2 Lake Forest × Cam_02/Cam_04/Cam_11; regiszter 61–66. sor) Claude egyszer elkészítette (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/`): nem te írod, nem módosítod, C1/C2 stílusspecifikációt sem készítesz; mindhárom versenyző ugyanazt a mércét kapja.
-- A 66 soros manifested teljes marad: az 1–60. sor a saját promptod (PENDING / DRAFT / COMPLETE); a 61–66. sor `statusz` = KOZOS, `fajl` = a közös promptfájl útvonala, `validalas` = NEEDS_CLAUDE_VALIDATION, `megjegyzes` = „közös kalibráció, nem a versenyző munkája”.
+- A hat kalibrációt (C1 Zenit, C2 Lake Forest × Cam_02/Cam_04/Cam_11; regiszter 61–66. sor) Claude egyszer elkészítette (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/`; hivatalos forrás: ág `competition/inditas-20261025`, commit `2452dfc54f26467791dccbd9ce620cd7af0435bb`): nem te írod, nem módosítod, C1/C2 stílusspecifikációt sem készítesz; mindhárom versenyző ugyanazt a mércét kapja.
+- A 66 soros manifested teljes marad: az 1–60. sor a saját promptod (PENDING / DRAFT / COMPLETE); a 61–66. sor `statusz` = KOZOS, `fajl` = a közös promptfájl útvonala, `validalas` = NEEDS_CLAUDE_VALIDATION, `megjegyzes` = „közös kalibráció, nem a versenyző munkája; forrás: competition/inditas-20261025 @ 2452dfc54f26467791dccbd9ce620cd7af0435bb”. A `00_README.md`-ben is rögzíted a bázis-commitot (`45632b5…`) és a kalibrációs forráscommitot (`2452dfc…`).
 - Az S06 Zenit Atelier és az S07 Lake Forest Couture ettől függetlenül teljes, önálló stílus.
 
 **VB.6 Költség – közös alap és kapu** (KOZOS_FIX_ALAP_v1)

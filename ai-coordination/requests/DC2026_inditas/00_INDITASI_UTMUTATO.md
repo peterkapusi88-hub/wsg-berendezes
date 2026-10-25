@@ -4,6 +4,8 @@
 
 **Közös forrásállapot mindhárom futáshoz:** ág `competition/baseline-20261025-v3`, commit **`45632b5ad5586e1f3f884a8f723c1cc13cda6da3`**.
 
+**Egyetlen, csak olvasható kivétel – a hat közös kalibráció:** hivatalos forrás `competition/inditas-20261025` @ **`2452dfc54f26467791dccbd9ce620cd7af0435bb`** (a javított változat; a baseline-beli példány öt promptja elavult). A versenyzők manifestjében a 61–66. sor útvonala változatlan, a `megjegyzes` mező és a `00_README.md` ezt a forráscommitot rögzíti.
+
 ## 1. A három indítóüzenet
 | | Versenyző | Hol fut | Bemásolandó fájl (ezen az ágon) | Saját ág (a baseline-commitból) | Saját mappa | PR-jelölő | Költség-keresztellenőrző |
 |---|---|---|---|---|---|---|---|
@@ -15,8 +17,8 @@ Mindhárom draft PR célága: `competition/baseline-20261025-v3`. Terjedelem: A 
 
 ## 2. Indítás előtt (Péter, kb. 2 perc)
 1. **ChatGPT Work:** nézd meg, fut-e még a 02:52-kor indított Astra V3.1 (nem verseny) feladat. Ha fut, állítsd le vagy hagyd lefutni – a versenyző A **új** Work-feladatban induljon, ne abban a beszélgetésben.
-2. **Work:** ellenőrizd a felületen, hogy **Medium** a gondolkodási szint.
-3. **Claude:** két új munkamenet a WSG projektben, a `wsg-berendezes` repóval: Fable 5.1 High és Opus 5.5 High. Ne ebben a beszélgetésben, és ne a kameracsomagos munkamenetben.
+2. **Work:** ellenőrizd a felületen, hogy **Medium** a gondolkodási szint, és nézd meg az aktuálisan elérhető Work-keretet (a legutóbbi ismert adat kb. 26 % volt). A checkpoint-kötelezettség ettől változatlan.
+3. **Claude:** két új munkamenet a WSG projektben, a `wsg-berendezes` repóval: Fable 5.1 High és Opus 5.5 High. Ne ebben a beszélgetésben, és ne a kameracsomagos munkamenetben. Mindkettő **saját, önálló klónban vagy külön git worktree-ben** dolgozik (a promptjuk git-blokkja ezt írja elő); közös, aktív munkakönyvtárban nem váltanak ágat.
 
 ## 3. Bemásolás
 - A GitHubon nyisd meg a fájlt az `competition/inditas-20261025` ágon → „Copy raw file” → első üzenetként szó szerint beilleszted. Mást ne írj mellé.
@@ -43,7 +45,8 @@ A GitHubon megjelenik: a saját ág, benne `00_README.md`, `00_CHECKPOINT_NAPLO.
 - Mindhárom promptban szerepel a teljes baseline-SHA, a saját ág, mappa, összefoglaló és PR-jelölő; a másik két versenyzőé egyikben sem.
 - Nincs elavult kifejezés: a `45d1e4d` csak az elavult-listában; nincs „66 prompt” mint saját kimenet, „a többi 62”, „36–38 cm”, „2–3 alternatíva”, „a kamera még készül”, „hiányzó tétel = nem igazolt”, `WSG-ASTRA-RESULT`; az Anouk 180 csak „nem elfogadott” összefüggésben.
 - Fény: egyetlen Cam_02-sor sem nappali, egyetlen Cam_12-sor sem esti.
-- A hat közös kalibrációs prompt jelölői rendben; a nem igazolt méretek és a nem igazolt krém „FORSAND” front ezen az ágon kivéve (`05_promptok/KEP004_KALIBRACIO_C1_C2_V3_1/00_README.md` – változásnapló). A képgeneráláskor ezt a tisztított változatot használjuk.
+- A hat közös kalibrációs prompt jelölői rendben; a nem igazolt méretek és a nem igazolt krém „FORSAND” front a `2452dfc…` commitban kivéve, a promptfájlok azóta változatlanok. Ez a kalibráció hivatalos forrása, a képgeneráláskor is ezt használjuk.
+- A B és C prompt git-blokkja önálló klónt vagy külön worktree-t ír elő; `git checkout -b` közös munkakönyvtárban nem szerepel.
 
 ## 8. Tilos (változatlanul)
 Képgenerálás, PR-merge, Blender-módosítás, rendelés – külön engedély nélkül. Ez az ág, a baseline-ág és a main nincs összefésülve; a különbség itt nézhető meg: `https://github.com/peterkapusi88-hub/wsg-berendezes/compare/competition/baseline-20261025-v3...competition/inditas-20261025`.
