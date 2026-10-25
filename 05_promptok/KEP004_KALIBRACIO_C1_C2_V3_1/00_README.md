@@ -20,7 +20,7 @@ Mind a hat `20_PROMPTOK/<kep_id>.prompt.md`, `=== BEGIN PROMPT <kep_id> ===` / `
 
 ## Közös tények a promptokban (forrás)
 - Kamerák: r2 brief §11.11; Cam_11 blokk `05_promptok/A902_Cam11_master05_1_kamerablokk_JAVASLAT_v1.md`.
-- Elrendezés C: `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md` (PR #20) – 160 × 90-es asztalhely az ML04 alatt, 2+2+1+1, a kanapé háttal keletre (háttámla ≤ x 6,67 L / 6,60 U), hosszú ülés észak–déli, nyitott a TV felé. A kalibrációkban Westwing Toni 160 × 90 (259 990 Ft, 2026-10-25); C1 kanapé Kave Home Martina íves (mélysége a termékadatlapról igazolandó → „elrendezésben ellenőrizendő”); C2 kanapé Westwing Wolke L 258 × 167 (az eredeti Lake Forest-kanapé; a Gala U 225 mély a C-ben nem fér el a PR #20 átadása szerint).
+- Elrendezés C: `ai-coordination/inputs/A902_verseny/GEOMETRIA_C_KAMERACSOMAG_v2.md` (PR #20) – 160 × 90-es asztalhely az ML04 alatt, 2+2+1+1, a kanapé háttal keletre (háttámla ≤ x 6,67 L / 6,60 U), hosszú ülés észak–déli, nyitott a TV felé. A kalibrációkban Westwing Toni 160 × 90 (259 990 Ft, 2026-10-25); C1 kanapé Kave Home Martina íves (mélysége a termékadatlapról igazolandó → „elrendezésben ellenőrizendő”); C2 kanapé Westwing Wolke L 258 × 167 (az eredeti Lake Forest-kanapé, 1 050 000 Ft, 2026-10-24 rekord – a 03b sáv 0,70–1,40 M-on belül; a Gala U 225 mély a C-ben nem fér el a PR #20 átadása szerint). **Wolke geometriai ellenőrzés** (`03_blender/geometry_v2/elrendezes_alt/wolke_c.py`, a PR #18 motorjával, Toni 160-nal, 05:30 CET): háttámla x 6,65 (≤ 6,67), kanapé–TV-bútor 0,91 m (40 cm) / 0,71 m (60 cm), minden fő út ≥ 0,90 betolt székkel, székkihúzás ≥ 0,90, ML04 0,10 – megfelel; Blender-tömbkép az integrációnál.
 - Gardróbfal 05.1: `05_promptok/A902_05_1_gardrobfal_FIXED_kiegeszites_v1.md`.
 - Hue-szabály: `05_promptok/A902_Hue_vilagitas_FIXED_kiegeszites_v1.md`; fajlagos árak: `ai-coordination/inputs/A902_verseny/HUE_ALAPCSOMAG_v1.md`.
 - Termékek és méretek: `ai-coordination/inputs/A902_v2b/KOLTSEG_ELOSZURES_4STILUS_A902.md` (Kave Home webshop, 2026-10-24: Martina, Corvena, Mosi, Nealy, Eamy, Selven, Gala, Sylo, Sheffield, Ciselia, Brisia). A Zenit/LF „eredeti” tételek (ív-állólámpa, gyűrűlámpa, gömb-csillár, pouf, éjjelik, pad) replika/analóg, `becslés` státusszal.
@@ -33,3 +33,5 @@ A v1 „semleges borús fény, fehér falak, P902_24A” szabályát a V3.1 (r2 
 - A C1 Martina íves kanapé mélysége termékadatból igazolandó; ha > 180 cm, a kanapé–TV ≥ 0,60 m-hez a TV-bútor mélysége csökken.
 - A PR #20 r2 átadásának (`WSG-20261025-A902-KAMERACSOMAG-C_r2_ATADAS.md`) 3–5. pontja beépítve (fény, tájolás, termékek).
 - Az éjjeli/olvasólámpa betáplálása (D26/D20) a kiállás-CSV-vel egyeztetendő.
+
+- A C1 Martina íves kanapé mélysége termékadat nélkül NEM igazolt; ha a termékoldal 180 cm-nél nagyobb mélységet ad, tartalék: Westwing Lennon L 238 × 180 (igazolt a C-ben).
