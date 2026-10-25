@@ -19,3 +19,5 @@ CP1.06: Zenit Atelier teljes stílusspecifikáció mentése – 2623ceedad3d7dae
 CP1.07: Lake Forest Couture teljes stílusspecifikáció mentése – ebda3c01f3f12c5206fbdba8e5e83e1ef43f48bf – 2026-10-25T04:59:45.371Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.08: Milano Radical teljes stílusspecifikáció mentése – b833c9df285958afa8055fae2bc652009d3d27b5 – 2026-10-25T04:59:55.806Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1.09: Paris Collector teljes stílusspecifikáció mentése – b490a41b5f24fe0fa10ad0f33b28667a4e5e63ab – 2026-10-25T05:00:06.191Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
