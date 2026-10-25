@@ -67,3 +67,5 @@ CP-S10-all – ujraellenorzes PASS | 92f6a88c13bb8c797d8a9d2318ed64de30ea2b02 | 
 CP-FINAL-1 – uj furdospecifikacio es teljes koltseg | 7fb2c14177d537f4dd2e98a0917449090bf81b52 | 2026-10-25T15:18:24.736546+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-FINAL-2 – stilusok uj furdo es feny specifikacio | da89fb68eb0d0ffe5fefc7799b9209749e0254b6 | 2026-10-25T15:18:54.700831+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-FINAL-3 – stilusok uj furdo es feny specifikacio | 665901e1993ee78f9918173b0f2d488f403b4b71 | 2026-10-25T15:19:11.948731+00:00 | távoli tartalom-visszaolvasás PASS
