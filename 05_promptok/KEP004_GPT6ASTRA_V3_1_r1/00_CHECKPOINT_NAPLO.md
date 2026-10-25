@@ -71,3 +71,5 @@ CP-FINAL-2 – stilusok uj furdo es feny specifikacio | da89fb68eb0d0ffe5fefc779
 CP-FINAL-3 – stilusok uj furdo es feny specifikacio | 665901e1993ee78f9918173b0f2d488f403b4b71 | 2026-10-25T15:19:11.948731+00:00 | távoli tartalom-visszaolvasás PASS
 
 CP-QA-0 – angol nyelvi javitas regeneracio nelkul | 86af9b0f69bfaf2e50493b09c7ffb4762cace99b | 2026-10-25T15:19:42.931812+00:00 | távoli tartalom-visszaolvasás PASS
+
+CP-QA-1 – angol nyelvi javitas regeneracio nelkul | 312ff21261af9058058763adb132e9dcae822195 | 2026-10-25T15:19:57.025671+00:00 | távoli tartalom-visszaolvasás PASS
