@@ -1,0 +1,56 @@
+WSG A-902 · GPT-6 ASTRA V3.1 · S01 Kyoto Ink · Cam_11 · CAMERA-LOCKED CONCEPT TEST (2026-10-25) · RUN v2
+STATUS: CONCEPT – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first. Image 1 and the GEOMETRY LOCK override anything in the creative brief that follows; the creative brief decides everything else (furniture, wall designs, materials, objects, light).
+
+IMAGE ID: A902_S01_KyotoInk_3_master_Cam_11_A
+SOURCE VERSION: GPT6ASTRA-V3.1 (branch competition/gpt6astra-v3-1-20261025 @ 2bef09ae6081b5bafb86bc876ef8410be44bb567), file 05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_11_A.prompt.md
+
+ATTACHED IMAGES AND THEIR ROLES (in this order: image 1, image 2, image 3)
+- Image 1 (01_image1_A902_Cam11_master_panorama_semleges_blender.png): Blender render 1600 × 1000 of the real, empty master bedroom 05.1 from the exact camera of this view (Cam_11). MANDATORY camera and geometry reference: the 3.64 m glass wall with exactly three white-framed fields, the balcony and its railing, walls, ceiling and floor lines. Nothing in image 1 may be moved, added or removed. The pale exterior is only a placeholder for the real view (see image 3); the flat floor tone is NOT the material (see image 2).
+- Image 2 (02_image2_A902_ME-BAL-080_parketta_szegely.jpg): real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible grain and knots, matching grey-brown skirting. Material and colour reference ONLY (not a camera, not a layout). The floor in the result must match this: not light oak, not honey/warm oak, not whitened, not dark-stained, not replaced.
+- Image 3 (03_image3_A902_ME-BAL-077_master_uvegfal_kilatas.jpg): real site photo of THIS bedroom's glass wall from a DIFFERENT position: the real white frames, the balcony with light-grey tiles and black vertical railing, the brick facade return on the right, and the REAL view (city roofs, church spire, Buda hills). Use it for the glass wall's appearance and the exact exterior view only – do NOT copy its camera or framing.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera at seated eye height 1.20 m on the bed, 20 mm lens, looking due west at the glass wall. Verticals stay vertical. Do not crop, zoom, rotate, raise, widen or re-frame. Same landscape 16:10 framing as image 1.
+2. Fixed elements of image 1, from LEFT to RIGHT (horizontal position in the frame, from the Blender projection of this camera):
+   a) 0–13 %: the white south wall at the left edge (the south wardrobe stands here, entering from the left edge).
+   b) 13–21 %: the white wall pier left of the glazing.
+   c) 21–79 %: the 3.64 m glass wall with EXACTLY THREE white-framed fields: the opening sash 21–35 %, the narrow middle field 35–50 %, the wide fixed field 50–79 %; glass head at about 15 % down, sill at floor level about 81 % down. Same width, same divisions, same height as image 1.
+   d) 79–84 %: the white wall pier right of the glazing; 84–100 %: the north wardrobe front at the right edge.
+   e) Above the glass: the 33 cm white wall strip up to the ceiling (about 3–15 % down) carrying the wall-mounted curtain track; curtains stacked at the sides, the three fields stay clear.
+   f) Beyond the glass: the balcony about 15 cm lower, light-grey tiles, black vertical-bar railing, the brick facade return at the right; then the REAL view of image 3.
+   g) Lower foreground: the foot of the bed across about 30–90 % of the width at the very bottom (top of the bedding about 87 % down).
+3. NOT in this frame: the headboard and the east wall (behind the camera). Do not show them.
+4. Forbidden: any new wall, partition, column, beam, bulkhead, niche, room or opening; moving, resizing, removing or adding doors, windows or glazing; raising or lowering the 2.90 m white ceiling or adding coves, recessed spots or new light points; changing the floor level; rotating, re-aiming, raising, zooming or re-cropping the camera to show something more attractive; showing anything that this camera cannot see; a narrower, wider, taller or differently divided glass wall; a fourth glass field; a different balcony or railing; a generic or invented view.
+5. Output: exactly one photorealistic image, same framing and aspect as image 1, no people, no text, no labels, no collage. If anything in the brief conflicts with image 1 or this lock, image 1 and this lock win.
+
+V2 CORRECTION (2026-10-25) – a first attempt with this exact package drifted. Keep the creative design; correct ONLY these measured geometry errors:
+- The glazing was drawn about 10 % too narrow. The white frame of the 3.64 m glass wall spans from 21 % to 79 % of the image width: opening sash 21–35 %, narrow middle field 35–50 %, wide fixed field 50–79 % (the widest of the three, about twice the middle field).
+- The brick facade return seen in image 3 is OUTSIDE the building, visible THROUGH the right part of the wide fixed field beyond the glass and the balcony; it does not shorten, frame or replace any part of the glazing. Inside, right of the frame, there is only the narrow white wall pier (79–84 %) and then the north wardrobe.
+- Vertical anchors: the eye-level horizon (1.20 m, seated) is at 50 % of the image height; glass head at about 15 %; sill and floor line at about 81 %; the foot of the bed at the very bottom.
+
+RUN NOTES – how to read the creative brief for THIS camera (integrator clarifications; the brief itself is unchanged)
+- The headboard description is for design consistency; the headboard is behind the camera and invisible.
+- Daylight; all Hue layers off or barely perceptible.
+
+CREATIVE BRIEF – GPT-6 Astra V3.1, A902_S01_KyotoInk_3_master_Cam_11_A, complete and verbatim (source: competition/gpt6astra-v3-1-20261025 @ 2bef09ae6081b5bafb86bc876ef8410be44bb567, 05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_11_A.prompt.md):
+=== BEGIN PROMPT A902_S01_KyotoInk_3_master_Cam_11_A ===
+Create an editorial-quality, photorealistic interior photograph of apartment A-902, Kyoto Ink, Cam_11. Build a tactile, convincingly inhabited luxury interior with honest materials and precise working joints. This is a creative concept requiring independent validation.
+
+STYLE DNA. A Japanese collector's apartment drawn with one confident ink stroke: graphite, smoke-grey paper fibre and taupe weave. Broad unequal planes, disciplined joints and a single oversized mark create quiet tension; the room feels commissioned, tactile and inhabited.
+
+CAMERA. Use fixed Cam_11, level at the seated eye point on the bed, 20 mm at 1.20 m, looking due west. The 3.64 m glass wall has precisely three white-framed fields: the opening sash at the south/left end, a narrow middle field and a wider fixed field on the right. The foot of the bed is low in the foreground, the north wardrobe at the right and south wardrobe at the left. The headboard is behind the camera and invisible. Beyond the glass, retain the lower balcony, black vertical railing, actual city roofs, church spire and Buda hills.
+
+MASTER MATERIAL COMPOSITION. A 270 × 150 × 6 cm asymmetrical headboard combines a broad pearl-grey removable textile panel with a narrow charcoal textile panel, lifted visually by a thin backlit upper seam. The bed is dressed in chalk cotton, a smoke-grey coverlet and one ink-edged taupe throw. The north wardrobe has six flat pale-grey doors with a sparse graphite printed line continuing across real joints; the south wardrobe repeats the same print scale. Two small graphite bedside blocks provide quiet horizontal anchors.
+
+MASTER PLAN. Use the white IKEA NORDLI storage bed, documented outer envelope 180 × 202 × 30 cm, with a 180 × 200 cm mattress subject to catalogue verification. Keep the bed in its real orientation and at least 60 cm bedside passage. Fill the entire north niche with a 300 × 290 × 90 cm wardrobe envelope, its front aligned to the existing pillar. White PAX carcasses, six working north fronts and fitted upper infill are separate construction parts; the 90 cm niche depth is not the carcass depth. The south wardrobe occupies the 242 cm strip, with a proposed 60 cm depth pending door-swing testing. Two 30 × 42 × 30 cm bedside blocks serve the bed. Preserve D20–D23, K13/K14 and D26 access. Mount the sheer and heavier curtains to the 33 cm wall strip above the 3.64 m glazing, with shutter service access. The ceiling remains white and uninterrupted.
+
+PANORAMA DETAIL. Translate the style through bedding at the foot of the bed, real wardrobe-front edges and layered curtain textures. The headboard stays behind the eye point. Keep the three glazing fields clear, with their actual white frames. The balcony lies approximately 15 cm below the interior, with light-grey tiles, black vertical railing and the actual facade return. Retain the photographed city roofs, church spire and Buda hills. A small portion of the bedding has naturally supported folds rather than a rigid showroom fold.
+
+LIGHT. Clean natural daylight with balanced interior and exterior exposure. Hue headboard, bedside and ML06 lighting is off or extremely subdued. The visible furniture edges and textiles reveal their physical surface without streaks from invisible lamps. Keep the seated eye point and actual glazing proportions.
+
+REALITY AND MATERIALS. Keep the supplied audited Blender camera and architectural shell: the modelled 2.90 m ceiling, real openings, grey interior doors, white interior window frames, original grey-oak floor and actual external view. The floor's precise decor is unverified; match the site reference rather than brightening or replacing it. Keep white ceiling and unassigned reveals; only the explicitly designed wallcoverings, panels and furniture change the surfaces. Laminate shows a manufactured edge, printed graphics remain print, textile has real weave and shallow relief casts a physical shadow. Keep service covers and controls accessible. No enlarged room, new opening, lowered ceiling, invented electrical point, solid-stone substitution or impossible reflection. Furniture mounting is wall-based after service detection; heating/cooling ceiling fields remain untouched. This is a creative concept requiring independent geometry, electrical, product and cost validation before a final render package.
+
+OUTPUT AND STATUS. Use audited Blender geometry and room-confirmed site references in the eventual image package. Bind the named products to verified dimensions before final rendering. Keep the style-specific design while reporting unresolved fit, electrical and cost conditions. Produce an interior photograph without people or overlaid lettering.
+=== END PROMPT A902_S01_KyotoInk_3_master_Cam_11_A ===

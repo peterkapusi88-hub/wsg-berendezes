@@ -1,0 +1,213 @@
+[
+ {
+  "nr": "01",
+  "kep_id": "A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A",
+  "kamera": "Cam_02",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A.prompt.md",
+  "prompt_sha256": "d62654f10192adbd8dafbd2b4d3d000e1c5214d80b6ff9485776f8f74ee1307b",
+  "prompt_chars": 8404,
+  "uzenet": "prompts_sent/01_A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 15256,
+  "uzenet_sha256": "7e07b0a52ac732dc0dacbe0193f4ffc3ba4fb12928fbaf71827ccebf80ddf372",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_semleges_blender.png",
+    "forras": "mac:WSG_CAM02_KORREKCIO/vegleges/ (cam02_KORR.png = cam02_KORR.png",
+    "sha256": "75ec3c85cacbe65308ca88757c18696bc7d7c7f9b59c6b2572153e4de70fd9bd",
+    "szerep": "Blender render 1600 × 1000 of the real, empty apartment shell from the exact camera of this view (Cam_02). MANDATORY cam"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "szerep": "real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible gr"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715",
+    "szerep": "real site photo of this living room taken from a DIFFERENT position, looking towards the terrace glazing: real white win"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "forras": "astra:02_referenciak/A902_helyszin/terasz_video_2026-10-21/A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c",
+    "szerep": "real panorama of THIS terrace and its view, stitched from an iPhone video (strongly distorted, black borders are empty)."
+   }
+  ]
+ },
+ {
+  "nr": "02",
+  "kep_id": "A902_S01_KyotoInk_1_nappali-hero_Cam_12_A",
+  "kamera": "Cam_12",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_1_nappali-hero_Cam_12_A.prompt.md",
+  "prompt_sha256": "c98172a383e0d59c76b5f332d3017877db204f07e0401ff9243e4fe3640ab56f",
+  "prompt_chars": 7819,
+  "uzenet": "prompts_sent/02_A902_S01_KyotoInk_1_nappali-hero_Cam_12_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 14973,
+  "uzenet_sha256": "93b0d8e853bd1fe7bde0cd0b446a6ea58f5e2f80415ee8d8edf41c01817f7b81",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam12v3_KORR_semleges_blender.png",
+    "forras": "integ:04_renderek/A902_cam12_v3_korrekcio/A902_Alap-v2b1k13_blender_12_nappali-hero_v3_KORR_semleges.png",
+    "sha256": "8ffd40c0ea76f4473959edd69dfdeb959e8197f3a59418c8fbb27e01fc0d231d",
+    "szerep": "Blender render 1600 × 1000 of the real, empty apartment shell from the exact camera of this view (Cam_12 v3). MANDATORY "
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "szerep": "real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible gr"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-046_nappali_eloter_fele.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-046_nappali_eloter_fele.jpg",
+    "sha256": "d1f35e57d8d57b9088cc045de5ae6b375fe2a1409f2ea66fab03b459dde0b95b",
+    "szerep": "real site photo taken from a DIFFERENT position (looking the other way) – only to check the existing surfaces: white wal"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_Kave_Home_Somar_L00148FA05_termekfoto.jpg",
+    "forras": "pilot_S01/refs/P_Somar_L00148FA05_termekfoto_kivagas.jpg",
+    "sha256": "27bbd51a7b67c8f3131a869e765e09714d3cf654a9945bbc8fedab543d0a2149",
+    "szerep": "product photo of the specified dining pendant, Kave Home Somar Ø76 cm, white (L00148FA05). Product identity only (silhou"
+   }
+  ]
+ },
+ {
+  "nr": "03",
+  "kep_id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A",
+  "kamera": "Cam_03",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A.prompt.md",
+  "prompt_sha256": "31da7219d042da895fc9b35651881ce5c628bd2fff446d8e1843bc25e3743539",
+  "prompt_chars": 5997,
+  "uzenet": "prompts_sent/03_A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 12684,
+  "uzenet_sha256": "75ab437df83a2f1be765978d9b286b79030ee9e39dce24b3a6118e6579b90ad0",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam03K1_KORR_semleges_blender.png",
+    "forras": "integ:04_renderek/A902_cam03_bibo_u_ellenorzes/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_KORR_semleges.png",
+    "sha256": "92f9ebed9e35e2e7b7e2ff1e36b21b951dfc892b017a12333788089526669cef",
+    "szerep": "Blender render 1600 × 1000 of the real, empty apartment shell from the exact camera of this view (Cam_03 K1). MANDATORY "
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "szerep": "real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible gr"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-056_konyhafal_kiallasok.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/02_konyha/A902_02_20261021_ME-BAL-056_konyhafal_kiallasok.jpg",
+    "sha256": "cb316cd7d1ded4f05b16bebd6bc59fd0d98a57fefc87a6972acab8050b1cc667",
+    "szerep": "real site photo of the empty kitchen zone from a DIFFERENT position: the real east kitchen wall with its service outlets"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_Kave_Home_Somar_L00148FA05_termekfoto.jpg",
+    "forras": "pilot_S01/refs/P_Somar_L00148FA05_termekfoto_kivagas.jpg",
+    "sha256": "27bbd51a7b67c8f3131a869e765e09714d3cf654a9945bbc8fedab543d0a2149",
+    "szerep": "product photo of the specified dining pendant, Kave Home Somar Ø76 cm, white (L00148FA05). Product identity only. Ignore"
+   }
+  ]
+ },
+ {
+  "nr": "04",
+  "kep_id": "A902_S01_KyotoInk_3_master_Cam_04_A",
+  "kamera": "Cam_04",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_04_A.prompt.md",
+  "prompt_sha256": "940b5428c710f63048af3946fdb97509cf4176d4cb34a129aa5f18b49391e7f8",
+  "prompt_chars": 4759,
+  "uzenet": "prompts_sent/04_A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 10043,
+  "uzenet_sha256": "0c9786d3c429ca81d7f16d0945f59e76ec661db0bed0d482ff3476bc6812adde",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam04_master_semleges_blender.png",
+    "forras": "astra:04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_04_master.png",
+    "sha256": "ee9cdf86748b997575e1f03029bccae47898861b7c2a64d962de27b0c24a9347",
+    "szerep": "Blender render 1600 × 1000 of the real, empty master bedroom 05.1 from the exact camera of this view (Cam_04). MANDATORY"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "szerep": "real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible gr"
+   }
+  ]
+ },
+ {
+  "nr": "05",
+  "kep_id": "A902_S01_KyotoInk_3_master_Cam_11_A",
+  "kamera": "Cam_11",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_3_master_Cam_11_A.prompt.md",
+  "prompt_sha256": "5e255456cd25984cf1bd8297fdb442c29745ad06ed7771337cd3f47e447437ad",
+  "prompt_chars": 4799,
+  "uzenet": "prompts_sent/05_A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 9866,
+  "uzenet_sha256": "e308d860081d0023414bdb0ca2196266b0b50f4b63c454d14fde147733aa4ef6",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam11_master_panorama_semleges_blender.png",
+    "forras": "astra:04_renderek/A902_cam11_javaslat_v1/A902_Alap-v2b1k11_blender_11_master-panorama_JAVASLAT.png",
+    "sha256": "66fa4efbcc0d71aa7c45d4a883da702231273f680cb3ebd16c20a505e621c01f",
+    "szerep": "Blender render 1600 × 1000 of the real, empty master bedroom 05.1 from the exact camera of this view (Cam_11). MANDATORY"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/04_nappali/A902_04_20261021_ME-BAL-080_parketta_szegely_kozel.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e",
+    "szerep": "real site photo of the EXISTING floor and skirting in this apartment – cool grey-brown oak-effect planks with visible gr"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-077_master_uvegfal_kilatas.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/00_besorolando/A902_00_20261021_ME-BAL-077_szoba_uvegfal_kilatas.jpg",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b",
+    "szerep": "real site photo of THIS bedroom's glass wall from a DIFFERENT position: the real white frames, the balcony with light-gr"
+   }
+  ]
+ },
+ {
+  "nr": "06",
+  "kep_id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A",
+  "kamera": "Cam_10",
+  "prompt_forras": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A.prompt.md",
+  "prompt_sha256": "0558349814cb3e17e4cc2c2cd1cbf1d61ece871162d6a346c0a08b8b030bbd44",
+  "prompt_chars": 6696,
+  "uzenet": "prompts_sent/06_A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1.txt",
+  "uzenet_chars": 12001,
+  "uzenet_sha256": "3e8ec781ca4357088e6d8e0195ce4f1d2f47c46b0592585fafd1af2ff8198b7c",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam10_furdo06-2_semleges_blender.png",
+    "forras": "astra:04_renderek/A902_alap_v2b1/A902_Alap-v2b1_blender_10_furdo-06-2.png",
+    "sha256": "25c818fdc30ffa07846d2224b073b47ffaa71c890362de707df641910aec75a2",
+    "szerep": "Blender render 1600 × 1000 of the real, windowless bathroom 06.2 as built, from the exact camera of this view (Cam_10). "
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-064_zuhany_mosdo.jpg",
+    "forras": "astra:08_allapotfelmeres/fotok/A902/06-2_furdo/A902_06-2_20261021_ME-BAL-064_zuhany_mosdo.jpg",
+    "sha256": "6e577ef470a721447fd42d03600fde3ec85cf2f8526124f6e0f3147bd9a0348e",
+    "szerep": "real site photo of this bathroom from a DIFFERENT position: the real Geostone Grigio 60 × 60 tiles, the Esagonetta hexag"
+   }
+  ]
+ }
+]
