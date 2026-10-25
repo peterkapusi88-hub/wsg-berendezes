@@ -23,3 +23,5 @@ CP1.08: Milano Radical teljes stílusspecifikáció mentése – b833c9df285958a
 CP1.09: Paris Collector teljes stílusspecifikáció mentése – b490a41b5f24fe0fa10ad0f33b28667a4e5e63ab – 2026-10-25T05:00:06.191Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
 
 CP1.10: Desert Modern 70 teljes stílusspecifikáció mentése – 20ceb5a6ab07bbc270c9333cce645c734e3868a2 – 2026-10-25T05:00:16.105Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
+
+CP1 kész: közös reality-elvek és hat kamerakompozíció – 7fa520bb4fe00477edebb365f4d55e7a16a0bd91 – 2026-10-25T05:03:57.100Z – minden érintett fájl távoli visszaolvasása karakterre egyezik: PASS.
