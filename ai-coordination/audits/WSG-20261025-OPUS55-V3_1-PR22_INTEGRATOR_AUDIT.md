@@ -49,6 +49,11 @@ Súlyosság: KRITIKUS / MAGAS / KÖZEPES / ALACSONY. **KB** = képgenerálást b
 
 **Ami rendben van (b24bee7):** 60/60 prompt; a státuszsor („CONCEPT – NOT VALIDATED”) mindegyikben szerepel; a kameránkénti fény a GEOMETRIA v2 §3 szerint (Cam_02 kék óra, Cam_12/03/11 nappal, Cam_04 este, Cam_10 műfény); padló terméknév nélkül, a fotó szerint; a C elrendezés (L háttámla x 6,67, U x 6,60, 160 × 90 az ML04 alatt, 2+2+1+1); a kanapé képaránya Cam_12-ben (S01 16,5 %, S02 23,3 % – a prompt „egyötöd”, illetve „egynegyed” leírása egyezik); a TV-fal-szekrények z 2,53-nál megállnak (nincs HF-mező alatti mennyezetig érő test); a Cam_12 állóhelye szabad; a kanapé–TV-bútor távolság S01-ben 0,74, S02-ben 0,89 m (≥ 0,60).
 
+**Javítási állapot (2026-10-25, Péter kérésére):**
+- **K-02 és K-03** a négy induló promptban integrátori v1.1-ben javítva: `05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_1/` (a versenyzői fájl változatlan).
+- **K-03 a többi helyen nyitott:** S04 Cam_12, valamint a S01/S02 specifikáció növénysorai.
+- **K-21 (alacsony, új):** az S02 Cam_12 prompt „brushed-brass rod”-ot ír a Brisiához; a termékadat szerint rozetta és fekete, állítható drót tartja.
+
 ## 3. Költség – 18 M tervezhető + 2 M tartalék, a 8,40 M közös fix
 A közös fix rész számtana helyes (0,40 + 1,10 + 0,30 + 0,80 + 0,80 + 0,50 + 0,45 + 3,60 + 0,45 = 8,40). A realitásvizsgálat **becslés**: a webshopok ebből a munkamenetből nem voltak lekérdezhetők, dátumozott ár nincs.
 

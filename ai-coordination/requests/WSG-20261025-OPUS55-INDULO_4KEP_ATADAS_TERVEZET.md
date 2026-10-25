@@ -5,10 +5,10 @@
 ## Indíthatóság
 | # | Kép-ID | Most | Feltétel az indításhoz |
 |---|---|---|---|
-| 1 | `A902_S01_KyotoInk_1_nappali-hero_Cam_12_A` | **BLOKKOLT** | K-01 (a 7d3c67f-változat egyezése) + K-03 csere → **elsőként indítható** |
-| 2 | `A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A` | **BLOKKOLT** | K-01 + K-02 csere; a Misaki igazolása ajánlott (K-07) |
-| 3 | `A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A` | **BLOKKOLT** | K-01 + K-03 + **K-06** (fekete Toni 160 × 90 igazolása vagy cseréje) |
-| 4 | `A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A` | **BLOKKOLT** | K-01 + K-02 + K-06; dohányzóasztal-termék (K-08) |
+| 1 | `A902_S01_KyotoInk_1_nappali-hero_Cam_12_A` | **BLOKKOLT** | ~~K-03~~ (v1.1-ben javítva) · K-01 (a 7d3c67f-változat egyezése) → **elsőként indítható** |
+| 2 | `A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A` | **BLOKKOLT** | ~~K-02~~ (v1.1-ben javítva) · K-01; a Misaki igazolása ajánlott (K-07) |
+| 3 | `A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A` | **BLOKKOLT** | ~~K-03~~ (v1.1) · K-01 + **K-06** (fekete Toni 160 × 90 igazolása vagy cseréje) |
+| 4 | `A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A` | **BLOKKOLT** | ~~K-02~~ (v1.1) · K-01 + K-06; dohányzóasztal-termék (K-08) |
 
 Sorrend (GOAL §7, Péter 03:32–04:10): hero először – 1 → 2 → 3 → 4, egyesével, ChatGPT Images-szel.
 
@@ -22,9 +22,17 @@ A pontos verzió a **7d3c67f** fájlja lesz; ezt a lehúzás után kell a lenti 
 | 3 | `…/A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A.prompt.md` | `5085ab2c7e70b1fe5cb962ad457dd481cdbedaeb4e873ff5b59b44b5c2287d20` | 5261 B |
 | 4 | `…/A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A.prompt.md` | `dfd6ecf0476030151405018aa851cdc8e42c99884cb97ff1200b6d591f12d29f` | 5817 B |
 
-**Integrátori szövegcsere-javaslat (v1.1-patch, a versenyzői fájl módosítása nélkül; Péter vagy Opus fogadja el):**
-- **K-02 (2. és 4. kép):** S01: „The dining pendant at ML04 – the Kave Home Somar, Ø 76 cm, in pale synthetic fibre with fine steel rods – glows at the right edge.” → „The dining pendant at ML04 is outside this frame; at most its warm light spill reaches the right edge – do not draw a pendant in view.” S02: a „at the right edge the dining pendant at ML04, … glows warm.” tagmondat ugyanígy.
-- **K-03 (1. és 3. kép):** a „One tall dark-leafed plant in a matt black pot stands in the south-west corner beside W02, away from the camera position.” (S01), illetve az „A tall olive tree in a matt cream pot stands in the corner beside W02, not in the walkway.” (S02) mondat törlése; a REALITY RULES-ba: „no plant or object in front of W02 or in the corridor mouth”.
+**Futtatandó változat: integrátori v1.1 (K-02, K-03 beépítve, 2026-10-25)** – `05_promptok/KEP004_OPUS55_V3_1_INTEGRATOR_PATCH_v1_1/` (a versenyzői fájl változatlan; leírás és újraalkalmazás a 7d3c67f-re: a mappa `README.md`-je).
+
+| Kép | Futtatandó fájl | sha256 |
+|---|---|---|
+| 1 | `A902_S01_KyotoInk_1_nappali-hero_Cam_12_A_v1_1.prompt.md` | `95a34f6998b5fec723f7d1f275f3ce959c970c59807bfc8ce08d328494e9bfa1` |
+| 2 | `A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A_v1_1.prompt.md` | `68f66d63581ff31e18fd0ee267eb8fcde2a942410473dabea812f1a691846651` |
+| 3 | `A902_S02_BiBoNocturne_1_nappali-hero_Cam_12_A_v1_1.prompt.md` | `0e103d813ae481df1a5e2aaa9fde240e92271e248f144b20a80011f0b8e12689` |
+| 4 | `A902_S02_BiBoNocturne_1_nappali-terasz_Cam_02_A_v1_1.prompt.md` | `b24fcdcaced164455ba672596259214cd3bd207637c90a92523f1da361e12df6` |
+
+- **K-02 (2. és 4. kép):** az „ML04 a jobb szélen” mondat helyett: „The dining pendant at ML04 hangs outside this frame: do not draw any pendant at the right edge; at most a faint warm spill of its light reaches the right edge of the floor and the table.” + tiltósor.
+- **K-03 (1. és 3. kép):** a W02 melletti növény/olajfa mondata törölve + tiltósor: „a plant, tree or any object standing in front of W02 or in the mouth of the bedroom corridor”.
 
 ## Közös csatolmányok (sorrendben)
 | Szerep | Cam_12 v3 (1., 3.) | Cam_02 (2., 4.) |
@@ -47,7 +55,7 @@ A pontos verzió a **7d3c67f** fájlja lesz; ezt a lehúzás után kell a lenti 
 
 ### 1. kép – S01 Cam_12 v3 (nappal)
 - **Felületek:** W02 + W07 washi-hatású vinil tapéta (ÚJ, 11-es sor, becslés); grafit laminált tintavonal-sín z 2,10 (ÚJ, asztalos); W03 szemöldöksáv grafit laminált (ÚJ); W02 tusvonás-mű 120 × 200 (ÚJ, 12-es sor); konyha METOD + grafit laminált front, KARLBY tölgy, grafit hátfestett üveg (ÚJ, 02a).
-- **Blender:** a kanapé a kép 16,5 %-a; a W02 takaratlan 83 % – a növény törlése után ~100 %; ML04 Somar és ML05 Misaki a képen; állóhely szabad.
+- **Blender:** a kanapé a kép 16,5 %-a; a W02 takaratlan 83 % – a növény törlése (v1.1) után ~100 %; ML04 Somar és ML05 Misaki a képen; állóhely szabad.
 - **Nem igazolt:** Misaki (termék), Somar függesztési magassága, tintavonal-sín ↔ mű 4 cm-es átfedés (a sín a mű fölött fusson).
 - **Költségsáv:** a teljes S01 a 7d3c67f `50_KOLTSEG` szerint – most nem auditált.
 
