@@ -22,3 +22,5 @@ A mostani promptok teljes kreatív szövegek, nem a végleges futtatócsomag. Cl
 
 ## Folytatás és mentés
 A saját távoli ág manifestje az irányadó; nincs PENDING vagy DRAFT saját sor. Megszakítás esetén a COMPLETE fájlokhoz csak célzott módosítás készül. A checkpointnapló minden lezárt mentéshez megadja a tartalmat és visszaolvasott SHA-t; a legutolsó SHA a PR leírásában is szerepel. A záró commit a közvetlenül előtte ellenőrzött commit nyugtáját tartalmazza, önmagára nem hivatkozhat.
+
+Záró távoli ellenőrzés:0014af65d93585ea61087cf33bca7582b4f74a0b állapotban86 eredményfájl helyi/távoli Git-blob hash egyezés PASS; a checkpointnapló külön karakteres visszaolvasással ellenőrzött. A PR87 módosított fájlja mind engedélyezett saját útvonal.

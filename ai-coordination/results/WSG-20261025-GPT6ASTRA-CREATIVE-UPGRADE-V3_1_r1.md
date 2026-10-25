@@ -2,7 +2,7 @@ WSG-COMPETITION-RESULT: GPT6ASTRA-V3_1
 Versenyző: A – GPT-6 Astra (ChatGPT Work)
 Modell és gondolkodási szint: nem igazolt | kért effort Medium
 Bázis-commit:45632b5ad5586e1f3f884a8f723c1cc13cda6da3
-Utolsó ellenőrzött commit: 3adfb1385c2e9b7e6667d44b98002bd73ce8fb11
+Utolsó ellenőrzött commit: 0014af65d93585ea61087cf33bca7582b4f74a0b
 Státusz: TELJES – kreatív csomag; NEEDS_CLAUDE_VALIDATION
 
 Draft PR: https://github.com/peterkapusi88-hub/wsg-berendezes/pull/21
@@ -31,3 +31,5 @@ A felhasználó új fürdőkérése átvezetve:100cm fix zuhanyüveg; integrált
 Mindegyik összeg tartalmazza a változatlan8,40M fixet. A fő becslések meghaladják18M-et. A gazdaságos kivitelezési célszámok a teljes kreatív tervet tartják meg, de független ajánlatellenőrzés nélkül egyik sem költségkapu-PASS. A2M tartalék érintetlen. A világítás és az új fürdő külön tételesen bontott; a régi kiváltott csomagok nem adódnak hozzá.
 
 Nincs képgenerálás, Blender-módosítás vagy merge. Webshop-kutatás a felhasználó kérésére szünetel. Öt már készült képernyőkép és az ismert adatellentmondások megőrizve. A végső csomaghoz független geometriai, villamos, beszerzési, költség- és képi audit kell.
+
+Záró tartalomellenőrzés:86 eredményfájl helyi Git-blob hash-e egyezik a0014af65 távoli fa hash-eivel. A PR87 módosított fájlja kizárólag a saját eredménymappa és a megengedett összefoglaló. A záró nyugtacommit pontos SHA-ja a PR-leírásban szerepel.
