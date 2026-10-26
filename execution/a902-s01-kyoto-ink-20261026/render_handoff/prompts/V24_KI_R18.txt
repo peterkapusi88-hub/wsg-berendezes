@@ -1,0 +1,29 @@
+A902 KYOTO INK S01 — V24 / KI_R18
+Create only a CONDITIONAL DESIGN STUDY after the operator has resolved this view's listed gates. This is not a construction-approved final image. The current dimensional study is NOT a product-identity reference.
+
+SCENE AND CAMERA
+Project/Blender revision: KI-V33-R02. Blender file: blender/A902_Kyoto_Ink_R02.blend. Camera object: KI_R18. Position meters: [10.300000190734863, 12.899999618530273, 2.069999933242798]; Euler rotation radians: [1.353631615638733, -1.3750423022429459e-08, 0.13944010436534882]; lens: 22.0mm; vertical shift: 0.0. Use the actual object transform from the saved Blender file. Do not replace this perspective or label another perspective with this ID. New KI_R cameras are new proposals, not photograph-matched cameras.
+Primary camera control: blender/QA_KI_R18.png. Render native Blender first with identical object transforms. Keep all wall, floor, opening and level geometry. Never infer dimensions from the aesthetic target. Do not change camera focal length, widen rooms, move doors, remove the real threshold or alter the real panorama to make the design fit.
+
+ROOM-SPECIFIC CONTENT
+Keep all WPC levels, green roof, railings and real panorama. Existing central crosswalk and raised roof zones are shown as geometry, not approved occupiable new areas. Unverified access to upper panorama strip remains open.
+
+CUSTOM STRUCTURES AND DIMENSIONS
+
+
+SELECTED PRODUCT RECORDS
+KI-143-1: product / planning envelope; SKU RFQ-OUT-06; 650×1950×350mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-143-2: product / planning envelope; SKU RFQ-OUT-06; 650×1950×350mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+
+MATERIALS AND LIGHT
+Use the matte graphite, warm chalk, taupe, light oak and concrete-look materials specified above. A digital colour is not an approved physical sample. Artwork masters are proposed planar/textile graphics, not sculptural relief. Do not add relief without its own approved model and cost. Preserve front divisions, joints and accessible service panels. Adopt the named scene: daylight / task lighting as R02 scene schedule. Every luminous strip must map to a physical profile and the R02 circuit register. No painted glow, new cove or extra hidden lights. Missing luminaire SKU/geometry is a stop gate, not permission to invent a beautiful fixture.
+
+ATTACHMENT ORDER AND PURPOSE
+1. blender/QA_KI_R18.png — Primary exact-camera Blender dimensional control; not product-identical final control
+2. drawings/P-02_terasz.pdf — R02 placement and object IDs
+Then attach exact-variant manufacturer product photos and model references, each named by element ID and SKU, from the products array in manifest_R02.json. They are currently not packaged: acquire, inspect, hash and register them before final product-identity rendering. Never substitute a generic library chair or sofa for the purchased item.
+
+VERIFICATION AND OUTPUT
+Check native Blender control against placements, all visible products, front counts, material assignments, threshold and lighting fixture IDs. Current geometry result: R02 checks were executed, but open gates remain. A sampled clear result is not structural, electrical or fabrication approval. If any product, geometry or source asset is unresolved, stop final rendering and report the exact ID. A conditional diagnostic may show the problem, with an explicit CONDITIONAL label. Never conceal a failure using cropping or image editing.
+Generative processing may only enhance an already identity-verified native Blender image without moving, reshaping or replacing any object. Compare before/after silhouettes and edge overlays; reject mismatches. Save one image, its exact prompt, ordered attachment list, camera transforms, source hashes and validation result. Do not proceed automatically to the next image after a failure.
+Output: A902_KyotoInk_KI_R18_R02_CONDITIONAL_v1.png. First technical trial at1024px long edge; full resolution only after this view's gates and identity checks pass. No unsubstantiated percentage-match or delivery guarantee.

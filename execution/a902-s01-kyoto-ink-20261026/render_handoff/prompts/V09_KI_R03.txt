@@ -1,0 +1,78 @@
+A902 KYOTO INK S01 — V09 / KI_R03
+Create only a CONDITIONAL DESIGN STUDY after the operator has resolved this view's listed gates. This is not a construction-approved final image. The current dimensional study is NOT a product-identity reference.
+
+SCENE AND CAMERA
+Project/Blender revision: KI-V33-R02. Blender file: blender/A902_Kyoto_Ink_R02.blend. Camera object: KI_R03. Position meters: [9.399999618530273, 1.9900000095367432, 1.5499999523162842]; Euler rotation radians: [1.3804205656051636, -7.483542674435739e-10, -0.08268430083990097]; lens: 20.0mm; vertical shift: 0.0. Use the actual object transform from the saved Blender file. Do not replace this perspective or label another perspective with this ID. New KI_R cameras are new proposals, not photograph-matched cameras.
+Primary camera control: blender/QA_KI_R03.png. Render native Blender first with identical object transforms. Keep all wall, floor, opening and level geometry. Never infer dimensions from the aesthetic target. Do not change camera focal length, widen rooms, move doors, remove the real threshold or alter the real panorama to make the design fit.
+
+ROOM-SPECIFIC CONTENT
+Same kitchen in every view: matte chalk tall and upper fronts, matte graphite base fronts, concrete-look F274 ST9 proposal for worktops/back. K-01 oven and microwave, K-02 refrigerator, K-03 sink, K-04 clear dishwasher opening, K-05 hob, K-06 prep, K-07 wall cabinets, K-08/K-09 worktops. Current aisle840mm; never widen walls to make it look comfortable. Extraction route, sink SKU and final appliance ventilation remain open.
+
+CUSTOM STRUCTURES AND DIMENSIONS
+K-01: 600W × 600D × 2400H mm; element IDs KI-008,KI-009,KI-010,KI-013,KI-015; drawing drawings/K-01.pdf. Internal layout comes from I-sheet where provided.
+K-02: 600W × 620D × 2400H mm; element IDs KI-008,KI-009,KI-010,KI-013,KI-015; drawing drawings/K-02.pdf. Internal layout comes from I-sheet where provided.
+K-03: 800W × 620D × 900H mm; element IDs KI-006,KI-009,KI-010,KI-015; drawing drawings/K-03.pdf. Internal layout comes from I-sheet where provided.
+K-04: 600W × 620D × 900H mm; element IDs KI-006,KI-009,KI-013,KI-015; drawing drawings/K-04.pdf. Internal layout comes from I-sheet where provided.
+K-05: 600W × 620D × 900H mm; element IDs KI-006,KI-009,KI-010,KI-015; drawing drawings/K-05.pdf. Internal layout comes from I-sheet where provided.
+K-06: 1000W × 620D × 900H mm; element IDs KI-006,KI-009,KI-010,KI-015; drawing drawings/K-06.pdf. Internal layout comes from I-sheet where provided.
+K-07: 1400W × 350D × 900H mm; element IDs KI-007,KI-009,KI-010,KI-015; drawing drawings/K-07.pdf. Internal layout comes from I-sheet where provided.
+K-08: 1460W × 620D × 38H mm; element IDs KI-011,KI-012,KI-014; drawing drawings/K-08.pdf. Internal layout comes from I-sheet where provided.
+TV-01: 700W × 400D × 2330H mm; element IDs KI-030,KI-032; drawing drawings/TV-01.pdf. Internal layout comes from I-sheet where provided.
+TV-02: 3300W × 400D × 400H mm; element IDs KI-031,KI-032; drawing drawings/TV-02.pdf. Internal layout comes from I-sheet where provided.
+TV-03: 2600W × 36D × 2330H mm; element IDs KI-030,KI-032,KI-034,KI-114; drawing drawings/TV-03.pdf. Internal layout comes from I-sheet where provided.
+ART-02: 2100W × 36D × 2880H mm; element IDs KI-123,KI-131,KI-132,KI-133; drawing drawings/ART-02.pdf. Internal layout comes from I-sheet where provided.
+CF-01: 700W × 450D × 350H mm; element IDs KI-037; drawing drawings/CF-01.pdf. Internal layout comes from I-sheet where provided.
+ST-01: 300W × 300D × 450H mm; element IDs KI-038; drawing drawings/ST-01.pdf. Internal layout comes from I-sheet where provided.
+K-09: 1600W × 620D × 38H mm; element IDs KI-011,KI-012,KI-014; drawing drawings/K-09.pdf. Internal layout comes from I-sheet where provided.
+
+SELECTED PRODUCT RECORDS
+KI-036: product / planning envelope; SKU DEQ21WES12329-168260; 1800×2380×680mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-028: product / planning envelope; SKU DEQ19WES60483-225182; 900×1600×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-1: product / planning envelope; SKU C0100003HE12; 530×550×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-2: product / planning envelope; SKU C0100003HE12; 530×550×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-3: product / planning envelope; SKU C0100003HE12; 530×550×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-4: product / planning envelope; SKU C0100003HE12; 530×550×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-5: product / planning envelope; SKU C0100003HE12; 550×530×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-029-6: product / planning envelope; SKU C0100003HE12; 550×530×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-136: product / planning envelope; SKU PENDING; 2200×2200×900mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-138: product / planning envelope; SKU RFQ-OUT-01; 2200×850×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-139-1: product / planning envelope; SKU RFQ-OUT-02; 750×800×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-139-2: product / planning envelope; SKU RFQ-OUT-02; 750×800×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-140: product / planning envelope; SKU RFQ-OUT-03; 800×600×350mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-141: product / planning envelope; SKU RFQ-OUT-04; 1800×900×750mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-1: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-2: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-3: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-4: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-5: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-142-6: product / planning envelope; SKU RFQ-OUT-05; 550×550×800mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+KI-033: product / planning envelope; SKU QE65Q7FAAUXXH; 1452.9×60.6×834mm; geometric orientation 90deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+
+MATERIALS AND LIGHT
+Use the matte graphite, warm chalk, taupe, light oak and concrete-look materials specified above. A digital colour is not an approved physical sample. Artwork masters are proposed planar/textile graphics, not sculptural relief. Do not add relief without its own approved model and cost. Preserve front divisions, joints and accessible service panels. Adopt the named scene: daylight / task lighting as R02 scene schedule. Every luminous strip must map to a physical profile and the R02 circuit register. No painted glow, new cove or extra hidden lights. Missing luminaire SKU/geometry is a stop gate, not permission to invent a beautiful fixture.
+
+ATTACHMENT ORDER AND PURPOSE
+1. blender/QA_KI_R03.png — Primary exact-camera Blender dimensional control; not product-identical final control
+2. targets/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png — Aesthetic target only; never geometric evidence
+3. drawings/P-01_alaprajz.pdf — R02 placement and object IDs
+4. drawings/K-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+5. drawings/K-02.pdf — Custom construction dimensions; proposal, not fabrication approval
+6. drawings/K-03.pdf — Custom construction dimensions; proposal, not fabrication approval
+7. drawings/K-04.pdf — Custom construction dimensions; proposal, not fabrication approval
+8. drawings/K-05.pdf — Custom construction dimensions; proposal, not fabrication approval
+9. drawings/K-06.pdf — Custom construction dimensions; proposal, not fabrication approval
+10. drawings/K-07.pdf — Custom construction dimensions; proposal, not fabrication approval
+11. drawings/K-08.pdf — Custom construction dimensions; proposal, not fabrication approval
+12. drawings/TV-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+13. drawings/TV-02.pdf — Custom construction dimensions; proposal, not fabrication approval
+14. drawings/TV-03.pdf — Custom construction dimensions; proposal, not fabrication approval
+15. drawings/ART-02.pdf — Custom construction dimensions; proposal, not fabrication approval
+16. drawings/CF-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+17. drawings/ST-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+18. drawings/K-09.pdf — Custom construction dimensions; proposal, not fabrication approval
+Then attach exact-variant manufacturer product photos and model references, each named by element ID and SKU, from the products array in manifest_R02.json. They are currently not packaged: acquire, inspect, hash and register them before final product-identity rendering. Never substitute a generic library chair or sofa for the purchased item.
+
+VERIFICATION AND OUTPUT
+Check native Blender control against placements, all visible products, front counts, material assignments, threshold and lighting fixture IDs. Current geometry result: R02 checks were executed, but open gates remain. A sampled clear result is not structural, electrical or fabrication approval. If any product, geometry or source asset is unresolved, stop final rendering and report the exact ID. A conditional diagnostic may show the problem, with an explicit CONDITIONAL label. Never conceal a failure using cropping or image editing.
+Generative processing may only enhance an already identity-verified native Blender image without moving, reshaping or replacing any object. Compare before/after silhouettes and edge overlays; reject mismatches. Save one image, its exact prompt, ordered attachment list, camera transforms, source hashes and validation result. Do not proceed automatically to the next image after a failure.
+Output: A902_KyotoInk_KI_R03_R02_CONDITIONAL_v1.png. First technical trial at1024px long edge; full resolution only after this view's gates and identity checks pass. No unsubstantiated percentage-match or delivery guarantee.

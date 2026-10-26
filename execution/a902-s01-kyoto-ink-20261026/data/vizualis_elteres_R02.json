@@ -1,0 +1,164 @@
+[
+  {
+    "id": "V01",
+    "target": "Cam02/12 W01",
+    "solution": "TV-01/02/03",
+    "detail": "3300mm alsó,700mm magas,2600mm panel; valódi helyből méretezve, nem perspektívából",
+    "cost_rows": "KI-030–032",
+    "deviation": "Frontosztás és nyomat megváltozik; mintajóváhagyás kell",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V02",
+    "target": "Cam12 W02",
+    "solution": "ART-02",
+    "detail": "2100×2880,3×700 textilpanel; saját SVG tusgrafika",
+    "cost_rows": "KI-123,131–133",
+    "deviation": "A grafika újrarajzolt javaslat, nem pixelazonos; kapcsolósáv és sarokillesztés felmérendő",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V03",
+    "target": "Cam02/12 konyha",
+    "solution": "K-01…K-09",
+    "detail": "Kréta magas/felső, grafit alsó, betonhatású pult/hátfal",
+    "cost_rows": "KI-006–027",
+    "deviation": "Cam03 korábbi színanyagát egységesíteni;840mm folyosó, elszívó nincs lezárva",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V04",
+    "target": "Cam02 kanapé",
+    "solution": "Lennon DEQ21WES12329-168260",
+    "detail": "238×180 taupe; gyári kéz és modulforma még igazolandó",
+    "cost_rows": "KI-036",
+    "deviation": "L-befoglaló ellenőrzött, részletes kárpitmodell nincs",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V05",
+    "target": "Cam02 asztalok",
+    "solution": "CF-01/ST-01",
+    "detail": "Grafit egyedi700×450×350 és300×300×450",
+    "cost_rows": "KI-037–038",
+    "deviation": "A kerek/fehér DELIFE jelölt nem egyező; egyedi felületminta szükséges",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V06",
+    "target": "Cam12 étkező",
+    "solution": "Toni160 + Eamy C0100003HE12",
+    "detail": "Hat szék;37cm feltételezett kihúzás lefutott",
+    "cost_rows": "KI-028–029",
+    "deviation": "Kárpit tónusa és lábprofilja gyári fotóhoz/modelhez egyeztetendő",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V07",
+    "target": "Cam12 függeszték",
+    "solution": "Somar L00148FA05",
+    "detail": "76cm fehér búra; pontos függesztési magasság még nyitott",
+    "cost_rows": "KI-109",
+    "deviation": "Tényleges SKU mesh és fényforrás nincs modellezve",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V08",
+    "target": "Cam02 mennyezeti lámpa",
+    "solution": "Enrave M4115931P6",
+    "detail": "Ø38.1×8.4cm lapos opál",
+    "cost_rows": "KI-113",
+    "deviation": "Lényeges eltérés a célkép magas dobformájától; nincs automatikusan elfogadva",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V09",
+    "target": "Nappali szőnyeg",
+    "solution": "Nifelia X0100244JJ12",
+    "detail": "200×300cm bézs",
+    "cost_rows": "KI-039",
+    "deviation": "Anyagminta és szálirány; képernyőszín nem színjóváhagyás",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V10",
+    "target": "Master éjjelik",
+    "solution": "NT-L/NT-R + FADO800.963.72",
+    "detail": "Grafit egyedi30×42×45; opálgömbØ25H24",
+    "cost_rows": "KI-047,117",
+    "deviation": "Gömb nagyobb, talpa más, mint a célképen; Hue izzó beférés nem igazolt",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V11",
+    "target": "Master tároló",
+    "solution": "WN-01/WS-01",
+    "detail": "2920 és2380mm; egyedi belsők, sekély déli rúd",
+    "cost_rows": "KI-048–052",
+    "deviation": "PAX illeszkedése nincs igazolva; saját korpusz ajánlati javaslat",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V12",
+    "target": "Master fejvég",
+    "solution": "HB-01",
+    "detail": "2700×1500 két anyagmező;2700mm fényvonal",
+    "cost_rows": "KI-046,118",
+    "deviation": "Taupe/grafit kárpitminták és ragasztás/tűzvédelmi termékadatok kellnek",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V13",
+    "target": "Nem renderelt05.2",
+    "solution": "SLATTUM160 + W52/DS52",
+    "detail": "160cm fekvőfelület és munkahely tervjavaslat",
+    "cost_rows": "KI-058–069",
+    "deviation": "Erkélyajtó ütközés a DS52/FLINTAN elhelyezésével: nem elfogadható főelrendezés",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V14",
+    "target": "Nem renderelt05.3",
+    "solution": "NORDLI180 + W53/TROTTEN",
+    "detail": "180cm ágy megmarad; íróasztal északkeleti sarokban",
+    "cost_rows": "KI-070–081",
+    "deviation": "Új helyiségterv; sekély gardrób és használati hely owner döntés",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V15",
+    "target": "Cam10 fürdő",
+    "solution": "B62-01/02 és GL-01",
+    "detail": "Smyle megtartás, fix1000mm üveg",
+    "cost_rows": "KI-091–097",
+    "deviation": "Fotó hatszögburkolata elsődleges; szifon, üveg és méret még nem gyártható",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V16",
+    "target": "Terasz",
+    "solution": "Grafit lounge fő / NÄMMARÖ295.752.24 gazdaságos",
+    "detail": "Fő pontos család nincs lezárva; alternatíva akác190500Ft",
+    "cost_rows": "KI-138–142",
+    "deviation": "Akác váz jelentős anyageltérés; chaise más geometria; nincs jóváhagyva",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V17",
+    "target": "Teljes kültér",
+    "solution": "Jakuzzi + emelés/bekötés",
+    "detail": "1.7M+0.3M keret megtartva",
+    "cost_rows": "KI-136–137",
+    "deviation": "Típus, tömeg, statika és logisztika nyitott; nem eltüntetett költség",
+    "approval": "NINCS JÓVÁHAGYVA"
+  },
+  {
+    "id": "V18",
+    "target": "Küszöb / szintek",
+    "solution": "SURVEY-THRESHOLD",
+    "detail": "Fotón látható fellépés; modell120mm jelölő",
+    "cost_rows": "KI-003,149",
+    "deviation": "Nem helyszíni méret; végleges renderben pontosítani kell",
+    "approval": "NINCS JÓVÁHAGYVA"
+  }
+]

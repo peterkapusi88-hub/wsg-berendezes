@@ -1,0 +1,90 @@
+[
+  {
+    "id": "D01",
+    "issue": "Teljes költség és változat",
+    "owner": "Tulajdonos",
+    "gate": "T05",
+    "detail": "Fő 20554190 Ft; optimalizált 19899690 Ft; mindkettő >18 M. Megtakarítások csak ajánlattal igazolhatók.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "D02",
+    "issue": "Vizuális anyag- és mintaválasztás",
+    "owner": "Tulajdonos + tervező",
+    "gate": "T03",
+    "detail": "W01/W02 textil vs síknyomat; FADO gömb mérete; Enrave lapos búra; gardróbnyomat felülete.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "D03",
+    "issue": "Hálók használata és terasz feltételei",
+    "owner": "Tulajdonos + felmérő/statikus",
+    "gate": "T01–T02",
+    "detail": "05.2 160 cm ágy egyoldali főmegközelítéssel;05.3 180 cm megtartva, sekély gardrób; jakuzzi2M bent marad.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G01",
+    "issue": "Konyha 840–860 mm folyosó",
+    "owner": "Konyhatervező",
+    "gate": "T07",
+    "detail": "900 mm célt nem teljesíti; pultmélység/gépek gyári szellőzése szerint vizsgálni. Nem szabad a szobát nyújtani.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G02",
+    "issue": "Elszívó a nyugati félfal fölött",
+    "owner": "Gépész/villanyszerelő",
+    "gate": "T02",
+    "detail": "Mennyezeti hűtőmező, meglévő csatorna és D05 kapcsolata nincs feltárva; kivezetés vagy keringtetés döntés.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G03",
+    "issue": "Terasz tolómező + küszöb",
+    "owner": "Felmérő",
+    "gate": "T01",
+    "detail": "KZS_3726 fotón tényleges fellépés;120mm modelljelző nem mért érték.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G04",
+    "issue": "Gyári bútorazonosság és nyitások",
+    "owner": "Beszállító/Blender operátor",
+    "gate": "T07",
+    "detail": "Lennon kéz/modulrajz, NORDLI fiókút, Eamy térdhely, lámpaizzó-beférés; méretproxy nem hiteles termékmesh.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G05",
+    "issue": "Vizes helyiségek",
+    "owner": "Vízszerelő/üveges/villanyszerelő",
+    "gate": "T02",
+    "detail": "Meglévő Smyle kerámia beépíthetősége; zuhanyüveg méret/rögzítés; védelem/zónák és táphely.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G06",
+    "issue": "Terasz statika/logisztika",
+    "owner": "Statikus/üzemeltető",
+    "gate": "T02",
+    "detail": "Töltött jakuzzi tömege/terhe, szélállóság, vízszigetelés, daruzás és lefolyók.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G07",
+    "issue": "Nem lezárt termékspecifikációk",
+    "owner": "Beszerző",
+    "gate": "T04",
+    "detail": "Elszívó, mosogató/csap, konkrét kültéri főcsalád, teljes Hue SKU-k és textilmárkák még hiányosak; Bosch gépek és Samsung TV típusa/mérete kutatva, ár és HU elérhetőség nem igazolt.",
+    "status": "NYITOTT"
+  },
+  {
+    "id": "G08",
+    "issue": "Teljes ellenőrzés korlátja",
+    "owner": "Tervező/Blender operátor",
+    "gate": "T07",
+    "detail": "Belső és erkélyajtó-söprés lefutott;05.2 DS52/szék ütközik. Hat étkezőszék37cm eltolása lefutott. Minden fiók, gépajtó és teljes útvonal gráfja még nem teljes. Nincs végleges renderengedély.",
+    "status": "NYITOTT"
+  }
+]

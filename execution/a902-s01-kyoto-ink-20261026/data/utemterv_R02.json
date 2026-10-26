@@ -1,0 +1,163 @@
+[
+  {
+    "id": "T01",
+    "name": "Felmérés + fotó/kiállásjegyzőkönyv",
+    "start_week": 0,
+    "end_week": 2,
+    "predecessors": [],
+    "decision_latest_week": 1,
+    "risk": "Kész falsíkok, küszöb, redőnyfedél, padlószint nélkül nincs gyártási méret"
+  },
+  {
+    "id": "T02",
+    "name": "Villamos/víz/statika ellenőrzés",
+    "start_week": 0,
+    "end_week": 3,
+    "predecessors": [
+      "T01"
+    ],
+    "decision_latest_week": 2,
+    "risk": "Teraszterhelés és elszívóút késése blokkolja a kapcsolódó megrendelést"
+  },
+  {
+    "id": "T03",
+    "name": "Anyagminták, textil és próbanyomat",
+    "start_week": 1,
+    "end_week": 3,
+    "predecessors": [
+      "T01"
+    ],
+    "decision_latest_week": 2,
+    "risk": "Szín/nyomat/joint jóváhagyás nélkül frontgyártás nem indul"
+  },
+  {
+    "id": "T04",
+    "name": "Azonos tartalmú szakági ajánlatok",
+    "start_week": 2,
+    "end_week": 4,
+    "predecessors": [
+      "T01",
+      "T02",
+      "T03"
+    ],
+    "decision_latest_week": 3,
+    "risk": "Ár és műszaki kizárások egyeztetése"
+  },
+  {
+    "id": "T05",
+    "name": "Tulajdonosi választás, keretlezárás",
+    "start_week": 4,
+    "end_week": 5,
+    "predecessors": [
+      "T04"
+    ],
+    "decision_latest_week": 4,
+    "risk": "18 M feletti tartalom nincs automatikusan engedélyezve"
+  },
+  {
+    "id": "T06",
+    "name": "Hosszú átfutású termékek rendelése",
+    "start_week": 5,
+    "end_week": 14,
+    "predecessors": [
+      "T05"
+    ],
+    "decision_latest_week": 5,
+    "risk": "Csak külön tulajdonosi rendelési engedéllyel; Lennon örökölt8–9hét nem ígéret"
+  },
+  {
+    "id": "T07",
+    "name": "Gyártói felmérési rajz és jóváhagyás",
+    "start_week": 4,
+    "end_week": 6,
+    "predecessors": [
+      "T04",
+      "T05"
+    ],
+    "decision_latest_week": 5,
+    "risk": "R02 ajánlati lapokból nem lehet közvetlenül gyártani"
+  },
+  {
+    "id": "T08",
+    "name": "Egyedi bútor/front gyártás",
+    "start_week": 6,
+    "end_week": 12,
+    "predecessors": [
+      "T07"
+    ],
+    "decision_latest_week": 6,
+    "risk": "6hét feltételezés; gyártó visszaigazolása kell"
+  },
+  {
+    "id": "T09",
+    "name": "Védelem, villamos/víz előkészítés",
+    "start_week": 6,
+    "end_week": 8,
+    "predecessors": [
+      "T02",
+      "T05"
+    ],
+    "decision_latest_week": 6,
+    "risk": "Szakágilag igazolt nyomvonalak szerint"
+  },
+  {
+    "id": "T10",
+    "name": "Faljavítás, tapéta/panel alap",
+    "start_week": 8,
+    "end_week": 10,
+    "predecessors": [
+      "T09",
+      "T03"
+    ],
+    "decision_latest_week": 8,
+    "risk": "Száradási idő és próbafelület nélkül nem burkolható"
+  },
+  {
+    "id": "T11",
+    "name": "Bútorbeépítés és gépek",
+    "start_week": 12,
+    "end_week": 14,
+    "predecessors": [
+      "T08",
+      "T10",
+      "T06"
+    ],
+    "decision_latest_week": 12,
+    "risk": "Felhordási nyílások és liftméretek előre mérendők"
+  },
+  {
+    "id": "T12",
+    "name": "Üveg, textilek, terasz",
+    "start_week": 13,
+    "end_week": 15,
+    "predecessors": [
+      "T11",
+      "T02"
+    ],
+    "decision_latest_week": 13,
+    "risk": "Üveg végleges mérete beépítés után; szél/daruzás külső kockázat"
+  },
+  {
+    "id": "T13",
+    "name": "Világításprogramozás, próbaüzem",
+    "start_week": 15,
+    "end_week": 16,
+    "predecessors": [
+      "T11",
+      "T12"
+    ],
+    "decision_latest_week": 15,
+    "risk": "Fénypróba, szivárgás, frontnyitás, szervizelés"
+  },
+  {
+    "id": "T14",
+    "name": "Hibajavítás és átadás",
+    "start_week": 16,
+    "end_week": 17,
+    "predecessors": [
+      "T13"
+    ],
+    "decision_latest_week": 16,
+    "risk": "Átadási leltár, garancia, kezelési útmutatók"
+  }
+]

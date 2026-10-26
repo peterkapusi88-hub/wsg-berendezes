@@ -1,0 +1,134 @@
+{
+  "surfaces": [
+    {
+      "id": "W01",
+      "width_m": 3.3,
+      "height_m": 2.88,
+      "net_m2": 9.504,
+      "waste": 0.15,
+      "order_m2": 10.93,
+      "cost": "KI-030",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    },
+    {
+      "id": "W02",
+      "width_m": 2.1,
+      "height_m": 2.88,
+      "net_m2": 6.048,
+      "waste": 0.15,
+      "order_m2": 6.955,
+      "cost": "KI-131–133",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    },
+    {
+      "id": "W07",
+      "width_m": 1.53,
+      "height_m": 2.88,
+      "net_m2": 4.406,
+      "waste": 0.15,
+      "order_m2": 5.067,
+      "cost": "KI-124",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    },
+    {
+      "id": "W03",
+      "width_m": 2.1,
+      "height_m": 2.88,
+      "net_m2": 6.048,
+      "waste": 0.15,
+      "order_m2": 6.955,
+      "cost": "KI-125",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    },
+    {
+      "id": "W04",
+      "width_m": 1.2,
+      "height_m": 2.88,
+      "net_m2": 3.456,
+      "waste": 0.15,
+      "order_m2": 3.974,
+      "cost": "KI-126",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    },
+    {
+      "id": "MASTER",
+      "width_m": 2.7,
+      "height_m": 1.38,
+      "net_m2": 3.726,
+      "waste": 0.15,
+      "order_m2": 4.285,
+      "cost": "KI-130",
+      "source": "R02 célbefoglaló; nyíláslevonás és kapcsolók helyszíni sablonnal",
+      "glue": "0.25 kg/m² előirányzat; gyártói termékkiadósságra cserélendő",
+      "prep": "helyi javítás, csiszolás, pormentesítés, alapozó, tapadáspróba; KI-127/128"
+    }
+  ],
+  "textiles": [
+    {
+      "room": "04",
+      "opening_m": 4.62,
+      "rail_m": 5.02,
+      "drop_m": 2.65,
+      "hem_allowance_m": 0.25,
+      "sheer_width_m": 11.04,
+      "blackout_width_m": 9.04,
+      "sheer_order_m2": 33.63,
+      "blackout_order_m2": 27.51,
+      "cost": "KI-040–042",
+      "stackback": "20 cm/oldal cél, végleges a ráncolás/szövet alapján; ajtó és redőnyfedél szabad",
+      "mount": "fali konzolos kétpályás sín; meglévő mennyezeti hűtő-fűtő mező megfúrása nélkül"
+    },
+    {
+      "room": "05.1",
+      "opening_m": 3.64,
+      "rail_m": 4.04,
+      "drop_m": 2.65,
+      "hem_allowance_m": 0.25,
+      "sheer_width_m": 8.89,
+      "blackout_width_m": 7.27,
+      "sheer_order_m2": 27.06,
+      "blackout_order_m2": 22.14,
+      "cost": "KI-054–055",
+      "stackback": "20 cm/oldal cél, végleges a ráncolás/szövet alapján; ajtó és redőnyfedél szabad",
+      "mount": "fali konzolos kétpályás sín; meglévő mennyezeti hűtő-fűtő mező megfúrása nélkül"
+    },
+    {
+      "room": "05.2",
+      "opening_m": 1.88,
+      "rail_m": 2.28,
+      "drop_m": 2.65,
+      "hem_allowance_m": 0.25,
+      "sheer_width_m": 5.02,
+      "blackout_width_m": 4.1,
+      "sheer_order_m2": 15.27,
+      "blackout_order_m2": 12.5,
+      "cost": "KI-065",
+      "stackback": "20 cm/oldal cél, végleges a ráncolás/szövet alapján; ajtó és redőnyfedél szabad",
+      "mount": "fali konzolos kétpályás sín; meglévő mennyezeti hűtő-fűtő mező megfúrása nélkül"
+    },
+    {
+      "room": "05.3",
+      "opening_m": 1.92,
+      "rail_m": 2.32,
+      "drop_m": 2.65,
+      "hem_allowance_m": 0.25,
+      "sheer_width_m": 5.1,
+      "blackout_width_m": 4.18,
+      "sheer_order_m2": 15.54,
+      "blackout_order_m2": 12.72,
+      "cost": "KI-077",
+      "stackback": "20 cm/oldal cél, végleges a ráncolás/szövet alapján; ajtó és redőnyfedél szabad",
+      "mount": "fali konzolos kétpályás sín; meglévő mennyezeti hűtő-fűtő mező megfúrása nélkül"
+    }
+  ]
+}

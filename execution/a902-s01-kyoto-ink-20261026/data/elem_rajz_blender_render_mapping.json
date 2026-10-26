@@ -1,0 +1,2047 @@
+[
+  {
+    "element": "KI-001",
+    "sku": "UNKNOWN",
+    "structure": "KI-001",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-002",
+    "sku": "UNKNOWN",
+    "structure": "KI-002",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-003",
+    "sku": "UNKNOWN",
+    "structure": "KI-003",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-004",
+    "sku": "UNKNOWN",
+    "structure": "KI-004",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-005",
+    "sku": "UNKNOWN",
+    "structure": "KI-005",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-006",
+    "sku": "UNKNOWN",
+    "structure": "K-03; K-04; K-05; K-06",
+    "drawing": "drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf",
+    "blender_objects": "KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-007",
+    "sku": "UNKNOWN",
+    "structure": "K-07",
+    "drawing": "drawings/K-07.pdf",
+    "blender_objects": "KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-008",
+    "sku": "UNKNOWN",
+    "structure": "K-01; K-02",
+    "drawing": "drawings/K-01.pdf; drawings/K-02.pdf",
+    "blender_objects": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-009",
+    "sku": "UNKNOWN",
+    "structure": "K-01; K-02; K-03; K-04; K-05; K-06; K-07",
+    "drawing": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+    "blender_objects": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-010",
+    "sku": "UNKNOWN",
+    "structure": "K-01; K-02; K-03; K-05; K-06; K-07",
+    "drawing": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+    "blender_objects": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-011",
+    "sku": "UNKNOWN",
+    "structure": "K-08; K-09",
+    "drawing": "drawings/K-08.pdf; drawings/K-09.pdf",
+    "blender_objects": "KI_K-08; KI_K-09",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-012",
+    "sku": "UNKNOWN",
+    "structure": "K-08; K-09",
+    "drawing": "drawings/K-08.pdf; drawings/K-09.pdf",
+    "blender_objects": "KI_K-08; KI_K-09",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-013",
+    "sku": "UNKNOWN",
+    "structure": "K-01; K-02; K-04",
+    "drawing": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-04.pdf",
+    "blender_objects": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-04_SMV4EVX00E; KI_K-04_front",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-014",
+    "sku": "UNKNOWN",
+    "structure": "K-08; K-09",
+    "drawing": "drawings/K-08.pdf; drawings/K-09.pdf",
+    "blender_objects": "KI_K-08; KI_K-09",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-015",
+    "sku": "UNKNOWN",
+    "structure": "K-01; K-02; K-03; K-04; K-05; K-06; K-07",
+    "drawing": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+    "blender_objects": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-016",
+    "sku": "HBA534EB3",
+    "structure": "KI-016",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-017",
+    "sku": "PUE611BB5E",
+    "structure": "KI-017",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-018",
+    "sku": "UNKNOWN",
+    "structure": "KI-018",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-019",
+    "sku": "KIN86VSE0",
+    "structure": "KI-019",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-020",
+    "sku": "SMV4EVX00E",
+    "structure": "KI-020",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-021",
+    "sku": "BFL524MB0",
+    "structure": "KI-021",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-022",
+    "sku": "UNKNOWN",
+    "structure": "KI-022",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-023",
+    "sku": "UNKNOWN",
+    "structure": "KI-023",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-024",
+    "sku": "UNKNOWN",
+    "structure": "KI-024",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-025",
+    "sku": "UNKNOWN",
+    "structure": "KI-025",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-026",
+    "sku": "UNKNOWN",
+    "structure": "KI-026",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-027",
+    "sku": "UNKNOWN",
+    "structure": "KI-027",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-028",
+    "sku": "DEQ19WES60483-225182",
+    "structure": "KI-028",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-028; KI_KI-028_base",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-029",
+    "sku": "C0100003HE12",
+    "structure": "KI-029",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-029-1; KI_KI-029-2; KI_KI-029-3; KI_KI-029-4; KI_KI-029-5; KI_KI-029-6",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-030",
+    "sku": "UNKNOWN",
+    "structure": "TV-01; TV-03",
+    "drawing": "drawings/TV-01.pdf; drawings/TV-03.pdf",
+    "blender_objects": "KI_TV-01_bottom; KI_TV-01_top; KI_TV-01_sideL; KI_TV-01_sideR; KI_TV-01_back; KI_TV-01_front0_0; KI_TV-01_partition1; KI_TV-01_front1_0; KI_TV-01_shelf0; KI_TV-01_shelf1; KI_TV-01_shelf2; KI_TV-01_shelf3; KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-031",
+    "sku": "UNKNOWN",
+    "structure": "TV-02",
+    "drawing": "drawings/TV-02.pdf",
+    "blender_objects": "KI_TV-02_bottom; KI_TV-02_top; KI_TV-02_sideL; KI_TV-02_sideR; KI_TV-02_back; KI_TV-02_front0_0; KI_TV-02_partition1; KI_TV-02_front1_0; KI_TV-02_partition2; KI_TV-02_front2_0; KI_TV-02_partition3; KI_TV-02_front3_0; KI_TV-02_partition4; KI_TV-02_front4_0; KI_TV-02_shelf0",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-032",
+    "sku": "UNKNOWN",
+    "structure": "TV-01; TV-02; TV-03",
+    "drawing": "drawings/TV-01.pdf; drawings/TV-02.pdf; drawings/TV-03.pdf",
+    "blender_objects": "KI_TV-01_bottom; KI_TV-01_top; KI_TV-01_sideL; KI_TV-01_sideR; KI_TV-01_back; KI_TV-01_front0_0; KI_TV-01_partition1; KI_TV-01_front1_0; KI_TV-01_shelf0; KI_TV-01_shelf1; KI_TV-01_shelf2; KI_TV-01_shelf3; KI_TV-02_bottom; KI_TV-02_top; KI_TV-02_sideL; KI_TV-02_sideR; KI_TV-02_back; KI_TV-02_front0_0; KI_TV-02_partition1; KI_TV-02_front1_0; KI_TV-02_partition2; KI_TV-02_front2_0; KI_TV-02_partition3; KI_TV-02_front3_0; KI_TV-02_partition4; KI_TV-02_front4_0; KI_TV-02_shelf0; KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-033",
+    "sku": "QE65Q7FAAUXXH",
+    "structure": "KI-033",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-033",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-034",
+    "sku": "UNKNOWN",
+    "structure": "TV-03",
+    "drawing": "drawings/TV-03.pdf",
+    "blender_objects": "KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-035",
+    "sku": "UNKNOWN",
+    "structure": "KI-035",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-036",
+    "sku": "DEQ21WES12329-168260",
+    "structure": "KI-036",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-036_backrun; KI_KI-036_chaise",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-037",
+    "sku": "UNKNOWN",
+    "structure": "CF-01",
+    "drawing": "drawings/CF-01.pdf",
+    "blender_objects": "KI_CF-01",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-038",
+    "sku": "UNKNOWN",
+    "structure": "ST-01",
+    "drawing": "drawings/ST-01.pdf",
+    "blender_objects": "KI_ST-01",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-039",
+    "sku": "X0100244JJ12",
+    "structure": "KI-039",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-040",
+    "sku": "UNKNOWN",
+    "structure": "KI-040",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-041",
+    "sku": "UNKNOWN",
+    "structure": "KI-041",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-042",
+    "sku": "UNKNOWN",
+    "structure": "KI-042",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-043",
+    "sku": "203.498.53",
+    "structure": "KI-043",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-043",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-044",
+    "sku": "UNKNOWN",
+    "structure": "KI-044",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-045",
+    "sku": "UNKNOWN",
+    "structure": "KI-045",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-046",
+    "sku": "UNKNOWN",
+    "structure": "HB-01",
+    "drawing": "drawings/HB-01.pdf",
+    "blender_objects": "KI_HB-01",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-047",
+    "sku": "UNKNOWN",
+    "structure": "HB-01",
+    "drawing": "drawings/HB-01.pdf",
+    "blender_objects": "KI_HB-01",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-048",
+    "sku": "502.145.60",
+    "structure": "WN-01",
+    "drawing": "drawings/WN-01.pdf",
+    "blender_objects": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-049",
+    "sku": "UNKNOWN",
+    "structure": "WS-01",
+    "drawing": "drawings/WS-01.pdf",
+    "blender_objects": "KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-050",
+    "sku": "UNKNOWN",
+    "structure": "WN-01; WS-01",
+    "drawing": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+    "blender_objects": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-051",
+    "sku": "UNKNOWN",
+    "structure": "WN-01; WS-01",
+    "drawing": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+    "blender_objects": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-052",
+    "sku": "UNKNOWN",
+    "structure": "WN-01; WS-01",
+    "drawing": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+    "blender_objects": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-053",
+    "sku": "UNKNOWN",
+    "structure": "NT-L; NT-R",
+    "drawing": "drawings/NT-L.pdf; drawings/NT-R.pdf",
+    "blender_objects": "KI_NT-L_bottom; KI_NT-L_top; KI_NT-L_sideL; KI_NT-L_sideR; KI_NT-L_back; KI_NT-L_front0_0; KI_NT-L_front0_1; KI_NT-R_bottom; KI_NT-R_top; KI_NT-R_sideL; KI_NT-R_sideR; KI_NT-R_back; KI_NT-R_front0_0; KI_NT-R_front0_1",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-054",
+    "sku": "UNKNOWN",
+    "structure": "KI-054",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-055",
+    "sku": "UNKNOWN",
+    "structure": "KI-055",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-056",
+    "sku": "UNKNOWN",
+    "structure": "KI-056",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-057",
+    "sku": "UNKNOWN",
+    "structure": "KI-057",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-058",
+    "sku": "405.712.48",
+    "structure": "KI-058",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-058",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-059",
+    "sku": "UNKNOWN",
+    "structure": "KI-059",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-060",
+    "sku": "UNKNOWN",
+    "structure": "W52-01",
+    "drawing": "drawings/W52-01.pdf",
+    "blender_objects": "KI_W52-01_bottom; KI_W52-01_top; KI_W52-01_sideL; KI_W52-01_sideR; KI_W52-01_back; KI_W52-01_front0_0; KI_W52-01_front0_2.36; KI_W52-01_partition1; KI_W52-01_front1_0; KI_W52-01_front1_2.36; KI_W52-01_partition2; KI_W52-01_front2_0; KI_W52-01_front2_2.36; KI_W52-01_partition3; KI_W52-01_front3_0; KI_W52-01_front3_2.36; KI_W52-01_fixed_loft; KI_W52-01_bay0_shelf0; KI_W52-01_bay0_rail0; KI_W52-01_bay1_shelf0; KI_W52-01_bay1_rail0; KI_W52-01_bay2_shelf0; KI_W52-01_bay2_shelf1; KI_W52-01_bay2_shelf2; KI_W52-01_bay2_drawer0; KI_W52-01_bay2_drawer1; KI_W52-01_bay2_drawer2; KI_W52-01_bay2_drawer3; KI_W52-01_bay3_shelf0; KI_W52-01_bay3_shelf1; KI_W52-01_bay3_shelf2; KI_W52-01_bay3_shelf3; KI_W52-01_bay3_shelf4",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-061",
+    "sku": "UNKNOWN",
+    "structure": "W52-01",
+    "drawing": "drawings/W52-01.pdf",
+    "blender_objects": "KI_W52-01_bottom; KI_W52-01_top; KI_W52-01_sideL; KI_W52-01_sideR; KI_W52-01_back; KI_W52-01_front0_0; KI_W52-01_front0_2.36; KI_W52-01_partition1; KI_W52-01_front1_0; KI_W52-01_front1_2.36; KI_W52-01_partition2; KI_W52-01_front2_0; KI_W52-01_front2_2.36; KI_W52-01_partition3; KI_W52-01_front3_0; KI_W52-01_front3_2.36; KI_W52-01_fixed_loft; KI_W52-01_bay0_shelf0; KI_W52-01_bay0_rail0; KI_W52-01_bay1_shelf0; KI_W52-01_bay1_rail0; KI_W52-01_bay2_shelf0; KI_W52-01_bay2_shelf1; KI_W52-01_bay2_shelf2; KI_W52-01_bay2_drawer0; KI_W52-01_bay2_drawer1; KI_W52-01_bay2_drawer2; KI_W52-01_bay2_drawer3; KI_W52-01_bay3_shelf0; KI_W52-01_bay3_shelf1; KI_W52-01_bay3_shelf2; KI_W52-01_bay3_shelf3; KI_W52-01_bay3_shelf4",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-062",
+    "sku": "UNKNOWN",
+    "structure": "DS52",
+    "drawing": "drawings/DS52.pdf",
+    "blender_objects": "KI_DS52",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-063",
+    "sku": "704.922.02",
+    "structure": "KI-063",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-063",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-064",
+    "sku": "UNKNOWN",
+    "structure": "NT-64",
+    "drawing": "drawings/NT-64.pdf",
+    "blender_objects": "KI_NT-64_bottom; KI_NT-64_top; KI_NT-64_sideL; KI_NT-64_sideR; KI_NT-64_back; KI_NT-64_front0_0; KI_NT-64_shelf0",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-065",
+    "sku": "UNKNOWN",
+    "structure": "KI-065",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-066",
+    "sku": "UNKNOWN",
+    "structure": "KI-066",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-067",
+    "sku": "UNKNOWN",
+    "structure": "KI-067",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-068",
+    "sku": "UNKNOWN",
+    "structure": "KI-068",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-069",
+    "sku": "UNKNOWN",
+    "structure": "KI-069",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V14",
+      "V15"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-070",
+    "sku": "203.498.53",
+    "structure": "KI-070",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-070",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-071",
+    "sku": "UNKNOWN",
+    "structure": "KI-071",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-072",
+    "sku": "UNKNOWN",
+    "structure": "W53-01",
+    "drawing": "drawings/W53-01.pdf",
+    "blender_objects": "KI_W53-01_bottom; KI_W53-01_top; KI_W53-01_sideL; KI_W53-01_sideR; KI_W53-01_back; KI_W53-01_front0_0; KI_W53-01_front0_2.36; KI_W53-01_partition1; KI_W53-01_front1_0; KI_W53-01_front1_2.36; KI_W53-01_partition2; KI_W53-01_front2_0; KI_W53-01_front2_2.36; KI_W53-01_fixed_loft; KI_W53-01_bay0_shelf0; KI_W53-01_bay0_rail0; KI_W53-01_bay1_shelf0; KI_W53-01_bay1_rail0; KI_W53-01_bay2_shelf0; KI_W53-01_bay2_shelf1; KI_W53-01_bay2_shelf2; KI_W53-01_bay2_drawer0; KI_W53-01_bay2_drawer1; KI_W53-01_bay2_drawer2",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-073",
+    "sku": "UNKNOWN",
+    "structure": "W53-01",
+    "drawing": "drawings/W53-01.pdf",
+    "blender_objects": "KI_W53-01_bottom; KI_W53-01_top; KI_W53-01_sideL; KI_W53-01_sideR; KI_W53-01_back; KI_W53-01_front0_0; KI_W53-01_front0_2.36; KI_W53-01_partition1; KI_W53-01_front1_0; KI_W53-01_front1_2.36; KI_W53-01_partition2; KI_W53-01_front2_0; KI_W53-01_front2_2.36; KI_W53-01_fixed_loft; KI_W53-01_bay0_shelf0; KI_W53-01_bay0_rail0; KI_W53-01_bay1_shelf0; KI_W53-01_bay1_rail0; KI_W53-01_bay2_shelf0; KI_W53-01_bay2_shelf1; KI_W53-01_bay2_shelf2; KI_W53-01_bay2_drawer0; KI_W53-01_bay2_drawer1; KI_W53-01_bay2_drawer2",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-074",
+    "sku": "196.219.19",
+    "structure": "KI-074",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-074",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-075",
+    "sku": "704.922.02",
+    "structure": "KI-075",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-075",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-076",
+    "sku": "UNKNOWN",
+    "structure": "NT-76",
+    "drawing": "drawings/NT-76.pdf",
+    "blender_objects": "KI_NT-76_bottom; KI_NT-76_top; KI_NT-76_sideL; KI_NT-76_sideR; KI_NT-76_back; KI_NT-76_front0_0; KI_NT-76_shelf0",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-077",
+    "sku": "UNKNOWN",
+    "structure": "KI-077",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-078",
+    "sku": "UNKNOWN",
+    "structure": "KI-078",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-079",
+    "sku": "UNKNOWN",
+    "structure": "KI-079",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-080",
+    "sku": "UNKNOWN",
+    "structure": "KI-080",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-081",
+    "sku": "UNKNOWN",
+    "structure": "KI-081",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V16",
+      "V17"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-082",
+    "sku": "UNKNOWN",
+    "structure": "ENT-01",
+    "drawing": "drawings/ENT-01.pdf",
+    "blender_objects": "KI_ENT-01_bottom; KI_ENT-01_top; KI_ENT-01_sideL; KI_ENT-01_sideR; KI_ENT-01_back; KI_ENT-01_front0_0; KI_ENT-01_partition1; KI_ENT-01_front1_0; KI_ENT-01_shelf0; KI_ENT-01_shelf1; KI_ENT-01_shelf2; KI_ENT-01_shelf3",
+    "views": [
+      "V07"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-083",
+    "sku": "UNKNOWN",
+    "structure": "ENT-02",
+    "drawing": "drawings/ENT-02.pdf",
+    "blender_objects": "KI_ENT-02",
+    "views": [
+      "V07"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-084",
+    "sku": "UNKNOWN",
+    "structure": "KI-084",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V07"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-085",
+    "sku": "UNKNOWN",
+    "structure": "ENT-01",
+    "drawing": "drawings/ENT-01.pdf",
+    "blender_objects": "KI_ENT-01_bottom; KI_ENT-01_top; KI_ENT-01_sideL; KI_ENT-01_sideR; KI_ENT-01_back; KI_ENT-01_front0_0; KI_ENT-01_partition1; KI_ENT-01_front1_0; KI_ENT-01_shelf0; KI_ENT-01_shelf1; KI_ENT-01_shelf2; KI_ENT-01_shelf3",
+    "views": [
+      "V07"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-086",
+    "sku": "UNKNOWN",
+    "structure": "HALL-01",
+    "drawing": "drawings/HALL-01.pdf",
+    "blender_objects": "KI_HALL-01",
+    "views": [
+      "V20"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-087",
+    "sku": "WGG244Z0BY",
+    "structure": "KI-087",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-087",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-088",
+    "sku": "WQG24590BY",
+    "structure": "KI-088",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-089",
+    "sku": "UNKNOWN",
+    "structure": "KI-089",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-090",
+    "sku": "UNKNOWN",
+    "structure": "KI-090",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-091",
+    "sku": "UNKNOWN",
+    "structure": "KI-091",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-091; KI_EX-SHOWER62",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-092",
+    "sku": "UNKNOWN",
+    "structure": "B62-01",
+    "drawing": "drawings/B62-01.pdf",
+    "blender_objects": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1; KI_EX-BASIN62",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-093",
+    "sku": "UNKNOWN",
+    "structure": "KI-093",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-094",
+    "sku": "UNKNOWN",
+    "structure": "B62-02",
+    "drawing": "drawings/B62-02.pdf",
+    "blender_objects": "KI_B62-02_bottom; KI_B62-02_top; KI_B62-02_sideL; KI_B62-02_sideR; KI_B62-02_back; KI_B62-02_front0_0; KI_B62-02_shelf0; KI_B62-02_shelf1; KI_B62-02_shelf2",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-095",
+    "sku": "UNKNOWN",
+    "structure": "B62-01",
+    "drawing": "drawings/B62-01.pdf",
+    "blender_objects": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-096",
+    "sku": "UNKNOWN",
+    "structure": "B62-01",
+    "drawing": "drawings/B62-01.pdf",
+    "blender_objects": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-097",
+    "sku": "UNKNOWN",
+    "structure": "KI-097",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V05",
+      "V19"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-098",
+    "sku": "UNKNOWN",
+    "structure": "B61-01",
+    "drawing": "drawings/B61-01.pdf",
+    "blender_objects": "KI_B61-01_bottom; KI_B61-01_top; KI_B61-01_sideL; KI_B61-01_sideR; KI_B61-01_back; KI_B61-01_front0_0; KI_B61-01_front0_1; KI_EX-BASIN61",
+    "views": [
+      "V18"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-099",
+    "sku": "UNKNOWN",
+    "structure": "KI-099",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V18"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-100",
+    "sku": "UNKNOWN",
+    "structure": "KI-100",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V18"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-101",
+    "sku": "UNKNOWN",
+    "structure": "WC-01",
+    "drawing": "drawings/WC-01.pdf",
+    "blender_objects": "KI_WC-01_bottom; KI_WC-01_top; KI_WC-01_sideL; KI_WC-01_sideR; KI_WC-01_back; KI_WC-01_front0_0; KI_WC-01_shelf0; KI_WC-01_shelf1",
+    "views": [
+      "V21"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-102",
+    "sku": "UNKNOWN",
+    "structure": "KI-102",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V21"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-103",
+    "sku": "UNKNOWN",
+    "structure": "KI-103",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_EX-BATH61; KI_EX-WC08; KI_EX-WC62",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-104",
+    "sku": "UNKNOWN",
+    "structure": "KI-104",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-105",
+    "sku": "UNKNOWN",
+    "structure": "KI-105",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-106",
+    "sku": "UNKNOWN",
+    "structure": "KI-106",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-107",
+    "sku": "UNKNOWN",
+    "structure": "KI-107",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-108",
+    "sku": "UNKNOWN",
+    "structure": "KI-108",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-109",
+    "sku": "L00148FA05",
+    "structure": "KI-109",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-110",
+    "sku": "UNKNOWN",
+    "structure": "KI-110",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-111",
+    "sku": "UNKNOWN",
+    "structure": "KI-111",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-112",
+    "sku": "UNKNOWN",
+    "structure": "KI-112",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-113",
+    "sku": "4115931P6; EAN8718696176436",
+    "structure": "KI-113",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-114",
+    "sku": "UNKNOWN",
+    "structure": "TV-03",
+    "drawing": "drawings/TV-03.pdf",
+    "blender_objects": "KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-115",
+    "sku": "UNKNOWN",
+    "structure": "KI-115",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-116",
+    "sku": "4115931P6; EAN8718696176436",
+    "structure": "KI-116",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-117",
+    "sku": "800.963.72 + Hue E27 variáns PENDING",
+    "structure": "KI-117",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-118",
+    "sku": "UNKNOWN",
+    "structure": "HB-01",
+    "drawing": "drawings/HB-01.pdf",
+    "blender_objects": "KI_HB-01",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-119",
+    "sku": "UNKNOWN",
+    "structure": "KI-119",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-120",
+    "sku": "UNKNOWN",
+    "structure": "KI-120",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-121",
+    "sku": "UNKNOWN",
+    "structure": "KI-121",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-122",
+    "sku": "UNKNOWN",
+    "structure": "KI-122",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-123",
+    "sku": "UNKNOWN",
+    "structure": "ART-02",
+    "drawing": "drawings/ART-02.pdf",
+    "blender_objects": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-124",
+    "sku": "UNKNOWN",
+    "structure": "ART-07",
+    "drawing": "drawings/ART-07.pdf",
+    "blender_objects": "KI_ART-07",
+    "views": [
+      "V20"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-125",
+    "sku": "UNKNOWN",
+    "structure": "KI-125",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-126",
+    "sku": "UNKNOWN",
+    "structure": "KI-126",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-127",
+    "sku": "UNKNOWN",
+    "structure": "ART-07",
+    "drawing": "drawings/ART-07.pdf",
+    "blender_objects": "KI_ART-07",
+    "views": [
+      "V20"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-128",
+    "sku": "UNKNOWN",
+    "structure": "ART-07",
+    "drawing": "drawings/ART-07.pdf",
+    "blender_objects": "KI_ART-07",
+    "views": [
+      "V20"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-129",
+    "sku": "UNKNOWN",
+    "structure": "KI-129",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-130",
+    "sku": "UNKNOWN",
+    "structure": "KI-130",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V04",
+      "V12",
+      "V13",
+      "V26"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-131",
+    "sku": "UNKNOWN",
+    "structure": "ART-02",
+    "drawing": "drawings/ART-02.pdf",
+    "blender_objects": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-132",
+    "sku": "UNKNOWN",
+    "structure": "ART-02",
+    "drawing": "drawings/ART-02.pdf",
+    "blender_objects": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-133",
+    "sku": "UNKNOWN",
+    "structure": "ART-02",
+    "drawing": "drawings/ART-02.pdf",
+    "blender_objects": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-134",
+    "sku": "UNKNOWN",
+    "structure": "KI-134",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-135",
+    "sku": "UNKNOWN",
+    "structure": "KI-135",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-136",
+    "sku": "UNKNOWN",
+    "structure": "KI-136",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-136",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-137",
+    "sku": "UNKNOWN",
+    "structure": "KI-137",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-138",
+    "sku": "UNKNOWN",
+    "structure": "KI-138",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-138",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-139",
+    "sku": "UNKNOWN",
+    "structure": "KI-139",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-139-1; KI_KI-139-2",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-140",
+    "sku": "UNKNOWN",
+    "structure": "KI-140",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-140",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-141",
+    "sku": "UNKNOWN",
+    "structure": "KI-141",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-141",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-142",
+    "sku": "UNKNOWN",
+    "structure": "KI-142",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-142-1; KI_KI-142-2; KI_KI-142-3; KI_KI-142-4; KI_KI-142-5; KI_KI-142-6",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-143",
+    "sku": "UNKNOWN",
+    "structure": "KI-143",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-143-1; KI_KI-143-2",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-144",
+    "sku": "UNKNOWN",
+    "structure": "KI-144",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-145",
+    "sku": "UNKNOWN",
+    "structure": "KI-145",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-146",
+    "sku": "UNKNOWN",
+    "structure": "KI-146",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-147",
+    "sku": "UNKNOWN",
+    "structure": "KI-147",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "KI_KI-147",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-148",
+    "sku": "UNKNOWN",
+    "structure": "KI-148",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-149",
+    "sku": "UNKNOWN",
+    "structure": "KI-149",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-150",
+    "sku": "UNKNOWN",
+    "structure": "KI-150",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-151",
+    "sku": "UNKNOWN",
+    "structure": "KI-151",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-152",
+    "sku": "UNKNOWN",
+    "structure": "KI-152",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-153",
+    "sku": "UNKNOWN",
+    "structure": "KI-153",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-154",
+    "sku": "UNKNOWN",
+    "structure": "KI-154",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-155",
+    "sku": "UNKNOWN",
+    "structure": "KI-155",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-156",
+    "sku": "UNKNOWN",
+    "structure": "KI-156",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-157",
+    "sku": "UNKNOWN",
+    "structure": "KI-157",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [
+      "V01",
+      "V02",
+      "V03",
+      "V08",
+      "V09",
+      "V10",
+      "V11"
+    ],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-158",
+    "sku": "UNKNOWN",
+    "structure": "KI-158",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  },
+  {
+    "element": "KI-159",
+    "sku": "UNKNOWN",
+    "structure": "KI-159",
+    "drawing": "drawings/P-01_alaprajz.pdf",
+    "blender_objects": "NINCS MODELL / nem térbeli költségsor; szakági kapcsolat igazolandó",
+    "views": [],
+    "status": "R02 proposal; technical gates remain"
+  }
+]

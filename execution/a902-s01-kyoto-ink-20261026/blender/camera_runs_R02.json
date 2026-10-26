@@ -1,0 +1,410 @@
+[
+  {
+    "camera_id": "Cam_03_Etkezo_konyha",
+    "location": [
+      9.449999809265137,
+      7.550000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.5707999467849731,
+      0.0,
+      -3.1415998935699463
+    ],
+    "lens_mm": 20.0,
+    "shift_y": -0.07999999821186066,
+    "image": "blender/QA_Cam_03_Etkezo_konyha.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "Cam_04_Master",
+    "location": [
+      0.3499999940395355,
+      4.300000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.4337999820709229,
+      -0.0,
+      -0.7447999715805054
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_Cam_04_Master.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "Cam_10_Furdo_06_2",
+    "location": [
+      14.5,
+      6.619999885559082,
+      1.5
+    ],
+    "rotation_euler": [
+      1.3799999952316284,
+      0.0,
+      -1.5707999467849731
+    ],
+    "lens_mm": 16.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_Cam_10_Furdo_06_2.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "Cam_07_Terasz_v2_greslaprol",
+    "location": [
+      12.800000190734863,
+      9.300000190734863,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.4660999774932861,
+      0.0,
+      0.5584999918937683
+    ],
+    "lens_mm": 16.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_Cam_07_Terasz_v2_greslaprol.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R01",
+    "location": [
+      7.900000095367432,
+      1.600000023841858,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4144898653030396,
+      1.9458974520603078e-07,
+      2.1150765419006348
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R01.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R02",
+    "location": [
+      9.479999542236328,
+      3.9000000953674316,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4821622371673584,
+      -8.582329513728837e-08,
+      3.1193745136260986
+    ],
+    "lens_mm": 22.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R02.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R03",
+    "location": [
+      9.399999618530273,
+      1.9900000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3804205656051636,
+      -7.483542674435739e-10,
+      -0.08268430083990097
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R03.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R04",
+    "location": [
+      6.650000095367432,
+      6.300000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.5707963705062866,
+      -0.0,
+      1.5707963705062866
+    ],
+    "lens_mm": 26.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R04.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R05",
+    "location": [
+      7.5,
+      6.599999904632568,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5353747606277466,
+      4.64070950556561e-08,
+      2.68269944190979
+    ],
+    "lens_mm": 26.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R05.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R06",
+    "location": [
+      1.5,
+      7.400000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5308177471160889,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 18.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R06.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R07",
+    "location": [
+      1.2000000476837158,
+      5.199999809265137,
+      1.5
+    ],
+    "rotation_euler": [
+      1.537475347518921,
+      -1.509120153286858e-07,
+      -3.141592502593994
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R07.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R08",
+    "location": [
+      2.9000000953674316,
+      2.4000000953674316,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3287423849105835,
+      -1.2920584424591652e-07,
+      2.3720662593841553
+    ],
+    "lens_mm": 18.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R08.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R09",
+    "location": [
+      3.25,
+      0.550000011920929,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5237370729446411,
+      -4.1862513455726e-08,
+      0.7409828901290894
+    ],
+    "lens_mm": 18.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R09.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R10",
+    "location": [
+      13.800000190734863,
+      7.650000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4212510585784912,
+      -1.5626431260074014e-09,
+      2.60375714302063
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R10.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R11",
+    "location": [
+      12.5,
+      6.699999809265137,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.2641637325286865,
+      4.8642764483020073e-08,
+      -0.8850669860839844
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R11.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R12",
+    "location": [
+      4.550000190734863,
+      2.450000047683716,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3002467155456543,
+      -5.976654193773356e-08,
+      -3.0860941410064697
+    ],
+    "lens_mm": 16.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R12.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R13",
+    "location": [
+      14.800000190734863,
+      6.199999809265137,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.259984016418457,
+      2.9556419534060296e-08,
+      -0.6078022122383118
+    ],
+    "lens_mm": 18.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R13.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R14",
+    "location": [
+      2.700000047683716,
+      3.450000047683716,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5083776712417603,
+      -2.699792389648792e-08,
+      -1.5707963705062866
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R14.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R15",
+    "location": [
+      6.199999809265137,
+      2.25,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3211877346038818,
+      2.3168498231029844e-09,
+      0.18311083316802979
+    ],
+    "lens_mm": 16.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R15.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R16",
+    "location": [
+      8.800000190734863,
+      9.100000381469727,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.302399754524231,
+      -7.863974360589054e-09,
+      1.020943284034729
+    ],
+    "lens_mm": 22.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R16.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R17",
+    "location": [
+      11.550000190734863,
+      9.0,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.341997504234314,
+      -9.443402149145186e-08,
+      -0.8532550930976868
+    ],
+    "lens_mm": 22.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R17.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R18",
+    "location": [
+      10.300000190734863,
+      12.899999618530273,
+      2.069999933242798
+    ],
+    "rotation_euler": [
+      1.353631615638733,
+      -1.3750423022429459e-08,
+      0.13944010436534882
+    ],
+    "lens_mm": 22.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R18.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "KI_R19",
+    "location": [
+      -1.5,
+      0.20000000298023224,
+      1.5
+    ],
+    "rotation_euler": [
+      1.4232428073883057,
+      -3.899982115029843e-09,
+      -0.06374330818653107
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_KI_R19.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  },
+  {
+    "camera_id": "Cam_11_Master_Panorama",
+    "location": [
+      3.200000047683716,
+      6.099999904632568,
+      1.2000000476837158
+    ],
+    "rotation_euler": [
+      1.5707999467849731,
+      0.0,
+      1.5707999467849731
+    ],
+    "lens_mm": 20.0,
+    "shift_y": 0.0,
+    "image": "blender/QA_Cam_11_Master_Panorama.png",
+    "status": "rendered neutral dimensional study, identity/detail not final"
+  }
+]

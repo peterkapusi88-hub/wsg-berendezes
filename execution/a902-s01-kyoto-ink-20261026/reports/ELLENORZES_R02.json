@@ -1,0 +1,44 @@
+{
+  "revision": "KI-V33-R02",
+  "date": "2026-10-26",
+  "workbook_errors": [],
+  "main": 20554190,
+  "economy": 19899690,
+  "low": 17740028,
+  "high": 27132689,
+  "reserve_used": 0,
+  "formula_perturbation": "Q2 +1000 propagated to20555190, restored and re-exported",
+  "pdf_pages": {
+    "A902_R02_teljes_teteljegyzek.pdf": 39,
+    "A902_R02_rajzcsomag.pdf": 78,
+    "A902_R02_tulajdonosi_egyoldalas.pdf": 1,
+    "A902_R02_vizualis_elteresek.pdf": 3,
+    "A902_R02_szakagi_egyezteto.pdf": 17
+  },
+  "drawing_pages": 78,
+  "custom_structures": 33,
+  "cutlist_rows": 208,
+  "render_prompts": 26,
+  "neutral_images": 28,
+  "blender_saved_reopened": true,
+  "wall_flags": 0,
+  "main_door_flags": [
+    {
+      "door": "Erkelyajto_05_2",
+      "item": "DS52",
+      "angle_deg": 10,
+      "status": "FAIL_CLEARANCE"
+    },
+    {
+      "door": "Erkelyajto_05_2",
+      "item": "KI-063",
+      "angle_deg": 70,
+      "status": "FAIL_CLEARANCE"
+    }
+  ],
+  "alternative052": "zero flags in limited screen; owner approval absent",
+  "full_project_complete": false,
+  "final_render_release": false,
+  "production_release": false,
+  "orders_sent": 0
+}

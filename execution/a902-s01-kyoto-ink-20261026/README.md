@@ -1,30 +1,31 @@
-# A-902 Kyoto Ink S01 – megvalósítás
+# A-902 Kyoto Ink S01 – R02 megvalósítási munkacsomag
 
-Állapot: FOLYAMATBAN / CP1a, szakaszolt átadás. Nem megrendelési vagy jóváhagyott kiviteli terv.
+2026-10-26. Státusz: **érdemi ajánlati és egyeztetési csomag; a teljes megvalósítás még nincs lezárva**. Nincs gyártási engedély, végleges render-PASS, megrendelés vagy elküldött ajánlatkérés.
 
-Feladat: a kiválasztott hat render alapján a teljes lakás és teljes kültér megvalósítási terve. Tervezhető keret 18 000 000 Ft bruttó; külön, érintetlen tartalék 2 000 000 Ft. Feltételes időtáv 13–17 hét, beszállítói visszaigazolás nélkül nem vállalt határidő.
+Az eredeti CP0 és CP1a megmaradt. CP0: `884788f70bdcade7d603f5e90d2f4085c99b939c`; CP1a: `5c855e968b5005e0cac58d2befb64f8f421733d5`; V3.3 célátvétel: `af9906a5039e0fe7198ca8ae8397d53e49352ead`. A munka ugyanazon engedélyezett execution ágon folytatódik. A main és a kreatív ágak változatlanok.
 
-Eredeti ág: competition/gpt6astra-v3-1-20261025. Forráscommit: 2bef09ae6081b5bafb86bc876ef8410be44bb567. Megvalósítási ág: execution/a902-s01-kyoto-ink-design-to-budget-20261026. Eredeti fájlokat nem módosítunk. A main későbbi fotó- és műszaki forrásai külön pillanatképekben vannak.
+## Kézzelfogható átadás
 
-## Munkarend
-1. CP0: forrásleltár, minden helyiség és szakma előzetes költségregisztere, távoli mentés és visszaolvasás.
-2. CP1: tényleges termékjelöltek, rendereltérések, műszaki és gyártási specifikációk, tételes költségfrissítés.
-3. CP2: ajánlatkérési csomagok, feltételes ütemterv, hiánytalansági és pénzügyi audit, tulajdonosi átadás.
+- [Egyoldalas tulajdonosi PDF](outputs/A902_R02_tulajdonosi_egyoldalas.pdf): pontosan egy A4, valódi tervből származó rajzokkal.
+- [Élő Excel](outputs/A902_Kyoto_Ink_elo_regiszter.xlsx):159 sor, fő/gazdaságos számítás, források, lefedettség, ütemterv, eltérések,208 soros előzetes szabásjegyzék és külön05.2 alternatíva.
+- [78 oldalas rajzcsomag](outputs/A902_R02_rajzcsomag.pdf):33 szerkezet saját lapja/specifikációja, alaprajzok, gardróbbelsők, TV/konyha/üveg részletek, ALT-052. Egyedi PDF-ek és szerkeszthető SVG-k a `drawings/` mappában.
+- [17 oldalas szakági csomag](outputs/A902_R02_szakagi_egyezteto.pdf):világítás, víz/gép, felületek, textilek, kültér, ütemezés, nyitott kapuk.
+- [39 oldalas teljes tételjegyzék](outputs/A902_R02_teljes_teteljegyzek.pdf) és [vizuális eltérések](outputs/A902_R02_vizualis_elteresek.pdf).
+- [Tényleges Blender-munkafájl](blender/A902_Kyoto_Ink_R02.blend):elmentve és újranyitva;28 semleges kontrollkép, vizsgálati szkriptek és naplók. Méretmodellek, részben egyszerűsített formák; nem teljes gyári termékmodellek.
+- [Renderoperátori indítóprompt](render_handoff/00_RENDEROPERATOR_INDITOPROMPT.txt),26 önálló angol prompt és [pontos manifest](render_handoff/manifest_R02.json). Végleges futtatásuk a dokumentált kapuk miatt blokkolt; generatív sorozat nem indult.
+- `rfq/`:öt szakági ajánlatkérési tervezet, nincs elküldve.
+- `targets/`:hat kiválasztott célkép tényleges PNG-je. Cam02/12 pontos V3.3, többi a korábbi kiválasztás. Régi nappali képek az `archive/renders/` alatt.
 
-Árstátuszok: ellenőrzött webshopár / beszállítói ajánlat / előzetes becslés. A tervezési becslés nem kínálati ár. SKU, méret, készlet, átfutás és szakági jóváhagyás hiányában UNKNOWN/PENDING szerepel. A/B/C a megvalósítás módja; az A minősítés csak igazolt konkrét termék esetén adható.
+## Költség és bizonyíték
 
-Az aktuális Excel lesz az egyetlen szerkesztendő pénzügyi nyilvántartás. CSV és JSON csak ugyanannak a verziónak az ellenőrzött exportja, külön nem szerkesztendő. A régi COST csomagsorok csak összehasonlítási baseline-ok, az új részletekkel együtt nem összegezhetők.
+Fő előrejelzés **20 554 190 Ft**, takarékos javaslat **19 899 690 Ft**. A18M keret feletti előirányzati eltérés2 554 190, illetve1 899 690Ft. Külön2M tartalék érintetlen. Fő indikatív sáv17 740 028–27 132 689Ft, nem statisztikai vagy beszállítói garancia. Ellenőrzött webshop-termékár1 757 130Ft; írásos ajánlat0Ft; többi18 797 060Ft becslés. A megtakarítások részben becsült egyedi műszaki cserék, nem lekötött ajánlatok. Jakuzzi1,7M +emelés/bekötés0,3M megmaradt.
 
-Külső ajánlatkérés, megrendelés és üzenetküldés nincs elindítva. A végleges méretekhez helyszíni felmérés, a villamos és vizes helyiségi megoldásokhoz szakember, a tetőteraszhoz terhelési és rögzítési ellenőrzés szükséges.
+## Mi használható és mi maradt nyitva?
 
-## CP0 ismert lényeges eltérések
-- A 8,4 M fix csomagból 3,6 M a kültér, benne 1,7 M jakuzzi és 0,3 M emelés/bekötés. Feltételes marad, az előirányzatban szerepel, de nem igazolt ajánlati ár és nem automatikusan elhagyható tétel.
-- A hat kiválasztott kép: Cam12 v1, Cam02 v1, Cam03 v2, Cam04 v1, Cam10 v1, Cam11 v2. Más változat nem lép helyükbe.
-- Cam03 v2: korábbi QA szerint GEOMETRY_NEAR; nyújtott konyha, széles hűtőtorony, falikar rossz oldalon. A meglévő kiállás és alaprajz elsődleges.
-- Cam12 v1: tulajdonos által elfogadott tervközeli hangulatkép, nem méretezési forrás.
-- Meglévő padló hűvösebb és a fürdő relief hatszögletű, nem a render négyzetrácsa. Burkolatcsere nincs automatikusan tervezve.
-- A nappali üveg előtti belső fellépés fotó alapján hiányzik a régi modellből; helyszínen felmérendő.
-- Az S01 17 611 000 Ft gazdaságos és 18 450 000 Ft fő baseline becslés. A keretmegfelelés nincs bizonyítva.
+A fő anyag- és méretjavaslat, költségregiszter és rajzlapok **előzetes összehasonlító ajánlatkérésre/felmérésre** használhatók a nyitott feltételek feltüntetésével. Nem minden lap végleges gyártmányterv: teljes CNC/furatlista, vasalat SKU, minden késztermék, részletes gyári modell és szakági jóváhagyás hiányzik.
 
-## Aktuális átadás
-CP0 commit: `884788f70bdcade7d603f5e90d2f4085c99b939c`. CP1a: `01_CP1a_KIEMELT_TERMEKEK.md`; folytatás: `02_FOLYTATAS_ATADAS.md`; ellenőrzés: `03_ELLENORZESI_NYUGTA.md`. A fő előirányzat20083350Ft. Az Excel gazdaságos oszlopa még ugyanaz a változat, nem kész megtakarítási terv.
+A konyhai folyosó840mm, a900mm célt nem teljesíti. Nyitott mosogatógép mellett nincs átjárás. A05.2 fő elrendezés íróasztala/széke ütközik az erkélyajtóval; külön ALT-052 integrált munkahely készült, korlátozott vizsgálatban0jelzéssel. Az alternatíva1380mm teljes magas gardróbot hagy2380mm helyett, +80000Ft±40000 becsült különbséggel; nincs elfogadva és nincs a főösszegben.
+
+További lényeges nyitott tételek: pontos elszívó/mosogató/csap és kültéri főcsalád; teljes Hue/LED SKU és hozzáférés; textilek és minták; minden fiók és gépajtó használata; gyártói bútorazonosság; helyszíni szintek/küszöb/nyílások; elektromos, vizes, üveges és teraszstatikai feltételek. Végleges renderelés előtt a gyári termékfotókat/mesh-eket be kell csomagolni és a modellbe egyeztetni.
+
+A korábbi12termékes korlátozás megszűnt. A folytatás a teljes lakásra vonatkozik; az R02 nem új CP0 és nem késznek nyilvánítás.

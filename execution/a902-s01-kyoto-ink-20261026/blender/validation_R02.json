@@ -1,0 +1,1650 @@
+{
+  "revision": "KI-V33-R02",
+  "blender_version": "5.2.3 LTS",
+  "source_file": "/Users/peterkapusi/Downloads/WSG/_claude_kep004_alap_20261024/WSG_A902_v2b1_MUNKAMASOLAT.blend",
+  "source_sha256": "399e520907b8e22514b81e175ae5ea3bc122771103289d08e36e1ea4a825a0df",
+  "geometry_lock_sha256": "d06fed607cdbc4613a7609fc6c6d70a002fb7368478ada1d9952dbe0396f0850",
+  "method": "AABB wall/pair screen + room door sampled5degrees/30 radialpoints. Not complete collision/egress certification.",
+  "status": "OPEN_ISSUES_NOT_FINAL_RENDER_READY",
+  "wall_collisions": [],
+  "pair_overlaps": [
+    {
+      "a": "CF-01",
+      "b": "KI-036",
+      "status": "BROAD_PHASE_ONLY: no component-box overlap in current simplified model",
+      "component_overlap": false
+    }
+  ],
+  "door_sweeps": [
+    {
+      "door": "Erkelyajto_05_2",
+      "item": "DS52",
+      "angle_deg": 10,
+      "status": "FAIL_CLEARANCE"
+    },
+    {
+      "door": "Erkelyajto_05_2",
+      "item": "KI-063",
+      "angle_deg": 70,
+      "status": "FAIL_CLEARANCE"
+    }
+  ],
+  "movement_checks": [
+    {
+      "id": "KI-029-1",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        6.85,
+        5.57,
+        0,
+        7.75,
+        6.12,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    },
+    {
+      "id": "KI-029-2",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        6.85,
+        6.26,
+        0,
+        7.75,
+        6.81,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    },
+    {
+      "id": "KI-029-3",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        8.75,
+        5.57,
+        0,
+        9.649999999999999,
+        6.12,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    },
+    {
+      "id": "KI-029-4",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        8.75,
+        6.26,
+        0,
+        9.649999999999999,
+        6.81,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    },
+    {
+      "id": "KI-029-5",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        7.97,
+        4.45,
+        0,
+        8.52,
+        5.3500000000000005,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    },
+    {
+      "id": "KI-029-6",
+      "type": "370mm chair translation; 900mm use zone from table edge, not a separate route",
+      "swept_bounds": [
+        7.97,
+        7.05,
+        0,
+        8.52,
+        7.95,
+        0.75
+      ],
+      "hits": [],
+      "walls": [],
+      "status": "CLEAR_AT_ASSUMED_370MM"
+    }
+  ],
+  "checks": [
+    {
+      "id": "KITCHEN_AISLE",
+      "measured_mm": 840,
+      "target_mm": 900,
+      "status": "FAIL_TARGET",
+      "note": "R02 west origin8.47 +620 =9.09; 840mm. Nominal wall-to-wall2100 minus2×620=860 before20mmsetback."
+    },
+    {
+      "id": "NORTH_WARDROBE",
+      "available_mm": 3020,
+      "cabinet_mm": 2920,
+      "margin_mm": 100,
+      "status": "CONDITIONAL",
+      "note": "plan clear100mm; finished walls and installation sequence not measured"
+    },
+    {
+      "id": "TERRACE_OPEN_SASH",
+      "status": "UNRESOLVED",
+      "note": "lock says sliding; exact operable bay and threshold field survey absent"
+    },
+    {
+      "id": "NORDLI_DRAWERS",
+      "status": "UNRESOLVED",
+      "note": "factory drawer travel not imported; full opening cannot be certified"
+    },
+    {
+      "id": "PRODUCT_IDENTITY",
+      "status": "NOT_VALIDATED",
+      "note": "dimension models are not certified manufacturer meshes"
+    },
+    {
+      "id": "TERRACE_LOAD",
+      "status": "NOT_TESTED",
+      "note": "geometry cannot validate structure, crane, waterproofing or electrical supply"
+    },
+    {
+      "id": "DINING_PULL_OUT",
+      "status": "SAMPLED_TRANSLATION_ONLY",
+      "note": "six chairs translated370mm away from table; results in movement_checks. No separate route claimed between sofa and west chairs. Knee space and manufacturer shape pending."
+    },
+    {
+      "id": "DISHWASHER_OPEN",
+      "status": "CONDITIONAL_RESTRICTED_AISLE",
+      "note": "Factory open depth1150 minus550 closed =600mm additional projection. 840mm aisle leaves240mm: no through passage with dishwasher open."
+    },
+    {
+      "id": "BATH_LAUNDRY",
+      "status": "UNRESOLVED_USE_CONFLICT",
+      "note": "Existing bathtub now included; tower moved to3.80/.95. Open machine vs open bathroom door and basin use needs manufacturer sweep and site survey."
+    }
+  ],
+  "objects": [
+    {
+      "id": "K-01",
+      "element": "KI-008;KI-009;KI-010;KI-013;KI-015",
+      "bounds": [
+        9.15,
+        1.37,
+        0,
+        9.75,
+        1.9700000000000002,
+        2.4
+      ],
+      "blender_objects": [
+        "KI_K-01_bottom",
+        "KI_K-01_top",
+        "KI_K-01_sideL",
+        "KI_K-01_sideR",
+        "KI_K-01_back",
+        "KI_K-01_shelf0",
+        "KI_K-01_shelf1",
+        "KI_K-01_shelf2",
+        "KI_K-01_HBA534EB3",
+        "KI_K-01_BFL524MB0",
+        "KI_K-01_front0",
+        "KI_K-01_front1",
+        "KI_K-01_front2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-02",
+      "element": "KI-008;KI-009;KI-010;KI-013;KI-015",
+      "bounds": [
+        9.93,
+        3.43,
+        0,
+        10.549999999999999,
+        4.03,
+        2.4
+      ],
+      "blender_objects": [
+        "KI_K-02_bottom",
+        "KI_K-02_top",
+        "KI_K-02_sideL",
+        "KI_K-02_sideR",
+        "KI_K-02_back",
+        "KI_K-02_shelf",
+        "KI_K-02_front0",
+        "KI_K-02_front1",
+        "KI_K-02_front2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-03",
+      "element": "KI-006;KI-009;KI-010;KI-015",
+      "bounds": [
+        9.93,
+        2.57,
+        0,
+        10.549999999999999,
+        3.37,
+        0.9
+      ],
+      "blender_objects": [
+        "KI_K-03_bottom",
+        "KI_K-03_top",
+        "KI_K-03_sideL",
+        "KI_K-03_sideR",
+        "KI_K-03_back",
+        "KI_K-03_front0_0"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-04",
+      "element": "KI-006;KI-009;KI-013;KI-015",
+      "bounds": [
+        9.93,
+        1.97,
+        0,
+        10.549999999999999,
+        2.57,
+        0.9
+      ],
+      "blender_objects": [
+        "KI_K-04_SMV4EVX00E",
+        "KI_K-04_front"
+      ],
+      "kind": "appliance",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-05",
+      "element": "KI-006;KI-009;KI-010;KI-015",
+      "bounds": [
+        8.47,
+        2.42,
+        0,
+        9.09,
+        3.02,
+        0.9
+      ],
+      "blender_objects": [
+        "KI_K-05_bottom",
+        "KI_K-05_top",
+        "KI_K-05_sideL",
+        "KI_K-05_sideR",
+        "KI_K-05_back",
+        "KI_K-05_front0_0",
+        "KI_K-05_front0_1",
+        "KI_K-05_front0_2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-06",
+      "element": "KI-006;KI-009;KI-010;KI-015",
+      "bounds": [
+        8.47,
+        3.02,
+        0,
+        9.09,
+        4.02,
+        0.9
+      ],
+      "blender_objects": [
+        "KI_K-06_bottom",
+        "KI_K-06_top",
+        "KI_K-06_sideL",
+        "KI_K-06_sideR",
+        "KI_K-06_back",
+        "KI_K-06_front0_0",
+        "KI_K-06_front0_1",
+        "KI_K-06_front0_2",
+        "KI_K-06_partition1",
+        "KI_K-06_front1_0",
+        "KI_K-06_front1_1",
+        "KI_K-06_front1_2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-07",
+      "element": "KI-007;KI-009;KI-010;KI-015",
+      "bounds": [
+        10.18,
+        1.97,
+        1.45,
+        10.53,
+        3.37,
+        2.35
+      ],
+      "blender_objects": [
+        "KI_K-07_bottom",
+        "KI_K-07_top",
+        "KI_K-07_sideL",
+        "KI_K-07_sideR",
+        "KI_K-07_back",
+        "KI_K-07_front0_0",
+        "KI_K-07_partition1",
+        "KI_K-07_front1_0",
+        "KI_K-07_shelf0",
+        "KI_K-07_shelf1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-08",
+      "element": "KI-011;KI-012;KI-014",
+      "bounds": [
+        9.93,
+        1.97,
+        0.9,
+        10.549999999999999,
+        3.4299999999999997,
+        0.9380000000000001
+      ],
+      "blender_objects": [
+        "KI_K-08"
+      ],
+      "kind": "panel",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "TV-01",
+      "element": "KI-030;KI-032",
+      "bounds": [
+        3.71,
+        7.3,
+        0.55,
+        4.11,
+        8.0,
+        2.88
+      ],
+      "blender_objects": [
+        "KI_TV-01_bottom",
+        "KI_TV-01_top",
+        "KI_TV-01_sideL",
+        "KI_TV-01_sideR",
+        "KI_TV-01_back",
+        "KI_TV-01_front0_0",
+        "KI_TV-01_partition1",
+        "KI_TV-01_front1_0",
+        "KI_TV-01_shelf0",
+        "KI_TV-01_shelf1",
+        "KI_TV-01_shelf2",
+        "KI_TV-01_shelf3"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "TV-02",
+      "element": "KI-031;KI-032",
+      "bounds": [
+        3.71,
+        4.7,
+        0.15,
+        4.11,
+        8.0,
+        0.55
+      ],
+      "blender_objects": [
+        "KI_TV-02_bottom",
+        "KI_TV-02_top",
+        "KI_TV-02_sideL",
+        "KI_TV-02_sideR",
+        "KI_TV-02_back",
+        "KI_TV-02_front0_0",
+        "KI_TV-02_partition1",
+        "KI_TV-02_front1_0",
+        "KI_TV-02_partition2",
+        "KI_TV-02_front2_0",
+        "KI_TV-02_partition3",
+        "KI_TV-02_front3_0",
+        "KI_TV-02_partition4",
+        "KI_TV-02_front4_0",
+        "KI_TV-02_shelf0"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "TV-03",
+      "element": "KI-030;KI-032;KI-034;KI-114",
+      "bounds": [
+        3.674,
+        4.7,
+        0.55,
+        3.71,
+        7.300000000000001,
+        2.88
+      ],
+      "blender_objects": [
+        "KI_TV-03_panel0",
+        "KI_TV-03_panel1",
+        "KI_TV-03_panel2",
+        "KI_TV-03_panel3"
+      ],
+      "kind": "panel",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "ART-02",
+      "element": "KI-123;KI-131;KI-132;KI-133",
+      "bounds": [
+        5.2,
+        4.052,
+        0,
+        7.300000000000001,
+        4.087999999999999,
+        2.88
+      ],
+      "blender_objects": [
+        "KI_ART-02_panel0",
+        "KI_ART-02_panel1",
+        "KI_ART-02_panel2"
+      ],
+      "kind": "panel",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "ART-07",
+      "element": "KI-124;KI-127;KI-128",
+      "bounds": [
+        3.67,
+        3.96,
+        0,
+        5.2,
+        3.9779999999999998,
+        2.88
+      ],
+      "blender_objects": [
+        "KI_ART-07"
+      ],
+      "kind": "panel",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "CF-01",
+      "element": "KI-037",
+      "bounds": [
+        4.25,
+        6.4,
+        0,
+        4.95,
+        6.8500000000000005,
+        0.35
+      ],
+      "blender_objects": [
+        "KI_CF-01"
+      ],
+      "kind": "table",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "ST-01",
+      "element": "KI-038",
+      "bounds": [
+        6.0,
+        4.42,
+        0,
+        6.3,
+        4.72,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_ST-01"
+      ],
+      "kind": "table",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "WN-01",
+      "element": "KI-048;KI-050;KI-051;KI-052",
+      "bounds": [
+        0.05,
+        8.3,
+        0,
+        2.9699999999999998,
+        8.9,
+        2.84
+      ],
+      "blender_objects": [
+        "KI_WN-01_bottom",
+        "KI_WN-01_top",
+        "KI_WN-01_sideL",
+        "KI_WN-01_sideR",
+        "KI_WN-01_back",
+        "KI_WN-01_front0_0",
+        "KI_WN-01_front0_2.36",
+        "KI_WN-01_partition1",
+        "KI_WN-01_front1_0",
+        "KI_WN-01_front1_2.36",
+        "KI_WN-01_partition2",
+        "KI_WN-01_front2_0",
+        "KI_WN-01_front2_2.36",
+        "KI_WN-01_partition3",
+        "KI_WN-01_front3_0",
+        "KI_WN-01_front3_2.36",
+        "KI_WN-01_fixed_loft",
+        "KI_WN-01_bay0_shelf0",
+        "KI_WN-01_bay0_rail0",
+        "KI_WN-01_bay1_shelf0",
+        "KI_WN-01_bay1_rail0",
+        "KI_WN-01_bay1_rail1",
+        "KI_WN-01_bay2_shelf0",
+        "KI_WN-01_bay2_rail0",
+        "KI_WN-01_bay2_rail1",
+        "KI_WN-01_bay3_shelf0",
+        "KI_WN-01_bay3_shelf1",
+        "KI_WN-01_bay3_shelf2",
+        "KI_WN-01_bay3_shelf3",
+        "KI_WN-01_bay3_drawer0",
+        "KI_WN-01_bay3_drawer1",
+        "KI_WN-01_bay3_drawer2",
+        "KI_WN-01_bay3_drawer3"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "WS-01",
+      "element": "KI-049;KI-050;KI-051;KI-052",
+      "bounds": [
+        0.02,
+        3.47,
+        0,
+        2.4,
+        3.95,
+        2.84
+      ],
+      "blender_objects": [
+        "KI_WS-01_bottom",
+        "KI_WS-01_top",
+        "KI_WS-01_sideL",
+        "KI_WS-01_sideR",
+        "KI_WS-01_back",
+        "KI_WS-01_front0_0",
+        "KI_WS-01_front0_2.36",
+        "KI_WS-01_partition1",
+        "KI_WS-01_front1_0",
+        "KI_WS-01_front1_2.36",
+        "KI_WS-01_partition2",
+        "KI_WS-01_front2_0",
+        "KI_WS-01_front2_2.36",
+        "KI_WS-01_partition3",
+        "KI_WS-01_front3_0",
+        "KI_WS-01_front3_2.36",
+        "KI_WS-01_fixed_loft",
+        "KI_WS-01_bay0_shelf0",
+        "KI_WS-01_bay0_rail0",
+        "KI_WS-01_bay1_shelf0",
+        "KI_WS-01_bay1_rail0",
+        "KI_WS-01_bay2_shelf0",
+        "KI_WS-01_bay2_shelf1",
+        "KI_WS-01_bay2_shelf2",
+        "KI_WS-01_bay2_shelf3",
+        "KI_WS-01_bay2_drawer0",
+        "KI_WS-01_bay2_drawer1",
+        "KI_WS-01_bay3_shelf0",
+        "KI_WS-01_bay3_shelf1",
+        "KI_WS-01_bay3_shelf2",
+        "KI_WS-01_bay3_shelf3",
+        "KI_WS-01_bay3_shelf4"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "HB-01",
+      "element": "KI-046;KI-047;KI-118",
+      "bounds": [
+        3.49,
+        5.05,
+        0,
+        3.5500000000000003,
+        7.75,
+        1.5
+      ],
+      "blender_objects": [
+        "KI_HB-01"
+      ],
+      "kind": "upholstery",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "NT-L",
+      "element": "KI-053",
+      "bounds": [
+        3.07,
+        5.12,
+        0,
+        3.4899999999999998,
+        5.42,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_NT-L_bottom",
+        "KI_NT-L_top",
+        "KI_NT-L_sideL",
+        "KI_NT-L_sideR",
+        "KI_NT-L_back",
+        "KI_NT-L_front0_0",
+        "KI_NT-L_front0_1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "NT-R",
+      "element": "KI-053",
+      "bounds": [
+        3.07,
+        7.35,
+        0,
+        3.4899999999999998,
+        7.6499999999999995,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_NT-R_bottom",
+        "KI_NT-R_top",
+        "KI_NT-R_sideL",
+        "KI_NT-R_sideR",
+        "KI_NT-R_back",
+        "KI_NT-R_front0_0",
+        "KI_NT-R_front0_1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "W52-01",
+      "element": "KI-060;KI-061",
+      "bounds": [
+        0.02,
+        2.72,
+        0,
+        2.4,
+        3.3200000000000003,
+        2.84
+      ],
+      "blender_objects": [
+        "KI_W52-01_bottom",
+        "KI_W52-01_top",
+        "KI_W52-01_sideL",
+        "KI_W52-01_sideR",
+        "KI_W52-01_back",
+        "KI_W52-01_front0_0",
+        "KI_W52-01_front0_2.36",
+        "KI_W52-01_partition1",
+        "KI_W52-01_front1_0",
+        "KI_W52-01_front1_2.36",
+        "KI_W52-01_partition2",
+        "KI_W52-01_front2_0",
+        "KI_W52-01_front2_2.36",
+        "KI_W52-01_partition3",
+        "KI_W52-01_front3_0",
+        "KI_W52-01_front3_2.36",
+        "KI_W52-01_fixed_loft",
+        "KI_W52-01_bay0_shelf0",
+        "KI_W52-01_bay0_rail0",
+        "KI_W52-01_bay1_shelf0",
+        "KI_W52-01_bay1_rail0",
+        "KI_W52-01_bay2_shelf0",
+        "KI_W52-01_bay2_shelf1",
+        "KI_W52-01_bay2_shelf2",
+        "KI_W52-01_bay2_drawer0",
+        "KI_W52-01_bay2_drawer1",
+        "KI_W52-01_bay2_drawer2",
+        "KI_W52-01_bay2_drawer3",
+        "KI_W52-01_bay3_shelf0",
+        "KI_W52-01_bay3_shelf1",
+        "KI_W52-01_bay3_shelf2",
+        "KI_W52-01_bay3_shelf3",
+        "KI_W52-01_bay3_shelf4"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "W53-01",
+      "element": "KI-072;KI-073",
+      "bounds": [
+        10.9,
+        4.15,
+        0,
+        11.35,
+        5.95,
+        2.84
+      ],
+      "blender_objects": [
+        "KI_W53-01_bottom",
+        "KI_W53-01_top",
+        "KI_W53-01_sideL",
+        "KI_W53-01_sideR",
+        "KI_W53-01_back",
+        "KI_W53-01_front0_0",
+        "KI_W53-01_front0_2.36",
+        "KI_W53-01_partition1",
+        "KI_W53-01_front1_0",
+        "KI_W53-01_front1_2.36",
+        "KI_W53-01_partition2",
+        "KI_W53-01_front2_0",
+        "KI_W53-01_front2_2.36",
+        "KI_W53-01_fixed_loft",
+        "KI_W53-01_bay0_shelf0",
+        "KI_W53-01_bay0_rail0",
+        "KI_W53-01_bay1_shelf0",
+        "KI_W53-01_bay1_rail0",
+        "KI_W53-01_bay2_shelf0",
+        "KI_W53-01_bay2_shelf1",
+        "KI_W53-01_bay2_shelf2",
+        "KI_W53-01_bay2_drawer0",
+        "KI_W53-01_bay2_drawer1",
+        "KI_W53-01_bay2_drawer2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "ENT-01",
+      "element": "KI-082;KI-085",
+      "bounds": [
+        8.39,
+        1.37,
+        0,
+        8.93,
+        2.23,
+        2.84
+      ],
+      "blender_objects": [
+        "KI_ENT-01_bottom",
+        "KI_ENT-01_top",
+        "KI_ENT-01_sideL",
+        "KI_ENT-01_sideR",
+        "KI_ENT-01_back",
+        "KI_ENT-01_front0_0",
+        "KI_ENT-01_partition1",
+        "KI_ENT-01_front1_0",
+        "KI_ENT-01_shelf0",
+        "KI_ENT-01_shelf1",
+        "KI_ENT-01_shelf2",
+        "KI_ENT-01_shelf3"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "ENT-02",
+      "element": "KI-083",
+      "bounds": [
+        5.65,
+        0.15,
+        0,
+        6.45,
+        0.5,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_ENT-02"
+      ],
+      "kind": "bench",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "HALL-01",
+      "element": "KI-086",
+      "bounds": [
+        4.2,
+        3.78,
+        0.8,
+        4.8,
+        3.9299999999999997,
+        0.98
+      ],
+      "blender_objects": [
+        "KI_HALL-01"
+      ],
+      "kind": "shelf",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "B62-01",
+      "element": "KI-092;KI-095;KI-096",
+      "bounds": [
+        15.88,
+        6.02,
+        0.5,
+        16.380000000000003,
+        6.92,
+        0.85
+      ],
+      "blender_objects": [
+        "KI_B62-01_bottom",
+        "KI_B62-01_top",
+        "KI_B62-01_sideL",
+        "KI_B62-01_sideR",
+        "KI_B62-01_back",
+        "KI_B62-01_front0_0",
+        "KI_B62-01_front0_1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "B62-02",
+      "element": "KI-094",
+      "bounds": [
+        16.18,
+        7.02,
+        1.05,
+        16.38,
+        7.319999999999999,
+        1.85
+      ],
+      "blender_objects": [
+        "KI_B62-02_bottom",
+        "KI_B62-02_top",
+        "KI_B62-02_sideL",
+        "KI_B62-02_sideR",
+        "KI_B62-02_back",
+        "KI_B62-02_front0_0",
+        "KI_B62-02_shelf0",
+        "KI_B62-02_shelf1",
+        "KI_B62-02_shelf2"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "B61-01",
+      "element": "KI-098",
+      "bounds": [
+        5.0,
+        1.25,
+        0.45,
+        5.45,
+        1.85,
+        0.8
+      ],
+      "blender_objects": [
+        "KI_B61-01_bottom",
+        "KI_B61-01_top",
+        "KI_B61-01_sideL",
+        "KI_B61-01_sideR",
+        "KI_B61-01_back",
+        "KI_B61-01_front0_0",
+        "KI_B61-01_front0_1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "WC-01",
+      "element": "KI-101",
+      "bounds": [
+        5.34,
+        2.85,
+        1.1,
+        5.52,
+        3.3000000000000003,
+        1.8
+      ],
+      "blender_objects": [
+        "KI_WC-01_bottom",
+        "KI_WC-01_top",
+        "KI_WC-01_sideL",
+        "KI_WC-01_sideR",
+        "KI_WC-01_back",
+        "KI_WC-01_front0_0",
+        "KI_WC-01_shelf0",
+        "KI_WC-01_shelf1"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "DS52",
+      "element": "KI-062",
+      "bounds": [
+        0.05,
+        0.35,
+        0,
+        0.5,
+        1.35,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_DS52"
+      ],
+      "kind": "table",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "NT-64",
+      "element": "KI-064",
+      "bounds": [
+        0.95,
+        1.8,
+        0,
+        1.2999999999999998,
+        2.15,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_NT-64_bottom",
+        "KI_NT-64_top",
+        "KI_NT-64_sideL",
+        "KI_NT-64_sideR",
+        "KI_NT-64_back",
+        "KI_NT-64_front0_0",
+        "KI_NT-64_shelf0"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "NT-76",
+      "element": "KI-076",
+      "bounds": [
+        13.1,
+        6.13,
+        0,
+        13.45,
+        6.4799999999999995,
+        0.45
+      ],
+      "blender_objects": [
+        "KI_NT-76_bottom",
+        "KI_NT-76_top",
+        "KI_NT-76_sideL",
+        "KI_NT-76_sideR",
+        "KI_NT-76_back",
+        "KI_NT-76_front0_0",
+        "KI_NT-76_shelf0"
+      ],
+      "kind": "cabinet",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "K-09",
+      "element": "KI-011;KI-012;KI-014",
+      "bounds": [
+        8.47,
+        2.42,
+        0.9,
+        9.09,
+        4.02,
+        0.9380000000000001
+      ],
+      "blender_objects": [
+        "KI_K-09"
+      ],
+      "kind": "panel",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV"
+    },
+    {
+      "id": "KI-036",
+      "element": "KI-036",
+      "bounds": [
+        4.87,
+        4.77,
+        0,
+        6.67,
+        7.1499999999999995,
+        0.68
+      ],
+      "blender_objects": [
+        "KI_KI-036_backrun",
+        "KI_KI-036_chaise"
+      ],
+      "kind": "sofa",
+      "status": "gyártói befoglaló; kar/modul mesh és kéz iránya még igazolandó"
+    },
+    {
+      "id": "KI-028",
+      "element": "KI-028",
+      "bounds": [
+        7.8,
+        5.4,
+        0,
+        8.7,
+        7.0,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-028",
+        "KI_KI-028_base"
+      ],
+      "kind": "oval",
+      "status": "CP1a termékoldal"
+    },
+    {
+      "id": "KI-029-1",
+      "element": "KI-029",
+      "bounds": [
+        7.22,
+        5.57,
+        0,
+        7.75,
+        6.12,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-1"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-2",
+      "element": "KI-029",
+      "bounds": [
+        7.22,
+        6.26,
+        0,
+        7.75,
+        6.81,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-2"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-3",
+      "element": "KI-029",
+      "bounds": [
+        8.75,
+        5.57,
+        0,
+        9.28,
+        6.12,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-3"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-4",
+      "element": "KI-029",
+      "bounds": [
+        8.75,
+        6.26,
+        0,
+        9.28,
+        6.81,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-4"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-5",
+      "element": "KI-029",
+      "bounds": [
+        7.97,
+        4.82,
+        0,
+        8.52,
+        5.3500000000000005,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-5"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-6",
+      "element": "KI-029",
+      "bounds": [
+        7.97,
+        7.05,
+        0,
+        8.52,
+        7.58,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-029-6"
+      ],
+      "kind": "product",
+      "status": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-043",
+      "element": "KI-043",
+      "bounds": [
+        1.47,
+        5.5,
+        0,
+        3.49,
+        7.3,
+        0.3
+      ],
+      "blender_objects": [
+        "KI_KI-043"
+      ],
+      "kind": "product",
+      "status": "IKEA gyári méret, 180×202×30 cm elforgatva"
+    },
+    {
+      "id": "KI-058",
+      "element": "KI-058",
+      "bounds": [
+        1.5,
+        0.05,
+        0,
+        3.56,
+        1.69,
+        0.85
+      ],
+      "blender_objects": [
+        "KI_KI-058"
+      ],
+      "kind": "product",
+      "status": "IKEA termékoldal 2026-10-26; déli oldal falhoz közel: egyoldali fő megközelítés, tulajdonosi funkcióegyeztetés kell"
+    },
+    {
+      "id": "KI-070",
+      "element": "KI-070",
+      "bounds": [
+        12.31,
+        4.25,
+        0,
+        14.33,
+        6.05,
+        0.3
+      ],
+      "blender_objects": [
+        "KI_KI-070"
+      ],
+      "kind": "product",
+      "status": "CP1a NORDLI gyári méret; 180 cm funkció megőrzése"
+    },
+    {
+      "id": "KI-074",
+      "element": "KI-074",
+      "bounds": [
+        12.95,
+        7.3,
+        0,
+        14.149999999999999,
+        8.0,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-074"
+      ],
+      "kind": "product",
+      "status": "IKEA gyári befoglaló; északkeleti sarok a nyíló teraszajtó és fürdőajtó közös elkerülésére"
+    },
+    {
+      "id": "KI-063",
+      "element": "KI-063",
+      "bounds": [
+        0.55,
+        0.5,
+        0,
+        1.26,
+        1.21,
+        1.14
+      ],
+      "blender_objects": [
+        "KI_KI-063"
+      ],
+      "kind": "product",
+      "status": "IKEA termékoldal, használati hely vizsgálandó"
+    },
+    {
+      "id": "KI-075",
+      "element": "KI-075",
+      "bounds": [
+        12.88,
+        6.55,
+        0,
+        13.59,
+        7.26,
+        1.14
+      ],
+      "blender_objects": [
+        "KI_KI-075"
+      ],
+      "kind": "product",
+      "status": "IKEA termékoldal"
+    },
+    {
+      "id": "KI-087",
+      "element": "KI-087",
+      "bounds": [
+        3.8,
+        0.95,
+        0,
+        4.3999999999999995,
+        1.6,
+        1.8
+      ],
+      "blender_objects": [
+        "KI_KI-087"
+      ],
+      "kind": "product",
+      "status": "600×650×1800 toronyfoglalás; meglévő kád megőrizve. Front és szerviz +y, nyitott fürdőajtóval egyidejű használat nincs igazolva; gyári keretkompatibilitás nyitott."
+    },
+    {
+      "id": "KI-091",
+      "element": "KI-091",
+      "bounds": [
+        15.35,
+        7.02,
+        0,
+        15.357999999999999,
+        8.02,
+        2.0
+      ],
+      "blender_objects": [
+        "KI_KI-091"
+      ],
+      "kind": "glass",
+      "status": "1000 mm tulajdonosi igény; szakági vastagság és méret még jóváhagyandó"
+    },
+    {
+      "id": "KI-136",
+      "element": "KI-136",
+      "bounds": [
+        4.0,
+        9.3,
+        -0.15,
+        6.2,
+        11.5,
+        0.75
+      ],
+      "blender_objects": [
+        "KI_KI-136"
+      ],
+      "kind": "product",
+      "status": "tervezési helyfoglaló, konkrét kád és statika nincs igazolva"
+    },
+    {
+      "id": "KI-138",
+      "element": "KI-138",
+      "bounds": [
+        13.7,
+        11.35,
+        -0.15,
+        15.899999999999999,
+        12.2,
+        0.6
+      ],
+      "blender_objects": [
+        "KI_KI-138"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-139-1",
+      "element": "KI-139",
+      "bounds": [
+        12.0,
+        10.1,
+        -0.15,
+        12.75,
+        10.9,
+        0.6
+      ],
+      "blender_objects": [
+        "KI_KI-139-1"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-139-2",
+      "element": "KI-139",
+      "bounds": [
+        15.3,
+        10.1,
+        -0.15,
+        16.05,
+        10.9,
+        0.6
+      ],
+      "blender_objects": [
+        "KI_KI-139-2"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-140",
+      "element": "KI-140",
+      "bounds": [
+        14.0,
+        10.25,
+        -0.15,
+        14.8,
+        10.85,
+        0.19999999999999998
+      ],
+      "blender_objects": [
+        "KI_KI-140"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-141",
+      "element": "KI-141",
+      "bounds": [
+        6.9,
+        10.8,
+        -0.15,
+        8.700000000000001,
+        11.700000000000001,
+        0.6
+      ],
+      "blender_objects": [
+        "KI_KI-141"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-1",
+      "element": "KI-142",
+      "bounds": [
+        6.85,
+        10.15,
+        -0.15,
+        7.3999999999999995,
+        10.700000000000001,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-1"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-2",
+      "element": "KI-142",
+      "bounds": [
+        7.5,
+        10.15,
+        -0.15,
+        8.05,
+        10.700000000000001,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-2"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-3",
+      "element": "KI-142",
+      "bounds": [
+        8.15,
+        10.15,
+        -0.15,
+        8.700000000000001,
+        10.700000000000001,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-3"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-4",
+      "element": "KI-142",
+      "bounds": [
+        6.85,
+        11.75,
+        -0.15,
+        7.3999999999999995,
+        12.3,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-4"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-5",
+      "element": "KI-142",
+      "bounds": [
+        7.5,
+        11.75,
+        -0.15,
+        8.05,
+        12.3,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-5"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-6",
+      "element": "KI-142",
+      "bounds": [
+        8.15,
+        11.75,
+        -0.15,
+        8.700000000000001,
+        12.3,
+        0.65
+      ],
+      "blender_objects": [
+        "KI_KI-142-6"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-143-1",
+      "element": "KI-143",
+      "bounds": [
+        9.4,
+        9.4,
+        0.47,
+        10.05,
+        11.35,
+        0.82
+      ],
+      "blender_objects": [
+        "KI_KI-143-1"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-143-2",
+      "element": "KI-143",
+      "bounds": [
+        10.5,
+        9.4,
+        0.47,
+        11.15,
+        11.35,
+        0.82
+      ],
+      "blender_objects": [
+        "KI_KI-143-2"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-147",
+      "element": "KI-147",
+      "bounds": [
+        -1.85,
+        3.85,
+        -0.15,
+        -0.9500000000000001,
+        4.3,
+        0.4
+      ],
+      "blender_objects": [
+        "KI_KI-147"
+      ],
+      "kind": "product",
+      "status": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-033",
+      "element": "KI-033",
+      "bounds": [
+        3.75,
+        5.28,
+        0.95,
+        3.8106,
+        6.732900000000001,
+        1.7839999999999998
+      ],
+      "blender_objects": [
+        "KI_KI-033"
+      ],
+      "kind": "product",
+      "status": "gyári méret; konzol40mm tervezési távolság, rögzítés és ár/beszerezhetőség nyitott"
+    },
+    {
+      "id": "EX-BATH61",
+      "element": "KI-103",
+      "bounds": [
+        3.75,
+        0.05,
+        0,
+        5.45,
+        0.75,
+        0.58
+      ],
+      "blender_objects": [
+        "KI_EX-BATH61"
+      ],
+      "kind": "existing",
+      "status": "forrásmodell; helyszíni egyezés ellenőrizendő"
+    },
+    {
+      "id": "EX-BASIN61",
+      "element": "KI-098",
+      "bounds": [
+        5,
+        1.27,
+        0.8,
+        5.45,
+        1.83,
+        0.92
+      ],
+      "blender_objects": [
+        "KI_EX-BASIN61"
+      ],
+      "kind": "existing",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-WC08",
+      "element": "KI-103",
+      "bounds": [
+        5.85,
+        3.35,
+        0,
+        6.25,
+        3.9,
+        0.42
+      ],
+      "blender_objects": [
+        "KI_EX-WC08"
+      ],
+      "kind": "existing",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-WC62",
+      "element": "KI-103",
+      "bounds": [
+        14.62,
+        5.25,
+        0,
+        15.02,
+        5.8,
+        0.42
+      ],
+      "blender_objects": [
+        "KI_EX-WC62"
+      ],
+      "kind": "existing",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-BASIN62",
+      "element": "KI-092",
+      "bounds": [
+        15.95,
+        6.02,
+        0.85,
+        16.4,
+        6.88,
+        0.97
+      ],
+      "blender_objects": [
+        "KI_EX-BASIN62"
+      ],
+      "kind": "existing",
+      "status": "régi modell16.5ig túllógott a16.4falsíkon;450×860 befoglaló falhoz igazítva, helyszíni/gyári méret nem igazolt"
+    },
+    {
+      "id": "EX-SHOWER62",
+      "element": "KI-091",
+      "bounds": [
+        14.62,
+        7.1,
+        0,
+        16.4,
+        7.95,
+        0.03
+      ],
+      "blender_objects": [
+        "KI_EX-SHOWER62"
+      ],
+      "kind": "existing",
+      "status": "forrásmodell túlmérete korrigált jelölő; nem tálca rendelési méret"
+    }
+  ]
+}

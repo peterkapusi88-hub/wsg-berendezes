@@ -1,0 +1,162 @@
+[
+  {
+    "room": "01",
+    "name": "Előtér",
+    "Bútor/tárolás": "KI-082, KI-083, KI-084, KI-085",
+    "Gép/szaniter/víz": "Meglévő; KI-159 riasztó/redőny ellenőrzés",
+    "Felület/művészet": "KI-084 tükör; meglévő fal javítása KI-155",
+    "Világítás/villamos": "KI-104–110,158–159",
+    "Textil/kiegészítő": "KI-083 kárpit; KI-153 védelem",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "02",
+    "name": "Konyha",
+    "Bútor/tárolás": "KI-006, KI-007, KI-008, KI-009, KI-010, KI-011, KI-012, KI-013, KI-014, KI-015",
+    "Gép/szaniter/víz": "KI-016, KI-017, KI-018, KI-019, KI-020, KI-021, KI-022, KI-023, KI-024, KI-025, KI-026, KI-027",
+    "Felület/művészet": "KI-011–014 pult/hátfal",
+    "Világítás/villamos": "KI-104–108,111–112",
+    "Textil/kiegészítő": "KI-157 konyhai használati csomag",
+    "Logisztika/átadás": "KI-023,027,151–156"
+  },
+  {
+    "room": "03",
+    "name": "Étkező",
+    "Bútor/tárolás": "KI-028–029",
+    "Gép/szaniter/víz": "Nem érintett: nincs új víz/gép",
+    "Felület/művészet": "W02/W03: KI-123–133 közös nappali",
+    "Világítás/villamos": "KI-109 + ML04",
+    "Textil/kiegészítő": "KI-135,157",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "04",
+    "name": "Nappali",
+    "Bútor/tárolás": "KI-030–039",
+    "Gép/szaniter/víz": "KI-033–035,158–159",
+    "Felület/művészet": "KI-123–129,131–133",
+    "Világítás/villamos": "KI-104–108,113–115",
+    "Textil/kiegészítő": "KI-040–042,134–135",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "05.1",
+    "name": "Master",
+    "Bútor/tárolás": "KI-043–053",
+    "Gép/szaniter/víz": "Nem érintett: nincs új víz/gép",
+    "Felület/művészet": "KI-051,130",
+    "Világítás/villamos": "KI-116–119",
+    "Textil/kiegészítő": "KI-054–057",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "05.2",
+    "name": "Háló 05.2",
+    "Bútor/tárolás": "KI-058–064",
+    "Gép/szaniter/víz": "Nem érintett: nincs új víz/gép",
+    "Felület/művészet": "KI-068",
+    "Világítás/villamos": "KI-069 + közös104–108",
+    "Textil/kiegészítő": "KI-065–067",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "05.3",
+    "name": "Háló 05.3",
+    "Bútor/tárolás": "KI-070–076",
+    "Gép/szaniter/víz": "Nem érintett: nincs új víz/gép",
+    "Felület/művészet": "KI-080",
+    "Világítás/villamos": "KI-081 + közös104–108",
+    "Textil/kiegészítő": "KI-077–079",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "06.1",
+    "name": "Fürdő 06.1",
+    "Bútor/tárolás": "KI-098–100",
+    "Gép/szaniter/víz": "KI-087–090,103",
+    "Felület/művészet": "Meglévő burkolat; KI-155 helyreállítás",
+    "Világítás/villamos": "KI-120,122 + közös104–108",
+    "Textil/kiegészítő": "KI-100",
+    "Logisztika/átadás": "KI-090,151–156"
+  },
+  {
+    "room": "06.2",
+    "name": "Fürdő 06.2",
+    "Bútor/tárolás": "KI-092–094",
+    "Gép/szaniter/víz": "KI-091,095–096,103",
+    "Felület/művészet": "Meglévő hatszögrelief; KI-155",
+    "Világítás/villamos": "KI-120–122 + közös104–108",
+    "Textil/kiegészítő": "KI-097",
+    "Logisztika/átadás": "KI-091–092,151–156"
+  },
+  {
+    "room": "07",
+    "name": "Közlekedő",
+    "Bútor/tárolás": "KI-086",
+    "Gép/szaniter/víz": "Meglévő; gépészeti akna szabad",
+    "Felület/művészet": "KI-124–129",
+    "Világítás/villamos": "KI-110; K25–27,D46 szabad",
+    "Textil/kiegészítő": "KI-086 lerakó",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "08",
+    "name": "WC",
+    "Bútor/tárolás": "KI-101",
+    "Gép/szaniter/víz": "KI-103 meglévő szaniterellenőrzés",
+    "Felület/művészet": "Meglévő burkolat; KI-155",
+    "Világítás/villamos": "KI-110; meglévő szellőző",
+    "Textil/kiegészítő": "KI-102",
+    "Logisztika/átadás": "KI-151–156"
+  },
+  {
+    "room": "09",
+    "name": "Nyugati terasz",
+    "Bútor/tárolás": "KI-138–143,147,150",
+    "Gép/szaniter/víz": "KI-136–137 jakuzzi csak09; másutt meglévő vízelvezetés KI-149",
+    "Felület/művészet": "KI-144 növény; meglévő WPC/korlát KI-149",
+    "Világítás/villamos": "KI-145; új szintbeépítés nincs engedélyezve",
+    "Textil/kiegészítő": "KI-146–148,150",
+    "Logisztika/átadás": "KI-004,137,149,151–156"
+  },
+  {
+    "room": "10",
+    "name": "Keleti terasz",
+    "Bútor/tárolás": "KI-138–143,147,150",
+    "Gép/szaniter/víz": "KI-136–137 jakuzzi csak09; másutt meglévő vízelvezetés KI-149",
+    "Felület/művészet": "KI-144 növény; meglévő WPC/korlát KI-149",
+    "Világítás/villamos": "KI-145; új szintbeépítés nincs engedélyezve",
+    "Textil/kiegészítő": "KI-146–148,150",
+    "Logisztika/átadás": "KI-004,137,149,151–156"
+  },
+  {
+    "room": "11",
+    "name": "WPC zónák",
+    "Bútor/tárolás": "KI-138–143,147,150",
+    "Gép/szaniter/víz": "KI-136–137 jakuzzi csak09; másutt meglévő vízelvezetés KI-149",
+    "Felület/művészet": "KI-144 növény; meglévő WPC/korlát KI-149",
+    "Világítás/villamos": "KI-145; új szintbeépítés nincs engedélyezve",
+    "Textil/kiegészítő": "KI-146–148,150",
+    "Logisztika/átadás": "KI-004,137,149,151–156"
+  },
+  {
+    "room": "12",
+    "name": "Zöldtető",
+    "Bútor/tárolás": "Nem bútorozható: zöldtető",
+    "Gép/szaniter/víz": "KI-136–137 jakuzzi csak09; másutt meglévő vízelvezetés KI-149",
+    "Felület/művészet": "KI-144 növény; meglévő WPC/korlát KI-149",
+    "Világítás/villamos": "KI-145; új szintbeépítés nincs engedélyezve",
+    "Textil/kiegészítő": "KI-146–148,150",
+    "Logisztika/átadás": "KI-004,137,149,151–156"
+  },
+  {
+    "room": "13",
+    "name": "Erkélyek",
+    "Bútor/tárolás": "KI-138–143,147,150",
+    "Gép/szaniter/víz": "KI-136–137 jakuzzi csak09; másutt meglévő vízelvezetés KI-149",
+    "Felület/művészet": "KI-144 növény; meglévő WPC/korlát KI-149",
+    "Világítás/villamos": "KI-145; új szintbeépítés nincs engedélyezve",
+    "Textil/kiegészítő": "KI-146–148,150",
+    "Logisztika/átadás": "KI-004,137,149,151–156"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "revision": "KI-V33-R02-ALT052",
+  "approval": "OWNER_DECISION_REQUIRED; not adopted",
+  "objects": [
+    {
+      "id": "A52-WARDROBE",
+      "bounds": [
+        0.02,
+        2.72,
+        0,
+        1.4,
+        3.32,
+        2.84
+      ],
+      "description": "1380mm fullheight storage instead of2380; two690mm bays"
+    },
+    {
+      "id": "A52-DESK",
+      "bounds": [
+        1.4,
+        2.72,
+        0,
+        2.4,
+        3.32,
+        0.75
+      ],
+      "description": "1000×600 integrated desk in former wardrobe bay"
+    },
+    {
+      "id": "A52-UPPER",
+      "bounds": [
+        1.4,
+        2.72,
+        1.84,
+        2.4,
+        3.32,
+        2.84
+      ],
+      "description": "1000×600×1000 upper storage,1100mm clear above desktop"
+    },
+    {
+      "id": "A52-CHAIR",
+      "bounds": [
+        1.55,
+        1.98,
+        0,
+        2.26,
+        2.69,
+        1.14
+      ],
+      "description": "FLINTAN71cm envelope; working position"
+    }
+  ],
+  "method": "Blender-run AABB and5degree door sample; same room furniture retained",
+  "collisions": [],
+  "status": "NO_FLAGS_IN_LIMITED_SCREEN",
+  "tradeoff": "1000mm fullheight wardrobe bay replaced by desk+upper storage; fullheight wardrobe width2380→1380mm",
+  "cost": "Main KI-062/DS52 costs unchanged; additional fitting/upper support allowance +80000Ft ±40000, not included until choice and quote",
+  "open": [
+    "Exact wardrobe fittings and work surface support",
+    "Wardrobe door sweep vs desk service",
+    "Owner acceptance of reduced hanging capacity",
+    "Window glare and desk light point"
+  ]
+}

@@ -1,0 +1,38 @@
+A902 KYOTO INK S01 — V13 / KI_R07
+Create only a CONDITIONAL DESIGN STUDY after the operator has resolved this view's listed gates. This is not a construction-approved final image. The current dimensional study is NOT a product-identity reference.
+
+SCENE AND CAMERA
+Project/Blender revision: KI-V33-R02. Blender file: blender/A902_Kyoto_Ink_R02.blend. Camera object: KI_R07. Position meters: [1.2000000476837158, 5.199999809265137, 1.5]; Euler rotation radians: [1.537475347518921, -1.509120153286858e-07, -3.141592502593994]; lens: 20.0mm; vertical shift: 0.0. Use the actual object transform from the saved Blender file. Do not replace this perspective or label another perspective with this ID. New KI_R cameras are new proposals, not photograph-matched cameras.
+Primary camera control: blender/QA_KI_R07.png. Render native Blender first with identical object transforms. Keep all wall, floor, opening and level geometry. Never infer dimensions from the aesthetic target. Do not change camera focal length, widen rooms, move doors, remove the real threshold or alter the real panorama to make the design fit.
+
+ROOM-SPECIFIC CONTENT
+White NORDLI180 bed, taupe/graphite HB-01 upholstery, graphite bespoke NT-L/NT-R, two white opal FADO250mm globes. WN-01 north2920mm and WS-01 south2380mm storage; the south450/480mm shallow hanging solution is front-pull hardware. Door graphics continue across real3mm joints. Preserve the original selected master aesthetic; the newly attached V3.3 Cam04 was not approved to replace it.
+
+CUSTOM STRUCTURES AND DIMENSIONS
+WN-01: 2920W × 600D × 2840H mm; element IDs KI-048,KI-050,KI-051,KI-052; drawing drawings/WN-01.pdf. Internal layout comes from I-sheet where provided.
+WS-01: 2380W × 480D × 2840H mm; element IDs KI-049,KI-050,KI-051,KI-052; drawing drawings/WS-01.pdf. Internal layout comes from I-sheet where provided.
+HB-01: 2700W × 60D × 1500H mm; element IDs KI-046,KI-047,KI-118; drawing drawings/HB-01.pdf. Internal layout comes from I-sheet where provided.
+NT-L: 300W × 420D × 450H mm; element IDs KI-053; drawing drawings/NT-L.pdf. Internal layout comes from I-sheet where provided.
+NT-R: 300W × 420D × 450H mm; element IDs KI-053; drawing drawings/NT-R.pdf. Internal layout comes from I-sheet where provided.
+
+SELECTED PRODUCT RECORDS
+KI-043: product / planning envelope; SKU 203.498.53; 2020×1800×300mm; geometric orientation 0deg. Current mesh status: dimensional study; exact manufacturer identity and installation remain subject to the linked verification gates.
+
+MATERIALS AND LIGHT
+Use the matte graphite, warm chalk, taupe, light oak and concrete-look materials specified above. A digital colour is not an approved physical sample. Artwork masters are proposed planar/textile graphics, not sculptural relief. Do not add relief without its own approved model and cost. Preserve front divisions, joints and accessible service panels. Adopt the named scene: daylight / task lighting as R02 scene schedule. Every luminous strip must map to a physical profile and the R02 circuit register. No painted glow, new cove or extra hidden lights. Missing luminaire SKU/geometry is a stop gate, not permission to invent a beautiful fixture.
+
+ATTACHMENT ORDER AND PURPOSE
+1. blender/QA_KI_R07.png — Primary exact-camera Blender dimensional control; not product-identical final control
+2. targets/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png — Aesthetic target only; never geometric evidence
+3. drawings/P-01_alaprajz.pdf — R02 placement and object IDs
+4. drawings/WN-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+5. drawings/WS-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+6. drawings/HB-01.pdf — Custom construction dimensions; proposal, not fabrication approval
+7. drawings/NT-L.pdf — Custom construction dimensions; proposal, not fabrication approval
+8. drawings/NT-R.pdf — Custom construction dimensions; proposal, not fabrication approval
+Then attach exact-variant manufacturer product photos and model references, each named by element ID and SKU, from the products array in manifest_R02.json. They are currently not packaged: acquire, inspect, hash and register them before final product-identity rendering. Never substitute a generic library chair or sofa for the purchased item.
+
+VERIFICATION AND OUTPUT
+Check native Blender control against placements, all visible products, front counts, material assignments, threshold and lighting fixture IDs. Current geometry result: R02 checks were executed, but open gates remain. A sampled clear result is not structural, electrical or fabrication approval. If any product, geometry or source asset is unresolved, stop final rendering and report the exact ID. A conditional diagnostic may show the problem, with an explicit CONDITIONAL label. Never conceal a failure using cropping or image editing.
+Generative processing may only enhance an already identity-verified native Blender image without moving, reshaping or replacing any object. Compare before/after silhouettes and edge overlays; reject mismatches. Save one image, its exact prompt, ordered attachment list, camera transforms, source hashes and validation result. Do not proceed automatically to the next image after a failure.
+Output: A902_KyotoInk_KI_R07_R02_CONDITIONAL_v1.png. First technical trial at1024px long edge; full resolution only after this view's gates and identity checks pass. No unsubstantiated percentage-match or delivery guarantee.
