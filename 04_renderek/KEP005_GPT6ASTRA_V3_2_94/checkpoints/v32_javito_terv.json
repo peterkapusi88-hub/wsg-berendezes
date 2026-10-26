@@ -124,5 +124,265 @@
   "alap_seq": 18,
   "verzio": "v2",
   "fix": "In v1 the camera was turned to the right so the glass wall appeared oblique in the left half and a bare white side wall filled the right half. WRONG. This is the FRONTAL Cam_11: the camera looks straight (due west) at the glass wall, which is seen face-on and centred, spanning about 21–79 % of the width exactly like image 1, with its head line horizontal; the south wardrobe enters at the left edge and the north wardrobe front at the right edge, symmetric as in image 1. Do not rotate, do not show a long side wall."
+ },
+ {
+  "seq": 1004,
+  "fazis": "alap",
+  "nr": "13",
+  "valtozat": "A",
+  "kep_id": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A",
+  "stilus": "S13",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "13_A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_A_v2.txt",
+  "kep_fajl": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_A_v2.png",
+  "dir": "upload/v32/13_A_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 16499,
+  "uzenet_sha256": "26c96a31f72ec6e2e42ddef6b85b49eea8c099d805beee58f42accc55fc72ad0",
+  "prompt_sha256": "421816b2583c5bf0f8a7f665a4ff28b841a54941536949396c64eca2e4d98915",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_semleges_blender.png",
+    "sha256": "75ec3c85cacbe65308ca88757c18696bc7d7c7f9b59c6b2572153e4de70fd9bd"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_KZS_3896_WSG_lobby.jpg",
+    "sha256": "1be8a38825c4ba9bf27e8cfa75bc6c8421d64a033ea29772054ad08a6638d9f3"
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_image6_KZS_3914_WSG_lobby_kor.jpg",
+    "sha256": "ac18bd0a86cb51b2d9f3269fab0b06cd0e46dc7532fa1130135a37571b2e4634"
+   }
+  ],
+  "alap_seq": 31,
+  "verzio": "v2",
+  "fix": "In v1 the camera turned left and showed the TV wall W01 almost frontally. WRONG: W01 must stay strongly OBLIQUE exactly as in image 1 – its floor line rises steeply from about 82 % image height at the left edge to about 65 % at the room corner (47 % across), its ceiling line falls from the top-left corner to about 21 % at the corner; the TV wall recedes away from the camera. The terrace glazing fills 52–100 %. Do not rotate towards the TV wall."
+ },
+ {
+  "seq": 1005,
+  "fazis": "alap",
+  "nr": "13",
+  "valtozat": "B",
+  "kep_id": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A",
+  "stilus": "S13",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "13_A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v2.txt",
+  "kep_fajl": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "dir": "upload/v32/13_B_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 17984,
+  "uzenet_sha256": "770813aa52b172416ecaa4d35f161eb31a0c851129092515d80ec7ae6df3e6b6",
+  "prompt_sha256": "421816b2583c5bf0f8a7f665a4ff28b841a54941536949396c64eca2e4d98915",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png",
+    "sha256": "2cff648e0a13483cb386ab1823c1c8e73c4e67858b6b8cca38b33fc033692128"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_KZS_3896_WSG_lobby.jpg",
+    "sha256": "1be8a38825c4ba9bf27e8cfa75bc6c8421d64a033ea29772054ad08a6638d9f3"
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_image6_KZS_3914_WSG_lobby_kor.jpg",
+    "sha256": "ac18bd0a86cb51b2d9f3269fab0b06cd0e46dc7532fa1130135a37571b2e4634"
+   }
+  ],
+  "alap_seq": 32,
+  "verzio": "v2",
+  "fix": "In v1 the camera turned left and showed the TV wall W01 almost frontally. WRONG: W01 must stay strongly OBLIQUE exactly as in image 1 – its floor line rises steeply from about 82 % image height at the left edge to about 65 % at the room corner (47 % across), its ceiling line falls from the top-left corner to about 21 % at the corner; the TV wall recedes away from the camera. The terrace glazing fills 52–100 %. Do not rotate towards the TV wall."
+ },
+ {
+  "seq": 1006,
+  "fazis": "alap",
+  "nr": "13",
+  "valtozat": "B",
+  "kep_id": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A",
+  "stilus": "S13",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "13_A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v3.txt",
+  "kep_fajl": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v3.png",
+  "dir": "upload/v32/13_B_v3",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 18149,
+  "uzenet_sha256": "d7553c7b6200ae9c96065da1572f9128c240136af3997b4ca0472f8e04629716",
+  "prompt_sha256": "421816b2583c5bf0f8a7f665a4ff28b841a54941536949396c64eca2e4d98915",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png",
+    "sha256": "2cff648e0a13483cb386ab1823c1c8e73c4e67858b6b8cca38b33fc033692128"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_KZS_3896_WSG_lobby.jpg",
+    "sha256": "1be8a38825c4ba9bf27e8cfa75bc6c8421d64a033ea29772054ad08a6638d9f3"
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_image6_KZS_3914_WSG_lobby_kor.jpg",
+    "sha256": "ac18bd0a86cb51b2d9f3269fab0b06cd0e46dc7532fa1130135a37571b2e4634"
+   }
+  ],
+  "alap_seq": 32,
+  "verzio": "v3",
+  "fix": "v1 and v2 both turned the camera towards the TV wall. Copy the PERSPECTIVE of image 1 literally: the TV wall W01 is seen at a steep angle, so the TV screen and its frame appear as a clearly TRAPEZOIDAL shape whose left edge is much taller than its right edge, and the cabinet below it narrows visibly towards the room corner at 47 % across. The floor/wall line of W01 runs as a steep diagonal from about 82 % (left edge) up to about 65 % (corner). The camera stands in the north-east corner looking north-west, i.e. more towards the glazing than towards the TV. The sofa back faces the camera in the middle third."
+ },
+ {
+  "seq": 1007,
+  "fazis": "alap",
+  "nr": "13",
+  "valtozat": "B",
+  "kep_id": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A",
+  "stilus": "S13",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "13_A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v4.txt",
+  "kep_fajl": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v4.png",
+  "dir": "upload/v32/13_B_v4",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 18215,
+  "uzenet_sha256": "7aa953a40d4917f20a4e2425ec37496bfb93cea1cca45f4ffc2791224ea43284",
+  "prompt_sha256": "421816b2583c5bf0f8a7f665a4ff28b841a54941536949396c64eca2e4d98915",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png",
+    "sha256": "2cff648e0a13483cb386ab1823c1c8e73c4e67858b6b8cca38b33fc033692128"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_KZS_3896_WSG_lobby.jpg",
+    "sha256": "1be8a38825c4ba9bf27e8cfa75bc6c8421d64a033ea29772054ad08a6638d9f3"
+   },
+   {
+    "sorrend": 6,
+    "fajl": "06_image6_KZS_3914_WSG_lobby_kor.jpg",
+    "sha256": "ac18bd0a86cb51b2d9f3269fab0b06cd0e46dc7532fa1130135a37571b2e4634"
+   },
+   {
+    "sorrend": 7,
+    "fajl": "07_image7_PERSPEKTIVA_minta_S12_Cam02.png",
+    "sha256": "2f97633cfc2fc5a85650f3d502bc929ab18de6dcccffb50da0e62c56076e4e87"
+   }
+  ],
+  "alap_seq": 32,
+  "verzio": "v4",
+  "fix": "v1–v3 turned the camera towards the TV wall. The last image shows the correct perspective of this camera (in another style): match its framing and the steep angle of W01 exactly, but keep the Westside Grand Continuum design of the brief."
+ },
+ {
+  "seq": 1008,
+  "fazis": "alap",
+  "nr": "17",
+  "valtozat": "A",
+  "kep_id": "A902_S13_WestsideGrandContinuum_3_master_Cam_11_A",
+  "stilus": "S13",
+  "kamera": "Cam_11",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "17_A902_S13_WestsideGrandContinuum_3_master_Cam_11_A__V32_A_v2.txt",
+  "kep_fajl": "A902_S13_WestsideGrandContinuum_3_master_Cam_11_A__V32_A_v2.png",
+  "dir": "upload/v32/17_A_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S13_WestsideGrandContinuum_3_master_Cam_11_A.prompt.md",
+  "uzenet_chars": 11805,
+  "uzenet_sha256": "fe0c76974b462fed7817fa7a79a87851a32bad9447b3c688859f116ec83286ab",
+  "prompt_sha256": "37b3ec31dd13b64e5ee9f5a497405628ef123de697e6a00452ab2b8b6a651cb7",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam11_master_panorama_semleges_blender.png",
+    "sha256": "66fa4efbcc0d71aa7c45d4a883da702231273f680cb3ebd16c20a505e621c01f"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-077_master_uvegfal_kilatas.jpg",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_KZS_3896_WSG_lobby.jpg",
+    "sha256": "1be8a38825c4ba9bf27e8cfa75bc6c8421d64a033ea29772054ad08a6638d9f3"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_KZS_3914_WSG_lobby_kor.jpg",
+    "sha256": "ac18bd0a86cb51b2d9f3269fab0b06cd0e46dc7532fa1130135a37571b2e4634"
+   }
+  ],
+  "alap_seq": 37,
+  "verzio": "v2",
+  "fix": "In v1 the right-hand fixed glass field was drawn too narrow (the three fields looked equal) and the brick return moved inwards. Keep the real glass wall: opening sash 21–35 %, narrow middle field 35–50 %, and the WIDE fixed field 50–79 % – clearly the widest, about twice the middle field; the brick facade return only beyond 79 %. Curtains stay stacked outside the glazing edges and never cover the fields."
  }
 ]

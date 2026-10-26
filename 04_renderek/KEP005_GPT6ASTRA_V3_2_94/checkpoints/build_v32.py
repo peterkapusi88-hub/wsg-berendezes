@@ -52,6 +52,7 @@ def hdr(c):
     return "\n".join(L)
 
 CAM={c['cam']:c for c in B.CAMS}
+nr_glob=['']
 def base(cam,s):
     """V3.1 kamera-lock, V3.2 stílusra általánosítva (run54 gen logika, de Cam_11 = eredeti)."""
     c=copy.deepcopy(CAM[cam]); pend=PEND[s]
@@ -59,6 +60,8 @@ def base(cam,s):
     if cam in ('Cam_12','Cam_03') and s in PPHOTO:
         p,n,r=PPHOTO[s]; c['att'].append((p,f'0{len(c["att"])+1}_image{len(c["att"])+1}_{n}',r))
     L=c['lock']; N=c['notes']
+    if cam=='Cam_02' and nr_glob[0] not in ('01','07','13'):
+        L.insert(2,"   NOTE: W01 must stay strongly OBLIQUE as in image 1 (floor line rising from about 82 % at the left edge to about 65 % at the corner); never turn the camera towards a frontal view of the TV wall, however dominant the TV-wall design is.")
     if cam=='Cam_02':
         L[:]=[x.replace('(the Somar pendant hangs outside the upper-right edge – do not draw it)','(the dining pendant hangs outside the upper-right edge – do not draw it)') for x in L]
         N[:]=[x.replace('The dining pendant ML04 (Somar)',f'The dining pendant ML04 ({pend})') for x in N]
@@ -220,6 +223,7 @@ seq=0
 os.makedirs(OUT+'/prompts_sent',exist_ok=True)
 for faz,nr,kid,s,cam,extra in jobs:
     for var in ('A','B'):
+        nr_glob[0]=nr
         if not extra: c=base(cam,s); c=to_b(c,cam) if var=='B' else c
         elif cam.startswith('Cam_F_'): c=photo_cam(cam,s,var,s)
         elif cam=='Cam_X_06_2_Vanity': c=vanity(s,var)

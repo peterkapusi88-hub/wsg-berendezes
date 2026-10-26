@@ -15,6 +15,7 @@ ATTACHED IMAGES AND THEIR ROLES (in this order: image 1, image 2, image 3, image
 GEOMETRY LOCK (mandatory)
 1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – level camera standing near the north-east corner of the living room at 1.55 m eye height, 20 mm lens, looking north-west. Verticals stay vertical. Same landscape 16:10 framing as image 1. No rotation towards the TV wall, no frontal view of the TV wall, no zoom, no crop, no wider view.
 2. Fixed elements of image 1, from LEFT to RIGHT (horizontal position in the frame, measured from the Blender projection of this camera):
+   NOTE: W01 must stay strongly OBLIQUE as in image 1 (floor line rising from about 82 % at the left edge to about 65 % at the corner); never turn the camera towards a frontal view of the TV wall, however dominant the TV-wall design is.
    a) 0–47 %: the long TV wall W01, seen OBLIQUELY and receding from the left edge to the room corner. Its floor line rises from about 82 % image height at the left edge to about 65 % at the corner; its ceiling line falls from the top-left corner to about 21 % at the corner. The south end of W01 lies just beyond the left edge.
    b) the centre of the TV screen bay on W01 sits at about 31 % across and 48 % down (1.20 m above the floor).
    c) about 47–48 %: the vertical inner corner between W01 and the north wall.

@@ -215,5 +215,124 @@
   "chat": "6adf1ee1-b48c-83ed-a974-7956b0371341",
   "qa": "ELŐSZŰRT: frontális Cam_11, 3 mező a lockon, valós panoráma, szürke padló; A-val szinte azonos (várt).",
   "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "12_A": {
+  "seq": "29",
+  "kep": "A902_S12_ModernOrganic_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
+  "chat": "6adf1f28-b07c-83ed-8e12-4a6c9d9d6282",
+  "qa": "ELŐSZŰRT: Cam_10 lock OK, aszimmetrikus lekerekített tükör hátsó fénnyel, ívelt végű mosdószekrény, faliszekrény; hatszög-relief látszik; csempe meleg bézs (A).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "12_B": {
+  "seq": "30",
+  "kep": "A902_S12_ModernOrganic_4_furdo-06-2_Cam_10_A__V32_B_v1.png",
+  "chat": "6adf1f70-6078-83ed-a3e0-3e40bfbf20aa",
+  "qa": "ELŐSZŰRT: azonos dizájn, KZS_3598 alapján hatszög relief; csempe a meleg LED-ben még bézses (anyag szürke) – megjegyzés.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_A": {
+  "seq": "31",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_A_v1.png",
+  "chat": "6adf1fce-7638-83ed-b58a-90cb024d205e",
+  "qa": "FAIL (kamera): balra fordult, a TV-fal szinte frontális (lock: erősen ferde, padlóvonal 82→65%) → v2. Dizájn (tölgy lamellák, keretes TV-mező, gyűrűs függeszték) egyébként erős.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_B": {
+  "seq": "32",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v1.png",
+  "chat": "6adf2018-30b8-83ed-b01a-b5c92379cd39",
+  "qa": "FAIL (kamera): mint A-nál, a TV-fal közel frontális → v2. Fellépés, padló, terasz rendben.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "15_A": {
+  "seq": "33",
+  "kep": "A902_S13_WestsideGrandContinuum_2_etkezo-konyha_Cam_03_A__V32_A_v1.png",
+  "chat": "6adf2063-cf94-83ed-a628-70e614b2a4a0",
+  "qa": "ELŐSZŰRT: konyhatengely OK (inox hűtő W03-a-n, tölgy alsók, világos felsők, déli magas sor, parapet-sor főzőlappal), Novae jobb felső, W02 kör-motívumos textilmű jobb szélen.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_A_v2": {
+  "seq": "1004",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_A_v2.png",
+  "chat": "6adf20cc-26f8-83eb-8aff-65fd881921da",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): TV-fal ferdébb, sarok 45%, üveg 54%, ML05 mennyezeti lámpa; maradék eltérés: a TV-fal padlóvonala ~73→68% (lock 82→65%), kissé laposabb szög.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_B_v2": {
+  "seq": "1005",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "chat": "6adf2107-4b04-83eb-aaff-1df32ab6af53",
+  "qa": "FAIL (kamera): még mindig közel frontális TV-fal → v3 (erősebb perspektíva-leírás).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "15_B": {
+  "seq": "34",
+  "kep": "A902_S13_WestsideGrandContinuum_2_etkezo-konyha_Cam_03_A__V32_B_v1.png",
+  "chat": "6adf2153-e3d4-83ed-8481-2c1559e0252f",
+  "qa": "ELŐSZŰRT: konyhatengely OK, tölgy+sötét front család, parapet-sor, W02 kör-motívum jobb szélen, Novae; padló szürke.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "16_A": {
+  "seq": "35",
+  "kep": "A902_S13_WestsideGrandContinuum_3_master_Cam_04_A__V32_A_v1.png",
+  "chat": "6adf21a0-fa14-83ed-9b7d-b4d2b662e9fd",
+  "qa": "ELŐSZŰRT: fülke-gardrób tölgy frontokkal 0–37%, textil fejtámla-mezők rejtett fénnyel, kör-motívumos kép, NORDLI fehér tárolós ágy; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "16_B": {
+  "seq": "36",
+  "kep": "A902_S13_WestsideGrandContinuum_3_master_Cam_04_A__V32_B_v1.png",
+  "chat": "6adf2238-8b2c-83ed-ba97-6b0f28d32194",
+  "qa": "ELŐSZŰRT: azonos dizájn (tölgy fülke-gardrób, textil fejtámla, kör-kép), padló szürke; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_B_v3": {
+  "seq": "1006",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v3.png",
+  "chat": "6adf21ee-22a4-83ed-8c19-3175179c41b2",
+  "qa": "FAIL (kamera): továbbra is frontális TV-fal → v4 perspektíva-mintaképpel.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "17_A": {
+  "seq": "37",
+  "kep": "A902_S13_WestsideGrandContinuum_3_master_Cam_11_A__V32_A_v1.png",
+  "chat": "6adf2303-18e8-83ed-b3c2-88bae5e093a0",
+  "qa": "FAIL (nyílás): a széles fix mező túl keskeny, a három mező közel egyforma, téglasarok beljebb → v2. Frontális kamera, panoráma OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "13_B_v4": {
+  "seq": "1007",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-terasz_Cam_02_A__V32_B_v4.png",
+  "chat": "6adf2394-afb8-83ed-aabd-b02b1a6e7825",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (ajánlott B): perspektíva-mintaképpel a TV-fal végre ferde, sarok/üveg a lockon, fellépés látszik; mellékhatás: ML05-ön Somar-szerű függeszték és világosabb TV-fal középmező a mintakép felől (kisebb stílus-szivárgás).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "17_B": {
+  "seq": "38",
+  "kep": "A902_S13_WestsideGrandContinuum_3_master_Cam_11_A__V32_B_v1.png",
+  "chat": "6adf23f3-45ac-83ed-a63d-0a876bd39144",
+  "qa": "ELŐSZŰRT: frontális Cam_11, 3 mező helyes arányban (széles fix mező), panoráma OK; kisebb eltérés: dézsás növények/ülőke az erkélyen.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "17_A_v2": {
+  "seq": "1008",
+  "kep": "A902_S13_WestsideGrandContinuum_3_master_Cam_11_A__V32_A_v2.png",
+  "chat": "6adf2437-133c-83ed-b522-69584145114c",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): 3 mező helyes arányban, széles fix mező, téglasarok a helyén, frontális kamera.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "18_A": {
+  "seq": "39",
+  "kep": "A902_S13_WestsideGrandContinuum_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
+  "chat": "6adf2471-4d1c-83eb-8311-ccd93a091220",
+  "qa": "ELŐSZŰRT: Cam_10 lock OK, tölgy mosdószekrény+faliszekrény (lobby-fa), keretes világító tükör, hatszög relief; csempe meleg bézs (A).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "18_B": {
+  "seq": "40",
+  "kep": "A902_S13_WestsideGrandContinuum_4_furdo-06-2_Cam_10_A__V32_B_v1.png",
+  "chat": "6adf24bc-8294-83eb-83fe-6dd0c87983b0",
+  "qa": "ELŐSZŰRT: azonos dizájn, a zuhanyfalon hatszöges (inkább mozaik, mint 3D relief) burkolat, csempe szürkés-bézs; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
  }
 }
