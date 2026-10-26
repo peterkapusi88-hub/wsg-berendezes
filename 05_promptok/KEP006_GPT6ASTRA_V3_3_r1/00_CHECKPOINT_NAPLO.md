@@ -14,3 +14,5 @@ V3.3 CP3 S01: complete C prompts with CP2.5 design and lighting priorities | 287
 V3.3 CP3 S02: complete C prompts with CP2.5 design and lighting priorities | 931c0cb26ca5ab19dd141ffdd310b8ed57a1cb0d | 2026-10-26T14:58:18.705967+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 V3.3 CP3 S03: teljes C promptok, kreatív és fényprioritások | 4cd677584fab16014145522e254229e3e7363f99 | 2026-10-26T14:59:42.983478+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+V3.3 CP3 S04: teljes C promptok, kreatív és fényprioritások | 6fad337c4eb0684ee93c8d0b87a198412df889ca | 2026-10-26T15:00:11.510867+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
