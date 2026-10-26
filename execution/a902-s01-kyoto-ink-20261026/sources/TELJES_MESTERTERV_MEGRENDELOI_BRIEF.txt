@@ -1,0 +1,758 @@
+# WSG A-902 · KYOTO INK S01
+# TELJES MEGVALÓSÍTÁSI MESTERTERV
+# DESIGN-TO-BUDGET · BESZERZÉS · GYÁRTÁS · VILLAMOSSÁG · KIVITELEZÉS
+
+## 0. FELADAT ÉS FORRÁSOK
+
+Ez egy ÚJ, önálló Astra Work-projekt, Medium efforttal.
+
+Te készítetted a sikeres Astra V3.1 Kyoto Ink S01 kreatív koncepciót. Most ezt szeretném a lehető legpontosabban, teljes egészében megvalósítani.
+
+**Cél: 3–4 hónap alatt a jóváhagyott renderképekhez a lehető legjobban hasonlító, teljesen berendezett, világítással, gépekkel, művészettel és minden szükséges részlettel felszerelt, használatra kész A-902 lakás.**
+
+Nem új stílust kérek. Az eredeti Kyoto Ink kreatív identitása, WOW-hatása, anyagvilága és fénystratégiája maradjon meg.
+
+Az építészeti valóság elsődleges forrása a hiteles alaprajz, amelyet a Blender-geometria, a megvalósulási dokumentumok és a profi helyszíni fotók pontosítanak.
+
+**GitHub:**
+`peterkapusi88-hub/wsg-berendezes`
+
+**Astra V3.1 eredeti ág:**
+`competition/gpt6astra-v3-1-20261025`
+
+**Eredeti commit:**
+`2bef09ae6081b5bafb86bc876ef8410be44bb567`
+
+**Kreatív forráscsomag:**
+`05_promptok/KEP004_GPT6ASTRA_V3_1_r1/`
+
+Olvasd el:
+- Az eredeti S01 Kyoto Ink stílusspecifikációt.
+- A hat teljes angol renderpromptot.
+- A teljes S01 elemlistát.
+- Az 50_KOLTSEG_ES_KOCKAZAT.md dokumentumot.
+- Az eredeti tulajdonosi módosításokat.
+- A geometriai, elektromos és világítási dokumentációt.
+- A profi fotók nyilvántartását.
+- A ténylegesen kiválasztott hat Kyoto Ink renderképet és azok QA-adatait.
+
+A kiválasztott renderképek különösen fontosak: a tényleges végeredményt akarom reprodukálni, nem csak az eredeti promptszöveget.
+
+Ha a renderképek nem érhetők el, keresd meg őket a korábbi eredménymappában vagy a rendelkezésre álló fájlok között. Ne helyettesítsd észrevétlenül más változatokkal.
+
+Az eredeti fájlokat és képeket ne írd felül.
+
+## 1. AZ ABSZOLÚT CÉL
+
+**Ne maradjon ki SEMMI a teljes lakás megvalósításából.**
+
+Nemcsak a látványos elemek érdekelnek, hanem az összes bútor, gép, tapéta, világítás, elektromos kiegészítő, asztalosmunka, teraszberendezés, szerelvény, szállítás, munkadíj és apró részlet is.
+
+A projekt végén olyan dokumentációt szeretnék, amely alapján valós beszállítóktól és kivitelezőktől árajánlat kérhető, a berendezés megrendelhető, az egyedi elemek legyárthatók, és a munka ütemezhető.
+
+A végső eredménynek esztétikailag és funkcionálisan is működnie kell.
+
+**Egyetlen jelentős tétel sem maradhat árazatlanul vagy felelős nélkül.**
+
+Ha valami hiányzik a forrásokból, ne találj ki kész megoldást: jelöld hiányzónak, szerepeltesd a költségbecslésben, és írd le, hogyan kell tisztázni.
+
+## 2. KÖLTSÉGKERET ÉS FOLYAMATOS DESIGN-TO-BUDGET
+
+A teljes A-902 tervezhető kerete:
+
+**18 000 000 Ft bruttó.**
+
+Ezen felül:
+
+**2 000 000 Ft külön tartalék, amelyet alaphelyzetben nem használunk fel.**
+
+Az eredeti összehasonlító költségbontás:
+- 8 400 000 Ft közös fix rész.
+- 9 600 000 Ft stílusfüggő rész.
+
+Az eredeti S01 gazdaságos költségbecslés 17 611 000 Ft volt, de ez nem végleges ajánlati ár és nem bizonyított költségmegfelelés.
+
+A legfrissebb jóváhagyott költségbaseline-t ellenőrizd, és egyeztesd az eredeti tételekkel.
+
+**Minden termékválasztás és gyártási döntés közben folyamatosan frissítsd a teljes költségvetést.**
+
+Ne az egész lakás megtervezése után ellenőrizd, hogy belefértünk-e.
+
+Minden tételnél számold:
+- termék vagy alapanyag bruttó ára;
+- mennyiség;
+- szállítás;
+- szükséges vám/adó, ha releváns és igazolt;
+- szerelési anyagok;
+- munkadíj;
+- egyedi gyártás;
+- csatlakozó munkák;
+- felmérés és szakmai jóváhagyás;
+- indokolt selejt, szabási veszteség;
+- szállítási és gyártási bizonytalanság.
+
+A közös FIX költségek és a stílusfüggő költségek között ne legyen dupla elszámolás.
+
+**A teraszra különösen ügyelj**, mert a közös keret már tartalmazhat egyes kültéri elemeket.
+
+Minden fontos döntésnél mutasd az aktuális teljes projekt-előrejelzést:
+- eddig ellenőrzött költség;
+- még becsült tételek;
+- várható végösszeg;
+- 18 millió Ft-hoz képesti eltérés;
+- költségkockázat.
+
+Legyen három jól elkülönített árstátusz: ellenőrzött webshopár, beszállítói ajánlat, előzetes becslés.
+
+Ha a keret nem elegendő, keress kreatív, olcsóbb alternatívákat úgy, hogy a Kyoto Ink karaktere a lehető legkevésbé sérüljön.
+
+## 3. BESZERZÉSI ELVEK ÉS MÁRKÁK
+
+Elsősorban jó ár-érték arányú, valóban elérhető közép- és felső-középkategóriás lakberendezési termékeket keress.
+
+Kiemelt beszerzési források:
+
+**Kave Home, Westwing, IKEA, DELIFE (delife.hu)**, valamint hasonló minőségű és árszintű megbízható európai vagy magyar kereskedők.
+
+Ne korlátozd magad kizárólag ezekre.
+
+Ha más gyártónál sokkal jobb, a renderhez közelebb álló, árban versenyképes terméket találsz, választhatod azt is.
+
+A fő kritériumok:
+- vizuális hasonlóság;
+- megfelelő tényleges méret;
+- meggyőző minőség;
+- tartósság;
+- magyarországi beszerezhetőség;
+- ésszerű szállítási idő;
+- jó ár-érték arány.
+
+Az IKEA különösen hasznos lehet rejtett korpuszokhoz, gardróbbelsőkhöz, konyhavázakhoz és más olyan funkcionális alapokhoz, ahol a látható prémium front vagy egyedi burkolat teremti meg a dizájnt.
+
+Nem szeretnék indokolatlanul drága designerbútorokat csak a márkanév miatt.
+
+Ugyanakkor ne helyettesíts látványos, karakteres elemeket olcsó, de teljesen más bútorokkal.
+
+**Minden késztermékhez kérek:**
+- márka és típus;
+- konkrét cikkszám/SKU;
+- terméklink;
+- méret;
+- választható szín és kárpit;
+- anyagösszetétel;
+- bruttó ár HUF-ban;
+- elérhetőségi ellenőrzés dátuma;
+- magyarországi szállítás;
+- várható szállítási idő;
+- garancia;
+- alternatíva, ha az eredeti nem érhető el.
+
+Ne találj ki cikkszámot, árat, készletet vagy szállítási időt.
+
+## 4. HÁROM MEGVALÓSÍTÁSI KATEGÓRIA
+
+Minden renderen látható jelentős elemet osztályozz.
+
+**A – PONTOSAN BESZEREZHETŐ**
+Konkrét termék, ellenőrzött mérettel, variánssal és árral.
+
+**B – EGYEDI GYÁRTÁSSAL MEGVALÓSÍTHATÓ**
+Asztalos, kárpitos, üveges, nyomda vagy más gyártó által elkészíthető elem, részletes specifikációval és árajánlatkérési rajzjavaslattal.
+
+**C – HELYETTESÍTÉST IGÉNYEL**
+Az eredeti render pontos megoldása nem megfizethető, nem beszerezhető, nem fér el vagy műszakilag nem működik.
+
+C esetén keress legalább két alternatívát, és értékeld, mennyire változtatják meg az eredeti látványt.
+
+Ha az eltérés jelentős, a választott valós termékkel készíts új renderpromptot, majd tulajdonosi jóváhagyás után új látványtervet.
+
+**A végleg elfogadott képen már a valóban megrendelhető vagy gyártható elem jelenjen meg.**
+
+## 5. TELJES HELYISÉGLISTA
+
+A feladat nem korlátozódik a hat korábban renderelt kamerára.
+
+Az A-902 valamennyi helyiségét fel kell dolgozni:
+
+**01 – ELŐTÉR**
+- tároló;
+- frontok;
+- fogas és cipőtárolás;
+- világítás;
+- tükör;
+- szükséges ülő- vagy lerakófelület;
+- kapcsolók és egyéb szerelvények;
+- dekoráció.
+
+**02 – KONYHA**
+- valamennyi alsó, felső és magas szekrény;
+- korpuszok, frontok, fogantyúk;
+- vasalatok, fiókok, polcok, belső szerelvények;
+- lábazatok, takaró- és zárópanelek;
+- munkalap, élzárás és hátfal;
+- mosogató, csaptelep, szifon;
+- minden szükséges beépített és szabadon álló gép;
+- páraelszívás;
+- pultvilágítás;
+- víz- és villamos csatlakozások;
+- pontos beépítési és szervizméretek.
+
+**03 – ÉTKEZŐ**
+- asztal és hat szék;
+- függeszték;
+- esetleges szőnyeg;
+- kiegészítők;
+- székek tényleges kihúzási tere;
+- étkező és nappali közötti összhang.
+
+**04 – NAPPALI**
+- kanapé és minden modulja;
+- dohányzóasztalok, mellékasztalok;
+- TV és annak tényleges típusa/mérete;
+- TV-fal valamennyi panelje;
+- alsó és magas szekrények;
+- fali konzol és kábelvezetés;
+- szőnyeg;
+- függönyök, sínek, rögzítések;
+- fali műalkotások, W01/W02/W07 kezelések;
+- rejtett fények;
+- kiegészítők és elektronika.
+
+**05.1 – MASTER HÁLÓ**
+- ágy, matrac, ágyrács vagy ágyalap;
+- kárpitozott fejvég;
+- éjjeliszekrények;
+- mindkét gardrób;
+- gardróbbelsők;
+- világítás;
+- függönyök;
+- szőnyeg;
+- textíliák;
+- műalkotás.
+
+**05.2 ÉS 05.3 – TOVÁBBI HÁLÓK**
+Ezek sem maradhatnak egyszerűen fehér, üres helyiségek.
+
+A Kyoto Ink karakteréhez illő, teljesen használható berendezés szükséges:
+- ágy/matrac;
+- gardrób;
+- szükség szerint íróasztal és szék;
+- világítás;
+- függöny;
+- textil;
+- dekoráció;
+- tárolás;
+- egyedi kisebb vizuális gesztus.
+
+A korábban nem renderelt helyiségekhez is készíts részletes kreatív tervet és a szükséges új renderpromptokat, ugyanazzal a minőséggel.
+
+**06.1 ÉS 06.2 – FÜRDŐK, VALAMINT 08 – WC**
+- meglévő szaniterek és burkolatok leltára;
+- új vagy kiegészítő mosdóbútor;
+- megfelelő mélységű fiókok;
+- fali tárolás;
+- tükrök;
+- zuhanyüveg, ahol tervezett;
+- tömítések;
+- szerelvények;
+- világítás;
+- szellőzés;
+- törölközőtartók;
+- kiegészítők;
+- használati és tisztítási szempontok.
+
+A 06.2 fürdőben kövesd a korábbi tulajdonosi döntést: 100 cm-es fix zuhanyüveg, integrált mosdóbútor, használható tárolás és két réteg rejtett fény, helyszíni és szakági ellenőrzéssel.
+
+**07 – KÖZLEKEDŐ**
+- falkezelések;
+- W07 folytatása;
+- fények;
+- kapcsolók;
+- ajtók körüli részletek;
+- esetleges funkcionális tárolás;
+- dekoráció.
+
+**TELJES TETŐTERASZ**
+A külön kültéri fejezet valamennyi tételét is dolgozd fel, a közös fix költségek ellenőrzésével.
+
+Az egyes helyiségek teljes tartalmát az aktuális alaprajzzal és a helyiségjegyzékkel egyeztesd.
+
+## 6. TAPÉTA, FALBURKOLAT, MŰVÉSZET – SEMMI NE MARADJON KI
+
+A Kyoto Ink egyik legfontosabb értéke az egyedi grafikai kézjegy és a falak megkomponáltsága.
+
+**Minden kezelt falfelülethez külön tételes specifikáció szükséges.**
+
+Különösen:
+- W01 TV-fal;
+- W02 műalkotás és tapéta;
+- W07 közlekedői folytatás;
+- hálószobai fejvégfal;
+- gardróbfrontok;
+- további szobák művészeti elemei.
+
+Minden falnál add meg:
+- pontos hely és felületazonosító;
+- méretek;
+- nettó és rendelési m²;
+- nyomtatott vagy késztermék tapéta;
+- vlies/hordozó anyag;
+- strukturált vagy sima kivitel;
+- alapozó;
+- falelőkészítés és javítás;
+- ragasztó és szerelési segédanyagok;
+- szabási és illesztési veszteség;
+- felhelyezési munkadíj;
+- élek, sarkok, kapcsolók körbevágása;
+- szükséges próbanyomat vagy anyagminta.
+
+**Egyedi művészet esetén:**
+- végső méret;
+- eredeti grafikai fájl;
+- nyomdai felbontás;
+- színprofil;
+- hordozó;
+- keret;
+- kézi felületkezelés, ha szükséges;
+- szállítás;
+- rögzítés;
+- várható bekerülés.
+
+Ne állítsd, hogy egy 2D nyomat ugyanolyan plasztikus, mint a valódi relief. A kivitelezés és a render egyezzen.
+
+Ahol célszerű, a drága falpanel helyett vizsgálj gazdaságos, de ugyanolyan látványos tapétát, könnyű 3D panelt vagy műalkotást.
+
+Az eredeti, visszafogott Kyoto Ink kézjegy maradjon meg, ne váljon a lakás túldíszítetté.
+
+## 7. TELJES VILLAMOS ÉS HUE-TERV
+
+Ne csak a látható lámpatesteket árazzuk!
+
+A teljes lakáshoz készíts villamos és világítási tervjavaslatot a meglévő kiállások felhasználásával.
+
+Tételenként:
+- lámpatest;
+- izzó vagy integrált fényforrás;
+- Philips Hue-kompatibilitás;
+- Hue Bridge és szükséges kiegészítők;
+- LED-szalag;
+- LED-profil;
+- opál diffúzor;
+- tápegység;
+- vezérlő;
+- kapcsolómodul;
+- kábel és csatlakozók;
+- szerelvénydoboz;
+- kábelcsatorna és takarás;
+- rögzítőanyag;
+- szerelés;
+- beállítás és programozás;
+- tesztelés.
+
+Tervezd meg az összes rejtett fényt:
+- TV-fal;
+- falpanel;
+- gardrób;
+- konyhapult;
+- fejvég;
+- fürdőtükör;
+- mosdóbútor alja;
+- indokolt közlekedői fények.
+
+A színhőmérséklet, fényerő és világítási jelenetek a Kyoto Ink eredeti atmoszféráját kövessék.
+
+Ellenőrizd:
+- meglévő D-, G-, K-, FL- és ML-kiállások;
+- kapcsolók;
+- termosztátok;
+- érzékelők;
+- internethálózat/router;
+- TV- és audioeszközök;
+- szükséges vezetékutak;
+- áramköri kapacitás;
+- fürdőszobai vizes zónák;
+- IP-védettség;
+- mennyezeti hűtő-fűtő rendszer tilalmi területei;
+- szervizelhetőség.
+
+A nappali TV-jének W02 kisfalra helyezése és a nagyobb L/U kanapé egyelőre külön tulajdonosi alternatíva, nem automatikusan jóváhagyott módosítás.
+
+Ennél az alternatívánál a kapcsolók áthelyezése vizsgálható, de a termosztát funkcióját és a kábelvezetést külön ellenőrizni kell.
+
+Készíts szerelési tervjavaslatot, kiálláslistát, lámpajegyzéket és villanyszerelői ajánlatkérési csomagot.
+
+A végleges villamos megoldást a megfelelő szakemberrel ellenőriztesd. Nem validált AI-s rajzot ne nevezz jóváhagyott villamos kiviteli tervnek.
+
+## 8. EGYEDI ASZTALOS ÉS EGYÉB GYÁRTOTT ELEMEK
+
+Minden egyedi elemről legyen olyan dokumentáció, amely alapján árajánlat kérhető.
+
+Különösen:
+- TV-fal és egyedi falpanel;
+- konyhabútor;
+- magas szekrények;
+- gardróbok;
+- fürdőszobai bútorok;
+- fejvég és kárpitozott elemek;
+- egyedi polcok;
+- műalkotásokat tartó keretek;
+- világítást integráló asztaloselemek;
+- takaró- és zárópanelek.
+
+Minden ilyen elemhez:
+- azonosító;
+- előnézet/kapcsolódó render;
+- alaprajzi hely;
+- befoglaló méret;
+- elemekre bontott méret;
+- ajánlott anyag és gyártó;
+- dekorazonosító, ha ellenőrzött;
+- lapvastagság;
+- élzárás;
+- frontkiosztás;
+- vasalat;
+- nyithatóság;
+- rögzítés;
+- teherbírási és szerelési feltételek;
+- takaróelemek;
+- kábel- és szellőzőnyílások;
+- szervizhozzáférés;
+- felületminta;
+- beépítési munkadíj;
+- becsült gyártási idő és költség.
+
+A PAX/METOD vagy más szabványos korpuszok használata javasolt, ahol ez költséget takarít meg a látható design romlása nélkül.
+
+Az ajánlatkérési rajz és a végleges asztalos gyártmányterv státuszát külön jelöld.
+
+## 9. TERASZ – TELJES KIVITELEZÉSI CSOMAG
+
+A teraszt is teljes egészében vedd figyelembe, ne csak azt, ami a nappali ablakán keresztül látszik.
+
+Dolgozd fel:
+- meglévő burkolatok;
+- WPC platformok és lépcsők;
+- zöldtető és növényzet;
+- vízelvezetés;
+- korlátok;
+- minden jelenlegi, megtartandó kültéri elem;
+- lounge-kanapé;
+- kültéri fotelek;
+- kültéri étkező és székek;
+- dohányzó- és lerakóasztalok;
+- kültéri párnák;
+- kültéri textilek;
+- lámpák;
+- megfelelő kültéri világítás;
+- szükséges árnyékolási lehetőségek;
+- időjárásálló anyagok;
+- kültéri tárolás, ha szükséges;
+- takarítás, karbantartás és téli tárolás.
+
+A konkrét bútorokat lehetőleg ugyanolyan minőségi forrásokból keresd, mint a beltérieket.
+
+A terasz valódi szintjeit és burkolatait ne módosítsd.
+
+A tető teherbírását, vízszigetelését, vízelvezetését és a kültéri bútorok szélállóságát a megfelelő szakemberrel ellenőrizni kell.
+
+**Minden kültéri költséget egyeztess a már meglévő FIX teraszkerettel.**
+
+Ha valami már szerepel a fix összegben, ne számold újra.
+
+## 10. AZ APRÓ, DE NÉLKÜLÖZHETETLEN TÉTELEK
+
+Külön hiánytalansági ellenőrzést kérek az alábbiakra:
+
+- függönysínek, konzolok, végzárók;
+- textilek méretre varrása;
+- szegélyek, takarólécek;
+- kárpitminták;
+- tapétaalapozás és ragasztás;
+- festésjavítás;
+- MDF/laminált szabási veszteség;
+- vasalatok;
+- fogantyúk;
+- üveg rögzítése és tömítése;
+- mosdó-, mosogató- és gépcsatlakozók;
+- LED-profilok és tápegységek;
+- villamos apróanyagok;
+- szállítás és emeletre feljuttatás;
+- csomagolóanyag elszállítása;
+- szerelés;
+- takarítás;
+- próbaüzem;
+- hibajavítás;
+- helyszíni felmérés;
+- szükséges tervezői/szakági díjak;
+- mintadarabok és próbagyártás;
+- esetleges régi elemek bontása vagy elszállítása;
+- garanciális dokumentáció.
+
+Egy tétel csak azért nem lehet nulla forint, mert a renderen nem látjuk.
+
+Ha valamelyik költséget másik, összevont sor tartalmazza, legyen egyértelmű kereszthivatkozás. Ne legyen dupla elszámolás és ne legyen rejtett, árazatlan munka.
+
+## 11. MŰSZAKI GEOMETRIA, VALÓDI FOTÓK ÉS MINŐSÉGELLENŐRZÉS
+
+A hiteles alaprajz az elsődleges geometriai forrás.
+
+A Blender méret- és ütközésvizsgálatra, a professzionális fotók pedig a tényleges szín, anyag, kilátás, arány és fényviszonyok ellenőrzésére szolgálnak.
+
+Ne alakítsd át észrevétlenül a meglévő lakást.
+
+Ellenőrizd minden helyiségben:
+- bútorbefoglalók;
+- ajtónyitás;
+- közlekedés;
+- székek kihúzása;
+- fiókok és gardróbajtók nyitása;
+- szervizhozzáférés;
+- üvegek;
+- kapcsolók;
+- radiátorok, termosztátok;
+- gépészeti és elektromos pontok;
+- mennyezeti hűtő-fűtő mezők;
+- valódi padló és falak.
+
+A nappali új L/U kanapés, W02 TV-falas elrendezése külön alternatívaként vizsgálható; a jelenlegi jóváhagyott verziót ne cseréld le automatikusan.
+
+**Az AI kreatív erejét ne korlátozd a régi Blender-proxybútorokhoz.** A valós gyárthatóságot ellenőrizd, ne a fantáziát tiltsd le.
+
+## 12. VIZUÁLIS EGYEZÉS ÉS KORRIGÁLT RENDEREK
+
+A cél a látványterv és a valódi kész lakás lehető legnagyobb egyezése.
+
+Az összes jelentős renderobjektumot rendeld hozzá egy termékhez vagy gyártási tételhez.
+
+Készíts:
+- eredeti renderazonosító;
+- elem és helyisége;
+- eredeti megjelenés;
+- tervezett valós termék;
+- várható eltérés;
+- költség;
+- jóváhagyási státusz.
+
+A 95%-os vizuális azonosság legyen cél, ne bizonyíték nélküli ígéret.
+
+Az anyagmintákat, tapétapróbákat, bútorfrontmintákat és fényeket jóvá kell hagyni a teljes gyártás előtt.
+
+Ha helyettesítő termék szükséges, az új látványterv az elfogadni kívánt végleges elemet mutassa, ne az eredeti, már nem megrendelhető változatot.
+
+Készíts vizuális eltérésnaplót, és a lényeges kompromisszumokat mutasd meg a tulajdonosnak.
+
+## 13. 3–4 HÓNAPOS ÜTEMTERV
+
+Készíts megvalósítási projekttervet tényleges függőségekkel.
+
+Tartalmazza:
+- helyszíni végső felmérés;
+- gyártók és kivitelezők kiválasztása;
+- termékek véglegesítése;
+- minták ellenőrzése;
+- szakági egyeztetések;
+- ajánlatkérések;
+- megrendelési határidők;
+- hosszú átfutású bútorok;
+- konyha- és gardróbgyártás;
+- villamos és előkészítő munkák;
+- tapétázás és falpanelek;
+- bútorok szállítása;
+- konyhagépek beépítése;
+- teraszberendezés;
+- dekoráció és műalkotások;
+- Hue-konfiguráció;
+- végső ellenőrzés;
+- hibajavítás;
+- takarítás;
+- átadás.
+
+Jelöld a kritikus útvonalat, a beszállítói függőségeket és a kockázatokat.
+
+A 3–4 hónapot valódi ütemtervként értékeld, ne automatikusan garantált határidőként.
+
+Beszerzést, árajánlatkérést vagy kivitelezői megbízást csak az engedélyezett jogosultságokkal és a szükséges tulajdonosi jóváhagyásokkal indíts.
+
+## 14. EGYETLEN ÉLŐ ELEM- ÉS KÖLTSÉGNYILVÁNTARTÁS
+
+Készíts egy központi, Excelben/Google Sheetsben is használható elemlistát és költségvetést.
+
+Minden tétel legyen egyértelműen azonosítható.
+
+Kötelező oszlopok:
+- lakás;
+- helyiség;
+- elemkód;
+- renderhivatkozás;
+- költségkategória;
+- termék vagy munka megnevezése;
+- márka;
+- cikkszám;
+- terméklink;
+- méret;
+- szín;
+- anyag;
+- mennyiség;
+- mértékegység;
+- egységár;
+- szállítás;
+- szerelés;
+- teljes bruttó költség;
+- árforrás;
+- ellenőrzés dátuma;
+- szállítási idő;
+- termék státusza: A/B/C;
+- renderrel való egyezés;
+- jóváhagyási státusz;
+- megrendelési státusz;
+- felelős;
+- szükséges szakmai ellenőrzés;
+- megjegyzés.
+
+A nyilvántartás legyen a projekt egyetlen pénzügyi igazságforrása.
+
+A tételek változása automatikusan vagy ellenőrzött számítással módosítsa a teljes költségvetést.
+
+Legyen külön összesítő:
+- helyiségenként;
+- szakmánként;
+- fix/stílusfüggő tételekre;
+- ellenőrzött/becsült árakra;
+- megrendelt/nem megrendelt tételekre;
+- fő és gazdaságos megoldásra.
+
+Az eredeti S01 költségvetéssel az eltéréseket soronként mutasd ki.
+
+## 15. WORK-MUNKAREND ÉS GITHUB-MENTÉS
+
+Medium effort.
+
+A munkát egyetlen, önálló megvalósítási projektben szervezd.
+
+Javasolt új ág:
+`execution/a902-s01-kyoto-ink-design-to-budget-20261026`
+
+Az eredeti Astra V3.1 és V3.2 ágakat ne módosítsd.
+
+**CP0 azonnal:**
+- új ág;
+- README;
+- projektforrások;
+- teljes helyiség- és szakmaellenőrző lista;
+- kiinduló költségvetés;
+- minden várható tételhez PENDING/UNKNOWN státusz;
+- első GitHub-commit, push és visszaellenőrzés.
+
+Utána készíts rendszeres, távolról visszaolvasott checkpointokat.
+
+A feldolgozást a nappalival és konyhával kezdd, mert ezek a legfontosabb költség- és dizájntételek, de az első körben a teljes lakásra legyen előzetes költséghely minden szükséges tételnek.
+
+**Ne töltsd el az egész Work-keretet kizárólag a nappalival!**
+
+A teljes munka során párhuzamosan haladjon:
+- a valós termékek kiválasztása;
+- az egyedi elemek specifikációja;
+- a teljes költségvetés frissítése;
+- a méretellenőrzés;
+- a szállítási/gyártási idő ellenőrzése.
+
+Minden nagyobb munkacsomag után ments. A kész adatokat megszakítás után ne kutasd újra feleslegesen.
+
+Ha elakad a GitHub-hozzáférés, készíts hiánytalan, fájlútvonalakkal azonosított helyi vészhelyzeti átadási csomagot.
+
+## 16. FÜGGETLEN ELLENŐRZÉS
+
+A saját kreatív koncepciódat te dolgozod át megvalósítási tervvé.
+
+De a legfontosabb műszaki és pénzügyi döntéseket külön ellenőrizhető formában add át.
+
+Különösen:
+- teljes költség és kettős elszámolás;
+- konyha és asztalosbútor;
+- elektromosság és világítás;
+- fürdők vizes zónái;
+- terasz biztonsága;
+- Blender-geometria;
+- tényleges termékek és méretek;
+- beszállítói adatok;
+- 3–4 hónapos ütemterv.
+
+A terv legyen alkalmas Claude Opus és más független ellenőr munkájára.
+
+Az AI-s ellenőrzés nem helyettesíti az előírt szakági jóváhagyásokat.
+
+## 17. KÖTELEZŐ HIÁNYTALANSÁGI AUDIT
+
+A projekt lezárása előtt egyenként ellenőrizd:
+
+**Minden helyiség kész?**
+
+**Minden renderen szereplő elem beazonosított?**
+
+**Minden megvásárolandó termék konkrét?**
+
+**Minden egyedi elemhez van ajánlatkérési specifikáció?**
+
+**Minden tapéta, falfelület, műalkotás és szerelése szerepel?**
+
+**Minden elektromos elem, LED, tápegység és munkadíj szerepel?**
+
+**Minden konyhagép, víz- és elektromos csatlakozás szerepel?**
+
+**Minden fürdő és a WC teljesen fel van dolgozva?**
+
+**A két további háló teljesen berendezett?**
+
+**A teljes terasz szerepel, dupla elszámolás nélkül?**
+
+**Minden függöny, sín, szőnyeg és textil szerepel?**
+
+**Minden szállítás, beszerelés, segédanyag és szükséges szakági díj szerepel?**
+
+**Minden tételnek van ára vagy jelölt, reális becslése?**
+
+**A teljes költség belefér a keretbe, vagy világosan kimutatott a túllépés?**
+
+**A kivitelezési ütemterv ténylegesen teljesíthető a visszaigazolt adatok szerint?**
+
+Ha bármelyik kérdésre nem a válasz, azt a végső jelentésben külön nyitott tételként szerepeltesd.
+
+Ne jelöld teljesnek a projektet, amíg jelentős hiányzó vagy árazatlan tétel van.
+
+## 18. TULAJDONOSI ÁTADÁS – KÖZÉRTHETŐEN
+
+A részletes dokumentáció mellett készíts egy rövid, laikus tulajdonos számára érthető összefoglalót.
+
+Válaszolj világosan:
+
+1. Mennyibe fog várhatóan kerülni a teljes Kyoto Ink lakás?
+2. Mennyi az ellenőrzött, és mennyi a becsült összeg?
+3. Belefér-e a 18 millió Ft-os keretbe?
+4. Milyen termékeket kell megvenni, melyeket kell legyártani?
+5. Megvalósítható-e 3–4 hónap alatt?
+6. Mennyire fog a kész lakás a renderképekre hasonlítani?
+7. Hol és mekkora esztétikai kompromisszum szükséges?
+8. Mi lehet a legnagyobb költség- vagy határidőkockázat?
+9. Mitől lesz könnyű vagy nehéz a kivitelezés?
+10. Milyen döntéseket kell még a tulajdonosnak meghoznia?
+
+Az összefoglaló mellett kérlek, adj egy konkrét, sorrendbe állított cselekvési tervet arról, mi történjen az első héten, az első hónapban, majd az átadásig.
+
+**Nem reklámszöveget kérek. Reális, bizonyítékokon alapuló megvalósítási tervet szeretnék.**
+
+## VÉGSŐ CÉL
+
+A Kyoto Ink lakás az eredeti Astra-renderképek prémium hangulatát a lehető legpontosabban őrizze meg.
+
+Minden elem legyen:
+- beszerezhető vagy gyártható;
+- méretezhető;
+- kivitelezhető;
+- beárazott;
+- ütemezhető;
+- ellenőrizhető;
+- a teljes költségvetéssel összehangolt.
+
+**Nem elég egy szép tervet készíteni. A teljes lakást ténylegesen meg akarom valósítani, a lehető legkevesebb kellemetlen meglepetéssel.**
+
+Kezdd a teljes forrásellenőrzéssel, a CP0 GitHub-mentéssel és a minden helyiségre, minden szakmára kiterjedő elemregiszterrel. Ezután haladj végig a megvalósítási feladaton folyamatos költségellenőrzéssel és rendszeres ellenőrzött mentéssel.

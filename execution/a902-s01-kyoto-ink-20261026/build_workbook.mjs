@@ -5,6 +5,14 @@ const dir=fileURLToPath(new URL('.',import.meta.url));
 const rows=JSON.parse(await fs.readFile(dir+'data/elemek.json','utf8'));
 const old=JSON.parse(await fs.readFile(dir+'data/eredeti_S01.json','utf8')).filter(r=>r.osszegezheto==='IGEN');
 const wb=Workbook.create();
+const products=JSON.parse(await fs.readFile(dir+'data/kiemelt_12_termek.json','utf8'));
+const ps=wb.worksheets.add('Kiemelt termékek');
+const pk=Object.keys(products[0]);
+ps.getRange('A1').write([['ID','Regisztersor','Termék','SKU','Méret cm','Szín','Anyag','Ár','Árstátusz','Terméklink','Rendereltérés','Nyitott kapu','Szállítás','Szerep','Ellenőrzés'],...products.map(p=>pk.map(k=>p[k]))]);
+ps.getRange('A1:O13').format.wrapText=true;
+ps.getRange('A1:O1').format.fill='#303E3C';ps.getRange('A1:O1').format.font.color='#FFFFFF';
+ps.getRange('A1:O13').format.columnWidth=24;ps.getRange('C1:C13').format.columnWidth=38;ps.getRange('J1:L13').format.columnWidth=60;ps.getRange('A2:O13').format.rowHeight=110;ps.getRange('A1:O13').format.verticalAlignment='center';ps.getRange('A1:O13').format.font.size=10;ps.showGridLines=false;ps.freezePanes.freezeRows(1);
+
 const sum=wb.worksheets.add('Összesítő'), reg=wb.worksheets.add('Elemregiszter'), bridge=wb.worksheets.add('Baseline egyeztetés');
 const headers=['Lakás','Helyiség','Elemkód','Render','Baseline sor','Fix / stílus','Szakma','Termék / munka','Márka','SKU','Terméklink','Méret','Szín','Anyag','Mennyiség','Egység','Bruttó egységár Ft','Szállítás Ft','Szerelés Ft','Egyéb Ft','Teljes bruttó Ft','Árstátusz','Árforrás','Ellenőrzés dátuma','Átfutás','A/B/C','Render egyezés','Jóváhagyás','Megrendelés','Felelős','Szakmai ellenőrzés','Megjegyzés','Gazdaságos egységár Ft','Gazdaságos teljes Ft','Gazdaságos változtatás','Garancia','HU szállítás / készlet','Alternatíva 1','Alternatíva 2'];
 const keys=['lakas','helyiseg','elemkod','render','baseline','kor','szakma','megnevezes','marka','sku','link','meret','szin','anyag','mennyiseg','egyseg','egysegar','szallitas','szereles','egyeb',null,'arstatusz','arforras','datum','atfutas','abc','egyezes','jovahagyas','rendeles','felelos','ellenorzes','megjegyzes','gazdasagos',null,'optimalizalas','garancia','szallithatosag','alt1','alt2'];
@@ -18,7 +26,7 @@ reg.getRange(`V2:V${end}`).dataValidation={rule:{type:'list',values:['előzetes 
 reg.getRange(`AB2:AB${end}`).dataValidation={rule:{type:'list',values:['PENDING','jóváhagyott','elutasított']}};
 reg.getRange(`Q2:T${end}`).format.font.color='#0000FF';reg.getRange(`AG2:AG${end}`).format.font.color='#0000FF';
 sum.getRange('A2').values=[['Kyoto Ink S01 – költség és döntések']];sum.getRange('A4:C4').values=[['Mutató','Ft / darab','Értelmezés']];
-sum.getRange('A5:C15').values=[['Alapkeret',18000000,'Bruttó, tervezhető'],['Külön tartalék',2000000,'Érintetlen; az előrejelzés nem ebből finanszírozott'],['Fő előrejelzés',null,'Aktuális, teljes tartalom'],['Gazdaságos javaslat',null,'Csak a megnevezett változtatásokkal; jóváhagyásra vár'],['Fő eltérés a kerettől',null,'Pozitív = túllépés'],['Gazdaságos eltérés',null,'Pozitív = túllépés'],['Ellenőrzött webshopár rész',null,'Termékérték; szállítás/szerelés becslése külön maradhat'],['Beszállítói ajánlat rész',null,'Csak valódi beérkezett ajánlat'],['Még becsült rész',null,'Minden nem igazolt ár'],['Megrendelt érték',null,'Jelenleg rendelés nincs'],['Tételszám',rows.length,'Új sor után a képletek tartományát bővíteni kell']];
+sum.getRange('A5:C15').values=[['Alapkeret',18000000,'Bruttó, tervezhető'],['Külön tartalék',2000000,'Érintetlen; az előrejelzés nem ebből finanszírozott'],['Fő előrejelzés',null,'Aktuális, teljes tartalom'],['Gazdaságos javaslat',null,'Még nincs optimalizált változat; egyelőre a fővel azonos'],['Fő eltérés a kerettől',null,'Pozitív = túllépés'],['Gazdaságos eltérés',null,'Pozitív = túllépés'],['Ellenőrzött webshopár rész',null,'Termékérték; szállítás/szerelés becslése külön maradhat'],['Beszállítói ajánlat rész',null,'Csak valódi beérkezett ajánlat'],['Még becsült rész',null,'Minden nem igazolt ár'],['Megrendelt érték',null,'Jelenleg rendelés nincs'],['Tételszám',rows.length,'Új sor után a képletek tartományát bővíteni kell']];
 sum.getRange('B7:B14').formulas=[[`=SUM('Elemregiszter'!U2:U${end})`],[`=SUM('Elemregiszter'!AH2:AH${end})`],['=B7-B5'],['=B8-B5'],[`=SUMIFS('Elemregiszter'!U2:U${end},'Elemregiszter'!V2:V${end},"ellenőrzött webshopár")`],[`=SUMIFS('Elemregiszter'!U2:U${end},'Elemregiszter'!V2:V${end},"beszállítói ajánlat")`],['=B7-B11-B12'],[`=SUMIFS('Elemregiszter'!U2:U${end},'Elemregiszter'!AC2:AC${end},"megrendelt")`]];
 sum.getRange('A17:C18').values=[['Adatállapot','2026-10-26','Folyamatban; teljes műszaki jóváhagyás nincs.'],['Használat','Kék számok szerkeszthetők','Csak az Elemregiszter adatait módosítsd; a kiegészítő exportok pillanatképek.']];
 let at=21;
@@ -41,4 +49,4 @@ console.log((await wb.inspect({kind:'table',range:'Összesítő!A5:B15',include:
 console.log((await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!',options:{useRegex:true,maxResults:20},maxChars:2000})).ndjson);
 await fs.mkdir(dir+'outputs',{recursive:true});
 await (await SpreadsheetFile.exportXlsx(wb)).save(dir+'outputs/A902_Kyoto_Ink_elo_regiszter.xlsx');
-for(const [sheet,range] of [['Összesítő','A2:C18'],['Elemregiszter','A1:H7'],['Baseline egyeztetés','A1:F8']]){const im=await wb.render({sheetName:sheet,range,scale:1.5,format:'png'});await fs.writeFile(dir+'outputs/'+sheet+'.png',new Uint8Array(await im.arrayBuffer()));}
+for(const [sheet,range] of [['Kiemelt termékek','C1:F4'],['Összesítő','A2:C18'],['Elemregiszter','A1:H7'],['Baseline egyeztetés','A1:F8']]){const im=await wb.render({sheetName:sheet,range,scale:1.5,format:'png'});await fs.writeFile(dir+'outputs/'+sheet+'.png',new Uint8Array(await im.arrayBuffer()));}

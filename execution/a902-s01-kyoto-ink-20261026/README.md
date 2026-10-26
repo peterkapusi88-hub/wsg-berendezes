@@ -1,6 +1,6 @@
 # A-902 Kyoto Ink S01 – megvalósítás
 
-Állapot: FOLYAMATBAN / CP0. Nem megrendelési vagy jóváhagyott kiviteli terv.
+Állapot: FOLYAMATBAN / CP1a, szakaszolt átadás. Nem megrendelési vagy jóváhagyott kiviteli terv.
 
 Feladat: a kiválasztott hat render alapján a teljes lakás és teljes kültér megvalósítási terve. Tervezhető keret 18 000 000 Ft bruttó; külön, érintetlen tartalék 2 000 000 Ft. Feltételes időtáv 13–17 hét, beszállítói visszaigazolás nélkül nem vállalt határidő.
 
@@ -25,3 +25,6 @@ Külső ajánlatkérés, megrendelés és üzenetküldés nincs elindítva. A v�
 - Meglévő padló hűvösebb és a fürdő relief hatszögletű, nem a render négyzetrácsa. Burkolatcsere nincs automatikusan tervezve.
 - A nappali üveg előtti belső fellépés fotó alapján hiányzik a régi modellből; helyszínen felmérendő.
 - Az S01 17 611 000 Ft gazdaságos és 18 450 000 Ft fő baseline becslés. A keretmegfelelés nincs bizonyítva.
+
+## Aktuális átadás
+CP0 commit: `884788f70bdcade7d603f5e90d2f4085c99b939c`. CP1a: `01_CP1a_KIEMELT_TERMEKEK.md`; folytatás: `02_FOLYTATAS_ATADAS.md`; ellenőrzés: `03_ELLENORZESI_NYUGTA.md`. A fő előirányzat20083350Ft. Az Excel gazdaságos oszlopa még ugyanaz a változat, nem kész megtakarítási terv.
