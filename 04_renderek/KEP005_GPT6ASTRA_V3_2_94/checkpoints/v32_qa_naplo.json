@@ -408,8 +408,85 @@
  "24_A": {
   "seq": "49",
   "kep": "A902_S14_ModernWhiteLuxury_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
-  "chat": "6adf28c2-7f14-83eb-93ad-25b26c64c077",
-  "qa": "SKIPPED_LIMIT: ChatGPT Plus képgenerálási keret elfogyott 2026-10-26 ~11:20; visszaáll 2026-10-27 7:40. Kép nem készült.",
-  "statusz": "SKIPPED_LIMIT"
+  "chat": "6adf65cc-8b88-83ed-b6d7-254264826d4a",
+  "qa": "ELŐSZŰRT (újrafuttatás Pro-n; a limit-chat 6adf28c2 kép nélkül): Cam_10 lock OK (üveg a küszöbön, mosdó a lockon, zuhanyszerelvény), lebegő fehér mosdószekrény rejtett fénnyel, ívelt sarkú tükör, kavics-mozaik zuhanyfal.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "24_B": {
+  "seq": "50",
+  "kep": "A902_S14_ModernWhiteLuxury_4_furdo-06-2_Cam_10_A__V32_B_v1.png",
+  "chat": "6adf65d7-d178-83ed-b1c6-2eff28b39a1f",
+  "qa": "ELŐSZŰRT: azonos dizájn, KZS_3598 alapján szürke Geostone + hatszög-mozaik; üvegfal kb. 4–5%-kal a küszöbvonaltól balra (enyhe), mosdó a lockon.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "25_A": {
+  "seq": "51",
+  "kep": "A902_S15_AuthenticJapaneseModern_1_nappali-terasz_Cam_02_A__V32_A_v1.png",
+  "chat": "6adf664d-7854-83ed-92d8-4714301e01b2",
+  "qa": "ELŐSZŰRT: Cam_02 sarok/üvegél/osztás a lockon, TV-fal ferde (nem frontális); sötét tölgy lamellás TV-fal rejtett fénnyel, alacsony bútorok. Megj.: TV ~10%-kal balra a lockponttól; japán karakter mérsékelt.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "25_B": {
+  "seq": "52",
+  "kep": "A902_S15_AuthenticJapaneseModern_1_nappali-terasz_Cam_02_A__V32_B_v1.png",
+  "chat": "6adf6686-af18-83ed-a586-210c1c672046",
+  "qa": "ELŐSZŰRT: azonos dizájn, sarok/üveg/osztás a lockon, terasz-fellépés látszik, padló szürkés tölgy. Megj.: TV ~7%-kal balra; mennyezeti dob-lámpa az ML05 közelében – villamos kiállással egyeztetendő.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "27_A": {
+  "seq": "53",
+  "kep": "A902_S15_AuthenticJapaneseModern_2_etkezo-konyha_Cam_03_A__V32_A_v1.png",
+  "chat": "6adf6750-2bf0-83ed-92b0-633ae42f14fd",
+  "qa": "ELŐSZŰRT: konyhatengely lock OK (hűtőtorony W03a, sütőoszlop a végfalon, félsziget a parapetnél, nyílás opnW); sötét tölgy + krém felső sor, papírlámpás pendant az asztal felett.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "27_B": {
+  "seq": "54",
+  "kep": "A902_S15_AuthenticJapaneseModern_2_etkezo-konyha_Cam_03_A__V32_B_v1.png",
+  "chat": "6adf6753-56d4-83ed-a0ba-b78a06a0f883",
+  "qa": "ELŐSZŰRT: azonos dizájn, konyhatengely OK, padló világosabb szürkés tölgy, fehér falak.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "28_A": {
+  "seq": "55",
+  "kep": "A902_S15_AuthenticJapaneseModern_3_master_Cam_04_A__V32_A_v1.png",
+  "chat": "6adf67dc-0388-83eb-b39a-b0f3d5352911",
+  "qa": "ELŐSZŰRT: sötét tölgy fülke-gardrób 0–38%, kárpitos fejtámla lamellás háttérrel és rejtett fénnyel, alacsony ágy; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "28_B": {
+  "seq": "56",
+  "kep": "A902_S15_AuthenticJapaneseModern_3_master_Cam_04_A__V32_B_v1.png",
+  "chat": "6adf6811-bbc0-83eb-ade9-92253f8e1053",
+  "qa": "ELŐSZŰRT: azonos dizájn, gardrób 0–38%, padló szürkés tölgy; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "29_A": {
+  "seq": "57",
+  "kep": "A902_S15_AuthenticJapaneseModern_3_master_Cam_11_A__V32_A_v1.png",
+  "chat": "6adf6867-0d48-83eb-9160-2e4bbb516976",
+  "qa": "ELŐSZŰRT: kötelező eredeti Cam_11, frontális, három mező az osztásokon, korlát OK; tölgy gardrób két oldalt, len függöny. Megj.: üveg jobb éle ~4%-kal belül a glN-től.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "29_B": {
+  "seq": "58",
+  "kep": "A902_S15_AuthenticJapaneseModern_3_master_Cam_11_A__V32_B_v1.png",
+  "chat": "6adf689c-9c80-83eb-a3f4-7d0fd770aa6b",
+  "qa": "ELŐSZŰRT: azonos dizájn, frontális Cam_11, három mező a lockon, fehér keretek (B-szabály szerint), padló szürkés tölgy.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "30_A": {
+  "seq": "59",
+  "kep": "A902_S15_AuthenticJapaneseModern_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
+  "chat": "6adf68e7-12e8-83eb-bfb5-4e86de56e938",
+  "qa": "ELŐSZŰRT: Cam_10 lock OK (üveg a küszöbön, mosdó a lockon), sötét tölgy lebegő mosdószekrény sötét pulttal, rejtett fény, tölgy felső szekrény, mozaik zuhanyfal.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "30_B": {
+  "seq": "60",
+  "kep": "A902_S15_AuthenticJapaneseModern_4_furdo-06-2_Cam_10_A__V32_B_v1.png",
+  "chat": "6adf691e-0a84-83ed-89b5-b5321b571300",
+  "qa": "ELŐSZŰRT: azonos dizájn, szürke Geostone, mozaik zuhanyfal (hatszög a felbontásban nem egyértelmű); üveg ~3%-kal balra a küszöbtől.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
  }
 }
