@@ -1,32 +1,20 @@
-# WSG A-902 · Work/Sol Chrome render operátor
+# WSG A-902 · Work/Sol Chrome operátor · hibafeltárási checkpoint
 
-Állapot: **ELŐKÉSZÍTVE; ÚJ KÉP NINCS GENERÁLVA. Chrome közvetlen füles kapcsolatára vár.**
+**1 új Chrome-pilot generálva és PNG-ként letöltve; a tulajdonos elutasította. Sorozat: NEM INDULT. v2: NEM KÜLDVE.**
 
-A felhasználó új rendelkezése szerint a hosszú operátori megbízás előtti három próba kimarad ebből a sorozatból: nem pilot, nem elfogadott kép és nem blokkoló QA-előfeltétel. Az új futás kizárólag az `operator_request_original.txt` teljes szakmai leírását követi, Claude helyett Work/Sol vezérléssel. Astra marad az egyedüli kreatív tervező.
+Az első három korábbi próba továbbra is kimarad. A hosszú operátori megbízás érvényes; Astra marad a kreatív tervező. Az eredeti forráságak és jóváhagyott képek érintetlenek.
 
-## Ténylegesen ellenőrzött állapot
+A közvetlen Chrome-kapcsolat és a helyi fájlfeltöltés működik. A pilot 9 tényleges képbemenettel, teljes változatlan V3.3 kreatív szöveggel, High szinten készült. A Letöltés gomb valódi PNG-t mentett a Downloads mappába, bár a böngészővezérlő letöltési eseménye időtúllépett. A fájl külön archiválva, hash-elve és vizuálisan ellenőrizve. A blob downloadMedia ezen Chrome-kapcsolaton nem támogatott.
 
-- V3.1/V3.2/V3.3 források és archívumok GitHub-auditja a `sources/archive_source_audit.json` fájlban. V3.1: 130 PNG; V3.2: 104 PNG, a 94 első és 10 javító változat mind szerepel a távoli naplóban. A V3.3 átadás régi 58-as archívumszáma elavult.
-- V3.3 végleges átadás: `4d2b7e857f034a7080bd62bd249e84a0a8e310e3`, 147 új prompt.
-- Chrome natív alkalmazásként olvasható volt, a külön ChatGPT-ablakban High látszott. Közvetlenül címezhető Chrome-fülek ebben a chatben még nem jelentek meg; az elérhető böngészők között csak a beépített böngésző és MCP Apps szerepelt.
-- A natív Chrome-vezérlés többször megszakadt ablak-/fókuszváltozáskor; az automatikus ellenőrzés az ezutáni általános olvasást elutasította, mert nem garantálható, hogy a feladat ChatGPT-ablakára irányul. Nem folytattuk más magántartalom olvasásával.
-- A kilenc referenciafájl helyben összeállt. A Toni160 pontos SKU-ja, mérete és világos tölgy megjelenése a Westwing hivatalos termékoldalán feloldva; a gyári kép letöltve és megtekintve. A teljes prompt beküldésre előkészítve, **még nem elküldve**.
+A működő Claude padlo_v2 kép forrása viszont V3.1, 4 csatolmány, eltérő semleges Blender-fájl és technikai fejléc. A teljes konyhaelhelyezési 4. geometriai bekezdés kimaradt az új fejlécből. Ez nem volt azonos bemenetű összehasonlítás; a munkafolyamat Claude-egyenértékűsége nincs igazolva.
 
-## Futási rend a Chrome bekötése után
+A pontos Claude-csomag 4/4 képfájlját, teljes beküldött üzenetét és eredeti kreatív promptját a régi napló hash-eivel egyezően rekonstruáltuk. A fájlok helyben a baseline_reconstructed/inputs/ mappában; a távoli checkpoint tartalmazza a jegyzéket, az eredeti teljes üzenetet és a technikai diffet. A 9 képes C módszer ettől külön vizsgálat. Újabb generálás a tulajdonos hibajelzése után nem indult.
 
-1. Egy új S01 C Cam12 pilot; Image1 az eredeti, változatlan Blender-kép, utána a három manifest szerinti profi helyiségfotó, majd az öt pontos termékfotó a referenciajegyzékben megadott sorrendben. Minden csatolmány készre töltését és a teljes szövegegyezést ellenőrizni kell. High minden beküldés előtt ellenőrizendő.
-2. Egy kérés pontosan egy képet készít. Eredeti PNG-letöltés, hash, QA és távoli checkpoint után kap kész státuszt. A műszaki/katalógus/szakági feltételek külön maradnak; KONCEPCIÓ – NEM VALIDÁLT.
-3. Sikeres új pilot után két, majd legfeljebb három saját Chrome-fül: egyetlen operátor sorban tölti fel és indítja őket, a generálások várakozási ideje átfedhet. Egyszerre nem vezérli ugyanazt a Chrome-ot Claude vagy másik Computer Use feladat. Fülenként egy aktív képkérés; ne legyen egy kérésben több képes batch.
-4. A soron következő kész referencia-csomagú tételt kell kiosztani. Stíluson belül a manifest és az Astra átadási sorrendje az irányadó. A termék-/kamerahiányos sor HOLD, más kész sorral lehet haladni. S16/S17 esetén a tulajdonosi autófotók tényleges bemenetek az Astra szerepkiosztása szerint; nem építészeti és nem kamerareferenciák.
-5. Nincs kreatív átírás, rövidítés, bútorcsere. Képszám/sorrend, kép1-kamera, falak/nyílások, bútorazonosság, eredeti anyagok, világítás és hozzáférés ellenőrzése képenként; takart elem NEM ELLENŐRIZHETŐ. Célzott v2/v3 külön fájl, az eredeti megmarad.
-6. A teljes ellenőrzött képtár után indul a négy lookbook. Keretelfogyáskor pontos checkpoint és megállás; nincs kerülőút.
+- Tényleges új kép: images/A902_S01_KyotoInk_Cam_12__V33_C__CHROME_v1.png
+- Tényleges beküldött üzenet: prompts_sent/A902_S01_KyotoInk_Cam_12__V33_C__CHROME_v1.txt
+- Bemeneti ellenőrzés: checkpoints/CHROME_PILOT_PREFLIGHT.json
+- Futás/QA: checkpoints/CHROME_PILOT_RUN.json és qa/INPUT_DIAGNOSIS.md
+- Pontos eredeti csomag: baseline_reconstructed/VERIFIED_BASELINE.json
+- Teljes operátori megbízás: sources/operator_request_original.txt
 
-## A korábbi Claude QA alkalmazása
-
-A történeti S01-jelentés kiegészítése rögzíti a tulajdonos akkori Cam12-v1 „tervközeli” elfogadását és a későbbi döntést: a teljes képes bútorazonosság-referenciát már nem használják. Ezt a módszert követjük: az archív teljes rendert nem csatoljuk automatikusan kamera- vagy bútorreferenciaként. Az új kép kameráját az Image1 adja, a bútorét a konkrét termékfotók. A tervközeli képstátusz különbözik a numerikusan igazolt kamera-/Render Reality PASS-tól; egyiket sem állítjuk mérés nélkül. A korábban elfogadott koncepciószintű tűrést nem helyettesítjük önkényesen pixelpontos sikerfeltétellel.
-
-## Következő kapcsolati lépés
-
-A hivatalos útmutató: https://learn.chatgpt.com/docs/chrome-extension . Beállítások → Computer Use → Chrome: Manage és bekapcsolt elérhetőség; majd @Chrome vagy a megfelelő Chrome-fül csatolása ehhez a chathez. A helyi feltöltéshez az útmutató szerint szükség lehet az extension „Allow access to file URLs” engedélyére, amit a tulajdonos állít be. Az alkalmazás saját beállításait a natív eszköz biztonsági szabálya nem engedi nekünk megnyitni.
-
-Az `images/` és `prompts_sent/` az új futásban üres. A `prompts_prepared/` tervezet, nem sikeres beküldés. API, extra kredit és vásárlás nem történt.
+A 147-es sor előkészítés, nem kész képtár. Többfüles párhuzamos renderelés még nincs igazolva. Fizetős képgeneráló API, API-kulcs, extra kredit vagy vásárlás nem történt. KONCEPCIÓ – NEM VALIDÁLT.

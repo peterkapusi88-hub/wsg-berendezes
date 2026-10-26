@@ -1,15 +1,17 @@
 {
-  "operator": "Work/Sol via native Chrome UI",
+  "operator": "Work/Sol via direct Chrome extension",
   "basis": "Full user operator request; Astra creative source frozen at 4d2b7e857f034a7080bd62bd249e84a0a8e310e3",
   "prebrief_trials": "EXCLUDED_BY_USER",
-  "new_pilot": "NOT_SUBMITTED",
+  "new_pilot": "FAILED_USER_REJECTED",
   "max_active_tabs_after_pilot": 3,
   "one_image_per_request": true,
   "High_check_every_send": true,
   "tabs": [
     {
       "slot": 1,
-      "status": "IDLE"
+      "status": "REJECTED_NO_GENERATION_RUNNING",
+      "image_id": "A902_S01_KyotoInk_Cam_12__V33_C_v1",
+      "tabId": "2027661520"
     },
     {
       "slot": 2,
@@ -22,13 +24,19 @@
   ],
   "human_Chrome_handoff": "AUTHORIZED",
   "api_usage": false,
-  "bulk_status": "WAIT_FOR_NEW_CHROME_PILOT",
+  "bulk_status": "NOT_STARTED",
   "GitHub_branch": "renders/work-sol-v33-pilot-20261026",
-  "GitHub_branch_state": "created at source base; no operator commit yet",
-  "current_blocker": "CHROME_TAB_CONNECTION_MISSING; native app focus changed repeatedly, review rejected unbound read",
+  "GitHub_branch_state": "checkpoint e23d32e55f79f66616a4839c3dd949b76a09b4bd verified; no new renders",
+  "current_blocker": "Input/method equivalence diagnosis; exact baseline reconstructed, no generation underway",
   "fresh_input_count": 9,
   "excluded_trials_do_not_block": true,
   "Chrome_native_read_and_High_check": "DONE",
-  "Chrome_upload_attempt": "INTERRUPTED_NOT_VERIFIED",
-  "extension_connection_user_action": "REQUESTED"
+  "Chrome_upload_attempt": "DONE_9_REFERENCES_VERIFIED",
+  "extension_connection_user_action": "DONE_VERIFIED",
+  "Chrome_direct_browser_connection": "DONE",
+  "Chrome_profile": "103",
+  "Chrome_new_pilot_tab": "CREATED",
+  "updated_utc": "2026-10-26T18:00:51.405877+00:00",
+  "extension_file_url_permission": "USER_ENABLED_UPLOAD_VERIFIED",
+  "baseline_reconstructed": true
 }

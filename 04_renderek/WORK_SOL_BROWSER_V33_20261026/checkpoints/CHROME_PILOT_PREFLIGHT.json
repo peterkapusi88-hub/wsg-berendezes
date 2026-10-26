@@ -1,0 +1,140 @@
+{
+  "promptExact": true,
+  "creativeOriginalIncluded": true,
+  "creativeOriginalSha256": "43151d7014bd4d633748efa9c71c9fd79dbea823ac114160447f260c7fa5073e",
+  "effort": "High / Erős, 3 of 5",
+  "referenceCount": 9,
+  "orderMatches": true,
+  "attached": [
+    {
+      "complete": true,
+      "height": 1000,
+      "name": "01_Blender_Cam12_manifest_exact(3).png",
+      "width": 1600
+    },
+    {
+      "complete": true,
+      "height": 1367,
+      "name": "02_KZS_3695-537(2).jpg",
+      "width": 2048
+    },
+    {
+      "complete": true,
+      "height": 1367,
+      "name": "03_KZS_3708-524(2).jpg",
+      "width": 2048
+    },
+    {
+      "complete": true,
+      "height": 1367,
+      "name": "04_KZS_3659-573(2).jpg",
+      "width": 2048
+    },
+    {
+      "complete": true,
+      "height": 2048,
+      "name": "05_Lennon_right_taupe(2).jpg",
+      "width": 1536
+    },
+    {
+      "complete": true,
+      "height": 624,
+      "name": "06_Eamy_lightgrey(2).jpg",
+      "width": 560
+    },
+    {
+      "complete": true,
+      "height": 390,
+      "name": "07_Somar_L00148FA05(2).jpg",
+      "width": 710
+    },
+    {
+      "complete": true,
+      "height": 692,
+      "name": "08_Nifelia_200x300(2).jpg",
+      "width": 590
+    },
+    {
+      "complete": true,
+      "height": 560,
+      "name": "09_Toni160_DEQ19WES60483-225182.jpg",
+      "width": 420
+    }
+  ],
+  "inputs": [
+    {
+      "order": 1,
+      "file": "inputs/01_Blender_Cam12_manifest_exact.png",
+      "sha256": "66a9c6af6992721226174fcc62563de0f34160263ad19dde82bc2d4bc3a1d87e",
+      "git_blob_sha": "ac236f38e9f84de8683562c01856ea9fd89d5389",
+      "role": "exact camera and architectural shell; no viewpoint substitution",
+      "bytes": 1496255
+    },
+    {
+      "order": 2,
+      "file": "inputs/02_KZS_3695-537.jpg",
+      "sha256": "fa61a5c6d973ab51b081bddd0f1252a8a750bbe879e5a990b5ff25ffe9bec46a",
+      "git_blob_sha": "1134aff0609b9a28956dee01bb96aa11c919c85f",
+      "role": "kitchen connection, csonk, floor and grey doors; not camera",
+      "bytes": 10851535
+    },
+    {
+      "order": 3,
+      "file": "inputs/03_KZS_3708-524.jpg",
+      "sha256": "d5a87f42a765a02eb811076d13c90b11d0bfe68a0ebce22c62b4d5589a49c19c",
+      "git_blob_sha": "1420c0de193b7d4f92487e64935bb9ded179b826",
+      "role": "dining-to-kitchen wall identity and controls; not camera",
+      "bytes": 8434125
+    },
+    {
+      "order": 4,
+      "file": "inputs/04_KZS_3659-573.jpg",
+      "sha256": "bbfb30c892c6da272c07a2798cd8791283dba539794ce70589aad694fb51d2ee",
+      "git_blob_sha": "dce9b7d0ecd31b1ce432e2af3aaefe5c8d7f2b8e",
+      "role": "room proportions and floor continuity; not camera",
+      "bytes": 9937102
+    },
+    {
+      "order": 5,
+      "file": "inputs/05_Lennon_right_taupe.jpg",
+      "sha256": "9f855a5a0af9c473169b97bd1b9523df11b76610c3b8f2dfccd47839b15d54b1",
+      "git_blob_sha": "d0fe21a7235ee5463488a847d1aa1843b5cbd047",
+      "role": "sofa product appearance only; factory hand and dimensions remain subject to the original brief and verification",
+      "bytes": 502740
+    },
+    {
+      "order": 6,
+      "file": "inputs/06_Eamy_lightgrey.jpg",
+      "sha256": "3eb2830c375472c5784fa668921d340f8bd1e2bb00be1cc3003f880a4c0e3a91",
+      "git_blob_sha": "bd67a620f8855ad46eec184e6c0f55646b16ab9b",
+      "role": "chair product appearance only; light-grey chenille, natural ash, black metal",
+      "bytes": 29118
+    },
+    {
+      "order": 7,
+      "file": "inputs/07_Somar_L00148FA05.jpg",
+      "sha256": "27bbd51a7b67c8f3131a869e765e09714d3cf654a9945bbc8fedab543d0a2149",
+      "git_blob_sha": "676fd595b888389028c821e02ffd03118da76375",
+      "role": "Somar pendant product appearance only; ignore background",
+      "bytes": 40366
+    },
+    {
+      "order": 8,
+      "file": "inputs/08_Nifelia_200x300.jpg",
+      "sha256": "8071584b73ca01ef2d044ab606ca0157a6f37762b52b79a6ce09e2a130f7909f",
+      "git_blob_sha": "4ce3d1eb27c94be66ea185659aa73c5852612d66",
+      "role": "rug product appearance only; ignore showroom architecture",
+      "bytes": 118763
+    },
+    {
+      "order": 9,
+      "file": "inputs/09_Toni160_DEQ19WES60483-225182.jpg",
+      "sha256": "c415c89a630ad3a5a89b35c22e994cef77385c6a98339d2f74caaf245464f562",
+      "role": "exact Westwing Toni160 light-oak table; DEQ19WES60483-225182, appearance only; ignore background",
+      "bytes": 11861
+    }
+  ],
+  "browser": "Chrome extension",
+  "tabId": "2027661520",
+  "submitted": false
+}

@@ -1,0 +1,58 @@
+{
+  "working_image": "A902_S01_KyotoInk_1_nappali-hero_Cam_12_A__ASTRA_V3_1__padlo_v2.png",
+  "baseline_attachment_count": 4,
+  "failed_pilot_attachment_count": 9,
+  "working_message_sha256": "a350f5bb7436b5606583fcc4e388a471165eb4c7c231c0936c816bae0a639f61",
+  "working_creative_sha256": "c98172a383e0d59c76b5f332d3017877db204f07e0401ff9243e4fe3640ab56f",
+  "working_creative_version": "V3.1",
+  "failed_pilot_creative_version": "V3.3",
+  "baseline_files": [
+    {
+      "sorrend": 1,
+      "fajl": "01_image1_A902_Cam12v3_KORR_semleges_blender.png",
+      "sha256": "8ffd40c0ea76f4473959edd69dfdeb959e8197f3a59418c8fbb27e01fc0d231d",
+      "file": "baseline_reconstructed/inputs/01_image1_A902_Cam12v3_KORR_semleges_blender.png",
+      "verified": true,
+      "bytes": 1360049
+    },
+    {
+      "sorrend": 2,
+      "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+      "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595",
+      "file": "baseline_reconstructed/inputs/02_image2_A902_KZS3695_profi_padlo.jpg",
+      "verified": true,
+      "bytes": 134228
+    },
+    {
+      "sorrend": 3,
+      "fajl": "03_image3_A902_ME-BAL-046_nappali_eloter_fele.jpg",
+      "sha256": "d1f35e57d8d57b9088cc045de5ae6b375fe2a1409f2ea66fab03b459dde0b95b",
+      "file": "baseline_reconstructed/inputs/03_image3_A902_ME-BAL-046_nappali_eloter_fele.jpg",
+      "verified": true,
+      "bytes": 152497
+    },
+    {
+      "sorrend": 4,
+      "fajl": "04_image4_Kave_Home_Somar_L00148FA05_termekfoto.jpg",
+      "sha256": "27bbd51a7b67c8f3131a869e765e09714d3cf654a9945bbc8fedab543d0a2149",
+      "file": "baseline_reconstructed/inputs/04_image4_Kave_Home_Somar_L00148FA05_termekfoto.jpg",
+      "verified": true,
+      "bytes": 40366
+    }
+  ],
+  "exact_original_message_verified": true,
+  "exact_original_creative_verified": true,
+  "baseline_complete": true,
+  "baseline_generated_again": false,
+  "facts": [
+    "Primary Blender file was not byte-identical; working 8ffd40... vs submitted 66a9c6...; this alone does not prove a different camera",
+    "Working floor reference was a crop; submitted full-room photo instead",
+    "Working image3 ME-BAL046 replaced with two different professional room photos",
+    "Working 4-photo package replaced with 9-photo C package including more product images",
+    "Full kitchen placement geometry-lock paragraph 4 omitted in submitted technical block",
+    "V3.1 working creative and V3.3 revision differ, so this was not a controlled operator comparison"
+  ],
+  "cause_conclusion": "Input/method equivalence not established; no causal claim that Chrome, model effort, or one particular image alone caused the failure",
+  "current_pilot_status": "FAILED_USER_REJECTED; not retained as accepted design",
+  "next_step": "Use reconstructed exact 4-file package and exact sent message for any baseline reproduction; new creative C references are a separate subsequent test"
+}
