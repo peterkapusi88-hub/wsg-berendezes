@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-26",
+  "repository": "peterkapusi88-hub/wsg-berendezes",
+  "branch": "execution/a902-s01-kyoto-ink-design-to-budget-20261026",
+  "content_commit": "9e205f950c98a09935b6459e6e6fe9ecd0ebe6c5",
+  "tree": "ece3a65ae2da52d91e0e4202f7322563cbe55486",
+  "verified_files": 341,
+  "mismatches": [],
+  "method": "GitHub recursive tree readback; every local Git blob SHA1 matched; SHA256 file manifest separately included",
+  "required_binaries": [
+    {
+      "path": "execution/a902-s01-kyoto-ink-20261026/blender/A902_Kyoto_Ink_R02.blend",
+      "project_path": "blender/A902_Kyoto_Ink_R02.blend",
+      "bytes": 891895,
+      "sha256": "d4aab277d003fe7a70d250b7e8522b4c07bab62970d9a7ac8f837bdc7c25cf23",
+      "git_blob_sha": "60b461ac0edd8db9da85407c2ef58e92a917962f",
+      "text": false
+    },
+    {
+      "path": "execution/a902-s01-kyoto-ink-20261026/outputs/A902_Kyoto_Ink_elo_regiszter.xlsx",
+      "project_path": "outputs/A902_Kyoto_Ink_elo_regiszter.xlsx",
+      "bytes": 118429,
+      "sha256": "8bdfa8593feec84c6b6e1ea6cb066e8c3dac9041c95ff2be9e70bb4c3d2f890c",
+      "git_blob_sha": "88c1c3e4fe2c231f9e8384515829ad785e032e21",
+      "text": false
+    },
+    {
+      "path": "execution/a902-s01-kyoto-ink-20261026/outputs/A902_R02_rajzcsomag.pdf",
+      "project_path": "outputs/A902_R02_rajzcsomag.pdf",
+      "bytes": 2804928,
+      "sha256": "abbd079b1bfa7e14156a012a112e6e6e01f2322db79d644163a9e41fe8d153b5",
+      "git_blob_sha": "b414c4bb847e2d8d1a0887eed2cdbcce490389a6",
+      "text": false
+    },
+    {
+      "path": "execution/a902-s01-kyoto-ink-20261026/outputs/A902_R02_tulajdonosi_egyoldalas.pdf",
+      "project_path": "outputs/A902_R02_tulajdonosi_egyoldalas.pdf",
+      "bytes": 4354523,
+      "sha256": "166d077152891352420e48a48d486b75c8305b8384a3cfaa65e2f76118c84af8",
+      "git_blob_sha": "391e65cd02f67cf537edd3f5ebf1daaacba8c12f",
+      "text": false
+    }
+  ],
+  "full_project_complete": false,
+  "manufacturing_release": false,
+  "final_render_release": false,
+  "orders_sent": 0,
+  "receipt_note": "This receipt is added in a follow-up commit; FILE_MANIFEST_R02.json verifies the preceding content checkpoint. Local ZIP additionally contains this receipt."
+}
