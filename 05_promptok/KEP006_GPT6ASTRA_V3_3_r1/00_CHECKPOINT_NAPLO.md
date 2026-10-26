@@ -12,3 +12,5 @@ V3.3 CP2.5: S01-S10 creative parity and 17 lighting-luxury priority sheets | bdd
 V3.3 CP3 S01: complete C prompts with CP2.5 design and lighting priorities | 287fc5e748d9fbd101176677a2156c169ff4efd5 | 2026-10-26T14:57:51.356892+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 V3.3 CP3 S02: complete C prompts with CP2.5 design and lighting priorities | 931c0cb26ca5ab19dd141ffdd310b8ed57a1cb0d | 2026-10-26T14:58:18.705967+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+V3.3 CP3 S03: teljes C promptok, kreatív és fényprioritások | 4cd677584fab16014145522e254229e3e7363f99 | 2026-10-26T14:59:42.983478+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
