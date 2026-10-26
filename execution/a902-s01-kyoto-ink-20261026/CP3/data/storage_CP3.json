@@ -1,0 +1,101 @@
+[
+  {
+    "id": "AT8-01",
+    "origin": [
+      22,
+      0,
+      0
+    ],
+    "w": 2580,
+    "d": 1870,
+    "h": 2400,
+    "area": 4.57,
+    "door": "north-right, 750 mm proposal from earlier drawing; hinge field check",
+    "pillar": [
+      240,
+      650,
+      600,
+      410
+    ],
+    "items": [
+      {
+        "id": "AT-R1",
+        "kind": "rack",
+        "x": 50,
+        "y": 50,
+        "w": 800,
+        "d": 380,
+        "h": 1600,
+        "sku": "IKEA JONAXEL 504.199.72"
+      },
+      {
+        "id": "AT-R2",
+        "kind": "rack",
+        "x": 1720,
+        "y": 50,
+        "w": 800,
+        "d": 380,
+        "h": 1600,
+        "sku": "IKEA JONAXEL 504.199.72"
+      },
+      {
+        "id": "AT-FR",
+        "kind": "freezer",
+        "x": 1000,
+        "y": 50,
+        "w": 597,
+        "d": 675,
+        "h": 1455,
+        "sku": "Liebherr FNd 4625 / GN46Vd25 page-name conflict: exact EAN required"
+      }
+    ],
+    "dimension_status": "[J] graphic-read / planning envelope; all finished dimensions, height and door hinge await survey. Area alone did not establish dimensions."
+  },
+  {
+    "id": "T-0-26",
+    "origin": [
+      27,
+      0,
+      0
+    ],
+    "w": 2500,
+    "d": 1600,
+    "h": 2400,
+    "area": 4.0,
+    "door": "actual opening is not identifiable on cadastral page; south access is a conditional arrangement",
+    "pillar": null,
+    "items": [
+      {
+        "id": "T-R1",
+        "kind": "rack",
+        "x": 50,
+        "y": 1000,
+        "w": 850,
+        "d": 550,
+        "h": 1900,
+        "sku": "IKEA BROR s59619405"
+      },
+      {
+        "id": "T-R2",
+        "kind": "rack",
+        "x": 950,
+        "y": 1000,
+        "w": 850,
+        "d": 550,
+        "h": 1900,
+        "sku": "IKEA BROR s59619405"
+      },
+      {
+        "id": "T-LUG",
+        "kind": "luggage",
+        "x": 1900,
+        "y": 1050,
+        "w": 500,
+        "d": 500,
+        "h": 1000,
+        "sku": "owner luggage placeholder, not surveyed"
+      }
+    ],
+    "dimension_status": "[J] graphic-read / planning envelope; all finished dimensions, height and door hinge await survey. Area alone did not establish dimensions."
+  }
+]

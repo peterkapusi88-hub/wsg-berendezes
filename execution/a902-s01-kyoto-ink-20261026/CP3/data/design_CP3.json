@@ -1,0 +1,4755 @@
+{
+  "revision": "KI-CP3-R03",
+  "date": "2026-10-27",
+  "units": [
+    {
+      "id": "K-01",
+      "name": "Sütő és mikro torony",
+      "room": "02",
+      "cost": [
+        "KI-008",
+        "KI-009",
+        "KI-010",
+        "KI-013",
+        "KI-015"
+      ],
+      "w": 600,
+      "d": 600,
+      "h": 2400,
+      "x": 9.15,
+      "y": 1.37,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        600
+      ],
+      "kind": "cabinet",
+      "notes": "Sütőnyílás 564×590×550; mikro 564×365×min300. Sütő alja 600; mikro alja 1280 mm. Gyári átszellőzés és ajtónyitás kötelező. Felső polc 1800 mm. D08/D09 hozzáférés.",
+      "shelves": 2,
+      "drawers": 0,
+      "front": "kréta matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+y",
+      "cp3_bays": [
+        {
+          "id": "K-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 543,
+          "purpose": "Sütő / mikro; zárt felső éléskamra",
+          "shelves_mm": [
+            582,
+            1262,
+            1800,
+            2100
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2070,
+            2350
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.613,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.613,
+        "drawer_l": 0
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "K-02",
+      "name": "Hűtőtorony és felső tároló",
+      "room": "02",
+      "cost": [
+        "KI-008",
+        "KI-009",
+        "KI-010",
+        "KI-013",
+        "KI-015"
+      ],
+      "w": 600,
+      "d": 620,
+      "h": 2400,
+      "x": 9.93,
+      "y": 3.43,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        600
+      ],
+      "kind": "cabinet",
+      "notes": "KIN86VSE0 1772×541×548; 1780×564×550 tervezési niche. Alsó/felső szellőzés gyári szerelési rajz szerint, nem lezárt lábazat. D13 marad.",
+      "shelves": 1,
+      "drawers": 0,
+      "front": "kréta matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "K-02-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 563,
+          "purpose": "Beépített hűtő + ritka felső tároló",
+          "shelves_mm": [
+            1870
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2350
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.318,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-02_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.318,
+        "drawer_l": 0
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "K-03",
+      "name": "Mosogató alsó",
+      "room": "02",
+      "cost": [
+        "KI-006",
+        "KI-009",
+        "KI-010",
+        "KI-015"
+      ],
+      "w": 800,
+      "d": 620,
+      "h": 900,
+      "x": 9.93,
+      "y": 2.57,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        800
+      ],
+      "kind": "cabinet",
+      "notes": "700×500 mosogató cél; kivágás csak végleges sablonról. Szifon mögött 100 mm szerelősáv; kivehető tálca. Nem két teljes mélységű fiók.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "K-03-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 800,
+          "clear_w": 764,
+          "clear_d": 463,
+          "purpose": "Mosogató / hulladék / kihúzható csap tömlője",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            664,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-03_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "K-04",
+      "name": "Mosogatógép helye és frontja",
+      "room": "02",
+      "cost": [
+        "KI-006",
+        "KI-009",
+        "KI-013",
+        "KI-015"
+      ],
+      "w": 600,
+      "d": 620,
+      "h": 900,
+      "x": 9.93,
+      "y": 1.97,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        600
+      ],
+      "kind": "appliance",
+      "notes": "600 mm szabad gépnyílás, nem 600-as zárt korpusz! SMV4EVX00E: 598×550×815; niche min600×550×815. Nyitott gép teljes mélysége1150. Pult külön alátámasztása; front és lábazat gyári ajtósablon szerint.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/K-04_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "K-05",
+      "name": "Főzőlap alatti fiókos",
+      "room": "02",
+      "cost": [
+        "KI-006",
+        "KI-009",
+        "KI-010",
+        "KI-015"
+      ],
+      "w": 600,
+      "d": 620,
+      "h": 900,
+      "x": 8.47,
+      "y": 2.42,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        600
+      ],
+      "kind": "cabinet",
+      "notes": "PUE611BB5E kivágás 560×490–500, test 592×522×51 mm; szellőzés és hővédő elválasztó a gyári rajz szerint. A 860 mm folyosó nyitott fióknál nem átjáró.",
+      "shelves": 0,
+      "drawers": 3,
+      "front": "grafit matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [
+        {
+          "id": "K-05-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 563,
+          "purpose": "Evőeszköz / főzőeszköz / edény",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 3,
+          "drawer_z": [
+            100,
+            320,
+            560
+          ],
+          "drawer_inner_mm": [
+            464,
+            450,
+            170
+          ],
+          "runner_mm": 500,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 106.5,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-05_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 106.5
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "K-06",
+      "name": "Előkészítő fiókos",
+      "room": "02",
+      "cost": [
+        "KI-006",
+        "KI-009",
+        "KI-010",
+        "KI-015"
+      ],
+      "w": 1000,
+      "d": 620,
+      "h": 900,
+      "x": 8.47,
+      "y": 3.02,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        500,
+        500
+      ],
+      "kind": "cabinet",
+      "notes": "2×500 mm modul; evőeszköz, edény, nehéz kisgépek. Pult 38 mm F274 család; oldalt 20 mm takarás.",
+      "shelves": 0,
+      "drawers": 6,
+      "front": "grafit matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [
+        {
+          "id": "K-06-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 500,
+          "clear_w": 464,
+          "clear_d": 563,
+          "purpose": "Előkészítés alatti élelmiszer / eszköz",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 3,
+          "drawer_z": [
+            100,
+            320,
+            560
+          ],
+          "drawer_inner_mm": [
+            364,
+            450,
+            170
+          ],
+          "runner_mm": 500,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 83.5,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "K-06-B02",
+          "bay": 2,
+          "offset": 500,
+          "module_w": 500,
+          "clear_w": 464,
+          "clear_d": 563,
+          "purpose": "Edény / száraz készlet",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 3,
+          "drawer_z": [
+            100,
+            320,
+            560
+          ],
+          "drawer_inner_mm": [
+            364,
+            450,
+            170
+          ],
+          "runner_mm": 500,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 83.5,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-06_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 167.0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "K-07",
+      "name": "Mosogató feletti felsők",
+      "room": "02",
+      "cost": [
+        "KI-007",
+        "KI-009",
+        "KI-010",
+        "KI-015"
+      ],
+      "w": 1400,
+      "d": 350,
+      "h": 900,
+      "x": 10.18,
+      "y": 1.97,
+      "z": 1.45,
+      "rot": 90,
+      "modules": [
+        600,
+        800
+      ],
+      "kind": "cabinet",
+      "notes": "Alja 1450 mm tervezési szint; felnyitó helyett nyíló front. FL01 és pultfény szerelősáv szabad; felfüggesztő sín falanyaghoz méretezendő.",
+      "shelves": 2,
+      "drawers": 0,
+      "front": "kréta matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "K-07-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 293,
+          "purpose": "Pohár / napi étkészlet",
+          "shelves_mm": [
+            300,
+            600
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            200,
+            150
+          ],
+          "runner_mm": 250,
+          "lights_mm": [
+            570,
+            850
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.331,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "K-07-B02",
+          "bay": 2,
+          "offset": 600,
+          "module_w": 800,
+          "clear_w": 764,
+          "clear_d": 293,
+          "purpose": "Tányér / száraz készlet",
+          "shelves_mm": [
+            300,
+            600
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            664,
+            200,
+            150
+          ],
+          "runner_mm": 250,
+          "lights_mm": [
+            570,
+            850
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.448,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/K-07_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.779,
+        "drawer_l": 0
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "K-08",
+      "name": "Munkalapok és hátfal",
+      "room": "02",
+      "cost": [
+        "KI-011",
+        "KI-012",
+        "KI-014"
+      ],
+      "w": 1460,
+      "d": 620,
+      "h": 38,
+      "x": 9.93,
+      "y": 1.97,
+      "z": 0.9,
+      "rot": 90,
+      "modules": [
+        1460
+      ],
+      "kind": "panel",
+      "notes": "Keleti pult névleges 1460 + nyugati 1600 mm: külön darabok; 38 mm laminált F274 dekorcsalád, pontos felület mintáról. A rajz befoglaló anyagvizsgálat, a hűtőt nem fedi pult. Nettó pult 1.897 m², rendelés 2.18 m² (15%). Hátfal 1.4×0.55=0.77 m² + végek; nyitott elszívóút.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "F274 betonhatás",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Panel: rejtett mechanikus sín, biztosított leakasztás; rögzítési alap és teher ellenőrzendő.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "none",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/K-08_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "TV-01",
+      "name": "W01 torony",
+      "room": "04",
+      "cost": [
+        "KI-030",
+        "KI-032"
+      ],
+      "w": 700,
+      "d": 400,
+      "h": 2330,
+      "x": 3.71,
+      "y": 7.3,
+      "z": 0.55,
+      "rot": 90,
+      "modules": [
+        350,
+        350
+      ],
+      "kind": "cabinet",
+      "notes": "Két nyíló front, folyamatos tusmotívum a szomszéd panellel. 5 polcszint, hosszú fekete fogantyú. Ajtók előtt 700 mm használati hely.",
+      "shelves": 4,
+      "drawers": 0,
+      "front": "textilhatású kréta + tusnyomat",
+      "opening": 400,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [
+        {
+          "id": "TV-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 350,
+          "clear_w": 314,
+          "clear_d": 343,
+          "purpose": "Könyv / dekor; terhelt polcpróba",
+          "shelves_mm": [
+            400,
+            800,
+            1200,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            214,
+            200,
+            150
+          ],
+          "runner_mm": 250,
+          "lights_mm": [
+            770,
+            1570,
+            2280
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.539,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "TV-01-B02",
+          "bay": 2,
+          "offset": 350,
+          "module_w": 350,
+          "clear_w": 314,
+          "clear_d": 343,
+          "purpose": "Könyv / dekor; terhelt polcpróba",
+          "shelves_mm": [
+            400,
+            800,
+            1200,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            214,
+            200,
+            150
+          ],
+          "runner_mm": 250,
+          "lights_mm": [
+            770,
+            1570,
+            2280
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.539,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/TV-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 1.078,
+        "drawer_l": 0
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "TV-02",
+      "name": "W01 alsó médiafal",
+      "room": "04",
+      "cost": [
+        "KI-031",
+        "KI-032"
+      ],
+      "w": 3300,
+      "d": 400,
+      "h": 400,
+      "x": 3.71,
+      "y": 4.7,
+      "z": 0.15,
+      "rot": 90,
+      "modules": [
+        600,
+        600,
+        600,
+        750,
+        750
+      ],
+      "kind": "cabinet",
+      "notes": "Öt nyíló front, 3 mm rések; TV-01 ráépítése külön falrögzítéssel. Bal/szélső szervizmező 300×200. Router szellőzése 20 mm hátsó rés, táp nem zárt fiókban.",
+      "shelves": 1,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 400,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [
+        {
+          "id": "TV-02-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 343,
+          "purpose": "AV; szellőző hát",
+          "shelves_mm": [
+            200
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.193,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "TV-02-B02",
+          "bay": 2,
+          "offset": 600,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 343,
+          "purpose": "AV; kábelút",
+          "shelves_mm": [
+            200
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.193,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "TV-02-B03",
+          "bay": 3,
+          "offset": 1200,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 343,
+          "purpose": "Társasjáték / média",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "TV-02-B04",
+          "bay": 4,
+          "offset": 1800,
+          "module_w": 750,
+          "clear_w": 714,
+          "clear_d": 343,
+          "purpose": "Kivehető játékdoboz",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            614,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "TV-02-B05",
+          "bay": 5,
+          "offset": 2550,
+          "module_w": 750,
+          "clear_w": 714,
+          "clear_d": 343,
+          "purpose": "Kivehető játékdoboz",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            614,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/TV-02_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.386,
+        "drawer_l": 0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "TV-03",
+      "name": "W01 TV hordozó és dekorpanel",
+      "room": "04",
+      "cost": [
+        "KI-030",
+        "KI-032",
+        "KI-034",
+        "KI-114"
+      ],
+      "w": 2600,
+      "d": 36,
+      "h": 2330,
+      "x": 3.674,
+      "y": 4.7,
+      "z": 0.55,
+      "rot": 90,
+      "modules": [
+        650,
+        650,
+        650,
+        650
+      ],
+      "kind": "panel",
+      "notes": "Négy 650-es mező; TV 65 col külön falra rögzített konzolon. A dekorpanel nem teherhordó. Kábelút 40×60 mm javasolt, D16/D17/G pontok előtt levehető mező. Felső LED 2600 mm és függőleges 2330 mm külön profil.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "greige textil + nyomtatott tus",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Panel: rejtett mechanikus sín, biztosított leakasztás; rögzítési alap és teher ellenőrzendő.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/TV-03_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "ART-02",
+      "name": "W02 teljes magasságú művészeti mező",
+      "room": "04",
+      "cost": [
+        "KI-123",
+        "KI-131",
+        "KI-132",
+        "KI-133"
+      ],
+      "w": 2100,
+      "d": 36,
+      "h": 2880,
+      "x": 5.2,
+      "y": 4.052,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        700,
+        700,
+        700
+      ],
+      "kind": "panel",
+      "notes": "3×700 mm hordozó, képfolytonos illesztés. Végleges befoglaló csak kapcsoló/termosztát helyszíni felmérésével. 100–150 mm tiszta kezelősáv. Nem megy ajtóra, kapcsolóra vagy a sarkon át új tusmotívummal.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "greige textilszövés + fekete tus",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Panel: rejtett mechanikus sín, biztosított leakasztás; rögzítési alap és teher ellenőrzendő.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+y",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/ART-02_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "ART-07",
+      "name": "W07 visszaforduló csendes felület",
+      "room": "07",
+      "cost": [
+        "KI-124",
+        "KI-127",
+        "KI-128"
+      ],
+      "w": 1530,
+      "d": 18,
+      "h": 2880,
+      "x": 3.67,
+      "y": 3.96,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        1530
+      ],
+      "kind": "panel",
+      "notes": "Max18 mm rétegrend; K25–K27 és D46 kezelhető. Nyomat nélkül folytatott alapszín. Sarkon 3 mm árnyékrés, nem vastag relief.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "greige vlies",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Panel: rejtett mechanikus sín, biztosított leakasztás; rögzítési alap és teher ellenőrzendő.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/ART-07_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "CF-01",
+      "name": "Grafit dohányzó dobozasztal",
+      "room": "04",
+      "cost": [
+        "KI-037"
+      ],
+      "w": 700,
+      "d": 450,
+      "h": 350,
+      "x": 4.25,
+      "y": 6.4,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        700
+      ],
+      "kind": "table",
+      "notes": "V3.3 prompt szerinti 700×450×350 mm; 18 mm hordozó + matt laminát; 2 mm ABS; rejtett 20 mm talp, filc. Tervezett tömeg/hajlás gyártóval ellenőrizendő.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 0,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/CF-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "ST-01",
+      "name": "Grafit mellékkocka",
+      "room": "04",
+      "cost": [
+        "KI-038"
+      ],
+      "w": 300,
+      "d": 300,
+      "h": 450,
+      "x": 6.0,
+      "y": 4.42,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        300
+      ],
+      "kind": "table",
+      "notes": "300×300×450 mm; azonos grafit laminát és él mint CF-01.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 0,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/ST-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "WN-01",
+      "name": "Északi gardrób",
+      "room": "05.1",
+      "cost": [
+        "KI-048",
+        "KI-050",
+        "KI-051",
+        "KI-052"
+      ],
+      "w": 2920,
+      "d": 600,
+      "h": 2840,
+      "x": 0.05,
+      "y": 8.3,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        730,
+        730,
+        730,
+        730
+      ],
+      "kind": "cabinet",
+      "notes": "3020 mm tervfülke: 50+2920+50 mm névleges. Egyedi korpusz; PAX 2994 mm helyett szerelhetőbb ajánlati változat. 1 hosszú akasztós, 1 dupla akasztós, 2 polcos/fiókos modul. Front felső vízszintes osztás 2360 mm-nél. Belső kiosztás külön I-WN-01 lapon;2360mm felső osztó,480mm felső tároló. ",
+      "shelves": 8,
+      "drawers": 4,
+      "front": "kréta + folytonos tusnyomat",
+      "opening": 750,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "interior": [
+        {
+          "bay": 1,
+          "shelves_mm": [
+            2200
+          ],
+          "rails_mm": [
+            1700
+          ],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 2,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            900,
+            1800
+          ],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 3,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            900,
+            1800
+          ],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 4,
+          "shelves_mm": [
+            900,
+            1250,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "drawers": 4,
+          "rail_type": "oldalfalak közötti"
+        }
+      ],
+      "cp3_bays": [
+        {
+          "id": "WN-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 730,
+          "clear_w": 694,
+          "clear_d": 543,
+          "purpose": "Hosszú ruhák + két lapos fiók",
+          "shelves_mm": [
+            2342
+          ],
+          "rails_mm": [
+            2110
+          ],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [
+            654
+          ],
+          "drawers": 2,
+          "drawer_z": [
+            80,
+            270
+          ],
+          "drawer_inner_mm": [
+            594,
+            450,
+            130
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2320,
+            2790
+          ],
+          "rail_m": 0.654,
+          "shelf_m2": 0.377,
+          "drawer_l": 69.5,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WN-01-B02",
+          "bay": 2,
+          "offset": 730,
+          "module_w": 730,
+          "clear_w": 694,
+          "clear_d": 543,
+          "purpose": "Dupla akasztás; felső CONERO lift",
+          "shelves_mm": [
+            2342
+          ],
+          "rails_mm": [
+            1040,
+            2160
+          ],
+          "lift_rails_mm": [
+            2160
+          ],
+          "rod_lengths_mm": [
+            654,
+            534
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            594,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2320,
+            2790
+          ],
+          "rail_m": 1.188,
+          "shelf_m2": 0.377,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WN-01-B03",
+          "bay": 3,
+          "offset": 1460,
+          "module_w": 730,
+          "clear_w": 694,
+          "clear_d": 543,
+          "purpose": "Dupla akasztás; felső CONERO lift",
+          "shelves_mm": [
+            2342
+          ],
+          "rails_mm": [
+            1040,
+            2160
+          ],
+          "lift_rails_mm": [
+            2160
+          ],
+          "rod_lengths_mm": [
+            654,
+            534
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            594,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2320,
+            2790
+          ],
+          "rail_m": 1.188,
+          "shelf_m2": 0.377,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WN-01-B04",
+          "bay": 4,
+          "offset": 2190,
+          "module_w": 730,
+          "clear_w": 694,
+          "clear_d": 543,
+          "purpose": "Hat fiók, táskák, hajtogatott ruhák",
+          "shelves_mm": [
+            1500,
+            1830,
+            2160,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 6,
+          "drawer_z": [
+            100,
+            310,
+            520,
+            730,
+            940,
+            1150
+          ],
+          "drawer_inner_mm": [
+            594,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            1470,
+            1800,
+            2130,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.507,
+          "drawer_l": 240.6,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/WN-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 3.03,
+        "shelf_m2": 2.638,
+        "drawer_l": 310.1
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "WS-01",
+      "name": "Déli sekély gardrób",
+      "room": "05.1",
+      "cost": [
+        "KI-049",
+        "KI-050",
+        "KI-051",
+        "KI-052"
+      ],
+      "w": 2380,
+      "d": 480,
+      "h": 2840,
+      "x": 0.02,
+      "y": 3.47,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        595,
+        595,
+        595,
+        595
+      ],
+      "kind": "cabinet",
+      "notes": "2420 mm fülke, 20 mm kétoldali hézag. 480 mm teljes mélység miatt hajtogatott ruhák + keresztirányú kihúzható akasztó; normál 580 mm PAX nem bizonyított. 4 modul, 3 polcos, 1 kihúzható. Belső kiosztás külön I-WS-01 lapon;2360mm felső osztó,480mm felső tároló. Sekély elem: homlokirányú kihúzható vállfatartó, normál keresztirányú vállfa nem feltételezett.",
+      "shelves": 12,
+      "drawers": 2,
+      "front": "kréta matt",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+y",
+      "interior": [
+        {
+          "bay": 1,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            1750
+          ],
+          "drawers": 0,
+          "rail_type": "kihúzható homlokirányú"
+        },
+        {
+          "bay": 2,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            1750
+          ],
+          "drawers": 0,
+          "rail_type": "kihúzható homlokirányú"
+        },
+        {
+          "bay": 3,
+          "shelves_mm": [
+            800,
+            1200,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "drawers": 2,
+          "rail_type": "kihúzható homlokirányú"
+        },
+        {
+          "bay": 4,
+          "shelves_mm": [
+            400,
+            800,
+            1200,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "drawers": 0,
+          "rail_type": "kihúzható homlokirányú"
+        }
+      ],
+      "cp3_bays": [
+        {
+          "id": "WS-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 423,
+          "purpose": "Cipők; sík, állítható polcok",
+          "shelves_mm": [
+            280,
+            560,
+            840,
+            1120,
+            1400,
+            1680,
+            1960,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            250,
+            810,
+            1370,
+            1930,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.892,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WS-01-B02",
+          "bay": 2,
+          "offset": 595,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 423,
+          "purpose": "Cipők; magas csizmák alsó 540 mm",
+          "shelves_mm": [
+            560,
+            840,
+            1120,
+            1400,
+            1680,
+            1960,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            530,
+            1090,
+            1650,
+            2310,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.655,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WS-01-B03",
+          "bay": 3,
+          "offset": 1190,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 423,
+          "purpose": "Táskák + négy fiók",
+          "shelves_mm": [
+            1080,
+            1450,
+            1820,
+            2160,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 4,
+          "drawer_z": [
+            100,
+            310,
+            520,
+            730
+          ],
+          "drawer_inner_mm": [
+            459,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            1050,
+            1420,
+            1790,
+            2130,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.182,
+          "drawer_l": 96.4,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "WS-01-B04",
+          "bay": 4,
+          "offset": 1785,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 423,
+          "purpose": "Napi háztartási eszközök; felső zárható vegyszer",
+          "shelves_mm": [
+            1900,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            1870,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 0.473,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "háztartás"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/WS-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 5.202,
+        "drawer_l": 96.4
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "HB-01",
+      "name": "Kárpitozott aszimmetrikus fejvég",
+      "room": "05.1",
+      "cost": [
+        "KI-046",
+        "KI-047",
+        "KI-118"
+      ],
+      "w": 2700,
+      "d": 60,
+      "h": 1500,
+      "x": 3.49,
+      "y": 5.05,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        1800,
+        900
+      ],
+      "kind": "upholstery",
+      "notes": "Két külön levehető panel; 18 mm rétegelt lemez, 30 mm hab, vatta és textil. Bal mező taupe, jobb grafit; tetején alu/opal LED profil, hozzáférhető tápegység az éjjeliből. Nincs új grafika felette.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "taupe/grafit kárpit",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/HB-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "NT-L",
+      "name": "Grafit éjjeli L",
+      "room": "05.1",
+      "cost": [
+        "KI-053"
+      ],
+      "w": 300,
+      "d": 420,
+      "h": 450,
+      "x": 3.07,
+      "y": 5.12,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        300
+      ],
+      "kind": "cabinet",
+      "notes": "2×210 mm névleges fiókelőlap; 350 mm sín cél, végleges vasalatra szabás. Kábel átvezető a hátlapon; D21/D23 hozzáférés.",
+      "shelves": 0,
+      "drawers": 2,
+      "front": "grafit matt",
+      "opening": 400,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "NT-L-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 300,
+          "clear_w": 264,
+          "clear_d": 363,
+          "purpose": "Két éjjeli fiók",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 2,
+          "drawer_z": [
+            22,
+            192
+          ],
+          "drawer_inner_mm": [
+            164,
+            300,
+            140
+          ],
+          "runner_mm": 350,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 13.8,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/NT-L_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 13.8
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "NT-R",
+      "name": "Grafit éjjeli R",
+      "room": "05.1",
+      "cost": [
+        "KI-053"
+      ],
+      "w": 300,
+      "d": 420,
+      "h": 450,
+      "x": 3.07,
+      "y": 7.35,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        300
+      ],
+      "kind": "cabinet",
+      "notes": "2×210 mm névleges fiókelőlap; 350 mm sín cél, végleges vasalatra szabás. Kábel átvezető a hátlapon; D21/D23 hozzáférés.",
+      "shelves": 0,
+      "drawers": 2,
+      "front": "grafit matt",
+      "opening": 400,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "NT-R-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 300,
+          "clear_w": 264,
+          "clear_d": 363,
+          "purpose": "Két éjjeli fiók",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 2,
+          "drawer_z": [
+            22,
+            192
+          ],
+          "drawer_inner_mm": [
+            164,
+            300,
+            140
+          ],
+          "runner_mm": 350,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 13.8,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/NT-R_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 13.8
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "W52-01",
+      "name": "05.2 gardrób",
+      "room": "05.2",
+      "cost": [
+        "KI-060",
+        "KI-061"
+      ],
+      "w": 2380,
+      "d": 600,
+      "h": 2840,
+      "x": 0.02,
+      "y": 2.72,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        595,
+        595,
+        595,
+        595
+      ],
+      "kind": "cabinet",
+      "notes": "2 akasztós + 2 polcos; 4 fiók. 2380 mm egyedi szélesség, 20 mm kétoldali takarás. Fehér/kréta alapon egy keskeny grafit mező. Belső kiosztás külön I-W52-01 lapon;2360mm felső osztó,480mm felső tároló. ",
+      "shelves": 11,
+      "drawers": 4,
+      "front": "kréta/grafit",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "interior": [
+        {
+          "bay": 1,
+          "shelves_mm": [
+            2200
+          ],
+          "rails_mm": [
+            1700
+          ],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 2,
+          "shelves_mm": [
+            2200
+          ],
+          "rails_mm": [
+            1700
+          ],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 3,
+          "shelves_mm": [
+            1000,
+            1500,
+            2000
+          ],
+          "rails_mm": [],
+          "drawers": 4,
+          "rail_type": "oldalfalak közötti"
+        },
+        {
+          "bay": 4,
+          "shelves_mm": [
+            400,
+            800,
+            1200,
+            1600,
+            2000
+          ],
+          "rails_mm": [],
+          "drawers": 0,
+          "rail_type": "oldalfalak közötti"
+        }
+      ],
+      "cp3_bays": [
+        {
+          "id": "W52-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 543,
+          "purpose": "Felnőtt ruhatöbblet; dupla rúd",
+          "shelves_mm": [
+            2342
+          ],
+          "rails_mm": [
+            1040,
+            2160
+          ],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [
+            519,
+            519
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2320,
+            2790
+          ],
+          "rail_m": 1.038,
+          "shelf_m2": 0.304,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "W52-01-B02",
+          "bay": 2,
+          "offset": 595,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 543,
+          "purpose": "Hosszú ruhák; később alacsony gyerekrúd",
+          "shelves_mm": [
+            2342
+          ],
+          "rails_mm": [
+            1960
+          ],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [
+            519
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            2320,
+            2790
+          ],
+          "rail_m": 0.519,
+          "shelf_m2": 0.304,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "W52-01-B03",
+          "bay": 3,
+          "offset": 1190,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 543,
+          "purpose": "Négy fiók; hajtogatott ruhák",
+          "shelves_mm": [
+            1080,
+            1450,
+            1820,
+            2160,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 4,
+          "drawer_z": [
+            100,
+            310,
+            520,
+            730
+          ],
+          "drawer_inner_mm": [
+            459,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            1050,
+            1420,
+            1790,
+            2130,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.518,
+          "drawer_l": 123.9,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        },
+        {
+          "id": "W52-01-B04",
+          "bay": 4,
+          "offset": 1785,
+          "module_w": 595,
+          "clear_w": 559,
+          "clear_d": 543,
+          "purpose": "Játék alul; ruhák felül; állítható polc",
+          "shelves_mm": [
+            450,
+            900,
+            1350,
+            1800,
+            2160,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            459,
+            450,
+            150
+          ],
+          "runner_mm": 500,
+          "lights_mm": [
+            420,
+            1320,
+            2130,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.821,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "ruházat"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/W52-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 1.557,
+        "shelf_m2": 3.947,
+        "drawer_l": 123.9
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "W53-01",
+      "name": "05.3 gardrób",
+      "room": "05.3",
+      "cost": [
+        "KI-072",
+        "KI-073"
+      ],
+      "w": 1800,
+      "d": 450,
+      "h": 2840,
+      "x": 10.9,
+      "y": 4.15,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        600,
+        600,
+        600
+      ],
+      "kind": "cabinet",
+      "notes": "1800×450×2840 sekély gardrób a nyugati déli falszakaszon. Keresztirányú akasztó és polcok; a 180 cm ágy elforgatott, keleti fejvéggel. A fürdőajtó szabad. Nem normál mélységű vállfás tároló. Belső kiosztás külön I-W53-01 lapon;2360mm felső osztó,480mm felső tároló. Sekély elem: homlokirányú kihúzható vállfatartó, normál keresztirányú vállfa nem feltételezett.",
+      "shelves": 6,
+      "drawers": 3,
+      "front": "kréta/grafit",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "interior": [
+        {
+          "bay": 1,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            1750
+          ],
+          "drawers": 0,
+          "rail_type": "kihúzható homlokirányú"
+        },
+        {
+          "bay": 2,
+          "shelves_mm": [
+            2300
+          ],
+          "rails_mm": [
+            1750
+          ],
+          "drawers": 0,
+          "rail_type": "kihúzható homlokirányú"
+        },
+        {
+          "bay": 3,
+          "shelves_mm": [
+            900,
+            1400,
+            1900
+          ],
+          "rails_mm": [],
+          "drawers": 3,
+          "rail_type": "kihúzható homlokirányú"
+        }
+      ],
+      "cp3_bays": [
+        {
+          "id": "W53-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 393,
+          "purpose": "Vendégruha; előre kihúzható 350 mm rúd",
+          "shelves_mm": [
+            1800,
+            2160,
+            2342
+          ],
+          "rails_mm": [
+            1700
+          ],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [
+            350
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            300,
+            150
+          ],
+          "runner_mm": 350,
+          "lights_mm": [
+            1770,
+            2310,
+            2790
+          ],
+          "rail_m": 0.35,
+          "shelf_m2": 0.665,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "W53-01-B02",
+          "bay": 2,
+          "offset": 600,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 393,
+          "purpose": "Iratok / mappák; 5 állítható polc",
+          "shelves_mm": [
+            440,
+            880,
+            1320,
+            1760,
+            2200,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            464,
+            300,
+            150
+          ],
+          "runner_mm": 350,
+          "lights_mm": [
+            850,
+            1730,
+            2310,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.33,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "W53-01-B03",
+          "bay": 3,
+          "offset": 1200,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 393,
+          "purpose": "Négy fiók; irodaszer / vendégtextil",
+          "shelves_mm": [
+            1080,
+            1450,
+            1820,
+            2160,
+            2342
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 4,
+          "drawer_z": [
+            100,
+            310,
+            520,
+            730
+          ],
+          "drawer_inner_mm": [
+            464,
+            300,
+            150
+          ],
+          "runner_mm": 350,
+          "lights_mm": [
+            1050,
+            1790,
+            2310,
+            2790
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.108,
+          "drawer_l": 83.5,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/W53-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.35,
+        "shelf_m2": 3.103,
+        "drawer_l": 83.5
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "ENT-01",
+      "name": "Előtéri kabát és cipő",
+      "room": "01",
+      "cost": [
+        "KI-082",
+        "KI-085"
+      ],
+      "w": 860,
+      "d": 540,
+      "h": 2840,
+      "x": 8.39,
+      "y": 1.37,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        430,
+        430
+      ],
+      "kind": "cabinet",
+      "notes": "1000 mm hosszú fülke; 860 mm bútor + takarás; keresztirányú akasztó, 5 cipőpolc, felső szezonális rekesz. Kaputelefon/elosztó nem takarható.",
+      "shelves": 4,
+      "drawers": 0,
+      "front": "kréta matt",
+      "opening": 450,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Belső fiók mögött 155° nulla-benyúlású pánt szükséges; többi ajtón 110° jelölt. A falvégi pánt/oldaltakaró és lift ütközése külön gyártói kapu.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "ENT-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 430,
+          "clear_w": 394,
+          "clear_d": 483,
+          "purpose": "Napi kabát előre kihúzható rúdon",
+          "shelves_mm": [
+            450,
+            2200,
+            2600
+          ],
+          "rails_mm": [
+            2000
+          ],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [
+            350
+          ],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            294,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            2170,
+            2570
+          ],
+          "rail_m": 0.35,
+          "shelf_m2": 0.571,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        },
+        {
+          "id": "ENT-01-B02",
+          "bay": 2,
+          "offset": 430,
+          "module_w": 430,
+          "clear_w": 394,
+          "clear_d": 483,
+          "purpose": "Cipő, kutyapóráz, tiszta törlő; zárható felső",
+          "shelves_mm": [
+            320,
+            640,
+            960,
+            1280,
+            1640,
+            2000,
+            2400
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            294,
+            350,
+            150
+          ],
+          "runner_mm": 400,
+          "lights_mm": [
+            610,
+            1250,
+            1970,
+            2370
+          ],
+          "rail_m": 0.0,
+          "shelf_m2": 1.332,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/ENT-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.35,
+        "shelf_m2": 1.903,
+        "drawer_l": 0
+      },
+      "internal_light": "Belső fény a rekeszjegyzék szerint."
+    },
+    {
+      "id": "ENT-02",
+      "name": "Előtéri pad és fogas",
+      "room": "01",
+      "cost": [
+        "KI-083"
+      ],
+      "w": 800,
+      "d": 350,
+      "h": 450,
+      "x": 5.65,
+      "y": 0.15,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        800
+      ],
+      "kind": "bench",
+      "notes": "18 mm korpusz, 30 mm kárpitozott ülőlap. 800×1200 fogaspanel falra, rögzítés feltárás után.",
+      "shelves": 1,
+      "drawers": 0,
+      "front": "grafit/taupe",
+      "opening": 0,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+y",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/ENT-02_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "HALL-01",
+      "name": "Közlekedő keskeny lerakó",
+      "room": "07",
+      "cost": [
+        "KI-086"
+      ],
+      "w": 600,
+      "d": 150,
+      "h": 180,
+      "x": 4.2,
+      "y": 3.78,
+      "z": 0.8,
+      "rot": 0,
+      "modules": [
+        600
+      ],
+      "kind": "shelf",
+      "notes": "150 mm mély, csak holttérben; a 900 mm fő közlekedést vagy kapcsolókat érintő elhelyezés elvetendő.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 0,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "none",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/HALL-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "B62-01",
+      "name": "06.2 integrált mosdóbútor",
+      "room": "06.2",
+      "cost": [
+        "KI-092",
+        "KI-095",
+        "KI-096"
+      ],
+      "w": 900,
+      "d": 500,
+      "h": 350,
+      "x": 15.88,
+      "y": 6.02,
+      "z": 0.5,
+      "rot": 90,
+      "modules": [
+        900
+      ],
+      "kind": "cabinet",
+      "notes": "900×500×350 mm feltételes szélesség; mosdóperem 850 mm cél. Szifon körül 250×200 mm U-kivágás csak szerelési sablonból. Meglévő Smyle kerámia nem vágható. Szükség esetén beépíthető mosdó külön KI-095 kerettel.",
+      "shelves": 0,
+      "drawers": 2,
+      "front": "vízálló grafit",
+      "opening": 450,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "B62-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 900,
+          "clear_w": 864,
+          "clear_d": 443,
+          "purpose": "Felső szifonos, alsó hajápolás",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 2,
+          "drawer_z": [
+            22,
+            192
+          ],
+          "drawer_inner_mm": [
+            764,
+            350,
+            140
+          ],
+          "runner_mm": 400,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 67.9,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/B62-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 67.9
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "B62-02",
+      "name": "06.2 oldalsó zárt tároló",
+      "room": "06.2",
+      "cost": [
+        "KI-094"
+      ],
+      "w": 300,
+      "d": 200,
+      "h": 800,
+      "x": 16.18,
+      "y": 7.02,
+      "z": 1.05,
+      "rot": 90,
+      "modules": [
+        300
+      ],
+      "kind": "cabinet",
+      "notes": "Nedvességálló zárt szekrény; zuhanyzóna és tükör oldalán felmérendő; 3 polc, rejtett pánt.",
+      "shelves": 3,
+      "drawers": 0,
+      "front": "vízálló grafit",
+      "opening": 300,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "B62-02-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 300,
+          "clear_w": 264,
+          "clear_d": 143,
+          "purpose": "Kis pipere; nem mély flakon",
+          "shelves_mm": [
+            240,
+            500
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            164,
+            300,
+            150
+          ],
+          "runner_mm": 350,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.076,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/B62-02_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.076,
+        "drawer_l": 0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "B61-01",
+      "name": "06.1 mosdó alatti tároló",
+      "room": "06.1",
+      "cost": [
+        "KI-098"
+      ],
+      "w": 600,
+      "d": 450,
+      "h": 350,
+      "x": 5.0,
+      "y": 1.25,
+      "z": 0.45,
+      "rot": 90,
+      "modules": [
+        600
+      ],
+      "kind": "cabinet",
+      "notes": "Szifonkivágás sablon szerint; meglévő medence és szerelvény marad. Az alsó fiók sekélyebb; vizes illesztések teljesen lezárva.",
+      "shelves": 0,
+      "drawers": 2,
+      "front": "vízálló grafit",
+      "opening": 400,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "B61-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 600,
+          "clear_w": 564,
+          "clear_d": 393,
+          "purpose": "Szifonos felső + alsó törölköző",
+          "shelves_mm": [],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 2,
+          "drawer_z": [
+            22,
+            192
+          ],
+          "drawer_inner_mm": [
+            464,
+            300,
+            140
+          ],
+          "runner_mm": 350,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.0,
+          "drawer_l": 32.0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/B61-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 32.0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "WC-01",
+      "name": "WC tároló és tükör",
+      "room": "08",
+      "cost": [
+        "KI-101"
+      ],
+      "w": 450,
+      "d": 180,
+      "h": 700,
+      "x": 5.34,
+      "y": 2.85,
+      "z": 1.1,
+      "rot": 90,
+      "modules": [
+        450
+      ],
+      "kind": "cabinet",
+      "notes": "Aknaajtó, vízóra és szellőző előtt nem szerelhető. Rejtett vízálló hát és biztonsági fóliás tükör; 2 polc.",
+      "shelves": 2,
+      "drawers": 0,
+      "front": "kréta matt",
+      "opening": 300,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-x",
+      "cp3_bays": [
+        {
+          "id": "WC-01-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 450,
+          "clear_w": 414,
+          "clear_d": 123,
+          "purpose": "Papír / tiszta tartalék",
+          "shelves_mm": [
+            220,
+            440
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 0,
+          "drawer_z": [],
+          "drawer_inner_mm": [
+            314,
+            200,
+            150
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.102,
+          "drawer_l": 0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/WC-01_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.102,
+        "drawer_l": 0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "DS52",
+      "name": "05.2 kompakt íróasztal",
+      "room": "05.2",
+      "cost": [
+        "KI-062"
+      ],
+      "w": 1000,
+      "d": 450,
+      "h": 750,
+      "x": 0.05,
+      "y": 0.35,
+      "z": 0,
+      "rot": 90,
+      "modules": [
+        1000
+      ],
+      "kind": "table",
+      "notes": "A 1200×700 TROTTEN túl mély az ágy melletti használati helyhez. 1000×450×750 matt grafit asztal, 18+18 mm duplázott lap, acél láb; ergonómia ülőpróbával.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "grafit matt",
+      "opening": 0,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Saját szerkezet szerinti rögzítés; falra rögzítést statikailag ellenőrizni.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "+x",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/DS52_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    },
+    {
+      "id": "NT-64",
+      "name": "Kisebb háló éjjeli",
+      "room": "05.2",
+      "cost": [
+        "KI-064"
+      ],
+      "w": 350,
+      "d": 350,
+      "h": 450,
+      "x": 0.95,
+      "y": 1.8,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        350
+      ],
+      "kind": "cabinet",
+      "notes": "",
+      "shelves": 1,
+      "drawers": 1,
+      "front": "grafit matt",
+      "opening": 300,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "cp3_bays": [
+        {
+          "id": "NT-64-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 350,
+          "clear_w": 314,
+          "clear_d": 293,
+          "purpose": "Fiók + nyitott rekesz",
+          "shelves_mm": [
+            210
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 1,
+          "drawer_z": [
+            22
+          ],
+          "drawer_inner_mm": [
+            214,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.092,
+          "drawer_l": 6.0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/NT-64_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.092,
+        "drawer_l": 6.0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "NT-76",
+      "name": "Kisebb háló éjjeli",
+      "room": "05.3",
+      "cost": [
+        "KI-076"
+      ],
+      "w": 350,
+      "d": 350,
+      "h": 450,
+      "x": 13.1,
+      "y": 6.13,
+      "z": 0,
+      "rot": 0,
+      "modules": [
+        350
+      ],
+      "kind": "cabinet",
+      "notes": "",
+      "shelves": 1,
+      "drawers": 1,
+      "front": "grafit matt",
+      "opening": 300,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "-y",
+      "cp3_bays": [
+        {
+          "id": "NT-76-B01",
+          "bay": 1,
+          "offset": 0,
+          "module_w": 350,
+          "clear_w": 314,
+          "clear_d": 293,
+          "purpose": "Fiók + nyitott rekesz",
+          "shelves_mm": [
+            210
+          ],
+          "rails_mm": [],
+          "lift_rails_mm": [],
+          "rod_lengths_mm": [],
+          "drawers": 1,
+          "drawer_z": [
+            22
+          ],
+          "drawer_inner_mm": [
+            214,
+            200,
+            140
+          ],
+          "runner_mm": 250,
+          "lights_mm": [],
+          "rail_m": 0.0,
+          "shelf_m2": 0.092,
+          "drawer_l": 6.0,
+          "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+          "storage_role": "vegyes / vendég / munka"
+        }
+      ],
+      "drawings_cp3": "CP3/drawings/NT-76_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "capacity": {
+        "rail_m": 0.0,
+        "shelf_m2": 0.092,
+        "drawer_l": 6.0
+      },
+      "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
+    },
+    {
+      "id": "K-09",
+      "name": "Nyugati munkalap",
+      "room": "02",
+      "cost": [
+        "KI-011",
+        "KI-012",
+        "KI-014"
+      ],
+      "w": 1600,
+      "d": 620,
+      "h": 38,
+      "x": 8.47,
+      "y": 2.42,
+      "z": 0.9,
+      "rot": 90,
+      "modules": [
+        1600
+      ],
+      "kind": "panel",
+      "notes": "Keleti pult névleges 1460 + nyugati 1600 mm: külön darabok; 38 mm laminált F274 dekorcsalád, pontos felület mintáról. A rajz befoglaló anyagvizsgálat, a hűtőt nem fedi pult. Nettó pult 1.897 m², rendelés 2.18 m² (15%). Hátfal 1.4×0.55=0.77 m² + végek; nyitott elszívóút.",
+      "shelves": 0,
+      "drawers": 0,
+      "front": "F274 betonhatás",
+      "opening": 600,
+      "revision": "KI-CP3-R03",
+      "date": "2026-10-26",
+      "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+      "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+      "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+      "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+      "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+      "hardware": "Nincs szekrénypánt. Panel: rejtett mechanikus sín, biztosított leakasztás; rögzítési alap és teher ellenőrzendő.",
+      "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+      "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+      "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+      "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+      "opening_dir": "none",
+      "cp3_bays": [],
+      "drawings_cp3": "CP3/drawings/K-09_CP3.pdf",
+      "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+      "internal_light": "Nem zárt tároló: külön belső fény nem érintett. Kapcsolódó dekorfény az R02 világítási tervben."
+    }
+  ],
+  "items": [
+    {
+      "id": "KI-036",
+      "room": "04",
+      "name": "Lennon right L",
+      "sku": "DEQ21WES12329-168260",
+      "w": 1800,
+      "d": 2380,
+      "h": 680,
+      "x": 4.87,
+      "y": 4.77,
+      "rot": 0,
+      "z": 0,
+      "kind": "sofa",
+      "proof": "gyártói befoglaló; kar/modul mesh és kéz iránya még igazolandó"
+    },
+    {
+      "id": "KI-028",
+      "room": "03",
+      "name": "Toni160",
+      "sku": "DEQ19WES60483-225182",
+      "w": 900,
+      "d": 1600,
+      "h": 750,
+      "x": 7.8,
+      "y": 5.4,
+      "rot": 0,
+      "z": 0,
+      "kind": "oval",
+      "proof": "CP1a termékoldal"
+    },
+    {
+      "id": "KI-029-1",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 530,
+      "d": 550,
+      "h": 750,
+      "x": 7.22,
+      "y": 5.57,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-2",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 530,
+      "d": 550,
+      "h": 750,
+      "x": 7.22,
+      "y": 6.26,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-3",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 530,
+      "d": 550,
+      "h": 750,
+      "x": 8.75,
+      "y": 5.57,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-4",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 530,
+      "d": 550,
+      "h": 750,
+      "x": 8.75,
+      "y": 6.26,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-5",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 550,
+      "d": 530,
+      "h": 750,
+      "x": 7.97,
+      "y": 4.82,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-029-6",
+      "room": "03",
+      "name": "Eamy",
+      "sku": "C0100003HE12",
+      "w": 550,
+      "d": 530,
+      "h": 750,
+      "x": 7.97,
+      "y": 7.05,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a termékoldal; ülő és kihúzott állapot külön ellenőrzendő"
+    },
+    {
+      "id": "KI-043",
+      "room": "05.1",
+      "name": "NORDLI",
+      "sku": "203.498.53",
+      "w": 2020,
+      "d": 1800,
+      "h": 300,
+      "x": 1.47,
+      "y": 5.5,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "IKEA gyári méret, 180×202×30 cm elforgatva"
+    },
+    {
+      "id": "KI-058",
+      "room": "05.2",
+      "name": "SLATTUM",
+      "sku": "405.712.48",
+      "w": 2060,
+      "d": 1640,
+      "h": 850,
+      "x": 1.5,
+      "y": 0.05,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "IKEA termékoldal 2026-10-26; déli oldal falhoz közel: egyoldali fő megközelítés, tulajdonosi funkcióegyeztetés kell"
+    },
+    {
+      "id": "KI-070",
+      "room": "05.3",
+      "name": "NORDLI 180×200 fehér",
+      "sku": "203.498.53",
+      "w": 2020,
+      "d": 1800,
+      "h": 300,
+      "x": 12.31,
+      "y": 4.25,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "CP1a NORDLI gyári méret; 180 cm funkció megőrzése"
+    },
+    {
+      "id": "KI-074",
+      "room": "05.3",
+      "name": "TROTTEN kőris/fehér",
+      "sku": "196.219.19",
+      "w": 1200,
+      "d": 700,
+      "h": 750,
+      "x": 12.95,
+      "y": 7.3,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "IKEA gyári befoglaló; északkeleti sarok a nyíló teraszajtó és fürdőajtó közös elkerülésére"
+    },
+    {
+      "id": "KI-063",
+      "room": "05.2",
+      "name": "FLINTAN",
+      "sku": "704.922.02",
+      "w": 710,
+      "d": 710,
+      "h": 1140,
+      "x": 0.55,
+      "y": 0.5,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "IKEA termékoldal, használati hely vizsgálandó"
+    },
+    {
+      "id": "KI-075",
+      "room": "05.3",
+      "name": "FLINTAN",
+      "sku": "704.922.02",
+      "w": 710,
+      "d": 710,
+      "h": 1140,
+      "x": 12.88,
+      "y": 6.55,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "IKEA termékoldal"
+    },
+    {
+      "id": "KI-087",
+      "room": "06.1",
+      "name": "Mosó-szárító torony hely",
+      "sku": "PENDING",
+      "w": 600,
+      "d": 650,
+      "h": 1800,
+      "x": 3.8,
+      "y": 0.95,
+      "rot": 0,
+      "z": 0,
+      "kind": "product",
+      "proof": "600×650×1800 toronyfoglalás; meglévő kád megőrizve. Front és szerviz +y, nyitott fürdőajtóval egyidejű használat nincs igazolva; gyári keretkompatibilitás nyitott."
+    },
+    {
+      "id": "KI-091",
+      "room": "06.2",
+      "name": "100 cm fix zuhanyüveg",
+      "sku": "GL-01",
+      "w": 8,
+      "d": 1000,
+      "h": 2000,
+      "x": 15.35,
+      "y": 7.02,
+      "rot": 0,
+      "z": 0,
+      "kind": "glass",
+      "proof": "1000 mm tulajdonosi igény; szakági vastagság és méret még jóváhagyandó"
+    },
+    {
+      "id": "KI-136",
+      "room": "09",
+      "name": "Jakuzzi hely és szerviz",
+      "sku": "PENDING",
+      "w": 2200,
+      "d": 2200,
+      "h": 900,
+      "x": 4.0,
+      "y": 9.3,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési helyfoglaló, konkrét kád és statika nincs igazolva"
+    },
+    {
+      "id": "KI-138",
+      "room": "10",
+      "name": "Kültéri grafit lounge kanapé",
+      "sku": "RFQ-OUT-01",
+      "w": 2200,
+      "d": 850,
+      "h": 750,
+      "x": 13.7,
+      "y": 11.35,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-139-1",
+      "room": "10",
+      "name": "Kültéri lounge fotel",
+      "sku": "RFQ-OUT-02",
+      "w": 750,
+      "d": 800,
+      "h": 750,
+      "x": 12.0,
+      "y": 10.1,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-139-2",
+      "room": "10",
+      "name": "Kültéri lounge fotel",
+      "sku": "RFQ-OUT-02",
+      "w": 750,
+      "d": 800,
+      "h": 750,
+      "x": 15.3,
+      "y": 10.1,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-140",
+      "room": "10",
+      "name": "Kültéri alacsony asztal",
+      "sku": "RFQ-OUT-03",
+      "w": 800,
+      "d": 600,
+      "h": 350,
+      "x": 14.0,
+      "y": 10.25,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-141",
+      "room": "09",
+      "name": "Kültéri étkezőasztal",
+      "sku": "RFQ-OUT-04",
+      "w": 1800,
+      "d": 900,
+      "h": 750,
+      "x": 6.9,
+      "y": 10.8,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-1",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 6.85,
+      "y": 10.15,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-2",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 7.5,
+      "y": 10.15,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-3",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 8.15,
+      "y": 10.15,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-4",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 6.85,
+      "y": 11.75,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-5",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 7.5,
+      "y": 11.75,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-142-6",
+      "room": "09",
+      "name": "Kültéri szék",
+      "sku": "RFQ-OUT-05",
+      "w": 550,
+      "d": 550,
+      "h": 800,
+      "x": 8.15,
+      "y": 11.75,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-143-1",
+      "room": "WPC",
+      "name": "Napozó",
+      "sku": "RFQ-OUT-06",
+      "w": 650,
+      "d": 1950,
+      "h": 350,
+      "x": 9.4,
+      "y": 9.4,
+      "rot": 0,
+      "z": 0.47,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-143-2",
+      "room": "WPC",
+      "name": "Napozó",
+      "sku": "RFQ-OUT-06",
+      "w": 650,
+      "d": 1950,
+      "h": 350,
+      "x": 10.5,
+      "y": 9.4,
+      "rot": 0,
+      "z": 0.47,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-147",
+      "room": "13",
+      "name": "Párnatároló",
+      "sku": "RFQ-OUT-07",
+      "w": 900,
+      "d": 450,
+      "h": 550,
+      "x": -1.85,
+      "y": 3.85,
+      "rot": 0,
+      "z": -0.15,
+      "kind": "product",
+      "proof": "tervezési befoglaló, gyártó igazolandó"
+    },
+    {
+      "id": "KI-033",
+      "room": "04",
+      "name": "Samsung Q7F65 TV",
+      "sku": "QE65Q7FAAUXXH",
+      "w": 1452.9,
+      "d": 60.6,
+      "h": 834,
+      "x": 3.75,
+      "y": 5.28,
+      "z": 0.95,
+      "rot": 90,
+      "kind": "product",
+      "proof": "gyári méret; konzol40mm tervezési távolság, rögzítés és ár/beszerezhetőség nyitott"
+    }
+  ],
+  "lights": [
+    {
+      "id": "ML01",
+      "source": "A902-ML01",
+      "room": "01 ELŐTÉR",
+      "x": 7.824,
+      "y": 2.449,
+      "circuit": "a",
+      "target": "KI-110",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML02",
+      "source": "A902-ML02",
+      "room": "01 ELŐTÉR",
+      "x": 6.449,
+      "y": 1.324,
+      "circuit": "a",
+      "target": "KI-110",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML03",
+      "source": "A902-ML03",
+      "room": "02 KONYHA",
+      "x": 9.499,
+      "y": 2.699,
+      "circuit": "c",
+      "target": "KI-111",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML04",
+      "source": "A902-ML04",
+      "room": "03 ÉTKEZŐ",
+      "x": 8.549,
+      "y": 6.274,
+      "circuit": "b",
+      "target": "KI-109",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML05",
+      "source": "A902-ML05",
+      "room": "04 NAPPALI",
+      "x": 5.619,
+      "y": 6.274,
+      "circuit": "n,p",
+      "target": "KI-113",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML06",
+      "source": "A902-ML06",
+      "room": "05.1 SZOBA",
+      "x": 1.834,
+      "y": 6.049,
+      "circuit": "t",
+      "target": "KI-116",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML07",
+      "source": "A902-ML07",
+      "room": "05.2 SZOBA",
+      "x": 1.824,
+      "y": 1.324,
+      "circuit": "s",
+      "target": "KI-069",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML08",
+      "source": "A902-ML08",
+      "room": "05.3 SZOBA",
+      "x": 12.812,
+      "y": 6.074,
+      "circuit": "e",
+      "target": "KI-081",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML09",
+      "source": "A902-ML09",
+      "room": "06.1 FÜRDŐ",
+      "x": 4.624,
+      "y": 1.324,
+      "circuit": "k",
+      "target": "KI-120",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML10",
+      "source": "A902-ML10",
+      "room": "06.2 FÜRDŐ",
+      "x": 15.449,
+      "y": 6.624,
+      "circuit": "f",
+      "target": "KI-120",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML11",
+      "source": "A902-ML11",
+      "room": "07 KÖZLEKEDŐ",
+      "x": 3.859,
+      "y": 3.399,
+      "circuit": "r",
+      "target": "KI-110",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "ML12",
+      "source": "A902-ML12",
+      "room": "08 WC",
+      "x": 6.107,
+      "y": 3.024,
+      "circuit": "m",
+      "target": "KI-110",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL01",
+      "source": "A902-FL01",
+      "room": "02 KONYHA",
+      "x": 10.534,
+      "y": 3.149,
+      "circuit": "d",
+      "target": "KI-111",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL02",
+      "source": "A902-FL02",
+      "room": "04 NAPPALI",
+      "x": 3.684,
+      "y": 7.849,
+      "circuit": "",
+      "target": "KI-114",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL03",
+      "source": "A902-FL03",
+      "room": "06.1 FÜRDŐ",
+      "x": 5.484,
+      "y": 1.324,
+      "circuit": "l",
+      "target": "KI-120",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL04",
+      "source": "A902-FL04",
+      "room": "06.2 FÜRDŐ",
+      "x": 16.384,
+      "y": 6.624,
+      "circuit": "g",
+      "target": "KI-120",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL05",
+      "source": "A902-FL05",
+      "room": "09 TERASZ",
+      "x": 6.689,
+      "y": 8.529,
+      "circuit": "v",
+      "target": "KI-145",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL06",
+      "source": "A902-FL06",
+      "room": "10 TERASZ",
+      "x": 12.959,
+      "y": 8.529,
+      "circuit": "h",
+      "target": "KI-145",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "FL07",
+      "source": "A902-FL07",
+      "room": "13 ERKÉLY",
+      "x": -0.466,
+      "y": 3.107,
+      "circuit": "u",
+      "target": "KI-145",
+      "route": "meglévő nyomvonal, felméréssel igazolandó",
+      "driver": "gyári lámpa integrált táp / E27 Hue",
+      "service": "lámpatest gyári szerelőtere; hozzáférhető",
+      "status": "TERV SZERINT; helyszíni ellenőrzés kell",
+      "scene": "általános3000K / este2700K; vizes és kültéri IP gyári megfelelőséggel"
+    },
+    {
+      "id": "L-TV-TOP",
+      "source": "A902-D16",
+      "room": "04 NAPPALI",
+      "x": 3.844,
+      "y": 6.449,
+      "circuit": "",
+      "target": "KI-114",
+      "length_m": 2.6,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "TV-01 alsó szervizmező",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-TV-VERT",
+      "source": "A902-D16",
+      "room": "04 NAPPALI",
+      "x": 3.844,
+      "y": 6.449,
+      "circuit": "",
+      "target": "KI-114",
+      "length_m": 2.33,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "TV-01 alsó szervizmező",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-TV-LOW",
+      "source": "A902-D16",
+      "room": "04 NAPPALI",
+      "x": 3.844,
+      "y": 6.449,
+      "circuit": "",
+      "target": "KI-114",
+      "length_m": 3.3,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "TV-02 szélső rekesz",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-W02",
+      "source": "A902-D19",
+      "room": "04 NAPPALI",
+      "x": 7.149,
+      "y": 4.224,
+      "circuit": "",
+      "target": "KI-115",
+      "length_m": 2.1,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "ART-02 levehető oldalsó mező",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-HB",
+      "source": "A902-D20",
+      "room": "05.1 SZOBA",
+      "x": 3.394,
+      "y": 7.746,
+      "circuit": "",
+      "target": "KI-118",
+      "length_m": 2.7,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "NT-L hozzáférhető táp",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-WN",
+      "source": "A902-D26",
+      "room": "05.1 SZOBA (északi fülke)",
+      "x": 1.088,
+      "y": 8.774,
+      "circuit": "",
+      "target": "KI-119",
+      "length_m": 2.92,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "WN-01 felső szerelőrekesz",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-WS",
+      "source": "A902-D26",
+      "room": "05.1 SZOBA (északi fülke)",
+      "x": 1.088,
+      "y": 8.774,
+      "circuit": "",
+      "target": "KI-119",
+      "length_m": 2.38,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "WS-01 felső szerelőrekesz",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-KITCHEN",
+      "source": "A902-D02",
+      "room": "02 KONYHA",
+      "x": 10.374,
+      "y": 3.829,
+      "circuit": "",
+      "target": "KI-112",
+      "length_m": 1.4,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "K-07 hozzáférhető felső rekesz",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-B62-M",
+      "source": "A902-FL04",
+      "room": "06.2 FÜRDŐ",
+      "x": 16.384,
+      "y": 6.624,
+      "circuit": "g",
+      "target": "KI-121",
+      "length_m": 0.9,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "száraz oldali tápdoboz KI-122",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    },
+    {
+      "id": "L-B62-U",
+      "source": "A902-FL04",
+      "room": "06.2 FÜRDŐ",
+      "x": 16.384,
+      "y": 6.624,
+      "circuit": "g",
+      "target": "KI-121",
+      "length_m": 0.9,
+      "route": "fal/panel szerelősáv; külön folytonos kábelút, toldás csak hozzáférhető dobozban",
+      "driver": "egy gyári kompatibilis Hue készlet/ág vagy jóváhagyott 24V CCT vezérlő+táp; nem feltételezett Hue split",
+      "service": "száraz oldali tápdoboz KI-122",
+      "status": "TÁP/VEZÉRLŐ SKU ÉS MÉRETEZÉS NYITOTT",
+      "scene": "2700K este;22–30% induló dim; helyszíni fénypróba"
+    }
+  ],
+  "rooms": {
+    "05_2": [
+      [
+        0,
+        0,
+        3.65,
+        2.65
+      ]
+    ],
+    "05_2_gardrob": [
+      [
+        0,
+        2.65,
+        2.42,
+        3.35
+      ]
+    ],
+    "05_1": [
+      [
+        0,
+        3.45,
+        2.42,
+        3.95
+      ],
+      [
+        0,
+        3.95,
+        3.57,
+        8.05
+      ]
+    ],
+    "05_1_eszaki": [
+      [
+        0,
+        8.05,
+        3.02,
+        8.95
+      ]
+    ],
+    "kozlekedo": [
+      [
+        2.52,
+        2.75,
+        5.0,
+        3.95
+      ],
+      [
+        5.0,
+        2.75,
+        5.2,
+        2.95
+      ],
+      [
+        5.0,
+        3.45,
+        5.2,
+        3.95
+      ]
+    ],
+    "nappali_etkezo": [
+      [
+        3.67,
+        4.05,
+        10.55,
+        5.05
+      ],
+      [
+        3.67,
+        5.05,
+        10.75,
+        7.025
+      ],
+      [
+        3.67,
+        7.025,
+        9.8,
+        8.05
+      ],
+      [
+        3.67,
+        3.95,
+        5.2,
+        4.05
+      ]
+    ],
+    "konyha": [
+      [
+        9.05,
+        1.35,
+        10.55,
+        2.35
+      ],
+      [
+        8.45,
+        2.35,
+        10.55,
+        4.05
+      ]
+    ],
+    "eloter": [
+      [
+        5.6,
+        0.0,
+        6.7,
+        2.0
+      ],
+      [
+        6.7,
+        0.85,
+        8.35,
+        2.0
+      ],
+      [
+        8.35,
+        1.35,
+        8.95,
+        2.25
+      ]
+    ],
+    "eloter_atjaro": [
+      [
+        7.3,
+        2.0,
+        8.35,
+        4.05
+      ]
+    ],
+    "wc": [
+      [
+        5.6,
+        2.1,
+        6.6,
+        2.75
+      ],
+      [
+        5.3,
+        2.75,
+        6.6,
+        3.25
+      ],
+      [
+        5.3,
+        3.25,
+        6.45,
+        3.95
+      ]
+    ],
+    "furdo_06_1": [
+      [
+        3.75,
+        0,
+        5.5,
+        2.65
+      ]
+    ],
+    "05_3": [
+      [
+        10.85,
+        4.1,
+        14.375,
+        7.025
+      ],
+      [
+        11.1,
+        7.025,
+        14.375,
+        8.05
+      ],
+      [
+        14.375,
+        4.1,
+        15.0,
+        5.1
+      ]
+    ],
+    "furdo_06_2": [
+      [
+        14.475,
+        5.81,
+        16.4,
+        8.05
+      ],
+      [
+        14.475,
+        5.2,
+        15.45,
+        5.81
+      ]
+    ]
+  },
+  "terrace_zones": {
+    "gres_Ny": {
+      "r": [
+        3.44,
+        8.5,
+        9.29,
+        12.4
+      ],
+      "z": -0.15,
+      "butorozhato": true
+    },
+    "gres_K": {
+      "r": [
+        11.39,
+        8.5,
+        16.27,
+        12.4
+      ],
+      "z": -0.15,
+      "butorozhato": true
+    },
+    "WPC_kozepso": {
+      "r": [
+        9.29,
+        8.5,
+        11.39,
+        12.4
+      ],
+      "z": 0.47,
+      "butorozhato": true
+    },
+    "WPC_harant": {
+      "r": [
+        3.44,
+        12.4,
+        16.27,
+        13.41
+      ],
+      "z": 0.47,
+      "butorozhato": true
+    },
+    "WPC_nyelv": {
+      "r": [
+        9.29,
+        13.41,
+        11.39,
+        14.46
+      ],
+      "z": 0.47,
+      "butorozhato": true,
+      "megj": "bejárata a modellben szegéllyel zárt – MÉRENDŐ"
+    },
+    "WPC_panorama": {
+      "r": [
+        7.62,
+        18.95,
+        11.42,
+        19.79
+      ],
+      "z": 0.47,
+      "butorozhato": true,
+      "megj": "megközelítése nincs modellezve – MÉRENDŐ"
+    },
+    "zoldteto": {
+      "r": [
+        3.71,
+        13.41,
+        16.04,
+        19.8
+      ],
+      "z": 0.77,
+      "butorozhato": false,
+      "megj": "terhelhetőség HIÁNYZIK"
+    },
+    "erkely_13": {
+      "r": [
+        -2.01,
+        -0.2,
+        -0.3,
+        5.69
+      ],
+      "z": -0.15,
+      "butorozhato": true
+    },
+    "erkely_13_nyulvany": {
+      "r": [
+        -1.12,
+        5.69,
+        -0.3,
+        7.9
+      ],
+      "z": -0.15,
+      "butorozhato": true
+    }
+  },
+  "fixed_existing": [
+    {
+      "id": "EX-BATH61",
+      "name": "Meglévő kád",
+      "bounds": [
+        3.75,
+        0.05,
+        0,
+        5.45,
+        0.75,
+        0.58
+      ],
+      "room": "06.1",
+      "cost": "KI-103",
+      "status": "forrásmodell; helyszíni egyezés ellenőrizendő"
+    },
+    {
+      "id": "EX-BASIN61",
+      "name": "Meglévő mosdó",
+      "bounds": [
+        5,
+        1.27,
+        0.8,
+        5.45,
+        1.83,
+        0.92
+      ],
+      "room": "06.1",
+      "cost": "KI-098",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-WC08",
+      "name": "Meglévő WC",
+      "bounds": [
+        5.85,
+        3.35,
+        0,
+        6.25,
+        3.9,
+        0.42
+      ],
+      "room": "08",
+      "cost": "KI-103",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-WC62",
+      "name": "Meglévő WC",
+      "bounds": [
+        14.62,
+        5.25,
+        0,
+        15.02,
+        5.8,
+        0.42
+      ],
+      "room": "06.2",
+      "cost": "KI-103",
+      "status": "forrásmodell"
+    },
+    {
+      "id": "EX-BASIN62",
+      "name": "Smyle mosdó helye",
+      "bounds": [
+        15.95,
+        6.02,
+        0.85,
+        16.4,
+        6.88,
+        0.97
+      ],
+      "room": "06.2",
+      "cost": "KI-092",
+      "status": "régi modell16.5ig túllógott a16.4falsíkon;450×860 befoglaló falhoz igazítva, helyszíni/gyári méret nem igazolt"
+    },
+    {
+      "id": "EX-SHOWER62",
+      "name": "Zuhanyzóna megőrzendő",
+      "bounds": [
+        14.62,
+        7.1,
+        0,
+        16.4,
+        7.95,
+        0.03
+      ],
+      "room": "06.2",
+      "cost": "KI-091",
+      "status": "forrásmodell túlmérete korrigált jelölő; nem tálca rendelési méret"
+    }
+  ],
+  "new_cameras": [
+    {
+      "id": "KI_R01",
+      "room": "01",
+      "title": "Előtér / tároló",
+      "location": [
+        7.9,
+        1.6,
+        1.55
+      ],
+      "target": [
+        6,
+        0.45,
+        1.2
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R02",
+      "room": "02",
+      "title": "Konyhai géptorony",
+      "location": [
+        9.48,
+        3.9,
+        1.55
+      ],
+      "target": [
+        9.43,
+        1.65,
+        1.35
+      ],
+      "lens_mm": 22,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R03",
+      "room": "02",
+      "title": "Konyhai két pultsor",
+      "location": [
+        9.4,
+        1.99,
+        1.55
+      ],
+      "target": [
+        9.55,
+        3.8,
+        1.2
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R04",
+      "room": "04",
+      "title": "TV-fal részlet",
+      "location": [
+        6.65,
+        6.3,
+        1.5
+      ],
+      "target": [
+        3.9,
+        6.3,
+        1.5
+      ],
+      "lens_mm": 26,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R05",
+      "room": "04",
+      "title": "W02 grafika",
+      "location": [
+        7.5,
+        6.6,
+        1.55
+      ],
+      "target": [
+        6.25,
+        4.07,
+        1.45
+      ],
+      "lens_mm": 26,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R06",
+      "room": "05.1",
+      "title": "Északi gardrób",
+      "location": [
+        1.5,
+        7.4,
+        1.55
+      ],
+      "target": [
+        1.5,
+        8.65,
+        1.5
+      ],
+      "lens_mm": 18,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R07",
+      "room": "05.1",
+      "title": "Déli gardrób",
+      "location": [
+        1.2,
+        5.2,
+        1.5
+      ],
+      "target": [
+        1.2,
+        3.7,
+        1.45
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R08",
+      "room": "05.2",
+      "title": "Háló és munka",
+      "location": [
+        2.9,
+        2.4,
+        1.55
+      ],
+      "target": [
+        1.35,
+        0.8,
+        1.0
+      ],
+      "lens_mm": 18,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R09",
+      "room": "05.2",
+      "title": "Gardrób és íróasztal",
+      "location": [
+        3.25,
+        0.55,
+        1.55
+      ],
+      "target": [
+        1.1,
+        2.9,
+        1.4
+      ],
+      "lens_mm": 18,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R10",
+      "room": "05.3",
+      "title": "Ágy és gardrób",
+      "location": [
+        13.8,
+        7.65,
+        1.55
+      ],
+      "target": [
+        12.1,
+        4.8,
+        1.05
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R11",
+      "room": "05.3",
+      "title": "Munka és teraszajtó",
+      "location": [
+        12.5,
+        6.7,
+        1.55
+      ],
+      "target": [
+        13.6,
+        7.6,
+        1.1
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R12",
+      "room": "06.1",
+      "title": "Kád, mosdó, mosótorony",
+      "location": [
+        4.55,
+        2.45,
+        1.55
+      ],
+      "target": [
+        4.65,
+        0.65,
+        1.05
+      ],
+      "lens_mm": 16,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R13",
+      "room": "06.2",
+      "title": "Zuhany és tároló",
+      "location": [
+        14.8,
+        6.2,
+        1.55
+      ],
+      "target": [
+        15.6,
+        7.35,
+        1.1
+      ],
+      "lens_mm": 18,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R14",
+      "room": "07",
+      "title": "Közlekedő",
+      "location": [
+        2.7,
+        3.45,
+        1.55
+      ],
+      "target": [
+        5.1,
+        3.45,
+        1.4
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R15",
+      "room": "08",
+      "title": "WC és falitároló",
+      "location": [
+        6.2,
+        2.25,
+        1.55
+      ],
+      "target": [
+        5.95,
+        3.6,
+        1.2
+      ],
+      "lens_mm": 16,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R16",
+      "room": "09",
+      "title": "Nyugati terasz / jakuzzi",
+      "location": [
+        8.8,
+        9.1,
+        1.45
+      ],
+      "target": [
+        5.7,
+        11,
+        0.45
+      ],
+      "lens_mm": 22,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R17",
+      "room": "10",
+      "title": "Keleti lounge",
+      "location": [
+        11.55,
+        9.0,
+        1.45
+      ],
+      "target": [
+        14.3,
+        11.4,
+        0.6
+      ],
+      "lens_mm": 22,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R18",
+      "room": "WPC",
+      "title": "Szintváltások és zöldtető",
+      "location": [
+        10.3,
+        12.9,
+        2.07
+      ],
+      "target": [
+        9.5,
+        18.6,
+        0.8
+      ],
+      "lens_mm": 22,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    },
+    {
+      "id": "KI_R19",
+      "room": "13",
+      "title": "Erkély és tároló",
+      "location": [
+        -1.5,
+        0.2,
+        1.5
+      ],
+      "target": [
+        -1.2,
+        4.9,
+        0.8
+      ],
+      "lens_mm": 20,
+      "status": "R02 új tervkamera; nem fotóillesztett, nem régi kamera átnevezése"
+    }
+  ],
+  "interior_change_log": [
+    [
+      "WN-01",
+      "ellentmondó 1/2 dupla rudas régi leírás",
+      "egységes 1 hosszú + 2 dupla (2 lifttel) + 1 hatfiókos",
+      "nagy ruhatárolási igény; egy polcos oszlop helyett akasztás"
+    ],
+    [
+      "WS-01",
+      "általános polc / kihúzható rúd",
+      "2 cipős + 1 táskás-fiókos + 1 háztartási oszlop",
+      "egy 559 mm széles oszlop ruhakapacitása a napi eszközöké; tulajdonosi részletdöntés"
+    ],
+    [
+      "W52-01",
+      "1380 mm-re vágott ALT052",
+      "2380 mm gardrób marad; kompakt moduláris asztal alternatíva",
+      "1000 mm gardróbveszteség elkerülése"
+    ],
+    [
+      "W53-01",
+      "általános sekély gardrób",
+      "350 mm előre kihúzható rúd + irat + 4 fiók",
+      "450 mm mélységbe nem teszünk keresztirányú hagyományos vállfát"
+    ]
+  ]
+}
