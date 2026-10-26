@@ -15,3 +15,9 @@
 - `KEPNYILVANTARTAS_V32.csv` – képenként: stílus, kép-ID, kamera, kamerastátusz, A/B, verzió, javítás, promptfájl + SHA, referenciák, QA, státusz, chat
 - `qa/gate/` – Blender-lockpont és élátfedés kapukép; `qa/kontaktlap/` – A/B kontaktlapok
 - `checkpoints/` – terv, QA-napló, építő- és futtató szkriptek
+
+## Állapot – 2026-10-26 ~11:20
+- Kész: 58 kép (47 alap v1 + 11 javítás), alap-sorrend 1–48 lefutott (S11–S13 teljes, S14 Cam_10 nélkül, S15 csak Cam_12 hero).
+- **SKIPPED_LIMIT:** seq 49 (S14 Cam_10 A) – a ChatGPT Plus képgenerálási kerete elfogyott; visszaáll 2026-10-27 7:40. Kerülőutat nem használtunk.
+- Hátra: seq 49–60 (S14 Cam_10 A/B, S15 Cam_02/03/04/11/10 A/B), majd a 17 extra A/B (seq 61–94).
+- Stílusonkénti A/B kontaktlapok: `qa/kontaktlap/V32_S1x_*_kontaktlap_AB.jpg` (soronként kamera, elfogadott verzió; hiány jelölve).

@@ -384,5 +384,99 @@
   "alap_seq": 37,
   "verzio": "v2",
   "fix": "In v1 the right-hand fixed glass field was drawn too narrow (the three fields looked equal) and the brick return moved inwards. Keep the real glass wall: opening sash 21–35 %, narrow middle field 35–50 %, and the WIDE fixed field 50–79 % – clearly the widest, about twice the middle field; the brick facade return only beyond 79 %. Curtains stay stacked outside the glazing edges and never cover the fields."
+ },
+ {
+  "seq": 1009,
+  "fazis": "alap",
+  "nr": "19",
+  "valtozat": "A",
+  "kep_id": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A",
+  "stilus": "S14",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "19_A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_A_v2.txt",
+  "kep_fajl": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_A_v2.png",
+  "dir": "upload/v32/19_A_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 16294,
+  "uzenet_sha256": "5cf57cee428468c9bfd2a7cbdab44d7c3e83c1d63b434d0dd89bfc0b8abf5d83",
+  "prompt_sha256": "eecbbb4789af3b2b021d8a5f10f762a517c645621d9f425748cf4d1c02588e93",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_semleges_blender.png",
+    "sha256": "75ec3c85cacbe65308ca88757c18696bc7d7c7f9b59c6b2572153e4de70fd9bd"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_ME-BAL-080_parketta_szegely.jpg",
+    "sha256": "88f93864ec97ff2fd9fbd548680dc76fe01b21583599ab378cd49f07b4e3480e"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_PERSPEKTIVA_minta_S12_Cam02.png",
+    "sha256": "54c8a436f7924f61f97d981bb7e58162e8c2ed378290b970ae03acecbf53460c"
+   }
+  ],
+  "alap_seq": 41,
+  "verzio": "v2",
+  "fix": "v1 turned the camera towards the TV wall (almost frontal). The last image shows the correct perspective of this camera (in another style): match its framing and the steep angle of W01 exactly, but keep the Modern White Luxury design of the brief; no pendant at ML05 (only the simple ceiling fitting)."
+ },
+ {
+  "seq": 1010,
+  "fazis": "alap",
+  "nr": "19",
+  "valtozat": "B",
+  "kep_id": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A",
+  "stilus": "S14",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "19_A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.txt",
+  "kep_fajl": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "dir": "upload/v32/19_B_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 17808,
+  "uzenet_sha256": "39181def11c90fdab4ce477007ae1aee1591ed01b8e48dd990374c22b180b979",
+  "prompt_sha256": "eecbbb4789af3b2b021d8a5f10f762a517c645621d9f425748cf4d1c02588e93",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png",
+    "sha256": "2cff648e0a13483cb386ab1823c1c8e73c4e67858b6b8cca38b33fc033692128"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_PERSPEKTIVA_minta_S12_Cam02_B.png",
+    "sha256": "2f97633cfc2fc5a85650f3d502bc929ab18de6dcccffb50da0e62c56076e4e87"
+   }
+  ],
+  "alap_seq": 42,
+  "verzio": "v2",
+  "fix": "v1 turned the camera towards the TV wall (almost frontal). The last image shows the correct perspective of this camera (in another style): match its framing and the steep angle of W01 exactly, but keep the Modern White Luxury design of the brief; no pendant at ML05 (only the simple ceiling fitting)."
  }
 ]

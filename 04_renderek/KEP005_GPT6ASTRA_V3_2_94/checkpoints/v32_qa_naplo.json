@@ -334,5 +334,82 @@
   "chat": "6adf24bc-8294-83eb-83fe-6dd0c87983b0",
   "qa": "ELŐSZŰRT: azonos dizájn, a zuhanyfalon hatszöges (inkább mozaik, mint 3D relief) burkolat, csempe szürkés-bézs; geometria OK.",
   "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "19_A": {
+  "seq": "41",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_A_v1.png",
+  "chat": "6adf250d-cd58-83eb-bba0-f526355167bd",
+  "qa": "FAIL (kamera): TV-fal közel frontális (lock: erősen ferde) → v2 perspektíva-mintaképpel.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "19_B": {
+  "seq": "42",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_B_v1.png",
+  "chat": "6adf2559-9f78-83ed-a5f5-e7fa63ba8062",
+  "qa": "FAIL (kamera): TV-fal közel frontális → v2 perspektíva-mintaképpel. Padló, fellépés OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "21_A": {
+  "seq": "43",
+  "kep": "A902_S14_ModernWhiteLuxury_2_etkezo-konyha_Cam_03_A__V32_A_v1.png",
+  "chat": "6adf25bc-6738-83eb-95d4-af0e42ed49f0",
+  "qa": "ELŐSZŰRT: konyhatengely OK, krém fogantyúmentes frontok, integrált hűtőtorony, parapet-sor; W02 holdsarló relief jobb szélen, Novae.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "19_A_v2": {
+  "seq": "1009",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_A_v2.png",
+  "chat": "6adf2620-d8f0-83ed-95c1-370bffe4ca8b",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): perspektíva-mintával ferde TV-fal a lockon, S14 holdsarló-relief a TV-falon, ML05 egyszerű lámpa; megj.: a bútorkompozíció a mintakép felé hasonul (ugyanaz a Lennon/szőnyeg amúgy is).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "19_B_v2": {
+  "seq": "1010",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "chat": "6adf265b-b98c-83ed-a010-5e667b92bb4f",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): ferde TV-fal a lockon, holdsarló relief, fellépés, szürke-taupe padló, ML05 egyszerű lámpa.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "21_B": {
+  "seq": "44",
+  "kep": "A902_S14_ModernWhiteLuxury_2_etkezo-konyha_Cam_03_A__V32_B_v1.png",
+  "chat": "6adf26a5-ef80-83ed-99e7-5abd508a168e",
+  "qa": "ELŐSZŰRT: konyhatengely OK, krém frontok, inox hűtő W03-a-n, ásványi parapet-sor; holdsarló relief jobb szélen; padló szürke.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "22_A": {
+  "seq": "45",
+  "kep": "A902_S14_ModernWhiteLuxury_3_master_Cam_04_A__V32_A_v1.png",
+  "chat": "6adf270f-7bd0-83ed-bbe2-31f843b1c545",
+  "qa": "ELŐSZŰRT: krém fülke-gardrób 0–37%, kárpitos fejtámla rejtett fénnyel, holdsarló-kép felette, NORDLI ágy; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "22_B": {
+  "seq": "46",
+  "kep": "A902_S14_ModernWhiteLuxury_3_master_Cam_04_A__V32_B_v1.png",
+  "chat": "nem rögzült (2. fül, 11:1x)",
+  "qa": "ELŐSZŰRT: azonos dizájn (krém fülke-gardrób 0–40%, kárpitos fejtámla rejtett fénnyel, holdsarló-kép), padló szürkés tölgy; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "23_A": {
+  "seq": "47",
+  "kep": "A902_S14_ModernWhiteLuxury_3_master_Cam_11_A__V32_A_v1.png",
+  "chat": "6adf27cc-e658-83ed-8624-7fb418223709",
+  "qa": "ELŐSZŰRT: kötelező eredeti Cam_11, frontális; három üvegmező és osztások a lockon, korlát OK; két oldalt krém gardrób, len függöny, panoráma. Padló meleg tölgy (A).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "23_B": {
+  "seq": "48",
+  "kep": "A902_S14_ModernWhiteLuxury_3_master_Cam_11_A__V32_B_v1.png",
+  "chat": "6adf2860-a4bc-83ed-8d6f-f68539fa3c22",
+  "qa": "ELŐSZŰRT: azonos dizájn, eredeti Cam_11 frontális, három mező a lockon, korlát OK; padló szürkés tölgy. Megj.: nyílászáró-keret sötétszürke (A-val egyező), helyszíni színe fotón ellenőrzendő.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "24_A": {
+  "seq": "49",
+  "kep": "A902_S14_ModernWhiteLuxury_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
+  "chat": "6adf28c2-7f14-83eb-93ad-25b26c64c077",
+  "qa": "SKIPPED_LIMIT: ChatGPT Plus képgenerálási keret elfogyott 2026-10-26 ~11:20; visszaáll 2026-10-27 7:40. Kép nem készült.",
+  "statusz": "SKIPPED_LIMIT"
  }
 }
