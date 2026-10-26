@@ -30,11 +30,19 @@
       "sha256": "5e2f2f625434e501d10c61c14386502f0148835bc14bdfad8c88d484884e978d"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 1,
   "submitted_at": "2026-10-26T22:09:16.465Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfcf8a-8e8c-83ed-b244-acb0e591543e",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S03_AlelCasa_Cam_11c__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Meleg hangulatú hálószoba városi kilátással.png",
+  "sourceChat": "https://chatgpt.com/c/6adfcf8a-8e8c-83ed-b244-acb0e591543e",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T22:14:03.728Z",
+  "generation_attempts": 1
 }
