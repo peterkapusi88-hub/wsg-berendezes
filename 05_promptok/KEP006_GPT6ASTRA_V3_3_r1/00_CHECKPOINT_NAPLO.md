@@ -42,3 +42,7 @@ V3.3 CP3 S15: teljes promptok, A/B/C ahol új, önálló extra nézetek | ea197a
 V3.3 CP3 S16: teljes promptok, A/B/C ahol új, önálló extra nézetek | ce3cd96631a918be43af05ea22df959a7033f327 | 2026-10-26T15:20:54.307850+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 V3.3 CP3 S17: teljes promptok, A/B/C ahol új, önálló extra nézetek | 12664e283135873e0a7ff4debfb88fda9cd1045d | 2026-10-26T15:21:42.550902+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+V3.3 CP3 QA: fürdők egységes 2700 K esti jelenete és fotós master nappali fénye | 5388827ea636f237484098fd9a90b894c1ebe9a0 | 2026-10-26T15:24:29.369979+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+V3.3 bizonyíték | dde9d44a25321b306af4eb19271cdbd52d46b38b | Lennon és Martina PNG binárisGitblobSHA egyezett a helyi tartalommal.
