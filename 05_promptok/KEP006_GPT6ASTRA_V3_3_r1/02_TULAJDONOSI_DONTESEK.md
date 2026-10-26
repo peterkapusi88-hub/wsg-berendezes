@@ -9,3 +9,5 @@
 -18Mtervezési cél, indokolt eltérések külön;2Mtartalék és kültéri/jakuzzi tételek nem költhetők/eliminálhatók automatikusan.
 - Finom modellaláírások; nincs hivatalosMercedes/AMGkapcsolat állítva.
 - A tulajdonosi fotón megfigyelt törtfehér kárpit és matt szürkés fényezés nem bizonyított gyári kód. Monza Grey magno a tulajdonos megadása; gyári azonosság ellenőrzendő.
+
+2026-10-26 CP2.5: teljesS01–S10kreatív felzárkóztatás a CP3véglegesítése előtt. FÉNY=LUXUS mind17stílusban; rétegzett meleg Hue,3mfejvég+Go+gardróbfény, diffúzprofil, valós kiállások. Az A/Btörténeti állományok és CP0–CP2commitok változatlanok.
