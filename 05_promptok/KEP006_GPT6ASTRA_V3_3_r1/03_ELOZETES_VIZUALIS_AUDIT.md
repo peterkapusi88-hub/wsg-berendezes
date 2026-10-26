@@ -1,0 +1,12 @@
+# Csatolt képek – első kreatív olvasat
+IMG_2599: S01gardrób ésTVmotívum egységes; ágy feletti második keretezett mű versenyez vele. Gardrób főszerep, nyugodt kárpitos ágyfal javasolt.
+IMG_2595: ötCam12A/Bösszevetésben az azonos kanapé/asztal és hasonló bekeretezettW02mező erősen homogenizál. A/Beltérés nem bizonyít többfotós megalapozást. Művészet–fal kapcsolat és stílushoz illő fókuszbútor újragondolandó.
+DD23FDC1…: S13jó teljes gardróbfal, arányos puha fejvég és meleg rétegfény; keskeny külön kép dekoratív utólagos elemnek hat. Lobbyarányú integrált függőleges anyagmező jobb.
+D94AD8C0…: S12folyamatosTVrelief és sötét–puha kontraszt erős. A kanapé termékazonossága és a terasz többletfényei külön auditot igényelnek; a render nem termékbizonyíték.
+966018B7…: S11füstös gardrób és bronzos vízszintes osztás erős; jobb oldali kis mű leválik a fejvégről. Eltűnő szélű, teljes ágyfalhoz komponált nyomat javasolt.
+6C654B98…: S11mélyTVsíkok és világos ülőcsoport jó; a kanapé hátának ferdesége perspektívából önmagában nem bizonyítható. Az Lforma termékfotója és alaprajzi tengelyvetítése kell; tilos a képet nézve találomra elforgatni.
+G63valós fotók IMG_2607/09/10/12/11/08: matt szürke fényezés fénytől meleg/olívásnak is látszik; fekete szegélyek, világos perforált ülőfelület, finom varrás, ajtón rombuszos mező, sötét műszerfal és fémes körök. Ezekből cream–graphite–smoke paletta, lekerekített négyszög és precíz illesztés születik. Rendszám/személy nem része a kreatív motívumnak.
+IMG_9726046D3BDC-1 ésIMG_127668A2FBC7-1: stúdiós autóreferenciák, szögletes–lágy sarokforma és matt/fényes kontraszt. Nem tekintjük a saját autó gyári specifikációjának.
+Clipboard43d55…: világos kárpit, varrás/perforáció és szürkés fabetét jó közeli referencia; gyári anyagnév nem olvasható. Clipboard0f36…: kis világos erezetes minta, eredete és anyaga ismeretlen, beszerzési bizonyítékként nem használható. Clipboard112b…: külső forma/paletta referencia természetes fényben, nem gyári színmérés.
+S16irány: PRECISION SOFT – masszív lekerekített négyszögű matt grafit keretek, világos puha belső síkok, finom varrás és egy integrált saját geometrikus relief.
+S17irány: CONTINUOUS LINE – közös gyöngyszürke/fekete/szaténfém alapon G63nappali keret, GTétkező hosszú elnyújtott ív, SClassmaster puha horizont, SL05.2könnyű ív, CClass05.3tömör grafikus rend. Egyazon vonalcsalád eltérő tempói, nem öt külön szoba.
