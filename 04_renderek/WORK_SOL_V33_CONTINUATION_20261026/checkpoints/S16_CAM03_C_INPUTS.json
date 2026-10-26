@@ -1,0 +1,92 @@
+[
+  {
+    "order": 1,
+    "file": "inputs/S16_Cam03_C/01_Cam03_Blender_from_Claude.png",
+    "sha256": "dc63499098ae0fc687743c74b1eb1068ac407c842b6c47fb32c651e016308699",
+    "bytes": 1857028,
+    "format": "PNG",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "role": "neutral Blender render of the real, empty A-902 shell from the exact approved camera Cam_03 (Cam03K1_KORR). MANDATORY camera and geometry reference: framing, horizon, vanishing points, walls, openings, frames, steps, ceiling and floor lines. Nothing in it may be moved, added or removed. White = existing white surfaces; its flat grey floor is NOT the material; the pale exterior is a placeholder for the real view.",
+    "source_chat": "https://chatgpt.com/c/6adfab00-4970-83eb-92a6-40260ef85579",
+    "source_attachment_position": 1,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  },
+  {
+    "order": 2,
+    "file": "inputs/S16_Cam03_C/02_KZS_3695_from_Claude.jpg",
+    "sha256": "258e64b914cbff4a1a1e52984408275673abd91af54ad23e567a41dc9769da4c",
+    "bytes": 202755,
+    "format": "JPEG",
+    "dimensions": [
+      2000,
+      1335
+    ],
+    "role": "real professional site photo KZS_3695-537.jpg of A-902 (2026-10-25), taken from a DIFFERENT position – actual kitchen csonk and wet-core door relationship, not camera. Material, surface and architectural-identity reference ONLY; never copy its viewpoint, framing or construction clutter.",
+    "source_chat": "https://chatgpt.com/c/6adfab00-4970-83eb-92a6-40260ef85579",
+    "source_attachment_position": 2,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  },
+  {
+    "order": 3,
+    "file": "inputs/S16_Cam03_C/03_KZS_3708_from_Claude.jpg",
+    "sha256": "41acabf514bb378a1b33cc054f30ea9e5fe33a82976636aee1f54fe598b0144f",
+    "bytes": 209038,
+    "format": "JPEG",
+    "dimensions": [
+      2000,
+      1335
+    ],
+    "role": "real professional site photo KZS_3708-524.jpg of A-902 (2026-10-25), taken from a DIFFERENT position – galley and dining context, not camera. Material, surface and architectural-identity reference ONLY; never copy its viewpoint, framing or construction clutter.",
+    "source_chat": "https://chatgpt.com/c/6adfab00-4970-83eb-92a6-40260ef85579",
+    "source_attachment_position": 3,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  },
+  {
+    "order": 4,
+    "file": "inputs/S16_Cam03_C/04_Brisia_from_Claude.jpg",
+    "sha256": "0155211bc90e2f320faa5e4623ff475941d0f13b86d841c26e5ebf6ae544b65f",
+    "bytes": 16537,
+    "format": "JPEG",
+    "dimensions": [
+      810,
+      900
+    ],
+    "role": "Kave Home Brisia Ø50 cm ceiling lamp, frosted-glass ball with brushed-brass finish – product photo. Product identity ONLY (silhouette, module/hand, upholstery, legs, proportions); ignore its showroom background and light.",
+    "source_chat": "https://chatgpt.com/c/6adfa2d7-5c34-83ed-b72d-b8d7ba13fa31",
+    "source_attachment_position": 5,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  },
+  {
+    "order": 5,
+    "file": "inputs/S16_Cam03_C/05_G63_exterior_from_Claude.jpg",
+    "sha256": "c408ae9de90d247aec5ca20534eea594bfa80e30a800f41fa71e516fb3b6b7ca",
+    "bytes": 216817,
+    "format": "JPEG",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "role": "manufacturer configurator view of the exterior from the rear three-quarter: low-gloss mineral grey (Monza Grey magno, owner-supplied name) paint. See OWNER'S CAR PHOTOGRAPHS below.",
+    "source_chat": "https://chatgpt.com/c/6adfa2d7-5c34-83ed-b72d-b8d7ba13fa31",
+    "source_attachment_position": 6,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  },
+  {
+    "order": 6,
+    "file": "inputs/S16_Cam03_C/06_G63_seats_from_Claude.jpg",
+    "sha256": "4dc3b89b0aa433b72156c26ffdaf6d0dc69f8f9fb7b81da6ef6adc33ae77f4f6",
+    "bytes": 166115,
+    "format": "JPEG",
+    "dimensions": [
+      1206,
+      905
+    ],
+    "role": "owner's own photo of the seats: cream/ivory leather, diamond quilting, stitching. See OWNER'S CAR PHOTOGRAPHS below.",
+    "source_chat": "https://chatgpt.com/c/6adfa2d7-5c34-83ed-b72d-b8d7ba13fa31",
+    "source_attachment_position": 7,
+    "method": "actual viewer Download export of Claude-uploaded attachment; no screenshot replacement"
+  }
+]
