@@ -45,5 +45,84 @@
   "alap_seq": 4,
   "verzio": "v2",
   "fix": "In v1 the sofa filled the lower half of the frame and covered the dining zone. Keep the Lennon L at its true 238 × 180 cm size seen from 1.60 m: only its back and cushions form a LOW foreground band in the bottom 16–23 % of the image (left and centre); the dining table with all six chairs, the kitchen and the full W02 relief must be clearly visible above it. Do not move the camera closer or lower."
+ },
+ {
+  "seq": 1002,
+  "fazis": "alap",
+  "nr": "01",
+  "valtozat": "B",
+  "kep_id": "A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A",
+  "stilus": "S11",
+  "kamera": "Cam_02",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "01_A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.txt",
+  "kep_fajl": "A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "dir": "upload/v32/01_B_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A.prompt.md",
+  "uzenet_chars": 17132,
+  "uzenet_sha256": "6370c8408fcfe45eb7b97eb00714578898706523e9d31f0525219c0f56af0117",
+  "prompt_sha256": "2dc2f7191483c7e18e4f1c91e619e6d2195f1349545d7d9d1baabcd3c5289220",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png",
+    "sha256": "2cff648e0a13483cb386ab1823c1c8e73c4e67858b6b8cca38b33fc033692128"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-045_nappali_terasz_fele.jpg",
+    "sha256": "06981c280964a3d9c65db4bdf9219f3cac2e8be63d5b3335728685956d267715"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_A902_terasz_panorama_v0_videobol.jpg",
+    "sha256": "cf48358bd0a499862b2016b740363ab86fbf9a7987532c795b1690161007b28c"
+   }
+  ],
+  "alap_seq": 12,
+  "verzio": "v2",
+  "fix": "In v1 the floor turned honey/orange-brown under the lamplight. The floor is the cool light-to-mid GREY oak-effect laminate of image 2 (KZS_3695): render it grey with at most a faint warm tint where lamplight falls directly – never golden, honey, orange or reddish brown anywhere in the frame, also not in the foreground. Keep the blue-hour mood through the exterior, the hidden LED lines and the lamps, not by colouring the floor. Everything else as in v1 and the brief."
+ },
+ {
+  "seq": 1003,
+  "fazis": "alap",
+  "nr": "05",
+  "valtozat": "B",
+  "kep_id": "A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A",
+  "stilus": "S11",
+  "kamera": "Cam_11",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "05_A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A__V32_B_v2.txt",
+  "kep_fajl": "A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A__V32_B_v2.png",
+  "dir": "upload/v32/05_B_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A.prompt.md",
+  "uzenet_chars": 12429,
+  "uzenet_sha256": "5480b7ed8e838cd00df36e441bbe92ae375152d15e7cdf00303afcb5e266f726",
+  "prompt_sha256": "1fdcc4fd12e0ee33ed0a7ed498d83251476a36200d023f5f394578c61878d481",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam11_master_panorama_semleges_blender.png",
+    "sha256": "66fa4efbcc0d71aa7c45d4a883da702231273f680cb3ebd16c20a505e621c01f"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-077_master_uvegfal_kilatas.jpg",
+    "sha256": "1fd3ee6db3228803216818680dbde77a037338b7926c7d6f743a6a80a88fc41b"
+   }
+  ],
+  "alap_seq": 18,
+  "verzio": "v2",
+  "fix": "In v1 the camera was turned to the right so the glass wall appeared oblique in the left half and a bare white side wall filled the right half. WRONG. This is the FRONTAL Cam_11: the camera looks straight (due west) at the glass wall, which is seen face-on and centred, spanning about 21–79 % of the width exactly like image 1, with its head line horizontal; the south wardrobe enters at the left edge and the north wardrobe front at the right edge, symmetric as in image 1. Do not rotate, do not show a long side wall."
  }
 ]

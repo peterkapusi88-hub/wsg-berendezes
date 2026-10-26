@@ -32,6 +32,8 @@ MAT=("- MATERIALS FIRST (verified on the professional site photos 2026-10-25): l
 STEP2=("   h) along the full length of the terrace glazing there is a continuous low INTERIOR STEP about 15 cm high and about 25 cm deep, clad in the same grey oak-effect floor; the glass frames sit on it (visible in image 1 as the darker band at the foot of the glass, from the room corner at about 47 % to the right edge). Keep it; do not remove it, do not turn it into a bench, do not put furniture on it.")
 BATH=("- EXISTING BATHROOM MATERIALS (verified on professional photo KZS_3598): the large-format stone-look tiles are a NEUTRAL COOL GREY (Geostone Grigio) and must stay grey under warm light, never beige or cream; the shower back wall is a HEXAGONAL 3D relief tile (Esagonetta), never a square mosaic; black Grohe fittings.")
 TERR=("- EXISTING TERRACE (verified on the professional photos 2026-10-25): light-grey large-format paving; the dark-brown WPC platforms keep their exact outline, heights and steps; the planted green roof stays planted and untouched; anthracite vertical-bar railing; grey-brick facade with dark window frames; the real city skyline (including the cranes visible today) – no invented view, no sea, no river, no new planters.")
+MAT2=MAT+" Even where warm lamplight or LED falls on it, the floor stays visibly GREY (at most a faint warm tint) – never honey, golden, orange or reddish brown, also not in the foreground; create warmth with the light sources, textiles and walls, not by recolouring the floor."
+SENT_B={'02','08','14','20','26','01','03'}  # 2026-10-26 10:20 előtt elküldött B-csomagok: változatlan MAT
 RULES="- Reference rules: 05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md v1 (Claude, 2026-10-25, owner-approved)."
 
 def hdr(c):
@@ -89,6 +91,7 @@ def to_b(c,cam,photo_native=False):
     for p,n,r in c['att']:
         if '080_parketta' in n: att.append((PADLO,'02_image2_A902_KZS3695_profi_padlo.jpg',FLOOR4))
         elif cam=='Cam_02' and n.startswith('01_image1'): att.append((B02S,'01_image1_A902_Cam02_KORR_LEPCSO15_semleges_blender.png',r.replace('glazing, frames,','glazing, frames, the low interior step at the foot of the glazing,')))
+        elif cam=='Cam_10' and '064_zuhany' in n: photo1('3598-634'); att.append((W+'/foto_2400/KZS_3598-634_2400.jpg','02_image2_A902_KZS_3598_furdo_profi_foto.jpg',"real PROFESSIONAL photo of this bathroom as built (KZS_3598), from a DIFFERENT position: the neutral cool-grey Geostone Grigio 60 × 60 tiles, the Esagonetta hexagonal 3D relief on the shower wall, the black Grohe fittings, the existing white basin, the shower floor and linear drain. Materials and existing fittings only – do NOT copy its camera or framing."))
         else: att.append((p,n,r))
     c['att']=att
     if cam=='Cam_02':
@@ -166,7 +169,7 @@ def photo_cam(cam,s,var,pend_s):
     if var=='B':
         if P['interior']:
             att.append((PADLO,f'0{len(att)+1}_image{len(att)+1}_A902_KZS3695_profi_padlo.jpg',FLOOR4))
-            notes.append(MAT)
+            notes.append(MAT2)
             if P['step']: notes.append("- The low interior step (about 15 cm) at the foot of the terrace glazing stays exactly as in image 1, clad in the same grey floor; nothing stands on it.")
         else: notes.append(TERR)
         notes.append("- PHOTO-REAL EDITION: the photographed surfaces of image 1 are the material truth; warm light may change the mood, never the colour of the grey floor, the grey door, the white frames or the terrace paving.")
@@ -225,8 +228,8 @@ for faz,nr,kid,s,cam,extra in jobs:
             if var=='B':
                 c['att']=[(PADLO,'02_image2_A902_KZS3695_profi_padlo.jpg',FLOOR4) if '080_parketta' in n else (p,n,r) for p,n,r in c['att']]
         else: raise SystemExit(cam)
-        if not extra and var=='B': c['notes'].append(BATH if cam=='Cam_10' else MAT); c['notes'].append(RULES)
-        if extra and cam=='Cam_11c' and var=='B': c['notes']+= [MAT,RULES]
+        if not extra and var=='B': c['notes'].append(BATH if cam=='Cam_10' else (MAT if nr in SENT_B else MAT2)); c['notes'].append(RULES)
+        if extra and cam=='Cam_11c' and var=='B': c['notes']+= [MAT2,RULES]
         stylerefs(s,c['att'])
         c.update(id=kid,style=STY[s],cam=cam,var=var,extra=extra)
         pf=V+'/'+PR+('21_EXTRA_PROMPTOK/' if extra else '20_PROMPTOK/')+kid+'.prompt.md'

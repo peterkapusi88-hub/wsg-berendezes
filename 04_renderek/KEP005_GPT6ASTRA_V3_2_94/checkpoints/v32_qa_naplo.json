@@ -82,5 +82,138 @@
   "chat": "6adf189d-0834-83ed-a507-250396b4e129",
   "qa": "ELŐSZŰRT: Cam_02 lock-pontok egyeznek (sarok 45–47%, üvegkeret 52%, TV 30%); kanapé háttal a kamerának, TV felé néz; ásványi TV-fal rejtett LED-del, kék óra, WPC lépcsők, valós panoráma; étkező jobb alsó sarok OK.",
   "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "01_B": {
+  "seq": "12",
+  "kep": "A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A__V32_B_v1.png",
+  "chat": "6adf1930-aa58-83ed-9c2c-687ce73af2ec",
+  "qa": "FAIL (anyag): padló mézbarna/narancsos a lámpafényben (Lab C* 24–34, cél ~3–10); geometria és fellépés OK, kanapé TV felé → v2.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "03_A": {
+  "seq": "13",
+  "kep": "A902_S11_ZumaInspiredLuxury_2_etkezo-konyha_Cam_03_A__V32_A_v1.png",
+  "chat": "6adf1932-8acc-83eb-beb9-7d9cb24226f6",
+  "qa": "ELŐSZŰRT: konyhatengely lock OK (K-csonk, keleti sor felsőkkel, déli magas sor, parapet melletti alacsony sor főzőlappal), Brisia jobb felső, W02 mű a jobb szélen; grafit/füstös frontok.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "03_B": {
+  "seq": "14",
+  "kep": "A902_S11_ZumaInspiredLuxury_2_etkezo-konyha_Cam_03_A__V32_B_v1.png",
+  "chat": "6adf19f4-6430-83ed-bdff-02b5d1ce9d9b",
+  "qa": "ELŐSZŰRT: konyhatengely OK, parapet-oldali alacsony sor ásványi fronttal, magas déli sor; padló szürke; Brisia jobb felső.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "04_A": {
+  "seq": "15",
+  "kep": "A902_S11_ZumaInspiredLuxury_3_master_Cam_04_A__V32_A_v1.png",
+  "chat": "6adf19f6-40d8-83eb-a67b-1ccfabc2eac0",
+  "qa": "ELŐSZŰRT: északi fülke gardróbbal kitöltve (bronz osztósáv), keleti fal fejtámla+ásványi mű, ágy feje a keleti falon; ablak nincs a képen – OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "04_B": {
+  "seq": "16",
+  "kep": "A902_S11_ZumaInspiredLuxury_3_master_Cam_04_A__V32_B_v1.png",
+  "chat": "6adf1a8a-3058-83ed-8fa8-6974f4228da0",
+  "qa": "ELŐSZŰRT: azonos dizájn (fülke-gardrób bronz sávval, kárpitos fejtámla, ásványi mű); ágy kissé közelebb/nagyobbnak hat; padló szürkésebb.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "01_B_v2": {
+  "seq": "1002",
+  "kep": "A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A__V32_B_v2.png",
+  "chat": "6adf1a8c-0e4c-83ed-8666-03f49e530ae1",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): padló szürke-taupe a lámpafényben is (v1 narancsos volt); belső fellépés látszik; geometria, kanapé-TV viszony OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "05_A": {
+  "seq": "17",
+  "kep": "A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A__V32_A_v1.png",
+  "chat": "6adf1b0b-91b4-83ed-aa92-00c12536d5b2",
+  "qa": "ELŐSZŰRT: kötelező frontális Cam_11, 3 fehér keretes mező a lockon (21/35/50/79%), valós panoráma, tégla homlokzatvisszafordulás, gardróbok két szélen; nappali fény.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "05_B": {
+  "seq": "18",
+  "kep": "A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A__V32_B_v1.png",
+  "chat": "6adf1b0d-5b20-83eb-80ec-f2b5a343f113",
+  "qa": "FAIL (kamera): elfordult kamera – üvegfal ferdén a bal felén, jobb oldalon üres fehér oldalfal; nem a frontális Cam_11 → v2.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "06_A": {
+  "seq": "19",
+  "kep": "A902_S11_ZumaInspiredLuxury_4_furdo-06-2_Cam_10_A__V32_A_v1.png",
+  "chat": "6adf1bf7-c3f4-83ed-8da5-9c98812be2a0",
+  "qa": "ELŐSZŰRT: Cam_10 lock OK (üveg a küszöbvonalon, mosdó helyben, aknáig futó szekrény, tükör+faliszekrény); eltérés: csempe meleg bézs, a hatszög relief négyzetes mozaiknak látszik (A-ban megengedett, B ellenőrzi).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "06_B": {
+  "seq": "20",
+  "kep": "A902_S11_ZumaInspiredLuxury_4_furdo-06-2_Cam_10_A__V32_B_v1.png",
+  "chat": "6adf1c2e-38b0-83ed-83fc-3d35838683bd",
+  "qa": "ELŐSZŰRT: profi KZS_3598 alapján hatszöges 3D relief a zuhanyfalon (A-ban négyzetes volt), csempe szürkébb; geometria OK; meleg LED enyhén melegíti a szürkét.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "05_B_v2": {
+  "seq": "1003",
+  "kep": "A902_S11_ZumaInspiredLuxury_3_master_Cam_11_A__V32_B_v2.png",
+  "chat": "6adf1c93-0c78-83ed-9b02-9cd3f1c5f8de",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): frontális kötelező Cam_11, 3 mező a lockon, valós panoráma, szürke padló, gardróbok a széleken.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "07_A": {
+  "seq": "21",
+  "kep": "A902_S12_ModernOrganic_1_nappali-terasz_Cam_02_A__V32_A_v1.png",
+  "chat": "6adf1cd3-af3c-83ed-94e8-32efa33d52c9",
+  "qa": "ELŐSZŰRT: Cam_02 lockpontok OK (sarok 45%, üveg 54%), TIDAL WALL relief a TV-falon, kanapé háttal, TV felé; eltérés: ML05-ön lelógó lapos függeszték (brief: egyszerű mennyezeti lámpa) – kisebb.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "07_B": {
+  "seq": "22",
+  "kep": "A902_S12_ModernOrganic_1_nappali-terasz_Cam_02_A__V32_B_v1.png",
+  "chat": "6adf1d26-c394-83eb-84b9-fc86f76bd63f",
+  "qa": "ELŐSZŰRT: azonos dizájn (TIDAL WALL relief), padló szürke-taupe, fellépés látszik, kanapé TV felé; ugyanaz a kisebb eltérés: ML05-ön lelógó Somar-szerű függeszték.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "09_A": {
+  "seq": "23",
+  "kep": "A902_S12_ModernOrganic_2_etkezo-konyha_Cam_03_A__V32_A_v1.png",
+  "chat": "6adf1d6c-9df0-83ed-a0a3-ea2d396491bb",
+  "qa": "ELŐSZŰRT: konyhatengely lock OK (hűtőtorony W03-a/K-csonk, keleti sor, déli magas sor, parapet melletti alacsony sor főzőlappal), Somar jobb felső, W02 relief a jobb szélen.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "09_B": {
+  "seq": "24",
+  "kep": "A902_S12_ModernOrganic_2_etkezo-konyha_Cam_03_A__V32_B_v1.png",
+  "chat": "6adf1dbc-f638-83ed-8b94-e220fc754489",
+  "qa": "ELŐSZŰRT: konyhatengely OK, inox hűtő a W03-a-n, krétafehér frontok, parapet-sor; padló világos szürke-bézs; W02 relief a jobb szélen takarásban.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "10_A": {
+  "seq": "25",
+  "kep": "A902_S12_ModernOrganic_3_master_Cam_04_A__V32_A_v1.png",
+  "chat": "6adf1e03-26ac-83ed-9bbb-50cc4736601d",
+  "qa": "ELŐSZŰRT: fülke-gardrób gomba frontokkal 0–37%, sarok OK, fejtámla + TIDAL SHOULDER relief a keleti falon, ágy a lockon; panelhez kötött rejtett fény.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "10_B": {
+  "seq": "26",
+  "kep": "A902_S12_ModernOrganic_3_master_Cam_04_A__V32_B_v1.png",
+  "chat": "6adf1e4e-5fd0-83eb-8e28-f43389253767",
+  "qa": "ELŐSZŰRT: azonos dizájn (relief + ívelt fejtámla, gomba gardrób), padló szürkés; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "11_A": {
+  "seq": "27",
+  "kep": "A902_S12_ModernOrganic_3_master_Cam_11_A__V32_A_v1.png",
+  "chat": "6adf1e94-a7a4-83ed-9600-b0835deccf7f",
+  "qa": "ELŐSZŰRT: frontális Cam_11, 3 mező a lockon, valós panoráma (templomtorony, budai hegyek), gardróbok szélen, nappali fény.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "11_B": {
+  "seq": "28",
+  "kep": "A902_S12_ModernOrganic_3_master_Cam_11_A__V32_B_v1.png",
+  "chat": "6adf1ee1-b48c-83ed-a974-7956b0371341",
+  "qa": "ELŐSZŰRT: frontális Cam_11, 3 mező a lockon, valós panoráma, szürke padló; A-val szinte azonos (várt).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
  }
 }
