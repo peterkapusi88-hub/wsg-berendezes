@@ -21,7 +21,7 @@ On W02, an original 175 × 235 cm textile-backed artwork sets two oversized char
 
 Smoked-grey oak-effect laminate lower doors meet plain graphite tall fronts and warm-grey upper doors. A pale mineral-effect laminate worktop and matching sealed backsplash catch daylight between the dark planes. A narrow bronze-effect HPL reveal appears only at the exposed refrigerator side, so the room has one deliberate glint rather than gold handles everywhere. Flat METOD carcasses keep the galley useful. The refrigerator stays at D13; the actual csonk is wrapped as a cabinet end, not removed.
 
-Westwing Lennon right-hand L, taupe woven upholstery, documented 238 × 180 × 68 cm; six Kave Home Ciselia chairs in beige chenille with black steel legs; Kave Home Nifelia beige wool jacquard rug, 200 × 300 cm; ML04: Kave Home Brisia single-globe pendant, Ø50 cm, dark glass and black metal, exact glass variant and Hue E27 fit conditional
+Westwing Lennon right-hand L, taupe woven upholstery, documented 238 × 180 × 68 cm; six Kave Home Ciselia chairs in beige chenille with black steel legs; Kave Home Nifelia beige wool jacquard rug, 200 × 300 cm; ML04: Kave Home Brisia single-globe pendant, Ø50 cm, frosted glass and brushed brass, model L00152CR05, Hue E27 fit conditional
 
 A 70 × 35 × 45 cm smoked-grey laminate coffee block has a shallow bronze-effect tray inset flush into its top, with rounded exposed corners. Its companion is a 30 × 45 × 30 cm graphite cube. Two chalk cushions, one tobacco-grey cushion and a dark fine-weave throw make the taupe sofa tactile. A broad charcoal ceramic bowl and one clear smoked-glass vessel are the only display objects. Full-height pale-grey sheers soften the terrace edge; graphite-grey heavier curtains stack clear of the opening sash. The light grazes mineral grain without turning the white ceiling amber.
 
@@ -63,8 +63,11 @@ A bútortestek fehér szabványkorpuszra szerelt18mm laminált lapok,2mm ABS; í
 
 ## 8. Költség és beszerzés
 
-Tételes fő/gazdaságos változat:50_KOLTSEG_ES_KOCKAZAT.md és40_ELEMLISTA.csv. Valamennyi egyedi méret tervezési befoglaló, nem felmért gyártási méret. Katalógustermékek örökölt V3.1 adatok, új ellenőrzés nélkül FELTÉTELESEK. A terasz bútora önálló13T költségsor; a közös fix8,4M teraszkeretével audit során tételesen egyeztetendő, nem automatikusan hozzáadott második szett. A2M tartalék érintetlen.
+Tételes fő/gazdaságos változat:50_KOLTSEG_ES_KOCKAZAT.md és40_ELEMLISTA.csv. Valamennyi egyedi méret tervezési befoglaló, nem felmért gyártási méret. Katalógustermékek örökölt V3.1 adatok, új ellenőrzés nélkül FELTÉTELESEK. A terasz13T munkabontása a változatlan fix13c–13e keret része, nem új hozzáadott költség. A2M tartalék érintetlen.
 
 ## 9. Önellenőrzés
 
 A hat kamera egyetlen bútor- és anyagkészletből dolgozik. Cam_02 kék óra; Cam_12/Cam_03 nappal; Cam_04 este; Cam_11 nappal; Cam_10 kizárólag műfény. A mély anyagok nappal is olvashatók. A főmű fizikai árnyékot kap és nem takar kapcsolót. A teljes magasságú gardrób működő ajtókkal, felső kitöltéssel és hozzáférhető szervizzel készül. A renderfájlok COMPLETE státusza a szöveg elkészültét jelenti, nem építési jóváhagyást.
+
+
+Végső becslés: fő 17830000Ft; gazdaságos 17310000Ft, mindkettő a8,4M fixszel. Nem költségkapu-PASS.

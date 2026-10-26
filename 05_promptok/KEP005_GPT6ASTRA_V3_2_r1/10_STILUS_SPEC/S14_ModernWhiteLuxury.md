@@ -63,8 +63,11 @@ A bútortestek fehér szabványkorpuszra szerelt18mm laminált lapok,2mm ABS; í
 
 ## 8. Költség és beszerzés
 
-Tételes fő/gazdaságos változat:50_KOLTSEG_ES_KOCKAZAT.md és40_ELEMLISTA.csv. Valamennyi egyedi méret tervezési befoglaló, nem felmért gyártási méret. Katalógustermékek örökölt V3.1 adatok, új ellenőrzés nélkül FELTÉTELESEK. A terasz bútora önálló13T költségsor; a közös fix8,4M teraszkeretével audit során tételesen egyeztetendő, nem automatikusan hozzáadott második szett. A2M tartalék érintetlen.
+Tételes fő/gazdaságos változat:50_KOLTSEG_ES_KOCKAZAT.md és40_ELEMLISTA.csv. Valamennyi egyedi méret tervezési befoglaló, nem felmért gyártási méret. Katalógustermékek örökölt V3.1 adatok, új ellenőrzés nélkül FELTÉTELESEK. A terasz13T munkabontása a változatlan fix13c–13e keret része, nem új hozzáadott költség. A2M tartalék érintetlen.
 
 ## 9. Önellenőrzés
 
 A hat kamera egyetlen bútor- és anyagkészletből dolgozik. Cam_02 kék óra; Cam_12/Cam_03 nappal; Cam_04 este; Cam_11 nappal; Cam_10 kizárólag műfény. A mély anyagok nappal is olvashatók. A főmű fizikai árnyékot kap és nem takar kapcsolót. A teljes magasságú gardrób működő ajtókkal, felső kitöltéssel és hozzáférhető szervizzel készül. A renderfájlok COMPLETE státusza a szöveg elkészültét jelenti, nem építési jóváhagyást.
+
+
+Végső becslés: fő 17490000Ft; gazdaságos 16970000Ft, mindkettő a8,4M fixszel. Nem költségkapu-PASS.

@@ -19,3 +19,7 @@ CP-S13-complete: six Westside Grand Continuum prompts | 5ae65758fdde2ecc1cb16934
 CP-S14-complete: six Modern White Luxury prompts | 318a59e2fad03a78473ba69ac8546e2217a0b8cd | 2026-10-25T20:24:08.835938+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 CP-S15-complete: six Authentic Japanese Modern prompts | 1397a7c25a859ed913aa6d47028f49b33f1f2fc1 | 2026-10-25T20:24:25.638110+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+CP-EXTRAS: seventeen full prompts with photo IDs and ranked generation order | 52c926db3bf73922ee656e67acf3f9dbb567c549 | 2026-10-25T20:26:28.539675+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+2026-10-26 folytatás:30+17prompt kész, nincs újragenerálás. S11Brisia anyagának célzott korrekciója az örökölt bizonyíték alapján. A70557fbc checkpoint technikai hiba miatt aCP0fájlokat mentette újra; valódi S11prioritásos tartalom a6bbe7b88commitban. Végső költség/elemlista/forrásátadás lezárva.
