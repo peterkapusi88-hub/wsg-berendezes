@@ -488,5 +488,243 @@
   "chat": "6adf691e-0a84-83ed-89b5-b5321b571300",
   "qa": "ELŐSZŰRT: azonos dizájn, szürke Geostone, mozaik zuhanyfal (hatszög a felbontásban nem egyértelmű); üveg ~3%-kal balra a küszöbtől.",
   "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X01_A": {
+  "seq": "61",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_X_06_2_Vanity_A__V32_A_v1.png",
+  "chat": "6adf69b9-1a18-83ed-9879-1c9c24563957",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: mosdó-fókuszú nézet (hátrébb, ajtótok bal szélen); organikus tükör rejtett fénnyel, ívelt végű lebegő taupe mosdószekrény, üvegfal, zuhanyszerelvény a helyén. Blender-validálás nincs.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X01_B": {
+  "seq": "62",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_X_06_2_Vanity_A__V32_B_v1.png",
+  "chat": "6adf69d9-90e0-83ed-b5ed-55ec8d882872",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: azonos dizájn, szürke Geostone + mozaik zuhanyfal; A≈B (kis különbség).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X02_A": {
+  "seq": "63",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3659_A__V32_A_v1.png",
+  "chat": "6adf6a6b-82d4-83ed-81fb-ed53d984bd96",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3659): falak, üvegmezők, lépcső és meglévő kapcsolók/aljzatok a fotó szerint; TIDAL relief TV-fal, U-kanapé. Megj.: mennyezeti pendant a nappali közepén – kiállás ellenőrzendő; padló kissé melegebb a fotónál.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X02_B": {
+  "seq": "64",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3659_A__V32_B_v1.png",
+  "chat": "6adf6aad-6d68-83eb-ab5c-7004629f2618",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera és dizájn, nincs pendant, padló a fotóhoz közeli szürke tölgy; A≈B (kis különbség: fény, pendant).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X03_A": {
+  "seq": "65",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3488_A__V32_A_v1.png",
+  "chat": "6adf6afc-9af8-83ed-95d1-53cc9fa850b9",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3488 terasz): tégla homlokzat, lépcső, deszkázat, burkolat, üvegfal a fotó szerint; étkező + lounge, cserepes olajfák, naplemente. A daru a fotóból maradt (valós állapot).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X03_B": {
+  "seq": "66",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3488_A__V32_B_v1.png",
+  "chat": "6adf6b38-0334-83ed-bb24-b53b494279d9",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera/dizájn; többlet: lépcső alatti LED-sáv és kerti fények – kültéri kiállás nem igazolt, ellenőrzendő. A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X04_A": {
+  "seq": "67",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_11c_A__V32_A_v1.png",
+  "chat": "6adf6b9f-fe04-83ed-9927-03299f31e06f",
+  "qa": "ELŐSZŰRT – Cam_11c (tulajdonos által jóváhagyott kiegészítő nézet): üvegél, m1, m2 osztás a lockon, korlát OK; sötét tölgy gardrób a déli falon, len függöny, panoráma.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X04_B": {
+  "seq": "68",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_11c_A__V32_B_v1.png",
+  "chat": "6adf6bdc-209c-83ed-b220-75ef771e9c78",
+  "qa": "ELŐSZŰRT – Cam_11c: azonos dizájn, osztások a lockon, fehér keretek, padló szürkés tölgy.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X05_A": {
+  "seq": "69",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3488_A__V32_A_v1.png",
+  "chat": "6adf6c33-67c8-83eb-baf7-abe8b437b2ac",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3488): fotó geometriája megtartva (tégla, lépcső, WPC-szint, burkolat, üvegfal, daru); lounge a felső WPC-szinten, étkező a burkolaton, közlekedő szabad. ChatGPT Pro-modell (segédügynökkel).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X05_B": {
+  "seq": "70",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3488_A__V32_B_v1.png",
+  "chat": "6adf6c67-2bf0-83ed-b645-a62f04f1c813",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos elrendezés, TERR-szabály szerint; A≈B (gyakorlatilag azonos). ChatGPT Pro-modell.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X06_B": {
+  "seq": "72",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3741_A__V32_B_v1.png",
+  "chat": "6adf6e06-fba0-83ed-bde0-57d64e569bf9",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3741 master): üvegfal, korlát, falak, padló a fotó szerint; tölgy fülke-gardrób a belső falon, len függöny, ágy az előtérben. Megj.: a gardrób takarja a fotón látható aljzatot – áthelyezés/hozzáférés ellenőrzendő.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X07_A": {
+  "seq": "73",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3708_A__V32_A_v1.png",
+  "chat": "6adf6ecb-e234-83eb-a85b-c2e7910a62b1",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3708 nappali–étkező–konyha): ajtók, falak, pillér, üvegfal, padló a fotó szerint; krém konyhasor a kiállásos falon, kerek étkező, gömbpendant, holdsarló relief a pilléren. Megj.: pendant kiállása ellenőrzendő.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X06_A": {
+  "seq": "71",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3741_A__V32_A_v1.png",
+  "chat": "6adf6f96-ad24-83ed-9be7-7b3f236039cf",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3741): üvegfal/korlát/falak a fotó szerint; tölgy fülke-gardrób, ágy, terasz-növények. Újraküldve: az első chat (6adf6e03) nem töltött be, kép nem jött. Megj.: gardrób takarja a fotón látható aljzatot.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X07_B": {
+  "seq": "74",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3708_A__V32_B_v1.png",
+  "chat": "6adf6f9b-2a9c-83eb-87f0-79ce69a2f0a9",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera és elrendezés (krém konyha, kerek étkező, pendant, holdsarló relief), padló a fotó szerinti szürke tölgy; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X08_A": {
+  "seq": "75",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_X_06_2_Vanity_A__V32_A_v1.png",
+  "chat": "6adf701f-d16c-83eb-b502-c266e8ae6e40",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: a nézet gyakorlatilag a Cam_10 keretezése (mosdó-közeli eltolás kicsi); sötét tölgy lebegő mosdó sötét pulttal, rejtett fény, tükör + felső szekrény, mozaik zuhanyfal, üveg a küszöbön.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X08_B": {
+  "seq": "76",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_X_06_2_Vanity_A__V32_B_v1.png",
+  "chat": "6adf7024-f55c-83ed-811c-807f88b0d371",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: azonos dizájn, kissé szélesebb mosdó-nézet, szürke Geostone + mozaik; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X09_A": {
+  "seq": "77",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3498_A__V32_A_v1.png",
+  "chat": "6adf7145-b1c8-83ed-b4fe-f202da05c12c",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3498 terasz kívülről): homlokzat, nyílászárók, WPC-szint, zöldtető a fotó szerint; lounge a felső szinten, étkező a WPC-n, belső tér az üvegen át. Megj.: kültéri lámpák kiállása nem igazolt.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X09_B": {
+  "seq": "78",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3498_A__V32_B_v1.png",
+  "chat": "6adf714a-7cf4-83eb-a37e-bc5e0ccfb70a",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera, kerek étkezőasztal, hasonló lounge; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X10_A": {
+  "seq": "79",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3659_A__V32_A_v1.png",
+  "chat": "6adf71d8-4574-83ed-b70f-84988b0f19b1",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3659): üvegmezők, lépcső, kapcsolók a fotó szerint; sötét tölgy TV-fal rejtett fénnyel, nagy U-kanapé, alkonyat. Megj.: a bal fal a fotón fehér, itt textúrás greige – ha nem tervezett panel, a fehér-fal szabály sérül (javítási jelölt).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X10_B": {
+  "seq": "80",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3659_A__V32_B_v1.png",
+  "chat": "6adf71db-e1d4-83eb-b8bf-db47416ebeb8",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera/dizájn, a bal fal szintén greige-es (alkonyati fény is torzít) – ugyanaz a megjegyzés; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X11_A": {
+  "seq": "81",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3708_A__V32_A_v1.png",
+  "chat": "6adf725d-1c70-83eb-a3a0-55b8874acacb",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3708): ajtó, pillér, üvegfal, padló a fotó szerint; tölgy/textil lobby-nyelvű konyha, kerek étkező, pendant, textil-geometrikus pillér-panel. Megj.: a hátsó és pillér-falak greige-esek (fotón fehér) – fehér-fal szabály szerint javítási jelölt.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X11_B": {
+  "seq": "82",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3708_A__V32_B_v1.png",
+  "chat": "6adf7260-ce48-83eb-bd10-a36740d95198",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos elrendezés, a falak itt fehérek maradtak (MAT2 hat), padló szürke tölgy; ennél a párnál a B a szabálykövetőbb.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X12_A": {
+  "seq": "83",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3726_A__V32_A_v1.png",
+  "chat": "6adf72eb-9294-83eb-8696-543e0cba4b39",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3726 étkező→nappali): üvegfal, ajtó, kapcsolók, fehér falak a fotó szerint; ovális tölgy asztal, bouclé székek, pendant, L-kanapé a háttérben. Megj.: pendant kiállása ellenőrzendő.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X12_B": {
+  "seq": "84",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3726_A__V32_B_v1.png",
+  "chat": "6adf72ef-3ec0-83eb-a3aa-f7273d8997b0",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos kamera és dizájn, padló szürke tölgy; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X13_A": {
+  "seq": "85",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3741_A__V32_A_v1.png",
+  "chat": "6adf737a-217c-83eb-9589-9f08f782deb1",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3741): üvegfal, korlát, falak a fotó szerint; világos tölgy/krém gardrób, len ágynemű, aranyóra-fény (a falak meleg tónusa a fényből adódik).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X13_B": {
+  "seq": "86",
+  "kep": "A902_S12_ModernOrganic_EXTRA_Cam_F_3741_A__V32_B_v1.png",
+  "chat": "6adf737d-ca48-83eb-9e71-9a9fe362952c",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos dizájn, padló szürke tölgy; A≈B. Megj.: mindkét változatnál takarja a gardrób a fotón látható aljzatot.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X14_A": {
+  "seq": "87",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_X_06_2_Vanity_A__V32_A_v1.png",
+  "chat": "6adf7407-a01c-83ed-9801-d078b19b3367",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: Cam_10-közeli mosdó-nézet; sötét füstölt tölgy lebegő mosdó, kőpult, rejtett fényű tükör + álló szekrény, mozaik zuhanyfal, üveg a küszöbön.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X14_B": {
+  "seq": "88",
+  "kep": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_X_06_2_Vanity_A__V32_B_v1.png",
+  "chat": "6adf740c-9b78-83ed-904c-717d1dd91117",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: azonos dizájn, szürke Geostone + hatszög-mozaik jól kivehető; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X15_A": {
+  "seq": "89",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_X_06_2_Vanity_A__V32_A_v1.png",
+  "chat": "6adf748e-b8c4-83ed-a91e-5d8e95ba325b",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: mosdó-nézet, diófa lebegő mosdó kőpulttal, rejtett fényű tükör, magas fa szekrény, hatszög-mozaik zuhanyfal, üveg a küszöbön.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X15_B": {
+  "seq": "90",
+  "kep": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_X_06_2_Vanity_A__V32_B_v1.png",
+  "chat": "6adf7492-977c-83ed-bd74-15df9c497461",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: azonos dizájn, kissé hátrébb húzott nézet; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X16_A": {
+  "seq": "91",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_X_06_2_Vanity_A__V32_A_v1.png",
+  "chat": "6adf7520-da5c-83eb-ac1b-203194bc2fba",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: fehér lebegő mosdószekrény széles pulttal, lekerekített rejtett fényű tükör, fehér felső szekrény, kavics-mozaik zuhanyfal, üveg a küszöbön.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X16_B": {
+  "seq": "92",
+  "kep": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_X_06_2_Vanity_A__V32_B_v1.png",
+  "chat": "6adf7524-7d8c-83eb-a754-6658b3ba20e5",
+  "qa": "ELŐSZŰRT – FELTÉTELES KAMERA: azonos dizájn, hatszög-mozaik + szürke Geostone; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X17_A": {
+  "seq": "93",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_F_3539_A__V32_A_v1.png",
+  "chat": "6adf75ed-450c-83eb-9016-f08b5d882be3",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV (KZS_3539 tetőterasz): WPC-szintek, lépcsők, zöldtető, korlát, darvak a fotó szerint; lounge a felső szinten, étkező a burkolaton. Megj.: kültéri lámpások – kiállás nem igazolt.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "X17_B": {
+  "seq": "94",
+  "kep": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_F_3539_A__V32_B_v1.png",
+  "chat": "6adf75f0-bec4-83eb-9ed8-7f4b74d5fa68",
+  "qa": "ELŐSZŰRT – FOTÓ-NATÍV: azonos elrendezés + cserepes olajfa; A≈B.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
  }
 }

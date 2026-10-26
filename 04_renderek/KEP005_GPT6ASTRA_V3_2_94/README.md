@@ -16,8 +16,11 @@
 - `qa/gate/` – Blender-lockpont és élátfedés kapukép; `qa/kontaktlap/` – A/B kontaktlapok
 - `checkpoints/` – terv, QA-napló, építő- és futtató szkriptek
 
-## Állapot – 2026-10-26 ~11:20
-- Kész: 58 kép (47 alap v1 + 11 javítás), alap-sorrend 1–48 lefutott (S11–S13 teljes, S14 Cam_10 nélkül, S15 csak Cam_12 hero).
-- **SKIPPED_LIMIT:** seq 49 (S14 Cam_10 A) – a ChatGPT Plus képgenerálási kerete elfogyott; visszaáll 2026-10-27 7:40. Kerülőutat nem használtunk.
-- Hátra: seq 49–60 (S14 Cam_10 A/B, S15 Cam_02/03/04/11/10 A/B), majd a 17 extra A/B (seq 61–94).
-- Stílusonkénti A/B kontaktlapok: `qa/kontaktlap/V32_S1x_*_kontaktlap_AB.jpg` (soronként kamera, elfogadott verzió; hiány jelölve).
+## Állapot – 2026-10-26 16:50 (KÉSZ)
+- **104 kép kész:** a teljes 47 × 2 = 94 kép (v1) + 10 javítókép (v2–v4). Minden kép QA-zva, státusz: KONCEPCIÓ – NEM VALIDÁLT.
+- 11:20-kor a ChatGPT Plus képkerete elfogyott (seq 49 SKIPPED_LIMIT); 15:35-től **ChatGPT Pro**-n folytatva, a seq 49 új chatben újra lefutott. Kerülőút nem volt.
+- Gondolkodási szint: minden képnél **High**, kivéve X05 A/B (S11 Cam_F_3488), amely a véletlenül „Pro” modellre állított választóval készült (segédügynökkel) – a naplóban jelölve.
+- X06 A: az első chat (6adf6e03) nem töltött be, kép nem jött → új chatben újraküldve (6adf6f96).
+- Extráknál (Cam_F_*, Vanity) az A/B különbség a várakozásnak megfelelően kicsi; QA-ban „A≈B” jelölve.
+- Javítási jelöltek (nem futtatva, tulajdonosi döntésre): X10 A/B és X11 A – a fotón fehér falak greige-re színeződtek; több képen pendant/kültéri lámpa villamos kiállás nélkül; X06/X13 gardrób takarja a meglévő aljzatot.
+- Kontaktlapok: `qa/kontaktlap/V32_S11..S15_*_kontaktlap_AB.jpg` (alap) és `V32_EXTRA_1/2_kontaktlap_AB.jpg` (extrák). Chat-azonosítók: `checkpoints/chat_azonositok_pro.txt`.

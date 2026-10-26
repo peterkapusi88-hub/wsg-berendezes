@@ -8,7 +8,9 @@ fs=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',18)
 CAMS=['Cam_12','Cam_02','Cam_03','Cam_04','Cam_11','Cam_10']
 slots={}
 for k,v in L.items():
-    m=re.match(r'(\d+)_([AB])(?:_(v\d))?$',k); nr,var,ver=m.group(1),m.group(2),m.group(3) or 'v1'
+    m=re.match(r'(\d+)_([AB])(?:_(v\d))?$',k)
+    if not m: continue
+    nr,var,ver=m.group(1),m.group(2),m.group(3) or 'v1'
     if int(nr)>30: continue
     sty=re.search(r'A902_(S1\d)_([A-Za-z]+)',v['kep']); cam=re.search(r'(Cam_\d+)',v['kep']).group(1)
     key=(sty.group(1),sty.group(2),cam,var)

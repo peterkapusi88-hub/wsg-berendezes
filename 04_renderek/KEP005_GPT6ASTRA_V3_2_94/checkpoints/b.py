@@ -1,7 +1,7 @@
 import json,sys
 import os
 P={p['seq']:p for p in json.load(open('/home/claude/work/v32_plan.json'))+(json.load(open('/home/claude/work/v32_fix_plan.json')) if os.path.exists('/home/claude/work/v32_fix_plan.json') else [])}
-T={'1':(2027661463,'ref_449','ref_347'),'2':(2027661464,'ref_372','ref_278')}
+T={'1':(2027661463,'ref_449','ref_347'),'2':(2027661477,'ref_372','ref_278')}
 acts=[]
 for arg in sys.argv[1:]:
     seq,tab,ri,rt=arg.split(':'); p=P[int(seq)]; tid=T[tab][0]; d='/home/claude/work/'+p['dir']
