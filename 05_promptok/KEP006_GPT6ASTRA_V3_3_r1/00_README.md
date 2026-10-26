@@ -26,3 +26,5 @@ A60–63fájlok az önálló Claude-átadást, a későbbi négy lookbook tervé
 FÉNY=LUXUS: stílusspecifikus TV-fényrétegek,2200–2700Kszabályozható Hue,2700Keste,kb.3mfejvégfény,kétHueGo és funkcionális gardróbfény;diffúz opálprofil, nincs kitaláltmennyezet vagy táp. Fürdő100cmüveg,falig folyamatos süllyesztettmosdós bútor,zárt tároló,hasznos fiókok és két fényréteg. A frissGOAL/skill11konyha-,kamra-,ruhalift- és hajszárítósfiók-elvei is átvezetve, a műszaki korlátokkal.
 
 BázisV3.2:973865596180c8549a5765ac5c8beb38f49a047d. FrissGOAL/skill/villamos záróellenőrzés:main@d04a107f9890abbb6414ea496b77f3643833b2ce. A korábbi CP0–CP2 és az eredeti V3.1/V3.2anyagok megmaradtak. A checkpointok és visszaellenőrzés a00_CHECKPOINT_NAPLO fájlban. Folytatáskor a manifest image_id és SHA256 alapján csak a ténylegesen hiányzó feladatokkal haladj.
+
+[GitHub átadás / draft PR #26](https://github.com/peterkapusi88-hub/wsg-berendezes/pull/26). A CP4 ellenőrzött tartalomcommitja `85c91edc6f06a5320970edbdff076f9b83155a6f`; a lezáró nyugta külön commitban követi.

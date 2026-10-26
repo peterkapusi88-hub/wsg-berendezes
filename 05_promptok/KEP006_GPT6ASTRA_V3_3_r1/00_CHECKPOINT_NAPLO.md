@@ -46,3 +46,5 @@ V3.3 CP3 S17: teljes promptok, A/B/C ahol új, önálló extra nézetek | 12664e
 V3.3 CP3 QA: fürdők egységes 2700 K esti jelenete és fotós master nappali fénye | 5388827ea636f237484098fd9a90b894c1ebe9a0 | 2026-10-26T15:24:29.369979+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 V3.3 bizonyíték | dde9d44a25321b306af4eb19271cdbd52d46b38b | Lennon és Martina PNG binárisGitblobSHA egyezett a helyi tartalommal.
+
+CP4 záróellenőrzés | 85c91edc6f06a5320970edbdff076f9b83155a6f | 196/196 helyi és távoli fájl Git-blobSHA egyezése;UTF-8LFszöveg és eredetiPNG. Kreatív csomagCOMPLETE, műszaki/renderkapuk külön. A végső nyugta ezt a commitot hivatkozza; nincs önmagába írtSHA.
