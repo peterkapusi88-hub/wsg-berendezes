@@ -6,7 +6,7 @@ Az eredeti CP0 és CP1a megmaradt. CP0: `884788f70bdcade7d603f5e90d2f4085c99b939
 
 ## Kézzelfogható átadás
 
-- [Egyoldalas tulajdonosi PDF](outputs/A902_R02_tulajdonosi_egyoldalas.pdf): pontosan egy A4, valódi tervből származó rajzokkal.
+- [Ötlapos tulajdonosi bemutató](outputs/A902_Kyoto_Ink_tulajdonosi_bemutato_5oldal.pdf): közérthető projektbemutató, költségmagyarázat, idő és kockázat, használati érték, tulajdonosi cselekvési terv. A korábbi egyoldalas PDF történeti példányként megmarad.
 - [Élő Excel](outputs/A902_Kyoto_Ink_elo_regiszter.xlsx):159 sor, fő/gazdaságos számítás, források, lefedettség, ütemterv, eltérések,208 soros előzetes szabásjegyzék és külön05.2 alternatíva.
 - [78 oldalas rajzcsomag](outputs/A902_R02_rajzcsomag.pdf):33 szerkezet saját lapja/specifikációja, alaprajzok, gardróbbelsők, TV/konyha/üveg részletek, ALT-052. Egyedi PDF-ek és szerkeszthető SVG-k a `drawings/` mappában.
 - [17 oldalas szakági csomag](outputs/A902_R02_szakagi_egyezteto.pdf):világítás, víz/gép, felületek, textilek, kültér, ütemezés, nyitott kapuk.
@@ -29,3 +29,7 @@ A konyhai folyosó840mm, a900mm célt nem teljesíti. Nyitott mosogatógép mell
 További lényeges nyitott tételek: pontos elszívó/mosogató/csap és kültéri főcsalád; teljes Hue/LED SKU és hozzáférés; textilek és minták; minden fiók és gépajtó használata; gyártói bútorazonosság; helyszíni szintek/küszöb/nyílások; elektromos, vizes, üveges és teraszstatikai feltételek. Végleges renderelés előtt a gyári termékfotókat/mesh-eket be kell csomagolni és a modellbe egyeztetni.
 
 A korábbi12termékes korlátozás megszűnt. A folytatás a teljes lakásra vonatkozik; az R02 nem új CP0 és nem késznek nyilvánítás.
+
+## Tulajdonosi bemutató bővítése - 2026-10-26
+
+A megrendelő kérésére a tulajdonosi összefoglaló most pontosan öt A4-oldal. A dokumentum a fő kérdésekre válaszol: miért kerül ennyibe, miért tart eddig, mi jöhet közbe, mitől különleges, megéri-e, és hogyan gyorsítható. A 15 hetes gyorsított változat feltételes szervezési javaslat; a 17 hetes alapütem, az élő költségvetés és a műszaki jóváhagyási állapot nem változott. A renderpromptokon másik munkamenet dolgozik; ez a módosítás nem írja át őket.

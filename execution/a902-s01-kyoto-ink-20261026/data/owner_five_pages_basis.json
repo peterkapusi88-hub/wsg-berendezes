@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-26",
+  "design_revision": "KI-V33-R02",
+  "source_budget": {
+    "main": 20554190,
+    "economy": 19899690,
+    "low": 17740028,
+    "high": 27132689,
+    "budget": 18000000,
+    "reserve": 2000000,
+    "reserve_used": 0,
+    "verified": 1757130,
+    "quotes": 0,
+    "cp1a": 20083350,
+    "cpv33": 20293350,
+    "unproven_savings": true
+  },
+  "cost_groups": [
+    [
+      "Egyedi bútor és asztalosmunka",
+      5080000
+    ],
+    [
+      "Készbútor, bel- és kültérre",
+      4300830
+    ],
+    [
+      "Jakuzzi, kert és terasz szakági tételei",
+      2590000
+    ],
+    [
+      "Gépek és elektronika",
+      2450000
+    ],
+    [
+      "Világítás és villamos munkák",
+      2108360
+    ],
+    [
+      "Textil, felületek és kapcsolódó feladatok",
+      4025000
+    ]
+  ],
+  "base_duration_weeks": 17,
+  "accelerated_target_weeks": 15,
+  "accelerated_status": "UNCONFIRMED_OWNER_ACTION_SCENARIO",
+  "procurement_authorized": false,
+  "scope_reduction": false,
+  "questions": [
+    "Miért ennyire drága?",
+    "Miért ennyi idő?",
+    "Mi jöhet közbe?",
+    "Mi lesz különleges és miért?",
+    "Megéri ennyit rákölteni?",
+    "Hogyan lehet hamarabb kész?"
+  ]
+}
