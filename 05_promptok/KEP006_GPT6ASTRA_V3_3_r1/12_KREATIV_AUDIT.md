@@ -1,0 +1,9 @@
+# Kreatív audit és irányválasztás
+
+A csatolt S01 kontakton a gardrób ink-motívuma és a TV-fal már karakteres; az ágy feletti második ink-kép gyengíti a hierarchiát. C-ben ez elmarad. S11 TV-falának ásványi anyaga és vékony fémes részlete jó; a kis jobb oldali hálókép léptéke gyenge. S13 kis bal oldali képe túl különálló a lobbyból származtatott falrendszerhez. Mindkettő integrált, visszafogott fejvégfal-felületet kap. S12 TV-reliefje a legerősebb meglévő organikus gesztus: megtartjuk, W02 anyagi visszhangja kisebb kontrasztú lesz. S14 fehér falának negatív tere érték, nem kell mindent beburkolni. S15 az arányoktól és csendtől japán, nem ikonográfiától.
+
+Az S11–S15 hero-kontaktlap túl egységes bútorcsaládja tompítja a különbségeket. S11 alaphelyzetét a sikeres TV miatt megtartjuk és tájolását auditáljuk. S12 puhább Martina-jelöltet kap; S13 számára saját keretes asztal és mértékletesen tagolt textilprogram indokolt; S14 kompakt Melva-jelölt, S15 alacsony JÄTTEBO-jelölt. A választások csak gyári képpel és helyszíni befoglalóval válhatnak C-renderkész állapottá.
+
+A ferde kanapéhát önmagában nem bizonyít elforgatást: a perspektíva ferde vonalat adhat egy szabályosan tájolt testnek is. A mellékelt Zuma-képből nem állítunk bizonyított geometriai hibát. Azonos Blender tárgytranszformáció, alaprajzi vetület, gyári L-kéz, háttámla vonalának eltűnési pontja és TV-fal iránya együtt vizsgálandó. Tilos kameránként javításként újraforgatni a kanapét. W01 TV-alapállapot marad; W02 TV külön, itt nem kidolgozott tulajdonosi alternatíva.
+
+S16 a saját G63 zárt, védő, puhán szögletes tömegeiből építkezik; S17 világosabb, vízszintesebb és egy folytonos vonal változó ritmusa köti össze a modellcsaládot. A megfigyelt törtfehér kárpit, perforáció és szürke fabetét nem bizonyított gyári anyagnév. A kis fehér fa-minta forrása ismeretlen; nem válik automatikusan meglévő padlóvá. Videó nem állt rendelkezésre, ezért videóelemzés nem állítható.
