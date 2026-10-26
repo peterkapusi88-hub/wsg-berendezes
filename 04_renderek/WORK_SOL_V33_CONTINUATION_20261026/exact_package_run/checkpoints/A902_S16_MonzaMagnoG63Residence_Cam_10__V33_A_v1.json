@@ -22,11 +22,20 @@
       "sha256": "90902903879de3216712c26c96d9395fcf7cb9c1e73be1277fc0cc697b04ae12"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 2,
   "submitted_at": "2026-10-26T21:23:46.300Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfc4de-592c-83ed-ad53-884b6a6bf1db",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S16_MonzaMagnoG63Residence_Cam_10__V33_A_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Modern fürdőszoba meleg fényekkel.png",
+  "sourceChat": "https://chatgpt.com/c/6adfc4de-592c-83ed-ad53-884b6a6bf1db",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T21:28:02.654Z",
+  "generation_attempts": 1,
+  "earlier_ax_error_superseded": true
 }
