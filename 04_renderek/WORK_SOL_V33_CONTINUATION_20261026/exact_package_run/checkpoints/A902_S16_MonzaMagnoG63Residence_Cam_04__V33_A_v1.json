@@ -29,9 +29,7 @@
   "message_verbatim": true,
   "all_package_attachments": true,
   "high_confirmed": true,
-  "reason": "Nem sikerült betölteni ezt a választ; nincs letölthető generált kép.",
   "retried": false,
-  "skipped_at": "2026-10-26T21:10:49.944Z",
   "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S16_MonzaMagnoG63Residence_Cam_04__V33_A_v1.png",
   "download": "/Users/peterkapusi/Downloads/Luxus hálószoba meleg esti fényben.png",
   "sourceChat": "https://chatgpt.com/c/6adfc11a-27d8-83eb-9e8e-475f49c1c970",
@@ -40,5 +38,10 @@
   "width": 1586,
   "downloaded_at": "2026-10-26T21:12:40.787Z",
   "generation_attempts": 1,
-  "earlier_ax_error_superseded": true
+  "earlier_ax_error_superseded": true,
+  "superseded_accessibility_error_note": {
+    "reason": "Nem sikerült betölteni ezt a választ; nincs letölthető generált kép.",
+    "skipped_at": "2026-10-26T21:10:49.944Z",
+    "resolved_without_regeneration": true
+  }
 }

@@ -1,21 +1,19 @@
-# WSG V3.3 — Work/Sol Chrome átadási checkpoint
+# WSG V3.3 — Work/Sol közvetlen Chrome képgenerálás
 
-A Claude-forrás: renders/gpt6astra-v3-3-abc @ eafba53d401d8595f79257fde42a83415633e947. A 49 helyi eredeti PNG SHA256-egyezése ellenőrizve a forrásnyilvántartással. Az eredeti renderág és kreatív források érintetlenek.
+## Aktuális csomagfuttatás
 
-## Négy jelölt, egyetlen változat
+A felhasználó által a Macre átadott ~/Downloads/WSG_V33_GPT_CSOMAG az elsődleges operátori csomag. A 95 feladat teljes _msg.txt üzenete és minden számozott melléklete ellenőrizve. A 003-as S16 Cam03 C feladatot a felhasználó kérésére kihagyjuk, mert a pilotból már létezik; 94 új feladat fut egyszer. A pontos aktuális darabszám és folytatási pont az exact_package_run/RUN_STATUS.json fájlban, az átadási lista a HANDOFF.json fájlban található.
 
-Mind a négy kép S16 / Monza Magno G63 Residence / Cam_03 / V3.3 **C**. A v1–v4 technikai próbaverziók, nem A/B/C sorozat. Egy új kép sem szerepel elfogadottként: PENDING_CLAUDE_QA. Mind a négy tényleges PNG a csomag szerinti fájlnéven a közös Downloads/WSG_ASTRA_V3_3_RENDEREK/images mappába másolva. A böngésző eredeti letöltési címei nem a végleges archívumnevek.
+Egy feladat egy új ChatGPT chat, Kép létrehozása, High/Erős 3/5. Három Chrome-fülön, legfeljebb három párhuzamos képfeldolgozással. A teljes csomagüzenet változatlan, minden melléklet tényleges fájlként, sorszámsorrendben kerül feltöltésre. Beküldés előtt üzenetegyezés, képszám, képsorrend, feltöltési befejezettség és High ellenőrzés. Egyetlen generálási próbálkozás feladatonként; nincs önálló kreatív vagy javító újragenerálás.
 
-A teljes Astra kreatív prompt minden üzenetben változatlanul szerepel. A pilot üzenete Claude kész Cam03 üzenetének geometriai blokkjából és kész S16 üzenetének anyagblokkjából lett összeállítva; a következő feladat eredeti `_msg.txt` csomagja még nincs meg. Ezt a különbséget nem tekintjük a kész csomag szószerinti futtatásának.
+A tényleges eredeti PNG-k a ChatGPT nézegető Letöltés gombjával kerülnek a Macre, majd új fájlként, felülírás nélkül a ~/Downloads/WSG_ASTRA_V3_3_RENDEREK/images/<image_id>.png mappába. A QA-t és a fő rendernapló befogadását Claude végzi. A letöltött állapot nem kreatív elfogadás. Minden kép KONCEPCIÓ – NEM VALIDÁLT.
 
-A v1 hat tényleges csatolmányt kapott: Cam03 Blender, KZS3695, KZS3708, Brisia, G63 külső, saját ülések. A v2 kapott egy hetedik S16 Cam12 C művészeti folytonossági referenciát, de a kamera elcsúszott. A v3 visszatért az eredeti hat képhez, de a generátor asztalt cserélt. A v4 a v1 meglévő képének célzott szerkesztése az eredeti hat kép ismételt csatolásával. A részletes megfigyelések a qa mappában, a teljes tényleges üzenetek a prompts_sent mappában vannak.
+Nincs fizetős OpenAI API, API-kulcs, vásárlás vagy külön kredit. A helyi csomag nyers referenciafotóit nem másoljuk ebbe a távoli archívumba; a források, szerepek, sorrend és hash-ek dokumentáltak. Az eredeti kreatív promptok és V3.1/V3.2 fájlok érintetlenek.
 
-## A felhasználó legújabb utasítása
+## Forrás és korábbi pilot
 
-Folytatás kizárólag a feladat eredeti `_msg.txt` üzenetével, szó szerint és a teljes mellékletcsomaggal; feladatonként egy próbálkozás. Nincs önálló javító újragenerálás. A képek ellenőrzése és a főnaplóba történő befogadása Claude feladata. A 95 feladat és 6 felfüggesztett mosdós extra külön nyilvántartva; jelenleg az eredeti üzenetcsomag helye hiányzik.
+A Claude renderarchívum forrása: renders/gpt6astra-v3-3-abc @ eafba53d401d8595f79257fde42a83415633e947. A 49 eredeti helyi PNG SHA256-egyezése a forrásnyilvántartással ellenőrizve. Ez a külön Work/Sol ág a forráscommitból indult; az eredeti renderágat nem módosítja.
 
-## Működő technikai módszer
+Az egy-próbás munkarend előtt négy pilotváltozat készült: mind S16 / Cam_03 / C, v1–v4. Ezek nem A/B/C összehasonlító képek. Mind megőrizve és a közös képmappába másolva, kiválasztásuk Claude QA-feladata. Az eredeti Astra kreatív szöveg mindegyikben változatlan; a pilot integrátori üzenete kész Claude-üzenetekből lett összeállítva. A későbbi 94-es csomagfuttatás már az eredeti _msg.txt-k szó szerinti futtatása.
 
-Közvetlen Chrome-kapcsolat, ChatGPT böngészős Kép létrehozása / meglévő kép szerkesztése felület. High/Erős (3/5) beküldés előtt ellenőrizve. Helyi fájlok tényleges feltöltése, hosszú szöveg visszahelyezése a szövegmezőbe, teljes UI-szöveg egyezésének ellenőrzése. Képnézegető Letöltés gomb → tényleges PNG a Letöltésekben → kizárólag új fájlként másolás és hash-ellenőrzés. Nincs fizetős API, kulcs, vásárlás vagy külön kredit. A generálás és letöltés emberi kattintás nélkül működött. A 2–3 egyidejű generálási fül teljes üzemi próbája még nem történt meg.
-
-Minden kép KONCEPCIÓ – NEM VALIDÁLT. Nem állítunk numerikusan igazolt kameraillesztést vagy kész kivitelezési megfelelést. A nyers saját autófotók és a helyszíni képek helyben maradnak; a távoli checkpoint a szerepüket, forrásukat és hashüket őrzi meg.
+Az exact_package_run/SKIPPED_CORRECTION.txt rögzíti a korai hozzáférhetőségi felület téves hibaértelmezésének helyesbítését: 005/006/007 eredeti képei letöltve, újragenerálás nélkül. A jelenlegi átvevő a tényleges élő képvezérlőt ellenőrzi.

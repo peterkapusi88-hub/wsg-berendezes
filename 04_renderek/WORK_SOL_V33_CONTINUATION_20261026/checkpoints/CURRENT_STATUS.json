@@ -1,17 +1,21 @@
 {
-  "source_accepted_archive_count": 49,
-  "source_commit": "eafba53d401d8595f79257fde42a83415633e947",
-  "new_candidates": 4,
-  "new_variants": [
-    "S16 Cam_03 C only"
+  "status": "RUNNING",
+  "submitted": 86,
+  "downloaded": 83,
+  "skipped_errors": 0,
+  "user_skip": [
+    "003"
   ],
-  "new_accepted_count": 0,
-  "qa_owner": "Claude per user instruction",
-  "all_four_copied_to_shared_images": true,
-  "remaining_manifest_jobs": 95,
-  "held_extras": 6,
-  "next_execution_policy": "one original package _msg.txt verbatim + all package attachments in exact order; one attempt per job; report issues without retry; QA left to Claude",
-  "next_status": "WAITING_FOR_ORIGINAL_MSG_PACKAGE_LOCATION",
+  "next_unstarted_order": "088",
+  "remaining_unstarted": 8,
+  "qa_owner": "Claude",
+  "generation_attempts_per_job": 1,
+  "supersedes_earlier_ax_error_interpretation": true,
+  "original_archive_count": 49,
+  "source_commit": "eafba53d401d8595f79257fde42a83415633e947",
+  "earlier_C_pilot_candidates": 4,
+  "all_earlier_candidates_are": "S16 Cam_03 C",
   "original_sources_unchanged": true,
-  "no_api_no_purchase": true
+  "held_vanity_extras": 6,
+  "authoritative_run_state": "exact_package_run/RUN_STATUS.json"
 }

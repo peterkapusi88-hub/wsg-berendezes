@@ -22,11 +22,19 @@
       "sha256": "810162f8c7ed92b07386fb8a800613e9077014c12a303adc32dcd4ec33ee6d06"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 0,
   "submitted_at": "2026-10-26T22:22:50.337Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfd2b3-5520-83ed-99c1-a03a1308d87b",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S02_BiBoNocturne_Cam_10__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Luxus fürdőszoba meleg fényekben.png",
+  "sourceChat": "https://chatgpt.com/c/6adfd2b3-5520-83ed-99c1-a03a1308d87b",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T22:29:00.176Z",
+  "generation_attempts": 1
 }

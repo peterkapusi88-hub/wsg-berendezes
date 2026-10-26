@@ -45,9 +45,7 @@
   "message_verbatim": true,
   "all_package_attachments": true,
   "high_confirmed": true,
-  "reason": "Nem sikerült betölteni ezt a választ; nincs letölthető generált kép.",
   "retried": false,
-  "skipped_at": "2026-10-26T21:09:33.130Z",
   "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S17_MercedesDesignCollectionResidence_Cam_03__V33_C_v1.png",
   "download": "/Users/peterkapusi/Downloads/Modern, meleg tónusú konyha étkezővel.png",
   "sourceChat": "https://chatgpt.com/c/6adfc090-67e0-83ed-83c3-5ca6ca7976ec",
@@ -56,5 +54,10 @@
   "width": 1586,
   "downloaded_at": "2026-10-26T21:12:35.220Z",
   "generation_attempts": 1,
-  "earlier_ax_error_superseded": true
+  "earlier_ax_error_superseded": true,
+  "superseded_accessibility_error_note": {
+    "reason": "Nem sikerült betölteni ezt a választ; nincs letölthető generált kép.",
+    "skipped_at": "2026-10-26T21:09:33.130Z",
+    "resolved_without_regeneration": true
+  }
 }
