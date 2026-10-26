@@ -6,3 +6,5 @@ V3.3 CP0: forrasok, tulajdonosi dontesek es elso kepaudit | fa9b77e6671ace93e37f
 V3.3 CP1: 17 identity sheets and targeted creative revision | fdc4da5a0ead2c2f1d159ab3e0ae71b86e97c6c5 | 2026-10-26T12:53:15.760165+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
 
 V3.3 CP2: termekprogram, het butorozasi revizio es anyagmintak | 0a7c705c010ccc43994ef53a0fce7b9f7279d006 | 2026-10-26T13:02:10.664077+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
+
+V3.3 CP2.5: S01-S10 creative parity and 17 lighting-luxury priority sheets | bddd56f9c432056500f8200d2c0ae6dacc3eb5c5 | 2026-10-26T14:48:40.892304+00:00 | távoli karakteres visszaolvasás PASS. Folytatás: manifest PENDING sorai, majd teljes átadási ellenőrzés.
