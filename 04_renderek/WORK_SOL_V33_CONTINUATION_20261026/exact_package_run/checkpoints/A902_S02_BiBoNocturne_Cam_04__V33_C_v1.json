@@ -30,11 +30,20 @@
       "sha256": "7a754af7cebc1087d44b9cb41fb7978d30945588ed734b5af145dcfa42021c08"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 0,
   "submitted_at": "2026-10-26T21:50:27.551Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfcb22-0054-83ed-801f-e509ecbf16f7",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S02_BiBoNocturne_Cam_04__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Hangulatos modern hálószoba meleg fényekkel.png",
+  "sourceChat": "https://chatgpt.com/c/6adfcb22-0054-83ed-801f-e509ecbf16f7",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T21:55:26.572Z",
+  "generation_attempts": 1,
+  "earlier_ax_error_superseded": true
 }
