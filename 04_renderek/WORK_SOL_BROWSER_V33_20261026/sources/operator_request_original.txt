@@ -1,0 +1,201 @@
+Folytatjuk a WSG A-902 projekt korábban már működő Claude Browser képgenerálási munkafolyamatát.
+Alapvető szereposztás:
+GPT-6 Astra = egyedüli kreatív belsőépítész és design director.
+Claude Opus = technikai végrehajtó, képgenerálási operátor, geometriai és referenciaellenőr, minőségellenőr, archiváló és kiadványkészítő.
+Ne hozz önálló belsőépítészeti, bútorválasztási, művészeti vagy stilisztikai döntést.
+Az Astra legfrissebb, GitHubra mentett kreatív csomagja az elsődleges dizájnforrás.
+Ez a megbízás a technikai végrehajtás szabályait tartalmazza, és semmilyen kreatív szempontból nem írja felül az Astra munkáját.
+GitHub-repository:
+peterkapusi88-hub/wsg-berendezes
+Meglévő források:
+- V3.1 Astra kreatív csomag
+- V3.2 Astra kreatív csomag
+- V3.1 renderarchívum
+- renders/gpt6astra-v3-2-94-tests – V3.2 folyamatban lévő vagy elkészült renderarchívum
+- Az Astra új S01–S17 kreatív revíziós ága, a tényleges átadási commit alapján
+- A-902 Blender geometry lockok
+- Profi helyszíni fotók és fotóleltár
+- Termékfotók, referenciamanifestek, korábbi QA-jelentések
+Induláskor ellenőrizd az ágakat, commitokat, elérhető fájlokat és a befejezettségi állapotot.
+Ne feltételezd, hogy minden korábban tervezett kép már elkészült.
+A korábbi verziókat ne írd felül.
+A generálásnál alkalmazandó hierarchia:
+1. Valós építészeti geometria, kötelező fizikai és biztonsági kötöttségek.
+2. Astra legfrissebb, jóváhagyott kreatív promptja és stílusspecifikációja.
+3. Astra által jóváhagyott konkrét bútormodellek, műalkotások és anyagok.
+4. Astra által meghatározott képreferencia- és kameramanifest.
+5. Helyszíni profi fotók a dokumentált szerepük szerint.
+6. Technikai renderelési és QA-utasítások.
+A technikai referenciák nem adnak felhatalmazást kreatív újratervezésre.
+Ha valódi geometriai lehetetlenség merül fel, jelezd és dokumentáld az ütközést. Ne oldd meg önkényesen más bútorral, más műalkotással vagy új elrendezéssel.
+Ha a termékadat vagy a referenciák ellentmondásosak, jelöld a problémát és az érintett képet, ne találj ki hiányzó adatot.
+Az Astra teljes angol kreatív promptjait változtatás nélkül használd.
+Ne rövidítsd le őket.
+Ne fogalmazd át a kreatív részeket.
+Ne cseréld ki a bútorokat.
+Ne módosítsd a művészetet, a kompozíciót vagy a színpalettát.
+Ne adj hozzá saját díszítést vagy kreatív ötletet.
+A szükséges kamera-, fotó- és technikai instrukciókat külön, egyértelműen megjelölt kiegészítő blokkban alkalmazd.
+A kiegészítés nem kerülhet ellentmondásba az Astra kreatív tervével.
+Minden ténylegesen elküldött teljes generálási üzenetet őrizz meg, az eredeti Astra-forrásprompt hivatkozásával.
+A projekt jelenlegi terve:
+17 stílus × A/B/C = 51 bemutatandó változat.
+A: az eredeti Astra renderverzió.
+B: a korábbi második, anyag- és helyszíni referencia-korrekciós renderverzió.
+C: új, több releváns valódi profi helyiségfotóval és az Astra által kiválasztott konkrét termékek referenciáival készülő renderverzió.
+Az S01–S15 eredeti A/B képei megmaradnak.
+Az S01–S15 új C képeit az Astra kreatív revíziója alapján készítsd.
+Az S16 és S17 teljesen új A/B/C sorozatot kap.
+Az A/B/C megjelölések vizualizációs változatok, nem három egymástól független kreatív tervet jelentenek.
+A C-generálásban tényleges képbemenetként használj több, az adott A-902 helyiséghez releváns profi helyszíni fotót, nem csupán egy padlókivágást.
+A képeket a legfrissebb Astra-manifestből és a valódi A-902 fotóleltárából válaszd.
+Minden képbemenet szerepét külön dokumentáld:
+- geometria és kamera;
+- valódi helyiség;
+- nyílászárók és építészeti részletek;
+- padló és meglévő anyagok;
+- terasz és kilátás;
+- konkrét kereskedelmi termék;
+- Astra kreatív stílusreferencia.
+Az eredeti, rögzített Blender-kamerás képeknél a Blender határozza meg a kamerát és a szerkezeti geometriát.
+A fotónatív Cam_F nézeteknél a megfelelő profi fotó határozza meg a nézőpontot.
+Eltérő kameraállású referenciaképet ne használj a fő kamera lecserélésére.
+Ne keverd össze az A-902-t más lakásokkal.
+Ne állíts numerikusan ellenőrzött kameraillesztést, ha az nem történt meg.
+Ha a képbemenetek száma korlátozott, a legfontosabb referenciákat válaszd ki, dokumentált prioritás alapján.
+Tartsd be az eredeti geometry lockokat és a ténylegesen jóváhagyott kamerákat.
+Külön figyelj:
+- kameraállás és képkivágás;
+- nyílások, ajtók, falsíkok;
+- 2,90 m-es belmagasság;
+- meglévő mennyezet;
+- terasz fellépése és szintjei;
+- valódi burkolatok;
+- nyílászárók osztása;
+- gardróbok valódi helye;
+- fürdő meglévő geometriája;
+- valós panoráma.
+Az eredeti Cam_11 és a később jóváhagyott Cam_11c két külön kamera.
+A Cam_11c a bal oldali déli gardróbot és a valódi üvegfalat együtt mutató, tulajdonos által preferált kiegészítő master nézet.
+A Cam_11b korábbi elvetett próbáját ne használd helyette.
+Ne cseréld fel a kameraazonosítókat.
+A jóváhagyott kamera és geometria megőrzése elsődleges technikai követelmény.
+Az Astra által kiválasztott konkrét bútorok azonosak maradjanak az adott stílus különböző kameráin.
+Ellenőrizd:
+- modell;
+- méret;
+- oldaliság;
+- tájolás;
+- szín;
+- anyag;
+- alaprajzi hely;
+- TV-hez viszonyított helyzet;
+- azonos asztal, szőnyeg, konyha, gardrób és műalkotás.
+A visszatérő kanapéelfordulási és perspektivikus hibákat külön vizsgáld.
+Ne korrigálj ilyen hibát önálló kreatív átrendezéssel.
+A teljes falas vagy bútorba integrált művészetet az Astra pontos méret- és anyagleírása szerint jelenítsd meg.
+Ne kicsinyítsd automatikusan bekeretezett képpé.
+Ha egy elkészült render eltér az Astra specifikációjától, készíts célzott technikai javító változatot vagy jelöld blokkoltnak.
+Használd a korábban bevált Claude Browser folyamatot.
+Először végezz reprezentatív próbákat az új C referencia-módszerrel és az S16/S17 A/B/C hero képeivel.
+Ellenőrizd, hogy:
+- a megfelelő kreatív prompt került elküldésre;
+- a kamera helyes;
+- a tényleges referenciafotók szerepelnek;
+- a bútorazonosság megfelelő;
+- az Astra-dizájn felismerhető;
+- nincsen súlyos geometriai eltérés.
+Ezután folytasd a teljes képsorozattal, az Astra átadási manifestje szerint.
+Ha hiba van, őrizd meg a v1-et és készíts célzott v2/v3 változatot.
+A technikai javítás ne legyen kreatív áttervezés.
+Ne generálj újra elfogadható képet feleslegesen.
+Ha a képgenerálási keret elfogy, állj meg, dokumentáld a pontos folytatási pontot és ments mindent. Ne keress kerülőutat a korlát megkerülésére.
+Minden képhez dokumentáld:
+- stílus;
+- A/B/C változat;
+- kamera;
+- eredeti Astra-prompt és forráscommit;
+- ténylegesen elküldött generálási üzenet;
+- felhasznált referenciák;
+- konkrét bútorazonossági adatok;
+- képverzió;
+- technikai hibák;
+- geometriai ellenőrzés;
+- kreatív specifikációnak való megfelelés;
+- kamerák közötti konzisztencia;
+- elfogadott vagy javítandó státusz.
+A technikai QA nem jelent kreatív jóváhagyást.
+A render nem bizonyítja a tényleges kivitelezhetőséget, termékbeszerezhetőséget vagy költséget.
+A még nem igazolt állapotokat jelöld:
+KONCEPCIÓ – NEM VALIDÁLT.
+Mentsd a képeket, promptokat, kontaktlapokat, nyilvántartásokat és QA-adatokat külön verziózott GitHub-munkacsomagba.
+A korábbi renderágakat ne módosítsd.
+Minden jelentős checkpoint után ellenőrizd a távoli mentést és rögzítsd a tényleges commit SHA-t.
+A teljes és ellenőrzött képtár elkészülte után négy végtermék szükséges:
+1. Full Design Lookbook – HTML
+2. Full Design Lookbook – PDF
+3. Decision Lookbook – HTML
+4. Decision Lookbook – PDF
+A teljes kiadvány 17 stílus és 51 A/B/C változat vizuális bemutatása.
+A rövid döntéshozói PDF célterjedelme körülbelül 20–30 oldal, valamennyi stílus és változat áttekinthető bemutatásával.
+A két HTML legyen interaktív, mobilon és iPaden használható, valamint átadható helyi fájlcsomagként, lehetőség szerint offline működéssel.
+Funkciók:
+- 17 stílusos navigáció;
+- A/B/C kapcsoló;
+- kamera- és helyiségszűrés;
+- teljes képernyős galéria;
+- azonos kamerák összehasonlítása;
+- kedvencek;
+- 3–5 döntős kiválasztása;
+- rövid döntéshozói összehasonlítás;
+- kedvencek exportálása.
+A vizuális referenciaként szolgáló korábbi HTML:
+[https://claude.ai/artifact/3xtj2RUgsJKvPVpToqc6hd](https://claude.ai/artifact/3xtj2RUgsJKvPVpToqc6hd)
+Ha ténylegesen hozzáférhető, használd a prezentációs felület inspirációjaként.
+A kiadvány tipográfiai, tördelési, navigációs és műszaki szerkesztését önállóan elvégezheted.
+De nem változtathatod meg az Astra enteriőreit, művészeti koncepcióit, stílusazonosságát vagy kreatív történetét.
+A kreatív leírásokat az Astra átadásából vedd.
+A képaláírások legyenek tényszerűek.
+Ne találj ki művészeti indoklást vagy termékazonosságot.
+Ne jelölj önkényesen egy stílust győztesnek.
+A teljes HTML/PDF, valamint a rövid HTML/PDF közös, elegáns, prémium kiadványarculatot használjon.
+Az HTML- és PDF-fájlokat működő formában, szükséges erőforrásaikkal együtt add át.
+A funkciókat ténylegesen ellenőrizd.
+1. A meglévő V3.1 és V3.2 A/B renderkör tényleges lezárásának, naplóinak és GitHub-mentéseinek ellenőrzése.
+2. Az Astra új S01–S17 kreatív revíziójának, promptjainak, termékazonossági lapjainak és C-referenciamanifestjének beolvasása.
+3. Az új C-referenciarendszer próbája reprezentatív képeken.
+4. Az S16 és S17 első A/B/C hero próbái.
+5. Az új képek teljes generálása az Astra manifestje alapján.
+6. Technikai QA, hibajavítások és képek közötti konzisztenciaellenőrzés.
+7. Végleges, ellenőrzött képtár és GitHub-checkpoint.
+8. Teljes HTML- és PDF-lookbook.
+9. Rövid döntéshozói HTML- és PDF-lookbook.
+10. Végső működésellenőrzés, mentés és átadás.
+ASTRA DESIGNS. CLAUDE EXECUTES.
+Az Astra kreatív briefje és döntései érintetlenek.
+Claude a valós építészeti referenciaanyagok és technikai előírások alapján a lehető legpontosabban megjeleníti őket.
+Ha a kreatív elképzelés és a geometriai korlát között valódi konfliktus van, dokumentáld, és kérj Astra-szintű kreatív módosítást. Ne készíts helyette saját dizájnt.
+A cél nem Claude által továbbtervezett enteriőr, hanem az Astra művészeti koncepcióinak technikailag következetes, fotórealisztikus és professzionálisan bemutatott változata.
+
+
+Az S16 és S17 képgenerálásakor a saját Mercedes-AMG G 63 autóm valódi fényképeit is használd tényleges képbemenetként, nem csupán szöveges inspirációként.
+A fotókat az Astra végleges szín- és anyagspecifikációjával együtt alkalmazd.
+Referenciák:
+- Külső karosszéria: Monza Grey magno matt fényezés.
+- Belső tér: az autóm tényleges bőr- és kárpitszínei.
+- Varrásminták, dekorbetétek, fémes és matt részletek.
+- A felületek közötti kontrasztok és az autó valódi anyagkaraktere.
+S16: a saját G 63 autóm szín- és anyagvilága az egész lakás meghatározó vizuális referenciája.
+S17: a saját G 63 képei az Astra által jóváhagyott közös szín- és anyagpaletta referenciái. Az egyes helyiségekhez rendelt más Mercedes-modellek formai motívumait és egyedi részleteit az Astra külön kreatív specifikációja határozza meg.
+Minden generálandó S16/S17 képhez válaszd ki a releváns autófotókat:
+- Nappali: elsősorban külső matt fényezés és karakteres anyagrészletek.
+- Konyha–étkező: fényezés, dekorbetétek, fémfelületek.
+- Master: valódi belső bőr, kárpit, varrások.
+- Fürdő: matt/fényes kontrasztok és Astra által megadott anyagpárhuzamok.
+Ezek technikai referenciaprioritások, nem új kreatív előírások. Ha Astra eltérő konkrét fotókiosztást adott, azt kövesd.
+A valós A-902 lakás építészeti geometriáját továbbra is a Blender-alap és a helyszíni profi fotók rögzítik.
+Az autófotók kizárólag szín-, anyag- és Astra által előírt formareferenciák. Nem változtathatják meg a lakás kameráját, térgeometriáját vagy bútorozását.
+Ne helyezz el autót a lakásban, és ne tervezz át semmit saját ötletből.
+A felhasznált autófotókat képenként dokumentáld a referenciamanifestben.
+A fotókon látható árnyalatot a fényviszonyok befolyásolhatják: a pontos anyag- és színegyezést ne állítsd műszeresen igazoltnak pusztán a képek alapján.
+Ha az egyszerre használható referenciaképek száma korlátozott, ne hagyd el a kötelező lakásgeometriai képet. Astra prioritásai alapján válaszd ki a legfontosabb autófotókat.

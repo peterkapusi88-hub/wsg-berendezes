@@ -1,0 +1,34 @@
+{
+  "operator": "Work/Sol via native Chrome UI",
+  "basis": "Full user operator request; Astra creative source frozen at 4d2b7e857f034a7080bd62bd249e84a0a8e310e3",
+  "prebrief_trials": "EXCLUDED_BY_USER",
+  "new_pilot": "NOT_SUBMITTED",
+  "max_active_tabs_after_pilot": 3,
+  "one_image_per_request": true,
+  "High_check_every_send": true,
+  "tabs": [
+    {
+      "slot": 1,
+      "status": "IDLE"
+    },
+    {
+      "slot": 2,
+      "status": "IDLE"
+    },
+    {
+      "slot": 3,
+      "status": "IDLE"
+    }
+  ],
+  "human_Chrome_handoff": "AUTHORIZED",
+  "api_usage": false,
+  "bulk_status": "WAIT_FOR_NEW_CHROME_PILOT",
+  "GitHub_branch": "renders/work-sol-v33-pilot-20261026",
+  "GitHub_branch_state": "created at source base; no operator commit yet",
+  "current_blocker": "CHROME_TAB_CONNECTION_MISSING; native app focus changed repeatedly, review rejected unbound read",
+  "fresh_input_count": 9,
+  "excluded_trials_do_not_block": true,
+  "Chrome_native_read_and_High_check": "DONE",
+  "Chrome_upload_attempt": "INTERRUPTED_NOT_VERIFIED",
+  "extension_connection_user_action": "REQUESTED"
+}

@@ -1,0 +1,63 @@
+{
+  "branches": [
+    {
+      "branch": "competition/gpt6astra-v3-1-20261025",
+      "sha": "2bef09ae6081b5bafb86bc876ef8410be44bb567"
+    },
+    {
+      "branch": "competition/gpt6astra-v3-2-five-new-20261025",
+      "sha": "973865596180c8549a5765ac5c8beb38f49a047d"
+    },
+    {
+      "branch": "competition/gpt6astra-v3-3-creative-revision-s16-s17-20261026",
+      "sha": "4d2b7e857f034a7080bd62bd249e84a0a8e310e3"
+    },
+    {
+      "branch": "renders/gpt6astra-v3-1-60-tests",
+      "sha": "d44f1b50d6ea9f94b9a2df732b0bd48bc5ffc5f6"
+    },
+    {
+      "branch": "renders/gpt6astra-v3-2-94-tests",
+      "sha": "338e5dbae03314577a3a189477715ebe7eeac9b5"
+    }
+  ],
+  "creative_head": "4d2b7e857f034a7080bd62bd249e84a0a8e310e3",
+  "base_tree": "3cacc2e2db26410a1c25ea20c1d4d7f85dd0015c",
+  "manifests": [
+    {
+      "path": "05_promptok/KEP004_GPT6ASTRA_V3_1_r1/01_MANIFEST_66.csv",
+      "sha": "67531082c65f1ddc837a8d48b80536a85357965d"
+    },
+    {
+      "path": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/01_MANIFEST_30.csv",
+      "sha": "e57a1409abf65bd0a301a18aeb26aa9aab25bd61"
+    },
+    {
+      "path": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/02_MANIFEST_EXTRA.csv",
+      "sha": "0c39d45f5faa8bf9aa11ef92596ebe4c2a4d602f"
+    },
+    {
+      "path": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+      "sha": "fe1fd9059bbab1ab36f6de5931bd975edc94eb17"
+    }
+  ],
+  "V31": {
+    "imageCount": 130,
+    "A_v1": 56,
+    "B_padlo": 60,
+    "readme_sha": "5b22b20c587e8a61a1ec6828461e141cbf0696a7",
+    "readme": "# GPT-6 Astra V3.1 · A-902 · 60 koncepciórender – futtatási eredmények (Claude, ChatGPT Images)\n\nStátusz minden képen: **KONCEPCIÓ – NEM VALIDÁLT**. Forrás: `competition/gpt6astra-v3-1-20261025` @ 2bef09a (Astra-promptok szó szerint, csak technikai fejléc).\n\n| Rész | Állapot (2026-10-26 09:20) |\n|---|---|\n| S01 pilot (6 kamera + javítókör) | kész, Péter választott verziói a `qa/10_PILOT_S01_JELENTES.md` szerint |\n| S02–S05 (24 + 1 v2) | kész – `qa/20_RUN54_JELENTES.md` |\n| S06–S10 (30 + 2 v2) | **kész 2026-10-26** – az eredeti session-promptcsomagokkal (Péter: „úgy fusson le, ahogy az eddigi 30”). v2: S08 Cam_12 (hiányzó parapet), S09 Cam_11c (keskeny üvegfal) – mindkettőnél a v2 ajánlott |\n| Profi fotós visszaellenőrzés | `qa/30_FOTO_OSSZEVETES.md` – padló FAIL (túl barna), üvegfal előtti ~15 cm-es lépcső hiányzott, fürdőcsempe bézs |\n| Fotó alapú `padlo_v2` kör, S01–S10 (60) | **kész 2026-10-26** – profi padlófotó (KZS_3695) + Cam_02 15 cm-es lépcsős Blender-alap + anyagelvek; padló hűvös szürke tölgy, lépcső látszik, fürdőben hatszög relief + szürke csempe. Eltérés: S04 Cam_12 bal falsík ~5% |\n| Napló | `checkpoints/GENERALASI_NAPLO_run2_20261026.csv`, `checkpoint_run2_20261026.json`; kapuképek `qa/gate_run2/`, kontaktlapok `qa/kontaktlap/*_kontaktlap(_padlo_v2).jpg` |\n\nElvek: `05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md` (main). Mappák: `images/` (PNG, ChatGPT-export), `prompts_sent/` (elküldött üzenetek), `attachments_log/` (csatolmány-SHA), `checkpoints/` (CSV/JSON napló, build-szkriptek), `qa/` (jelentések, kapuképek, kontaktlapok, fotó-összevetés), `refs_foto/`, `pilot_S01_refs/`.\n",
+    "original_versions": 70,
+    "original_unique_image_ids": 60
+  },
+  "V32": {
+    "imageCount": 104,
+    "registryRows": 104,
+    "done": 104,
+    "v1": 94,
+    "registryFilesInTree": 104,
+    "readme_sha": "740b18275f0d57e4d72257ff109f0b0b3aec93ee",
+    "readme": "# A-902 · GPT-6 Astra V3.2 · 47 × 2 renderkör (A eredeti + B profi fotóalapú)\n\n**Státusz minden képen: KONCEPCIÓ – NEM VALIDÁLT** (műszaki, villamos, termék- és költségkapu nyitott).\n\n- Forrás: `competition/gpt6astra-v3-2-five-new-20261025` @ 9738655, `05_promptok/KEP005_GPT6ASTRA_V3_2_r1/` (30 alap + 17 extra prompt, szó szerint, BEGIN..END).\n- Generálás: ChatGPT Képek (Claude Browser, két fül), 2026-10-26. A V3.1 képek (`KEP004_…`) érintetlenek.\n- **A – eredeti Astra V3.2:** Blender-alap a fix kamerából + helyszíni padlófotó (ME-BAL-080) + helyszíni felületfotó + pendant termékfotó + Astra saját képreferenciái (S12: tulajdonosi IMG_2589; S13: WSG-lobby KZS_3896, KZS_3914). Cam_11 = a kötelező eredeti Cam_11 (nem Cam_11c).\n- **B – profi fotóalapú:** ugyanaz a dizájn; padló = profi KZS_3695; Cam_02-nél 15 cm-es belső fellépést mutató Blender-alap; anyagszabály-blokk (szürke padló, taupe lábazat, fehér falak/keretek, szürke ajtók, sík fehér 2,90 m mennyezet; fürdő: szürke Geostone + Esagonetta hatszög). Szabályforrás: `05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md` v1.\n- **Extrák:** Cam_F_* = a profi fotó maga az 1. kép (fotó-natív kamera, numerikus Blender-illesztés nem igazolt); A és B ugyanazt a kamerát kapja, B-ben csak anyag-/teraszszabály és padlófotó többlet → az A/B különbség itt várhatóan kicsi (QA jelöli). Cam_X_06_2_Vanity = **FELTÉTELES** (javasolt kamera, Blender-validálás nélkül; KZS_3598 csak anyag). Cam_11c (S15) = külön, tulajdonos által jóváhagyott kiegészítő nézet.\n- Javítóképek: `_v2`, `_v3` utótag; az eredeti v1 megmarad. Indok a `KEPNYILVANTARTAS_V32.csv` `javitas` oszlopában.\n\n## Mappák\n- `images/` – generált képek (`<kep_id>__V32_<A|B>_<verzió>.png`)\n- `prompts_sent/` – a ténylegesen elküldött teljes üzenetek\n- `KEPNYILVANTARTAS_V32.csv` – képenként: stílus, kép-ID, kamera, kamerastátusz, A/B, verzió, javítás, promptfájl + SHA, referenciák, QA, státusz, chat\n- `qa/gate/` – Blender-lockpont és élátfedés kapukép; `qa/kontaktlap/` – A/B kontaktlapok\n- `checkpoints/` – terv, QA-napló, építő- és futtató szkriptek\n\n## Állapot – 2026-10-26 16:50 (KÉSZ)\n- **104 kép kész:** a teljes 47 × 2 = 94 kép (v1) + 10 javítókép (v2–v4). Minden kép QA-zva, státusz: KONCEPCIÓ – NEM VALIDÁLT.\n- 11:20-kor a ChatGPT Plus képkerete elfogyott (seq 49 SKIPPED_LIMIT); 15:35-től **ChatGPT Pro**-n folytatva, a seq 49 új chatben újra lefutott. Kerülőút nem volt.\n- Gondolkodási szint: minden képnél **High**, kivéve X05 A/B (S11 Cam_F_3488), amely a véletlenül „Pro” modellre állított választóval készült (segédügynökkel) – a naplóban jelölve.\n- X06 A: az első chat (6adf6e03) nem töltött be, kép nem jött → új chatben újraküldve (6adf6f96).\n- Extráknál (Cam_F_*, Vanity) az A/B különbség a várakozásnak megfelelően kicsi; QA-ban „A≈B” jelölve.\n- Javítási jelöltek (nem futtatva, tulajdonosi döntésre): X10 A/B és X11 A – a fotón fehér falak greige-re színeződtek; több képen pendant/kültéri lámpa villamos kiállás nélkül; X06/X13 gardrób takarja a meglévő aljzatot.\n- Kontaktlapok: `qa/kontaktlap/V32_S11..S15_*_kontaktlap_AB.jpg` (alap) és `V32_EXTRA_1/2_kontaktlap_AB.jpg` (extrák). Chat-azonosítók: `checkpoints/chat_azonositok_pro.txt`.\n",
+    "registry_sha": "3eeaba6f6d4b6c128ba78073789e3272c9570221"
+  }
+}
