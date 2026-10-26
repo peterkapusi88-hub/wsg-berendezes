@@ -1,21 +1,24 @@
 {
-  "status": "RUNNING",
-  "submitted": 86,
-  "downloaded": 83,
-  "skipped_errors": 0,
+  "status": "COMPLETE_WITH_SKIPPED_PENDING_CLAUDE_QA",
+  "submitted": 94,
+  "downloaded": 93,
+  "skipped_errors": 1,
   "user_skip": [
     "003"
   ],
-  "next_unstarted_order": "088",
-  "remaining_unstarted": 8,
+  "next_unstarted_order": null,
+  "remaining_unstarted": 0,
   "qa_owner": "Claude",
   "generation_attempts_per_job": 1,
   "supersedes_earlier_ax_error_interpretation": true,
   "original_archive_count": 49,
+  "original_49_pngs_hash_unchanged": true,
   "source_commit": "eafba53d401d8595f79257fde42a83415633e947",
   "earlier_C_pilot_candidates": 4,
   "all_earlier_candidates_are": "S16 Cam_03 C",
   "original_sources_unchanged": true,
   "held_vanity_extras": 6,
-  "authoritative_run_state": "exact_package_run/RUN_STATUS.json"
+  "active_generations": 0,
+  "creative_acceptance_claimed": false,
+  "verification": "exact_package_run/HANDOFF_VERIFICATION.json"
 }

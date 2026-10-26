@@ -26,11 +26,19 @@
       "sha256": "df47a494ff94573403d10b805875047c570595cbecc469717ab0cb31efa41646"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 0,
   "submitted_at": "2026-10-26T22:40:18.173Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfd6d0-b9a4-83eb-a018-3aa000fd4be3",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3488__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Modern tetőterasz naplementében.png",
+  "sourceChat": "https://chatgpt.com/c/6adfd6d0-b9a4-83eb-a018-3aa000fd4be3",
+  "complete": true,
+  "height": 1025,
+  "width": 1535,
+  "downloaded_at": "2026-10-26T22:55:26.321Z",
+  "generation_attempts": 1
 }

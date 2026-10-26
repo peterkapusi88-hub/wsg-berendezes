@@ -1,0 +1,1048 @@
+{
+  "queue_count": 95,
+  "processed_once": 94,
+  "downloaded_and_shared": 93,
+  "skipped": [
+    {
+      "order": "086",
+      "image_id": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3659__V33_C_v1",
+      "reason": "Az eredeti, teljesen feltöltött és High mellett beküldött üzenet után több mint 8 perc elteltével sincs elérhető chat vagy generált kép; a felület visszaállt a kezdőoldali beviteli mezőre. Nem küldtük újra."
+    }
+  ],
+  "user_requested_existing_pilot_skip": [
+    "003"
+  ],
+  "remaining_unstarted": 0,
+  "active_generations": 0,
+  "all_95_source_messages_and_attachment_hashes_unchanged": true,
+  "all_94_sent_messages_equal_original_package_bytes": true,
+  "all_93_successful_files_valid_original_png_and_shared_hash_match": true,
+  "original_49_local_pngs_unchanged": true,
+  "qa_owner": "Claude",
+  "creative_acceptance_claimed": false,
+  "files": [
+    {
+      "order": "001",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_03__V33_A_v1",
+      "sha256": "83cbd298dfe2883d3a61ef63b9fdc054cff8836c124a7f4a5d31c8496727b275",
+      "bytes": 2003757,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "002",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_03__V33_B_v1",
+      "sha256": "b01e47b0a37310fee7ff479fd05cc8d35a142fe9e1b23932060fbce0e15ab675",
+      "bytes": 2008572,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "004",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_03__V33_A_v1",
+      "sha256": "20920d5de0a679ab9f6a362ee8b0322222a92b761754da42894772349e3f9d5f",
+      "bytes": 1976722,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "005",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_03__V33_B_v1",
+      "sha256": "61691d8ff19c75a59bcfcd5189ff7a4b5206d793a81f980fd55e2e0b16370e1d",
+      "bytes": 1942335,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "006",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_03__V33_C_v1",
+      "sha256": "bc79ef8e218670f7fbe690f7b6153f205bb32aff18f3172425d0befe75d76b9e",
+      "bytes": 2042378,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "007",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_04__V33_A_v1",
+      "sha256": "694e49b0088112ad8ea98b4a545aef4c1dcae5c21e0f93e7672f525a782ef930",
+      "bytes": 2465820,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "008",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_04__V33_B_v1",
+      "sha256": "1e38b48c661638b849e6b9fa491493de049f08a3092175e0f8edec9ef787bc12",
+      "bytes": 2575946,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "009",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_04__V33_C_v1",
+      "sha256": "eab1328fcfaaf33dd25322dd4b7c9b49c2160373549efb6c5de5fd0c0e9d0547",
+      "bytes": 2591723,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "010",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_04__V33_A_v1",
+      "sha256": "c9230963eabd932af28d428d4922964dd5a995835ed0f01862b8adf3aebd4b78",
+      "bytes": 2548899,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "011",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_04__V33_B_v1",
+      "sha256": "f68c02ac8de64303fc6a749b276ce2f3197196454376b0ce992fd8bf896eb354",
+      "bytes": 2477637,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "012",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_04__V33_C_v1",
+      "sha256": "2d49c2f24fe45dedf8ae879bdd8adbf993a337d026f1e70e2b5c139915cc44bb",
+      "bytes": 2837094,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "013",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_11c__V33_A_v1",
+      "sha256": "6b85bca266bc4d201943ed74a9122a245056f6a04607d46490cda71326956632",
+      "bytes": 2475145,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "014",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_11c__V33_B_v1",
+      "sha256": "11b79b4822845ab003a22c8373f418a6f701b7af051d4e26afd7f9a3087247ad",
+      "bytes": 2312086,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "015",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_11c__V33_C_v1",
+      "sha256": "8b5a7a60c968f2633884478c4a6822aa1052868881ff1a69525dfd31314e4cc9",
+      "bytes": 2506484,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "016",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_11c__V33_A_v1",
+      "sha256": "0a839382665d682b3505eb8bd28acdfbdadfdd1353f20ce475e94981cd7131a2",
+      "bytes": 2614823,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "017",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_11c__V33_B_v1",
+      "sha256": "f0af187b77fd67ad6852da32a592f553c945ee02219d370410dfec4133d84b8a",
+      "bytes": 2457822,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "018",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_11c__V33_C_v1",
+      "sha256": "eebc51e15bc831ecf58e9a7f1a42382d0dd5c9743df252f2b5a5b050429d3186",
+      "bytes": 2472759,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "019",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_10__V33_A_v1",
+      "sha256": "6b1001a42859c9d2605cf113e37b0c93525fa533d592e995bc0058f3701c6219",
+      "bytes": 2565788,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "020",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_10__V33_B_v1",
+      "sha256": "f1c59ee0d81d1d13d3123de902b0011ac43e665207c1414803fb0d48a1ccc896",
+      "bytes": 2338487,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "021",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_Cam_10__V33_C_v1",
+      "sha256": "45d9288b4cf9bcd5061f6e5d3b227a2ea1a73b1208f43880808eae2342a37441",
+      "bytes": 2261301,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "022",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_10__V33_A_v1",
+      "sha256": "463f9c21adf36e0b363f78c8a94ca254adc7be079e140f7a048f62ce8d2f8a20",
+      "bytes": 2417822,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "023",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_10__V33_B_v1",
+      "sha256": "4881eff3e098b26c8b0ce28b2003fc2d5d491a605754ea85a65cecea87764f51",
+      "bytes": 2512615,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "024",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_Cam_10__V33_C_v1",
+      "sha256": "2282f3e2ea52a083b0bff25a5cab91a4085ffbbd8e4f14586e8217cc218fb858",
+      "bytes": 2621409,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "025",
+      "image_id": "A902_S16_MonzaMagnoG63Residence_EXTRA_Cam_F_3488__V33_C_v1",
+      "sha256": "da6e01236910c7cb4a38133b46012aa21e1404c78f2da012ef9701622614898a",
+      "bytes": 2460320,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "026",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_EXTRA_Cam_F_3539__V33_C_v1",
+      "sha256": "1ebd5ce67796a4e0cabad4ae0c3c253786569607193667ae063133d458301a63",
+      "bytes": 2319243,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "027",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_EXTRA_Cam_F_3708__V33_C_v1",
+      "sha256": "f8e14d73905a133e4e56c7b76859c678066d500e31aedd8463b67f3547fb8630",
+      "bytes": 2327829,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "028",
+      "image_id": "A902_S17_MercedesDesignCollectionResidence_EXTRA_Cam_F_3741__V33_C_v1",
+      "sha256": "04abc8e440feef2d5ff9dbaa9616a87fa9e9abed5cd4e765403bfb900a03129a",
+      "bytes": 2420690,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "029",
+      "image_id": "A902_S02_BiBoNocturne_Cam_03__V33_C_v1",
+      "sha256": "8829da601391fe41aa2623b5822a604fe0d51d764b76ca740da350a90a1e3252",
+      "bytes": 2092408,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "030",
+      "image_id": "A902_S03_AlelCasa_Cam_03__V33_C_v1",
+      "sha256": "d2e6203bad04a1517b367ca5912b3fa2e2f8876c1f7941f24d52244a7172d7ee",
+      "bytes": 2142638,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "031",
+      "image_id": "A902_S04_LAHorizon_Cam_03__V33_C_v1",
+      "sha256": "aeff311d0d1f98d628f48eda22171ebfb478876f508469b5d2159fc38520e126",
+      "bytes": 2119884,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "032",
+      "image_id": "A902_S05_MiamiStreamline_Cam_03__V33_C_v1",
+      "sha256": "29e804f0524ac5d76b38baf27a25cab8f2d34c1aa2ba2a54f2eb1dfd71c4e692",
+      "bytes": 2078243,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "033",
+      "image_id": "A902_S06_ZenitAtelier_Cam_03__V33_C_v1",
+      "sha256": "62cf807af59b4d6a7f608521dfc7d35f0c4cc08209f7aa07039b45fd33a2d5e7",
+      "bytes": 2096794,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "034",
+      "image_id": "A902_S07_LakeForestCouture_Cam_03__V33_C_v1",
+      "sha256": "94d1db2879d799a75f39f66c9485a6dcdfdf77ce5a86fe9e3ed87721a2e15b62",
+      "bytes": 2058119,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "035",
+      "image_id": "A902_S08_MilanoRadical_Cam_03__V33_C_v1",
+      "sha256": "2aa90cd198a3783dbd3305284520a868fe89d594b7f346c1d3af2afc1e5d1481",
+      "bytes": 2198184,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "036",
+      "image_id": "A902_S09_ParisCollector_Cam_03__V33_C_v1",
+      "sha256": "5fb7e85c060f5bf225c79e3988a97a127e36257fe27ac23c81a202fcc216131d",
+      "bytes": 2067587,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "037",
+      "image_id": "A902_S10_DesertModern70_Cam_03__V33_C_v1",
+      "sha256": "46e7cdc2dfe6c6f57ed8c56d671bc293c7dd350fc6123467958cc82a0ef7c089",
+      "bytes": 2102357,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "038",
+      "image_id": "A902_S11_ZumaInspiredLuxury_Cam_03__V33_C_v1",
+      "sha256": "a34068282791c004fc6998f4d7d297030bdc757e7ebc17f8320c615e7e5150f9",
+      "bytes": 2079516,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "039",
+      "image_id": "A902_S12_ModernOrganic_Cam_03__V33_C_v1",
+      "sha256": "cb826abadc59c1f34118e9d3b303cc03bf0043680a6a60343b463a8b842caa1a",
+      "bytes": 1975715,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "040",
+      "image_id": "A902_S13_WestsideGrandContinuum_Cam_03__V33_C_v1",
+      "sha256": "7789004f8a16ef3bb88a76a96c7f4a3dab0b98ceaf8aac27fd5d28da077fb38a",
+      "bytes": 2233395,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "041",
+      "image_id": "A902_S14_ModernWhiteLuxury_Cam_03__V33_C_v1",
+      "sha256": "5bfe30d57179337048ae7e41fd9d37d0be0c859ba7294943dfa1f4a941e6bde7",
+      "bytes": 2024190,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "042",
+      "image_id": "A902_S15_AuthenticJapaneseModern_Cam_03__V33_C_v1",
+      "sha256": "157ec0c54f43416b4d83c9caaa29dfb78bd93b19713f122610edabde447bfbb4",
+      "bytes": 2241692,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "043",
+      "image_id": "A902_S02_BiBoNocturne_Cam_04__V33_C_v1",
+      "sha256": "5b62c53be6ddf8604e8ac06d0309ff80a4eb8e24be35de9b17f3896a294da52e",
+      "bytes": 2461447,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "044",
+      "image_id": "A902_S03_AlelCasa_Cam_04__V33_C_v1",
+      "sha256": "2751d356b50cf37abdc0aadf72c72db9f54a6ef611ca3839f75da4a146cfd97f",
+      "bytes": 2769804,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "045",
+      "image_id": "A902_S04_LAHorizon_Cam_04__V33_C_v1",
+      "sha256": "8dfc5c97b95e4cdb823e5d63f6a31075c5509273aaea406b744268f73a21c416",
+      "bytes": 2507001,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "046",
+      "image_id": "A902_S05_MiamiStreamline_Cam_04__V33_C_v1",
+      "sha256": "14d6e7a12492b22354a14908f9690ae67c51fd0e4c872ae994843916b486efcb",
+      "bytes": 2283597,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "047",
+      "image_id": "A902_S06_ZenitAtelier_Cam_04__V33_C_v1",
+      "sha256": "39b98dfdb1dd3bbec8293165defda7190bff93f7cb7fe2d30aea44e036b66df7",
+      "bytes": 2597129,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "048",
+      "image_id": "A902_S07_LakeForestCouture_Cam_04__V33_C_v1",
+      "sha256": "1e8ae4c40c1d2829966409a14e3b0cf32b9defecfeb38d0e208f296a1658b107",
+      "bytes": 2986588,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "049",
+      "image_id": "A902_S08_MilanoRadical_Cam_04__V33_C_v1",
+      "sha256": "13f22ba1db73e6a5274bcf0a4d098a71abca3fe43f2d227a8516b428ca0b56ab",
+      "bytes": 2528554,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "050",
+      "image_id": "A902_S09_ParisCollector_Cam_04__V33_C_v1",
+      "sha256": "ada8e7beb952b95b042dc7f7f1cc6bd875263557f91cfb656d22f847e6eeff09",
+      "bytes": 2766045,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "051",
+      "image_id": "A902_S10_DesertModern70_Cam_04__V33_C_v1",
+      "sha256": "ba4178f58230d7e5b668fd2d0b8a2f64f9ba622a2e22e4a5ed340a9d7d596351",
+      "bytes": 2473016,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "052",
+      "image_id": "A902_S11_ZumaInspiredLuxury_Cam_04__V33_C_v1",
+      "sha256": "5f1262956b7f07c2b010f82c9515fba8a51be7744a203837c807a911231a41a8",
+      "bytes": 2540658,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "053",
+      "image_id": "A902_S12_ModernOrganic_Cam_04__V33_C_v1",
+      "sha256": "d46b18c1e0dc88484f53148348c5c4a4241756b5e71cdb24aed9d938b5d71098",
+      "bytes": 2633093,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "054",
+      "image_id": "A902_S13_WestsideGrandContinuum_Cam_04__V33_C_v1",
+      "sha256": "312d068105886323d7ca789d55bb481922602ecf958fd4e6e57429752ee50386",
+      "bytes": 2223357,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "055",
+      "image_id": "A902_S14_ModernWhiteLuxury_Cam_04__V33_C_v1",
+      "sha256": "afcccf82c939ecf0007efa9e5d639cffccc388b17afcdeaba9089f0f17e457ef",
+      "bytes": 2407465,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "056",
+      "image_id": "A902_S15_AuthenticJapaneseModern_Cam_04__V33_C_v1",
+      "sha256": "ac618fe9d1c2cf09d0f9eabe4a0fcd02b186e8d574205c4ef4d7524822a013ac",
+      "bytes": 2621455,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "057",
+      "image_id": "A902_S02_BiBoNocturne_Cam_11c__V33_C_v1",
+      "sha256": "6120d4050ecfae09a361473cb87d811d0c90f5629d5725b7584554253615b2ab",
+      "bytes": 2409963,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "058",
+      "image_id": "A902_S03_AlelCasa_Cam_11c__V33_C_v1",
+      "sha256": "dcb5c9df2bd1df9f54dbe2103329b6a7013e848e5d529c6c91c1e858d1fd5036",
+      "bytes": 2527685,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "059",
+      "image_id": "A902_S04_LAHorizon_Cam_11c__V33_C_v1",
+      "sha256": "d5cb41ab86fb899271bd29e3536e0137f54e19ad916fc37cd793fdb04595dece",
+      "bytes": 2433432,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "060",
+      "image_id": "A902_S05_MiamiStreamline_Cam_11c__V33_C_v1",
+      "sha256": "64cc2f6db0c6fc007b65b28ba25c65a68d99070e56da9c7363fa339d986bbeeb",
+      "bytes": 2146806,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "061",
+      "image_id": "A902_S06_ZenitAtelier_Cam_11c__V33_C_v1",
+      "sha256": "24f8a3397e72d526eea930da64818d98b346502afc151e6ab1c060a4bae24075",
+      "bytes": 2462820,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "062",
+      "image_id": "A902_S07_LakeForestCouture_Cam_11c__V33_C_v1",
+      "sha256": "8de8fce476e453938c6870580ee2ec692f1de4602e01a82ff3cf72a1880dc1d1",
+      "bytes": 2491968,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "063",
+      "image_id": "A902_S08_MilanoRadical_Cam_11c__V33_C_v1",
+      "sha256": "cb03eb8172c3d3bee5901916fe7e28ecf746612e593ad533963c091672fb252a",
+      "bytes": 2434390,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "064",
+      "image_id": "A902_S09_ParisCollector_Cam_11c__V33_C_v1",
+      "sha256": "e7db299c903ade86a92faacce23347bf15864df2867c00f417fa9150d25f933a",
+      "bytes": 2452347,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "065",
+      "image_id": "A902_S10_DesertModern70_Cam_11c__V33_C_v1",
+      "sha256": "0c179281c884dbbafdedaef762331c7f5123fb1ad075d7dac6f346fa9b3d5672",
+      "bytes": 2486423,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "066",
+      "image_id": "A902_S11_ZumaInspiredLuxury_Cam_11c__V33_C_v1",
+      "sha256": "a5f41e0b6ae08daf056fb573021ee8813e5ca93bda3ec7d2ef7b14a5ecbb097c",
+      "bytes": 2650823,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "067",
+      "image_id": "A902_S12_ModernOrganic_Cam_11c__V33_C_v1",
+      "sha256": "17506b4583d52f1510cb71723b4c267ab89a4a72a8ea00b6ba7ba579a7d51bde",
+      "bytes": 2336421,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "068",
+      "image_id": "A902_S13_WestsideGrandContinuum_Cam_11c__V33_C_v1",
+      "sha256": "be21a2cd91e5018b45be0f1b96b87ec5b27b414ad47e1a946c6ed610634a9f9f",
+      "bytes": 2415812,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "069",
+      "image_id": "A902_S14_ModernWhiteLuxury_Cam_11c__V33_C_v1",
+      "sha256": "5bbc37e21ee5f1d98c962c5cbacf75b873b6e663bfe1c29cf6a9c5f55539742f",
+      "bytes": 2321046,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "070",
+      "image_id": "A902_S15_AuthenticJapaneseModern_Cam_11c__V33_C_v1",
+      "sha256": "301d715b975430ddb6c30431f942fdd3a1473f68bd8b47bbe7ced0fc57dcda35",
+      "bytes": 2404401,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "071",
+      "image_id": "A902_S02_BiBoNocturne_Cam_10__V33_C_v1",
+      "sha256": "e9024d783b9b1d980479532fae6c1c2398fd299ff4ab6a63d5ca69d7f73e6340",
+      "bytes": 2369621,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "072",
+      "image_id": "A902_S03_AlelCasa_Cam_10__V33_C_v1",
+      "sha256": "b3565f50d430cc373dc9c3f9a4aeb454ac8be5267395f18239fa1070f3fa110f",
+      "bytes": 2610451,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "073",
+      "image_id": "A902_S04_LAHorizon_Cam_10__V33_C_v1",
+      "sha256": "7a9a9fd222fbd349d6f86b4682d0cb596ad8fc0d58ef47f405bd56afd21b5c0f",
+      "bytes": 2420423,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "074",
+      "image_id": "A902_S05_MiamiStreamline_Cam_10__V33_C_v1",
+      "sha256": "b583bd9fd9524eb01592c264ef4402ad7c58216d9ca6550c2c80127202d170dc",
+      "bytes": 2336915,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "075",
+      "image_id": "A902_S06_ZenitAtelier_Cam_10__V33_C_v1",
+      "sha256": "e7d9c3bbf0229e3a3e483aea70bfa02023618bb591e9ea6480086bcb54d9e6cf",
+      "bytes": 2411595,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "076",
+      "image_id": "A902_S07_LakeForestCouture_Cam_10__V33_C_v1",
+      "sha256": "6925570425eedfdba2d5a7934e88ca6cb999725876252242cc3187ba2300c37a",
+      "bytes": 2408925,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "077",
+      "image_id": "A902_S08_MilanoRadical_Cam_10__V33_C_v1",
+      "sha256": "fee769a6314c793308932822180ec87df32932decdad1935f29392251641b45d",
+      "bytes": 2499144,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "078",
+      "image_id": "A902_S09_ParisCollector_Cam_10__V33_C_v1",
+      "sha256": "a7892e9f622fdff680fe157f479c025e9a0a72c44f2bc389a1cce23bea41b4a1",
+      "bytes": 2552208,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "079",
+      "image_id": "A902_S10_DesertModern70_Cam_10__V33_C_v1",
+      "sha256": "d4bba0386dfaa0e46db2af59ee940d09f87ad2135f7ef3d6ec6e0eeb96deaf2c",
+      "bytes": 2455086,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "080",
+      "image_id": "A902_S11_ZumaInspiredLuxury_Cam_10__V33_C_v1",
+      "sha256": "e341ced12c4ef33b62cbc2cad61c5a592da6dd8f963a7afa953a614b8b7b53e5",
+      "bytes": 2695797,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "081",
+      "image_id": "A902_S12_ModernOrganic_Cam_10__V33_C_v1",
+      "sha256": "0c319f2c171245a0b2aff8d9cfd77347b97ffed869ee76774b6f2777a895877b",
+      "bytes": 2438874,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "082",
+      "image_id": "A902_S13_WestsideGrandContinuum_Cam_10__V33_C_v1",
+      "sha256": "bbfbbcb789fb5d8829cc7da3f03e2ed5d91f94339b74d1cc9bb5adf98447de5e",
+      "bytes": 2446240,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "083",
+      "image_id": "A902_S14_ModernWhiteLuxury_Cam_10__V33_C_v1",
+      "sha256": "40dcc749a74ca5dd537c670daba286e7d33843f9b821a25cf30539e32c6bc86e",
+      "bytes": 2363548,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "084",
+      "image_id": "A902_S15_AuthenticJapaneseModern_Cam_10__V33_C_v1",
+      "sha256": "012854f4bb638a14f4b5abd2e2b46f377b882225c5e16b4eaf4c7497377ffb42",
+      "bytes": 2468062,
+      "dimensions": [
+        1586,
+        992
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "085",
+      "image_id": "A902_S11_ZumaInspiredLuxury_EXTRA_Cam_F_3488__V33_C_v1",
+      "sha256": "184cdd93ec6d8bc744ad995494f4ceb2b8db2ba7ddd24640942df051f2882d09",
+      "bytes": 2323110,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "087",
+      "image_id": "A902_S12_ModernOrganic_EXTRA_Cam_F_3498__V33_C_v1",
+      "sha256": "dd79366ab7ad9d8cd483c3404d45e96c553c3578cf3d8835f1743759957a0eda",
+      "bytes": 2852720,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "088",
+      "image_id": "A902_S12_ModernOrganic_EXTRA_Cam_F_3659__V33_C_v1",
+      "sha256": "fec74181b8cabc1be930a272cf4ef76fb26d450ed17e497a02748636cfb5b02d",
+      "bytes": 2431448,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "089",
+      "image_id": "A902_S12_ModernOrganic_EXTRA_Cam_F_3741__V33_C_v1",
+      "sha256": "3d818b9912bf0bb7a563909b9d7103caa391fab2d11c14bd8afb811293775262",
+      "bytes": 2366412,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "090",
+      "image_id": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3488__V33_C_v1",
+      "sha256": "8a79fa47b40df0135bca51448276c89fcb8b59a9690e9ec75eeabb996352df8b",
+      "bytes": 2220044,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "091",
+      "image_id": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3708__V33_C_v1",
+      "sha256": "5e90244b6994be71f6ed882cc41c284127fd52ede2dae6387f5e10b3faf10cb2",
+      "bytes": 2491902,
+      "dimensions": [
+        1535,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "092",
+      "image_id": "A902_S13_WestsideGrandContinuum_EXTRA_Cam_F_3741__V33_C_v1",
+      "sha256": "8f88bd1b5477fc50169bf6e1e0a0662a2bf1a8ac152a66756c99c84572d0bbd1",
+      "bytes": 2496230,
+      "dimensions": [
+        1535,
+        1024
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "093",
+      "image_id": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3708__V33_C_v1",
+      "sha256": "16fdb2d631a112234a647f7fa5412fab1151d4013f923c69590e13f1880c3c21",
+      "bytes": 2204245,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "094",
+      "image_id": "A902_S14_ModernWhiteLuxury_EXTRA_Cam_F_3726__V33_C_v1",
+      "sha256": "95dd8c287f0bc1c28bf3dbe5593c70174638f7fa64f875e062bf17bc234edb2c",
+      "bytes": 2411244,
+      "dimensions": [
+        1535,
+        1025
+      ],
+      "format": "PNG"
+    },
+    {
+      "order": "095",
+      "image_id": "A902_S15_AuthenticJapaneseModern_EXTRA_Cam_F_3539__V33_C_v1",
+      "sha256": "36194080185d9d847f5aa0679bfe611e91a9902d23e4edd0dc800144b90ba4a1",
+      "bytes": 2267290,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG"
+    }
+  ]
+}

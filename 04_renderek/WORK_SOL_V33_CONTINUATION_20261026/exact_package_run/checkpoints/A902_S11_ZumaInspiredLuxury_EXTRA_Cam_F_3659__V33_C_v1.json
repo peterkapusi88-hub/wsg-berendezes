@@ -38,11 +38,15 @@
       "sha256": "d8de55e6910bcfaadf86510baf1343ea5ecd548974c5d2ad7bb919f050f0aa53"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "SKIPPED",
   "slot": 1,
   "submitted_at": "2026-10-26T22:40:53.806Z",
   "chat_url": "https://chatgpt.com/",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "reason": "Az eredeti, teljesen feltöltött és High mellett beküldött üzenet után több mint 8 perc elteltével sincs elérhető chat vagy generált kép; a felület visszaállt a kezdőoldali beviteli mezőre. Nem küldtük újra.",
+  "skipped_at": "2026-10-26T22:59:29.078Z",
+  "generation_attempts": 1,
+  "retried": false
 }

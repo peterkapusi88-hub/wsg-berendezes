@@ -26,11 +26,19 @@
       "sha256": "4e464385a7eaa84ed721aeac8ff59f9dab1a5c127a49001f6ed7aa1bae50a0b9"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 2,
   "submitted_at": "2026-10-26T22:43:08.593Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfd77c-dc6c-83ed-85ef-27811994af03",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S12_ModernOrganic_EXTRA_Cam_F_3498__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Aranyórás tetőterasz hangulatos belsővel.png",
+  "sourceChat": "https://chatgpt.com/c/6adfd77c-dc6c-83ed-85ef-27811994af03",
+  "complete": true,
+  "height": 1025,
+  "width": 1535,
+  "downloaded_at": "2026-10-26T22:59:33.809Z",
+  "generation_attempts": 1
 }

@@ -1,6 +1,10 @@
 # WSG V3.3 — Work/Sol közvetlen Chrome képgenerálás
 
-## Aktuális csomagfuttatás
+## Lezárt operátori csomagfuttatás
+
+Eredmény: 93 új PNG átadva, 1 SKIPPED (086), 003 felhasználói utasításra kihagyva; nincs indítatlan feladat vagy aktív generálás. Minden kép Claude QA-jára vár. Részletek: exact_package_run/QA_ATADAS_GPT_20261027.md.
+
+## Munkarend
 
 A felhasználó által a Macre átadott ~/Downloads/WSG_V33_GPT_CSOMAG az elsődleges operátori csomag. A 95 feladat teljes _msg.txt üzenete és minden számozott melléklete ellenőrizve. A 003-as S16 Cam03 C feladatot a felhasználó kérésére kihagyjuk, mert a pilotból már létezik; 94 új feladat fut egyszer. A pontos aktuális darabszám és folytatási pont az exact_package_run/RUN_STATUS.json fájlban, az átadási lista a HANDOFF.json fájlban található.
 

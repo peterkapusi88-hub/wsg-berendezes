@@ -1,13 +1,13 @@
 {
-  "status": "RUNNING",
-  "submitted": 86,
-  "downloaded": 83,
-  "skipped_errors": 0,
+  "status": "COMPLETE_WITH_SKIPPED_PENDING_CLAUDE_QA",
+  "submitted": 94,
+  "downloaded": 93,
+  "skipped_errors": 1,
   "user_skip": [
     "003"
   ],
-  "next_unstarted_order": "088",
-  "remaining_unstarted": 8,
+  "next_unstarted_order": null,
+  "remaining_unstarted": 0,
   "qa_owner": "Claude",
   "generation_attempts_per_job": 1,
   "supersedes_earlier_ax_error_interpretation": true
