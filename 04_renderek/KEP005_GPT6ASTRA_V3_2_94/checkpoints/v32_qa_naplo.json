@@ -1,0 +1,86 @@
+{
+ "02_A": {
+  "seq": "1",
+  "kep": "A902_S11_ZumaInspiredLuxury_1_nappali-hero_Cam_12_A__V32_A_v1.png",
+  "chat": "6adf13bc-343c-83eb-92ba-28ac3f87d1bf",
+  "qa": "ELŐSZŰRT: geometria Cam_12 lockon (W02, nyílás, ajtó, folyosó egyezik); kanapé háttal TV-nek, nyitás a TV-fal felé (kamerán kívül) – OK; 6 Ciselia, Toni ovál, Brisia; konyha parapet-oldali alacsony sor; W02 Ember Interval mű. Megj.: falak nagy része füstszürke vlies (brief szerinti W02/W03), kanapé előtér kissé nagyobb (~27%).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "02_B": {
+  "seq": "2",
+  "kep": "A902_S11_ZumaInspiredLuxury_1_nappali-hero_Cam_12_A__V32_B_v1.png",
+  "chat": "6adf13bf-b0ec-83ed-a88f-f348ecf09bae",
+  "qa": "ELŐSZŰRT: azonos dizájn (Ember Interval mű, vlies, füstös konyha, Brisia); padló szürkébb (KZS_3695); geometria OK; asztal rövidebb ovál, 5 szék látszik (1 takarásban).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "08_A": {
+  "seq": "3",
+  "kep": "A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A__V32_A_v1.png",
+  "chat": "6adf15f0-f99c-83ed-ad37-8de9a25c3d22",
+  "qa": "ELŐSZŰRT: TIDAL SHOULDER relief W02-n, ásványi vlies, Somar; geometria OK; kanapé előtér kissé nagy (~33%).",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "08_B": {
+  "seq": "4",
+  "kep": "A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A__V32_B_v1.png",
+  "chat": "6adf15f5-0548-83ed-ab05-76636500c9e4",
+  "qa": "FAIL: kanapé az alsó ~50%-ot kitölti, túl közel (lock 16–23%) → v2. Dizájn, padló, W02 OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "14_A": {
+  "seq": "5",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-hero_Cam_12_A__V32_A_v1.png",
+  "chat": "6adf16a0-c0ec-83eb-869b-2a19e5bef0a9",
+  "qa": "ELŐSZŰRT: lobby-nyelv (tölgy+textil mezők, kör motívum) W02-n, Novae; geometria OK; kanapé előtér ~25%; inox hűtő W03-a-n.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "14_B": {
+  "seq": "6",
+  "kep": "A902_S13_WestsideGrandContinuum_1_nappali-hero_Cam_12_A__V32_B_v1.png",
+  "chat": "6adf170a-1028-83eb-8060-ab92db7318e6",
+  "qa": "ELŐSZŰRT: azonos koncepció, W02 kompozíció más felosztású (kör+téglalap), falak fehérebbek, padló szürke; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "20_A": {
+  "seq": "7",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-hero_Cam_12_A__V32_A_v1.png",
+  "chat": "6adf178f-8f70-83eb-8c12-b360b7a41773",
+  "qa": "ELŐSZŰRT: fehér/krém minimal, W02 holdsarló relief bronzos íves éllel, Novae; geometria OK; kanapé előtér ~30%.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "20_B": {
+  "seq": "8",
+  "kep": "A902_S14_ModernWhiteLuxury_1_nappali-hero_Cam_12_A__V32_B_v1.png",
+  "chat": "6adf1793-558c-83eb-accc-5aba7d33ebed",
+  "qa": "ELŐSZŰRT: azonos koncepció, szürke padló, fehér falak; kanapé előtér ~33% (kissé nagy); geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "26_A": {
+  "seq": "9",
+  "kep": "A902_S15_AuthenticJapaneseModern_1_nappali-hero_Cam_12_A__V32_A_v1.png",
+  "chat": "6adf180f-db8c-83eb-a59e-c2b05a6eabb4",
+  "qa": "ELŐSZŰRT: STILL INTERVAL – hamvas papír/textil sík + sötét sáv, hamuszürke fa, Somar; nincs vöröses fa; geometria OK; kanapé ~30%.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "26_B": {
+  "seq": "10",
+  "kep": "A902_S15_AuthenticJapaneseModern_1_nappali-hero_Cam_12_A__V32_B_v1.png",
+  "chat": "6adf1811-1674-83ed-a341-d1546b858fff",
+  "qa": "ELŐSZŰRT: azonos koncepció (hajtott sík), szürke padló; a kanapé L-vége az előtér jobb oldalán is látszik (U-szerű hatás) – megengedhető; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "08_B_v2": {
+  "seq": "1001",
+  "kep": "A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A__V32_B_v2.png",
+  "chat": "6adf189b-271c-83ed-8b97-092e88d1137f",
+  "qa": "ELŐSZŰRT – JAVÍTOTT (v1 helyett ajánlott): kanapé alacsony előtér-sáv, étkező 6 szék + konyha + teljes relief látszik; geometria OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ },
+ "01_A": {
+  "seq": "11",
+  "kep": "A902_S11_ZumaInspiredLuxury_1_nappali-terasz_Cam_02_A__V32_A_v1.png",
+  "chat": "6adf189d-0834-83ed-a507-250396b4e129",
+  "qa": "ELŐSZŰRT: Cam_02 lock-pontok egyeznek (sarok 45–47%, üvegkeret 52%, TV 30%); kanapé háttal a kamerának, TV felé néz; ásványi TV-fal rejtett LED-del, kék óra, WPC lépcsők, valós panoráma; étkező jobb alsó sarok OK.",
+  "statusz": "KONCEPCIÓ – NEM VALIDÁLT"
+ }
+}

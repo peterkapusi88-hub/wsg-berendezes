@@ -1,0 +1,49 @@
+[
+ {
+  "seq": 1001,
+  "fazis": "hero",
+  "nr": "08",
+  "valtozat": "B",
+  "kep_id": "A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A",
+  "stilus": "S12",
+  "kamera": "Cam_12",
+  "kamera_statusz": "BLENDER-LOCK",
+  "uzenet": "08_A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A__V32_B_v2.txt",
+  "kep_fajl": "A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A__V32_B_v2.png",
+  "dir": "upload/v32/08_B_v2",
+  "prompt_fajl": "05_promptok/KEP005_GPT6ASTRA_V3_2_r1/20_PROMPTOK/A902_S12_ModernOrganic_1_nappali-hero_Cam_12_A.prompt.md",
+  "uzenet_chars": 15868,
+  "uzenet_sha256": "7b9fef8829462cdb5d1f2324336c32605d39169618b2ff6c8a509d2f506f9f10",
+  "prompt_sha256": "173a64933fcedca21c1d257e55fcc1a9749652b6529db5b8f0f9cd0bfed1b674",
+  "csatolmanyok": [
+   {
+    "sorrend": 1,
+    "fajl": "01_image1_A902_Cam12v3_KORR_semleges_blender.png",
+    "sha256": "8ffd40c0ea76f4473959edd69dfdeb959e8197f3a59418c8fbb27e01fc0d231d"
+   },
+   {
+    "sorrend": 2,
+    "fajl": "02_image2_A902_KZS3695_profi_padlo.jpg",
+    "sha256": "ca9305fd8f1fefa24331f2e893253461117eed4d26b87db8438c020852e41595"
+   },
+   {
+    "sorrend": 3,
+    "fajl": "03_image3_A902_ME-BAL-046_nappali_eloter_fele.jpg",
+    "sha256": "d1f35e57d8d57b9088cc045de5ae6b375fe2a1409f2ea66fab03b459dde0b95b"
+   },
+   {
+    "sorrend": 4,
+    "fajl": "04_image4_Kave_Home_Somar_L00148FA05_termekfoto.jpg",
+    "sha256": "27bbd51a7b67c8f3131a869e765e09714d3cf654a9945bbc8fedab543d0a2149"
+   },
+   {
+    "sorrend": 5,
+    "fajl": "05_image5_IMG_2589_tulajdonosi_montazs.jpg",
+    "sha256": "6b90ff017fa41d26b283634311acc6161d5c1553f9cfc6e465934823969f6860"
+   }
+  ],
+  "alap_seq": 4,
+  "verzio": "v2",
+  "fix": "In v1 the sofa filled the lower half of the frame and covered the dining zone. Keep the Lennon L at its true 238 × 180 cm size seen from 1.60 m: only its back and cushions form a LOW foreground band in the bottom 16–23 % of the image (left and centre); the dining table with all six chairs, the kitchen and the full W02 relief must be clearly visible above it. Do not move the camera closer or lower."
+ }
+]
