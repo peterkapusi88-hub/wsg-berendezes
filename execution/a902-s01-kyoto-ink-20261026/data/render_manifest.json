@@ -1,38 +1,68 @@
 [
   {
     "camera": "12",
-    "variant": "1",
-    "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_1_nappali-hero_Cam_12_A__ASTRA_V3_1__v1.png",
-    "sha256": "1bee57ba95287b6e06019165ab646d6394c0e78bbc82c5bdbe8625d5f01a7f8e"
+    "variant": "V33_C_v1",
+    "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_3_RENDEREK/images/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
+    "sha256": "0738088c7cd93b930b97d43e3f9f3e6c1be02afc440811332f0f377f7e65e0e7",
+    "previous": {
+      "camera": "12",
+      "variant": "1",
+      "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_1_nappali-hero_Cam_12_A__ASTRA_V3_1__v1.png",
+      "sha256": "1bee57ba95287b6e06019165ab646d6394c0e78bbc82c5bdbe8625d5f01a7f8e"
+    },
+    "source_prompt_commit": "4d2b7e857f034a7080bd62bd249e84a0a8e310e3",
+    "image_generation_commit": "UNKNOWN: PNG generation not proven by prompt commit",
+    "visually_opened": true,
+    "project_path": "targets/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
+    "image_id": "A902_S01_KyotoInk_Cam_12__V33_C_v1"
   },
   {
     "camera": "02",
-    "variant": "1",
-    "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__ASTRA_V3_1__v1.png",
-    "sha256": "c49708593659c5189a02c7bb45038449fb9ed96766869e0f0f7eb0596a85b959"
+    "variant": "V33_C_v1",
+    "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_3_RENDEREK/images/A902_S01_KyotoInk_Cam_02__V33_C_v1.png",
+    "sha256": "75e48c7399041875c7f10cb7dabc781beeeea4157c3844d94b7dbdc11e74a44b",
+    "previous": {
+      "camera": "02",
+      "variant": "1",
+      "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_1_nappali-terasz_Cam_02_A__ASTRA_V3_1__v1.png",
+      "sha256": "c49708593659c5189a02c7bb45038449fb9ed96766869e0f0f7eb0596a85b959"
+    },
+    "source_prompt_commit": "4d2b7e857f034a7080bd62bd249e84a0a8e310e3",
+    "image_generation_commit": "UNKNOWN: PNG generation not proven by prompt commit",
+    "visually_opened": true,
+    "project_path": "targets/A902_S01_KyotoInk_Cam_02__V33_C_v1.png",
+    "image_id": "A902_S01_KyotoInk_Cam_02__V33_C_v1"
   },
   {
     "camera": "03",
     "variant": "2",
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png",
-    "sha256": "a64e9e53f4b33dccc8392c9237b921b796e90201dc742261a54b3383af7bb5dc"
+    "sha256": "a64e9e53f4b33dccc8392c9237b921b796e90201dc742261a54b3383af7bb5dc",
+    "project_path": "targets/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png",
+    "image_id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2"
   },
   {
     "camera": "04",
     "variant": "1",
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png",
-    "sha256": "0f0448d6fef5e7edac3470b473c23988749230c8259ac039b020de3fc41b8a7a"
+    "sha256": "0f0448d6fef5e7edac3470b473c23988749230c8259ac039b020de3fc41b8a7a",
+    "project_path": "targets/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png",
+    "image_id": "A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1"
   },
   {
     "camera": "10",
     "variant": "1",
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1.png",
-    "sha256": "93cb9107715eeba498d190a7f54c2ec157cf13acaffe21e93d3e9ddc9fba66b7"
+    "sha256": "93cb9107715eeba498d190a7f54c2ec157cf13acaffe21e93d3e9ddc9fba66b7",
+    "project_path": "targets/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1.png",
+    "image_id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1"
   },
   {
     "camera": "11",
     "variant": "2",
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2.png",
-    "sha256": "c7b68bc26d6a10ccf1f707c7750f321b6765f5cb22dad2dbb93ea9fbfbcc22df"
+    "sha256": "c7b68bc26d6a10ccf1f707c7750f321b6765f5cb22dad2dbb93ea9fbfbcc22df",
+    "project_path": "targets/A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2.png",
+    "image_id": "A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2"
   }
 ]
