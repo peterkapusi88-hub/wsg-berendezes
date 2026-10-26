@@ -26,11 +26,20 @@
       "sha256": "a46dd6403820e0593eff67ac743a1bbfccf08b508bae5fa9b5a4a927ed42c196"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 0,
   "submitted_at": "2026-10-26T21:35:48.532Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfc7b2-fbf0-83eb-8d1e-988c92783453",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S02_BiBoNocturne_Cam_03__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Meleg fényű modern konyha étkezővel.png",
+  "sourceChat": "https://chatgpt.com/c/6adfc7b2-fbf0-83eb-8d1e-988c92783453",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T21:39:18.502Z",
+  "generation_attempts": 1,
+  "earlier_ax_error_superseded": true
 }

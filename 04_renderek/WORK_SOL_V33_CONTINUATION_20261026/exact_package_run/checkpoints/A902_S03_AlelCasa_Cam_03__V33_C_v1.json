@@ -26,11 +26,20 @@
       "sha256": "7650448460a9ff0ca0983a7d37436801bbc7dc9b1193ea134df6274b5ec07383"
     }
   ],
-  "status": "SUBMITTED",
+  "status": "DOWNLOADED_PENDING_CLAUDE_QA",
   "slot": 1,
   "submitted_at": "2026-10-26T21:35:51.237Z",
-  "chat_url": "https://chatgpt.com/",
+  "chat_url": "https://chatgpt.com/c/6adfc7b5-ca2c-83ed-9f0d-248a9e76fc52",
   "message_verbatim": true,
   "all_package_attachments": true,
-  "high_confirmed": true
+  "high_confirmed": true,
+  "dest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/claude-v33-continuation-20261026/exact_package_run/images/A902_S03_AlelCasa_Cam_03__V33_C_v1.png",
+  "download": "/Users/peterkapusi/Downloads/Meleg tónusú modern konyha és étkező.png",
+  "sourceChat": "https://chatgpt.com/c/6adfc7b5-ca2c-83ed-9f0d-248a9e76fc52",
+  "complete": true,
+  "height": 992,
+  "width": 1586,
+  "downloaded_at": "2026-10-26T21:39:23.530Z",
+  "generation_attempts": 1,
+  "earlier_ax_error_superseded": true
 }
