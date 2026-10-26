@@ -1,0 +1,27 @@
+# AGENTS.md – Codex házirend (ChatGPT Codex ezt olvassa először)
+
+1. Olvasd el a `GOAL.md`-t (a projekt memóriája) és az `OPENAI_instructions.md`-t (a Work/Codex szereposztás és a részletes szabályok).
+2. A te szereped: **Blender-technikus**. Python-szkripteket írsz és javítasz a `03_blender/` mappában; a tervezési döntéseket (bútor, anyag, keret) nem te hozod – azok a GOAL.md-ben és a `06_koncepcio/` doksiban vannak.
+3. Eszköztár: `03_blender/wsg_helpers.py` (box, cyl, sphere, tube, disc, mat, coll, set_style). Koordináták méterben, origó a 05.2 szoba DNy-i sarka, x kelet, y észak, belmagasság 2,90 m. Minta: `03_blender/stil_lakeforest_layer.py`.
+4. Új réteg = új `Stil_<Név>` gyűjtemény; alap-objektumot nem törlünk, csak rejtünk. `bpy.ops` csak ott, ahol `bpy.data` nem elég. Eredmény a `result` dict-ben.
+5. A szkript futtatása nem a te dolgod: Claude futtatja a Blender MCP-n át, vagy Péter kézzel a Blender Text Editorban. Ne nyiss második vezérlést ugyanarra a jelenetre.
+6. Fájlnevek: renderek `04_renderek/blender_stilusok/A902_<Stílus>_blender_<n>_<helyiség>.png`; promptok `05_promptok/`.
+7. Commit-üzenet magyarul, egy sor. Személyes adat nem kerül a repóba. Küldés/rendelés/fizetés soha – azt Péter dönti el.
+
+
+## Kötelező kiegészítő szabály
+
+A `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md` a Codex számára is kötelező. Nem csak Zenit/Lake Forest: a felhasználó több mint 10 alternatív stílust is megvizsgálhat. Fő feladatod a Blender-világkoordináták, fix geometria, tényleges bútorméretek, közlekedősávok és az egyedi beépített bútorok fizikai megvalósíthatóságának tesztelhető ellenőrzése. A rendernek a jóváhagyott, méretezett, beárazott termék- és asztalosspecifikációt kell tükröznie; kimutatható eltéréseket jelöld. Az árakat nem te találod ki, hanem Work és Claude függetlenül ellenőrzi. Ne módosítsd Claude élő Blender-jelenetét önállóan.
+
+
+## Kódszerkesztők és biztonságos első audit
+VS Code és Cursor telepítve és GitHubba bejelentkezve, de használatuk **nem kötelező** a ChatGPT Mac Codexhez; önmagukban nem indítják Astrát és nem teszik láthatóvá a Claude élő Blender-munkáját. A WSG-repót külön helyi mappaként megnyitni/klónozni csak az aktuális helyi munkák állapotának ellenőrzése után szabad. Első Codex feladat: olvasási és tesztelési audit, a `GOAL.md`, `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md`, `AGENTS.md` alapján. A kreatív stílustervezést Astra/Work végzi; a Gemini főként renderből videót készít.
+
+
+## Delegált Codex-feladat státusza
+Az `ai-coordination/ROUTER.md` irányadó a Claude → Codex átadáshoz. A ChatGPT **Work GitHub-esemény trigger NEM azonos a Codex automatikus kód-review indításával**; Codexhez külön konfiguráció és teszt szükséges. Első feladat csak olvasás / review; ha a megfelelő Code Review integráció ténylegesen engedélyezett, az `@codex review` használata külön jóváhagyással vizsgálható, egyetlen próbakörben. Ne hozz létre rekurzív review kommentláncot és ne módosítsd az élő Blender szkriptet review közben.
+
+## Render Reality Gate – Codex műszaki audit
+
+Minden WSG geometriai/render-auditban olvasd az `ai-coordination/RENDER_REALITY_GATE.md` fájlt. Vizsgáld a fix falakat, ablakokat, kamerákat, belmagasságot, jeleneten belüli valódi padló/falfelületeket, bútorpozíciókat és méreteket; a renderen megjelent eltéréseket jelentésbe tedd. A parketta dekorazonosítója a helyszíni bizonyítékig nem igazolt. Kód és Blender-jelenet tud csak geometriai megfelelést ellenőrizni, anyagárat/termékazonosságot önmagában nem. Ne nevezd `RENDER REALITY PASS`-nak a csak kódon átfutott képet, és ne változtasd meg Claude élő fájlját.
+
