@@ -8,7 +8,7 @@ SOURCE VERSION: GPT6ASTRA-V3.1 (branch competition/gpt6astra-v3-1-20261025 @ 2be
 
 ATTACHED IMAGES AND THEIR ROLES (in this order: image 1, image 2)
 - Image 1 (01_image1_A902_Cam04_master_semleges_blender.png): Blender render 1600 × 1000 of the real, empty master bedroom 05.1 from the exact camera of this view (Cam_04). MANDATORY camera and geometry reference. It is very pale: read it as two white wall planes meeting a narrow white pillar block in the middle, a white ceiling and a grey floor. Nothing in image 1 may be moved, added or removed. The flat floor tone is NOT the material (see image 2).
-- Image 2 (02_image2_A902_KZS3695_profi_padlo.jpg): real professional photo of the EXISTING floor in this apartment (KZS_3695) – a cool light-to-mid grey oak-effect laminate, long planks, fine straight grain, only few small knots, low contrast, matching grey-taupe skirting about 6 cm high. Material and colour reference ONLY (not a camera, not a layout). This exact floor stays: under warm evening light it may look only slightly warmer (a hint of taupe), but it must never read as honey, golden, orange-brown, reddish or dark-stained oak, and never as rustic or heavily knotted oak.
+- Image 2 (02_image2_A902_ME-BAL-080_parketta_szegely.jpg): real site photo of the EXISTING floor and skirting in this apartment – oak-effect planks in a cool grey-brown, photographed in cool daylight. Material and colour reference ONLY (not a camera, not a layout). In the result the floor must read as this same cool grey-brown oak with visible grain and knots: under warm evening light it may look slightly warmer, but never honey, orange-brown, reddish, whitened or dark-stained, and never replaced by another floor.
 
 GEOMETRY LOCK (mandatory)
 1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – camera standing in the south-west part of the bedroom, close to the west glass wall, at 1.50 m, 20 mm lens, looking north-east, tilted slightly down. Verticals stay vertical. Do not crop, zoom, rotate, raise, widen or re-frame. Same landscape 16:10 framing as image 1.
@@ -28,8 +28,6 @@ RUN NOTES – how to read the creative brief for THIS camera (integrator clarifi
 - The curtain track above the 3.64 m glazing belongs to the west wall outside the frame; no curtain or window appears here.
 - "The complete north wardrobe wall visibly closing its existing niche" = the six-front wardrobe filling 0–43 % on the left.
 - Evening light only from the light sources named in the brief (Hue layers); no new ceiling light points.
-- MATERIALS FIRST (verified on the professional site photos 2026-10-25): light may warm the image, it must not change the materials. Floor = image 2 colour (cool grey oak effect, at most slightly warmer); skirting grey-taupe, not white, not dark wood; walls pure white; ceiling flat white with no recessed spots, coves or hidden LED lines; interior doors mid-grey with darker grey frame and black handle; switches anthracite.
-- Reference rules: 05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md v1 (Claude, 2026-10-25, owner-approved).
 
 CREATIVE BRIEF – GPT-6 Astra V3.1, A902_S09_ParisCollector_3_master_Cam_04_A, complete and verbatim (source: competition/gpt6astra-v3-1-20261025 @ 2bef09ae6081b5bafb86bc876ef8410be44bb567, 05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S09_ParisCollector_3_master_Cam_04_A.prompt.md):
 === BEGIN PROMPT A902_S09_ParisCollector_3_master_Cam_04_A ===

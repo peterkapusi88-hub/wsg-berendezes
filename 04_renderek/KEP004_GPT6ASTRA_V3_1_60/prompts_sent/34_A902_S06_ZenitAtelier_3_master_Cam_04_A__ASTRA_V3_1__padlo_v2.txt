@@ -1,0 +1,53 @@
+WSG A-902 · GPT-6 ASTRA V3.1 · S06 Zenit Atelier · Cam_04 · CAMERA-LOCKED CONCEPT TEST (2026-10-25)
+STATUS: CONCEPT – NOT VALIDATED (KONCEPCIÓ – NEM VALIDÁLT)
+
+Please generate exactly ONE image. Read the GEOMETRY LOCK first. Image 1 and the GEOMETRY LOCK override anything in the creative brief that follows; the creative brief decides everything else (furniture, wall designs, materials, objects, light).
+
+IMAGE ID: A902_S06_ZenitAtelier_3_master_Cam_04_A
+SOURCE VERSION: GPT6ASTRA-V3.1 (branch competition/gpt6astra-v3-1-20261025 @ 2bef09ae6081b5bafb86bc876ef8410be44bb567), file 05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_3_master_Cam_04_A.prompt.md
+
+ATTACHED IMAGES AND THEIR ROLES (in this order: image 1, image 2)
+- Image 1 (01_image1_A902_Cam04_master_semleges_blender.png): Blender render 1600 × 1000 of the real, empty master bedroom 05.1 from the exact camera of this view (Cam_04). MANDATORY camera and geometry reference. It is very pale: read it as two white wall planes meeting a narrow white pillar block in the middle, a white ceiling and a grey floor. Nothing in image 1 may be moved, added or removed. The flat floor tone is NOT the material (see image 2).
+- Image 2 (02_image2_A902_KZS3695_profi_padlo.jpg): real professional photo of the EXISTING floor in this apartment (KZS_3695) – a cool light-to-mid grey oak-effect laminate, long planks, fine straight grain, only few small knots, low contrast, matching grey-taupe skirting about 6 cm high. Material and colour reference ONLY (not a camera, not a layout). This exact floor stays: under warm evening light it may look only slightly warmer (a hint of taupe), but it must never read as honey, golden, orange-brown, reddish or dark-stained oak, and never as rustic or heavily knotted oak.
+
+GEOMETRY LOCK (mandatory)
+1. Camera: keep the exact framing, perspective, horizon and vanishing points of image 1 – camera standing in the south-west part of the bedroom, close to the west glass wall, at 1.50 m, 20 mm lens, looking north-east, tilted slightly down. Verticals stay vertical. Do not crop, zoom, rotate, raise, widen or re-frame. Same landscape 16:10 framing as image 1.
+2. Fixed elements of image 1, from LEFT to RIGHT (horizontal position in the frame, from the Blender projection of this camera):
+   a) 0–38 %: the back wall of the existing NORTH NICHE (3.02 m wide, 0.90 m deep, full height). In this design the WHOLE niche is filled by the north wardrobe: its fronts stand in the plane of the pillar's front face, so the wardrobe front occupies 0–43 % of the frame width, floor to ceiling (its top edge about 9 % down at its right end).
+   b) 43–46 %: the narrow front face of the white pillar, beside the wardrobe.
+   c) 46–48 %: a short white return to the room corner; the vertical inner corner at about 48 % (floor about 64 % down, ceiling about 11 % down).
+   d) 48–100 %: the EAST wall = the headboard wall, receding to the right; its south end is beyond the right edge.
+   e) The bed: head against the east wall, the headboard spanning about 54–78 % across; the bed (180 × 202 cm) runs from the east wall towards the camera-left, its foot corners low in the frame at about 30 % across / 72 % down and 52 % across / 96 % down. The headboard composition named in the brief sits on the east wall centred on the bed (roughly 50–88 % across); the bedside pieces named in the brief stand at both sides of the bed against the east wall.
+   f) Ceiling: flat, white, uninterrupted at 2.90 m.
+3. NOT in this frame: the west glass wall, its curtains and the balcony (behind and left of the camera); the south wardrobe strip and the room door (behind and right of the camera). There is NO window, NO glass, NO balcony and NO door anywhere in this picture.
+4. Forbidden: any new wall, partition, column, beam, bulkhead, niche, room or opening; moving, resizing, removing or adding doors, windows or glazing; raising or lowering the 2.90 m white ceiling or adding coves, recessed spots or new light points; changing the floor level; rotating, re-aiming, raising, zooming or re-cropping the camera to show something more attractive; showing anything that this camera cannot see; turning the bed or putting it on another wall; moving the wardrobe out of the niche or onto another wall; any glass wall or window on the left; enlarging the room.
+5. Output: exactly one photorealistic image, same framing and aspect as image 1, no people, no text, no labels, no collage. If anything in the brief conflicts with image 1 or this lock, image 1 and this lock win.
+
+RUN NOTES – how to read the creative brief for THIS camera (integrator clarifications; the brief itself is unchanged)
+- "The south wardrobe strip ... retains its actual visibility at the edge of the locked frame": its actual visibility from this camera is NONE – it is outside the frame. Do not draw it.
+- The curtain track above the 3.64 m glazing belongs to the west wall outside the frame; no curtain or window appears here.
+- "The complete north wardrobe wall visibly closing its existing niche" = the six-front wardrobe filling 0–43 % on the left.
+- Evening light only from the light sources named in the brief (Hue layers); no new ceiling light points.
+- MATERIALS FIRST (verified on the professional site photos 2026-10-25): light may warm the image, it must not change the materials. Floor = image 2 colour (cool grey oak effect, at most slightly warmer); skirting grey-taupe, not white, not dark wood; walls pure white; ceiling flat white with no recessed spots, coves or hidden LED lines; interior doors mid-grey with darker grey frame and black handle; switches anthracite.
+- Reference rules: 05_promptok/PROMPT_ELVEK_FOTOVALIDALT_A902.md v1 (Claude, 2026-10-25, owner-approved).
+
+CREATIVE BRIEF – GPT-6 Astra V3.1, A902_S06_ZenitAtelier_3_master_Cam_04_A, complete and verbatim (source: competition/gpt6astra-v3-1-20261025 @ 2bef09ae6081b5bafb86bc876ef8410be44bb567, 05_promptok/KEP004_GPT6ASTRA_V3_1_r1/20_PROMPTOK/A902_S06_ZenitAtelier_3_master_Cam_04_A.prompt.md):
+=== BEGIN PROMPT A902_S06_ZenitAtelier_3_master_Cam_04_A ===
+Create an editorial-quality, photorealistic interior photograph of apartment A-902, Zenit Atelier, Cam_04. Build a tactile, convincingly inhabited luxury interior with honest materials and precise working joints. This is a creative concept requiring independent validation.
+
+STYLE DNA. A private atelier with smoked walnut-effect mass, graphite textile and a single luminous incision. Warmth comes from deep material layering and restrained olive and mustard textiles; the composition is more architectural and directional than the common Zenit calibration.
+
+CAMERA. Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.
+
+MASTER MATERIAL COMPOSITION. Three broad pearl textile panels form a 270 × 155 × 7 cm headboard, enclosed by a thin graphite perimeter and one asymmetric walnut-effect side return. Bedding combines chalk cotton, a taupe coverlet and a narrow olive throw. Six north wardrobe fronts use smoked-walnut-effect laminate with large uninterrupted grain fields; the south wardrobe uses the same vertical grain and slim recessed pulls.
+
+MASTER PLAN. Use the white IKEA NORDLI storage bed, documented outer envelope 180 × 202 × 30 cm, with a 180 × 200 cm mattress subject to catalogue verification. Keep the bed in its real orientation and at least 60 cm bedside passage. Fill the entire north niche with a 300 × 290 × 90 cm wardrobe envelope, its front aligned to the existing pillar. White PAX carcasses, six working north fronts and fitted upper infill are separate construction parts; the 90 cm niche depth is not the carcass depth. The south wardrobe occupies the 242 cm strip, with a proposed 60 cm depth pending door-swing testing. Two 30 × 42 × 30 cm bedside blocks serve the bed. Preserve D20–D23, K13/K14 and D26 access. Mount the sheer and heavier curtains to the 33 cm wall strip above the 3.64 m glazing, with shutter service access. The ceiling remains white and uninterrupted.
+
+EVENING DETAIL. Give the headboard fabric a visible weave and broad soft compression at its seams. Express the difference between the padded plane, thin perimeter and true wardrobe joints. On the two bedside blocks, place two Philips Hue Go portable lamps, one book and a useful ceramic cup. The lamps retain their actual proportions once verified. The wardrobe closes its complete niche and reads as intentional functional architecture.
+
+LIGHT. Evening at 2200–2700 K, layered Philips Hue white ambience. A 3 m Hue Lightstrip Plus V4 is concealed in an opal aluminium profile behind the headboard, supplied from D20 through a ventilated, accessible service recess. Bedside Hue Go lamps use D21 and D23. A restrained white Hue ceiling fitting uses ML06 only after fixing verification. D26 supplies functional wardrobe light. Preserve readable dark edges and gently luminous bedding.
+
+REALITY AND MATERIALS. Keep the supplied audited Blender camera and architectural shell: the modelled 2.90 m ceiling, real openings, grey interior doors, white interior window frames, original grey-oak floor and actual external view. The floor's precise decor is unverified; match the site reference rather than brightening or replacing it. Keep white ceiling and unassigned reveals; only the explicitly designed wallcoverings, panels and furniture change the surfaces. Laminate shows a manufactured edge, printed graphics remain print, textile has real weave and shallow relief casts a physical shadow. Keep service covers and controls accessible. No enlarged room, new opening, lowered ceiling, invented electrical point, solid-stone substitution or impossible reflection. Furniture mounting is wall-based after service detection; heating/cooling ceiling fields remain untouched. This is a creative concept requiring independent geometry, electrical, product and cost validation before a final render package.
+
+OUTPUT AND STATUS. Use audited Blender geometry and room-confirmed site references in the eventual image package. Bind the named products to verified dimensions before final rendering. Keep the style-specific design while reporting unresolved fit, electrical and cost conditions. Produce an interior photograph without people or overlaid lettering.
+=== END PROMPT A902_S06_ZenitAtelier_3_master_Cam_04_A ===
