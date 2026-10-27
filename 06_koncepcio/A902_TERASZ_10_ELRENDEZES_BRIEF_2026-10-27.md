@@ -23,6 +23,16 @@ Indításkor frissen olvasd el, és jegyezd fel a forrásverziót:
 5. **Profi fotóarchívum:** `08_allapotfelmeres/fotok_profi_20261025/A902/` (33 fotó) + `README.md`, `LELTAR_profi_20261025.csv` és `FOTOKAMERA_LATVANYTERV.md`. Különösen KZS 3488 (greslap), KZS 3498 (zöldtető–homlokzat) és KZS 3483 (iránybesorolása bizonytalan). A képek teljes felbontású, de **retusált/vágott, EXIF nélküli fotók**; alkalmasak a látvány, anyag, szint, kilátás és nyílások vizsgálatára, de önmagukban nem hiteles méret- vagy égtájforrások.
 6. Az alábbi, e beszélgetéshez csatolt **három képfájlt** külön csatold az Astra/Work indítófeladatához. **Nem a WSG valós adottságai, kizárólag ábrázolási etalonok:** `2d.jpeg` (fotóéles felülnézet), `4es design.png` (festői/építészeti 3D axonometria), `6os design.png` (fotórealisztikus 3D axonometria). Ezek a fájlok **nem kerültek be automatikusan a GitHub-repóba**, a futtatásnál kézzel kell csatolni őket.
 
+**A három feltöltött eredeti képfájl ellenőrzött képazonosítója (2026-10-27):**
+
+| Sorszám, referencia | Fájlnév | Pixelméret | SHA-256 |
+|---|---|---|---|
+| 2D, Oriental Residence A1 szerinti ábrázolás | `2d.jpeg` | 2048 × 2048 | `1bbf18faa13ded454414aaaed84132c565a160855a36e4ce215ae0821c142a24` |
+| 3D, korábbi #4, Terrasses des Oliviers | `4es design.png` | 2048 × 1462 | `b7cb5a6a2219e932219e46fbe9cf35e63b7306b777a04f9116466a6d9fb6d018` |
+| 3D, korábbi #6, Millennium Rooftop | `6os design.png` | 1440 × 1200 | `b90edce9772e0de3987537a33b691eabfaa4b637ab5cf590bf7da05b8e6b64d4` |
+
+A forráskép **pontos fájlazonossága** ezzel később ellenőrizhető; önmagában a linkelt referenciacikk vagy fantázianév nem elegendő. A három eredeti képről készült egy közös ZIP-készlet ebben a ChatGPT-beszélgetésben. **A GitHub MD-be a képbájtok jelenleg nem kerültek fel**, ezért új Work-beszélgetés indításakor a három képet (vagy ZIP-jüket) külön csatolni kell. A képet csak ábrázolási módként szabad követni; a konkrét WSG kialakítás változatlan geometriai tényeken alapul.
+
 Minden bemenet: `IGAZOLT / TERV SZERINT / BECSLÉS / HIÁNYZIK` státusszal; ütközést külön döntési listába, semmi csendes modellátírás.
 
 ## 2. A terasz valós, kiinduló adottságai – nem designjavaslat
