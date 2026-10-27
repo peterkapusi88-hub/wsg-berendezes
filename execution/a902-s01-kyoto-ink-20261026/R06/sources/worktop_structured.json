@@ -1,0 +1,87 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "url": "https://www.okftfaaruhaz.hu/ML-EGGER-F243-ST76-4100x600x38mm-munkalap",
+    "offers": {
+      "@type": "Offer",
+      "category": "Munkalapok, asztallapok, konyhai hátfalak > EGGER > Munkalapok",
+      "url": "https://www.okftfaaruhaz.hu/ML-EGGER-F243-ST76-4100x600x38mm-munkalap",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "priceCurrency": "HUF",
+      "price": "49488",
+      "validFrom": "2026-10-26",
+      "priceValidUntil": "2027-10-27"
+    },
+    "image": [
+      "https://www.okftfaaruhaz.hu/img/41112/9999015241/9999015241.jpg?time=1716637278",
+      "https://www.okftfaaruhaz.hu/img/41112/9999015241_altpic_1/9999015241.jpg?time=1716637288",
+      "https://www.okftfaaruhaz.hu/img/41112/9999015241_altpic_2/9999015241.jpg?time=1716637288"
+    ],
+    "sku": "9999015241",
+    "productId": "9999015241",
+    "description": "Az F243 Világosszürke Candela Márvány dekor első pillantásra a márvány és a beton keverékének tűnik, de finomkő elemeket is tartalmaz. Ez a változatos jelleg különösen jól működik a nagyobb felületeken. Ezt tovább segíti az XL ismétlődés, amely a mintaismétlődéseket minimálisra csökkenti a dekorképen. A meleg, semleges uni dekorokkal vagy faárnyalatokkal való kombinációk jól illenek a meleg tónusú mintázathoz. Az ST76 Mineral Rough Matt felületi struktúra matt, érdes tapintásérzettel egészíti ki ezt a természetes megjelenést.\r\n\r\nPostforming (R 3mm) Raktári lapok min. vásárlási mennyiség 0,5 db (2030x600). Raktári lapokat fm-re is szabjuk, árajánlat igénylését kérjük küldje el email-en részünkre.\n\n",
+    "name": "ML EGGER F243 ST76 4100x600x38mm munkalap"
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Főoldal",
+        "item": "https://www.okftfaaruhaz.hu/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Munkalapok, asztallapok, konyhai hátfalak",
+        "item": "https://www.okftfaaruhaz.hu/sct/737341/Munkalapok-asztallapok-konyhai-hatfalak"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "EGGER",
+        "item": "https://www.okftfaaruhaz.hu/sct/308884/EGGER"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Munkalapok",
+        "item": "https://www.okftfaaruhaz.hu/spl/729180/Munkalapok"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "url": "https://www.okftfaaruhaz.hu/",
+    "name": "OKFT Faáruház",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.okftfaaruhaz.hu/shop_search.php?search={search_term}",
+      "query-input": "required name=search_term"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "name": "OKFT Kft",
+    "legalName": "OKFT Kft",
+    "url": "https://www.okftfaaruhaz.hu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jura Ipari Park 22/A",
+      "addressLocality": "Algyő",
+      "postalCode": "6750",
+      "addressCountry": "HU"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "06 20 205 7980 / 06 20 545 8222",
+      "email": "info@okftfaaruhaz.hu"
+    }
+  }
+]

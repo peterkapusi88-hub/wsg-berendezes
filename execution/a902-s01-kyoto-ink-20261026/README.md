@@ -46,3 +46,8 @@ A korábbi12termékes korlátozás megszűnt. A folytatás a teljes lakásra von
 ## Tulajdonosi bemutató bővítése - 2026-10-26
 
 A megrendelő kérésére a tulajdonosi összefoglaló most pontosan öt A4-oldal. A dokumentum a fő kérdésekre válaszol: miért kerül ennyibe, miért tart eddig, mi jöhet közbe, mitől különleges, megéri-e, és hogyan gyorsítható. A 15 hetes gyorsított változat feltételes szervezési javaslat; a 17 hetes alapütem, az élő költségvetés és a műszaki jóváhagyási állapot nem változott. A renderpromptokon másik munkamenet dolgozik; ez a módosítás nem írja át őket.
+
+
+## KI-R06 / 2026-10-27
+
+A hét új célképre épülő tényleges módosítások: [R06 állapot](R06/00_R06_ELLENORZOTT_ALLAPOT.txt). Élő Excel az outputs mappában. 24 482 890 Ft teljes /24 229 890 Ft takarékos becslés;18M cél nem teljesült, külön2M tartalék érintetlen. A grafikák és bútorrekonstrukciók feltételesek; nincs gyártási vagy teljes renderazonossági jóváhagyás. R06 rajzmódosítások az érintett külsőket felülírják; változatlan R05 belsők megmaradnak.

@@ -1,0 +1,14 @@
+KI-R06 FUNCTIONAL CONTROL
+{
+  "id": "F03_cutaway",
+  "unit": "W52-01",
+  "state": "cutaway",
+  "camera_id": "CP3_F03",
+  "prompt_path": "R05/render_handoff/prompts/F03_cutaway_KI_R05_EN.txt",
+  "prompt_sha256": "87ecefba78c12c069b334f39917d37844707cad6a8ac62c6c4a9a75b7ca6b7cf",
+  "release": "CONDITIONAL; supplier motion unavailable for opening proof",
+  "revision": "KI-R06",
+  "blender_file": "R06/blender/A902_Kyoto_Ink_R06.blend",
+  "status": "R06 closed/open state must be run; older picture is not a fresh PASS"
+}
+Use actual R06 geometry. Show dimensions and motion envelopes. No generative image editing; report FAIL/OPEN honestly. Use R06/blender/checks.json for the already executed selective tests.

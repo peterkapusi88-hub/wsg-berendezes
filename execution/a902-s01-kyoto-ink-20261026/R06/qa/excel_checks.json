@@ -1,0 +1,1171 @@
+{
+  "actual": [
+    24482890,
+    24229890
+  ],
+  "expected": {
+    "main": 24482890,
+    "economy": 24229890,
+    "low": 20841595,
+    "high": 32952998,
+    "target": 18000000,
+    "reserve": 2000000,
+    "reserve_used": 0,
+    "gap": 6482890,
+    "economy_gap": 6229890,
+    "R05": 23912890,
+    "delta": 570000,
+    "quote_huf": 0,
+    "rows": 177,
+    "note": "Teljes árbecslés, nem vállalkozói ajánlat.18M teljes tartalommal nincs igazolva."
+  },
+  "perturbation_pass": true,
+  "source_preserved": true,
+  "touched": [
+    [
+      "Elemregiszter",
+      "I45",
+      "IKEA"
+    ],
+    [
+      "Elemregiszter",
+      "J45",
+      "004.507.57"
+    ],
+    [
+      "Elemregiszter",
+      "K45",
+      "https://www.ikea.com/hu/hu/p/vagstranda-zsakrugos-matrac-kemeny-vilagoskek-00450757/"
+    ],
+    [
+      "Elemregiszter",
+      "L45",
+      "1800×2000×280 mm"
+    ],
+    [
+      "Elemregiszter",
+      "Q45",
+      229900
+    ],
+    [
+      "Elemregiszter",
+      "V45",
+      "Ellenőrzött webshopár"
+    ],
+    [
+      "Elemregiszter",
+      "W45",
+      "IKEA HU 2026-10-27; komfortpróba és szállítás visszaigazolása nincs"
+    ],
+    [
+      "Elemregiszter",
+      "X45",
+      "2026-10-27"
+    ],
+    [
+      "Elemregiszter",
+      "AG45",
+      229900
+    ],
+    [
+      "Elemregiszter",
+      "H118",
+      "2×EGLO RONDO 85264 Ø200 opálgömb + 2×Hue E27"
+    ],
+    [
+      "Elemregiszter",
+      "I118",
+      "EGLO"
+    ],
+    [
+      "Elemregiszter",
+      "J118",
+      "85264"
+    ],
+    [
+      "Elemregiszter",
+      "K118",
+      "https://www.egloshop.hu/85264-eglo-rondo-asztali-lampa"
+    ],
+    [
+      "Elemregiszter",
+      "L118",
+      "Ø200×200 mm; E27"
+    ],
+    [
+      "Elemregiszter",
+      "Q118",
+      21980
+    ],
+    [
+      "Elemregiszter",
+      "W118",
+      "2×10990 Ft ellenőrzött lámpaár; 24000 Ft Hue előirányzat változatlan"
+    ],
+    [
+      "Elemregiszter",
+      "X118",
+      "2026-10-27"
+    ],
+    [
+      "Elemregiszter",
+      "AA118",
+      "Kisebb gömb közelebb áll a célképhez; fehér talp a sötét referencia helyett."
+    ],
+    [
+      "Elemregiszter",
+      "AG118",
+      21980
+    ],
+    [
+      "Elemregiszter",
+      "H44",
+      "BED-01 egyedi kárpitozott tárolóágy, két felnyíló kerettel"
+    ],
+    [
+      "Elemregiszter",
+      "I44",
+      "Egyedi ajánlatkérés"
+    ],
+    [
+      "Elemregiszter",
+      "J44",
+      "BED-01-R06"
+    ],
+    [
+      "Elemregiszter",
+      "L44",
+      "2020×1800×300 mm külső, matrac1800×2000"
+    ],
+    [
+      "Elemregiszter",
+      "Q44",
+      250000
+    ],
+    [
+      "Elemregiszter",
+      "V44",
+      "Becslés"
+    ],
+    [
+      "Elemregiszter",
+      "W44",
+      "R06 bontás: váz80000+kárpit50000+2emelőkeret80000+összeépítés40000; vasalat ajánlatra vár"
+    ],
+    [
+      "Elemregiszter",
+      "AA44",
+      "Fehér/kréta alacsony ágytest megtartva; oldalfiók helyett felnyíló tároló"
+    ],
+    [
+      "Elemregiszter",
+      "AG44",
+      250000
+    ],
+    [
+      "Elemregiszter",
+      "AN44",
+      "BED-01"
+    ],
+    [
+      "Elemregiszter",
+      "AO44",
+      "R06/drawings/R06_valtozott_szerkezetek.pdf"
+    ],
+    [
+      "Elemregiszter",
+      "AP44",
+      "R06_BED01_*"
+    ],
+    [
+      "Elemregiszter",
+      "AQ44",
+      "Egyedi"
+    ],
+    [
+      "Elemregiszter",
+      "AR44",
+      "Tervezési befoglaló; vasalat és gyártás nincs jóváhagyva"
+    ],
+    [
+      "Elemregiszter",
+      "AY44",
+      0.85
+    ],
+    [
+      "Elemregiszter",
+      "AZ44",
+      1.45
+    ],
+    [
+      "Elemregiszter",
+      "H52",
+      "Északi és déli teljes magasságú grafikás frontok és pántok"
+    ],
+    [
+      "Elemregiszter",
+      "Q52",
+      450000
+    ],
+    [
+      "Elemregiszter",
+      "W52",
+      "Korábbi370000+80000 előirányzat a déli négy hosszú front merevítésére/pántolására; gyártói árajánlat szükséges"
+    ],
+    [
+      "Elemregiszter",
+      "AA52",
+      "Észak6 és dél4 folytonos magas front; délen hosszú fekete fogantyú; eredeti grafika helyett R06 próbaváltozat"
+    ],
+    [
+      "Elemregiszter",
+      "AG52",
+      450000
+    ],
+    [
+      "Elemregiszter",
+      "AO52",
+      "R06/drawings/R06_valtozott_szerkezetek.pdf"
+    ],
+    [
+      "Elemregiszter",
+      "J12",
+      "EGGER F243 ST76 / 4100×920×38"
+    ],
+    [
+      "Elemregiszter",
+      "K12",
+      "https://www.okftfaaruhaz.hu/ML-EGGER-F243-ST76-4100x600x38mm-munkalap"
+    ],
+    [
+      "Elemregiszter",
+      "L12",
+      "1460×620 +1600×620 +900×620; 4100×920 nyerslapból"
+    ],
+    [
+      "Elemregiszter",
+      "N12",
+      "Világosszürke Candela márvány dekor, laminált forgácslap; nem valódi kő"
+    ],
+    [
+      "Elemregiszter",
+      "W12",
+      "96750Ft széles lap jelzett kereskedői ár +53250Ft szabás/él/kivágás előirányzat; széles SKU véglegesítendő"
+    ],
+    [
+      "Elemregiszter",
+      "AA12",
+      "Képi kőhatás közelítése lamináttal; élek és ismétlődés látszhat. 600mm lap NEM elegendő620mm mélységre."
+    ],
+    [
+      "Elemregiszter",
+      "J13",
+      "EGGER F243 ST76 hátfal"
+    ],
+    [
+      "Elemregiszter",
+      "W13",
+      "4100×640×8 jelzett59445Ft +40555Ft szabás/ragasztás/él előirányzat. Nem dupla munkadíj a KI-014-gyel; ajánlatban bontandó"
+    ],
+    [
+      "Elemregiszter",
+      "AA13",
+      "Azonos dekor az összes konyhanézetben; mosható hátfal, főzőlap gyártói távolságával"
+    ],
+    [
+      "Elemregiszter",
+      "W37",
+      "Westwing HU pontos SKU JSON-LD:800000Ft; HU szállítás visszaigazolása nincs"
+    ],
+    [
+      "Elemregiszter",
+      "X37",
+      "2026-10-27"
+    ],
+    [
+      "Elemregiszter",
+      "AA37",
+      "Alacsony, széles karú jobb sarokkanapé; a célkép szövete és párnázottsága eltérhet."
+    ],
+    [
+      "Elemregiszter",
+      "AP37",
+      "R06_Lennon_*"
+    ],
+    [
+      "Elemregiszter",
+      "AR37",
+      "Gyártói2380×1800×680; fotó/méret alapján felépített forma, nem gyári3D"
+    ],
+    [
+      "Elemregiszter",
+      "W29",
+      "Westwing HU SKU160cm259990Ft"
+    ],
+    [
+      "Elemregiszter",
+      "X29",
+      "2026-10-27"
+    ],
+    [
+      "Elemregiszter",
+      "AA29",
+      "160×90 ovális tölgy asztal, két hajlított laplábbal; nem a renderben esetenként megjelenő központi tömb."
+    ],
+    [
+      "Elemregiszter",
+      "AP29",
+      "R06_Toni*"
+    ],
+    [
+      "Elemregiszter",
+      "AP30",
+      "R06_Eamy_*"
+    ],
+    [
+      "Elemregiszter",
+      "AR30",
+      "Gyártói55×53×75cm, ülés46cm; fotó alapján görbített háttámla rekonstrukció"
+    ],
+    [
+      "Elemregiszter",
+      "AA110",
+      "A gyári Somar laposabb búra, mint a konyhai render felfújt gömbje; a render igazodjon a gyárihoz."
+    ],
+    [
+      "Elemregiszter",
+      "AP110",
+      "R06_Somar_*"
+    ],
+    [
+      "Elemregiszter",
+      "AR110",
+      "Ø760×360mm búra, E27; fotó alapján rekonstruált bordás forma"
+    ],
+    [
+      "Elemregiszter",
+      "AF77",
+      "R06: változatlan350×350×450 test; új helyX14025,Y5920mm. Fiók/ajtó mozgás részletesen ellenőrzendő."
+    ],
+    [
+      "Elemregiszter",
+      "AF92",
+      "R06: északi zuhanytálca déli élén keleti1000mm fixüveg,780mm névleges belépő. Kiviteli helyszíni vízzárás/üvegméret szakági jóváhagyásra vár."
+    ],
+    [
+      "Elemregiszter",
+      "U176",
+      "=O176*Q176+SUM(R176:T176)"
+    ],
+    [
+      "Elemregiszter",
+      "AH176",
+      "=O176*AG176+SUM(R176:T176)"
+    ],
+    [
+      "Elemregiszter",
+      "BA176",
+      "=ROUND(U176*AY176,0)"
+    ],
+    [
+      "Elemregiszter",
+      "BB176",
+      "=ROUND(U176*AZ176,0)"
+    ],
+    [
+      "Elemregiszter",
+      "U177",
+      "=O177*Q177+SUM(R177:T177)"
+    ],
+    [
+      "Elemregiszter",
+      "AH177",
+      "=O177*AG177+SUM(R177:T177)"
+    ],
+    [
+      "Elemregiszter",
+      "BA177",
+      "=ROUND(U177*AY177,0)"
+    ],
+    [
+      "Elemregiszter",
+      "BB177",
+      "=ROUND(U177*AZ177,0)"
+    ],
+    [
+      "Elemregiszter",
+      "U178",
+      "=O178*Q178+SUM(R178:T178)"
+    ],
+    [
+      "Elemregiszter",
+      "AH178",
+      "=O178*AG178+SUM(R178:T178)"
+    ],
+    [
+      "Elemregiszter",
+      "BA178",
+      "=ROUND(U178*AY178,0)"
+    ],
+    [
+      "Elemregiszter",
+      "BB178",
+      "=ROUND(U178*AZ178,0)"
+    ],
+    [
+      "Összesítő",
+      "B7",
+      "=SUM('Elemregiszter'!U2:U178)"
+    ],
+    [
+      "Összesítő",
+      "B8",
+      "=SUM('Elemregiszter'!AH2:AH178)"
+    ],
+    [
+      "Összesítő",
+      "B11",
+      "=SUMIFS('Elemregiszter'!U2:U178,'Elemregiszter'!V2:V178,\"ellenőrzött webshopár\")"
+    ],
+    [
+      "Összesítő",
+      "B12",
+      "=SUMIFS('Elemregiszter'!U2:U178,'Elemregiszter'!V2:V178,\"beszállítói ajánlat\")"
+    ],
+    [
+      "Összesítő",
+      "B14",
+      "=SUMIFS('Elemregiszter'!U2:U178,'Elemregiszter'!AC2:AC178,\"megrendelt\")"
+    ],
+    [
+      "Összesítő",
+      "B15",
+      "=COUNTA('Elemregiszter'!C2:C178)"
+    ],
+    [
+      "Összesítő",
+      "B22",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A22)"
+    ],
+    [
+      "Összesítő",
+      "C22",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A22)"
+    ],
+    [
+      "Összesítő",
+      "B23",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A23)"
+    ],
+    [
+      "Összesítő",
+      "C23",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A23)"
+    ],
+    [
+      "Összesítő",
+      "B24",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A24)"
+    ],
+    [
+      "Összesítő",
+      "C24",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A24)"
+    ],
+    [
+      "Összesítő",
+      "B25",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A25)"
+    ],
+    [
+      "Összesítő",
+      "C25",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A25)"
+    ],
+    [
+      "Összesítő",
+      "B26",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A26)"
+    ],
+    [
+      "Összesítő",
+      "C26",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A26)"
+    ],
+    [
+      "Összesítő",
+      "B27",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A27)"
+    ],
+    [
+      "Összesítő",
+      "C27",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A27)"
+    ],
+    [
+      "Összesítő",
+      "B28",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A28)"
+    ],
+    [
+      "Összesítő",
+      "C28",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A28)"
+    ],
+    [
+      "Összesítő",
+      "B29",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A29)"
+    ],
+    [
+      "Összesítő",
+      "C29",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A29)"
+    ],
+    [
+      "Összesítő",
+      "B30",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A30)"
+    ],
+    [
+      "Összesítő",
+      "C30",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A30)"
+    ],
+    [
+      "Összesítő",
+      "B31",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A31)"
+    ],
+    [
+      "Összesítő",
+      "C31",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A31)"
+    ],
+    [
+      "Összesítő",
+      "B32",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A32)"
+    ],
+    [
+      "Összesítő",
+      "C32",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A32)"
+    ],
+    [
+      "Összesítő",
+      "B33",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A33)"
+    ],
+    [
+      "Összesítő",
+      "C33",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A33)"
+    ],
+    [
+      "Összesítő",
+      "B34",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A34)"
+    ],
+    [
+      "Összesítő",
+      "C34",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A34)"
+    ],
+    [
+      "Összesítő",
+      "B35",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A35)"
+    ],
+    [
+      "Összesítő",
+      "C35",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A35)"
+    ],
+    [
+      "Összesítő",
+      "B36",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A36)"
+    ],
+    [
+      "Összesítő",
+      "C36",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A36)"
+    ],
+    [
+      "Összesítő",
+      "B37",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A37)"
+    ],
+    [
+      "Összesítő",
+      "C37",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A37)"
+    ],
+    [
+      "Összesítő",
+      "B38",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A38)"
+    ],
+    [
+      "Összesítő",
+      "C38",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A38)"
+    ],
+    [
+      "Összesítő",
+      "B39",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A39)"
+    ],
+    [
+      "Összesítő",
+      "C39",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A39)"
+    ],
+    [
+      "Összesítő",
+      "B40",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A40)"
+    ],
+    [
+      "Összesítő",
+      "C40",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A40)"
+    ],
+    [
+      "Összesítő",
+      "B41",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A41)"
+    ],
+    [
+      "Összesítő",
+      "C41",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A41)"
+    ],
+    [
+      "Összesítő",
+      "B42",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A42)"
+    ],
+    [
+      "Összesítő",
+      "C42",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$B$2:$B$178,A42)"
+    ],
+    [
+      "Összesítő",
+      "B46",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A46)"
+    ],
+    [
+      "Összesítő",
+      "C46",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A46)"
+    ],
+    [
+      "Összesítő",
+      "B47",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A47)"
+    ],
+    [
+      "Összesítő",
+      "C47",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A47)"
+    ],
+    [
+      "Összesítő",
+      "B48",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A48)"
+    ],
+    [
+      "Összesítő",
+      "C48",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A48)"
+    ],
+    [
+      "Összesítő",
+      "B49",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A49)"
+    ],
+    [
+      "Összesítő",
+      "C49",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A49)"
+    ],
+    [
+      "Összesítő",
+      "B50",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A50)"
+    ],
+    [
+      "Összesítő",
+      "C50",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A50)"
+    ],
+    [
+      "Összesítő",
+      "B51",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A51)"
+    ],
+    [
+      "Összesítő",
+      "C51",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A51)"
+    ],
+    [
+      "Összesítő",
+      "B52",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A52)"
+    ],
+    [
+      "Összesítő",
+      "C52",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A52)"
+    ],
+    [
+      "Összesítő",
+      "B53",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A53)"
+    ],
+    [
+      "Összesítő",
+      "C53",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A53)"
+    ],
+    [
+      "Összesítő",
+      "B54",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A54)"
+    ],
+    [
+      "Összesítő",
+      "C54",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A54)"
+    ],
+    [
+      "Összesítő",
+      "B55",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A55)"
+    ],
+    [
+      "Összesítő",
+      "C55",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A55)"
+    ],
+    [
+      "Összesítő",
+      "B56",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A56)"
+    ],
+    [
+      "Összesítő",
+      "C56",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A56)"
+    ],
+    [
+      "Összesítő",
+      "B57",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A57)"
+    ],
+    [
+      "Összesítő",
+      "C57",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A57)"
+    ],
+    [
+      "Összesítő",
+      "B58",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A58)"
+    ],
+    [
+      "Összesítő",
+      "C58",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A58)"
+    ],
+    [
+      "Összesítő",
+      "B59",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$G$2:$G$178,A59)"
+    ],
+    [
+      "Összesítő",
+      "C59",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$G$2:$G$178,A59)"
+    ],
+    [
+      "Összesítő",
+      "B63",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$F$2:$F$178,A63)"
+    ],
+    [
+      "Összesítő",
+      "C63",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$F$2:$F$178,A63)"
+    ],
+    [
+      "Összesítő",
+      "B64",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$F$2:$F$178,A64)"
+    ],
+    [
+      "Összesítő",
+      "C64",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$F$2:$F$178,A64)"
+    ],
+    [
+      "Összesítő",
+      "B68",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$AC$2:$AC$178,A68)"
+    ],
+    [
+      "Összesítő",
+      "C68",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$AC$2:$AC$178,A68)"
+    ],
+    [
+      "Összesítő",
+      "B74",
+      "=SUM('Elemregiszter'!BA2:BA178)"
+    ],
+    [
+      "Összesítő",
+      "B75",
+      "=SUM('Elemregiszter'!BB2:BB178)"
+    ],
+    [
+      "Összesítő",
+      "B80",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A80)"
+    ],
+    [
+      "Összesítő",
+      "B81",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A81)"
+    ],
+    [
+      "Összesítő",
+      "B82",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$B$2:$B$178,A82)"
+    ],
+    [
+      "Összesítő",
+      "B83",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$C$2:$C$178,\"KI-CP3-F01\")+SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$C$2:$C$178,\"KI-CP3-F02\")"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D2",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A2)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E2",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A2)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D3",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A3)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E3",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A3)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D4",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A4)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E4",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A4)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D5",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A5)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E5",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A5)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D6",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A6)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E6",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A6)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D7",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A7)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E7",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A7)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D8",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A8)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E8",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A8)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D9",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A9)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E9",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A9)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D10",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A10)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E10",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A10)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D11",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A11)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E11",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A11)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D12",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A12)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E12",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A12)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D13",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A13)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E13",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A13)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D14",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A14)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E14",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A14)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D15",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A15)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E15",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A15)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D16",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A16)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E16",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A16)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D17",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A17)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E17",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A17)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D18",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A18)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E18",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A18)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D19",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A19)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E19",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A19)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D20",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A20)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E20",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A20)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D21",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A21)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E21",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A21)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D22",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A22)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E22",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A22)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D23",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A23)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E23",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A23)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D24",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A24)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E24",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A24)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D25",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A25)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E25",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A25)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D26",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A26)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E26",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A26)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D27",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A27)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E27",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A27)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D28",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A28)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E28",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A28)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D29",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A29)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E29",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A29)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "D30",
+      "=SUMIFS('Elemregiszter'!$U$2:$U$178,'Elemregiszter'!$E$2:$E$178,A30)"
+    ],
+    [
+      "Baseline egyeztetés",
+      "E30",
+      "=SUMIFS('Elemregiszter'!$AH$2:$AH$178,'Elemregiszter'!$E$2:$E$178,A30)"
+    ],
+    [
+      "Összesítő",
+      "C7",
+      "R06: hét új célkép; pontos termékformák, grafikapróbák, magas gardróbfrontok és T07 kiegészítések. Nem rendelési engedély."
+    ],
+    [
+      "Összesítő",
+      "C8",
+      "Összehasonlítható takarékos változat:253000Ft dokumentált megtakarítás;18M továbbra sem igazolt."
+    ],
+    [
+      "Összesítő",
+      "C15",
+      "177 költségsor; a külön2M tartalékból0Ft felhasználva."
+    ],
+    [
+      "Elemregiszter",
+      "Q176",
+      221000
+    ],
+    [
+      "Elemregiszter",
+      "Q176",
+      220000
+    ]
+  ]
+}

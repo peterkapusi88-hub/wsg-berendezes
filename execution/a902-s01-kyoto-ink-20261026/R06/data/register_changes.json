@@ -1,0 +1,164 @@
+[
+  {
+    "id": "KI-044",
+    "reason": "VÅGSTRANDA pontos méret és friss ár, -30100 Ft; keménység kipróbálandó.",
+    "before": 260000,
+    "after": 229900,
+    "fields": {
+      "8": "IKEA",
+      "9": "004.507.57",
+      "10": "https://www.ikea.com/hu/hu/p/vagstranda-zsakrugos-matrac-kemeny-vilagoskek-00450757/",
+      "11": "1800×2000×280 mm",
+      "16": 229900,
+      "32": 229900,
+      "21": "Ellenőrzött webshopár",
+      "22": "IKEA HU 2026-10-27; komfortpróba és szállítás visszaigazolása nincs",
+      "23": "2026-10-27"
+    }
+  },
+  {
+    "id": "KI-117",
+    "reason": "FADO25cm helyett20cm Rondo; +10000Ft. Összetett csomag, nem teljes fix ajánlat.",
+    "before": 35980,
+    "after": 45980,
+    "fields": {
+      "7": "2×EGLO RONDO 85264 Ø200 opálgömb + 2×Hue E27",
+      "8": "EGLO",
+      "9": "85264",
+      "10": "https://www.egloshop.hu/85264-eglo-rondo-asztali-lampa",
+      "11": "Ø200×200 mm; E27",
+      "16": 21980,
+      "32": 21980,
+      "22": "2×10990 Ft ellenőrzött lámpaár; 24000 Ft Hue előirányzat változatlan",
+      "23": "2026-10-27",
+      "26": "Kisebb gömb közelebb áll a célképhez; fehér talp a sötét referencia helyett."
+    }
+  },
+  {
+    "id": "KI-043",
+    "reason": "NORDLI oldalfiókok helyett felnyíló tároló: éjjelikkel való használati ütközés csökkentése. +60100Ft becslés.",
+    "before": 189900,
+    "after": 250000,
+    "fields": {
+      "7": "BED-01 egyedi kárpitozott tárolóágy, közös felnyíló kerettel",
+      "8": "Egyedi ajánlatkérés",
+      "9": "BED-01-R06",
+      "11": "2020×1800×300 mm külső, matrac1800×2000",
+      "16": 250000,
+      "32": 250000,
+      "21": "Becslés",
+      "22": "R06 bontás: váz80000+kárpit50000+közös keret és kétoldali emelőszerkezet80000+összeépítés40000; vasalat ajánlatra vár",
+      "26": "Fehér/kréta alacsony ágytest megtartva; oldalfiók helyett felnyíló tároló",
+      "39": "BED-01",
+      "40": "R06/drawings/R06_valtozott_szerkezetek.pdf",
+      "41": "R06_BED01_*",
+      "42": "Egyedi",
+      "43": "Tervezési befoglaló; vasalat és gyártás nincs jóváhagyva",
+      "50": 0.85,
+      "51": 1.45
+    }
+  },
+  {
+    "id": "KI-051",
+    "reason": "Déli vízszintes frontosztás elhagyva a T05 alapján; belső kapacitás megmarad. +80000Ft előirányzat.",
+    "before": 370000,
+    "after": 450000,
+    "fields": {
+      "16": 450000,
+      "32": 450000,
+      "7": "Északi és déli teljes magasságú grafikás frontok és pántok",
+      "22": "Korábbi370000+80000 előirányzat a déli négy hosszú front merevítésére/pántolására; gyártói árajánlat szükséges",
+      "26": "Észak6 és dél4 folytonos magas front; délen hosszú fekete fogantyú; eredeti grafika helyett R06 próbaváltozat",
+      "40": "R06/drawings/R06_valtozott_szerkezetek.pdf"
+    }
+  },
+  {
+    "id": "KI-011",
+    "reason": "F274 beton helyett F243 finom erezetű kődekor.150000Ft csomagkeret nem változik; széles lapra külön ajánlat.",
+    "before": 150000,
+    "after": 150000,
+    "fields": {
+      "9": "EGGER F243 ST76 / 4100×920×38",
+      "11": "1460×620 +1600×620 +900×620; 4100×920 nyerslapból",
+      "13": "Világosszürke Candela márvány dekor, laminált forgácslap; nem valódi kő",
+      "22": "96750Ft széles lap jelzett kereskedői ár +53250Ft szabás/él/kivágás előirányzat; széles SKU véglegesítendő",
+      "10": "https://www.okftfaaruhaz.hu/ML-EGGER-F243-ST76-4100x600x38mm-munkalap",
+      "26": "Képi kőhatás közelítése lamináttal; élek és ismétlődés látszhat. 600mm lap NEM elegendő620mm mélységre."
+    }
+  },
+  {
+    "id": "KI-012",
+    "reason": "Konyha minden nézetében egységes kődekor; költség változatlan.",
+    "before": 100000,
+    "after": 100000,
+    "fields": {
+      "9": "EGGER F243 ST76 hátfal",
+      "22": "4100×640×8 jelzett59445Ft +40555Ft szabás/ragasztás/él előirányzat. Nem dupla munkadíj a KI-014-gyel; ajánlatban bontandó",
+      "26": "Azonos dekor az összes konyhanézetben; mosható hátfal, főzőlap gyártói távolságával"
+    }
+  },
+  {
+    "id": "KI-036",
+    "reason": "Pontos SKU megerősítve; új méretezett forma a régi dobozproxy helyett.",
+    "before": 800000,
+    "after": 800000,
+    "fields": {
+      "23": "2026-10-27",
+      "22": "Westwing HU pontos SKU JSON-LD:800000Ft; HU szállítás visszaigazolása nincs",
+      "41": "R06_Lennon_*",
+      "43": "Gyártói2380×1800×680; fotó/méret alapján felépített forma, nem gyári3D",
+      "26": "Alacsony, széles karú jobb sarokkanapé; a célkép szövete és párnázottsága eltérhet."
+    }
+  },
+  {
+    "id": "KI-028",
+    "reason": "Valódi lábszerkezetet mutató modell.",
+    "before": 259990,
+    "after": 259990,
+    "fields": {
+      "23": "2026-10-27",
+      "22": "Westwing HU SKU160cm259990Ft",
+      "41": "R06_Toni*",
+      "26": "160×90 ovális tölgy asztal, két hajlított laplábbal; nem a renderben esetenként megjelenő központi tömb."
+    }
+  },
+  {
+    "id": "KI-029",
+    "reason": "Hajlított kőris háttámla, világosszürke zsenília és fekete acélláb a képeken is.",
+    "before": 451080,
+    "after": 451080,
+    "fields": {
+      "41": "R06_Eamy_*",
+      "43": "Gyártói55×53×75cm, ülés46cm; fotó alapján görbített háttámla rekonstrukció"
+    }
+  },
+  {
+    "id": "KI-109",
+    "reason": "A tényleges760mm Somar forma követése.",
+    "before": 260000,
+    "after": 260000,
+    "fields": {
+      "41": "R06_Somar_*",
+      "43": "Ø760×360mm búra, E27; fotó alapján rekonstruált bordás forma",
+      "26": "A gyári Somar laposabb búra, mint a konyhai render felfújt gömbje; a render igazodjon a gyárihoz."
+    }
+  },
+  {
+    "id": "KI-076",
+    "reason": "Vendégszobai éjjeli a munkaszék kihúzási sávjából az ágy fejrészéhez kerül.",
+    "before": 35000,
+    "after": 35000,
+    "fields": {
+      "31": "R06: változatlan350×350×450 test; új helyX14025,Y5920mm. Fiók/ajtó mozgás részletesen ellenőrzendő."
+    }
+  },
+  {
+    "id": "KI-091",
+    "reason": "Az örökölt, zuhanytálcán keresztbe álló üveg helyett a tálca éléhez igazított tervváltozat.",
+    "before": 180000,
+    "after": 180000,
+    "fields": {
+      "31": "R06: északi zuhanytálca déli élén keleti1000mm fixüveg,780mm névleges belépő. Kiviteli helyszíni vízzárás/üvegméret szakági jóváhagyásra vár."
+    }
+  }
+]

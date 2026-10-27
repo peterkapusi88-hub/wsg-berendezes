@@ -1,0 +1,180 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "url": "https://www.egloshop.hu/85264-eglo-rondo-asztali-lampa",
+    "offers": {
+      "@type": "Offer",
+      "category": "Beltéri lámpa",
+      "url": "https://www.egloshop.hu/85264-eglo-rondo-asztali-lampa",
+      "inventoryLevel": 359,
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "priceCurrency": "HUF",
+      "price": "10990",
+      "validFrom": "2026-10-27",
+      "priceValidUntil": "2027-10-27"
+    },
+    "image": [
+      "https://www.egloshop.hu/img/82036/85264/0x0,r,1793054788/85264.jpg"
+    ],
+    "sku": "85264",
+    "productId": "85264",
+    "description": "85264 EGLO RONDO asztali lámpa",
+    "brand": {
+      "@type": "Brand",
+      "name": "EGLO"
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "EGLO"
+    },
+    "mpn": "85264",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Fényerő szabályozható-e",
+        "value": "fényforrás nem tartozék"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Kapcsoló / adapter",
+        "value": "zsinórkapcsoló"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Foglalat, Fényforrás",
+        "value": "E27 1X60W"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Fényforrás",
+        "value": "nem tartozék"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "IP védettség (pm)",
+        "value": "IP20"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Világítótest színe",
+        "value": "fehér"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Világítótest anyaga",
+        "value": "műanyag"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Búra, ernyő színe",
+        "value": "fehér"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Búra, ernyő anyaga",
+        "value": "opál üveg"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Magasság",
+        "value": "200  mm"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Átmérő (mm)",
+        "value": "200  mm"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Magasság",
+        "value": "200  mm"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Termék súlya",
+        "value": "0,954  kg"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Csomag mérete mm-ben (HxSZxM)",
+        "value": "236 x 224 x 229"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "EAN-kód",
+        "value": "9002759852641"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Hálózati feszültség",
+        "value": "230-240V,50/60Hz"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Üzemi feszültség",
+        "value": "230-240V,50/60Hz"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Érintésvédelmi osztály",
+        "value": "II."
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Helyiség",
+        "value": "Folyosó"
+      }
+    ],
+    "name": "85264 EGLO RONDO asztali lámpa"
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Főoldal",
+        "item": "https://www.egloshop.hu/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Beltéri lámpa",
+        "item": "https://www.egloshop.hu/kategoriak/belteri-lampa"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "url": "https://www.egloshop.hu/",
+    "name": "EGLO SHOP in SHOP partnerek webáruháza",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.egloshop.hu/shop_search.php?search={search_term}",
+      "query-input": "required name=search_term"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "name": "EGLO Lux Kft.",
+    "legalName": "EGLO Lux Kft.",
+    "url": "https://www.egloshop.hu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Pallag utca 41.",
+      "addressLocality": "Dunakeszi",
+      "postalCode": "2120",
+      "addressCountry": "HU"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+36306299515",
+      "email": "shopinfo@eglo.com"
+    }
+  }
+]

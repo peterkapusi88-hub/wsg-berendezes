@@ -1,0 +1,13 @@
+00:04.309  blend            | Read blend: "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R06/blender/A902_Kyoto_Ink_R06.blend"
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r06_finish_model.py:6: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  S.use_nodes=False
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r06_finish_model.py:7: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  S.world=bpy.data.worlds.new('R06 neutral proof world');S.world.use_nodes=True;S.world.node_tree.nodes.get('Background').inputs[0].default_value=(.5,.5,.5,1);S.world.node_tree.nodes.get('Background').inputs[1].default_value=.7
+00:10.910  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R06/blender/Lennon_R06_shape_control.png'
+00:15.375  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R06/blender/W01_R06_colour_proof.png'
+Info: No new files have been packed
+Info: Saved as "A902_Kyoto_Ink_R06.blend"
+R06_REOPEN_VERIFIED 231 12
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

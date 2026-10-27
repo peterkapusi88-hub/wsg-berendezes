@@ -1,0 +1,12 @@
+00:01.150  blend            | Read blend: "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R05/blender/A902_Kyoto_Ink_R05.blend"
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r06_blender.py:7: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;b=m.node_tree.nodes.get('Principled BSDF');b.inputs['Base Color'].default_value=(*c,1);b.inputs['Roughness'].default_value=rough;return m
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r06_blender.py:135: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  S.world.use_nodes=True;S.world.node_tree.nodes.get('Background').inputs[0].default_value=(.6,.6,.6,1);S.world.node_tree.nodes.get('Background').inputs[1].default_value=.8
+00:18.347  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R06/blender/Lennon_R06_shape_control.png'
+Info: No new files have been packed
+Info: Saved as "A902_Kyoto_Ink_R06.blend"
+R06_SAVED 192 asset parts 8 checks
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

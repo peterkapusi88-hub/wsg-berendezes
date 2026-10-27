@@ -1,0 +1,26 @@
+KYOTO INK — V16 / Room05.3 guest bed and wardrobe — KI-R06 CONDITIONAL DESIGN
+Room: 05.3. Exact camera ID: KI_R10. Do not rename another perspective to this camera.
+Open R06/blender/A902_Kyoto_Ink_R06.blend; expected SHA256 a77e71d86ddaeb38cb5f273c50d8bf67636b3597f2759c86855eb893d150a6c3. Use the camera transform from the manifest, verify it against actual photographs when photo matching is claimed. Render a new native R06 control first; an old CP3/R05 image is context only.
+The seven new target images govern appearance, never wall dimensions. Keep architecture, window divisions, thresholds, terrace levels, greenery and service access from the locked geometry. Never enlarge a room to fit a target image.
+VISIBLE PRODUCT SCHEDULE:
+KI-070: NORDLI 180×200 fehér ágykeret; SKU 203.498.53; dimensions 1800×2020×300 mm; alaprajzon2020×1800 mm; Inherited conditional asset; inspect actual model before final claim
+KI-071: Matrac; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+KI-072: Gardrób korpusz és belső; SKU UNKNOWN; dimensions W53-01: 1800×450×2840 mm; Inherited conditional asset; inspect actual model before final claim
+KI-073: Gardrób front és szerelés; SKU UNKNOWN; dimensions W53-01: 1800×450×2840 mm; Inherited conditional asset; inspect actual model before final claim
+KI-074: TROTTEN kőris hatású/fehér; SKU 196.219.19; dimensions 1200×700×750 mm; Inherited conditional asset; inspect actual model before final claim
+KI-075: FLINTAN bézs karfa nélkül; SKU 704.922.02; dimensions 710×710×max1140 mm; Inherited conditional asset; inspect actual model before final claim
+KI-076: Éjjeli és kisebb tároló; SKU UNKNOWN; dimensions NT-76: 350×350×450 mm; Inherited conditional asset; inspect actual model before final claim
+KI-077: Függöny, sín, varrás és rögzítés; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+KI-078: Ágynemű, párna, paplan és ágytakaró; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+KI-079: Szőnyeg; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+KI-080: Keretelt saját tusgrafika és rögzítés; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+KI-081: Mennyezeti és munkafény Hue izzóval; SKU UNKNOWN; dimensions UNKNOWN – felmérés/gyári adat kell; Inherited conditional asset; inspect actual model before final claim
+CUSTOM STRUCTURES: [{"id": "W53-01", "size_mm": [1800, 450, 2840], "cost": ["KI-072", "KI-073"], "materials": ["MAT-10", "MAT-03"], "position_m": [10.9, 4.15, 0]}, {"id": "NT-76", "size_mm": [350, 350, 450], "cost": ["KI-076"], "materials": ["MAT-10", "MAT-02"], "position_m": [13.1, 6.13, 0]}]. Follow the existing interiors plus R06 seven-sheet revision. Preserve all drawer, rail and lift capacity. Full-height master fronts: north6, south4; no invented horizontal seam. Dark media tower remains on the dining end,700mm, followed by4×650mm panels. Lower cabinet3300mm. Keep the three actual proposed light-profile locations; no painted glow.
+MATERIALS: graphite matt fronts; warm chalk wardrobe fronts; F243 ST76 laminated38mm stone-effect kitchen top, not thin natural stone. Exact selected taupe Lennon fabric and Eamy ash/grey chenille/black steel photo references govern; do not beautify to a different product. Somar is760×360mm. Rondo85264 is200mm with a white base. No alternate premium product may appear unless its full project cost is updated.
+ART: use R06/artwork/INK-W01,INK-W02,INK-WN,INK-WS masks and corresponding SVG masters on the specified panels. They are new reference-based redraw proofs, not recovered originals or approved print files. Keep panel gaps, switches and service openings. Branch art INK-B62 is a conditional waterproof alternative; never place towels/bench inside the shower to mimic T07.
+FUNCTION: kitchen840mm closed aisle, no passage with dishwasher open.05.3bed retains180cm width and moves100mm south; desk chair moves150mm north,600mm withdrawal gives150mm nominal separation, not a route. Master BED-01 lift-bed is a proposal pending hardware and swept-volume approval. Shower glass is1000mm along the north tray's south edge, with780mm nominal entry; no false site validation.
+ATTACHMENTS IN ORDER:
+1. R06/drawings/R06_valtozott_szerkezetek.pdf — R06 changes override affected R05 exterior/front/bed/shower decisions
+2. R04/drawings/W53-01_01.pdf — Unchanged underlying interior/assembly drawing; R06 amendments take precedence
+3. R04/drawings/NT-76_01.pdf — Unchanged underlying interior/assembly drawing; R06 amendments take precedence
+OUTPUT: A902_V16_KI-R06_CONDITIONAL.png. Label CONDITIONAL DESIGN. Check silhouette, SKU, dimensions, finish, graphic placement and repeated furniture across views. Stop on geometry/product mismatch; do not silently fix with generative editing. No bulk generation is authorized.

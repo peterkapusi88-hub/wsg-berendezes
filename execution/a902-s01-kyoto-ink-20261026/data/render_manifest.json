@@ -14,7 +14,8 @@
     "image_generation_commit": "UNKNOWN: PNG generation not proven by prompt commit",
     "visually_opened": true,
     "project_path": "targets/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
-    "image_id": "A902_S01_KyotoInk_Cam_12__V33_C_v1"
+    "image_id": "A902_S01_KyotoInk_Cam_12__V33_C_v1",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
   },
   {
     "camera": "02",
@@ -31,7 +32,8 @@
     "image_generation_commit": "UNKNOWN: PNG generation not proven by prompt commit",
     "visually_opened": true,
     "project_path": "targets/A902_S01_KyotoInk_Cam_02__V33_C_v1.png",
-    "image_id": "A902_S01_KyotoInk_Cam_02__V33_C_v1"
+    "image_id": "A902_S01_KyotoInk_Cam_02__V33_C_v1",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
   },
   {
     "camera": "03",
@@ -39,7 +41,8 @@
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png",
     "sha256": "a64e9e53f4b33dccc8392c9237b921b796e90201dc742261a54b3383af7bb5dc",
     "project_path": "targets/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png",
-    "image_id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2"
+    "image_id": "A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
   },
   {
     "camera": "04",
@@ -47,7 +50,8 @@
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png",
     "sha256": "0f0448d6fef5e7edac3470b473c23988749230c8259ac039b020de3fc41b8a7a",
     "project_path": "targets/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png",
-    "image_id": "A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1"
+    "image_id": "A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
   },
   {
     "camera": "10",
@@ -55,7 +59,8 @@
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1.png",
     "sha256": "93cb9107715eeba498d190a7f54c2ec157cf13acaffe21e93d3e9ddc9fba66b7",
     "project_path": "targets/A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1.png",
-    "image_id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1"
+    "image_id": "A902_S01_KyotoInk_4_furdo-06-2_Cam_10_A__ASTRA_V3_1__v1",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
   },
   {
     "camera": "11",
@@ -63,6 +68,77 @@
     "path": "/Users/peterkapusi/Downloads/WSG_ASTRA_V3_1_RENDEREK/pilot_S01/images/A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2.png",
     "sha256": "c7b68bc26d6a10ccf1f707c7750f321b6765f5cb22dad2dbb93ea9fbfbcc22df",
     "project_path": "targets/A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2.png",
-    "image_id": "A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2"
+    "image_id": "A902_S01_KyotoInk_3_master_Cam_11_A__ASTRA_V3_1__v2",
+    "R06_status": "Korábbi cél; a hét R06 célkép által lefedett nézetekben háttérreferencia, más helyiségekben korábbi kiválasztás marad."
+  },
+  {
+    "id": "T01",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-c7f18105-32b6-45e3-b28b-ec579aaeb6cd.png",
+    "path": "R06/targets/T01_W01_nappali.png",
+    "sha256": "de778754cfcf852acf2507311f038b84064668ab7fb550ef4eb2c36361796042",
+    "role": "W01_nappali",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T02",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-b27cc8b3-6f76-4ea4-9ad2-56f8d093b4e6.png",
+    "path": "R06/targets/T02_W02_etkezo.png",
+    "sha256": "5b9b514ef2f3df96100a610c5cae36fbe2cc46acfe42c10bb3d3a1925c3c7652",
+    "role": "W02_etkezo",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T03",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-a7e55c05-4dd4-4cea-a60a-37328b94fae1.png",
+    "path": "R06/targets/T03_Konyha.png",
+    "sha256": "592d8bc12b1b7877e25410383877cb3081c0c6edbc02fa74e481b1ecdcd43dfe",
+    "role": "Konyha",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T04",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-680898b7-c424-42e9-9626-52557716e5c8.png",
+    "path": "R06/targets/T04_Master_eszak.png",
+    "sha256": "0e8341df64a6216421466b2a7e26256e1430f87caf7dff8fcfb2c4765f5a7c98",
+    "role": "Master_eszak",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T05",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-5ebd7e5b-997c-4066-bfeb-1ad717d68182.png",
+    "path": "R06/targets/T05_Master_del.png",
+    "sha256": "1dd492eaedef45c8f5fdb8ca005e412aa9f53413805851f37aeab3c395f6f941",
+    "role": "Master_del",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T06",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-6f2de90f-88cc-4716-9f75-3907eb032397.png",
+    "path": "R06/targets/T06_Furdo_mosdo.png",
+    "sha256": "fe4c1331caaeb5946f272a9fa2ed5dcfb5103035f727fef606fc0b3af19c3793",
+    "role": "Furdo_mosdo",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
+  },
+  {
+    "id": "T07",
+    "source": "/var/folders/89/glygsq9s4l59bmz5l2dlsc5r0000gn/T/codex-clipboard-e3a90aa9-70a5-49a6-8166-7a69d8c123c3.png",
+    "path": "R06/targets/T07_Furdo_WC.png",
+    "sha256": "6b8402cd99da225ca1a1c24b937cec4f0d1f0b88b1db026af27f48c53b0b7322",
+    "role": "Furdo_WC",
+    "authority": "User attached target; image geometry is not dimensional proof",
+    "source_prompt_commit": "UNKNOWN — supplied screenshot; no proven source prompt commit",
+    "R06_status": "CURRENT USER APPEARANCE TARGET; not geometry evidence"
   }
 ]

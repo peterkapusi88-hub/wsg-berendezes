@@ -1,0 +1,14 @@
+KI-R06 FUNCTIONAL CONTROL
+{
+  "id": "F07_closed",
+  "unit": "ENT-01",
+  "state": "closed",
+  "camera_id": "CP3_F07",
+  "prompt_path": "R05/render_handoff/prompts/F07_closed_KI_R05_EN.txt",
+  "prompt_sha256": "744b2e1e053c4bcf4294b5d8496e7d25574cc9111119e6c93d568f56d3d64c27",
+  "release": "CONDITIONAL; supplier motion unavailable for opening proof",
+  "revision": "KI-R06",
+  "blender_file": "R06/blender/A902_Kyoto_Ink_R06.blend",
+  "status": "R06 closed/open state must be run; older picture is not a fresh PASS"
+}
+Use actual R06 geometry. Show dimensions and motion envelopes. No generative image editing; report FAIL/OPEN honestly. Use R06/blender/checks.json for the already executed selective tests.

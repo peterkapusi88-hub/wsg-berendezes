@@ -1,0 +1,92 @@
+[
+  {
+    "test": "R06_Lennon nominal mesh envelope",
+    "actual_m": [
+      1.8000001907348633,
+      2.380000114440918,
+      0.6400000005960464
+    ],
+    "expected_m": [
+      1.8,
+      2.38,
+      0.64
+    ],
+    "result": "PASS",
+    "scope": "nominal mesh only; cushion compression and manufacture tolerances excluded"
+  },
+  {
+    "test": "R06_Toni160_oval_top nominal mesh envelope",
+    "actual_m": [
+      0.8999996185302734,
+      1.6000003814697266,
+      0.02499997615814209
+    ],
+    "expected_m": [
+      0.9,
+      1.6,
+      0.025
+    ],
+    "result": "PASS",
+    "scope": "nominal mesh only; cushion compression and manufacture tolerances excluded"
+  },
+  {
+    "test": "Kitchen closed aisle",
+    "actual_mm": 840,
+    "result": "CONDITIONAL",
+    "reason": "Open 600mm dishwasher leaves240mm: no through circulation; side loading only."
+  },
+  {
+    "test": "05.3 chair withdrawn600mm versus bed",
+    "actual_mm": 150,
+    "result": "PASS_LIMITED",
+    "reason": "Bed north5.95; chair rear working6.70 minus.60=6.10. Gap is not a walking route."
+  },
+  {
+    "test": "Master bed drawers versus nightstands",
+    "result": "HORIZONTAL_CONFLICT_REMOVED_LIFT_MOTION_OPEN",
+    "reason": "One common frame for the180cm single mattress; paired lift hardware and forward motion clear of headboard require manufacturer approval."
+  },
+  {
+    "test": "06.2 shower glass",
+    "result": "PROPOSED_CORRECTION",
+    "reason": "1000mm east fixed pane parallel north tray edge, nominal780mm entry; waterproofing and exact tray/door/site survey pending."
+  },
+  {
+    "test": "T07 branch wall/hooks",
+    "result": "FAIL_TARGET_GEOMETRY",
+    "reason": "Target dry wall overlaps north shower area in source geometry. Waterproof art possible; hooks/bench placement not accepted there."
+  },
+  {
+    "test": "All apartment clearance and manufacturing release",
+    "result": "OPEN",
+    "reason": "Selective checks do not certify all door/lift/drawer motion, dimensions or installation."
+  },
+  {
+    "test": "REOPENED mesh05.3 chair600mm withdrawal versus bed",
+    "actual_mm": 150.0,
+    "result": "PASS_LIMITED",
+    "source_objects": [
+      "KI_KI-070",
+      "KI_KI-075"
+    ],
+    "scope": "AABB clearance only; no human walking path claim"
+  },
+  {
+    "test": "05.3 entry sampled door leaf sweep",
+    "result": "PASS_LIMITED",
+    "hits": [],
+    "scope": "1degree/30radial samples with10mm buffer; handles and actual hinges not measured"
+  },
+  {
+    "test": "06.2 bath entry sampled door leaf sweep",
+    "result": "PASS_LIMITED",
+    "hits": [],
+    "scope": "1degree/30radial samples with10mm buffer; handles and actual hinges not measured"
+  },
+  {
+    "test": "05.3 terrace sampled door leaf sweep",
+    "result": "PASS_LIMITED",
+    "hits": [],
+    "scope": "1degree/30radial samples with10mm buffer; handles and actual hinges not measured"
+  }
+]
