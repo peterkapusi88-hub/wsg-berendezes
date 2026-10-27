@@ -1,3 +1,7 @@
+## R05 — aktuális ár-, anyag- és render-egyeztetés (2026-10-27)
+
+Belépő: [R05/OLVASD_EL_R05.txt](R05/OLVASD_EL_R05.txt). Élő Excel: **23 912 890 Ft** fő / **23 659 890 Ft** takarékos összehasonlítás.18M cél,2M érintetlen tartalék.71A3 aktuális rajzlap összeállítva,14oldalas anyag/RFQcsomag,5oldalas tulajdonosi PDF, külön újranyitott Blender-modell és49nézeti/funkcionális prompt. **Feltételes árazási és egyeztetési kiadás, nem kész megvalósítás vagy gyártási jóváhagyás.**
+
 ## R04 — legújabb rajzi és tárolási felülvizsgálat (2026-10-27)
 
 Az új kiadás belépőpontja: [R04/OLVASD_EL_R04.txt](R04/OLVASD_EL_R04.txt). Ötlapos tulajdonosi használati útmutató, 93 A3 rajz-/specifikációs lap, szerkeszthető SVG-k és külön Blender-munkamásolat. **Feltételes felülvizsgálat, nem lezárt megvalósítás vagy gyártási jóváhagyás.** Az élő Excel CP3 főösszege változatlan; az R04 költsége külön, még ki nem választott forgatókönyv.

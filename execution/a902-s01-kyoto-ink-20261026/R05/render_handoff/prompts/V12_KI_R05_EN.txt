@@ -1,0 +1,99 @@
+KYOTO INK A902 — V12: North master wardrobe
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera KI_R06; position [1.5, 7.400000095367432, 1.5499999523162842]; rotation Euler radians [1.5308177471160889, -0.0, 0.0]; lens 18.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V12_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 faf33668319a6325c3f49b6f5e202f63efb586ea32d5d225004ba6026a61524c
+
+2. targets/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png — Accepted aesthetic reference; not dimension evidence; SHA256 0f0448d6fef5e7edac3470b473c23988749230c8259ac039b020de3fc41b8a7a
+
+3. R05/drawings/WN-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 968e950894e220a0263269d405bfea5d209b37927d6ae46621f1967c8bbcfa3c
+
+4. R04/drawings/WS-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 0d6c3c31ec6274f535751ef95f897370860f68c8bb5b53ffdc0e6784c68cf857
+
+5. R04/drawings/HB-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 033ed21461eb577a7fdb73fa9f56351481ae312d12aaef591a8a61e3ae69e89a
+
+6. R04/drawings/NT-L_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 e17cae5e4d9919374d9ad7fe11d949ddc44377c342255580fdd32d2a46a98c8d
+
+7. R04/drawings/NT-R_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 c6a6e47255521d4a8bb90c1569ab9dd1690b9186ea27aa2c99391021646a5c75
+
+8. CP3/evidence/product_photos/KI-043.jpg — Exact product-page photo; verify selected variant, never an exact3Dmesh substitute; SHA256 9666446a9166382a3f9cb676b86ac042f799ae0170b75ecc1bf02db826817ac7
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+WN-01: 2920×600×2840mm; worldposition [0.05, 8.3, 0]; modules [973, 974, 973]; front modules [486.5, 486.5, 487, 487, 486.5, 486.5]; cost lines KI-048,KI-050,KI-051,KI-052; finishes MAT-10,MAT-03.
+
+WS-01: 2380×480×2840mm; worldposition [0.02, 3.47, 0]; modules [595, 595, 595, 595]; front modules [595, 595, 595, 595]; cost lines KI-049,KI-050,KI-051,KI-052; finishes MAT-10,MAT-03.
+
+HB-01: 2700×60×1500mm; worldposition [3.49, 5.05, 0]; modules [1800, 900]; front modules [1800, 900]; cost lines KI-046,KI-047,KI-118; finishes MAT-08.
+
+NT-L: 300×420×450mm; worldposition [3.07, 5.12, 0]; modules [300]; front modules [300]; cost lines KI-053; finishes MAT-10,MAT-02.
+
+NT-R: 300×420×450mm; worldposition [3.07, 7.35, 0]; modules [300]; front modules [300]; cost lines KI-053; finishes MAT-10,MAT-02.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-043: SKU 203.498.53, size külső180×202×30; exact product source https://www.ikea.com/hu/hu/p/nordli-agykeret-taroloval-feher-20349853/. Quantity 1; current row amount 189900HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-044: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 260000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-045: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 20000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-046: SKU UNKNOWN, size HB-01: 2700×60×1500 mm; exact product source UNKNOWN. Quantity 1; current row amount 300000HUF; előzetes becslés. Custom structure IDs ['HB-01']. Mesh status: custom drawing/model conditional.
+
+KI-047: SKU UNKNOWN, size HB-01: 2700×60×1500 mm; exact product source UNKNOWN. Quantity 1; current row amount 55000HUF; előzetes becslés. Custom structure IDs ['HB-01']. Mesh status: custom drawing/model conditional.
+
+KI-050: SKU UNKNOWN, size WN-01: 2920×600×2840 mm; WS-01: 2380×480×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 806000HUF; előzetes becslés. Custom structure IDs ['WN-01', 'WS-01']. Mesh status: custom drawing/model conditional.
+
+KI-051: SKU UNKNOWN, size WN-01: 2920×600×2840 mm; WS-01: 2380×480×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 370000HUF; előzetes becslés. Custom structure IDs ['WN-01', 'WS-01']. Mesh status: custom drawing/model conditional.
+
+KI-052: SKU UNKNOWN, size WN-01: 2920×600×2840 mm; WS-01: 2380×480×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 160000HUF; előzetes becslés. Custom structure IDs ['WN-01', 'WS-01']. Mesh status: custom drawing/model conditional.
+
+KI-053: SKU UNKNOWN, size NT-L: 300×420×450 mm; NT-R: 300×420×450 mm; exact product source UNKNOWN. Quantity 1; current row amount 120000HUF; előzetes becslés. Custom structure IDs ['NT-L', 'NT-R']. Mesh status: custom drawing/model conditional.
+
+KI-054: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 130000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-055: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 50000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-056: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 80000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-057: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-116: SKU 4115931P6; EAN8718696176436, size Ø38,1×8,4; exact product source https://www.alkonylampa.hu/enrave-hue-m-led-mennyezeti-lampa-feher-philips-87. Quantity 1; current row amount 86190HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-118: SKU UNKNOWN, size HB-01: 2700×60×1500 mm; exact product source UNKNOWN. Quantity 1; current row amount 70000HUF; előzetes becslés. Custom structure IDs ['HB-01']. Mesh status: custom drawing/model conditional.
+
+KI-119: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 137000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-130: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 90000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+FINISH SPECIFICATIONS:
+
+MAT-02: Graphite fronts/tables: EGGER U961 PM Graphite Grey candidate,19mm matt MDF; real matching edges. Do not portray polished stone.
+
+MAT-03: Full-height wardrobe fronts: bespoke19mm painted MDF matched to a physical U702 sample. Nominal2837mm front requires a raw board longer than2800mm; no invented horizontal joint. Original ink artwork pending.
+
+MAT-08: Headboard/pad: separate taupe and graphite upholstered fields,18mm carrier+about30mm foam within60mm overall. Actual fabric SKU and sample pending; do not erase the asymmetry.
+
+MAT-10: Dry cabinet interior:18mm light melamine board,8mm back, matching sealed edges. Preserve the compartment schedule and all drawers/lifts.
+
+LIGHT SCENE: daylight / task lighting as R02 scene schedule. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+WN03-module/6front proposal has8drawers/2lifts;3.350m rods,436.914L drawer boxes,2.036m²shelves. Shelf reduction1.356m²vs prior proposal needs owner review. Master bed-side-drawer/nightstand collision remains unresolved.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V12_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

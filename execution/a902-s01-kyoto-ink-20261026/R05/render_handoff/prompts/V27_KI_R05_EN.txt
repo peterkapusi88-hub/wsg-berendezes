@@ -1,0 +1,47 @@
+KYOTO INK A902 — V27: AT8-01 reserve pantry and freezer
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera CP3_Cam_AT8; position [24.899999618530273, 3.299999952316284, 2.4000000953674316]; rotation Euler radians [1.1065751314163208, 7.266991453036553e-09, 2.598402976989746]; lens 32.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V27_AT8.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 f97773ab73b5b3b87a767a89bbfec4a91b7b05bceee20bedd66dca6c3ea83dce
+
+2. CP3/evidence/product_photos/KI-CP3-S01.jpg — Exact product-page photo; verify selected variant, never an exact3Dmesh substitute; SHA256 e281e2da80ffa8eb016526ec078aa52783871d21cb485952bf694b29cf323f6a
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-CP3-S01: SKU 504.199.72, size 800×380×1600; 4 polc; 25 kg/polc; exact product source https://www.ikea.com/hu/hu/p/jonaxel-polcos-elem-feher-50419972/. Quantity 2; current row amount 46000HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-CP3-F01: SKU FNd 4625 / GN46Vd25 egyeztetendő, size 597×675×1455; 199 l; 37 dB; exact product source https://www.liebherr.com/hu-hu/p/fnd-4625-3121280. Quantity 1; current row amount 289990HUF; gyártói tájékoztató ár, SKU egyeztetésre vár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-CP3-F02: SKU AJÁNLATRA VÁR, size None; exact product source custom structure / unresolved supplier. Quantity 1; current row amount 45000HUF; becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-CP3-S03: SKU AJÁNLATRA VÁR, size None; exact product source custom structure / unresolved supplier. Quantity 1; current row amount 90000HUF; becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-CP3-S04: SKU AJÁNLATRA VÁR, size None; exact product source custom structure / unresolved supplier. Quantity 21; current row amount 84000HUF; becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+FINISH SPECIFICATIONS:
+
+STORAGE PLAN: R1(50,50)800×380;R2(1720,50)800×380;freezer(1000,50)597×675×1455. Room2580×1870planning only; known pillar retained.
+
+LIGHT SCENE: Neutral diagnostic illumination; no verified installed storage luminaire. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+AT8area4.57m²is known;2580×1870planning rectangle is not surveyed. TwoJONAXEL racks, freezer and12exampleboxcapacity. Exact freezer variant/ventilation and door remain open.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V27_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

@@ -1,0 +1,45 @@
+KYOTO INK A902 — V20: Hallway
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera KI_R14; position [2.700000047683716, 3.450000047683716, 1.5499999523162842]; rotation Euler radians [1.5083776712417603, -2.699792389648792e-08, -1.5707963705062866]; lens 20.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V20_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 5f0444f9dc72f49d647f663e4af3cf1c0564a6d26e12924ffb185a61184671b1
+
+2. R04/drawings/ART-07_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 995c76c3a7594bf20afa9f5f1ca5836cdfac6e0442cfb00316d305028ba2c28a
+
+3. R04/drawings/HALL-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 d0b362628ccab07739628f686033e236483e601d9aa75e7b666710dd03dfb19c
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+ART-07: 1530×18×2880mm; worldposition [3.67, 3.96, 0]; modules [1530]; front modules [1530]; cost lines KI-124,KI-127,KI-128; finishes MAT-06.
+
+HALL-01: 600×150×180mm; worldposition [4.2, 3.78, 0.8]; modules [600]; front modules [600]; cost lines KI-086; finishes MAT-02.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-086: SKU UNKNOWN, size HALL-01: 600×150×180 mm; exact product source UNKNOWN. Quantity 1; current row amount 40000HUF; előzetes becslés. Custom structure IDs ['HALL-01']. Mesh status: custom drawing/model conditional.
+
+FINISH SPECIFICATIONS:
+
+MAT-02: Graphite fronts/tables: EGGER U961 PM Graphite Grey candidate,19mm matt MDF; real matching edges. Do not portray polished stone.
+
+MAT-06: Quiet adjacent wall: fine-textured greige paint matched physically to W02. Preserve corners and service access.
+
+LIGHT SCENE: daylight / task lighting as R02 scene schedule. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V20_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

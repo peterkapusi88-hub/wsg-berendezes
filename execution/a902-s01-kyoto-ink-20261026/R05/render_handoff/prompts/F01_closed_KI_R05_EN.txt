@@ -1,0 +1,10 @@
+A902 KYOTO INK / F01_closed / KI-R05 / WN-01
+Use R05/blender/A902_Kyoto_Ink_R05.blend (SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320).
+Camera CP3_F01, location [1.5099999904632568, 4.128571510314941, 1.6699999570846558], rotation [1.5109363794326782, -0.0, 0.0], orthographic scale 5.395999908447266.
+Requested state: closed. First create a native R05 control. The old CP3 state image is archival, not current evidence.
+Structure size 2920×600×2840mm. Front modules [486.5, 486.5, 487, 487, 486.5, 486.5]; internal modules [973, 974, 973]. Material IDs ['MAT-10', 'MAT-03']. Cost lines ['KI-048', 'KI-050', 'KI-051', 'KI-052'].
+Attach in order: current R05 native control once generated; current 01 and02 drawings from R05/data/drawing_index.json; R05/data/design_R05.json compartment entry; R05/data/materials.json; accepted room image from data/render_manifest.json. For W01 use the selected VISUAL_RESCUE override.
+Do not invent contents or hidden capacity. Keep actual shelf, rod and drawer coordinates in the compartment JSON. Illustrative clothing/bins must fit their declared planning dimensions and must not be counted twice.
+Closed means actual doors present. Cutaway means removed fronts, clearly labelled; it is not an opening test. Open means real hinge/runner/lift motion based on supplier geometry. If motion data is missing, stop the open-state release and report the missing specification. Never replace a lift sweep with a simple rotating rectangle and call it validated.
+Manufacturer hinge/fixing loads, exact drawer clearances, garment clearance, bath trap exclusion and surveyed wall dimensions remain open. No manufacturing approval.
+Save A902_KyotoInk_F01_closed_KI-R05_CONDITIONAL.png plus audit with model/camera/input hashes. No batch generation without review of the first trial.

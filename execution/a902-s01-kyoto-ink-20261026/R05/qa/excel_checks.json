@@ -1,0 +1,34 @@
+{
+  "expected": {
+    "revision": "KI-R05",
+    "main": 23912890,
+    "economy": 23659890,
+    "saving": 253000,
+    "low": 20414580,
+    "high": 32032116,
+    "budget": 18000000,
+    "gap": 5912890,
+    "economy_gap": 5659890,
+    "reserve": 2000000,
+    "reserve_used": 0,
+    "verified": 2332340,
+    "quotes": 0,
+    "rows": 174,
+    "r04": 23791890,
+    "CP3": 23253840,
+    "status": "A teljes R04 javaslat és W02 javítás árazási munkaváltozata. Nem költési/gyártási jóváhagyás.",
+    "estimated": 21580550
+  },
+  "actual": [
+    23912890,
+    23659890,
+    5912890,
+    5659890,
+    2332340,
+    0,
+    21580550
+  ],
+  "perturbation": 7000,
+  "source_byte_comparison": true,
+  "calculation_engine": "artifact-tool; desktop Excel not run"
+}

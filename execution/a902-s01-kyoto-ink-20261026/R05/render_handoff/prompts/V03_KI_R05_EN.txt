@@ -1,0 +1,209 @@
+KYOTO INK A902 — V03: Dining toward kitchen
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera Cam_03_Etkezo_konyha; position [9.449999809265137, 7.550000190734863, 1.5]; rotation Euler radians [1.5707999467849731, 0.0, -3.1415998935699463]; lens 20.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V03_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 50cb3aae08cef748746427b7edd918258196c8e54f7b4258d490533ddcf859ca
+
+2. targets/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png — Accepted aesthetic reference; not dimension evidence; SHA256 a64e9e53f4b33dccc8392c9237b921b796e90201dc742261a54b3383af7bb5dc
+
+3. R04/drawings/K-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 61ab2cfc9f08d2482106c86ab47cb414bfc5877de0195220d00d48dbc2f0d89e
+
+4. R04/drawings/K-02_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 e311ea055ed5cbc27f03a7255e8bc08a5404eb656d7d0c9e54c1f806ff3ab689
+
+5. R04/drawings/K-03_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 7a1f6a50ede7672467c6b579b6bbd4972f48fe3c78b30498e40d31a1c939b9d9
+
+6. R04/drawings/K-04_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 458127460f8a5e3fc84ebda194bc0c793f0b032e1e0706b8f6cb41b4daf8fd39
+
+7. R04/drawings/K-05_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 9468fce9afd293ac019e177053d90249debacbf673139a3cfbd16981062aa689
+
+8. R04/drawings/K-06_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 2ab0af4b5ba0335b9a19bdef70d976db163cc1ccd143f26741f9d7e6a186bc45
+
+9. R04/drawings/K-07_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 e62aa860e0f214799ff0645622012933fb17c8e249f0e8c18d742174a8517cfb
+
+10. R04/drawings/K-08_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 659ab45505312fd263ab53f0d7cad9f93dacc84a0b29fd53a60ae97efa96039f
+
+11. R05/drawings/TV-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 0198e6f81e38fa813ea69d5b21a4d1165a1d330ad79811fa6cbd523aa0b1d44f
+
+12. R05/drawings/TV-02_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 c2ea7335ba60bd05308f3b5bda1e881ab76a15e01889df32a0ba32017d76a3be
+
+13. R04/drawings/TV-03_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 6a581c668f7e8dee0fbce0d079143eefd38f989fbc3d29b211ae83e73d753e40
+
+14. R05/drawings/ART-02_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 bc7ea945208eb0f4f00b8acb815d7a129ee55bedb4750e8ea32cdf09e237db3a
+
+15. R04/drawings/CF-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 5a523754a9bfb192b67ff56188b04bb6ef7e87925660592a6626e9ce63ffdced
+
+16. R04/drawings/ST-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 9f6c06ad0fc5a75a053d78ce8378c2345e993f8edd0db4186bff0602c7e508f5
+
+17. R04/drawings/K-09_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 ab83755c8aee65ffd0dc93e561f4929cafe0b6d065be13e29d71663872ff40dc
+
+18. CP3/evidence/product_photos/KI-025.jpg — Exact product-page photo; verify selected variant, never an exact3Dmesh substitute; SHA256 28b07249e0ef900c2c9ae93c1ff354919e476aa6b1d07ae3f41e02d79041d414
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+K-01: 600×600×2400mm; worldposition [9.15, 1.37, 0]; modules [600]; front modules [600]; cost lines KI-008,KI-009,KI-010,KI-013,KI-015; finishes MAT-10,MAT-01.
+
+K-02: 600×620×2400mm; worldposition [9.93, 3.43, 0]; modules [600]; front modules [600]; cost lines KI-008,KI-009,KI-010,KI-013,KI-015; finishes MAT-10,MAT-01.
+
+K-03: 800×620×900mm; worldposition [9.93, 2.57, 0]; modules [800]; front modules [800]; cost lines KI-006,KI-009,KI-010,KI-015; finishes MAT-10,MAT-02.
+
+K-04: 600×620×900mm; worldposition [9.93, 1.97, 0]; modules [600]; front modules [600]; cost lines KI-006,KI-009,KI-013,KI-015; finishes MAT-02.
+
+K-05: 600×620×900mm; worldposition [8.47, 2.42, 0]; modules [600]; front modules [600]; cost lines KI-006,KI-009,KI-010,KI-015; finishes MAT-10,MAT-02.
+
+K-06: 1000×620×900mm; worldposition [8.47, 3.02, 0]; modules [500, 500]; front modules [500, 500]; cost lines KI-006,KI-009,KI-010,KI-015; finishes MAT-10,MAT-02.
+
+K-07: 1400×350×900mm; worldposition [10.18, 1.97, 1.45]; modules [600, 800]; front modules [600, 800]; cost lines KI-007,KI-009,KI-010,KI-015; finishes MAT-10,MAT-01.
+
+K-08: 1460×620×38mm; worldposition [9.93, 1.97, 0.9]; modules [1460]; front modules [1460]; cost lines KI-011,KI-012,KI-014; finishes MAT-07.
+
+TV-01: 700×400×2330mm; worldposition [3.71, 4.7, 0.55]; modules [350, 350]; front modules [700]; cost lines KI-030,KI-032; finishes MAT-10,MAT-04.
+
+TV-02: 3300×400×400mm; worldposition [3.71, 4.7, 0.15]; modules [700, 650, 650, 650, 650]; front modules [700, 650, 650, 650, 650]; cost lines KI-031,KI-032; finishes MAT-10,MAT-02.
+
+TV-03: 2600×36×2330mm; worldposition [3.674, 5.4, 0.55]; modules [650, 650, 650, 650]; front modules [650, 650, 650, 650]; cost lines KI-030,KI-032,KI-034,KI-114; finishes MAT-04.
+
+ART-02: 2100×36×2880mm; worldposition [5.2, 4.052, 0]; modules [1050, 1050]; front modules [1050, 1050]; cost lines KI-123,KI-131,KI-132,KI-133; finishes MAT-05.
+
+CF-01: 700×450×350mm; worldposition [4.25, 6.4, 0]; modules [700]; front modules [700]; cost lines KI-037; finishes MAT-02.
+
+ST-01: 300×300×450mm; worldposition [6.0, 4.42, 0]; modules [300]; front modules [300]; cost lines KI-038; finishes MAT-02.
+
+K-09: 1600×620×38mm; worldposition [8.47, 2.42, 0.9]; modules [1600]; front modules [1600]; cost lines KI-011,KI-012,KI-014; finishes MAT-07.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-006: SKU UNKNOWN, size K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 180000HUF; előzetes becslés. Custom structure IDs ['K-03', 'K-04', 'K-05', 'K-06']. Mesh status: custom drawing/model conditional.
+
+KI-007: SKU UNKNOWN, size K-07: 1400×350×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 120000HUF; előzetes becslés. Custom structure IDs ['K-07']. Mesh status: custom drawing/model conditional.
+
+KI-008: SKU UNKNOWN, size K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; exact product source UNKNOWN. Quantity 1; current row amount 170000HUF; előzetes becslés. Custom structure IDs ['K-01', 'K-02']. Mesh status: custom drawing/model conditional.
+
+KI-009: SKU UNKNOWN, size K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 230000HUF; előzetes becslés. Custom structure IDs ['K-01', 'K-02', 'K-03', 'K-04', 'K-05', 'K-06', 'K-07']. Mesh status: custom drawing/model conditional.
+
+KI-010: SKU UNKNOWN, size K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 180000HUF; előzetes becslés. Custom structure IDs ['K-01', 'K-02', 'K-03', 'K-05', 'K-06', 'K-07']. Mesh status: custom drawing/model conditional.
+
+KI-011: SKU UNKNOWN, size K-08: 1460×620×38 mm; K-09: 1600×620×38 mm; exact product source UNKNOWN. Quantity 1; current row amount 150000HUF; előzetes becslés. Custom structure IDs ['K-08', 'K-09']. Mesh status: custom drawing/model conditional.
+
+KI-012: SKU UNKNOWN, size K-08: 1460×620×38 mm; K-09: 1600×620×38 mm; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs ['K-08', 'K-09']. Mesh status: custom drawing/model conditional.
+
+KI-013: SKU UNKNOWN, size K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-04: 600×620×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 80000HUF; előzetes becslés. Custom structure IDs ['K-01', 'K-02', 'K-04']. Mesh status: custom drawing/model conditional.
+
+KI-014: SKU UNKNOWN, size K-08: 1460×620×38 mm; K-09: 1600×620×38 mm; exact product source UNKNOWN. Quantity 1; current row amount 60000HUF; előzetes becslés. Custom structure IDs ['K-08', 'K-09']. Mesh status: custom drawing/model conditional.
+
+KI-015: SKU UNKNOWN, size K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm; exact product source UNKNOWN. Quantity 1; current row amount 180000HUF; előzetes becslés. Custom structure IDs ['K-01', 'K-02', 'K-03', 'K-04', 'K-05', 'K-06', 'K-07']. Mesh status: custom drawing/model conditional.
+
+KI-016: SKU HBA534EB3, size 594×548×595 mm; niche 560–568×550×585–595; exact product source https://media3.bsh-group.com/Documents/specsheet/en-MT/HBA534EB3.pdf. Quantity 1; current row amount 180000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-017: SKU PUE611BB5E, size 592×522×51 mm; kivágás 560×490–500; exact product source https://media3.bosch-home.com/Documents/specsheet/en-GB/PUE611BB5E.pdf. Quantity 1; current row amount 120000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-018: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 140000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-019: SKU KIN86VSE0, size 541×548×1772 mm; exact product source https://www.bosch-home.fr/fr/product/le-froid/refrigerateurs-combines/combines-avec-congelateurs-en-bas-encastrable/KIN86VSE0. Quantity 1; current row amount 380000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-020: SKU SMV4EVX00E, size 598×550×815 mm; nyitva teljes mélység1150 mm; exact product source https://www.bosch-home.co.uk/supportdetail/product/SMV4EVX00E/69. Quantity 1; current row amount 220000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-021: SKU BFL524MB0, size 594×317×382 mm; niche 560–568×300×362–365; exact product source https://media3.bosch-home.com/Documents/specsheet/sk-SK/BFL524MB0.pdf. Quantity 1; current row amount 145000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-022: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 50000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-023: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 50000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-024: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 110000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-025: SKU 506.034.99, size H360; 35 mm furat; max 50 mm munkalap; exact product source https://www.ikea.com/hu/hu/p/aelmaren-konyhai-keverocsap-kihuzhato-veggel-fekete-50603499/. Quantity 1; current row amount 42990HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-026: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 40000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-027: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 60000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-028: SKU DEQ19WES60483-225182, size 160×90×75; lap 2,5; exact product source https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html?simple=DEQ19WES60483-225182. Quantity 1; current row amount 259990HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-029: SKU C0100003HE12, size 55×53×75; ülésmagasság46; ±2cm; exact product source https://kavehome.com/hu/en/p/eamy-chair-light-grey-chenille-and-ash-wood-veneer-with-a-natural-finish-and-black-metal. Quantity 6; current row amount 451080HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-030: SKU UNKNOWN, size TV-01: 700×400×2330 mm; TV-03: 2600×36×2330 mm; exact product source UNKNOWN. Quantity 1; current row amount 690000HUF; előzetes becslés. Custom structure IDs ['TV-01', 'TV-03']. Mesh status: custom drawing/model conditional.
+
+KI-031: SKU UNKNOWN, size TV-02: 3300×400×400 mm; exact product source UNKNOWN. Quantity 1; current row amount 320000HUF; előzetes becslés. Custom structure IDs ['TV-02']. Mesh status: custom drawing/model conditional.
+
+KI-032: SKU UNKNOWN, size TV-01: 700×400×2330 mm; TV-02: 3300×400×400 mm; TV-03: 2600×36×2330 mm; exact product source UNKNOWN. Quantity 1; current row amount 120000HUF; előzetes becslés. Custom structure IDs ['TV-01', 'TV-02', 'TV-03']. Mesh status: custom drawing/model conditional.
+
+KI-033: SKU QE65Q7FAAUXXH, size 1452.9×60.6×834 mm; VESA400×300;16.7kg; exact product source https://www.samsung.com/hu/tvs/qled-tv/q7f-65-inch-qled-4k-smart-tv-qe65q7faauxxh/. Quantity 1; current row amount 250000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-034: SKU UNKNOWN, size TV-03: 2600×36×2330 mm; exact product source UNKNOWN. Quantity 1; current row amount 30000HUF; előzetes becslés. Custom structure IDs ['TV-03']. Mesh status: custom drawing/model conditional.
+
+KI-035: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 40000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-036: SKU DEQ21WES12329-168260, size 238×180×68; ülésmagasság 43; exact product source https://www.westwing.hu/lennon-modularis-sarokkanape-hu-21wes12329.html?simple=DEQ21WES12329-168260. Quantity 1; current row amount 800000HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-037: SKU UNKNOWN, size CF-01: 700×450×350 mm; exact product source UNKNOWN. Quantity 1; current row amount 105000HUF; előzetes becslés. Custom structure IDs ['CF-01']. Mesh status: custom drawing/model conditional.
+
+KI-038: SKU UNKNOWN, size ST-01: 300×300×450 mm; exact product source UNKNOWN. Quantity 1; current row amount 55000HUF; előzetes becslés. Custom structure IDs ['ST-01']. Mesh status: custom drawing/model conditional.
+
+KI-039: SKU X0100244JJ12, size 200×300×1; ±5cm; exact product source https://kavehome.com/hu/en/p/nifelia-beige-wool-jacquard-rug-200-x-300-cm. Quantity 1; current row amount 200000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-040: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 160000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-041: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 65000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-042: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 55000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-109: SKU L00148FA05, size 76×76×300 teljes; búratest magassága külön igazolandó; exact product source https://kavehome.com/hu/en/p/somar-ceiling-lamp-made-with-synthetic-fibres-and-steel-rods-o76cm. Quantity 1; current row amount 260000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-111: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 85000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-112: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 65000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-113: SKU 4115931P6; EAN8718696176436, size Ø38,1×8,4; exact product source https://www.alkonylampa.hu/enrave-hue-m-led-mennyezeti-lampa-feher-philips-87. Quantity 1; current row amount 86190HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-114: SKU Loox5 LED2074 833.74.308; GL-C-009P jelölt, size Felső2,60m + függőleges2,33m + alsó3,30m; összes8,23m,10m rendelés; exact product source https://files.hafele.co.uk/catalogfiles/www/25-1010.pdf. Quantity 1; current row amount 150000HUF; előzetes becslés. Custom structure IDs ['TV-03']. Mesh status: custom drawing/model conditional.
+
+KI-115: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 65000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-131: SKU UNKNOWN, size ART-02: 2100×36×2880 mm; exact product source UNKNOWN. Quantity 1; current row amount 60000HUF; előzetes becslés. Custom structure IDs ['ART-02']. Mesh status: custom drawing/model conditional.
+
+KI-132: SKU Bely+Print1040.01, size 2100×2880 mm nettó; 2×1050 mm mező, nyomdai szabás egyeztetendő; exact product source https://vescom.com/en/products/belyprint. Quantity 8; current row amount 224000HUF; előzetes becslés. Custom structure IDs ['ART-02']. Mesh status: custom drawing/model conditional.
+
+KI-133: SKU UNKNOWN, size ART-02: 2100×36×2880 mm; exact product source UNKNOWN. Quantity 1; current row amount 177000HUF; előzetes becslés. Custom structure IDs ['ART-02']. Mesh status: custom drawing/model conditional.
+
+KI-134: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 40000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-135: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 50000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-157: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 150000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+FINISH SPECIFICATIONS:
+
+MAT-01: Light fronts: EGGER U702 PM Cashmere Grey candidate,19mm lacquered MDF only where sheet size permits. Edge and physical colour sample pending.
+
+MAT-02: Graphite fronts/tables: EGGER U961 PM Graphite Grey candidate,19mm matt MDF; real matching edges. Do not portray polished stone.
+
+MAT-04: W01: light greige mineral-effect TV panels and a DARK graphite tower, with the exact accepted rescue brushstroke composition. Sample-made thin texture, not deep relief. Original printable ink master is absent; do not substitute a fresh graphic.
+
+MAT-05: W02: Vescom Bely+Print1040.01 printable woven-look vinyl candidate;1340mm roll/1330mm printable. Two1050mm fields over2100×2880mm nominal area. No decorative picture frame. It is not linen or sculpted relief.
+
+MAT-07: Countertop: EGGER F274 ST9 Light Concrete decor candidate,38mm laminate worktop appearance. No thin marble upgrade. Exact local board SKU and cutouts pending.
+
+MAT-10: Dry cabinet interior:18mm light melamine board,8mm back, matching sealed edges. Preserve the compartment schedule and all drawers/lifts.
+
+LIGHT SCENE: daylight / task lighting as R02 scene schedule. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+W01 tower must be at worldY4.70–5.40m, away from the terrace end. PanelsY5.40–8.00m; TVshifted+700mm with panel. Local render is not photometric proof.
+
+Kitchen aisle840mm and open dishwasher passage remain unresolved. Exact Lennon/Eamy/Somar meshes and ink master pending.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V03_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

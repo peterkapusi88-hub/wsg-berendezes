@@ -1,0 +1,101 @@
+{
+  "revision": "KI-R05",
+  "element": "KI-114",
+  "strip": {
+    "manufacturer": "Häfele",
+    "sku": "833.74.308",
+    "model": "Loox5 LED2074",
+    "voltage": 12,
+    "w_per_m": 9.6,
+    "kelvin": 2700,
+    "cri": ">90",
+    "max_recommended_segment_m": 4,
+    "source": "https://files.hafele.co.uk/catalogfiles/www/25-1010.pdf"
+  },
+  "segments": [
+    {
+      "id": "W01-TOP",
+      "m": 2.6,
+      "supply": "PS-A",
+      "watts": 24.96
+    },
+    {
+      "id": "W01-VERT",
+      "m": 2.33,
+      "supply": "PS-A",
+      "watts": 22.368
+    },
+    {
+      "id": "W01-LOW",
+      "m": 3.3,
+      "supply": "PS-B",
+      "watts": 31.68
+    }
+  ],
+  "supplies": [
+    {
+      "id": "PS-A",
+      "voltage": 12,
+      "rating_w": 60,
+      "load_w": 47.328,
+      "load_percent": 78.88,
+      "sku": "supplier selection pending"
+    },
+    {
+      "id": "PS-B",
+      "voltage": 12,
+      "rating_w": 60,
+      "load_w": 31.68,
+      "load_percent": 52.8,
+      "sku": "supplier selection pending"
+    }
+  ],
+  "controller": {
+    "candidate": "Gledopto GL-C-009P (full size, not Mini)",
+    "each_channel_a_max": 5,
+    "source": "https://gledopto.com/h-pd-134.html",
+    "gate": "Native Hue bridge pairing, dimming and power recovery test required. No automatic Hue certification claim."
+  },
+  "budget_breakdown": [
+    [
+      "10m LED purchased",
+      10,
+      4500,
+      45000
+    ],
+    [
+      "10m profile+diffuser purchased",
+      10,
+      2500,
+      25000
+    ],
+    [
+      "60W12V power supplies",
+      2,
+      12000,
+      24000
+    ],
+    [
+      "controllers",
+      2,
+      12000,
+      24000
+    ],
+    [
+      "connectors/cable allowance",
+      1,
+      12000,
+      12000
+    ],
+    [
+      "local installation",
+      1,
+      20000,
+      20000
+    ]
+  ],
+  "expected": 150000,
+  "cost_status": "Every rate is an allowance, not a supplier quotation; retained KI-114 total",
+  "service": "Two ventilated accessible AV compartments; low-voltage cable routes behind removable panels; mains separation and protective design by electrician",
+  "open": "Cutting pitch/profile depth/hotspot test; actual230Vpoint; cable sizing/drop; connectors/power supply approval; Hue bridge compatibility"
+}

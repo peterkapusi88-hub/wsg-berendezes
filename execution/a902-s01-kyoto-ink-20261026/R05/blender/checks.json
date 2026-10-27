@@ -1,0 +1,39 @@
+[
+  {
+    "test": "TV lower end front aligns with tower in world Y",
+    "result": "PASS",
+    "error_mm": 0.0,
+    "scope": "nominal front edges only"
+  },
+  {
+    "test": "TV lower five modules overall width",
+    "result": "PASS",
+    "scope": "front gaps excluded; design width3300mm"
+  },
+  {
+    "test": "W02 print field count",
+    "result": "PASS",
+    "count": 2,
+    "scope": "two1050mm design modules; gap/bleed final with printer"
+  },
+  {
+    "test": "W01 artwork and texture",
+    "result": "OPEN",
+    "reason": "No original master artwork. Display colors are not measured. No exact-appearance claim."
+  },
+  {
+    "test": "Ready-made product identity",
+    "result": "OPEN",
+    "reason": "SKU tags do not turn existing simplified boxes into exact manufacturer models."
+  },
+  {
+    "test": "WN high door / lift motion",
+    "result": "OPEN",
+    "reason": "2837mm fronts require long raw board, approved hinges/straightening and lift motion data."
+  },
+  {
+    "test": "Inherited functional conflicts",
+    "result": "OPEN",
+    "reason": "840mm kitchen aisle; dishwasher blocks passage;05.3chair/bed; master side drawers/nightstands; store door/bike path; threshold discrepancy. No overall apartment PASS."
+  }
+]

@@ -1,0 +1,45 @@
+KYOTO INK A902 — V18: Bathroom06.1 bath and laundry
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera KI_R12; position [4.550000190734863, 2.450000047683716, 1.5499999523162842]; rotation Euler radians [1.3002467155456543, -5.976654193773356e-08, -3.0860941410064697]; lens 16.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V18_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 be4e83c6b2f4c070465d34ab3863255dbcd59ff366ac2e2ddfc76cb8996620cc
+
+2. R04/drawings/B61-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 a4e84651ecdb1fdbed7f153a2716f08e9c68e352a79fbfbde518ca1ca84bfbe5
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+B61-01: 600×450×350mm; worldposition [5.0, 1.25, 0.45]; modules [600]; front modules [600]; cost lines KI-098; finishes MAT-10,MAT-09.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-098: SKU UNKNOWN, size B61-01: 600×450×350 mm; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs ['B61-01']. Mesh status: custom drawing/model conditional.
+
+KI-099: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 45000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-100: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 40000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+FINISH SPECIFICATIONS:
+
+MAT-09: Bathroom:19mm moisture-resistant MDF with sealed edges/holes and matt graphite coating; removable trap drawer. Coating/basin/trap exact selections pending.
+
+MAT-10: Dry cabinet interior:18mm light melamine board,8mm back, matching sealed edges. Preserve the compartment schedule and all drawers/lifts.
+
+LIGHT SCENE: artificial only3000K. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V18_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

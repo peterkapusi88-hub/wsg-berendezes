@@ -1,0 +1,79 @@
+KYOTO INK A902 — V15: Room05.2 wardrobe and desk
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera KI_R09; position [3.25, 0.550000011920929, 1.5499999523162842]; rotation Euler radians [1.5237370729446411, -4.1862513455726e-08, 0.7409828901290894]; lens 18.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V15_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 3bddbdc3182d704144046512e8b9d89fa885a93f4e6fd81ed5903a6b41ca4b3e
+
+2. R04/drawings/W52-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 271531091a0f171bdd56ef8b5828e10dee4578dcab4372a4770bb5acb949180e
+
+3. R04/drawings/DS52_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 8421328d15213ab44392672ab53de1b204921c6ae0cdd046d9eeb50d942a360d
+
+4. R04/drawings/NT-64_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 09ce5b37ad6c5f67fe0af46b831ba0fe003cdbb4212a8e4a56167ce5ee365853
+
+5. CP3/evidence/product_photos/KI-058.jpg — Exact product-page photo; verify selected variant, never an exact3Dmesh substitute; SHA256 5b1d1f532c9a311896568baffe1a7a539bed3f304dd3e9fff68f02af3c8492bb
+
+6. CP3/evidence/product_photos/KI-063.jpg — Exact product-page photo; verify selected variant, never an exact3Dmesh substitute; SHA256 c310ed1ed21949ec50be42e5ba11725c381579b24706439f4447f0807512e02b
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+W52-01: 2380×600×2840mm; worldposition [0.02, 2.72, 0]; modules [595, 595, 595, 595]; front modules [595, 595, 595, 595]; cost lines KI-060,KI-061; finishes MAT-10,MAT-03.
+
+DS52: 1000×450×750mm; worldposition [0.05, 0.35, 0]; modules [1000]; front modules [1000]; cost lines KI-062; finishes MAT-02.
+
+NT-64: 350×350×450mm; worldposition [0.95, 1.8, 0]; modules [350]; front modules [350]; cost lines KI-064; finishes MAT-10,MAT-02.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-058: SKU 405.712.48, size 1640×2060×850 mm; exact product source https://www.ikea.com/hu/hu/p/slattum-karpitozott-agykeret-vissle-soetetszuerke-40571248/. Quantity 1; current row amount 54990HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-059: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-060: SKU UNKNOWN, size W52-01: 2380×600×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 515000HUF; előzetes becslés. Custom structure IDs ['W52-01']. Mesh status: custom drawing/model conditional.
+
+KI-061: SKU UNKNOWN, size W52-01: 2380×600×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs ['W52-01']. Mesh status: custom drawing/model conditional.
+
+KI-062: SKU UNKNOWN, size DS52: 1000×450×750 mm; exact product source UNKNOWN. Quantity 1; current row amount 65000HUF; előzetes becslés. Custom structure IDs ['DS52']. Mesh status: custom drawing/model conditional.
+
+KI-063: SKU 704.922.02, size 710×710×max1140 mm; exact product source https://www.ikea.com/hu/hu/p/flintan-irodai-szek-bezs-70492202/. Quantity 1; current row amount 24990HUF; ellenőrzött webshopár. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-064: SKU UNKNOWN, size NT-64: 350×350×450 mm; exact product source UNKNOWN. Quantity 1; current row amount 35000HUF; előzetes becslés. Custom structure IDs ['NT-64']. Mesh status: custom drawing/model conditional.
+
+KI-065: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 100000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-066: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 50000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-067: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 35000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-068: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 30000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-069: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 70000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+FINISH SPECIFICATIONS:
+
+MAT-02: Graphite fronts/tables: EGGER U961 PM Graphite Grey candidate,19mm matt MDF; real matching edges. Do not portray polished stone.
+
+MAT-03: Full-height wardrobe fronts: bespoke19mm painted MDF matched to a physical U702 sample. Nominal2837mm front requires a raw board longer than2800mm; no invented horizontal joint. Original ink artwork pending.
+
+MAT-10: Dry cabinet interior:18mm light melamine board,8mm back, matching sealed edges. Preserve the compartment schedule and all drawers/lifts.
+
+LIGHT SCENE: daylight / task lighting as R02 scene schedule. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+05.2 remains wardrobe/child room;05.3guest/work. Do not shrink the bed or delete wardrobe capacity silently.05.3chair/bed clash still open.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V15_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

@@ -1,0 +1,782 @@
+[
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/OLVASD_EL_R05.txt",
+    "bytes": 4197,
+    "sha256": "b72a8ecdc60489e32bb7e3e4b4ac6a8c9da25bf5d9f6d00e9a8dbf11aa1619a4",
+    "git_sha": "627f1e4c4d634c62d9ed5e0e2c79b63044d20078"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/artwork/W01_R05_nyomdai_kiosztasi_sablon.svg",
+    "bytes": 517,
+    "sha256": "fe10fcd58421a2b37fdfec239d7833ebd05ee51638c5cd13b6ff32d67c964f67",
+    "git_sha": "6992e42b46834ca2b2d26dc62f5acb7c56f992d1"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/artwork/W02_R05_nyomdai_kiosztasi_sablon.svg",
+    "bytes": 440,
+    "sha256": "f3dc258cc9516b7438a5a4488611e55d978bd1c10503f883bcdf835255a1dff7",
+    "git_sha": "4fcdb6b5b4dfca6b4eabec64b5f87c45a2b2bb63"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/artwork/WN01_R05_nyomdai_kiosztasi_sablon.svg",
+    "bytes": 553,
+    "sha256": "049344a60620b3171d06032fcfd1bff616a67b4cea90a832cc9cae498045bda5",
+    "git_sha": "29ed359df1ec16dacfe0ad52989ed6c8bc9523e0"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/artwork/manifest.json",
+    "bytes": 730,
+    "sha256": "cb58d058c16b390e0ede44556638ebb8c046cb8b047556364a9e8664bb83d439",
+    "git_sha": "12a2ec47805564f905815d2d29715153bceed584"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/A902_Kyoto_Ink_R05.blend",
+    "bytes": 1382756,
+    "sha256": "0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320",
+    "git_sha": "aada152ec642a5590b4bdfb2d73e5c3cc868dfd3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/V01_R05_native_technical.png",
+    "bytes": 1412717,
+    "sha256": "c44bf92f5c43506971fda96712aa63d781d3cf65420d90dbc9b7cd1327f588ef",
+    "git_sha": "e050df28cf05635372478062b08b4fd86c84f585"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/W01_R05_front_control.png",
+    "bytes": 1195670,
+    "sha256": "07d31db869bf5d7f50102300a3bbb4694aba5895f21fff10624ddb089264cbda",
+    "git_sha": "50cfe66bcd17fa85967b6a356429e70441eb864e"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/checks.json",
+    "bytes": 1230,
+    "sha256": "78fe441a57c5aa63455d689353de220c1eb8819d3c05a023f8ac812e8693a1e5",
+    "git_sha": "54521222546fceb88016d5b87af6f4544bfcb886"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/object_register.json",
+    "bytes": 353126,
+    "sha256": "06f53d3fd56dada67a2327156b983478ae13f580b8af5490339a187169d8fa43",
+    "git_sha": "6167dbf93f0e600a925d3b16439e73b5eab9da02"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/source.json",
+    "bytes": 1429,
+    "sha256": "4fbd88196b335a6e25595a02635e76d59137fee03c74f416429ae07b271c61cc",
+    "git_sha": "eecaf301f95ed5cf6bb13f8201bb48ab0fab71ac"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/blender/unbound_objects.json",
+    "bytes": 1622,
+    "sha256": "e6b11cd023dbe64ec5f39acdb5d100e8b2682ceea68a054adf95feb668056952",
+    "git_sha": "ed583c3eeae28a88aaacd40a05eabb9675fedf5d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/W01_light_circuit.json",
+    "bytes": 2222,
+    "sha256": "d9a21c74a77af5a4205054583d870b606437f9aedb1f03d365e8b4b7a0f5487a",
+    "git_sha": "10c610fbc723bd7fabcf55922851e531b1a5b10c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/change_log.json",
+    "bytes": 1878,
+    "sha256": "0d407b50a2e5ad8b0f20ae0aeaae51a7c252081dc934e332286f51c5ac0ce2bf",
+    "git_sha": "cc718f529f4bfd4a6a8d4b0898deccabdd46e9b8"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/cost_R05.json",
+    "bytes": 475,
+    "sha256": "78c5ab1abb6404f32a37a52f516af306e199755f02c9dcaab5dcadce6fa68701",
+    "git_sha": "7ba56869b6b22a9bd3ccec1513a7984fc6648cdf"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/design_R05.json",
+    "bytes": 181131,
+    "sha256": "395701d36ca33eb28662559402d917effd73e26ce7fa602af5324168d688b4eb",
+    "git_sha": "1bc20aa6654e9ebde8c9c747c64b5f5667815e09"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/drawing_index.json",
+    "bytes": 14101,
+    "sha256": "18d2bbfcfc73f1be360eaf8db964edb0aa99bb1209095048323609aa89c30299",
+    "git_sha": "d0cc3f2e7851dfc107d5795f5705ce9ee8fe832a"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/economy_options.json",
+    "bytes": 1214,
+    "sha256": "1cd47c986dffe831a13fd04d16d10b38c1d63c6b24ee9211034a3b71e8c07f10",
+    "git_sha": "173884f1c86c6adbb130830acda57a823d94f472"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/element_drawing_model_view.csv",
+    "bytes": 40964,
+    "sha256": "d5318a9f6a8643f3f169fa1c2083f56b8a6620c7d935b0028474709c523062a5",
+    "git_sha": "f8bcca8a61d4996f182bb6237f032df9da6a56be"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/materials.json",
+    "bytes": 6807,
+    "sha256": "add03caea685311ef01159907b66ce63cf391a9856d524fb98459bfe8c50d0f9",
+    "git_sha": "79b5a03b1d2433c4971fd72ecf5629db7ce9265b"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/open_gates.json",
+    "bytes": 1708,
+    "sha256": "667a6636a4efca310bd41d01ca594151bb9c4cc43ed48298a83dd50a98816f2e",
+    "git_sha": "65190fd30cb732c1a591caa2568793e83b78ab0d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/register_patch.json",
+    "bytes": 13490,
+    "sha256": "9847853b7c43577bd0d9f1b13f4cf4b19d306fe5ee62de93dbdb84cf10843fe6",
+    "git_sha": "dde6cf43729ac3c8bf8c9456167acea0d6ed6dde"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/data/register_proposal.json",
+    "bytes": 272885,
+    "sha256": "66d6cf5111f61d7c7cb390e70c906a1d1daa5d4a56e0d0a8881a1244414d9f47",
+    "git_sha": "8b6a2d32aad421d094196196ce088a47bc097bab"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/A902_R05_aktualis_butorrajzok.pdf",
+    "bytes": 5667066,
+    "sha256": "375dc9d8d60f2483f7f729789301a965f96c1b0529c7b356d7351939b4326620",
+    "git_sha": "95e568dbb7fd8313d64dc3c5c21b662e2f4d14e4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/ART-02_01.pdf",
+    "bytes": 67799,
+    "sha256": "bc7ea945208eb0f4f00b8acb815d7a129ee55bedb4750e8ea32cdf09e237db3a",
+    "git_sha": "1e86d83924d7752456f92322df2c5935d7840c54"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/ART-02_01.svg",
+    "bytes": 22271,
+    "sha256": "c563cfdc9be5a54016381737391506500c4b740a05f2dae08e2cf604973d4b42",
+    "git_sha": "c87b07efc63f7ca254e322765ee13d681e2ca2e5"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/ART-02_02.pdf",
+    "bytes": 67979,
+    "sha256": "78169637681c70a354361ca234082722dc928ff5f5a55db0d0d3221b37185d0e",
+    "git_sha": "f8b975bfd3e3db534ac93848a5493541fcb85577"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/ART-02_02.svg",
+    "bytes": 9740,
+    "sha256": "5622c3f2ada2afcf10c0dab85ba18ee4cc91279f65f4dbedef2a57e1cd0e3361",
+    "git_sha": "299bafcdad83bd69a1748157c2558c3543b6c88c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/B62-01_01.pdf",
+    "bytes": 68876,
+    "sha256": "39d1f237f53dc1a8250da79d916fc5c81eb36b79b93ee3a55bcdf11289413192",
+    "git_sha": "f021c99d49366487680b531e3151c20e17240357"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/B62-01_01.svg",
+    "bytes": 40100,
+    "sha256": "626dfe3ae3f45a27450f920b68d8f7aa10853979b427e2e9d39e8a8a8ca1ae24",
+    "git_sha": "8ce3645c5b51936a807c5a53a693cc4a8fcc012d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/B62-01_02.pdf",
+    "bytes": 68909,
+    "sha256": "1bec13f06aba27978c4f02522387338448ba3c8c8eb29ea76b0c8654147d893f",
+    "git_sha": "66dbffe65e243d3bcd5c9670e7730c2d0af85308"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/B62-01_02.svg",
+    "bytes": 19289,
+    "sha256": "649ed243f8e239f340d21a962a745d524c98f2c3c03f7cfb2e9156bf63b21264",
+    "git_sha": "c40095352182e2737b692ca72fd43f43120dfccd"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/EL_W01_R05.pdf",
+    "bytes": 66455,
+    "sha256": "e9efc712df43996f1b172ef7399290c6ab12b95e7de4c815a447e68cd04b5f85",
+    "git_sha": "056c238ec34135fb44e248ad775b9d706c44c01b"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/EL_W01_R05.svg",
+    "bytes": 8342,
+    "sha256": "e18ff152a92ba36d8261e9b884c4e9ad53e971d726a23634002d56973aa5313d",
+    "git_sha": "4b95d69c913725407d100b5ea8faa8febac9aa98"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-01_01.pdf",
+    "bytes": 72471,
+    "sha256": "0198e6f81e38fa813ea69d5b21a4d1165a1d330ad79811fa6cbd523aa0b1d44f",
+    "git_sha": "59483fab458e944ce9f27789013618d9d1f1fcab"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-01_01.svg",
+    "bytes": 85042,
+    "sha256": "6f9b943f82a42c48009c35695de9fa380f8970d83d3566c7382d52de34d45a6a",
+    "git_sha": "303cf00ed77f52896afbe6ef833c322027fb3627"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-01_02.pdf",
+    "bytes": 69505,
+    "sha256": "c1dcff58a972ffc483382f3da55dd5eed4f776aa766664b369bf93e74e167761",
+    "git_sha": "741f577a630d545e74ef4ba5adcfc3e4d47c5e3f"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-01_02.svg",
+    "bytes": 21292,
+    "sha256": "ac82fddfcab74817aceb07ff55bb58a50890b1617cb8fa48405a2a9b2aa8c90a",
+    "git_sha": "bfa566d9a4267a7c4f8f56559e0c6fae4d815add"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-02_01.pdf",
+    "bytes": 71531,
+    "sha256": "c2ea7335ba60bd05308f3b5bda1e881ab76a15e01889df32a0ba32017d76a3be",
+    "git_sha": "1fcb0aa23560d57e53f89ea68df3df01cdcac589"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-02_01.svg",
+    "bytes": 63335,
+    "sha256": "37c937e73b595d0044a5ed3fb93228cb2e401a5f174109900a7ec6438c39bff6",
+    "git_sha": "66da8195eea0d2307ace5a7d6a3c0efa19da672c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-02_02.pdf",
+    "bytes": 68992,
+    "sha256": "7c4caef9f5e42b8a0d2c3c73aaea2d08bb3a22e609448d1ed2559a3e335d924e",
+    "git_sha": "ab9df1f1cb160c3d8eb5fbbd06a9cf91055d16ad"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/TV-02_02.svg",
+    "bytes": 22040,
+    "sha256": "e92c777e76114633be5289c5404275ee39f0179b98a958453cb52a8e08819659",
+    "git_sha": "35328d9c1d01a756b9e92c4a7df76e43ffb3158a"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/W01_R05_kompozicio.pdf",
+    "bytes": 878533,
+    "sha256": "2409bfd94daf2284fb23c0d34a46a4a67da28eadf8ccdfce66f083cb396745bc",
+    "git_sha": "0dbcfd887e52c643d35ed5cf3c2b38f73f55b648"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/W01_R05_kompozicio.svg",
+    "bytes": 2814608,
+    "sha256": "c9893b59c709faf13a8b4eddb39f8e6cdb26d55e6c65b5914ee1fd6822a061a8",
+    "git_sha": "da15e6ab081ccf5b4a47a61ec830bbcca4bba796"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/W02_R05_nyomat_es_reteg.pdf",
+    "bytes": 67877,
+    "sha256": "68fef22d5ea9e4eee4867871c0e49871e32cd871092f0ebd3f68ea199b320abd",
+    "git_sha": "79ecab2b9792a5c4d3a0e2f5b83866b65fa6a726"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/W02_R05_nyomat_es_reteg.svg",
+    "bytes": 11268,
+    "sha256": "1bbc870f75e3fd40fe1995b8313b87ecc6b4ecc5da45d3949834cccb081d65b0",
+    "git_sha": "47673bbfc8a0e5801261570245ea321fb9aed6f2"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/WN-01_01.pdf",
+    "bytes": 78032,
+    "sha256": "968e950894e220a0263269d405bfea5d209b37927d6ae46621f1967c8bbcfa3c",
+    "git_sha": "0ec8ad5cfea3021b35b6b70d8e328ce387710963"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/WN-01_01.svg",
+    "bytes": 129842,
+    "sha256": "937a6288cea947e180586af9e790e48215afe1173208edb4f860ea3a2961a598",
+    "git_sha": "bbe9cdf52e25ada1337d715229081eacb152f3ad"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/WN-01_02.pdf",
+    "bytes": 69679,
+    "sha256": "bd1f7a02df49da728e31b0804420a04621d7e46fdda3c6981aaf0bc122ea12c2",
+    "git_sha": "459d41a3340a368fe82e4c1ca8726afe0eb774a4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/drawings/WN-01_02.svg",
+    "bytes": 22252,
+    "sha256": "a1facc6c9577ddaad25b75768e9be750d811db0c07d720fba829c95cc6a0063a",
+    "git_sha": "983df967d6300d737e94b6ee4cfd43f6e34b4a71"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/evidence/forrasok_20261027.txt",
+    "bytes": 2403,
+    "sha256": "36a839f5052f9588463836bef263a5c4a152c4e457f44d54fcebd9645666546f",
+    "git_sha": "c27a872c442a7605f399e46e4c2756ba8bd730b3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/materials/A902_R05_anyag_es_ajanlatkeresi_csomag.pdf",
+    "bytes": 87964,
+    "sha256": "108a0ff6f5f7bb9c28dacfce4ba1ad22546e2f0f3bf55a1db19d13f65dee2203",
+    "git_sha": "550520dadbb134d8a2d14ed835ed3392b921c789"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/owner/A902_R05_tulajdonosi_utmutato_5oldal.pdf",
+    "bytes": 4430243,
+    "sha256": "4787d825ef5c443bdb7246956f308f895a85d79449296c65bc87968ab36003f3",
+    "git_sha": "bc75ffa48317e9499eef815c165b6a7555758190"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/ELLENORZESI_NYUGTA.json",
+    "bytes": 3696,
+    "sha256": "340bf6762d91c9446e2de3189177958be5ca4906a59e63b4bd133af426256a10",
+    "git_sha": "02959d10dc377304558fdf5371efce7a86f81791"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/blender_reopen.json",
+    "bytes": 976,
+    "sha256": "cac9f0a3a087ac94403ea1bab00f0ad40b35f8ccf9348c0ed22ef23c86813763",
+    "git_sha": "cb725fde4297b33575d079d73755c40f826bf001"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_after.png",
+    "bytes": 117429,
+    "sha256": "82f65760860b8853c6c97b65948bae5015a896283a0b3d9532983000fc5b8eae",
+    "git_sha": "2d742bb449adbe08358c8419fe56e750adfe8766"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_before.png",
+    "bytes": 117429,
+    "sha256": "82f65760860b8853c6c97b65948bae5015a896283a0b3d9532983000fc5b8eae",
+    "git_sha": "2d742bb449adbe08358c8419fe56e750adfe8766"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_capacity.png",
+    "bytes": 69405,
+    "sha256": "ec3829d8531d037eebba9c0ea13da51c2626e89e647054eb658f873ce714e2bf",
+    "git_sha": "de9926ee6fa0a60d3dd773c2d9b8ec7b4d7f0e0d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_changes.png",
+    "bytes": 50705,
+    "sha256": "ab6b9568cb38f5cefd24002a038e08746989fc011f4822c36860623f88b4b990",
+    "git_sha": "11cb6c99b931718bbbd2c46936b3b410c89be95c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_checks.json",
+    "bytes": 759,
+    "sha256": "b0d51c06f0e7536665a24b618a2318b52f576b3ab90aa7ed5a0bb28b3783286c",
+    "git_sha": "4fa329987089c331422e76a9cbe372ab1cce2730"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/excel_materials.png",
+    "bytes": 82387,
+    "sha256": "85a28f92c20938d259a1852e1f73d173ebb717d411ec62c3cac2013b931733fc",
+    "git_sha": "4b6792f36ab9c7a786610a692d56a4dfcbebeb50"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/formula_scan.txt",
+    "bytes": 60,
+    "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+    "git_sha": "fc088f9aa5ccad2bf68814b5d86b3db5f51076b1"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/history_reconciliation.json",
+    "bytes": 286,
+    "sha256": "4ba894b70bf92ec93f698784b8ce36f96229b7e53548516363a60c6bf6d4b508",
+    "git_sha": "8877b46b658cc24eb8070cf5caccf342e1aea3a3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/pdf_text_bounds.json",
+    "bytes": 475,
+    "sha256": "bc918a5677e13d867ee6a0cf1a9f2dc3919baadc21b1a416f145171ebcac2651",
+    "git_sha": "a39e5c518625f72a1fbf4b0711087c4ad29eb5ca"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/render_handoff_checks.json",
+    "bytes": 247,
+    "sha256": "d5338edbbfd0d9a85eecafb446a64a0643cba03a6d36d7920cd738156504e1ac",
+    "git_sha": "761a7b13168f334bb9143a229627c22f88eaa36d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/touched_cells.json",
+    "bytes": 47892,
+    "sha256": "7291c70863255de2e0ee50306b14f689a61e681ce165ef53ac45aa448246cccc",
+    "git_sha": "2ddf6486aa46b8df5c329c50f1617613a22adbfc"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/qa/workbook_preservation.json",
+    "bytes": 520,
+    "sha256": "e356dc96ea200fb5350c6c867d975dc73914272752e48910ca45f8a8a637615a",
+    "git_sha": "da0c40a7b4a59fda0732328a4f96c814b5d18ca3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/START_RENDER_OPERATOR_EN.txt",
+    "bytes": 2855,
+    "sha256": "5ab9680379227337f045225a8764d75ee878c139850f5f64501c619a4a5a965e",
+    "git_sha": "552c09dae31af187bdd1da0a20f63d07a4eaa2a4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/manifest_R05.json",
+    "bytes": 486208,
+    "sha256": "f8660dcc0cfdfaac8e36b878af0f8cb7da388c208690ac0ac3048084ef294d80",
+    "git_sha": "58bc25be6782f39d286a03b1d1aa861ed45d71b9"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F01_closed_KI_R05_EN.txt",
+    "bytes": 1834,
+    "sha256": "388b9c442596d119c15ad819e86c828b289e5351d5050afad3689c45bede5630",
+    "git_sha": "075b3255f9558bc2b5e7ae6dc3a24cdd789bbc61"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F01_cutaway_KI_R05_EN.txt",
+    "bytes": 1837,
+    "sha256": "ab332a6765011892146f082e4262989106ad7827afa6079cd4c9daf4806f2da8",
+    "git_sha": "490668ccd8609b6fefa78da0947a0df171629151"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F01_open_KI_R05_EN.txt",
+    "bytes": 1828,
+    "sha256": "e53f6d6e8254fef451fdc21e5070bf7af386db2401a460be944566f6b994982b",
+    "git_sha": "3a81925bbc67ff023248976b9f2604ff4482286d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F02_closed_KI_R05_EN.txt",
+    "bytes": 1854,
+    "sha256": "90229c768e113fefadec0dadec4002cb2452766dc5949c0771b1b288937ec144",
+    "git_sha": "4a038e04725c54bd497939e3e5faeb362a1aafb9"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F02_cutaway_KI_R05_EN.txt",
+    "bytes": 1857,
+    "sha256": "dad25fa18abac34be0c84ae28845ccbbbe31b27072bd9860c87e5fc9d360ef1f",
+    "git_sha": "fa3310d26b5dc67f5628a80a5f0ed396d7c5d403"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F02_open_KI_R05_EN.txt",
+    "bytes": 1848,
+    "sha256": "a2fd26ccbb86419cdd82721a82370db637505e11789b3710fcb1fdc73a539d68",
+    "git_sha": "dfbe40421d0c55bb5fc2db9f1652386f28cad3b8"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F03_closed_KI_R05_EN.txt",
+    "bytes": 1804,
+    "sha256": "a384fa7ee5b723bc297fabb36d5b6f2fcb5bdf561fd9997082d689a152f69794",
+    "git_sha": "b6c68e39920cbd9e1efd96988fa5cf3ad085699c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F03_cutaway_KI_R05_EN.txt",
+    "bytes": 1807,
+    "sha256": "87ecefba78c12c069b334f39917d37844707cad6a8ac62c6c4a9a75b7ca6b7cf",
+    "git_sha": "b27b3ef8a67c1274bd0e432e9d0d6e72ae856094"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F03_open_KI_R05_EN.txt",
+    "bytes": 1798,
+    "sha256": "fc619aa94d1aa16617c9c12c5561466f675a400f606f25362d07240013103cf5",
+    "git_sha": "cd80fe87b4bde57056e3b9da115f703980e9a263"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F04_closed_KI_R05_EN.txt",
+    "bytes": 1824,
+    "sha256": "0ff8e308e44e071240e1e3eaea2d4d7fcc202f8f185160688ff9394b31252e4f",
+    "git_sha": "e3bb30e14510085e1426e771e757096c3c968a74"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F04_cutaway_KI_R05_EN.txt",
+    "bytes": 1827,
+    "sha256": "4fb59d8ed17ec3136770382e49caa153250dcc744011860ede98862326dfac6d",
+    "git_sha": "31f78fd7acdd90658d12c3535eda3c925ccf3e29"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F04_open_KI_R05_EN.txt",
+    "bytes": 1818,
+    "sha256": "eb9e64aab3d1da9763db6ee6fc91a1665f6c82ef4c3b0c6c2fab80006aed558a",
+    "git_sha": "499905b22bbe15a192a90bc3e1ca15ee20482c4e"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F05_closed_KI_R05_EN.txt",
+    "bytes": 1832,
+    "sha256": "28d792e20cc36a59308324a5868f7deb39749b51bf429f9eb8ac5e20ccf404c0",
+    "git_sha": "0f42ea9c2025c7d0321387713ecde4203177a214"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F05_cutaway_KI_R05_EN.txt",
+    "bytes": 1835,
+    "sha256": "0c1ba8bacad9fa0c4d2cc55e2b40ae5e045886b748b49e106a39dd69367d673e",
+    "git_sha": "c73281991280a45cd2ba330441708c16c018082d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F05_open_KI_R05_EN.txt",
+    "bytes": 1826,
+    "sha256": "646e6c745a00adca9b2e8cf4f162da141574748e87bdbded7971492901df44ab",
+    "git_sha": "fd98f9f67d7e5f5e061f4497d34100e66971b803"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F06_closed_KI_R05_EN.txt",
+    "bytes": 1824,
+    "sha256": "6c5494aae794a5a7d676cf5d1d88fd6cc58080ecfb4131147970cc1ee5894f95",
+    "git_sha": "0d6eccb40a12ac1e706b1e10bba94289f74fe719"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F06_cutaway_KI_R05_EN.txt",
+    "bytes": 1827,
+    "sha256": "aa74390829e6b52fddbb29845648655c2091bc82cb5d563f67dc07a0bf112c90",
+    "git_sha": "08b90acaaf27157245023eab8cff7fd2ada8fc2d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F06_open_KI_R05_EN.txt",
+    "bytes": 1818,
+    "sha256": "7967479a85ca1a593dea65826aea2dfcefc199aa954b40bcbd2e9fb7c0031aec",
+    "git_sha": "2047d9b3835a703111602918fdb44c1675d762b6"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F07_closed_KI_R05_EN.txt",
+    "bytes": 1814,
+    "sha256": "744b2e1e053c4bcf4294b5d8496e7d25574cc9111119e6c93d568f56d3d64c27",
+    "git_sha": "cab5eb1acffd6005a59a6e3e43c3e1abb0927040"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F07_cutaway_KI_R05_EN.txt",
+    "bytes": 1817,
+    "sha256": "3335125aa60cf5f3091cfa260b8a8475b9815615059d939824455b0cee6e6fd1",
+    "git_sha": "79e3b92a8577021083b46c05f4e652bcf32c9918"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/F07_open_KI_R05_EN.txt",
+    "bytes": 1808,
+    "sha256": "89263d7b7b85251e5957fb42c1acdeae9b504790064b979d45cf99c9558c9225",
+    "git_sha": "5936f9276f572d62064ad40b5906a6fcd0533e5f"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V01_KI_R05_EN.txt",
+    "bytes": 22507,
+    "sha256": "85378a3e50a851faf3c15b56354b5a37febf920cf3b421cb4fb46a2a8468cb32",
+    "git_sha": "b36f49aba79d5db319b9f27b723bae8a2041724b"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V02_KI_R05_EN.txt",
+    "bytes": 22515,
+    "sha256": "69132e034a20f01294f47bdcce2b792e2b8b4699a9ae007bb331ce22edec120d",
+    "git_sha": "16c72b7fe54562acce19b2d5865dd515957de59e"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V03_KI_R05_EN.txt",
+    "bytes": 22495,
+    "sha256": "935f94eed42aac5579142b2780aead3cd91dcf3cbca027507b7e8fbf79e729ea",
+    "git_sha": "106123c8c2a228cf70f1fdeb598a4fc2b444e831"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V04_KI_R05_EN.txt",
+    "bytes": 9586,
+    "sha256": "a54ea77ea12df9ac43d749ae7eb47d40ff55013ed6d1c0d57ad512d87b64889d",
+    "git_sha": "66487d5fd3a2eedc6dd630430fd386646f1e705a"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V05_KI_R05_EN.txt",
+    "bytes": 5330,
+    "sha256": "2005d7466a7184d17c6e6609c3651af4b8a87a79e973d50223df8ed15291266e",
+    "git_sha": "c6f04016d8a39c0e1d0417a4c4bbea2ca71eeda3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V06_KI_R05_EN.txt",
+    "bytes": 2737,
+    "sha256": "d7d1527bf1732cf22b8ff7884c6f838e5bff5cfd286e3dfd1860c51ddb1886e5",
+    "git_sha": "355731a651376b59adccfef1121e8d4ea8c7d3f7"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V07_KI_R05_EN.txt",
+    "bytes": 4640,
+    "sha256": "f81c790e3af0f6c03a9df4634475977dd48d367cd229789b496fc231a8482a79",
+    "git_sha": "3d06c3aee6476437a4637096cb069523b1c03f34"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V08_KI_R05_EN.txt",
+    "bytes": 22518,
+    "sha256": "fefad20e35aa0589563b67969c49b2fd413bb3e2779a7a19f14dd6340356d913",
+    "git_sha": "617018cbed141221887d812097833825d21df510"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V09_KI_R05_EN.txt",
+    "bytes": 22521,
+    "sha256": "e2119e42142da09ddac702fc194cd6d1e12302a27c064d990d062de9ce71957c",
+    "git_sha": "008019ca5f2d7dd054c37288dfabb8d8999f2147"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V10_KI_R05_EN.txt",
+    "bytes": 22525,
+    "sha256": "ae81baf461f37bf45bfa00d78966bbbbe276ec7db6a13c42b28dc80923eb25d4",
+    "git_sha": "effbe7f66d71108711f5bb8cbca16a1e67cfedb4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V11_KI_R05_EN.txt",
+    "bytes": 22478,
+    "sha256": "d48ae7d23f44a7de8e6498132a67f4e437084574e297c2db6c8209357354af3c",
+    "git_sha": "13c037cb31be4565ee8caaaa0425d0a1faaa5f27"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V12_KI_R05_EN.txt",
+    "bytes": 9570,
+    "sha256": "680256dec6aee4888c62694970e087230515dfcb1b24bdf04c1632e425979cca",
+    "git_sha": "7476886065a26380e87d0e5aaeb0d94cd783a6f4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V13_KI_R05_EN.txt",
+    "bytes": 9602,
+    "sha256": "04395049ad14e3d0e90aabf7cc887ded2b20c9c003e9bbd70cf433fbe2e9e125",
+    "git_sha": "3415779274b32e3cbff7ce02382d517fb7311a97"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V14_KI_R05_EN.txt",
+    "bytes": 7378,
+    "sha256": "a1727da28def124236d93881c3e8affca1812404942632d43571835730009940",
+    "git_sha": "cf6bc50b33ffbaa66b35a199edda5eb0969cb575"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V15_KI_R05_EN.txt",
+    "bytes": 7359,
+    "sha256": "ac39d0d5eeac890295b6a214bdbe7b0a1378288d71ffdba5b666ada0277e870a",
+    "git_sha": "ddf9c76c7f15c32cdf394badf58f8ecefb3d9d49"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V16_KI_R05_EN.txt",
+    "bytes": 7332,
+    "sha256": "23b0b65bb8c369bc022bc4134c4b9b2ca8ba1c745c939c5b744cb1b9bd45d723",
+    "git_sha": "6f4e63649cd189669f1aa8237b3bb98b0753dec3"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V17_KI_R05_EN.txt",
+    "bytes": 7324,
+    "sha256": "73c75eaa1ebbee1b0ca3490bfd501c917667b18778c39c0c7b8a48ee0de24dcf",
+    "git_sha": "6f3355f523b69fc5731f11d9e704eaa97b77c57e"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V18_KI_R05_EN.txt",
+    "bytes": 3840,
+    "sha256": "a9c99fab6668ce5b92e5e59c792a366d9d5fe61f78c1e65dce062d4e957b8588",
+    "git_sha": "50df8f79193a587980992ef8b583d869a68cd754"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V19_KI_R05_EN.txt",
+    "bytes": 5385,
+    "sha256": "8167609c54cda4e2caf9b40ffe8e25168976fc222585103dbc7ad74abb0af70a",
+    "git_sha": "6d6caf6675f2197987c9381e1516e2a55806a667"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V20_KI_R05_EN.txt",
+    "bytes": 3667,
+    "sha256": "c347327ad099ee43d3fca7757a4158ed31a326a752e114abf7f7ffd9984344a3",
+    "git_sha": "05cff656b182957f383dce1e8c3ec66a9c9226dd"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V21_KI_R05_EN.txt",
+    "bytes": 3644,
+    "sha256": "d1e95abc05a8ca4f1614f7fce4b709eadde580b85fc8adf90deff13d581e8a0f",
+    "git_sha": "1b8bf2d4bbef298f6b88f2a3ce4ec758931853a9"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V22_KI_R05_EN.txt",
+    "bytes": 2732,
+    "sha256": "3457715fde6d3350371f67987d66501368800e9d0fe97a41b7862c60f2db84e7",
+    "git_sha": "de5196996ec1f21e04296559c389d50624a05753"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V23_KI_R05_EN.txt",
+    "bytes": 2716,
+    "sha256": "6d68c2d913068d6cbb45cadef731c3db5d249d843d91a06ed4b9db450d9fd1f0",
+    "git_sha": "140f03323a874715987a68919bd094e0302fcdf5"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V24_KI_R05_EN.txt",
+    "bytes": 2741,
+    "sha256": "8d15e7410987ad4ab2a67baf92e99f047499c7e723d6cb153b59e239d71a8773",
+    "git_sha": "90fcf76456d2fc42102e5182a21d56fc6b572308"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V25_KI_R05_EN.txt",
+    "bytes": 2705,
+    "sha256": "804240552c8761c5644999d58e821681d4fbbeec168d1d6831907a82a8684789",
+    "git_sha": "e692a83fa6171e556e160069964fe975045451d1"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V26_KI_R05_EN.txt",
+    "bytes": 9613,
+    "sha256": "3c019b5ee95e0f744e62a8786b2351cfae9cbc93757307f797bf50a72e675fd4",
+    "git_sha": "a1cad684f277015d2f9204cbe0055d12e1ae3882"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V27_KI_R05_EN.txt",
+    "bytes": 4390,
+    "sha256": "404764373300e984b4e3c474f68ef43281df2f77b5b94c881f454dfb562ce0b1",
+    "git_sha": "b48dffa05d69e074efb92e127e4263eddbca89ae"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/render_handoff/prompts/V28_KI_R05_EN.txt",
+    "bytes": 4243,
+    "sha256": "9777ac502895fcf0215c3cb939d782aa5236eeb0bd9f442ea235ecc1ca2911fe",
+    "git_sha": "8f2e9664d51a951b41897c5f8b57a1717026092c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/sources/register_values_before_R05.json",
+    "bytes": 219602,
+    "sha256": "468519268de484bb2c6711433a8e69874f02f9d1cfbb56ce31e77fe6cacfe5fe",
+    "git_sha": "3827e04e501851da50e3885e01bbaedd4ea70132"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R05/sources/workbook_before_R05.json",
+    "bytes": 460264,
+    "sha256": "8a553a488e558cac4c229788160414760452b299561579115c5768fd127a6fb9",
+    "git_sha": "d39e297f09c0a9477e8bb20961c654076d3f53ff"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/README.md",
+    "bytes": 6181,
+    "sha256": "e99915af67675d3d899e591ddf77b413dae4b78a1f03040bb7a0e0c065ab986b",
+    "git_sha": "126b7d5564cdb6bc192c7201fff8e38211e37eba"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/outputs/A902_Kyoto_Ink_elo_regiszter.xlsx",
+    "bytes": 158692,
+    "sha256": "657eaf13cf4ee19197c9312db503a4bf2d005a941cd62f86f1d663c8aac6c164",
+    "git_sha": "f9f54e2ee67ec161dee986217288b8f9c3da29a6"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/r05_register.mjs",
+    "bytes": 9409,
+    "sha256": "dc0e61a1c3a1b3ba00d1633e51661836aaf4b30d2208f49006d98b2bd99fae94",
+    "git_sha": "3a613ff8e003173e50dae90caa7f8392e489c58c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_blender.py",
+    "bytes": 8411,
+    "sha256": "14e63d2492e7f45fbd6df6df1268411bbe4a5c5718f7c0c9db091bf21c3edb48",
+    "git_sha": "43902fefc2e3954edf101d32e813e64ce74325ee"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_blender_inspect.py",
+    "bytes": 453,
+    "sha256": "e6f5f5f3bf8c9108a4771ae8c3ca33ad8480b8074cae1f3041e65fb77ff28c09",
+    "git_sha": "762b4532eb1574d0e002c54832413a60f04d71a9"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_blender_verify.py",
+    "bytes": 1030,
+    "sha256": "5d806e3e38554688dc90b9557b28f9dd376f9982c4d75e738ca57d6b9e075f65",
+    "git_sha": "1c3a514fa013f239409f51557b59f72f0df148be"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_data.py",
+    "bytes": 18163,
+    "sha256": "c6726d44673a3ab41261016b8d42f5cc6ee7838b99014790c6a596c8338b845e",
+    "git_sha": "9abb239c79fdc31d32c5e53adbc0e855531b0a0e"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_documents.py",
+    "bytes": 26456,
+    "sha256": "fc736788bde0150fcb16fe28dc9933df93c0e9f3e522ad3644cce24a3c9a927c",
+    "git_sha": "92c529c9a7da9e2ba3586d3f566db7b671a5e1e0"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_finalize.py",
+    "bytes": 13797,
+    "sha256": "d9823c01b2729097790d7688af6e7567b0a3d97c83e2c447eb2aa8c74899abe0",
+    "git_sha": "495d278a7c9c56bfc8925857648d5679305df5f5"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r05_handoff.py",
+    "bytes": 19750,
+    "sha256": "40d86580c63caf2b80a84d0fb7fb7d6d51b4fde5d39dce363dc7acdd1884771e",
+    "git_sha": "0c2848b57c80678f2e2e9b8d4428144bec165a94"
+  }
+]

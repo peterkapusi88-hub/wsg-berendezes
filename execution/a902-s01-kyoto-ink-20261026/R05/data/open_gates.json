@@ -1,0 +1,44 @@
+[
+  {
+    "id": "G01",
+    "item": "Ready-made product meshes",
+    "owner": "render/model operator",
+    "next": "Build/import exact selected product geometry using manufacturer dimensions and verified variant photos. Simplified proxies are not final identity proof.",
+    "blocks": "final product render"
+  },
+  {
+    "id": "G02",
+    "item": "Original ink masters",
+    "owner": "graphic artist / printer",
+    "next": "Reconstruct/obtain accepted artwork and approve a1:1physical sample. The three SVGs are panel layouts only.",
+    "blocks": "final artwork and manufacturing"
+  },
+  {
+    "id": "G03",
+    "item": "Survey / services",
+    "owner": "surveyor + joiner + electrician",
+    "next": "Measure finished walls, doors, thresholds, both stores and service points. Confirm TV move on wall.",
+    "blocks": "manufacturing"
+  },
+  {
+    "id": "G04",
+    "item": "Functional clearances",
+    "owner": "designer + joiner",
+    "next": "Resolve kitchen840mm aisle/open dishwasher,05.3chair-bed overlap, master bedside versus bed drawers, cupboard lift motion and bike removal.",
+    "blocks": "functional signoff"
+  },
+  {
+    "id": "G05",
+    "item": "Material and lighting samples",
+    "owner": "joiner / printer / electrician + owner",
+    "next": "Approve physical finish family,6tall wardrobe fronts, TV heavy front, three12Vlight branches and Hue test.",
+    "blocks": "appearance and installation signoff"
+  },
+  {
+    "id": "G06",
+    "item": "Supplier quotations",
+    "owner": "owner / procurement",
+    "next": "Use identical R05scope for RFQs after permission to send.18M target remains; current estimate is not an agreed contract price.",
+    "blocks": "ordering and budget closure"
+  }
+]

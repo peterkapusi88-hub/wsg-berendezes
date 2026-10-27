@@ -1,0 +1,125 @@
+{
+  "owner_pages": 5,
+  "current_drawing_pages": 71,
+  "material_Rfq_pages": 14,
+  "formula_errors": {
+    "expected": {
+      "revision": "KI-R05",
+      "main": 23912890,
+      "economy": 23659890,
+      "saving": 253000,
+      "low": 20414580,
+      "high": 32032116,
+      "budget": 18000000,
+      "gap": 5912890,
+      "economy_gap": 5659890,
+      "reserve": 2000000,
+      "reserve_used": 0,
+      "verified": 2332340,
+      "quotes": 0,
+      "rows": 174,
+      "r04": 23791890,
+      "CP3": 23253840,
+      "status": "A teljes R04 javaslat és W02 javítás árazási munkaváltozata. Nem költési/gyártási jóváhagyás.",
+      "estimated": 21580550
+    },
+    "actual": [
+      23912890,
+      23659890,
+      5912890,
+      5659890,
+      2332340,
+      0,
+      21580550
+    ],
+    "perturbation": 7000,
+    "source_byte_comparison": true,
+    "calculation_engine": "artifact-tool; desktop Excel not run"
+  },
+  "preservation": {
+    "untargeted_cell_changes": [],
+    "preserved_existing_sheets": 20,
+    "final_sheets": 23,
+    "rows": 174,
+    "calculated_main_readback": 23912890,
+    "calculated_economy_readback": 23659890,
+    "semantic_history_repairs": {
+      "CP1a": 20083350,
+      "CP3": 23253840,
+      "R05": 23912890,
+      "CP1a_repair": "Copied formulas originally referred to blank cells on the history sheet; values reconstructed from preserved CP1a qty/rate/cost inputs.",
+      "CP3_freeze": "Historical values no longer follow live R05 costs."
+    }
+  },
+  "pdf_bounds": {
+    "pages": {
+      "TV-02_01.pdf": 1,
+      "ART-02_02.pdf": 1,
+      "W02_R05_nyomat_es_reteg.pdf": 1,
+      "TV-02_02.pdf": 1,
+      "ART-02_01.pdf": 1,
+      "WN-01_02.pdf": 1,
+      "WN-01_01.pdf": 1,
+      "EL_W01_R05.pdf": 1,
+      "TV-01_01.pdf": 1,
+      "TV-01_02.pdf": 1,
+      "B62-01_01.pdf": 1,
+      "W01_R05_kompozicio.pdf": 1,
+      "B62-01_02.pdf": 1,
+      "A902_R05_tulajdonosi_utmutato_5oldal.pdf": 5,
+      "A902_R05_anyag_es_ajanlatkeresi_csomag.pdf": 14
+    },
+    "out_of_page": []
+  },
+  "blender_reopen": {
+    "reopened_file": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R05/blender/A902_Kyoto_Ink_R05.blend",
+    "sha256": "0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320",
+    "mesh_count": 2353,
+    "tower_bbox": [
+      4.091000080108643,
+      4.701499938964844,
+      0.5515000224113464,
+      4.110000133514404,
+      5.398499965667725,
+      2.878499984741211
+    ],
+    "first_lower_front_bbox": [
+      4.091000080108643,
+      4.701499938964844,
+      0.15150000154972076,
+      4.110000133514404,
+      5.398499965667725,
+      0.5485000014305115
+    ],
+    "tv_bbox": [
+      3.75,
+      5.980000019073486,
+      0.949999988079071,
+      3.8106000423431396,
+      7.4328999519348145,
+      1.784000039100647
+    ],
+    "tower_alignment_pass": true,
+    "tower_camera_side_pass": true,
+    "whole_apartment_pass": false,
+    "reason": "This readback tests saved front placement only; product shapes, artwork and earlier clearance issues remain open."
+  },
+  "handoff": {
+    "views": 28,
+    "functional": 21,
+    "missing_listed_attachments": [],
+    "current_native_room_controls": 1,
+    "older_camera_controls": 27,
+    "final_release": false,
+    "reason": "Product shapes/artwork/samples/functional constraints unresolved"
+  },
+  "visual_review": [
+    "owner five-page layout",
+    "W01 target beside technical elevation",
+    "W02 print and mounting detail",
+    "native V01 before/after tower correction",
+    "updated media wall orthographic control",
+    "Excel main summary and material/change/capacity ranges"
+  ],
+  "final_product_render_approved": false
+}

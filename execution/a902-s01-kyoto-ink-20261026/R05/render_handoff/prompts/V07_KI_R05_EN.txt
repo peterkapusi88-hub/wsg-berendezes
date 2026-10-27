@@ -1,0 +1,53 @@
+KYOTO INK A902 — V07: Entrance storage
+
+Design/model revision KI-R05. CONDITIONAL TECHNICAL RENDER; not a final construction image.
+
+Use model R05/blender/A902_Kyoto_Ink_R05.blend SHA256 0f15bfe9f06f12357f02370baff37fca68ad02ed27d79c66aa885f0bdb5eb320.
+
+Camera KI_R01; position [7.900000095367432, 1.600000023841858, 1.5499999523162842]; rotation Euler radians [1.4144898653030396, 1.9458974520603078e-07, 2.1150765419006348]; lens 20.0mm; type PERSP; ortho scale 6.0. Do not rename another perspective to this camera.
+
+ATTACH FILES IN THIS EXACT ORDER:
+
+1. CP3/blender/V07_CP3.jpg — OLDER CP3 pose/context reference only; generate new R05 native control before editing; SHA256 c4bbf293240eb1c909e4cba17106864af2553c98b2c535782df2cfa65b69668a
+
+2. R04/drawings/ENT-01_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 9f9c2d9a1d07ef365613b8a2d262ca407a7b9a46be2019b90c436e22d999a643
+
+3. R04/drawings/ENT-02_01.pdf — Current selected custom drawing; R05 material addendum governs finish; SHA256 af5fc04b9b7e0d8e16563618bbca5dabedcfa396d5b04f09ad54adbee2f3f17b
+
+CUSTOM STRUCTURES — preserve dimensions, division, material and placement:
+
+ENT-01: 860×540×2840mm; worldposition [8.39, 1.37, 0]; modules [430, 430]; front modules [430, 430]; cost lines KI-082,KI-085; finishes MAT-10,MAT-03.
+
+ENT-02: 800×350×450mm; worldposition [5.65, 0.15, 0]; modules [800]; front modules [800]; cost lines KI-083; finishes MAT-08.
+
+PRODUCT IDENTITY — no substitution with a prettier unpriced product:
+
+KI-082: SKU UNKNOWN, size ENT-01: 860×540×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 240000HUF; előzetes becslés. Custom structure IDs ['ENT-01']. Mesh status: custom drawing/model conditional.
+
+KI-083: SKU UNKNOWN, size ENT-02: 800×350×450 mm; exact product source UNKNOWN. Quantity 1; current row amount 70000HUF; előzetes becslés. Custom structure IDs ['ENT-02']. Mesh status: custom drawing/model conditional.
+
+KI-084: SKU UNKNOWN, size UNKNOWN – felmérés/gyári adat kell; exact product source UNKNOWN. Quantity 1; current row amount 70000HUF; előzetes becslés. Custom structure IDs []. Mesh status: exact mesh NOT verified.
+
+KI-085: SKU UNKNOWN, size ENT-01: 860×540×2840 mm; exact product source UNKNOWN. Quantity 1; current row amount 60000HUF; előzetes becslés. Custom structure IDs ['ENT-01']. Mesh status: custom drawing/model conditional.
+
+FINISH SPECIFICATIONS:
+
+MAT-03: Full-height wardrobe fronts: bespoke19mm painted MDF matched to a physical U702 sample. Nominal2837mm front requires a raw board longer than2800mm; no invented horizontal joint. Original ink artwork pending.
+
+MAT-08: Headboard/pad: separate taupe and graphite upholstered fields,18mm carrier+about30mm foam within60mm overall. Actual fabric SKU and sample pending; do not erase the asymmetry.
+
+MAT-10: Dry cabinet interior:18mm light melamine board,8mm back, matching sealed edges. Preserve the compartment schedule and all drawers/lifts.
+
+LIGHT SCENE: daylight / task lighting as R02 scene schedule. Use the actual light schedule. No added strips, fittings, hidden light sources or changed colour temperature without updating the bill and drawings.
+
+OPEN CONDITIONS:
+
+All current geometry and product-identity checks are conditional. Do not label this a construction-approved final image.
+
+WORKFLOW: First render a native Blender technical trial at this exact camera. Check furniture silhouette, SKU variants, dimensions, door seams, graphics, thresholds, services and routes. A legacy CP3 camera image is only pose evidence. If the R05 control is absent, generate it before image editing. Simplified proxies must be replaced and checked before a product-faithful image can be released.
+
+Image editing may refine photographic finish only after a faithful native base exists. It may not relocate furniture, erase a threshold, change the wardrobe internals, enlarge the room, invent a product or hide a collision. Preserve real building photography for floor/windows/terrace/panorama; align the camera rather than relabelling a photograph.
+
+If a required reference, exact asset, artwork master or check is missing, report it and stop the final-image release. A clearly labelled conditional technical study may be saved. Do not silently create plausible substitutes.
+
+Save as A902_KyotoInk_V07_KI-R05_CONDITIONAL.png and a same-name audit text listing input hashes, camera/model revision, product/material matches, discrepancies and unresolved gates. Only continue to the next view after reviewing the first trial. No bulk image generation is authorized by this handoff alone.

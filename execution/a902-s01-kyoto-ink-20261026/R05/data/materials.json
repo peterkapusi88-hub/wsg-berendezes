@@ -1,0 +1,112 @@
+[
+  {
+    "id": "MAT-01",
+    "name": "Világos matt, kész gyári front",
+    "candidate": "EGGER U702 PM Cashmere Grey",
+    "method": "19 mm PerfectSense MDF jelölt; színazonos ABS él. Csak a 2800 mm táblaméretbe beleférő frontokra. A hazai vastagság/tabla és hátoldal beszállítói egyeztetés.",
+    "hex": "#c5bbae",
+    "use": "K-01,K-02,K-07; nem a 2837 mm magas gardróbfront",
+    "source": "https://www.egger.com/en/furniture-interior-design/decors/U702_PM?country=US",
+    "gate": "Fizikai minta, hazai termékkód és táblaformátum; nem fényképből mért szín",
+    "price": "A KI-009 meglévő frontkeretén belüli jelölt; írásos ár nincs."
+  },
+  {
+    "id": "MAT-02",
+    "name": "Grafit matt, kész gyári front",
+    "candidate": "EGGER U961 PM Graphite Grey",
+    "method": "19 mm lakkozott MDF jelölt, egyező ABS él. Külső alsó front, éjjeli és asztal. Tartós vizes helyre nem automatikusan alkalmazható.",
+    "hex": "#45423e",
+    "use": "K-03..K-06,TV-02,CF-01,ST-01,NT-L,NT-R,DS52,NT-64,NT-76,HALL-01",
+    "source": "https://downloads.egger.com/static/uk/FY_EGGER_PerfectSense_Portfolio_A4_Screen.pdf",
+    "gate": "Karc-, szín- és élminta; magyar szállítás, készlet, pontos vastagság nyitott",
+    "price": "Meglévő egyedi bútor keretében, nincs újra hozzáadva."
+  },
+  {
+    "id": "MAT-03",
+    "name": "Teljes magasságú festett front",
+    "candidate": "Egyedi 19 mm MDF, U702 fizikai mintához színre festve",
+    "method": "2837 mm tervezett ajtóhoz legalább 2900 mm hasznos nyerslap és megfelelő prés/fülke szükséges. Kétoldali kiegyenlített bevonat, élfestés; grafika csak tapadási próba után. Nem toldható észrevétlenül 2800-as lapból.",
+    "hex": "#c5bbae",
+    "use": "WN-01,WS-01,W52-01,W53-01,ENT-01; kisebb világos elemek azonos színcsalád",
+    "source": "R04/data/WN-01_R04A_alternative.json",
+    "gate": "Nyerslap SKU, alakstabilitás, merevítő és pántszám gyártói méretezése; teljes magas front próba",
+    "price": "KI-051 +120000 Ft R04 felár, más egységek saját frontkerete."
+  },
+  {
+    "id": "MAT-04",
+    "name": "W01 médiafal textúra és tus",
+    "candidate": "Egyedi matt ásványi hatású, mintázott felület + védett nyomat",
+    "method": "TV-03: 18 mm hordozó + 18 mm szerelőlégrés a 36 mm befoglalóban. Toronyfront: 19 mm MDF, sötét alapszín. Nyomat az elfogadott kép kompozíciójából külön grafikai masterrel. Legfeljebb 1 mm próbatextúra; nincs automatikus dombormű.",
+    "hex": "#a99b87",
+    "use": "TV-01,TV-03",
+    "source": "CP3/reviews/20261027_csomag_es_mediafal/A902_KyotoInk_V01_KI-CP3-R03_VISUAL_RESCUE_v3_CONDITIONAL.png",
+    "gate": "600×600 minta, világító sarok és nyomatpróba; eredeti 1:1 tusmaster nincs; az AI-kép nem nyomdakész fájl",
+    "price": "KI-030 690000 + KI-031 320000; teljes csomagbontás R05 költséglapon."
+  },
+  {
+    "id": "MAT-05",
+    "name": "W02 teljes falgrafika nyomtatható hordozója",
+    "candidate": "Vescom Bely+Print 1040.01",
+    "method": "Vinil felület viszkóz/poliészter hátoldallal, 350 g/m²; 134 cm teljes / 133 cm nyomtatható szélesség. Két 1050 mm tervezett mező, 50 mm technológiai ráhagyás a széleken. Nyomdai illesztés és ICC a gyártóval véglegesítendő.",
+    "hex": "#b4a793",
+    "use": "ART-02",
+    "source": "https://vescom.com/en/products/belyprint",
+    "gate": "Nem valódi lenvászon és nem relief. Tónus, szövés, fekete, ragasztó és hordozó együtt mintázandó; nyomda még nincs kiválasztva",
+    "price": "8,0 m² rendelendő előirányzat ×28000 Ft =224000 Ft; nem webshopár."
+  },
+  {
+    "id": "MAT-06",
+    "name": "Csendes csatlakozó fal",
+    "candidate": "Festett, finoman szemcsés greige felület",
+    "method": "Az ART-02 színmintájához helyszíni próbafal; W07 és csatlakozó sarok. A falgrafika nyomtatott hordozóját nem számítjuk automatikusan erre is.",
+    "hex": "#b4a793",
+    "use": "ART-07",
+    "source": "targets/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
+    "gate": "A szög és súrolófény miatt eltérhet a fényesség; 1 m² próbafal",
+    "price": "KI-124/127/128 meglévő falkezelési keret."
+  },
+  {
+    "id": "MAT-07",
+    "name": "Világos betonhatású konyhapult",
+    "candidate": "EGGER F274 ST9 Light Concrete dekor",
+    "method": "38 mm munkalap és illesztett hátfal jelölt. Konkrét hazai munkalap SKU és élprofil még igazolandó; nem kő és nem vékony kerámia.",
+    "hex": "#c7c0b3",
+    "use": "K-08,K-09",
+    "source": "https://www.egger.com/get_download/1ed4150d-4c94-4717-a4d9-81d28cacddf0/Product_Availability_Industrial_Decors_English.pdf?country=NL",
+    "gate": "Kivágási rajz, vízzárás, géphő és hátfal alkalmasság; 38 mm él a renderen is látszódjon",
+    "price": "KI-011/012/014 meglévő keretek, egy tétel csak egyszer."
+  },
+  {
+    "id": "MAT-08",
+    "name": "Aszimmetrikus taupe–grafit kárpit",
+    "candidate": "Kárpitos által biztosítandó két színű szövet, SKU nyitott",
+    "method": "18 mm hordozó + kb.30 mm hab + vatelin és szövet; 60 mm befoglaló. Két külön levehető színmező, varratkiosztás a célkép szerint.",
+    "hex": "#8b7b68",
+    "use": "HB-01,ENT-02",
+    "source": "targets/A902_S01_KyotoInk_3_master_Cam_04_A__ASTRA_V3_1__v1.png",
+    "gate": "Szövet SKU, kopásállóság, tisztíthatóság és színminta; végleges shader még nincs",
+    "price": "KI-046/047 meglévő keret; a grafit mező nem törlődik az olcsóbb változatban."
+  },
+  {
+    "id": "MAT-09",
+    "name": "Fürdő sötét front és lezárt élek",
+    "candidate": "19 mm nedvességálló MDF + kétoldali matt bevonat",
+    "method": "Minden furat és vágott él lezárva. Kivehető szifonos fiók, fröccsenési és ragasztási próba. Az MDF nem vízálló.",
+    "hex": "#45423e",
+    "use": "B62-01,B62-02,B61-01",
+    "source": "R04/data/B62-01_R04A_alternative.json",
+    "gate": "Bevonatrendszer pontos gyártó/SKU, mosdó, szifon, falrögzítés",
+    "price": "KI-092 270000 Ft, többi külön fürdősor. Szifon-kivágás felárát ajánlat igazolja."
+  },
+  {
+    "id": "MAT-10",
+    "name": "Belső laminált korpusz",
+    "candidate": "18 mm világos melaminbevonatú bútorlap; konkrét dekor nyitott",
+    "method": "18 mm korpusz/polc,8 mm hát; látható él2 mm, belső1 mm ABS. Festett MDF-re nem írunk ABS-t. Nagy fesztávú polc terhelési ellenőrzéssel.",
+    "hex": "#ede9e1",
+    "use": "Valamennyi száraz szekrénybelső",
+    "source": "R04/data/design_R04.json",
+    "gate": "Lap-/élgyártó és dekor összehangolása, emissziós igazolás; előzetes szerkezet nem gyártási darabjegyzék",
+    "price": "Korpusz és belső sorokban; nincs külön dupla elszámolás."
+  }
+]
