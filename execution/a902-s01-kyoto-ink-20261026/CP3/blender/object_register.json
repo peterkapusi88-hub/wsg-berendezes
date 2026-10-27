@@ -346,6 +346,7 @@
       "CP3_WN-01_B2_top",
       "CP3_WN-01_B2_back",
       "CP3_WN-01_B2_shelf0",
+      "CP3_WN-01_B2_shelf1",
       "CP3_WN-01_B2_rod0",
       "CP3_WN-01_B2_load0_0",
       "CP3_WN-01_B2_load0_1",
@@ -363,12 +364,14 @@
       "CP3_WN-01_B2_front1",
       "CP3_WN-01_B2_LED0",
       "CP3_WN-01_B2_LED1",
+      "CP3_WN-01_B2_LED2",
       "CP3_WN-01_B3_left",
       "CP3_WN-01_B3_right",
       "CP3_WN-01_B3_base",
       "CP3_WN-01_B3_top",
       "CP3_WN-01_B3_back",
       "CP3_WN-01_B3_shelf0",
+      "CP3_WN-01_B3_shelf1",
       "CP3_WN-01_B3_rod0",
       "CP3_WN-01_B3_load0_0",
       "CP3_WN-01_B3_load0_1",
@@ -386,6 +389,7 @@
       "CP3_WN-01_B3_front1",
       "CP3_WN-01_B3_LED0",
       "CP3_WN-01_B3_LED1",
+      "CP3_WN-01_B3_LED2",
       "CP3_WN-01_B4_left",
       "CP3_WN-01_B4_right",
       "CP3_WN-01_B4_base",
@@ -434,7 +438,7 @@
     ],
     "capacity": {
       "rail_m": 3.03,
-      "shelf_m2": 2.638,
+      "shelf_m2": 3.392,
       "drawer_l": 310.1
     },
     "status": "dimensioned functional proposal; exact hardware geometry pending"
@@ -614,6 +618,7 @@
       "CP3_W52-01_B1_top",
       "CP3_W52-01_B1_back",
       "CP3_W52-01_B1_shelf0",
+      "CP3_W52-01_B1_shelf1",
       "CP3_W52-01_B1_rod0",
       "CP3_W52-01_B1_load0_0",
       "CP3_W52-01_B1_load0_1",
@@ -624,12 +629,11 @@
       "CP3_W52-01_B1_load1_0",
       "CP3_W52-01_B1_load1_1",
       "CP3_W52-01_B1_load1_2",
-      "CP3_W52-01_B1_load1_3",
-      "CP3_W52-01_B1_load1_4",
       "CP3_W52-01_B1_front0",
       "CP3_W52-01_B1_front1",
       "CP3_W52-01_B1_LED0",
       "CP3_W52-01_B1_LED1",
+      "CP3_W52-01_B1_LED2",
       "CP3_W52-01_B2_left",
       "CP3_W52-01_B2_right",
       "CP3_W52-01_B2_base",
@@ -702,8 +706,8 @@
       "CP3_W52-01_B4_LED3"
     ],
     "capacity": {
-      "rail_m": 1.557,
-      "shelf_m2": 3.947,
+      "rail_m": 1.437,
+      "shelf_m2": 4.25,
       "drawer_l": 123.9
     },
     "status": "dimensioned functional proposal; exact hardware geometry pending"
@@ -853,21 +857,22 @@
       "CP3_B62-01_B1_drawer0_0_left",
       "CP3_B62-01_B1_drawer0_0_right",
       "CP3_B62-01_B1_drawer0_0_back",
-      "CP3_B62-01_B1_drawer0_1_bottom",
-      "CP3_B62-01_B1_drawer0_1_left",
-      "CP3_B62-01_B1_drawer0_1_right",
-      "CP3_B62-01_B1_drawer0_1_back",
       "CP3_B62-01_B1_drawer0_face",
       "CP3_B62-01_B1_drawer1_0_bottom",
       "CP3_B62-01_B1_drawer1_0_left",
       "CP3_B62-01_B1_drawer1_0_right",
       "CP3_B62-01_B1_drawer1_0_back",
+      "CP3_B62-01_B1_drawer1_1_bottom",
+      "CP3_B62-01_B1_drawer1_1_left",
+      "CP3_B62-01_B1_drawer1_1_right",
+      "CP3_B62-01_B1_drawer1_1_back",
+      "CP3_B62-01_B1_drawer1_Ubridge",
       "CP3_B62-01_B1_drawer1_face"
     ],
     "capacity": {
       "rail_m": 0.0,
       "shelf_m2": 0.0,
-      "drawer_l": 67.9
+      "drawer_l": 67.3
     },
     "status": "dimensioned functional proposal; exact hardware geometry pending"
   },
@@ -908,21 +913,22 @@
       "CP3_B61-01_B1_drawer0_0_left",
       "CP3_B61-01_B1_drawer0_0_right",
       "CP3_B61-01_B1_drawer0_0_back",
-      "CP3_B61-01_B1_drawer0_1_bottom",
-      "CP3_B61-01_B1_drawer0_1_left",
-      "CP3_B61-01_B1_drawer0_1_right",
-      "CP3_B61-01_B1_drawer0_1_back",
       "CP3_B61-01_B1_drawer0_face",
       "CP3_B61-01_B1_drawer1_0_bottom",
       "CP3_B61-01_B1_drawer1_0_left",
       "CP3_B61-01_B1_drawer1_0_right",
       "CP3_B61-01_B1_drawer1_0_back",
+      "CP3_B61-01_B1_drawer1_1_bottom",
+      "CP3_B61-01_B1_drawer1_1_left",
+      "CP3_B61-01_B1_drawer1_1_right",
+      "CP3_B61-01_B1_drawer1_1_back",
+      "CP3_B61-01_B1_drawer1_Ubridge",
       "CP3_B61-01_B1_drawer1_face"
     ],
     "capacity": {
       "rail_m": 0.0,
       "shelf_m2": 0.0,
-      "drawer_l": 32.0
+      "drawer_l": 27.4
     },
     "status": "dimensioned functional proposal; exact hardware geometry pending"
   },

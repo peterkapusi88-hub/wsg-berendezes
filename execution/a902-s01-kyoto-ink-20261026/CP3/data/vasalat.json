@@ -131,6 +131,15 @@
   },
   {
     "unit": "W52-01",
+    "bay": "W52-01-B01",
+    "type": "Gardróblift",
+    "candidate": "Kesseböhmer CONERO normál 0–12 kg, 445–628 mm szélesség",
+    "qty": 1,
+    "nominal_mm": 559,
+    "proof": "gyártói szélességtartományba esik; pontos furat / mozgáspálya és cikkszám ajánlatban"
+  },
+  {
+    "unit": "W52-01",
     "bay": "W52-01-B03",
     "type": "Teljes kihúzású, csillapított fiókvezető",
     "candidate": "Blum MOVENTO 40 kg; pontos rendelési készlet gyártói kiosztással",
@@ -163,11 +172,11 @@
     "type": "Teljes kihúzású, csillapított fiókvezető",
     "candidate": "Blum MOVENTO 40 kg; pontos rendelési készlet gyártói kiosztással",
     "qty": 2,
-    "nominal_mm": 400,
+    "nominal_mm": 450,
     "net_internal_mm": [
       764,
-      350,
-      140
+      400,
+      120
     ],
     "proof": "rendszer ismert; szerelési és fiókoldal méret még jóváhagyandó"
   },
@@ -181,7 +190,7 @@
     "net_internal_mm": [
       464,
       300,
-      140
+      120
     ],
     "proof": "rendszer ismert; szerelési és fiókoldal méret még jóváhagyandó"
   },

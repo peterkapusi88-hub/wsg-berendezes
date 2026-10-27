@@ -342,12 +342,12 @@
   {
     "check": "B62-01-B01 drawer height",
     "result": "PASS",
-    "detail": "22+140+20 < 350"
+    "detail": "22+120+20 < 350"
   },
   {
     "check": "B62-01-B01 drawer height",
-    "result": "FAIL",
-    "detail": "192+140+20 < 350"
+    "result": "PASS",
+    "detail": "192+120+20 < 350"
   },
   {
     "check": "B62-02-B01 clear width",
@@ -362,12 +362,12 @@
   {
     "check": "B61-01-B01 drawer height",
     "result": "PASS",
-    "detail": "22+140+20 < 350"
+    "detail": "22+120+20 < 350"
   },
   {
     "check": "B61-01-B01 drawer height",
-    "result": "FAIL",
-    "detail": "192+140+20 < 350"
+    "result": "PASS",
+    "detail": "192+120+20 < 350"
   },
   {
     "check": "WC-01-B01 clear width",
@@ -426,13 +426,13 @@
   },
   {
     "check": "05.3 simultaneous use",
-    "result": "OPEN",
-    "detail": "Existing workchair and bed clearances require full occupancy/withdrawal check; shallow wardrobe itself is modelled with front-hanging rail."
+    "result": "FAIL",
+    "detail": "Chair withdrawn600 mm occupies y5.95..6.66; current bed reaches y6.05:100 mm overlap. NORDLI side drawers also require a separate opening model. ALT053 proposal is not accepted."
   },
   {
     "check": "CONERO motion",
     "result": "OPEN",
-    "detail": "625–808 mm normal12 kg selected for694 mm clear bay; conservative600 mm forward/down end position shown. Exact manufacturer linkage and collision sweep pending."
+    "detail": "WN:2×625–808 mm normal12 kg for694 mm bays; W52:1×445–628 mm normal12 kg for559 mm bay. Conservative600 mm forward/down end position; exact linkage and swept volume pending."
   },
   {
     "check": "AT8 geometry",
@@ -453,5 +453,85 @@
     "check": "Threshold",
     "result": "OPEN",
     "detail": "R02 120 mm is an illustrative object; source sheet mentions150 mm. Field step, width and route survey required."
+  },
+  {
+    "check": "ALT053 Ajto_05_3 / bed",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_05_3 / chair_work",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_05_3 / chair_withdrawn",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_05_3 / desk",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_06_2 / bed",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_06_2 / chair_work",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_06_2 / chair_withdrawn",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Ajto_06_2 / desk",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Uvegfal_05_3_terasz / bed",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Uvegfal_05_3_terasz / chair_work",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Uvegfal_05_3_terasz / chair_withdrawn",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 Uvegfal_05_3_terasz / desk",
+    "result": "PASS",
+    "detail": "2° angular / 100 radial sample points; source door geometry; no field clearance guarantee"
+  },
+  {
+    "check": "ALT053 chair withdrawn / bed",
+    "result": "PASS",
+    "detail": "Chair y_min6.10 - bed y_max5.90 =200 mm; this is separation, not a walking route. Main passage west of the work area."
+  },
+  {
+    "check": "ALT053 effect",
+    "result": "OWNER_DECISION",
+    "detail": "NORDLI180 → MALM160 lifting storage: 20 cm narrower mattress; 219900 vs189900 Ft frame, +30000 Ft; mattress160 replacing180 needs exact quote. Wardrobe unchanged. Lifted-bed headroom / mattress mass still manufacturer gate."
+  },
+  {
+    "check": "Master NORDLI drawers / nightstands",
+    "result": "FAIL",
+    "detail": "NT-L/NT-R footprint crosses the head-end side-drawer zones. Full six-drawer usability is not proved. Alternative floating 300×420×180 bedside box bottom320 mm needs design acceptance; no automatic loss of two-drawer bedside capacity."
+  },
+  {
+    "check": "WN loaded light transport test",
+    "result": "CONDITIONAL",
+    "detail": "Cycles CPU24 samples; dark clothes80% illustrative occupancy; actual emission surfaces at planned shelf fronts. No IES, calibrated luminous flux or confirmed CRI: only shadow/layout diagnostic, not illuminance acceptance."
   }
 ]

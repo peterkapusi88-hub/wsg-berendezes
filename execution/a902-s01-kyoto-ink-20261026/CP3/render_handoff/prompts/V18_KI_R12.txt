@@ -1,0 +1,35 @@
+A902 KYOTO INK — V18: Kád, mosdó, mosótorony.
+
+Create only a CONDITIONAL DESIGN STUDY for room 06.1, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: KI_R12. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V18_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: artificial only3000K.
+
+Attachment order and role:
+
+1. CP3/blender/V18_CP3.jpg — Primary exact-camera native Blender control; simplified product meshes, no final-product certification. SHA256 be4e83c6b2f4c070465d34ab3863255dbcd59ff366ac2e2ddfc76cb8996620cc.
+
+2. CP3/drawings/P-CP3.pdf — Whole-apartment placement and internal-light overlay. SHA256 5b78c260f5f042f5c5acc49d7b05d1b24f67164ad34c694abe296a4d183f8fae.
+
+3. CP3/drawings/B61-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 80b01a976ba650475f4b797db2ac4579c92403947f1cfb2be03250f1fd53f56f.
+
+Visible product and custom-structure identity:
+
+{"element": "KI-098", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Mosdó alatti tároló és szerelés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "B61-01: 600×450×350 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-099", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Tükör és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-100", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Kád melletti tároló, törölközőtartó, textil", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+Custom structure B61-01: overall 600 W × 450 D × 350 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. B61-01-B01: clear width 564 mm, clear depth 393 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 2 drawers, proposed net internal size [464, 300, 120] mm; internal lights at [] mm. 
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: Kitchen840 mm working aisle and open-dishwasher240 mm passage unresolved; Main05.2 desk/door and05.3 bed/chair decisions remain open; Master NORDLI drawer/nightstand interference unresolved; Several exact product meshes/SKUs and professional approvals missing
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

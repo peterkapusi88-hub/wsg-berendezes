@@ -256,6 +256,23 @@
       "test": "80% terheléssel, sötét ruhával és dobozzal: alsó polc / címke / liftkar árnyéka ellenőrizendő"
     },
     {
+      "id": "L-WN-01-B02-1090",
+      "unit": "WN-01",
+      "bay": "WN-01-B02",
+      "z": 1090,
+      "length": 460,
+      "watts": 2.3,
+      "sku": "305.890.98",
+      "type": "ÖVERSIDAN integrált profil + érzékelő",
+      "kelvin": "EPREL ellenőrzésre vár; próbaminta kötelező",
+      "cri": "nem igazolt ebben a forrásban",
+      "source": "meglévő helyiség dugaljának bemérése → hozzáférhető felső tápegység → oldalsó 24 V csatorna → polc alatti frontközeli lámpa",
+      "position": "fronttól 45 mm; polc alsó síkján, érzékelő látómezeje szabad",
+      "scene": "ajtónyitás: funkcionális fény; bezárás: ki; külön a Hue hangulatfénytől",
+      "service": "felső rekeszben levehető 300×100 mm fedél, hozzáférés létráról; nem ruhával takart tápegység",
+      "test": "80% terheléssel, sötét ruhával és dobozzal: alsó polc / címke / liftkar árnyéka ellenőrizendő"
+    },
+    {
       "id": "L-WN-01-B02-2320",
       "unit": "WN-01",
       "bay": "WN-01-B02",
@@ -277,6 +294,23 @@
       "unit": "WN-01",
       "bay": "WN-01-B02",
       "z": 2790,
+      "length": 460,
+      "watts": 2.3,
+      "sku": "305.890.98",
+      "type": "ÖVERSIDAN integrált profil + érzékelő",
+      "kelvin": "EPREL ellenőrzésre vár; próbaminta kötelező",
+      "cri": "nem igazolt ebben a forrásban",
+      "source": "meglévő helyiség dugaljának bemérése → hozzáférhető felső tápegység → oldalsó 24 V csatorna → polc alatti frontközeli lámpa",
+      "position": "fronttól 45 mm; polc alsó síkján, érzékelő látómezeje szabad",
+      "scene": "ajtónyitás: funkcionális fény; bezárás: ki; külön a Hue hangulatfénytől",
+      "service": "felső rekeszben levehető 300×100 mm fedél, hozzáférés létráról; nem ruhával takart tápegység",
+      "test": "80% terheléssel, sötét ruhával és dobozzal: alsó polc / címke / liftkar árnyéka ellenőrizendő"
+    },
+    {
+      "id": "L-WN-01-B03-1090",
+      "unit": "WN-01",
+      "bay": "WN-01-B03",
+      "z": 1090,
       "length": 460,
       "watts": 2.3,
       "sku": "305.890.98",
@@ -668,6 +702,23 @@
       "unit": "WS-01",
       "bay": "WS-01-B04",
       "z": 2790,
+      "length": 460,
+      "watts": 2.3,
+      "sku": "305.890.98",
+      "type": "ÖVERSIDAN integrált profil + érzékelő",
+      "kelvin": "EPREL ellenőrzésre vár; próbaminta kötelező",
+      "cri": "nem igazolt ebben a forrásban",
+      "source": "meglévő helyiség dugaljának bemérése → hozzáférhető felső tápegység → oldalsó 24 V csatorna → polc alatti frontközeli lámpa",
+      "position": "fronttól 45 mm; polc alsó síkján, érzékelő látómezeje szabad",
+      "scene": "ajtónyitás: funkcionális fény; bezárás: ki; külön a Hue hangulatfénytől",
+      "service": "felső rekeszben levehető 300×100 mm fedél, hozzáférés létráról; nem ruhával takart tápegység",
+      "test": "80% terheléssel, sötét ruhával és dobozzal: alsó polc / címke / liftkar árnyéka ellenőrizendő"
+    },
+    {
+      "id": "L-W52-01-B01-1090",
+      "unit": "W52-01",
+      "bay": "W52-01-B01",
+      "z": 1090,
       "length": 460,
       "watts": 2.3,
       "sku": "305.890.98",
@@ -1259,13 +1310,13 @@
       "fixture_ids": [
         "L-WN-01-B01-2320",
         "L-WN-01-B01-2790",
+        "L-WN-01-B02-1090",
         "L-WN-01-B02-2320",
         "L-WN-01-B02-2790",
+        "L-WN-01-B03-1090",
         "L-WN-01-B03-2320",
         "L-WN-01-B03-2790",
-        "L-WN-01-B04-1470",
-        "L-WN-01-B04-1800",
-        "L-WN-01-B04-2130"
+        "L-WN-01-B04-1470"
       ],
       "watts": 20.7,
       "rating_w": 30,
@@ -1278,14 +1329,16 @@
       "id": "PSU-WN-01-ÖVERSIDAN-2",
       "unit": "WN-01",
       "fixture_ids": [
+        "L-WN-01-B04-1800",
+        "L-WN-01-B04-2130",
         "L-WN-01-B04-2790"
       ],
-      "watts": 2.3,
+      "watts": 6.9,
       "rating_w": 30,
       "sku": "603.426.56 + 504.468.81",
       "cable": "IKEA: lámpánként gyári 3,5 m vezeték, saját 3,5 m hálózati kábel; toldás csak rendszerengedéllyel",
       "control": "külön belső ajtóérzékelő; Hue-párosítás nincs állítva",
-      "load_percent": 7.7
+      "load_percent": 23.0
     },
     {
       "id": "PSU-WS-01-ÖVERSIDAN-1",
@@ -1332,6 +1385,7 @@
       "id": "PSU-W52-01-ÖVERSIDAN-1",
       "unit": "W52-01",
       "fixture_ids": [
+        "L-W52-01-B01-1090",
         "L-W52-01-B01-2320",
         "L-W52-01-B01-2790",
         "L-W52-01-B02-2320",
@@ -1339,8 +1393,7 @@
         "L-W52-01-B03-1050",
         "L-W52-01-B03-1420",
         "L-W52-01-B03-1790",
-        "L-W52-01-B03-2130",
-        "L-W52-01-B03-2790"
+        "L-W52-01-B03-2130"
       ],
       "watts": 20.7,
       "rating_w": 30,
@@ -1353,17 +1406,18 @@
       "id": "PSU-W52-01-ÖVERSIDAN-2",
       "unit": "W52-01",
       "fixture_ids": [
+        "L-W52-01-B03-2790",
         "L-W52-01-B04-420",
         "L-W52-01-B04-1320",
         "L-W52-01-B04-2130",
         "L-W52-01-B04-2790"
       ],
-      "watts": 9.2,
+      "watts": 11.5,
       "rating_w": 30,
       "sku": "603.426.56 + 504.468.81",
       "cable": "IKEA: lámpánként gyári 3,5 m vezeték, saját 3,5 m hálózati kábel; toldás csak rendszerengedéllyel",
       "control": "külön belső ajtóérzékelő; Hue-párosítás nincs állítva",
-      "load_percent": 30.7
+      "load_percent": 38.3
     },
     {
       "id": "PSU-W53-01-ÖVERSIDAN-1",

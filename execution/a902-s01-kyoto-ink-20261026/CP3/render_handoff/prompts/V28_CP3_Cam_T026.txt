@@ -1,0 +1,33 @@
+A902 KYOTO INK — V28: Garage-level seasonal and luggage storage.
+
+Create only a CONDITIONAL DESIGN STUDY for room T-0-26, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: CP3_Cam_T026. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V28_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: Neutral diagnostic illumination; no verified installed storage luminaire.
+
+Attachment order and role:
+
+1. CP3/blender/V28_T026.jpg — Native furnished room study; planning envelope, not field-verified room. SHA256 0b259e90d6a91433d924d4a50f24eb429b9083e9577ad23e12e82f925482d98c.
+
+2. CP3/drawings/ST_T-0-26.pdf — Storage plan with uncertainty and furniture IDs. SHA256 a9ec9cc261517fae753f4016faae06c886a021fbbc46aba1a517ceb68588e96a.
+
+3. CP3/evidence/product_photos/KI-CP3-S02.jpg — Exact product-page shelving photograph. SHA256 47ac35c28d4951ac86cb7882c2366046a6af2d90f137cd66fd32b648ffdf7599.
+
+Visible product and custom-structure identity:
+
+{"id": "T-R1", "kind": "rack", "x": 50, "y": 1000, "w": 850, "d": 550, "h": 1900, "sku": "IKEA BROR s59619405"}
+
+{"id": "T-R2", "kind": "rack", "x": 950, "y": 1000, "w": 850, "d": 550, "h": 1900, "sku": "IKEA BROR s59619405"}
+
+{"id": "T-LUG", "kind": "luggage", "x": 1900, "y": 1050, "w": 500, "d": 500, "h": 1000, "sku": "owner luggage placeholder, not surveyed"}
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: [J] graphic-read / planning envelope; all finished dimensions, height and door hinge await survey. Area alone did not establish dimensions.; actual opening is not identifiable on cadastral page; south access is a conditional arrangement; Do not add water outlets or assume a garage electrical socket
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

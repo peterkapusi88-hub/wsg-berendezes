@@ -1,0 +1,46 @@
+{
+  "id": "ALT053",
+  "accepted": false,
+  "bed_sku": "204.048.06",
+  "bed_mm": [
+    2100,
+    1750,
+    1000
+  ],
+  "mattress_mm": [
+    2000,
+    1600
+  ],
+  "bed_price": 219900,
+  "frame_delta": 30000,
+  "mattress_price_status": "existing mattress allowance retained only as estimate; exact160 SKU needed",
+  "source": "https://www.ikea.com/hu/hu/p/malm-agynemutartos-agy-feher-20404806/",
+  "date": "2026-10-27",
+  "placements": {
+    "bed": [
+      12.225,
+      4.15,
+      14.325,
+      5.9
+    ],
+    "chair_work": [
+      12.88,
+      6.7,
+      13.59,
+      7.41
+    ],
+    "chair_withdrawn": [
+      12.88,
+      6.1,
+      13.59,
+      6.81
+    ],
+    "desk": [
+      12.95,
+      7.3,
+      14.15,
+      8.0
+    ]
+  },
+  "wardrobe_loss_mm": 0
+}

@@ -1,3 +1,8 @@
+<!-- CP3_CURRENT -->
+## Aktuális CP3-R03 — 2026-10-27
+
+A legfrissebb tárolási és világítási csomag belépője: [CP3/README_CP3.txt](CP3/README_CP3.txt). Az élő Excel fő előirányzata **23 253 840 Ft**, a tartalék külön marad. A CP3 ajánlati/felmérési állapot; a régebbi fejezetek összegei történeti adatok.
+
 # A-902 Kyoto Ink S01 – R02 megvalósítási munkacsomag
 
 2026-10-26. Státusz: **érdemi ajánlati és egyeztetési csomag; a teljes megvalósítás még nincs lezárva**. Nincs gyártási engedély, végleges render-PASS, megrendelés vagy elküldött ajánlatkérés.

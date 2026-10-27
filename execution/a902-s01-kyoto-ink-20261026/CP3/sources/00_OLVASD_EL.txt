@@ -1,0 +1,37 @@
+WSG A-902 · KYOTO INK · CP3+ TÁROLÁSI MESTERCSOMAG
+2026-10-26 — egyetlen feltöltés az eredeti Astra megvalósítási sessionbe
+
+ELSŐ LÉPÉS
+Az aktív, teljes utasítás: 01_ASTRA_MESTERPROMPT.txt.
+Ez egyetlen önálló prompt; a korábbi külön CP3-kiegészítéseket nem kell mellé bemásolni.
+
+A ZIP-et csatold UGYANAHHOZ az Astra megvalósítási munkamenethez.
+Bemásolható kísérőszöveg:
+„Folytasd a meglévő Kyoto Ink execution projektet. Csomagold ki a csatolt ZIP-et, olvasd el maradéktalanul a 00_OLVASD_EL.txt-t és a 01_ASTRA_MESTERPROMPT.txt-t, és ezt kezeld az új, egységes folytatóutasításomként. A legfrissebb saját mentésből dolgozz; a csatolt R02 pillanatképre ne állíts vissza újabb munkát. A mintaterv kizárólag a rajzok külalaki referenciája. A tartalmat az igényeim és a Kyoto Ink terve határozza meg. Ténylegesen dolgozd ki a szekrénybelsőket, világítást, rajzokat, költségeket és renderátadást; ne csak új feladatlistát készíts.”
+
+MIT TARTALMAZ?
+01_ASTRA_MESTERPROMPT.txt — minden korábbi követelmény + mélyebb funkcionális tervezés, rajzi minőség és későbbi brosúra.
+02_KUTATAS/ — alkalmazott kutatási jelentés; 27 forrás; célzott R02 audit; követelménykövetés és ellenőrző képek. A HTML változat böngészőben olvasható.
+03_REFERENCIAK/ — teljes alaprajzi PDF; másik design formai minta-PDF-je; két pontos V3.3 nappali célkép; anyukád eredeti szövege és a legfrissebb pontosítások.
+04_R02_PILLANATKEP/A902_Kyoto_Ink_R02/ — az eredeti feltöltött R02 ZIP teljes, kicsomagolt tartalma: rajzok, Excel, modell, kontrollképek, források és promptok.
+05_BROSURA_KESOBB/ — most csak brief és tervezett jelenetek; a kész brosúra az elfogadott renderek után következik.
+07_ADATSABLONOK/ — üres, beilleszthető leltár/rekesz/vasalat/világítás/teszt struktúrák, nem megvalósult új tervek.
+06_ARCHIV/ — az előző egyesített prompt visszakereshetőségre. NEM második aktív utasítás.
+CSOMAG_MANIFEST.json — fájllista, méretek, SHA-256.
+
+A MINTADOKUMENTUM SZEREPE
+A902_S12_A_R01_asztalos_relief_LED_ajanlatkeres(1).pdf kizárólag a lapelrendezés, olvashatóság, metszetek, konszignáció és részletezés mintája. Az Organic design és műszaki adatai nem másolhatók a Kyoto Inkbe.
+
+FORRÁSÁLLAPOT
+A csomag alapja a felhasználó által feltöltött R02 állapot, ismert commit d4f9a5a9782189b88ffdb119bfa1122030265dc7. Ebben a kutatási csomagban nem állítottuk át és nem ellenőriztük újra a távoli GitHub-ág fejét. A folytató session ellenőrizze a legfrissebb saját verziót.
+Az R02 eredeti build/update szkriptjeit ne futtasd vakon a frissebb Excelre.
+
+KÉPÁLLOMÁNYOK
+A 03_REFERENCIAK alatti két külön csatolt V3.3 PNG az elsődleges hivatkozási példány. Az R02 targets mappájában lévő azonos nevű másolatok fájlhash-e eltér, de a dekódolt RGB képpontok ellenőrzött módon egyeznek. Azonos kép, más állománykódolás; ne keverd ezt geometriai validálással.
+
+MI NINCS MÉG ELKÉSZÍTVE EBBEN A ZIP-BEN?
+Ez kutatás + folytatóutasítás + eredeti forráscsomag. Nincsenek benne újonnan jóváhagyott, gyártásra kiadott Kyoto szekrénytervek vagy kész funkcionális brosúra. Ezek megalkotása a címzett Astra-session feladata.
+A nem átadott profi fotók és frissebb projektdöntések továbbra is a meglévő sessionben/repóban keresendők. A hiányzó helyszíni méreteket nem találtuk ki.
+
+BIZTONSÁG ÉS KERET
+Nincs vásárlás vagy beszállítói üzenetküldés. 18 M Ft bruttó tervezhető keret + külön 2 M Ft érintetlen tartalék; a meglevő túllépés és az új funkciók költsége nyíltan kezelendő. A helyszíni, szakági és gyártói jóváhagyások nem helyettesíthetők szép renderrel.

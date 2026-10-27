@@ -1,0 +1,2128 @@
+{
+  "changed_existing_cells": 300,
+  "unexpected_changes": [],
+  "all_changes": [
+    {
+      "sheet": "Összesítő",
+      "cell": "B7",
+      "old": "=SUM('Elemregiszter'!U2:U160)",
+      "new": "=SUM('Elemregiszter'!U2:U173)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C7",
+      "old": "R02: teljes lakásra kiterjedő előirányzat; nyitott termékek és becslések",
+      "new": "CP3 teljes előirányzat, a második fagyasztóval. Nyitott szakági kapuk és becslések.",
+      "reason": "CP3 summary"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B8",
+      "old": "=SUM('Elemregiszter'!AH2:AH160)",
+      "new": "=SUM('Elemregiszter'!AH2:AH173)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C8",
+      "old": "Tételes cserejavaslatok; nem elfogadott vagy fix ajánlat. Keret felett marad.",
+      "new": "Tételes cserejavaslatok; csökkentett fiókszám és fix fürdő-dugalj. Nincs elfogadva.",
+      "reason": "CP3 summary"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B11",
+      "old": "=SUMIFS('Elemregiszter'!U2:U160,'Elemregiszter'!V2:V160,\"ellenőrzött webshopár\")",
+      "new": "=SUMIFS('Elemregiszter'!U2:U173,'Elemregiszter'!V2:V173,\"ellenőrzött webshopár\")",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B12",
+      "old": "=SUMIFS('Elemregiszter'!U2:U160,'Elemregiszter'!V2:V160,\"beszállítói ajánlat\")",
+      "new": "=SUMIFS('Elemregiszter'!U2:U173,'Elemregiszter'!V2:V173,\"beszállítói ajánlat\")",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B14",
+      "old": "=SUMIFS('Elemregiszter'!U2:U160,'Elemregiszter'!AC2:AC160,\"megrendelt\")",
+      "new": "=SUMIFS('Elemregiszter'!U2:U173,'Elemregiszter'!AC2:AC173,\"megrendelt\")",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B15",
+      "old": 159,
+      "new": "=COUNTA('Elemregiszter'!C2:C173)",
+      "reason": "CP3 summary"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C15",
+      "old": "Új sor után a képletek tartományát bővíteni kell",
+      "new": "CP3 sorokkal bővítve; az összesítő képletek tartománya ellenőrizve.",
+      "reason": "CP3 summary"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B17",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 summary"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B22",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A22)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A22)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C22",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A22)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A22)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B23",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A23)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A23)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C23",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A23)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A23)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B24",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A24)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A24)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C24",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A24)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A24)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B25",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A25)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A25)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C25",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A25)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A25)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B26",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A26)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A26)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C26",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A26)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A26)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B27",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A27)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A27)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C27",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A27)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A27)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B28",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A28)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A28)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C28",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A28)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A28)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B29",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A29)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A29)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C29",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A29)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A29)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B30",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A30)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A30)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C30",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A30)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A30)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B31",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A31)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A31)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C31",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A31)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A31)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B32",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A32)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A32)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C32",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A32)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A32)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B33",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A33)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A33)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C33",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A33)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A33)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B34",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A34)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A34)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C34",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A34)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A34)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B35",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A35)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A35)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C35",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A35)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A35)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B36",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A36)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A36)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C36",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A36)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A36)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B37",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A37)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A37)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C37",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A37)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A37)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B38",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A38)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A38)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C38",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A38)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A38)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B39",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A39)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A39)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C39",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A39)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A39)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B40",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A40)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A40)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C40",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A40)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A40)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B41",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A41)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A41)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C41",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A41)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A41)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B42",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$B$2:$B$160,A42)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$B$2:$B$173,A42)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C42",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$B$2:$B$160,A42)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$B$2:$B$173,A42)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B46",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A46)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A46)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C46",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A46)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A46)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B47",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A47)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A47)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C47",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A47)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A47)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B48",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A48)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A48)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C48",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A48)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A48)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B49",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A49)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A49)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C49",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A49)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A49)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B50",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A50)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A50)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C50",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A50)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A50)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B51",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A51)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A51)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C51",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A51)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A51)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B52",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A52)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A52)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C52",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A52)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A52)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B53",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A53)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A53)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C53",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A53)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A53)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B54",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A54)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A54)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C54",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A54)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A54)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B55",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A55)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A55)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C55",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A55)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A55)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B56",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A56)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A56)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C56",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A56)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A56)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B57",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A57)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A57)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C57",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A57)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A57)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B58",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A58)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A58)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C58",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A58)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A58)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B59",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$G$2:$G$160,A59)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$G$2:$G$173,A59)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C59",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$G$2:$G$160,A59)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$G$2:$G$173,A59)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B63",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$F$2:$F$160,A63)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$F$2:$F$173,A63)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C63",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$F$2:$F$160,A63)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$F$2:$F$173,A63)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B64",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$F$2:$F$160,A64)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$F$2:$F$173,A64)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C64",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$F$2:$F$160,A64)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$F$2:$F$173,A64)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B68",
+      "old": "=SUMIFS('Elemregiszter'!$U$2:$U$160,'Elemregiszter'!$AC$2:$AC$160,A68)",
+      "new": "=SUMIFS('Elemregiszter'!$U$2:$U$173,'Elemregiszter'!$AC$2:$AC$173,A68)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "C68",
+      "old": "=SUMIFS('Elemregiszter'!$AH$2:$AH$160,'Elemregiszter'!$AC$2:$AC$160,A68)",
+      "new": "=SUMIFS('Elemregiszter'!$AH$2:$AH$173,'Elemregiszter'!$AC$2:$AC$173,A68)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B74",
+      "old": "=SUM('Elemregiszter'!BA2:BA160)",
+      "new": "=SUM('Elemregiszter'!BA2:BA173)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Összesítő",
+      "cell": "B75",
+      "old": "=SUM('Elemregiszter'!BB2:BB160)",
+      "new": "=SUM('Elemregiszter'!BB2:BB173)",
+      "reason": "sum range extended"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D7",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO7",
+      "old": "drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf",
+      "new": "CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP7",
+      "old": "KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2",
+      "new": "CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D8",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO8",
+      "old": "drawings/K-07.pdf",
+      "new": "CP3/drawings/K-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP8",
+      "old": "KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+      "new": "CP3_K-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D9",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO9",
+      "old": "drawings/K-01.pdf; drawings/K-02.pdf",
+      "new": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP9",
+      "old": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2",
+      "new": "CP3_K-01; CP3_K-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D10",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO10",
+      "old": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+      "new": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP10",
+      "old": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+      "new": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06; CP3_K-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D11",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO11",
+      "old": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+      "new": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP11",
+      "old": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+      "new": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-05; CP3_K-06; CP3_K-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D12",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO12",
+      "old": "drawings/K-08.pdf; drawings/K-09.pdf",
+      "new": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP12",
+      "old": "KI_K-08; KI_K-09",
+      "new": "CP3_K-08; CP3_K-09",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D13",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO13",
+      "old": "drawings/K-08.pdf; drawings/K-09.pdf",
+      "new": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP13",
+      "old": "KI_K-08; KI_K-09",
+      "new": "CP3_K-08; CP3_K-09",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D14",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO14",
+      "old": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-04.pdf",
+      "new": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-04_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP14",
+      "old": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-04_SMV4EVX00E; KI_K-04_front",
+      "new": "CP3_K-01; CP3_K-02; CP3_K-04",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D15",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO15",
+      "old": "drawings/K-08.pdf; drawings/K-09.pdf",
+      "new": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP15",
+      "old": "KI_K-08; KI_K-09",
+      "new": "CP3_K-08; CP3_K-09",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D16",
+      "old": "Cam03 v2; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO16",
+      "old": "drawings/K-01.pdf; drawings/K-02.pdf; drawings/K-03.pdf; drawings/K-04.pdf; drawings/K-05.pdf; drawings/K-06.pdf; drawings/K-07.pdf",
+      "new": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP16",
+      "old": "KI_K-01_bottom; KI_K-01_top; KI_K-01_sideL; KI_K-01_sideR; KI_K-01_back; KI_K-01_shelf0; KI_K-01_shelf1; KI_K-01_shelf2; KI_K-01_HBA534EB3; KI_K-01_BFL524MB0; KI_K-01_front0; KI_K-01_front1; KI_K-01_front2; KI_K-02_bottom; KI_K-02_top; KI_K-02_sideL; KI_K-02_sideR; KI_K-02_back; KI_K-02_shelf; KI_K-02_front0; KI_K-02_front1; KI_K-02_front2; KI_K-03_bottom; KI_K-03_top; KI_K-03_sideL; KI_K-03_sideR; KI_K-03_back; KI_K-03_front0_0; KI_K-04_SMV4EVX00E; KI_K-04_front; KI_K-05_bottom; KI_K-05_top; KI_K-05_sideL; KI_K-05_sideR; KI_K-05_back; KI_K-05_front0_0; KI_K-05_front0_1; KI_K-05_front0_2; KI_K-06_bottom; KI_K-06_top; KI_K-06_sideL; KI_K-06_sideR; KI_K-06_back; KI_K-06_front0_0; KI_K-06_front0_1; KI_K-06_front0_2; KI_K-06_partition1; KI_K-06_front1_0; KI_K-06_front1_1; KI_K-06_front1_2; KI_K-07_bottom; KI_K-07_top; KI_K-07_sideL; KI_K-07_sideR; KI_K-07_back; KI_K-07_front0_0; KI_K-07_partition1; KI_K-07_front1_0; KI_K-07_shelf0; KI_K-07_shelf1",
+      "new": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06; CP3_K-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "H26",
+      "old": "Konyhai csaptelep",
+      "new": "ÄLMAREN fekete kihúzható konyhai csap",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "I26",
+      "old": "UNKNOWN",
+      "new": "IKEA",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "J26",
+      "old": "UNKNOWN",
+      "new": "506.034.99",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "K26",
+      "old": "UNKNOWN",
+      "new": "https://www.ikea.com/hu/hu/p/aelmaren-konyhai-keverocsap-kihuzhato-veggel-fekete-50603499/",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "L26",
+      "old": "UNKNOWN – felmérés/gyári adat kell",
+      "new": "H360; 35 mm furat; max 50 mm munkalap",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "Q26",
+      "old": 70000,
+      "new": 42990,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "V26",
+      "old": "előzetes becslés",
+      "new": "ellenőrzött webshopár",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "W26",
+      "old": "CP0 tervezői előirányzat, nem webshopár; baseline 02c",
+      "new": "IKEA HU termékoldal; 2026-10-26",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "X26",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF26",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "IKEA ÄLMAREN fekete kihúzható csap. Íves forma eltér a render szögletes csapjától. Tömlő és hulladéktároló együtt próbálandó. Szerelés KI-027.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AG26",
+      "old": 70000,
+      "new": 42990,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AI26",
+      "old": "PENDING",
+      "new": "IKEA ÄLMAREN fekete kihúzható csap. Íves forma eltér a render szögletes csapjától. Tömlő és hulladéktároló együtt próbálandó. Szerelés KI-027.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AY26",
+      "old": 0.85,
+      "new": 0.8,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AZ26",
+      "old": 1.3,
+      "new": 1.4,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D31",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO31",
+      "old": "drawings/TV-01.pdf; drawings/TV-03.pdf",
+      "new": "CP3/drawings/TV-01_CP3.pdf; CP3/drawings/TV-03_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP31",
+      "old": "KI_TV-01_bottom; KI_TV-01_top; KI_TV-01_sideL; KI_TV-01_sideR; KI_TV-01_back; KI_TV-01_front0_0; KI_TV-01_partition1; KI_TV-01_front1_0; KI_TV-01_shelf0; KI_TV-01_shelf1; KI_TV-01_shelf2; KI_TV-01_shelf3; KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+      "new": "CP3_TV-01; CP3_TV-03",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D32",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO32",
+      "old": "drawings/TV-02.pdf",
+      "new": "CP3/drawings/TV-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP32",
+      "old": "KI_TV-02_bottom; KI_TV-02_top; KI_TV-02_sideL; KI_TV-02_sideR; KI_TV-02_back; KI_TV-02_front0_0; KI_TV-02_partition1; KI_TV-02_front1_0; KI_TV-02_partition2; KI_TV-02_front2_0; KI_TV-02_partition3; KI_TV-02_front3_0; KI_TV-02_partition4; KI_TV-02_front4_0; KI_TV-02_shelf0",
+      "new": "CP3_TV-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D33",
+      "old": "Cam02 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO33",
+      "old": "drawings/TV-01.pdf; drawings/TV-02.pdf; drawings/TV-03.pdf",
+      "new": "CP3/drawings/TV-01_CP3.pdf; CP3/drawings/TV-02_CP3.pdf; CP3/drawings/TV-03_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP33",
+      "old": "KI_TV-01_bottom; KI_TV-01_top; KI_TV-01_sideL; KI_TV-01_sideR; KI_TV-01_back; KI_TV-01_front0_0; KI_TV-01_partition1; KI_TV-01_front1_0; KI_TV-01_shelf0; KI_TV-01_shelf1; KI_TV-01_shelf2; KI_TV-01_shelf3; KI_TV-02_bottom; KI_TV-02_top; KI_TV-02_sideL; KI_TV-02_sideR; KI_TV-02_back; KI_TV-02_front0_0; KI_TV-02_partition1; KI_TV-02_front1_0; KI_TV-02_partition2; KI_TV-02_front2_0; KI_TV-02_partition3; KI_TV-02_front3_0; KI_TV-02_partition4; KI_TV-02_front4_0; KI_TV-02_shelf0; KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+      "new": "CP3_TV-01; CP3_TV-02; CP3_TV-03",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D35",
+      "old": "Cam02 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO35",
+      "old": "drawings/TV-03.pdf",
+      "new": "CP3/drawings/TV-03_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP35",
+      "old": "KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+      "new": "CP3_TV-03",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D38",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO38",
+      "old": "drawings/CF-01.pdf",
+      "new": "CP3/drawings/CF-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP38",
+      "old": "KI_CF-01",
+      "new": "CP3_CF-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D39",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO39",
+      "old": "drawings/ST-01.pdf",
+      "new": "CP3/drawings/ST-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP39",
+      "old": "KI_ST-01",
+      "new": "CP3_ST-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D47",
+      "old": "Cam04 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO47",
+      "old": "drawings/HB-01.pdf",
+      "new": "CP3/drawings/HB-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP47",
+      "old": "KI_HB-01",
+      "new": "CP3_HB-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D48",
+      "old": "Cam04 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO48",
+      "old": "drawings/HB-01.pdf",
+      "new": "CP3/drawings/HB-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP48",
+      "old": "KI_HB-01",
+      "new": "CP3_HB-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D49",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "H49",
+      "old": "Északi gardrób szabványkorpuszok",
+      "new": "Északi egyedi gardróbkorpusz CP3",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "I49",
+      "old": "UNKNOWN",
+      "new": "egyedi asztalos gyártás",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "J49",
+      "old": "502.145.60",
+      "new": "WN-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "K49",
+      "old": "https://www.ikea.com/hu/hu/p/pax-gardrobvaz-feher-50214560/",
+      "new": null,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AA49",
+      "old": "Önmagában nem renderazonos: hiányzik grafikus front és 290cm-ig kitöltés. 3 váz299,4cm; 302cm névleges fülkében csak2,6cm összes oldaltartalék, nem igazolt szerelhetőség.",
+      "new": "Egyedi 18 mm korpusz; PAX termékazonosság és beférés nincs állítva.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF49",
+      "old": "Helyszíni falferdeség/pillér; frontok, pántok/belsők/takarók külön KI-050–052. Déli 242cm sáv más kiosztás. Csomagelőirányzat maradt, nem puszta termékár.",
+      "new": "CP3 egyedi korpuszra pontosítva. A korábbi korpusz-előirányzat változatlan becslés; ajánlat szükséges.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO49",
+      "old": "drawings/WN-01.pdf",
+      "new": "CP3/drawings/WN-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP49",
+      "old": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3",
+      "new": "CP3_WN-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AR49",
+      "old": "R02 méretezett ajánlati terv; nem helyszíni méret",
+      "new": "CP3 tervi befoglaló, kész helyszíni méret és szerelési hézag ellenőrizendő.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D50",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "H50",
+      "old": "Déli gardrób szabványkorpuszok",
+      "new": "Déli egyedi gardróbkorpusz CP3",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "I50",
+      "old": "UNKNOWN",
+      "new": "egyedi asztalos gyártás",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "J50",
+      "old": "UNKNOWN",
+      "new": "WS-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "K50",
+      "old": "UNKNOWN",
+      "new": null,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AA50",
+      "old": "PENDING",
+      "new": "Egyedi 18 mm korpusz; PAX termékazonosság és beférés nincs állítva.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF50",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "CP3 egyedi korpuszra pontosítva. A korábbi korpusz-előirányzat változatlan becslés; ajánlat szükséges.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO50",
+      "old": "drawings/WS-01.pdf",
+      "new": "CP3/drawings/WS-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP50",
+      "old": "KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+      "new": "CP3_WS-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AR50",
+      "old": "R02 méretezett ajánlati terv; nem helyszíni méret",
+      "new": "CP3 tervi befoglaló, kész helyszíni méret és szerelési hézag ellenőrizendő.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D51",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "H51",
+      "old": "Északi és déli gardróbbelsők",
+      "new": "Északi és déli gardróbbelsők, 2 lifttel",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "Q51",
+      "old": 190000,
+      "new": 786000,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "W51",
+      "old": "CP0 tervezői előirányzat, nem webshopár; baseline 04c",
+      "new": "CP3/data/koltseg_bontas.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "X51",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF51",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "A 190 000 Ft régi teljes belső csomag helyett a CP3 tételes fiók/polc/rúd/lift összege. Gazdaságos: 4 fiók helyett 4 polc; 86 000 Ft megtakarítás, napi áttekinthetőség romlik.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AG51",
+      "old": 130000,
+      "new": 700000,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AI51",
+      "old": "Gardróbban4 belső fiókkal kevesebb, helyettük4 állítható polc; 60000 Ft becsült megtakarítás. Tulajdonosi döntés és ajánlat szükséges; főösszegbe csak választás után.",
+      "new": "A 190 000 Ft régi teljes belső csomag helyett a CP3 tételes fiók/polc/rúd/lift összege. Gazdaságos: 4 fiók helyett 4 polc; 86 000 Ft megtakarítás, napi áttekinthetőség romlik.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO51",
+      "old": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+      "new": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP51",
+      "old": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+      "new": "CP3_WN-01; CP3_WS-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AY51",
+      "old": 0.85,
+      "new": 0.8,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AZ51",
+      "old": 1.3,
+      "new": 1.4,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D52",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO52",
+      "old": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+      "new": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP52",
+      "old": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+      "new": "CP3_WN-01; CP3_WS-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D53",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO53",
+      "old": "drawings/WN-01.pdf; drawings/WS-01.pdf",
+      "new": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP53",
+      "old": "KI_WN-01_bottom; KI_WN-01_top; KI_WN-01_sideL; KI_WN-01_sideR; KI_WN-01_back; KI_WN-01_front0_0; KI_WN-01_front0_2.36; KI_WN-01_partition1; KI_WN-01_front1_0; KI_WN-01_front1_2.36; KI_WN-01_partition2; KI_WN-01_front2_0; KI_WN-01_front2_2.36; KI_WN-01_partition3; KI_WN-01_front3_0; KI_WN-01_front3_2.36; KI_WN-01_fixed_loft; KI_WN-01_bay0_shelf0; KI_WN-01_bay0_rail0; KI_WN-01_bay1_shelf0; KI_WN-01_bay1_rail0; KI_WN-01_bay1_rail1; KI_WN-01_bay2_shelf0; KI_WN-01_bay2_rail0; KI_WN-01_bay2_rail1; KI_WN-01_bay3_shelf0; KI_WN-01_bay3_shelf1; KI_WN-01_bay3_shelf2; KI_WN-01_bay3_shelf3; KI_WN-01_bay3_drawer0; KI_WN-01_bay3_drawer1; KI_WN-01_bay3_drawer2; KI_WN-01_bay3_drawer3; KI_WS-01_bottom; KI_WS-01_top; KI_WS-01_sideL; KI_WS-01_sideR; KI_WS-01_back; KI_WS-01_front0_0; KI_WS-01_front0_2.36; KI_WS-01_partition1; KI_WS-01_front1_0; KI_WS-01_front1_2.36; KI_WS-01_partition2; KI_WS-01_front2_0; KI_WS-01_front2_2.36; KI_WS-01_partition3; KI_WS-01_front3_0; KI_WS-01_front3_2.36; KI_WS-01_fixed_loft; KI_WS-01_bay0_shelf0; KI_WS-01_bay0_rail0; KI_WS-01_bay1_shelf0; KI_WS-01_bay1_rail0; KI_WS-01_bay2_shelf0; KI_WS-01_bay2_shelf1; KI_WS-01_bay2_shelf2; KI_WS-01_bay2_shelf3; KI_WS-01_bay2_drawer0; KI_WS-01_bay2_drawer1; KI_WS-01_bay3_shelf0; KI_WS-01_bay3_shelf1; KI_WS-01_bay3_shelf2; KI_WS-01_bay3_shelf3; KI_WS-01_bay3_shelf4",
+      "new": "CP3_WN-01; CP3_WS-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D54",
+      "old": "Cam04 v1; Cam11 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO54",
+      "old": "drawings/NT-L.pdf; drawings/NT-R.pdf",
+      "new": "CP3/drawings/NT-L_CP3.pdf; CP3/drawings/NT-R_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP54",
+      "old": "KI_NT-L_bottom; KI_NT-L_top; KI_NT-L_sideL; KI_NT-L_sideR; KI_NT-L_back; KI_NT-L_front0_0; KI_NT-L_front0_1; KI_NT-R_bottom; KI_NT-R_top; KI_NT-R_sideL; KI_NT-R_sideR; KI_NT-R_back; KI_NT-R_front0_0; KI_NT-R_front0_1",
+      "new": "CP3_NT-L; CP3_NT-R",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D61",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "Q61",
+      "old": 150000,
+      "new": 515000,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "W61",
+      "old": "CP0 tervezői előirányzat, nem webshopár; baseline 05",
+      "new": "CP3/data/koltseg_bontas.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "X61",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF61",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "Teljes korpusz + CP3 belső új előirányzata: 190 000 Ft korpusz és tételes belső; régi 150 000 Ft kiváltva, nem hozzáadva. Front és szerelés továbbra KI-061.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AG61",
+      "old": 150000,
+      "new": 515000,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AI61",
+      "old": "PENDING",
+      "new": "Teljes korpusz + CP3 belső új előirányzata: 190 000 Ft korpusz és tételes belső; régi 150 000 Ft kiváltva, nem hozzáadva. Front és szerelés továbbra KI-061.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO61",
+      "old": "drawings/W52-01.pdf",
+      "new": "CP3/drawings/W52-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP61",
+      "old": "KI_W52-01_bottom; KI_W52-01_top; KI_W52-01_sideL; KI_W52-01_sideR; KI_W52-01_back; KI_W52-01_front0_0; KI_W52-01_front0_2.36; KI_W52-01_partition1; KI_W52-01_front1_0; KI_W52-01_front1_2.36; KI_W52-01_partition2; KI_W52-01_front2_0; KI_W52-01_front2_2.36; KI_W52-01_partition3; KI_W52-01_front3_0; KI_W52-01_front3_2.36; KI_W52-01_fixed_loft; KI_W52-01_bay0_shelf0; KI_W52-01_bay0_rail0; KI_W52-01_bay1_shelf0; KI_W52-01_bay1_rail0; KI_W52-01_bay2_shelf0; KI_W52-01_bay2_shelf1; KI_W52-01_bay2_shelf2; KI_W52-01_bay2_drawer0; KI_W52-01_bay2_drawer1; KI_W52-01_bay2_drawer2; KI_W52-01_bay2_drawer3; KI_W52-01_bay3_shelf0; KI_W52-01_bay3_shelf1; KI_W52-01_bay3_shelf2; KI_W52-01_bay3_shelf3; KI_W52-01_bay3_shelf4",
+      "new": "CP3_W52-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AY61",
+      "old": 0.85,
+      "new": 0.8,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AZ61",
+      "old": 1.3,
+      "new": 1.4,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D62",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO62",
+      "old": "drawings/W52-01.pdf",
+      "new": "CP3/drawings/W52-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP62",
+      "old": "KI_W52-01_bottom; KI_W52-01_top; KI_W52-01_sideL; KI_W52-01_sideR; KI_W52-01_back; KI_W52-01_front0_0; KI_W52-01_front0_2.36; KI_W52-01_partition1; KI_W52-01_front1_0; KI_W52-01_front1_2.36; KI_W52-01_partition2; KI_W52-01_front2_0; KI_W52-01_front2_2.36; KI_W52-01_partition3; KI_W52-01_front3_0; KI_W52-01_front3_2.36; KI_W52-01_fixed_loft; KI_W52-01_bay0_shelf0; KI_W52-01_bay0_rail0; KI_W52-01_bay1_shelf0; KI_W52-01_bay1_rail0; KI_W52-01_bay2_shelf0; KI_W52-01_bay2_shelf1; KI_W52-01_bay2_shelf2; KI_W52-01_bay2_drawer0; KI_W52-01_bay2_drawer1; KI_W52-01_bay2_drawer2; KI_W52-01_bay2_drawer3; KI_W52-01_bay3_shelf0; KI_W52-01_bay3_shelf1; KI_W52-01_bay3_shelf2; KI_W52-01_bay3_shelf3; KI_W52-01_bay3_shelf4",
+      "new": "CP3_W52-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D63",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO63",
+      "old": "drawings/DS52.pdf",
+      "new": "CP3/drawings/DS52_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP63",
+      "old": "KI_DS52",
+      "new": "CP3_DS52",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D65",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO65",
+      "old": "drawings/NT-64.pdf",
+      "new": "CP3/drawings/NT-64_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP65",
+      "old": "KI_NT-64_bottom; KI_NT-64_top; KI_NT-64_sideL; KI_NT-64_sideR; KI_NT-64_back; KI_NT-64_front0_0; KI_NT-64_shelf0",
+      "new": "CP3_NT-64",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D73",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "Q73",
+      "old": 150000,
+      "new": 382500,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "W73",
+      "old": "CP0 tervezői előirányzat, nem webshopár; baseline 06",
+      "new": "CP3/data/koltseg_bontas.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "X73",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF73",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "Teljes sekély korpusz 160 000 Ft + CP3 belső; régi 150 000 Ft kiváltva. Front és szerelés KI-073.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AG73",
+      "old": 150000,
+      "new": 382500,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AI73",
+      "old": "PENDING",
+      "new": "Teljes sekély korpusz 160 000 Ft + CP3 belső; régi 150 000 Ft kiváltva. Front és szerelés KI-073.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO73",
+      "old": "drawings/W53-01.pdf",
+      "new": "CP3/drawings/W53-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP73",
+      "old": "KI_W53-01_bottom; KI_W53-01_top; KI_W53-01_sideL; KI_W53-01_sideR; KI_W53-01_back; KI_W53-01_front0_0; KI_W53-01_front0_2.36; KI_W53-01_partition1; KI_W53-01_front1_0; KI_W53-01_front1_2.36; KI_W53-01_partition2; KI_W53-01_front2_0; KI_W53-01_front2_2.36; KI_W53-01_fixed_loft; KI_W53-01_bay0_shelf0; KI_W53-01_bay0_rail0; KI_W53-01_bay1_shelf0; KI_W53-01_bay1_rail0; KI_W53-01_bay2_shelf0; KI_W53-01_bay2_shelf1; KI_W53-01_bay2_shelf2; KI_W53-01_bay2_drawer0; KI_W53-01_bay2_drawer1; KI_W53-01_bay2_drawer2",
+      "new": "CP3_W53-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AY73",
+      "old": 0.85,
+      "new": 0.8,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AZ73",
+      "old": 1.3,
+      "new": 1.4,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D74",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO74",
+      "old": "drawings/W53-01.pdf",
+      "new": "CP3/drawings/W53-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP74",
+      "old": "KI_W53-01_bottom; KI_W53-01_top; KI_W53-01_sideL; KI_W53-01_sideR; KI_W53-01_back; KI_W53-01_front0_0; KI_W53-01_front0_2.36; KI_W53-01_partition1; KI_W53-01_front1_0; KI_W53-01_front1_2.36; KI_W53-01_partition2; KI_W53-01_front2_0; KI_W53-01_front2_2.36; KI_W53-01_fixed_loft; KI_W53-01_bay0_shelf0; KI_W53-01_bay0_rail0; KI_W53-01_bay1_shelf0; KI_W53-01_bay1_rail0; KI_W53-01_bay2_shelf0; KI_W53-01_bay2_shelf1; KI_W53-01_bay2_shelf2; KI_W53-01_bay2_drawer0; KI_W53-01_bay2_drawer1; KI_W53-01_bay2_drawer2",
+      "new": "CP3_W53-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D77",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO77",
+      "old": "drawings/NT-76.pdf",
+      "new": "CP3/drawings/NT-76_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP77",
+      "old": "KI_NT-76_bottom; KI_NT-76_top; KI_NT-76_sideL; KI_NT-76_sideR; KI_NT-76_back; KI_NT-76_front0_0; KI_NT-76_shelf0",
+      "new": "CP3_NT-76",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D83",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO83",
+      "old": "drawings/ENT-01.pdf",
+      "new": "CP3/drawings/ENT-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP83",
+      "old": "KI_ENT-01_bottom; KI_ENT-01_top; KI_ENT-01_sideL; KI_ENT-01_sideR; KI_ENT-01_back; KI_ENT-01_front0_0; KI_ENT-01_partition1; KI_ENT-01_front1_0; KI_ENT-01_shelf0; KI_ENT-01_shelf1; KI_ENT-01_shelf2; KI_ENT-01_shelf3",
+      "new": "CP3_ENT-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D84",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO84",
+      "old": "drawings/ENT-02.pdf",
+      "new": "CP3/drawings/ENT-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP84",
+      "old": "KI_ENT-02",
+      "new": "CP3_ENT-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D86",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO86",
+      "old": "drawings/ENT-01.pdf",
+      "new": "CP3/drawings/ENT-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP86",
+      "old": "KI_ENT-01_bottom; KI_ENT-01_top; KI_ENT-01_sideL; KI_ENT-01_sideR; KI_ENT-01_back; KI_ENT-01_front0_0; KI_ENT-01_partition1; KI_ENT-01_front1_0; KI_ENT-01_shelf0; KI_ENT-01_shelf1; KI_ENT-01_shelf2; KI_ENT-01_shelf3",
+      "new": "CP3_ENT-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D87",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO87",
+      "old": "drawings/HALL-01.pdf",
+      "new": "CP3/drawings/HALL-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP87",
+      "old": "KI_HALL-01",
+      "new": "CP3_HALL-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D93",
+      "old": "Cam10 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO93",
+      "old": "drawings/B62-01.pdf",
+      "new": "CP3/drawings/B62-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP93",
+      "old": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1; KI_EX-BASIN62",
+      "new": "CP3_B62-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D95",
+      "old": "Cam10 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO95",
+      "old": "drawings/B62-02.pdf",
+      "new": "CP3/drawings/B62-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP95",
+      "old": "KI_B62-02_bottom; KI_B62-02_top; KI_B62-02_sideL; KI_B62-02_sideR; KI_B62-02_back; KI_B62-02_front0_0; KI_B62-02_shelf0; KI_B62-02_shelf1; KI_B62-02_shelf2",
+      "new": "CP3_B62-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D96",
+      "old": "Cam10 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO96",
+      "old": "drawings/B62-01.pdf",
+      "new": "CP3/drawings/B62-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP96",
+      "old": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1",
+      "new": "CP3_B62-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D97",
+      "old": "Cam10 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO97",
+      "old": "drawings/B62-01.pdf",
+      "new": "CP3/drawings/B62-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP97",
+      "old": "KI_B62-01_bottom; KI_B62-01_top; KI_B62-01_sideL; KI_B62-01_sideR; KI_B62-01_back; KI_B62-01_front0_0; KI_B62-01_front0_1",
+      "new": "CP3_B62-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D99",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO99",
+      "old": "drawings/B61-01.pdf",
+      "new": "CP3/drawings/B61-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP99",
+      "old": "KI_B61-01_bottom; KI_B61-01_top; KI_B61-01_sideL; KI_B61-01_sideR; KI_B61-01_back; KI_B61-01_front0_0; KI_B61-01_front0_1; KI_EX-BASIN61",
+      "new": "CP3_B61-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D102",
+      "old": "NEM RENDERELT",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO102",
+      "old": "drawings/WC-01.pdf",
+      "new": "CP3/drawings/WC-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP102",
+      "old": "KI_WC-01_bottom; KI_WC-01_top; KI_WC-01_sideL; KI_WC-01_sideR; KI_WC-01_back; KI_WC-01_front0_0; KI_WC-01_shelf0; KI_WC-01_shelf1",
+      "new": "CP3_WC-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D115",
+      "old": "Cam02 v1; Cam12 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO115",
+      "old": "drawings/TV-03.pdf",
+      "new": "CP3/drawings/TV-03_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP115",
+      "old": "KI_TV-03_panel0; KI_TV-03_panel1; KI_TV-03_panel2; KI_TV-03_panel3",
+      "new": "CP3_TV-03",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D119",
+      "old": "Cam04 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO119",
+      "old": "drawings/HB-01.pdf",
+      "new": "CP3/drawings/HB-01_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP119",
+      "old": "KI_HB-01",
+      "new": "CP3_HB-01",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "H120",
+      "old": "Gardróbbelsők funkcionális fénye",
+      "new": "Szekrénybelső fények szerelése és terhelt próbája",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "Q120",
+      "old": 55000,
+      "new": 144500,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "W120",
+      "old": "CP0 tervezői előirányzat, nem webshopár; baseline 10",
+      "new": "73 db × 1 500 Ft + 35 000 Ft mérés/beállítás előirányzat",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "X120",
+      "old": "2026-10-26",
+      "new": "2026-10-27",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AF120",
+      "old": "CP0 becslési csomag: segédanyag és munkadíj a megnevezett tartalom szerint; külön szállítás a 14 sorban. Nem ingyenes szállítás.",
+      "new": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 73 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AG120",
+      "old": 55000,
+      "new": 144500,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AI120",
+      "old": "PENDING",
+      "new": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 73 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AY120",
+      "old": 0.85,
+      "new": 0.8,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AZ120",
+      "old": 1.3,
+      "new": 1.4,
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D124",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO124",
+      "old": "drawings/ART-02.pdf",
+      "new": "CP3/drawings/ART-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP124",
+      "old": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+      "new": "CP3_ART-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D125",
+      "old": "Cam12 v1; Cam03 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO125",
+      "old": "drawings/ART-07.pdf",
+      "new": "CP3/drawings/ART-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP125",
+      "old": "KI_ART-07",
+      "new": "CP3_ART-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D128",
+      "old": "Cam12 v1; Cam03 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO128",
+      "old": "drawings/ART-07.pdf",
+      "new": "CP3/drawings/ART-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP128",
+      "old": "KI_ART-07",
+      "new": "CP3_ART-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D129",
+      "old": "Cam12 v1; Cam03 v2",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO129",
+      "old": "drawings/ART-07.pdf",
+      "new": "CP3/drawings/ART-07_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP129",
+      "old": "KI_ART-07",
+      "new": "CP3_ART-07",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D132",
+      "old": "Cam12 v1; Cam02 v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO132",
+      "old": "drawings/ART-02.pdf",
+      "new": "CP3/drawings/ART-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP132",
+      "old": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+      "new": "CP3_ART-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D133",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO133",
+      "old": "drawings/ART-02.pdf",
+      "new": "CP3/drawings/ART-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP133",
+      "old": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+      "new": "CP3_ART-02",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "D134",
+      "old": "Cam_02/Cam_12 V33_C_v1",
+      "new": "CP3/render_handoff/manifest_CP3.json",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AO134",
+      "old": "drawings/ART-02.pdf",
+      "new": "CP3/drawings/ART-02_CP3.pdf",
+      "reason": "CP3 targeted patch"
+    },
+    {
+      "sheet": "Elemregiszter",
+      "cell": "AP134",
+      "old": "KI_ART-02_panel0; KI_ART-02_panel1; KI_ART-02_panel2",
+      "new": "CP3_ART-02",
+      "reason": "CP3 targeted patch"
+    }
+  ],
+  "rows": 172,
+  "sheets": 20,
+  "cached_main": 23253840,
+  "cached_economy": 22468340,
+  "attachments": 279,
+  "bad_attachments": [],
+  "blender_check_counts": {
+    "PASS": 95,
+    "FAIL": 4,
+    "OPEN": 5,
+    "CONDITIONAL": 2,
+    "OWNER_DECISION": 1
+  },
+  "camera_blocks": [
+    "V12",
+    "V13"
+  ],
+  "notes": [
+    "Product photographs visually checked as intended product family and colour; photographs do not prove size variant.",
+    "V12/V13 camera too close: explicitly blocked, F01/F02 functional cameras supplied.",
+    "All other native controls inspected as simplified geometry, not exact finished product renders."
+  ]
+}

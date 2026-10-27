@@ -1,0 +1,20 @@
+[
+  {
+    "camera": "02",
+    "primary": "CP3/sources/A902_S01_KyotoInk_Cam_02__V33_C_v1.png",
+    "sha256": "28d88d6d3fe3a4c5f2b83335eb3b97623b30bfa932e7d3458a6fe023451800f1",
+    "previous": "targets/A902_S01_KyotoInk_Cam_02__V33_C_v1.png",
+    "previous_sha256": "75e48c7399041875c7f10cb7dabc781beeeea4157c3844d94b7dbdc11e74a44b",
+    "same_decoded_pixels": true,
+    "role": "aesthetic target; no geometric proof"
+  },
+  {
+    "camera": "12",
+    "primary": "CP3/sources/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
+    "sha256": "39955e5b2ea3c51227d8407cb2f444bf15777717d81094b507242f7d1781d2c1",
+    "previous": "targets/A902_S01_KyotoInk_Cam_12__V33_C_v1.png",
+    "previous_sha256": "0738088c7cd93b930b97d43e3f9f3e6c1be02afc440811332f0f377f7e65e0e7",
+    "same_decoded_pixels": true,
+    "role": "aesthetic target; no geometric proof"
+  }
+]

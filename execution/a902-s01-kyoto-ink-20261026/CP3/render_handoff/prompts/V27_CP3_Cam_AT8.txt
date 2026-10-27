@@ -1,0 +1,33 @@
+A902 KYOTO INK — V27: Eighth-floor reserve pantry and freezer.
+
+Create only a CONDITIONAL DESIGN STUDY for room AT8-01, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: CP3_Cam_AT8. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V27_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: Neutral diagnostic illumination; no verified installed storage luminaire.
+
+Attachment order and role:
+
+1. CP3/blender/V27_AT8.jpg — Native furnished room study; planning envelope, not field-verified room. SHA256 f97773ab73b5b3b87a767a89bbfec4a91b7b05bceee20bedd66dca6c3ea83dce.
+
+2. CP3/drawings/ST_AT8-01.pdf — Storage plan with uncertainty and furniture IDs. SHA256 d1ecb9626604befcfdb354bd91fe88d6f2d0c1c732d17016c2ef279c24e0b6f1.
+
+3. CP3/evidence/product_photos/KI-CP3-S01.jpg — Exact product-page shelving photograph. SHA256 e281e2da80ffa8eb016526ec078aa52783871d21cb485952bf694b29cf323f6a.
+
+Visible product and custom-structure identity:
+
+{"id": "AT-R1", "kind": "rack", "x": 50, "y": 50, "w": 800, "d": 380, "h": 1600, "sku": "IKEA JONAXEL 504.199.72"}
+
+{"id": "AT-R2", "kind": "rack", "x": 1720, "y": 50, "w": 800, "d": 380, "h": 1600, "sku": "IKEA JONAXEL 504.199.72"}
+
+{"id": "AT-FR", "kind": "freezer", "x": 1000, "y": 50, "w": 597, "d": 675, "h": 1455, "sku": "Liebherr FNd 4625 / GN46Vd25 page-name conflict: exact EAN required"}
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: [J] graphic-read / planning envelope; all finished dimensions, height and door hinge await survey. Area alone did not establish dimensions.; north-right, 750 mm proposal from earlier drawing; hinge field check; Do not add water outlets or assume a garage electrical socket
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

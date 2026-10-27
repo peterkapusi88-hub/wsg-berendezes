@@ -1,0 +1,187 @@
+A902 KYOTO INK — V03: Cam_03_Etkezo_konyha.
+
+Create only a CONDITIONAL DESIGN STUDY for room 02, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: Cam_03_Etkezo_konyha. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V03_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: daylight / task lighting as R02 scene schedule.
+
+Attachment order and role:
+
+1. CP3/blender/V03_CP3.jpg — Primary exact-camera native Blender control; simplified product meshes, no final-product certification. SHA256 50cb3aae08cef748746427b7edd918258196c8e54f7b4258d490533ddcf859ca.
+
+2. CP3/drawings/P-CP3.pdf — Whole-apartment placement and internal-light overlay. SHA256 5b78c260f5f042f5c5acc49d7b05d1b24f67164ad34c694abe296a4d183f8fae.
+
+3. targets/A902_S01_KyotoInk_2_etkezo-konyha_Cam_03_A__ASTRA_V3_1__v2.png — Aesthetic target only, never geometric or dimensional evidence. SHA256 a64e9e53f4b33dccc8392c9237b921b796e90201dc742261a54b3383af7bb5dc.
+
+4. CP3/drawings/K-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 5d435996d806e31d8bca53f7d1d1fab4e00378ae7266596c7ad015feaebc745f.
+
+5. CP3/drawings/K-02_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 f6e9aad454b917a71ff3354f86f98734869884ffdf69945eacaa2e6565cb3147.
+
+6. CP3/drawings/K-03_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 4285fabe92687d34540cf073ebd7980239733a9093fcb49b3101edcf714b48c0.
+
+7. CP3/drawings/K-04_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 7e5d3c433d594172ce8ff00291e66e85cece2b027546b04520aaa01d6dcf72ef.
+
+8. CP3/drawings/K-05_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 0b5fc01b2d6881aa8df70ae4fb8b730c029247e3fc53fc70b1098a2ab0746b6f.
+
+9. CP3/drawings/K-06_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 638e56bd573c6bc1e0ab53567c3d24a2121f65fb32b81cb4882fb5223c0d9521.
+
+10. CP3/drawings/K-07_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 d09eff75f835e9ab804a5ae26d7438d7beb6db2e7a88bd865ead8f6bed15637e.
+
+11. CP3/drawings/K-08_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 e8023574016160e619af6adb8a85bdcac07863f235a5420642e3c7ac336b4414.
+
+12. CP3/drawings/TV-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 a1faba8d147250593f3e59e3286eee897e30a68d3828bb2951836fc5e1be5ca5.
+
+13. CP3/drawings/TV-02_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 428bdbf7ec72d9070041add343d255b2c70c7d81dbe7ddc2dcdd6645748eb4d4.
+
+14. CP3/drawings/TV-03_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 8f36555d2cedd07109fdab637d0d710b1b28f6cb800251d38c0f1177e06dbd18.
+
+15. CP3/drawings/ART-02_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 c553347d1b5de29dd72047511afd5a2808bc92a936039066e7ee2d7b893cbb06.
+
+16. CP3/drawings/CF-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 1535b6e8f9734a253f02b1ac7ccfae33fadbdfda08ece74f749a6c0aa774fab0.
+
+17. CP3/drawings/ST-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 7db1f9ff31f75ca5e51b0f1921d951cb6f3f6a3452937c20867b939f2aa60362.
+
+18. CP3/drawings/K-09_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 237688cd50a290f5b19c96f51197b17da1c480edb32559975204ff0a18da76e5.
+
+19. CP3/evidence/product_photos/KI-025.jpg — Official exact-product-page photograph; check pictured variant before final use. SHA256 28b07249e0ef900c2c9ae93c1ff354919e476aa6b1d07ae3f41e02d79041d414.
+
+Visible product and custom-structure identity:
+
+{"element": "KI-006", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Alsó konyhakorpuszok és lábak", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-007", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Felső korpuszok és felfüggesztők", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-07: 1400×350×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-008", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Magas hűtő/sütő/mikró korpuszok", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-01: 600×600×2400 mm; K-02: 600×620×2400 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-009", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Látható grafit és kréta frontok, fogásprofil", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-010", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Fiókok, pántok, polcok és belső szerelvények", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-011", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Munkalap, vízzáró illesztések és kivágások", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-08: 1460×620×38 mm; K-09: 1600×620×38 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-012", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Mosható hátfal és mellvédvégek", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-08: 1460×620×38 mm; K-09: 1600×620×38 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-013", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Lábazat, takarók, zárópanelek és szellőzőrács", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-04: 600×620×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-014", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Szabási veszteség, élzárás és segédanyag", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-08: 1460×620×38 mm; K-09: 1600×620×38 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-015", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Konyha összeszerelés és beépítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "K-01: 600×600×2400 mm; K-02: 600×620×2400 mm; K-03: 800×620×900 mm; K-04: 600×620×900 mm; K-05: 600×620×900 mm; K-06: 1000×620×900 mm; K-07: 1400×350×900 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-016", "sku": "HBA534EB3", "url": "https://media3.bsh-group.com/Documents/specsheet/en-MT/HBA534EB3.pdf", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Bosch HBA534EB3 fekete sütő", "brand": "Bosch", "product_url": "https://media3.bsh-group.com/Documents/specsheet/en-MT/HBA534EB3.pdf", "dimensions": "594×548×595 mm; niche 560–568×550×585–595", "price_status": "előzetes becslés"}
+
+{"element": "KI-017", "sku": "PUE611BB5E", "url": "https://media3.bosch-home.com/Documents/specsheet/en-GB/PUE611BB5E.pdf", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Bosch PUE611BB5E indukciós főzőlap", "brand": "Bosch", "product_url": "https://media3.bosch-home.com/Documents/specsheet/en-GB/PUE611BB5E.pdf", "dimensions": "592×522×51 mm; kivágás 560×490–500", "price_status": "előzetes becslés"}
+
+{"element": "KI-018", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Páraelszívó", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-019", "sku": "KIN86VSE0", "url": "https://www.bosch-home.fr/fr/product/le-froid/refrigerateurs-combines/combines-avec-congelateurs-en-bas-encastrable/KIN86VSE0", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Bosch KIN86VSE0 integrált hűtő", "brand": "Bosch", "product_url": "https://www.bosch-home.fr/fr/product/le-froid/refrigerateurs-combines/combines-avec-congelateurs-en-bas-encastrable/KIN86VSE0", "dimensions": "541×548×1772 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-020", "sku": "SMV4EVX00E", "url": "https://www.bosch-home.co.uk/supportdetail/product/SMV4EVX00E/69", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Bosch SMV4EVX00E", "brand": "Bosch", "product_url": "https://www.bosch-home.co.uk/supportdetail/product/SMV4EVX00E/69", "dimensions": "598×550×815 mm; nyitva teljes mélység1150 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-021", "sku": "BFL524MB0", "url": "https://media3.bosch-home.com/Documents/specsheet/sk-SK/BFL524MB0.pdf", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Bosch BFL524MB0 fekete mikro", "brand": "Bosch", "product_url": "https://media3.bosch-home.com/Documents/specsheet/sk-SK/BFL524MB0.pdf", "dimensions": "594×317×382 mm; niche 560–568×300×362–365", "price_status": "előzetes becslés"}
+
+{"element": "KI-022", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Elszívó csatorna és visszacsapás", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-023", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Gépek beüzemelése és bútorfront illesztése", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-024", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Mosogató", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-025", "sku": "506.034.99", "url": "UNKNOWN", "asset_status": "PHOTO_PACKAGED; manufacturer3D not provided", "name": "ÄLMAREN fekete kihúzható konyhai csap", "brand": "IKEA", "product_url": "https://www.ikea.com/hu/hu/p/aelmaren-konyhai-keverocsap-kihuzhato-veggel-fekete-50603499/", "dimensions": "H360; 35 mm furat; max 50 mm munkalap", "price_status": "ellenőrzött webshopár", "photo": "CP3/evidence/product_photos/KI-025.jpg", "photo_sha256": "28b07249e0ef900c2c9ae93c1ff354919e476aa6b1d07ae3f41e02d79041d414"}
+
+{"element": "KI-026", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Szifon, sarokszelepek, csövek és tömítések", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-027", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Mosogató és mosogatógép vízbekötése", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-028", "sku": "DEQ19WES60483-225182", "url": "https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html?simple=DEQ19WES60483-225182", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Ovális étkezőasztal 160×90 célbefoglaló", "brand": "Westwing", "product_url": "https://www.westwing.hu/toni-ovalis-alaku-fa-etkezoasztal-200-x-90-cm-hu-19wes60483.html?simple=DEQ19WES60483-225182", "dimensions": "160×90×75; lap 2,5", "price_status": "ellenőrzött webshopár"}
+
+{"element": "KI-029", "sku": "C0100003HE12", "url": "https://kavehome.com/hu/en/p/eamy-chair-light-grey-chenille-and-ash-wood-veneer-with-a-natural-finish-and-black-metal", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Hat kárpitozott étkezőszék", "brand": "Kave", "product_url": "https://kavehome.com/hu/en/p/eamy-chair-light-grey-chenille-and-ash-wood-veneer-with-a-natural-finish-and-black-metal", "dimensions": "55×53×75; ülésmagasság46; ±2cm", "price_status": "előzetes becslés"}
+
+{"element": "KI-030", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W01 teljes panelkompozíció és tusgrafikás torony", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "TV-01: 700×400×2330 mm; TV-03: 2600×36×2330 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-031", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W01 alsó négyfrontos médiabútor", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "TV-02: 3300×400×400 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-032", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W01 rögzítés, szerviznyílás, szerelés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "TV-01: 700×400×2330 mm; TV-02: 3300×400×400 mm; TV-03: 2600×36×2330 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-033", "sku": "QE65Q7FAAUXXH", "url": "https://www.samsung.com/hu/tvs/qled-tv/q7f-65-inch-qled-4k-smart-tv-qe65q7faauxxh/", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Samsung Q7F 65 col", "brand": "Samsung", "product_url": "https://www.samsung.com/hu/tvs/qled-tv/q7f-65-inch-qled-4k-smart-tv-qe65q7faauxxh/", "dimensions": "1452.9×60.6×834 mm; VESA400×300;16.7kg", "price_status": "előzetes becslés"}
+
+{"element": "KI-034", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Teherhordó TV-konzol", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "TV-03: 2600×36×2330 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-035", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "HDMI, hálózat, kábelszervezés, audióigény előirányzat", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-036", "sku": "DEQ21WES12329-168260", "url": "https://www.westwing.hu/lennon-modularis-sarokkanape-hu-21wes12329.html?simple=DEQ21WES12329-168260", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "L-kanapé teljes konfiguráció", "brand": "Westwing", "product_url": "https://www.westwing.hu/lennon-modularis-sarokkanape-hu-21wes12329.html?simple=DEQ21WES12329-168260", "dimensions": "238×180×68; ülésmagasság 43", "price_status": "ellenőrzött webshopár"}
+
+{"element": "KI-037", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Grafit dohányzóasztal", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "CF-01: 700×450×350 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-038", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Grafit mellékasztal", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ST-01: 300×300×450 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-039", "sku": "X0100244JJ12", "url": "https://kavehome.com/hu/en/p/nifelia-beige-wool-jacquard-rug-200-x-300-cm", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Nappali szőnyeg és csúszásgátló", "brand": "UNKNOWN", "product_url": "https://kavehome.com/hu/en/p/nifelia-beige-wool-jacquard-rug-200-x-300-cm", "dimensions": "200×300×1; ±5cm", "price_status": "előzetes becslés"}
+
+{"element": "KI-040", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Nappali fényáteresztő és sötétítő szövet", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-041", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Fali sín, konzolok, végzárók és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-042", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Méretre varrás és függönyszerelés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-109", "sku": "L00148FA05", "url": "https://kavehome.com/hu/en/p/somar-ceiling-lamp-made-with-synthetic-fibres-and-steel-rods-o76cm", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Somar függeszték és Hue E27", "brand": "UNKNOWN", "product_url": "https://kavehome.com/hu/en/p/somar-ceiling-lamp-made-with-synthetic-fibres-and-steel-rods-o76cm", "dimensions": "76×76×300 teljes; búratest magassága külön igazolandó", "price_status": "előzetes becslés"}
+
+{"element": "KI-111", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "ML03 általános fény és FL01 falikar, Hue fényforrások", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-112", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Pultvilágítás szalag, táp, vezérlő, profil és fedél", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-113", "sku": "4115931P6; EAN8718696176436", "url": "https://www.alkonylampa.hu/enrave-hue-m-led-mennyezeti-lampa-feher-philips-87", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "ML05 Hue mennyezeti lámpa", "brand": "Philips", "product_url": "https://www.alkonylampa.hu/enrave-hue-m-led-mennyezeti-lampa-feher-philips-87", "dimensions": "Ø38,1×8,4", "price_status": "ellenőrzött webshopár"}
+
+{"element": "KI-114", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W01 felső, függőleges és alsó vonalfény komplett", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "TV-03: 2600×36×2330 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-115", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W02/W07 grafikai falmosás komplett", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-131", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W02 eredeti tusgrafika előállítása és nyomdai előkészítése", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ART-02: 2100×36×2880 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-132", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W02 textilnyomat 150×220 célméret", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ART-02: 2100×36×2880 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-133", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "W02 vékony keret, szállítás és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ART-02: 2100×36×2880 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-134", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Nappali párnák és takaró", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-135", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Kerámiák, művészeti könyvek és kisebb növények", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-157", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Evőeszköz, edény, pohár, konyhai hulladékszelektálás és alap kisgépek", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+Custom structure K-01: overall 600 W × 600 D × 2400 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-01-B01: clear width 564 mm, clear depth 543 mm; shelf elevations [582, 1262, 1800, 2100] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 450, 150] mm; internal lights at [2070, 2350] mm. 
+
+Custom structure K-02: overall 600 W × 620 D × 2400 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-02-B01: clear width 564 mm, clear depth 563 mm; shelf elevations [1870] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 450, 150] mm; internal lights at [2350] mm. 
+
+Custom structure K-03: overall 800 W × 620 D × 900 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-03-B01: clear width 764 mm, clear depth 463 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [664, 450, 150] mm; internal lights at [] mm. 
+
+Custom structure K-04: overall 600 W × 620 D × 900 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure K-05: overall 600 W × 620 D × 900 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-05-B01: clear width 564 mm, clear depth 563 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 3 drawers, proposed net internal size [464, 450, 170] mm; internal lights at [] mm. 
+
+Custom structure K-06: overall 1000 W × 620 D × 900 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-06-B01: clear width 464 mm, clear depth 563 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 3 drawers, proposed net internal size [364, 450, 170] mm; internal lights at [] mm. K-06-B02: clear width 464 mm, clear depth 563 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 3 drawers, proposed net internal size [364, 450, 170] mm; internal lights at [] mm. 
+
+Custom structure K-07: overall 1400 W × 350 D × 900 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. K-07-B01: clear width 564 mm, clear depth 293 mm; shelf elevations [300, 600] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 200, 150] mm; internal lights at [570, 850] mm. K-07-B02: clear width 764 mm, clear depth 293 mm; shelf elevations [300, 600] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [664, 200, 150] mm; internal lights at [570, 850] mm. 
+
+Custom structure K-08: overall 1460 W × 620 D × 38 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure TV-01: overall 700 W × 400 D × 2330 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. TV-01-B01: clear width 314 mm, clear depth 343 mm; shelf elevations [400, 800, 1200, 1600, 2000] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [214, 200, 150] mm; internal lights at [770, 1570, 2280] mm. TV-01-B02: clear width 314 mm, clear depth 343 mm; shelf elevations [400, 800, 1200, 1600, 2000] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [214, 200, 150] mm; internal lights at [770, 1570, 2280] mm. 
+
+Custom structure TV-02: overall 3300 W × 400 D × 400 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. TV-02-B01: clear width 564 mm, clear depth 343 mm; shelf elevations [200] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 200, 140] mm; internal lights at [] mm. TV-02-B02: clear width 564 mm, clear depth 343 mm; shelf elevations [200] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 200, 140] mm; internal lights at [] mm. TV-02-B03: clear width 564 mm, clear depth 343 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [464, 200, 140] mm; internal lights at [] mm. TV-02-B04: clear width 714 mm, clear depth 343 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [614, 200, 140] mm; internal lights at [] mm. TV-02-B05: clear width 714 mm, clear depth 343 mm; shelf elevations [] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [614, 200, 140] mm; internal lights at [] mm. 
+
+Custom structure TV-03: overall 2600 W × 36 D × 2330 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure ART-02: overall 2100 W × 36 D × 2880 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure CF-01: overall 700 W × 450 D × 350 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure ST-01: overall 300 W × 300 D × 450 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure K-09: overall 1600 W × 620 D × 38 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: Kitchen840 mm working aisle and open-dishwasher240 mm passage unresolved; Main05.2 desk/door and05.3 bed/chair decisions remain open; Master NORDLI drawer/nightstand interference unresolved; Several exact product meshes/SKUs and professional approvals missing
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

@@ -1317,6 +1317,7 @@
           "clear_d": 543,
           "purpose": "Dupla akasztás; felső CONERO lift",
           "shelves_mm": [
+            1120,
             2342
           ],
           "rails_mm": [
@@ -1339,11 +1340,12 @@
           ],
           "runner_mm": 500,
           "lights_mm": [
+            1090,
             2320,
             2790
           ],
           "rail_m": 1.188,
-          "shelf_m2": 0.377,
+          "shelf_m2": 0.754,
           "drawer_l": 0,
           "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
           "storage_role": "ruházat"
@@ -1357,6 +1359,7 @@
           "clear_d": 543,
           "purpose": "Dupla akasztás; felső CONERO lift",
           "shelves_mm": [
+            1120,
             2342
           ],
           "rails_mm": [
@@ -1379,11 +1382,12 @@
           ],
           "runner_mm": 500,
           "lights_mm": [
+            1090,
             2320,
             2790
           ],
           "rail_m": 1.188,
-          "shelf_m2": 0.377,
+          "shelf_m2": 0.754,
           "drawer_l": 0,
           "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
           "storage_role": "ruházat"
@@ -1437,7 +1441,7 @@
       "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
       "capacity": {
         "rail_m": 3.03,
-        "shelf_m2": 2.638,
+        "shelf_m2": 3.392,
         "drawer_l": 310.1
       },
       "internal_light": "Belső fény a rekeszjegyzék szerint."
@@ -1998,18 +2002,21 @@
           "module_w": 595,
           "clear_w": 559,
           "clear_d": 543,
-          "purpose": "Felnőtt ruhatöbblet; dupla rúd",
+          "purpose": "Felnőtt ruhatöbblet; dupla rúd, felső lift",
           "shelves_mm": [
+            1120,
             2342
           ],
           "rails_mm": [
             1040,
             2160
           ],
-          "lift_rails_mm": [],
+          "lift_rails_mm": [
+            2160
+          ],
           "rod_lengths_mm": [
             519,
-            519
+            399
           ],
           "drawers": 0,
           "drawer_z": [],
@@ -2020,11 +2027,12 @@
           ],
           "runner_mm": 500,
           "lights_mm": [
+            1090,
             2320,
             2790
           ],
-          "rail_m": 1.038,
-          "shelf_m2": 0.304,
+          "rail_m": 0.918,
+          "shelf_m2": 0.607,
           "drawer_l": 0,
           "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
           "storage_role": "ruházat"
@@ -2152,8 +2160,8 @@
       "drawings_cp3": "CP3/drawings/W52-01_CP3.pdf",
       "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
       "capacity": {
-        "rail_m": 1.557,
-        "shelf_m2": 3.947,
+        "rail_m": 1.437,
+        "shelf_m2": 4.25,
         "drawer_l": 123.9
       },
       "internal_light": "Belső fény a rekeszjegyzék szerint."
@@ -2618,7 +2626,7 @@
           "offset": 0,
           "module_w": 900,
           "clear_w": 864,
-          "clear_d": 443,
+          "clear_d": 473,
           "purpose": "Felső szifonos, alsó hajápolás",
           "shelves_mm": [],
           "rails_mm": [],
@@ -2631,14 +2639,14 @@
           ],
           "drawer_inner_mm": [
             764,
-            350,
-            140
+            400,
+            120
           ],
-          "runner_mm": 400,
+          "runner_mm": 450,
           "lights_mm": [],
           "rail_m": 0.0,
           "shelf_m2": 0.0,
-          "drawer_l": 67.9,
+          "drawer_l": 67.3,
           "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
           "storage_role": "vegyes / vendég / munka"
         }
@@ -2648,7 +2656,7 @@
       "capacity": {
         "rail_m": 0.0,
         "shelf_m2": 0.0,
-        "drawer_l": 67.9
+        "drawer_l": 67.3
       },
       "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
     },
@@ -2786,13 +2794,13 @@
           "drawer_inner_mm": [
             464,
             300,
-            140
+            120
           ],
           "runner_mm": 350,
           "lights_mm": [],
           "rail_m": 0.0,
           "shelf_m2": 0.0,
-          "drawer_l": 32.0,
+          "drawer_l": 27.4,
           "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
           "storage_role": "vegyes / vendég / munka"
         }
@@ -2802,7 +2810,7 @@
       "capacity": {
         "rail_m": 0.0,
         "shelf_m2": 0.0,
-        "drawer_l": 32.0
+        "drawer_l": 27.4
       },
       "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető."
     },

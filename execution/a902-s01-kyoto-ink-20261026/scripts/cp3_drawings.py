@@ -49,7 +49,7 @@ def drawunit(u):
  if not u['cp3_bays']:
   pos=0
   for m in u['modules']:ln(d,x+pos*s,y,x+pos*s,y+hh);pos+=m
-  para(d,x+10,y+hh/2,'Nem szekrénybelső. A szerkezet és a felület saját kiosztása; nem kap általános szekrénypántot.',max(25,int(ww/6)),10)
+  if hh>100:para(d,x+10,y+hh/2,'Felület / szerkezeti mező. Nincs általános szekrénypánt.',max(25,int(ww/6)),10)
  if u['id']=='K-01':
   for z,h,label in [(600,595,'SÜTŐ'),(1280,382,'MIKRO')]:r(d,x+18*s,y+z*s,564*s,h*s,colors.HexColor('#707873'));t(d,x+22*s,y+(z+h/2)*s,label,9,colors.white)
  if u['id']=='K-02':r(d,x+18*s,y+80*s,564*s,1780*s,colors.HexColor('#d2d6d1'));t(d,x+8,y+hh/2,'HŰTŐ',10)
@@ -107,10 +107,11 @@ def drawunit(u):
  w=PdfWriter()
  for p in pages:w.append(str(p))
  w.write(str(O/'drawings'/f"{u['id']}_CP3.pdf"));index.append(dict(unit=u['id'],pdf=f"drawings/{u['id']}_CP3.pdf",pages=[len(allpages)-1,len(allpages)],scale=scale))
-for u in D['units']:drawunit(u)
-w=PdfWriter()
-for p in allpages:w.append(str(p))
-w.compress_identical_objects(remove_identicals=True,remove_orphans=True)
-w.write(str(O/'drawings/A902_CP3_egyedi_butorok.pdf'))
-(O/'data/rajzjegyzek.json').write_text(json.dumps(index,ensure_ascii=False,indent=2))
-print('33 egyedi rajzpár; 66 A3 oldal, PDF + SVG; összefűzött rajzkönyv.')
+if __name__=='__main__':
+ for u in D['units']:drawunit(u)
+ w=PdfWriter()
+ for p in allpages:w.append(str(p))
+ w.compress_identical_objects(remove_identicals=True,remove_orphans=True)
+ w.write(str(O/'drawings/A902_CP3_egyedi_butorok.pdf'))
+ (O/'data/rajzjegyzek.json').write_text(json.dumps(index,ensure_ascii=False,indent=2))
+ print('33 egyedi rajzpár; 66 A3 oldal, PDF + SVG; összefűzött rajzkönyv.')

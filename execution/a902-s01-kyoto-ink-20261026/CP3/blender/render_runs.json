@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "F01_closed",
+    "camera_id": "CP3_F01",
+    "location": [
+      1.5099999904632568,
+      4.128571510314941,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.5109363794326782,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F01_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F01_open",
+    "camera_id": "CP3_F01",
+    "location": [
+      1.5099999904632568,
+      4.128571510314941,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.5109363794326782,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F01_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F01_cutaway",
+    "camera_id": "CP3_F01",
+    "location": [
+      1.5099999904632568,
+      4.128571510314941,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.5109363794326782,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F01_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F02_closed",
+    "camera_id": "CP3_F02",
+    "location": [
+      1.2100000381469727,
+      7.350000381469727,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.497398853302002,
+      -1.5058928681810357e-07,
+      -3.141592502593994
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F02_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F02_open",
+    "camera_id": "CP3_F02",
+    "location": [
+      1.2100000381469727,
+      7.350000381469727,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.497398853302002,
+      -1.5058928681810357e-07,
+      -3.141592502593994
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F02_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F02_cutaway",
+    "camera_id": "CP3_F02",
+    "location": [
+      1.2100000381469727,
+      7.350000381469727,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.497398853302002,
+      -1.5058928681810357e-07,
+      -3.141592502593994
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F02_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F03_closed",
+    "camera_id": "CP3_F03",
+    "location": [
+      1.2100000381469727,
+      -0.6800000667572021,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.4973989725112915,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F03_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F03_open",
+    "camera_id": "CP3_F03",
+    "location": [
+      1.2100000381469727,
+      -0.6800000667572021,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.4973989725112915,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F03_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F03_cutaway",
+    "camera_id": "CP3_F03",
+    "location": [
+      1.2100000381469727,
+      -0.6800000667572021,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.4973989725112915,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F03_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F04_closed",
+    "camera_id": "CP3_F04",
+    "location": [
+      14.15000057220459,
+      5.050000190734863,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      -2.5793278624064442e-08,
+      1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F04_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F04_open",
+    "camera_id": "CP3_F04",
+    "location": [
+      14.15000057220459,
+      5.050000190734863,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      -2.5793278624064442e-08,
+      1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F04_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F04_cutaway",
+    "camera_id": "CP3_F04",
+    "location": [
+      14.15000057220459,
+      5.050000190734863,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      -2.5793278624064442e-08,
+      1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F04_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F05_closed",
+    "camera_id": "CP3_F05",
+    "location": [
+      11.890000343322754,
+      3.7200000286102295,
+      2.3499999046325684
+    ],
+    "rotation_euler": [
+      0.9757789373397827,
+      6.501942095837876e-08,
+      1.642103672027588
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7100000381469727,
+    "image": "CP3/blender/F05_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F05_open",
+    "camera_id": "CP3_F05",
+    "location": [
+      11.890000343322754,
+      3.7200000286102295,
+      2.3499999046325684
+    ],
+    "rotation_euler": [
+      0.9757789373397827,
+      6.501942095837876e-08,
+      1.642103672027588
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7100000381469727,
+    "image": "CP3/blender/F05_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F05_cutaway",
+    "camera_id": "CP3_F05",
+    "location": [
+      11.890000343322754,
+      3.7200000286102295,
+      2.3499999046325684
+    ],
+    "rotation_euler": [
+      0.9757789373397827,
+      6.501942095837876e-08,
+      1.642103672027588
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7100000381469727,
+    "image": "CP3/blender/F05_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F06_closed",
+    "camera_id": "CP3_F06",
+    "location": [
+      13.680000305175781,
+      6.669999599456787,
+      2.575000047683716
+    ],
+    "rotation_euler": [
+      0.8604738712310791,
+      2.5286595928264433e-08,
+      -1.6614561080932617
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7000000476837158,
+    "image": "CP3/blender/F06_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F06_open",
+    "camera_id": "CP3_F06",
+    "location": [
+      13.680000305175781,
+      6.669999599456787,
+      2.575000047683716
+    ],
+    "rotation_euler": [
+      0.8604738712310791,
+      2.5286595928264433e-08,
+      -1.6614561080932617
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7000000476837158,
+    "image": "CP3/blender/F06_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F06_cutaway",
+    "camera_id": "CP3_F06",
+    "location": [
+      13.680000305175781,
+      6.669999599456787,
+      2.575000047683716
+    ],
+    "rotation_euler": [
+      0.8604738712310791,
+      2.5286595928264433e-08,
+      -1.6614561080932617
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 1.7000000476837158,
+    "image": "CP3/blender/F06_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F07_closed",
+    "camera_id": "CP3_F07",
+    "location": [
+      5.590000152587891,
+      1.7999999523162842,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      2.5793278624064442e-08,
+      -1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F07_closed.jpg",
+    "state": "isolated cabinet; context removed for technical inspection",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F07_open",
+    "camera_id": "CP3_F07",
+    "location": [
+      5.590000152587891,
+      1.7999999523162842,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      2.5793278624064442e-08,
+      -1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F07_open.jpg",
+    "state": "isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "F07_cutaway",
+    "camera_id": "CP3_F07",
+    "location": [
+      5.590000152587891,
+      1.7999999523162842,
+      1.6699999570846558
+    ],
+    "rotation_euler": [
+      1.481746792793274,
+      2.5793278624064442e-08,
+      -1.5707963705062866
+    ],
+    "lens_mm": 40.0,
+    "camera_type": "ORTHO",
+    "ortho_scale": 5.395999908447266,
+    "image": "CP3/blender/F07_cutaway.jpg",
+    "state": "technical cutaway: fronts removed explicitly, drawers extended; not a real room photograph",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V27_AT8",
+    "camera_id": "CP3_Cam_AT8",
+    "location": [
+      24.899999618530273,
+      3.299999952316284,
+      2.4000000953674316
+    ],
+    "rotation_euler": [
+      1.1065751314163208,
+      7.266991453036553e-09,
+      2.598402976989746
+    ],
+    "lens_mm": 32.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V27_AT8.jpg",
+    "state": "room cutaway: north wall omitted to show furniture; exact door unknown",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V28_T026",
+    "camera_id": "CP3_Cam_T026",
+    "location": [
+      29.799999237060547,
+      -2.200000047683716,
+      2.299999952316284
+    ],
+    "rotation_euler": [
+      1.2061303853988647,
+      5.6611241916471045e-08,
+      0.45145276188850403
+    ],
+    "lens_mm": 32.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V28_T026.jpg",
+    "state": "conditional room arrangement, south access assumed; final door unknown",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V01_CP3",
+    "camera_id": "Cam_02_Nappali_terasz",
+    "location": [
+      8.300000190734863,
+      4.400000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.479099988937378,
+      0.0,
+      0.857699990272522
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V01_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V02_CP3",
+    "camera_id": "Cam_12_Nappali_Hero",
+    "location": [
+      4.400000095367432,
+      7.880000114440918,
+      1.600000023841858
+    ],
+    "rotation_euler": [
+      1.5707999467849731,
+      0.0,
+      -2.408600091934204
+    ],
+    "lens_mm": 22.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V02_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V03_CP3",
+    "camera_id": "Cam_03_Etkezo_konyha",
+    "location": [
+      9.449999809265137,
+      7.550000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.5707999467849731,
+      0.0,
+      -3.1415998935699463
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V03_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V04_CP3",
+    "camera_id": "Cam_04_Master",
+    "location": [
+      0.3499999940395355,
+      4.300000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.4337999820709229,
+      -0.0,
+      -0.7447999715805054
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V04_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V05_CP3",
+    "camera_id": "Cam_10_Furdo_06_2",
+    "location": [
+      14.5,
+      6.619999885559082,
+      1.5
+    ],
+    "rotation_euler": [
+      1.3799999952316284,
+      0.0,
+      -1.5707999467849731
+    ],
+    "lens_mm": 16.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V05_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V06_CP3",
+    "camera_id": "Cam_07_Terasz_v2_greslaprol",
+    "location": [
+      12.800000190734863,
+      9.300000190734863,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.4660999774932861,
+      0.0,
+      0.5584999918937683
+    ],
+    "lens_mm": 16.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V06_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V07_CP3",
+    "camera_id": "KI_R01",
+    "location": [
+      7.900000095367432,
+      1.600000023841858,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4144898653030396,
+      1.9458974520603078e-07,
+      2.1150765419006348
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V07_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V08_CP3",
+    "camera_id": "KI_R02",
+    "location": [
+      9.479999542236328,
+      3.9000000953674316,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4821622371673584,
+      -8.582329513728837e-08,
+      3.1193745136260986
+    ],
+    "lens_mm": 22.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V08_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V09_CP3",
+    "camera_id": "KI_R03",
+    "location": [
+      9.399999618530273,
+      1.9900000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3804205656051636,
+      -7.483542674435739e-10,
+      -0.08268430083990097
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V09_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V10_CP3",
+    "camera_id": "KI_R04",
+    "location": [
+      6.650000095367432,
+      6.300000190734863,
+      1.5
+    ],
+    "rotation_euler": [
+      1.5707963705062866,
+      -0.0,
+      1.5707963705062866
+    ],
+    "lens_mm": 26.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V10_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V11_CP3",
+    "camera_id": "KI_R05",
+    "location": [
+      7.5,
+      6.599999904632568,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5353747606277466,
+      4.64070950556561e-08,
+      2.68269944190979
+    ],
+    "lens_mm": 26.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V11_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V12_CP3",
+    "camera_id": "KI_R06",
+    "location": [
+      1.5,
+      7.400000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5308177471160889,
+      -0.0,
+      0.0
+    ],
+    "lens_mm": 18.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V12_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V13_CP3",
+    "camera_id": "KI_R07",
+    "location": [
+      1.2000000476837158,
+      5.199999809265137,
+      1.5
+    ],
+    "rotation_euler": [
+      1.537475347518921,
+      -1.509120153286858e-07,
+      -3.141592502593994
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V13_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V14_CP3",
+    "camera_id": "KI_R08",
+    "location": [
+      2.9000000953674316,
+      2.4000000953674316,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3287423849105835,
+      -1.2920584424591652e-07,
+      2.3720662593841553
+    ],
+    "lens_mm": 18.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V14_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V15_CP3",
+    "camera_id": "KI_R09",
+    "location": [
+      3.25,
+      0.550000011920929,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5237370729446411,
+      -4.1862513455726e-08,
+      0.7409828901290894
+    ],
+    "lens_mm": 18.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V15_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V16_CP3",
+    "camera_id": "KI_R10",
+    "location": [
+      13.800000190734863,
+      7.650000095367432,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.4212510585784912,
+      -1.5626431260074014e-09,
+      2.60375714302063
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V16_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V17_CP3",
+    "camera_id": "KI_R11",
+    "location": [
+      12.5,
+      6.699999809265137,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.2641637325286865,
+      4.8642764483020073e-08,
+      -0.8850669860839844
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V17_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V18_CP3",
+    "camera_id": "KI_R12",
+    "location": [
+      4.550000190734863,
+      2.450000047683716,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3002467155456543,
+      -5.976654193773356e-08,
+      -3.0860941410064697
+    ],
+    "lens_mm": 16.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V18_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V19_CP3",
+    "camera_id": "KI_R13",
+    "location": [
+      14.800000190734863,
+      6.199999809265137,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.259984016418457,
+      2.9556419534060296e-08,
+      -0.6078022122383118
+    ],
+    "lens_mm": 18.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V19_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V20_CP3",
+    "camera_id": "KI_R14",
+    "location": [
+      2.700000047683716,
+      3.450000047683716,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.5083776712417603,
+      -2.699792389648792e-08,
+      -1.5707963705062866
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V20_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V21_CP3",
+    "camera_id": "KI_R15",
+    "location": [
+      6.199999809265137,
+      2.25,
+      1.5499999523162842
+    ],
+    "rotation_euler": [
+      1.3211877346038818,
+      2.3168498231029844e-09,
+      0.18311083316802979
+    ],
+    "lens_mm": 16.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V21_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V22_CP3",
+    "camera_id": "KI_R16",
+    "location": [
+      8.800000190734863,
+      9.100000381469727,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.302399754524231,
+      -7.863974360589054e-09,
+      1.020943284034729
+    ],
+    "lens_mm": 22.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V22_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V23_CP3",
+    "camera_id": "KI_R17",
+    "location": [
+      11.550000190734863,
+      9.0,
+      1.4500000476837158
+    ],
+    "rotation_euler": [
+      1.341997504234314,
+      -9.443402149145186e-08,
+      -0.8532550930976868
+    ],
+    "lens_mm": 22.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V23_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V24_CP3",
+    "camera_id": "KI_R18",
+    "location": [
+      10.300000190734863,
+      12.899999618530273,
+      2.069999933242798
+    ],
+    "rotation_euler": [
+      1.353631615638733,
+      -1.3750423022429459e-08,
+      0.13944010436534882
+    ],
+    "lens_mm": 22.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V24_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V25_CP3",
+    "camera_id": "KI_R19",
+    "location": [
+      -1.5,
+      0.20000000298023224,
+      1.5
+    ],
+    "rotation_euler": [
+      1.4232428073883057,
+      -3.899982115029843e-09,
+      -0.06374330818653107
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V25_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  },
+  {
+    "id": "V26_CP3",
+    "camera_id": "Cam_11_Master_Panorama",
+    "location": [
+      3.200000047683716,
+      6.099999904632568,
+      1.2000000476837158
+    ],
+    "rotation_euler": [
+      1.5707999467849731,
+      0.0,
+      1.5707999467849731
+    ],
+    "lens_mm": 20.0,
+    "camera_type": "PERSP",
+    "ortho_scale": 6.0,
+    "image": "CP3/blender/V26_CP3.jpg",
+    "state": "closed",
+    "revision": "KI-CP3-R03",
+    "engine": "BLENDER_WORKBENCH",
+    "status": "native dimensional control; simplified products; not photometric proof"
+  }
+]

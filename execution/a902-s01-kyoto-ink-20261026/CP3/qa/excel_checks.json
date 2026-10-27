@@ -1,0 +1,27 @@
+{
+  "expected": {
+    "main": 23253840,
+    "economy": 22468340,
+    "low": 20037530,
+    "high": 30777532,
+    "budget": 18000000,
+    "reserve": 2000000,
+    "reserve_used": 0,
+    "verified": 2352790,
+    "quotes": 0,
+    "rows": 172,
+    "r02": 20554190,
+    "delta": 2699650,
+    "freezer_with_service": 334990,
+    "without_freezer": 22918850,
+    "status": "Teljes projekt-előirányzat, nem fix ajánlat; gazdaságos változat tulajdonosi döntésre vár."
+  },
+  "actual": [
+    23253840,
+    22468340
+  ],
+  "perturbation_delta": 61000,
+  "source_rows": 159,
+  "final_rows": 172,
+  "manual_edits": "Existing target cells checked against pre-CP3 snapshot; unrelated values not rewritten"
+}

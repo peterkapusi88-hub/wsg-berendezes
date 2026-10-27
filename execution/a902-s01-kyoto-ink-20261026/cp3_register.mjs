@@ -6,6 +6,8 @@ const file=p+'outputs/A902_Kyoto_Ink_elo_regiszter.xlsx',original=await fs.readF
 const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(file));
 const baseline=JSON.parse(await fs.readFile(p+'data/workbook_readback_before_CP3.json','utf8'));
 const patch=JSON.parse(await fs.readFile(o+'data/cost_patch.json','utf8'));
+const refresh=process.argv.includes('--refresh');
+const prior=refresh?JSON.parse(await fs.readFile(o+'qa/last_applied_patch.json','utf8')):null;
 const caps=JSON.parse(await fs.readFile(o+'data/rekesz_kapacitas.json','utf8'));
 const lights=JSON.parse(await fs.readFile(o+'data/belso_vilagitas.json','utf8'));
 const hw=JSON.parse(await fs.readFile(o+'data/vasalat.json','utf8'));
@@ -19,12 +21,13 @@ for(const [id,fields] of Object.entries(patch.patches)){
  const r=ids.indexOf(id)+2;if(r<2)throw Error('Missing code '+id);
  for(const [c,v] of Object.entries(fields)){
   const old=baseline.Elemregiszter[r-1][idx(c)],cur=reg.getRange(c+r).values[0][0];
-  if((cur??null)!==(old??null))throw Error('Manual change since snapshot at '+id+' '+c+r);
+  if((cur??null)!==(old??null)&&cur!==v&&!(refresh&&cur===prior.patches[id]?.[c]))throw Error('Manual change since snapshot at '+id+' '+c+r);
   reg.getRange(c+r).values=[[v]];
  }
 }
 const last=160+patch.new_rows.length;
 for(let j=0;j<patch.new_rows.length;j++){
+ if(refresh){const rr=161+j;const norm=x=>x===''?null:(x??null);for(let c=0;c<54;c++){if([20,33,52,53].includes(c))continue;const v=patch.new_rows[j][c],cur=reg.getRange(col(c)+rr).values[0][0],expected=prior.new_rows[j][c];if(norm(cur)!==norm(expected)&&norm(cur)!==norm(v))throw Error('Manual CP3 row edit '+rr+' '+col(c));reg.getRange(col(c)+rr).values=[[v]];}continue;}
  const row=161+j;reg.getRange(`A${row}:BB${row}`).copyFrom(reg.getRange('A160:BB160'),'all');
  reg.getRange(`A${row}:BB${row}`).values=[patch.new_rows[j]];
  reg.getRange('U'+row).formulas=[[`=O${row}*Q${row}+SUM(R${row}:T${row})`]];
@@ -40,10 +43,11 @@ for(const [name,data] of Object.entries(baseline)){
  }
 }
 const sum=wb.worksheets.getItem('Összesítő');sum.getRange('C7:C8').values=[['CP3 teljes előirányzat, a második fagyasztóval. Nyitott szakági kapuk és becslések.'],['Tételes cserejavaslatok; csökkentett fiókszám és fix fürdő-dugalj. Nincs elfogadva.']];sum.getRange('B17').values=[['2026-10-27']];sum.getRange('C15').values=[['CP3 sorokkal bővítve; az összesítő képletek tartománya ellenőrizve.']];
+sum.getRange('B15').formulas=[[`=COUNTA('Elemregiszter'!C2:C${last})`]];
 sum.getRange('A79:C84').values=[['CP3 külön kimutatás','Fő Ft','Megjegyzés'],['AT8-01',null,'Fagyasztóval, polcokkal; közös szerelés külön'],['T-0-26',null,'Polcok; közös szerelés külön'],['AT8-01 / T-0-26',null,'Közös szállítás, rögzítés és dobozok'],['Fagyasztó és kapcsolódó munka',null,'Opcionális beszerzés; a bemutatott fő változat tartalmazza'],['Fő változat fagyasztó nélkül',null,'Nem automatikusan kiválasztott megtakarítás']];
 for(let r=80;r<=82;r++)sum.getRange('B'+r).formulas=[[`=SUMIFS('Elemregiszter'!$U$2:$U$${last},'Elemregiszter'!$B$2:$B$${last},A${r})`]];
 sum.getRange('B83').formulas=[[`=SUMIFS('Elemregiszter'!$U$2:$U$${last},'Elemregiszter'!$C$2:$C$${last},"KI-CP3-F01")+SUMIFS('Elemregiszter'!$U$2:$U$${last},'Elemregiszter'!$C$2:$C$${last},"KI-CP3-F02")`]];sum.getRange('B84').formulas=[['=B7-B83']];sum.getRange('B80:B84').setNumberFormat('#,##0');
-function tab(name,headers,rows,widths){const sh=wb.worksheets.add(name);sh.getRange('A1').write([headers,...rows]);sh.showGridLines=false;sh.freezePanes.freezeRows(1);const end=col(headers.length-1);sh.getRange(`A1:${end}${rows.length+1}`).format.font.name='Arial';sh.getRange(`A1:${end}${rows.length+1}`).format.font.size=10;sh.getRange(`A1:${end}${rows.length+1}`).format.wrapText=true;sh.getRange(`A1:${end}${rows.length+1}`).format.rowHeight=48;sh.getRange(`A1:${end}1`).format.fill='#303C3B';sh.getRange(`A1:${end}1`).format.font.color='#FFFFFF';for(let j=0;j<headers.length;j++)sh.getRange(`${col(j)}1:${col(j)}${rows.length+1}`).format.columnWidth=widths[j]??22;return sh}
+function tab(name,headers,rows,widths){const sh=refresh?wb.worksheets.getItem(name):wb.worksheets.add(name);const end=col(headers.length-1);sh.getRange(`A1:${end}${rows.length+1}`).values=[headers,...rows];sh.showGridLines=false;sh.freezePanes.freezeRows(1);sh.getRange(`A1:${end}${rows.length+1}`).format.font.name='Arial';sh.getRange(`A1:${end}${rows.length+1}`).format.font.size=10;sh.getRange(`A1:${end}${rows.length+1}`).format.wrapText=true;sh.getRange(`A1:${end}${rows.length+1}`).format.verticalAlignment='center';sh.getRange(`A1:${end}${rows.length+1}`).format.rowHeight=48;sh.getRange(`A1:${end}1`).format.fill='#303C3B';sh.getRange(`A1:${end}1`).format.font.color='#FFFFFF';for(let j=0;j<headers.length;j++)sh.getRange(`${col(j)}1:${col(j)}${rows.length+1}`).format.columnWidth=widths[j]??22;return sh}
 const ca=tab('CP3 rekeszek',['Elem','Helyiség','Rekesz','Funkció','Nettó szél. mm','Nettó mély. mm','Polc db','Rúd össz. mm','Fiók db','Fiók szél. mm','Fiók mély. mm','Fiók belmag. mm','Szifon levonás l','Akasztás m','Polc m²','Fiók liter','Szabad tartalék','Tervezett feltöltés l','Státusz'],caps.map(b=>{
  let n=b.shelves_mm.length;if(b.unit==='K-01')n=2;if(b.unit==='K-02')n=1;
  const gross=b.drawers*b.drawer_inner_mm.reduce((a,x)=>a*x,1)/1e6;
@@ -62,5 +66,6 @@ const err=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME
 await fs.writeFile(o+'qa/excel_checks.json',JSON.stringify({expected:snap,actual:got,perturbation_delta:pert,source_rows:159,final_rows:finalIds.length,manual_edits:'Existing target cells checked against pre-CP3 snapshot; unrelated values not rewritten'},null,2));
 if(!original.equals(await fs.readFile(file)))throw Error('Live workbook changed during editing');
 await(await SpreadsheetFile.exportXlsx(wb)).save(file);
+await fs.writeFile(o+'qa/last_applied_patch.json',JSON.stringify(patch,null,2));
 for(const [name,range] of [['Összesítő','A4:C15'],['CP3 rekeszek','A1:F6'],['CP3 belső fény','A1:G5'],['CP3 tápegységek','A1:F5'],['CP3 vasalat','A1:E5'],['CP3 eltérések','A48:E54']]){const im=await wb.render({sheetName:name,range,scale:1.3,format:'png'});await fs.writeFile(o+'qa/'+name+'.png',new Uint8Array(await im.arrayBuffer()));}
 console.log(JSON.stringify({main:got[0],economy:got[1],rows:finalIds.length,perturbation:pert}));

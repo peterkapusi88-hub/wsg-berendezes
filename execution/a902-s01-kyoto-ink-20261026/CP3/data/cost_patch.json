@@ -4,23 +4,30 @@
       "H": "Északi és déli gardróbbelsők, 2 lifttel",
       "W": "CP3/data/koltseg_bontas.json",
       "AN": "WN-01; WS-01",
-      "Q": 773000,
-      "AG": 687000,
+      "Q": 786000,
+      "AG": 700000,
       "AF": "A 190 000 Ft régi teljes belső csomag helyett a CP3 tételes fiók/polc/rúd/lift összege. Gazdaságos: 4 fiók helyett 4 polc; 86 000 Ft megtakarítás, napi áttekinthetőség romlik.",
       "AI": "A 190 000 Ft régi teljes belső csomag helyett a CP3 tételes fiók/polc/rúd/lift összege. Gazdaságos: 4 fiók helyett 4 polc; 86 000 Ft megtakarítás, napi áttekinthetőség romlik.",
       "X": "2026-10-27",
       "AY": 0.8,
-      "AZ": 1.4
+      "AZ": 1.4,
+      "AO": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "AP": "CP3_WN-01; CP3_WS-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
     },
     "KI-060": {
       "W": "CP3/data/koltseg_bontas.json",
-      "Q": 421000,
-      "AG": 421000,
+      "Q": 515000,
+      "AG": 515000,
       "AF": "Teljes korpusz + CP3 belső új előirányzata: 190 000 Ft korpusz és tételes belső; régi 150 000 Ft kiváltva, nem hozzáadva. Front és szerelés továbbra KI-061.",
       "AI": "Teljes korpusz + CP3 belső új előirányzata: 190 000 Ft korpusz és tételes belső; régi 150 000 Ft kiváltva, nem hozzáadva. Front és szerelés továbbra KI-061.",
       "X": "2026-10-27",
       "AY": 0.8,
-      "AZ": 1.4
+      "AZ": 1.4,
+      "AN": "W52-01",
+      "AO": "CP3/drawings/W52-01_CP3.pdf",
+      "AP": "CP3_W52-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
     },
     "KI-072": {
       "W": "CP3/data/koltseg_bontas.json",
@@ -30,7 +37,11 @@
       "AI": "Teljes sekély korpusz 160 000 Ft + CP3 belső; régi 150 000 Ft kiváltva. Front és szerelés KI-073.",
       "X": "2026-10-27",
       "AY": 0.8,
-      "AZ": 1.4
+      "AZ": 1.4,
+      "AN": "W53-01",
+      "AO": "CP3/drawings/W53-01_CP3.pdf",
+      "AP": "CP3_W53-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
     },
     "KI-025": {
       "H": "ÄLMAREN fekete kihúzható konyhai csap",
@@ -50,14 +61,312 @@
     },
     "KI-119": {
       "H": "Szekrénybelső fények szerelése és terhelt próbája",
-      "W": "70 db × 1 500 Ft + 35 000 Ft mérés/beállítás előirányzat",
-      "Q": 140000,
-      "AG": 140000,
-      "AF": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 70 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
-      "AI": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 70 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
+      "W": "73 db × 1 500 Ft + 35 000 Ft mérés/beállítás előirányzat",
+      "Q": 144500,
+      "AG": 144500,
+      "AF": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 73 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
+      "AI": "Régi 55 000 Ft világítási csomag teljesen kiváltva. Ez csak 73 lámpa és 13 driver vezetése, rögzítése és ajtóérzékelő próbája; termékek KI-CP3-L01...L04. Általános villamos munkát KI-107 nem számlázzuk újra.",
       "X": "2026-10-27",
       "AY": 0.8,
       "AZ": 1.4
+    },
+    "KI-048": {
+      "H": "Északi egyedi gardróbkorpusz CP3",
+      "I": "egyedi asztalos gyártás",
+      "J": "WN-01",
+      "K": "",
+      "AQ": "egyedi gyártás",
+      "AA": "Egyedi 18 mm korpusz; PAX termékazonosság és beférés nincs állítva.",
+      "AF": "CP3 egyedi korpuszra pontosítva. A korábbi korpusz-előirányzat változatlan becslés; ajánlat szükséges.",
+      "AR": "CP3 tervi befoglaló, kész helyszíni méret és szerelési hézag ellenőrizendő.",
+      "AN": "WN-01",
+      "AO": "CP3/drawings/WN-01_CP3.pdf",
+      "AP": "CP3_WN-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-049": {
+      "H": "Déli egyedi gardróbkorpusz CP3",
+      "I": "egyedi asztalos gyártás",
+      "J": "WS-01",
+      "K": "",
+      "AQ": "egyedi gyártás",
+      "AA": "Egyedi 18 mm korpusz; PAX termékazonosság és beférés nincs állítva.",
+      "AF": "CP3 egyedi korpuszra pontosítva. A korábbi korpusz-előirányzat változatlan becslés; ajánlat szükséges.",
+      "AR": "CP3 tervi befoglaló, kész helyszíni méret és szerelési hézag ellenőrizendő.",
+      "AN": "WS-01",
+      "AO": "CP3/drawings/WS-01_CP3.pdf",
+      "AP": "CP3_WS-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-006": {
+      "AN": "K-03; K-04; K-05; K-06",
+      "AO": "CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf",
+      "AP": "CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-007": {
+      "AN": "K-07",
+      "AO": "CP3/drawings/K-07_CP3.pdf",
+      "AP": "CP3_K-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-008": {
+      "AN": "K-01; K-02",
+      "AO": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf",
+      "AP": "CP3_K-01; CP3_K-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-009": {
+      "AN": "K-01; K-02; K-03; K-04; K-05; K-06; K-07",
+      "AO": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "AP": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06; CP3_K-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-010": {
+      "AN": "K-01; K-02; K-03; K-05; K-06; K-07",
+      "AO": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "AP": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-05; CP3_K-06; CP3_K-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-011": {
+      "AN": "K-08; K-09",
+      "AO": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "AP": "CP3_K-08; CP3_K-09",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-012": {
+      "AN": "K-08; K-09",
+      "AO": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "AP": "CP3_K-08; CP3_K-09",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-013": {
+      "AN": "K-01; K-02; K-04",
+      "AO": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-04_CP3.pdf",
+      "AP": "CP3_K-01; CP3_K-02; CP3_K-04",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-014": {
+      "AN": "K-08; K-09",
+      "AO": "CP3/drawings/K-08_CP3.pdf; CP3/drawings/K-09_CP3.pdf",
+      "AP": "CP3_K-08; CP3_K-09",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-015": {
+      "AN": "K-01; K-02; K-03; K-04; K-05; K-06; K-07",
+      "AO": "CP3/drawings/K-01_CP3.pdf; CP3/drawings/K-02_CP3.pdf; CP3/drawings/K-03_CP3.pdf; CP3/drawings/K-04_CP3.pdf; CP3/drawings/K-05_CP3.pdf; CP3/drawings/K-06_CP3.pdf; CP3/drawings/K-07_CP3.pdf",
+      "AP": "CP3_K-01; CP3_K-02; CP3_K-03; CP3_K-04; CP3_K-05; CP3_K-06; CP3_K-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-030": {
+      "AN": "TV-01; TV-03",
+      "AO": "CP3/drawings/TV-01_CP3.pdf; CP3/drawings/TV-03_CP3.pdf",
+      "AP": "CP3_TV-01; CP3_TV-03",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-031": {
+      "AN": "TV-02",
+      "AO": "CP3/drawings/TV-02_CP3.pdf",
+      "AP": "CP3_TV-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-032": {
+      "AN": "TV-01; TV-02; TV-03",
+      "AO": "CP3/drawings/TV-01_CP3.pdf; CP3/drawings/TV-02_CP3.pdf; CP3/drawings/TV-03_CP3.pdf",
+      "AP": "CP3_TV-01; CP3_TV-02; CP3_TV-03",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-034": {
+      "AN": "TV-03",
+      "AO": "CP3/drawings/TV-03_CP3.pdf",
+      "AP": "CP3_TV-03",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-037": {
+      "AN": "CF-01",
+      "AO": "CP3/drawings/CF-01_CP3.pdf",
+      "AP": "CP3_CF-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-038": {
+      "AN": "ST-01",
+      "AO": "CP3/drawings/ST-01_CP3.pdf",
+      "AP": "CP3_ST-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-046": {
+      "AN": "HB-01",
+      "AO": "CP3/drawings/HB-01_CP3.pdf",
+      "AP": "CP3_HB-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-047": {
+      "AN": "HB-01",
+      "AO": "CP3/drawings/HB-01_CP3.pdf",
+      "AP": "CP3_HB-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-051": {
+      "AN": "WN-01; WS-01",
+      "AO": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "AP": "CP3_WN-01; CP3_WS-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-052": {
+      "AN": "WN-01; WS-01",
+      "AO": "CP3/drawings/WN-01_CP3.pdf; CP3/drawings/WS-01_CP3.pdf",
+      "AP": "CP3_WN-01; CP3_WS-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-053": {
+      "AN": "NT-L; NT-R",
+      "AO": "CP3/drawings/NT-L_CP3.pdf; CP3/drawings/NT-R_CP3.pdf",
+      "AP": "CP3_NT-L; CP3_NT-R",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-061": {
+      "AN": "W52-01",
+      "AO": "CP3/drawings/W52-01_CP3.pdf",
+      "AP": "CP3_W52-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-062": {
+      "AN": "DS52",
+      "AO": "CP3/drawings/DS52_CP3.pdf",
+      "AP": "CP3_DS52",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-064": {
+      "AN": "NT-64",
+      "AO": "CP3/drawings/NT-64_CP3.pdf",
+      "AP": "CP3_NT-64",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-073": {
+      "AN": "W53-01",
+      "AO": "CP3/drawings/W53-01_CP3.pdf",
+      "AP": "CP3_W53-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-076": {
+      "AN": "NT-76",
+      "AO": "CP3/drawings/NT-76_CP3.pdf",
+      "AP": "CP3_NT-76",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-082": {
+      "AN": "ENT-01",
+      "AO": "CP3/drawings/ENT-01_CP3.pdf",
+      "AP": "CP3_ENT-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-083": {
+      "AN": "ENT-02",
+      "AO": "CP3/drawings/ENT-02_CP3.pdf",
+      "AP": "CP3_ENT-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-085": {
+      "AN": "ENT-01",
+      "AO": "CP3/drawings/ENT-01_CP3.pdf",
+      "AP": "CP3_ENT-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-086": {
+      "AN": "HALL-01",
+      "AO": "CP3/drawings/HALL-01_CP3.pdf",
+      "AP": "CP3_HALL-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-092": {
+      "AN": "B62-01",
+      "AO": "CP3/drawings/B62-01_CP3.pdf",
+      "AP": "CP3_B62-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-094": {
+      "AN": "B62-02",
+      "AO": "CP3/drawings/B62-02_CP3.pdf",
+      "AP": "CP3_B62-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-095": {
+      "AN": "B62-01",
+      "AO": "CP3/drawings/B62-01_CP3.pdf",
+      "AP": "CP3_B62-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-096": {
+      "AN": "B62-01",
+      "AO": "CP3/drawings/B62-01_CP3.pdf",
+      "AP": "CP3_B62-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-098": {
+      "AN": "B61-01",
+      "AO": "CP3/drawings/B61-01_CP3.pdf",
+      "AP": "CP3_B61-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-101": {
+      "AN": "WC-01",
+      "AO": "CP3/drawings/WC-01_CP3.pdf",
+      "AP": "CP3_WC-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-114": {
+      "AN": "TV-03",
+      "AO": "CP3/drawings/TV-03_CP3.pdf",
+      "AP": "CP3_TV-03",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-118": {
+      "AN": "HB-01",
+      "AO": "CP3/drawings/HB-01_CP3.pdf",
+      "AP": "CP3_HB-01",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-123": {
+      "AN": "ART-02",
+      "AO": "CP3/drawings/ART-02_CP3.pdf",
+      "AP": "CP3_ART-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-124": {
+      "AN": "ART-07",
+      "AO": "CP3/drawings/ART-07_CP3.pdf",
+      "AP": "CP3_ART-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-127": {
+      "AN": "ART-07",
+      "AO": "CP3/drawings/ART-07_CP3.pdf",
+      "AP": "CP3_ART-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-128": {
+      "AN": "ART-07",
+      "AO": "CP3/drawings/ART-07_CP3.pdf",
+      "AP": "CP3_ART-07",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-131": {
+      "AN": "ART-02",
+      "AO": "CP3/drawings/ART-02_CP3.pdf",
+      "AP": "CP3_ART-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-132": {
+      "AN": "ART-02",
+      "AO": "CP3/drawings/ART-02_CP3.pdf",
+      "AP": "CP3_ART-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
+    },
+    "KI-133": {
+      "AN": "ART-02",
+      "AO": "CP3/drawings/ART-02_CP3.pdf",
+      "AP": "CP3_ART-02",
+      "D": "CP3/render_handoff/manifest_CP3.json"
     }
   },
   "new_rows": [
@@ -76,7 +385,7 @@
       "460 mm; 2,3 W; 140 lm; 24 V",
       "fehér / grafit a terv szerint",
       "termék és rajz szerint",
-      58,
+      61,
       "db",
       5490,
       0,

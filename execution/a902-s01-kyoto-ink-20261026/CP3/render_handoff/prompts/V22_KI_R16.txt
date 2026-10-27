@@ -1,0 +1,25 @@
+A902 KYOTO INK — V22: Nyugati terasz / jakuzzi.
+
+Create only a CONDITIONAL DESIGN STUDY for room 09, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: KI_R16. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V22_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: daylight / task lighting as R02 scene schedule.
+
+Attachment order and role:
+
+1. CP3/blender/V22_CP3.jpg — Primary exact-camera native Blender control; simplified product meshes, no final-product certification. SHA256 05f0931b97a02a53c609397c26d167e65c025347f187b5117f8d9fa0d4ef48e4.
+
+2. CP3/drawings/P-CP3.pdf — Whole-apartment placement and internal-light overlay. SHA256 5b78c260f5f042f5c5acc49d7b05d1b24f67164ad34c694abe296a4d183f8fae.
+
+Visible product and custom-structure identity:
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: Kitchen840 mm working aisle and open-dishwasher240 mm passage unresolved; Main05.2 desk/door and05.3 bed/chair decisions remain open; Master NORDLI drawer/nightstand interference unresolved; Several exact product meshes/SKUs and professional approvals missing
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

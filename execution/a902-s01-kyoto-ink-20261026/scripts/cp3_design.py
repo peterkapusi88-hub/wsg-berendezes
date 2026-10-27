@@ -24,8 +24,8 @@ save('data/tulajdonosi_dontes.json',decision)
 spec={
  'WN-01':[
   ('Hosszú ruhák + két lapos fiók',[2342],[2110],2,[],[2320,2790]),
-  ('Dupla akasztás; felső CONERO lift',[2342],[1040,2160],0,[2160],[2320,2790]),
-  ('Dupla akasztás; felső CONERO lift',[2342],[1040,2160],0,[2160],[2320,2790]),
+  ('Dupla akasztás; felső CONERO lift',[1120,2342],[1040,2160],0,[2160],[1090,2320,2790]),
+  ('Dupla akasztás; felső CONERO lift',[1120,2342],[1040,2160],0,[2160],[1090,2320,2790]),
   ('Hat fiók, táskák, hajtogatott ruhák',[1500,1830,2160,2342],[],6,[],[1470,1800,2130,2790])],
  'WS-01':[
   ('Cipők; sík, állítható polcok',[280,560,840,1120,1400,1680,1960,2342],[],0,[],[250,810,1370,1930,2790]),
@@ -33,7 +33,7 @@ spec={
   ('Táskák + négy fiók',[1080,1450,1820,2160,2342],[],4,[],[1050,1420,1790,2130,2790]),
   ('Napi háztartási eszközök; felső zárható vegyszer',[1900,2342],[],0,[],[1870,2790])],
  'W52-01':[
-  ('Felnőtt ruhatöbblet; dupla rúd',[2342],[1040,2160],0,[],[2320,2790]),
+  ('Felnőtt ruhatöbblet; dupla rúd, felső lift',[1120,2342],[1040,2160],0,[2160],[1090,2320,2790]),
   ('Hosszú ruhák; később alacsony gyerekrúd',[2342],[1960],0,[],[2320,2790]),
   ('Négy fiók; hajtogatott ruhák',[1080,1450,1820,2160,2342],[],4,[],[1050,1420,1790,2130,2790]),
   ('Játék alul; ruhák felül; állítható polc',[450,900,1350,1800,2160,2342],[],0,[],[420,1320,2130,2790])],
@@ -72,8 +72,9 @@ for u in D['units']:
   mw=u['modules'][bi];cw=mw-36;cd=u['d']-19-8-30
   if u['id']=='K-03':cd-=100
   runner=500 if u['d']>=580 else 400 if u['d']>=480 else 350 if u['d']>=420 else 250
-  if u['id'].startswith('B'):runner=400 if u['d']>=500 else 350
-  dh=140 if u['h']<500 else 150
+  if u['id'].startswith('B'):runner=450 if u['id']=='B62-01' else 350
+  if u['id']=='B62-01':cd=u['d']-19-8  # cable service above, not a 30 mm rear void
+  dh=120 if u['h']<=350 else 140 if u['h']<500 else 150
   dz=[22+i*170 for i in range(nd)] if u['h']<500 else [100+i*210 for i in range(nd)]
   if u['id'] in ['K-05','K-06']:dz=[100,320,560];dh=170
   if u['id']=='WN-01' and bi==0:dz=[80,270];dh=130
@@ -99,7 +100,7 @@ for u in D['units']:
    parts.append(dict(unit=u['id'],bay=b['id'],part=label,qty=qty,w=pw,d=pd,t=pt,z=None,edge='látható 2 mm, belső 1 mm ABS',status='előzetes; géptorony / szifon / kábelkivágás külön, nem CNC-adat'))
   for idx,z in enumerate(shelves):parts.append(dict(unit=u['id'],bay=b['id'],part=f'S{idx+1}',qty=1,w=cw,d=cd,t=18,z=z,edge='elöl 2 mm ABS',status='előzetes szabásméret; helyszíni méret és vasalat után végleges'))
   if nd:hardware.append(dict(unit=u['id'],bay=b['id'],type='Teljes kihúzású, csillapított fiókvezető',candidate='Blum MOVENTO 40 kg; pontos rendelési készlet gyártói kiosztással',qty=nd,nominal_mm=runner,net_internal_mm=inner,proof='rendszer ismert; szerelési és fiókoldal méret még jóváhagyandó'))
-  for z in lifts:hardware.append(dict(unit=u['id'],bay=b['id'],type='Gardróblift',candidate='Kesseböhmer CONERO normál 0–12 kg, 625–808 mm szélesség',qty=1,nominal_mm=cw,proof='gyártói szélességtartományba esik; pontos furat / mozgáspálya és cikkszám ajánlatban'))
+  for z in lifts:hardware.append(dict(unit=u['id'],bay=b['id'],type='Gardróblift',candidate='Kesseböhmer CONERO normál 0–12 kg, '+('625–808' if cw>=625 else '445–628')+' mm szélesség',qty=1,nominal_mm=cw,proof='gyártói szélességtartományba esik; pontos furat / mozgáspálya és cikkszám ajánlatban'))
   for z in leds:
    large=cw>=500
    lights.append(dict(id=f"L-{b['id']}-{z}",unit=u['id'],bay=b['id'],z=z,length=460 if large else 250,watts=2.3 if large else 1.2,

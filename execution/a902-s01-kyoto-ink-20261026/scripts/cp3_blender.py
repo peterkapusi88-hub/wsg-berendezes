@@ -47,11 +47,18 @@ for u in D['units']:
   for j,z in enumerate(b['drawer_z']):
    dw,dd,dh=[v/1000 for v in b['drawer_inner_mm']];dx=x+(mw-dw)/2;zz=z/1000;dl=[]
    # Upper vanity drawer U cut: leave central notch empty, two side trays.
-   notch=u['id'].startswith('B') and j==0
+   notch=u['id'].startswith('B') and j==len(b['drawer_z'])-1
    spans=[(dx,dx+(dw-.25)/2),(dx+(dw+.25)/2,dx+dw)] if notch and dw>.25 else [(dx,dx+dw)]
    for k,(a,aa) in enumerate(spans):
     for label,bb in [('bottom',[a,.04,zz,aa,.04+dd,zz+.012]),('left',[a-.012,.04,zz,a,.04+dd,zz+dh]),('right',[aa,.04,zz,aa+.012,.04+dd,zz+dh]),('back',[a,.04+dd,zz,aa,.052+dd,zz+dh])]:dl.append(local(u,bid+f'_drawer{j}_{k}_{label}',bb,M['wood'],'drawer'))
-   dl.append(local(u,bid+f'_drawer{j}_face',[x+.03,.019,zz-.008,x+mw-.03,.038,zz+dh+.02],M['front'],'drawer'))
+   if notch and dw>.25:
+    dl.append(local(u,bid+f'_drawer{j}_Ubridge',[dx+(dw-.25)/2,.04,zz,dx+(dw+.25)/2,.04+dd-.2,zz+.012],M['wood'],'drawer'))
+   if u['id'] in ['K-05','K-06','B62-01','B61-01','NT-L','NT-R','NT-64','NT-76']:
+    flo=(.08 if u['id'].startswith('K-') else .002) if j==0 else zz
+    fhi=(b['drawer_z'][j+1]/1000-.002) if j+1<len(b['drawer_z']) else h-.02
+    face=[x+.0015,0,flo,x+mw-.0015,.019,fhi]
+   else:face=[x+.03,.019,zz-.008,x+mw-.03,.038,zz+dh+.02]
+   dl.append(local(u,bid+f'_drawer{j}_face',face,M['dark'] if 'grafit' in u['front'] else M['front'],'drawer'))
    for obj in dl:drawers.append((obj,outward(u)*b['runner_mm']/1000,obj.location.copy(),u['id']))
   # Hinged fronts only for genuinely hinged units; low drawer cabinets get drawer fronts.
   if u['id'] not in ['K-05','K-06','B62-01','B61-01','NT-L','NT-R','NT-64','NT-76']:
@@ -122,6 +129,8 @@ for fid,uid in functions:
  for o in bpy.data.objects:
   if o.type=='MESH':o.hide_render=not o.name.startswith('CP3_'+uid+'_')
  u=next(u for u in D['units'] if u['id']==uid);cc=bpy.data.objects['CP3_'+fid];cc.data.type='ORTHO';cc.data.ortho_scale=max(u['w']/1000*1.5,u['h']/1000*1.9,1.7)
+ if u['h']<1000:
+  center=Vector(transform(u,(u['w']/2000,0,u['h']/2000)));cc.location=center+outward(u)*2.5+Vector((.3,.2,1.9));cc.rotation_euler=(center-cc.location).to_track_quat('-Z','Y').to_euler()
  setstate(False);render('CP3_'+fid,fid+'_closed','isolated cabinet; context removed for technical inspection')
  setstate(True);render('CP3_'+fid,fid+'_open','isolated cabinet; actual hinged fronts open; lift end position only, no certified motion sweep')
  for o in bpy.data.objects:
@@ -157,8 +166,8 @@ for name,bb in [('ALT052 desk',(.1,.05,.85,.4)),('ALT052 stool',(.22,.43,.67,.88
  test(name+' balcony sweep','FAIL' if hit else 'PASS','91 cm source hinge; sampled 2°/100 radial points; desk 750×350 and stool450×450. Not a full ergonomic chair approval.')
 test('05.2 wardrobe capacity','PASS','2380 mm retained; ALT-B does not remove the former 1000 mm wardrobe segment.')
 test('05.2 ergonomic work','OPEN','Compact 750×350 desk and stool is not a full office workstation; child age and ergonomic selection pending. No automatic purchase substitution.')
-test('05.3 simultaneous use','OPEN','Existing workchair and bed clearances require full occupancy/withdrawal check; shallow wardrobe itself is modelled with front-hanging rail.')
-test('CONERO motion','OPEN','625–808 mm normal12 kg selected for694 mm clear bay; conservative600 mm forward/down end position shown. Exact manufacturer linkage and collision sweep pending.')
+test('05.3 simultaneous use','FAIL','Chair withdrawn600 mm occupies y5.95..6.66; current bed reaches y6.05:100 mm overlap. NORDLI side drawers also require a separate opening model. ALT053 proposal is not accepted.')
+test('CONERO motion','OPEN','WN:2×625–808 mm normal12 kg for694 mm bays; W52:1×445–628 mm normal12 kg for559 mm bay. Conservative600 mm forward/down end position; exact linkage and swept volume pending.')
 test('AT8 geometry','CONDITIONAL','2580×1870 graphical reading, column600×410; freezer relocated between racks to keep planned entrance side clear. Final door, vent and appliance EAN unresolved.')
 test('T026 geometry','OPEN','2500×1600 arrangement envelope only; cadastral PDF lacks a reliable door/finished interior. No fit PASS.')
 test('Lighting loaded shelves','OPEN','Loaded dark-cloth native workbench views rendered; workbench does not simulate light. No lux / shadow or CRI approval asserted.')

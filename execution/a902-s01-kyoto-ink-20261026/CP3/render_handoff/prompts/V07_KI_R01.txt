@@ -1,0 +1,41 @@
+A902 KYOTO INK — V07: Előtér / tároló.
+
+Create only a CONDITIONAL DESIGN STUDY for room 01, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: KI_R01. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V07_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: daylight / task lighting as R02 scene schedule.
+
+Attachment order and role:
+
+1. CP3/blender/V07_CP3.jpg — Primary exact-camera native Blender control; simplified product meshes, no final-product certification. SHA256 c4bbf293240eb1c909e4cba17106864af2553c98b2c535782df2cfa65b69668a.
+
+2. CP3/drawings/P-CP3.pdf — Whole-apartment placement and internal-light overlay. SHA256 5b78c260f5f042f5c5acc49d7b05d1b24f67164ad34c694abe296a4d183f8fae.
+
+3. CP3/drawings/ENT-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 416f30dafbded8eee38847789efcc628ed3e913686defc8cb8f90d164c3ee2d6.
+
+4. CP3/drawings/ENT-02_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 419819b21209a2c47c5847c67039021db59a7a61c108b7793574b0f56bf2fc84.
+
+Visible product and custom-structure identity:
+
+{"element": "KI-082", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Előtéri kabát- és cipőtároló belső/front/vasalat", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ENT-01: 860×540×2840 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-083", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Előtéri pad és fali fogas", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ENT-02: 800×350×450 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-084", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Előtéri tükör és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-085", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Előtéri bútor beépítés és takaróelemek", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "ENT-01: 860×540×2840 mm", "price_status": "előzetes becslés"}
+
+Custom structure ENT-01: overall 860 W × 540 D × 2840 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. ENT-01-B01: clear width 394 mm, clear depth 483 mm; shelf elevations [450, 2200, 2600] mm; rail elevations [2000] mm; lift rails [] mm; 0 drawers, proposed net internal size [294, 350, 150] mm; internal lights at [2170, 2570] mm. ENT-01-B02: clear width 394 mm, clear depth 483 mm; shelf elevations [320, 640, 960, 1280, 1640, 2000, 2400] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [294, 350, 150] mm; internal lights at [610, 1250, 1970, 2370] mm. 
+
+Custom structure ENT-02: overall 800 W × 350 D × 450 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: Kitchen840 mm working aisle and open-dishwasher240 mm passage unresolved; Main05.2 desk/door and05.3 bed/chair decisions remain open; Master NORDLI drawer/nightstand interference unresolved; Several exact product meshes/SKUs and professional approvals missing
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.

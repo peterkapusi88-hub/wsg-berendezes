@@ -1,0 +1,65 @@
+A902 KYOTO INK — V15: Gardrób és íróasztal.
+
+Create only a CONDITIONAL DESIGN STUDY for room 05.2, revision KI-CP3-R03. This is not an approved construction photograph.
+
+Use Blender file CP3/blender/A902_Kyoto_Ink_CP3.blend, SHA256 b69afce9206d7da48f51903d4766ba1c85a57f98c55846b9376ea3f07ae70192. Camera: KI_R09. Copy its exact camera transform from the attached control; do not reuse another perspective under this camera ID.
+
+Output filename: A902_KyotoInk_V15_KI-CP3-R03_CONDITIONAL_v1.png. Lighting scene: daylight / task lighting as R02 scene schedule.
+
+Attachment order and role:
+
+1. CP3/blender/V15_CP3.jpg — Primary exact-camera native Blender control; simplified product meshes, no final-product certification. SHA256 3bddbdc3182d704144046512e8b9d89fa885a93f4e6fd81ed5903a6b41ca4b3e.
+
+2. CP3/drawings/P-CP3.pdf — Whole-apartment placement and internal-light overlay. SHA256 5b78c260f5f042f5c5acc49d7b05d1b24f67164ad34c694abe296a4d183f8fae.
+
+3. CP3/drawings/W52-01_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 1a60766a4548be6354827e1853522cf9c5066d60335faac0b21bbb0234c603f1.
+
+4. CP3/drawings/DS52_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 40cbd0a17d87d29cd704c1f8f9dfde4b6798bf559d44c3de10e8b80b96ed4ea7.
+
+5. CP3/drawings/NT-64_CP3.pdf — CP3 custom structure: page1 dimensions/interior; page2 operation and clear compartments. SHA256 7f9ce1dae6da9f7d881e0d9f7b44f33ef6b716c11efb0f9ea8f8ac95926b5f3f.
+
+6. CP3/evidence/product_photos/KI-058.jpg — Official exact-product-page photograph; check pictured variant before final use. SHA256 5b1d1f532c9a311896568baffe1a7a539bed3f304dd3e9fff68f02af3c8492bb.
+
+7. CP3/evidence/product_photos/KI-063.jpg — Official exact-product-page photograph; check pictured variant before final use. SHA256 c310ed1ed21949ec50be42e5ba11725c381579b24706439f4447f0807512e02b.
+
+Visible product and custom-structure identity:
+
+{"element": "KI-058", "sku": "405.712.48", "url": "https://www.ikea.com/hu/hu/p/slattum-karpitozott-agykeret-vissle-soetetszuerke-40571248/", "asset_status": "PHOTO_PACKAGED; manufacturer3D not provided", "name": "SLATTUM Vissle sötétszürke 160×200", "brand": "IKEA", "product_url": "https://www.ikea.com/hu/hu/p/slattum-karpitozott-agykeret-vissle-soetetszuerke-40571248/", "dimensions": "1640×2060×850 mm", "price_status": "ellenőrzött webshopár", "photo": "CP3/evidence/product_photos/KI-058.jpg", "photo_sha256": "5b1d1f532c9a311896568baffe1a7a539bed3f304dd3e9fff68f02af3c8492bb"}
+
+{"element": "KI-059", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Matrac", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-060", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Gardrób korpusz és belső", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "W52-01: 2380×600×2840 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-061", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Gardrób front és szerelés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "W52-01: 2380×600×2840 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-062", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Íróasztal", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "DS52: 1000×450×750 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-063", "sku": "704.922.02", "url": "https://www.ikea.com/hu/hu/p/flintan-irodai-szek-bezs-70492202/", "asset_status": "PHOTO_PACKAGED; manufacturer3D not provided", "name": "FLINTAN bézs karfa nélkül", "brand": "IKEA", "product_url": "https://www.ikea.com/hu/hu/p/flintan-irodai-szek-bezs-70492202/", "dimensions": "710×710×max1140 mm", "price_status": "ellenőrzött webshopár", "photo": "CP3/evidence/product_photos/KI-063.jpg", "photo_sha256": "c310ed1ed21949ec50be42e5ba11725c381579b24706439f4447f0807512e02b"}
+
+{"element": "KI-064", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Éjjeli és kisebb tároló", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "NT-64: 350×350×450 mm", "price_status": "előzetes becslés"}
+
+{"element": "KI-065", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Függöny, sín, varrás és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-066", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Ágynemű, párna, paplan és ágytakaró", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-067", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Szőnyeg", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-068", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Keretelt saját tusgrafika és rögzítés", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+{"element": "KI-069", "sku": "UNKNOWN", "url": "UNKNOWN", "asset_status": "NO_EXACT_ASSET; stop final-product rendering if this item is visible", "name": "Mennyezeti és munkafény Hue izzóval", "brand": "UNKNOWN", "product_url": "UNKNOWN", "dimensions": "UNKNOWN – felmérés/gyári adat kell", "price_status": "előzetes becslés"}
+
+Custom structure W52-01: overall 2380 W × 600 D × 2840 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. W52-01-B01: clear width 559 mm, clear depth 543 mm; shelf elevations [1120, 2342] mm; rail elevations [1040, 2160] mm; lift rails [2160] mm; 0 drawers, proposed net internal size [459, 450, 150] mm; internal lights at [1090, 2320, 2790] mm. W52-01-B02: clear width 559 mm, clear depth 543 mm; shelf elevations [2342] mm; rail elevations [1960] mm; lift rails [] mm; 0 drawers, proposed net internal size [459, 450, 150] mm; internal lights at [2320, 2790] mm. W52-01-B03: clear width 559 mm, clear depth 543 mm; shelf elevations [1080, 1450, 1820, 2160, 2342] mm; rail elevations [] mm; lift rails [] mm; 4 drawers, proposed net internal size [459, 450, 150] mm; internal lights at [1050, 1420, 1790, 2130, 2790] mm. W52-01-B04: clear width 559 mm, clear depth 543 mm; shelf elevations [450, 900, 1350, 1800, 2160, 2342] mm; rail elevations [] mm; lift rails [] mm; 0 drawers, proposed net internal size [459, 450, 150] mm; internal lights at [420, 1320, 2130, 2790] mm. 
+
+Custom structure DS52: overall 1000 W × 450 D × 750 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. 
+
+Custom structure NT-64: overall 350 W × 350 D × 450 H mm; 18 mm carcass, specified front finish. Preserve the closed-front divisions from its CP3 drawing. NT-64-B01: clear width 314 mm, clear depth 293 mm; shelf elevations [210] mm; rail elevations [] mm; lift rails [] mm; 1 drawers, proposed net internal size [214, 200, 140] mm; internal lights at [] mm. 
+
+Materials: retain Kyoto Ink matte graphite lower cabinetry, chalk/warm-white upper fronts, taupe textiles, light existing floor, and the specified ink artwork. Do not change any surface merely to conceal an unresolved product choice. Use the target image for aesthetic direction and the CP3 drawings for geometry. Match panel joints, service covers, and open/closed states exactly.
+
+Internal wardrobe light is separately switched functional lighting. Decorative/general lighting remains Hue. Do not invent visible glow without a modelled fixture/profile; CRI and colour temperature remain subject to manufacturer data and a sample.
+
+Geometry limits and release conditions: Kitchen840 mm working aisle and open-dishwasher240 mm passage unresolved; Main05.2 desk/door and05.3 bed/chair decisions remain open; Master NORDLI drawer/nightstand interference unresolved; Several exact product meshes/SKUs and professional approvals missing
+
+Keep thresholds, window opening types, wall positions, furniture footprints, storage contents and the terrace boundary. Do not stretch a kitchen aisle or reduce a purchased appliance to make it fit. A visible simplified proxy cannot be made into a supposedly verified exact product by generative guessing.
+
+Before delivery compare the result to the native control and the exact product references, record any discrepancy, and save both the output and its audit. Stop on geometry drift, substituted products, changed front divisions or invented wiring. Never label the result final while any required release condition remains open.
