@@ -1,0 +1,103 @@
+{
+  "status": "UNSELECTED_R04_PROPOSAL_ESTIMATE",
+  "date": "2026-10-27",
+  "baseline": {
+    "main": 23253840.0,
+    "economy": 22468340.0,
+    "low": 20037530,
+    "high": 30777532,
+    "budget": 18000000,
+    "reserve": 2000000,
+    "reserve_used": 0,
+    "verified": 2352790.0,
+    "quotes": 0,
+    "rows": 172,
+    "r02": 20554190,
+    "delta": 2699650.0,
+    "freezer_with_service": 334990,
+    "without_freezer": 22918850.0,
+    "status": "Teljes projekt-előirányzat, nem fix ajánlat; gazdaságos változat tulajdonosi döntésre vár."
+  },
+  "delta_rows": [
+    [
+      "WN belső",
+      "KI-050",
+      -40000,
+      -40000,
+      -40000,
+      "5 polc×6500 + 1 fix rúd×7500 elmarad. A polckapacitás csökkenése külön döntés."
+    ],
+    [
+      "WN szélesebb fiókok",
+      "KI-050",
+      60000,
+      20000,
+      120000,
+      "8 fiók×7500 Ft szélességi/vasalati felár-előirányzat. Nem beszállítói ár."
+    ],
+    [
+      "WN teljes magasságú front",
+      "KI-051",
+      120000,
+      40000,
+      240000,
+      "6 magas front merevítése, pántolása és mintázása: 6×20000 Ft többletkeret. A régi 250000 Ft csomag fölötti javaslat."
+    ],
+    [
+      "WN belső lámpa",
+      "KI-CP3-L01",
+      -20450,
+      -20450,
+      -20450,
+      "12×5490 helyett 7×6490 Ft. A táp/kábel csomagot nem vonjuk le igazolás nélkül."
+    ],
+    [
+      "WN lámpaszerelés",
+      "KI-119",
+      -7500,
+      -7500,
+      0,
+      "5-tel kevesebb lámpa×1500 Ft előirányzati munkadíj; új érzékelési próba módosíthatja."
+    ],
+    [
+      "Médiafal új felület/front",
+      "KI-030 / KI-031",
+      300000,
+      50000,
+      550000,
+      "Ideiglenes különbözeti keret: 60000 frontmerevítés + 160000 felületi többlet + 80000 grafikai/minta többlet. Az eredeti 450000+260000 Ft nem kerül újra hozzáadásra. Pontos műszaki árbontás nélkül nem bizonyított felár."
+    ],
+    [
+      "Mosdó oldalankénti osztás",
+      "KI-092",
+      20000,
+      0,
+      60000,
+      "Két fiók marad; 20000 Ft egyszeri új osztó/szifon/vasalat illesztési felár-előirányzat."
+    ],
+    [
+      "Biciklitartó és rögzítés",
+      "R04-BIKE",
+      70000,
+      35000,
+      120000,
+      "45000 Ft tartókeret + 25000 Ft falrögzítés/munkadíj becslés. Nincs kiválasztott SKU."
+    ],
+    [
+      "Több tárolódoboz",
+      "KI-CP3-S04",
+      36000,
+      27000,
+      54000,
+      "21 tervezett doboz a korábbi 12 helyett: 9×4000 Ft különbözet. 3000–6000 Ft/db érzékenység; típus még nincs."
+    ]
+  ],
+  "expected": 23791890.0,
+  "low": 20141580,
+  "high": 31861082,
+  "budget": 18000000,
+  "reserve": 2000000,
+  "reserve_used": 0,
+  "workbook_sha256_preserved": "4ba32268289bae238a23e907f79f13775b49081de7e84adca0706717df732f9e",
+  "limitations": "A feltételes felárak nem igazolt árak; az eredeti becslések műszaki tartalmát ajánlatban egyeztetni kell. A teljes R04 változat nincs az élő Excel főösszegébe választva."
+}

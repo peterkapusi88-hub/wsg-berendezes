@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "authority": "Tulajdonos közvetlen üzenete ebben a beszélgetésben",
+  "decision": "A mellékelt VISUAL_RESCUE_v3_CONDITIONAL képen látható médiafal megjelenése a választott vizuális cél. A megvalósítási tervet ehhez kell igazítani.",
+  "scope": "Csak médiafal-kompozíció és látható megjelenés; nem a teljes kép, nem felmért geometria, nem költségkeret-emelés vagy gyártási jóváhagyás.",
+  "image": "A902_KyotoInk_V01_KI-CP3-R03_VISUAL_RESCUE_v3_CONDITIONAL.png",
+  "sha256": "5c8121370d6f9db5301ad9a0fbb792b4501e771c7758219b4232af946270930b",
+  "affected_units": [
+    "TV-01",
+    "TV-02",
+    "TV-03"
+  ],
+  "implementation_status": "A döntés rögzítve. Rajz, anyag- és működési specifikáció, grafikai állomány, modell és költség még nincs átvezetve.",
+  "constraints": "A látványból nem következik bizonyított ajtónyitás vagy anyagtechnológia. Működő tároló, szerviz, fény és rögzítés kidolgozandó a választott megjelenés megtartásával."
+}

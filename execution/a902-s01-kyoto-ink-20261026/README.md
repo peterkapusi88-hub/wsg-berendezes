@@ -1,3 +1,7 @@
+## R04 — legújabb rajzi és tárolási felülvizsgálat (2026-10-27)
+
+Az új kiadás belépőpontja: [R04/OLVASD_EL_R04.txt](R04/OLVASD_EL_R04.txt). Ötlapos tulajdonosi használati útmutató, 93 A3 rajz-/specifikációs lap, szerkeszthető SVG-k és külön Blender-munkamásolat. **Feltételes felülvizsgálat, nem lezárt megvalósítás vagy gyártási jóváhagyás.** Az élő Excel CP3 főösszege változatlan; az R04 költsége külön, még ki nem választott forgatókönyv.
+
 <!-- CP3_CURRENT -->
 ## Aktuális CP3-R03 — 2026-10-27
 

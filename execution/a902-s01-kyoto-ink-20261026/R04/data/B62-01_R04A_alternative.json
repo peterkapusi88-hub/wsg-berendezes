@@ -1,0 +1,112 @@
+{
+  "id": "B62-01-R04A",
+  "name": "Mosdóbútor / egymás melletti frontjavaslat",
+  "room": "06.2",
+  "cost": [
+    "KI-092",
+    "KI-095",
+    "KI-096"
+  ],
+  "w": 900,
+  "d": 500,
+  "h": 350,
+  "x": 15.88,
+  "y": 6.02,
+  "z": 0.5,
+  "rot": 90,
+  "modules": [
+    600,
+    300
+  ],
+  "kind": "cabinet",
+  "notes": "Két egymás melletti fiók; a bal fiókból a szifon tényleges burkolóterét le kell vonni. Nincs fiókba épített dugalj igazolva.",
+  "shelves": 0,
+  "drawers": 2,
+  "front": "grafit matt, nedvességálló hordozó, teljes éllezárás",
+  "opening": 450,
+  "revision": "KI-CP3-R03",
+  "date": "2026-10-26",
+  "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+  "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+  "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+  "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+  "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+  "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+  "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+  "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+  "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+  "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+  "opening_dir": "-x",
+  "cp3_bays": [
+    {
+      "id": "B62-01-R04A-B01",
+      "bay": 1,
+      "offset": 0,
+      "module_w": 600,
+      "clear_w": 564,
+      "clear_d": 473,
+      "purpose": "Napi pipere / szifonkivágás",
+      "shelves_mm": [],
+      "rails_mm": [],
+      "lift_rails_mm": [],
+      "rod_lengths_mm": [],
+      "drawers": 1,
+      "drawer_z": [
+        35
+      ],
+      "drawer_inner_mm": [
+        464,
+        400,
+        220
+      ],
+      "runner_mm": 450,
+      "lights_mm": [],
+      "rail_m": 0,
+      "shelf_m2": 0,
+      "drawer_l": 40.832,
+      "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+      "storage_role": "vegyes / vendég / munka"
+    },
+    {
+      "id": "B62-01-R04A-B02",
+      "bay": 2,
+      "offset": 600,
+      "module_w": 300,
+      "clear_w": 264,
+      "clear_d": 473,
+      "purpose": "Hajszárító / kefék",
+      "shelves_mm": [],
+      "rails_mm": [],
+      "lift_rails_mm": [],
+      "rod_lengths_mm": [],
+      "drawers": 1,
+      "drawer_z": [
+        35
+      ],
+      "drawer_inner_mm": [
+        164,
+        400,
+        220
+      ],
+      "runner_mm": 450,
+      "lights_mm": [],
+      "rail_m": 0,
+      "shelf_m2": 0,
+      "drawer_l": 14.432,
+      "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+      "storage_role": "vegyes / vendég / munka"
+    }
+  ],
+  "drawings_cp3": "CP3/drawings/B62-01_CP3.pdf",
+  "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+  "capacity": {
+    "drawer_l_before_siphon": 55.264,
+    "siphon_deduction": "UNKNOWN"
+  },
+  "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető.",
+  "front_modules": [
+    600,
+    300
+  ],
+  "visual_status": "Kép szerinti oldalankénti frontok; a 600/300 osztás és szifon kivágás javaslat, még nem gyártási adat."
+}

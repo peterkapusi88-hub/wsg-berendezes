@@ -1,0 +1,653 @@
+[
+  {
+    "page": 1,
+    "unit": "all",
+    "kind": "kiadási státusz",
+    "pdf": "drawings/00_R04_rajzjegyzek_statusz.pdf",
+    "svg": "drawings/00_R04_rajzjegyzek_statusz.svg"
+  },
+  {
+    "page": 2,
+    "unit": "TV-01 / TV-02 / TV-03",
+    "kind": "referencia és anyagspecifikáció",
+    "pdf": "drawings/M01_referencia_anyag.pdf",
+    "svg": "drawings/M01_referencia_anyag.svg"
+  },
+  {
+    "page": 3,
+    "unit": "WN-01 / WS-01 / HB-01 / NT-L / NT-R",
+    "kind": "referencia és anyagspecifikáció",
+    "pdf": "drawings/M02_referencia_anyag.pdf",
+    "svg": "drawings/M02_referencia_anyag.svg"
+  },
+  {
+    "page": 4,
+    "unit": "K-01 … K-09",
+    "kind": "referencia és anyagspecifikáció",
+    "pdf": "drawings/M03_referencia_anyag.pdf",
+    "svg": "drawings/M03_referencia_anyag.svg"
+  },
+  {
+    "page": 5,
+    "unit": "B62-01 / B62-02",
+    "kind": "referencia és anyagspecifikáció",
+    "pdf": "drawings/M04_referencia_anyag.pdf",
+    "svg": "drawings/M04_referencia_anyag.svg"
+  },
+  {
+    "page": 6,
+    "unit": "W52-01 / W53-01 / ENT-01 / WC-01",
+    "kind": "referencia és anyagspecifikáció",
+    "pdf": "drawings/M05_referencia_anyag.pdf",
+    "svg": "drawings/M05_referencia_anyag.svg"
+  },
+  {
+    "page": 7,
+    "unit": "W01",
+    "kind": "választott képhez igazított kompozíció",
+    "pdf": "drawings/W01_03_valasztott_mediafal.pdf",
+    "svg": "drawings/W01_03_valasztott_mediafal.svg"
+  },
+  {
+    "page": 8,
+    "unit": "WN-01-R04A",
+    "kind": "nézetek",
+    "pdf": "drawings/WN-01-R04A_01.pdf",
+    "svg": "drawings/WN-01-R04A_01.svg"
+  },
+  {
+    "page": 9,
+    "unit": "WN-01-R04A",
+    "kind": "specifikáció",
+    "pdf": "drawings/WN-01-R04A_02.pdf",
+    "svg": "drawings/WN-01-R04A_02.svg"
+  },
+  {
+    "page": 10,
+    "unit": "B62-01-R04A",
+    "kind": "nézetek",
+    "pdf": "drawings/B62-01-R04A_01.pdf",
+    "svg": "drawings/B62-01-R04A_01.svg"
+  },
+  {
+    "page": 11,
+    "unit": "B62-01-R04A",
+    "kind": "specifikáció",
+    "pdf": "drawings/B62-01-R04A_02.pdf",
+    "svg": "drawings/B62-01-R04A_02.svg"
+  },
+  {
+    "page": 12,
+    "unit": "TV-01-R04A",
+    "kind": "nézetek",
+    "pdf": "drawings/TV-01-R04A_01.pdf",
+    "svg": "drawings/TV-01-R04A_01.svg"
+  },
+  {
+    "page": 13,
+    "unit": "TV-01-R04A",
+    "kind": "specifikáció",
+    "pdf": "drawings/TV-01-R04A_02.pdf",
+    "svg": "drawings/TV-01-R04A_02.svg"
+  },
+  {
+    "page": 14,
+    "unit": "TV-02-R04A",
+    "kind": "nézetek",
+    "pdf": "drawings/TV-02-R04A_01.pdf",
+    "svg": "drawings/TV-02-R04A_01.svg"
+  },
+  {
+    "page": 15,
+    "unit": "TV-02-R04A",
+    "kind": "specifikáció",
+    "pdf": "drawings/TV-02-R04A_02.pdf",
+    "svg": "drawings/TV-02-R04A_02.svg"
+  },
+  {
+    "page": 16,
+    "unit": "AT8-01",
+    "kind": "tároló alaprajz és falnézet",
+    "pdf": "drawings/AT8-01_01.pdf",
+    "svg": "drawings/AT8-01_01.svg"
+  },
+  {
+    "page": 17,
+    "unit": "T-0-26",
+    "kind": "tároló alaprajz és falnézet",
+    "pdf": "drawings/T-0-26_01.pdf",
+    "svg": "drawings/T-0-26_01.svg"
+  },
+  {
+    "page": 18,
+    "unit": "T-0-26",
+    "kind": "biciklis alternatíva",
+    "pdf": "drawings/T-0-26_02_bicikli.pdf",
+    "svg": "drawings/T-0-26_02_bicikli.svg"
+  },
+  {
+    "page": 19,
+    "unit": "Master háló",
+    "kind": "rekeszenkénti használati jegyzék",
+    "pdf": "drawings/U01-1_hasznalat.pdf",
+    "svg": "drawings/U01-1_hasznalat.svg"
+  },
+  {
+    "page": 20,
+    "unit": "05.2 és 05.3",
+    "kind": "rekeszenkénti használati jegyzék",
+    "pdf": "drawings/U02-1_hasznalat.pdf",
+    "svg": "drawings/U02-1_hasznalat.svg"
+  },
+  {
+    "page": 21,
+    "unit": "Konyha",
+    "kind": "rekeszenkénti használati jegyzék",
+    "pdf": "drawings/U03-1_hasznalat.pdf",
+    "svg": "drawings/U03-1_hasznalat.svg"
+  },
+  {
+    "page": 22,
+    "unit": "Nappali, előtér és fürdők",
+    "kind": "rekeszenkénti használati jegyzék",
+    "pdf": "drawings/U04-1_hasznalat.pdf",
+    "svg": "drawings/U04-1_hasznalat.svg"
+  },
+  {
+    "page": 23,
+    "unit": "Nappali, előtér és fürdők",
+    "kind": "rekeszenkénti használati jegyzék",
+    "pdf": "drawings/U04-2_hasznalat.pdf",
+    "svg": "drawings/U04-2_hasznalat.svg"
+  },
+  {
+    "page": 24,
+    "unit": "lakás + két tároló",
+    "kind": "tárgyak és férőhelyek",
+    "pdf": "drawings/U05-1_mennyiseg.pdf",
+    "svg": "drawings/U05-1_mennyiseg.svg"
+  },
+  {
+    "page": 25,
+    "unit": "lakás + két tároló",
+    "kind": "tárgyak és férőhelyek",
+    "pdf": "drawings/U05-2_mennyiseg.pdf",
+    "svg": "drawings/U05-2_mennyiseg.svg"
+  },
+  {
+    "page": 26,
+    "unit": "lakás + két tároló",
+    "kind": "tárgyak és férőhelyek",
+    "pdf": "drawings/U05-3_mennyiseg.pdf",
+    "svg": "drawings/U05-3_mennyiseg.svg"
+  },
+  {
+    "page": 27,
+    "unit": "R04",
+    "kind": "költségforgatókönyv",
+    "pdf": "drawings/C01_koltseg.pdf",
+    "svg": "drawings/C01_koltseg.svg"
+  },
+  {
+    "page": 28,
+    "unit": "K-01",
+    "kind": "nézetek",
+    "pdf": "drawings/K-01_01.pdf",
+    "svg": "drawings/K-01_01.svg"
+  },
+  {
+    "page": 29,
+    "unit": "K-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-01_02.pdf",
+    "svg": "drawings/K-01_02.svg"
+  },
+  {
+    "page": 30,
+    "unit": "K-02",
+    "kind": "nézetek",
+    "pdf": "drawings/K-02_01.pdf",
+    "svg": "drawings/K-02_01.svg"
+  },
+  {
+    "page": 31,
+    "unit": "K-02",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-02_02.pdf",
+    "svg": "drawings/K-02_02.svg"
+  },
+  {
+    "page": 32,
+    "unit": "K-03",
+    "kind": "nézetek",
+    "pdf": "drawings/K-03_01.pdf",
+    "svg": "drawings/K-03_01.svg"
+  },
+  {
+    "page": 33,
+    "unit": "K-03",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-03_02.pdf",
+    "svg": "drawings/K-03_02.svg"
+  },
+  {
+    "page": 34,
+    "unit": "K-04",
+    "kind": "nézetek",
+    "pdf": "drawings/K-04_01.pdf",
+    "svg": "drawings/K-04_01.svg"
+  },
+  {
+    "page": 35,
+    "unit": "K-04",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-04_02.pdf",
+    "svg": "drawings/K-04_02.svg"
+  },
+  {
+    "page": 36,
+    "unit": "K-05",
+    "kind": "nézetek",
+    "pdf": "drawings/K-05_01.pdf",
+    "svg": "drawings/K-05_01.svg"
+  },
+  {
+    "page": 37,
+    "unit": "K-05",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-05_02.pdf",
+    "svg": "drawings/K-05_02.svg"
+  },
+  {
+    "page": 38,
+    "unit": "K-06",
+    "kind": "nézetek",
+    "pdf": "drawings/K-06_01.pdf",
+    "svg": "drawings/K-06_01.svg"
+  },
+  {
+    "page": 39,
+    "unit": "K-06",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-06_02.pdf",
+    "svg": "drawings/K-06_02.svg"
+  },
+  {
+    "page": 40,
+    "unit": "K-07",
+    "kind": "nézetek",
+    "pdf": "drawings/K-07_01.pdf",
+    "svg": "drawings/K-07_01.svg"
+  },
+  {
+    "page": 41,
+    "unit": "K-07",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-07_02.pdf",
+    "svg": "drawings/K-07_02.svg"
+  },
+  {
+    "page": 42,
+    "unit": "K-08",
+    "kind": "nézetek",
+    "pdf": "drawings/K-08_01.pdf",
+    "svg": "drawings/K-08_01.svg"
+  },
+  {
+    "page": 43,
+    "unit": "K-08",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-08_02.pdf",
+    "svg": "drawings/K-08_02.svg"
+  },
+  {
+    "page": 44,
+    "unit": "TV-01",
+    "kind": "nézetek",
+    "pdf": "drawings/TV-01_01.pdf",
+    "svg": "drawings/TV-01_01.svg"
+  },
+  {
+    "page": 45,
+    "unit": "TV-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/TV-01_02.pdf",
+    "svg": "drawings/TV-01_02.svg"
+  },
+  {
+    "page": 46,
+    "unit": "TV-02",
+    "kind": "nézetek",
+    "pdf": "drawings/TV-02_01.pdf",
+    "svg": "drawings/TV-02_01.svg"
+  },
+  {
+    "page": 47,
+    "unit": "TV-02",
+    "kind": "specifikáció",
+    "pdf": "drawings/TV-02_02.pdf",
+    "svg": "drawings/TV-02_02.svg"
+  },
+  {
+    "page": 48,
+    "unit": "TV-03",
+    "kind": "nézetek",
+    "pdf": "drawings/TV-03_01.pdf",
+    "svg": "drawings/TV-03_01.svg"
+  },
+  {
+    "page": 49,
+    "unit": "TV-03",
+    "kind": "specifikáció",
+    "pdf": "drawings/TV-03_02.pdf",
+    "svg": "drawings/TV-03_02.svg"
+  },
+  {
+    "page": 50,
+    "unit": "ART-02",
+    "kind": "nézetek",
+    "pdf": "drawings/ART-02_01.pdf",
+    "svg": "drawings/ART-02_01.svg"
+  },
+  {
+    "page": 51,
+    "unit": "ART-02",
+    "kind": "specifikáció",
+    "pdf": "drawings/ART-02_02.pdf",
+    "svg": "drawings/ART-02_02.svg"
+  },
+  {
+    "page": 52,
+    "unit": "ART-07",
+    "kind": "nézetek",
+    "pdf": "drawings/ART-07_01.pdf",
+    "svg": "drawings/ART-07_01.svg"
+  },
+  {
+    "page": 53,
+    "unit": "ART-07",
+    "kind": "specifikáció",
+    "pdf": "drawings/ART-07_02.pdf",
+    "svg": "drawings/ART-07_02.svg"
+  },
+  {
+    "page": 54,
+    "unit": "CF-01",
+    "kind": "nézetek",
+    "pdf": "drawings/CF-01_01.pdf",
+    "svg": "drawings/CF-01_01.svg"
+  },
+  {
+    "page": 55,
+    "unit": "CF-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/CF-01_02.pdf",
+    "svg": "drawings/CF-01_02.svg"
+  },
+  {
+    "page": 56,
+    "unit": "ST-01",
+    "kind": "nézetek",
+    "pdf": "drawings/ST-01_01.pdf",
+    "svg": "drawings/ST-01_01.svg"
+  },
+  {
+    "page": 57,
+    "unit": "ST-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/ST-01_02.pdf",
+    "svg": "drawings/ST-01_02.svg"
+  },
+  {
+    "page": 58,
+    "unit": "WN-01",
+    "kind": "nézetek",
+    "pdf": "drawings/WN-01_01.pdf",
+    "svg": "drawings/WN-01_01.svg"
+  },
+  {
+    "page": 59,
+    "unit": "WN-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/WN-01_02.pdf",
+    "svg": "drawings/WN-01_02.svg"
+  },
+  {
+    "page": 60,
+    "unit": "WS-01",
+    "kind": "nézetek",
+    "pdf": "drawings/WS-01_01.pdf",
+    "svg": "drawings/WS-01_01.svg"
+  },
+  {
+    "page": 61,
+    "unit": "WS-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/WS-01_02.pdf",
+    "svg": "drawings/WS-01_02.svg"
+  },
+  {
+    "page": 62,
+    "unit": "HB-01",
+    "kind": "nézetek",
+    "pdf": "drawings/HB-01_01.pdf",
+    "svg": "drawings/HB-01_01.svg"
+  },
+  {
+    "page": 63,
+    "unit": "HB-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/HB-01_02.pdf",
+    "svg": "drawings/HB-01_02.svg"
+  },
+  {
+    "page": 64,
+    "unit": "NT-L",
+    "kind": "nézetek",
+    "pdf": "drawings/NT-L_01.pdf",
+    "svg": "drawings/NT-L_01.svg"
+  },
+  {
+    "page": 65,
+    "unit": "NT-L",
+    "kind": "specifikáció",
+    "pdf": "drawings/NT-L_02.pdf",
+    "svg": "drawings/NT-L_02.svg"
+  },
+  {
+    "page": 66,
+    "unit": "NT-R",
+    "kind": "nézetek",
+    "pdf": "drawings/NT-R_01.pdf",
+    "svg": "drawings/NT-R_01.svg"
+  },
+  {
+    "page": 67,
+    "unit": "NT-R",
+    "kind": "specifikáció",
+    "pdf": "drawings/NT-R_02.pdf",
+    "svg": "drawings/NT-R_02.svg"
+  },
+  {
+    "page": 68,
+    "unit": "W52-01",
+    "kind": "nézetek",
+    "pdf": "drawings/W52-01_01.pdf",
+    "svg": "drawings/W52-01_01.svg"
+  },
+  {
+    "page": 69,
+    "unit": "W52-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/W52-01_02.pdf",
+    "svg": "drawings/W52-01_02.svg"
+  },
+  {
+    "page": 70,
+    "unit": "W53-01",
+    "kind": "nézetek",
+    "pdf": "drawings/W53-01_01.pdf",
+    "svg": "drawings/W53-01_01.svg"
+  },
+  {
+    "page": 71,
+    "unit": "W53-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/W53-01_02.pdf",
+    "svg": "drawings/W53-01_02.svg"
+  },
+  {
+    "page": 72,
+    "unit": "ENT-01",
+    "kind": "nézetek",
+    "pdf": "drawings/ENT-01_01.pdf",
+    "svg": "drawings/ENT-01_01.svg"
+  },
+  {
+    "page": 73,
+    "unit": "ENT-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/ENT-01_02.pdf",
+    "svg": "drawings/ENT-01_02.svg"
+  },
+  {
+    "page": 74,
+    "unit": "ENT-02",
+    "kind": "nézetek",
+    "pdf": "drawings/ENT-02_01.pdf",
+    "svg": "drawings/ENT-02_01.svg"
+  },
+  {
+    "page": 75,
+    "unit": "ENT-02",
+    "kind": "specifikáció",
+    "pdf": "drawings/ENT-02_02.pdf",
+    "svg": "drawings/ENT-02_02.svg"
+  },
+  {
+    "page": 76,
+    "unit": "HALL-01",
+    "kind": "nézetek",
+    "pdf": "drawings/HALL-01_01.pdf",
+    "svg": "drawings/HALL-01_01.svg"
+  },
+  {
+    "page": 77,
+    "unit": "HALL-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/HALL-01_02.pdf",
+    "svg": "drawings/HALL-01_02.svg"
+  },
+  {
+    "page": 78,
+    "unit": "B62-01",
+    "kind": "nézetek",
+    "pdf": "drawings/B62-01_01.pdf",
+    "svg": "drawings/B62-01_01.svg"
+  },
+  {
+    "page": 79,
+    "unit": "B62-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/B62-01_02.pdf",
+    "svg": "drawings/B62-01_02.svg"
+  },
+  {
+    "page": 80,
+    "unit": "B62-02",
+    "kind": "nézetek",
+    "pdf": "drawings/B62-02_01.pdf",
+    "svg": "drawings/B62-02_01.svg"
+  },
+  {
+    "page": 81,
+    "unit": "B62-02",
+    "kind": "specifikáció",
+    "pdf": "drawings/B62-02_02.pdf",
+    "svg": "drawings/B62-02_02.svg"
+  },
+  {
+    "page": 82,
+    "unit": "B61-01",
+    "kind": "nézetek",
+    "pdf": "drawings/B61-01_01.pdf",
+    "svg": "drawings/B61-01_01.svg"
+  },
+  {
+    "page": 83,
+    "unit": "B61-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/B61-01_02.pdf",
+    "svg": "drawings/B61-01_02.svg"
+  },
+  {
+    "page": 84,
+    "unit": "WC-01",
+    "kind": "nézetek",
+    "pdf": "drawings/WC-01_01.pdf",
+    "svg": "drawings/WC-01_01.svg"
+  },
+  {
+    "page": 85,
+    "unit": "WC-01",
+    "kind": "specifikáció",
+    "pdf": "drawings/WC-01_02.pdf",
+    "svg": "drawings/WC-01_02.svg"
+  },
+  {
+    "page": 86,
+    "unit": "DS52",
+    "kind": "nézetek",
+    "pdf": "drawings/DS52_01.pdf",
+    "svg": "drawings/DS52_01.svg"
+  },
+  {
+    "page": 87,
+    "unit": "DS52",
+    "kind": "specifikáció",
+    "pdf": "drawings/DS52_02.pdf",
+    "svg": "drawings/DS52_02.svg"
+  },
+  {
+    "page": 88,
+    "unit": "NT-64",
+    "kind": "nézetek",
+    "pdf": "drawings/NT-64_01.pdf",
+    "svg": "drawings/NT-64_01.svg"
+  },
+  {
+    "page": 89,
+    "unit": "NT-64",
+    "kind": "specifikáció",
+    "pdf": "drawings/NT-64_02.pdf",
+    "svg": "drawings/NT-64_02.svg"
+  },
+  {
+    "page": 90,
+    "unit": "NT-76",
+    "kind": "nézetek",
+    "pdf": "drawings/NT-76_01.pdf",
+    "svg": "drawings/NT-76_01.svg"
+  },
+  {
+    "page": 91,
+    "unit": "NT-76",
+    "kind": "specifikáció",
+    "pdf": "drawings/NT-76_02.pdf",
+    "svg": "drawings/NT-76_02.svg"
+  },
+  {
+    "page": 92,
+    "unit": "K-09",
+    "kind": "nézetek",
+    "pdf": "drawings/K-09_01.pdf",
+    "svg": "drawings/K-09_01.svg"
+  },
+  {
+    "page": 93,
+    "unit": "K-09",
+    "kind": "specifikáció",
+    "pdf": "drawings/K-09_02.pdf",
+    "svg": "drawings/K-09_02.svg"
+  }
+]

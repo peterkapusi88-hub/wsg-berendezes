@@ -1,0 +1,330 @@
+[
+  {
+    "id": "TV-01-R04A",
+    "name": "W01 torony",
+    "room": "04",
+    "cost": [
+      "KI-030",
+      "KI-032"
+    ],
+    "w": 700,
+    "d": 400,
+    "h": 2330,
+    "x": 3.71,
+    "y": 7.3,
+    "z": 0.55,
+    "rot": 90,
+    "modules": [
+      350,
+      350
+    ],
+    "kind": "cabinet",
+    "notes": "A képi cél miatt az eddigi két felső front helyett egy folytonos ajtó. A belső középosztó és polcok megmaradnak. Oldható polc és külön toronyrögzítés.",
+    "shelves": 4,
+    "drawers": 0,
+    "front": "sötét grafit ásványi hatás + tusnyomat; nem kréta",
+    "opening": 400,
+    "revision": "KI-CP3-R03",
+    "date": "2026-10-26",
+    "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+    "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+    "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+    "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+    "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+    "hardware": "Egy 697×2327 mm névleges front [J], belül két polcos rekesz. Pántszám, nyitási oldal, merevítés és vasalat gyártói méretezésre vár. 19 mm MDF, 750 kg/m³ számítási sűrűséggel kb. 23,1 kg bevonat nélkül; nem mért ajtótömeg.",
+    "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+    "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+    "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+    "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+    "opening_dir": "+x",
+    "cp3_bays": [
+      {
+        "id": "TV-01-B01",
+        "bay": 1,
+        "offset": 0,
+        "module_w": 350,
+        "clear_w": 314,
+        "clear_d": 343,
+        "purpose": "Könyv / dekor; terhelt polcpróba",
+        "shelves_mm": [
+          400,
+          800,
+          1200,
+          1600,
+          2000
+        ],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          214,
+          200,
+          150
+        ],
+        "runner_mm": 250,
+        "lights_mm": [
+          770,
+          1570,
+          2280
+        ],
+        "rail_m": 0.0,
+        "shelf_m2": 0.539,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      },
+      {
+        "id": "TV-01-B02",
+        "bay": 2,
+        "offset": 350,
+        "module_w": 350,
+        "clear_w": 314,
+        "clear_d": 343,
+        "purpose": "Könyv / dekor; terhelt polcpróba",
+        "shelves_mm": [
+          400,
+          800,
+          1200,
+          1600,
+          2000
+        ],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          214,
+          200,
+          150
+        ],
+        "runner_mm": 250,
+        "lights_mm": [
+          770,
+          1570,
+          2280
+        ],
+        "rail_m": 0.0,
+        "shelf_m2": 0.539,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      }
+    ],
+    "drawings_cp3": "CP3/drawings/TV-01_CP3.pdf",
+    "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+    "capacity": {
+      "rail_m": 0.0,
+      "shelf_m2": 1.078,
+      "drawer_l": 0
+    },
+    "internal_light": "Belső fény a rekeszjegyzék szerint.",
+    "full_height_front": true,
+    "visual_status": "A választott médiafalhoz igazított frontjavaslat; felület és működés mintára, árra és felmérésre vár.",
+    "front_modules": [
+      700
+    ]
+  },
+  {
+    "id": "TV-02-R04A",
+    "name": "W01 alsó médiafal",
+    "room": "04",
+    "cost": [
+      "KI-031",
+      "KI-032"
+    ],
+    "w": 3300,
+    "d": 400,
+    "h": 400,
+    "x": 3.71,
+    "y": 4.7,
+    "z": 0.15,
+    "rot": 90,
+    "modules": [
+      700,
+      650,
+      650,
+      650,
+      650
+    ],
+    "kind": "cabinet",
+    "notes": "700 + 4×650 mm alsó modul; első front a toronyhoz igazítva. Az AV-gép mérete, ajtónyitás és szellőzőnyílás még egyeztetendő. Játékdoboz a jobb két rekeszben.",
+    "shelves": 1,
+    "drawers": 0,
+    "front": "grafit matt",
+    "opening": 400,
+    "revision": "KI-CP3-R03",
+    "date": "2026-10-26",
+    "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+    "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+    "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+    "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+    "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+    "hardware": "Csillapított pánt / teljes kihúzás a rajzi rekesztípus szerint; darabszám és csavarozás terhelési jóváhagyással.",
+    "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+    "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+    "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+    "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+    "opening_dir": "+x",
+    "cp3_bays": [
+      {
+        "id": "TV-02-R04A-B01",
+        "bay": 1,
+        "offset": 0,
+        "module_w": 700,
+        "clear_w": 664,
+        "clear_d": 343,
+        "purpose": "AV; szellőző hát",
+        "shelves_mm": [
+          200
+        ],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          464,
+          200,
+          140
+        ],
+        "runner_mm": 250,
+        "lights_mm": [],
+        "rail_m": 0.0,
+        "shelf_m2": 0.227752,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      },
+      {
+        "id": "TV-02-R04A-B02",
+        "bay": 2,
+        "offset": 700,
+        "module_w": 650,
+        "clear_w": 614,
+        "clear_d": 343,
+        "purpose": "AV; kábelút",
+        "shelves_mm": [
+          200
+        ],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          464,
+          200,
+          140
+        ],
+        "runner_mm": 250,
+        "lights_mm": [],
+        "rail_m": 0.0,
+        "shelf_m2": 0.210602,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      },
+      {
+        "id": "TV-02-R04A-B03",
+        "bay": 3,
+        "offset": 1350,
+        "module_w": 650,
+        "clear_w": 614,
+        "clear_d": 343,
+        "purpose": "Társasjáték / média",
+        "shelves_mm": [],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          464,
+          200,
+          140
+        ],
+        "runner_mm": 250,
+        "lights_mm": [],
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      },
+      {
+        "id": "TV-02-R04A-B04",
+        "bay": 4,
+        "offset": 2000,
+        "module_w": 650,
+        "clear_w": 614,
+        "clear_d": 343,
+        "purpose": "Kivehető játékdoboz",
+        "shelves_mm": [],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          614,
+          200,
+          140
+        ],
+        "runner_mm": 250,
+        "lights_mm": [],
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      },
+      {
+        "id": "TV-02-R04A-B05",
+        "bay": 5,
+        "offset": 2650,
+        "module_w": 650,
+        "clear_w": 614,
+        "clear_d": 343,
+        "purpose": "Kivehető játékdoboz",
+        "shelves_mm": [],
+        "rails_mm": [],
+        "lift_rails_mm": [],
+        "rod_lengths_mm": [],
+        "drawers": 0,
+        "drawer_z": [],
+        "drawer_inner_mm": [
+          614,
+          200,
+          140
+        ],
+        "runner_mm": 250,
+        "lights_mm": [],
+        "rail_m": 0.0,
+        "shelf_m2": 0.0,
+        "drawer_l": 0,
+        "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+        "storage_role": "vegyes / vendég / munka"
+      }
+    ],
+    "drawings_cp3": "CP3/drawings/TV-02_CP3.pdf",
+    "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+    "capacity": {
+      "rail_m": 0.0,
+      "shelf_m2": 0.438,
+      "drawer_l": 0
+    },
+    "internal_light": "Külön belső fény nem szükséges a nyitott, alacsony fiókoknál; felső helyiségfény használati próbával. Fürdőnél csak vizes zóna jóváhagyása után bővíthető.",
+    "full_height_front": true,
+    "visual_status": "A választott médiafalhoz igazított frontjavaslat; felület és működés mintára, árra és felmérésre vár.",
+    "front_modules": [
+      700,
+      650,
+      650,
+      650,
+      650
+    ]
+  }
+]

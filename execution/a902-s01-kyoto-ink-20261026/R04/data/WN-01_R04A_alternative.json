@@ -1,0 +1,326 @@
+{
+  "id": "WN-01-R04A",
+  "name": "Master / keskeny, teljes magasságú frontváltozat",
+  "room": "05.1",
+  "cost": [
+    "KI-048",
+    "KI-050",
+    "KI-051",
+    "KI-052"
+  ],
+  "w": 2920,
+  "d": 600,
+  "h": 2840,
+  "x": 0.05,
+  "y": 8.3,
+  "z": 0,
+  "rot": 0,
+  "modules": [
+    973,
+    974,
+    973
+  ],
+  "kind": "cabinet",
+  "notes": "Hosszú ruhák + 2 fiók; Dupla akasztás / felső lift; 6 fiók / rövid ruhák liften",
+  "shelves": 8,
+  "drawers": 4,
+  "front": "kréta + folytonos tusnyomat",
+  "opening": 750,
+  "revision": "KI-CP3-R03",
+  "date": "2026-10-26",
+  "status": "FELMÉRÉSRE ÉS GYÁRTÓI EGYEZTETÉSRE VÁRÓ AJÁNLATI TERV",
+  "dimension_source": "geometry_lock_A902_v2b: terv szerinti falsíkok + R02 tervezési méret; helyszínen nem mért",
+  "material": "18 mm laminált korpusz; 19 mm MDF front; 8 mm hátlap",
+  "edge": "látható él 2 mm ABS, belső él 1 mm; vizes élek PUR/gyártói vízzárás",
+  "grain": "egyszínű: nincs erezet; textil/nyomat: függőleges folytonosság",
+  "hardware": "CONERO 805–988 mm jelölt a 938/937 mm rekeszhez; 0,5–12 kg régebbi gyártói adat, aktuális készlet és mozgásrajz szükséges. Belső fiók: széles nyitású pánt, két ajtó egyidejű nyitása.",
+  "handle": "matt fekete fogásprofil / hosszú fogantyú a nézet szerint",
+  "plinth": "80 mm visszahúzott lábazat; falibútornál nincs",
+  "clearance": "3 mm frontrés; 20 mm szerelési oldaltakaró tervezési minimum; kész falsíkhoz felmérendő",
+  "service": "levehető hát/szervizpanel; kötés és meghajtó nem lezárható véglegesen",
+  "opening_dir": "-y",
+  "interior": [
+    {
+      "bay": 1,
+      "shelves_mm": [
+        2200
+      ],
+      "rails_mm": [
+        1700
+      ],
+      "drawers": 0,
+      "rail_type": "oldalfalak közötti"
+    },
+    {
+      "bay": 2,
+      "shelves_mm": [
+        2300
+      ],
+      "rails_mm": [
+        900,
+        1800
+      ],
+      "drawers": 0,
+      "rail_type": "oldalfalak közötti"
+    },
+    {
+      "bay": 3,
+      "shelves_mm": [
+        2300
+      ],
+      "rails_mm": [
+        900,
+        1800
+      ],
+      "drawers": 0,
+      "rail_type": "oldalfalak közötti"
+    },
+    {
+      "bay": 4,
+      "shelves_mm": [
+        900,
+        1250,
+        1600,
+        2000
+      ],
+      "rails_mm": [],
+      "drawers": 4,
+      "rail_type": "oldalfalak közötti"
+    }
+  ],
+  "cp3_bays": [
+    {
+      "id": "WN-01-R04A-B01",
+      "bay": 1,
+      "offset": 0,
+      "module_w": 973,
+      "clear_w": 937,
+      "clear_d": 543,
+      "purpose": "Hosszú ruhák + 2 fiók",
+      "shelves_mm": [
+        2360
+      ],
+      "rails_mm": [
+        2110
+      ],
+      "lift_rails_mm": [],
+      "rod_lengths_mm": [
+        897
+      ],
+      "drawers": 2,
+      "drawer_z": [
+        100,
+        290
+      ],
+      "drawer_inner_mm": [
+        837,
+        450,
+        130
+      ],
+      "runner_mm": 500,
+      "lights_mm": [
+        2330,
+        2790
+      ],
+      "rail_m": 0.897,
+      "shelf_m2": 0.508791,
+      "drawer_l": 97.929,
+      "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+      "storage_role": "ruházat"
+    },
+    {
+      "id": "WN-01-R04A-B02",
+      "bay": 2,
+      "offset": 973,
+      "module_w": 974,
+      "clear_w": 938,
+      "clear_d": 543,
+      "purpose": "Dupla akasztás / felső lift",
+      "shelves_mm": [
+        1120,
+        2360
+      ],
+      "rails_mm": [
+        1040,
+        2160
+      ],
+      "lift_rails_mm": [
+        2160
+      ],
+      "rod_lengths_mm": [
+        898,
+        778
+      ],
+      "drawers": 0,
+      "drawer_z": [],
+      "drawer_inner_mm": [
+        838,
+        450,
+        150
+      ],
+      "runner_mm": 500,
+      "lights_mm": [
+        1090,
+        2330,
+        2790
+      ],
+      "rail_m": 1.676,
+      "shelf_m2": 1.018668,
+      "drawer_l": 0.0,
+      "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+      "storage_role": "ruházat"
+    },
+    {
+      "id": "WN-01-R04A-B03",
+      "bay": 3,
+      "offset": 1947,
+      "module_w": 973,
+      "clear_w": 937,
+      "clear_d": 543,
+      "purpose": "6 fiók / rövid ruhák liften",
+      "shelves_mm": [
+        2360
+      ],
+      "rails_mm": [
+        2160
+      ],
+      "lift_rails_mm": [
+        2160
+      ],
+      "rod_lengths_mm": [
+        777
+      ],
+      "drawers": 6,
+      "drawer_z": [
+        100,
+        290,
+        480,
+        670,
+        860,
+        1050
+      ],
+      "drawer_inner_mm": [
+        837,
+        450,
+        150
+      ],
+      "runner_mm": 500,
+      "lights_mm": [
+        2330,
+        2790
+      ],
+      "rail_m": 0.777,
+      "shelf_m2": 0.508791,
+      "drawer_l": 338.985,
+      "usable_depth_status": "Tervi belméret; vasalat és teherpróba előtt nem gyártási méret",
+      "storage_role": "ruházat"
+    }
+  ],
+  "drawings_cp3": "CP3/drawings/WN-01_CP3.pdf",
+  "dimension_class": "[D] tervezési méret; [H] kész hely és szerelési hézag felmérendő",
+  "capacity": {
+    "rail_m": 3.35,
+    "shelf_m2": 2.036,
+    "drawer_l": 436.914
+  },
+  "internal_light": "Belső fény a rekeszjegyzék szerint.",
+  "full_height_front": true,
+  "front_modules": [
+    486.5,
+    486.5,
+    487,
+    487,
+    486.5,
+    486.5
+  ],
+  "visual_status": "6 keskeny front [J]; a célkép takart bal széle miatt a frontszám nem felmért adat. Külön összevetendő változat.",
+  "fixture_length": 710,
+  "lighting_fixtures": [
+    {
+      "id": "WN-01-R04A-B01-L1",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B01",
+      "z": 2330,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B01-L2",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B01",
+      "z": 2790,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B02-L1",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B02",
+      "z": 1090,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B02-L2",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B02",
+      "z": 2330,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B02-L3",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B02",
+      "z": 2790,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B03-L1",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B03",
+      "z": 2330,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    },
+    {
+      "id": "WN-01-R04A-B03-L2",
+      "unit": "WN-01-R04A",
+      "bay": "WN-01-R04A-B03",
+      "z": 2790,
+      "length": 710,
+      "watts": 3.5,
+      "sku": "205.894.85",
+      "unit_price_huf": 6490,
+      "status": "gyártói termékadat ellenőrizve; egyedi dupla ajtó érzékelése próba"
+    }
+  ],
+  "lighting_drivers": [
+    {
+      "rating_w": 30,
+      "watts": 24.5,
+      "load_percent": 81.7,
+      "sku": "TRÅDFRI 603.426.56 + FÖRNIMMA 504.468.81; aktuális elérhetőség ellenőrizendő"
+    }
+  ],
+  "lighting_cost_status": "7×6490=45430 Ft lámpa; táp, kábel és szerelés a korábbi csomaggal egyeztetendő, nem teljes beépített ár."
+}

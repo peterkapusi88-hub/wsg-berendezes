@@ -1,0 +1,30 @@
+{
+  "owner_pages": 5,
+  "owner_format": "A4",
+  "drawing_pages": 93,
+  "drawing_text_bounds": {
+    "single_sheets": 93,
+    "out_of_page_text": []
+  },
+  "owner_out_of_page_text": [],
+  "visual_review": [
+    "all five owner pages",
+    "M01 and M02 target/material sheets",
+    "WN alternative elevations and details",
+    "K05 drawer front/plan/section",
+    "T026 bike and both racks",
+    "12-type technical contact sheet",
+    "C01 cost and status cover"
+  ],
+  "native_blender_reopen": {
+    "opened": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R04/blender/A902_Kyoto_Ink_R04_javaslat.blend",
+    "R04_mesh_objects": 156,
+    "success": true
+  },
+  "blender_status_counts": {
+    "CONTACT_NO_MARGIN": 1,
+    "OPEN": 6,
+    "PASS": 26
+  },
+  "limitations": "Layout QA is not manufacturing or complete geometry approval; source/reference artwork not final print master."
+}

@@ -1,0 +1,63 @@
+KYOTO INK A-902 — R04 RAJZI ÉS HASZNÁLATI FELÜLVIZSGÁLAT
+2026-10-27 | forrás: a85802a93d0b9c1d5f46bc798da90e6fdd4bca77
+
+EZ ÚJ FELÜLVIZSGÁLATI CSOMAG, NEM GYÁRTÁSRA JÓVÁHAGYOTT VÉGLEGES TERV.
+A régi R02/CP3 fájlokat nem töröltük és nem állítottuk vissza.
+
+NEKTEK / TULAJDONOSNAK
+owner/A902_R04_Minek_hol_lesz_helye.pdf — 5 A4 oldal, közérthetően.
+Mire jó a bútor, mit hová lehet tenni, milyen próbamérettel és tartalékkal számoltunk;
+második fagyasztó, bicikli, bőrönd, dobozok, porszívó, vegyszer és konyhai eszközök.
+
+ASZTALOSNAK / EGYEZTETÉSHEZ
+drawings/A902_R04_rajz_es_hasznalati_csomag.pdf — 93 A3 lap.
+Elöl az új változatok és követelményeik; hátul a 33 szerkezet részletes lapjai.
+Az azonos nevű SVG a szerkeszthető vektoros forrás.
+Az R04A lapok új javaslatok; a sima WN-01, TV-01, TV-02 és B62-01 lapok
+az előző kiosztás összehasonlításai. A 00 lap ezt külön rögzíti.
+materials/A902_R04_Kulso_anyag_hasznalat.pdf — kiemelt új bútorváltozatok,
+renderreferenciák, anyagtechnológiai követelmények, rekeszjegyzék és férőhelypéldák.
+
+A KÜLSŐ CÉL KÖTELEZŐ
+A meglévő elfogadott render a bútor látható megjelenésének célja.
+Médiafal: a legutóbb kiválasztott VISUAL_RESCUE kép. A korábbi kétajtós torony
+nem írhatja felül ezt. Nem renderelt helyiség: ugyanazon Kyoto Ink anyag- és
+formacsalád. A másik lakás terve csak rajzi minőségreferencia.
+A kép nem méretforrás, és nem igazolja a hordozót, nyomatot vagy vasalatot.
+
+ŐSZINTE NYITOTT PONTOK
+A végleges tusgrafikai master és fizikai anyagminták nincsenek készen.
+A sematikus fekete jel nem a végleges nyomdai fájl. Több szerkezetnél még
+nincs pontos, gyártóval egyeztetett vasalat/rétegrend. A tárolók kész méretei,
+ajtói és a bicikli mozgástere nincsenek felmérve. A porszívó és doboz méretpélda.
+Az R04 nem zárta le a CP3 ismert konyhai, 05.3 és master ágyfiók-ütközéseit.
+
+KAPACITÁS
+Az új WN-01-R04A önmagában 3,350 m akasztórúd és 436,914 liter tervi fióktér;
+polcfelülete 2,036 m². A korábbi 3,030 m / 310,1 l / 3,392 m² külön szerepel.
+A több akasztás és fióktér kevesebb polccal jár: nincs helyettetek jóváhagyva.
+T-0-26: az új feltételes biciklis elrendezés mindkét BROR-t megtartja.
+AT8-01: két JONAXEL és második fagyasztó; a használati nyitás még vizsgálandó.
+
+KÖLTSÉG
+A változatlan élő Excel továbbra a CP3 kiválasztott forgatókönyve: 23 253 840 Ft.
+Az R04 javaslat külön számítása: 23 791 890 Ft; érzékenységi sáv
+20 141 580–31 861 082 Ft. Ez becslés, nem írásos ajánlat.
+A 18 M Ft alapköltségkerettől való eltérés 5 791 890 Ft.
+A külön 2 M Ft tartalék felhasználása 0 Ft. Nincs keretemelés vagy rendelés.
+A data/R04_koltsegforgatokonyv.json és a C01 lap mutatja a különbözeteket.
+Az R04 még nincs az élő Excelben kiválasztva; a korábbi kézi cellák változatlanok.
+
+BLENDER / RENDER
+blender/A902_Kyoto_Ink_R04_javaslat.blend — ténylegesen mentett és visszanyitott
+külön munkamásolat; 156 új objektum, 8 natív ellenőrzőkép.
+Az OPEN és CONTACT_NO_MARGIN állapotok nem PASS-ok.
+Nincs teljes liftkinematika, fotometriai igazolás vagy kész grafikai felület.
+A RENDER_ATADAS_R04.txt feltételes kiegészítés; nem végleges teljes renderkiadás.
+
+KÖVETKEZŐ ELLENŐRZÉSI PONT
+Kép–front–minta–ár egyeztetés: médiafal grafikai master és felületminta;
+WN front/pánt/lift teljes mozgásrajz; B62 mosdó/szifon; tárolók ajtó/falméret.
+Ezután a kiválasztott változatot egységesen át kell vezetni az élő Excelbe,
+a teljes lakás működési modelljébe és a nézetenkénti renderátadásba.
+A teljes megvalósítási csomag még nem lezárt.

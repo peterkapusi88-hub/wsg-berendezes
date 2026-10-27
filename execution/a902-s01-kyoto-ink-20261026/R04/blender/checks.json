@@ -1,0 +1,167 @@
+[
+  {
+    "check": "WN-01-R04A-B01/drawer0/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B01/drawer1/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B01/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "WN-01-R04A-B02/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer0/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer1/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer2/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer3/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer4/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/drawer5/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "WN-01-R04A-B03/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "WN-01-R04A/front_sum",
+    "result": "PASS",
+    "scope": "front module widths sum to overall design width"
+  },
+  {
+    "check": "WN-01-R04A/lift_and_hinge_motion",
+    "result": "OPEN",
+    "scope": "no supplier motion mesh; closed/open-front cutaway only. No operating-sweep PASS."
+  },
+  {
+    "check": "B62-01-R04A-B01/drawer0/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "B62-01-R04A-B01/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "B62-01-R04A-B02/drawer0/vertical_envelope",
+    "result": "PASS",
+    "scope": "algebraic height only, not certified runner geometry"
+  },
+  {
+    "check": "B62-01-R04A-B02/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "B62-01-R04A/front_sum",
+    "result": "PASS",
+    "scope": "front module widths sum to overall design width"
+  },
+  {
+    "check": "B62-01-R04A/siphon",
+    "result": "OPEN",
+    "scope": "current drawer box is an envelope; exact cutout pending basin and trap. Not usable capacity proof."
+  },
+  {
+    "check": "TV-01-B01/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-01-B02/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-01-R04A/front_sum",
+    "result": "PASS",
+    "scope": "front module widths sum to overall design width"
+  },
+  {
+    "check": "TV-02-R04A-B01/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-02-R04A-B02/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-02-R04A-B03/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-02-R04A-B04/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-02-R04A-B05/positive_clearance",
+    "result": "PASS",
+    "scope": "nominal compartment only"
+  },
+  {
+    "check": "TV-02-R04A/front_sum",
+    "result": "PASS",
+    "scope": "front module widths sum to overall design width"
+  },
+  {
+    "check": "T026/rack2_bike",
+    "result": "CONTACT_NO_MARGIN",
+    "scope": "rack2 xmax=28.750; bike xmin=28.750. No solid overlap in design boxes, zero spare clearance. Actual hardware and movement unresolved."
+  },
+  {
+    "check": "T026/access",
+    "result": "OPEN",
+    "scope": "door not surveyed; bicycle extraction/turning path not validated"
+  },
+  {
+    "check": "AT8/freezer",
+    "result": "OPEN",
+    "scope": "exact appliance EAN, vent clearance and usable opening unknown"
+  },
+  {
+    "check": "CP3/inherited_issues",
+    "result": "OPEN",
+    "scope": "Kitchen aisle 840mm, open dishwasher route, 05.3 bed/chair and master bedside/bed drawer conflict remain from CP3. This script does not resolve them."
+  },
+  {
+    "check": "Surface_identity",
+    "result": "OPEN",
+    "scope": "plain material placeholders; no approved ink art or calibrated swatches. Not final appearance render."
+  }
+]

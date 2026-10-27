@@ -1,0 +1,645 @@
+# WSG A-902 · KYOTO INK S01
+# CP3+ – TELJES FUNKCIONÁLIS SZEKRÉNYTERVEZÉS ÉS RENDERELÉSI LEZÁRÁS
+# Egyetlen aktív mesterutasítás · V3.3 látvány + családi praktikum + részletes belsők + rajzi minőség
+# A csatolt S12 bútorterv KIZÁRÓLAG KÜLALAKI referencia; a tartalom Kyoto Ink és a felhasználó igényei.
+
+Ez a teljes szöveg kiváltja a korábbi külön CP3- és tárolási kiegészítéseket. Az eredeti megvalósítási brief érvényes alapelveit megtartja; az új funkcionális szekrénybelső-tervezést, világítást és későbbi brosúra-előkészítést az alábbi 15–26. fejezet kötelezően hozzáadja. Ne csak az első fejezeteket hajtsd végre.
+
+## 0. A FELADAT ÉS A FOLYTATÁS
+
+Ugyanebben a munkamenetben folytasd a megkezdett megvalósítási projektet. Ez a szöveg egyesíti a CP3 hibajavítási és a praktikussági/tárolási kiegészítést, és hozzáadja anyukám konkrét észrevételeit, valamint az A-902-höz tartozó két külön tároló berendezését.
+
+Nem új stílust, új chatet, új CP0-t vagy az igazolt, jó eredmények felesleges újraírását kérem. A kész eredményekből dolgozz; a szekrénybelsők, világítás és hiányos specifikációk érdemi újratervezése és újrarajzolása most kifejezetten feladat. A hiteles lakáshéj és elfogadott kreatív karakter maradjon meg. A korábbi teljes megvalósítási megrendelés minden egyéb követelménye érvényes.
+
+Repository: peterkapusi88-hub/wsg-berendezes
+Megvalósítási ág: execution/a902-s01-kyoto-ink-design-to-budget-20261026
+Munkamappa: execution/a902-s01-kyoto-ink-20261026/
+Ismert R02 checkpoint: d4f9a5a9782189b88ffdb119bfa1122030265dc7
+
+Ellenőrizd az ág aktuális állapotát. Újabb saját mentés esetén abból folytass; ne állítsd vissza az R02-t. Az alábbi R02-számokat és hibákat kiinduló ellenőrzési listaként kezeld, ne állítsd, hogy egy már javított hiba még fennáll.
+
+Olvasd el és használd:
+- README.md;
+- 02_FOLYTATAS_ATADAS.md;
+- sources/TELJES_MESTERTERV_MEGRENDELOI_BRIEF.txt;
+- data/nyitott_kerdesek_R02.json;
+- blender/validation_R02.json;
+- render_handoff/00_RENDEROPERATOR_INDITOPROMPT.txt;
+- render_handoff/manifest_R02.json és render_handoff/prompts/;
+- a jelenlegi design_R02.json, illetve utódja tényleges helyét;
+- outputs/A902_Kyoto_Ink_elo_regiszter.xlsx;
+- drawings/ és targets/;
+- GOAL.md és 07_skill/wsg-ertekalapu-stiluslabor/SKILL.md;
+- a hiteles alaprajzokat, helyszíni adatokat, villamos dokumentumokat és profi fotókat.
+
+Medium effort. Ne kutass újra indokolatlanul igazolt adatokat. A lezárható hiányokat zárd le, a tényleges fájlokat javítsd, és rendszeresen ments.
+
+A cél: a terméklista, az élő Excel, a rajzok, a Blender és a renderpromptok ugyanazt a használható, megvalósítható lakást és két tárolót írják le.
+
+## 1. VIZUÁLIS CÉL ÉS VÁLTOZTATÁSI HATÁROK
+
+A nappali célképei:
+- A902_S01_KyotoInk_Cam_02__V33_C_v1.png
+- A902_S01_KyotoInk_Cam_12__V33_C_v1.png
+
+Ténylegesen nyisd meg a képeket, és ellenőrizd a manifest szerinti azonosságukat. A többi helyiségben a korábban kiválasztott pontos renderverzió és funkció marad a cél.
+
+Őrizd meg a Kyoto Ink V3.3 atmoszféráját, művészi kézjegyét, anyagmélységét és rétegzett világítását. Ne butítsd le a designt a jelenlegi Blender-méretkockákhoz: a kiválasztott bútoroknak megfelelően pontosítsd a modellt.
+
+A hiteles alaprajz, kész méretek, meglévő nyílások és igazolt műszaki adottságok nem változhatnak meg azért, hogy a render szebb legyen. A célkép nem méretezési bizonyíték.
+
+A korábban felvetett W02 TV-falas, nagy L/U kanapés alternatívára NE válts át automatikusan.
+
+A jelenlegi, kifejezetten megadott praktikussági igények a tervezési feladat részei. Ha azonban teljesítésük jelentős elrendezésváltozást, látványvesztést, új építési munkát, tárolókapacitás-csökkentést vagy keretemelést igényel, készíts ellenőrzött döntési változatot. Ezt ne tekintsd automatikusan elfogadottnak.
+
+A látvány- és funkcióveszteség nélkül javítható hibákat önállóan javítsd. Egy nyitott tulajdonosi döntés ne állítsa le a többi helyiség munkáját.
+
+## 2. ANYUKÁM ELVEI – FORRÁS ÉS FELDOLGOZÁS
+
+Az alábbiak közvetlenül átadott családi/tulajdonosi észrevételek. Rögzítsd az eredeti szöveget a források közé, a műszaki értelmezést pedig ettől elkülönítve.
+
+Keresd meg a GitHubon a korábbi, anyukámnak tulajdonított elveket is. Csak ténylegesen megtalált forrásra hivatkozz; saját ötletet ne tüntess fel az ő döntéseként. A most megadott igényeket a régebbi forrás hiánya nem blokkolja.
+
+A korábbi biztos elv: hatékonyabb térkihasználás. Ne tervezz külön átjárósávot a kanapé és az étkezőszék közé, ha ott nincs valódi közlekedési útvonal. A szék használhatóságát, a nyitásokat és a tényleges fő útvonalakat ettől még biztosítani kell.
+
+A mostani konkrét igények:
+- kihúzható csaptelep a konyhában és a háztartási mosogatóhelyen;
+- átgondolt konyhai munkasorrend és kisgép-elhelyezés;
+- jól kihasznált teljes magasságú kamraszekrény;
+- minél több valóban használható gardrób, megfelelő helyeken gardróblifttel;
+- hajszárító- és tartozéktároló fiók a mosdó/tükör környezetében, biztonságosan megoldott fiókon belüli dugaljjal.
+
+Minden észrevétel kapjon státuszt: BEÉPÍTVE / JAVASOLT ALTERNATÍVA / MÉRÉSRE VÁR / SZAKÁGI ELLENŐRZÉSRE VÁR / TULAJDONOSI DÖNTÉS / NEM MEGVALÓSÍTHATÓ, INDOKLÁSSAL. A már megépült adottság miatt nem teljesíthető kéréshez keress azonos használati célt szolgáló, reális alternatívát. Semmit ne hagyj el magyarázat nélkül.
+
+## 3. KONYHA – HASZNÁLATI SORREND, KISGÉPEK ÉS KAMRA
+
+Anyukám kért sorrendje, balról jobbra:
+hűtő → kis lerakó/munkapult → mosogató → nagyobb összefüggő előkészítő munkafelület → tűzhely/főzőlap → kis lerakópult → mikrohullámú sütőt és sütőt tartalmazó torony → kamratárolás.
+
+Az eredeti üzenet végén szereplő „kamasz” szót a következő mondatok alapján kamra/kamraszekrény-igényként értelmezd; a forrásidézetben őrizd meg az eredeti megfogalmazást.
+
+Ezt funkcionális célként vizsgáld a valós, több pultsorból álló konyhában. Rajzon jelöld a bejárási/munkasorrendet; a „balról jobbra” irányt ne kameránként értelmezd másképp. Ne kényszeríts egyetlen hosszú falra mindent, és ne növeld meg a helyiséget.
+
+Ellenőrizd a már meglévő víz-, lefolyó-, áram- és elszívócsatlakozásokat. A kívánt sorrend önmagában nem engedély vésésre, vezetékáthelyezésre, új falszerkezetre vagy a kész burkolatok bontására. Ha csak ilyen beavatkozással teljesíthető szó szerint, mutasd be a kiállásokkal összeegyeztetett legjobb változatot és a módosításigényes alternatívát, tételes különbségekkel.
+
+Legyen kijelölt, használható pultszakasz a kenyérpirítónak, kávéfőzőnek és más naponta használt kisgépeknek. Ezek ne foglalják el az egyetlen nagy előkészítő felületet. Számolj a készülékek méretével, kábelével, dugaljával, feltöltésével, tisztításával, a fedél nyitásával, hő- és gőzleadásával. Zárt gépszekrényben történő működést ne feltételezz gyártói megfelelés nélkül.
+
+A ritkábban használt dagasztó, turmix és hasonló gépek kapjanak könnyen hozzáférhető, teherbírásban megfelelő tárolást. A nehéz gépet ne kizárólag magas, nehezen elérhető polcra tedd. A használatkor történő elővételhez és elpakoláshoz is legyen hely.
+
+Elsődlegesen vizsgálj egy mennyezetig komponált, kétajtós kamraszekrényt belső fiókokkal, különböző méretű polcokkal és bortartóval. A bortartó tároló, nem automatikusan új borhűtő. Az ajtó belsején tea- és fűszertartók akkor legyenek, ha az ajtó terhelhetősége, a pánt, a polcok és a belső fiókok ütközésmentes használata ezt lehetővé teszi.
+
+Ha a nagy kétajtós változat nem fér el, vizsgálj magas, keskeny, előrehúzható kosaras kamraszekrényt. Valós vasalatot, beépítési méretet, hasznos belső teret, terhelést, teljes kihúzást és árat adj meg. Ne készíts látványos, de a közlekedőt használhatatlanná tevő megoldást.
+
+A konyhai és háztartási csaptelep legyen kihúzható fejes/tömlős, megfelelő konkrét termékből. Ellenőrizd a mosogatót, furatot, munkalapot, tömlő mozgásterét, bekötést és a szekrénybelsővel való összeakadást.
+
+A „háztartási” igényhez előbb azonosítsd az A-902 tényleges, meglévő vagy jóváhagyott háztartási mosogatóhelyét. Ne találj ki új háztartási helyiséget, és ne tervezz a külön tárolókba vízbekötést, mosógépet vagy új mosogatót automatikusan. Ha ilyen mosogatóhely nincs, ezt jelöld, és külön megvalósíthatósági döntésként kezeld.
+
+## 4. A LAKÁS HASZNÁLHATÓ TÁROLÁSÁNAK MAXIMALIZÁLÁSA
+
+Nem csupán szép látványlakást szeretnék: mindennek legyen helye. A szekrények számát önmagában ne optimalizáld; a hozzáférhető és ténylegesen használható tárolókapacitás a cél.
+
+Minden szekrénynek legyen valódi belső kiosztása és funkciója. Panel, vakfront, üres takaródoboz vagy gépészeti tér nem számít hasznos tárolónak.
+
+Vizsgáld meg a teljes magasságú szekrényeket, fülkéket, TV-falba integrált zárt tárolást, jobb belső kiosztásokat és felső szezonális tárolást. A plafonig érő megjelenés ne csak nagy takarólapot jelentsen: ahol hozzáférhető, szerelhető és indokolt, a felső rész is működjön tárolóként.
+
+Ahol a szélesség, mélység, szerelési magasság, terhelés és lehúzási tér megengedi, a magas akasztós részt lehúzható gardróblifttel tervezzük. Mutasd a valós mechanizmust, teherbírást, beépítési tartományt, elérhetőséget és teljes lehúzott mozgásteret. Ne ígérj liftet minden magas polchoz, és ne foglalja el az ágy, ajtó vagy más bútor a működéséhez szükséges helyet.
+
+Ahol gardróblift nem megfelelő, adj más, jól használható kiosztást. A megoldás beszerzése és szerelése is kerüljön az Excelbe.
+
+Ne tölts meg automatikusan minden falat szekrénnyel: a kilátás, fény, kényelmes mozgás, szerelvény-hozzáférés és a Kyoto Ink levegős kompozíciója maradjon meg.
+
+Helyiségenkénti kötelező ellenőrzés:
+- Előtér: kabát, cipő, táska, napi apróságok, ülőhely és tükör.
+- Konyha: edény, evőeszköz, élelmiszer, kisgépek, hulladék, tisztítószer és elegendő munkafelület.
+- Nappali: TV-bútorok, magas elemek, elektronika, kábelek; szellőzés és szervizhely megtartásával.
+- Mindhárom háló: akasztós/hajtogatott ruhák, fiókok, ágynemű és szezonális holmik. Ágy alatti tárolás csak teljesen használható nyitással számítható be.
+- Fürdők/WC: kozmetikum, törölköző, tartalék kellék, szükséges tisztítószer. A szifon és csövek terét vond le a hasznos kapacitásból.
+- Háztartás: porszívó, felmosó, vasalódeszka, szennyes és rendszeresen szükséges eszközök.
+- Terasz: párnák és kültéri kellékek tárolása az időjárási körülményekhez igazítva.
+
+Készíts belső kiosztási rajzot és helyiségenként mérhető kapacitáskimutatást: hasznos méretek, akasztórúd-hossz, polcok és fiókok száma/mérete, nyitás és hozzáférés, napi és ritka használat, költségváltozás. A bruttó szekrénytérfogat önmagában nem elegendő.
+
+A mosdóbútor ne legyen indokolatlanul rövid, alacsony vagy sekély, ha a valós tér jobbat is elbír. A nagyobb bútort azonban ne a helyiség meghamisításával illeszd be.
+
+## 5. HAJSZÁRÍTÓS FIÓK ÉS FIÓKON BELÜLI DUGALJ
+
+A tükör/mosdó környezetében legyen praktikus fiók a hajszárítónak, tartozékainak és kábelének, rendezett belső osztással. A tükör tárolási lehetőségét is vizsgáld, a kiválasztott látvány megtartásával.
+
+A fiókon belüli dugalj kifejezett igény, de csak az adott fürdőben igazoltan alkalmazható, szakember által ellenőrzött megoldással teljesíthető.
+
+Keress kifejezetten bútorba/fiókba tervezett, megfelelő európai kivitelű rendszert. Ellenőriztesd a konkrét helyszíni vizes zónákat, a szükséges védelmeket, terhelhetőséget, csatlakozást, mozgó kábelvezetést, becsípődés és húzás elleni védelmet, hőkezelést és szervizelhetőséget. Egy termék európai kivitele önmagában nem helyszíni villamos jóváhagyás.
+
+Ne javasolj laza hosszabbítót a fiókban. Ne tervezz működő hajszárítót zárt fiókba, illetve forró, bekapcsolt eszköz elzárását. Az automatikus lekapcsolás vagy más védelem szükségességét a kiválasztott rendszer és szakági ellenőrzés alapján tisztázd.
+
+Ha a kért kialakítás az adott helyen nem biztonságosan vagy nem ésszerűen megvalósítható, mutass azonos használati célt szolgáló alternatívát: rendezett hajszárítófiók és megfelelő helyre telepített, hozzáférhető csatlakozási pont. A kompromisszumot ne hallgasd el.
+
+A rajzon, Excelben és modellen a teljes működő rendszer szerepeljen, ne csak egy odarajzolt konnektor. A villamos megfelelőség végső igazolását ne vállald át a szakembertől.
+
+## 6. ÚJ HATÓKÖR: KÉT KÜLÖN TÁROLÓ AZ A-902-HÖZ
+
+Mindkét tárolót bútorozd/polcozd be. Itt nem kérek luxusdekorációt: legyen praktikus, esztétikus, tartós, könnyen takarítható és költséghatékony.
+
+A csatolt forrás: WGR1_meretezett_alaprajzok (1).pdf, 27 oldal.
+
+Az A-902-höz tartozó azonosítók:
+- AT8-01 / AT-8-01: 8. emeleti tároló, a dokumentum szerinti végleges alapterület 4,57 m².
+- T-0-26: garázsoknál, a földszinti alaprajzon szereplő tároló, dokumentált alapterület 4,00 m².
+
+Ne keverd össze az A-811/A-812 tárolóival, a közös tárolóközlekedővel vagy a parkolóhelyekkel.
+
+Forráslapok az adott 27 oldalas PDF-ben:
+- 1. oldal: összesítő és a lakás–tároló hozzárendelések;
+- 2. oldal: emeleti elhelyezés és AT8-01;
+- 4. oldal: földszinti/garázsszinti elhelyezés, T-0-26;
+- 20. oldal: A-902 parkoló és tároló M1, AT8-01 elektromos terv;
+- 26–27. oldal: tárolómódosítások, AT8-01 3,65 → 4,57 m² változása.
+
+A 20. oldalon AT8-01-hez két dugalj kiépítése szerepel. Ez tervi bizonyíték; a tulajdonos szerint vannak elektromos kiállások, de a pontos hely, működés, áramkör és kész állapot helyszíni ellenőrzést igényel.
+
+Az AT8-01 régi kontúrját ne használd automatikusan a méretváltozás ellenére. Egyeztesd a legkésőbbi, valóban erre az egységre vonatkozó geometriát, ajtót, pillért és egyéb akadályokat. A tervi terület nem igazolja önmagában a kész belméreteket; 4 m²-ből ne találj ki például 2 × 2 m-es szobát. A lakás 2,90 m-es belmagasságát ne vidd át a tárolókra.
+
+Ha a PDF nem ad elegendő méretet, jelöld külön a mérendő kész szélességet, hosszúságot, belmagasságot, ajtó szabad nyílását/nyitását, pillért, csöveket, szellőzőt és kiállásokat. Ellenőrizhető alapadat nélkül ne adj gyártásra kész méretet. Az igazolt részek tervezésével ettől még haladj.
+
+### AT8-01 – közeli háztartási/kamrajellegű kiegészítő tároló
+
+Vizsgálj polcozást a tartalék élelmiszereknek, dobozoknak, ritkábban használt konyhai eszközöknek és egyéb megfelelő tartalékoknak, az élelmiszerek és tisztítószerek elkülönítésével.
+
+Tervezz reális helyet egy második fagyasztónak. Konkrét termékjelöltet méretezz és árazz be, de a beszerzés külön jóváhagyáshoz kötött. Elsődleges javaslatként hasonlítsd össze a helyre jól illő, áttekinthető fiókos fagyasztószekrényt az esetleges más kialakítással; ne válassz kizárólag látvány alapján.
+
+Ellenőrizd a bejuttatást, ajtónyitást és fiókkihúzást, gyártói szellőzési hézagokat, hőleadást, tényleges helyiséghőmérséklethez való alkalmasságot, villamos csatlakozást, szervizelhetőséget és a polcokkal való kapcsolatot. Az egész tároló légcseréjét is vizsgáld; a fagyasztót ne zárd szellőzetlen bútordobozba.
+
+Ne feltételezz víz- vagy lefolyókiállást, ne költöztesd ide önkényesen a mosó/szárítógépet. Az elektromos ellátás és használat feltételeit a dokumentumokkal és szükséges szakemberi ellenőrzéssel tisztázd.
+
+### T-0-26 – szezonális és nagyobb tárgyak tárolása
+
+Tervezz áttekinthető, állítható polcrendszert, dobozhelyeket és a tényleges igényhez illő nagyobb szabad rekeszt például bőröndöknek, szezonális tárgyaknak, sport- vagy kültéri kellékeknek. Ezek tervezési tárgycsoportok, nem állítások a tulajdonos meglévő készletéről.
+
+Ne feltételezz automatikusan elektromos dugaljat. A világítás és minden további elektromos igény csak igazolt forrás vagy külön jóváhagyott megoldás alapján szerepelhet.
+
+Vizsgáld a nedvességet, port, szellőzést, helyszíni csöveket és karbantartási hozzáférést. A polc nem takarhatja el a szükséges szerelvényeket, és sem bútor, sem doboz nem kerülhet a közös közlekedőre.
+
+### Egyszerű, de teljes műszaki csomag mindkettőhöz
+
+Hasonlíts össze kész moduláris polcrendszert, egyszerű asztalos polcozást és indokolt kombinációt. Ne erőltess drága egyedi megoldást, ha egy megfelelő kész rendszer ugyanazt jobban szolgálja. Fehér/világosszürke könnyen tisztítható megjelenés és rendezett tárolódobozok megfelelőek; díszvilágítás és művészeti burkolat nem szükséges.
+
+Mindkettőhöz készüljön méretezett berendezési alaprajz, falnézet, belső polckiosztás, szükséges metszet/részlet, anyag- és darabjegyzék, vasalat/rögzítés, indokolt polcterhelési követelmény és tételes bekerülési költség. Kész polcrendszernél is kell pontos kiosztási és összeszerelési/rögzítési rajz; gyári alkatrészt ne gyártass újra feleslegesen.
+
+Az egyedi polcok vastagságát, alátámasztását és rögzítését a tényleges fesztávhoz és terheléshez válaszd. Ne találj ki teherbírási igazolást. A falanyag, rejtett vezetékek és szükséges épületüzemeltetői feltételek ellenőrzése szerepeljen a nyitott pontok között.
+
+## 7. EGYÜTT TERVEZD A LAKÁST ÉS A KÉT TÁROLÓT
+
+Készíts „minek hol van a helye” tárolási térképet három szinten:
+1. Napi használat: lakáson belül, az adott funkció közelében.
+2. Gyakrabban elővett tartalékok: AT8-01, a tényleges környezeti alkalmasság szerint.
+3. Ritka, szezonális/nagyobb tárgyak: T-0-26.
+
+A külön tárolók lehetőséget adnak az ésszerű tehermentesítésre, de nem indokolják automatikusan a hálógardróbok vagy a napi használatú háztartási tárolás csökkentését. A porszívóért, napi ruhákért vagy minden törölközőért ne kelljen másik emeletre menni.
+
+Ha egy tárgycsoportot már másik tároló kiszolgál, hivatkozz arra; ne tervezz feleslegesen duplán. Az ismert tárolókapacitás és a szükséges kapacitás közötti hiányt jelezd.
+
+## 8. R02 GEOMETRIAI HIBÁK TÉNYLEGES LEZÁRÁSA
+
+### Konyha
+
+Az R02-ben jelzett 840 mm közlekedőt vesd össze a projekt 900 mm-es céljával; a nyitott mosogatógépnél jelzett 240 mm-t is ellenőrizd újra. Ezek vizsgálandó projektadatok, nem általános megfelelőségi bizonyítékok.
+
+Kész falsíkokkal, valós korpusz- és pultmélységekkel, túlnyúlásokkal, hézagokkal és gépgyártói előírásokkal dolgozz. Nem megoldás a szoba szélesebbre rajzolása, a gép összenyomása, kötelező hézag elhagyása vagy a szűkület eltakarása.
+
+A csukott és nyitott gépajtós használatot külön értékeld. Ha nyitott mosogatógép mellett nincs átjárás, mutasd a használati következményt és a megoldási lehetőségeket. A 3. pont szerinti konyhai praktikummal együttesen javíts.
+
+Az elszívó konkrét típusát, elhelyezését és bekötését tisztázd. Bizonytalan kivezetés vagy mennyezeti rögzítés helyett ne találj ki megoldást.
+
+### 05.2 háló és ALT-052
+
+Az R02 szerint a DS52 munkahely és KI-063 szék ütközik az erkélyajtóval. Az ALT-052 nem automatikusan elfogadott.
+
+A jelzett 2380 mm → 1380 mm teljes magasságú gardróbcsökkenés jelentős tárolási kompromisszum. Ne javíts ütközést észrevétlen kapacitásvesztéssel.
+
+Először keress funkciót és tárolást jobban megőrző megoldást. Ha kompromisszum szükséges, hasonlítsd össze a főváltozatot, ALT-052-t és az esetleges jobb alternatívát: használhatóság, konkrét tárolóveszteség, annak pótlási helye/költsége, látvány és összköltség. A másik emeleti tároló önmagában nem helyettesíti a hálószobai ruhásszekrényt.
+
+### Minden nyitás és használati hely
+
+Ellenőrizd tényleges méretekkel a NORDLI fiókok teljes kihúzását, ágyfiók–éjjeli kapcsolatot, gardróbfrontokat és szerelhetőséget, étkezőszékeket/térdhelyet, gépajtókat és szervizhelyeket, valamint a fürdő mosó/szárító–ajtó–mosdó konfliktusát.
+
+A székek 370 mm-es próbaeltolása nem önmagában teljes használhatósági igazolás. A valódi használati helyzeteket vizsgáld, felesleges közlekedősávok ráerőltetése nélkül.
+
+### Teraszajtó és küszöb
+
+A korábbi 120 mm-es modelljelző nem felmért adat. Egyeztesd a tényleges tolómezőt, fellépést/küszöböt, a tervi jelöléseket és a függönyhelyet a hiteles forrásokkal. Eltérésnél készíts mérési feladatot. Fotóbecslést ne nevezz kész helyszíni méretnek.
+
+## 9. TERMÉKAZONOSSÁG, ANYAGOK ÉS RAJZ–MODELL EGYEZÉS
+
+Minden karakteradó, látható elemhez legyen pontos típus/variáns, igazolt méret, szín és anyag, ténylegesen elmentett és megnyitott termékfotó, valamint gyártói modell vagy gyártói adatokból dokumentált modell. Az elemkód kösse össze az Excelt, a rajzot, a modellt és a rendernézetet.
+
+Külön ellenőrizd a Lennon modulját és L-irányát; Toni és Eamy tényleges formáját; FADO/Enrave és a célképek különbségét; minden lámpa valódi sziluettjét; elszívót, mosogatót, csaptelepet; kültéri bútorcsaládot; függönyt/textileket; látható Hue/LED-rendszert. Az új kamravasalatok, gardróbliftek, fiókdugalj és fagyasztó ugyanígy legyenek azonosítva.
+
+Pontosan kiválasztott termék hiányában adj beárazott jelöltet és eltéréslistát. Ne találj ki SKU-t, árat, készletet vagy szállítási ígéretet. Korábban elutasított terméket indoklás nélkül ne emelj vissza egyező főjelöltnek.
+
+Egyedi bútorhoz nem szükséges bolti SKU, de teljes szerkezetazonosító, méretezett rajz, belső kiosztás, anyag- és vasalatlista, valamint azt követő modell szükséges. A rejtett alkatrészt ne kezeld önálló látványtermékként; osztályozd helyesen.
+
+Egyezzen a külső méret, frontszám/osztás, lábazat, panelréteg, él, nyitás, belső kiosztás, grafika, anyagirány, fényprofil és szervizhely. W01/W02 esetében a sík nyomat, textil és valódi relief külön megoldás; csak a megtervezett és beárazott mélység jelenhet meg a képen.
+
+Minden egyedi bútorhoz olvasható belső rajzot készíts. Ahol az adat elegendő, legyen darab- és előzetes szabásjegyzék. Felmérés nélkül ne adj hamisan pontos, gyártásra kiadott méretet.
+
+## 10. VILÁGÍTÁS ÉS SZAKÁGI EGYEZTETÉS
+
+Minden lámpa és fényvonal legyen konkrétan megépíthető: fényforrás, méret, profil, diffúzor, táp, vezérlés, rögzítés és szervizhely egyezzen a rajzzal és modellel.
+
+A kapcsolási lánc legyen követhető: meglévő kiállás → kábelút → szükséges táp/vezérlés → lámpa/fényvonal → hozzáférhető szervizhely.
+
+A V3.3 meleg fényét őrizd meg, de látvány kedvéért ne adj hozzá be nem árazott új fénycsíkot vagy mennyezeti szerkezetet. Ellenőrizd az izzóbeférést és dokumentált kompatibilitást. A mennyezeti hűtő-fűtő mezők, termosztátok, érzékelők és redőnyszerviz maradjanak védettek/hozzáférhetők.
+
+A két tárolóhoz egyszerű, jól használható világítást tervezz a tényleges adottságokkal; a lakás luxusvilágítását ne másold át ide automatikusan. A fagyasztó, kihúzható csaptelepek, fiókdugalj és kisgépszakasz szakági feltételeit külön vezesd át a dokumentációba.
+
+Hiányzó gyártói vagy szakági bizonyítékot ne minősíts igazoltnak. Geometriai PASS nem jelent villamos, gépészeti, rögzítési vagy tűzvédelmi jóváhagyást.
+
+## 11. KÖLTSÉG, HATÓKÖRBŐVÍTÉS ÉS ÉLŐ EXCEL
+
+Ismert R02 kiindulás:
+- fő előrejelzés: 20 554 190 Ft;
+- takarékos javaslat: 19 899 690 Ft;
+- tervezhető keret: 18 000 000 Ft;
+- külön tartalék: 2 000 000 Ft, érintetlenül.
+
+A tényleges aktuális regisztert olvasd vissza, őrizd meg a kézi változásokat. Ne futtasd rá vakon a régi CP0-generátort.
+
+A két tároló és az új praktikussági elemek új vagy módosult műszaki tartalomként kerüljenek a költségvetésbe. A hatókör bővítése nem automatikus keretemelés. Különítsd el:
+- az R02-ben már szereplő tételek változását;
+- az új tárolópolcozást/bútorokat, dobozokat, rögzítést, szállítást és szerelést;
+- a második fagyasztó és kapcsolódó munkák bekerülését;
+- a gardróbliftek, kamravasalatok, csaptelepek és fiókdugalj költségét;
+- a valóban elhagyható vagy kiváltható tételek megtakarítását.
+
+A fagyasztó megvásárlását döntési/alternatív tételként is mutasd, de a fagyasztóval berendezett renderhez tartozó változat teljes költségéből ne hagyd ki. Ne számolj két alternatívát egyszerre a főösszegbe.
+
+Minden módosítás után számold újra a teljes projektet. A fix csomagot és annak bontott tételeit ne számold duplán. A jakuzzit vagy más vállalt elemet ne hagyd el észrevétlenül, a tartalékot ne használd fel automatikusan.
+
+Egyetlen egyértelmű változathoz készüljön a végső renderátadás. Ne keverd a főterv szebb elemeit a gazdaságos változat alacsonyabb áraival.
+
+Az ellenőrzött webshopár, írásos ajánlat és tervezési becslés külön mező/státusz legyen. A még nyitott tételhez indokolt költségsáv tartozzon, ne nulla.
+
+Ha a teljes tartalom nem fér a keretbe, készíts konkrét, vizuális és funkcionális veszteséget is mutató döntési csomagot. A kereten felüli terv csak döntési látványként kezelhető, nem költségben jóváhagyott végleges megoldásként.
+
+## 12. FRISSÍTETT RAJZ-, BLENDER- ÉS RENDERÁTADÁS
+
+A javított csomag kapjon következetes új revíziót; az R02 maradjon visszakereshető. Őrizd meg az eredeti 26 nézetazonosítót. Az Astra kreatív szövegén csak a szükséges műszaki, termék- és referenciajavításokat vezesd át, változásnaplóval.
+
+A két tárolóhoz adj két új, egyedi nézetazonosítót – V27/V28 csak akkor használható, ha még szabad. A teljes nézetjegyzék legalább a meglévő 26 + két tárolónézet legyen.
+
+Nézetenként legyen friss, megnyitható Blender-fájlból készült kamerakontroll; teljes angol prompt; csatolmánylista; releváns rajzlapok olvasható képexportja; termék- és anyagreferencia; státusz; outputfájlnév; megfelelő revízió és fájlhash.
+
+Ne legyen nem létező vagy elavult fájlhivatkozás. A teljes 78 oldalas rajzcsomag helyett az adott nézethez szükséges lapokat csomagold. Összevont referenciatáblán az azonosítók és a részletek is olvashatók legyenek.
+
+A rajz a bútor részleteit határozza meg, nem helyettesíti a perspektivikus kameraképet. A célrender atmoszférát ad, nem írja felül a méretet. A KI_R nézetet ne nevezd fotóhoz illesztett kamerának tényleges kameraillesztés nélkül.
+
+A két tároló modellje külön, saját szintjén/helyiségében készüljön. Ne illeszd őket fiktív helyiségként a lakás alaprajzába. Ellenőrizd a bejárhatóságot, ajtónyitást, fagyasztó használatát, polchozzáférést és tényleges akadályokat.
+
+Mindkét tárolóról kérek EGY-EGY berendezett rendert, amely megmutatja a működő polckiosztást, illetve az emeleti tároló fagyasztóhelyét. Ezeket lehetőleg a tényleges modellből készítsd, ne szabadon kitalált szobaként. Készüljön hozzájuk külön angol renderprompt is a későbbi egységes képsorozathoz.
+
+A két új tárolórender és a javítások natív ellenőrzőképei az aktuális munkacsomag részei. A teljes böngészős generatív renderkampány továbbra sem indulhat automatikusan. Nem kell újra legenerálni a lakás összes képét.
+
+Hiányzó helyszíni méret esetén a tárolórender is csak jelölt feltételes tervváltozat lehet, nem gyártási bizonyíték. Az ismeretlen részt ne igazold vissza saját látványképből.
+
+A Claude- és ChatGPT-renderoperátor ugyanazt a kész csomagot tudja használni, új tervezési döntések nélkül.
+
+## 13. BIZONYÍTÉKOK ÉS NÉZETENKÉNTI MINŐSÍTÉS
+
+Ne pusztán a BLOCKED_FOR_FINAL feliratot töröld ki. Minden lezárt problémánál rögzítsd az eredeti hibát, változtatást, érintett elemet/rajzot/nézetet, bizonyítékot, újrafuttatott ellenőrzést, költség- és látványhatást, maradó feltételt.
+
+Külön státuszt vezess: geometria; termékazonosság; praktikusság/tárolás; költség; szakági megfelelés. Egyik PASS nem helyettesíti a másikat.
+
+Minden eredeti és új nézet kapjon besorolást:
+- RENDERELÉSRE ELŐKÉSZÍTETT TERVNÉZET: rendezett geometria, látható termék/szerkezet és referenciák; önmagában nem gyártási vagy kivitelezési engedély.
+- FELTÉTELES ELŐNÉZET: döntési célra megjeleníthető, pontosan megnevezett feltétellel; nem végleges, igazolt termékazonos/kiviteli látvány.
+- BLOKKOLT: lényeges geometria, termék, elrendezés vagy döntés hiányzik.
+
+Egy problémás helyiség ne blokkolja a többi javítását, de az érintett nézet ne kapjon indokolatlan engedélyt.
+
+A helyszíni mérést, szakembert vagy tulajdonosi döntést igénylő pontokat egyetlen pontos listába gyűjtsd: mi hiányzik, ki ellenőrzi, milyen adat/döntés oldja fel, és melyik elem/nézet függ tőle. Ne ismételj olyan kérdést, amelyre már van ellenőrizhető válasz.
+
+## 14. KIMENET, ELLENŐRZÉS ÉS MENTÉS
+
+Tényleges javított fájlokat kérek, nem újabb feladatlistát:
+- friss Excel, tételes költségváltozással és új tároló-költséghelyekkel;
+- javított bútor-, konyhai és szakági egyeztető rajzok;
+- a két tároló teljes, egyszerű asztalos/polcrendszer dokumentációja;
+- belső szekrénykiosztások és „R02 → javított terv” kapacitáskimutatás;
+- lakás + két tároló „minek hol van a helye” térkép;
+- anyukám minden észrevételének forráshoz kötött elbírálása;
+- friss Blender-modellek, szkriptek és valóban lefuttatott ellenőrzési naplók;
+- szükséges natív kontrollképek, különösen V01, konyha és 05.2 alternatívák;
+- a két berendezett tároló 1–1 renderje;
+- javított, legalább 28 nézetes manifest és önálló renderpromptok;
+- friss renderoperátori indítóutasítás;
+- friss, pontosan egyoldalas, rajzos tulajdonosi összefoglaló;
+- hiány-, döntés-, változás- és checkpointjegyzék.
+
+A tulajdonosi egyoldalasban röviden szerepeljen a teljes várható költség, bizonytalanság, a két tároló többlete, a feltételes időtáv, a fontos látvány/funkció kompromisszum, és hogy minek hol lesz helye. A részletes tárolási térkép külön melléklet lehet; ne zsúfold olvashatatlanra az egy oldalt. A jóváhagyás és gyártói/szakági lezárás hiányát ne rejtsd el.
+
+Az új beszerzések és munkák hatását vezesd át a meglévő feltételes ütemterven és az előkészített, de el nem küldött ajánlatkérési csomagokon is.
+
+A rajzokat PDF-ben és ténylegesen szerkeszthető forrással add át; a műszaki rajz nem generatív illusztráció. Nyisd meg az exportokat és ellenőrizd olvashatóságukat. A .blend fájlokat ténylegesen mentsd és nyisd újra.
+
+Használd a korábban engedélyezett, működő Blender-indítási módot; a Mac globális beállításait ne módosítsd.
+
+Minden érdemi munkacsomag után commit/push és távoli visszaolvasás ugyanarra az execution ágra. A bináris kimenetek is legyenek elmentve, ne csak a generáló kód. A main, az eredeti kreatív ágak és a forrásmodellek maradjanak érintetlenek.
+
+GitHub- vagy keretakadásnál készíts teljes helyi vészhelyzeti átadást fájlútvonalakkal, manifesttel és folytatási ponttal. Kész munkát ne hagyj csak a beszélgetésben.
+
+Ne rendelj, ne küldj ajánlatkérést vagy üzenetet, ne vállalj fizetést/kivitelezői kötelezettséget, és ne hagyj jóvá helyettem jelentős kompromisszumot.
+
+A végén röviden jelentsd:
+1. Mit javítottál ténylegesen?
+2. Mi lett anyukám minden javaslatával?
+3. Milyen használható tárolást nyertünk/veszítettünk a lakásban és a két külön tárolóban?
+4. A legalább 28 nézet milyen státuszú?
+5. Milyen konkrét adat vagy döntés kell még tőlem/szakembertől?
+6. Mennyi a választott változat teljes költsége, külön a két tárolóval és az új funkciókkal?
+7. Melyik commitból és manifesttel indulhat a renderoperátor?
+
+A fenti követelményekhez a következő fejezetek adják a kötelező, kutatásra épülő belsőtervezési és rajzi tartalmat. Az R02 hibáit tényleges bizonyítékokkal zárd le; ami külső adat nélkül nem zárható le, maradjon jelölt, de ne állítsa le a többi elkészíthető feladatot.
+
+## 15. A MOSTANI ÁTDOLGOZÁS KÖZPONTJA: TÁRGYAKRA TERVEZETT SZEKRÉNYRENDSZER
+
+Ez a rész a fenti hibajavítást és praktikussági követelményeket részletezi. Nem opcionális ötletgyűjtemény: a tényleges új rajzok és belső kiosztások ezek alapján készüljenek.
+
+A családban nagy mennyiségű ruha, sok vásárlás, háztartási tárgy, kutyás felszerelés és gyermekjáték tárolásával kell számolni. A 8. emeleti tároló kamra/tartaléktároló funkciója különösen fontos. Nem egy minimalista mintacsaládra, hanem erre a magas tárolási igényre tervezz.
+
+A feladat nem oldható meg annyival, hogy több, kívülről szép szekrényt teszel a falra. A használható belsők legyenek kitalálva: milyen tárgy, melyik rekeszben, mennyi fér el, hogyan lehet kivenni, milyen vasalat mozgatja és hogyan látható.
+
+Kötelező tervezési lánc:
+TÁRGYLELTÁR → HASZNÁLATI GYAKORISÁG → HELYISÉG/REKESZ → HASZNOS KAPACITÁS → BELSŐ KIOSZTÁS → VALÓS VASALAT → VILÁGÍTÁS → RAJZ → KÖLTSÉG → BLENDER/HASZNÁLATI PRÓBA → RENDER → KÉSŐBBI BROSÚRA.
+
+A kutatási csomag 27 elsődleges forrásból készült. Olvasd be a 02_KUTATAS/TAROLAS_KUTATASI_JELENTES.md és FORRASJEGYZEK.md dokumentumokat. A bennük szereplő S01–S27 azonosítók webforrás-azonosítók, nem stíluskódok. Nem kell az egész kutatást újrakezdened: a kiválasztott tényleges termékek adatlapját, változatát, magyar elérhetőségét és árát kell tovább ellenőrizned.
+
+A gyártói megoldások nem automatikusan jóváhagyott termékek. Egy marketingoldal nem felmérés, teherbírás-számítás vagy rendszertanúsítás.
+
+### 15.1. Igényregiszter és hiányzó adatok
+
+A meglévő beszélgetésből és projektanyagból gyűjtsd ki az ismert családi igényeket. A már megválaszolt kérdést ne tedd fel újra. Ne találj ki lakószámot, gyermekkort, kutyaszámot, ruhadarabszámot vagy személymagasságot.
+
+Készíts tárgycsoportonként kitölthető leltárt: tulajdonos/használói csoport, kategória, darabszám vagy mintamennyiség, legnagyobb tárgyméret, tömeg, nedves/száraz állapot, napi/heti/szezonális gyakoriság, biztonsági igény, elsődleges hely, tartalék hely, adatforrás és bizonytalanság.
+
+Ha a tényleges tárgylista nem teljes, ne állj le: külön megjelölt magas igényű tervezési forgatókönyvvel dolgozz, egy összevont adatbekérő listával. A forgatókönyvet ne tüntesd fel a család valós leltáraként.
+
+A bővülési tartalékot külön tervezési paraméterként mutasd meg. Vizsgálhatsz például 20–30% többletigényt, de ez javasolt forgatókönyv, nem szabvány vagy biztos családi adat. A tartalék tárolóhely nem számolható be egyszerre foglalt funkcióként és szabad kapacitásként.
+
+### 15.2. A kapacitást funkciónként számítsd
+
+A kasírozott frontfelület és a korpusz bruttó térfogata nem tárolókapacitás.
+
+Mutasd meg a rövid és hosszú akasztós hely nettó folyóméterét, a hajtogatott ruhák tényleges rekeszeit, a fiókok hasznos belméretét, a cipők/táskák/bőröndök férőhelyeit, valamint a többi tárgy kategóriánkénti helyét.
+
+A ruhadarabszám reprezentatív, valóban használt vállfák és felöltöztetett ruhák foglalásából származzon, vagy egyértelműen jelölt becslés legyen. A kabát és az ing nem ugyanakkora helyigény.
+
+A méretszámításból vond le a lapokat, hátat, fióksínt, oldalfalat, pántbenyalást, fényprofilt, kábelteret, liftet, szifont és egyéb szolgáltatási teret. A névleges 600-as modul nem feltétlenül 600 mm beépítési helyigényű, és nem 600 mm belszélességű.
+
+Készíts kapacitásmérleget: szükséges → elhelyezett → tartalék → hiány. A hiány ne tűnjön el a dokumentációból egy szép látványkép miatt.
+
+## 16. RUHÁK, CIPŐK, TÁSKÁK ÉS A TÉNYLEGES GARDRÓBBELSŐ
+
+Minden hálóban és releváns előtéri/gardrób egységnél külön döntsd el a hosszú akasztós, dupla akasztós, polcos, fiókos és különleges tárolók arányát.
+
+Külön vizsgáld: hosszú kabát/ruha; rövid felsők és zakók; nadrág; kötött ruha; fehérnemű/zokni; sport- és otthoni ruha; öv/nyakkendő/ékszer/kiegészítő; cipő, magas csizma; táska; ágynemű és takaró; szezonális holmi; bőrönd. A relevanciát a leltár alapján jelöld, ne kötelezően mindenből új szerkezetet rendelj.
+
+A polcokon ne legyen csak magas, összedőlő ruhatorony. Vizsgálj hozzáférhető fiókot, osztott kihúzót vagy ésszerű magasságú állítható polcot. A mély polc hátsó fele ne legyen elérhetetlen második réteg napi használatnál.
+
+A mindennapi ruhák a használó elérési tartományába kerüljenek. Felső szezonális tároló legyen valóban nyitható, hozzáférhető és indokolt. A napi háztartási tárgyat ne száműzd a külön tárolókba.
+
+A sekély WS-01/W53-01 jellegű egységeknél mérd meg a valós belmélységet és a ruhák helyét. Ne rajzolj standard vállfát úgy, hogy a fronton túllógna. Előre kihúzható akasztó vagy polcos/fiókos alternatíva csak valódi használati próbával fogadható el.
+
+### Gardróbliftek
+
+Anyukám kérését ténylegesen dolgozd ki: ahol a magas akasztós mezőben érdemi hozzáférési előnyt ad, legyen konkrét típusú lehúzható gardróblift vagy beárazott, elfogadásra előkészített jelölt.
+
+Minden lifthez add meg a beépítési szélesség-tartományt, szükséges mélységet/magasságot, minimális és maximális terhelést, szerelési pontot, fogantyú elérését, teljes mozgásburkolót, ruhaterhet, ajtóval/fiókkal/ággyal való együttműködést, cikkszámot vagy pontos konfigurációt és költséget.
+
+A CONERO kutatott példája alapján a terhelési változatok különböznek; nem írható valamennyi helyre ugyanaz a „15 kg-os lift” szöveg. [Kutatás S11]
+
+A liftbe rajzolt ruhák és a felső tároló ne legyenek ugyanabban a térben. Ha a használó nem éri el a kart vagy lehúzva nincs hely, a lift nem működő megoldás. Könnyen elérhető alsó akasztást ne drágíts meg felesleges emelővel.
+
+### Fiók és pánt
+
+A „csillapított 110° pánt; teljes kihúzású fiók” általános mondatot minden érintett bútornál váltsd fel valódi termék- és funkciódöntéssel. Legyen terhelési osztály, vezetőhossz, fióktest, használható belméret, fogás/nyitás és teljes kihúzási állapot.
+
+Belső fiókos ajtónál ellenőrizd a nyitásszöget és pántbenyalást. A kutatott széles nyitású pánt alkalmazási példa, nem mindenhová előírt vasalat. A gyártói beépítési rajz és a szomszédos fal/bútor együtt dönti el a választást. [S04, S07, S27]
+
+A szekrény minden fiókját, akasztóját, polcát és liftjét a nyitott belső rajzon is azonosítóval jelöld. Ne maradjon csak a specifikáció szövegében.
+
+## 17. KONYHAI TÁROLÁS, FENTI KAMRA ÉS NAPI MUNKAFOLYAMAT
+
+A 3. fejezetben szereplő anyai sorrend és a kihúzható csaptelepek változatlanul követelmények. Most ezekhez részletes belső tárolási tervet kérek.
+
+Jelöld a konyhai funkciózónákat: élelmiszer; edény/tálalás; tisztítás/hulladék; előkészítés; főzés; napi kisgépek. A funkcióhoz közel legyen a hozzá szükséges tárgy. A meglévő gépészeti pontokat és átjárókat nem írhatja felül egy idealizált katalóguskonyha. [S01]
+
+Tervezd meg az edények, fedők, tepsik és vágódeszkák tárolását; evőeszközök/utensíliák belső osztását; ételtárolók és fedelek helyét; magas palackok és nagy kiszerelések rekeszeit; hulladékszelektálást. Ne feltételezd, hogy a szifon, a kihúzható csap tömlője és egy teljes mélységű hulladékkihúzó ugyanabba a térbe fér.
+
+A napi kávéfőző/kenyérpirító/vízforraló zónához legyen befoglaló, használati szabad hely, dugalj, kábel, gőz/hőkezelés és karbantartás. A rejtett gépgarázs nem kötelező: hasonlítsd össze a nyitott, elegánsan szerkesztett pultsávval. Zárt ajtó mögötti használatot gyártói engedély nélkül ne tervezz.
+
+A nehéz dagasztó/turmix hozzáférhető helyen legyen. Kihúzható polc vagy gépemelő esetén valós mechanizmus, teher, működési hely, vibráció/használati feltétel és költség szükséges. Egy mechanika által elvett polctér is költség/kapacitás-veszteség.
+
+A kamraszekrényre legalább két ténylegesen összevethető belső megoldást vizsgálj, amennyiben a geometria engedi: kétajtós belső fiókos rendszer; ajtóbelső és korpusztároló együtt; keskeny teljes kihúzó. Ne mindegyiket építsd be egyszerre. A tea/fűszer az ajtón csak a csukási és fióknyitási térrel együtt működhet. A bortartó ne kerüljön automatikusan hőforrás mellé; borhűtőt nem kértem. [S03, S08, S09]
+
+Az AT8-01 kamratárolóban legyen külön polchely a ténylegesen tervezett tartalék élelmiszer-kiszereléseknek, italoknak és ritkábban használt konyhai eszközöknek. A napi főzéshez szükséges minimális készlet maradjon a lakásban. Legyen egyszerű címkézés, tétel/lejárat-visszakeresés, fogyási/utántöltési sorrend. A csomagolások információját ne veszítsük el pusztán szebb üvegek kedvéért.
+
+A fagyasztó termékszintű beépítési és környezeti feltételei maradnak nyitottak addig, amíg tényleges adatlap és helyszíni alkalmasság nincs. A „kamra” megnevezés nem garantál megfelelő klímát. Élelmiszer és vegyszer elkülönítve legyen. [S24]
+
+## 18. FÜRDŐ, HÁZTARTÁSI SZEREK, KUTYÁS FELSZERELÉS ÉS GYEREKJÁTÉK
+
+### Fürdő és személyes ápolás
+
+A 5. fejezet hajszárítós/dugaljas fiókját részletesen dolgozd ki. A fiókban a készülék, diffúzor, kefe, tartozék és kábel valós méretű helye legyen. A szifon/medence alatti tér csak a ténylegesen megmaradó részben számítson tárolásnak.
+
+Tervezd meg a napi fogápolási/kozmetikai eszközöket, külön használói tálcákat, álló flakonokat, törölközőt, papír- és higiéniai tartalékot, tisztítóeszközt és szennyest. A szükséges csoportokat a családi leltárból vedd, ne feltételezz személyes egészségügyi adatot.
+
+A fiókdugalj európai készrendszerből vagy szakember által igazolt megoldásból készüljön; mozgó kábel, csatlakozó, hő, nedvesség és szerviz legyen a részletrajzon. A gyártói megfelelőség állítása nem helyszíni jóváhagyás. A forró/bekapcsolt hajformázó és zárt fiók veszélyét ne egy szép szervezőtálcával „oldd meg”. [S21]
+
+A gyógyszereknek a saját csomagolásuk előírása szerinti, gyermekek/állatok elől elzárt hely kell; ezt ne automatikusan a párás fürdőbe tervezd. [S25]
+
+### Háztartási funkció
+
+A napi porszívó, felmosó, törlőkendő, kivehető takarítócaddy, vasalódeszka, vasaló/gőzölő, szennyes és szükséges eszközök kapjanak ténylegesen kijelölt rekeszt. A tiszta/nedves/szennyezett tárgyak útját különítsd el. A vizes felmosót ne zárd textil- vagy élelmiszertárolóba. [S12, S16]
+
+Töltős eszköznél a gyártói használatot és szellőzést ellenőrizd; ne feltételezz veszélytelen töltést minden zárt szekrényben. Robotporszívónál a dokk működése, tartálycsere, tisztítás és kijutás is szerepeljen, ha ilyen eszköz ténylegesen része a tervnek.
+
+Vegyszerek, mosószerkapszulák, tisztítószerek gyermek és állat elől elzárva, eredeti címkével és élelmiszertől elkülönítve legyenek. [S26] A zárhatóság, kiömléskezelés és hozzáférés is funkció, nem puszta felirat.
+
+A „háztartási helyiség” megnevezés miatt ne hozz létre új szobát vagy mosogatót. Az A-902 tényleges helyiségeiben és jóváhagyott gépészeti pontjaival kell a funkciókat megoldani.
+
+### Kutyás tárgyak
+
+Tervezési kategóriák: póráz/hám/nyakörv; zacskó; törlő és mancstörlő; ápolóeszköz; napi és tartalék eledel; jutalomfalat; tálak; játékok; fekhelyhez tartozó textil; szükség esetén elkülönített állatgyógyszer.
+
+A napi sétaeszköz az előtér közelében legyen. A vizes felszerelésnek mosható és száradni képes hely kell, nem a tiszta kabátok fölé tett doboz. Az állateledel eredeti csomagolásának adatai maradjanak meg; a zsák megfelelő védőtárolóban tartható. [S23]
+
+A tartalék készlet mehet a megfelelő környezetű AT8-01-be, de napi etetéshez ne kelljen másik szintre menni. A víztál használat közben mindig hozzáférhető maradjon, ne bezárt kihúzóban legyen. A tárgyak valódi méretét/igényét szükség szerint külön egyeztesd, a kutya fajtáját/méretét ne találd ki.
+
+### Gyerekjáték és alkotás
+
+Játékcsoportonként tervezz: építőjáték/apró tárgyak; társasjáték; könyv; plüss; rajz/alkotás; nagyobb játék; kinti/sporteszköz. Az ismert életkorhoz igazíts; ha nem ismert, külön jelöld a későbbi biztonsági egyeztetést.
+
+Legyen könnyen hozzáférhető, egyszerűen visszapakolható napi készlet, a lakás látványához illő zárt tárolóval. Az állítható polcok és kivehető dobozok a növekedéssel átrendezhetők. Játékrotáció csak választási lehetőség, nem rejtett kapacitáscsökkentés. [S15]
+
+Könnyű dolgok kerüljenek gyermek által elérhető helyre; veszélyes/éles/apró vagy felügyelethez kötött dolgok megfelelően védett rekeszbe. A magas bútor és TV borulásvédelmét tényleges rögzítéssel kezeld. A csillapított pánt nem helyettesít gyermekzárat vagy borulásvédelmet. [S22]
+
+## 19. SZEKRÉNYEN BELÜLI VILÁGÍTÁS — MINDEN FONTOS EGYSÉGRE KÜLÖN TERV
+
+A felhasználó kifejezetten hiányolja a belső világítást: most ezt új, beárazandó funkcióként kell megtervezni, nem csak a régi hangulatfényeket megtartani. A fenti tilalom a látvány kedvéért hozzáadott, nem egyeztetett fényekre vonatkozik; az itt megrendelt használati szekrényvilágítás része a munkának.
+
+Minden szekrényhez jelöld: önálló belső fény / közeli fény által igazoltan megvilágított / indokoltan nem igényel fényt. Ne maradjon ki belső fény a mély gardróbból csak azért, mert csukva fotózzuk. Nem kell viszont minden apró fiókhoz külön drága világítás.
+
+A rendszerlista legyen teljes: pontos fényforrás, profil, diffúzor, vágási/beépítési hossz, névleges feszültség/teljesítmény, színhőmérséklet, színvisszaadás, érzékelő, vezérlés, táp, vezeték, csatlakozó, rögzítés, szervizhozzáférés. [S18–S20]
+
+A gardróbbelsőnél vizsgálj elülső/oldalsó fényvonalat, amelyet a polc és a ruhák nem takarnak el; a tényleges elhelyezést a feltöltött modellel és fénypróbával döntsd el. Az LED ne vakítson, tükörben ne legyen zavaró pontsor, a kábel ne találkozzon pánttal, fióksínnel vagy lifttel.
+
+Legyen rajzolt kapcsolási logika: melyik ajtó/fiók nyitására mi kapcsol; mi történik, ha több ajtó egyszerre nyílik; kézi felülbírálás; időzítés, ha indokolt; mi marad működőképes akkor is, ha a hangulatjelenet ki van kapcsolva. Ne legyen egy napi gardrób használata kötelező telefonos művelet.
+
+A meglévő Hue-követelményt tartsd meg. Harmadik fél vezérlőjét, IKEA-rendszert vagy általános Zigbee-egységet ne minősíts automatikusan Hue-kompatibilisnek. Ellenőrzött együttműködés vagy kifejezett kivételi javaslat kell. A mintadokumentum saját villamos komponenseit ne másold át.
+
+A Kyoto Ink külső meleg hangulata marad. A belső munkafény színhőmérséklete és színvisszaadása legyen tudatos, igazolt választás; esetleges eltérő munkafény előnye/hátránya és egyeztetése szerepeljen. Ne alkalmazz általános, indokolatlan Kelvin-szabályt.
+
+Készíts táp- és zónamérleget tényleges terhelésből; tartalék, hűtés, vezetékhossz/feszültségesés a gyártói és szakági előírás szerint. A 230 V-os végleges kivitelezési döntést szakember ellenőrzi. Táp vagy kötés ne kerüljön bontás nélkül elérhetetlen, ruhával szorosan telepakolt dobozba.
+
+## 20. RAJZI ÉS DOKUMENTÁCIÓS SZÍNVONAL: A CSATOLT MINTA FORMÁJA
+
+A csatolt A902_S12_A_R01_asztalos_relief_LED_ajanlatkeres(1).pdf KIZÁRÓLAG külalak-, szerkesztési és rajzi kommunikációs referencia. A felhasználó ezt külön megerősítette.
+
+VEHETŐ ÁT: tiszta fekvő A3 laprendszer; visszafogott színezés; tipográfiai hierarchia; nagy, olvasható rajz; pontos méretvonalak; több nézet és metszet; konszignáció; anyag- és fénycsomópont; következetes azonosító, revízió, lépték és státusz.
+
+NEM VEHETŐ ÁT: S12 Organic design, reliefforma, bútorbefoglaló, mélység, lapanyag, szín, vasalat, LED-termék, áramkör vagy ár. A Kyoto Ink tartalmat a saját terv és a most megadott igények határozzák meg. A mintalap önmagában nem gyártói vagy villamos jóváhagyás.
+
+### 20.1. Kötelező rajzlapok egyedi szekrényenként
+
+A szükséges nézeteket ésszerűen rendezd lapokra, ne egyetlen zsúfolt oldalt vagy sok üres sablonlapot gyárts:
+- zárt, a Kyoto Ink látványhoz igazodó homlokzat;
+- nyitott, méretezett belső homlokzat polcokkal, rudakkal, fiókokkal, lifttel, rendezőkkel;
+- alaprajz és oldalnézet a valós belmélységgel;
+- függőleges/vízszintes metszet a kritikus szerkezeteknél;
+- teljes nyitási állapot és szükséges mozgásburkoló, felhasználói hely;
+- szükséges axonometria/robbantott részlet a megértéshez;
+- világítási csomópont és a belső világítás működési sémája;
+- darab-, anyag-, élzárási és vasalatjegyzék, elemkódokkal;
+- adott bútor funkció- és kapacitástáblája, költségsorhoz kapcsolva.
+
+A tárgyakat méretvezető, egyértelműen tervezési példaként jelölt tartalommal mutasd, ne csak néhány díszruhával igazold az „óriási” gardróbot. A belső méretvonalak egyértelműek legyenek: kész padlótól mért szint vagy korpuszon belüli koordináta, ne keverve.
+
+### 20.2. Műszaki tartalom
+
+Minden elemen a tényleges anyag/dekor, hordozó, vastagság, felület, él, szálirány, háttér/szerviz, fogás, frontillesztés, pánt, sín és rögzítési feladat szerepeljen. Fixálható részekhez választott termékadatot adj; helyszíni ellenőrzést igénylő rögzítés maradjon annak jelölve.
+
+Az ajtó- és fiókrajz nem CNC-program. Végleges szabáslista csak a felmért mérettel és konkrét vasalat hézagaival tekinthető gyártási adatnak. A tervezési [D], új javaslati [J] és helyszíni [H] adatokat, vagy ezek egyértelmű magyar megfelelőit különböztesd meg.
+
+Falgrafikán ne szerepeljen 110° pánt, teljes kihúzású fiók, korpuszlábazat vagy szifon csak azért, mert a kód ugyanazt a sablont használta. Külön adattípus legyen szekrény, panel/műalkotás, kárpitozott elem, késztermék, fény és polcrendszer. Nem alkalmazható mező: indokolt „nem releváns”, nem hibás sablonszöveg.
+
+### 20.3. Export és vizuális minőségellenőrzés
+
+PDF + ténylegesen szerkeszthető vektor/CAD-forrás szükséges. A papírméretet, mm-egységet és valódi méretarányt jelöld; a minta 1:20/1:10/1:5/1:2 értékei csak indokolt helyeken alkalmazandók. Legyen nyomtatási mérőléc és jól elkülönülő vonalhierarchia.
+
+Minden főbb laptípusból exportálj és nyiss meg olvasható képet; ellenőrizd a teljes csomag hiányzó méreteit, levágott szövegét, apró betűit, fedését, jelmagyarázatát és hivatkozásait. Nem elég azt írni, hogy „78 oldal készült”. A rajz, a szöveg és a modell tartalma egyezzen.
+
+## 21. A MINTA, TUSGRAFIKA, ANYAG ÉS FELÜLETI RÉSZLET VALÓDI KIDOLGOZÁSA
+
+A felhasználó a „mintáról” szóló információt is hiányosnak találta. Két külön feladatot teljesíts: az egyedi Kyoto Ink grafika gyártási specifikációját ÉS a fizikai anyagmintázás rendjét.
+
+W01/W02 és a kiválasztott gardrób/fejvég grafikai elemeihez azonosítsd a valódi forrásgrafikát. Ha csak perspektivikus renderből látható, ezt mondd ki: egy kimetszett, felnagyított képrészlet nem automatikusan nyomdakész eredeti. Készíts külön, dokumentált eredeti/újraszerkesztett grafikai javaslatot, amelynek tulajdonosi jóváhagyása a nyomtatás előtt szükséges.
+
+Műalkotásonként szükséges:
+- teljes művészeti kompozíció sík nézetben, valós panelmérethez igazítva;
+- hordozó, felület, vastagság, illesztés, rögzítés és szervizhatár;
+- panelenkénti grafikai kiosztás, vágás, kifutó, képi folytonosság és ajtórések;
+- kapcsoló/termosztát/TV és más elem valódi helye, szükséges üres sáv;
+- felbontási és színkezelési követelmény a választott nyomdai technológia szerint;
+- tárgyilagos különbség síknyomat, valódi szövet/textúra, kézi utómunka és relief között;
+- rendelési mennyiség, veszteség és teljes kivitelezési költség;
+- mintaazonosító, jóváhagyási rend, szükséges szín- és súrolófény-próba.
+
+Az A4 színminta nem bizonyítja egy egész panel vagy LED-illesztés minőségét. Kritikus csomópontról megfelelő méretű 1:1 részletminta legyen a gyártási lezárás feltétele. A referencia PDF mintaméreteit/technológiáját nem kell másolni: a Kyoto megoldáshoz szükséges próbát kell meghatározni.
+
+Ne tüntess síkban nyomtatott textúrát valódi vastag domborműként a renderen. A felület fényessége, tapintási karaktere és élei is a beárazott anyagot kövessék. Ne nyúlj a Kyoto művészi motívumhoz szükségtelenül, és ne szaporítsd túl a visszatéréseit.
+
+## 22. KONKRÉT R02 AUDITMEGÁLLAPÍTÁSOK, AMELYEKET ÚJRA KELL ELLENŐRIZNI
+
+A mellékelt pillanatkép célzott vizsgálata a következőket találta. Ha időközben javítottad, a friss bizonyítékot mutasd, ne rontsd vissza:
+
+1. WN-01_spec.pdf szerint 1 hosszú +1 dupla akasztós +2 polcos/fiókos modul; az I-WN-01.pdf rajz viszont 1 hosszú +2 dupla akasztós +1 polcos/fiókos kiosztást mutat. Egységesítsd a leltár szerint, ne önkényesen egyikhez igazítsd a másikat.
+2. A belső lapon már vannak rudak és jelképes fiókok; nem arról van szó, hogy minden hiányzik. A tényleges vasalat, hasznos rekeszméret, terhelés, nyitás, lift és belső világítás azonban nincs megfelelően lezárva.
+3. A data/design_R02.json 33 egységénél ugyanaz a generikus hardware-mező szerepel. Ezt adattípusonként tisztítsd, és a választott bútoroknál valódi specifikációval váltsd fel.
+4. Az ART-02_spec.pdf falgrafikára is pánt/fiók/lábazat és általános szifonrészlet szöveget kapott. A grafikai panel saját dokumentációt igényel.
+5. Az E-01_villamos.pdf és a JSON nem ad lezárt, szekrényenkénti teljes belső fényjegyzéket. A JSON-ban L-WN és L-WS már szerepel, de a táp/vezérlő SKU és méretezés nyitott. Ezeket ne veszítsd el, és ne számold kettősen: a meglévő előirányzatot dolgozd ki konkrét, kapcsolt belső világítási konszignációvá.
+
+Ez célzott audit, nem állítás arról, hogy a csomag minden lapja hibás. A jó adatokat őrizd meg; a sablonismétlés nem minőségi lezárás.
+
+## 23. MUNKASORREND ÉS BIZONYÍTOTT HASZNÁLHATÓSÁG
+
+A folyamatos mentés mellett ebben a sorrendben dolgozz:
+
+A. Legfrissebb állapot és korábbi döntések visszaolvasása; igény- és hibajegyzék; fájlazonosság. A tényleges aktuális manifestet tekintsd alapnak, az eredeti 26 azonosítót őrizve és a két külön tárolót hozzáadva; a funkcionális nézetek ezeken felüli, külön azonosított kimenetek.
+B. Tárolási leltár és magas igényű forgatókönyv; lakás + AT8-01 + T-0-26 kapacitástérkép; költséghelyek.
+C. Egy teljes minőségmintát dolgozz ki a WN-01 mastergardróbra: zárt/nyitott rajz, valós tartalom, fiók, akasztás, lift ahol indokolt, belső LED, működés, anyag, vasalat, kapacitás, költség és modell. Hasonlítsd össze a referencia PDF kommunikációs szintjével. Ez ne külön félbehagyási pont legyen: saját QA után ugyanazt a részletességet vidd tovább, a szükséges tulajdonosi kompromisszumokat külön jelölve.
+D. Az összes többi szekrény és tároló típusspecifikus kidolgozása; konyha/05.2 hibák rendezése; művészeti és fénycsomag.
+E. Egyetlen összehangolt Excel–rajz–Blender revízió; teljes újrafuttatott geometriai/használati ellenőrzés; nyitott külső adatok listája.
+F. Friss renderátadás, funkcionális jelenetek, két tárolórender és egyoldalas tulajdonosi lap; későbbi brosúra előkészítése.
+
+Kötelező használati próbák a releváns elemeknél: teljesen kihúzott fiók és nyitott ajtó; teljesen lehúzott lift ruhatömeggel; gardrób és ágy együttes használata; konyhai előkészítés napi gépekkel; nyitott gépajtó; hajszárító fiókból használatra kivétele; gyermek napi játékainak elővétele/visszarakása; kutyaséta utáni eszközelhelyezés; fagyasztófiók nyitása megpakolt kamrapolcok mellett; lámpák működése a feltöltött szekrényben.
+
+Minden teszt eredménye legyen mért/számított a modellen, gyártói adatból ellenőrzött, mintával igazolt vagy még helyszínen ellenőrizendő. Saját renderből nem igazolható egy másik saját render vagy a valódi kivitelezés.
+
+A gépészeti/villamos/biztonsági megfelelést ne helyettesítsd saját geometriai PASS-szal. Ha nincs elérhető Blender/CAD-eszköz, ezt jelezd és készíts ellenőrizhető átadást; ne állíts lefuttatott ellenőrzést.
+
+## 24. FUNKCIONÁLIS RENDEREK ÉS KÉSŐBBI BROSÚRA
+
+A meglévő 26 nézet és a két tároló minimumprogramja megmarad. A használhatóság bemutatásához külön FUNKCIÓ-nézetek szükségesek, nem az enteriőrképek helyett.
+
+A fontos szekrényekhez készíts pontos promptot és referenciacsomagot a csukott és ténylegesen kinyitott állapotra. Legalább a master gardrób, kamraszekrény, háztartási tároló, hajszárítós mosdófiók, előtéri kutyás/napi tárolás és releváns gyerekjáték-tárolás legyen bemutatható; ha egy funkció a tervben más egységbe került, azt a valós egységet mutasd.
+
+A nyitott fiók/pánt/lift ugyanaz a beárazott termék legyen. A képgenerátor ne találjon ki belül más polcokat vagy látványos ékszertálcákat. Ne tüntesd el a frontot címkézés nélkül: a valódi nyitott helyzet render, a front nélküli metszet vagy robbantott rajz külön technikai ábra.
+
+A funkciójelenet neve, kamera, design-revízió, modellállapot, tárgykészlet, lámpaállapot és ellenőrzési státusz a manifestben szerepeljen. A dekoratív és funkcionális sorozat ugyanabból a lezárt adatállapotból készülhet. A kamera ne változzon titokban a zárt és nyitott összevetésben.
+
+### A brosúra későbbi feladat — most az alapjait készítsd elő
+
+A felhasználó a kész, elfogadott renderek után olyan brosúrát kér, amely közérthetően megmutatja a lakás funkcionalitását. MOST ne nevezz késznek egy hiányzó képekkel feltöltött kiadványt, ne ígérj háttérben automatikus elkészítést, és ne indíts új renderkampányt csak a brosúra miatt.
+
+Most készüljön BROCHURE_BRIEF.md, tartalmi vázlat és jelenetlista, valamint pontos folytatóutasítás arra az esetre, amikor a renderképek már elkészültek és elfogadottak. Különítsd el ezt a most frissítendő egyoldalas tulajdonosi összefoglalótól.
+
+A majdani brosúra tartalmazza: átlátható lakástérképet; helyiségenként és használati történetenként a funkciókat; „minek hol van a helye” rendszert; belső tárolókat és használható kapacitásukat; kamra/fagyasztó és garázstároló; belső világítás és működtetés; kutyás és gyerekbarát rendezés; tisztítás/karbantartás; tényleges műszaki státusz és a választott költségváltozat rövid ismertetése.
+
+A grafikai színvonal legyen összehangolt a mintadokumentuméval és a Kyoto Ink karakterével, de a közönség a nem szakmabeli tulajdonos. A szöveg hasznot magyarázzon, ne műszaki fantáziát reklámozzon. Minden állítás konkrét rajzra, elemkódra vagy renderre legyen visszavezethető. Ne kerüljön bele nem kiválasztott extra vagy nem igazolt „gyerekbiztos/készre validált” ígéret.
+
+A későbbi kész állapotban PDF és szerkeszthető forrás szükséges; az oldalszámot a tényleges tartalomhoz igazítsd. A MOSTANI csomagban a képekhez kötött makett és szövegterv előkészítése a feladat, nem a végleges brosúra előre legyártása.
+
+## 25. ÚJ KIMENETEK, KÖLTSÉG- ÉS MINŐSÉGKAPU
+
+A 14. fejezet teljes kimenetlistáján túl készíts:
+- tárgy- és igényleltárt, ismert adatok/forgatókönyvek elkülönítésével;
+- helyiség–tárgycsoport–szekrény–rekesz térképet;
+- nettó ruházati és más tárolási kapacitásmérleget, R02 és új változat összehasonlítással;
+- típushelyes, részletes belső rajzokat és nyitási állapotokat minden egyedi tárolóhoz;
+- konkrét vasalat- és gardróblift-konszignációt, adatlapokkal;
+- szekrényenkénti fényjegyzéket, vezérlési sémát, csomópontot, kábel/táp- és szerviztervet;
+- panelenkénti művészeti/grafikai specifikációt és anyagminta-jóváhagyási tervet;
+- fő funkcionális és opcionális kényelmi fejlesztések külön költségét;
+- a rajzi mintához képest elvégzett külalak- és olvashatóság-ellenőrzést;
+- funkcionális renderpromptokat és a későbbi brosúra teljes előkészítési csomagját.
+
+Készíts követelménykövető táblát: eredeti kérés/forrás → tervezési döntés → érintett rajz/elem/Excel/modell → bizonyíték → státusz. A „van szekrény” nem teljesíti automatikusan a „van működő liftes, fiókos és megvilágított ruhatároló” igényt.
+
+Az új funkciók költségét folyamatosan ellenőrizd. A 18 milliós alapköltség és 2 milliós külön tartalék változatlan. A kifinomultabb belső nem lehet észrevétlen költségnövekedés. Mutass ésszerű alapváltozatot és indokolt extrákat: használható kapacitás, napi hozzáférés és biztonság előbbre való, mint mindenhová prémium mechanizmus.
+
+A két tároló, a rejtett LED, fiókvilágítás, gardróblift, kamravasalat, fiókdugalj, szerelés, tápegység, kábel, szállítás és tartozék mind árazott elem. A fénycsomag és annak alkatrészei ne szerepeljenek kétszer. Konkrét helyettesítéskor a render és az ár is ugyanazt a variánst mutassa.
+
+A végső ellenőrzés ne csupán fájlszámot, hash-t és nulla képlethibát jelentsen. Legyen tartalmi egyezés a WN-01 jellegű szöveg/rajz eltérésekre, hiányzó belső világításokra, ismeretlen vasalatokra és téves sablonmezőkre is.
+
+## 26. INDÍTÁS ÉS VÉGSŐ JELENTÉS
+
+Az eredeti megvalósítási sessionben dolgozz tovább. Először a feltöltött ZIP 00_OLVASD_EL.txt és jelen teljes promptja követendő; az ARCHIV szövegek csak források, nem párhuzamos aktív feladatok. Az R02 pillanatkép meglévő kódjait ne futtasd vakon a frissebb Excelre.
+
+A csatolt mintadokumentum csak formai referencia. A lakás stílusa Kyoto Ink S01 V3.3; a gyakorlati tartalom a fenti családi igényekből és bizonyított méretekből következik.
+
+A legfrissebb execution állapot átvétele után végezd el a valódi tárolástervezést és a szükséges fájlmódosításokat, ne állj meg egy újabb kutatási tervnél vagy CP0-nál. A kész jó részeket tartsd meg, a hibás sablonos belsőket ténylegesen építsd újjá.
+
+Munkacsomagonként ments és ellenőrizz. A hiányzó külső adatokat egyetlen listában, pontos feloldási feltétellel kezeld. A fontos tulajdonosi kompromisszumot ne hagyd jóvá helyettem; a többi munka haladjon tovább. A teljes böngészős renderkampány és a végleges brosúra külön, későbbi jóváhagyott lépés marad.
+
+A végső rövid jelentés térjen ki arra, hogy most már konkrétan hol vannak a fiókok, ruharudak, liftek, belső fények, kutyás és játékos tárolók; mennyi valós kapacitás keletkezett; mi maradt hiány; mi a költséghatás; mely rajzrevízió és commit a hiteles; mely képek készíthetők már megbízhatóan.
+
+Fő mérce: kívül továbbra is az elfogadott Kyoto Ink, belül pedig részletesen megtervezett, nagy tárgymennyiség mellett is kényelmesen használható otthon. A rajzok ezt magyarázzák el olyan áttekinthetően, mint a csatolt külalaki minta — nem csupán annyit állítanak, hogy majd az asztalos kitalálja.

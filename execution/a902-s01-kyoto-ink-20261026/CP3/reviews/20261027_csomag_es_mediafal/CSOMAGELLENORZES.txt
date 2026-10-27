@@ -1,0 +1,29 @@
+KYOTO INK – CP3 CSOMAGELLENŐRZÉS / 2026-10-27
+
+ELLENŐRZÖTT ÁLLOMÁNYOK
+A902_CP3_teljes_atadas.zip (Downloads): 655 fájl; mind a 655 bájtszinten azonos a jelenlegi execution munkamappa megfelelő fájljával.
+A902_CP3_tarolas_kutatas_teljes_csomag.zip: megrendelői követelmények, referencia és R02 pillanatkép.
+A régi R02 pillanatkép és az átadási ZIP között 334 azonos útvonalú fájl: 332 változatlan; csak README.md és az élő Excel tér el ebben az átfedésben. Ez nem jelenti, hogy nincs új tartalom: a CP3/ külön almappában vannak az új rajzok és adatok.
+A régi drawings/ és outputs/A902_R02_rajzcsomag.pdf továbbra is az átadásban maradt. Az aktív és történeti példányok szétválasztása nem elég egyértelmű.
+
+TÉNYLEGES FRISSÍTÉS
+A CP3/data/tulajdonosi_dontes.json tartalmazza a jóváhagyott 05.1 master, 05.2 gardrób/gyerek és 05.3 vendég/dolgozó funkciókat, valamint a két tárolót.
+A CP3/drawings/WN-01_CP3.pdf új kiosztása: B01 hosszú akasztás + 2 lapos fiók; B02 és B03 dupla akasztás felső liftjelölttel; B04 hat fiók és polcok. Tényleges nettó rekeszméretek szerepelnek.
+A kapacitás-összesítő tervezett adatai: master 3,030 m akasztás / 8,594 m² polc / 406,5 l fiók; 05.2 1,437 m / 4,250 m² / 123,9 l; 05.3 0,350 m / 3,103 m² / 83,5 l. Ezek a mentett terv számításai, nem jelen ellenőrzésben újraigazolt fizikai kapacitás.
+A belső fényadatok között 73 lámpa és 13 tápegység szerepel; három gardróblift-jelölt van. Ez önmagában nem bizonyít teljes műszaki lezárást.
+AT8-01 és T-0-26 külön tervadatot és rajzot kapott; méretük helyszíni felmérésre vár.
+
+NEM TELJESÍTETT / NEM LEZÁRT
+A friss master két PDF-oldalát ténylegesen megnyitottuk és a referencia 4. oldalával vizuálisan összevetettük.
+Az A3 fekvő formátum, visszafogott szín és alapnézetek megvannak, de a referencia részletessége nincs átvéve: a lift jelképes, lehúzott mozgása nincs részletesen ábrázolva; a fiók használati rajza általános dobozábra; a rétegrend, valós fénycsomópont és működési kapcsolatok nem bútorra szabott részletrajzok. A zárt fronton a tusgrafika nem látszik.
+A CP3/data/design_CP3.json WN-01 notes mezője továbbra is 1 hosszú + 1 dupla + 2 polcos/fiókos modult ír, miközben a friss rajz 1 hosszú + 2 dupla + 1 polcos/fiókos modult mutat. Az adat–rajz összhang hibája az új állapotban is fennáll.
+A vasalatjegyzékben rendszerjelöltek vannak (például MOVENTO), több pontos rendelési készlet és szerelési feltétel még hiányzik.
+A CP3 README a 05.2 és 05.3 használati ütközéseit és alternatíváit továbbra is nyitottként tartja nyilván. Ez nem a jóváhagyott helyiségfunkciók teljes körű megoldása.
+Az ötoldalas tulajdonosi kiadvány a csomagban történeti R02 anyag maradt; az új CP3 összefoglaló egyoldalas. Ez sem egységes friss átadás.
+
+MÉDIAFAL
+A tulajdonos most a VISUAL_RESCUE_v3_CONDITIONAL képen látható médiafal megjelenését választotta. Külön döntésfájl és hash-azonos képmásolat rögzíti. A régi frontosztást nem szabad önkényesen visszakényszeríteni a választott kép helyére. A teljes technikai átvezetés azonban még nem történt meg; a kép nem méretezési vagy anyagtechnológiai bizonyíték.
+
+ÉRTÉKELÉS
+Részben frissített CP3 munkacsomag, nem az összes kért tárolási és rajzi követelményt teljesítő, egységes lezárt átadás. A korábbi teljességi állítást ez az audit pontosítja.
+Ez a jelentés ellenőrzés és döntésrögzítés. Nem módosította a rajzokat, az Excelt, a modellt vagy a korábbi ZIP-et. Helyi mentés; e jelentés GitHub-mentése nincs ebben a munkalépésben igazolva.
