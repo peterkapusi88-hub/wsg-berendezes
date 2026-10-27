@@ -1,11 +1,11 @@
 # WSG – BELSŐ TEREK: háromrétegű alaprajzi bemutatás, képes referenciakatalógus
 
-**Azonosító a későbbi feladatokhoz:** \`WSG-BELSO-3NEZET-V1\`  
+**Azonosító a későbbi feladatokhoz:** `WSG-BELSO-3NEZET-V1`  
 **Döntés:** 2026-10-27. **Érvényesség:** A-902, A-811 és A-812 lakásbelsők.  
 **Státusz:** elfogadott **prezentációs elv**; nem kész kép, nem hitelesített méretezés és nem építési jóváhagyás.  
-**Közös szabályzat:** [Háromrétegű alaprajzi prezentáció — terasz és belső](WSG_ALAPRAJZI_PREZENTACIO_3_RETEG_2026-10-27.md). További kötelező forrás: \`GOAL.md\`, \`07_skill/wsg-ertekalapu-stiluslabor/SKILL.md\`, \`OPENAI_instructions.md\`, \`ai-coordination/RENDER_REALITY_GATE.md\`.
+**Közös szabályzat:** [Háromrétegű alaprajzi prezentáció — terasz és belső](WSG_ALAPRAJZI_PREZENTACIO_3_RETEG_2026-10-27.md). További kötelező forrás: `GOAL.md`, `07_skill/wsg-ertekalapu-stiluslabor/SKILL.md`, `OPENAI_instructions.md`, `ai-coordination/RENDER_REALITY_GATE.md`.
 
-> **A belső tervezés indításakor ezt mondd:** „A WSG belső terek ábrázolásához használd a \`WSG-BELSO-3NEZET-V1\` szabványt, vagyis a \`06_koncepcio/WSG_BELSO_ALAPRAJZ_3RETEG_REFERENCIA_2026-10-27.md\` fájlt. A 2D látvány-, 3D axonometrikus és méretezett 2D alaprajz ugyanabból a zárolt geometriából és ugyanabból a berendezésből készüljön.” 
+> **A belső tervezés indításakor ezt mondd:** „A WSG belső terek ábrázolásához használd a `WSG-BELSO-3NEZET-V1` szabványt, vagyis a `06_koncepcio/WSG_BELSO_ALAPRAJZ_3RETEG_REFERENCIA_2026-10-27.md` fájlt. A 2D látvány-, 3D axonometrikus és méretezett 2D alaprajz ugyanabból a zárolt geometriából és ugyanabból a berendezésből készüljön.” 
 
 ## I. Mit akarunk bemutatni?
 
@@ -82,9 +82,9 @@ A következő **öt kép közvetlenül, a képet publikáló külső oldalról j
 
 ## V. Indítási minta — másolható, rövid feladat
 
-> **WSG belső alaprajzprezentáció – \`WSG-BELSO-3NEZET-V1\`.**
+> **WSG belső alaprajzprezentáció – `WSG-BELSO-3NEZET-V1`.**
 >
-> Dolgozz a \`peterkapusi88-hub/wsg-berendezes\` repó \`06_koncepcio/WSG_BELSO_ALAPRAJZ_3RETEG_REFERENCIA_2026-10-27.md\` szabványa és a három kötelező gyökér/skill fájl, valamint a Render Reality Gate szerint. Az adott lakás aktuálisan jóváhagyott geometriai zárolását és azonos berendezési konfigurációját használd. Készíts egy éles, textúrahű ortografikus 2D látványalaprajzot, egy impozáns 3D cutaway axonometriát és egy közlekedőszélességeket, méretláncokat, bútorok használati szabad tereit kimutató műszaki 2D tervet. Azonosítsd a bizonytalan méreteket; a hiányzó adatot ne találgasd; ne indíts további kampányt jóváhagyás nélkül.
+> Dolgozz a `peterkapusi88-hub/wsg-berendezes` repó `06_koncepcio/WSG_BELSO_ALAPRAJZ_3RETEG_REFERENCIA_2026-10-27.md` szabványa és a három kötelező gyökér/skill fájl, valamint a Render Reality Gate szerint. Az adott lakás aktuálisan jóváhagyott geometriai zárolását és azonos berendezési konfigurációját használd. Készíts egy éles, textúrahű ortografikus 2D látványalaprajzot, egy impozáns 3D cutaway axonometriát és egy közlekedőszélességeket, méretláncokat, bútorok használati szabad tereit kimutató műszaki 2D tervet. Azonosítsd a bizonytalan méreteket; a hiányzó adatot ne találgasd; ne indíts további kampányt jóváhagyás nélkül.
 
 ## VI. Hatáskör és korlátok
 
