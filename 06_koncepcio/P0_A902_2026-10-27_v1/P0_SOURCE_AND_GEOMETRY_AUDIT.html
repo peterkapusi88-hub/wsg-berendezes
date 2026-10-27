@@ -1,0 +1,301 @@
+<!doctype html><html lang="hu"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P0_SOURCE_AND_GEOMETRY_AUDIT</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f2ed;color:#203b3e;font:17px/1.65 system-ui,sans-serif}header,main,footer{max-width:1220px;padding:40px;margin:auto}header{padding-top:60px}h1{font-size:44px;line-height:1.12;max-width:900px}h2{font-size:27px;line-height:1.3;margin-top:45px}h3{font-size:22px}a{color:#086b72}nav{display:flex;gap:12px;flex-wrap:wrap}nav a{background:#fff;border:1px solid #c7d4ce;padding:10px 16px;border-radius:5px;text-decoration:none}section{background:white;border:1px solid #d8dfd8;border-radius:12px;padding:28px;margin:28px 0;overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #d5ded6;text-align:left;padding:10px;vertical-align:top}th{background:#e6eee7}tr:nth-child(even){background:#f8faf7}img{width:100%;height:auto}code{font-size:.85em;overflow-wrap:anywhere}.tag{display:inline-block;border-radius:20px;background:#e5cda5;padding:5px 15px;font-size:14px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}.card{padding:22px;background:#e8eee7;border-radius:8px}.card b{display:block;font-size:28px}.note{border-left:4px solid #ba8048;padding:12px 20px;background:#fcf4e9}.report p{max-width:1050px}@media(max-width:700px){header,main,footer{padding:20px}h1{font-size:34px}section{padding:15px}table{min-width:700px}}@media print{body{background:white;font-size:10pt}header,main{max-width:none;padding:0}nav{display:none}section{border:0;padding:0;overflow:visible}h2{break-after:avoid}table{font-size:8pt}tr,img{break-inside:avoid}}</style><header><a href="index.html">← P0 csomag</a></header><main><h1>WSG A-902 – teljes P0 forrás- és geometriai audit</h1>
+<p><strong>P0-v1 · 2026.10.27. · Jóváhagyásra átadott eredmény</strong></p>
+<p>Forrásállapot: <code>peterkapusi88-hub/wsg-berendezes</code>, commit <code>4959bfe143833617d220b1613bd58908ee4ec5b7</code>. Készítő: a jelen Work/Codex munkamenet; egyetlen elemző folyamat, másik AI vagy független ellenőr indítása nélkül. Új látványkép: <strong>0</strong>. Blender-módosítás: <strong>0</strong>. P1 kreatív elrendezés: <strong>0</strong>. Az auditábrák meglévő adottságokat és bizonytalanságokat mutatnak, nem berendezési terveket.</p>
+<h2>1. Az audit eredménye</h2>
+<p>A forrásokból összeállítható a két későbbi AI számára azonos, használható kiindulási ténycsomag. A rendelkezésre álló modell azonban <strong>nem tekinthető minden részletében helyszínhű geometriának</strong>. A legfontosabb korrekció a WPC-n belüli további szintváltás és a tájolás: az 1:50-es tervvel egyeztetett műholdkép szerint a fő kijárattól egyenesen kifelé nagyjából ÉK felé nézünk. A régi rajzi x/y tengelynevek nem földrajzi kelet/észak. [PLAN3, PLAN18, U07, P08–P11, T02; azonosítók a forrásjegyzékben és fotókatalógusban]</p>
+<p><strong>A teljes saját kültér használható, a jakuzzi helye kötött.</strong> Ez tulajdonosi alapadat, nem újra megnyitott általános használhatósági kérdés. Konkrét készülék mérete, tele tömege, víz- és áramigénye, szerelési hozzáférése ettől még külön, jelenleg hiányos műszaki adat. A régi zöldtető-tiltást és <code>butorozhato:false</code> mezőt a későbbi AI-k nem vihetik tovább érvényes általános tilalomként. [U01]</p>
+<p>Az új szomszéd hatását irányonként kell kezelni. Az ÉNy-i panoráma, az É/ÉK felé megmaradó lehetséges rések és a DK felé lehetséges távoli kilátás nem vonható össze „eltűnő panorámává”. A K/DK belátás és a szemközti új teraszok belátása kötelező tervezési bemenet. A jelentős új árnyék hiánya tulajdonosi várakozás; sem jelentős árnyék, sem egész éves árnyékmentesség nem igazolt. [U03–U07]</p>
+<h2>2. Forráslefedettség és módszer</h2>
+<table>
+<thead>
+<tr>
+<th>Forráscsoport</th>
+<th>Elvégzett ellenőrzés</th>
+<th>Határ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kötelező projektutasítások</td>
+<td>Master, GOAL, AGENTS, projekt-SKILL, OPENAI_instructions, Render Reality Gate, átadási protokoll, részletes brief és háromrétegű prezentációs szabvány elolvasva.</td>
+<td>A friss tulajdonosi utasítás az ütköző régi feltételezéseket felülírja.</td>
+</tr>
+<tr>
+<td>Tervek</td>
+<td>Eredeti 27 oldalas PDF 3. és 18. lapja képi és szöveges ellenőrzéssel; repo-kivonatok egyeztetve.</td>
+<td>A 3. lap megvalósulási 1:125; a 18. lap módosított vevői 1:50, nem azonos státusz. A teljes kert nincs a 18. lapon.</td>
+</tr>
+<tr>
+<td>Profi A902</td>
+<td><strong>33/33 eredeti fájl</strong>, minden kép külön vizsgálva; három vágott pár jelölve.</td>
+<td>Nézőképek 1800 px, kritikus részek eredeti képből kivágva; nincs fotogrammetriai kalibráció.</td>
+</tr>
+<tr>
+<td>Külső profi képek</td>
+<td><strong>19/19 kontaktlapos szűrés</strong>, 9 releváns kép külön megvizsgálva, 10 lobby/garázs kép irrelevánsként nyilvántartva.</td>
+<td>Közös kert és homlokzat nem az A902 saját terasza.</td>
+</tr>
+<tr>
+<td>Műszaki fotók</td>
+<td>8 célzott terasz/kert/kiállás közeli kép részletes feldolgozása.</td>
+<td>A meglévő teljes műszaki fotóarchívum nem a 33-as profi leltár része.</td>
+</tr>
+<tr>
+<td>Blender</td>
+<td>v2 és v2b másolat csak olvasva; 43 teraszelem összevetve a lockkal.</td>
+<td>A geometriai egyezés nem helyszíni méret- vagy műszaki alkalmasságigazolás.</td>
+</tr>
+<tr>
+<td>Műholdkép</td>
+<td>Tulajdonosi piros jelölés és észak-felfelé tájolás; utcák és épülettömegek egyeztetése.</td>
+<td>Felvételi dátum, geodéziai tetőpontok és pontos magasságok hiányoznak.</td>
+</tr>
+<tr>
+<td>Környezeti webforrás</td>
+<td>Beruházói Park West Rise és Westside Grand adatok; Puskás Aréna hivatalos helyszínadat.</td>
+<td>Nem helyettesít szomszéd építészeti metszetet vagy közvetlen látóvonal-ellenőrzést.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>237 letöltött/másolt repófájl bájtszintű azonossága</strong> ellenőrzött a rögzített GitHub-fa megfelelő blobjaival. Ez forrásazonosság, nem 237 tétel minden részletének tartalmi validálása. Az ellenőrzőösszegek a <a href="evidence/source_manifest.json">forrásmanifestben</a> vannak. A forrás-commit időpontját követő egyéb repóváltozások nem részei ennek az auditnak.</p>
+<p>A régi videóelemzés és kinyert képkockák kiegészítő anyagként rendelkezésre állnak; az eredeti videók nem kerültek új, teljes körű feldolgozásra. A torzított panoráma-összefűzés nem méretforrás. Az eredeti repó-kontaktlap helyett a teljes, ellenőrzött profi fájlkészletből készült helyi leltár szolgált a hiánytalanság ellenőrzésére. A P3–P6 vizuális minőségreferenciák nem szolgáltak A902-geometriaként. [V, M]</p>
+<h2>3. Terület, határok és anyagok</h2>
+<p>A tervi saját kültér összesen <strong>150,40 m²</strong>: T09 gres és lépcső 23,62; T10 gres és lépcső 19,34; WPC 25,00; zöldtető 71,18; oldalerkély 11,26 m². A 79,22 m² burkolt terasz/erkély és a 71,18 m² zöldtető összege nem ugyanennyi sík, nettó berendezhető terület. A kontúrok, lépcsők, szegélyek, ajtók, fedlapok és közlekedés helyet foglalnak. A zöldtető egészének használhatóságát U01 rögzíti. [PLAN3, U01]</p>
+<p>T09 a széles nappali üvegfal előtt, T10 a 05.3 szoba előtt fekszik. Közöttük magas WPC-dobogó, a kert felé harántsáv és kiugró nyelv kapcsolódik. Két oldalán gyepes zóna, középen kiemelt vegyes növényágyás látszik. A kert távoli végén további kis WPC-felület szerepel a forrásmodellben. A fő tetőterasz és a 05.1/05.2 előtti L-erkély kapcsolatai külön kezelendők. [PLAN3, PLAN18, P03–P15, P26–P30, G]</p>
+<p>Meglévő anyagok: világosszürke gres, sötét szürkésbarna bordázott WPC, világos betonszegélyek, antracit függőleges pálcás fémkorlát, foltos világos téglahomlokzat és sötétebb nyíláskávák, antracit külső nyílászárók. A szín fotófüggő; gyártó, dekor, csúszásállósági osztály és pontos burkolatméret nem igazolt. A későbbi render ezeket nem cserélheti önkényesen új építészeti anyagra. [P03–P11, T01–T08]</p>
+<p>Meglévő növényzeti leltár: gyep; csomós fűjellegű növények; szélesebb levelű évelők/talajtakarók; vékony szárú rózsaszín és világos virágok; vegyes ágyás; mulcs/kavics; felszíni fekete öntözőcsövek és szerelvényfedlapok. Faj, darabszám, téli tömeg, kutyára gyakorolt hatás és gyökérmélység nincs hitelesítve. A modell 70 zöld és 28 virággömbje nem növényfelmérés. [P05–P13, T05–T08, G]</p>
+<h2>4. Terv–fotó–Blender eltérésjegyzék</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Terv / egyéb forrás</th>
+<th>Fotó</th>
+<th>Blender / adatfájl</th>
+<th>P0-következtetés</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D01</td>
+<td>Gres +28,40; WPC +29,02; 62 cm különbség.</td>
+<td>A harántsáv felett még külön emelkedik a középső platform.</td>
+<td>Minden WPC teteje +0,47.</td>
+<td>A modell több tényleges szintet egy síkra egyszerűsít. A plusz fellépés cm-ben ismeretlen.</td>
+</tr>
+<tr>
+<td>D02</td>
+<td>T09 23,62 m².</td>
+<td>Nem kalibrált.</td>
+<td>Téglalap 22,815 m².</td>
+<td>−0,805 m², kb. −3,41%; eltérő határértelmezés lehetséges, nem „kijavított” tervterület.</td>
+</tr>
+<tr>
+<td>D03</td>
+<td>T10 19,34 m².</td>
+<td>Nem kalibrált.</td>
+<td>Téglalap 19,032 m².</td>
+<td>−0,308 m², kb. −1,59%.</td>
+</tr>
+<tr>
+<td>D04</td>
+<td>WPC 25,00 m².</td>
+<td>Több részfelület és magasság.</td>
+<td>Négy téglalap 26,5453 m².</td>
+<td>+1,5453 m², +6,18%; további kontúrellenőrzés szükséges.</td>
+</tr>
+<tr>
+<td>D05</td>
+<td>Zöldtető 71,18 m².</td>
+<td>Tagolt ágyás, gyep, domb.</td>
+<td>Befoglaló 78,7887 m²; becsült magasság.</td>
+<td>Befoglaló nem nettó zöldtető. Nem vezethető le valódi térfogat vagy földvastagság.</td>
+</tr>
+<tr>
+<td>D06</td>
+<td>Erkély 11,26 m².</td>
+<td>Keskeny, részben belátható.</td>
+<td>L-poligon 11,8841 m²; rejtett régi téglalap is jelen van.</td>
+<td>+0,6241 m², +5,54%; csak aktív L-kontúr használható előzetesen.</td>
+</tr>
+<tr>
+<td>D07</td>
+<td>Két lépcső.</td>
+<td>Három köztes járófelület után további WPC-szintváltás olvasható.</td>
+<td>4 ×15,5 cm modell-emelkedés; régi JSON rövid doboza nem teljes futás.</td>
+<td>Modellméret nem helyszíni lépcsőfelmérés.</td>
+</tr>
+<tr>
+<td>D08</td>
+<td>WPC-nyelv kertkapcsolata.</td>
+<td>A nyelv megközelíthető.</td>
+<td>Folytonos betonszegély a bejáratán keresztül.</td>
+<td>Fiktív elzárást nem szabad tervezési adottságnak tekinteni.</td>
+</tr>
+<tr>
+<td>D09</td>
+<td>Kert körvonala és burkolatjelölés.</td>
+<td>Nem minden külső útvonal követhető végig.</td>
+<td>Távoli pihenő kapcsolata hiányos; külső WPC-sáv nincs teljesen modellezve.</td>
+<td>Folytonos körbejárás nem bizonyított.</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>18. lap északjele ≈52,8°, 3. lap helyszínvázlatáé ≈12,5°.</td>
+<td>Kameraazimut nincs kalibrálva.</td>
+<td>Régi x=K/y=É megnevezések.</td>
+<td>U07 a 18. lap szerinti munkatájorientációt támogatja. +y≈53° ÉK.</td>
+</tr>
+<tr>
+<td>D11</td>
+<td>Jakuzzi áramjel új kinyerésében y≈9,29.</td>
+<td>Nagyobb doboz és kisebb fedeles szerelvény látható.</td>
+<td>Marker y≈9,69; 2×2 m helyőrző.</td>
+<td>Kb. 40 cm pozícióeltérés; pontos kiállást és valódi készülékhelyet nem ad a marker.</td>
+</tr>
+<tr>
+<td>D12</td>
+<td>Zöldtető használata U01 szerint teljes.</td>
+<td>Saját tetőkert látható.</td>
+<td>Régi „nem bútorozható” mező.</td>
+<td>Tulajdonosi közlés elsőbbséget élvez; egyedi terhek/bekötések külön adatként maradnak.</td>
+</tr>
+<tr>
+<td>D13</td>
+<td>Régi brief kb. 6 emeletes szomszéd.</td>
+<td>Építkezési állapot, nyitott horizont.</td>
+<td>Nincs hiteles jövőbeli szomszédtömeg.</td>
+<td>U03 és W1 alapján 9 emeletes teraszos épülettel számolunk; magasság/távolság ismeretlen.</td>
+</tr>
+</tbody>
+</table>
+<p>Részletes koordináták és reprodukálható modell-összevetés: <a href="TER_ES_GEOMETRIA.html">tér- és geometriai adatlap</a>, <a href="geometry.json">geometry.json</a>, <a href="evidence/terrace_lock_comparison.json">43 elem összehasonlítása</a>. A fenti D01 és D08 a jelenlegi modell fotóval kimutatható korlátai; a többi tételnél az eltérő dokumentumstátuszt és definíciót is meg kell őrizni.</p>
+<h2>5. Tájolás, környezet és kilátási/belátási szektorok</h2>
+<p>A <a href="plans/U07_google_maps_terasz_kivagat.png">műholdképkivágaton</a> a piros nyíl a WSG I Szabolcs utcai, északkeleti végéhez közeli tetőteraszra mutat. Az észak-felfelé képen a Szabolcs utca DNy–ÉK tengelyű; a vasúti sáv az épülettől DK felé húzódik. A 3. lap épülettömegének és a 18. lap északjelének összeolvasása alapján a rajzi fő kijárati irány ÉK. A kb. 53°-os érték használható munkairány, nem bemért azimut. Az URL koordinátája térképnézet-közép. [U07, PLAN3, PLAN18]</p>
+<p>Az új, szemközti beruházás valószínű azonosítása <strong>Park West Rise, Szabolcs utca 15</strong>. A beruházó kilencemeletes, penthouse-okat és teraszokat is tartalmazó projektet közöl. A cím és a műholdképi építkezési hely összhangban van a tulajdonosi leírással; a pontos telekhatár, szintmagasság, A902-től mért távolság és takarási kontúr nincs geodéziailag ellenőrizve. A WSG II ettől külön szomszédsági elem; nem szabad automatikusan ugyanennek a szemközti háznak nevezni. [U03, U07, W1, W2]</p>
+<table>
+<thead>
+<tr>
+<th>Szektor</th>
+<th>Jelenlegi / várható kilátás</th>
+<th>Belátás</th>
+<th>Tervezésbe továbbadandó tény</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ny–ÉNy, a kijárattól balra</td>
+<td>Városi tetők és távoli hegyes horizont több fotón; fontos panoráma.</td>
+<td>Közeli tetőteraszok/ablakok részleges belátása lehetséges.</td>
+<td>A panoráma érték; teljes intimitás nem bizonyított.</td>
+</tr>
+<tr>
+<td>É–ÉK</td>
+<td>Tulajdonos szerint maradhat panoráma; a nyitott építkezési állapot változik.</td>
+<td>A szemközti új felső teraszok kötelezően figyelembe veendők.</td>
+<td>Csak az új ház saját látószögében várható takarás; a széleken megmaradó rések mérete ismeretlen.</td>
+</tr>
+<tr>
+<td>K–DK, részben jobbra</td>
+<td>Közeli épületek; DK felé távoli kilátás lehetséges.</td>
+<td>Tulajdonos által jelzett saját és új épületi ablakok/teraszok.</td>
+<td>Egyszerre belátási és lehetséges panorámaszektor; teljes lezárás nem következik az auditból.</td>
+</tr>
+<tr>
+<td>DK, Puskás Aréna lehetősége</td>
+<td>A tulajdonos felvetése; a fotókon nem biztosan azonosított.</td>
+<td>A közelebbi lakóteraszok ettől függetlenek.</td>
+<td>Az Aréna láthatóságát későbbi helyszíni irányfotó igazolhatja; nem garantált panorámapont.</td>
+</tr>
+<tr>
+<td>D–DNy, lakás felé</td>
+<td>Saját épülettömeg, homlokzat és visszaforduló oldalerkély-kapcsolat.</td>
+<td>Saját épületszárnyakból irányfüggő lehetőség.</td>
+<td>Nem szabad 360° akadálymentes körpanorámát feltételezni.</td>
+</tr>
+</tbody>
+</table>
+<p>A Puskás Aréna hivatalos címe Istvánmezei út 3–5.; ez az objektum azonosítását segíti, <strong>nem igazolja</strong>, hogy az A902-ről látható. A fotó kivágása, látószöge és megjelenítési mérete megnehezítheti a távoli részletek észlelését; ebből nem következik, hogy a stadion biztosan ott van a képen. [W3, U06]</p>
+<p>Az <a href="NORTH_NEIGHBOURS_VIEW_PRIVACY_SUN.svg">iránytérkép</a> az égtájakat helyesen rendeli a rajzi tengelyekhez. A kilátási szektorok szemléltető irányok, <strong>nem kimért láthatósági sokszögek</strong>. A szomszédok nincsenek ismeretlen távolságon méretarányos tömegként elhelyezve. Ülő, álló, fekvő és jakuzziban ülő szemmagasságokra nem készült sugárkövetés; a védendő helyek magassága és a szomszéd teraszok pontos helye még nincs meg.</p>
+<h2>6. Napfény és mikroklíma</h2>
+<p>A profi képeken a gres, WPC, falak és növények napos és árnyékos felületei is látszanak. Ez egy felvételi állapotot dokumentál. A mappa dátuma és a nyers EXIF nem helyettesít hiteles, időzónával egyeztetett felvételi időt. Ezért P0-ban nincs zónánkénti „napi 6–8 óra napsütés” vagy garantált nyári/téli árnyékállítás. [P03–P13]</p>
+<p>A tájolás korrigálása után az ÉK-i új épület hatását elsősorban az adott napállás és a felső tömeg tényleges magassága dönti el. A hasonló teraszszint önmagában nem bizonyít árnyékmentességet: tetőfelépítmény és visszalépő felső szint is számít. Ugyanakkor nincs bizonyíték arra sem, hogy ez jelentős teraszárnyékot okoz. <strong>Péter várakozását – nem lesz számottevő új árnyék – megtartjuk feltételezésként.</strong> Az audit nem indokol kötelező új árnyékolót vagy napfényvesztési százalékot. [U05, U07]</p>
+<p>Szélcsatorna-hatás, tetőkerti szélerősség, öntözési vízigény, nyári felülethőmérséklet és téli növénymegmaradás nincs helyszíni adatsorral igazolva. Új árnyékoló, növényedény, hangszóró vagy világítás kiválasztása P0-ban nem történt. Későbbi szerkezetnél a szélrögzítés konkrét műszaki feltétel, nem indok a teljes kültér használatának megkérdőjelezésére.</p>
+<h2>7. Víz, áram, jakuzzi, zuhany és kutyarámpa</h2>
+<p><strong>Víz:</strong> T09-en meglévő kültéri csap látszik; a terv fagymentes csapot jelöl. A fagymentes jelölés nem igazol minden csatlakoztatott berendezés téli használhatóságát. Vízhozam, nyomás, elzáró helye és melegvíz nincs ellenőrizve. Az öntözőcsövek és fedlapok ténylegesen láthatók. A műszaki kivonat szelepaknát/vízórát és vezérlőcsatlakozást említ; a hivatkozott 027/028 képek e célzott csomagban nem önállóan vizsgált bizonyítékok. [PLAN18, P07, T01, T05–T08, MŰ]</p>
+<p><strong>Áram:</strong> D47 és D48 a két teraszdugalj tervi jelölése. Két szerelvény nem jelent két külön áramkört. A nagyobb doboz fotós megjelenése önmagában nem bizonyítja a jakuzzihoz megfelelő fázisszámot, teljesítményt vagy üzemkész bekötést. Biztosító, vezeték, védelmi eszközök, kapcsolás és egyidejű terhelhetőség nincs auditálva. A tervi FL05/06/07 lámpapont nem jelent már meglévő Hue-rendszert. [EL, P07, T01]</p>
+<p><strong>Jakuzzi:</strong> a helye kötött a T09 előkészítési zónájában; az áthelyezés nem megengedett elrendezési változó. A modell 2×2 m-es doboza illusztratív marker, a tervi szaggatott befoglaló mélysége nem teljesen olvasható. Készülék nincs a vizsgált fotókon telepítve. Készülékméret, szervizoldal, fedélnyitás, belépés, szállítási mód, telített terhelés, feltöltés/ürítés módja hiányzik. A rögzített hely elfogadása mellett ezeket konkrét termékhez kell egyeztetni. [U01, PLAN18, G, EL]</p>
+<p><strong>Kültéri zuhany:</strong> funkcionális igény; meglévő kültéri zuhany és hozzá tartozó szennyvízkiállás nem bizonyított. A csap vagy öntözőkör nem automatikusan alkalmas zuhanyellátás. Hideg/meleg víz, használati mód, fagymentesítés és vízelvezetés külön kérdés. A tető esővíz-elvezetését nem lehet bizonyíték nélkül zuhany-szennyvízcsatlakozásként átadni. A beltéri fürdőfotók ehhez nem igazolások. [B, P16, P25, T01]</p>
+<p><strong>Kutyarámpa:</strong> a teljes beltér→ajtó-fellépő→gres→lépcső→haránt WPC→magasabb közép→gyep útvonalat kell majd megoldani. Nem elég a tervi 62 cm-rel számolni. A brief 1:12-es szemléltető aránya 62 cm emelkedésnél 7,44 m vízszintes hosszt jelent; ez nem kiválasztott nyomvonal, nem kutyaszabvány és nem tartalmazza a fordulókat vagy a további fellépéseket. Kutyaméret és egyedi mozgásképesség, valós szintkülönbségek és szabad sávok nélkül végleges rámpa nem méretezhető. [B, PLAN18, P17–P20, T02]</p>
+<h2>8. Nyitott adatok, amelyekre nem szabad választ kitalálni</h2>
+<table>
+<thead>
+<tr>
+<th>Prioritás</th>
+<th>Hiányzó adat</th>
+<th>Feloldás módja</th>
+<th>Mire hat?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Első</td>
+<td>Haránt WPC és középső dobogó pontos szintje; minden útvonali fellépés</td>
+<td>Szintező/mérőszalagos helyszíni adat, fotóval megjelölt mérési pontok</td>
+<td>Rámpa, lépcső, közlekedés, helyszínhű modell</td>
+</tr>
+<tr>
+<td>Első</td>
+<td>Jakuzzi készülék és fix zóna valós befoglalója/szerviztere</td>
+<td>Konkrét termékadatlap és a hely kijelölt határainak mérése</td>
+<td>Berendezhetőség és bejutás</td>
+</tr>
+<tr>
+<td>Első</td>
+<td>Dugaljak és jakuzzi kiállás tényleges áramköri adatai</td>
+<td>Megvalósult villamos dokumentáció / szakági ellenőrzés</td>
+<td>Jakuzzi, konyha, hűtő, fűtés egyidejű használata</td>
+</tr>
+<tr>
+<td>Első</td>
+<td>Zuhany betápja és szabályos vízelvezetése</td>
+<td>Gépészeti megvalósulási adat és helyszíni azonosítás</td>
+<td>Zuhany megvalósíthatósága</td>
+</tr>
+<tr>
+<td>Következő</td>
+<td>Új ház felső szintek kontúrja, magassága, teraszai, távolsága</td>
+<td>Szomszéd terv/metszet és térbeli egyeztetés</td>
+<td>Belátási sugarak, tényleges takarás és árnyék</td>
+</tr>
+<tr>
+<td>Következő</td>
+<td>Korlátmagasság, résméret, ajtók szabad szélessége, fedlap-hozzáférés</td>
+<td>Helyszíni mérés</td>
+<td>Kutyás használat és szabad közlekedés</td>
+</tr>
+<tr>
+<td>Következő</td>
+<td>Zöldtető rétegrendje és konkrét új pontterhek feltétele</td>
+<td>Meglévő szakági adat konkrét választott tárgyakhoz</td>
+<td>Nagy edények, szerkezetek és készülékek</td>
+</tr>
+<tr>
+<td>Kiegészítő</td>
+<td>É/ÉK réskilátás és Puskás Aréna azonosítása</td>
+<td>Ismert irányú helyszíni sorozat, távoli részletfotó</td>
+<td>Panorámapontok megőrzése</td>
+</tr>
+<tr>
+<td>Kiegészítő</td>
+<td>Meglévő növényfajok, öntözési körök, szezonális állapot</td>
+<td>Kertészeti ültetési terv / helyszíni leltár</td>
+<td>Kutyás növényválasztás és fenntartás</td>
+</tr>
+</tbody>
+</table>
+<p>Ezek <strong>az audit nyitott eredményei</strong>, nem a teljes saját terület használati tilalmai. A későbbi kreatív ötlet feltételesen kezelheti őket; a végleges méretvalidálás és kivitelezhetőség azonban nem állítható a hiányzó bizonyíték nélkül.</p>
+<h2>9. Egységes átadás és jóváhagyási kapu</h2>
+<p>A két későbbi AI ugyanazt a <a href="P0_TENYCSOMAG.html">P0_TENYCSOMAG.md</a>, <a href="TER_ES_GEOMETRIA.html">geometriai adatlapot</a>, <a href="NORTH_NEIGHBOURS_VIEW_PRIVACY_SUN.svg">iránytérképet</a> és teljes <a href="FOTOKATALOGUS.html">fotókatalógust</a> kapja. A ténycsomag tartalmazza a funkcionális programot, a 4 M Ft bruttó alapkeretet és az 5 M Ft feltételes alternatívát, a tartalék elvét és a meglévő anyagokat. Nincs benne új elrendezési koncepció vagy kreatív rangsor.</p>
+<p>A P0 lezárása nem Render Reality PASS, nem kiviteli terv és nem automatikus P1-indítás. <strong>Péter jóváhagyása szükséges a P1 megkezdéséhez.</strong> Az auditanyag publikálási engedélye ettől külön: kizárólag új, verziózott eredményfájlokra szól, a meglévő projektfájlok és Blender-geometria felülírása nélkül.</p>
+<p><a href="FORRASJEGYZEK.html">Forrásjegyzék és bizonyítéki státuszok</a> · <a href="TULAJDONOSI_PONTOSITASOK.html">Tulajdonosi pontosítások</a> · <a href="index.html">Böngészhető csomag</a></p></main></html>

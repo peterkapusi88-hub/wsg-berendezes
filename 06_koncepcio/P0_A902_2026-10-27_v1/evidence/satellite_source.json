@@ -1,0 +1,19 @@
+{
+  "id": "U07",
+  "source": "user supplied Google Maps screenshot 2026-10-27",
+  "original_sha256": "4196f1528346ba5b2791f55ac12312d7436e40875afc62266840895b9618ebf6",
+  "original_pixels": [
+    2018,
+    1237
+  ],
+  "crop_px": [
+    300,
+    70,
+    2018,
+    1237
+  ],
+  "north_up": "user confirmed",
+  "url": "https://www.google.com/maps/@47.5173263,19.0673078,343m/data=!3m1!1e3",
+  "image_capture_date": null,
+  "note": "Map crop removes unrelated browser UI and personal saved places. Google Maps attribution retained. The URL coordinate is the map view center, not a surveyed terrace coordinate."
+}

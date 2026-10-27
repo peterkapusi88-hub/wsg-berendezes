@@ -1,0 +1,197 @@
+{
+  "version": "P0-v1",
+  "source_commit": "4959bfe143833617d220b1613bd58908ee4ec5b7",
+  "units": "m",
+  "coordinate_frame": "existing model x right, y up in plan; not cardinal axes",
+  "orientation": {
+    "source": [
+      "U07",
+      "PLAN18"
+    ],
+    "local_y_azimuth_deg_approx": 53,
+    "local_x_azimuth_deg_approx": 143,
+    "north_vector_local_xy": [
+      -0.798636,
+      0.601815
+    ],
+    "status": "MAP_AND_PLAN_INFERENCE_NOT_SURVEY",
+    "map_center_lat_lon": [
+      47.5173263,
+      19.0673078
+    ],
+    "terrace_surveyed_lat_lon": null
+  },
+  "surfaces": [
+    {
+      "name": "T09 gres",
+      "plan_area_m2": 23.62,
+      "model_bbox_xy_m": [
+        3.44,
+        8.5,
+        9.29,
+        12.4
+      ],
+      "model_top_z_m": -0.15,
+      "model_bbox_area_m2": 22.815,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "T10 gres",
+      "plan_area_m2": 19.34,
+      "model_bbox_xy_m": [
+        11.39,
+        8.5,
+        16.27,
+        12.4
+      ],
+      "model_top_z_m": -0.15,
+      "model_bbox_area_m2": 19.032,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "WPC közép",
+      "plan_area_m2": null,
+      "model_bbox_xy_m": [
+        9.29,
+        8.5,
+        11.39,
+        12.4
+      ],
+      "model_top_z_m": 0.47,
+      "model_bbox_area_m2": 8.19,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "WPC haránt",
+      "plan_area_m2": null,
+      "model_bbox_xy_m": [
+        3.44,
+        12.4,
+        16.27,
+        13.41
+      ],
+      "model_top_z_m": 0.47,
+      "model_bbox_area_m2": 12.9583,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "WPC nyelv",
+      "plan_area_m2": null,
+      "model_bbox_xy_m": [
+        9.29,
+        13.41,
+        11.39,
+        14.46
+      ],
+      "model_top_z_m": 0.47,
+      "model_bbox_area_m2": 2.205,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "WPC távoli",
+      "plan_area_m2": null,
+      "model_bbox_xy_m": [
+        7.62,
+        18.95,
+        11.42,
+        19.79
+      ],
+      "model_top_z_m": 0.47,
+      "model_bbox_area_m2": 3.192,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    },
+    {
+      "name": "Zöldtető befoglaló",
+      "plan_area_m2": 71.18,
+      "model_bbox_xy_m": [
+        3.71,
+        13.41,
+        16.04,
+        19.8
+      ],
+      "model_top_z_m": 0.77,
+      "model_bbox_area_m2": 78.7887,
+      "actual_top_z_m": null,
+      "status": "MODEL_APPROXIMATION_NOT_SITE_MEASUREMENT"
+    }
+  ],
+  "balcony": {
+    "polygon_xy_m": [
+      [
+        -0.3,
+        -0.2
+      ],
+      [
+        -2.01,
+        -0.2
+      ],
+      [
+        -2.01,
+        5.69
+      ],
+      [
+        -1.12,
+        5.69
+      ],
+      [
+        -1.12,
+        7.9
+      ],
+      [
+        -0.3,
+        7.9
+      ]
+    ],
+    "plan_area_m2": 11.26,
+    "model_polygon_area_m2": 11.8841
+  },
+  "levels": {
+    "plan_gres_absolute_m": 28.4,
+    "plan_wpc_absolute_m": 29.02,
+    "plan_difference_m": 0.62,
+    "photo_extra_wpc_step_present": true,
+    "photo_extra_wpc_step_m": null,
+    "model_wpc_all_top_z_m": 0.47,
+    "plan_internal_door_step_m": 0.15
+  },
+  "jacuzzi": {
+    "relocation_allowed": false,
+    "fixed_zone": "T09",
+    "model_placeholder_bbox_xy_m": [
+      4.1,
+      9.74,
+      6.1,
+      11.74
+    ],
+    "actual_product_dimensions_m": null,
+    "actual_service_clearance_m": null,
+    "status": "OWNER_FIXED_LOCATION_MODEL_PLACEHOLDER_NOT_DEVICE"
+  },
+  "neighbour": {
+    "front_direction": "NE approximately",
+    "probable_project": "Park West Rise, Szabolcs utca 15",
+    "published_storeys": 9,
+    "exact_roof_height_m": null,
+    "distance_m": null,
+    "same_terrace_level": "owner expectation, unverified",
+    "site_assignment": "probable, not surveyed"
+  },
+  "privacy_required_sectors": [
+    "front new terraces",
+    "E",
+    "SE"
+  ],
+  "possible_view_sectors": [
+    "W/NW",
+    "N/NE residual",
+    "SE possible Puskas Arena not identified"
+  ],
+  "solar_hours_by_zone": null,
+  "concept_stage_started": false
+}

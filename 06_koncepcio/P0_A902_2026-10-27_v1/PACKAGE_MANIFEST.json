@@ -1,0 +1,481 @@
+{
+  "version": "P0-v1",
+  "source_commit": "4959bfe143833617d220b1613bd58908ee4ec5b7",
+  "files": [
+    {
+      "path": "FORRASJEGYZEK.html",
+      "bytes": 12750,
+      "sha256": "4ec4f0528d906023bab7193cdfedacc5232772933b019b932fd3002a092e2b1d"
+    },
+    {
+      "path": "FORRASJEGYZEK.md",
+      "bytes": 9343,
+      "sha256": "f3b9c994c48afe6dbeea0243551b9006ca16c6b0f337005e0e50d9bd1ce2b8c7"
+    },
+    {
+      "path": "FOTOKATALOGUS.html",
+      "bytes": 53656,
+      "sha256": "2a97bcc325dbb6ace4b81c7077a07827f2488bc63dc9e35fc6ffc5850eb44e70"
+    },
+    {
+      "path": "FOTOKATALOGUS.md",
+      "bytes": 35957,
+      "sha256": "bb4230eafcdb9011eff0d798e60b9fa46a6a63fcf167ab4d693f4d42dde65988"
+    },
+    {
+      "path": "NORTH_NEIGHBOURS_VIEW_PRIVACY_SUN.svg",
+      "bytes": 8072,
+      "sha256": "a7f24c03b16219af503c2e280df08866ccbd3ec41583cf149d060ac97e51bbef"
+    },
+    {
+      "path": "P0_SOURCE_AND_GEOMETRY_AUDIT.html",
+      "bytes": 24163,
+      "sha256": "e55057abe91e127557d198134f5b8932daf55f34bcec8b87ea97dcfffe4ef0f7"
+    },
+    {
+      "path": "P0_SOURCE_AND_GEOMETRY_AUDIT.md",
+      "bytes": 20038,
+      "sha256": "981536c401ddd284ca39904d5660ea54645ea23ecaef00a05a679d7e831c7713"
+    },
+    {
+      "path": "P0_TENYCSOMAG.html",
+      "bytes": 14521,
+      "sha256": "89c2faea1d4bd0286683f9ecea6f58b3033023a0d343bc3dd37f48b239c57cb4"
+    },
+    {
+      "path": "P0_TENYCSOMAG.md",
+      "bytes": 11356,
+      "sha256": "67c6737651bfda424e8fb147dcca519052bc0838d8d064b6e65725ed7b7958d4"
+    },
+    {
+      "path": "README.html",
+      "bytes": 4106,
+      "sha256": "30bac0c703328885ee3c474ba9f33b3bfdcd9deac960afb0abcc6d32f0aa2c34"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2044,
+      "sha256": "f3358e37cbfdacc12fcd9927ade0924c2c9c17c886c912f16113914d6ed1bcf3"
+    },
+    {
+      "path": "TER_ES_GEOMETRIA.html",
+      "bytes": 8819,
+      "sha256": "a7c443d44aec50d7a4ea6dac56bdac553a06bd530576868da6be671f80372ce7"
+    },
+    {
+      "path": "TER_ES_GEOMETRIA.md",
+      "bytes": 5506,
+      "sha256": "c3b4c50abb0ec88098ac9101a7d5073b172538270cedcfefcc3056034ffaa53c"
+    },
+    {
+      "path": "TULAJDONOSI_PONTOSITASOK.html",
+      "bytes": 5875,
+      "sha256": "140e8f67c2e8cfe3def5502521feba185ef01b610b9885b12a128884f52cb32d"
+    },
+    {
+      "path": "TULAJDONOSI_PONTOSITASOK.md",
+      "bytes": 3730,
+      "sha256": "cf558612d211e4fadc375167f4b5a1e14a69b0727d77bafbc76da7c0a63bf992"
+    },
+    {
+      "path": "evidence/A902_villamos.json",
+      "bytes": 59620,
+      "sha256": "f881dcceb5f8c99df098f11e5ac7e9fd06eee0f1f226e34cc94647445bb04c4c"
+    },
+    {
+      "path": "evidence/browser_qa.json",
+      "bytes": 166,
+      "sha256": "2d2adca8c68b871041648a6f61ff7c9760483cea71ebae975d2dfad64770285b"
+    },
+    {
+      "path": "evidence/detail_garden.jpg",
+      "bytes": 801477,
+      "sha256": "a15136a796279d627fb103289dee4cf8ba7b9f23dd4b7af55a8b0e0543360876"
+    },
+    {
+      "path": "evidence/detail_tap.jpg",
+      "bytes": 256258,
+      "sha256": "31b464bf7a306e8baca5f370bd7ea577f07f0b3b7bd774b5e1b1ef9b98800df5"
+    },
+    {
+      "path": "evidence/detail_wpc_steps.jpg",
+      "bytes": 740243,
+      "sha256": "451d1b1016d7e602882115cc0c795722dcd804811d3398e6449ce7cf022a3f9e"
+    },
+    {
+      "path": "evidence/quality_checks.json",
+      "bytes": 601,
+      "sha256": "b205dcb0919da1f72279b6c42ea25ba095bcb94d41e416f81f796ff9b2b65b8f"
+    },
+    {
+      "path": "evidence/satellite_source.json",
+      "bytes": 606,
+      "sha256": "4d27368015a5f43dfbdd38b1df05fd7463e4f5484790fdceb9f0de6ad16dc18c"
+    },
+    {
+      "path": "evidence/source_manifest.json",
+      "bytes": 125283,
+      "sha256": "e5bb835d3d20b6d0e0279531bd581d31ed18e964c8823d673d95af5bd2c22fbd"
+    },
+    {
+      "path": "evidence/terrace_lock_comparison.json",
+      "bytes": 24372,
+      "sha256": "fe4ec51fd7abc5e33bd0fd1f5fd35760703f0af4dfccbf4ce99a2327fe2017df"
+    },
+    {
+      "path": "geometry.json",
+      "bytes": 4343,
+      "sha256": "f25a222abe158e437d26127be790d77e4dbc76bdd567e25cc8067dfd42f9813b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26812,
+      "sha256": "5d1fc1c0825b9e4c66cfcda0f255f7136102f6e173cbfc3e809ad71b00f2507f"
+    },
+    {
+      "path": "models/WSG_A902_v2_terasz_ELOZETES_20261024.blend",
+      "bytes": 583496,
+      "sha256": "096a6e60c580555f8da5a413e4c8caf5c702bd2e7f135448917ba4481ed2b973"
+    },
+    {
+      "path": "models/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
+      "bytes": 683328,
+      "sha256": "9875cd570b85843387c8f7e9da32cea7735b3fbeb1396b5b6139a8b36e41ed28"
+    },
+    {
+      "path": "models/geometry_lock_A902_v2b.json",
+      "bytes": 32993,
+      "sha256": "7aa85d70a91a13c6974f6e4d9c853c6faad441996660cc06b3f8df1e91c0154b"
+    },
+    {
+      "path": "photo_catalog.json",
+      "bytes": 65924,
+      "sha256": "6643272c6368b7e3fa709dfbb352ff9dd30426f86ae5478b6ccf87e174584bfc"
+    },
+    {
+      "path": "photos/A902_00_20261021_ME-BAL-043_greslap_kulteri_csap_dugalj.jpg",
+      "bytes": 438659,
+      "sha256": "2ba3ee38c8f65ba51ef00431df11dcc49348a143893f55009b26d80cbc9d384a"
+    },
+    {
+      "path": "photos/A902_11_20261021_ME-BAL-002_terasz_K_greslap_dobogo_lepcso.jpg",
+      "bytes": 385744,
+      "sha256": "7cd28894a9520e1fae6c5ab919cc2ba60ba1f57fcb1805fe677685ca14982567"
+    },
+    {
+      "path": "photos/A902_11_20261021_ME-BAL-004_terasz_dobogo_ajto.jpg",
+      "bytes": 393723,
+      "sha256": "4d046314a1461f98590e9393f337e0281dcc22276dbff2b5766f5dada250103f"
+    },
+    {
+      "path": "photos/A902_11_20261021_ME-BAL-102_WPC_lepcso_kozel.jpg",
+      "bytes": 588533,
+      "sha256": "5e61fa40295c901b0a55473c0242ceb2c6b618fa7026eeb408b2bf8020bca3fb"
+    },
+    {
+      "path": "photos/A902_12_20261021_ME-BAL-003_zoldtető_fu_korlat_kilatas.jpg",
+      "bytes": 755490,
+      "sha256": "286d9b9140234b79ec818aaa3787c7cdaa14e06305cce88568da180e3215d817"
+    },
+    {
+      "path": "photos/A902_12_20261021_ME-BAL-005_zoldtető_fu_domb.jpg",
+      "bytes": 868536,
+      "sha256": "8862f2f8f85ac494d23486d0aeb6a48ee17c504425610be0c17fc0897f648f62"
+    },
+    {
+      "path": "photos/A902_12_20261021_ME-BAL-006_zoldtető_domb_agyas_kilatas.jpg",
+      "bytes": 937140,
+      "sha256": "62778a8cda2ad25fed891092026d9ae2b24b5fa59d3ed0bb2790d54179b0513e"
+    },
+    {
+      "path": "photos/A902_12_20261021_ME-BAL-020_zoldtető_agyas_szegely.jpg",
+      "bytes": 966306,
+      "sha256": "9f25d2b0caf9df5bfab4cfe0728be186758ca1a92b142050f3048a4cd56a0240"
+    },
+    {
+      "path": "photos/KZS_3464-768.jpg",
+      "bytes": 228755,
+      "sha256": "5256135ea3c3a0deb2ae70112c18d8358d5e6c88cb9d509fc6612302a01becd6"
+    },
+    {
+      "path": "photos/KZS_3474-758.jpg",
+      "bytes": 268047,
+      "sha256": "3ebb1822c26cd9f3cad7e95faa0a5603fe8916cb34b32310ad1255e326086cc6"
+    },
+    {
+      "path": "photos/KZS_3483-749.jpg",
+      "bytes": 377598,
+      "sha256": "e9e91f11b9ed7f1ce6107626e427ef5354b0a2a2a34869dfadf0f2feb6577a97"
+    },
+    {
+      "path": "photos/KZS_3488-744.jpg",
+      "bytes": 445437,
+      "sha256": "47f0d38fc19772e77abd544b934f59309a6bba9cc4277ab5c49669f1b58187d9"
+    },
+    {
+      "path": "photos/KZS_3498-734.jpg",
+      "bytes": 749011,
+      "sha256": "fae68f2e9ebee5f18635a9a89b15a40bb9d01d5ac852f1c120f28ca6cdccbaa3"
+    },
+    {
+      "path": "photos/KZS_3506-726.jpg",
+      "bytes": 791192,
+      "sha256": "9b24d05e9a909a26950bbadb4aac56bc749396cf42e6e83214e6214f6488047b"
+    },
+    {
+      "path": "photos/KZS_3527-705.jpg",
+      "bytes": 419778,
+      "sha256": "896e2418ebb2958c1be5ad74749b5bddd43866ce50a8aa5e93aba45de82f4488"
+    },
+    {
+      "path": "photos/KZS_3539-693.jpg",
+      "bytes": 456145,
+      "sha256": "82421186ad22107ed7d42288e5c6f01bcb3b607417a63e43d51adb96cee8ae84"
+    },
+    {
+      "path": "photos/KZS_3545-687.jpg",
+      "bytes": 623184,
+      "sha256": "ecda3bf3781c19a7a465ef2c1bc0fe5d86c8f13cc6f5e073dcb578776cb63edb"
+    },
+    {
+      "path": "photos/KZS_3545-687x.jpg",
+      "bytes": 563948,
+      "sha256": "fced67e1728cc2f9d5c50b6779adccb72e9095beaa878f6351dd6f6a10110e0d"
+    },
+    {
+      "path": "photos/KZS_3558-674.jpg",
+      "bytes": 756361,
+      "sha256": "08b52f09cd23281fab55bff6a161c6af7fc21bb51d40ab5af8fd4629146ce78e"
+    },
+    {
+      "path": "photos/KZS_3579-653.jpg",
+      "bytes": 647999,
+      "sha256": "e076e0f3192971f3584d0507b8a057c6cd47c45cc06a076bee41ec7f25148164"
+    },
+    {
+      "path": "photos/KZS_3579-653x.jpg",
+      "bytes": 529145,
+      "sha256": "445e764d5cabf48d9906fc316057d96eda55147f6e515b30a3db82bf492e5469"
+    },
+    {
+      "path": "photos/KZS_3587-645.jpg",
+      "bytes": 468069,
+      "sha256": "621dcd34fdd78f9671a5d08f44ee072881fb274897b862f12587ae3e15974274"
+    },
+    {
+      "path": "photos/KZS_3587-645x.jpg",
+      "bytes": 432589,
+      "sha256": "7aaa6f76d305d50e228b21068dda215e71cb7043fef2428bb32794275c2add12"
+    },
+    {
+      "path": "photos/KZS_3598-634.jpg",
+      "bytes": 343518,
+      "sha256": "26b1c19f9e622babbc4fd6df8fd5b5261cfba22aa18f0138d477eceec9ca24c4"
+    },
+    {
+      "path": "photos/KZS_3599-633.jpg",
+      "bytes": 234145,
+      "sha256": "214fb7ebd3ce99659d9461f63a15e78cb09ca1a0e2c8aeae21d5a445bd7cf7bf"
+    },
+    {
+      "path": "photos/KZS_3615-617.jpg",
+      "bytes": 219101,
+      "sha256": "d82446ebe6ad202a3b1e75f33505a70ea8bb450fdf298044effc2eecba2a31a4"
+    },
+    {
+      "path": "photos/KZS_3623-609.jpg",
+      "bytes": 244992,
+      "sha256": "87ac6ef92cfa9002dd799263fc0549d71d3beabeb61171edaa8f6238a40fee4f"
+    },
+    {
+      "path": "photos/KZS_3659-573.jpg",
+      "bytes": 261136,
+      "sha256": "9127fe4da87ac31465acde65e46282bdafc9e6f08da70df7c50abb3e4782fabb"
+    },
+    {
+      "path": "photos/KZS_3695-537.jpg",
+      "bytes": 225826,
+      "sha256": "375fd8f601f3a66bad088906252ab72c6fe64b7497fed88aabb61de8468c8330"
+    },
+    {
+      "path": "photos/KZS_3701-531.jpg",
+      "bytes": 246042,
+      "sha256": "e77131eed0027b7229085596921f8ac32464efa0e73adb56540933f10e1e9a36"
+    },
+    {
+      "path": "photos/KZS_3708-524.jpg",
+      "bytes": 225762,
+      "sha256": "5f9f438a87dc07572c0badfe8e87ba467fa86dba2a8e5d53cac733f7729790cd"
+    },
+    {
+      "path": "photos/KZS_3726-506.jpg",
+      "bytes": 262058,
+      "sha256": "5e8945a7e03c79753484d3dd95cb01df21f059f7db2633d1e97cc9ab538e600c"
+    },
+    {
+      "path": "photos/KZS_3735-497.jpg",
+      "bytes": 318560,
+      "sha256": "2d1d788e75832859add5042d2a45baa7902fbb3b367048c29417e4fa924a0260"
+    },
+    {
+      "path": "photos/KZS_3741-491.jpg",
+      "bytes": 270723,
+      "sha256": "6fd41d983792e58ac622185435fbdece2611c1997524f86391368267e3a3f116"
+    },
+    {
+      "path": "photos/KZS_3753-479.jpg",
+      "bytes": 248630,
+      "sha256": "b1ff50d232c95ce4817730fc94079ff0ff493607f0de17f208bbb9955cb37aca"
+    },
+    {
+      "path": "photos/KZS_3771-461.jpg",
+      "bytes": 291534,
+      "sha256": "0cc7fadbb87bdb6d67668b886fe32eb90c647bd0552d3168566eae7d3e8b0cdc"
+    },
+    {
+      "path": "photos/KZS_3789-443.jpg",
+      "bytes": 223517,
+      "sha256": "6fb9af300bfe82f047666aa60d543928f33aa25a4bff5b0521eedb42ea979012"
+    },
+    {
+      "path": "photos/KZS_3810-422.jpg",
+      "bytes": 215497,
+      "sha256": "d822c51850afb182b86abc438be32653c5a9c9b20afd634bdec781315ad4e352"
+    },
+    {
+      "path": "photos/KZS_3818-414.jpg",
+      "bytes": 225736,
+      "sha256": "003a9c2fbf758a07c842d560014bfda0ca745ba4cde79021e9171ff871e88f04"
+    },
+    {
+      "path": "photos/KZS_3833-399.jpg",
+      "bytes": 772193,
+      "sha256": "35a3709fec4b16aa91a40210128a2313be239cb530315fd3876da5e34ca5e765"
+    },
+    {
+      "path": "photos/KZS_3845-387.jpg",
+      "bytes": 745747,
+      "sha256": "88ac5ff255b3c9e177dc2663430d83177e2427eaef466d49f061735e048c180c"
+    },
+    {
+      "path": "photos/KZS_3896-336.jpg",
+      "bytes": 432798,
+      "sha256": "f9483e9c28c15cd02c72d8be693ab68bd4e64b2388afe26aa2f0aef54cfebaa7"
+    },
+    {
+      "path": "photos/KZS_3909-323.jpg",
+      "bytes": 361975,
+      "sha256": "627dbbbb65cf9de4315349e1ccf95c2ea3b8fc5abf0865d1049014aa4762c3ad"
+    },
+    {
+      "path": "photos/KZS_3914-318.jpg",
+      "bytes": 408505,
+      "sha256": "75f4b3e9e3dd8a785ca07ddd6bf83ea17996d417c2948f61c6e2eee9024663af"
+    },
+    {
+      "path": "photos/KZS_3935-297.jpg",
+      "bytes": 290130,
+      "sha256": "bc4717ade63918729aa82c9c1c3b9d010d85c656dff299f6c79c87d667eeef7e"
+    },
+    {
+      "path": "photos/KZS_3950-282.jpg",
+      "bytes": 294216,
+      "sha256": "dff6b1171eafef6653fcbf3f7cee5ab81801b7bdfe56e3954e88cad34105f9df"
+    },
+    {
+      "path": "photos/KZS_3956-276.jpg",
+      "bytes": 162687,
+      "sha256": "3e18b466ab34a4df742dd7629de02b6fa8c5c2fba61c0dff0a9402d891144996"
+    },
+    {
+      "path": "photos/KZS_3974-258.jpg",
+      "bytes": 341483,
+      "sha256": "e1323419766cea433a89347d49f094f1ceb8ef3e06a8a11acff7127389f2b3dc"
+    },
+    {
+      "path": "photos/KZS_3981-251.jpg",
+      "bytes": 360117,
+      "sha256": "8bc99fc2c3ae33d020ac315ad01768390396978f944f5653d395102a7f273354"
+    },
+    {
+      "path": "photos/KZS_3991-241.jpg",
+      "bytes": 450411,
+      "sha256": "3b99bf25647bc27b570347dd27aeb470aef95d2dbee1244afdae47baa3cfa29d"
+    },
+    {
+      "path": "photos/KZS_3997-235.jpg",
+      "bytes": 460716,
+      "sha256": "ecbf749bf603f76045fd6971fe24b66289df00afd40654178704fa15f712036c"
+    },
+    {
+      "path": "photos/KZS_4005-227.jpg",
+      "bytes": 904077,
+      "sha256": "af878431277c763252df0381a44def31f488d85fc5f7fcdbcd9940cea5ce746a"
+    },
+    {
+      "path": "photos/KZS_4026-206.jpg",
+      "bytes": 833689,
+      "sha256": "90e2230594ce6219e4d4d17927b5ef0de0b0fb36b7295d2505cd0a420fb8bba4"
+    },
+    {
+      "path": "photos/KZS_4032-200.jpg",
+      "bytes": 891103,
+      "sha256": "7de8dfc0644c1ae2615d747c8e46ebe302a0dd350f158fa997b76fc5c901f173"
+    },
+    {
+      "path": "photos/KZS_4043-189.jpg",
+      "bytes": 706466,
+      "sha256": "9e9c3e47a511cbfa90a09f33379eed7ded5aec415ef66f185f45baf3281a1416"
+    },
+    {
+      "path": "photos/KZS_4085-147.jpg",
+      "bytes": 795084,
+      "sha256": "6edc2f850ce564ce426c847b0291b8bf6216e039cae00c450256efe8f257708b"
+    },
+    {
+      "path": "photos/KZS_4173-059.jpg",
+      "bytes": 812016,
+      "sha256": "bfb55f6e93dbddaa1e6edc7ccbab38b92c5bf322d03fb8ad9aafd55228ad190d"
+    },
+    {
+      "path": "photos/KZS_4190-042.jpg",
+      "bytes": 650200,
+      "sha256": "59d2a3b8722a79a69384464da55b57361a67e6a239e8980402e2d4501adb316f"
+    },
+    {
+      "path": "photos/KZS_4200-032.jpg",
+      "bytes": 694300,
+      "sha256": "02998420f4c8028d50d075af18273a5f25a593384b94539c7417bc8175f1a580"
+    },
+    {
+      "path": "photos/KZS_4226-006.jpg",
+      "bytes": 586577,
+      "sha256": "b3c10acf037870c5f377273b945b259aa1f5c91c4f8a9d3e6a4c1b497f239ac1"
+    },
+    {
+      "path": "plans/A902_9emelet_megvalosulasi_terv_kivagat.png",
+      "bytes": 206909,
+      "sha256": "6369dd65c7a9450df492c3ed0e7eb3a0167975f8f072a862524e911b746594d5"
+    },
+    {
+      "path": "plans/A902_meretezett_alaprajz_1-50_terv.png",
+      "bytes": 778876,
+      "sha256": "f14faa6389aff22df0d3b8a4c48f892c7a0dd84e6aa6b42cd7b5b96ed385076f"
+    },
+    {
+      "path": "plans/U07_google_maps_terasz_kivagat.png",
+      "bytes": 3945742,
+      "sha256": "ef08b4d28aec7116e274eb7029160152e787ddfe4001c3f061c1c6b6040833a9"
+    },
+    {
+      "path": "plans/actual_north_p18.png",
+      "bytes": 25683,
+      "sha256": "d8269588d578d51a4cbce767ad9d4f00a838c92c53130c94f5b2af9fd7f026f1"
+    },
+    {
+      "path": "plans/actual_north_p3.png",
+      "bytes": 14657,
+      "sha256": "de6cb6258479a8f23a14a14834d8a5a5d0248f106f9c9575a5fa44323bcc99b9"
+    }
+  ]
+}
