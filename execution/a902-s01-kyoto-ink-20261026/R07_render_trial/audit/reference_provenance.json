@@ -1,0 +1,80 @@
+{
+  "archive": "WSG_A902_ASTRA_V33_COMPLETE_20261026.zip",
+  "archive_sha256": "5964808be1c9cee4138b387fd6167c93a80909f4cc845b45110906de305494c3",
+  "six_original_prompts": [
+    {
+      "file": "A902_S01_KyotoInk_Cam_02__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_02__V33_C_v1.prompt.md",
+      "sha256": "f441883f0d4e035a5e00dc789536e662c80b95c738a2859712a018bd45805cce"
+    },
+    {
+      "file": "A902_S01_KyotoInk_Cam_03__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_03__V33_C_v1.prompt.md",
+      "sha256": "801cc181c001a2e6202421a046efd4c02984a7ad7de811239a62d68bc94465db"
+    },
+    {
+      "file": "A902_S01_KyotoInk_Cam_04__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_04__V33_C_v1.prompt.md",
+      "sha256": "e47f169a47c262f9921c6629d0efd951d0f026449f3bda452f3a3388c1911f4b"
+    },
+    {
+      "file": "A902_S01_KyotoInk_Cam_10__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_10__V33_C_v1.prompt.md",
+      "sha256": "5f8f48fe52ca813ad1006c1a4ce66fec5adb8cd92abe01017fcf13e60614d84d"
+    },
+    {
+      "file": "A902_S01_KyotoInk_Cam_11c__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_11c__V33_C_v1.prompt.md",
+      "sha256": "4486826ad908d7b42214bfc186321be6130b896728e0739c1fb7f9bada26e51d"
+    },
+    {
+      "file": "A902_S01_KyotoInk_Cam_12__V33_C_v1.prompt.md",
+      "zip_member": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S01_KyotoInk_Cam_12__V33_C_v1.prompt.md",
+      "sha256": "43151d7014bd4d633748efa9c71c9fd79dbea823ac114160447f260c7fa5073e"
+    }
+  ],
+  "downsized_photos": [
+    {
+      "file": "KZS_3488-744.jpg",
+      "original_sha256": "6e14ee5a581b13a2eb372804796ba8c346bea8e8a3913990fdec7593195d1e8c",
+      "original_size": [
+        8222,
+        5490
+      ],
+      "reference_size": [
+        3000,
+        2003
+      ],
+      "operation": "Resolution reduced for prompt transport; no crop, recolour or geometry change; original site file untouched",
+      "reference_sha256": "97fbdb0ae0c38690ac09370d079aa20e851880b9ca833f15b53a60a7c06b9416"
+    },
+    {
+      "file": "KZS_3695-537.jpg",
+      "original_sha256": "fa61a5c6d973ab51b081bddd0f1252a8a750bbe879e5a990b5ff25ffe9bec46a",
+      "original_size": [
+        8222,
+        5490
+      ],
+      "reference_size": [
+        3000,
+        2003
+      ],
+      "operation": "Resolution reduced for prompt transport; no crop, recolour or geometry change; original site file untouched",
+      "reference_sha256": "6068e355bd4a0c9dbaf576c1d608c719b9a326cfa90260f5f326cd17ccc4f2b9"
+    },
+    {
+      "file": "KZS_3726-506.jpg",
+      "original_sha256": "2821a80e60a70fe2d333500f17999e10d3af6b21ff588ab42599a321edff8f5c",
+      "original_size": [
+        8222,
+        5490
+      ],
+      "reference_size": [
+        3000,
+        2003
+      ],
+      "operation": "Resolution reduced for prompt transport; no crop, recolour or geometry change; original site file untouched",
+      "reference_sha256": "aaf8964263d7134551a0f52baa9c857662f0556c83b546534bcc77b36d424de2"
+    }
+  ]
+}

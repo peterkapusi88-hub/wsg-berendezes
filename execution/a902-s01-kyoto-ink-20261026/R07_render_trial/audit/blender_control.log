@@ -1,0 +1,9 @@
+00:00.853  blend            | Read blend: "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R06/blender/A902_Kyoto_Ink_R06.blend"
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r07_control.py:5: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  s.use_nodes=False;s.render.engine='CYCLES';s.cycles.samples=16;s.render.resolution_x=1600;s.render.resolution_y=1000;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG';s.view_settings.view_transform='AgX';s.view_settings.exposure=0
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r07_control.py:8: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world=bpy.data.worlds.new('R07 neutral geometry and material control');s.world.use_nodes=True;s.world.node_tree.nodes.get('Background').inputs[0].default_value=(.7,.7,.7,1);s.world.node_tree.nodes.get('Background').inputs[1].default_value=.7
+00:43.984  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R07_render_trial/controls/V01_R06_native_camera_control.png'
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

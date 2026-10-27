@@ -1,0 +1,11 @@
+FORRÁSKIEGÉSZÍTÉS: a teljes V3.3 archívumból mind a6 S01 kamerához megvan az eredeti prompt:02,03,04,10,11c,12. A02és12 promptnak korábbi commit-ellenőrzése is van; a többi négyet most az archívum fájlhash-ével azonosítottam. Ezek nem igazolják automatikusan a legújabb7álomkép pontos generálási előzményét. Most2átírt összehasonlító prompt készült; a többi4eredeti későbbi nézeti feldolgozáshoz mellékelve.
+
+AKTUÁLIS KAPU: a promptok elkészültek, de a fotorealisztikus próba indítása HOLD. A friss kameraképen látható kültéri proxyk és hiányos üvegezési részletek miatt előbb modellkorrekció kell. Részletek:audit/V01_ELLENORZES.json. Nem generáltam fotorealisztikus képet.
+
+KI-R07 renderpróba-átadás / R06 megvalósításból
+Megtalált eredeti teljes promptok: Cam_02 és Cam_12 V3.3. Korábbi ellenőrzési nyugta szerinti forráscommit:4d2b7e857f034a7080bd62bd249e84a0a8e310e3. A legutóbbi hét álomkép pontos modellje/seedje/generálási promptja nem mindenhol bizonyított. V02VisualRescue szöveg is elérhető; az abban lévő régi hárompaneles W02 és CP3 adatok nem irányadók.
+Megmarad: STYLE DNA, nézet/camera szövege, editorial fotós stílus, Cam_02esti/Cam_12nappali fényhangulat, valós építészeti és fotóreferencia-szabályok. Változik: konkrét R06 termékforma, méret, médiafal,2mezős W02, F243munkalap, grafikai fájlok, valódi kültéri állapot és nyitott feltételek.
+Első lépés: olvasd a műszaki kontroll ellenőrzését; csak megfelelő kontrollból indíts1képes fotorealisztikus próbát. Használd az01csatolmányjegyzéket és a V01angol promptot. A kép után írásban hasonlítsd össze a termékformát, méretet, kamerát, grafikát és anyagot. Eltérés esetén ne folytasd a sorozatot.
+Második lépés: elfogadott próba után a többi nézet eredeti promptját ugyanígy kell aktualizálni és hozzá új kamerakontrollt készíteni. A meglévő R06jegyzék28látvány+21funkcionális nézetet tervez; ezek nem49kész kép és nem mindegyikhez igazolt az eredeti kreatív prompt.
+Álom vs megvalósítás: a képi kamera akkor egyezik pixelpontosan, ha az eredeti kép is valóban megtartotta a kamerát. Amennyiben az álomrender geometriát módosított, a különbséget jelölni kell; nem szabad a valós modell eltorzításával eltüntetni.
+A csomag feltételes. Nincs18Mkeretigazolás, mindenhol felmért méret, gyári3Dazonosság vagy jóváhagyott anyagminta. Nincs automatikus tömeges képgenerálás.

@@ -1,0 +1,17 @@
+{
+  "status": "HOLD_PHOTOREAL_COMPARISON",
+  "prompt_texts": "V01 and V02 complete; matched to verified V3.3 source paragraphs",
+  "control": "V01 actual R06 camera render generated; source unchanged",
+  "observed_gaps": [
+    "Visible terrace procurement placeholders are still cuboids, not selected finished products.",
+    "Glazing/frame detail is insufficient in this control for exact architectural comparison.",
+    "Indoor product forms are photo reconstructions, not exact manufacturer models.",
+    "R06 ink redraw remains a proof, not the exact original master."
+  ],
+  "next_actions": [
+    "Complete visible window-frame/threshold geometry against locked dimensions and site photos.",
+    "Replace visible outdoor proxies with selected priced products or explicitly approved custom designs.",
+    "Render the same Cam_02 again, then perform one photorealistic trial only after silhouette and architecture QA."
+  ],
+  "comparison_limit": "Same source camera and photographic intent do not prove original dream image retained its geometry or model/settings."
+}
