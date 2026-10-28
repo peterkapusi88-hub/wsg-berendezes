@@ -1,5 +1,8 @@
 # WSG A-902 – MASTER WORKFLOW V2: 10 teraszelrendezés × 30 kültéri stílus × prémium képrendszer
 
+> **2026-10-28 – AKTUÁLIS MUNKASTÁTUSZ (elsőbbséget élvező állapotlink):** [A902_TERASZ_AKTUALIS_ALLAPOT_2026-10-28.md](A902_TERASZ_AKTUALIS_ALLAPOT_2026-10-28.md). A P0 kész, a két P1 kreatív kör elkészült, a P1.5-v1 elutasított, P1.6 új kreatív tervvázlatok készültek. A **P3 WORK-W01 teljes 4+2 hatnézetes pilot** elkészült; **grafikai formátumát és külalakját pozitívan értékelte a tulajdonos**, de **használhatósága, fantáziája, tényleges geometriai megfelelése és megvalósíthatósága nem jóváhagyott**. [Részletes P3-átadás](P3_A902_2026-10-28_W01_PILOT/STATUS_ES_ATADAS.md). A pilot becsült teljes költsége **8,811356 M Ft**, a friss **6–6,5 M Ft-os kültéri tervezési cél** felett; a teljes A-902 lakás kerete továbbra is **20 M Ft bruttó, minimum 10% tartalékkal**. A V2 alábbi korábbi 4–5 M Ft-os összegei **történeti kiindulók, nem az aktuális tulajdonosi teraszcél**. A P3 10×6, P4 30×4, P5 és P6 **nem indult**; a közös, validált C01–C10 nincs lezárva. **A P3 eredeti képeket és Blendert tartalmazó ZIP nincs a repóba másolva; csatolmányként kell átadni a folytatáshoz.** Az új állapotsor nem indít automatikus feladatot vagy képgenerálást.
+
+
 **Projektazonosító:** `A902-TERASZ-MASTER-WORKFLOW-V2`  
 **Dátum:** 2026-10-27.  
 **Állapot:** **TERVEZÉSI ÉS FELADATINDÍTÁSI PROTOKOLL**. Az új master dokumentum elkészítése **nem** indítja el a Worköt, Pro Chatet, Claude-ot, Codexet, képgenerálást, HTML-készítést vagy GitHub-PR-t.  
