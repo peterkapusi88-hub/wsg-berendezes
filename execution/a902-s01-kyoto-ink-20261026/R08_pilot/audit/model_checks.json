@@ -1,0 +1,178 @@
+{
+  "source_blend_sha256": "a77e71d86ddaeb38cb5f273c50d8bf67636b3597f2759c86855eb893d150a6c3",
+  "source_unchanged": true,
+  "camera": "Cam_02_Nappali_terasz",
+  "location": [
+    8.300000190734863,
+    4.400000095367432,
+    1.5499999523162842
+  ],
+  "rotation": [
+    1.479099988937378,
+    0.0,
+    0.857699990272522
+  ],
+  "lens": 20.0,
+  "checks": [
+    {
+      "object": "R08_Uvegfal_nappali_terasz_uveg",
+      "max_error_m": 9.155273446026513e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_profil0",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_profil1",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_profil2",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_profil3",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_also",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_nappali_terasz_felso",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_uveg",
+      "max_error_m": 9.155273446026513e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_profil0",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_profil1",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_profil2",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_also",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_3_terasz_felso",
+      "max_error_m": 8.773803710226957e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_uveg",
+      "max_error_m": 2.6702880884243996e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_profil0",
+      "max_error_m": 4.196166996095485e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_profil1",
+      "max_error_m": 2.2506713825976021e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_profil2",
+      "max_error_m": 2.861022947442393e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_also",
+      "max_error_m": 2.6702880884243996e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_felso",
+      "max_error_m": 2.6702880884243996e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_uveg",
+      "max_error_m": 5.7220459037665705e-08,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_profil0",
+      "max_error_m": 6.675720198856538e-08,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_profil1",
+      "max_error_m": 8.583068855649856e-08,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_also",
+      "max_error_m": 5.7220459037665705e-08,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_felso",
+      "max_error_m": 1.7166137711299712e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Uvegfal_05_1_erkely_profil_v2b_5184",
+      "max_error_m": 3.2043457043329227e-07,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    },
+    {
+      "object": "R08_Erkelyajto_05_2_profil_v2b_1029",
+      "max_error_m": 7.247924804776318e-08,
+      "result": "PASS_LOCK_MATCH",
+      "scope": "source plan bounds only; not site survey"
+    }
+  ],
+  "threshold": "presence photo-proven; 100mm height provisional",
+  "lighting": "technical fill, not installed or photometrically validated",
+  "outdoor": "unchanged provisional envelopes; exact products unresolved",
+  "status": "CONDITIONAL_CONTROL_NOT_FINAL_RENDER"
+}
