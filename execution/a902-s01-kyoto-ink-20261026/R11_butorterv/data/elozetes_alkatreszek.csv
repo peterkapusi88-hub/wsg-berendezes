@@ -1,0 +1,27 @@
+﻿ID;Elem;Db;Hossz_mm;Szel_mm;Vast_mm;Anyag;Elzaras;Megjegyzes
+TV01-S;Torony oldalak;2;2330;382;18;M03;elöl1mm;Tető/fenék oldalak közé
+TV01-T;Torony tető/fenék;2;684;382;18;M03;elöl1mm;"Két szélső oldal közé; középosztó hossza végleges kötéstől függ!"
+TV01-C;Torony középosztó;1;2294;374;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV01-P;Torony állítható polc;10;331;320;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV01-F;Torony front;2;2327;357;18;M01+nyomat;körbe1mm;Nyomat és vetemedés gyártóval egyeztetendő
+TV01-H;Torony hátlap;1;2294;684;8;M03;nem;Hátlap rögzítés és csatlakozás szerint pontosítandó
+TV02-S;Alsó oldalak;10;382;382;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-T1;720-as modul fenék;1;684;382;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-T2;690-es modul fenék;4;654;382;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-P1;720-as modul polc;1;682;320;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-P2;690-es modul polc;3;652;320;18;M03;elöl1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-F1;Alsó front720;1;717;397;18;M01;körbe1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-F2;Alsó front690;4;687;397;18;M01;körbe1mm;"Tervezési darabméret; nem gyártási kiadás"
+TV02-H1;Hátlap720;1;684;346;8;M03;nem;Kötési mód szerint pontosítandó
+TV02-H2;Hátlap690;4;654;346;8;M03;nem;AV modul hátlapja bontható, szellőzés méretezendő
+TV02-CAP;Összefüggő felső fedő;1;3600;400;18;M01;látható1mm;"Közös tető Z532..550; a382mm magas oldalakra ül. Nincs külön modultető."
+TV03-P;Dekor hordozópanel;4;2330;687;18;M02;mintázandó;"Tervezési darabméret; nem gyártási kiadás"
+GAP;Köztes sáv hátbetét;1;2330;120;18;M01;körbe1mm;"Tervezési darabméret; nem gyártási kiadás"
+CF-T;CF tető;1;700;450;18;M01;körbe1mm;"Tervezési darabméret; nem gyártási kiadás"
+CF-S;CF hosszoldal;2;700;332;18;M01;látható1mm;"Tervezési darabméret; nem gyártási kiadás"
+CF-E;CF végoldal;2;414;332;18;M01;látható1mm;"Tervezési darabméret; nem gyártási kiadás"
+CF-B;CF fenék;1;664;414;18;M01;nem;"Tervezési darabméret; nem gyártási kiadás"
+ST-T;ST tető;1;300;300;18;M01;körbe1mm;"Tervezési darabméret; nem gyártási kiadás"
+ST-S;ST hosszoldal;2;300;432;18;M01;látható1mm;"Tervezési darabméret; nem gyártási kiadás"
+ST-E;ST végoldal;2;264;432;18;M01;látható1mm;"Tervezési darabméret; nem gyártási kiadás"
+ST-B;ST fenék;1;264;264;18;M01;nem;"Tervezési darabméret; nem gyártási kiadás"
