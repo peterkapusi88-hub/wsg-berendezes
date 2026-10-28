@@ -1,0 +1,73 @@
+{
+  "source_sha256": "9a9117c5523fc1744563d4aed58ae054f1b97bfda75904b79cdfd2d84da4b751",
+  "source_unchanged": true,
+  "wall_source": [
+    4.05,
+    8.05
+  ],
+  "composition": [
+    4.35,
+    7.95
+  ],
+  "wall_end_clearances_mm": [
+    300,
+    100
+  ],
+  "tower_reveal_screen_mm": [
+    720,
+    120,
+    2760
+  ],
+  "fronts_mm": [
+    720,
+    690,
+    690,
+    690,
+    690
+  ],
+  "recess_infill_mm": 120,
+  "upper_height_mm": 2330,
+  "top_mm": 2880,
+  "curtain_rail_z_mm": 2840,
+  "curtain_status": "wall mounted proposal; verify lintel/service cover/fixing, no ceiling anchors approved",
+  "chair_tests": [
+    {
+      "chair": "KI-029-1",
+      "additional_insertion_mm": 130,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    },
+    {
+      "chair": "KI-029-2",
+      "additional_insertion_mm": 120,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    },
+    {
+      "chair": "KI-029-3",
+      "additional_insertion_mm": 130,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    },
+    {
+      "chair": "KI-029-4",
+      "additional_insertion_mm": 120,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    },
+    {
+      "chair": "KI-029-5",
+      "additional_insertion_mm": 140,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    },
+    {
+      "chair": "KI-029-6",
+      "additional_insertion_mm": 140,
+      "test": "5mm mesh-surface insertion steps against Toni top/supports with10mm setback",
+      "limit": "surface intersection only; initial overlap/containment, humans and tolerances not fully certified"
+    }
+  ],
+  "status": "DIMENSIONED_PROPOSAL_NOT_MANUFACTURING_RELEASE",
+  "curtain_bottom_mm": 15
+}

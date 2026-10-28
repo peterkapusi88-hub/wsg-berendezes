@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import{FileBlob,SpreadsheetFile}from'@oai/artifact-tool';
+const p=new URL('.',import.meta.url).pathname,f=decodeURI(p)+'outputs/A902_Kyoto_Ink_elo_regiszter.xlsx';const w=await SpreadsheetFile.importXlsx(await FileBlob.load(f)),s=w.worksheets.getItem('Elemregiszter');const rows=s.getRange('C1:C179').values;
+const map={'KI-030':'R10_INK_R10_*;R10_TV01*;R10_TV02*','KI-031':'R10_TV03*','KI-032':'R10_TV*','KI-041':'R09_curtain_track*','KI-042':'R09_gathered_sheer*'};
+for(let i=0;i<rows.length;i++){let id=rows[i][0];if(map[id])s.getRange('AP'+(i+1)).values=[[map[id]]];if(id==='KI-042')s.getRange('L'+(i+1)).values=[['Textil felső él2810mm; alsó él15mm; hossz2795mm tervezett, helyszíni felmérésre vár.']];}w.recalculate();await(await SpreadsheetFile.exportXlsx(w)).save(f);console.log('updated references and curtain length');

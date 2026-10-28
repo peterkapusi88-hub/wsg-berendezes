@@ -1,0 +1,102 @@
+[
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/OSSZEHASONLITAS.html",
+    "bytes": 1089,
+    "sha256": "9bf30b0b2ea8bf0410039d216ea940a3f9b12be00d90edbd8eeeebbfdf90158a"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/ELLENORZES.md",
+    "bytes": 3459,
+    "sha256": "75d5917455dd019545ffc27fc631b624ea8c67ee9d473ab8ad78dc409fa991bf"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/images/V01_R10_NATIVE.png",
+    "bytes": 1610648,
+    "sha256": "75d99fe7f422dfaf90163a356079afeecd06984280e976d33fb8cea9cf82163d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/images/V01_R10_RETRY.png",
+    "bytes": 2374128,
+    "sha256": "06777cca8834888fc989b035d0d8a376c977208cc5eeb32fa687edd6c8df3488"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/images/V01_R10_CONDITIONAL.png",
+    "bytes": 2513000,
+    "sha256": "1798bbd894f37fe2337e6dd072ba512346d914126397d1867d32706d8d019295"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/drawings/W01_R10.svg",
+    "bytes": 6646,
+    "sha256": "54cd48e5f4bf0a0d34215d0792fa4ca13a380f0d45c0c6ac3d9fb02180ace0f2"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/drawings/W01_R10.pdf",
+    "bytes": 39438,
+    "sha256": "0480a40af1ff4f7832a2006fd6b2a1534ec5f81df14b80aad263e833e9f3c1b4"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/audit/formula_scan.txt",
+    "bytes": 60,
+    "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/audit/model_checks.json",
+    "bytes": 2422,
+    "sha256": "1c08a61b6cd3dc2affe29bc365239f670fb5e99db3cd8fcefcac63ef74384e0b"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/audit/excel_before.png",
+    "bytes": 62788,
+    "sha256": "7b13191c9a90c28500b34772cc384a8f9646bf6bf501cb789d84fe8637de0738"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/audit/excel_checks.json",
+    "bytes": 28935,
+    "sha256": "f0a581dfb19edd8c5de26a2d667848525695494534ab3b6b606d657323a6a25f"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/audit/excel_after.png",
+    "bytes": 44919,
+    "sha256": "40c835b6b14691040eba9851e8aed222c4967c92d374214f57fe4426fac66145"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/prompts/V01.txt",
+    "bytes": 3149,
+    "sha256": "825e9253625571695a801ea4033f26986df0bbb9b097ab4dee89ce51caa11d8a"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/R10/blender/A902_Kyoto_Ink_R10.blend",
+    "bytes": 1976206,
+    "sha256": "a5202a07cb83f8543821614da701a43c45bf064a640c6c52e2115b33b3c214f0"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/outputs/A902_Kyoto_Ink_elo_regiszter.xlsx",
+    "bytes": 165777,
+    "sha256": "d1a1d3de1ab46bdda2af236c5afab5258cb8ac1f9dea7ef0a989dcf7cb4aa58c"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r10_model.py",
+    "bytes": 6409,
+    "sha256": "324b22b3a170fbcff8f2e23d003d4ce4d644c952fde84b9526ad0d3c2246253d"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r10_drawing.py",
+    "bytes": 6894,
+    "sha256": "b309c6a57dc189f77eebe518a81b28ee816b5b0221e9a185a77a3df9f81bea9f"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/scripts/r10_finish.py",
+    "bytes": 690,
+    "sha256": "d5a46de3941f9dd078aeac96b5b1b2333edd53757da51be05e2619694bdf68af"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/r10_register.mjs",
+    "bytes": 5898,
+    "sha256": "62e993f7b76058f695c68f301f486b7af590649a36ee4fc3085b0559799a11a7"
+  },
+  {
+    "path": "execution/a902-s01-kyoto-ink-20261026/r10_finish_register.mjs",
+    "bytes": 871,
+    "sha256": "9f93c4f55d8c8f3706b4d8433301ebd703d065f2d6504cc918c0fec2d138db99"
+  }
+]
