@@ -1,0 +1,3152 @@
+{
+  "joints": [
+    {
+      "id": "J01",
+      "a": "KI12-TV01S-01",
+      "b": "KI12-TV01T-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J02",
+      "a": "KI12-TV01S-01",
+      "b": "KI12-TV01T-02",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J03",
+      "a": "KI12-TV01S-02",
+      "b": "KI12-TV01T-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J04",
+      "a": "KI12-TV01S-02",
+      "b": "KI12-TV01T-02",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J05",
+      "a": "KI12-TV01T-01",
+      "b": "KI12-TV01C-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J06",
+      "a": "KI12-TV01T-02",
+      "b": "KI12-TV01C-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J07",
+      "a": "KI12-TV02S-01",
+      "b": "KI12-TV02T1-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J08",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J09",
+      "a": "KI12-TV02S-02",
+      "b": "KI12-TV02T1-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J10",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-02",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J11",
+      "a": "KI12-TV02S-03",
+      "b": "KI12-TV02T2-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J12",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-03",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J13",
+      "a": "KI12-TV02S-04",
+      "b": "KI12-TV02T2-01",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J14",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-04",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J15",
+      "a": "KI12-TV02S-05",
+      "b": "KI12-TV02T2-02",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J16",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-05",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J17",
+      "a": "KI12-TV02S-06",
+      "b": "KI12-TV02T2-02",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J18",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-06",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J19",
+      "a": "KI12-TV02S-07",
+      "b": "KI12-TV02T2-03",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J20",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-07",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J21",
+      "a": "KI12-TV02S-08",
+      "b": "KI12-TV02T2-03",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J22",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-08",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J23",
+      "a": "KI12-TV02S-09",
+      "b": "KI12-TV02T2-04",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J24",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-09",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J25",
+      "a": "KI12-TV02S-10",
+      "b": "KI12-TV02T2-04",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    },
+    {
+      "id": "J26",
+      "a": "KI12-TV02CAP-01",
+      "b": "KI12-TV02S-10",
+      "method": "8x30 bükk köldökcsap + ragasztás, szerkezeti jóváhagyásra",
+      "n": 3
+    }
+  ],
+  "holes": [
+    {
+      "joint": "J01",
+      "pair": 1,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        50,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J01",
+      "pair": 1,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        18,
+        50,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J01",
+      "pair": 2,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        191,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J01",
+      "pair": 2,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        18,
+        191,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J01",
+      "pair": 3,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        332,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J01",
+      "pair": 3,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        18,
+        332,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 1,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        50,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 1,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        18,
+        50,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 2,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        191,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 2,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        18,
+        191,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 3,
+      "part": "KI12-TV01S-01",
+      "xyz": [
+        18,
+        332,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J02",
+      "pair": 3,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        18,
+        332,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 1,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        50,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 1,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        702,
+        50,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 2,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        191,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 2,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        702,
+        191,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 3,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        332,
+        559
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J03",
+      "pair": 3,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        702,
+        332,
+        559
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 1,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        50,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 1,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        702,
+        50,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 2,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        191,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 2,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        702,
+        191,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 3,
+      "part": "KI12-TV01S-02",
+      "xyz": [
+        702,
+        332,
+        2871
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J04",
+      "pair": 3,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        702,
+        332,
+        2871
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 1,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        360,
+        50,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 1,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        50,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 2,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        360,
+        191,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 2,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        191,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 3,
+      "part": "KI12-TV01T-01",
+      "xyz": [
+        360,
+        332,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J05",
+      "pair": 3,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        332,
+        568
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 1,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        360,
+        50,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 1,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        50,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 2,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        360,
+        191,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 2,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        191,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 3,
+      "part": "KI12-TV01T-02",
+      "xyz": [
+        360,
+        332,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J06",
+      "pair": 3,
+      "part": "KI12-TV01C-01",
+      "xyz": [
+        360,
+        332,
+        2862
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 1,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        18,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 1,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        18,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 2,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        18,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 2,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        18,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 3,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        18,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J07",
+      "pair": 3,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        18,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        9,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 1,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        9,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        9,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 2,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        9,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        9,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J08",
+      "pair": 3,
+      "part": "KI12-TV02S-01",
+      "xyz": [
+        9,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 1,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        702,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 1,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        702,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 2,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        702,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 2,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        702,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 3,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        702,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J09",
+      "pair": 3,
+      "part": "KI12-TV02T1-01",
+      "xyz": [
+        702,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        711,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 1,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        711,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        711,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 2,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        711,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        711,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J10",
+      "pair": 3,
+      "part": "KI12-TV02S-02",
+      "xyz": [
+        711,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 1,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        858,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 1,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        858,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 2,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        858,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 2,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        858,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 3,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        858,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J11",
+      "pair": 3,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        858,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        849,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 1,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        849,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        849,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 2,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        849,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        849,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J12",
+      "pair": 3,
+      "part": "KI12-TV02S-03",
+      "xyz": [
+        849,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 1,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1512,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 1,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        1512,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 2,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1512,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 2,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        1512,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 3,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1512,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J13",
+      "pair": 3,
+      "part": "KI12-TV02T2-01",
+      "xyz": [
+        1512,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1521,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 1,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1521,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1521,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 2,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1521,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1521,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J14",
+      "pair": 3,
+      "part": "KI12-TV02S-04",
+      "xyz": [
+        1521,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 1,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1548,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 1,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        1548,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 2,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1548,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 2,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        1548,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 3,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1548,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J15",
+      "pair": 3,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        1548,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1539,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 1,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1539,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1539,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 2,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1539,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        1539,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J16",
+      "pair": 3,
+      "part": "KI12-TV02S-05",
+      "xyz": [
+        1539,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 1,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2202,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 1,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        2202,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 2,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2202,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 2,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        2202,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 3,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2202,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J17",
+      "pair": 3,
+      "part": "KI12-TV02T2-02",
+      "xyz": [
+        2202,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2211,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 1,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2211,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2211,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 2,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2211,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2211,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J18",
+      "pair": 3,
+      "part": "KI12-TV02S-06",
+      "xyz": [
+        2211,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 1,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2238,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 1,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2238,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 2,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2238,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 2,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2238,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 3,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2238,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J19",
+      "pair": 3,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2238,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2229,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 1,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2229,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2229,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 2,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2229,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2229,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J20",
+      "pair": 3,
+      "part": "KI12-TV02S-07",
+      "xyz": [
+        2229,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 1,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2892,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 1,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2892,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 2,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2892,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 2,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2892,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 3,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2892,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J21",
+      "pair": 3,
+      "part": "KI12-TV02T2-03",
+      "xyz": [
+        2892,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2901,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 1,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2901,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2901,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 2,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2901,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2901,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J22",
+      "pair": 3,
+      "part": "KI12-TV02S-08",
+      "xyz": [
+        2901,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 1,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2928,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 1,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        2928,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 2,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2928,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 2,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        2928,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 3,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2928,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J23",
+      "pair": 3,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        2928,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2919,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 1,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2919,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2919,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 2,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2919,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        2919,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J24",
+      "pair": 3,
+      "part": "KI12-TV02S-09",
+      "xyz": [
+        2919,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 1,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3582,
+        50,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 1,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        3582,
+        50,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 2,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3582,
+        191,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 2,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        3582,
+        191,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 3,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3582,
+        332,
+        159
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J25",
+      "pair": 3,
+      "part": "KI12-TV02T2-04",
+      "xyz": [
+        3582,
+        332,
+        159
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 1,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        3591,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 1,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3591,
+        50,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 2,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        3591,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 2,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3591,
+        191,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 3,
+      "part": "KI12-TV02CAP-01",
+      "xyz": [
+        3591,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "diameter": 8,
+      "depth": 12,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    },
+    {
+      "joint": "J26",
+      "pair": 3,
+      "part": "KI12-TV02S-10",
+      "xyz": [
+        3591,
+        332,
+        532
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "diameter": 8,
+      "depth": 22,
+      "frame": "ASSEMBLY_XYZ_NOT_MACHINE",
+      "status": "DESIGN_NOT_NC"
+    }
+  ]
+}

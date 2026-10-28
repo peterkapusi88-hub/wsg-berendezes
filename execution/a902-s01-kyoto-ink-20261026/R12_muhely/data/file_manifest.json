@@ -1,0 +1,682 @@
+[
+  {
+    "path": "OLVASD_EL.txt",
+    "bytes": 5451,
+    "sha256": "b3af36bbdb5d7898d50558ec72d66dfa93ba4518aeaab0921f331e33d9ec50e8"
+  },
+  {
+    "path": "TV_modul_alkatreszek_es_cimkek.xlsx",
+    "bytes": 48622,
+    "sha256": "65005dec2f76c74a6bce5fa403d4cc5bc4b5509368120f01aaa9cddaf649ec41"
+  },
+  {
+    "path": "audit/autocad_dwg_readback.log",
+    "bytes": 2719,
+    "sha256": "747557b53fff55dc872d6024e8c80acb0142cb1f14611709fcc2dd3d6a9d550f"
+  },
+  {
+    "path": "audit/autocad_native.log",
+    "bytes": 1648,
+    "sha256": "7c1db6ae9dd3035fd9a1b944ff76b2bc41564a90d7888a5052da88efd9d7d74f"
+  },
+  {
+    "path": "audit/autocad_readback.scr",
+    "bytes": 192,
+    "sha256": "fe68fb53435311fac54852d36796ab3de442c2eb0b3c4f33b47354df9ec733a2"
+  },
+  {
+    "path": "audit/autocad_result.json",
+    "bytes": 531,
+    "sha256": "8a75be2d60c7f4ce90570ae83151e76d086c77e4b33c6d54fb522d79dad97a1c"
+  },
+  {
+    "path": "audit/autocad_save.log",
+    "bytes": 3331,
+    "sha256": "b45b2c002e16a7bb1133252c7eacf0815d8e46924d56454b62dcd3980f3ac478"
+  },
+  {
+    "path": "audit/autocad_save_ascii.log",
+    "bytes": 1743,
+    "sha256": "4eb9d2353c5a0918abb682e55a1ee82c8c1976bd46c3af36d4e84681eb2fba7a"
+  },
+  {
+    "path": "audit/door_sweep_screening.json",
+    "bytes": 1550,
+    "sha256": "eff092a56f89bd08fa34d20dfea3236be4002c8dd3d141dc77e6dc6faeeeccca"
+  },
+  {
+    "path": "audit/engineering_checks.json",
+    "bytes": 660,
+    "sha256": "c19ab9a502ecab4a83a4aa6e828e200a5e6656d7639f84fdd2d71eeb94228fb8"
+  },
+  {
+    "path": "audit/formulas.txt",
+    "bytes": 60,
+    "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+  },
+  {
+    "path": "audit/guide.png",
+    "bytes": 92094,
+    "sha256": "5ace24652af1c3f33e6c02f8fac1af63a7e5b0f6dde0d52c0972cf6b3d743efc"
+  },
+  {
+    "path": "audit/joints.png",
+    "bytes": 66856,
+    "sha256": "590883769a2d2ec42aeef84fa82355b84fd5a0824e3944ca8ece9d9a4315bdb2"
+  },
+  {
+    "path": "audit/labels.png",
+    "bytes": 131927,
+    "sha256": "3ce6ed4eb1507dc7b7732676935acb9964d9ff2a5d245558f6dc2b6b2095efed"
+  },
+  {
+    "path": "audit/ops.png",
+    "bytes": 74714,
+    "sha256": "caf24df8b83e623d063ab5642c845684bb8627d75d3fc16d99666c92467679c7"
+  },
+  {
+    "path": "audit/package_checks.json",
+    "bytes": 367,
+    "sha256": "7c031c1aaf2e5d8dd586fe53bf1cbd632c392c033c634af6756bfef7f87c3281"
+  },
+  {
+    "path": "audit/parts.png",
+    "bytes": 92177,
+    "sha256": "063531302e8487e8aabf6488e96d0b8b8c8a008b6745c42bad2355a59d205d62"
+  },
+  {
+    "path": "audit/room_obstacle_bounds.json",
+    "bytes": 6855,
+    "sha256": "d7eed81ec6073d680569f3e8d3f7ee8dacd7c89bfcc604465a3067f72cbcb167"
+  },
+  {
+    "path": "cimkek/TV_modul_R12_cimkek_A4.pdf",
+    "bytes": 77832,
+    "sha256": "5b8f6173c84ba534d0d41cd8639496355b4dbb2c381446b1081a9f404484d2b3"
+  },
+  {
+    "path": "data/forrasok.json",
+    "bytes": 826,
+    "sha256": "49d38e0cdbd82caba4ecff01c2477d0e1c85e5b0d1e0cc27305373e6813a05c4"
+  },
+  {
+    "path": "data/joints.json",
+    "bytes": 54517,
+    "sha256": "4cf211feaf651b6dc91fb4bb6bb74ae186ffae7acda7c9b19f39d02ffe7954a7"
+  },
+  {
+    "path": "data/kotopontok_furatkozepek.csv",
+    "bytes": 9306,
+    "sha256": "a718c15452feab6d61bbd79b6a07f4a3fa8a585caf6c7210dd6c0bbf3e602fea"
+  },
+  {
+    "path": "data/parts.json",
+    "bytes": 50188,
+    "sha256": "92153b201e55c98f1e7b2597f156d11055ec68a2ec833f43a0be743251df2bda"
+  },
+  {
+    "path": "data/program_index.csv",
+    "bytes": 6947,
+    "sha256": "1b83addee0acdfb1ed6a5ea495ed2cbf0938f5c595efc1c025c0e529aa960441"
+  },
+  {
+    "path": "dxf/KI12-GAP-01.dxf",
+    "bytes": 381,
+    "sha256": "8fea0f8dda1f20606402fe23efebfdbf1f89b6c49980969d49624d95033ca233"
+  },
+  {
+    "path": "dxf/KI12-TV01C-01.dxf",
+    "bytes": 383,
+    "sha256": "8d881462ad7be7e942ded96f869eb390b9a99e5da24892d817ed77323692fe6d"
+  },
+  {
+    "path": "dxf/KI12-TV01F-01.dxf",
+    "bytes": 383,
+    "sha256": "7e82cd5b03cfa5a9df6a729d686ff2328fc9f08ddd8957e1717e8cc7624a391f"
+  },
+  {
+    "path": "dxf/KI12-TV01F-02.dxf",
+    "bytes": 383,
+    "sha256": "6961505d404cfc79be28689bb3d7708aab011146634f8e3fe64c23ece2aeca33"
+  },
+  {
+    "path": "dxf/KI12-TV01H-01.dxf",
+    "bytes": 383,
+    "sha256": "df234fd2508d26a18d7aad63b1877b1e24df6c9fcef8d85278d9befcc8cf85fd"
+  },
+  {
+    "path": "dxf/KI12-TV01P-01.dxf",
+    "bytes": 379,
+    "sha256": "9cb5624f3821a7105b8333204d4179da292d6057cacb2a4e38c4ebc1febf7579"
+  },
+  {
+    "path": "dxf/KI12-TV01P-02.dxf",
+    "bytes": 379,
+    "sha256": "bce78d63983173ddbebcdb4ba6480aa3e8746300f80f430cc038d5a89704bdfd"
+  },
+  {
+    "path": "dxf/KI12-TV01P-03.dxf",
+    "bytes": 379,
+    "sha256": "2617fbb1b118a71643022471e14da172bccf7696e7e18d6ff5819af6e4ad312e"
+  },
+  {
+    "path": "dxf/KI12-TV01P-04.dxf",
+    "bytes": 379,
+    "sha256": "452b95e7a95c4721a1d09cce6c0807d9b426f304c554046b2178288318cf6d10"
+  },
+  {
+    "path": "dxf/KI12-TV01P-05.dxf",
+    "bytes": 379,
+    "sha256": "a777c9b83a171fdb21b46e287eda15869d40a626e64276f85f57abcc6bb82887"
+  },
+  {
+    "path": "dxf/KI12-TV01P-06.dxf",
+    "bytes": 379,
+    "sha256": "f8bca56dbec9b3d17ce032f8a78bbe4579d0a292580d791818f057efb49aa684"
+  },
+  {
+    "path": "dxf/KI12-TV01P-07.dxf",
+    "bytes": 379,
+    "sha256": "8a8dce672e62b58345239d4dc3f3acc1d9580567367ad26605d2bb48667c1b3d"
+  },
+  {
+    "path": "dxf/KI12-TV01P-08.dxf",
+    "bytes": 379,
+    "sha256": "a26db8a9bf2978df97e3905fecba44bb6baf23406994677871136daa26fb0fc6"
+  },
+  {
+    "path": "dxf/KI12-TV01P-09.dxf",
+    "bytes": 379,
+    "sha256": "e0d9b0eb42c0aebb8884f7b50ef0928519c1303246901c833942875c9d055f01"
+  },
+  {
+    "path": "dxf/KI12-TV01P-10.dxf",
+    "bytes": 379,
+    "sha256": "8f8dc76979deed3a48f87b2b5882cf4a4172e220961a51fa6e6edc201ee3520c"
+  },
+  {
+    "path": "dxf/KI12-TV01S-01.dxf",
+    "bytes": 383,
+    "sha256": "e7045f7f4439f22788e4b5e0d6ef9cd135c0885e678b141d5b1a3b088cd0abb4"
+  },
+  {
+    "path": "dxf/KI12-TV01S-02.dxf",
+    "bytes": 383,
+    "sha256": "b64a46c9b92b55e33945e4c039847dd964434865972374848e384843f072928e"
+  },
+  {
+    "path": "dxf/KI12-TV01T-01.dxf",
+    "bytes": 379,
+    "sha256": "79b0fab490fc98b70a2acf0bc1222fc0f710e0ae9341d877a88be8257e13c41a"
+  },
+  {
+    "path": "dxf/KI12-TV01T-02.dxf",
+    "bytes": 379,
+    "sha256": "0a6b713049f9bf704b6a06438f05548bb877a1606724e3fdd42c9b12bddf5998"
+  },
+  {
+    "path": "dxf/KI12-TV02CAP-01.dxf",
+    "bytes": 385,
+    "sha256": "fa628b50f3f8e3f77a28242475ef5168d269bfa16f0f9fdf223ff7055c8d9e8d"
+  },
+  {
+    "path": "dxf/KI12-TV02F1-01.dxf",
+    "bytes": 380,
+    "sha256": "ff71f87362e31479f8fe24e08832fd46057bb490e4be297ca236b47bdd24cb29"
+  },
+  {
+    "path": "dxf/KI12-TV02F2-01.dxf",
+    "bytes": 380,
+    "sha256": "a8db0e9f2be8d61b700b5d51e16cc97e7f4254151c8c2a38248e838c4a7c4a7c"
+  },
+  {
+    "path": "dxf/KI12-TV02F2-02.dxf",
+    "bytes": 380,
+    "sha256": "d820c1932609d132d97770fb0b4fbef7d090dd5aae1e9f6e82e7de4442d0ba1c"
+  },
+  {
+    "path": "dxf/KI12-TV02F2-03.dxf",
+    "bytes": 380,
+    "sha256": "e97be1ebb6569e22582f799b3f37938f295ca2252ff195db3e8b4aedaa3d6348"
+  },
+  {
+    "path": "dxf/KI12-TV02F2-04.dxf",
+    "bytes": 380,
+    "sha256": "03836d05b2b6bd7415bd0460891b404a2abcbffc869eb5369abb0bc96bd210b4"
+  },
+  {
+    "path": "dxf/KI12-TV02H1-01.dxf",
+    "bytes": 380,
+    "sha256": "e166bd34476fd9ce05d68064d0d74e161ed137010ecdbc3bef3d6ae3489b8e42"
+  },
+  {
+    "path": "dxf/KI12-TV02H2-01.dxf",
+    "bytes": 380,
+    "sha256": "6686abdfaa28aae7e60c7dc758e2d60e675960a823fa952a950a2fa99256df7f"
+  },
+  {
+    "path": "dxf/KI12-TV02H2-02.dxf",
+    "bytes": 380,
+    "sha256": "0fa819b7fab030ba004b46cb4aac5309ac05d3bd171748bbf3e0ffb58bd68543"
+  },
+  {
+    "path": "dxf/KI12-TV02H2-03.dxf",
+    "bytes": 380,
+    "sha256": "62d5430df883cb0826ba69fd708385efa7cd808c6f9607488e32388ad218aa57"
+  },
+  {
+    "path": "dxf/KI12-TV02H2-04.dxf",
+    "bytes": 380,
+    "sha256": "6c3255a8daa611361540386e356764da5f0c5929b593515eeda774adb2fda94e"
+  },
+  {
+    "path": "dxf/KI12-TV02P1-01.dxf",
+    "bytes": 380,
+    "sha256": "c9a8ef16ab2f2b1d842b7020c948e685ecd175c9c2c0e7ec960ec4e220053674"
+  },
+  {
+    "path": "dxf/KI12-TV02P2-01.dxf",
+    "bytes": 380,
+    "sha256": "bec3882312935b19decfc96f46c56250de04ca3531bad0db07142ddb5642df7e"
+  },
+  {
+    "path": "dxf/KI12-TV02P2-02.dxf",
+    "bytes": 380,
+    "sha256": "be85932be6ff510d82a1b53a5b889353d71193045767dc9ab76c9b2518ad54b5"
+  },
+  {
+    "path": "dxf/KI12-TV02P2-03.dxf",
+    "bytes": 380,
+    "sha256": "61f12a67549f13cc2d407fdfdba40c5968b143c9e5bcb79c21e07ed46e9a798a"
+  },
+  {
+    "path": "dxf/KI12-TV02S-01.dxf",
+    "bytes": 379,
+    "sha256": "2d940e74b1bcea7b657d8f78733a26a7ca903048de240b336f4c239fd4c82815"
+  },
+  {
+    "path": "dxf/KI12-TV02S-02.dxf",
+    "bytes": 379,
+    "sha256": "550badf6f1bbd9555e58f444213e2b4d7913c942ff66556785fb9cba9dfc1759"
+  },
+  {
+    "path": "dxf/KI12-TV02S-03.dxf",
+    "bytes": 379,
+    "sha256": "9849bb52821a39a31944abf92e1425ac7e41a8e817bd0e82b35eb2249967e9e5"
+  },
+  {
+    "path": "dxf/KI12-TV02S-04.dxf",
+    "bytes": 379,
+    "sha256": "e14cb26bfcef33b5b30c60fa93d1d5ab9f995b6e6b1b140a5915ab35d51739f1"
+  },
+  {
+    "path": "dxf/KI12-TV02S-05.dxf",
+    "bytes": 379,
+    "sha256": "69beda91d7a729a7f046c4398e82a484a3cb83302104c16d5e277d180edcfb1b"
+  },
+  {
+    "path": "dxf/KI12-TV02S-06.dxf",
+    "bytes": 379,
+    "sha256": "36e19f3ceb20b9af0aec4298c4f4fc3655009ee121576ddf635f3aca1070f10a"
+  },
+  {
+    "path": "dxf/KI12-TV02S-07.dxf",
+    "bytes": 379,
+    "sha256": "ad6090d65e63d16d66c87f7cdb74a7099d218662cf887d40462b2ae0611adbce"
+  },
+  {
+    "path": "dxf/KI12-TV02S-08.dxf",
+    "bytes": 379,
+    "sha256": "26f38ddbccd89f9b4f5fe4db853a5fa7fe97fca066c4497883f2e7477199dc5d"
+  },
+  {
+    "path": "dxf/KI12-TV02S-09.dxf",
+    "bytes": 379,
+    "sha256": "55cf0266ee8037d050df08d605ea340b39a59a0deb12858c53e8b4a833361861"
+  },
+  {
+    "path": "dxf/KI12-TV02S-10.dxf",
+    "bytes": 379,
+    "sha256": "46eea857412563da55f9b48ccb9face8bf4f2ff1a1da86189fc271afc902fc4c"
+  },
+  {
+    "path": "dxf/KI12-TV02T1-01.dxf",
+    "bytes": 380,
+    "sha256": "c636d58be574dea18db9150db78ba7905e951647580f789da276f9ae2b46c046"
+  },
+  {
+    "path": "dxf/KI12-TV02T2-01.dxf",
+    "bytes": 380,
+    "sha256": "0a88dc895beeebf4e073709d6a6692265d847df9514c4ff1282f1440cc6ba8a2"
+  },
+  {
+    "path": "dxf/KI12-TV02T2-02.dxf",
+    "bytes": 380,
+    "sha256": "c2aba7f7db815ab8fe38844f2232eadb856a089234667e90b17251370c907fc7"
+  },
+  {
+    "path": "dxf/KI12-TV02T2-03.dxf",
+    "bytes": 380,
+    "sha256": "ab6b2d7e7c528a24ea903c4c53fe9aa4678e9266b73b7d2832f0587574bcffa1"
+  },
+  {
+    "path": "dxf/KI12-TV02T2-04.dxf",
+    "bytes": 380,
+    "sha256": "acec95760d1764b8f850b8178b1347a5e9f688b3cc9881b229da75327f167eb9"
+  },
+  {
+    "path": "dxf/KI12-TV03P-01.dxf",
+    "bytes": 383,
+    "sha256": "fa2de4f17704cf8ba54647083062390478575b12d77bf2d9cb09e43d52d49315"
+  },
+  {
+    "path": "dxf/KI12-TV03P-02.dxf",
+    "bytes": 383,
+    "sha256": "2c9642004aeedaebc269cf4d2fe451315ed7e5a291bd316a61f43f073e17a42d"
+  },
+  {
+    "path": "dxf/KI12-TV03P-03.dxf",
+    "bytes": 383,
+    "sha256": "1eca6c855aeb7a2119ff81d54f781ef3c5a3318b7a33fc535e3201f7daf27943"
+  },
+  {
+    "path": "dxf/KI12-TV03P-04.dxf",
+    "bytes": 383,
+    "sha256": "b0bc59ed56e180f4e30c94e2979fee780921d39e665a333fa3847a0fe30399cc"
+  },
+  {
+    "path": "mpr_alap/KI12-GAP-01.mpr",
+    "bytes": 304,
+    "sha256": "4f9f464d0e3b84de301877e072543e11d3040ef7596ab0f49ed34db7c6c3f4c0"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01C-01.mpr",
+    "bytes": 306,
+    "sha256": "00d10af56be7d3a062de91ee7768d64bf08b2b31db8cf1679974770f7075346c"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01F-01.mpr",
+    "bytes": 306,
+    "sha256": "ec93a6dcae7d7b2e19f6ef64c7bf707ca061ebb58257f35243ced26f4874aef1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01F-02.mpr",
+    "bytes": 306,
+    "sha256": "49afc1576a52936f7505e04c179ca70e588128cf1d36e95a3355b756ebd5a0be"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01H-01.mpr",
+    "bytes": 305,
+    "sha256": "38da97bc3c03bf221a338fc0c1a4a36ab6f677b8d42a4efe0105855629003247"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-01.mpr",
+    "bytes": 305,
+    "sha256": "53a7f869d236ec3ad69e3353ffa69d5acd9e8a854ca6c4e774abb6b2dbb015cf"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-02.mpr",
+    "bytes": 305,
+    "sha256": "4b55c7d12f6a756bdda901b7eaecf5adaca391c532b644d7b0513a066b052f89"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-03.mpr",
+    "bytes": 305,
+    "sha256": "7e09320ab9f910ab3584da6029fb6e8cf91b5e436baa43e5e9099e7ff710fd9f"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-04.mpr",
+    "bytes": 305,
+    "sha256": "6a2669a252ae996bbbe76aec28f5382edf825082a5849474575be893ad525e90"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-05.mpr",
+    "bytes": 305,
+    "sha256": "5dd044a2caaea47d94a4a439d75b90167c27dc1554e0881dac3169d1929be3c8"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-06.mpr",
+    "bytes": 305,
+    "sha256": "db13600374547c6cd55e0400aaa4f8ae6c6ddf218663f4fb1c4357ae53f87727"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-07.mpr",
+    "bytes": 305,
+    "sha256": "04b75b22ba8b5ca055002faf78f54f162207d0e2439267ef187052aa423b08c3"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-08.mpr",
+    "bytes": 305,
+    "sha256": "353343b1081f2dfb9004fbc866f8099db4ad4901d1716d0ca81859073a9cecf9"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-09.mpr",
+    "bytes": 305,
+    "sha256": "db672ba42e7323bf784cba01d99aff0850b7a69acf7c4a15645d2fa633ff2cae"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01P-10.mpr",
+    "bytes": 305,
+    "sha256": "e34d8b8ae0a01bbec98e8fd064a1163999778f540a60f3a94a038134d5b0a9e0"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01S-01.mpr",
+    "bytes": 306,
+    "sha256": "84fdda014779bca4bbce2c6479e32031ae9822a36bac82dbbc523fe6d9f2cdf7"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01S-02.mpr",
+    "bytes": 306,
+    "sha256": "5241a8c2ca78d5dcf94405883801af705d606b34b2d2c428cc142380cddfffc1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01T-01.mpr",
+    "bytes": 305,
+    "sha256": "97d7e322357dff786d8393d9dcda53a7a6feb33c6a6103a545fe4d1debcc0ca2"
+  },
+  {
+    "path": "mpr_alap/KI12-TV01T-02.mpr",
+    "bytes": 305,
+    "sha256": "7b9ca040aad80cdec26a7eac757031c1b6710afb005d138e827c66a009f1904c"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02CAP-01.mpr",
+    "bytes": 308,
+    "sha256": "12ae86fcca544ad87c28ec5a61a3dac9d391dc0b7d66a1b8d88f1097bd075079"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02F1-01.mpr",
+    "bytes": 306,
+    "sha256": "9a64bf7ff52d2df92b0e6bbca3755b5dc236f4445a1a38607d0791828c64d49b"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02F2-01.mpr",
+    "bytes": 306,
+    "sha256": "5951de147b8dad1ee77731c30aaa884918a306a7fd28d3bfd0d8e8455a2cb60b"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02F2-02.mpr",
+    "bytes": 306,
+    "sha256": "7d62dda517c8050b9bb479847ce3db69efecfe6a1ce8f5ccf151cd1f0ecd3cdf"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02F2-03.mpr",
+    "bytes": 306,
+    "sha256": "4bde7d4cd1ef0fce473f1e6edae16fc65a4326207e4cdb785bf466f327ebad52"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02F2-04.mpr",
+    "bytes": 306,
+    "sha256": "fe1d74b7ccc9ec3141157780186c7b308bc493921cc0b4bce0e8875cae475c6f"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02H1-01.mpr",
+    "bytes": 305,
+    "sha256": "023275c4eef5427e605b49511f18a774cb06108ca6333f731062ffafa9d7cea4"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02H2-01.mpr",
+    "bytes": 305,
+    "sha256": "948bfecf921378f9b65b87437c422a094a7bb11559f31ad59eea01e1a0ac1aa9"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02H2-02.mpr",
+    "bytes": 305,
+    "sha256": "dafbb992b76af02e5f50941c0b761d9a63bd940a4704ec77ef33d80c060aefc7"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02H2-03.mpr",
+    "bytes": 305,
+    "sha256": "abf8d2e5d23cc9f2e048773a7926043b9516bb763a3d3024cf0c959226afd578"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02H2-04.mpr",
+    "bytes": 305,
+    "sha256": "af2e4ce341bee0f81af800dace2a16023b4be2b320c55ebf16413b0b1d1eede1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02P1-01.mpr",
+    "bytes": 306,
+    "sha256": "5cb57bfb9afcd470d4b984f438b65e59bac13917ef168f0b2d7edd56b17b3cd7"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02P2-01.mpr",
+    "bytes": 306,
+    "sha256": "1597295cd94a1c704a403cffb25b19f0285762aa3b3b3f65891b4ad7ff9e2e1b"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02P2-02.mpr",
+    "bytes": 306,
+    "sha256": "226bdea1e834b0867d736a1468758d7f096e9afe199a64bc2d1b5861722b332d"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02P2-03.mpr",
+    "bytes": 306,
+    "sha256": "f35accac4a28f3b3574c485aab14763b59c76f4a5db4c2004ae301a0dcacc3eb"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-01.mpr",
+    "bytes": 305,
+    "sha256": "25a49532fff8f29b0dd30cd47cdc583091d066bb998c10f4e948caf453aadcfd"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-02.mpr",
+    "bytes": 305,
+    "sha256": "0402badedfef6b0a1385e5a194561c21bdc5c1a084b1cd9e073316f879fa07ad"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-03.mpr",
+    "bytes": 305,
+    "sha256": "e1c2861a63a931afe3fa09c49a112c4cec14d835f04dbfe9755457166d5e00c2"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-04.mpr",
+    "bytes": 305,
+    "sha256": "483c06afa029f5f34ce9f837186c6e297f71f902cae319969356dc7eaa886708"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-05.mpr",
+    "bytes": 305,
+    "sha256": "8168d5b172ddba92ba395750f8972dc493c9fb7d8e1b8488ac46ceb0655bf2a9"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-06.mpr",
+    "bytes": 305,
+    "sha256": "d45534b7141bc2a464207141d7c71d0b60fa00961832bed8770c82a5a54a3cb6"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-07.mpr",
+    "bytes": 305,
+    "sha256": "89fe2065fe037d874162075be30aafbc6a6dfaedc173fda439fedfe488e33669"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-08.mpr",
+    "bytes": 305,
+    "sha256": "2006f32f770955612e174cb545848003af3fb2f03f246a57527d453f58dd6d4d"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-09.mpr",
+    "bytes": 305,
+    "sha256": "696e128a5e2ae2c93d2df013ba788ed1b2859eba58e08e2baab60dac010a6a70"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02S-10.mpr",
+    "bytes": 305,
+    "sha256": "ca4896fb964fb27a28b2979e2a57acb1d7926683a606e06acf1349149c76db39"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02T1-01.mpr",
+    "bytes": 306,
+    "sha256": "ec88d7ecc376c896b19668d46c0e6982218e63475d0a61e53b51f32618f21299"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02T2-01.mpr",
+    "bytes": 306,
+    "sha256": "fd99e4df9b18d2d8bfa0359a65308eff4008faf2a2ad5027162ede03d998684a"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02T2-02.mpr",
+    "bytes": 306,
+    "sha256": "837596ac369ac42d56569b5c7a2a1e3ae0be717b19f35b9a57632b7ca4febc25"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02T2-03.mpr",
+    "bytes": 306,
+    "sha256": "b334b9d01f9a24f5e18fa06802268c57024137dbfeffcabbe3b3fd49af05116a"
+  },
+  {
+    "path": "mpr_alap/KI12-TV02T2-04.mpr",
+    "bytes": 306,
+    "sha256": "ee5e0cccec1b3835b7d8f08ad31362a26d8c57a7dd73b5256be2feb80b3d018a"
+  },
+  {
+    "path": "mpr_alap/KI12-TV03P-01.mpr",
+    "bytes": 306,
+    "sha256": "7952c46f800a88455ce8a1a75019d6cb4d1680c5db6875584392cd24b3ab1dd1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV03P-02.mpr",
+    "bytes": 306,
+    "sha256": "8108b5b8b5156b5d4c5731236fdc47afc94eab3bc89f92d407125803f4ccaea1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV03P-03.mpr",
+    "bytes": 306,
+    "sha256": "b82c6a2ba91be0a79a5cd9e96fea6a64dba43c8c59cfe07419be9a6e6a9b3db1"
+  },
+  {
+    "path": "mpr_alap/KI12-TV03P-04.mpr",
+    "bytes": 306,
+    "sha256": "0261e7e6dd471174c80dccf242c80559e5c3064f4180dbba365a1829858e76fb"
+  },
+  {
+    "path": "rajzok/TV_modul_R12_alkatreszmodell.dwg",
+    "bytes": 47380,
+    "sha256": "4bb1683a9bbf2436c065a2f67c4b71bc6deeb5e724aff22a2f935e64bff1920e"
+  },
+  {
+    "path": "rajzok/TV_modul_R12_alkatreszmodell.dxf",
+    "bytes": 272977,
+    "sha256": "aaf1ca251b4ce3f1d39fee3ddabe5768416aaa98f18766dcedf48e327a5d3710"
+  },
+  {
+    "path": "rajzok/TV_modul_R12_muhelyrajz.pdf",
+    "bytes": 175275,
+    "sha256": "4081ffa2859de45fbe69ff818b68df33bd6871a8e85cc5f0bfe663565259ac7e"
+  },
+  {
+    "path": "sources/coo1_kiolvasas.json",
+    "bytes": 1517,
+    "sha256": "29cb2ddd485bf16f1f1f0a1e680ed07b647fd9a88ab24649c2d84b6ef3359e87"
+  },
+  {
+    "path": "sources/coo1_preview.png",
+    "bytes": 2084,
+    "sha256": "8869bbdaa6d74fc0131ad52354326ce573f5492faae291d75a3dd40b20db2ce6"
+  },
+  {
+    "path": "sources/km_embedded_preview.png",
+    "bytes": 1242,
+    "sha256": "8468b496a5b6324696c92436807d55ef1864f5b8092c0543c97a3b611b8ef1e0"
+  }
+]

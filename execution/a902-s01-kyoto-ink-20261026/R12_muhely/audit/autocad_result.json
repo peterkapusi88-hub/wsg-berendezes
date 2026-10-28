@@ -1,0 +1,12 @@
+{
+  "engine": "AutoCAD2027 AcCoreConsole X.119.M.246",
+  "input": "own R12 DXF, subsequently saved DWG readback",
+  "native_solid_count": 53,
+  "AUDIT_database_errors": 0,
+  "native_volume_mm3": 361976718.0,
+  "expected_board_volume_mm3": 361976718,
+  "volume_match": true,
+  "dwg_saved": true,
+  "not_certified": "manufacturability,loads,toolpaths,site dimensions,hinge motion",
+  "startup_note": "acad2027.LSP load-cancel message occurred; explicitly invoked AUDIT, MASSPROP and SAVEAS completed. No security settings changed."
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "name": "KI_CF-01",
+    "properties": {
+      "revision": "KI-V33-R02",
+      "element_id": "KI-037",
+      "geometry_status": "dimensioned proposal; manufacturer mesh / field survey pending",
+      "structure_id": "CF-01",
+      "cost_ids": "KI-037",
+      "design_revision": "KI-R05",
+      "material_ids": "MAT-02",
+      "material_id": "MAT-02"
+    },
+    "min": [
+      4.25,
+      6.400000095367432,
+      0.0
+    ],
+    "max": [
+      4.949999809265137,
+      6.849999904632568,
+      0.3499999940395355
+    ]
+  },
+  {
+    "name": "KI_ST-01",
+    "properties": {
+      "revision": "KI-V33-R02",
+      "element_id": "KI-038",
+      "geometry_status": "dimensioned proposal; manufacturer mesh / field survey pending",
+      "structure_id": "ST-01",
+      "cost_ids": "KI-038",
+      "design_revision": "KI-R05",
+      "material_ids": "MAT-02",
+      "material_id": "MAT-02"
+    },
+    "min": [
+      6.0,
+      4.420000076293945,
+      0.0
+    ],
+    "max": [
+      6.300000190734863,
+      4.71999979019165,
+      0.44999998807907104
+    ]
+  },
+  {
+    "name": "R06_Lennon_module0_base",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      4.869999885559082,
+      4.7699995040893555,
+      0.040000006556510925
+    ],
+    "max": [
+      6.670000076293945,
+      5.960000038146973,
+      0.30000001192092896
+    ]
+  },
+  {
+    "name": "R06_Lennon_module0_back",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      6.350000381469727,
+      4.7699995040893555,
+      0.30000001192092896
+    ],
+    "max": [
+      6.670000076293945,
+      5.960000038146973,
+      0.6800000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module0_arm",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      4.869999885559082,
+      4.769999980926514,
+      0.30000001192092896
+    ],
+    "max": [
+      6.350000381469727,
+      5.089999675750732,
+      0.6800000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module0_seat",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      4.875,
+      5.090000152587891,
+      0.29500001668930054
+    ],
+    "max": [
+      6.350000381469727,
+      5.960000038146973,
+      0.4300000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module0_backcushion",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      6.179999828338623,
+      5.115000247955322,
+      0.4300000071525574
+    ],
+    "max": [
+      6.349999904632568,
+      5.934999942779541,
+      0.6700000166893005
+    ]
+  },
+  {
+    "name": "R06_Lennon_module1_base",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      5.479999542236328,
+      5.960000038146973,
+      0.040000006556510925
+    ],
+    "max": [
+      6.670000076293945,
+      7.149999618530273,
+      0.30000001192092896
+    ]
+  },
+  {
+    "name": "R06_Lennon_module1_back",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      6.350000381469727,
+      5.960000038146973,
+      0.30000001192092896
+    ],
+    "max": [
+      6.670000076293945,
+      7.149999618530273,
+      0.6800000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module1_arm",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      5.480000019073486,
+      6.829999923706055,
+      0.30000001192092896
+    ],
+    "max": [
+      6.349999904632568,
+      7.149999618530273,
+      0.6800000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module1_seat",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      5.485000133514404,
+      5.960000038146973,
+      0.29500001668930054
+    ],
+    "max": [
+      6.349999904632568,
+      6.829999923706055,
+      0.4300000071525574
+    ]
+  },
+  {
+    "name": "R06_Lennon_module1_backcushion",
+    "properties": {
+      "element_id": "KI-036",
+      "sku": "DEQ21WES12329-168260",
+      "revision": "KI-R06",
+      "asset_status": "PHOTO_DIMENSION_RECONSTRUCTION_NOT_MANUFACTURER_MESH"
+    },
+    "min": [
+      6.179999828338623,
+      5.985000133514404,
+      0.4300000071525574
+    ],
+    "max": [
+      6.349999904632568,
+      6.804999828338623,
+      0.6700000166893005
+    ]
+  },
+  {
+    "name": "R09_cushion_0",
+    "properties": {
+      "element_id": "KI-036",
+      "revision": "KI-R09",
+      "status": "DESIGN_RECONSTRUCTION_SAMPLE_AND_SITE_PENDING"
+    },
+    "min": [
+      6.0087690353393555,
+      5.134999752044678,
+      0.41545915603637695
+    ],
+    "max": [
+      6.231230735778809,
+      5.565000057220459,
+      0.8645408153533936
+    ]
+  },
+  {
+    "name": "R09_cushion_1",
+    "properties": {
+      "element_id": "KI-036",
+      "revision": "KI-R09",
+      "status": "DESIGN_RECONSTRUCTION_SAMPLE_AND_SITE_PENDING"
+    },
+    "min": [
+      6.0087690353393555,
+      5.664999961853027,
+      0.41545915603637695
+    ],
+    "max": [
+      6.231230735778809,
+      6.095000267028809,
+      0.8645408153533936
+    ]
+  },
+  {
+    "name": "R09_cushion_2",
+    "properties": {
+      "element_id": "KI-036",
+      "revision": "KI-R09",
+      "status": "DESIGN_RECONSTRUCTION_SAMPLE_AND_SITE_PENDING"
+    },
+    "min": [
+      6.0087690353393555,
+      6.264999866485596,
+      0.41545915603637695
+    ],
+    "max": [
+      6.231230735778809,
+      6.695000171661377,
+      0.8645408153533936
+    ]
+  },
+  {
+    "name": "R09_grey_throw",
+    "properties": {
+      "element_id": "KI-036"
+    },
+    "min": [
+      4.840000152587891,
+      5.199999809265137,
+      0.13922904431819916
+    ],
+    "max": [
+      5.840000152587891,
+      5.800000190734863,
+      0.46599993109703064
+    ]
+  }
+]

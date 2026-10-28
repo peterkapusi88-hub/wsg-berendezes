@@ -1,0 +1,49 @@
+KYOTO INK TV-MODUL / R12 / 2026.10.28.
+MŰHELYI EGYEZTETŐ CHECKPOINT, NEM GYÁRTÁSI KIADÁS
+
+ELSŐKÉNT EZT NYISD MEG
+rajzok/TV_modul_R12_alkatreszmodell.dwg - AutoCAD 2027-tel mentett, alkatrészenként külön 3DSOLID test.
+rajzok/TV_modul_R12_alkatreszmodell.dxf - szerkeszthető R2010 ACIS változat, mm.
+rajzok/TV_modul_R12_muhelyrajz.pdf - 58 lap: áttekintés, 53 egyedi darab, csapos kötés, kötésjegyzék, vasalatirány, ellenőrzési státusz.
+TV_modul_alkatreszek_es_cimkek.xlsx - alkatrészek, műveletek, címkék, útmutató, 156 furatközép.
+cimkek/TV_modul_R12_cimkek_A4.pdf - 53 címke, 6 A4 lap; 95×50mm próbaelrendezés, 100%-os nyomtatás. Címkepapíron kalibrálandó.
+
+MI VÁLTOZOTT R11 ÓTA?
+1. 53 lap egyedi darabazonosítót kapott. Azonos ID van a modell XDATA mezőjében, az Excelben, a címkén, az MPR és a DXF fájlnevében.
+2. Az alsó belmagasság 382-18=364mm; az R11-ben közölt346mm hibás volt. Öt hátlap névleges mérete javítva.
+3. A közös tető 3600×382×18mm. Az R11 400mm mély tetője beleért a frontokba. A 18mm fronttal együtt a kész mélység továbbra is400mm; a látható frontosztást nem cseréltük le.
+4. 26 csapos kötés tervezési javaslata: kötésenként3db Ø8×30 bükk csap;12/22mm páros furatmélység. A156 furattengely közös összeállítási XYZ-ben dokumentált. Nem CNC-koordináták.
+5. Toronypánt/nyomásra nyitás konkrét javaslata a PDF D03 lapján, gyártói forrásokkal. A végleges fúráskép és a TIP-ON működési hézaga még nincs kiadva.
+
+MI FUTOTT LE TÉNYLEGESEN?
+- 53 ACIS test kiírása és visszaolvasása; alkatrészenkénti befoglalók összevetése az adatforrással.
+- 53 névleges laptest páronkénti térbeli vizsgálata:0 pozitív áthatolás.
+- A156 csapfurat tengelyvégpontja a hozzá tartozó lap belsejében marad. Ez nem teljes palást-/terhelési vizsgálat.
+- Natív AutoCAD 2027 AUDIT:0 adatbázishiba. MASSPROP és53 test számlálás. Új DWG mentése és visszaolvasása, külön naplóval.
+- R10 Blenderből a meglévő kanapé/asztalok befoglalóinak kiolvasása, forrásfájl módosítása nélkül.
+- Közelítő ajtónyitási szűrés,1° lépésközzel0-110°:3. és4. alsó modulnál a KI_CF-01 dohányzóasztal lehetséges akadály mindkét pántoldalnál. Első találat12-40°. Nem a gyári pánt valós kinematikája; nem funkcionális PASS.
+- Excel képletek, darabazonosítók, MPR befoglalók és címke-oldaltörések ellenőrzése; PDF megnyitás/renderellenőrzés.
+
+FONTOS MPR-KORLÁT
+mpr_alap/:53 tényleges .mpr fájl, kizárólag munkadarab-befoglalóval és megjegyzéssel. Nincs szerszámmozgás, furat vagy marás. woodWOP5.0-ban még nem nyitottuk meg. Nem tekinthető CNC-re kiadott programnak.
+Az MPR L/B mérete kész tervezési befoglaló; nem automatikusan az élzárás előtti nyers lapméret.
+A C műhelykód pontos anyag/vastagság megfeleltetése nem ismert. A tervezett1mm élzárás ettől külön adat.
+A vonalkód csak a darabazonosítót kódolja. Nem történt Livewood/woodWOP adatbázis-import vagy automatikus programválasztó integráció.
+
+MIT KELL MÉG MEGTERVEZNI ÉS ELLENŐRIZNI?
+- A két problémás alsó rekesz nyitási módja vagy a dohányzóasztal helye: döntés nélkül a frontfúrások nem véglegesíthetők.
+- Falfüggesztés, fali teherátadás, torony önálló rögzítése; alsó visszahúzott betét; szerelőlécek; LED-profil és kábelkivágás; szellőzés; hátlap-szerelési hézag.
+- A53 lapmodellben a furatok nincsenek térfogatként kivonva; a156 pont külön csapos szerkezeti javaslat. Pánt/polctartó/függesztő furatai még hiányoznak.
+- A400mm külső mélység és a nyomásra nyitás működési hézaga összehangolandó. A magas front tömege és pántdarabszáma igazolandó.
+- Helyszíni fal, padló, kiállások, nyílások és szerelési tűrések;3600mm tető lapkészlet, gépút, felhordás; anyag/nyomat minta.
+- A műhely tényleges szerszámazonosítói, átmérők, használható hossz, forgásirány, befogók, ütközők és gépi koordináta-transzformáció. Ezután woodWOP programozás/szimuláció, ellenőrzött próbadarab és összeállítás.
+
+AUTO CAD KAPCSOLAT
+Külön elérhető AutoCAD connector nem volt a bővítménykeresésben. A helyben telepített AutoCAD2027 AcCoreConsole motorját sikerült használni. A modell AUDIT/MASSPROP ellenőrzése és DWG mentése ezen futott. Nem állítjuk, hogy a GUI-t távolról vezéreltük vagy hogy a0 adatbázishiba hibátlan bútort jelent.
+
+A MINTA ÉRTELMEZÉSE
+coo1.dwg:481 modelltéri3DSOLID entitás, alkatrésznév/élkód jellegű rétegek. A GNU LibreDWG konverter az entitásokat/rétegeket kiolvasta, de az ACIS testadatot nem adta át használhatóan. Ez a minta formai/szervezési referencia; méreteit nem másoltuk a Kyoto Ink bútorba. A saját R12 testek natív AutoCAD-ellenőrzése külön bizonyíték.
+
+HASZNÁLAT A MŰHELLYEL
+Először a DWG és a PDF D01-D04 lapjai alapján beszéljétek át a szerkezetet. Ne indítsatok gyártást ezekből az MPR-alapokból. A tulajdonosi külső/funkcióválasztást, a felmérési adatokat és a műhely gyártási ellenőrzését külön dokumentáljátok; a csomag nem kér feltétel nélküli tulajdonosi „minden helyes” nyilatkozatot.
+Az élő projekt-költségregiszterhez nem adtunk hozzá új igazolt árat. Ez a checkpoint nem bizonyítja a18milliós költségkeret teljesülését.

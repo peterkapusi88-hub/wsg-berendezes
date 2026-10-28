@@ -1,0 +1,77 @@
+{
+  "method": "1 degree sampled rigid rectangle vs Blender extracted AABBs,0..110deg; fixed approximate hinge axis; not actual Blum hinge motion",
+  "source": "R10 scene read only; only sofa, coffee and side-table candidates",
+  "results": [
+    {
+      "module": 1,
+      "hinge_side": "left",
+      "potential_contacts": []
+    },
+    {
+      "module": 1,
+      "hinge_side": "right",
+      "potential_contacts": []
+    },
+    {
+      "module": 2,
+      "hinge_side": "left",
+      "potential_contacts": []
+    },
+    {
+      "module": 2,
+      "hinge_side": "right",
+      "potential_contacts": []
+    },
+    {
+      "module": 3,
+      "hinge_side": "left",
+      "potential_contacts": [
+        {
+          "object": "KI_CF-01",
+          "first_deg": 12
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "hinge_side": "right",
+      "potential_contacts": [
+        {
+          "object": "KI_CF-01",
+          "first_deg": 40
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "hinge_side": "left",
+      "potential_contacts": [
+        {
+          "object": "KI_CF-01",
+          "first_deg": 27
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "hinge_side": "right",
+      "potential_contacts": [
+        {
+          "object": "KI_CF-01",
+          "first_deg": 12
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "hinge_side": "left",
+      "potential_contacts": []
+    },
+    {
+      "module": 5,
+      "hinge_side": "right",
+      "potential_contacts": []
+    }
+  ],
+  "status": "SCREENING_NOT_FUNCTIONAL_APPROVAL"
+}

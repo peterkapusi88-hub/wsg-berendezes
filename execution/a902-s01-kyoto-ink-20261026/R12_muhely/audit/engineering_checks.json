@@ -1,0 +1,20 @@
+{
+  "revision": "R12",
+  "parts": 53,
+  "solid_readback": 53,
+  "dxf_audit_errors": 0,
+  "nominal_board_overlaps": [],
+  "paired_dowel_joints": 26,
+  "design_holes": 156,
+  "hole_axis_outside_blank": [],
+  "correction": "lower clear height 382-18=364 not346; 5 backs updated",
+  "NOT_TESTED": [
+    "loads/fasteners",
+    "actual site geometry",
+    "whole apartment opening clearance",
+    "woodWOP parsing/machine simulation",
+    "toolholder/clamp collisions",
+    "Livewood import/database integration"
+  ],
+  "limitations": "Solid blank assembly with separate joint-centre schedule; holes are NOT subtracted from solids. No machining operations in MPR."
+}
