@@ -1,3 +1,11 @@
+# Legutóbbi részfeladat: R13 TV-modul / 2026-10-28
+
+Aktuális műhelyi forrás: `R13_muhely/OLVASD_EL.txt`, `data/parts.json`, `data/holes.json`, `data/programs.json`. A három R13 DWG tartalmazza a293 valódi furatkivonást; R12-re ne állítsd vissza. A34 MPR-tervezet aktív a felhasználó kifejezett kérésére, de nincs woodWOP5 vagy gépi futtatási jóváhagyás. A SQLite/címkekereső helyi prototípus, nem igazolt Livewood-import.
+
+Következő valódi műszaki lépések: a3-4. alsó front nyitásmódjának lezárása (S10 alternatíva, más korpusz/fogás/alsó mechanika), teljes fal- és hátlaprögzítés, LED-szerelvények és nyitók rögzítőfuratai, helyszíni hézagok/minták, műhelyi szerszám- és befogásadatok, woodWOP-megnyitás és próba. A teljes négy eredeti hiányterület még nincs lezárva. Az élő teljes projektköltség-Excel változatlan, új fix ár nincs.
+
+Az alábbi R02 átadás történeti előzmény, nem a jelenlegi TV-modul állapota.
+
 # Folytatási állapot – R02, teljes lakás
 
 A korábbi csak12termékes szakasz lezárult; régi átadó az archive/CP1a alatt. Induláskor a tényleges távoli ágat és az aktuális Excelt kell visszaolvasni. Ne futtasd a CP0 build_data.py/build_workbook.mjs generátorokat a frissített állományokra.

@@ -1,0 +1,3417 @@
+[
+  {
+    "id": "KI12-TV01S-01",
+    "type": "TV01-S",
+    "name": "Torony oldalak / bal oldallap",
+    "x": 2330,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tető/fenék oldalak közé",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01S-01.mpr",
+    "assembly_box_mm": [
+      0,
+      0,
+      550,
+      18,
+      382,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        0,
+        0,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 26,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01S-02",
+    "type": "TV01-S",
+    "name": "Torony oldalak / jobb oldallap",
+    "x": 2330,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tető/fenék oldalak közé",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01S-02.mpr",
+    "assembly_box_mm": [
+      702,
+      0,
+      550,
+      18,
+      382,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        702,
+        0,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 26,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01T-01",
+    "type": "TV01-T",
+    "name": "Torony tető/fenék / alsó",
+    "x": 684,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Két szélső oldal közé; középosztó hossza végleges kötéstől függ!",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01T-01.mpr",
+    "assembly_box_mm": [
+      18,
+      0,
+      550,
+      684,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        18,
+        0,
+        568
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 9,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01T-02",
+    "type": "TV01-T",
+    "name": "Torony tető/fenék / felső",
+    "x": 684,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Két szélső oldal közé; középosztó hossza végleges kötéstől függ!",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01T-02.mpr",
+    "assembly_box_mm": [
+      18,
+      0,
+      2862,
+      684,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        18,
+        0,
+        2880
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 9,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01C-01",
+    "type": "TV01-C",
+    "name": "Torony középosztó / példány 1",
+    "x": 2294,
+    "y": 374,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01C-01.mpr",
+    "assembly_box_mm": [
+      351,
+      0,
+      568,
+      18,
+      374,
+      2294
+    ],
+    "frame": {
+      "origin": [
+        351,
+        0,
+        568
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 26,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-01",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 1",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-01.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      935,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        953
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-02",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 2",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-02.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      1320,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        1338
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-03",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 3",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-03.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      1705,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        1723
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-04",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 4",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-04.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      2090,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        2108
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-05",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 5",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-05.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      2475,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        2493
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-06",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 6",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-06.mpr",
+    "assembly_box_mm": [
+      370,
+      20,
+      935,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        370,
+        20,
+        953
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-07",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 7",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-07.mpr",
+    "assembly_box_mm": [
+      370,
+      20,
+      1320,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        370,
+        20,
+        1338
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-08",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 8",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-08.mpr",
+    "assembly_box_mm": [
+      370,
+      20,
+      1705,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        370,
+        20,
+        1723
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-09",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 9",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-09.mpr",
+    "assembly_box_mm": [
+      370,
+      20,
+      2090,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        370,
+        20,
+        2108
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01P-10",
+    "type": "TV01-P",
+    "name": "Torony állítható polc / példány 10",
+    "x": 331,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01P-10.mpr",
+    "assembly_box_mm": [
+      370,
+      20,
+      2475,
+      331,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        370,
+        20,
+        2493
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01F-01",
+    "type": "TV01-F",
+    "name": "Torony front / bal ajtó",
+    "x": 2327,
+    "y": 357,
+    "t": 18,
+    "material": "M01+nyomat",
+    "face": "A = látszó homlokfelület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Nyomat és vetemedés gyártóval egyeztetendő R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01F-01.mpr",
+    "assembly_box_mm": [
+      1.5,
+      -21,
+      551.5,
+      357,
+      18,
+      2327
+    ],
+    "frame": {
+      "origin": [
+        1.5,
+        -3,
+        551.5
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 15,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01F-02",
+    "type": "TV01-F",
+    "name": "Torony front / jobb ajtó",
+    "x": 2327,
+    "y": 357,
+    "t": 18,
+    "material": "M01+nyomat",
+    "face": "A = látszó homlokfelület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Nyomat és vetemedés gyártóval egyeztetendő R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01F-02.mpr",
+    "assembly_box_mm": [
+      361.5,
+      -21,
+      551.5,
+      357,
+      18,
+      2327
+    ],
+    "frame": {
+      "origin": [
+        361.5,
+        -3,
+        551.5
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 15,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV01H-01",
+    "type": "TV01-H",
+    "name": "Torony hátlap / példány 1",
+    "x": 2294,
+    "y": 684,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Hátlap rögzítés és csatlakozás szerint pontosítandó",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV01H-01.mpr",
+    "assembly_box_mm": [
+      18,
+      374,
+      568,
+      684,
+      8,
+      2294
+    ],
+    "frame": {
+      "origin": [
+        18,
+        382,
+        568
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-01",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-01.mpr",
+    "assembly_box_mm": [
+      0,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        0,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 12,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-02",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-02.mpr",
+    "assembly_box_mm": [
+      702,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        702,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-03",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-03.mpr",
+    "assembly_box_mm": [
+      840,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        840,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 10,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-04",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-04.mpr",
+    "assembly_box_mm": [
+      1512,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        1512,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-05",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-05.mpr",
+    "assembly_box_mm": [
+      1530,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        1530,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-06",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-06.mpr",
+    "assembly_box_mm": [
+      2202,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        2202,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-07",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-07.mpr",
+    "assembly_box_mm": [
+      2220,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        2220,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-08",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-08.mpr",
+    "assembly_box_mm": [
+      2892,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        2892,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-09",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-09.mpr",
+    "assembly_box_mm": [
+      2910,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        2910,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 12,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02S-10",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Korpusz-kötés furatai: kötőrendszer még nincs kijelölve",
+      "Polctartó/pántfurat: oldal és vasalat szerint kiosztandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-10.mpr",
+    "assembly_box_mm": [
+      3582,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        3582,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 8,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02T1-01",
+    "type": "TV02-T1",
+    "name": "720-as modul fenék / példány 1",
+    "x": 684,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T1-01.mpr",
+    "assembly_box_mm": [
+      18,
+      0,
+      150,
+      684,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        18,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02T2-01",
+    "type": "TV02-T2",
+    "name": "690-es modul fenék / példány 1",
+    "x": 654,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T2-01.mpr",
+    "assembly_box_mm": [
+      858,
+      0,
+      150,
+      654,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        858,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02T2-02",
+    "type": "TV02-T2",
+    "name": "690-es modul fenék / példány 2",
+    "x": 654,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T2-02.mpr",
+    "assembly_box_mm": [
+      1548,
+      0,
+      150,
+      654,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        1548,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02T2-03",
+    "type": "TV02-T2",
+    "name": "690-es modul fenék / példány 3",
+    "x": 654,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T2-03.mpr",
+    "assembly_box_mm": [
+      2238,
+      0,
+      150,
+      654,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2238,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02T2-04",
+    "type": "TV02-T2",
+    "name": "690-es modul fenék / példány 4",
+    "x": 654,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T2-04.mpr",
+    "assembly_box_mm": [
+      2928,
+      0,
+      150,
+      654,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2928,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02P1-01",
+    "type": "TV02-P1",
+    "name": "720-as modul polc / példány 1",
+    "x": 682,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02P1-01.mpr",
+    "assembly_box_mm": [
+      19,
+      20,
+      341,
+      682,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        19,
+        20,
+        359
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02P2-01",
+    "type": "TV02-P2",
+    "name": "690-es modul polc / példány 1",
+    "x": 652,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02P2-01.mpr",
+    "assembly_box_mm": [
+      1549,
+      20,
+      341,
+      652,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        1549,
+        20,
+        359
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02P2-02",
+    "type": "TV02-P2",
+    "name": "690-es modul polc / példány 2",
+    "x": 652,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02P2-02.mpr",
+    "assembly_box_mm": [
+      2239,
+      20,
+      341,
+      652,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2239,
+        20,
+        359
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02P2-03",
+    "type": "TV02-P2",
+    "name": "690-es modul polc / példány 3",
+    "x": 652,
+    "y": 320,
+    "t": 18,
+    "material": "M03",
+    "face": "A = belső/felső használati felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02P2-03.mpr",
+    "assembly_box_mm": [
+      2929,
+      20,
+      341,
+      652,
+      320,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2929,
+        20,
+        359
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02F1-01",
+    "type": "TV02-F1",
+    "name": "Alsó front720 / példány 1",
+    "x": 717,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F1-01.mpr",
+    "assembly_box_mm": [
+      1.5,
+      -21,
+      151.5,
+      717,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        718.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02F2-01",
+    "type": "TV02-F2",
+    "name": "Alsó front690 / példány 1",
+    "x": 687,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F2-01.mpr",
+    "assembly_box_mm": [
+      841.5,
+      -21,
+      151.5,
+      687,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        1528.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02F2-02",
+    "type": "TV02-F2",
+    "name": "Alsó front690 / példány 2",
+    "x": 687,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F2-02.mpr",
+    "assembly_box_mm": [
+      1531.5,
+      -21,
+      151.5,
+      687,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        2218.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02F2-03",
+    "type": "TV02-F2",
+    "name": "Alsó front690 / példány 3",
+    "x": 687,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F2-03.mpr",
+    "assembly_box_mm": [
+      2221.5,
+      -21,
+      151.5,
+      687,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        2908.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02F2-04",
+    "type": "TV02-F2",
+    "name": "Alsó front690 / példány 4",
+    "x": 687,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Pántcsésze és fogás: gyártói fúráskép hiányzik"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F2-04.mpr",
+    "assembly_box_mm": [
+      2911.5,
+      -21,
+      151.5,
+      687,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        3598.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02H1-01",
+    "type": "TV02-H1",
+    "name": "Hátlap720 / példány 1",
+    "x": 684,
+    "y": 364,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: 382-18=364 mm; R11 346 mm téves. Illesztési játék még nincs levonva.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H1-01.mpr",
+    "assembly_box_mm": [
+      18,
+      374,
+      168,
+      684,
+      8,
+      364
+    ],
+    "frame": {
+      "origin": [
+        702,
+        382,
+        168
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02H2-01",
+    "type": "TV02-H2",
+    "name": "Hátlap690 / példány 1",
+    "x": 654,
+    "y": 364,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: 382-18=364 mm; R11 346 mm téves. Illesztési játék még nincs levonva.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H2-01.mpr",
+    "assembly_box_mm": [
+      858,
+      374,
+      168,
+      654,
+      8,
+      364
+    ],
+    "frame": {
+      "origin": [
+        1512,
+        382,
+        168
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 1,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02H2-02",
+    "type": "TV02-H2",
+    "name": "Hátlap690 / példány 2",
+    "x": 654,
+    "y": 364,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: 382-18=364 mm; R11 346 mm téves. Illesztési játék még nincs levonva.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H2-02.mpr",
+    "assembly_box_mm": [
+      1548,
+      374,
+      168,
+      654,
+      8,
+      364
+    ],
+    "frame": {
+      "origin": [
+        2202,
+        382,
+        168
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02H2-03",
+    "type": "TV02-H2",
+    "name": "Hátlap690 / példány 3",
+    "x": 654,
+    "y": 364,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: 382-18=364 mm; R11 346 mm téves. Illesztési játék még nincs levonva.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H2-03.mpr",
+    "assembly_box_mm": [
+      2238,
+      374,
+      168,
+      654,
+      8,
+      364
+    ],
+    "frame": {
+      "origin": [
+        2892,
+        382,
+        168
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02H2-04",
+    "type": "TV02-H2",
+    "name": "Hátlap690 / példány 4",
+    "x": 654,
+    "y": 364,
+    "t": 8,
+    "material": "M03",
+    "face": "A = bútor belseje felé",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: 382-18=364 mm; R11 346 mm téves. Illesztési játék még nincs levonva.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H2-04.mpr",
+    "assembly_box_mm": [
+      2928,
+      374,
+      168,
+      654,
+      8,
+      364
+    ],
+    "frame": {
+      "origin": [
+        3582,
+        382,
+        168
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV02CAP-01",
+    "type": "TV02-CAP",
+    "name": "Összefüggő felső fedő / példány 1",
+    "x": 3600,
+    "y": 382,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó felső felület",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "E1",
+    "edge": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "roles": "E1 első; E2/E4 vég látszó; E3 fal felőli",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "R12 javítás: fedő 382 mm mély; a 400 mm-es korábbi fedő áthatolt a 397 mm magas frontokon. Kész mélység továbbra is 382+18=400.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02CAP-01.mpr",
+    "assembly_box_mm": [
+      0,
+      0,
+      532,
+      3600,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        0,
+        0,
+        550
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 30,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV03P-01",
+    "type": "TV03-P",
+    "name": "Dekor hordozópanel / példány 1",
+    "x": 2330,
+    "y": 687,
+    "t": 18,
+    "material": "M02",
+    "face": "A = nyomtatott felület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "roles": "Panelcsatlakozások, nyomat/élzárás módja mintára vár",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Panel rögzítés/TV/LED kivágás: hely és rögzítő választandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV03P-01.mpr",
+    "assembly_box_mm": [
+      841.5,
+      382,
+      550,
+      687,
+      18,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        841.5,
+        400,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV03P-02",
+    "type": "TV03-P",
+    "name": "Dekor hordozópanel / példány 2",
+    "x": 2330,
+    "y": 687,
+    "t": 18,
+    "material": "M02",
+    "face": "A = nyomtatott felület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "roles": "Panelcsatlakozások, nyomat/élzárás módja mintára vár",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Panel rögzítés/TV/LED kivágás: hely és rögzítő választandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV03P-02.mpr",
+    "assembly_box_mm": [
+      1531.5,
+      382,
+      550,
+      687,
+      18,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        1531.5,
+        400,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV03P-03",
+    "type": "TV03-P",
+    "name": "Dekor hordozópanel / példány 3",
+    "x": 2330,
+    "y": 687,
+    "t": 18,
+    "material": "M02",
+    "face": "A = nyomtatott felület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "roles": "Panelcsatlakozások, nyomat/élzárás módja mintára vár",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Panel rögzítés/TV/LED kivágás: hely és rögzítő választandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV03P-03.mpr",
+    "assembly_box_mm": [
+      2221.5,
+      382,
+      550,
+      687,
+      18,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        2221.5,
+        400,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-TV03P-04",
+    "type": "TV03-P",
+    "name": "Dekor hordozópanel / példány 4",
+    "x": 2330,
+    "y": 687,
+    "t": 18,
+    "material": "M02",
+    "face": "A = nyomtatott felület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "roles": "Panelcsatlakozások, nyomat/élzárás módja mintára vár",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Panel rögzítés/TV/LED kivágás: hely és rögzítő választandó"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV03P-04.mpr",
+    "assembly_box_mm": [
+      2911.5,
+      382,
+      550,
+      687,
+      18,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        2911.5,
+        400,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI12-GAP-01",
+    "type": "GAP",
+    "name": "Köztes sáv hátbetét / példány 1",
+    "x": 2330,
+    "y": 120,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-GAP-01.mpr",
+    "assembly_box_mm": [
+      720,
+      400,
+      550,
+      120,
+      18,
+      2330
+    ],
+    "frame": {
+      "origin": [
+        720,
+        418,
+        550
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  },
+  {
+    "id": "KI13-GAP-LOW-01",
+    "type": "GAP-LOW",
+    "name": "Alsó visszahúzott grafit betét",
+    "x": 380,
+    "y": 117,
+    "t": 18,
+    "material": "M01",
+    "face": "A = látszó homlokfelület",
+    "grain": "X irány: magasság",
+    "primary": "E1 / Y=0 (tervezési javaslat)",
+    "secondary": "E4 / X=0 (tervezési javaslat)",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Befoglaló és anyag ellenőrzése",
+      "Élzárás / élanyag igazolása",
+      "Kötés / támasz / rögzítés műhelyi jóváhagyásra"
+    ],
+    "note": "Új R13 betét; oldalsó 1,5 mm hézag. Rögzítőkonzol külön egyeztetendő.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI13-GAP-LOW-01.mpr",
+    "assembly_box_mm": [
+      721.5,
+      350,
+      151.5,
+      117,
+      18,
+      380
+    ],
+    "frame": {
+      "origin": [
+        721.5,
+        368,
+        151.5
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        1,
+        0,
+        0
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R13",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott"
+  }
+]

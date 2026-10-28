@@ -1,4 +1,9 @@
 ## R05 — aktuális ár-, anyag- és render-egyeztetés (2026-10-27)
+## R13 - TV-modul AutoCAD megmunkálási checkpoint (2026-10-28)
+
+A médiafal aktuális műhelyi belépője: [R13_muhely/OLVASD_EL.txt](R13_muhely/OLVASD_EL.txt). **54 külön laptest, 293 natív AutoCAD-furatkivonás, három DWG-nézet, 63 oldalas részletes rajzkönyv, furat- és címke-Excel.** A felhasználó kérésére a34 MPR-tervezet összes293 fúrási művelete aktív; woodWOP5 és gépi szimuláció még nem történt. Teljes átadás: `A902_TV_R13_muhelyi_checkpoint.zip`.
+
+Ez a TV-modul műhelyi részfelülvizsgálata, nem új teljes lakás- vagy költségrevízió. A3-4. alsó ajtó/asztal konfliktusra méretezett tolóajtó-alternatíva készült, de nincs elfogadva vagy a fő CAD-be beépítve. Teljes fal-/hátlaprögzítés, szakági kiegészítők, felmérés, anyagminták és műhelyi programellenőrzés továbbra is nyitott. R12 megmaradt; gyártási kiadás nincs.
 
 Belépő: [R05/OLVASD_EL_R05.txt](R05/OLVASD_EL_R05.txt). Élő Excel: **23 912 890 Ft** fő / **23 659 890 Ft** takarékos összehasonlítás.18M cél,2M érintetlen tartalék.71A3 aktuális rajzlap összeállítva,14oldalas anyag/RFQcsomag,5oldalas tulajdonosi PDF, külön újranyitott Blender-modell és49nézeti/funkcionális prompt. **Feltételes árazási és egyeztetési kiadás, nem kész megvalósítás vagy gyártási jóváhagyás.**
 

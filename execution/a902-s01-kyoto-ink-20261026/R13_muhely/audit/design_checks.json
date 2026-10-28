@@ -1,0 +1,19 @@
+{
+  "parts": 54,
+  "holes": 293,
+  "hinges": 16,
+  "shelf_pins": 56,
+  "blank_overlaps": [],
+  "cylinder_outside_blank": [],
+  "parallel_hole_intersections": [],
+  "expected_net_volume_mm3": 362409016.96929973,
+  "volume_assumption": "No intersecting bores. Native AutoCAD volume must match.",
+  "NOT_APPROVED": [
+    "actual survey",
+    "wall anchoring",
+    "lower doors3/4",
+    "tool library",
+    "woodWOP parser",
+    "material samples"
+  ]
+}

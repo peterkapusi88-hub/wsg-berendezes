@@ -1,0 +1,8499 @@
+[
+  {
+    "id": "H0001",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0002",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      18,
+      50,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0003",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      191,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0004",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      18,
+      191,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0005",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      332,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0006",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      18,
+      332,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J01",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0007",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0008",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      18,
+      50,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0009",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      191,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0010",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      18,
+      191,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0011",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      332,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0012",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      18,
+      332,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J02",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0013",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0014",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      702,
+      50,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0015",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      191,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0016",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      702,
+      191,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0017",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      332,
+      559
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0018",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      702,
+      332,
+      559
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J03",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0019",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0020",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      702,
+      50,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0021",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      191,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0022",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      702,
+      191,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0023",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      332,
+      2871
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2321,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0024",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      702,
+      332,
+      2871
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J04",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0025",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      360,
+      50,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0026",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      50,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0027",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      360,
+      191,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0028",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      191,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0029",
+    "part": "KI12-TV01T-01",
+    "xyz": [
+      360,
+      332,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0030",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      332,
+      568
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J05",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0031",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      360,
+      50,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0032",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      50,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2294,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0033",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      360,
+      191,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0034",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      191,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2294,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0035",
+    "part": "KI12-TV01T-02",
+    "xyz": [
+      360,
+      332,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      342,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0036",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      360,
+      332,
+      2862
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J06",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2294,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0037",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0038",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      18,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0039",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0040",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      18,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0041",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0042",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      18,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J07",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0043",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      9,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0044",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      9,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0045",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      9,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0046",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      9,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0047",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      9,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0048",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      9,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J08",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0049",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      702,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0050",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      702,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0051",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      702,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0052",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      702,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0053",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      702,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0054",
+    "part": "KI12-TV02T1-01",
+    "xyz": [
+      702,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J09",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      684,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0055",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      711,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      711,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0056",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      711,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0057",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      711,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      711,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0058",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      711,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0059",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      711,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      711,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0060",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      711,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J10",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0061",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0062",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      858,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0063",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0064",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      858,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0065",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0066",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      858,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J11",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0067",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      849,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      849,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0068",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      849,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0069",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      849,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      849,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0070",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      849,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0071",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      849,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      849,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0072",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      849,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J12",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0073",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1512,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0074",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      1512,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0075",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1512,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0076",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      1512,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0077",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1512,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0078",
+    "part": "KI12-TV02T2-01",
+    "xyz": [
+      1512,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J13",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0079",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1521,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1521,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0080",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1521,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0081",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1521,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1521,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0082",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1521,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0083",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1521,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1521,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0084",
+    "part": "KI12-TV02S-04",
+    "xyz": [
+      1521,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J14",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0085",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1548,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0086",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      1548,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0087",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1548,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0088",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      1548,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0089",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1548,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0090",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      1548,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J15",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0091",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1539,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1539,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0092",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1539,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0093",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1539,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1539,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0094",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1539,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0095",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      1539,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1539,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0096",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1539,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J16",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0097",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2202,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0098",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      2202,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0099",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2202,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0100",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      2202,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0101",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2202,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0102",
+    "part": "KI12-TV02T2-02",
+    "xyz": [
+      2202,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J17",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0103",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2211,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2211,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0104",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2211,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0105",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2211,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2211,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0106",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2211,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0107",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2211,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2211,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0108",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2211,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J18",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0109",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2238,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0110",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2238,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0111",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2238,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0112",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2238,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0113",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2238,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0114",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2238,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J19",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0115",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2229,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2229,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0116",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2229,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0117",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2229,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2229,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0118",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2229,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0119",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2229,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2229,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0120",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2229,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J20",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0121",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2892,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0122",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2892,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0123",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2892,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0124",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2892,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0125",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2892,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0126",
+    "part": "KI12-TV02T2-03",
+    "xyz": [
+      2892,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J21",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0127",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2901,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2901,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0128",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2901,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0129",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2901,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2901,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0130",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2901,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0131",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2901,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2901,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0132",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2901,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J22",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0133",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0134",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      2928,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      50,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0135",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0136",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      2928,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      191,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0137",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0138",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      2928,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J23",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      0,
+      332,
+      -9
+    ],
+    "local_axis": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0139",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2919,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2919,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0140",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2919,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0141",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2919,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2919,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0142",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2919,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0143",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      2919,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2919,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0144",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2919,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J24",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0145",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3582,
+      50,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      50,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0146",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      3582,
+      50,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0147",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3582,
+      191,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      191,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0148",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      3582,
+      191,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0149",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3582,
+      332,
+      159
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      9,
+      332,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0150",
+    "part": "KI12-TV02T2-04",
+    "xyz": [
+      3582,
+      332,
+      159
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J25",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0151",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      3591,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      3591,
+      50,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0152",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3591,
+      50,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      50,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0153",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      3591,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      3591,
+      191,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0154",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3591,
+      191,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      191,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0155",
+    "part": "KI12-TV02CAP-01",
+    "xyz": [
+      3591,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "diameter": 8,
+    "depth": 12,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      3591,
+      332,
+      -18
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0156",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3591,
+      332,
+      532
+    ],
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "diameter": 8,
+    "depth": 22,
+    "kind": "CSAP J26",
+    "source": "R12 J01-J26 / 8x30, 12+22",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382,
+      332,
+      -9
+    ],
+    "local_axis": [
+      -1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "H0157",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      24.5,
+      -3,
+      651.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      100.0,
+      23.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0158",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      629.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      77.5,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0159",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      674.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      122.5,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0160",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      635.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      85.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0161",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      667.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      117.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0162",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      24.5,
+      -3,
+      1183.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      631.75,
+      23.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0163",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      1160.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      609.25,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0164",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      1205.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654.25,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0165",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      1167.25
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      617.25,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0166",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      1199.25
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      649.25,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0167",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      24.5,
+      -3,
+      1715.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1163.5,
+      23.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0168",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      1692.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1141.0,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0169",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      1737.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1186.0,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0170",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      1699.0
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1149.0,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0171",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      1731.0
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1181.0,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0172",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      24.5,
+      -3,
+      2246.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1695.25,
+      23.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0173",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      2224.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1672.75,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0174",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      2269.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1717.75,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0175",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      2230.75
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1680.75,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0176",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      2262.75
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1712.75,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0177",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      24.5,
+      -3,
+      2778.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2227.0,
+      23.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0178",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      2756.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2204.5,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0179",
+    "part": "KI12-TV01F-01",
+    "xyz": [
+      15.0,
+      -3,
+      2801.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2249.5,
+      13.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0180",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      2762.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2212.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0181",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      37,
+      2794.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2244.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0182",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      695.5,
+      -3,
+      651.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      100.0,
+      334.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0183",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      629.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      77.5,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0184",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      674.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      122.5,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0185",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      635.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      85.5,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0186",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      667.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      117.5,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0187",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      695.5,
+      -3,
+      1183.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      631.75,
+      334.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0188",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      1160.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      609.25,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0189",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      1205.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      654.25,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0190",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      1167.25
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      617.25,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0191",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      1199.25
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      649.25,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0192",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      695.5,
+      -3,
+      1715.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1163.5,
+      334.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0193",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      1692.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1141.0,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0194",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      1737.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1186.0,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0195",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      1699.0
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1149.0,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0196",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      1731.0
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1181.0,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0197",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      695.5,
+      -3,
+      2246.75
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1695.25,
+      334.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0198",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      2224.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1672.75,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0199",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      2269.25
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1717.75,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0200",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      2230.75
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1680.75,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0201",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      2262.75
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1712.75,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0202",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      695.5,
+      -3,
+      2778.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2227.0,
+      334.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0203",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      2756.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2204.5,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0204",
+    "part": "KI12-TV01F-02",
+    "xyz": [
+      705.0,
+      -3,
+      2801.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2249.5,
+      343.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0205",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      2762.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2212.5,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0206",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      37,
+      2794.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      2244.5,
+      37.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0207",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      24.5,
+      -3,
+      231.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      694.0,
+      80.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0208",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      15.0,
+      -3,
+      209.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      703.5,
+      57.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0209",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      15.0,
+      -3,
+      254.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      703.5,
+      102.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0210",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      37,
+      215.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      65.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0211",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      37,
+      247.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      97.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0212",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      24.5,
+      -3,
+      468.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      694.0,
+      317.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0213",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      15.0,
+      -3,
+      446.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      703.5,
+      294.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0214",
+    "part": "KI12-TV02F1-01",
+    "xyz": [
+      15.0,
+      -3,
+      491.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      703.5,
+      339.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0215",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      37,
+      452.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      302.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0216",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      37,
+      484.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      334.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0217",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      864.5,
+      -3,
+      231.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      664.0,
+      80.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0218",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      855.0,
+      -3,
+      209.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      57.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0219",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      855.0,
+      -3,
+      254.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      102.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0220",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      37,
+      215.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      65.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0221",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      37,
+      247.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      97.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0222",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      864.5,
+      -3,
+      468.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      664.0,
+      317.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0223",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      855.0,
+      -3,
+      446.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      294.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0224",
+    "part": "KI12-TV02F2-01",
+    "xyz": [
+      855.0,
+      -3,
+      491.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      339.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0225",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      37,
+      452.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      302.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0226",
+    "part": "KI12-TV02S-03",
+    "xyz": [
+      858,
+      37,
+      484.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      334.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0227",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2934.5,
+      -3,
+      231.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      664.0,
+      80.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0228",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2925.0,
+      -3,
+      209.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      57.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0229",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2925.0,
+      -3,
+      254.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      102.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0230",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      37,
+      215.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      65.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0231",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      37,
+      247.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      97.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0232",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2934.5,
+      -3,
+      468.5
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 35,
+    "depth": 13,
+    "kind": "PANT_CSÉSZE",
+    "source": "Blum 70T3550.TL datasheet:35/13; TB5.5, MD0 -> FA16.5",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      664.0,
+      317.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0233",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2925.0,
+      -3,
+      446.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      294.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0234",
+    "part": "KI12-TV02F2-04",
+    "xyz": [
+      2925.0,
+      -3,
+      491.0
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "PANT_CSAVAR_ELOFURAT",
+    "source": "45/9.5 gyári kiosztás; Ø2.5x10 próbadarabon igazolandó 3.5x15 csavarhoz",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      673.5,
+      339.5,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0235",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      37,
+      452.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      302.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0236",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      37,
+      484.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 2.5,
+    "depth": 10,
+    "kind": "TALP_CSAVAR_ELOFURAT",
+    "source": "Blum173H7100 37/32; Ø2.5x10 tervezői próbaérték",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      334.5,
+      37.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0237",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      932.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0238",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      310,
+      932.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0239",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      50,
+      932.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      364.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0240",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      310,
+      932.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      364.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0241",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      1317.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      767.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0242",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      310,
+      1317.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      767.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0243",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      50,
+      1317.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      749.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0244",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      310,
+      1317.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      749.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0245",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      1702.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1152.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0246",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      310,
+      1702.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1152.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0247",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      50,
+      1702.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1134.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0248",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      310,
+      1702.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1134.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0249",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      2087.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1537.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0250",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      310,
+      2087.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1537.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0251",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      50,
+      2087.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1519.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0252",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      310,
+      2087.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1519.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0253",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      50,
+      2472.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1922.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0254",
+    "part": "KI12-TV01S-01",
+    "xyz": [
+      18,
+      310,
+      2472.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1922.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0255",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      50,
+      2472.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1904.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0256",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      351,
+      310,
+      2472.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1904.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0257",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      50,
+      932.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      364.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0258",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      310,
+      932.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      364.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0259",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      932.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0260",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      310,
+      932.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      382.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0261",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      50,
+      1317.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      749.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0262",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      310,
+      1317.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      749.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0263",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      1317.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      767.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0264",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      310,
+      1317.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      767.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0265",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      50,
+      1702.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1134.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0266",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      310,
+      1702.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1134.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0267",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      1702.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1152.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0268",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      310,
+      1702.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1152.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0269",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      50,
+      2087.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1519.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0270",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      310,
+      2087.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1519.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0271",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      2087.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1537.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0272",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      310,
+      2087.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1537.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0273",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      50,
+      2472.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1904.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0274",
+    "part": "KI12-TV01C-01",
+    "xyz": [
+      369,
+      310,
+      2472.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1904.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0275",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      50,
+      2472.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1922.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0276",
+    "part": "KI12-TV01S-02",
+    "xyz": [
+      702,
+      310,
+      2472.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      1922.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0277",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      50,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0278",
+    "part": "KI12-TV02S-01",
+    "xyz": [
+      18,
+      310,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0279",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      702,
+      50,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0280",
+    "part": "KI12-TV02S-02",
+    "xyz": [
+      702,
+      310,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0281",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1548,
+      50,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0282",
+    "part": "KI12-TV02S-05",
+    "xyz": [
+      1548,
+      310,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0283",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2202,
+      50,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0284",
+    "part": "KI12-TV02S-06",
+    "xyz": [
+      2202,
+      310,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0285",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2238,
+      50,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0286",
+    "part": "KI12-TV02S-07",
+    "xyz": [
+      2238,
+      310,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0287",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2892,
+      50,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0288",
+    "part": "KI12-TV02S-08",
+    "xyz": [
+      2892,
+      310,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0289",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      50,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0290",
+    "part": "KI12-TV02S-09",
+    "xyz": [
+      2928,
+      310,
+      338.5
+    ],
+    "axis": [
+      -1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      -18.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "H0291",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3582,
+      50,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      50.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0292",
+    "part": "KI12-TV02S-10",
+    "xyz": [
+      3582,
+      310,
+      338.5
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "diameter": 5,
+    "depth": 8,
+    "kind": "POLCTARTO",
+    "source": "Ø5 csapos, lapos felfekvésű polctartó; 8mm beülés, tervezési specifikáció",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      188.5,
+      310.0,
+      0.0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "id": "H0293",
+    "part": "KI12-TV02H2-01",
+    "xyz": [
+      1185,
+      382,
+      300
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ],
+    "diameter": 60,
+    "depth": 8,
+    "kind": "AV_KABEL",
+    "source": "Tervezési Ø60 átvezetés; cserélhető kefe, villamos kábelek elkülönítése",
+    "status": "DESIGN_NOT_NC",
+    "local_UVW": [
+      327,
+      132,
+      0
+    ],
+    "local_axis": [
+      0,
+      0,
+      -1
+    ]
+  }
+]

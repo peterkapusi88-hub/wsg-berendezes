@@ -1,0 +1,42 @@
+KYOTO INK / R13 / 2026.10.28.
+MŰHELYI MODELL ÉS AKTÍV MPR-TERVEZETEK - NEM GYÁRTÁSI KIADÁS
+
+ELSŐKÉNT EZT NYISD MEG
+rajzok/TV_R13_belso.dwg
+A mintaként adott km.dwg jellegét követő, színezett és alkatrészenként kijelölhető AutoCAD-térfogattestmodell. Az 54 lap külön azonosítórétegen szerepel. A nyitott póz szemléltető: a 3-4. alsó front kiemelve látszik, nem üzemi nyitásban.
+
+TOVÁBBI FÁJLOK
+- rajzok/TV_R13_zart.dwg: ugyanazon alkatrészek zárt helyzetben.
+- rajzok/TV_R13_robbantott.dwg: szerelési áttekintés, eltolt alkatrészek.
+- rajzok/TV_R13_reszletes_rajzkonyv.pdf: 63 A3 lap, áttekintés, kötési/pántadatok, tolóajtó-vizsgálat, minden lapalkatrész furatkoordinátái.
+- dxf_alkatreszek/: 54 szerkeszthető, 1:1 mm-es kontúr/furatvetület, natív méretobjektumokkal.
+- TV_R13_alkatreszek_furatok_cimkek.xlsx: alkatrészek, furatok, programkapcsolat, nyomtatható címke.
+- cimkek/TV_R13_cimkek_A4.pdf: 54 revíziós vonalkódos címke, 6 A4 oldal; 95×50 mm, 100% nyomtatás, nyomtatóval kalibrálandó.
+- mpr_aktiv_tervezet/: 34 aktív programtervezet, összesen293 fúrási makró.
+- R13_aktiv_MPR_tervezetek.zip: az aktív programok külön átadható csomagja.
+- integration/: helyi SQLite alkatrészadatbázis és revízióérzékeny címkekereső.
+- rajzok/TV_R13_CAD_ellenorzokep.blend: AutoCADből exportált STL-testekből készült ellenőrző modell, nem a teljes lakás új geometriai revíziója.
+
+MI VÁLTOZOTT R12-HÖZ KÉPEST?
+Az eredeti53 darabazonosító megmaradt, az alsó köztes sáv117×380×18mm-es visszahúzott betétje új azonosítót kapott. A frontok3mm nyomási hézaga bekerült: az alsó kész névleges mélység403mm. A teljes paneles falszerkezet418mm-ig ér a helyi Y-rendszerben; ezt ne keverd a korpuszmélységgel.
+156 csapfurat +80 pánt/talp furat +56 polctartófurat +1AV átvezetés =293 valós térfogati kivonás. Az AutoCADben a lapok nem üres befoglalódobozok többé.
+16Blum70T3550.TL pánt/173H7100talp tervezett fúrásképe; a3-4. alsó front pántfúrását a nyitásmód eldöntéséig nem találtuk ki.
+
+AKTIVÁLÁS
+A felhasználó kifejezett kérésére 2026.10.28-án minden elkészített fúrási makró EN=1 és ??=1 állapotú. A korábbi letiltott változat kizárólag sources/korabbi_tiltott/ alatt archivált előzmény, nem a jelenlegi programcsomag.
+A feloldás nem egyenlő gyártási jóváhagyással. A woodWOP5.0 megnyitást, a WOF211ként megadott gép tényleges konfigurációját, a szerszámtárat és az NC-szimulációt még nem teszteltük. F_=STANDARD a gépi adatbázisra támaszkodik; DU átmérő szerint kér szerszámot. A Ø60 átvezetésnél a tényleges eljárás fúrás vagy marás lehet; ellenőrzött kontúrmaróprogram nincs.
+Az A/B program külön befogás. B oldal: U körüli fordítás, V_B=szélesség-V_A; a gépütköző és a nyersméret még nincs műhelyileg igazolva. C műhelyélkód nem azonos automatikusan a tervben szereplő1mm élzárással.
+
+TÉNYLEGES ELLENŐRZÉSEK
+AutoCAD2027AcCoreConsole:293 kivonás,54 laptest; DWG-visszaolvasás, AUDIT0 adatbázishiba; nettó térfogat362409016,9693mm³, egyezik az önálló geometriai számítással. Teljes furathengerek lapon belül, névleges lapáthatolás nincs. A saját MPR-visszaolvasó293 műveletet és aktív állapotot ellenőrzött; ez nem a woodWOP saját ellenőrzése.
+Az Excel képletei és a címke adatkapcsolata ellenőrizve.54 címkekulcs helyi adatbázis-keresése fájlhoz vezet; más revízió nem kap automatikusan új programot. Livewood/woodWOP adatbázis-import és fizikai vonalkódolvasó-próba nem történt.
+
+NYITOTT MŰSZAKI TARTALOM - NINCS ELREJTVE
+1. A3-4. alsó ajtó/asztal ütközése még nincs végleg megoldva. A PDF-ben SaliceS10 méretezett páros tolóajtó-alternatíva szerepel; a belső korpusz, a fogás, az alsó vasalattakarás és a fényvonal módosulna. Nincs automatikusan jóváhagyva vagy a fő modellbe beépítve.
+2. Falfüggesztés, hátlaprögzítés, szerelőlécek, LED-profilok/tápegységek és azok megmunkálása nem teljes. A54lapos modell nem a teljes kész bútor összes vasalatát ábrázolja.
+3. Felmért fal/padló/kiállásadat és anyagminta nincs újonnan megszerezve. A színezés anyagcsoport-jel, nem jóváhagyott grafika/dekor. Felmérés és próbadarab nélkül nincs végleges szabáskiadás.
+4. A nyitott ajtópóz és a gépi adatbázis-ellenőrzés nem igazol terhelést, tényleges pántkinematikát vagy gépi befogásbiztonságot.
+5. Ebben a munkacsomagban nincs új fix beszállítói ajánlat. Nem számítottunk rejtett pluszköltséget a projektbe, és nem állítjuk, hogy a teljes megvalósítás18millióba belefér.
+
+AZ ASZTALOSSAL KÖZÖS KÖVETKEZŐ ELLENŐRZÉS
+Először a bal toronyfront és oldallap párját nyissátok meg woodWOPban; ellenőrizzétek a csésze/előfurat/talp helyét, a megfelelőA/Boldalt, az él és kész/nyers méret kapcsolatát. Szerszám- és befogásellenőrzés, majd engedélyezett próbadarab és száraz összeállítás következhet. Ez nem kér általános tulajdonosi nyilatkozatot arról, hogy minden műszaki adat hibátlan.
