@@ -1,3 +1,9 @@
+## R14 — aktuális TV-modul szerkezeti és műhelyi checkpoint (2026-10-28)
+
+Belépő: [R14_muhely/OLVASD_EL.txt](R14_muhely/OLVASD_EL.txt). **75 alkatrész, 579 tényleges AutoCAD-furat, 69 aktív MPR-tervezet, 87 oldalas rajzkönyv és frissített Excel/címkék.** Új: hátlaprögzítő lécek, merevítők, rejtett betétrögzítés, hátlaphézagok, TIP-ON adapterfuratok, három szerkezeti metszet és LED/szerviz-javaslat. A mentett DWG visszaolvasva, térfogata ellenőrizve; a helyi címkekereső revízió- és hash-ellenőrzést végez. Teljes csomag: `A902_TV_R14_muhelyi_checkpoint.zip`.
+
+Az új rejtett szerkezetek becslése bruttó **126 946 Ft**, sávja **87 443–182 550 Ft**. Nem automatikus projektköltség-emelés: a korábbi asztaloscsomag tartalmával összevezetendő. A teljes lakás élő költség-Excelje változatlan. **Továbbra sincs gyártási kiadás:** fal-/panel-/TV-rögzítés, alsó3–4.front konfliktusa, teljes fényrendszer, helyszíni méretek/minták és műhelyi géppróba nyitott. Az R13 és korábbi revíziók megmaradtak.
+
 ## R05 — aktuális ár-, anyag- és render-egyeztetés (2026-10-27)
 ## R13 - TV-modul AutoCAD megmunkálási checkpoint (2026-10-28)
 

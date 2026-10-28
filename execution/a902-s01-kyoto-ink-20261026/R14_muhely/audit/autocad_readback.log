@@ -1,0 +1,75 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc13005KgIlD7).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.119.M.246)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor
+Isolating to regkey=ki14verifyfinal, userDataFolder=/tmp/ki14verifyfinal.
+
+INFO: Isolation create time: 329 ms.
+
+Version Number: X.119.M.246 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+Loading Modeler DLLs..
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Resources/Support/@en@/acad2027.LSP
+Command: 
+Command: 
+Command: 
+Command: (setvar "CMDECHO" 0)
+0
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID"))))
+<Selection set: 2>
+Command: (princ (list "KI_R14_SOLIDS" (sslength ki_s)))
+(KI_R14_SOLIDS 75)("KI_R14_SOLIDS" 75)
+Command: (setq ki_i 0 ki_ids nil)
+nil
+Command: (repeat (sslength ki_s) (setq ki_d (entget (ssname ki_s ki_i) '("KYOTO_INK"))) (setq ki_ids (cons (cdr (assoc 8 ki_d)) ki_ids)) (setq ki_i (1+ ki_i)))
+75
+Command: (princ (list "KI_R14_IDS" ki_ids))
+(KI_R14_IDS (KI12-TV01S-01 KI12-TV01S-02 KI12-TV01T-01 KI12-TV01T-02 KI12-TV01C-01 KI12-TV01P-01 KI12-TV01P-02 KI12-TV01P-03 KI12-TV01P-04 KI12-TV01P-05 KI12-TV01P-06 KI12-TV01P-07 KI12-TV01P-08 KI12-TV01P-09 KI12-TV01P-10 KI12-TV01F-01 KI12-TV01F-02 KI12-TV01H-01 KI12-TV02S-01 KI12-TV02S-02 KI12-TV02S-03 KI12-TV02S-04 KI12-TV02S-05 KI12-TV02S-06 KI12-TV02S-07 KI12-TV02S-08 KI12-TV02S-09 KI12-TV02S-10 KI12-TV02T1-01 KI12-TV02T2-01 KI12-TV02T2-02 KI12-TV02T2-03 KI12-TV02T2-04 KI12-TV02P1-01 KI12-TV02P2-01 KI12-TV02P2-02 KI12-TV02P2-03 KI12-TV02F1-01 KI12-TV02F2-01 KI12-TV02F2-02 KI12-TV02F2-03 KI12-TV02F2-04 KI12-TV02H1-01 KI12-TV02H2-01 KI12-TV02H2-02 KI12-TV02H2-03 KI12-TV02H2-04 KI12-TV02CAP-01 KI12-TV03P-01 KI12-TV03P-02 KI12-TV03P-03 KI12-TV03P-04 KI12-GAP-01 KI13-GAP-LOW-01 KI14-BAT-01 KI14-BAT-02 KI14-BAT-03 KI14-BAT-04 KI14-BAT-05 KI14-BAT-06 KI14-BAT-07 KI14-BAT-08 KI14-BAT-09 KI14-BAT-10 KI14-BAT-11 KI14-BAT-12 KI14-GAPBAT-01 KI14-GAPBAT-02 KI14-RAIL-01 KI14-RAIL-02 KI14-RAIL-03 KI14-RAIL-04 KI14-RAIL-05 KI14-RAIL-06 KI14-RAIL-07))("KI_R14_IDS" ("KI12-TV01S-01" "KI12-TV01S-02" "KI12-TV01T-01" "KI12-TV01T-02" "KI12-TV01C-01" "KI12-TV01P-01" "KI12-TV01P-02" "KI12-TV01P-03" "KI12-TV01P-04" "KI12-TV01P-05" "KI12-TV01P-06" "KI12-TV01P-07" "KI12-TV01P-08" "KI12-TV01P-09" "KI12-TV01P-10" "KI12-TV01F-01" "KI12-TV01F-02" "KI12-TV01H-01" "KI12-TV02S-01" "KI12-TV02S-02" "KI12-TV02S-03" "KI12-TV02S-04" "KI12-TV02S-05" "KI12-TV02S-06" "KI12-TV02S-07" "KI12-TV02S-08" "KI12-TV02S-09" "KI12-TV02S-10" "KI12-TV02T1-01" "KI12-TV02T2-01" "KI12-TV02T2-02" "KI12-TV02T2-03" "KI12-TV02T2-04" "KI12-TV02P1-01" "KI12-TV02P2-01" "KI12-TV02P2-02" "KI12-TV02P2-03" "KI12-TV02F1-01" "KI12-TV02F2-01" "KI12-TV02F2-02" "KI12-TV02F2-03" "KI12-TV02F2-04" "KI12-TV02H1-01" "KI12-TV02H2-01" "KI12-TV02H2-02" "KI12-TV02H2-03" "KI12-TV02H2-04" "KI12-TV02CAP-01" "KI12-TV03P-01" "KI12-TV03P-02" "KI12-TV03P-03" "KI12-TV03P-04" "KI12-GAP-01" "KI13-GAP-LOW-01" "KI14-BAT-01" "KI14-BAT-02" "KI14-BAT-03" "KI14-BAT-04" "KI14-BAT-05" "KI14-BAT-06" "KI14-BAT-07" "KI14-BAT-08" "KI14-BAT-09" "KI14-BAT-10" "KI14-BAT-11" "KI14-BAT-12" "KI14-GAPBAT-01" "KI14-GAPBAT-02" "KI14-RAIL-01" "KI14-RAIL-02" "KI14-RAIL-03" "KI14-RAIL-04" "KI14-RAIL-05" "KI14-RAIL-06" "KI14-RAIL-07"))
+Command: _.AUDIT
+Fix any errors detected? [Yes/No] <N>: _N
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 0       Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Command: _.MASSPROP
+Select objects: _ALL
+75 found
+Select objects: 
+ ----------------   SOLIDS    ---------------- 
+Mass:                    372043079.3599 
+Volume:                  372043079.3599 
+Bounding box:         X: 0.0000  --  3600.0000 
+                      Y: -21.0000  --  418.0000 
+                      Z: 150.0000  --  2880.0000 
+Centroid:             X: 1463.3277 
+                      Y: 240.6625 
+                      Z: 1240.5803 
+Moments of inertia:   X: 8.7831E+14  
+                      Y: 2103970476126860  
+                      Z: 1286968414844409  
+Products of inertia: XY: -1.5062E+14  
+                     YZ: -1.2307E+14  
+                     ZX: -6.0654E+14  
+Radii of gyration:    X: 1536.4771 
+                      Y: 2378.0622 
+                      Z: 1859.8903 
+Principal moments and X-Y-Z directions about centroid:
+                      I: 2.6084E+14 along [0.9494 0.0313 -0.3126]
+                      J: 7.3644E+14 along [-0.0520 0.9970 -0.0581]
+                      K: 4.9036E+14 along [0.3099 0.0714 0.9481]
+Write analysis to a file? [Yes/No] <N>: _N
+Command: _.QUIT
+_Y
+Really want to discard all changes to drawing? <N> _Y

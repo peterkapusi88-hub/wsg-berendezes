@@ -1,0 +1,706 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc12993MsDCMW).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.119.M.246)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor
+Isolating to regkey=ki14viewsfinal, userDataFolder=/tmp/ki14viewsfinal.
+
+INFO: Isolation create time: 168 ms.
+
+Version Number: X.119.M.246 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+Loading Modeler DLLs..
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Resources/Support/@en@/acad2027.LSP
+Command: 
+Command: 
+Command: 
+Command: (setvar "CMDECHO" 0)
+0
+Command: (setvar "FILEDIA" 0)
+0
+Command: (setvar "OSMODE" 0)
+0
+Command: (setvar "FACETRES" 5)
+5
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01S-01"))))
+<Selection set: 2>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01S-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01S-02"))))
+<Selection set: 5>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01S-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01T-01"))))
+<Selection set: 8>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01T-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01T-02"))))
+<Selection set: b>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01T-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01C-01"))))
+<Selection set: e>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01C-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-01"))))
+<Selection set: 11>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-02"))))
+<Selection set: 14>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-03"))))
+<Selection set: 17>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-04"))))
+<Selection set: 1a>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-04.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-05"))))
+<Selection set: 1d>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-05.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-06"))))
+<Selection set: 20>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-06.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-07"))))
+<Selection set: 23>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-07.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-08"))))
+<Selection set: 26>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-08.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-09"))))
+<Selection set: 29>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-09.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-10"))))
+<Selection set: 2c>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01P-10.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-01"))))
+<Selection set: 2f>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01F-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-02"))))
+<Selection set: 32>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01F-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01H-01"))))
+<Selection set: 35>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV01H-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-01"))))
+<Selection set: 38>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-02"))))
+<Selection set: 3b>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-03"))))
+<Selection set: 3e>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-04"))))
+<Selection set: 41>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-04.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-05"))))
+<Selection set: 44>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-05.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-06"))))
+<Selection set: 47>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-06.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-07"))))
+<Selection set: 4a>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-07.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-08"))))
+<Selection set: 4d>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-08.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-09"))))
+<Selection set: 50>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-09.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-10"))))
+<Selection set: 53>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02S-10.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T1-01"))))
+<Selection set: 56>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02T1-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-01"))))
+<Selection set: 59>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02T2-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-02"))))
+<Selection set: 5c>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02T2-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-03"))))
+<Selection set: 5f>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02T2-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-04"))))
+<Selection set: 62>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02T2-04.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P1-01"))))
+<Selection set: 65>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02P1-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-01"))))
+<Selection set: 68>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02P2-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-02"))))
+<Selection set: 6b>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02P2-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-03"))))
+<Selection set: 6e>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02P2-03.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F1-01"))))
+<Selection set: 71>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02F1-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-01"))))
+<Selection set: 74>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02F2-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-02"))))
+<Selection set: 77>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02F2-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-03"))))
+<Selection set: 7a>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02F2-03.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-04"))))
+<Selection set: 7d>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02F2-04.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H1-01"))))
+<Selection set: 80>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02H1-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-01"))))
+<Selection set: 83>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02H2-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-02"))))
+<Selection set: 86>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02H2-02.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-03"))))
+<Selection set: 89>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02H2-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-04"))))
+<Selection set: 8c>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02H2-04.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02CAP-01"))))
+<Selection set: 8f>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV02CAP-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-01"))))
+<Selection set: 92>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV03P-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-02"))))
+<Selection set: 95>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV03P-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-03"))))
+<Selection set: 98>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV03P-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-04"))))
+<Selection set: 9b>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-TV03P-04.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-GAP-01"))))
+<Selection set: 9e>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI12-GAP-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI13-GAP-LOW-01"))))
+<Selection set: a1>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI13-GAP-LOW-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-01"))))
+<Selection set: a4>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-02"))))
+<Selection set: a7>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-03"))))
+<Selection set: aa>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-03.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-04"))))
+<Selection set: ad>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-04.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-05"))))
+<Selection set: b0>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-05.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-06"))))
+<Selection set: b3>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-06.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-07"))))
+<Selection set: b6>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-07.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-08"))))
+<Selection set: b9>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-08.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-09"))))
+<Selection set: bc>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-09.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-10"))))
+<Selection set: bf>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-10.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-11"))))
+<Selection set: c2>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-11.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-12"))))
+<Selection set: c5>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-BAT-12.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-GAPBAT-01"))))
+<Selection set: c8>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-GAPBAT-01.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-GAPBAT-02"))))
+<Selection set: cb>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-GAPBAT-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-01"))))
+<Selection set: ce>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-01.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-02"))))
+<Selection set: d1>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-02.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-03"))))
+<Selection set: d4>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-03.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-04"))))
+<Selection set: d7>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-04.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-05"))))
+<Selection set: da>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-05.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-06"))))
+<Selection set: dd>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-06.stl")
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-07"))))
+<Selection set: e0>
+Command: (command "_.STLOUT" ki_s "" "_Y" "/tmp/ki14_stls/KI14-RAIL-07.stl").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-01"))))
+<Selection set: e3>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(1.5 -12 551.5) -100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-02"))))
+<Selection set: e6>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(718.5 -12 551.5) 100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F1-01"))))
+<Selection set: e9>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(1.5 -12 151.5) -100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00.
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-01"))))
+<Selection set: ec>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(841.5 -12 151.5) -100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-02"))))
+<Selection set: ef>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -680 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-03"))))
+<Selection set: f2>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -680 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-04"))))
+<Selection set: f5>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(2911.5 -12 151.5) -100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (entmake '((0 . "LAYER") (2 . "KI_ANNO") (70 . 0) (62 . 7)))
+nil
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 0 3220 900.0) (40 . 55) (1 . "KYOTO INK / TV R14 / SZERELESI NEZET") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 0 3220 900.0) (40 . 55) (1 . "KYOTO INK / TV R14 / SZERELESI NEZET") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 0 3130 900.0) (40 . 27) (1 . "75 LAP / 579 FURAT | 3-4 FRONT KIEMELVE, NEM UZEMI NYITAS") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 0 3130 900.0) (40 . 27) (1 . "75 LAP / 579 FURAT | 3-4 FRONT KIEMELVE, NEM UZEMI NYITAS") (210 0.0 -1.0 0.0)).
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 0 3070 900.0) (40 . 24) (1 . "TERV - NEM GYARTASI KIADAS | Minden lap sajat ID-retegen") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 0 3070 900.0) (40 . 24) (1 . "TERV - NEM GYARTASI KIADAS | Minden lap sajat ID-retegen") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 850 2920 900.0) (40 . 21) (1 . "KI12-TV03P-01") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 850 2920 900.0) (40 . 21) (1 . "KI12-TV03P-01") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 1540 2920 900.0) (40 . 21) (1 . "KI12-TV03P-02") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 1540 2920 900.0) (40 . 21) (1 . "KI12-TV03P-02") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 2230 2920 900.0) (40 . 21) (1 . "KI12-TV03P-03") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 2230 2920 900.0) (40 . 21) (1 . "KI12-TV03P-03") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 2920 2920 900.0) (40 . 21) (1 . "KI12-TV03P-04") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 2920 2920 900.0) (40 . 21) (1 . "KI12-TV03P-04") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 1.5 45 900.0) (40 . 21) (1 . "KI12-TV02F1-01") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 1.5 45 900.0) (40 . 21) (1 . "KI12-TV02F1-01") (210 0.0 -1.0 0.0)).
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 841.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-01") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 841.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-01") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 1531.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-02") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 1531.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-02") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 2221.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-03") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 2221.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-03") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 2911.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-04") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 2911.5 45 900.0) (40 . 21) (1 . "KI12-TV02F2-04") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 -430 1960 900.0) (40 . 25) (1 . "TV01 / 10 POLC") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 -430 1960 900.0) (40 . 25) (1 . "TV01 / 10 POLC") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 -430 1880 900.0) (40 . 25) (1 . "2 x 5 PANT") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 -430 1880 900.0) (40 . 25) (1 . "2 x 5 PANT") (210 0.0 -1.0 0.0)).
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 1520 -80 900.0) (40 . 24) (1 . "3-4: TOL?AJT?-VALTOZAT KULON TERVEN") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 1520 -80 900.0) (40 . 24) (1 . "3-4: TOL?AJT?-VALTOZAT KULON TERVEN") (210 0.0 -1.0 0.0))
+Command: (command "_.VPOINT" '(1 -2 1.1))
+nil
+Command: (command "_.ZOOM" "_E")
+nil
+Command: (command "_.SHADEMODE" "_G")
+nil
+Command: (command "_.-VIEW" "_S" "KI_R14_BELSO")
+nil
+Command: (command "_.SAVEAS" "2018" "/tmp/TV_R14_belso_final.dwg").
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01S-01"))))
+<Selection set: f8>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(-100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01S-02"))))
+<Selection set: fb>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01T-01"))))
+<Selection set: fe>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 180))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01T-02"))))
+<Selection set: 101>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 180))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01C-01"))))
+<Selection set: 104>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -180 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-01"))))
+<Selection set: 107>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-02"))))
+<Selection set: 10a>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-03"))))
+<Selection set: 10d>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-04"))))
+<Selection set: 110>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-05"))))
+<Selection set: 113>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-06"))))
+<Selection set: 116>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-07"))))
+<Selection set: 119>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-08"))))
+<Selection set: 11c>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-09"))))
+<Selection set: 11f>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01P-10"))))
+<Selection set: 122>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-01"))))
+<Selection set: 125>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(1.5 -12 551.5) 100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00.
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01F-02"))))
+<Selection set: 129>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(718.5 -12 551.5) -100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV01H-01"))))
+<Selection set: 12d>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-01"))))
+<Selection set: 130>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(-100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-02"))))
+<Selection set: 133>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-03"))))
+<Selection set: 136>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-04"))))
+<Selection set: 139>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-05"))))
+<Selection set: 13c>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-06"))))
+<Selection set: 13f>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-07"))))
+<Selection set: 142>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-08"))))
+<Selection set: 145>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-09"))))
+<Selection set: 148>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02S-10"))))
+<Selection set: 14b>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(100 0 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T1-01"))))
+<Selection set: 14e>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 -120))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-01"))))
+<Selection set: 151>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 -120))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-02"))))
+<Selection set: 154>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 -120))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-03"))))
+<Selection set: 157>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 -120))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02T2-04"))))
+<Selection set: 15a>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 -120))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P1-01"))))
+<Selection set: 15d>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-01"))))
+<Selection set: 160>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-02"))))
+<Selection set: 163>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02P2-03"))))
+<Selection set: 166>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -250 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F1-01"))))
+<Selection set: 169>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(1.5 -12 151.5) 100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-01"))))
+<Selection set: 16d>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(841.5 -12 151.5) 100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-02"))))
+<Selection set: 171>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 680 0))
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-03"))))
+<Selection set: 175>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 680 0))
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02F2-04"))))
+<Selection set: 179>
+Command: (command "_.ROTATE3D" ki_s "" "_Z" '(2911.5 -12 151.5) 100)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0.00.
+nil
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 -850 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H1-01"))))
+<Selection set: 17d>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-01"))))
+<Selection set: 180>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-02"))))
+<Selection set: 183>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-03"))))
+<Selection set: 186>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02H2-04"))))
+<Selection set: 189>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV02CAP-01"))))
+<Selection set: 18c>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 0 180))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-01"))))
+<Selection set: 18f>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-02"))))
+<Selection set: 192>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-03"))))
+<Selection set: 195>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-TV03P-04"))))
+<Selection set: 198>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI12-GAP-01"))))
+<Selection set: 19b>
+Command: (command "_.MOVE" ki_s "" '(0 0 0) '(0 450 0))
+nil
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI13-GAP-LOW-01"))))
+<Selection set: 19e>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-01"))))
+<Selection set: 1a0>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-02"))))
+<Selection set: 1a2>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-03"))))
+<Selection set: 1a4>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-04"))))
+<Selection set: 1a6>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-05"))))
+<Selection set: 1a8>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-06"))))
+<Selection set: 1aa>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-07"))))
+<Selection set: 1ac>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-08"))))
+<Selection set: 1ae>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-09"))))
+<Selection set: 1b0>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-10"))))
+<Selection set: 1b2>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-11"))))
+<Selection set: 1b4>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-BAT-12"))))
+<Selection set: 1b6>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-GAPBAT-01"))))
+<Selection set: 1b8>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-GAPBAT-02"))))
+<Selection set: 1ba>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-01"))))
+<Selection set: 1bc>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-02"))))
+<Selection set: 1be>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-03"))))
+<Selection set: 1c0>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-04"))))
+<Selection set: 1c2>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-05"))))
+<Selection set: 1c4>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-06"))))
+<Selection set: 1c6>
+Command: (setq ki_s (ssget "_X" '((0 . "3DSOLID") (8 . "KI14-RAIL-07"))))
+<Selection set: 1c8>
+Command: (command "_.ERASE" (ssget "_X" '((8 . "KI_ANNO"))) "")
+nil
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 0 3300 900.0) (40 . 48) (1 . "KYOTO INK / TV R14 / ROBBANTOTT SZERELESI NEZET") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 0 3300 900.0) (40 . 48) (1 . "KYOTO INK / TV R14 / ROBBANTOTT SZERELESI NEZET") (210 0.0 -1.0 0.0))
+Command: (entmake '((0 . "TEXT") (8 . "KI_ANNO") (10 0 3210 900.0) (40 . 27) (1 . "Alkatreszek kiemelve. Ez a helyzet nem be?p?t?si m?ret.") (210 0.0 -1.0 0.0)))
+((0 . "TEXT") (8 . "KI_ANNO") (10 0 3210 900.0) (40 . 27) (1 . "Alkatreszek kiemelve. Ez a helyzet nem be?p?t?si m?ret.") (210 0.0 -1.0 0.0))
+Command: (command "_.ZOOM" "_E")
+nil
+Command: (command "_.-VIEW" "_S" "KI_R14_ROBBANTOTT")
+nil
+Command: _.AUDIT
+Fix any errors detected? [Yes/No] <N>: _N
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 0       Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Command: (command "_.SAVEAS" "2018" "/tmp/TV_R14_robbantott_final.dwg").
+nil
+Command: _.QUIT
+_Y
+Really want to discard all changes to drawing? <N> _Y

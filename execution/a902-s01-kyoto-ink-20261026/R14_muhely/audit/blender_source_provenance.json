@@ -1,0 +1,2559 @@
+{
+  "source_DWG": "rajzok/TV_R14_zart.dwg",
+  "source_DWG_sha256": "e9f0d3ab621e5464b6f073c3ed00da78f88dd0d3f92191f5616d7f8e19122a1b",
+  "exports": [
+    {
+      "part": "KI12-TV01S-01",
+      "triangles": 3468,
+      "sha256": "d95e055c189a34ca2164f63da0df91e2edd8160f5ab822f88ff816843a852ba8",
+      "raw_bbox_mm": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          18.000001907348633,
+          382.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          18.000001907348633,
+          382.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01S-02",
+      "triangles": 3468,
+      "sha256": "ae8ebb7ff78bc17133eb13742dce259cebdfbec10005f71dab53c8c6ac6e3d31",
+      "raw_bbox_mm": [
+        [
+          702.0,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          720.0,
+          382.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          702.0,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          720.0,
+          382.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01T-01",
+      "triangles": 876,
+      "sha256": "99706a9801e28d26e4f1f879d2ef79330993cb0b719d82f6bcde28a83b1cf544",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          702.0,
+          382.0,
+          568.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          550.0
+        ],
+        [
+          702.0,
+          382.0,
+          568.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01T-02",
+      "triangles": 876,
+      "sha256": "65668c53c5e55cb9d1e05c17166fc8fb3c8e18ce3faeeed56ebdc0a896cfe88f",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          2862.0
+        ],
+        [
+          702.0,
+          382.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          2862.0
+        ],
+        [
+          702.0,
+          382.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01C-01",
+      "triangles": 3468,
+      "sha256": "19bcaaf64c299e6c9a8d627dd99a53e737edb60f95cebea54411751a6f20d577",
+      "raw_bbox_mm": [
+        [
+          351.0,
+          9.999999974752427e-07,
+          568.0
+        ],
+        [
+          369.0,
+          374.0,
+          2862.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          351.0,
+          9.999999974752427e-07,
+          568.0
+        ],
+        [
+          369.0,
+          374.0,
+          2862.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-01",
+      "triangles": 12,
+      "sha256": "cbc789e8803c6331f7986d637a50cb821d45b61b086a40b57bee1e3475c1f513",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          935.0
+        ],
+        [
+          350.0,
+          340.0,
+          953.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          935.0
+        ],
+        [
+          350.0,
+          340.0,
+          953.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-02",
+      "triangles": 12,
+      "sha256": "761cd5d05f5423690537a1ef916db258c832e287a96cb85c81af133db7803224",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          1320.0
+        ],
+        [
+          350.0,
+          340.0,
+          1338.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          1320.0
+        ],
+        [
+          350.0,
+          340.0,
+          1338.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-03",
+      "triangles": 12,
+      "sha256": "74a779337079f97be484e7e724489bacc75635b15be5589c6ab4565cc55ce7ce",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          1705.0
+        ],
+        [
+          350.0,
+          340.0,
+          1723.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          1705.0
+        ],
+        [
+          350.0,
+          340.0,
+          1723.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-04",
+      "triangles": 12,
+      "sha256": "7fd036911f3418c0ec2aa37c22d3780f99d3ebb187ac6b6923be2017e78e5239",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          2090.0
+        ],
+        [
+          350.0,
+          340.0,
+          2108.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          2090.0
+        ],
+        [
+          350.0,
+          340.0,
+          2108.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-05",
+      "triangles": 12,
+      "sha256": "41e9b62ea15b6352fbd2bade3354a132c1a96692ccf83e531b52c0183a6c2274",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          2475.0
+        ],
+        [
+          350.0,
+          340.0,
+          2493.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          2475.0
+        ],
+        [
+          350.0,
+          340.0,
+          2493.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-06",
+      "triangles": 12,
+      "sha256": "f91165ab8a26b4359be04866dfd1c3780caeab905dea9430591de4c085fa35ff",
+      "raw_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          935.0
+        ],
+        [
+          701.0,
+          340.0,
+          953.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          935.0
+        ],
+        [
+          701.0,
+          340.0,
+          953.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-07",
+      "triangles": 12,
+      "sha256": "016445ff20abd4716019dd46476df0c56bd3ca3d67b5ad4aa011858ce3a6f614",
+      "raw_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          1320.0
+        ],
+        [
+          701.0,
+          340.0,
+          1338.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          1320.0
+        ],
+        [
+          701.0,
+          340.0,
+          1338.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-08",
+      "triangles": 12,
+      "sha256": "63db030db66fdaa2694e5b781d1ae2b7b989e31dae46331fd37f067d0ea8bf47",
+      "raw_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          1705.0
+        ],
+        [
+          701.0,
+          340.0,
+          1723.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          1705.0
+        ],
+        [
+          701.0,
+          340.0,
+          1723.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-09",
+      "triangles": 12,
+      "sha256": "7bb86a43bde0a795058d177542dcad4fc1df6c4fdac3a47e75af4797ffe22776",
+      "raw_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          2090.0
+        ],
+        [
+          701.0,
+          340.0,
+          2108.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          2090.0
+        ],
+        [
+          701.0,
+          340.0,
+          2108.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01P-10",
+      "triangles": 12,
+      "sha256": "18ce1f1dae96d165296b7c35f5bb11798d8ff44914f43777a650d109462dfb4b",
+      "raw_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          2475.0
+        ],
+        [
+          701.0,
+          340.0,
+          2493.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          370.0,
+          20.0,
+          2475.0
+        ],
+        [
+          701.0,
+          340.0,
+          2493.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01F-01",
+      "triangles": 1452,
+      "sha256": "7a2c0779c3002ca4488b756a06f88b2857a982725226f6ac4e56d9b70bbc13d4",
+      "raw_bbox_mm": [
+        [
+          1.5,
+          9.999999974752427e-07,
+          551.5
+        ],
+        [
+          358.5,
+          18.000001907348633,
+          2878.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1.5,
+          -21.000000000000004,
+          551.5
+        ],
+        [
+          358.5,
+          -2.999999092651368,
+          2878.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01F-02",
+      "triangles": 1452,
+      "sha256": "52b313baf91e9fe8a13ed45d84305a17f3f0d49b5af39c0d50f790562581b3f0",
+      "raw_bbox_mm": [
+        [
+          361.5,
+          9.999999974752427e-07,
+          551.5
+        ],
+        [
+          718.5,
+          18.000001907348633,
+          2878.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          361.5,
+          -21.000000000000004,
+          551.5
+        ],
+        [
+          718.5,
+          -2.999999092651368,
+          2878.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV01H-01",
+      "triangles": 1412,
+      "sha256": "8a8b97a5a287d1079dc684cc092e064903d7264eb7f9cb8c163d2c1b56f2518c",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          374.0,
+          569.0
+        ],
+        [
+          701.0,
+          382.0,
+          2861.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          374.0,
+          569.0
+        ],
+        [
+          701.0,
+          382.0,
+          2861.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-01",
+      "triangles": 1740,
+      "sha256": "cb349f708fef726e1c9d27c91d86eb1aba28f2affd2e029a80f8c6404f9cfdd7",
+      "raw_bbox_mm": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          18.000001907348633,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          9.999999974752427e-07,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          18.000001907348633,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-02",
+      "triangles": 1740,
+      "sha256": "2f309df05a0ed024f0e57e4d3992956ad3b456abfa7d1cad4b59939d4c1be39e",
+      "raw_bbox_mm": [
+        [
+          702.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          720.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          702.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          720.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-03",
+      "triangles": 1740,
+      "sha256": "74f0c3c682dd52ac959c3de0d070d125cf384cd733dc7e2c8574253aa1c0c3cc",
+      "raw_bbox_mm": [
+        [
+          840.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          858.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          840.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          858.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-04",
+      "triangles": 1356,
+      "sha256": "7acf7a6872e9791cfecea43466fb7ad68ceaaf3c6db3e629e3dffd705c455b3c",
+      "raw_bbox_mm": [
+        [
+          1512.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1530.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1512.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1530.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-05",
+      "triangles": 1356,
+      "sha256": "89001a4386b5759864e195991efe26e1357f91b4778b89a6096d0c9ffaec4573",
+      "raw_bbox_mm": [
+        [
+          1530.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1548.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1530.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1548.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-06",
+      "triangles": 1356,
+      "sha256": "d010893678b5529d020db24a0ab2ab07f6d87dbac7b491019722e362f6b77a9f",
+      "raw_bbox_mm": [
+        [
+          2202.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2220.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2202.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2220.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-07",
+      "triangles": 1356,
+      "sha256": "cd023c1d8b2c69195f515a438d902f6849394ed3e843d6b30b76b1e087aa05c9",
+      "raw_bbox_mm": [
+        [
+          2220.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2238.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2220.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2238.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-08",
+      "triangles": 1356,
+      "sha256": "28566ab2c5a5eb0bf93aeea3557aa3d13a3115754c403d77e722f542812a6cfb",
+      "raw_bbox_mm": [
+        [
+          2892.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2910.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2892.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2910.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-09",
+      "triangles": 1740,
+      "sha256": "6b65a9b25fadb2532ef8bd0ce86a9277551f16be4cb70de1059bde225da28dbf",
+      "raw_bbox_mm": [
+        [
+          2910.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2928.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2910.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2928.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02S-10",
+      "triangles": 1548,
+      "sha256": "9a18683f589e529e37b2754e72482d078ab9cae465ef120b24ae2f5923fa9067",
+      "raw_bbox_mm": [
+        [
+          3582.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          3600.0,
+          382.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          3582.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          3600.0,
+          382.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02T1-01",
+      "triangles": 588,
+      "sha256": "7e99d28b59d01343940f11e1aad08fd51ea6ecff30a103a00483a79d81baecf7",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          702.0,
+          382.0,
+          168.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          702.0,
+          382.0,
+          168.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02T2-01",
+      "triangles": 588,
+      "sha256": "86e9246083bba9bf69d31bb6bdb55b2e885a3d1a17bd4c31a92798bd859995f1",
+      "raw_bbox_mm": [
+        [
+          858.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1512.0,
+          382.0,
+          168.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          858.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          1512.0,
+          382.0,
+          168.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02T2-02",
+      "triangles": 588,
+      "sha256": "ed3eb812d1f312a1d26c368bd0b52a2bdf9e596bb52317b1f45c920db68d6af9",
+      "raw_bbox_mm": [
+        [
+          1548.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2202.0,
+          382.0,
+          168.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1548.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2202.0,
+          382.0,
+          168.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02T2-03",
+      "triangles": 588,
+      "sha256": "30224bde9aa6ca701709b0ac83fc1f1e2fbbbfff07b7381f996945b6504259e3",
+      "raw_bbox_mm": [
+        [
+          2238.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2892.0,
+          382.0,
+          168.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2238.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          2892.0,
+          382.0,
+          168.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02T2-04",
+      "triangles": 588,
+      "sha256": "0f09e5ac431ba2d3bc1769a5f0b3171e7a31668c3170c8f8ff334a4543d6c966",
+      "raw_bbox_mm": [
+        [
+          2928.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          3582.0,
+          382.0,
+          168.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2928.0,
+          9.999999974752427e-07,
+          150.0
+        ],
+        [
+          3582.0,
+          382.0,
+          168.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02P1-01",
+      "triangles": 12,
+      "sha256": "84e6121f58eb4e51382ca333b448e1a8a411549699ced8c879aa864dbf9020f3",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          341.0
+        ],
+        [
+          701.0,
+          340.0,
+          359.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          20.0,
+          341.0
+        ],
+        [
+          701.0,
+          340.0,
+          359.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02P2-01",
+      "triangles": 12,
+      "sha256": "c139aea0ea6a45e6abc7901308635d5de045dd0bdc5786a9f4451bc331ad966a",
+      "raw_bbox_mm": [
+        [
+          1549.0,
+          20.0,
+          341.0
+        ],
+        [
+          2201.0,
+          340.0,
+          359.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1549.0,
+          20.0,
+          341.0
+        ],
+        [
+          2201.0,
+          340.0,
+          359.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02P2-02",
+      "triangles": 12,
+      "sha256": "45ec41bb58524d48d9544cfca73a4f8709912cc196dba6166de1ced690440088",
+      "raw_bbox_mm": [
+        [
+          2239.0,
+          20.0,
+          341.0
+        ],
+        [
+          2891.0,
+          340.0,
+          359.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2239.0,
+          20.0,
+          341.0
+        ],
+        [
+          2891.0,
+          340.0,
+          359.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02P2-03",
+      "triangles": 12,
+      "sha256": "6174b97b99424095123876c3066ccb78f26e28aab53f6085ba57f83d4da03014",
+      "raw_bbox_mm": [
+        [
+          2929.0,
+          20.0,
+          341.0
+        ],
+        [
+          3581.0,
+          340.0,
+          359.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2929.0,
+          20.0,
+          341.0
+        ],
+        [
+          3581.0,
+          340.0,
+          359.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02F1-01",
+      "triangles": 660,
+      "sha256": "c68ee6e1b7a9a759cca1983ef403b8543a046b3955d1ba14a995d17d2bc14efd",
+      "raw_bbox_mm": [
+        [
+          1.5,
+          9.999999974752427e-07,
+          151.5
+        ],
+        [
+          718.5,
+          18.000001907348633,
+          548.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1.5,
+          -21.000000000000004,
+          151.5
+        ],
+        [
+          718.5,
+          -2.999999092651368,
+          548.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02F2-01",
+      "triangles": 660,
+      "sha256": "4a172fb174bf00dae5025f7c3d8bfb9d38087d07c3f668a95b6869a9f89d99ad",
+      "raw_bbox_mm": [
+        [
+          841.5,
+          9.999999974752427e-07,
+          151.5
+        ],
+        [
+          1528.5,
+          18.000001907348633,
+          548.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          841.5,
+          -21.000000000000004,
+          151.5
+        ],
+        [
+          1528.5,
+          -2.999999092651368,
+          548.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02F2-02",
+      "triangles": 12,
+      "sha256": "50f49dcdb59a726029e191a986fc31a88711a5871ad0784452969056e01b9e6f",
+      "raw_bbox_mm": [
+        [
+          1531.5,
+          9.999999974752427e-07,
+          151.5
+        ],
+        [
+          2218.5,
+          18.000001907348633,
+          548.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1531.5,
+          -21.000000000000004,
+          151.5
+        ],
+        [
+          2218.5,
+          -2.999999092651368,
+          548.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02F2-03",
+      "triangles": 12,
+      "sha256": "5e9c97460714ac9f8b977506a85459e7d7b31d70390705622db16cd905c75ebf",
+      "raw_bbox_mm": [
+        [
+          2221.5,
+          9.999999974752427e-07,
+          151.5
+        ],
+        [
+          2908.5,
+          18.000001907348633,
+          548.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2221.5,
+          -21.000000000000004,
+          151.5
+        ],
+        [
+          2908.5,
+          -2.999999092651368,
+          548.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02F2-04",
+      "triangles": 660,
+      "sha256": "6676b78cd120f9da49351a6473eb502c411aac9c2e821dd7817fee75e07f0a36",
+      "raw_bbox_mm": [
+        [
+          2911.5,
+          9.999999974752427e-07,
+          151.5
+        ],
+        [
+          3598.5,
+          18.000001907348633,
+          548.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        21.000001,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2911.5,
+          -21.000000000000004,
+          151.5
+        ],
+        [
+          3598.5,
+          -2.999999092651368,
+          548.5
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02H1-01",
+      "triangles": 612,
+      "sha256": "25eb2f234b91e481f11f56dbf4509e3db59b83bd32ba90c0ffff29c58ae98fb7",
+      "raw_bbox_mm": [
+        [
+          19.0,
+          374.0,
+          169.0
+        ],
+        [
+          701.0,
+          382.0,
+          531.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          19.0,
+          374.0,
+          169.0
+        ],
+        [
+          701.0,
+          382.0,
+          531.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02H2-01",
+      "triangles": 796,
+      "sha256": "888e838a0f21baea5ec99176ab5123d2b9523dd5fafe4c495e3555256a2c18b6",
+      "raw_bbox_mm": [
+        [
+          859.0,
+          374.0,
+          169.0
+        ],
+        [
+          1511.0,
+          382.0,
+          531.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          859.0,
+          374.0,
+          169.0
+        ],
+        [
+          1511.0,
+          382.0,
+          531.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02H2-02",
+      "triangles": 612,
+      "sha256": "12e5b2bf9cd6d5e2abc9c529912adf41a66d4bc59aa7d1a4d76eca1b273e9465",
+      "raw_bbox_mm": [
+        [
+          1549.0,
+          374.0,
+          169.0
+        ],
+        [
+          2201.0,
+          382.0,
+          531.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1549.0,
+          374.0,
+          169.0
+        ],
+        [
+          2201.0,
+          382.0,
+          531.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02H2-03",
+      "triangles": 612,
+      "sha256": "1b42a6ee857619e1a3be9814ddc93476a0fd6472523dd71b0a018ee528fc0a4e",
+      "raw_bbox_mm": [
+        [
+          2239.0,
+          374.0,
+          169.0
+        ],
+        [
+          2891.0,
+          382.0,
+          531.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2239.0,
+          374.0,
+          169.0
+        ],
+        [
+          2891.0,
+          382.0,
+          531.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02H2-04",
+      "triangles": 612,
+      "sha256": "e8108037f02740caad58f23cac3985ce2d953ea6354c564f23e13d8e63e913e4",
+      "raw_bbox_mm": [
+        [
+          2929.0,
+          374.0,
+          169.0
+        ],
+        [
+          3581.0,
+          382.0,
+          531.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2929.0,
+          374.0,
+          169.0
+        ],
+        [
+          3581.0,
+          382.0,
+          531.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV02CAP-01",
+      "triangles": 2892,
+      "sha256": "365d9bc298095e32cefbbdc2a478cac29d6982a4d2dd53f92171bd35cc5df82e",
+      "raw_bbox_mm": [
+        [
+          1.0000001111620804e-06,
+          9.999999974752427e-07,
+          532.0
+        ],
+        [
+          3600.0,
+          382.0,
+          550.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1.0000001111620804e-06,
+          9.999999974752427e-07,
+          532.0
+        ],
+        [
+          3600.0,
+          382.0,
+          550.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV03P-01",
+      "triangles": 12,
+      "sha256": "450566f37842ab230b41faf30251a0868d2673d992bd027d96f24af9a9b74ca7",
+      "raw_bbox_mm": [
+        [
+          841.5,
+          382.0,
+          550.0
+        ],
+        [
+          1528.5,
+          400.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          841.5,
+          382.0,
+          550.0
+        ],
+        [
+          1528.5,
+          400.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV03P-02",
+      "triangles": 12,
+      "sha256": "bc5ab8e9966853de637a325b64441d1589d7c62323c79989bfd0d273850c177c",
+      "raw_bbox_mm": [
+        [
+          1531.5,
+          382.0,
+          550.0
+        ],
+        [
+          2218.5,
+          400.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1531.5,
+          382.0,
+          550.0
+        ],
+        [
+          2218.5,
+          400.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV03P-03",
+      "triangles": 12,
+      "sha256": "628d2ef9244185341033ba1e772a6a168ccb5a7578ee2bbc5903ead72a1c54ec",
+      "raw_bbox_mm": [
+        [
+          2221.5,
+          382.0,
+          550.0
+        ],
+        [
+          2908.5,
+          400.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2221.5,
+          382.0,
+          550.0
+        ],
+        [
+          2908.5,
+          400.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-TV03P-04",
+      "triangles": 12,
+      "sha256": "31d46d3efb80a0beec4d1b670b68432c037f33f0b01b15e0f6c9eda2466c7b23",
+      "raw_bbox_mm": [
+        [
+          2911.5,
+          382.0,
+          550.0
+        ],
+        [
+          3598.5,
+          400.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2911.5,
+          382.0,
+          550.0
+        ],
+        [
+          3598.5,
+          400.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI12-GAP-01",
+      "triangles": 12,
+      "sha256": "ad1c98de6b473d3a6a2db69534abc5c5ed9eb252354a987b38c352752df0960f",
+      "raw_bbox_mm": [
+        [
+          720.0,
+          400.0,
+          550.0
+        ],
+        [
+          840.0,
+          418.0,
+          2880.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          720.0,
+          400.0,
+          550.0
+        ],
+        [
+          840.0,
+          418.0,
+          2880.0
+        ]
+      ]
+    },
+    {
+      "part": "KI13-GAP-LOW-01",
+      "triangles": 396,
+      "sha256": "dd5d18cd5a3343801ab1fdb57318fdf744bf578e3f9588b8dd7805f324d8b082",
+      "raw_bbox_mm": [
+        [
+          721.5,
+          350.0,
+          151.5
+        ],
+        [
+          838.5,
+          368.0,
+          531.5
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          721.5,
+          350.0,
+          151.5
+        ],
+        [
+          838.5,
+          368.0,
+          531.5
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-01",
+      "triangles": 1384,
+      "sha256": "2d66ef7cf03f88a001d03e2ae65cfad2fd887955f97beaa4514daa4d380b01c4",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          356.0,
+          588.0
+        ],
+        [
+          36.0,
+          374.0,
+          2842.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          356.0,
+          588.0
+        ],
+        [
+          36.0,
+          374.0,
+          2842.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-02",
+      "triangles": 1384,
+      "sha256": "597ac04335a226ae2bf2a3a0999ba467b9538801ca24ec7e533d814675570ca8",
+      "raw_bbox_mm": [
+        [
+          684.0,
+          356.0,
+          588.0
+        ],
+        [
+          702.0,
+          374.0,
+          2842.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          684.0,
+          356.0,
+          588.0
+        ],
+        [
+          702.0,
+          374.0,
+          2842.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-03",
+      "triangles": 600,
+      "sha256": "054711d0535765eb9178be49c03445f5cc5de3e1f28ee9bfd3f94156f4d2d9f3",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          356.0,
+          188.0
+        ],
+        [
+          36.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          356.0,
+          188.0
+        ],
+        [
+          36.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-04",
+      "triangles": 600,
+      "sha256": "4c60b5f2f942338db0399984aad94bd589bb0f32c591b6a1e2d951ea379a35a4",
+      "raw_bbox_mm": [
+        [
+          684.0,
+          356.0,
+          188.0
+        ],
+        [
+          702.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          684.0,
+          356.0,
+          188.0
+        ],
+        [
+          702.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-05",
+      "triangles": 600,
+      "sha256": "3f925f568707abc620889146948438f61f64a4dfbfb2ed738305d0df0754801b",
+      "raw_bbox_mm": [
+        [
+          858.0,
+          356.0,
+          188.0
+        ],
+        [
+          876.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          858.0,
+          356.0,
+          188.0
+        ],
+        [
+          876.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-06",
+      "triangles": 600,
+      "sha256": "bca2196315c28b845ac5bd4592aa7845699d939fa2c9427d246028c4b2c11cd5",
+      "raw_bbox_mm": [
+        [
+          1494.0,
+          356.0,
+          188.0
+        ],
+        [
+          1512.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1494.0,
+          356.0,
+          188.0
+        ],
+        [
+          1512.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-07",
+      "triangles": 600,
+      "sha256": "f72f8116f626736a189c132a3cf5ab0ac758e60e2f0f3dbff934f19ea8673eaf",
+      "raw_bbox_mm": [
+        [
+          1548.0,
+          356.0,
+          188.0
+        ],
+        [
+          1566.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1548.0,
+          356.0,
+          188.0
+        ],
+        [
+          1566.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-08",
+      "triangles": 600,
+      "sha256": "83c1342f478a341884d6a1b7e7ee694bd8e6738c82b8c0321332a9ed17699bd8",
+      "raw_bbox_mm": [
+        [
+          2184.0,
+          356.0,
+          188.0
+        ],
+        [
+          2202.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2184.0,
+          356.0,
+          188.0
+        ],
+        [
+          2202.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-09",
+      "triangles": 600,
+      "sha256": "2f57518cf93458e422ea41d6a065334facf6c47d49875138801b63d45a76f99c",
+      "raw_bbox_mm": [
+        [
+          2238.0,
+          356.0,
+          188.0
+        ],
+        [
+          2256.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2238.0,
+          356.0,
+          188.0
+        ],
+        [
+          2256.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-10",
+      "triangles": 600,
+      "sha256": "cfabe23f3f4114d93a281f6d3c3717321175c560e7d488fa4fc3e251b2faa827",
+      "raw_bbox_mm": [
+        [
+          2874.0,
+          356.0,
+          188.0
+        ],
+        [
+          2892.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2874.0,
+          356.0,
+          188.0
+        ],
+        [
+          2892.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-11",
+      "triangles": 600,
+      "sha256": "8611dba2a4b4e0b99d0eb992f82274e69667ca55267f5aaee218b72f047fcdaa",
+      "raw_bbox_mm": [
+        [
+          2928.0,
+          356.0,
+          188.0
+        ],
+        [
+          2946.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2928.0,
+          356.0,
+          188.0
+        ],
+        [
+          2946.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-BAT-12",
+      "triangles": 600,
+      "sha256": "a53e0ee3686b5b411c48a81df38975bf5dbe63f86ca7988c372ceaddaf912d81",
+      "raw_bbox_mm": [
+        [
+          3564.0,
+          356.0,
+          188.0
+        ],
+        [
+          3582.0,
+          374.0,
+          512.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          3564.0,
+          356.0,
+          188.0
+        ],
+        [
+          3582.0,
+          374.0,
+          512.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-GAPBAT-01",
+      "triangles": 412,
+      "sha256": "c041a13cf998ebb20a52b0a0ef18e1f52a9fee156289e3173d1ecc3b71df0fc2",
+      "raw_bbox_mm": [
+        [
+          720.0,
+          368.0,
+          190.0
+        ],
+        [
+          738.0,
+          386.0,
+          510.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          720.0,
+          368.0,
+          190.0
+        ],
+        [
+          738.0,
+          386.0,
+          510.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-GAPBAT-02",
+      "triangles": 412,
+      "sha256": "eca24a4130ebfa4783f5c7496f087d83a403a02a89f7376f2498182880cbd192",
+      "raw_bbox_mm": [
+        [
+          822.0,
+          368.0,
+          190.0
+        ],
+        [
+          840.0,
+          386.0,
+          510.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          822.0,
+          368.0,
+          190.0
+        ],
+        [
+          840.0,
+          386.0,
+          510.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-01",
+      "triangles": 588,
+      "sha256": "231cbd918b0c242c2f178f137b4afaed0ecba227f0384704b7ae85e6e89518e9",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          338.0,
+          432.0
+        ],
+        [
+          702.0,
+          356.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          338.0,
+          432.0
+        ],
+        [
+          702.0,
+          356.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-02",
+      "triangles": 588,
+      "sha256": "76df9cc6e2bc6f97e2fb5002b2989712721a41bbc26deb5b394035a62ec35f84",
+      "raw_bbox_mm": [
+        [
+          858.0,
+          338.0,
+          432.0
+        ],
+        [
+          1512.0,
+          356.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          858.0,
+          338.0,
+          432.0
+        ],
+        [
+          1512.0,
+          356.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-03",
+      "triangles": 588,
+      "sha256": "a940d8392045c8a703d7ec112c9cd3455c3a55706d427139bb70d65175f2012c",
+      "raw_bbox_mm": [
+        [
+          1548.0,
+          338.0,
+          432.0
+        ],
+        [
+          2202.0,
+          356.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          1548.0,
+          338.0,
+          432.0
+        ],
+        [
+          2202.0,
+          356.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-04",
+      "triangles": 588,
+      "sha256": "5e44d5c581ca9308c7bce61803704bbeac37f819243b1778d3baf63b91345dc7",
+      "raw_bbox_mm": [
+        [
+          2238.0,
+          338.0,
+          432.0
+        ],
+        [
+          2892.0,
+          356.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2238.0,
+          338.0,
+          432.0
+        ],
+        [
+          2892.0,
+          356.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-05",
+      "triangles": 588,
+      "sha256": "7775d78ed02d32a72503452c798fbbe80e9e2a1aa489f995d22fda2b9541750a",
+      "raw_bbox_mm": [
+        [
+          2928.0,
+          338.0,
+          432.0
+        ],
+        [
+          3582.0,
+          356.0,
+          532.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          2928.0,
+          338.0,
+          432.0
+        ],
+        [
+          3582.0,
+          356.0,
+          532.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-06",
+      "triangles": 588,
+      "sha256": "65b0a367f2b0a69071e29ff9ab1eb72af0ec8bb7f95d25d5df3af500c3a866bf",
+      "raw_bbox_mm": [
+        [
+          18.0,
+          338.0,
+          2762.0
+        ],
+        [
+          351.0,
+          356.0,
+          2862.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          18.0,
+          338.0,
+          2762.0
+        ],
+        [
+          351.0,
+          356.0,
+          2862.0
+        ]
+      ]
+    },
+    {
+      "part": "KI14-RAIL-07",
+      "triangles": 588,
+      "sha256": "0a5df30f8931327cb843e9e9efd3138c6c723ee0a27498eef576acdc06149aec",
+      "raw_bbox_mm": [
+        [
+          369.0,
+          338.0,
+          2762.0
+        ],
+        [
+          702.0,
+          356.0,
+          2862.0
+        ]
+      ],
+      "AutoCAD_STLOUT_positive_octant_translation_reversed_mm": [
+        0,
+        0,
+        0
+      ],
+      "restored_bbox_mm": [
+        [
+          369.0,
+          338.0,
+          2762.0
+        ],
+        [
+          702.0,
+          356.0,
+          2862.0
+        ]
+      ]
+    }
+  ],
+  "source": "native AutoCAD STLOUT; documented negative-axis translation reversed; all nominal bounds checked",
+  "translation_reference": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/STLOUT-cannot-export-model-to-negative-coordinates-from-AutoCAD.html",
+  "render": "r14_preview.py / r14_detail_preview.py; no generative image edits"
+}

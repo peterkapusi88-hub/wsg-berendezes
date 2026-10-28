@@ -1,0 +1,13 @@
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/scripts/r14_preview.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;m.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(*color,1);m.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.65;return m
+00:34.510  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/zart.png'
+01:05.633  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/hatul.png'
+01:46.225  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/belso.png'
+02:22.306  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/robbantott.png'
+02:33.189  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/pant_reszlet.png'
+02:43.743  render           | Saved: '/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R14_muhely/audit/hatlap_reszlet.png'
+Info: Saved as "TV_R14_CAD_ellenorzokep.blend"
+CAD_NATIVE_STL_RENDER_COMPLETE 75
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

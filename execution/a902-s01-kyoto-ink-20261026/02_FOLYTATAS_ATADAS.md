@@ -1,4 +1,12 @@
-# Legutóbbi részfeladat: R13 TV-modul / 2026-10-28
+# Legutóbbi részfeladat: R14 TV-modul / 2026-10-28
+
+Aktuális forrás: `R14_muhely/OLVASD_EL.txt`, az R14 adat- és rajzcsomag. 75 alkatrész,579 natív furat,69 aktív MPR,87 PDF-oldal,75 címke. R13-ra ne állíts vissza. A hátsó lécek/merevítők és TIP-ON adapterfuratok már kidolgozottak; a hátlapokat1mm kerületi hézaggal terveztük át. Az R13 kézi Excel-mezői megőrizve. Saját ellenőrzés: natív térfogat egyezik,0 CAD-adatbázishiba,0 Excel-képlethiba, minden címke visszakereshető, hibás hash és régi revízió elutasítva.
+
+Még nyitott: fal- és panelrögzítés teljes teherútja; alsó3–4.front/asztal konfliktus (S10 továbbra is külön alternatíva); teljes konkrét fényrendszer és hőtechnika; felmérés/anyagminták; tényleges woodWOP5/műhelyi befogás/szerszám és elsődarab. A 126946Ft várható rejtett szerkezeti növekmény becslés, nem automatikusan a teljes projekthez hozzáadott költség. A helyi címkekereső nem telepített Livewood-integráció. Az aktív makrókat ne tiltsd le a felhasználó korábbi kifejezett kérése ellenére; az aktiválást ne keverd a gépi jóváhagyással.
+
+Az alábbi R13 és R02 bejegyzések történeti előzmények.
+
+# Korábbi részfeladat: R13 TV-modul / 2026-10-28
 
 Aktuális műhelyi forrás: `R13_muhely/OLVASD_EL.txt`, `data/parts.json`, `data/holes.json`, `data/programs.json`. A három R13 DWG tartalmazza a293 valódi furatkivonást; R12-re ne állítsd vissza. A34 MPR-tervezet aktív a felhasználó kifejezett kérésére, de nincs woodWOP5 vagy gépi futtatási jóváhagyás. A SQLite/címkekereső helyi prototípus, nem igazolt Livewood-import.
 

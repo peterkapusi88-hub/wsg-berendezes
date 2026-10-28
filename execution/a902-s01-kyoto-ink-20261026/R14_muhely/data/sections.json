@@ -1,0 +1,210 @@
+[
+  {
+    "id": "D01_OLDALLEC",
+    "z": 210,
+    "rectangles": [
+      {
+        "part": "KI12-TV02S-01",
+        "box": [
+          0,
+          320,
+          18,
+          62
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI12-TV02H1-01",
+        "box": [
+          19,
+          374,
+          71,
+          8
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI14-BAT-03",
+        "box": [
+          18,
+          356,
+          18,
+          18
+        ],
+        "material": "BEECH18"
+      }
+    ],
+    "bores": [
+      {
+        "id": "H0350",
+        "part": "KI14-BAT-03",
+        "box": [
+          18,
+          363.0,
+          18,
+          4.0
+        ],
+        "kind": "LEC_OLDAL / R14-J029"
+      },
+      {
+        "id": "H0351",
+        "part": "KI12-TV02S-01",
+        "box": [
+          6,
+          363.75,
+          12,
+          2.5
+        ],
+        "kind": "LEC_OLDAL / R14-J029"
+      }
+    ],
+    "range": [
+      0,
+      90,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "D02_HATLAP",
+    "z": 225,
+    "rectangles": [
+      {
+        "part": "KI12-TV02S-01",
+        "box": [
+          0,
+          320,
+          18,
+          62
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI12-TV02H1-01",
+        "box": [
+          19,
+          374,
+          71,
+          8
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI14-BAT-03",
+        "box": [
+          18,
+          356,
+          18,
+          18
+        ],
+        "material": "BEECH18"
+      }
+    ],
+    "bores": [
+      {
+        "id": "H0352",
+        "part": "KI12-TV02H1-01",
+        "box": [
+          25.25,
+          374,
+          3.5,
+          8
+        ],
+        "kind": "HATLAP_LEC / R14-J030"
+      },
+      {
+        "id": "H0353",
+        "part": "KI14-BAT-03",
+        "box": [
+          25.75,
+          362,
+          2.5,
+          12
+        ],
+        "kind": "HATLAP_LEC / R14-J030"
+      }
+    ],
+    "range": [
+      0,
+      90,
+      320,
+      400
+    ]
+  },
+  {
+    "id": "D03_MEREVITO",
+    "z": 452,
+    "rectangles": [
+      {
+        "part": "KI12-TV02S-01",
+        "box": [
+          0,
+          320,
+          18,
+          62
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI12-TV02H1-01",
+        "box": [
+          19,
+          374,
+          71,
+          8
+        ],
+        "material": "M03"
+      },
+      {
+        "part": "KI14-BAT-03",
+        "box": [
+          18,
+          356,
+          18,
+          18
+        ],
+        "material": "BEECH18"
+      },
+      {
+        "part": "KI14-RAIL-01",
+        "box": [
+          18,
+          338,
+          72,
+          18
+        ],
+        "material": "PLY18"
+      }
+    ],
+    "bores": [
+      {
+        "id": "H0486",
+        "part": "KI14-RAIL-01",
+        "box": [
+          18,
+          343.0,
+          22,
+          8.0
+        ],
+        "kind": "MEREVITO_CSAP / R14-J097"
+      },
+      {
+        "id": "H0487",
+        "part": "KI12-TV02S-01",
+        "box": [
+          6,
+          343.0,
+          12,
+          8.0
+        ],
+        "kind": "MEREVITO_CSAP / R14-J097"
+      }
+    ],
+    "range": [
+      0,
+      90,
+      320,
+      400
+    ]
+  }
+]

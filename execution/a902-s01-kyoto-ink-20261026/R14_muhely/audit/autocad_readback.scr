@@ -1,0 +1,14 @@
+(setvar "CMDECHO" 0)
+(setq ki_s (ssget "_X" '((0 . "3DSOLID"))))
+(princ (list "KI_R14_SOLIDS" (sslength ki_s)))
+(setq ki_i 0 ki_ids nil)
+(repeat (sslength ki_s) (setq ki_d (entget (ssname ki_s ki_i) '("KYOTO_INK"))) (setq ki_ids (cons (cdr (assoc 8 ki_d)) ki_ids)) (setq ki_i (1+ ki_i)))
+(princ (list "KI_R14_IDS" ki_ids))
+_.AUDIT
+_N
+_.MASSPROP
+_ALL
+
+_N
+_.QUIT
+_Y

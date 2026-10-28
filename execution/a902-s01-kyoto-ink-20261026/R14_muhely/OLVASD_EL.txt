@@ -1,0 +1,78 @@
+KYOTO INK / A-902 / TV-MODUL / R14 / 2026.10.28.
+
+Ez az R13 folytatása, nem a teljes lakás újratervezése és nem gyártási jóváhagyás.
+Elsőként: rajzok/TV_R14_reszletes_rajzkonyv.pdf és rajzok/TV_R14_belso.dwg.
+
+TÉNYLEGES ÚJ MUNKA
+75 külön azonosított alkatrész, 579 natív AutoCAD Boolean-furat. Az R13-hoz képest
+21 új rejtett alkatrész és 286 új furat. A látható frontok osztása megmaradt.
+– 12 hátlaprögzítő bükk léc és 2 rejtett alsóbetét-rögzítő léc;
+– 7 hátsó rétegeltlemez merevítő, 42 új köldökcsappal;
+– 6 hátlap körben 1 mm tervezett illesztési hézaggal;
+– 52 új 4x30 és 44 új 3,5x20 rögzítőcsavar párosított furatai;
+– 5 TIP-ON adapter gyári 20/17, illetve 20/32 kiosztásának 10 előfurata;
+– három valódi, koordinátából számított vízszintes csomóponti metszet;
+– három 24 V fényág és az elölről hozzáférhető szerviztér méretezett javaslata.
+
+KÖZÖS AZONOSÍTÓK
+Darab ID → Excel Darabok/Furatok → alkatrész-DXF → DWG-réteg → MPR → címke.
+A régi KI12/KI13 előtagú darabok ID-ja szándékosan megmaradt. A revízió R14.
+A nyersméretet a műhely élzárási és ráhagyási szabályával kell lezárni.
+A kész tervméret nem helyszínen felmért gyártási méret. A C élkód értékeit nem
+találtuk ki; az aktuális R13 Excel kézi mezőit átvettük, az eredeti fájlt megőriztük.
+
+MIT NYISS MEG?
+rajzok/TV_R14_belso.dwg – 75 alkatrész, áttekintő szerelési helyzet.
+rajzok/TV_R14_zart.dwg – zárt, névleges összeállítás.
+rajzok/TV_R14_robbantott.dwg – kiemelt szerelési nézet.
+rajzok/TV_R14_blanks.dxf – csak a furatkivonás előtti kiinduló testek!
+rajzok/TV_R14_reszletes_rajzkonyv.pdf – 87 oldal, minden alkatrész saját lappal.
+rajzok/D01..., D02..., D03...dxf – 1:1 mm szerkeszthető csomópontok.
+rajzok/TV_R14_LED_szerviz_javaslat.dxf – külön, feltételes szakági javaslat.
+TV_R14_alkatreszek_furatok_cimkek.xlsx – 7 munkalap, számoló képletek és címkék.
+cimkek/TV_R14_cimkek_A4.pdf – 75 címke, 8 A4 lap; 95x50 mm, 100%-on nyomtatandó.
+dxf_alkatreszek/ – 75 önálló, méretezett 1:1 alkatrészrajz.
+mpr_aktiv_tervezet/ – 69 aktív fájl, 579 fúrási művelet; nem gépre jóváhagyott NC.
+data/vasalatjegyzek.csv – konkrét Blum-cikkek és külön jelölt tervezési specifikációk.
+data/connections.json + Excel Kötések – 138 új párosított szerkezeti kötés.
+integration/cimke_kereso.py – helyi, revízió- és hash-ellenőrző kereső.
+
+ELLENŐRZÉSEK ÉS HATÁRAIK
+A mentett DWG-t külön AutoCAD 2027 háttérfolyamat olvasta vissza: 75 alkatrész,
+0 rajzadatbázis-hiba; nettó térfogata 372043079,3599 mm³, egyezik a független
+számítással. A furatok teljes hengere a névleges lapban marad. Az összes tengely-
+irányú furat befoglalóját összehasonlítottuk: nincs egymásba futó furat.
+A szomszédos kötés két érintkező furata természetesen egy csatlakozó furatpár.
+A keresztirányú csavarok 15 mm-es eltérést, a középosztó csapjai 10 mm-es eltérést kaptak.
+A saját MPR-visszaolvasó ellenőrizte a makrókat, koordinátákat és EN=1/??=1 állapotot.
+Ez nem woodWOP5-megnyitás, gépi szimuláció vagy tényleges megmunkálási próba.
+A helyi kereső nem Livewood/woodWOP adatbázisba telepített integráció. Gépre nem küld.
+Az A/B koordinátarendszer nem igazolt gépi ütköző; a keskeny lécek befoghatósága is
+műhelyi döntés. A Ø60 átvezetéshez a tényleges szerszám és megmunkálási mód nyitott.
+A Blender-fájl és a képek az AutoCAD-ből exportált valódi testeket tartalmazzák.
+Az STL-export negatív koordinátákat pozitív tartományba toló működését az importban
+visszafordítottuk; minden test összeállítási befoglalóját külön ellenőriztük.
+A frontoknál ez 21 mm-es exporteltolást érintett. A natív DWG ettől nem változott.
+A nyitott ajtók ellenőrző pózok; a 3–4. alsó front kiemelése nem működő nyitás.
+
+KÖLTSÉG
+Az új rejtett szerkezetek bruttó előirányzata 126946 Ft, sávja 87443–182550 Ft.
+Ez mennyiségi alapon készült becslés, nem webshopár vagy írásos ajánlat.
+A korábbi asztaloscsomag tartalmával össze kell vezetni: ha egy kötést az már
+tartalmazott, nem adható hozzá újra. A teljes lakás főösszegét nem növeltük meg
+automatikusan, és a 18 milliós keret teljesülését ez a munkacsomag nem bizonyítja.
+A világítási javaslat nem új, teljesen beárazott elektromos csomag.
+
+AMI TOVÁBBRA IS NYITOTT
+1. Fali sín, függesztő, horgony, TV-konzol és paneltartás teljes teherútja: a tényleges
+   falszerkezethez és terhelésekhez kiválasztva. Az új merevítő nem igazolt falfüggesztő.
+2. Alsó 3–4. ajtó és dohányzóasztal: a nyílóajtó ütközik; a Salice S10 továbbra is
+   külön méretezett alternatíva. A főmodellben nincs automatikus áttérés vagy PASS.
+3. Helyszíni méret, szerelési hozzáférés, felhordási út, anyag/él/nyomat és ragasztás mintája.
+4. Teljes fényrendszer konkrét szalaggal, diffúzorral, vezérlővel és hőtechnikai/villamos
+   ellenőrzéssel; a Hue-kapcsolat még nincs kipróbálva.
+5. Tényleges szerszámlista, ütköző, alátámasztás, woodWOP5-elfogadás és műhelyi elsődarab.
+
+A műhely elfogadásra küldött adatai nélkül nem kerülhet rá a „gyártásra jóváhagyott”
+státusz. A fenti ténylegesen elvégzett tervezés ettől már használható az egyeztetéshez.
+Nem történt rendelés, foglalás vagy gépi végrehajtás.

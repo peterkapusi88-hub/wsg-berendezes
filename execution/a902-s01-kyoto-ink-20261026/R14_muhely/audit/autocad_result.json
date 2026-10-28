@@ -1,0 +1,16 @@
+{
+  "engine": "AutoCAD2027 AcCoreConsole",
+  "solids": 75,
+  "subtracted_bores": 579,
+  "volume_mm3": 372043079.3599,
+  "analytic_volume_mm3": 372043079.3599463,
+  "volume_match": true,
+  "database_errors": 0,
+  "not_certified": [
+    "field measurements",
+    "wall/hardware load capacity",
+    "hinge kinetics",
+    "machine/tool/fixture collision",
+    "woodWOP5 acceptance"
+  ]
+}
