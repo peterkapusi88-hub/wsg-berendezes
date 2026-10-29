@@ -1,3 +1,8 @@
+AKTUÁLIS ÁLLAPOT / 2026-10-29
+Az R16 ismert alkatrészméret-hibákat tartalmaz; a javítás/újragenerálás tulajdonosi döntéssel leállítva. Nem gyártási kiadás. A külső fény Philips Hue követelménye még nincs átvezetve a régi műszaki és költségexportokba. Részletes állapot és Claude-folytatás: CLAUDE_ATADAS/00_KEZDD_ITT.txt (a projekt gyökeréhez képest).
+
+--- KORÁBBI DOKUMENTUM, TÖRTÉNETI ÁLLAPOT ---
+
 ## R16 – médiafal: bronzbetét, tusgrafika és magas fiókok (2026-10-29)
 
 Aktuális médiafalcsomag: `R16_feluletek_fiokok/00_OLVASD_EL.txt`. Hat magas fiók, ajtós torony,200mm matt bronzbarna betétsáv oldalsó LED-del,8nyitásérzékelős belső fény. R16felváltja azR15alsó ajtós kiosztását. Az élő Excel öt érintett sora frissítve; becsült főösszeg26 212 190Ft. R16CAD/PDF/Blender/grafika/címke/MPR-tervezet ténylegesen átadva. Felmérés, gyári vasalati sablonművelet, anyag/nyomatminta, gépi és szakági próba nyitott. Asztal200mm eltolás: külön javaslat.

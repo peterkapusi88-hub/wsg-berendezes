@@ -1,0 +1,41 @@
+S01 KYOTO INK R16 - HÉZAG- ÉS ADATEGYEZÉS-VIZSGÁLAT
+2026.10.29. / NEM GYÁRTÁSI FELSZABADÍTÁS
+
+EREDMÉNY
+A vizsgált egyenes frontoknál az S16-ban jelzett 20 mm-es felső ajtórés nem jelentkezik. Ettől az R16 csomag nem hibátlan: 12 hátlaprögzítő léc listamérete eltér a modellben szereplő mérettől, 8 méret negatív. Ez tényleges átadási hiba, nem helyszíni bizonytalanság.
+
+TÉNYLEGESEN VISSZASZÁMOLT HÉZAGOK
+- Mind az 5 alsó frontköz: 3 mm.
+- Torony két ajtaja között: 3 mm.
+- Toronyajtó és alatta az alsó front között: 3 mm.
+- Toronyajtók felső, alsó és külső oldali visszalépése a korpusz vetületéhez: 1,5 mm.
+- A 4 dekorpanel közötti 3 hézag: 3 mm.
+- Bronzbetét és első panel között: 1,5 mm.
+- 2900 mm-es névleges mennyezet mellett a 2880 mm magas szerkezet felett: 20 mm. Ez nem ajtóhézag, és a mennyezet helyszíni mérete nem újonnan igazolt.
+A 200 mm-es bronzbetét anyaggal kitöltött sáv, nem hiányzó elem.
+Az 1,5 mm-es szélső visszalépés nem azonos a két mozgó front közötti 3 mm-rel. Végleges alkalmassága pánt-, bevonat-, tűrés- és szerelési vizsgálatot igényel; nem jelölhető automatikusan gyártási PASS-nak.
+
+EGYEZÉSI HIBA
+KI14-BAT-03: lista [212, 48, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-04: lista [212, 48, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-05: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-06: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-07: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-08: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-09: lista [212, 408, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-10: lista [212, 408, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-11: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI14-BAT-12: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI16-M6-BAT-06: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+KI16-M6-BAT-07: lista [212, -222, 18] mm; modellből [212, 18, 18] mm
+
+A hiba követhető az eredeti átadott ZIP-ben is. Ellenőrzött példa: PDF 62. oldal, KI14-BAT-05, 212×-222×18 mm; Excel R16_Darabok ugyanez; az aktívnak nevezett MPR-tervezet B=-222 értéket tartalmaz. A modellben a helyesnek szánt befoglaló 212×18×18 mm. A modell jó mérete önmagában nem teszi jóvá a szabáslistát és a programot.
+A hiba oka a modulok szélességre adaptálásának túl általános szabálya az r16_engineering.py 60-61. sorában: a léc 18 mm-es keresztmetszetére is rákerült a modul szélességkülönbsége. A 3D befoglaló változatlan maradt. Minden leszármazott fájlt együtt kell javítani, nem csak a PDF számát.
+
+MIT ELLENŐRIZTEM TÉNYLEGESEN?
+106 alkatrész adatát összevetettem a helyi koordinátarendszerbe vetített összeépítési befoglalóval. Mind a 106, korábban valódi AutoCADből exportált STL-t újra beolvastam: a hash mind az eredeti modell-ellenőrzési jegyzékkel egyezik; maximális befoglalóeltérés 0.000001907 mm. Az egyenes frontközöket ezekből az egyező befoglalókból számoltam. Most nem indítottam új élő AutoCAD- vagy Blender-munkamenetet.
+A korábbi ellenőrzés a 3D testet és furatokat vizsgálta, de nem fedte le megfelelően a lista, helyi lapméret, címke és MPR alapméret teljes egyezését. Az Excel régi Darabok/Programok lapjai is félreérthetően megmaradtak.
+
+ÁTADÁSI ÁLLAPOT
+A korábban elküldött R16 ZIP/PDF/Excel/MPR nem használható gyártási csomagként. Ehhez a listák, programok, címkék, DXF-ek és PDF-ek közös új revíziója és ellenőrzése szükséges. Ebben az auditban az eredeti csomagot nem írtam felül, a hibát nem nyilvánítottam javítottnak.
+A korábbi külső nyitott tételek is megmaradnak: helyszíni felmérés, vasalat gyári megmunkálása, anyag/nyomatminta, falrögzítés, villamos ellenőrzés, műhelyi próba és a középső fiók-asztal használati konfliktusa.

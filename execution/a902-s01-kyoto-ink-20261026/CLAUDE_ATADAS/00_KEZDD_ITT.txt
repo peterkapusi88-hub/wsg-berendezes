@@ -1,0 +1,26 @@
+S01 KYOTO INK – CLAUDE ÁTADÁS / 2026-10-29
+
+Repo: peterkapusi88-hub/wsg-berendezes
+Ág: execution/a902-s01-kyoto-ink-design-to-budget-20261026
+Projektmappa: execution/a902-s01-kyoto-ink-20261026/
+
+EZ AZ AKTUÁLIS ÁLLAPOT, NEM ÚJ GYÁRTÁSI KIADÁS
+Az R16 az utolsó elkészített médiafalcsomag. Alkalmas a tervezési szándék bemutatására és előzetes műhelyegyeztetésre; közvetlen gyártásra nem adható ki. A 2026-10-29-i audit 12 hibás lécméretet talált a listákban, 8 negatív mérettel. A hibák PDF/Excel/DXF/címke/MPR leszármazottakat érintenek. A tulajdonos tokenköltség miatt leállította a teljes újragenerálást. A hiba NINCS javítva, nincs új R16.1/R17 médiafal-kiadás.
+A külső hangulatfényekre most valódi Philips Hue az előírás, de a régi csomag Sunricher/24V megoldását és költségeit még nem váltottuk át. A belső fény lehet jó minőségű olcsóbb rendszer. Minden profil/fényforrás normál használati nézetből takart legyen.
+
+OLVASÁSI SORREND (a projektmappához képest)
+1. CLAUDE_ATADAS/01_MUNKAFOLYAMAT_ES_TANULSAGOK.txt
+2. CLAUDE_ATADAS/02_CLAUDE_INDITO.txt
+3. MEGOSZTHATO_ATADAS/R16_ELLENORZES_GYARTAS_ELOTT.txt
+4. R16_feluletek_fiokok/VILAGITAS_TULAJDONOSI_PONTOSITAS_20261029.txt
+5. skills/latvanybol-asztalos-terv/SKILL.md és két references fájlja
+6. R16_feluletek_fiokok/00_OLVASD_EL.txt – történeti R16 leírás; az új audit és világítási döntés elsőbbséget élvez
+7. R16_feluletek_fiokok/rajzok/TV_R16_asztalos_tervcsomag.pdf és data/parts.json, lighting.json, cost.json
+
+TÉNYLEGES ÁTADOTT ANYAGOK
+A902_TV_R16_bronz_tus_fiokok.zip – eredeti teljes R16, ismert hibákkal; archivált referencia, nem javított kiadás.
+R16_feluletek_fiokok/ – kibontott PDF, 3 DWG, Blender, Excel, 106 alkatrész-DXF, programtervezetek, címkék, tusgrafika, integráció és naplók.
+scripts/r12_* ... r16_* és r16_workbook.mjs – a munkafolyamat forrásai. R16 több korábbi scriptet is felhasznál; önmagában egyetlen script nem hordozható teljes körű építőparancs.
+outputs/A902_Kyoto_Ink_elo_regiszter.xlsx – teljes projekt élő költségregisztere; kézi módosításokat őrizni kell.
+
+A munkafolyamat-leírás technikai összefoglaló a megőrzött fájlokból és a beszélgetés döntéseiből, nem a teljes chat szó szerinti exportja. A GitHub-repozitórium privát hozzáférését Claude-ban külön biztosítani kell. Nem kell nyilvánossá tenni.

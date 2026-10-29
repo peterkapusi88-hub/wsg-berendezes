@@ -1,0 +1,39 @@
+MIT CSINÁLTUNK ÉS HOGYAN? / S01 MÉDIAFAL
+
+1. LÁTVÁNY ÉS TULAJDONOSI DÖNTÉSEK
+A célképet megkülönböztettük a méretbizonyítéktól. A médiafal névleges kerete 3600×2880 mm, 720 mm ajtós magas torony, 200 mm valódi matt bronzbarna betét, négy 670 mm névleges felső panelmodul. Alul 720+450+450+1080+450+450 mm modulok, mind egyetlen magas fiók; nincs vízszintes frontosztás. A fiókok nyomásra nyíljanak és csillapítva záródjanak; 6 fiók és 2 ajtó nyitásra külön világítson. A rajz nem új helyszíni felmérés.
+Bizonyíték: R16/data/layout.json, handoff_manifest.json, sources/T16_mediafal_tulajdonosi_celkep.png.
+
+2. ADATMODELL ÉS SZERKEZET
+A parts.json tartalmazza a stabil elemkódot, helyi lapméretet (x/y/t), összeépített befoglalót, koordinátarendszert, anyagot és éladatot. A holes.json a furatokat; a drawers.json a fiókdobozokat, belméretet és becsült terhelést. A hardware_geometry csak helyfoglaló testeket is tartalmaz, nem minden elem hiteles gyártói 3D modell.
+Fájlok: scripts/r16_engineering.py, R16_feluletek_fiokok/data/. A script a r13_cad.py kódjának egy részét futtatja. Ezt a függőséget új munkánál fel kell oldani vagy csomagolni.
+
+3. VALÓDI CAD ÉS BLENDER
+A scripts/r16_cad_views.py és integration/ parancsfájlok AutoCADben natív testeket, nézeteket és DWG-t készítettek. A megőrzött naplók szerint 106 faalkatrész és 109 vasalati helyfoglaló test, 956 szerkezeti furat és 14 kivágás szerepelt. Blenderbe a tényleges CAD-export került; befoglaló-egyezést vizsgáltunk. A legutóbbi audit az eredeti STL-ek hash-ét és méretét újra ellenőrizte, nem új élő CAD-futtatás volt.
+Fájlok: audit/autocad_*.log, blender_provenance.json; rajzok/*.dwg, *.blend. A CAD-AUDIT adatbázishibamentessége NEM igazolja a szabáslistát vagy a gyárthatóságot.
+
+4. TUSGRAFIKA ÉS ANYAG
+A látható tusvonásokból műszaki vektoros adaptáció készült, közös koordinátával és panelenkénti bontással. A TV mögött takart eredeti grafika ismeretlen; annak teljes azonosságát nem állítjuk. A bronzsáv valódi hordozós elem, oldalról világítva; a textilhatású burkolat nem automatikusan kárpit vagy relief.
+Fájlok: scripts/r16_artwork.py, data/artwork.json, materials.json, artwork/ SVG/DXF/1:1 próbanyomat. Szín, ragasztás és nyomat fizikai mintával zárható le.
+
+5. MŰHELYI ÁTADÁS
+A parts/holes adatokból készült 121 oldalas PDF, alkatrész-DXF, Excel, 11 oldalas címke-PDF, 111 MPR-tervezet és SQLite azonosítókereső. A címke az elemhez, rajzhoz és programhoz vezet. A műhely woodWOP 5.0-t és a tulajdonos által WOF211 Homag néven megadott gépet használ; pontos gépazonosítás, szerszámlista és tényleges programpróba nem történt meg.
+Fájlok: scripts/r16_programs.py (r14_programs.py függőség), r16_documents.py, r16_workbook.mjs; integration/cimke_kereso.py, alkatreszek_R16.sqlite.
+A MOVENTO gyári kapocs/kampó/stabilizátor sablonműveletei nem teljesek. A saját MPR-parser ellenőrzése nem woodWOP-elfogadás és nem gépi szimuláció.
+
+6. KÖLTSÉG ÉS HASZNÁLAT
+Az R16 mentett teljes lakás-előirányzata 26 212 190 Ft, becslés, nem fix ajánlat. A 18 milliós célkerethez képest +8 212 190 Ft; a 2 milliós tartalék külön. A műhelyi részletezés nem második hozzáadandó költségcsomag. Az új Hue-választás költsége még nincs átvezetve.
+A középső fiók a régi asztalhellyel ütközik. A 200 mm-es asztaleltolás csak javaslat: 37 mm frontszabadhely és 330 mm névleges kanapé-asztal tér adódik. Ez nem bizonyított kényelmes használat vagy jóváhagyott elrendezés.
+
+7. A FELTÁRT HIBA ÉS OKA
+A r16_engineering.py moduladaptáló része a 18 mm keresztmetszetű hátlaprögzítő léc helyi méretére is ráadta a modulszélesség változását. A 3D befoglaló helyes maradt. 12 listaméret hibás, 8 negatív; az exportok örökölték. A régi Excel Darabok/Programok lapok korábbi revíziót is tartalmaznak, félreérthetően.
+A korábbi QA nem ellenőrizte végig a helyi méret → 3D → DXF → MPR alapméret → Excel → PDF → címke egyezést. Ez saját átadási hiba, nem hiányzó helyszíni adat. A teljes javítást a tulajdonos költségokból leállította. Ne nevezd kijavítottnak.
+A vizsgált egyenes frontközök 3 mm-esek; a külső visszaállások 1,5 mm-esek. Ez nem helyettesíti a bevonati és vasalati tűrésvizsgálatot. Részletes eredmények: audit/eredmeny.json.
+
+8. ÚJ BÚTORHOZ KÖTELEZŐ MINŐSÉGI ELLENŐRZÉS
+Minden alkatrész mindhárom mérete legyen pozitív. A helyi koordinátarendszerbe vetített 3D befoglaló egyezzen az x/y/t listával; a készméret és nyersméret külön legyen. A frontok réseit és nyitási pályáit is mérd, ne csak a zárt testütközést. Ellenőrizd a profil, vasalat, kábel és szervizhozzáférés helyét. Minden exportot olvass vissza, a negatív méret és a verziókeveredés legyen kiadást blokkoló hiba. A régi lapok ne látszódjanak aktívnak. A bináris fájlok és az ellenőrzési naplók is kerüljenek a csomagba.
+A felmérés, falrögzítés, anyagminta, teljes vasalati megmunkálás és műhelyi próba maradjon név szerint nyitott, amíg nincs valódi bizonyíték. Nincs AI által vállalt méret- vagy gyártási garancia.
+
+9. HORDOZHATÓSÁG ÉS TAKARÉKOS FOLYTATÁS
+A források konkrét macOS útvonalakat, Arial betűkészletet és /tmp fájlokat használnak. Python oldalon ezdxf, shapely, reportlab, openpyxl, pypdf; továbbá AutoCAD, Blender és a munkafüzet-generátor környezete szükséges lehet. Nem egygombos telepítő. Más környezetben előbb térképezd fel a függőségeket, ne futtasd vakon a teljes láncot. Az aktív Excel kézi módosításait ne írd felül.
+Új design külön mappát kapjon; a Kyoto Ink és S16 fájlokat ne írd felül. Először az asztalos által ténylegesen kért részcsomagot és ellenőrzéseket készítsd el. A régi hibás forrás jó történeti példa, de nem hibátlan újrafelhasználható generátor.
