@@ -1,0 +1,1332 @@
+[
+  {
+    "path": "OLVASD_EL.txt",
+    "bytes": 6044,
+    "sha256": "7e9978eeaaa2f2a3211b1dfdc46c4d815fa485ad2b680ec583560b174e897f7c"
+  },
+  {
+    "path": "TV_R15_muhelyi_regiszter.xlsx",
+    "bytes": 108285,
+    "sha256": "1fbefddaeec98a42bb389981ccdc58efc93238153a0a4f7a40904d3fab6076b7"
+  },
+  {
+    "path": "audit/R14_excel_snapshot.json",
+    "bytes": 363423,
+    "sha256": "1cde150def8e2adf65f4b7ebc561f007aefc889eefc70fcf7ea6d10bdf3447c9"
+  },
+  {
+    "path": "audit/all_axis_bore_check.json",
+    "bytes": 141,
+    "sha256": "ccaa67bf43890a7ef88989cbee1d53726a709f0a602d70f5f94c0dab43bcae72"
+  },
+  {
+    "path": "audit/autocad_build.log",
+    "bytes": 442318,
+    "sha256": "9fd877ed2222a65a14a4af5f1aface4cd13c7e605ab07b16eb4f9d078fb5851e"
+  },
+  {
+    "path": "audit/autocad_coordination_readback.log",
+    "bytes": 1694,
+    "sha256": "268f0c59c2ec298d428119017ad8101f83db7c99d3cab855076b6ec86af25d94"
+  },
+  {
+    "path": "audit/blender_provenance.json",
+    "bytes": 18189,
+    "sha256": "78eaff7bc9b145e3e0a39b24892a89e275ba5acaa6c47cd99f0f07dc49add490"
+  },
+  {
+    "path": "audit/design_checks.json",
+    "bytes": 536,
+    "sha256": "5465b1337e62e03660f77b4843b7170b620c1a60271e4d50514d0c1bb663e610"
+  },
+  {
+    "path": "audit/fuggeszto.png",
+    "bytes": 1641228,
+    "sha256": "f4dad3e3ecc0ff5633b077247ee68f61b687df6f9d9d2ebfc514361f71d7ad7e"
+  },
+  {
+    "path": "audit/ki15verify01.log",
+    "bytes": 14625,
+    "sha256": "36b9f8437bf5eff0e2241da94c08e76f0c7e2ad4372713a564f69bf4ccef2186"
+  },
+  {
+    "path": "audit/ki15views02.log",
+    "bytes": 45963,
+    "sha256": "fe4cdc2ad5b6b1592d2413ddfe906b2ab0ec7d2867feef7b7eb9432cfc568689"
+  },
+  {
+    "path": "audit/mpr_readback.json",
+    "bytes": 615,
+    "sha256": "fb9fb49f440bdc62308dae8b9f0e979c2c4721795ecaf81398918ec2c37ec5bd"
+  },
+  {
+    "path": "audit/pdf_page_index.json",
+    "bytes": 5737,
+    "sha256": "dc7ff060229a7a5aa98ba47ae6c932d08491c1bf616d947dd9adc9ace3846f67"
+  },
+  {
+    "path": "audit/pilot.png",
+    "bytes": 1658203,
+    "sha256": "51e4f311d5798b89f1763f0c5856acd4476a5f139406f88d88b1484e78b00c61"
+  },
+  {
+    "path": "audit/project_budget_readback.json",
+    "bytes": 5115,
+    "sha256": "ff55fcde5b83b76e8b07721c31301e52fe03988e9c8831bf67faddbc418698d3"
+  },
+  {
+    "path": "audit/release_checks.json",
+    "bytes": 701,
+    "sha256": "0aa41983bba290b8c92f5991f267429a2633be7a870124f11a084dc689f0c5e6"
+  },
+  {
+    "path": "audit/robbantott.png",
+    "bytes": 1798542,
+    "sha256": "406500cef8ebc0542b7a7925b3da550495dc02c1b5f45a69b79110c5f7089a9d"
+  },
+  {
+    "path": "audit/villamos.png",
+    "bytes": 1786384,
+    "sha256": "5b77b4828d0ac8f05332af77ea030b52e75b27865e6ad124730a2c5af41f66f8"
+  },
+  {
+    "path": "audit/xlsx_Attekintes.png",
+    "bytes": 48043,
+    "sha256": "7d71e754aecc536f622d673de69902ef29a13aa2a2fcddd71bacc0f54bc0dfc4"
+  },
+  {
+    "path": "audit/xlsx_Cimkek.png",
+    "bytes": 87688,
+    "sha256": "d42089b093436475f0389636c28a2c3e1b7d02a7baca8fc52b140916aec14e59"
+  },
+  {
+    "path": "audit/xlsx_Darabok.png",
+    "bytes": 44318,
+    "sha256": "a1d0aae97ecce87c2ea44c2e1909e5c4281b8486bc18db4c6174754f5a3e2ea0"
+  },
+  {
+    "path": "audit/xlsx_Furatok.png",
+    "bytes": 29144,
+    "sha256": "c1a5954ae315149792b56d72308e242642384848fd4b9aaedbd166a2191a843b"
+  },
+  {
+    "path": "audit/xlsx_Koltseg.png",
+    "bytes": 6291,
+    "sha256": "bb8e6a99d5699c3cb4e850dec96af24cc0961fbbf5b4258f5797d091f4e99834"
+  },
+  {
+    "path": "audit/xlsx_Kotesek.png",
+    "bytes": 58912,
+    "sha256": "3ca3fb37ff5fda6e218b8edfe3fbd31c0b3944dbbd126439dc8b44389d1ff007"
+  },
+  {
+    "path": "audit/xlsx_Meres.png",
+    "bytes": 27043,
+    "sha256": "2d06be2f0608332f08b0ba648659a7db1b1627ed542959e366a5d1dbe3f28ea7"
+  },
+  {
+    "path": "audit/xlsx_Muhelyprofil.png",
+    "bytes": 43930,
+    "sha256": "48fadcb43911c0452c90bf3ad97077d456eddb2bcad4b4158b4091a93eaf643a"
+  },
+  {
+    "path": "audit/xlsx_Pilot.png",
+    "bytes": 52277,
+    "sha256": "19fe63e02aeb054601d0452973868ffe6b7fba4158ae80f40460b27d9e28b186"
+  },
+  {
+    "path": "audit/xlsx_Programok.png",
+    "bytes": 54612,
+    "sha256": "5c0b3b2b8e6d6c73babaf1491de04e18ce26b2a2b8a620c0a9d54194acabb152"
+  },
+  {
+    "path": "audit/xlsx_Vasalat.png",
+    "bytes": 51312,
+    "sha256": "2671d8952cc9bd7f92f808114f2fc6e5f2fff05a2c069284dfef61302e3c62f2"
+  },
+  {
+    "path": "audit/xlsx_Vilagitas.png",
+    "bytes": 30558,
+    "sha256": "4a2125258eaa9241dc5688aeed1953837ed0191d56cbd2116c8a918e6024cfc1"
+  },
+  {
+    "path": "audit/zart.png",
+    "bytes": 1678654,
+    "sha256": "06402bbe6f9d128db332dcea69459c1a6e1c21d8d5855907f893bb54a71ce504"
+  },
+  {
+    "path": "cimkek/TV_R15_cimkek_A4.pdf",
+    "bytes": 84499,
+    "sha256": "c9a3c4fbe150e1783f7418fac01b2fe069bc4232019490d5c99995903872fce4"
+  },
+  {
+    "path": "data/alternative_A_holes_NOT_MAIN.json",
+    "bytes": 5190,
+    "sha256": "8d3fd5b165ff9ef56bf01e253e0f75da2d95628bf963c1c923a6cadb66b38f63"
+  },
+  {
+    "path": "data/changes.json",
+    "bytes": 12788,
+    "sha256": "704d1d498ad39af59195f39867319a8b35a5b4f20780a9e73bf2c860c292eab9"
+  },
+  {
+    "path": "data/connections.json",
+    "bytes": 39110,
+    "sha256": "b0918e2bdd460df893a3ec4a08b648083f06f6c971ef3dedc2be842f457c7387"
+  },
+  {
+    "path": "data/cost_allowance.json",
+    "bytes": 2801,
+    "sha256": "1beafc2a8e886441d2fb5a7e124a5a275dbaaaa0a96dd1a308018e2a2bf75c32"
+  },
+  {
+    "path": "data/door_alternatives.json",
+    "bytes": 3158,
+    "sha256": "31c95166ba5c4112c4a07c8f854ec521d8aecd83ea63249c0a19852f5d3a4292"
+  },
+  {
+    "path": "data/exploded_poses.json",
+    "bytes": 3529,
+    "sha256": "e44180afd89e42c2865a2f2d5ad840505148e3cfced9bbfa97f726d420edf7f4"
+  },
+  {
+    "path": "data/furatjegyzek.csv",
+    "bytes": 126018,
+    "sha256": "6e39f0a87fcdff054c985b198e88fd59fa33c0dc006f8585a683241543486ae7"
+  },
+  {
+    "path": "data/hardware_bom.json",
+    "bytes": 5006,
+    "sha256": "faf9057ff9a8ba45a6a33102a4a5af0ba3354ed86afb05747acf5915b83481d3"
+  },
+  {
+    "path": "data/hardware_geometry.json",
+    "bytes": 38625,
+    "sha256": "73776a467131f88b4a1b0790ddbe3c93ee4e368d049f5e32ffe1fcba91c1e919"
+  },
+  {
+    "path": "data/hinges.json",
+    "bytes": 3039,
+    "sha256": "5fa4c56fe20f96f7a133ec0cfdb8b306d4c571c5543ea652e08746d122c9f15a"
+  },
+  {
+    "path": "data/holes.json",
+    "bytes": 374890,
+    "sha256": "f9ed0060a7610f493edd061d33fa79c24903449fadb22983dc74ee714b39b76d"
+  },
+  {
+    "path": "data/kivalasztott_rendszer.csv",
+    "bytes": 2012,
+    "sha256": "de74642a875e07ff6aec4ebfefd19755e31a085fd586b316e7cf92e2d7378cff"
+  },
+  {
+    "path": "data/lighting.json",
+    "bytes": 5725,
+    "sha256": "0c5a4a6881c7480ef882799dac1cbad07a9794de9352e6e2d4c9b81c91ac4a18"
+  },
+  {
+    "path": "data/load_demands.json",
+    "bytes": 5057,
+    "sha256": "98e8971b3eb9a6b39f697d08bf4c936890029fca644cf69289eceb95626ae728"
+  },
+  {
+    "path": "data/mounts.json",
+    "bytes": 6926,
+    "sha256": "c0025111f68a4e6c0ab3910d2a0577dd1c97bf268f58c3b9166e9bcbac826d7e"
+  },
+  {
+    "path": "data/mpr_mapping.json",
+    "bytes": 202041,
+    "sha256": "7b6e3fc076d1bf56af17246b1562594fb8809ca169b5f71e4507fa3b1b9b80a6"
+  },
+  {
+    "path": "data/notches.json",
+    "bytes": 2923,
+    "sha256": "7f9fc0fb9e7b7b5d3b85352889626bb7230c95736f936caf8e7662b47ddfe20f"
+  },
+  {
+    "path": "data/panel_clips.json",
+    "bytes": 8050,
+    "sha256": "637ed132dbbdd199989f08b271f4cc89071ebfaad0f6218bb3f8ac4e75f43642"
+  },
+  {
+    "path": "data/parts.json",
+    "bytes": 118538,
+    "sha256": "e920aaea7ed48ba2b6ab834d68aba4b260fe7de1662dded3c0bcf80ae62cf912"
+  },
+  {
+    "path": "data/programs.json",
+    "bytes": 18524,
+    "sha256": "55ea15681409ab9076f0ef76443ec9f03364b117b46fc110dd2013e3248b4a8b"
+  },
+  {
+    "path": "data/room_obstacles.json",
+    "bytes": 3386,
+    "sha256": "198af6bfa0ed4800f5f9aff4be7f249a442633f3a72c7b0fed5aceb93891eaac"
+  },
+  {
+    "path": "data/shelf_pins.json",
+    "bytes": 9458,
+    "sha256": "73a37815aa0573131ac988a6f37296d4d06df7d859f4dc2b5aa0ca4ce889db8d"
+  },
+  {
+    "path": "data/six_workpackages.json",
+    "bytes": 1415,
+    "sha256": "1d17ab8d55052092767a37a47f49f9260a5e973fc4e0d95e46e9fce5c447cb7c"
+  },
+  {
+    "path": "data/source_register.json",
+    "bytes": 3458,
+    "sha256": "b8975720d1e4b3ba281cff7e9df95a29e0548a87c3e0c277e679127799231e81"
+  },
+  {
+    "path": "data/tipon.json",
+    "bytes": 1734,
+    "sha256": "632984c40eea7ef2f68dfc4a14462fde42b29da8c0b537f99046e6e77f7fe02f"
+  },
+  {
+    "path": "data/tool_requirements.json",
+    "bytes": 3366,
+    "sha256": "568fc677eb2137bdf63c01c80037663d064e8d4e3d2f1448419073e4b07953c0"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-GAP-01_R15.dxf",
+    "bytes": 21292,
+    "sha256": "dce57c0de0722438379a9872a3eb03cabea1b12f7a6b8d7951ddaef7d5c01e7b"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01C-01_R15.dxf",
+    "bytes": 29894,
+    "sha256": "a91ee1d799dbd064f645557e44dfbcbb7b3f3c4cc9dabd17464aeb0da705e8f0"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01F-01_R15.dxf",
+    "bytes": 24866,
+    "sha256": "a91d3b42180cb440929249560aef396e36af61bc10c396274cbc1f4f10456336"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01F-02_R15.dxf",
+    "bytes": 24896,
+    "sha256": "22dbbc5d195e67756dedb9eed70668405594076722d89b269ec9f2a2d096523c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01H-01_R15.dxf",
+    "bytes": 25468,
+    "sha256": "122d9c8daa75c7ba7cd333bbb99e8b934d308480fa6b7c665fda245a0d238ef1"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-01_R15.dxf",
+    "bytes": 21287,
+    "sha256": "bf1cda151375f19782f5f3d8f194b29325cdd8052b8b59a2ff599212fe84c250"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-02_R15.dxf",
+    "bytes": 21287,
+    "sha256": "9a4b9acf5622d4ca39cb268caba0c0ab125c5f6eb2d1a7facdab308720aa729b"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-03_R15.dxf",
+    "bytes": 21287,
+    "sha256": "fea53a4db950404d23811dc6c42bf7baf9dfaf37822a93416b75bf055de573ca"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-04_R15.dxf",
+    "bytes": 21287,
+    "sha256": "bd73ed3a908e950b3d51b8cf40fd725617530c52dd4f9a52e1fb14f047029d10"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-05_R15.dxf",
+    "bytes": 21287,
+    "sha256": "509395ac189e5405733e3978cda15203ccb52fd82524a11a02a2f9af1a4bf032"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-06_R15.dxf",
+    "bytes": 21287,
+    "sha256": "e341be4e5ad6be1ba9a4b311159dc856721a74b71a377c54a05678d47ca4a346"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-07_R15.dxf",
+    "bytes": 21287,
+    "sha256": "49dac4c2860f631874803e916f14ee34cb5317d4a9086cced22ea4ea05bf6472"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-08_R15.dxf",
+    "bytes": 21287,
+    "sha256": "0529128e702e206f794575ff5101f8d1eb2ec4e72308337d5e148593fdd60492"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-09_R15.dxf",
+    "bytes": 21287,
+    "sha256": "55ef19600d2e9125ba2144d6bc2891d328a165b44e814ea3f2c21b1024031498"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01P-10_R15.dxf",
+    "bytes": 21287,
+    "sha256": "911877eb8eceffd53ac80a4a5513c3aa08f389c72f00251b3ee88940399ea311"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01S-01_R15.dxf",
+    "bytes": 30727,
+    "sha256": "c6a4533577bde8e6b00a1f03f16595f2f713d17bbfae431d2e6fe94139586e06"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01S-02_R15.dxf",
+    "bytes": 30727,
+    "sha256": "0e106d58eac2053e6a934f1eab9d83b9cc06d697fb238b699994fc62ca4d46ef"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01T-01_R15.dxf",
+    "bytes": 23252,
+    "sha256": "0626121a315aa50d5ba2cd127df8461c87cdca7fb19a45d568302d6117e9c23a"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV01T-02_R15.dxf",
+    "bytes": 23252,
+    "sha256": "1082571c054984de652910825e7766450adc1235f3d8cfacd99d3a677b882c34"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02CAP-01_R15.dxf",
+    "bytes": 27667,
+    "sha256": "cecb2111796fffef99cbda1b9c3254058a02ef572e153cb8ed0f4bb1c2be4c58"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02F1-01_R15.dxf",
+    "bytes": 22733,
+    "sha256": "ea93b0a8c8a66fa55df37884af3b2ee439f65cd200e0414f57cd00017c1e7ecd"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02F2-01_R15.dxf",
+    "bytes": 22723,
+    "sha256": "4b9557b79070942d70c689f4b963ff3054e5533651f903b2c5ebf86d5c5d9f28"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02F2-02_R15.dxf",
+    "bytes": 21395,
+    "sha256": "043b5859fe7b1c0d0b15f14f5e22481022014cc22daacedd7d2ab96ac8046023"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02F2-03_R15.dxf",
+    "bytes": 21395,
+    "sha256": "010cc45514d14f12ec75c5c466717d82bf0789c17f5d017462cc7798ab2b3f99"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02F2-04_R15.dxf",
+    "bytes": 22723,
+    "sha256": "d41be521cc4b89c3f6da362159b878353562e6f243b8280a30ef2dad579e1fd8"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02H1-01_R15.dxf",
+    "bytes": 23344,
+    "sha256": "8a4b7a128640adfded8f3c5678c00e1787c7d24c40f6e0cffd154fc17ae23771"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02H2-01_R15.dxf",
+    "bytes": 45247,
+    "sha256": "46af1d0e74c6f2d7c8ac1f6ab360cab889a3444c0681cd2f843c7c6dad4a184d"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02H2-02_R15.dxf",
+    "bytes": 23386,
+    "sha256": "2ea92d8794286fcd1f6da0e630d6c5f381096e51865f9429947f312e2ed0efc3"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02H2-03_R15.dxf",
+    "bytes": 23386,
+    "sha256": "42001da43abe2e8c2a60b828e01a43fd654bf4f8d2a3688669a163db2f4ee319"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02H2-04_R15.dxf",
+    "bytes": 23386,
+    "sha256": "ac07de1b4fc6d40ee0809c7743ab58286b423bc0ea377a89973447edef8b995d"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02P1-01_R15.dxf",
+    "bytes": 21233,
+    "sha256": "0668a789f0b85b78e018ae4e46d99efa909bc0c7f2490cbc139d683e132c0b03"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02P2-01_R15.dxf",
+    "bytes": 21262,
+    "sha256": "4ccfa484d10db35e231d90ed29d56de328cdfa5fccce5b8f738520e7486bea4a"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02P2-02_R15.dxf",
+    "bytes": 21262,
+    "sha256": "1d5c1aeefca236ce58184b45fa237e40c58653ce4796b5f282103cc652cfd242"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02P2-03_R15.dxf",
+    "bytes": 21262,
+    "sha256": "2025ce5ed9908b83379e248749d72a6ceec1da3cc7bc55b3f25b0823c89751b3"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-01_R15.dxf",
+    "bytes": 26540,
+    "sha256": "6f68dfc48bf141b6357affdfa2a29598fa5326f836e0bb6cbb1be84607853d62"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-02_R15.dxf",
+    "bytes": 26545,
+    "sha256": "a7f651605574144b8f70903c2bbb306a01f9972bc2700fca559d1723028fa3d7"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-03_R15.dxf",
+    "bytes": 26542,
+    "sha256": "2f7e83152bcba67d1eef586bb67ce9cbd57bb5ec88ac4a4ced36d0b2c67f14de"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-04_R15.dxf",
+    "bytes": 25663,
+    "sha256": "48a1d5fc8f06869f83869639f9930ad50c4e644ec3fb778d976173b7ee7d55b0"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-05_R15.dxf",
+    "bytes": 25663,
+    "sha256": "21374cdf16a8e3355ba515aced9376813cf8ad11632ebffeb19084a2d2d7a48c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-06_R15.dxf",
+    "bytes": 25663,
+    "sha256": "e432fe42fc5859888a81fb0730c87471db8d260f5faf377dd4cb022ef23dc123"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-07_R15.dxf",
+    "bytes": 25663,
+    "sha256": "d9bd2895181fbee795df27462e02b596324b77168b2d9ceb966676d7cadbb055"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-08_R15.dxf",
+    "bytes": 25663,
+    "sha256": "a03a905b439286681acfffa99f4544c3dc1bd48193dcbb55eda1a86494172994"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-09_R15.dxf",
+    "bytes": 26540,
+    "sha256": "a9d77b195cf36e1452f3fc975717fd0904303a4506cdf039be2659d77f58b06a"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02S-10_R15.dxf",
+    "bytes": 26103,
+    "sha256": "9c81f5d870b4a8ab0ef92b688e184ef86a408aeea58964110647544a4ca450f8"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02T1-01_R15.dxf",
+    "bytes": 22592,
+    "sha256": "f7267544872d401e9b9902af2aefaa5103eed3c1ef7b20eb5cc83589ac17fdeb"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02T2-01_R15.dxf",
+    "bytes": 23469,
+    "sha256": "e7b5c425df5a8b5c0e7b78eff1bf551f1b4132af635fbbff00b74f22ab56851b"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02T2-02_R15.dxf",
+    "bytes": 22372,
+    "sha256": "eb4843bca4181fbb3ca1dcb3be0459690c35d712472e7f8796a9529c06c7345a"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02T2-03_R15.dxf",
+    "bytes": 22372,
+    "sha256": "334a4fa3e15c0e7958570436df4b739413e762f9423b4e391f16eff363ab77d5"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV02T2-04_R15.dxf",
+    "bytes": 22372,
+    "sha256": "bb4a6878ef14a249b0082ca6d465905537998a4826fc43ae485dded15eec0b39"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV03P-01_R15.dxf",
+    "bytes": 27414,
+    "sha256": "b599276bc8cb2035c654be3edb82a574faf2724c49e117ccc4ccf7703ac7524c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV03P-02_R15.dxf",
+    "bytes": 27414,
+    "sha256": "c7b83e1dec64123f8a5b40750b5141fc25b0daa7ca59dbcdc4fa028d6b873028"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV03P-03_R15.dxf",
+    "bytes": 27414,
+    "sha256": "b9e4f6a1beb5f0b8b9d7c917d6d28daed281f5d47b6e73251324410f027a09d8"
+  },
+  {
+    "path": "dxf_alkatreszek/KI12-TV03P-04_R15.dxf",
+    "bytes": 27414,
+    "sha256": "64e0036d200a66af16b893768bed8303f99804b1002196a9c0ba962a78dec732"
+  },
+  {
+    "path": "dxf_alkatreszek/KI13-GAP-LOW-01_R15.dxf",
+    "bytes": 22109,
+    "sha256": "e692bd0944c6ebb6edeff40bc5f56f0dd19f79f86ff2ddd92cb4aeb4b86c0517"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-01_R15.dxf",
+    "bytes": 25067,
+    "sha256": "40f666e8d12d15ac665246c238f85d1ef1c162b94508335a8cc9719c08074da1"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-02_R15.dxf",
+    "bytes": 25067,
+    "sha256": "401f9b1ae393f798fa828aba38e158b608fa49caf487bc53fc3d5c1753e4f34c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-03_R15.dxf",
+    "bytes": 22624,
+    "sha256": "2e623afddef8b6fd96a65d8162a7e86deb6b7619b6487a1a516c45dea291be29"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-04_R15.dxf",
+    "bytes": 22634,
+    "sha256": "9bf789049cb3518094ff7bce03dc2cfc65422089fe080677cd3efb0c1b9f0214"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-05_R15.dxf",
+    "bytes": 22634,
+    "sha256": "aadc735cc3094a2cb56b47262e03f15d241c9d2382086cab9ba5019ef7539c51"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-06_R15.dxf",
+    "bytes": 22634,
+    "sha256": "ab96e1dcf2e1a713c64be44143b9d4138acbb5aaa48aad1dab1badab80d38dc9"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-07_R15.dxf",
+    "bytes": 22634,
+    "sha256": "fcad98bb34db64367710a2c87fd2303cf2cea113eafe13b74bce9008a6ac8cd4"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-08_R15.dxf",
+    "bytes": 22634,
+    "sha256": "62c876975d71d2945c50d759e9b0e3ca1cd73adea9aa6d6d66063040e5001d3a"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-09_R15.dxf",
+    "bytes": 22634,
+    "sha256": "ff51166d1b54b5685330e9b99fc07be904dffbcd52cb7bfe3d59efb667b1d91c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-10_R15.dxf",
+    "bytes": 22634,
+    "sha256": "47510b7dde4693c6c55e905c76890e65b37adbf41142efc1948d861e163a5eb4"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-11_R15.dxf",
+    "bytes": 22634,
+    "sha256": "583be3e7d45a4b2d8c476eae3175a7727c19f553b94d9de5ea80f0e9eca7b87d"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-BAT-12_R15.dxf",
+    "bytes": 22634,
+    "sha256": "c6b336edf18309f945a1c7f9c915c13f75eec6afa3169484b096b29bdd706ab6"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-GAPBAT-01_R15.dxf",
+    "bytes": 22194,
+    "sha256": "68820f625d8f0e23499f50234fb6cccb8e17be8c666cc244b596466ccfddae44"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-GAPBAT-02_R15.dxf",
+    "bytes": 22194,
+    "sha256": "b8135f43c32b803f582ef852d32f59db11923824cf613c2b9639caf0e66aa469"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-01_R15.dxf",
+    "bytes": 22583,
+    "sha256": "c3ff2828dd1bc5adc236dc108c98393855563fea36e9ffcc03d589b4ec1a52cc"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-02_R15.dxf",
+    "bytes": 22363,
+    "sha256": "c57c66d71e9b1a42a1c0ba6328f9b26dfe33d0d709f4ff140d0f83fdb69ecec2"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-03_R15.dxf",
+    "bytes": 22363,
+    "sha256": "a31b1002c80c4fbcccf1d71689631934b4b9df98f95d3afa77a27c721e29e30f"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-04_R15.dxf",
+    "bytes": 22363,
+    "sha256": "48362db49ba4343fdc2701602976ebdc2d4e7596c18af49e2c83ef172e3ee41c"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-05_R15.dxf",
+    "bytes": 22363,
+    "sha256": "c18374d06b8ba8947a3fa94a3e6039b3960109c542bec981c270c79237567659"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-06_R15.dxf",
+    "bytes": 22433,
+    "sha256": "a469a38b49fda93c935e926ac86e4d263efa58c0d7d4c0bc1077bc6183b3f35d"
+  },
+  {
+    "path": "dxf_alkatreszek/KI14-RAIL-07_R15.dxf",
+    "bytes": 22433,
+    "sha256": "b31cbd3694e8f7bfd7a8a27c2ae7409bb09ae3fbe804b12006b2068dea92785b"
+  },
+  {
+    "path": "integration/MUHELYI_HASZNALAT.txt",
+    "bytes": 2052,
+    "sha256": "85fd1f0a0eedd47283bf39cb4a3105cfd5b196532451421a727ee12f7890cdc3"
+  },
+  {
+    "path": "integration/alkatresz_import_UTF8.csv",
+    "bytes": 33887,
+    "sha256": "8f2ce1b83c952b4e83abf4095296e7ce7db3133ae6cbed4dd41c15a7d26568ab"
+  },
+  {
+    "path": "integration/alkatreszek_R15.sqlite",
+    "bytes": 61440,
+    "sha256": "13599b53acdb76042a8836e64d684d7ab964a00b9ead8a7ae68ecd9174e31879"
+  },
+  {
+    "path": "integration/cimke_kereso.py",
+    "bytes": 1238,
+    "sha256": "130b4460abdfb09f873ec2f6dfe3602e125ba498251b78f511f511df0ccf3ad0"
+  },
+  {
+    "path": "integration/elanyag_kodtabla.csv",
+    "bytes": 85,
+    "sha256": "6c5477db937146db0f7d050db62e5eeca13643951aeff9d1c1e30caa35a34f68"
+  },
+  {
+    "path": "integration/ki15_build.scr",
+    "bytes": 288616,
+    "sha256": "06e06ab881aef12870d3f6802fb6b201fcfe5d09bf9e5486aad8c32fcdadb6a2"
+  },
+  {
+    "path": "integration/ki15_coord_verify.scr",
+    "bytes": 204,
+    "sha256": "18203f9b1138c28de2cacc577063b669740824570ad00d8005d3f8035f694f85"
+  },
+  {
+    "path": "integration/ki15_verify.scr",
+    "bytes": 7845,
+    "sha256": "4d10a90d90aa44c688bd6e6bc3e7a21ace48e74af6e5573d55d632786b9094cf"
+  },
+  {
+    "path": "integration/ki15_views.scr",
+    "bytes": 40005,
+    "sha256": "c0c2585782b9d564b1d39841fe9d9dc40fdf950c794fb35e2df74dc6320627db"
+  },
+  {
+    "path": "integration/shop_profile.json",
+    "bytes": 478,
+    "sha256": "c41ba0c5ac318b985402936616d90c7fafe7baecd8c4723883677e80abe035c2"
+  },
+  {
+    "path": "integration/szerszam_lekepzes.csv",
+    "bytes": 450,
+    "sha256": "22dc0ed50a506a98154937bb2e2fc25802aa79861c168bd18399d645a4555e82"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01C-01_R15_A.mpr",
+    "bytes": 3537,
+    "sha256": "0ae83b3abe21684cab98b3089232b026f8fdc3a4830e8631cba0407b5f4132a7"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01C-01_R15_B.mpr",
+    "bytes": 2575,
+    "sha256": "df58fd745598ea35b645f3ff54d5f82a7a35dcc0b4108011e02817622eca02c0"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01F-01_R15_A.mpr",
+    "bytes": 2693,
+    "sha256": "f67ee33aebd03380ed84ea16f02b89ad62b00223e5c62578456125f9340603f1"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01F-02_R15_A.mpr",
+    "bytes": 2708,
+    "sha256": "a7c8f078749dcb789e360fb0d5c65e81ca03e65a3bfbc44f1016de509c74361d"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01H-01_R15_A.mpr",
+    "bytes": 2529,
+    "sha256": "d315bfccf55c0a20a5ecf070316c781b22ae797a2c78e5b975d0a7cda8741ce4"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01S-01_R15_B.mpr",
+    "bytes": 6649,
+    "sha256": "1bcc2336a59b1c2f34b18c537f0ecae41eadad53a4aa6ae9eaeb39d514dc291e"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01S-02_R15_A.mpr",
+    "bytes": 6648,
+    "sha256": "cae7256b079d6540ff6cc679ef39cee39f993c4474e8cc7db35f4a100077c2b2"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01T-01_R15_A.mpr",
+    "bytes": 1624,
+    "sha256": "381fb32a9a71571b4bca86e75438e9da9e7997874d02553954a33036f37b59e7"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01T-02_R15_A.mpr",
+    "bytes": 1169,
+    "sha256": "e72376d329880da6281ab88681c7aa0ab4079958db63caa0c33ad416566d1dfb"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV01T-02_R15_B.mpr",
+    "bytes": 666,
+    "sha256": "3c70dc0d1d8f8fcb38bf968cab34c1225aff31734e215ea7252df75e85f61ea1"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02CAP-01_R15_B.mpr",
+    "bytes": 4779,
+    "sha256": "7acd956d57d3f6bd8d87786d9f92e4dc40b678766ae6b13d216f9259492fd3f0"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02F1-01_R15_A.mpr",
+    "bytes": 1202,
+    "sha256": "40f9b0a2a2c451c2ec5ff612eaf000ba11ec63b8f25696978a1e453ad46a433c"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02F2-01_R15_A.mpr",
+    "bytes": 1202,
+    "sha256": "0772393b4bc75d097626f631864ee8dbd2d1a783afbe0737c94f118d1f2c1a01"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02F2-04_R15_A.mpr",
+    "bytes": 1202,
+    "sha256": "25f10f26bef13ef33689a25db137fdb7c90d37bf147401afe25a1085e53ea407"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02H1-01_R15_A.mpr",
+    "bytes": 1199,
+    "sha256": "d9b53b6c1b0be571d5017a590427244e7065128d21d0d199052b951edd003179"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02H2-01_R15_A.mpr",
+    "bytes": 16506,
+    "sha256": "fae4afdcd77962a649ca03d1a2c6727a95dd6fc8148db045f599ebd6aa799933"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02H2-02_R15_A.mpr",
+    "bytes": 1199,
+    "sha256": "557ea67ef33f04559a4c6f2a52a81365025cf7dd10c2a4da4acf6b2df3b33795"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02H2-03_R15_A.mpr",
+    "bytes": 1199,
+    "sha256": "b94ad16943363b3631b3bf9e8a0582cc5911eb004e787af519c1d551fef9a6a4"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02H2-04_R15_A.mpr",
+    "bytes": 1199,
+    "sha256": "daf9ef51c050463a21ecf7147f875753a8cc456c1dff3092019927e08e6b7b91"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-01_R15_A.mpr",
+    "bytes": 693,
+    "sha256": "a554de9a1385b56689fa1c3c66fac9e871fb5c3fe0c4a640cb3f2581b3621252"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-01_R15_B.mpr",
+    "bytes": 3265,
+    "sha256": "02b979ec0ab0b0d593cb116afea2a318baa402717feb1867ddd3d16050d89906"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-02_R15_A.mpr",
+    "bytes": 3402,
+    "sha256": "c18b256c5f953127a2888e0564f843d352ce317abfb8cc28342c803ee885b000"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-02_R15_B.mpr",
+    "bytes": 542,
+    "sha256": "52ed7ed2b913c591bfaeb9788d002f137ae86045c7c802718fc0ebe04a3d2c84"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-03_R15_A.mpr",
+    "bytes": 1028,
+    "sha256": "d040cb2cb1cb4d3c3bcaf5becd468ff45f4b7208cfa391567c9657d999a6a961"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-03_R15_B.mpr",
+    "bytes": 2957,
+    "sha256": "473f47f9771d20593d5f2138e086c2fd43f1127a195e6e563a0bba47aade4d60"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-04_R15_A.mpr",
+    "bytes": 3095,
+    "sha256": "6e2b832784ef06f0731988605c4b5a5dd95ee228c61e5a5dae4f1ddca9e4a6f9"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-05_R15_A.mpr",
+    "bytes": 693,
+    "sha256": "0daf2190189839ba39c8b7197040e4f7dba2abd2aedf0270519ed3071bbc0391"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-05_R15_B.mpr",
+    "bytes": 2595,
+    "sha256": "921224d6f74ca979a277db997d144176750750f6ffe7ce5f692512ca0750cd1e"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-06_R15_A.mpr",
+    "bytes": 3086,
+    "sha256": "324e344cb2b0e86672fdf561a03dca9b801ce40879deb19d651bccd1dd7df614"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-07_R15_A.mpr",
+    "bytes": 693,
+    "sha256": "f252c9f2b35af674a4dfe9d0e9a48816f88485423a2782ed88250238242e340d"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-07_R15_B.mpr",
+    "bytes": 2595,
+    "sha256": "da1d62947f53d034f8ae163e5638df40abdd70464356477e258b06484c0dd462"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-08_R15_A.mpr",
+    "bytes": 3086,
+    "sha256": "412d3ed2ba945d922c55ef1f2ed19446de50676973b9b4b0a8ae2ac18c7e9dbb"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-09_R15_A.mpr",
+    "bytes": 693,
+    "sha256": "aeed269dac47430b37a721234d921897348678fa4a8be539a70120d5e060c80c"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-09_R15_B.mpr",
+    "bytes": 3265,
+    "sha256": "1214d28b8dc7ffc192e6d161b58eeb786e4ee3f314ddf55d989d59ab5bc0dce9"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02S-10_R15_A.mpr",
+    "bytes": 3402,
+    "sha256": "abb76bd8315580f69d88aaeb47b3791126b4d8f070202fc4a6cf1985dde3399e"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02T1-01_R15_A.mpr",
+    "bytes": 1170,
+    "sha256": "cb3de0e5b71c2ed8ca2a386c971d759629f53f8f01ab8c4687ec8215fbf9fd5c"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02T2-01_R15_A.mpr",
+    "bytes": 1967,
+    "sha256": "d71f64e8d2f7d3306a28018bccdcd53fa6980c12e4295435c75c768ef062d817"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02T2-02_R15_A.mpr",
+    "bytes": 1170,
+    "sha256": "400442ad572ac8376e1d481288bf353f999b6a541f3d1dfd734e148904b29dc7"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02T2-03_R15_A.mpr",
+    "bytes": 1170,
+    "sha256": "2123053d1934f511a241f6c7f6c6d11ddd7bc42cddc128c9bb74eb30c3e1cde2"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV02T2-04_R15_A.mpr",
+    "bytes": 1170,
+    "sha256": "7d1cdcafaae4798d293d0cd6b0d7f5b2a740f84d1716cbe0ddab4201847fe552"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV03P-01_R15_A.mpr",
+    "bytes": 4248,
+    "sha256": "51625774ba029a8b85d190b1e439ab5d18d7c0e4e5458b222c7c395c962084fe"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV03P-02_R15_A.mpr",
+    "bytes": 4248,
+    "sha256": "7302095476f055eb101066f54b4fed203d1bb5206fbc79d8ca730d27c2419ce3"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV03P-03_R15_A.mpr",
+    "bytes": 4248,
+    "sha256": "4fbcca70bfe95c02d4e21c3a09e008c68dad180a0d65a51e92a4844f17ff5baa"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI12-TV03P-04_R15_A.mpr",
+    "bytes": 4248,
+    "sha256": "571a0dd26175837a1fb733c83ac56745dec6f60707d2ef8a26a9ced54ab59f0b"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI13-GAP-LOW-01_R15_A.mpr",
+    "bytes": 897,
+    "sha256": "e916de7c17ae151527e1a8571215518b97018ec2ccb59e057e27048dbd8d9041"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-01_R15_A.mpr",
+    "bytes": 1437,
+    "sha256": "ec34217b82714160609d8888f15b0ac7b3c361858da9a1474569832bb81e6123"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-01_R15_B.mpr",
+    "bytes": 1346,
+    "sha256": "3be8a3846b4c64353713d2fb2cb8909ef92e8a0aa26e382691423903d5e880a1"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-02_R15_A.mpr",
+    "bytes": 2574,
+    "sha256": "405985d76005e7f27997556129c1f997a3f45c0af70973277f092f1216454d9a"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-03_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "0a5cb7d1a45137b2b3ba07510dfb1ed6a2b44d380bb98bd5e4aecf5da07fdf2f"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-03_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "48e4024aba0270aa8d15c829099f18c75161fccf76a6dc909f089befd4f03b93"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-04_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "1a199985fa6300c2b7ff201c5952f360e70f9dde885cbe300c46e1135c6c6e30"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-05_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "7c17dd63183f696244f3bdf8ff138c548acfa99907caf4a02f90f419432f723c"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-05_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "bcbfb343e0c4e9f58006a839d9516fe18b915423a1362e22026d9961ed884e61"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-06_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "b30996e0529147683e172c6fbf39a98e05111eb8020a9b188112fb0cd0b91c21"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-07_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "9ec9f2d63ca3659270df1396dbf0b2897ea031899ed5d05394d6eaffe72c6be3"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-07_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "dadf2d5e2cd61b82068ffd62098f75a56e2c42abbcd2b8324adea964cc55317c"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-08_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "543abc4115cd62679a0161f2e3572b125d0481a3fce7b1549707b504891786d9"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-09_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "d96fd83aa12098762d5430efa58e7d66aa12a538473183da4d46f0970120547f"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-09_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "4341f69e7b1905f212bf36bbe51501e3a813ba2aaebfe9092807ff7fdd596e81"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-10_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "082928743c93161dce229dc5e4a44c7b10712850a49e6c96bc72ff1ae2b390fb"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-11_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "2b21c74dc2aafb6163156dc5de1df4fd32f6e7fe5826e31599edf4ad2b097fdb"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-11_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "55c2047218a43bf42a4881c3e8a8a158e8fa9bc32f3b54f43dcec76508ecff45"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-BAT-12_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "42ac83ba198637ecd60a1df5fa7dcf048e2acbf483073ac80a00d629ab4ae425"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-GAPBAT-01_R15_A.mpr",
+    "bytes": 558,
+    "sha256": "15c58fff39ba2d225ef488e83237f1a81a8e9661d228e7c1e42409aa2f7d76ef"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-GAPBAT-01_R15_B.mpr",
+    "bytes": 538,
+    "sha256": "270250192af04977c57cdb1459274bb99171f83aae87314518ceffdcca41d210"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-GAPBAT-02_R15_A.mpr",
+    "bytes": 885,
+    "sha256": "14aedb1b39e08437d84e23faeaf566d586335e55d8b04296914c20af4aefca73"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-01_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "29829928c7d80c5afe7e1df8d00f074d3401a715c00b27b9084edd16af5ebd7a"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-02_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "2d0f8e709d054ec505e58c62849fd4eb105838698338889dd09a8fcd6f9dd8e2"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-03_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "0669d4a34b7172e57c4b2a6d3d9bec35ed1c4a312c448a862091f80e90b6c8e4"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-04_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "22701394373f8acc02cf8f2a5e9c22214bb8592cdb07d51c7abe02f40dde9ba9"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-05_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "40c0dc72381d54b3f74295643dbbe5a397ecb338d83d023d7a08d39294b9d419"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-06_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "cf9a3a2c18f141a89d1fa1f13fc59f5a3c4cc85dd4e540d1cea885fe0580fbd3"
+  },
+  {
+    "path": "mpr_aktiv_tervezet/KI14-RAIL-07_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "2e183303e5b898bb7562d644389ef38338adc91249b47e3939db999233d6f7dc"
+  },
+  {
+    "path": "pilot/M5_elso_modul_probacsomag.pdf",
+    "bytes": 2555442,
+    "sha256": "16781822f9ba57db30e344b887c893716fc9f8971d41ba43dfaab4fd61e0503d"
+  },
+  {
+    "path": "pilot/audit/mpr_readback.json",
+    "bytes": 614,
+    "sha256": "ae8ff30507726f08d6b227747e76960fedcd72b41613f4ba1b60f8c5962b46bd"
+  },
+  {
+    "path": "pilot/data/holes.json",
+    "bytes": 37534,
+    "sha256": "f66535bc51a1b72c6cc93a7e0fc61d3540a733c5f1c0b1f3279024cd8e23371b"
+  },
+  {
+    "path": "pilot/data/mpr_mapping.json",
+    "bytes": 20371,
+    "sha256": "9c6ab6e6137f2ff942a6dc85ce1061a7ee319db3aecd040d006c76a86a5368c1"
+  },
+  {
+    "path": "pilot/data/parts.json",
+    "bytes": 15853,
+    "sha256": "fab6602a35215b965ac9657eb9b4864259a2cf74610b3e3cfd853cf141ee9bb3"
+  },
+  {
+    "path": "pilot/data/programs.json",
+    "bytes": 2798,
+    "sha256": "a18ef21de9b355023c85ae6a522e3c87bf3c5b6cdfd3ce6a25f07ec34cdb4e1e"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02F2-04_R15.dxf",
+    "bytes": 22733,
+    "sha256": "8093367ddac1949c8124919c0f74df7b6f86a6a6d83d4cb1068f64fc0ff50a0c"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02H2-04_R15.dxf",
+    "bytes": 23386,
+    "sha256": "ac07de1b4fc6d40ee0809c7743ab58286b423bc0ea377a89973447edef8b995d"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02P2-03_R15.dxf",
+    "bytes": 21272,
+    "sha256": "174cdfd1f9c068598d6a26e455a39b0162cc3df78d9ecc6d3a1b76476eef1914"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02S-09_R15.dxf",
+    "bytes": 26550,
+    "sha256": "91cd832e0edee6d419ce0e20a56974972e8fe062105f27b15cf46858da22b1c0"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02S-10_R15.dxf",
+    "bytes": 26113,
+    "sha256": "8154294677d9e9cec5a3e0911371888e238e1bacc6b17ddf5e6d3aefdec14398"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI12-TV02T2-04_R15.dxf",
+    "bytes": 22382,
+    "sha256": "26725104efa8275f71ba827f84517b35c82e345f0bed92a96f0d3eccee966680"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI14-BAT-11_R15.dxf",
+    "bytes": 22634,
+    "sha256": "c821f40cac9610e217da49922a97016bea264a87a92bc91392110a3ecb34224d"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI14-BAT-12_R15.dxf",
+    "bytes": 22634,
+    "sha256": "652ea3ec81ed0aa258be39a2e98aae6312b2b11f1178290160bc7dbdb7ef45e4"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI14-RAIL-05_R15.dxf",
+    "bytes": 22363,
+    "sha256": "9043182c7db274e895afdb60cbc3d520d4c1bf05c7d80c63199069cfc200a078"
+  },
+  {
+    "path": "pilot/dxf_alkatreszek/KI15-PILOT-CAP-M5_R15.dxf",
+    "bytes": 22547,
+    "sha256": "efb28a046f1baa765a9021f5d559acd22a0f3cb3ae45438c4c06ac19c67ff06a"
+  },
+  {
+    "path": "pilot/integration/alkatresz_import_UTF8.csv",
+    "bytes": 4798,
+    "sha256": "01a7caa250dd09e6360947f873e43a4817af77d4aad3b96fcb19435ee874e73c"
+  },
+  {
+    "path": "pilot/integration/alkatreszek_R15.sqlite",
+    "bytes": 20480,
+    "sha256": "5c7a5cf105cdc8d3394e3b658caaf78bde2aa4a6385170bec6b51b48dc07fea7"
+  },
+  {
+    "path": "pilot/integration/cimke_kereso.py",
+    "bytes": 1238,
+    "sha256": "130b4460abdfb09f873ec2f6dfe3602e125ba498251b78f511f511df0ccf3ad0"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02F2-04_R15_A.mpr",
+    "bytes": 1202,
+    "sha256": "25f10f26bef13ef33689a25db137fdb7c90d37bf147401afe25a1085e53ea407"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02H2-04_R15_A.mpr",
+    "bytes": 1199,
+    "sha256": "daf9ef51c050463a21ecf7147f875753a8cc456c1dff3092019927e08e6b7b91"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02S-09_R15_A.mpr",
+    "bytes": 693,
+    "sha256": "aeed269dac47430b37a721234d921897348678fa4a8be539a70120d5e060c80c"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02S-09_R15_B.mpr",
+    "bytes": 3265,
+    "sha256": "1214d28b8dc7ffc192e6d161b58eeb786e4ee3f314ddf55d989d59ab5bc0dce9"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02S-10_R15_A.mpr",
+    "bytes": 3402,
+    "sha256": "abb76bd8315580f69d88aaeb47b3791126b4d8f070202fc4a6cf1985dde3399e"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI12-TV02T2-04_R15_A.mpr",
+    "bytes": 1170,
+    "sha256": "7d1cdcafaae4798d293d0cd6b0d7f5b2a740f84d1716cbe0ddab4201847fe552"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI14-BAT-11_R15_A.mpr",
+    "bytes": 732,
+    "sha256": "2b21c74dc2aafb6163156dc5de1df4fd32f6e7fe5826e31599edf4ad2b097fdb"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI14-BAT-11_R15_B.mpr",
+    "bytes": 693,
+    "sha256": "55c2047218a43bf42a4881c3e8a8a158e8fa9bc32f3b54f43dcec76508ecff45"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI14-BAT-12_R15_A.mpr",
+    "bytes": 1217,
+    "sha256": "42ac83ba198637ecd60a1df5fa7dcf048e2acbf483073ac80a00d629ab4ae425"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI14-RAIL-05_R15_A.mpr",
+    "bytes": 1260,
+    "sha256": "40c0dc72381d54b3f74295643dbbe5a397ecb338d83d023d7a08d39294b9d419"
+  },
+  {
+    "path": "pilot/mpr_aktiv_tervezet/KI15-PILOT-CAP-M5_R15_B.mpr",
+    "bytes": 1119,
+    "sha256": "15da04804224e491232a9466c72bcd650b2c4c0a4649ae3fb8334fabb9d3bf58"
+  },
+  {
+    "path": "pilot/pilot_manifest.json",
+    "bytes": 1885,
+    "sha256": "e525b529b63c47894f6fd9148d05d56e22c8680ec04c0e48dba2b2255b4d6f39"
+  },
+  {
+    "path": "rajzok/D15_05_vizszintes_Z470.dxf",
+    "bytes": 32126,
+    "sha256": "c0f13fa8c8bd3c4c329dcae1288ad48a02d18001580a97e19843ffcd01d5bb51"
+  },
+  {
+    "path": "rajzok/D15_06_fuggoleges_X2919.dxf",
+    "bytes": 23267,
+    "sha256": "d4022908a9ba972728db785810207d906598b8cf9f1ab3d4f3043a1e37ae66dd"
+  },
+  {
+    "path": "rajzok/D15_07_AV_X1000.dxf",
+    "bytes": 23528,
+    "sha256": "1ba51720905fcaa655287520bb34e93225472905acd41199cc8757b964995995"
+  },
+  {
+    "path": "rajzok/NYITAS_A_700x350.dxf",
+    "bytes": 31171,
+    "sha256": "35c1550c7cdf186d0ab8c5867494dca1125c721000db8178e1415052d7e54e6a"
+  },
+  {
+    "path": "rajzok/NYITAS_B_leemelheto.dxf",
+    "bytes": 22201,
+    "sha256": "9ec861e756538d297a3da494b076ca0517bec0542235d6ea93b61410c9a018a8"
+  },
+  {
+    "path": "rajzok/NYITAS_ORIGINAL.dxf",
+    "bytes": 32074,
+    "sha256": "8bd633f415e3bcaf3b401125fcf1264d65c12759c8b9dcefb8d609ad8ab9557c"
+  },
+  {
+    "path": "rajzok/TV_R15_blanks.dxf",
+    "bytes": 386683,
+    "sha256": "dcd51ca7541d27a413ea4d5807580189d88885dc9fed5781337fb16e960c5b30"
+  },
+  {
+    "path": "rajzok/TV_R15_koordinacio.blend",
+    "bytes": 1294842,
+    "sha256": "16bf62b1a6f80252dc574c59182dea83fe4d6bcb6ca1dba9c1d4b8ba9b39ead7"
+  },
+  {
+    "path": "rajzok/TV_R15_megmunkalt.dwg",
+    "bytes": 604939,
+    "sha256": "bb949a6a07ddb0314a40fe19cedf7dd962cd6b3f4bc2ba4e2bec08780b1742fc"
+  },
+  {
+    "path": "rajzok/TV_R15_robbantott.dwg",
+    "bytes": 915181,
+    "sha256": "fa59031b411ca4bdaf99df5d42ebd9119f2a6469e738cd30ab16c8127e871b2c"
+  },
+  {
+    "path": "rajzok/TV_R15_szerelesi_es_alkatreszrajzok.pdf",
+    "bytes": 5893850,
+    "sha256": "41f2e9a930f024d567843eaac4aee7c5d87929b43a49f14a270d3a30eb699f6c"
+  },
+  {
+    "path": "rajzok/TV_R15_vasalat_koordinacio.dwg",
+    "bytes": 734387,
+    "sha256": "4fd7b465fd27358737d7d79d56a60655b2e6002f2ebb9f3509d17329b59ac5fa"
+  },
+  {
+    "path": "sources/Camar807_IN.pdf",
+    "bytes": 314373,
+    "sha256": "f485f922c79f9a92f8cb110341cb05b9ce45f5f5a3bbfd8d4831befb87baf4dd"
+  },
+  {
+    "path": "sources/MF375.pdf",
+    "bytes": 179513,
+    "sha256": "de47dc11289b7fa5923d107647df2af4e482d5b7ce5b7a30800f629b668a61e9"
+  },
+  {
+    "path": "sources/MeanWell.pdf",
+    "bytes": 606915,
+    "sha256": "2c6ffb1746bb99c894e8b238b2e2d483f375059a1d303962e26b15651dd75638"
+  },
+  {
+    "path": "sources/Sunricher_DIM.pdf",
+    "bytes": 365859,
+    "sha256": "969bb4e67ecaa56befc951a9d88f590a1b4ddca86816ed945d929f4924edf91a"
+  },
+  {
+    "path": "sources/TV_R14_eredeti_munkafuzet.xlsx",
+    "bytes": 92790,
+    "sha256": "1d6db43845db6cbb11d4af9f93c1a9feeaa11e05c7b15888296f17d4c4aaa74d"
+  },
+  {
+    "path": "sources/Vogel3605.pdf",
+    "bytes": 259858,
+    "sha256": "faa8e28ba31a6dbeaf462a17ee30ebb5e86d112c722b0d2476ffa69548dd0f24"
+  }
+]

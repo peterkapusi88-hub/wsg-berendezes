@@ -1,0 +1,164 @@
+{
+  "status": "SPECIFIED_DESIGN_NOT_ELECTRICAL_APPROVAL",
+  "strip": {
+    "brand": "LED line PRIME",
+    "sku": "476821",
+    "description": "320COB24V2700K8WIP20,8x2mm,Ra90,5cmvágás",
+    "purchase_m": 10,
+    "reels": 2,
+    "cutting": "A tekercs:3550mm+1450mm maradék. B tekercs:2750mm+2250mm. L03=2250+50mm az A maradékból,forrasztott vezetékes híddal. Beépített8.60m,maradék1.40m. Végzáróknak L01-ben25-25mm;L02-ben5-5mm;L03-ban a híd és végzárók együtt30mm helyet kapnak.",
+    "source": "https://ledline.pl/produkty/tasmy-led/tasmy-led-cob/tasma-led-320-cob-24v-2700k-8w-ip20-8mm-5m-800lmm-prime/"
+  },
+  "profile": {
+    "sku": "KLUS B1718K7_3",
+    "description": "PDS-4-ALU fekete eloxált,3000mm;4szál",
+    "cross_section_mm": [
+      16,
+      12
+    ],
+    "clear_width_mm": 11.2,
+    "cut_list_mm": [
+      3000,
+      600,
+      2760,
+      2330
+    ],
+    "stock_assignment": "1.szál3000;2.szál2760;3.szál2330;4.szál600. Nettó8690mm,maradék3310mm mínusz fűrészrés. A3000+600toldás csakL01-ben.",
+    "cover": "LIGER17037 szatén kompatibilis fedél,12m;legacy cikkszám, rendeléskor az aktuális egyenérték megerősítendő",
+    "endcap": "24066 zárt és24081 kivezetett fekete PDS-4-ALU végzáró,4+4db",
+    "bracket": "PDS24189,22db;tervezett legfeljebb450mm kiosztás, tényleges végpontok rajzon",
+    "source": "https://www.kitokogroup.com/wp-content/uploads/catalogs/KLUS%20CATALOG.pdf"
+  },
+  "driver": {
+    "sku": "MEAN WELL LPV-150-24",
+    "W": 151.2,
+    "source": "https://www.meanwell.com/Upload/PDF/LPV-150/LPV%2CLPVL-150-SPEC.pdf"
+  },
+  "dimmers": {
+    "sku": "SR-ZG9101FA-DIM",
+    "quantity": 3,
+    "mode": "12–36V DC constant voltage,5A/channel;mindegyik egység csakCH1-et használja,egy önálló fényág. Nem0–10V változat!",
+    "source": "https://www.lemona.lt/Files/Instrukcijos/Pdf/SR-ZG9101FA-DIM%20instruction%20V1.pdf",
+    "Hue": "Gyártói útmutató Hue Bridge párosítást említ; helyi firmware/párosítás/jelenet még nincs kipróbálva. A meglevő Bridge-et használni, újat csak hiány esetén számolni."
+  },
+  "circuits": [
+    {
+      "id": "L01",
+      "name": "Alsó fény",
+      "profile_mm": 3600,
+      "LED_mm": 3550,
+      "unlit_end_total_mm": 50,
+      "cut_pitch_mm": 50,
+      "W": 28.4,
+      "A": 1.1833333333333333,
+      "cable_m_oneway": 3,
+      "cable_mm2": 0.75,
+      "voltage_drop_V": 0.213,
+      "voltage_drop_pct": 0.8875,
+      "fuse_design_A": 2,
+      "path": [
+        [
+          0,
+          35,
+          138
+        ],
+        [
+          3600,
+          35,
+          138
+        ]
+      ],
+      "controller": "DIM-1",
+      "cable_condition": "2x0.75mm² Cu tervezési választás; vezetési mód, hő és védelem villanyszerelővel ellenőrzendő. 0.0225Ωmm²/m meleg réz számítási feltételezés."
+    },
+    {
+      "id": "L02",
+      "name": "Felső fény",
+      "profile_mm": 2760,
+      "LED_mm": 2750,
+      "unlit_end_total_mm": 10,
+      "cut_pitch_mm": 50,
+      "W": 22.0,
+      "A": 0.9166666666666666,
+      "cable_m_oneway": 5,
+      "cable_mm2": 0.75,
+      "voltage_drop_V": 0.27499999999999997,
+      "voltage_drop_pct": 1.1458333333333333,
+      "fuse_design_A": 2,
+      "path": [
+        [
+          840,
+          406,
+          2860
+        ],
+        [
+          3600,
+          406,
+          2860
+        ]
+      ],
+      "controller": "DIM-2",
+      "cable_condition": "2x0.75mm² Cu tervezési választás; vezetési mód, hő és védelem villanyszerelővel ellenőrzendő. 0.0225Ωmm²/m meleg réz számítási feltételezés."
+    },
+    {
+      "id": "L03",
+      "name": "Függőleges fény",
+      "profile_mm": 2330,
+      "LED_mm": 2300,
+      "unlit_end_total_mm": 30,
+      "cut_pitch_mm": 50,
+      "W": 18.4,
+      "A": 0.7666666666666666,
+      "cable_m_oneway": 4,
+      "cable_mm2": 0.75,
+      "voltage_drop_V": 0.18399999999999997,
+      "voltage_drop_pct": 0.7666666666666665,
+      "fuse_design_A": 2,
+      "path": [
+        [
+          736,
+          394,
+          550
+        ],
+        [
+          736,
+          394,
+          2880
+        ]
+      ],
+      "controller": "DIM-3",
+      "cable_condition": "2x0.75mm² Cu tervezési választás; vezetési mód, hő és védelem villanyszerelővel ellenőrzendő. 0.0225Ωmm²/m meleg réz számítási feltételezés."
+    }
+  ],
+  "total_W": 68.8,
+  "total_A": 2.8666666666666667,
+  "driver_load_pct": 45.50264550264551,
+  "service": "AV2,430x240mm elölről kivehető tálca. Baloldali230V kivezetés/érintésvédelem elkülönítve; jobb oldalt3vezérlő. Nem zárt hőszigetelt doboz. Hátlapon alul/felül48dbØ10=37.70cm²/bank; a fali üreg szabad levegőkapcsolata külön helyszíni ellenőrzés. AV-gépet nem tenni közvetlenül a tápegységre.",
+  "commissioning": [
+    "Villanyszerelő ellenőrzi a meglévő kiállást, kapcsolást, védelmet és érintésvédelmet.",
+    "24V áganként2A DC biztosító tervezve; 230V ésSELV vezetékek fizikailag elkülönítve, kötés csak hozzáférhető dobozban.",
+    "Maxfényen2órás hőmérés a lezárt végleges fronttal; határérték az összes tényleges komponens adatlapjának legszigorúbb értéke.",
+    "Huesötétítés1/10/50/100%, villogás, visszakapcsolás,Bridgekiesés és kézi kapcsolás próbája.",
+    "1:1fényminta2700K; panel relief/nyomat árnyéka és felső fénykilépés ellenőrzése."
+  ],
+  "scenes": [
+    {
+      "name": "Este",
+      "L01": 25,
+      "L02": 35,
+      "L03": 20
+    },
+    {
+      "name": "Film",
+      "L01": 8,
+      "L02": 10,
+      "L03": 5
+    },
+    {
+      "name": "Takarítás",
+      "L01": 100,
+      "L02": 100,
+      "L03": 100
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+# Legutóbbi részfeladat: R15 – hat műhelyi továbbfejlesztés / 2026-10-29
+
+Aktuális átadás: `R15_muhely/OLVASD_EL.txt`; `A902_TV_R15_hat_fejlesztes.zip`. 75 megmunkált faalkatrész,826 furat,12 kivágás,113 vasalati helyfoglalás;103 oldalas rajzkönyv,12 lapos Excel,73 aktív fúrási MPR-tervezet. Külön10darabos/84furatos/11MPR elsődarab-csomag. A korábbi revíziókat ne állítsd vissza.
+
+Camar/MF375/TV-fali teherút kidolgozva, de fal és gyártói alkalmazás nyitott. A/B front–asztal alternatíva nem kiválasztott. Konkrét háromágú24V fényrendszer és szerviztálca. Címke/CSV/SQLite kapcsolatok tesztelve; valódi műhelyi import, woodWOP5 és gépi elsődarab nem tesztelt. Felmérés/anyagminták nem lezártak. Minden R15 ár becslés. A főregiszter24 673 390Ft; feltételes R15-egyeztetéssel25 161 190Ft, további átfedés vizsgálandó. A18M célkeret nem teljesült;2M tartalék érintetlen.
+
+Az alábbiak történeti előzmények.
+
 ## R14 — aktuális TV-modul szerkezeti és műhelyi checkpoint (2026-10-28)
 
 Belépő: [R14_muhely/OLVASD_EL.txt](R14_muhely/OLVASD_EL.txt). **75 alkatrész, 579 tényleges AutoCAD-furat, 69 aktív MPR-tervezet, 87 oldalas rajzkönyv és frissített Excel/címkék.** Új: hátlaprögzítő lécek, merevítők, rejtett betétrögzítés, hátlaphézagok, TIP-ON adapterfuratok, három szerkezeti metszet és LED/szerviz-javaslat. A mentett DWG visszaolvasva, térfogata ellenőrizve; a helyi címkekereső revízió- és hash-ellenőrzést végez. Teljes csomag: `A902_TV_R14_muhelyi_checkpoint.zip`.

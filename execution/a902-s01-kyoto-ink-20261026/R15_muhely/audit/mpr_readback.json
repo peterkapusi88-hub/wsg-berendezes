@@ -1,0 +1,11 @@
+{
+  "files": 73,
+  "mapped_holes": 826,
+  "all_operations_enabled": true,
+  "readback_errors": [],
+  "woodWOP_5_opened": false,
+  "machine_simulation": false,
+  "basis": "HOMAG woodWOP file description4.2.7 / 9-080-42-7190-D00 2006-07-26, macros102/103; secondary-hosted manufacturer excerpt",
+  "source": "https://www.scribd.com/document/615867902/HOMAG-Mpr4x-Format-Us",
+  "limitations": "Active drilling draft only. Back-corner notches are separate saw operations. No actual tool IDs, feeds, fixture, woodWOP5 parse or machine simulation. Hardware bodies are simplified coordination envelopes in separate DWG."
+}

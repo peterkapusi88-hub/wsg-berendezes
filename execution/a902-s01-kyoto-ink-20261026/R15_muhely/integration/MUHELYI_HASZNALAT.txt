@@ -1,0 +1,25 @@
+R15 – OFFLINE MŰHELYI PRÓBA, NEM GÉPVEZÉRLÉS
+1. A teljes R15_muhely mappát együtt másold; a belső fájlneveket ne nevezd át.
+2. Nyisd meg az Excelt. Darabok G:L/P:Q sárga mezői az előző revízióból megmaradtak.
+   A C élkódot az asztalos saját kódtáblája szerint töltsd ki. Hiányzó ráhagyás esetén
+   a nyersméret NYITOTT, nem automatikusan a készméret.
+3. Címke: 95×50mm, A4,100%, két oszlop. Előbb sima papíron mérd meg. A vonalkód
+   csak az R15:alkatrészID kulcsot tartalmazza, nem futtatható parancsot.
+4. Python3 keresési próba a kicsomagolt mappában:
+   python3 integration/cimke_kereso.py R15:KI12-TV02S-09
+   A rajzot és valamennyi MPR-tervezetet SHA256 alapján ellenőrzi. Régi revízió,
+   hiányzó vagy sérült fájl esetén megáll. Nem nyitja meg és nem indítja a CNC-t.
+5. alkatresz_import_UTF8.csv: UTF-8 BOM, pontosvessző, tizedespont, milliméter.
+   Egy sor/darab, a programlista JSON tömb; barcode az egyedi revíziós kulcs.
+   E1/E2/E3/E4 és A/B mezők jelentése a rajzkönyvben. A saját adatbázisba importálás
+   előtt az oszlopneveket a műhely sémájához kell leképezni, tesztmásolatban.
+   A CSV és SQLite átadási formátum, nem állítjuk, hogy natív woodWOP-import.
+6. A pilot mappa külön keresője és adatbázisa a10 próbadarabot tartalmazza.
+   Ne keverd azonos revízión belül a fő3600mm fedlapot a690mm próbafedlappal.
+7. woodWOP5-ben először a pilotot nyissátok meg. Ellenőrizendő: nyers/készméret,
+   forgatás/fordítás, ütköző, szerszámok, furatmélység, átmenő furat alátámasztás,
+   legkisebb befogható szélesség, vákuumzóna és szerszámütközés. A vágások külön
+   fűrészes műveletek. A makrók AKTÍVAK, a megnyitás nem gyártási jóváhagyás.
+8. A kitöltött szerszam_lekepzes.csv, elanyag_kodtabla.csv és Muhelyprofil Excel-lap
+   alapján készülhet gépspecifikus következő revízió. Ezt követi a fizikai elsődarab,
+   mérőlap, szerelési próba és az asztalos kiadási aláírása.

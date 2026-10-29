@@ -1,0 +1,643 @@
+[
+  {
+    "id": "KI12-TV02S-09",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / bal oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "22 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-09.mpr",
+    "assembly_box_mm": [
+      2910,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        2910,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 22,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI12-TV02S-10",
+    "type": "TV02-S",
+    "name": "Alsó oldalak / jobb oldallap",
+    "x": 382,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "20 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02S-10.mpr",
+    "assembly_box_mm": [
+      3582,
+      0,
+      150,
+      18,
+      382,
+      382
+    ],
+    "frame": {
+      "origin": [
+        3582,
+        0,
+        150
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 20,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI12-TV02T2-04",
+    "type": "TV02-T2",
+    "name": "690-es modul fenék / példány 4",
+    "x": 654,
+    "y": 382,
+    "t": 18,
+    "material": "M03",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02T2-04.mpr",
+    "assembly_box_mm": [
+      2928,
+      0,
+      150,
+      654,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2928,
+        0,
+        168
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI12-TV02P2-03",
+    "type": "TV02-P2",
+    "name": "690-es modul polc / példány 3",
+    "x": 652,
+    "y": 290,
+    "t": 18,
+    "material": "M03",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "0 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02P2-03.mpr",
+    "assembly_box_mm": [
+      2929,
+      20,
+      341,
+      652,
+      290,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2929,
+        20,
+        359
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 0,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI12-TV02F2-04",
+    "type": "TV02-F2",
+    "name": "Alsó front690 / példány 4",
+    "x": 687,
+    "y": 397,
+    "t": 18,
+    "material": "M01",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "mind4 él",
+    "edge": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roles": "E1..E4 látszó kerület; ajtó esetén pántoldal még kijelölendő",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "Tervezési darabméret; nem gyártási kiadás R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02F2-04.mpr",
+    "assembly_box_mm": [
+      2911.5,
+      -21,
+      151.5,
+      687,
+      18,
+      397
+    ],
+    "frame": {
+      "origin": [
+        3598.5,
+        -3,
+        151.5
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI12-TV02H2-04",
+    "type": "TV02-H2",
+    "name": "Hátlap690 / példány 4",
+    "x": 652,
+    "y": 362,
+    "t": 8,
+    "material": "M03",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "nincs homlokél",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 alsó helyi él; mind4 él hátfalcsatlakozás",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint",
+      "Két nyitott sarokkivágás: 22x126mm, két egyenes fűrészvágással. Az MPR csak fúrás."
+    ],
+    "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02H2-04.mpr",
+    "assembly_box_mm": [
+      2929,
+      354,
+      169,
+      652,
+      8,
+      362
+    ],
+    "frame": {
+      "origin": [
+        3581,
+        362,
+        169
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI14-BAT-11",
+    "type": "BAT",
+    "name": "Hátlaprögzítő bükk léc",
+    "x": 212,
+    "y": 18,
+    "t": 18,
+    "material": "BEECH18",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI14-BAT-11.mpr",
+    "assembly_box_mm": [
+      2928,
+      336,
+      188,
+      18,
+      18,
+      212
+    ],
+    "frame": {
+      "origin": [
+        2928,
+        336,
+        188
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI14-BAT-12",
+    "type": "BAT",
+    "name": "Hátlaprögzítő bükk léc",
+    "x": 212,
+    "y": 18,
+    "t": 18,
+    "material": "BEECH18",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI14-BAT-12.mpr",
+    "assembly_box_mm": [
+      3564,
+      336,
+      188,
+      18,
+      18,
+      212
+    ],
+    "frame": {
+      "origin": [
+        3564,
+        336,
+        188
+      ],
+      "U": [
+        0,
+        0,
+        1
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        -1,
+        0,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI14-RAIL-05",
+    "type": "RAIL",
+    "name": "Hátsó merevítő keresztléc",
+    "x": 654,
+    "y": 100,
+    "t": 18,
+    "material": "PLY18",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "roles": "E1 látszó első él; E2/E4 szerkezeti vég; E3 hátoldal",
+    "ops": [
+      "Névleges készméret és anyag",
+      "6 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI14-RAIL-05.mpr",
+    "assembly_box_mm": [
+      2928,
+      318,
+      300,
+      654,
+      18,
+      100
+    ],
+    "frame": {
+      "origin": [
+        3582,
+        336,
+        300
+      ],
+      "U": [
+        -1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        0,
+        1
+      ],
+      "outward_A": [
+        0,
+        1,
+        0
+      ],
+      "meaning": "rajzi jobbkezes rendszer; nem gépi ütköző"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  },
+  {
+    "id": "KI15-PILOT-CAP-M5",
+    "type": "TV02-CAP",
+    "name": "M5 próbafedlap / csak próbához, nem beépülő darab",
+    "x": 690,
+    "y": 382,
+    "t": 18,
+    "material": "M01",
+    "face": "A=U×V külső normál a rajzi rendszerben; a gépi felső/felfekvő oldal külön jóváhagyandó.",
+    "grain": "egyszínű / mintázat egyeztetendő",
+    "primary": "E1 V=0 / javasolt első referencia, nem igazolt gépi ütköző",
+    "secondary": "E4 U=0 / javasolt második referencia",
+    "front": "E1",
+    "edge": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "roles": "E1 első; E2/E4 vég látszó; E3 fal felőli",
+    "ops": [
+      "Névleges készméret és anyag",
+      "30 furat a külön furatjegyzék szerint",
+      "Élzárás és nyersméret műhelyszabály szerint"
+    ],
+    "note": "A3600mm végleges fedlap2910..3600szakaszának külön próbája. Nem számítandó még egyszer a beépülő alkatrészekhez.",
+    "status": "TERV - NEM GYARTAS",
+    "mpr": "KI12-TV02CAP-01.mpr",
+    "assembly_box_mm": [
+      2910,
+      0,
+      532,
+      690,
+      382,
+      18
+    ],
+    "frame": {
+      "origin": [
+        2910,
+        0,
+        550
+      ],
+      "U": [
+        1,
+        0,
+        0
+      ],
+      "V": [
+        0,
+        1,
+        0
+      ],
+      "outward_A": [
+        0,
+        0,
+        1
+      ],
+      "meaning": "próbafedlap rajzi rendszer"
+    },
+    "revision": "R15",
+    "hole_count": 6,
+    "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+    "edge_definition": "E1 V0; E2 Umax; E3 Vmax; E4 U0"
+  }
+]

@@ -1,0 +1,83 @@
+KYOTO INK / A-902 / TV-MODUL / R15 / 2026.10.29.
+A hat kért továbbfejlesztés közös, tényleges fájlcsomagja.
+
+ELŐSZÖR EZEKET NYISD MEG
+rajzok/TV_R15_szerelesi_es_alkatreszrajzok.pdf – 103 A3 oldal.
+TV_R15_muhelyi_regiszter.xlsx – 12 munkalap, képletekkel; az R14 kézi mezői megmaradtak.
+rajzok/TV_R15_vasalat_koordinacio.dwg – 75 megmunkált faalkatrész +113 vasalati helyfoglalás.
+rajzok/TV_R15_megmunkalt.dwg – csak a 75 valódi megmunkált faalkatrész.
+rajzok/TV_R15_robbantott.dwg – szerelési áttekintés.
+rajzok/TV_R15_koordinacio.blend – ugyanazon natív CAD-testek ellenőrző modellje.
+pilot/M5_elso_modul_probacsomag.pdf – 15 oldalas elsődarab-csomag.
+cimkek/TV_R15_cimkek_A4.pdf – 76 címke, 8 A4 lap; 95×50 mm, 100%-on nyomtatva.
+
+1. VASALAT ÉS RÖGZÍTÉS
+Cikkszámos Blum szerelvények, 12 Camar807 függesztő és falilemez; 48 MF375 panelklipsz,
+4 fali sín, Vogel konzol. Az új függesztőfuratok, panelcsavar-előfuratok és AV-szellőzők
+benne vannak a valódi CAD-ben, Excelben és fúrási programtervezetekben.
+6 korpuszra kiszámított tömeg/hasznos teher/nyomaték; külön TV- és panelteherút.
+A 31 mm névleges fali távtartás, a horgonyozás és a toronyra alkalmazhatóság még
+falvizsgálatra és gyártói/szakági jóváhagyásra vár. A horgonycsalád jelölt, nem végleges
+falcsavardarabszám. A kék/sárga testek helyfoglalások, nem pontos gyári vasalatmodellek.
+
+2. ALSÓ 3–4. FRONT ÉS ASZTAL
+A: 700×350 mm asztal, hosszanti iránya a fallal párhuzamos; nyílófrontok. A 0,1°-os
+mintavételű névleges vizsgálat nem talált érintkezést; minimum kb.39 mm geometriai hézag.
+A korábbi 700×450 asztal felülete 22,2%-kal kisebb. Várható többlet35 000Ft (becslés).
+B: eredeti asztal; két leemelhető front Keku AS kötésekkel; 30 mm kihúzás +220 mm emelés.
+1 mm-es mintavételben nincs ütközés. Ritkán használt tárolóhoz; a kb.3,44kg-os frontot
+kézben kell tartani. Várható többlet45 000Ft (becslés). Fogás/valódi klipszerő próbálandó.
+Mindkét külön DXF és részletes leírás elkészült. Egyik sincs automatikusan kiválasztva.
+A főösszeállítás eredeti nyitási konfliktusa így döntésig nyitott; nincs hamis PASS.
+
+3. RAJZOK ÉS SZERELÉS
+75 beépülő alkatrész önálló, méretezett DXF-fel; 826 furat koordinátatáblázattal.
+12 nyitott hátlapsarok két egyenes FŰRÉSZVÁGÁSSAL; nem tartalmazzák az MPR-ek.
+Szerelési sorrend, csomópontok, három külön szerkeszthető D15 metszet.
+A frontosztás és a3600mm szélesség változatlan; a polcok320→290mm mélységűek.
+A hátsó merevítők/lécek és hátlap síkja módosult a függesztők és furatok miatt.
+Tervméretek, nem helyszínen felmért gyártási méretek. Csoportszínek, nem elfogadott minták.
+A blanks.dxf megmunkálás ELŐTTI forrás: ne használd kész alkatrészként.
+
+4. VILÁGÍTÁS
+LED line PRIME476821:8,60m/68,8W, három külön CV-PWM ág; LPV-150-24 tápegység,
+3×SunricherSR-ZG9101FA-DIM. KLUS profil és diffúzor, vágási terv, kábelek és szerviztálca.
+L03=2250+50mm szakasz, forrasztott összekötéssel; nincs kitalált nem vágható hossz.
+Két48×Ø10 szellőzőbank, bankonként37,7cm² szabad keresztmetszet. Ez nem hőtechnikai
+minősítés: szabad légút és kétórás hőpróba szükséges. 230V bekötés/védelem szakági feladat.
+Hue-párosítás nincs ténylegesen kipróbálva. Régebbi KLUS cikkszámok utódját a forgalmazóval
+egyeztetni kell; nincs állított készlet. Minden R15 ár előzetes becslés.
+
+5. MŰHELY / CÍMKÉK / ADATKAPCSOLAT
+75 fődarab +10 pilotdarab CSV-import, SQLite-kereső, SHA256-ellenőrzés, revíziós vonalkód.
+A pilot átfed a főlistával; csak a690mm próbafedlap külön próbadarab, nem plusz beépülő elem.
+integration/MUHELYI_HASZNALAT.txt szerint próbálható a kereső; nem küld programot a gépre.
+C élkódtábla és13 soros szerszámleképezési lap előkészítve. C értékei, ütköző és befogás
+nem kitalált adatok. A/B/E1–E4 a rajzi tájolás, nem ellenőrzött gépi felfekvés.
+A műhely saját adatbázisába való tényleges telepítés/import nincs tesztelve.
+
+6. ELSŐDARAB
+M5 alsó modul:10 alkatrész,84 furat,11 aktív MPR-tervezet; szerelvénylista, címkék,
+mérési és elfogadási lap. Külön690mm próbafedlap; a főbútor3600mm fedlapja megmaradt.
+73 fő MPR /826 fúrási makró. EN=1 és ??=1 a kifejezett kérés szerint.
+Saját makró-visszaolvasás megtörtént; woodWOP5, gépi szimuláció és fizikai próba NEM.
+A keskeny18mm lécek befogása, Ø60 kivágás technológiája, szerszám, fordulat, előtolás és
+ráállás a tényleges gépprofillal lezárandó. A fájlok nem kiadott CNC-maróprogramok.
+
+KÖLTSÉG ÉS EGYEZTETÉS
+Az élő főregiszter visszaolvasott teljes összege24 673 390Ft; a fájlt nem írtuk felül.
+Az R15 rögzítés/fény/munkacsomag várható802 800Ft, sávja540 100–1 175 100Ft.
+KI-032/034/114 meglévő315 000Ft-ját levonva feltételes összeg25 161 190Ft.
+További93 000Ft lehetséges átfedés igazolása esetén25 068 190Ft. Az R14 rejtett szerkezeti
+126 946Ft-ja a korábbi asztaloskerettel még egyeztetendő: nem adjuk hozzá kétszer.
+Az A/B változatfelár külön, döntésig nincs hozzáadva. A18M célkeret NEM teljesül;
+a külön2M tartalék érintetlen. A teljes75darabos asztalosajánlat fogja lezárni az átfedéseket.
+
+ELLENŐRZÉS
+Natív AutoCAD2027 külön mentés/visszaolvasás;75 faalkatrész,826 furat,12 kivágás;
+367186888,8256mm³ nettó térfogat, egyezik a számítással;0 CAD-adatbázishiba.
+Koordinációs DWG188test=75fa+113helyfoglalás,0 adatbázishiba. Nincs állított teljes
+vasalatmozgás-, falteher-, gépi szerszám- vagy befogóütközés-ellenőrzés.
+Excel képletek, címkekereső és fájlsértés elutasítása külön naplózva.
+A gyártási kiadáshoz még: felmérés, anyag/él/nyomatminta, fal/függesztés, A/B döntés,
+valódi műhelyprofil és sikeres elsődarab. Rendelés vagy gépi végrehajtás nem történt.

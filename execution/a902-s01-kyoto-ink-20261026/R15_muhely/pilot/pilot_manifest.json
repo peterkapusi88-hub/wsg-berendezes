@@ -1,0 +1,84 @@
+{
+  "id": "M5-PILOT-R15",
+  "parts": [
+    "KI12-TV02S-09",
+    "KI12-TV02S-10",
+    "KI12-TV02T2-04",
+    "KI12-TV02P2-03",
+    "KI12-TV02F2-04",
+    "KI12-TV02H2-04",
+    "KI14-BAT-11",
+    "KI14-BAT-12",
+    "KI14-RAIL-05",
+    "KI15-PILOT-CAP-M5"
+  ],
+  "part_count": 10,
+  "bore_count": 84,
+  "notch_manual_operations": 2,
+  "extra_top": "KI15-PILOT-CAP-M5",
+  "main_cap_retained": "KI12-TV02CAP-01",
+  "method": "Fúrások aktív MPR-tervezetben; hátlap két nyitott sarok kivágása külön fűrészes művelet. Nem teljesen gépesített kontúrprogram.",
+  "hardware": [
+    {
+      "sku": "70T3550.TL",
+      "qty": 2
+    },
+    {
+      "sku": "173H7100",
+      "qty": 2
+    },
+    {
+      "sku": "956.1004",
+      "qty": 1
+    },
+    {
+      "sku": "956.1201",
+      "qty": 1
+    },
+    {
+      "sku": "80702Z1INSX",
+      "qty": 1
+    },
+    {
+      "sku": "80702Z1INDX",
+      "qty": 1
+    },
+    {
+      "sku": "897ASZ11212",
+      "qty": 2
+    },
+    {
+      "sku": "8x30 bükk csap",
+      "qty": 18
+    },
+    {
+      "sku": "Ø5 polctartó 8mm beülés",
+      "qty": 4
+    },
+    {
+      "sku": "4x30 léc-csavar",
+      "qty": 6
+    },
+    {
+      "sku": "3.5x20 hátlapcsavar",
+      "qty": 6
+    },
+    {
+      "sku": "609.1500 pánt/pánttalp csavar",
+      "qty": 8
+    },
+    {
+      "sku": "606N/606P adaptercsavar",
+      "qty": 2
+    }
+  ],
+  "test_sequence": [
+    "Műhelyprofil,szerszám/befogás és anyag ellenőrzés.",
+    "MPR megnyitása woodWOP5-ben:méret,oldal,makró,mélység;szimuláció.",
+    "Elsőoldal,front és hátlap próbadarab:furatok külön lemérése.",
+    "Korpusz szárazpróba,átlók,hézag,polc,pánt,TIPON.",
+    "Camarfüggesztő próbaszerelés külön tesztfalon;jóváhagyott terhelési próba.",
+    "Mért értékek rögzítése;jóváhagyás után sorozat."
+  ],
+  "release": "NOT_MANUFACTURED_NOT_SHOP_VALIDATED"
+}

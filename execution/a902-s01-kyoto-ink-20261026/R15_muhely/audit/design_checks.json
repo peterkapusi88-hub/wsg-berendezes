@@ -1,0 +1,20 @@
+{
+  "parts": 75,
+  "holes": 826,
+  "hinges": 16,
+  "shelf_pins": 56,
+  "blank_overlaps": [],
+  "cylinder_outside_blank": [],
+  "parallel_hole_intersections": [],
+  "expected_net_volume_mm3": 367186888.8256217,
+  "volume_assumption": "No intersecting bores. Native AutoCAD volume must match.",
+  "NOT_APPROVED": [
+    "site dimensions",
+    "Camar application and shim/anchor design",
+    "3-4 front owner choice",
+    "woodWOP5 machine/tool/fixture",
+    "material samples",
+    "thermal/electrical commissioning"
+  ],
+  "notches": 12
+}

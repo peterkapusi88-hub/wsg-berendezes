@@ -1,0 +1,46 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc20239DR5u0l).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.119.M.246)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor
+Isolating to regkey=ki15coordverify, userDataFolder=/tmp/ki15coordverify.
+
+INFO: Isolation create time: 428 ms.
+
+Version Number: X.119.M.246 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+Loading Modeler DLLs..
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Resources/Support/@en@/acad2027.LSP
+Command: 
+Command: 
+Command: 
+Command: (setvar "CMDECHO" 0)
+0
+Command: (princ (list "R15_ALL_SOLIDS" (sslength (ssget "_X" '((0 . "3DSOLID"))))))
+(R15_ALL_SOLIDS 188)("R15_ALL_SOLIDS" 188)
+Command: (princ (list "R15_HW_SOLIDS" (sslength (ssget "_X" '((0 . "3DSOLID") (8 . "HW_*"))))))
+(R15_HW_SOLIDS 113)("R15_HW_SOLIDS" 113)
+Command: _.AUDIT
+Fix any errors detected? [Yes/No] <N>: _N
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 0       Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+Command: _.QUIT
+_N
+Really want to discard all changes to drawing? <N> _N
+Command: 
+Command: *Cancel*
+Command: *Cancel*
+Command: _.quit

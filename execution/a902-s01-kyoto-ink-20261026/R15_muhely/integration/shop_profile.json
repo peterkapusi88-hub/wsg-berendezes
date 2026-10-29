@@ -1,0 +1,15 @@
+{
+  "revision": "R15",
+  "machine_reported": "WOF211 homag",
+  "woodWOP_reported": "5.0",
+  "machine_verified": false,
+  "C_edge_code_mapping": null,
+  "primary_stop": null,
+  "secondary_stop": null,
+  "face_A_orientation": null,
+  "tool_map": {},
+  "min_clampable_width_mm": null,
+  "feed_spindle_table": null,
+  "shop_approved_by": null,
+  "convention": "E1 V=0; E2 U=Umax; E3 V=Vmax; E4 U=0. A outward=U×V; B flip aboutU. A/B drawing orientation is not machine placement."
+}

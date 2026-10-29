@@ -1,0 +1,104 @@
+{
+  "source": "R10 extracted obstacle AABBs, same asR12; not a fresh room survey",
+  "method": "0.1degree rigid18mm panel0..110deg; approximate hinge pivot. Clearance envelope includes no operator/hardware exact motion. Removable trajectory1mm sampled.",
+  "main_selection": null,
+  "coffee_original": {
+    "id": "KI_CF-01",
+    "box": [
+      2050.000095367432,
+      -857.9998092651371,
+      0.0,
+      449.9998092651367,
+      699.9998092651367,
+      349.9999940395355
+    ]
+  },
+  "coffee_A": [
+    1900,
+    -1088,
+    0,
+    700,
+    350,
+    350
+  ],
+  "results": [
+    {
+      "alternative": "ORIGINAL",
+      "front": 3,
+      "contacts": [
+        {
+          "obstacle": "KI_CF-01",
+          "first_deg": 11.6
+        }
+      ]
+    },
+    {
+      "alternative": "ORIGINAL",
+      "front": 4,
+      "contacts": [
+        {
+          "obstacle": "KI_CF-01",
+          "first_deg": 26.1
+        }
+      ]
+    },
+    {
+      "alternative": "A_ASZTAL_700x350",
+      "front": 3,
+      "contacts": []
+    },
+    {
+      "alternative": "A_ASZTAL_700x350",
+      "front": 4,
+      "contacts": []
+    }
+  ],
+  "table_A_other_object_contacts": [],
+  "A_nominal_min_sweep_to_table_mm": 38.941050564072725,
+  "A_nominal_coffee_to_chaise_mm": 300,
+  "removable_B": [
+    {
+      "front": 3,
+      "pull_mm": 30,
+      "lift_mm": 220,
+      "contacts": [],
+      "clearance_above_coffee_mm": 21.5
+    },
+    {
+      "front": 4,
+      "pull_mm": 30,
+      "lift_mm": 220,
+      "contacts": [],
+      "clearance_above_coffee_mm": 21.5
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A",
+      "description": "Két eredeti687x397front,2-2baloldali110fokosBlumpánt +1-1rövidTIPON;dohányzóasztal700x350x350, hosszában a TV-fallal párhuzamosan.",
+      "cost_delta_low_HUF": 15000,
+      "cost_delta_HUF": 35000,
+      "cost_delta_high_HUF": 75000,
+      "compromise": "Az asztallap700x450helyett700x350:22.2%kisebbfelület,elforgatott/eltoltelhelyezés;300mmnévlegeskanapérés.",
+      "release": "Tulajdonosi döntés és pontos pántpróba szükséges."
+    },
+    {
+      "id": "B",
+      "description": "Eredeti asztal marad;3-4front leemelhető szervizpanel,4párHäfeleKEKUAS/front (262.50.359panel+262.50.368keret),belső rögzítőlécekhez.30mmkihúzás,220mmemelés.",
+      "cost_delta_low_HUF": 22000,
+      "cost_delta_HUF": 45000,
+      "cost_delta_high_HUF": 80000,
+      "compromise": "Nem kényelmes napi tároló.3.44kgfront kézzel kiemelendő;alsó megfogás/cliperő próbája szükséges. Használatkor dísztárgyak helyét szabaddá kell tenni.",
+      "release": "Tulajdonosi funkciójóváhagyás és1:1klipsz/működéspróba szükséges."
+    },
+    {
+      "id": "C",
+      "description": "SaliceS10coplanar:korábbiR14méretezettalternatíva továbbra is összehasonlításra.",
+      "cost_delta_low_HUF": 120000,
+      "cost_delta_HUF": 180000,
+      "cost_delta_high_HUF": 260000,
+      "compromise": "Közös korpusz,raisedfloor,két686.5mmfront,4mmközéprés,középfogantyúk;gyári mozgásburkolat még nem digitálisan igazolt.",
+      "release": "Nem választott; nincs igazolt teljes mozgásmodell."
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+# Legutóbbi részfeladat: R15 – hat műhelyi továbbfejlesztés / 2026-10-29
+
+Aktuális átadás: `R15_muhely/OLVASD_EL.txt`; `A902_TV_R15_hat_fejlesztes.zip`. 75 megmunkált faalkatrész,826 furat,12 kivágás,113 vasalati helyfoglalás;103 oldalas rajzkönyv,12 lapos Excel,73 aktív fúrási MPR-tervezet. Külön10darabos/84furatos/11MPR elsődarab-csomag. A korábbi revíziókat ne állítsd vissza.
+
+Camar/MF375/TV-fali teherút kidolgozva, de fal és gyártói alkalmazás nyitott. A/B front–asztal alternatíva nem kiválasztott. Konkrét háromágú24V fényrendszer és szerviztálca. Címke/CSV/SQLite kapcsolatok tesztelve; valódi műhelyi import, woodWOP5 és gépi elsődarab nem tesztelt. Felmérés/anyagminták nem lezártak. Minden R15 ár becslés. A főregiszter24 673 390Ft; feltételes R15-egyeztetéssel25 161 190Ft, további átfedés vizsgálandó. A18M célkeret nem teljesült;2M tartalék érintetlen.
+
+Az alábbiak történeti előzmények.
+
 # Legutóbbi részfeladat: R14 TV-modul / 2026-10-28
 
 Aktuális forrás: `R14_muhely/OLVASD_EL.txt`, az R14 adat- és rajzcsomag. 75 alkatrész,579 natív furat,69 aktív MPR,87 PDF-oldal,75 címke. R13-ra ne állíts vissza. A hátsó lécek/merevítők és TIP-ON adapterfuratok már kidolgozottak; a hátlapokat1mm kerületi hézaggal terveztük át. Az R13 kézi Excel-mezői megőrizve. Saját ellenőrzés: natív térfogat egyezik,0 CAD-adatbázishiba,0 Excel-képlethiba, minden címke visszakereshető, hibás hash és régi revízió elutasítva.

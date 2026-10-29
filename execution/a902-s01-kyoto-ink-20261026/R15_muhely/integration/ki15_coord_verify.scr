@@ -1,0 +1,7 @@
+(setvar "CMDECHO" 0)
+(princ (list "R15_ALL_SOLIDS" (sslength (ssget "_X" '((0 . "3DSOLID"))))))
+(princ (list "R15_HW_SOLIDS" (sslength (ssget "_X" '((0 . "3DSOLID") (8 . "HW_*"))))))
+_.AUDIT
+_N
+_.QUIT
+_N
