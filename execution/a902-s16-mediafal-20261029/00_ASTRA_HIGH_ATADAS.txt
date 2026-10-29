@@ -1,0 +1,70 @@
+# S16 médiafal - Astra High folytatás
+Dátum: 2026-10-29. A tulajdonos külön munkamenetben kéri az S16 megvalósítását és költség-összehasonlítását.
+Ez az átadás az előkészített bizonyítékokat adja át; nem elkészült S16 gyártási terv.
+
+## Legutóbbi tulajdonosi döntés
+„360 legyen hát a képen ugyanakkorának látszik nem”
+A teljes S16 médiafal tervezett szélessége tehát 3600 mm. Őrizd meg a csatolt render formavilágát és arányait. A méret tulajdonosi tervezési cél, nem helyszíni felmérés. Az eredeti prompt kisebb bútorát ne állítsd vissza.
+
+## Feladat
+Alkalmazd a latvanybol-asztalos-terv skillt: dolgozd ki az S16 médiafalat a képi megjelenéshez hűen, tényleges anyagokkal, belső kiosztással, világítással, szerelhető részletekkel és tételes becsült/igazolt költségekkel. Készíts tényleges rajzokat, listákat és ellenőrzést, ne csak tervet a későbbi munkához. Hasonlítsd az S01 Kyoto Ink R16 médiafalhoz azonos 3600 mm szélességen. Az eredeti promptot a materialspecifikációhoz is olvasd el maradéktalanul. Második összehasonlító stílust a tulajdonos még nem azonosított; ne találj ki egyet.
+
+## Skill
+Telepített: /Users/peterkapusi/.codex/skills/latvanybol-asztalos-terv/SKILL.md
+Projektpéldány: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/skills/latvanybol-asztalos-terv/SKILL.md
+Olvasd a két hivatkozott részletes segédletet is. Renderhűséghez a meglévő render-to-reality skill a szomszéd könyvtárban hasznos.
+
+## A kép pontos azonosítása
+A user egy rövid „A” betűt is írt a képe mellé, de a képet ténylegesen ellenőriztük:
+S16 Monza Magno G63 Residence, Cam_02, V3.3 C, v1.
+A csatolt kép RGB-pixelei az archív C-vel teljesen azonosak: 1586×992,
+pixel SHA256 2697b795cec9ef7cebbe27d55ecc2ae3f380c274a8d34f3ac537484294339cd5.
+Ne válts az A-verzióra a végére került betű miatt.
+A tartós, átadott kép: sources/S16_Cam02_C_celkep.png.
+Eredeti archív kép:
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/WSG_A902_17_STILUS_LATVANYTERVEK_20261027/S16_MonzaMagnoG63Residence/A902_S16_MonzaMagnoG63Residence_1_nappali-terasz_Cam_02_C__ASTRA_V3_3_CLAUDE__v1.png
+Kép Git-blob: 9b58a22c75696589738e77a56e03b33fa0132248.
+Archív commit: eafba53d401d8595f79257fde42a83415633e947 (kép mentési commitja, nem bizonyított generálási időpont).
+Prompt blob: bac87dad6f6dfee524a3d6fb57b8e67cc110edff.
+Prompt útvonal a repóban: 05_promptok/KEP006_GPT6ASTRA_V3_3_r1/20_C_PROMPTOK/A902_S16_MonzaMagnoG63Residence_Cam_02__V33_C_v1.prompt.md
+Megtalálva a competition/gpt6astra-v3-3-creative-revision-s16-s17-20261026 archivált fájljegyzékében; pontos eredeti létrehozó commit külön nem igazolt.
+A teljes prompt változatlan helyi másolata: sources/S16_Cam02_C_eredeti_prompt.txt.
+
+## Forrásból már ismert, de még nem megvalósítási terv
+Motívum: PRECISION SOFT / OFFSET ARMOUR; három egyenlőtlen, lekerekített grafit bútorfelület.
+Eredeti prompt: 240×42×40 cm alsó szekrény négy ajtóval; 65×245×40 cm torony; felső mező 288 cm-ig 290 cm mennyezet alatt; 190 cm TV-mező; fix külső R35 mm; 8 mm szatén ezüstszürke részlet; keskeny elefántcsont textilbetét; 20–35 mm sekély rétegezés.
+Mostani szélesség 360 cm-re változott tulajdonosi döntéssel. A további méretek helyszíni/építészeti forrásból ellenőrzendők, nem egyszerűen arányosan felszorzandók.
+Anyagnyelv: szatén grafit, visszafogott szürke fa/fahatás, textil, finom ezüstszürke él. Az autó festékneve inspiráció, nem bútorfesték-rendelési kód. Nem szabad csak a meleg esti képből barnára specifikálni.
+A prompt 3 m W01 LED-et említ; a képen megjelenő összes fényút tényleges hosszát és táplálását fel kell venni. Nem bizonyított, hogy a 3 m az összes látható fényhez elég.
+A prompt és render közötti eltéréseket külön jegyezd fel; a képen látható formát próbáld megépíthető részletekre bontani, ne hagyd el egyszerűsítés címén.
+Nincs kiválasztott/igazolt S16 anyag-SKU, nincs új S16 ár vagy terv jóváhagyva. A jelen chatben felmerült keresési találatok NEM anyagválasztások.
+
+## Összehasonlítási alap és engedélyek
+A S01 R16 megmarad. S16 külön mappába/költségmodellbe készüljön.
+A funkcióazonos összehasonlításhoz mutasd a S01-féle 6 magas, nyomásra nyíló, csillapított fiókot és 2 ajtós magas szekrényt, 8 belső fényérzékelővel az S16 formába illesztett javaslatként; ez közös összehasonlítási feltétel, nem külön jóváhagyott S16 frontosztás. Az eredeti négyajtós promptváltozat más tartalom, ne hirdesd olcsóbbnak funkciókülönbség jelölése nélkül.
+Külső formát, tárolókapacitást vagy jelentős költségnövelést ne hagyj jóvá a tulajdonos helyett. A dokumentációt önállóan vidd végig; felmérés/minta/műhelyi próba hiányát jelöld felelőssel és következő lépéssel. Ne rendelj, ne küldj ajánlatkérést, ne indíts CNC-t.
+
+## Kyoto Ink aktuális alap
+/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/
+Első olvasás: 00_OLVASD_EL.txt, data/layout.json, materials.json, cost.json, rajzok/TV_R16_asztalos_tervcsomag.pdf, data/parts.json, drawers.json, lighting.json, pending_hardware_operations.json.
+Élő Excel: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/outputs/A902_Kyoto_Ink_elo_regiszter.xlsx
+Öt médiafalsor:
+KI-030 felső/nyomat/front/betét: 935500 Ft
+KI-031 alsó 6 fiók/beépítés: 985000 Ft
+KI-032 rögzítés/műhely: 504800 Ft
+KI-034 TV-konzol: 32000 Ft
+KI-114 világítás: 512000 Ft
+Összesen 2969300 Ft bruttó becslés, a sorok sávja 2438726–4030447 Ft. Nincs fix árajánlat. TV-készülék, szobai bútorok, központi logisztika külön sorok; szerelési/műhelyi átfedések ajánlati egyeztetést igényelnek.
+Lakás előirányzat 26212190 Ft; 18M cél és 2M külön tartalék; a tulajdonos korábban megengedőbb lett, de nincs automatikus keretemelés.
+S01 műszaki ellenőrzés:106 lap,956 szerkezeti furat, CAD/Blender névleges egyezés. Nem gyártásra jóváhagyott: gyári MOVENTO műveletek és gépi próba hiányosak; szerszámlista nincs; felmérés, minták és fiók/asztal használati konfliktus nyitott. Régi Excel-lapokon elavult adatok is vannak; az aktuális R16 forrást használni és az ellentmondást jelölni kell.
+
+## CAD és referenciaminőség
+A user példái: /Users/peterkapusi/Downloads/km.dwg és /Users/peterkapusi/Downloads/coo1.dwg. Másik bútorterv csak külalaki/részletezettségi referencia.
+AutoCAD helyi híd: /Users/peterkapusi/Library/Application Support/ChatGPTAutoCAD/server.py és bridge.lsp; elérhető MCP-n státusszal kezdeni. Csak a saját S16 rajzot módosítsd; időtúllépéses módosítást ne ismételj vakon. A korábbi működő parancsfeldolgozót is használd, ha az adott feladatra jobb.
+Gép user szerint „WOF211 homag”, woodWOP5.0; pontos géptípus/adattábla, szerszámkönyvtár és műhelyi ellenőrzés továbbra szükséges.
+
+## Mentés
+Helyi munkamappa: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s16-mediafal-20261029
+A projektben a mentési engedély a peterkapusi88-hub/wsg-berendezes repó execution/a902-s01-kyoto-ink-design-to-budget-20261026 ágára érvényes. Kezdetkor olvasd a friss headet, ne állíts vissza. S16 külön execution/a902-s16-mediafal-20261029 útvonalra menjen. Main/kreatív ág/eredeti forrásmodell nem módosítható.
+A jelen chat a skill mentését fejezi be; S16 gyártási kidolgozás itt nem történt.
+
