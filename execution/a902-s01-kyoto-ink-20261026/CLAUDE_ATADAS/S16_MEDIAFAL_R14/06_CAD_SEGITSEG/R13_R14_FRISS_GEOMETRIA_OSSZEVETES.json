@@ -1,0 +1,489 @@
+{
+  "scope": "A két eredeti mentett Blender főalkatrészeinek azonos névleges zárt állapotú, csúcsonkénti összevetése. Nem vasalat- vagy gyártási ellenőrzés. Eredeti forrásfájlok nem módosultak.",
+  "primary_parts": 120,
+  "tolerance_mm": 0.001,
+  "max_vertex_coordinate_difference_mm": 0.0,
+  "pass": true,
+  "parts": [
+    {
+      "id": "D1-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D1-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D2-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D3-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D4-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D5-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-T",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-FRONT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BOX-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BOX-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BOX-F",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BOX-H",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "D6-BOX-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-B",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-C",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-S1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-S2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-S3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-S4",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-S5",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-L-SERVICE",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-S1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-S2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-S3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-S4",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-S5",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-R-SERVICE",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-DOOR-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-DOOR-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "TEXTILE",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BG-1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BG-2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BG-3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BG-4",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BATTEN-1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BATTEN-2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BATTEN-3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BATTEN-4",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BATTEN-5",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "CURVE-T-TOP",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-T-TOP",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "CURVE-T-BOT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-T-BOT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-T-L",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-T-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-T-MID",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-LOW-1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-LOW-2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-LOW-3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-HIGH-1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-HIGH-2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-HIGH-3",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-TOP",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "CURVE-B-TOP",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-BOT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "CURVE-B-BOT",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "FRAME-B-R",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "TV-SPACER-1",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "TV-SPACER-2",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-LOW-DIV",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-LOW-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "T-DOOR-L-BACK",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "TV-FIELD",
+      "max_vertex_coordinate_difference_mm": 0.0
+    },
+    {
+      "id": "BG-FINISH",
+      "max_vertex_coordinate_difference_mm": 0.0
+    }
+  ]
+}

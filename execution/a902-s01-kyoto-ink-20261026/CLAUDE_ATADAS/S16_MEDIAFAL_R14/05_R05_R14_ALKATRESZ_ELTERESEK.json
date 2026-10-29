@@ -1,0 +1,3262 @@
+[
+  {
+    "id": "BATTEN-1",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      910,
+      0,
+      590,
+      40,
+      40,
+      2235
+    ],
+    "R14_box": [
+      910,
+      0,
+      590,
+      40,
+      8,
+      2235
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "BATTEN-2",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      1540,
+      0,
+      590,
+      40,
+      40,
+      2235
+    ],
+    "R14_box": [
+      1540,
+      0,
+      590,
+      40,
+      8,
+      2235
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "BATTEN-3",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      2220,
+      0,
+      590,
+      40,
+      40,
+      2235
+    ],
+    "R14_box": [
+      2220,
+      0,
+      590,
+      40,
+      8,
+      2235
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "BATTEN-4",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      2900,
+      0,
+      590,
+      40,
+      40,
+      2235
+    ],
+    "R14_box": [
+      2900,
+      0,
+      590,
+      40,
+      8,
+      2235
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "BATTEN-5",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      3530,
+      0,
+      590,
+      40,
+      40,
+      2235
+    ],
+    "R14_box": [
+      3530,
+      0,
+      590,
+      40,
+      8,
+      2235
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "BG-1",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "box",
+      "drawing",
+      "kind",
+      "mesh_mm",
+      "note",
+      "raw_L",
+      "raw_W",
+      "raw_rule",
+      "revision"
+    ],
+    "R05_box": [
+      873.0,
+      60,
+      570,
+      678,
+      18,
+      2305
+    ],
+    "R14_box": [
+      740,
+      8,
+      470,
+      811.0,
+      17,
+      2405
+    ],
+    "R05_material": "M04",
+    "R14_material": "M04"
+  },
+  {
+    "id": "BG-2",
+    "fields_changed": [
+      "T",
+      "W",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      1554.0,
+      60,
+      570,
+      679.5,
+      18,
+      2305
+    ],
+    "R14_box": [
+      1554.0,
+      8,
+      470,
+      679.5,
+      17,
+      2405
+    ],
+    "R05_material": "M04",
+    "R14_material": "M04"
+  },
+  {
+    "id": "BG-3",
+    "fields_changed": [
+      "T",
+      "W",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      2236.5,
+      60,
+      570,
+      679.5,
+      18,
+      2305
+    ],
+    "R14_box": [
+      2236.5,
+      8,
+      470,
+      679.5,
+      17,
+      2405
+    ],
+    "R05_material": "M04",
+    "R14_material": "M04"
+  },
+  {
+    "id": "BG-4",
+    "fields_changed": [
+      "T",
+      "W",
+      "box",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      2919.0,
+      60,
+      570,
+      678,
+      18,
+      2305
+    ],
+    "R14_box": [
+      2919,
+      8,
+      470,
+      678.0,
+      17,
+      2405
+    ],
+    "R05_material": "M04",
+    "R14_material": "M04"
+  },
+  {
+    "id": "BG-FINISH",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "mesh_mm",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "raw_L",
+      "raw_W",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": null,
+    "R14_box": [
+      740,
+      25,
+      470,
+      2857,
+      1,
+      2405
+    ],
+    "R05_material": null,
+    "R14_material": "M04"
+  },
+  {
+    "id": "CURVE-B-BOT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3520,
+      40,
+      150,
+      80,
+      337,
+      80
+    ],
+    "R14_box": [
+      3520,
+      40,
+      150,
+      80,
+      337,
+      80
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "CURVE-B-TOP",
+    "fields_changed": [
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      3520,
+      40,
+      490,
+      80,
+      337,
+      80
+    ],
+    "R14_box": [
+      3520,
+      40,
+      490,
+      80,
+      337,
+      80
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "CURVE-T-BOT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      40,
+      150,
+      870,
+      337,
+      100
+    ],
+    "R14_box": [
+      0,
+      40,
+      150,
+      870,
+      337,
+      100
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "CURVE-T-TOP",
+    "fields_changed": [
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      40,
+      2775,
+      870,
+      337,
+      100
+    ],
+    "R14_box": [
+      0,
+      40,
+      2775,
+      870,
+      337,
+      100
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D1-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      453,
+      40,
+      168,
+      399,
+      8,
+      384
+    ],
+    "R14_box": [
+      453,
+      40,
+      168,
+      399,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D1-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      474,
+      80,
+      210,
+      357,
+      290,
+      15
+    ],
+    "R14_box": [
+      474,
+      80,
+      210,
+      357,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D1-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      474,
+      355,
+      225,
+      357,
+      15,
+      222
+    ],
+    "R14_box": [
+      474,
+      355,
+      225,
+      357,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D1-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      474,
+      80,
+      225,
+      357,
+      15,
+      222
+    ],
+    "R14_box": [
+      474,
+      80,
+      225,
+      357,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D1-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      459,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      459,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D1-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      831,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      831,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D1-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      436.5,
+      382,
+      171,
+      432,
+      18,
+      378
+    ],
+    "R14_box": [
+      436.5,
+      382,
+      171,
+      432,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D1-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      435,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R14_box": [
+      435,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D1-R",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      852,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R14_box": [
+      852,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D1-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "revision"
+    ],
+    "R05_box": [
+      453,
+      40,
+      552,
+      399,
+      337,
+      18
+    ],
+    "R14_box": [
+      453,
+      40,
+      552,
+      399,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D2-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      888,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      888,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D2-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      888,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R14_box": [
+      888,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D2-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      909,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R14_box": [
+      909,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D2-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      909,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      909,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D2-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      909,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      909,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D2-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      894,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      894,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D2-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1256,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      1256,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D2-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      871.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R14_box": [
+      871.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D2-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      870,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      870,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D2-R",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      1277,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      1277,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D2-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "revision"
+    ],
+    "R05_box": [
+      888,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      888,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D3-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1313,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      1313,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D3-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1313,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R14_box": [
+      1313,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D3-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1334,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R14_box": [
+      1334,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D3-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1334,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      1334,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D3-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1334,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      1334,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D3-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1319,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      1319,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D3-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1681,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      1681,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D3-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1296.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R14_box": [
+      1296.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D3-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      1295,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      1295,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D3-R",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      1702,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      1702,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D3-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "revision"
+    ],
+    "R05_box": [
+      1313,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      1313,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D4-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1738,
+      40,
+      150,
+      994,
+      337,
+      18
+    ],
+    "R14_box": [
+      1738,
+      40,
+      150,
+      994,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D4-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1738,
+      40,
+      168,
+      994,
+      8,
+      384
+    ],
+    "R14_box": [
+      1738,
+      40,
+      168,
+      994,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D4-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1759,
+      80,
+      210,
+      952,
+      290,
+      15
+    ],
+    "R14_box": [
+      1759,
+      80,
+      210,
+      952,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D4-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1759,
+      355,
+      225,
+      952,
+      15,
+      222
+    ],
+    "R14_box": [
+      1759,
+      355,
+      225,
+      952,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D4-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1759,
+      80,
+      225,
+      952,
+      15,
+      222
+    ],
+    "R14_box": [
+      1759,
+      80,
+      225,
+      952,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D4-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1744,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      1744,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D4-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2711,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      2711,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D4-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1721.5,
+      382,
+      171,
+      1027,
+      18,
+      378
+    ],
+    "R14_box": [
+      1721.5,
+      382,
+      171,
+      1027,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D4-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      1720,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      1720,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D4-R",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      2732,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      2732,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D4-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "revision"
+    ],
+    "R05_box": [
+      1738,
+      40,
+      552,
+      994,
+      337,
+      18
+    ],
+    "R14_box": [
+      1738,
+      40,
+      552,
+      994,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D5-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2768,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      2768,
+      40,
+      150,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D5-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2768,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R14_box": [
+      2768,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D5-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2789,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R14_box": [
+      2789,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D5-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2789,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      2789,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D5-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2789,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      2789,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D5-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2774,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      2774,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D5-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3136,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      3136,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D5-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2751.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R14_box": [
+      2751.5,
+      382,
+      171,
+      422,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D5-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      2750,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      2750,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D5-R",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      3157,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      3157,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D5-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "revision"
+    ],
+    "R05_box": [
+      2768,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R14_box": [
+      2768,
+      40,
+      552,
+      389,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D6-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3193,
+      40,
+      150,
+      327,
+      337,
+      18
+    ],
+    "R14_box": [
+      3193,
+      40,
+      150,
+      327,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D6-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3193,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R14_box": [
+      3193,
+      40,
+      168,
+      389,
+      8,
+      384
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "D6-BOX-B",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3214,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R14_box": [
+      3214,
+      80,
+      210,
+      347,
+      290,
+      15
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D6-BOX-F",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3214,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      3214,
+      355,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D6-BOX-H",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3214,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R14_box": [
+      3214,
+      80,
+      225,
+      347,
+      15,
+      222
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D6-BOX-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3199,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      3199,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D6-BOX-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3561,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R14_box": [
+      3561,
+      80,
+      210,
+      15,
+      290,
+      237
+    ],
+    "R05_material": "M07",
+    "R14_material": "M07"
+  },
+  {
+    "id": "D6-FRONT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3176.5,
+      382,
+      171,
+      402.5,
+      18,
+      378
+    ],
+    "R14_box": [
+      3176.5,
+      382,
+      171,
+      402.5,
+      18,
+      378
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "D6-L",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      3175,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R14_box": [
+      3175,
+      40,
+      150,
+      18,
+      337,
+      420
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "D6-R",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      3582,
+      40,
+      230,
+      18,
+      337,
+      260
+    ],
+    "R14_box": [
+      3582,
+      40,
+      230,
+      18,
+      337,
+      260
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "D6-T",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      3193,
+      40,
+      552,
+      327,
+      337,
+      18
+    ],
+    "R14_box": [
+      3193,
+      40,
+      552,
+      327,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-BOT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3520,
+      382,
+      150,
+      80,
+      18,
+      80
+    ],
+    "R14_box": [
+      3520,
+      382,
+      150,
+      80,
+      18,
+      80
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-HIGH-1",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      870,
+      382,
+      552,
+      850,
+      18,
+      18
+    ],
+    "R14_box": [
+      870,
+      382,
+      552,
+      850,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-HIGH-2",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1720,
+      382,
+      552,
+      1030,
+      18,
+      18
+    ],
+    "R14_box": [
+      1720,
+      382,
+      552,
+      1030,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-HIGH-3",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2750,
+      382,
+      552,
+      770,
+      18,
+      18
+    ],
+    "R14_box": [
+      2750,
+      382,
+      552,
+      770,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-LOW-1",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      870,
+      382,
+      150,
+      850,
+      18,
+      18
+    ],
+    "R14_box": [
+      870,
+      382,
+      150,
+      850,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-LOW-2",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      1720,
+      382,
+      150,
+      1030,
+      18,
+      18
+    ],
+    "R14_box": [
+      1720,
+      382,
+      150,
+      1030,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-LOW-3",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      2750,
+      382,
+      150,
+      770,
+      18,
+      18
+    ],
+    "R14_box": [
+      2750,
+      382,
+      150,
+      770,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3582,
+      382,
+      230,
+      18,
+      18,
+      260
+    ],
+    "R14_box": [
+      3582,
+      382,
+      230,
+      18,
+      18,
+      260
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-B-TOP",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      3520,
+      382,
+      490,
+      80,
+      18,
+      80
+    ],
+    "R14_box": [
+      3520,
+      382,
+      490,
+      80,
+      18,
+      80
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-T-BOT",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      382,
+      150,
+      870,
+      18,
+      100
+    ],
+    "R14_box": [
+      0,
+      382,
+      150,
+      870,
+      18,
+      100
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-T-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      382,
+      250,
+      18,
+      18,
+      2525
+    ],
+    "R14_box": [
+      0,
+      382,
+      250,
+      18,
+      18,
+      2525
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-T-MID",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      436.5,
+      382,
+      552,
+      433.5,
+      18,
+      18
+    ],
+    "R14_box": [
+      436.5,
+      382,
+      552,
+      433.5,
+      18,
+      18
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-T-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      852,
+      382,
+      570,
+      18,
+      18,
+      2205
+    ],
+    "R14_box": [
+      852,
+      382,
+      570,
+      18,
+      18,
+      2205
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "FRAME-T-TOP",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      382,
+      2775,
+      870,
+      18,
+      100
+    ],
+    "R14_box": [
+      0,
+      382,
+      2775,
+      870,
+      18,
+      100
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "T-B",
+    "fields_changed": [
+      "assembly_rebate",
+      "drawing",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      18,
+      40,
+      570,
+      834,
+      337,
+      18
+    ],
+    "R14_box": [
+      18,
+      40,
+      570,
+      834,
+      337,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-C",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      426,
+      40,
+      588,
+      18,
+      337,
+      2269
+    ],
+    "R14_box": [
+      426,
+      40,
+      588,
+      18,
+      337,
+      2269
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-DOOR-L",
+    "fields_changed": [
+      "cutouts",
+      "drawing",
+      "light_groove",
+      "mesh_mm",
+      "rear_light_rebate",
+      "recess_opening",
+      "revision"
+    ],
+    "R05_box": [
+      21,
+      382,
+      171,
+      412.5,
+      18,
+      2683
+    ],
+    "R14_box": [
+      21,
+      382,
+      171,
+      412.5,
+      18,
+      2683
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "T-DOOR-L-BACK",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "curve_vertices",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "outline",
+      "raw_L",
+      "raw_W",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": null,
+    "R14_box": [
+      42,
+      354,
+      250,
+      370,
+      12,
+      2525
+    ],
+    "R05_material": null,
+    "R14_material": "M02"
+  },
+  {
+    "id": "T-DOOR-R",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      436.5,
+      382,
+      573,
+      412.5,
+      18,
+      2281
+    ],
+    "R14_box": [
+      436.5,
+      382,
+      573,
+      412.5,
+      18,
+      2281
+    ],
+    "R05_material": "M03",
+    "R14_material": "M03"
+  },
+  {
+    "id": "T-L",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      0,
+      40,
+      250,
+      18,
+      337,
+      2525
+    ],
+    "R14_box": [
+      0,
+      40,
+      250,
+      18,
+      337,
+      2525
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      40,
+      935,
+      406,
+      8,
+      1921
+    ],
+    "R14_box": [
+      19,
+      40,
+      935,
+      406,
+      8,
+      1921
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "T-L-S1",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      50,
+      935,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      19,
+      50,
+      935,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-S2",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      50,
+      1320,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      19,
+      50,
+      1320,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-S3",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      50,
+      1705,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      19,
+      50,
+      1705,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-S4",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      50,
+      2090,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      19,
+      50,
+      2090,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-S5",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      50,
+      2475,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      19,
+      50,
+      2475,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-L-SERVICE",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      19,
+      127,
+      589,
+      406,
+      8,
+      345
+    ],
+    "R14_box": [
+      19,
+      127,
+      589,
+      406,
+      8,
+      345
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "T-LOW-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      18,
+      40,
+      168,
+      399,
+      8,
+      402
+    ],
+    "R14_box": [
+      18,
+      40,
+      168,
+      399,
+      8,
+      402
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "T-LOW-DIV",
+    "fields_changed": [
+      "drawing",
+      "exposed_top_finish",
+      "revision"
+    ],
+    "R05_box": [
+      417,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R14_box": [
+      417,
+      40,
+      168,
+      18,
+      337,
+      402
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R",
+    "fields_changed": [
+      "drawing",
+      "material",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      852,
+      40,
+      570,
+      18,
+      337,
+      2205
+    ],
+    "R14_box": [
+      852,
+      40,
+      570,
+      18,
+      337,
+      2205
+    ],
+    "R05_material": "M01",
+    "R14_material": "M02"
+  },
+  {
+    "id": "T-R-BACK",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      40,
+      935,
+      406,
+      8,
+      1921
+    ],
+    "R14_box": [
+      445,
+      40,
+      935,
+      406,
+      8,
+      1921
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "T-R-S1",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      50,
+      935,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      445,
+      50,
+      935,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R-S2",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      50,
+      1320,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      445,
+      50,
+      1320,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R-S3",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      50,
+      1705,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      445,
+      50,
+      1705,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R-S4",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      50,
+      2090,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      445,
+      50,
+      2090,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R-S5",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      50,
+      2475,
+      406,
+      290,
+      18
+    ],
+    "R14_box": [
+      445,
+      50,
+      2475,
+      406,
+      290,
+      18
+    ],
+    "R05_material": "M01",
+    "R14_material": "M01"
+  },
+  {
+    "id": "T-R-SERVICE",
+    "fields_changed": [
+      "drawing",
+      "revision"
+    ],
+    "R05_box": [
+      445,
+      127,
+      589,
+      406,
+      8,
+      345
+    ],
+    "R14_box": [
+      445,
+      127,
+      589,
+      406,
+      8,
+      345
+    ],
+    "R05_material": "M08",
+    "R14_material": "M08"
+  },
+  {
+    "id": "TEXTILE",
+    "fields_changed": [
+      "box",
+      "drawing",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      47,
+      400,
+      255,
+      360,
+      8,
+      2515
+    ],
+    "R14_box": [
+      47,
+      366,
+      255,
+      360,
+      8,
+      2515
+    ],
+    "R05_material": "M05",
+    "R14_material": "M05"
+  },
+  {
+    "id": "TV-END",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "curve_vertices",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "outline",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": [
+      2551.5,
+      95,
+      570,
+      948.5,
+      18,
+      1580
+    ],
+    "R14_box": null,
+    "R05_material": "M03",
+    "R14_material": null
+  },
+  {
+    "id": "TV-FIELD",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "curve_vertices",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "edge_light_pocket",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "material_alternatives",
+      "mesh_mm",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "outline",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": null,
+    "R14_box": [
+      870,
+      95,
+      570,
+      2630,
+      18,
+      1580
+    ],
+    "R05_material": null,
+    "R14_material": "M03"
+  },
+  {
+    "id": "TV-LINK",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "curve_vertices",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "outline",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": [
+      870,
+      95,
+      570,
+      628.5,
+      18,
+      1580
+    ],
+    "R14_box": null,
+    "R05_material": "M03",
+    "R14_material": null
+  },
+  {
+    "id": "TV-MID",
+    "fields_changed": [
+      "L",
+      "T",
+      "W",
+      "axis",
+      "box",
+      "cost",
+      "curve_vertices",
+      "cutouts",
+      "datum",
+      "drawing",
+      "edge",
+      "grain",
+      "id",
+      "kind",
+      "material",
+      "model",
+      "name",
+      "note",
+      "operations",
+      "outline",
+      "raw_rule",
+      "revision",
+      "status"
+    ],
+    "R05_box": [
+      1501.5,
+      95,
+      570,
+      1047.0,
+      18,
+      1580
+    ],
+    "R14_box": null,
+    "R05_material": "M03",
+    "R14_material": null
+  },
+  {
+    "id": "TV-SPACER-1",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "kind",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      910,
+      78,
+      605,
+      2530,
+      17,
+      30
+    ],
+    "R14_box": [
+      910,
+      26,
+      605,
+      2530,
+      69,
+      30
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  },
+  {
+    "id": "TV-SPACER-2",
+    "fields_changed": [
+      "T",
+      "box",
+      "drawing",
+      "kind",
+      "mesh_mm",
+      "note",
+      "revision"
+    ],
+    "R05_box": [
+      1340,
+      78,
+      2050,
+      2020,
+      17,
+      30
+    ],
+    "R14_box": [
+      1340,
+      26,
+      2050,
+      2020,
+      69,
+      30
+    ],
+    "R05_material": "M02",
+    "R14_material": "M02"
+  }
+]

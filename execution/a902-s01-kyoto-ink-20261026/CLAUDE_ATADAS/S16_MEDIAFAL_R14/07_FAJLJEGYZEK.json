@@ -1,0 +1,1404 @@
+{
+  "created": "2026-10-30",
+  "scope": "A csomag tartalmi fájljai; a jegyzék és SHA256SUMS önmagukat nem hash-elik.",
+  "files": [
+    {
+      "path": "00_KEZDD_ITT.txt",
+      "bytes": 2993,
+      "sha256": "47c16d20a0e03562078ca7be609baba5ae5c5cbc5edf4245c5c4593a2b902dae",
+      "git_blob_sha1": "d1a8d33bb59fbf0b170f5d988b03ad395a07122e"
+    },
+    {
+      "path": "01_CLAUDE_INDITOPROMPT.txt",
+      "bytes": 3157,
+      "sha256": "00fdc61ddcda1446ee2b426683539cb148c05c6b1547138e8cb5e5dbcf4f6fc6",
+      "git_blob_sha1": "7463cecb05c2ca70b20917b3ddcf58e8a95ddb46"
+    },
+    {
+      "path": "01_VEGSO_TERV/R13_folytonos_kulso_feluletek/00_CSak_GEOMETRIAI_ELOZMENY.txt",
+      "bytes": 102,
+      "sha256": "6fd3f54f904f4dd5c448c88dbb76f36ab4219788d9287e000c76a98b57dd7558",
+      "git_blob_sha1": "90384b6a7c278af3e61b260eca49e1440f18c237"
+    },
+    {
+      "path": "01_VEGSO_TERV/R13_folytonos_kulso_feluletek/audit/change_scope.json",
+      "bytes": 1440,
+      "sha256": "9b3e5c9bb8bfb6b64db24e5733d7a82081a883ce33d1b1959174b6277296551c",
+      "git_blob_sha1": "8596d94176e2ac49c513b70b10211f80d21f2b4d"
+    },
+    {
+      "path": "01_VEGSO_TERV/R13_folytonos_kulso_feluletek/audit/changed_meshes.json",
+      "bytes": 2156,
+      "sha256": "843c5e5f693dd48634d8077a4803c59de8910a0e2bd85b194b2d93327c2df03c",
+      "git_blob_sha1": "21fc7290a703ba8f5129a70f71cb838f3b515512"
+    },
+    {
+      "path": "01_VEGSO_TERV/R13_folytonos_kulso_feluletek/audit/changed_structure_intersections.json",
+      "bytes": 945,
+      "sha256": "20b1b371001cb01521c02c6a8bc7e38032fd622b1b9151f398ca00b9202f0f3d",
+      "git_blob_sha1": "1dd6425662c0494ff2ca0ad62fed22963358570b"
+    },
+    {
+      "path": "01_VEGSO_TERV/R13_folytonos_kulso_feluletek/audit/saved_models_readback.json",
+      "bytes": 601,
+      "sha256": "8f667256a2dbf9cae62136c6e831d0631669f7f4928ec7cd9a44be790d3a92cf",
+      "git_blob_sha1": "d1084d31caaccb86c41fc57bd3c65b8a34a38e9e"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/00_OLVASD_EL.txt",
+      "bytes": 1666,
+      "sha256": "5515d37930687ea54237142152c212c6fe2075b31586af627a6d2458869d3b7d",
+      "git_blob_sha1": "e238ef430cd9d6a701f7bbf5091413f75aac2d0b"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/audit/change_scope.json",
+      "bytes": 462,
+      "sha256": "e1eca3354e05b9a6b1ad96c81cce7ccbcc91f0d04b96e127a8f26533dab4e643",
+      "git_blob_sha1": "9bc46da59431f0fce7715d89d529697aefdb6485"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/audit/lighting_fix.json",
+      "bytes": 490,
+      "sha256": "240757872619140e46e74425cb59d643a39ed045f830f3ac653a54a521703a4f",
+      "git_blob_sha1": "1981e74fed1f5f807975d7d570e6cde6943c5ae0"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/audit/saved_lighting_readback.json",
+      "bytes": 810,
+      "sha256": "8e680b73f18ad82d5f9a31cd33296d6cf0d8f71a733924a35ccba915d0bbb631",
+      "git_blob_sha1": "dded25da4ff60273deb2fa1f0f569c001328d91e"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/audit/saved_models_readback.json",
+      "bytes": 601,
+      "sha256": "8f667256a2dbf9cae62136c6e831d0631669f7f4928ec7cd9a44be790d3a92cf",
+      "git_blob_sha1": "d1084d31caaccb86c41fc57bd3c65b8a34a38e9e"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/audit/visual_review.json",
+      "bytes": 441,
+      "sha256": "0b37713f842b50204f29e323f91ec8c6e59f599a9ee8ebd1ef2e10bf88a19f5b",
+      "git_blob_sha1": "8f8df22158a1bcab79fe6e1bd86946b1cdc1a7cd"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/daylight_context.json",
+      "bytes": 771,
+      "sha256": "581cb5cfe72cf58cbbd620b38eaec56e2e88f56b2335ef4eb6f9803911179d95",
+      "git_blob_sha1": "f2ad7e8546f5d56fbf48dc13fad6e99715cf5cc6"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/drawers.json",
+      "bytes": 4429,
+      "sha256": "a8bbf48b9e17c195905f7d9653e6a319b76abaecd1656a73f5dbe33f78775f7b",
+      "git_blob_sha1": "6a0a81f3e4a54c2233ae103242084d0fe0293807"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/layout.json",
+      "bytes": 4396,
+      "sha256": "5a0beca9c17de970a064b4e0ed42e01d282c7b92413cf21c00e461bd1f8735b2",
+      "git_blob_sha1": "08379c4bf0a61079484885268c59c4e208a55955"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/lighting.json",
+      "bytes": 43392,
+      "sha256": "69f42b8181a1087bbd591429f721b64c0c556fe51e28406a4e359492a7933244",
+      "git_blob_sha1": "ee71b89a1b8473b784d8db3a48fc21282fe90994"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/materials.json",
+      "bytes": 2170,
+      "sha256": "2280eed37d7a47cfb7ddbcef21bba1f65faa725e499157db45c6390566961701",
+      "git_blob_sha1": "8bf55fe46e109c28ed22df0c6c295101a0cbdc16"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/parts.json",
+      "bytes": 583291,
+      "sha256": "559479b655fb612da67b24f81a0118b356e7f65238cb87e32559a26ef3bd6cd3",
+      "git_blob_sha1": "56e263a5ac56d62ff5b17f90dfc44c179df0d860"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/revision_notes.json",
+      "bytes": 462,
+      "sha256": "e1eca3354e05b9a6b1ad96c81cce7ccbcc91f0d04b96e127a8f26533dab4e643",
+      "git_blob_sha1": "9bc46da59431f0fce7715d89d529697aefdb6485"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/data/study_profile_geometry.json",
+      "bytes": 1067,
+      "sha256": "63cf86aaaba2805877a5c8ed4572e755cb870f36cc601672204c195835d1f9b3",
+      "git_blob_sha1": "cf7a40a2bae7b6ccdb55081fd3a8ec673de4a2e5"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_faerezet_este_csukott.png",
+      "bytes": 1235105,
+      "sha256": "1bd7223e6a704482fdeab4e613b57973f2468e212b088f0df26d5e019c9f8a0e",
+      "git_blob_sha1": "af2eef6986bf6a75338cd59225817efedda0b242"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_faerezet_este_nyitott.png",
+      "bytes": 1255642,
+      "sha256": "126244e6b3de593760f04a1f4ef3a4ca545f41bb6d995b5325dd0293abb59bc1",
+      "git_blob_sha1": "82b82c9aaf2f4512fe1fb06ad3024f811b212b8e"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_faerezet_nappal_csukott.png",
+      "bytes": 1244344,
+      "sha256": "e2e3e4186d84437bc0d92245fbd407125aa881aa607119f39477c48be40199f2",
+      "git_blob_sha1": "67138ae10bfdecc244f3b33bbe852decc493b3d0"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_felso_ketiranyu_feny.png",
+      "bytes": 1167081,
+      "sha256": "41dddf6e3d9206be2b053c73fec1ff98083abb65332762f683aa1b0abc9a8ba4",
+      "git_blob_sha1": "8dad29dd0bd71da5457e248382f38557885f6a33"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_reszlet_also_jobb_csatlakozas.png",
+      "bytes": 1262667,
+      "sha256": "91bf5ec75880931872d5d9b4aef0b0a2bdb21fb3ac1ec2d3dc88edef45cbce53",
+      "git_blob_sha1": "ed8204eacc37dc3c68e98720f4129141172eb823"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_reszlet_felso_csatlakozas.png",
+      "bytes": 1224857,
+      "sha256": "a6ee256a6b27646b51db8f4c3d6ee3854cb63d9d6584c251766f761f3215f82d",
+      "git_blob_sha1": "4598194410f7d763049a7a871abefaec57a7f10e"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/nezetek/S16_R14_reszlet_felso_jobb_iv.png",
+      "bytes": 1230003,
+      "sha256": "404316a126e096b184635c6b6f5769cdef357276eeec2e427ac0fa08df0788fb",
+      "git_blob_sha1": "371cbf61676c2a2a793823123fe2ea9bf1a0d595"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rajzok/S16_R14_faerezet.blend",
+      "bytes": 277876,
+      "sha256": "72d7ac3e3d945cc254631a9569d29b67192b9490512549fdec04d1ad433deb1d",
+      "git_blob_sha1": "06dc7e0171237ad92a66d4dead7207e1233f01a6"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rajzok/S16_R14_ketiranyu_felso_vilagitas.pdf",
+      "bytes": 1564163,
+      "sha256": "31544c48e39f426c1e7f41321a1caee1e27389978833fc80330cb552a473fca7",
+      "git_blob_sha1": "9e0449439d9d962b31a896208db975b2298ee4a2"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rebuild/check_changed_structure.py",
+      "bytes": 1636,
+      "sha256": "ab0beecf8930295dc5e6f00ec3dceafd5aad2766a22dd21b9d5033b88da58fc5",
+      "git_blob_sha1": "439ed0034850e1d7bcecdc6a461f5c614d1a1d0b"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rebuild/night_study.py",
+      "bytes": 25567,
+      "sha256": "93b17c911b558a21d1da5cc629f95efb7f69ce4bd0b295be6593eb0eb73a6490",
+      "git_blob_sha1": "e83d331308440b0f47e79d0dcd274f85f5b6fbc4"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rebuild/prepare_geometry.py",
+      "bytes": 3114,
+      "sha256": "70dbe9c47583e91b68ce170caa3afa841331150182186be65676d87053eac7ae",
+      "git_blob_sha1": "6b5f479e12aa7f0d3932208a25653f3639d43b7d"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rebuild/presentation.py",
+      "bytes": 3435,
+      "sha256": "4edd8cdcec0fdcb2f8258989e5f6c3f3ad19d78b1028ba42034c080c177b3c10",
+      "git_blob_sha1": "6dc5dd220c12dfaa7b1b66abeadd629f21bf043b"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rebuild/verify_saved_models.py",
+      "bytes": 4217,
+      "sha256": "776a968dbce95cb633a0544f329badfb8392b0b53d84e864585c0f685562fe4b",
+      "git_blob_sha1": "a20e9f2088658058f17dce37bf723249b54bb6c8"
+    },
+    {
+      "path": "01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/sources/elutasitott_csomopontok.png",
+      "bytes": 287917,
+      "sha256": "8174230acd264817f7dbf085319967422edf37900580f64d1e0cff6031c255f6",
+      "git_blob_sha1": "d918bfc6f34dbfd0c6c38e77fd7ba90b08ef7d91"
+    },
+    {
+      "path": "02_ELFOGADOTT_FORMA_ES_VILAGITAS.txt",
+      "bytes": 5687,
+      "sha256": "c49ca427a98574e1d1990b2defea4173a5b46c134e4fd4d82bae45cdb9919bdf",
+      "git_blob_sha1": "41cad08f945a97a1ef115034ba10ce853e328967"
+    },
+    {
+      "path": "02_REFERENCIAK/CSAK_FENYHANGULAT_nem_S16_forma.png",
+      "bytes": 2698923,
+      "sha256": "de778754cfcf852acf2507311f038b84064668ab7fb550ef4eb2c36361796042",
+      "git_blob_sha1": "bcf3ba5b3fce436f12ffb08ad0169047943ee100"
+    },
+    {
+      "path": "02_REFERENCIAK/S16_Cam02_C_celkep.png",
+      "bytes": 2534518,
+      "sha256": "1bb885adbd724e61bf2753a87d8bdaf316721c31159bf7e718a3e11f9b9929d8",
+      "git_blob_sha1": "9b58a22c75696589738e77a56e03b33fa0132248"
+    },
+    {
+      "path": "02_REFERENCIAK/S16_Cam02_C_eredeti_prompt.txt",
+      "bytes": 13791,
+      "sha256": "c0f0ad58d99490c22d42af01dc924ccc8feb610132a66d145da59b7d5f32e52c",
+      "git_blob_sha1": "4de75d4872707724e589800de3f5ccd84108cf2c"
+    },
+    {
+      "path": "03_AUTOCAD_ES_MUHELYI_FOLYTATAS.txt",
+      "bytes": 6726,
+      "sha256": "dbb6b7e4941841878ccd2fb29c2ff0b6336b3a2840accce9885ee7cfac4d9213",
+      "git_blob_sha1": "bafb2d622b3cc536563d73c29a999b867127780b"
+    },
+    {
+      "path": "03_HELYISEG_ES_FENYTANI_FORRAS/TER_ES_GEOMETRIA.md",
+      "bytes": 5506,
+      "sha256": "c3b4c50abb0ec88098ac9101a7d5073b172538270cedcfefcc3056034ffaa53c",
+      "git_blob_sha1": "ec42875e52e2f115fc4a849a515c7e450b917f57"
+    },
+    {
+      "path": "03_HELYISEG_ES_FENYTANI_FORRAS/geometry_lock_A902_v2b.json",
+      "bytes": 32993,
+      "sha256": "7aa85d70a91a13c6974f6e4d9c853c6faad441996660cc06b3f8df1e91c0154b",
+      "git_blob_sha1": "a1b7cc0e7c9c0d4a3785546a578a3872b8476631"
+    },
+    {
+      "path": "04_FORRASOK_ELLENORZESEK_HORDOZHATOSAG.txt",
+      "bytes": 6938,
+      "sha256": "6915a76f4b35f4c0cc12ad3e10d46397b07c11761f2712011fde499321ad522f",
+      "git_blob_sha1": "230beee16f88ed9889bca57c8a41f4d964b88681"
+    },
+    {
+      "path": "04_MODSZERTAN/autocad_mac_hid/README.txt",
+      "bytes": 2590,
+      "sha256": "e8b747dd4715e2cf73ae69c14b7d18828e9b6f2f84223663574e8469c4414163",
+      "git_blob_sha1": "3e2b60bc1c52f2d309627e89adb3d7cfb03e086a"
+    },
+    {
+      "path": "04_MODSZERTAN/autocad_mac_hid/bridge.lsp",
+      "bytes": 3493,
+      "sha256": "2bf685184136dc497951c3b036568bc68c9dc6323afd1d37620c3c894e6be063",
+      "git_blob_sha1": "6e368615d687393e1e32be87f82973147bdac8c1"
+    },
+    {
+      "path": "04_MODSZERTAN/autocad_mac_hid/server.py",
+      "bytes": 8557,
+      "sha256": "af3c042b1f63d949c8762b38a2c618e73b58c298f883d7c75bb112e12f2ba169",
+      "git_blob_sha1": "52d9a9cb5e29c87464e105891d8dd78fc7f8df4a"
+    },
+    {
+      "path": "04_MODSZERTAN/autocad_mac_hid/test_bridge.py",
+      "bytes": 3527,
+      "sha256": "791feb164e273127fbd02d8b58132e1efb919a1d649534d88c21ee05936a5050",
+      "git_blob_sha1": "d14154efd19f96f6ed71a5d373f969e2907984f6"
+    },
+    {
+      "path": "04_MODSZERTAN/korabbi_ellenorzesek_R09/00_HATOKOR.txt",
+      "bytes": 136,
+      "sha256": "0d04d26de319ab79272eb9f8aa1c2b90084a719cf12f6b1ff3206befdbaa663b",
+      "git_blob_sha1": "c41d4a9f338a0a3e95df43d7399e00a879d407fb"
+    },
+    {
+      "path": "04_MODSZERTAN/korabbi_ellenorzesek_R09/geometry_and_motion.json",
+      "bytes": 537,
+      "sha256": "868bf7f98ca1c2ae6302d25a2e457dfbdb3ee1c51ff5dd33d34485f17b9621db",
+      "git_blob_sha1": "003de36460a72254cddcc332219c8095e29f05d3"
+    },
+    {
+      "path": "04_MODSZERTAN/korabbi_ellenorzesek_R09/insert_visibility.json",
+      "bytes": 301,
+      "sha256": "bcd017f3fd1e543eaf5ff765f370f2a22b61a407003022484ab236318d046efe",
+      "git_blob_sha1": "af65c12e288c331361cdcf0186e93170be426662"
+    },
+    {
+      "path": "04_MODSZERTAN/korabbi_ellenorzesek_R09/recessed_light_clearance.json",
+      "bytes": 271,
+      "sha256": "827d5ec74bc94efe5a7151fb4d457c4971049171a9819f033c4ab530eddeea7f",
+      "git_blob_sha1": "434c27e1e353e9b5bedee6203f2e84335dfcca65"
+    },
+    {
+      "path": "04_MODSZERTAN/latvanybol-asztalos-terv/SKILL.md",
+      "bytes": 9772,
+      "sha256": "77859910de85ceb3a5f63da9f94b8b0659a154ec307913c37ceed0f23860bfea",
+      "git_blob_sha1": "5721426b6f328c1b097747c3710ab2ceeca054dc"
+    },
+    {
+      "path": "04_MODSZERTAN/latvanybol-asztalos-terv/agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "7ac0c3ecd23e589eeeec7844dda67aceff699c3c3ecf19b00ca97946b35fb4d1",
+      "git_blob_sha1": "c216403ab05cd47673b5ff063481c7b318d3a3d6"
+    },
+    {
+      "path": "04_MODSZERTAN/latvanybol-asztalos-terv/references/asztalos-es-cnc.md",
+      "bytes": 6482,
+      "sha256": "71b54a942d55271ec84391d5dd8a774647d08db6ef2278bdfee603e123e22aec",
+      "git_blob_sha1": "6810efe9ecb3d35d668bf37981a930baa1bb806b"
+    },
+    {
+      "path": "04_MODSZERTAN/latvanybol-asztalos-terv/references/felmeres-es-lezaras.md",
+      "bytes": 7059,
+      "sha256": "dd20d41aaadad79e4f985d14340902665e7864aa0ea8eb863660582f9bf12884",
+      "git_blob_sha1": "702002bbdd26e3b26635c245b07eb323757b5457"
+    },
+    {
+      "path": "05_R05_R14_ALKATRESZ_ELTERESEK.json",
+      "bytes": 43060,
+      "sha256": "03a0a38b3f1d3c03a367008beb26fd0b768bdb27738356a420956fffbf3a7b73",
+      "git_blob_sha1": "b1fb82c1966fd34cb2464aa60867d0fc64e8fd81"
+    },
+    {
+      "path": "06_CAD_SEGITSEG/R13_R14_FRISS_GEOMETRIA_OSSZEVETES.json",
+      "bytes": 10591,
+      "sha256": "f53d7ea3691d001670897f13f39f2072dbacfeae608b6a0face603867d0060ca",
+      "git_blob_sha1": "f78ccd2d3ed841013b142ddc70ace532e8657d45"
+    },
+    {
+      "path": "06_CAD_SEGITSEG/R14_ZART_JELENET_MM.json",
+      "bytes": 321657,
+      "sha256": "d57aa03c52afa51acc2b7c515dd0633f91f643b7f21139b05684753f31746ac7",
+      "git_blob_sha1": "b6fb29240158d30e8b20daeb71e448ad1da132b6"
+    },
+    {
+      "path": "06_CAD_SEGITSEG/export_saved_scene.py",
+      "bytes": 2947,
+      "sha256": "fe7fb9afdfb76cae718bdafdcf9991f098c7cada79fc6c95c357d0c049984bad",
+      "git_blob_sha1": "b6d11809ced7c96037ce470fe5cb1d2ff13ae9b4"
+    },
+    {
+      "path": "06_CAD_SEGITSEG/osszevetes_eredeti_helyi_forrasokkal.py",
+      "bytes": 2033,
+      "sha256": "73c3aa0b7952f852edba7875cb523550af3d89623d15a1cb473f4381f5bfedee",
+      "git_blob_sha1": "8b5964a07855ed4539feec71973b12767098ded2"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/00_OLVASD_EL.txt",
+      "bytes": 5846,
+      "sha256": "b5af6bdfdb54b10fb0e8996bc0e90ba375bc7b379157efbeed1542ab33d125d3",
+      "git_blob_sha1": "24047ad4d7a69aed8bfbe55897f26a0c1c7b94bc"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/01_ELLENORZES_EREDMENYE.txt",
+      "bytes": 1115,
+      "sha256": "4d3ad02280192c4650330021f4a83c0e5b972b7fbb29525b75c1ac1f66c64dde",
+      "git_blob_sha1": "19fdb7c6c44b03610f71ed320129496bb670653c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/S16_R05_koltseg_es_alkatreszek.xlsx",
+      "bytes": 45629,
+      "sha256": "7271f55bee08b983385f33b8a9b3a3b5738ba6579181691705cdbef4f226cb29",
+      "git_blob_sha1": "2c211b02a0258bd2e9be8bd0e58f5057bd4623d4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BATTEN-1.dxf",
+      "bytes": 15586,
+      "sha256": "e37da0e9fc2c4dd05d440a598f71db2eee41f2c0b0e45a8cd858a4b6acc24e71",
+      "git_blob_sha1": "69c06e097cf967bb867c4165c4bf99f67f992110"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BATTEN-2.dxf",
+      "bytes": 15586,
+      "sha256": "156f4c7661678b99ac12bd987dbbe5b29ec833e48d61a2bb782b9b0dc32dce28",
+      "git_blob_sha1": "5cf5115154a64e23d66fead485e1c1b64d98d124"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BATTEN-3.dxf",
+      "bytes": 15586,
+      "sha256": "eae477ca9dd8b145674c518363a8a5aa896949a304a8615e0022bc7aa406f666",
+      "git_blob_sha1": "8148a1b56ac56bb6949ff82be00fd0de8c1f2af6"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BATTEN-4.dxf",
+      "bytes": 15586,
+      "sha256": "264e2670f8d2628f3afa8558df5c98165afb8c6162245deb743f61fbccf2ac2a",
+      "git_blob_sha1": "6044433c7142fc1db77d2fc5584b051f62a531eb"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BATTEN-5.dxf",
+      "bytes": 15586,
+      "sha256": "7393fd8e415de1298662007b2b7c6acbb11a1ec4fc2493e857548b6abe881428",
+      "git_blob_sha1": "59ff604caf290dc2a83f34be2a65f4ba9dbbac1c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BG-1.dxf",
+      "bytes": 15584,
+      "sha256": "3ac8fdde8b07e923b0be30a4598ffad5ee1dbe9003ee599016dd5aba16c17389",
+      "git_blob_sha1": "d985559cc7405be5c79602e51abd00e43c2f0bd9"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BG-2.dxf",
+      "bytes": 15584,
+      "sha256": "818fb1b9a2464d2d3b0b1ef10d6b71339daa306093a9f6a617d18b87291d3ac0",
+      "git_blob_sha1": "7987d8cd51271c3bb1cf7b9a6abece81e1df3a60"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BG-3.dxf",
+      "bytes": 15584,
+      "sha256": "3b1c44030cf809e5c5d6f2b2163282f975bac92b6d272ca431d571469eee7e39",
+      "git_blob_sha1": "d81c495c327ed7a189a8836f1d5a34ad7187d157"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/BG-4.dxf",
+      "bytes": 15584,
+      "sha256": "f5d6679f17f8cc125faae4e547df43fb86901ec7b603d86e51edfae362bc2f5e",
+      "git_blob_sha1": "582fa4c2c96a0c91444757d956ba1e9cc7dbdcc1"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/CURVE-B-BOT.dxf",
+      "bytes": 15669,
+      "sha256": "d094c9e997523e40f8419371694f1ff878d065ce47d41d53879faa3a2a55e57e",
+      "git_blob_sha1": "f6e42009f748b0ee393a49cf8ac7ae34e6bf5e9e"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/CURVE-B-TOP.dxf",
+      "bytes": 15667,
+      "sha256": "cef81ee699150c94b09f2dd8aeb0ee3bdddfd8b5ce2011b684df8bd93659c2c4",
+      "git_blob_sha1": "9d48d87c92117e474c0bb3088365c4915310a496"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/CURVE-T-BOT.dxf",
+      "bytes": 15701,
+      "sha256": "02cc9d54f350e49faae2978dcdfb560ebbe3535e773c11efe4dff321bc5fb650",
+      "git_blob_sha1": "95f23df565fc2e5f2ed252539aef4aa0c3b2c850"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/CURVE-T-TOP.dxf",
+      "bytes": 15799,
+      "sha256": "9a86015f7ffc4c3ab84b029e87bd23c995c60a84a1a5395dfcd94d845cb28e80",
+      "git_blob_sha1": "044a1bb5640a6009339baae7b79f811d9b288617"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BACK.dxf",
+      "bytes": 15585,
+      "sha256": "1913f50a10fa41c2713e5e863a8bba0f08a2c223cc248ad28a043e3386bdb30f",
+      "git_blob_sha1": "93fc092538ff1f44ec8d7d06241067fc57717f0c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "6e10655129a4509da170143cd7abf80e4de886e3e270b1f6a8fe44dabaf7bcd0",
+      "git_blob_sha1": "bf0fb39847c256c92441a5aac998e163b8eb118b"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "4804eddb2975ac7971d651b0bee403d7cc4e5fb50f9e868365f39a43b4ddec4c",
+      "git_blob_sha1": "e0d9fa761c4364a1c93a50b7674a612e3bbb0145"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "adc1aa29a350da84c0d127809304d273659c015787d4a4a74d71fb2885db9a95",
+      "git_blob_sha1": "c76b6c287bba7e66b2c165e00f0458f5be99c238"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "05d9606a0224b8003a25503822296d4dc6d6d494843d98315bc212221015ca3f",
+      "git_blob_sha1": "4525202ca900f744887873e83fed4a9f33cb1e41"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "f314864378ad64a339f57cec2e86769f9bd64f8f8d15709c6b7d49fd02a8ff3e",
+      "git_blob_sha1": "8de7279c3f06cbbfaa47d9b9df23db2a1d56f82c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-FRONT.dxf",
+      "bytes": 15586,
+      "sha256": "c039394009126bffd6f93ad84d113a17d84c9e342afa56778599f7faa304ac39",
+      "git_blob_sha1": "a34b38dffc5c4aab79de17b7f9a1436e7aa00735"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-L.dxf",
+      "bytes": 15582,
+      "sha256": "20dab79dc245dc83e50fcb666d255793a4dd7fa497c35ff701595b1c2af32bab",
+      "git_blob_sha1": "1b2815ec2d11929f8683eb511f49efa775d40ff1"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-R.dxf",
+      "bytes": 15582,
+      "sha256": "1fc359fe1845c6a642c8b8d1e1a8b14e4b3a262e62dee5609afeb36be715fd29",
+      "git_blob_sha1": "b8a8305a3210b4c2cb0d01504dd43a2af0e0976e"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D1-T.dxf",
+      "bytes": 15582,
+      "sha256": "ae4e44d9675c95cef6c6ef2edfce809e59f8ac66cefb1de737e0755cf301a341",
+      "git_blob_sha1": "eda4e607993d422d380d7ce214633447d2153def"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-B.dxf",
+      "bytes": 15582,
+      "sha256": "12a902564a3bac3b28ad1f6496a9466920db984c6669142d96923403d1537a56",
+      "git_blob_sha1": "258acf0ec2430a16dc662c27ecda0390fef4cc7f"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BACK.dxf",
+      "bytes": 15585,
+      "sha256": "54a862af318a05682186d103b28a2bf9d7b67b694f5ee9823715a2f54345f13f",
+      "git_blob_sha1": "3fbd98a012c3c800d8328035371403ef91168cfe"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "489d98a60ce2de56894be5ff746740f3a11d05e2a45974ef1d27b0ddf5f34c96",
+      "git_blob_sha1": "27415e7bb8982a4c7216d52caeb4aedc7a645786"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "e9e70700bc76e26c028f841942a643f1626ac829392ae42d89ae062124688535",
+      "git_blob_sha1": "4d717696ae61e5ec778a55fc8afade26f5cb041f"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "64eb758f6881c39e87f99231f79ae3f9a811a329b15b7fd63880f607ca6fb568",
+      "git_blob_sha1": "abc6d1d42b86d3b5735e54668238e2e4f9ebdc70"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "bc35a14c222bccd3aeb32f37465ef62181ab5147e049098ca5e91fbc387f7cc8",
+      "git_blob_sha1": "6f8ab737f6fafb68f023687396bfc5b5ee87ca46"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "6ba62cb38d8583af4a8ddfe57ea19918a4b46196d65b82afe20909e7ae8aa51a",
+      "git_blob_sha1": "c7207058929bfbe6acfcd14f8d0090569bb4e95c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-FRONT.dxf",
+      "bytes": 15586,
+      "sha256": "f90f4eb2ded1fed3e320b4a0dce0d9feac9a7885255d4e0fd66c9f4a8e193b99",
+      "git_blob_sha1": "65f7f9d3b1d9ae123845fe7f99396c892d6739e0"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-L.dxf",
+      "bytes": 15582,
+      "sha256": "d2c82ca1d619a1a6506a314600b97ac8a869d7325528f6014ac2b7478469e3ca",
+      "git_blob_sha1": "890806ec0eaf1ffd05b804b0a25d40a89150971d"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-R.dxf",
+      "bytes": 15582,
+      "sha256": "3d589bd31d6574aa05689a044c260cf54b945a9b90d7626f373b6f985a6131a6",
+      "git_blob_sha1": "1267eb8cb2c239cb6c2724a8d6a9bd3d2db0ec42"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D2-T.dxf",
+      "bytes": 15582,
+      "sha256": "7e31e571ad30652a1281ad170319a0b5d588f772bb1cc28decee9df03fcce086",
+      "git_blob_sha1": "ea8cdf22cd140972af11b74defed33232eb882e2"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-B.dxf",
+      "bytes": 15582,
+      "sha256": "ea325b16ea5d3914032cb1d13f94577b37af6506fd6e7ffd0d9018ffa4ff9a5d",
+      "git_blob_sha1": "09898c990df46b5688e1ef03787ff03aca626c74"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BACK.dxf",
+      "bytes": 15585,
+      "sha256": "6eff6619b3f058fc962cd7a659ef9b897580865e54a5bed8bd5ada94ae21a120",
+      "git_blob_sha1": "9dc042778e51f1e06a3c4c23cbe77de197c4cc15"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "8b55a254615a06c5ef5c9ba3cb1d5925c9b4a1233769e01c07930a4179293e8b",
+      "git_blob_sha1": "69f442ec70bcb50a519b418fe6f19a8a992716a7"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "4a94c5950e8ff9b318dbbb39e3aeaf34a33ead0ec8f9f6f9073e84c09ee8a11a",
+      "git_blob_sha1": "4dd6185a05284325d63c840a42d8b3dd1d663c6c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "b69fff3b38e12c87b138012cb43aab39e930145e682f9bec0882e4b1603012e2",
+      "git_blob_sha1": "c7fff4878eef29cf21b1e600f367b3799724ed01"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "a10f3a67062a7cbe180f4be51b5eeaebc255dd84fd4a1f15e6f380b55a1ef107",
+      "git_blob_sha1": "22b3e5b4a94d0842e91eb59f01d11d391fcfa7df"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "92036f19ac33525bd08b73ab0f1029acbe718805fa7ee60083b157f2221ff0e7",
+      "git_blob_sha1": "4050e6e6f19004a5099a4d87f9bc6379590dfe89"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-FRONT.dxf",
+      "bytes": 15586,
+      "sha256": "73c601dc8949cc37361cd0e2472f7b24834cd93010fb8a7665a8e036ba40341a",
+      "git_blob_sha1": "282bc979610b95c26f9705ecde387e5ca7ff27c7"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-L.dxf",
+      "bytes": 15582,
+      "sha256": "97111c6acb9d46e23d78e87696de0380e682a4806d52426738d8aa59aaed1874",
+      "git_blob_sha1": "9c50ffa61203ec53be2c0f1753830f225c168a68"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-R.dxf",
+      "bytes": 15582,
+      "sha256": "341541a99268fea5149054a55529389b4d541a2a8efd3e9f0ca474abe684fc5a",
+      "git_blob_sha1": "674df6a985de7d6d4db2d4f95bb780c342b1b9eb"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D3-T.dxf",
+      "bytes": 15582,
+      "sha256": "cf9388123a1c0efb8cbdc71aa00c2fb400b09ac21c9b3247aa999d5b78b78da6",
+      "git_blob_sha1": "698f43ebc4d228ef0bd701c50c83c9f57509441b"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-B.dxf",
+      "bytes": 15582,
+      "sha256": "b12974052e9c60ab8b14f7610c235d9f20911a5a3af0480b36881d88c8f52ee6",
+      "git_blob_sha1": "f3f8fcff6f9fd625cb966f83c1c25105cfd670f4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BACK.dxf",
+      "bytes": 15585,
+      "sha256": "254d895ebc44395e93d5f8af2b5f1938f0695b213eebec4d0f604368c7a287bf",
+      "git_blob_sha1": "d4d505bc6e8cb7e7bbd8cc55b604dffb48f29dd7"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "e685519b37f0176fd8b7ba28b803ef023b92fe7282039d6d9adfaf9d6e3854a2",
+      "git_blob_sha1": "1a7221c18a0475790118b83b526d207d67efb2cf"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "cbda40adc7f516d3fc5ce6822bbc4f020ddfbf94d29c797968750c7c8b8b4591",
+      "git_blob_sha1": "facced53ddda64c4c19c9e22a9cac82bb2f6625d"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "4a703539270be70930d52ac456d324d4d7eabf5f9b125d37f8eab32de8543d1c",
+      "git_blob_sha1": "960ec78a2dd234552f1604e67a114112d9114996"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "2cc4f1a11036c00631cc233b6cae86741db6f17ed6421364ff9438d3f48d78e6",
+      "git_blob_sha1": "a41c5d98881c669792727c0329c71947ec803a3e"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "be2acf6f610c0060e6ec618d37c2b70fa8a99dc017163b15db609197aff73853",
+      "git_blob_sha1": "f36e52f348d313666d4590d080d757fe1f19d9d6"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-FRONT.dxf",
+      "bytes": 15588,
+      "sha256": "c189ebc8c7b5f9bb46f95b5e4caf06f86dabd22b6c52f21cfe23124a601b03d6",
+      "git_blob_sha1": "be14a7832b4fb3fb07b9fc68d9dde08f89232677"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-L.dxf",
+      "bytes": 15582,
+      "sha256": "6a47be441badefe79751e7b911c04df959afeba9e6435b5221323174d7c69ad4",
+      "git_blob_sha1": "f2d6273ff4ada283438728e2cb2ad765e41e9a07"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-R.dxf",
+      "bytes": 15582,
+      "sha256": "daa59878615421ae066bd2dace91a167555dcd01e6cc2fb68a875cbafeb9f808",
+      "git_blob_sha1": "176b135bb5d34667f9a0b09f1b8cd32417cb405b"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D4-T.dxf",
+      "bytes": 15582,
+      "sha256": "c96a2ce84031d414137ecc30684df22ac1f8e218a26f06536d91b722f9422a60",
+      "git_blob_sha1": "89ad2cd53d764fe16381847ba14c8d25f034c76b"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-B.dxf",
+      "bytes": 15582,
+      "sha256": "ec310f2dbae72058d1aa1c3017f1539d883eea83053ca1052730692bab5ed70c",
+      "git_blob_sha1": "c7753fe18a8b1fbb5a0804411ae2b29485416665"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BACK.dxf",
+      "bytes": 15585,
+      "sha256": "01d650bc96bcccab798204647b54694306c68bbb0ad86fc9ce7bd033cc25ffc8",
+      "git_blob_sha1": "7cb40548082dcf35fbed88358623ea10ed0c9c6a"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "474de9f4862a9734122ea67ce300c0dbc6be1c74ca1fd9555fa0e4f06915c352",
+      "git_blob_sha1": "e11bfee29c8da1a4c2cdeee3e1768cebadb783a2"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "60ead413eb1f150a32390c51a3c4298d9b48a08c5c4e6335595ba895647141bd",
+      "git_blob_sha1": "a538095dc8517a3356c63a46c56fd1603ff23eda"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "c2e4a2b8ae74995dc307cd84778b52c31f40276062be391a0d5bda52823aa97f",
+      "git_blob_sha1": "b015a1a025ef8dfa5d3ce0dad58d29e5cf0eb0ea"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "83e171335075c2f7ffe59b87e94b395c38196bb15af59843cf6608d58d58c4c0",
+      "git_blob_sha1": "6f4c1671404328afc7bd1790ba58a3357477ba4a"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "ffb5fc0055a4884dc24049a704b9b378ed85c296c49cab774bb2d69f30af021c",
+      "git_blob_sha1": "c5c16d5f2b0e9480d513c16a30a2b102e7580200"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-FRONT.dxf",
+      "bytes": 15586,
+      "sha256": "ff224cb4264c2724d3952f119eef4fd535f61f8125671d42d1d4a55d4d7e664a",
+      "git_blob_sha1": "375881ffc69ae805e0fe071c931893742994b3c4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-L.dxf",
+      "bytes": 15582,
+      "sha256": "fe386b7e5d76c33f4324bc28b173a621a3cbaabc0b412571d3666fbfe35a9c2a",
+      "git_blob_sha1": "b69288e69e6835a65f05160e5bd0550102a4e69c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-R.dxf",
+      "bytes": 15582,
+      "sha256": "5128e60c13c673211953b06fa48a9198b9afe5c16b297645065482a96b012423",
+      "git_blob_sha1": "244745ab72db93f22dd7790d40170f145cb77ff7"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D5-T.dxf",
+      "bytes": 15582,
+      "sha256": "5690ba4d7733ad74a2bf1cd211f535ae6bf61b0c640b5f5e1ea56147c5545856",
+      "git_blob_sha1": "e2516f4babde3b64ab8224bd77cd2ccd50da4699"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-B.dxf",
+      "bytes": 15582,
+      "sha256": "5bb3e03a2ab8a4e9452330850099f525e2d520ad7c8804e20cec7f7b84f578f1",
+      "git_blob_sha1": "d22b80a72cc46ea9d1a651678698ffcf1e2026ef"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BACK.dxf",
+      "bytes": 15668,
+      "sha256": "e8c879f366394e242826144dfded997a627d80811be99e165841b528c688a42a",
+      "git_blob_sha1": "b748e01888cb369797128756135932989aafa1a1"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BOX-B.dxf",
+      "bytes": 15586,
+      "sha256": "2c7b6643234581f6e47ce633d978682dead0325fdad4b0546e98e7ed0c0f06b3",
+      "git_blob_sha1": "0f18496eadc78ec5d7fec9dcc31da2a32c3ef991"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BOX-F.dxf",
+      "bytes": 15586,
+      "sha256": "fb001a4a54c98d2715b6188de5361d7615ee48df77edfe455257ac3a851f53c5",
+      "git_blob_sha1": "dcd2e41a7f80f83d0c5fb2d7a169f4facb51ebe2"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BOX-H.dxf",
+      "bytes": 15586,
+      "sha256": "87298b35584447f7a2317e3f3bcb868ad7c14da6d18ba049b56c36b9d8f39725",
+      "git_blob_sha1": "e1885e5f822e3d7bef38600aa2d7840fddb597bd"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BOX-L.dxf",
+      "bytes": 15586,
+      "sha256": "d084e9d031081f01628d34e62fec0e903115ea55ef0891eb8995b383f740066f",
+      "git_blob_sha1": "52efc60709bf1d4eb1a9ff7a78f3a1a99925bb8d"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-BOX-R.dxf",
+      "bytes": 15586,
+      "sha256": "8bd992cb8eb029c3b95c38f4e0e7c957075f9c1318bf918de4cc78954ad46303",
+      "git_blob_sha1": "aebd3c06fa51cf8389435ecb1181cb350f15a758"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-FRONT.dxf",
+      "bytes": 15672,
+      "sha256": "2f02b0e7cc99b04275e4ecf01ea87eb94e321336e2e068fc88a84c8bf652e0b5",
+      "git_blob_sha1": "54838525ff13d10623315a0353dbb893b970517a"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-L.dxf",
+      "bytes": 15582,
+      "sha256": "6b281332cbe7a51b7319cf8f43e3e0e8585ae4bdcf066bc392024c3db94df9b0",
+      "git_blob_sha1": "ef5ecb8a968f0e03bf9d4427cd4b607da29fc2e2"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-R.dxf",
+      "bytes": 15582,
+      "sha256": "55a8ca4c80bcfcb2e32a46d8f355f101aae6b5b5cb4ef39dea8e1d35a7028651",
+      "git_blob_sha1": "6663dfa733c62a19ed41f6de549d04cb9d83e288"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/D6-T.dxf",
+      "bytes": 15582,
+      "sha256": "33b4340bf97f8e8a8e6791cb4ce6da506d260089fe89c7f0a87fa5e52068aa50",
+      "git_blob_sha1": "e7f2eb7248447157ee71d36d4f6b2dad4083d755"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-BOT.dxf",
+      "bytes": 15669,
+      "sha256": "d12111d3929afcd9683605acc366ef79dd6f2f3b798a4ac9b0a9b9e22769f854",
+      "git_blob_sha1": "77b9eca3f13624ccd856f1e7bb67e995ffdfcd67"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-HIGH-1.dxf",
+      "bytes": 15590,
+      "sha256": "63279bf9a6a686be2499d63ec3a302c8f31f1428b6ff8a32c45703adfe8924d9",
+      "git_blob_sha1": "df8c4356e89443d51ef63d0f222933c1182cbc0d"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-HIGH-2.dxf",
+      "bytes": 15592,
+      "sha256": "864767d689ead4b517b73b4e624acc55aa39f78fbd8391fe004233f83cecf3cd",
+      "git_blob_sha1": "4cf50def933f614e4563d3cb923a50fb8acad33c"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-HIGH-3.dxf",
+      "bytes": 15590,
+      "sha256": "8ed3a00c55e3f29a8b29ef9f658a543f143cfeaff58b3af226422dff52b6da8e",
+      "git_blob_sha1": "1e02f3a1b9f9db7345f3b0add8879ce3c5230d85"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-LOW-1.dxf",
+      "bytes": 15589,
+      "sha256": "937f6af10abc0f6d7811094b16f695738bf25c5fda9ef18f6e0e6e3e8cc5e208",
+      "git_blob_sha1": "30a6766fd43ad9befcc6211662c57c3d56f4f452"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-LOW-2.dxf",
+      "bytes": 15591,
+      "sha256": "eb17e77a59824844c32dabd52c70a5c32a062311e8eeb43424c05a9ebd8e3e98",
+      "git_blob_sha1": "958c4430f73632a9122f1bf87d5b12b063d70a42"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-LOW-3.dxf",
+      "bytes": 15589,
+      "sha256": "27cc2067036c34c40f3759b145406edd3af7f0c426477aafd94315fbca2d0c83",
+      "git_blob_sha1": "d37cc5602c7d01d88ee91bb52ec2603c666df2a1"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-R.dxf",
+      "bytes": 15585,
+      "sha256": "8c2ef06296ada031fbf34c01623a91e7c6fb2dce4ee4f41a428ff6cd1cedda8b",
+      "git_blob_sha1": "60c906d9172086804d4713b01c6267c6fbcd49ec"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-B-TOP.dxf",
+      "bytes": 15667,
+      "sha256": "b1f3b341f92c48b1a103b4b826d94c7038a6424ea38a23621808ace448a80eb6",
+      "git_blob_sha1": "b34931f7ec51a91ac0c883c55db6eb0bcff61919"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-T-BOT.dxf",
+      "bytes": 15701,
+      "sha256": "1332abc378bed560e5297c4efafa12c6fd016d4aa38042211859ea28fdbc9a22",
+      "git_blob_sha1": "2f68e1951025db54f94226b6111d0f117987dc6e"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-T-L.dxf",
+      "bytes": 15587,
+      "sha256": "6cebf931d206564378a4ed788955cc45e8359af0c2509540a162b6e139d1ce3a",
+      "git_blob_sha1": "9d2798a8e92c7f86364bf1aa3d554793b79e7bfc"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-T-MID.dxf",
+      "bytes": 15587,
+      "sha256": "6ae2993a7d43c145221fc58e3dbad04f2f1356c68f7ee4215a0379d6ae5970c6",
+      "git_blob_sha1": "d6b81c69a42073cc264de7152305c100a23f9163"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-T-R.dxf",
+      "bytes": 15587,
+      "sha256": "1f0321325b33f447c1bba2707f3419a11261b170cd99cd415282ed07c1481204",
+      "git_blob_sha1": "513ff002ccce9f4854d1fd6110c06b202777e229"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/FRAME-T-TOP.dxf",
+      "bytes": 15799,
+      "sha256": "37f9837e97dc0c489629f76b46a7d9a6d3ca9fd05b0189aff1500710c8b11966",
+      "git_blob_sha1": "37a67d05dfc1c5c03e2e47b1c1056a9f02066f69"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-B.dxf",
+      "bytes": 15581,
+      "sha256": "d1bee481f27b41e70a54a92e7e8536f03b208242953206ef1b3d3e862cb9fe29",
+      "git_blob_sha1": "2b4535b42659e3127dfe5ed5ed5161a05128beda"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-C.dxf",
+      "bytes": 15583,
+      "sha256": "fe6631d7e7f5ce626130addf95be637cfbc6488545a3c718543ec5147090b7ae",
+      "git_blob_sha1": "3726b50a5f7533c225baa7d92de70b773360f501"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-DOOR-L.dxf",
+      "bytes": 16534,
+      "sha256": "8212da4bea1a0039ef7b4196696248d47442cd73f0f86f40b8480922bdfbff3e",
+      "git_blob_sha1": "45aa1f4f69bc540307c7cfab50e316d8667683ff"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-DOOR-R.dxf",
+      "bytes": 15631,
+      "sha256": "31442be83aac5a8585586dc1419d08466090fbc65396f0892a28fa4d5e9f1538",
+      "git_blob_sha1": "b68640038026a73726693f595fe6ac590c5068d8"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-BACK.dxf",
+      "bytes": 15689,
+      "sha256": "cc7e42052d4c02af9574078af25e03edbffb955d780221cd2092c993b3d68492",
+      "git_blob_sha1": "af2714502dee6ba5147806d5a1316a2a14c5bd15"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-S1.dxf",
+      "bytes": 15584,
+      "sha256": "ddf273c5abe94d801c695ebc29d619d15666a8e07405233486c556b345d08663",
+      "git_blob_sha1": "e6ed1af950a3d90cb966020e9880ee651367b094"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-S2.dxf",
+      "bytes": 15584,
+      "sha256": "30c620410d7146d1cdaac5dc3891b84a725a0e04112c9c7bc7c7a28cc08a36fb",
+      "git_blob_sha1": "80ad755028f491082d367ed39cc5a5c73d65b6d4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-S3.dxf",
+      "bytes": 15584,
+      "sha256": "b3171fc1b2cf5e3afca32b1d8c17ca2721b97ed50f2c4a46c8f7af908b16e90b",
+      "git_blob_sha1": "31977c8fc0971fda28799891d2eb342fa84fe8bb"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-S4.dxf",
+      "bytes": 15584,
+      "sha256": "0ff2dff652a5a9c5f9ecd0e38f51c887402454fc8670af3cdcac48302459af18",
+      "git_blob_sha1": "a5644110c39740921c8c8c59194e2d914dceb4cf"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-S5.dxf",
+      "bytes": 15584,
+      "sha256": "34e1cd1964c12d847db22b278d3c0b03b3fa8b8e548714b4cbed6d52c4a8cd2c",
+      "git_blob_sha1": "f20c7721ed25e2fcc84d1cb2b32363a8507fa8c9"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L-SERVICE.dxf",
+      "bytes": 15589,
+      "sha256": "2daa720441919a463305c7847d5af6f20f7d28eeb34a720de6b18798791a063c",
+      "git_blob_sha1": "f5385b12dcce4ebe7c7f2c49187d91c2cb63ea82"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-L.dxf",
+      "bytes": 15583,
+      "sha256": "f0dc00739037e3ff789ce412a8f46e4f41294c2b3ee5cab72af5c36f6e830053",
+      "git_blob_sha1": "61bc90cc6e7d2c5ec9c61c52780adae500df1123"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-LOW-BACK.dxf",
+      "bytes": 15643,
+      "sha256": "c12dd4d51e61afd6fb66106fa4ee24dadd103133d1a47f97c712fdf2ba41c5ff",
+      "git_blob_sha1": "7bbb04f8ce222577692bd879f12fb5c4ab8cef03"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-LOW-DIV.dxf",
+      "bytes": 15587,
+      "sha256": "2f31bb9fafad2ed15ebf4ad9782f81b144d856e8fa4e6f33bf2f24d88a3f816c",
+      "git_blob_sha1": "aaa634c5315ddb2cab5dc65e56ee376ecbc46d99"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-BACK.dxf",
+      "bytes": 15688,
+      "sha256": "ae6c6af6554fa89f9b4c105037a180d80a84ecc95d5427299cd7686d2bb32e61",
+      "git_blob_sha1": "6095aa71d33986149e22957143375ab059691838"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-S1.dxf",
+      "bytes": 15584,
+      "sha256": "9861d65358f867fa17e7b77993254d167ab05c880a7049e84492e9673f0c1997",
+      "git_blob_sha1": "3f8f1986d1603a13d25aafae43a5002e09487cc0"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-S2.dxf",
+      "bytes": 15584,
+      "sha256": "2800550521134043c9c02b3fff9e8e5cfb339ec2a0d42b76197b6cd1bd505f45",
+      "git_blob_sha1": "b159eb0e7e27b4735f67232333ac9f0b7f14453f"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-S3.dxf",
+      "bytes": 15584,
+      "sha256": "1388e68e35b6f399507aa118f134bd81d9e62f1a01db3b50dba07293ca592d66",
+      "git_blob_sha1": "0933da97e366227c02f7787b97cf7f437f3827d0"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-S4.dxf",
+      "bytes": 15584,
+      "sha256": "7ecbd841a46253842a9fcb591853f98049af1a7623c0744acf4419891d2485ec",
+      "git_blob_sha1": "52a691015c0d46f6fbb7c769dce8284e4266f835"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-S5.dxf",
+      "bytes": 15584,
+      "sha256": "a522aaf7e5069fbc7490d4c0bfe76d5c42151e25e65b00cfef8988ee4b33328b",
+      "git_blob_sha1": "cbb14de7cd94a44c0950fa6a53db1b061790ff19"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R-SERVICE.dxf",
+      "bytes": 15589,
+      "sha256": "8bcea76cf915abfc1b555d4c9cc5ed14b7b18ceda96ca8bb3a75a3f1387af83b",
+      "git_blob_sha1": "754057cd16e57a804fdab7de3ce931971b1a7b54"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/T-R.dxf",
+      "bytes": 15583,
+      "sha256": "1000565fe61f97c9804700a8795f62bc4562834b2ee45d0c58ccd95a6a7e352f",
+      "git_blob_sha1": "3e9c82c99de527a527784ae05843e47f6177a999"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TEXTILE.dxf",
+      "bytes": 15798,
+      "sha256": "d16df7f96c8847d50244cba93e22cab816811fb58815b9aa6ad9beeb3847bd98",
+      "git_blob_sha1": "342f298d9ce9b28f27e35bbc37f029b24cbac4ad"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TV-END.dxf",
+      "bytes": 15629,
+      "sha256": "bd40136c42bd635a24d5321111b87fed67525fa2c141a4f10717a199d1cd0b8f",
+      "git_blob_sha1": "37e6a9336df4587b0fc3d89f2a5f109551f98428"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TV-LINK.dxf",
+      "bytes": 15714,
+      "sha256": "fccd7addc8d13f4b496c9438d809cad7f22c74998976decb5e385ecae9be746c",
+      "git_blob_sha1": "fe3fbc880a1a0f00ba8f21c53f62564213479ab8"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TV-MID.dxf",
+      "bytes": 15588,
+      "sha256": "db9adfe4115a0fe9c7a2dedbc51d8f2762f016679cc59aa24841287f64b5220c",
+      "git_blob_sha1": "7eb4bac0914c4536102e9d2ed899700476fbdb12"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TV-SPACER-1.dxf",
+      "bytes": 15589,
+      "sha256": "4a3e2b55fda3d03177b71e8c542f20e88f05e9fb4d9e3571a8cd38d9bf478b54",
+      "git_blob_sha1": "725f31aa8bc6b067c9eba06e7f159f9a9b4f8ab3"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/alkatreszek/TV-SPACER-2.dxf",
+      "bytes": 15589,
+      "sha256": "efc50a243d5943666b11affd17ce263adbf28a5080dd2e9f9bf2bccf9e6d5fdc",
+      "git_blob_sha1": "eea284d25351e313aec23b67f9866bd43eb6b245"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/Alkatrészek.png",
+      "bytes": 199130,
+      "sha256": "ea2626624b35798397f514fb10c0c42456d4c4a515e5f20ca8e56600f0d2da68",
+      "git_blob_sha1": "e1fb8b8b26e1369264a490fa570b239d0bdf18ad"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/Költségek.png",
+      "bytes": 241981,
+      "sha256": "7ca1324f99782ff15752bf7ffb9cd25c55b7e586ba30a6ca2ae93b02978621f1",
+      "git_blob_sha1": "0d19221ab6942e54714e3be4487eb7793a6ea680"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/Lezárás.png",
+      "bytes": 133102,
+      "sha256": "5d387797036857036c23850d47f56a59485809f965bdce22ec2cbd99dc78b989",
+      "git_blob_sha1": "1f98a67cb19c50e317c471f0a66d812385709acb"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/Világítás.png",
+      "bytes": 209192,
+      "sha256": "29b8010516ba73bd17fee2141f0ea56b1da2fce5323b7db29346ec4c1fcd327d",
+      "git_blob_sha1": "6cebf4354736fcd3afc3f5adfa0fb97a3ebb06e5"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/autocad_build.log",
+      "bytes": 36680,
+      "sha256": "557b86080f56c143de5c5d3aefa02f4fe6203806627df204120451aac1d1a6bd",
+      "git_blob_sha1": "533829df013f60faa70c857324c46e533fdd3082"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/autocad_saved_readback.log",
+      "bytes": 2057,
+      "sha256": "bf16fb0574070eb05c3f40b191564689432326a0bf22acdb17b939e53e7ab078",
+      "git_blob_sha1": "6206d1221f64b39812d31e07f1d526c3a6c6a64f"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/baseline.json",
+      "bytes": 6349,
+      "sha256": "5d8d270055555ddce9de5d846b51789c17dad7c3ee1e365df4b489fc58fc7309",
+      "git_blob_sha1": "b1f086cc519a7771cbdb99fbde49b5b7484ac873"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/blender_readback.json",
+      "bytes": 10011,
+      "sha256": "5e5a524a18d0438f84120f374941970ce9a86c2ef7ded69fe247224d29253326",
+      "git_blob_sha1": "96c0e4510625baf1e654c57e2eab075a70e263b3"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/delivery_checks.json",
+      "bytes": 875,
+      "sha256": "a61bced25b42eec3257ceb35b11d3d401db5df09be7f571f3595033aeafa256f",
+      "git_blob_sha1": "830f58ca1b1fdc0d7ae315725187a32e55e0e670"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/dxf_readback.json",
+      "bytes": 16160,
+      "sha256": "8d7f59137c1556f916341126dcfd5c9e0a635a01b70022888fb1bf6a1ae30308",
+      "git_blob_sha1": "a0063535c625a0598c287b69cffaf8c6c5fc7c34"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/export_checks.json",
+      "bytes": 3233,
+      "sha256": "f558100b9e00b33e211abe19112dc501a42f49faeb790991b1c03da345a1e7d3",
+      "git_blob_sha1": "f70825504fbe55ab1d5f7a00de2bf20da3e3f9e5"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/geometry_checks.json",
+      "bytes": 2682,
+      "sha256": "4afe5d24a3451a01cae1ec77b270801cc1bb7c3ab842beb1a4a557e580cb4380",
+      "git_blob_sha1": "2b0daf09a4cfee31cd1179d4ea2e78c4218d4bbb"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/github_save.json",
+      "bytes": 389,
+      "sha256": "8b83773362f16fe9d806ab14c69fa77761098013879615e2f7eab332059baf74",
+      "git_blob_sha1": "d019a099a46b01ba1ef02ae9b8daaa21e61c3525"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/motion_checks.json",
+      "bytes": 669,
+      "sha256": "628dd1289be9edb4e64accd243438f107200bf6453ab4901c22ba8714e016a9f",
+      "git_blob_sha1": "64fdaf4ca151faf08ba04a732a7c021f97180459"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/package_manifest.json",
+      "bytes": 25319,
+      "sha256": "c090ca950072d1e3b51e6d68ee96b52c350ed99726cb20103e47ff33c0d27f41",
+      "git_blob_sha1": "98245e15bc56794af36d1ee0e29f2733a0f63fc6"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/pdf_contact_sheet.jpg",
+      "bytes": 696424,
+      "sha256": "742a23cd7c71b809da6da2e8ee1cf07ae4cbc156814dcd3cd17c60234deba28d",
+      "git_blob_sha1": "06b173f36e43c15cd76c5fd826b7b8a3cc0d7bed"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/workbook_checks.json",
+      "bytes": 214,
+      "sha256": "793c7772f6fa6122ec88dafb494f2ccfb78e0f528e805bff729869de2962be75",
+      "git_blob_sha1": "f9fb6b61af9e27dfb978da813c2b322537de7e49"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/workbook_errors.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146",
+      "git_blob_sha1": "fc088f9aa5ccad2bf68814b5d86b3db5f51076b1"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/audit/Összevetés.png",
+      "bytes": 316959,
+      "sha256": "c761ce943b2f10d18241bbfa9dee08beaf039e012cf5bf432f6c4669398eec92",
+      "git_blob_sha1": "3ab64eb39114e167c40adc0c0a31c55caed7e5c3"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/alkatreszek.csv",
+      "bytes": 12796,
+      "sha256": "2ffbaa5a65264ef12666d5f1434c03e08674481c1ca6151d47115aa09614f415",
+      "git_blob_sha1": "f70f88bdf63d834df617eeb9b05ab7c13b30fcd6"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/cost.json",
+      "bytes": 14290,
+      "sha256": "89d44e0de4cdbb21ea487284534e449ccf4ea9066932745bea7a016fcd87766d",
+      "git_blob_sha1": "442ada286f2cb6c95e03bfc3b2543d3f8462ec53"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/deviations.json",
+      "bytes": 2460,
+      "sha256": "e74b4f36e3e955dab25fbf48051de73a5efa1c93d5b90d2bf7fbada63ea8eb10",
+      "git_blob_sha1": "e526913ad01af52836d27b5ef39f0c71ae21f9b5"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/drawers.json",
+      "bytes": 4429,
+      "sha256": "a8bbf48b9e17c195905f7d9653e6a319b76abaecd1656a73f5dbe33f78775f7b",
+      "git_blob_sha1": "6a0a81f3e4a54c2233ae103242084d0fe0293807"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/gates.json",
+      "bytes": 4487,
+      "sha256": "3218061fdaeec291763a68353e77a2716cc55d2b29403cb08f5a91a410453b57",
+      "git_blob_sha1": "84e3dd6c76b9bf700a43ef1f34800a613fb04013"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/layout.json",
+      "bytes": 2767,
+      "sha256": "0b36b33df22adbb6bfcb2e46f0c0a1b7efca6693f013a0b29ae6d19cb3132108",
+      "git_blob_sha1": "c3bfd5698f03878e1f7303eadf6fbe13d6ef3676"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/lighting.json",
+      "bytes": 38097,
+      "sha256": "3451ac107ab043f8978ccd52294bf1e18e78505873746b2417597bce78a142c7",
+      "git_blob_sha1": "3bbad90e0914b07f92331b6ed53a63ad325e8459"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/materials.json",
+      "bytes": 1954,
+      "sha256": "9de8edfffeaba2a0d5c60c7b098f5f086245a5acfe82f39f7b232314e1c5214c",
+      "git_blob_sha1": "8a456f1ea986d2ee992a7352474a207af3f6f1a0"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/parts.json",
+      "bytes": 260152,
+      "sha256": "95a7ab68cd1b6f491a021fb28f2c65ce1edef5ba0fd6f1ad4971ed4e554a1449",
+      "git_blob_sha1": "eb6bb2f91aa6d13662d79d8cda00d50fd5d3b58f"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/sources.json",
+      "bytes": 1979,
+      "sha256": "e02ef8c918143411562ac9dcc534d3f8445ace97c26f51e48584e66aaba3a101",
+      "git_blob_sha1": "79faec3037dec7da381673869db7e1db7e729016"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/data/tv75.json",
+      "bytes": 1133,
+      "sha256": "02a9e256919d3f8c7947032de1148545dcbe39cae54b48a2b618458d1fefae6e",
+      "git_blob_sha1": "de45308103f6d96ede401cdc4a95faf8bdcac251"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/nezetek/S16_R05_fenyek.png",
+      "bytes": 1883502,
+      "sha256": "79a4f64d4bc8b005ee39d44e3131f8d08332d61e68cdbf88287c3f6e13c2e2c6",
+      "git_blob_sha1": "7c3afd1da921093c348d6e2385c9f641005b926b"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/nezetek/S16_R05_nyitott.png",
+      "bytes": 1830703,
+      "sha256": "16f06aa043eaeb6fcfa63f84e80f82937e8fb989d2107276ac3fe99180174464",
+      "git_blob_sha1": "f1f3f32d4800c9e6682e3d17c0e5671f157c3480"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/nezetek/S16_R05_zart.png",
+      "bytes": 1777163,
+      "sha256": "b84ff3b975bceec761762eeab5f7ca9e5125026c9dd5973855f1b6222aca5552",
+      "git_blob_sha1": "342f3bf7854fd176ffd64311bfd64e6550884ace"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rajzok/S16_R05_3D_befoglalok.dxf",
+      "bytes": 165971,
+      "sha256": "506119eaade8272358ef58e5a806c6a12f5671859c93c204a8b578d120cd4871",
+      "git_blob_sha1": "3c947c92e1b464db0331c311d0669b46f7685bbf"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rajzok/S16_R05_koordinacio.blend",
+      "bytes": 337057,
+      "sha256": "1c481e44fa77233b0158b2bb48dbb0c4432ebc4739c4b85f8ab07d1b7e3dbdf2",
+      "git_blob_sha1": "c6bfe8c479d944504f5ff6696e0fd29c99d05129"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rajzok/S16_R05_nezetek.dxf",
+      "bytes": 171060,
+      "sha256": "ca3ef21952136ff48dc37ae0a9d52b0c50659e93ca194013dc992a0b0f7cd922",
+      "git_blob_sha1": "a8b3d888354192977942c5d8af9c82bdba8fb5b4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rajzok/S16_R05_szerkezet.dwg",
+      "bytes": 208770,
+      "sha256": "7ea3a7c3b85b9e468acc3ed69246371df11e76fc1d44c6b1d01fb617f1e2bc84",
+      "git_blob_sha1": "545a81352aa9c5709086d431105f95ab4cb7ec22"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rajzok/S16_R05_tervcsomag.pdf",
+      "bytes": 1387138,
+      "sha256": "a5d63ae29cba525a469c3c2db5e8c64bf1f05496bad339f45eeb3a982fb762d0",
+      "git_blob_sha1": "1528910467af98535dd10058e40defdf163324d5"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/build.scr",
+      "bytes": 28472,
+      "sha256": "8dbf429fcea258e708cb53521d2377416b5e9daca342bed15ffba70ceb95f5ff",
+      "git_blob_sha1": "03650087b0ade61b8ac88afff8a033d59b89f477"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/cad.py",
+      "bytes": 3156,
+      "sha256": "d86d9e945a401081a9f8f4093bf280e0a220e0cf5190ba4aeea6d334217019e3",
+      "git_blob_sha1": "3e257ecd3900462d35d4cade7a951b588c984356"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/check_exports.py",
+      "bytes": 3091,
+      "sha256": "bd13a205980a38e7935e1f4204fe94eda739cf8d4ba15fc7bb5ddf730fb7ff69",
+      "git_blob_sha1": "6f19460cecba5418b2514583e7ecccfdda6564c9"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/check_geometry.py",
+      "bytes": 5930,
+      "sha256": "9d4bc4c28a1b21c4175fb2230621298279d31b11dd5868bc27ff43174ca0f9dd",
+      "git_blob_sha1": "aa7c67e6320046ece898f90e1bb8c600bc91bcae"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/check_motion.py",
+      "bytes": 2878,
+      "sha256": "788c434bb1b9288335c1056075959a99628f854a4f3238b83b862199bba6905f",
+      "git_blob_sha1": "c127a3567ee1f4ee186d8022911bede9e8a28e67"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/design.py",
+      "bytes": 45536,
+      "sha256": "32f002169d5c4ee99bfc4a693fe5a9b5b18a84066ca88b511db345c242d9feb4",
+      "git_blob_sha1": "589f498d096d00529dfa966f5794fdd6b941d7d4"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/documents.py",
+      "bytes": 27727,
+      "sha256": "6554d593d120e2b9f7b5b44956fade2a4a179955e4884faa9472b3ed13dd4db9",
+      "git_blob_sha1": "8ca21f572ddea7db7e9692f26dd9dbc77ecec0ae"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/model.py",
+      "bytes": 8188,
+      "sha256": "c1e272e26235638902dc33d2f4df768e6807f5d17c1e19ccd1c55a3c5c8f853b",
+      "git_blob_sha1": "fdd4785b5bfb159debc7f06eb806bd9ba12400cf"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/package.py",
+      "bytes": 1303,
+      "sha256": "38fe11419f75a097323d6b82eea7d01099b4b93f903dcde261b712795b52156c",
+      "git_blob_sha1": "3282dc63a35eea7e29194437d7927940a751b465"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/verify.scr",
+      "bytes": 287,
+      "sha256": "1f520482a818b7ba50f70f913e852eaebada25d732f320fd3b46e7524af1690e",
+      "git_blob_sha1": "ef8f452ec69a352d8d4cfd7d10074b88289ba72d"
+    },
+    {
+      "path": "90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO/R05_felso_ajtohezag/rebuild/workbook.mjs",
+      "bytes": 11496,
+      "sha256": "2e58c2a0c255b137e2bb3264cc6874cd0c1449b2e8d3d8fe34de76c8d3420a20",
+      "git_blob_sha1": "9751cd44191481520eeec112122e4ba474221bb8"
+    }
+  ]
+}

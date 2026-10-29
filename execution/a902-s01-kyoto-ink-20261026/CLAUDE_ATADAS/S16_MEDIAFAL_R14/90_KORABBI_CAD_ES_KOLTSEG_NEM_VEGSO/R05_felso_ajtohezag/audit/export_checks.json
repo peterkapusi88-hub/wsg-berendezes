@@ -1,0 +1,187 @@
+{
+  "S16_parts": 120,
+  "S16_errors": [],
+  "checks": [
+    "Positive finite L/W/T and physical extents",
+    "Unique IDs and exact DXF inventory",
+    "L/W/T against assembly-axis mapping",
+    "Excel exact columns C/D/E",
+    "CSV exact dimensions",
+    "Exact arc DXF contour bounding dimensions",
+    "PDF dimensions next to corresponding part ID"
+  ],
+  "S16_MPR": "None generated; no CNC release.",
+  "S01_read_only_crosscheck": {
+    "parts": 106,
+    "mismatches": [
+      {
+        "id": "KI14-BAT-03",
+        "listed": [
+          212,
+          48,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-04",
+        "listed": [
+          212,
+          48,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-05",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-06",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-07",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-08",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-09",
+        "listed": [
+          212,
+          408,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-10",
+        "listed": [
+          212,
+          408,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-11",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI14-BAT-12",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI16-M6-BAT-06",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      },
+      {
+        "id": "KI16-M6-BAT-07",
+        "listed": [
+          212,
+          -222,
+          18
+        ],
+        "geometry": [
+          212,
+          18,
+          18
+        ]
+      }
+    ],
+    "nonpositive": [
+      "KI14-BAT-05",
+      "KI14-BAT-06",
+      "KI14-BAT-07",
+      "KI14-BAT-08",
+      "KI14-BAT-11",
+      "KI14-BAT-12",
+      "KI16-M6-BAT-06",
+      "KI16-M6-BAT-07"
+    ],
+    "additional_dimension_mismatches_beyond_reported_12": 0,
+    "scope": "Local part dimensions vs assembly_box_mm and frame U/V/A only; not a new complete S01 manufacturing review. S01 source untouched."
+  }
+}

@@ -1,0 +1,782 @@
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc38924wPphzg).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.119.M.246)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor
+Isolating to regkey=s16r05final, userDataFolder=/private/tmp/s16cad_r05final.
+
+INFO: Isolation create time: 541 ms.
+
+Version Number: X.119.M.246 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+Drawing created using acadiso.dwt from AutoCAD profile: <<Unnamed Profile>>
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Resources/Support/@en@/acad2027.LSP
+Command: 
+Command: 
+Command: 
+Command: (setvar "FILEDIA" 0)
+0
+Command: (setvar "CMDECHO" 0)
+0
+Command: (setvar "OSMODE" 0)
+0
+Command: (setvar "INSUNITS" 4)
+4
+Command: (setvar "DELOBJ" 1)
+1
+Command: (command "_.UCS" "_W")
+nil
+Command: (command "_.-LAYER" "_M" "D1-L" "")
+nil
+Command: (command "_.BOX" '(435.0000000 40.0000000 168.0000000) "_L" 18 337 402)
+nil
+Command: (command "_.-LAYER" "_M" "D1-R" "")
+nil
+Command: (command "_.BOX" '(852.0000000 40.0000000 168.0000000) "_L" 18 337 402)
+nil
+Command: (command "_.-LAYER" "_M" "D1-T" "")
+nil
+Command: (command "_.BOX" '(453.0000000 40.0000000 552.0000000) "_L" 399 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BACK" "")
+nil
+Command: (command "_.BOX" '(453.0000000 40.0000000 168.0000000) "_L" 399 8 384)
+nil
+Command: (command "_.-LAYER" "_M" "D1-FRONT" "")
+nil
+Command: (command "_.BOX" '(436.5000000 382.0000000 171.0000000) "_L" 432 18 378)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BOX-L" "")
+nil
+Command: (command "_.BOX" '(459.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BOX-R" "")
+nil
+Command: (command "_.BOX" '(831.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BOX-F" "")
+nil
+Command: (command "_.BOX" '(474.0000000 355.0000000 225.0000000) "_L" 357 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BOX-H" "")
+nil
+Command: (command "_.BOX" '(474.0000000 80.0000000 225.0000000) "_L" 357 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D1-BOX-B" "")
+nil
+Command: (command "_.BOX" '(474.0000000 80.0000000 210.0000000) "_L" 357 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "D2-L" "")
+nil
+Command: (command "_.BOX" '(870.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D2-R" "")
+nil
+Command: (command "_.BOX" '(1277.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D2-B" "")
+nil
+Command: (command "_.BOX" '(888.0000000 40.0000000 150.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D2-T" "")
+nil
+Command: (command "_.BOX" '(888.0000000 40.0000000 552.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BACK" "")
+nil
+Command: (command "_.BOX" '(888.0000000 40.0000000 168.0000000) "_L" 389 8 384)
+nil
+Command: (command "_.-LAYER" "_M" "D2-FRONT" "")
+nil
+Command: (command "_.BOX" '(871.5000000 382.0000000 171.0000000) "_L" 422 18 378)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BOX-L" "")
+nil
+Command: (command "_.BOX" '(894.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BOX-R" "")
+nil
+Command: (command "_.BOX" '(1256.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BOX-F" "")
+nil
+Command: (command "_.BOX" '(909.0000000 355.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BOX-H" "")
+nil
+Command: (command "_.BOX" '(909.0000000 80.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D2-BOX-B" "")
+nil
+Command: (command "_.BOX" '(909.0000000 80.0000000 210.0000000) "_L" 347 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "D3-L" "")
+nil
+Command: (command "_.BOX" '(1295.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D3-R" "")
+nil
+Command: (command "_.BOX" '(1702.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D3-B" "")
+nil
+Command: (command "_.BOX" '(1313.0000000 40.0000000 150.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D3-T" "")
+nil
+Command: (command "_.BOX" '(1313.0000000 40.0000000 552.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BACK" "")
+nil
+Command: (command "_.BOX" '(1313.0000000 40.0000000 168.0000000) "_L" 389 8 384)
+nil
+Command: (command "_.-LAYER" "_M" "D3-FRONT" "")
+nil
+Command: (command "_.BOX" '(1296.5000000 382.0000000 171.0000000) "_L" 422 18 378)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BOX-L" "")
+nil
+Command: (command "_.BOX" '(1319.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BOX-R" "")
+nil
+Command: (command "_.BOX" '(1681.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BOX-F" "")
+nil
+Command: (command "_.BOX" '(1334.0000000 355.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BOX-H" "")
+nil
+Command: (command "_.BOX" '(1334.0000000 80.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D3-BOX-B" "")
+nil
+Command: (command "_.BOX" '(1334.0000000 80.0000000 210.0000000) "_L" 347 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "D4-L" "")
+nil
+Command: (command "_.BOX" '(1720.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D4-R" "")
+nil
+Command: (command "_.BOX" '(2732.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D4-B" "")
+nil
+Command: (command "_.BOX" '(1738.0000000 40.0000000 150.0000000) "_L" 994 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D4-T" "")
+nil
+Command: (command "_.BOX" '(1738.0000000 40.0000000 552.0000000) "_L" 994 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BACK" "")
+nil
+Command: (command "_.BOX" '(1738.0000000 40.0000000 168.0000000) "_L" 994 8 384)
+nil
+Command: (command "_.-LAYER" "_M" "D4-FRONT" "")
+nil
+Command: (command "_.BOX" '(1721.5000000 382.0000000 171.0000000) "_L" 1027 18 378)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BOX-L" "")
+nil
+Command: (command "_.BOX" '(1744.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BOX-R" "")
+nil
+Command: (command "_.BOX" '(2711.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BOX-F" "")
+nil
+Command: (command "_.BOX" '(1759.0000000 355.0000000 225.0000000) "_L" 952 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BOX-H" "")
+nil
+Command: (command "_.BOX" '(1759.0000000 80.0000000 225.0000000) "_L" 952 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D4-BOX-B" "")
+nil
+Command: (command "_.BOX" '(1759.0000000 80.0000000 210.0000000) "_L" 952 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "D5-L" "")
+nil
+Command: (command "_.BOX" '(2750.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D5-R" "")
+nil
+Command: (command "_.BOX" '(3157.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D5-B" "")
+nil
+Command: (command "_.BOX" '(2768.0000000 40.0000000 150.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D5-T" "")
+nil
+Command: (command "_.BOX" '(2768.0000000 40.0000000 552.0000000) "_L" 389 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BACK" "")
+nil
+Command: (command "_.BOX" '(2768.0000000 40.0000000 168.0000000) "_L" 389 8 384)
+nil
+Command: (command "_.-LAYER" "_M" "D5-FRONT" "")
+nil
+Command: (command "_.BOX" '(2751.5000000 382.0000000 171.0000000) "_L" 422 18 378)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BOX-L" "")
+nil
+Command: (command "_.BOX" '(2774.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BOX-R" "")
+nil
+Command: (command "_.BOX" '(3136.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BOX-F" "")
+nil
+Command: (command "_.BOX" '(2789.0000000 355.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BOX-H" "")
+nil
+Command: (command "_.BOX" '(2789.0000000 80.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D5-BOX-B" "")
+nil
+Command: (command "_.BOX" '(2789.0000000 80.0000000 210.0000000) "_L" 347 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "D6-L" "")
+nil
+Command: (command "_.BOX" '(3175.0000000 40.0000000 150.0000000) "_L" 18 337 420)
+nil
+Command: (command "_.-LAYER" "_M" "D6-R" "")
+nil
+Command: (command "_.BOX" '(3582.0000000 40.0000000 230.0000000) "_L" 18 337 260)
+nil
+Command: (command "_.-LAYER" "_M" "D6-B" "")
+nil
+Command: (command "_.BOX" '(3193.0000000 40.0000000 150.0000000) "_L" 327 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D6-T" "")
+nil
+Command: (command "_.BOX" '(3193.0000000 40.0000000 552.0000000) "_L" 327 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "D6-BACK" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "D6-BACK") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 327.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 389.0000000 62.0000000)) (cons 42 0.000000000000) (cons 10 (list 389.0000000 322.0000000)) (cons 42 0.414213562374) (cons 10 (list 327.0000000 384.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 384.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a88840>
+Command: (command "_.EXTRUDE" (entlast) "" 8 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a88850>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3193.0000000 48.0000000 168.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "D6-FRONT" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "D6-FRONT") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 343.5000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 402.5000000 59.0000000)) (cons 42 0.000000000000) (cons 10 (list 402.5000000 319.0000000)) (cons 42 0.414213562375) (cons 10 (list 343.5000000 378.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 378.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a888a0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a888b0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3176.5000000 400.0000000 171.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "D6-BOX-L" "")
+nil
+Command: (command "_.BOX" '(3199.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D6-BOX-R" "")
+nil
+Command: (command "_.BOX" '(3561.0000000 80.0000000 210.0000000) "_L" 15 290 237)
+nil
+Command: (command "_.-LAYER" "_M" "D6-BOX-F" "")
+nil
+Command: (command "_.BOX" '(3214.0000000 355.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D6-BOX-H" "")
+nil
+Command: (command "_.BOX" '(3214.0000000 80.0000000 225.0000000) "_L" 347 15 222)
+nil
+Command: (command "_.-LAYER" "_M" "D6-BOX-B" "")
+nil
+Command: (command "_.BOX" '(3214.0000000 80.0000000 210.0000000) "_L" 347 290 15)
+nil
+Command: (command "_.-LAYER" "_M" "T-L" "")
+nil
+Command: (command "_.BOX" '(0.0000000 40.0000000 250.0000000) "_L" 18 337 2525)
+nil
+Command: (command "_.-LAYER" "_M" "T-R" "")
+nil
+Command: (command "_.BOX" '(852.0000000 40.0000000 570.0000000) "_L" 18 337 2205)
+nil
+Command: (command "_.-LAYER" "_M" "T-B" "")
+nil
+Command: (command "_.BOX" '(18.0000000 40.0000000 570.0000000) "_L" 834 337 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-C" "")
+nil
+Command: (command "_.BOX" '(426.0000000 40.0000000 588.0000000) "_L" 18 337 2269)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-S1" "")
+nil
+Command: (command "_.BOX" '(19.0000000 50.0000000 935.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-S2" "")
+nil
+Command: (command "_.BOX" '(19.0000000 50.0000000 1320.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-S3" "")
+nil
+Command: (command "_.BOX" '(19.0000000 50.0000000 1705.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-S4" "")
+nil
+Command: (command "_.BOX" '(19.0000000 50.0000000 2090.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-S5" "")
+nil
+Command: (command "_.BOX" '(19.0000000 50.0000000 2475.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-L-BACK" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "T-L-BACK") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 406.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 406.0000000 1921.0000000)) (cons 42 0.000000000000) (cons 10 (list 81.0000000 1921.0000000)) (cons 42 0.357805721315) (cons 10 (list 0.5756070 1854.9974064)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 1851.6801015)) (cons 42 0.000000000000)))
+<Entity name: 7a50a88d60>
+Command: (command "_.EXTRUDE" (entlast) "" 8 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a88d70>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(19.0000000 48.0000000 935.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "T-L-SERVICE" "")
+nil
+Command: (command "_.BOX" '(19.0000000 127.0000000 589.0000000) "_L" 406 8 345)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-S1" "")
+nil
+Command: (command "_.BOX" '(445.0000000 50.0000000 935.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-S2" "")
+nil
+Command: (command "_.BOX" '(445.0000000 50.0000000 1320.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-S3" "")
+nil
+Command: (command "_.BOX" '(445.0000000 50.0000000 1705.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-S4" "")
+nil
+Command: (command "_.BOX" '(445.0000000 50.0000000 2090.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-S5" "")
+nil
+Command: (command "_.BOX" '(445.0000000 50.0000000 2475.0000000) "_L" 406 290 18)
+nil
+Command: (command "_.-LAYER" "_M" "T-R-BACK" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "T-R-BACK") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 406.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 406.0000000 1851.6801015)) (cons 42 0.000000000000) (cons 10 (list 405.4243930 1854.9974064)) (cons 42 0.357805721310) (cons 10 (list 325.0000000 1921.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 1921.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89020>
+Command: (command "_.EXTRUDE" (entlast) "" 8 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89030>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(445.0000000 48.0000000 935.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "T-R-SERVICE" "")
+nil
+Command: (command "_.BOX" '(445.0000000 127.0000000 589.0000000) "_L" 406 8 345)
+nil
+Command: (command "_.-LAYER" "_M" "T-DOOR-L" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "T-DOOR-L") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 79.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 412.5000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 412.5000000 2683.0000000)) (cons 42 0.000000000000) (cons 10 (list 79.0000000 2683.0000000)) (cons 42 0.414213562372) (cons 10 (list 0.0000000 2604.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 79.0000000)) (cons 42 0.414213562373)))
+<Entity name: 7a50a890d0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a890e0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(21.0000000 400.0000000 171.0000000))
+nil
+Command: (setq s16_door (entlast))
+<Entity name: 7a50a890e0>
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 326.0000000 74.0000000)) (cons 42 0.414213562373) (cons 10 (list 396.0000000 144.0000000)) (cons 42 0.000000000000) (cons 10 (list 396.0000000 2539.0000000)) (cons 42 0.414213562365) (cons 10 (list 326.0000000 2609.0000000)) (cons 42 0.000000000000) (cons 10 (list 86.0000000 2609.0000000)) (cons 42 0.414213562383) (cons 10 (list 16.0000000 2539.0000000)) (cons 42 0.000000000000) (cons 10 (list 16.0000000 144.0000000)) (cons 42 0.414213562373) (cons 10 (list 86.0000000 74.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89120>
+Command: (command "_.EXTRUDE" (entlast) "" 6.1 0)
+0
+nil
+Command: (setq s16_go (entlast))
+<Entity name: 7a50a89130>
+Command: (command "_.ROTATE3D" s16_go "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_go "" '(0 0 0) '(21.0000000 400.1000000 171.0000000))
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 326.0000000 84.0000000)) (cons 42 0.414213562373) (cons 10 (list 386.0000000 144.0000000)) (cons 42 0.000000000000) (cons 10 (list 386.0000000 2539.0000000)) (cons 42 0.414213562368) (cons 10 (list 326.0000000 2599.0000000)) (cons 42 0.000000000000) (cons 10 (list 86.0000000 2599.0000000)) (cons 42 0.414213562361) (cons 10 (list 26.0000000 2539.0000000)) (cons 42 0.000000000000) (cons 10 (list 26.0000000 144.0000000)) (cons 42 0.414213562373) (cons 10 (list 86.0000000 84.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89170>
+Command: (command "_.EXTRUDE" (entlast) "" 6.1 0)
+0
+nil
+Command: (setq s16_gi (entlast))
+<Entity name: 7a50a89180>
+Command: (command "_.ROTATE3D" s16_gi "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_gi "" '(0 0 0) '(21.0000000 400.1000000 171.0000000))
+nil
+Command: (command "_.SUBTRACT" s16_go "" s16_gi "")
+nil
+Command: (command "_.SUBTRACT" s16_door "" s16_go "")
+nil
+Command: (command "_.-LAYER" "_M" "T-DOOR-R" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "T-DOOR-R") '(100 . "AcDbPolyline") (cons 90 5) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 412.5000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 412.5000000 2202.0000000)) (cons 42 0.414213562346) (cons 10 (list 333.5000000 2281.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 2281.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a891d0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a891e0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(436.5000000 400.0000000 573.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "TEXTILE" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "TEXTILE") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 300.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 360.0000000 60.0000000)) (cons 42 0.000000000000) (cons 10 (list 360.0000000 2455.0000000)) (cons 42 0.414213562363) (cons 10 (list 300.0000000 2515.0000000)) (cons 42 0.000000000000) (cons 10 (list 60.0000000 2515.0000000)) (cons 42 0.414213562370) (cons 10 (list 0.0000000 2455.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 60.0000000)) (cons 42 0.414213562373) (cons 10 (list 60.0000000 0.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89230>
+Command: (command "_.EXTRUDE" (entlast) "" 8 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89240>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(47.0000000 408.0000000 255.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "BG-1" "")
+nil
+Command: (command "_.BOX" '(873.0000000 60.0000000 570.0000000) "_L" 678 18 2305)
+nil
+Command: (command "_.-LAYER" "_M" "BG-2" "")
+nil
+Command: (command "_.BOX" '(1554.0000000 60.0000000 570.0000000) "_L" 679.5 18 2305)
+nil
+Command: (command "_.-LAYER" "_M" "BG-3" "")
+nil
+Command: (command "_.BOX" '(2236.5000000 60.0000000 570.0000000) "_L" 679.5 18 2305)
+nil
+Command: (command "_.-LAYER" "_M" "BG-4" "")
+nil
+Command: (command "_.BOX" '(2919.0000000 60.0000000 570.0000000) "_L" 678 18 2305)
+nil
+Command: (command "_.-LAYER" "_M" "BATTEN-1" "")
+nil
+Command: (command "_.BOX" '(910.0000000 0.0000000 590.0000000) "_L" 40 40 2235)
+nil
+Command: (command "_.-LAYER" "_M" "BATTEN-2" "")
+nil
+Command: (command "_.BOX" '(1540.0000000 0.0000000 590.0000000) "_L" 40 40 2235)
+nil
+Command: (command "_.-LAYER" "_M" "BATTEN-3" "")
+nil
+Command: (command "_.BOX" '(2220.0000000 0.0000000 590.0000000) "_L" 40 40 2235)
+nil
+Command: (command "_.-LAYER" "_M" "BATTEN-4" "")
+nil
+Command: (command "_.BOX" '(2900.0000000 0.0000000 590.0000000) "_L" 40 40 2235)
+nil
+Command: (command "_.-LAYER" "_M" "BATTEN-5" "")
+nil
+Command: (command "_.BOX" '(3530.0000000 0.0000000 590.0000000) "_L" 40 40 2235)
+nil
+Command: (command "_.-LAYER" "_M" "CURVE-T-TOP" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "CURVE-T-TOP") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 -0.414213562373) (cons 10 (list 100.0000000 100.0000000)) (cons 42 0.000000000000) (cons 10 (list 770.0000000 100.0000000)) (cons 42 -0.414213562374) (cons 10 (list 870.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 852.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 770.0000000 82.0000000)) (cons 42 0.000000000000) (cons 10 (list 100.0000000 82.0000000)) (cons 42 0.414213562373) (cons 10 (list 18.0000000 0.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89560>
+Command: (command "_.EXTRUDE" (entlast) "" 337 0).
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89570>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(0.0000000 377.0000000 2775.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-T-TOP" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "FRAME-T-TOP") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 -0.414213562373) (cons 10 (list 100.0000000 100.0000000)) (cons 42 0.000000000000) (cons 10 (list 770.0000000 100.0000000)) (cons 42 -0.414213562374) (cons 10 (list 870.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 852.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 770.0000000 82.0000000)) (cons 42 0.000000000000) (cons 10 (list 100.0000000 82.0000000)) (cons 42 0.414213562373) (cons 10 (list 18.0000000 0.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a895c0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a895d0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(0.0000000 400.0000000 2775.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "CURVE-T-BOT" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "CURVE-T-BOT") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 100.0000000)) (cons 42 0.414213562373) (cons 10 (list 100.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 870.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 870.0000000 18.0000000)) (cons 42 0.000000000000) (cons 10 (list 100.0000000 18.0000000)) (cons 42 -0.414213562373) (cons 10 (list 18.0000000 100.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89620>
+Command: (command "_.EXTRUDE" (entlast) "" 337 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89630>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(0.0000000 377.0000000 150.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-T-BOT" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "FRAME-T-BOT") '(100 . "AcDbPolyline") (cons 90 6) '(70 . 1) (cons 10 (list 0.0000000 100.0000000)) (cons 42 0.414213562373) (cons 10 (list 100.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 870.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 870.0000000 18.0000000)) (cons 42 0.000000000000) (cons 10 (list 100.0000000 18.0000000)) (cons 42 -0.414213562373) (cons 10 (list 18.0000000 100.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89680>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89690>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(0.0000000 400.0000000 150.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-T-L" "")
+nil
+Command: (command "_.BOX" '(0.0000000 382.0000000 250.0000000) "_L" 18 18 2525)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-T-R" "")
+nil
+Command: (command "_.BOX" '(852.0000000 382.0000000 570.0000000) "_L" 18 18 2205)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-T-MID" "")
+nil
+Command: (command "_.BOX" '(436.5000000 382.0000000 552.0000000) "_L" 433.5 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-LOW-1" "")
+nil
+Command: (command "_.BOX" '(870.0000000 382.0000000 150.0000000) "_L" 850 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-LOW-2" "")
+nil
+Command: (command "_.BOX" '(1720.0000000 382.0000000 150.0000000) "_L" 1030 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-LOW-3" "")
+nil
+Command: (command "_.BOX" '(2750.0000000 382.0000000 150.0000000) "_L" 770 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-HIGH-1" "")
+nil
+Command: (command "_.BOX" '(870.0000000 382.0000000 552.0000000) "_L" 850 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-HIGH-2" "")
+nil
+Command: (command "_.BOX" '(1720.0000000 382.0000000 552.0000000) "_L" 1030 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-HIGH-3" "")
+nil
+Command: (command "_.BOX" '(2750.0000000 382.0000000 552.0000000) "_L" 770 18 18)
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-TOP" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "FRAME-B-TOP") '(100 . "AcDbPolyline") (cons 90 4) '(70 . 1) (cons 10 (list 0.0000000 80.0000000)) (cons 42 -0.414213562373) (cons 10 (list 80.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 62.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 0.0000000 62.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89a30>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89a40>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3520.0000000 400.0000000 490.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "CURVE-B-TOP" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "CURVE-B-TOP") '(100 . "AcDbPolyline") (cons 90 4) '(70 . 1) (cons 10 (list 0.0000000 80.0000000)) (cons 42 -0.414213562373) (cons 10 (list 80.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 62.0000000 0.0000000)) (cons 42 0.414213562373) (cons 10 (list 0.0000000 62.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89a90>
+Command: (command "_.EXTRUDE" (entlast) "" 337 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89aa0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3520.0000000 377.0000000 490.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-BOT" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "FRAME-B-BOT") '(100 . "AcDbPolyline") (cons 90 4) '(70 . 1) (cons 10 (list 0.0000000 18.0000000)) (cons 42 0.414213562373) (cons 10 (list 62.0000000 80.0000000)) (cons 42 0.000000000000) (cons 10 (list 80.0000000 80.0000000)) (cons 42 -0.414213562373) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89af0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89b00>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3520.0000000 400.0000000 150.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "CURVE-B-BOT" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "CURVE-B-BOT") '(100 . "AcDbPolyline") (cons 90 4) '(70 . 1) (cons 10 (list 0.0000000 18.0000000)) (cons 42 0.414213562373) (cons 10 (list 62.0000000 80.0000000)) (cons 42 0.000000000000) (cons 10 (list 80.0000000 80.0000000)) (cons 42 -0.414213562373) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89b50>
+Command: (command "_.EXTRUDE" (entlast) "" 337 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89b60>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(3520.0000000 377.0000000 150.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "FRAME-B-R" "")
+nil
+Command: (command "_.BOX" '(3582.0000000 382.0000000 230.0000000) "_L" 18 18 260)
+nil
+Command: (command "_.-LAYER" "_M" "TV-LINK" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "TV-LINK") '(100 . "AcDbPolyline") (cons 90 8) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 628.5000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 628.5000000 1580.0000000)) (cons 42 0.000000000000) (cons 10 (list 450.0000000 1580.0000000)) (cons 42 0.414213562374) (cons 10 (list 310.0000000 1440.0000000)) (cons 42 0.000000000000) (cons 10 (list 310.0000000 540.0000000)) (cons 42 -0.414213562373) (cons 10 (list 150.0000000 380.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 380.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89c00>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89c10>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(870.0000000 113.0000000 570.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "TV-MID" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "TV-MID") '(100 . "AcDbPolyline") (cons 90 4) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 1047.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 1047.0000000 1580.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 1580.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89c60>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89c70>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(1501.5000000 113.0000000 570.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "TV-END" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "TV-END") '(100 . "AcDbPolyline") (cons 90 5) '(70 . 1) (cons 10 (list 0.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 948.5000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 948.5000000 1480.0000000)) (cons 42 0.414213562368) (cons 10 (list 848.5000000 1580.0000000)) (cons 42 0.000000000000) (cons 10 (list 0.0000000 1580.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89cc0>
+Command: (command "_.EXTRUDE" (entlast) "" 18 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89cd0>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(2551.5000000 113.0000000 570.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "TV-SPACER-1" "")
+nil
+Command: (command "_.BOX" '(910.0000000 78.0000000 605.0000000) "_L" 2530 17 30)
+nil
+Command: (command "_.-LAYER" "_M" "TV-SPACER-2" "")
+nil
+Command: (command "_.BOX" '(1340.0000000 78.0000000 2050.0000000) "_L" 2020 17 30)
+nil
+Command: (command "_.-LAYER" "_M" "T-LOW-DIV" "")
+nil
+Command: (command "_.BOX" '(417.0000000 40.0000000 168.0000000) "_L" 18 337 402)
+nil
+Command: (command "_.-LAYER" "_M" "T-LOW-BACK" "")
+nil
+Command: (entmakex (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") (cons 8 "T-LOW-BACK") '(100 . "AcDbPolyline") (cons 90 5) '(70 . 1) (cons 10 (list 0.0000000 402.0000000)) (cons 42 0.000000000000) (cons 10 (list 399.0000000 402.0000000)) (cons 42 0.000000000000) (cons 10 (list 399.0000000 0.0000000)) (cons 42 0.000000000000) (cons 10 (list 82.0000000 0.0000000)) (cons 42 -0.414213562373) (cons 10 (list 0.0000000 82.0000000)) (cons 42 0.000000000000)))
+<Entity name: 7a50a89e10>
+Command: (command "_.EXTRUDE" (entlast) "" 8 0)
+0
+nil
+Command: (setq s16_e (entlast))
+<Entity name: 7a50a89e20>
+Command: (command "_.ROTATE3D" s16_e "" "_X" '(0 0 0) 90)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+nil
+Command: (command "_.MOVE" s16_e "" '(0 0 0) '(18.0000000 48.0000000 168.0000000))
+nil
+Command: (command "_.-LAYER" "_M" "TV75_REFERENCE" "")
+nil
+Command: (command "_.LINE" '(1436.2500000 151.0000000 968.8000000) '(3113.7500000 151.0000000 968.8000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 151.0000000 968.8000000) '(3113.7500000 212.1000000 968.8000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 212.1000000 968.8000000) '(1436.2500000 212.1000000 968.8000000) "")
+nil
+Command: (command "_.LINE" '(1436.2500000 212.1000000 968.8000000) '(1436.2500000 151.0000000 968.8000000) "")
+nil
+Command: (command "_.LINE" '(1436.2500000 151.0000000 1931.2000000) '(3113.7500000 151.0000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 151.0000000 1931.2000000) '(3113.7500000 212.1000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 212.1000000 1931.2000000) '(1436.2500000 212.1000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(1436.2500000 212.1000000 1931.2000000) '(1436.2500000 151.0000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(1436.2500000 151.0000000 968.8000000) '(1436.2500000 151.0000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 151.0000000 968.8000000) '(3113.7500000 151.0000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(3113.7500000 212.1000000 968.8000000) '(3113.7500000 212.1000000 1931.2000000) "")
+nil
+Command: (command "_.LINE" '(1436.2500000 212.1000000 968.8000000) '(1436.2500000 212.1000000 1931.2000000) "")
+nil
+Command: (princ (list "S16_SOLIDS" (sslength (ssget "_X" '((0 . "3DSOLID"))))))
+(S16_SOLIDS 120)("S16_SOLIDS" 120)
+Command: (command "_.AUDIT" "_N")
+                                       
+                                       
+                              
+Pass 1 100     objects audited
+                              
+Pass 2 100     objects audited
+                                      
+ 1       Blocks audited
+                                  
+Total errors found 0 fixed 0
+Erased 0 objects
+nil
+Command: (command "_.ZOOM" "_E")
+nil
+Command: (command "_.SAVEAS" "2018" "/private/tmp/S16_R05_szerkezet.dwg")
+nil
+Command: (princ "S16_SAVE_DONE")
+S16_SAVE_DONE"S16_SAVE_DONE"
+Command: _.QUIT
+_Y
+Really want to discard all changes to drawing? <N> _Y

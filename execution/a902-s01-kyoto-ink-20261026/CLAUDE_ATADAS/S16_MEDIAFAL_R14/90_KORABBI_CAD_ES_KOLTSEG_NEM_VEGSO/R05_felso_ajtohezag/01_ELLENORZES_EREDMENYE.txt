@@ -1,0 +1,8 @@
+S16 R05 – ALKATRÉSZADAT ÉS EXPORT ELLENŐRZÉS
+
+A120 bútoralkatrész valamennyi L/W/T mérete pozitív és véges. Nincs nulla vagy negatív méret. Az azonosítók egyediek, a120 DXF állománya hiánytalan.
+Alkatrészenként összevetettük a szerelési befoglaló és helyi tengelyek szerinti L/W/T méretet, az Excel C/D/E oszlopait, a CSV méreteit, a DXF tényleges kontúr-befoglalóját és a PDF adott alkatrészhez tartozó méretfeliratát. Eltérés:0.
+Az S01-ben jelzett, helyes3D elemhez társított hibás/negatív listaméret típusú hibát az S16 R05-ben nem találtuk. S16 MPR vagy gépi CNC program nem készült.
+A frontok és íves hézagok külön geometriai ellenőrzése szintén megtörtént; a talált hibák javítását a PDF2. oldala mutatja.
+Ez az eredmény az R05 ellenőrzött bútoralkatrészeire vonatkozik. A később kért eredeti Hue-rejtés módosítása R06 fényhatás-tanulmány; az új rétegrendet és konkrét termékbeépítést külön kell lezárni. Nem gyártási jóváhagyás.
+Részletes bizonyíték: audit/export_checks.json és audit/geometry_checks.json.

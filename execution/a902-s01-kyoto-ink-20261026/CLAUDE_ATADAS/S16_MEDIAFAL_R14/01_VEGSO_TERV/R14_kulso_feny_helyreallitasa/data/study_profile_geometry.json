@@ -1,0 +1,65 @@
+{
+  "revision": "R14",
+  "background_finished_y_mm": 26,
+  "background_rect_xz_mm": [
+    740,
+    470,
+    2857,
+    2405
+  ],
+  "cabinet_back_y_mm": 40,
+  "top_profile": {
+    "start_x": 740,
+    "end_x": 3597,
+    "z_top": 2875,
+    "height": 18,
+    "cover_y": [
+      26,
+      34
+    ],
+    "front_y": [
+      34,
+      38
+    ],
+    "emitter_y": 31,
+    "emitter_width": 14.5,
+    "emitter_x": [
+      880,
+      3585
+    ]
+  },
+  "rear_light_y_mm": 4,
+  "rear_standoff_mm": 8,
+  "tv_panel_spacer_assembly_depth_mm": 69,
+  "concealment": "Top profile2mm behind cabinet rear plane; full background14mm behind. Local Hue profile accommodation pending.",
+  "upward_gap_light": {
+    "tray_box": [
+      740,
+      5,
+      2875,
+      2845,
+      24,
+      1
+    ],
+    "front_visor_box": [
+      740,
+      25,
+      2876,
+      2845,
+      4,
+      3
+    ],
+    "rear_visor_box": [
+      740,
+      5,
+      2876,
+      2845,
+      3,
+      3
+    ],
+    "diffuser_z": 2876.2,
+    "ceiling_z": 2900,
+    "nominal_gap": 25,
+    "clear_gap_above_housing": 21
+  }
+}

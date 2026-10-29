@@ -1,0 +1,30 @@
+S16 MÉDIAFAL – TELJES CLAUDE-ÁTADÁS
+2026. október 30. | Elfogadott tervezési alap: S16 R14, sötét faerezet
+
+EZ MÁS BÚTORCSOMAG, MINT A SZÜLŐMAPPÁBAN LÉVŐ S01 R16.
+Az S01 R16 korábbi hibái és az S16 R14 revíziószáma nem cserélhetők fel.
+A végső S16 látvány és Blender-modell itt megtalálható. A végső állapotnak megfelelő AutoCAD/műhelyi dokumentálás még elvégzendő feladat.
+
+OLVASÁSI SORREND
+1. 01_CLAUDE_INDITOPROMPT.txt – bemásolható indítás.
+2. 02_ELFOGADOTT_FORMA_ES_VILAGITAS.txt – legfrissebb döntések, elsőbbségi sorrend.
+3. 03_AUTOCAD_ES_MUHELYI_FOLYTATAS.txt – fennmaradó tényleges tervezési feladatok.
+4. 04_FORRASOK_ELLENORZESEK_HORDOZHATOSAG.txt – források, ellenőrzések hatóköre, futtatás.
+5. 01_VEGSO_TERV/R14_kulso_feny_helyreallitasa/rajzok/S16_R14_ketiranyu_felso_vilagitas.pdf
+6. Ugyanott a nappali, esti csukott/nyitott képek, részletek és S16_R14_faerezet.blend.
+7. Az R14 data/ és rebuild/ teljes anyaga; a 06_CAD_SEGITSEG kiegészítő geometriaexportja.
+8. Csak ezek után a 90_KORABBI_CAD_ES_KOLTSEG_NEM_VEGSO korábbi DWG/DXF/Excel állománya.
+
+MIT TARTALMAZ?
+– R14: szerkeszthető Blender-modell, ötlapos PDF, hét PNG, 120 fő alkatrész adatai, anyag-, fiók-, világítási és nappalifény-adatok, generáló és ellenőrző források, ellenőrzési bizonyítékok.
+– 06_CAD_SEGITSEG: a mentett R14 jelenet zárt állapotba visszaállított hálói milliméterben, a kiegészítő fénytakaró/segédobjektumokkal együtt. Nem kész DWG vagy automatikus gyártási alkatrészlista.
+– R05 ELŐZMÉNY: létező DWG, összeállítási és alkatrész-DXF-ek, Excel, PDF, Blender, generálók és vizsgálatok. Ezek korábbi szerkezeti állapotot tartalmaznak.
+– Eredeti referencia és prompt, helyiséggeometria/fényirány forrásai, korábbi ellenőrzések, asztalostervezési módszertan és opcionális helyi AutoCAD-híd forrása.
+– 05_R05_R14_ALKATRESZ_ELTERESEK.json: gépi összehasonlítás a két alkatrészadatbázis között.
+– 07_FAJLJEGYZEK.json és SHA256SUMS.txt: fájlszintű ellenőrzőösszegek.
+
+FONTOS STÁTUSZ
+Nincs R14-es DWG, DXF, újraszámolt költség-Excel vagy CNC/MPR-program. Az R05-ös fájlokat nem neveztük át R14-nek. Az R14 120 fő alkatrészén túl a fényprofilok és néhány kiegészítő elem a jelenetgenerálóban van: ezeket is be kell építeni a végleges CAD-be és anyagjegyzékbe.
+A pontos gyári vasalatok, Hue-termékek, profilok, áramellátás, szervizhozzáférés, szerelés és felmérési méretek még lezárandók. A csomag tervezési átadás; a mellékelt képek nem igazolják önmagukban a gyárthatóságot.
+
+A nagy ZIP ugyanennek a mappának az offline másolata. A teljes ZIP-ben nincs node_modules, gépi gyorsítótár, .DS_Store, .blend1 biztonsági másolat vagy ismételten becsomagolt korábbi ZIP. A saját generáló források megvannak; a külső függőségeket a hordozhatósági leírás sorolja fel.

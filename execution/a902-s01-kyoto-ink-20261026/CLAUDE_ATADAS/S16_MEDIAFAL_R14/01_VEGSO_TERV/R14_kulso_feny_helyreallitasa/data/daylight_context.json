@@ -1,0 +1,30 @@
+{
+  "source_orientation": "../a902-terasz-p0-20261027/P0_ATADAS_v1/TER_ES_GEOMETRIA.md",
+  "source_geometry": "../a902-terasz-p0-20261027/sources/03_blender/geometry_lock_A902_v2b.json",
+  "outward_azimuth_deg_approx": 53,
+  "window_model_bounds_global_m": [
+    4.44,
+    8.25,
+    0.02,
+    8.94,
+    8.29,
+    2.5
+  ],
+  "mapping": "BlenderX=-(globalY-4.25); BlenderY=globalX-3.67; Z unchanged",
+  "window_light_location_blender_m": [
+    -4.02,
+    3.02,
+    1.265
+  ],
+  "window_size_m": [
+    4.5,
+    2.53
+  ],
+  "aim_blender_m": [
+    -1.8,
+    0.1,
+    1.45
+  ],
+  "illustrative_energy_W": 650,
+  "scenario": "Diffuse northeast window daylight; no direct sun or claimed hour. LED off. Simplified room model; facade shading/glazing transmission not calibrated."
+}

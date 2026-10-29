@@ -1,0 +1,23 @@
+{
+  "revision": "S16-R05",
+  "pdf_pages": 48,
+  "pdf_renders": 48,
+  "native_solids": 120,
+  "native_audit_errors": 0,
+  "model_max_bbox_error_mm": 0.00019073486328125,
+  "workbook_formula_errors": [],
+  "all_part_dimensions_match_workbook": true,
+  "cost": {
+    "base": 3683946,
+    "low": 2736612,
+    "high": 5183707
+  },
+  "geometry_audit": "geometry_checks.json",
+  "model_image_source": "Own Blender geometry, not AI image edit",
+  "github": "No commit or branch update made; user approval pending; previous R04 prepared tree is obsolete.",
+  "visual_review": {
+    "all_48_PDF_pages": "Contact sheet inspected; audit page separately inspected. No page overflow seen.",
+    "closed_and_open_images": "Inspected from rebuilt Blender model; one drawer open, full-height left door, no silver stripe.",
+    "three_previews": "All regenerated after geometry changes."
+  }
+}

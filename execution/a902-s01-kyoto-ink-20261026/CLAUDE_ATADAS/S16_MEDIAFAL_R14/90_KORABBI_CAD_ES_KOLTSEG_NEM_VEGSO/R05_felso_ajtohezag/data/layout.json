@@ -1,0 +1,65 @@
+{
+  "revision": "S16-R05",
+  "date": "2026-10-29",
+  "status": "TERVEZÉSI JAVASLAT - FELMÉRÉS ÉS MŰHELYI JÓVÁHAGYÁS ELŐTT",
+  "width": 3600,
+  "height": 2875,
+  "depth": 408,
+  "ceiling_nominal": 2900,
+  "origin": "Bal alsó falsarok a kész padlón. X jobbra, Y faltól a szoba felé, Z felfelé; mm. Nem a S01 Y-tengelye.",
+  "source": "Szélesség: tulajdonosi 3600 mm döntés. Magasság: prompt és v2b modell; helyi minimum még felmérendő. Többi méret R05 tervezési javaslat.",
+  "tower_width": 870,
+  "base_z": 150,
+  "base_top": 570,
+  "tower_base": 570,
+  "module_widths": [
+    435,
+    425,
+    425,
+    1030,
+    425,
+    425
+  ],
+  "screen_box": [
+    1436.25,
+    151,
+    968.8,
+    1677.5,
+    61.1,
+    962.4
+  ],
+  "screen_note": "Tulajdonosi kérésre65 helyett75col. Méretreferencia: Samsung QE75Q7FAAUXXH,1677,5×962,4×61,1mm talp nélkül;25,3kg;VESA400×400. Gyári HU oldal ellenőrizve2026-10-29. A konkrét modell beszerzése nincs jóváhagyva.",
+  "relief": {
+    "background_face_y": 78,
+    "TV_face_y": 113,
+    "difference": 35
+  },
+  "tower_doors": "2 nyomásra nyíló rugó nélküli pántos ajtó; bal ajtón textil és teljes peremfény együtt mozog. Rejtett24V hajlékony pántoldali átvezetés.6 fiók TIP-ON BLUMOTION.",
+  "room_mapping": "v2b Fal_05_1_nappali_0 keleti falsík x=3.67 m, y=4.05..8.05. Javasolt bútor: világ X=3.67+helyiY/1000, világ Y=4.25+helyiX/1000. Két oldalon 200 mm névleges maradék. Helyszíni szegőléc/függöny/kiállás nincs igazolva.",
+  "owner_latest": "75col TV elfogadva. Bal fél teljes magas ajtó, alatta nincs fiók. A világos betét felső/alsó margója105/105mm; peremfény100/100mm. Jobb oldali ezüst díszcsík eltávolítva. Hat különálló fiók a torony jobb fele alatt indul435mm-től.",
+  "ceiling_gap": 25,
+  "top_door_gap_mm": 3,
+  "top_door_curve_R": 79,
+  "top_frame_inside_R": 82,
+  "visible_front_gap_mm": 3,
+  "bottom_frame_thickness_mm": 18,
+  "base_end_front_radius_mm": 59,
+  "top_gap_correction": "A korábbi20mm ajtó-felsőhézag helyett3mm. Ajtók17mm-rel magasabbak. Belső keretR82 és ajtóR79 közös ívközépponttal. A mennyezeti25mm fényrés külön változatlan.",
+  "drawer_start_x": 435,
+  "textile_margins": {
+    "top": 105,
+    "bottom": 105,
+    "light_top": 100,
+    "light_bottom": 100
+  },
+  "curves": {
+    "tower_outer_R": 100,
+    "base_right_R": 80,
+    "textile_R": 60,
+    "TV_concave_R": 160,
+    "TV_convex_R": 140,
+    "TV_right_R": 100,
+    "status": "R05 tulajdonosi korrekció szerinti kontúr; nem pixelből igazolt gyártási méret."
+  },
+  "TV_field": "Folytonos, lépcsőző kontúr x870..3500,z570..2150; a toronytól indul és a fedlapig fut. 3 bontható rész, valós3mm szerelési hézagokkal."
+}

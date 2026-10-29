@@ -1,0 +1,15 @@
+S16 R14 – KÉTIRÁNYÚ FELSŐ VILÁGÍTÁS
+Az R13 fő bútorgeometriája változatlan. Az R14 a világítást javítja és kiegészíti.
+
+Hiba: az A1 külső fénykör adata Y4 volt, de a render a régi Y25 síkban építette fel, a háttér anyagán belül. A korábbi beljebb húzás tovább gyengítette a kifelé jutó fényt. Javítás: a tényleges fényforrás a dokumentált útvonalon van. A jobb oldali falmegvilágítás újra látható.
+
+Felül két külön fényhatás készül:
+1. A6: erősebb lefelé súrolófény a textilhatású háttéren.
+2. A8: új, felfelé világító fény a bútor és plafon közti résben.
+Az A1 kifelé, a falra vetülő fényudvar megmarad. Nincs új jobb oldali első keret vagy befelé világító oldalsó súrolófény.
+
+A fő bútor teteje 2875 mm, a plafon 2900 mm, a névleges rés 25 mm. Az új felső profil 24 mm széles és 4 mm magas; a résből 4 mm-t foglal, felette 21 mm marad. A konkrét Hue-termék, alu profil, hőtechnika, rögzítés, vezetékút és szervizrekesz még nincs műhelyileg lezárva. A fényerőértékek látványtervi beállítások, nem villamos teljesítmény- vagy luxadatok.
+
+Ellenőrzés: a mentett modell 120 fő alkatrészének geometriája az R13-mal egyezik. A tényleges A1 fényforrásY4 síkban van. A jobb oldali és felső külső fényből indított sugár első találata a fal; a felfelé indulóé a plafon; a lefelé súrolófényből a háttér. Nappali, esti, nyitott és közeli nézetek, valamint az ötoldalas PDF ellenőrizve.
+
+Ez tervezési javaslat, nem gyártási kiadás. Az R05 AutoCAD/Excel műhelycsomag nem frissült. GitHub-mentés nem történt.

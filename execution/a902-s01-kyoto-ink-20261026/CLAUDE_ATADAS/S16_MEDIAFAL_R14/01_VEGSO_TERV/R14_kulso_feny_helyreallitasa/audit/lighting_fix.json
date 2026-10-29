@@ -1,0 +1,8 @@
+{
+  "revision": "R14",
+  "source_revision": "R13",
+  "fault": "A1 path dataY4 but actual emitter vertices hardcodedY25 inside BG8..26. Legacy30mm inset further reduced outward spill.",
+  "fix": "Use path Y directly; A1 follows documented XZ path without legacy inset. Main cabinet geometry unchanged.",
+  "expected": "Outward wall halo above and to right, separate from inward top wash.",
+  "limits": "Visual lighting study, not calibrated photometric or selected Hue/profile validation."
+}

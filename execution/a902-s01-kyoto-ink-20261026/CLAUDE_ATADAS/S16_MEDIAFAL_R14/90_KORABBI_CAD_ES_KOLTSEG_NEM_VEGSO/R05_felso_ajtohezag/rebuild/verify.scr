@@ -1,0 +1,8 @@
+(setvar "FILEDIA" 0)
+(princ (list "S16_SOLIDS_READBACK" (sslength (ssget "_X" '((0 . "3DSOLID"))))))
+(princ (list "S16_INSUNITS" (getvar "INSUNITS")))
+(command "_.AUDIT" "_N")
+(command "_.ZOOM" "_E")
+(princ (list "S16_EXTMIN" (getvar "EXTMIN") "S16_EXTMAX" (getvar "EXTMAX")))
+_.QUIT
+_Y

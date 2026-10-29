@@ -1,0 +1,39 @@
+{
+  "size_inch": 75,
+  "model_reference": "Samsung QE75Q7FAAUXXH",
+  "dimensions_mm": [
+    1677.5,
+    962.4,
+    61.1
+  ],
+  "mass_kg": 25.3,
+  "VESA_mm": [
+    400,
+    400
+  ],
+  "source": "https://www.samsung.com/hu/tvs/qled-tv/q7f-75-inch-qled-4k-smart-tv-qe75q7faauxxh/",
+  "mount_source": "https://brandportal.vogels.com/m/76109be3bb82e160/original/3836050_TVM3600Series_Leaflet_Document_EN.pdf",
+  "mount_nominal_compatible": true,
+  "mount_limit_kg": 75,
+  "mount_size_range_inch": [
+    40,
+    100
+  ],
+  "mount_VESA_max_mm": [
+    600,
+    400
+  ],
+  "old_KI033_estimate": 250000,
+  "new_estimate": 350000,
+  "low": 300000,
+  "high": 450000,
+  "delta_estimate": 100000,
+  "price_status": "Bruttó tervezői keret, nem webshopár. A gyári oldalon nem eladó státusz; tényleges beszerzési modell és ajánlat később.",
+  "geometry_clearance_mm": {
+    "above_TV_to_panel": 218.8,
+    "below_TV_to_deck": 398.8,
+    "right_to_panel": 386.25,
+    "left_to_straight_panel_edge": 256.25
+  },
+  "gate": "VESA valós magassági offset, távtartó/csavar, kábelhajlítás, hűtés és falterhelés még ellenőrizendő."
+}

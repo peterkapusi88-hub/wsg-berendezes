@@ -1,0 +1,70 @@
+{
+  "remote_head": "88de4b7786dc86dc44e34435c2f94bfd12b53d4e",
+  "image_pixel_sha256": "2697b795cec9ef7cebbe27d55ecc2ae3f380c274a8d34f3ac537484294339cd5",
+  "image_file_sha256": "1bb885adbd724e61bf2753a87d8bdaf316721c31159bf7e718a3e11f9b9929d8",
+  "prompt_sha256": "c0f0ad58d99490c22d42af01dc924ccc8feb610132a66d145da59b7d5f32e52c",
+  "S01": [
+    {
+      "id": "KI-030",
+      "name": "720 mm torony +200 mm matt bronzbetét +4×670 mm falburkolati mező",
+      "base": 935500,
+      "low": 759246,
+      "high": 1288007
+    },
+    {
+      "id": "KI-031",
+      "name": "Hat magas fiókos alsó médiafal, eltérő frontszélességekkel",
+      "base": 985000,
+      "low": 788000,
+      "high": 1379000
+    },
+    {
+      "id": "KI-032",
+      "name": "W01 rögzítési és műhelyi csomag R15→R16 egyeztetve",
+      "base": 504800,
+      "low": 429080,
+      "high": 656240
+    },
+    {
+      "id": "KI-034",
+      "name": "Vogel TVM3605 konzol",
+      "base": 32000,
+      "low": 27200,
+      "high": 41600
+    },
+    {
+      "id": "KI-114",
+      "name": "W01 hangulatfény +6fiók és2ajtó nyitásérzékelős belső fénye",
+      "base": 512000,
+      "low": 435200,
+      "high": 665600
+    }
+  ],
+  "master_total": 26212190,
+  "protected_files": {
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/outputs/A902_Kyoto_Ink_elo_regiszter.xlsx": "e259dfe0a5638fcc9eb0408c2392ffe91fd53d1b11d7af1c15c1c5a0584b861e",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/drawers.json": "ce538dc134fae4de6b8331d2665c2b69900ad411849fc87937a8a554b46a6557",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/sources.json": "53e2d52c6d96d48d77ea076dd69b4a131425e0f4f78ac28be6bd2b3bcc0087f1",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/mpr_mapping.json": "76f3576a13becdeccc62243534db0a1340fc7fd30197b0d69f9b1a4028f655a5",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/shelf_pins.json": "a6d3fc229da65e931ff8a8a0fd6440fedfad159dadaa5e96ed46f6e37ffe30c4",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/hinges.json": "9b432e20486fc722904328122e5314b4d4e2b3195f223653531e85161adb06e9",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/face_finishes.json": "28d6d36e3dd58908ab63946de00e5213820a676e39dfa5812fadb3393aae507b",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/cost.json": "edf31ee8078e9b397aae4771e418e20f0b6e01a7a922870ad90a7773b8f6339d",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/artwork.json": "6583b180a1e519c6a70e99439afc6bc903f4b10e64279a8518609a2e3d3f785a",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/lighting.json": "e03c585550d7d56ded2088d95220fe993f8fea4d7242af5420371db6c5eca64f",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/new_connections.json": "f024327f703b37cfac633653139c68bf4f1334bf2a1c453e58cf08af660f39ae",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/revision_mapping.json": "16373e2acc60844888864e25d910effc4aa1af5fce90c6b611247e1250f21321",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/parts.json": "c5e09f711ae950231f07782659ecdd97caa1416276fba7d930f0f757869ea5bb",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/hardware_geometry.json": "00c41ea87e011e32349be59d5ee1bb67ff9b3f981c806caa5c821733c4227805",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/materials.json": "abcf084868fd556287d0598a52b14ac4b3926738c6a761db98efa640f526942f",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/layout.json": "7bcb8867999f1aa8d463aa14ad1ab8e6abc48408f5e1a33ed15ba3830704b027",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/art_triangles.json": "36b2d08dfe7012b9fc71851d404022868604df3bcdc224c3d79d001426ab5c98",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/programs.json": "202293fb2baab96a7faaefa36f5209ba0ed2edc0daec6b3aaf795b3c4b78e1fb",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/file_manifest.json": "23cb499b630abd1960f5d7b2147e59ef2e927f21a8161f596c31c380e397906b",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/notches.json": "a5c0f667f01be30c1d998f8e6b05b1f7cdcdf894af3fe6671c8c8adf7661924b",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/pending_hardware_operations.json": "eb3f661200f43a167ea7f8092d53c20783e3c4fd52be272bff658c6e11217a8b",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/handoff_manifest.json": "ce9d8cf21613c7e092c138bb200d57bd467ad38fb0d916caae5d28506f3f7522",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data/holes.json": "c1554b6e4ce01b2b6762377c4330902ddf46ec2f8a6dcca55eae7c6ca51ac393"
+  },
+  "stale_source_note": "A régi CP1a és CP3 füleken 3300 mm / 5 front / korábbi árak is szerepelnek. Az Elemregiszter aktuális öt sora és az R16 adatmodell az alap."
+}

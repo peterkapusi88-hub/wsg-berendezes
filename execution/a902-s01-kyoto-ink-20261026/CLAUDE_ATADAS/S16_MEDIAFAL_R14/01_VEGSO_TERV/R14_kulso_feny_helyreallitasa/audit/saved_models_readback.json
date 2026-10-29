@@ -1,0 +1,23 @@
+[
+  {
+    "style": "faerezet",
+    "primary_parts": 120,
+    "max_bbox_error_mm": 0.00019073486328125,
+    "closed_geometry_sha256": "147ed2301a045fef3c92a06eff5bffa6e5e0888c647d1a6c2aec5e8269538d7d",
+    "visibility_rays": [
+      {
+        "object": "TEXTILE",
+        "y_mm": 373.99986386299133
+      },
+      {
+        "object": "TEXTILE",
+        "y_mm": 373.9999532699585
+      },
+      {
+        "object": "TEXTILE",
+        "y_mm": 373.9999532699585
+      }
+    ],
+    "scope": "Saved Blender primary meshes and nominal closed poses. Not factory hinge, photometric or CNC certification."
+  }
+]

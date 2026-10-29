@@ -1,0 +1,43 @@
+S16 MONZA MAGNO – R05, 2026.10.29.
+Ellenőrzött geometriai változat; R01, R02, R03 és R04 elavult.
+FIGYELEM: a későbbi kérés szerinti eredeti Philips Hue és teljesen takart fényforrások tanulmánya a ../R06_Hue_rejtett_fenyproba/ mappában van. Az itteni Sunricher/200W világítási rendszer és annak költségkerete nem érvényes Hue-kiválasztás.
+
+R05 JAVÍTÁS: a felső íves keret és az ajtók közötti hibás20mm rés helyett3mm. Az ajtók felső éle17mm-rel magasabb; felső ívükR79, a keret belső íveR82, közös középponttal. Ez különbözik a mennyezet alatti25mm LED-réstől. A bal ajtó alsó éle2mm-rel lejjebb került. Minden alsó front171..549mm; külső frontkeret18mm; jobb szélső fiókR59 a keretR62 belső ívében. A bal ajtó melletti osztóléc1,5mm-rel rövidebb. A betét és a fénye eredeti világkoordinátán marad.
+
+A MOSTANI KIALAKÍTÁS
+Teljes szélesség 3600 mm. Magas szekrény 870 mm; jobb oldali rész 2730 mm.
+Névleges felső sík 2875 mm a 2900 mm mennyezet alatt: 25 mm fényrés a teljes kompozíció felett.
+75 colos TV, a tulajdonos ezt a méretet megfelelőnek találta. Méretreferencia Samsung QE75Q7FAAUXXH:1677,5×962,4×61,1 mm,25,3 kg,VESA400×400. A készülék kiválasztása és beszerzése külön döntés.
+A TV mögötti folytonos réteg a toronytól indul, nagy ívvel fordul fel, és a fedlapig fut. Nem különálló téglalap.
+A bal világos betétes ajtó teljes magas; alatta nincs fiók. A világos betét105/105 mm-re van a teljes szekrény tetejétől/aljától, a peremfény100/100 mm-re.
+A jobb alsó toronysarok szögletesen, folyamatosan kapcsolódik a fióksorhoz.
+A jobb ajtó fehérnek látszó ezüst díszcsíkját eltávolítottuk.
+Hat önálló fiók: a torony jobb fele alatt kezdődnek. Szélességük435/425/425/1030/425/425 mm. Nyomásra nyitás, csillapított záródás. A nyitott képen csak D3 nyitott.
+A két magas ajtó rugó nélküli pánttal és mágneses nyomásnyitóval készül; ajtócsillapítás nincs állítva. Bal ajtó412,5×2683 mm, jobb412,5×2281 mm.
+Külső fényudvar, teljes világító betétperem, íves TV-kontúr és fedlapfény. A betétfény az ajtóval mozog; rejtett hajlításálló24V átvezetés és húzásmentesítés, műhelyi mozgáspróbával. A belső tárolóvilágítás8 külön érzékelős kör.
+
+FÁJLOK
+rajzok/S16_R05_tervcsomag.pdf –48 oldalas A3 terv, méretláncok, kontúrok, belső kiosztás, nyitás, rétegrend, világítás, anyag/költség, feltételek és120 alkatrészlap.
+S16_R05_koltseg_es_alkatreszek.xlsx –5 lap, szerkeszthető mennyiségek és árak, képletek, S01 összevetés és külön75col TV-keret.
+rajzok/S16_R05_szerkezet.dwg –120 tényleges3D szilárd bútoralkatrész, valódi körívek és a bal ajtó10×6 mm-es világító peremfészke. TV külön helyfoglaló drótváz.
+rajzok/S16_R05_koordinacio.blend – saját3D modell; procedurális anyagok, külső textúra nélkül.
+rajzok/S16_R05_nezetek.dxf – homlokzat/alaprajz és fényutak.
+alkatreszek/*.dxf –120 egyedi kontúr. A3D_befoglalok.dxf csak befoglalókat tartalmaz; a valódi testek a DWG-ben vannak.
+nezetek/ – csukott, egy fiókkal nyitott és visszafogott külső megvilágítású műszaki nézet. Ezek nem a teljes lakás Cam_02 végleges fotórealisztikus renderei.
+data/ – alkatrészek, elrendezés, fényutak, fiókok, becslések, források és nyitott pontok.
+audit/ – visszaolvasási, mozgási és számolási ellenőrzések.
+rebuild/ – az újraépítés forrásai. design.py a teljes projekt S01 R16 forrásait és élő munkafüzetét olvassa; a többi építő az itteni data állományokkal működik. Python/ezdxf/Pillow/reportlab/shapely, Artifact Tool, Blender és AutoCAD szükséges a megfelelő kimenet újragenerálásához. Csomagolt programtelepítők nincsenek.
+
+KÖLTSÉG ÉS ÖSSZEHASONLÍTÁS
+Bútor és világítás:3 683 946 Ft bruttó tervezői becslés; sáv2 736 612–5 183 707 Ft. Nem árajánlat.
+S01 R16 médiafal:2 969 300 Ft; S16 különbség+714 646 Ft. Az ársávok átfednek.
+A formai korrekció után nem azonos a tárolókapacitás: S16 fióktér155,7 liter, S01 180,8 liter. S16 polc406×290 mm, S01 331×290 mm; a bal alsó rész az S16-ban ajtó mögötti rekesz. Az összevetés ezeket feltünteti.
+A75col TV külön350 000 Ft-os tervezői keret,300 000–450 000 Ft sávval; ez nem ellenőrzött bolti ár. A régi250 000 Ft-os kerethez képest+100 000 Ft külön feltételezés.
+Csak a médiafal és a TV cseréjével számított lakáselőirányzat27 026 836 Ft. A18M cél és2M külön tartalék változatlan. Nem a teljes S16-stílusú lakás árazása.
+
+ELLENŐRZÉS ÉS KIADÁSI HATÁR
+DWG visszanyitva:120 szilárd test, AUDIT0 hiba, mm, befoglaló3600×408×2875 mm.
+Blender alkatrész-befoglalók eltérése0,001 mm alatt. Egyenkénti fiókpróba0–300 mm között25 mm lépésekben: nincs modellezett bútorütközés. Más szobai bútor és a valódi vasalat nem része ennek a próbának. Névleges ajtóforgás0–90°: nincs vizsgált szögletes vagy íves korpuszütközés. A külön íves ellenőrzés1°/2mm és kontúrcsúcs mintavételt használ; pántkinematika és kábelpróba nyitott. A teljes frontkerület hézagvizsgálatát és a statikus alkatrészpárok ütközésvizsgálatát az audit/geometry_checks.json rögzíti.
+Excel: újraszámolás, árérzékenység és tápegység-terhelés ellenőrizve; képlethiba nem jelzett. Nem natív Excel-alkalmazásban futtatott ellenőrzés.
+PDF48 oldala képként ellenőrizve. Az S01 állományainak ellenőrzőösszege változatlan.
+Felmérés, minták, végleges SKU-k, falrögzítés, vasalatfuratok, profilhűtés/hajlítás, ajtókábel és elsődarabpróba szükséges. Nincs gyártási/CNC-kiadás, nincs rendelés vagy elküldött ajánlatkérés.

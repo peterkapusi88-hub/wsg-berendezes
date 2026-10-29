@@ -1,0 +1,48 @@
+{
+  "revision": "R13",
+  "affected_main_parts": [
+    "BG-1",
+    "BG-2",
+    "BG-3",
+    "BG-4",
+    "BG-FINISH",
+    "TV-FIELD",
+    "CURVE-T-TOP",
+    "T-R",
+    "CURVE-B-TOP",
+    "D6-R",
+    "D6-T",
+    "BATTEN-1",
+    "BATTEN-2",
+    "BATTEN-3",
+    "BATTEN-4",
+    "BATTEN-5",
+    "TV-SPACER-1",
+    "TV-SPACER-2"
+  ],
+  "broadphase_pairs_checked": 4,
+  "intersections_over_1mm3": [],
+  "pairs": [
+    {
+      "a": "D6-BACK",
+      "b": "CURVE-B-TOP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "T-C",
+      "b": "CURVE-T-TOP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "T-L-BACK",
+      "b": "CURVE-T-TOP",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "T-R-BACK",
+      "b": "CURVE-T-TOP",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "scope": "Exact Boolean volume intersections of changed primary parts in closed pose. Excludes hidden lighting extras, hardware, actual hinge motion and shop tolerances."
+}

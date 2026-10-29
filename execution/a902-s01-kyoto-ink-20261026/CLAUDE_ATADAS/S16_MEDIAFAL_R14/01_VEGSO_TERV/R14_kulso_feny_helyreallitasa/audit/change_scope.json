@@ -1,0 +1,13 @@
+{
+  "revision": "R14",
+  "source_geometry": "R13",
+  "primary_changed": [],
+  "main_geometry_unchanged": true,
+  "changes": [
+    "A1 actual emitter now follows dataY4, no old30mm inset",
+    "Stronger independent downward top wash",
+    "New independent upward gap light, sourceZ2876.2, ceilingZ2900",
+    "4mm profile occupies part of25mm nominal gap,21mm clear above it"
+  ],
+  "status": "Design study; physical Hue/profile and service access not finalized"
+}

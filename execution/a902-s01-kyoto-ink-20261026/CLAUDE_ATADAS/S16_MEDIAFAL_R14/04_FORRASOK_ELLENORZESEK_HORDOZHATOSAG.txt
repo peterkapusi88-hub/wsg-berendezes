@@ -1,0 +1,40 @@
+FORRÁSOK, ELLENŐRZÉSEK, FOLYAMAT ÉS HORDOZHATÓSÁG
+
+ELSŐBBSÉG ÉS FEJLŐDÉS
+Az eredeti célkép és prompt megmaradt a 02_REFERENCIAK mappában. A képből indult szerkezet az R05-ig DWG/DXF/Excel/PDF formában is elkészült. Ezt követően a felhasználóval egyeztetett ajtóbetét-, anyag-, csatlakozás- és világításmódosítások Blender/JSON/látványtanulmány formában folytatódtak.
+R09: süllyesztett ajtótextil és névleges mozgásvizsgálatok.
+R10: két anyagváltozat nappal/este; a sötét faerezet lett kiválasztva.
+R11: keskenyebb panel és jobb oldali új fénykeret – elvetve.
+R12: visszaállított forma, de a csatlakozások még hibásak – nem végső.
+R13: folytonos külső felületek és javított csatlakozások; a külső fény renderhibája még fennállt.
+R14: elfogadott geometriával helyreállított kifelé világítás, erősebb felső lefelé fény és külön felfelé ág. Ez a jelen átadás végső modellje.
+Az eredeti prompt régi méretei, az R05 régi kapulistája és a modellgenerálók történeti megjegyzései nem írják felül a 02-es átadási leírásban rögzített legutolsó döntéseket. A korábbi GitHub-mentési tiltást/függő engedélyt rögzítő auditok történeti bejegyzések: a felhasználó most kifejezetten kérte az átadási csomag feltöltését.
+
+MI LETT VALÓBAN ELLENŐRIZVE?
+– R05: saját korabeli geometriája, exportjai, 120 alkatrész adatainak egyezése és vizsgálati naplók. Ezek nem az új R14 teljes ismételt auditjai.
+– R09: névleges ajtó-/fiókmozgás és süllyesztett betét. Nem gyári pánt-/kábel-/profiligazolás.
+– R13: módosított főalkatrész-geometria, vizsgált statikus metszések. Nem az összes kiegészítő elem és teljes valós vasalat dinamikus próbája.
+– R14: mentett Blender visszaolvasása; 120 fő alkatrész befoglalója <0,001 mm eltéréssel egyezik az adatokkal. A geometria az R13 javított főalkatrészeivel azonos. Zárt geometria SHA-256: 147ed2301a045fef3c92a06eff5bffa6e5e0888c647d1a6c2aec5e8269538d7d.
+– A süllyesztett textil látható síkját a mentett modellen sugárvizsgálat igazolta Y=374 mm-en.
+– R14 fényút-vizsgálat: az A1 tényleges kibocsátó Y=4; a kifelé irányított sugarak a falat, a felfelé ág a mennyezetet, a lefelé ág a háttér felületét érik először. Ez geometriai útvizsgálat, nem luxszámítás vagy termékminősítés.
+– A végső PDF oldalai és részletképei vizuális ellenőrzést kaptak; az audit/visual_review.json a konkrét megállapításokat rögzíti.
+– Az átadáshoz készített 06-os geometriaexport a mentett R14-ből olvas, memóriában csukja vissza a két ajtót és a D3 fiókot, majd a fő alkatrészek befoglalóját újra egyezteti (<0,001 mm). A friss, zárt állapotba transzformált csúcskészlet hashét külön rögzíti; az nem azonos a történeti audit hashével. A friss R13–R14 csúcsonkénti numerikus összevetés legnagyobb eltérése 0.0 mm (0,001 mm tűrés alatt); ezt a 06-os mappa külön jelentése dokumentálja. A hashkülönbség nem tekinthető önmagában geometriai eltérés igazolásának. Az eredeti .blend fájlt nem menti felül.
+Ezek alapján nem állítható, hogy a teljes gyártási csomag minden hibája kizárt; a tényleges műhelyi lezárást a 03-as leírás sorolja fel.
+
+HELYISÉG ÉS FÉNY
+Az R14 data/daylight_context.json a lakás korábbi geometriai alapjára épül. A hozzá tartozó TER_ES_GEOMETRIA.md és geometry_lock_A902_v2b.json másolata a 03_HELYISEG_ES_FENYTANI_FORRAS mappában van. A hivatkozott eredeti repóhelyek az a902-terasz-p0-20261027 ágkönyvtár alatt találhatók.
+A kifelé néző irány megközelítőleg 53°, északkelet. A modell a jobb oldali üvegfelület helyét és irányát használja; nem konkrét időpontra számított benapozás. Az üvegezés áteresztése, tényleges égbolt és fotometria nincs kalibrálva. A fényforrások energiája és emissziója renderbeállítás.
+A CSAK_FENYHANGULAT_nem_S16_forma.png későbbi felhasználói fényreferencia, más formájú médiafalat mutat: ne cseréld le rá az S16 geometriáját.
+
+FORRÁSOK FUTTATÁSA
+A mentett Blender-jelenet nyitott állapotú. A zárt képek és JSON-export ettől eltérő névleges állapotot mutatnak. A Blender koordinátarendszeréhez egy LOCAL_TO_BLENDER_X_MIRROR nevű X-tükröző szülő tartozik. CAD-ben a helyi rajzi mm-koordinátákat használd; ne tükrözd másodszor a jelenetet.
+A forrás Blender 5.2.3 környezetben készült; bpy és egyes aktuális hálófüggvények (pl. set_sharp_from_angle) verziófüggők. Az R14 rebuild/night_study.py alapértelmezésben képeket/modellt hoz létre; másolaton dolgozz, ne írj felül bizonyítékot ellenőrizetlen futtatással. Az ellenőrző verify_saved_models.py is mentheti a .blend fájlt, ezért reprodukcióhoz külön munkamásolat ajánlott.
+Az R14 ellenőrző relatív úton igényli a mellette lévő R13_folytonos_kulso_feluletek/audit/saved_models_readback.json fájlt. Ez a történeti függőség az 01_VEGSO_TERV alatt megőrizve szerepel, nem második végső terv.
+A PDF-generátor Pillow/reportlab környezetet és eredetileg macOS Arial betűútvonalakat használ. Más rendszeren cseréld a fontútvonalakat elérhető, magyar ékezetes betűkészletre, és ellenőrizd az új PDF-et.
+Az R05 workbook.mjs a @oai/artifact-tool Node csomagot használja. A node_modules nem saját forrás, nincs csomagolva. Telepített megfelelő környezet vagy egyenértékű új Excel-generátor szükséges; a meglévő .xlsx megnyitható. A képleteket és kézi beviteli mezőket őrizd meg.
+Az R05 AutoCAD .scr állományok és egyes naplók eredeti abszolút macOS útvonalakat tartalmazhatnak. Futtatás előtt igazítsd őket az új munkakönyvtárhoz, és az elavult R05 geometriagenerálást ne tekintsd R14-felépítésnek.
+A 04_MODSZERTAN/autocad_mac_hid egy opcionális helyi AutoCAD-híd saját forrása és leírása. Nincs benne személyes MCP-beállítás vagy token, és a csomag nem telepíti/kapcsolja össze automatikusan Claude-dal. Más operációs rendszer vagy kliens eltérő beállítást igényel.
+A mellékelt asztalostervezési skill módszertan, nem kész gyári dokumentáció. A hivatkozott más projektek teljes tartalma nem része ennek a csomagnak; a helyiségből az itt ténylegesen használt geometriai forrásokat másoltuk át.
+
+ÁTADÁSI INTEGRITÁS
+Az új átadási mappában a korábbi fájlok változatlan másolatok. Kivételként csak új indító- és állapotleírások, a külön geometriaexport, a revíziókülönbség-jegyzék és ellenőrzőösszegek készültek. A csomag nem tartalmazza az elvetett teljes renderverziókat, duplikált korábbi ZIP-eket, gépi gyorsítótárakat, node_modules-t és .blend1 mentéseket. A szükséges történeti CAD-alap és ellenőrzési bizonyítékok külön jelölve megmaradtak.

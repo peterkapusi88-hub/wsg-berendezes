@@ -1,0 +1,36 @@
+S16 R14 – ELFOGADOTT FORMA ÉS FÉNYEK
+Forrás: a felhasználó döntéseinek összefoglalása és a mentett R14 modell. Ez nem szó szerinti beszélgetésexport.
+
+FORMA ÉS ANYAG
+A kiválasztott megjelenés a sötét faerezetes változat, a referenciához igazított meleg, barnásszürke textilhatású nagy háttérrel és világos, süllyesztett ajtótextillel. A szatén fémes TV-panel-változatot nem választotta a felhasználó. Az anyagfájlban fennmaradó M09 definíció nem új anyagválasztás. A végleges gyártó, dekor/furnér, textil, színminta, ragasztó és felületkezelés nincs kiválasztva; a render eljárásosan létrehozott anyaghatást mutat.
+
+Fő méretek a jelenlegi tervben, mm:
+– Teljes bútor: 3600 széles, 2875 magas, 400 mély.
+– Névleges mennyezet: 2900, bútor fölötti rés: 25. Helyszíni felmérés még szükséges.
+– Magas szekrény: 870 széles. TV: 75 colos névleges méret; helye változatlan.
+– TV-panel: 2630 széles, jobb széle X=3500; mélységi tartománya Y=95..113.
+– A TV-panel jobb alsó sarka szögletes, a korábban kért kis bekerekítés visszavonva.
+– A teljes háttér jobb felső sarka szögletes. Nincs a később kipróbált új jobb oldali első keret vagy befelé világító oldalsáv. A barna/fa TV-panel az eredeti, szélesebb helyén marad.
+– A magas szekrény jobb oldala és íves külső palástja egységes felületet adjon; a korábbi csúnya bevágás, csúcs és színeltérés nem térhet vissza.
+– A nagy hátteret folyamatosnak kell látni; a burkolati és szerkezeti osztásokat együtt kell megoldani. A mozgatott ajtók és fiókok működési hézagait nem szabad burkolattal összeragasztani.
+
+HÁTTÉR ÉS CSATLAKOZÁS
+A nagy háttér a modellben X=740..3597, Z=470..2875. Hordozója Y=8..25, vékony felülete Y=25..26. A bal oldali torony mögé szélességben 130 mm-t, az alsó szekrénysor mögé függőlegesen 100 mm-t fut. Ez takart túlfutás, nem a teljes bútor hátát beborító lap. A felső ívnél és az alsó jobb csatlakozásnál ne maradjon kilátó rés vagy takarásból kiálló hegyes darab.
+A torony hátsó síkja Y=40, ezért a háttér kész síkja és a torony között 14 mm marad. A felső lefelé világító takaró Y=38-ig ér; itt 2 mm a névleges elválasztás. A 8 mm-es fali léc/rés nem tápegység- vagy csatlakozórekesz. A TV-panel 69 mm-es távtartási szerkezete összeállítás, nem 69 mm vastag megvásárolandó lap.
+
+AJTÓ ÉS FIÓK
+A bal oldali süllyesztett textilbetét a magas ajtó része, nem kifelé kiálló rátét. A teljes magasságú bal ajtó alatt nincs külön fiók. A betét felső és alsó vizuális pereme kiegyensúlyozott maradjon.
+A front síkja Y=400, a textil látható síkja Y=374: a mélyítés 26 mm. A textilbetét 8 mm-es összeállítása Y=366..374, hátlapja Y=354..366. A polc eleje Y=340, névleges mélysége 290; a hátlaphoz így 14 mm marad. A pontos textil-, ragasztó- és tartószerkezet még műhelyi rétegrendet igényel. Az anyagvastagságot a hordozón kell kompenzálni, hogy a kész külső geometria megmaradjon.
+Hat fiók külön-külön nyílik. A nyitott R14 képen a D3 fiók 300 mm-t nyitott, a két magas ajtó névlegesen 90°-ot nyitott. Ez nem valódi gyári pánt teljes mozgásigazolása. A modellben a frontok névleges működési hézaga 3 mm; a mennyezeti 25 mm külön fényrés.
+
+VILÁGÍTÁS – A LEGUTOLSÓ PONTOSÍTÁS ÉRVÉNYES
+A korábbi „csak fent jöjjön fény” az új jobb oldali BEFELÉ világító keret elvetésére vonatkozott. A későbbi kifejezett kérés szerint felül ÉS jobb oldalt kifelé, a falra is legyen fény; felül emellett erősebb lefelé súrolófény és külön felfelé plafonrés-világítás kell. Ezt tartalmazza az R14.
+– A1: kifelé világító külső fénykoszorú, felül és jobb oldalt a falra. Az R13 renderhibája javítva: a tényleges fénykibocsátó Y=4, nem a hátlap belsejében lévő Y=25; a régi 30 mm-es pályaeltolás megszűnt.
+– A6: erősebb felső lefelé súrolófény a nagy háttéren. A render emissziója 35 a korábbi 22 helyett, kiegészítő fény 4 a korábbi 2,5 helyett. Ezek látványbeállítások, nem a kiválasztandó lámpa teljesítményadatai.
+– A8: külön felfelé világító, rejtett felső ág a mennyezeti résben. Forrás Z=2876,2; Y=8..22,5; X=745..3580. Tálca [740,5,2875,2845,24,1]; első takaró [740,25,2876,2845,4,3]; hátsó takaró [740,5,2876,2845,3,3]. A [x,y,z,szélesség,mélység,magasság] adatok mm-ben értendők. A szerkezet a 25 mm-es résből 4 mm-t foglal, fölötte 21 mm szabad marad.
+– Megmarad a TV-panel kontúrfénye, a süllyesztett ajtóbetét belső peremfénye és az alsó hangulatfény. A bal alsó szakaszon se legyen indokolatlan megszakadás.
+– A nyitás nélkül látható külső hangulatfények valódi Philips Hue rendszerhez tartozzanak. Nem elég általános „Hue-kompatibilis” terméket kiírni.
+– A belső szekrény-/fiókfény lehet más, minőségi, kedvező árú rendszer; a külső fényekkel azonos, meleg, körülbelül 2700 K-es tónussal, nyitásra kapcsolva. A polcok tartalmát világítsa, ne a néző szemébe.
+– Minden profil és LED rejtett legyen a szokásos álló és ülő nézőpontokból. A magas műszaki axonometriában látható felső szerelési felület nem normál szobai nézőpont.
+
+A fénycsík valós típusa, megengedett hajlítási síkja/sugara, vághatósága és csatlakozói termékfüggők. A folytonos renderből nem következik, hogy a Hue szalag minden íven darabolás vagy sarkos adapter nélkül elfér. Ezt termék és profilmetszet alapján kell lezárni.

@@ -1,0 +1,24 @@
+{
+  "drawer_test": "One drawer at a time,0..300mm in25mm steps, actual XZ contours extruded along Y; includes other closed drawers. Hardware and room furniture excluded.",
+  "drawer_collisions": [],
+  "door_test": "Nominal hinge pivot0..90° in5° steps against fixed rectangular elements. Curved caps/real hinge kinematics/cable loop require workshop test.",
+  "door_hits": [],
+  "independent_drawers": 6,
+  "moving_parts_per_drawer": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "drawer_litres": 155.67084,
+  "ceiling_gap": 25,
+  "textile_margins": {
+    "top": 105,
+    "bottom": 105,
+    "light_top": 100,
+    "light_bottom": 100
+  },
+  "S01_unchanged": true
+}

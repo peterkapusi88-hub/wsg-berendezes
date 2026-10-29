@@ -1,0 +1,54 @@
+{
+  "accessed": "2026-10-29",
+  "sources": [
+    [
+      "SRC01",
+      "C célkép + eredeti prompt",
+      "../sources/S16_Cam02_C_celkep.png",
+      "Pixelhash ellenőrizve; megjelenési referencia, nem felmérés."
+    ],
+    [
+      "SRC02",
+      "Blum 2026 online katalógus, MOVENTO rendelés",
+      "https://publications.blum.com/2026/catalogue/en/520/",
+      "760H3000S, T51.7601, S0/S1 működési tartomány, szinkron LW-267. Online oldal 2027/2028 felirattal; nem utólag igazolt termékár."
+    ],
+    [
+      "SRC03",
+      "Blum MOVENTO tervezés",
+      "https://publications.blum.com/2026/catalogue/en/521/",
+      "SKW=LW-42; SKL=NL-10; max16mm oldalfal; min2,5mm rés. Fúrás T65.1000.02 sablonnal."
+    ],
+    [
+      "SRC04",
+      "EGGER H3198 ST19",
+      "https://www.egger.com/en/furniture-interior-design/decors/H3198_19",
+      "Sötétszürke irányított fadekor, valódi minta szükséges."
+    ],
+    [
+      "SRC05",
+      "Sunricher CCT gyári leírás",
+      "https://www.sunricher.com/media/resources/manual/SR-ZG9101FA-CCT%20instruction%20V1.pdf",
+      "CV variáns 12–36V, 4×5A, 170×53,4×28mm; Hue kapcsolat külön próbálandó."
+    ],
+    [
+      "SRC06",
+      "Blum pántváltozatok",
+      "https://publications.blum.com/2022/catalogue/en/74/",
+      "Inset és rugó nélküli variáns külön termék. Pántszám/talp/furat nem kiadott."
+    ],
+    [
+      "SRC07",
+      "S01 R16 forrás",
+      "../../a902-s01-kyoto-ink-20261026/R16_feluletek_fiokok/data",
+      "Aktuális alkatrész/vasalat/fény geometria; élő regiszter öt sora visszaolvasva."
+    ],
+    [
+      "SRC08",
+      "Építészeti v2b modell",
+      ".wsg-inputs/03_blender/geometry_lock_A902_v2b.json",
+      "W01 tervi falsík 4m; 2,90m névleges belmagasság. Falminimum és szervizpontok helyszínen ellenőrizendők."
+    ]
+  ],
+  "pricing": "Minden új S16 ár tervezői becslés. Nincs igazolt magyar webshopár vagy fix írásos ajánlat."
+}

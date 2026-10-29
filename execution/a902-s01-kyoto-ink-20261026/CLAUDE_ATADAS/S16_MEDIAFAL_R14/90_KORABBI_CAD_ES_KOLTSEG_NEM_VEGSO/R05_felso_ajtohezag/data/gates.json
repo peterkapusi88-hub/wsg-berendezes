@@ -1,0 +1,134 @@
+[
+  {
+    "id": "G01",
+    "open": "Felmérési minimumok és falsík",
+    "parts": "Összes elem",
+    "owner": "Asztalos felmérő",
+    "acceptance": "3 magasságban szélesség, 5 ponton magasság, átlók, faleltérés, szegő/függöny; közös XYZ fotóval",
+    "deadline": "Gyártási méretkiadás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G02",
+    "open": "3600-as új frontosztás és870-es torony",
+    "parts": "D1–D6, torony",
+    "owner": "Péter + tervező",
+    "acceptance": "Célkép és R05 homlokzat összevetése; hatfiókos funkció elfogadása",
+    "deadline": "Árajánlat véglegesítése előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G03",
+    "open": "Fal és függesztés",
+    "parts": "F01/F02",
+    "owner": "Asztalos + illetékes szakember",
+    "acceptance": "Falanyag/vezetékkeresés, terhek és horgony gyári méretezése, kihúzási teherpróba ha indokolt",
+    "deadline": "Fúrás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G04",
+    "open": "Fiók működés és tömeg",
+    "parts": "MOVENTO / D1–D6",
+    "owner": "Műhely + Blum szaktanácsadó",
+    "acceptance": "S0/S1 össztömeg; sablonfurat, min3mm rés; széles/rövid D4 stabilitás, egy teljes elsődarab",
+    "deadline": "Sorozatgyártás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G05",
+    "open": "Ajtó/textil tömeg és nyitás",
+    "parts": "T-DOOR / TEXTILE",
+    "owner": "Műhely",
+    "acceptance": "Inset rugó nélküli pánt/talp/TIP-ON pontos SKU; bal6/jobb5pánt előirányzat terhelési igazolás; 90° mozgáspróba",
+    "deadline": "Furatkiadás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G06",
+    "open": "Szín és rétegrend",
+    "parts": "M02–M05",
+    "owner": "Péter + asztalos/kárpitos",
+    "acceptance": "A3 együttminta nappali/2700K; él, ragasztó, lakk és textil",
+    "deadline": "Felületgyártás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G07",
+    "open": "Fény és szerviz",
+    "parts": "A1–A5 / I1–I8",
+    "owner": "Villanyszerelő",
+    "acceptance": "D16 kapacitás; végleges LED/profil/SKU/kapcsolás; Hue próba, teljes terhelésű hőpróba; vezeték/ágvédelem",
+    "deadline": "Villamos kivitelezés előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G08",
+    "open": "TV és kiállások",
+    "parts": "TV-L/R, konzol",
+    "owner": "Felmérő + TV szerelő",
+    "acceptance": "Készülék/VESA magasság, csatlakozóhajlítás, feloldók, hűtés és D16–18/G pontok sablonja",
+    "deadline": "TV-panelek kivágása előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G09",
+    "open": "Szállítás, panelbontás",
+    "parts": "2875-ös összeállítás, 2305-ös háttérpanelek",
+    "owner": "Asztalos/logisztika",
+    "acceptance": "Lift/ajtó/forduló mérés; helyszíni korpuszépítés; előrefelé oldható kapocs próbája 25mm mennyezeti résnél",
+    "deadline": "Gyártás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G10",
+    "open": "Szobai használat és asztal",
+    "parts": "6 nyitott fiók, torony",
+    "owner": "Péter + tervező",
+    "acceptance": "300mm fiókút után legalább600mm használati sáv cél; asztal tényleges helye, JÄTTEBO kézállás és nyíló teraszszárny",
+    "deadline": "Végső elrendezés előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G11",
+    "open": "Ajánlati átfedés és keret",
+    "parts": "Teljes költség",
+    "owner": "Péter + ajánlatadó",
+    "acceptance": "F01/C05/U09 és KI-014; L08/KI-106; szállítás KI-151 és daruzás KI-137 egyeztetése",
+    "deadline": "Rendelés előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  },
+  {
+    "id": "G12",
+    "open": "Műhelyi gép és gyártáskiadás",
+    "parts": "Összes alkatrész",
+    "owner": "Műhely/gépkezelő",
+    "acceptance": "WOF211 megnevezés helyett adattábla, szerszám és befogás; sablonok/elsődarab. CNC-program nincs kiadva.",
+    "deadline": "Gyártásra jóváhagyás előtt",
+    "status": "NYITOTT",
+    "evidence": "",
+    "approver": ""
+  }
+]

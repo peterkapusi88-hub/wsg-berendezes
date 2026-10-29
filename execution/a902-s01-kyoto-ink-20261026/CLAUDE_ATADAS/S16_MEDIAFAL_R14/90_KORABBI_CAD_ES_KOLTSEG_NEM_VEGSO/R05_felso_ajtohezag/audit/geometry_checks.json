@@ -1,0 +1,148 @@
+{
+  "revision": "S16-R05",
+  "part_count": 120,
+  "static_pairs_tested": 7140,
+  "static_intersections": [],
+  "full_front_boundary_gaps": [
+    {
+      "part": "D1-FRONT",
+      "boundary_samples": 3241,
+      "min_mm": 3.0,
+      "max_mm": 3.0
+    },
+    {
+      "part": "D2-FRONT",
+      "boundary_samples": 3201,
+      "min_mm": 3.0,
+      "max_mm": 3.0
+    },
+    {
+      "part": "D3-FRONT",
+      "boundary_samples": 3201,
+      "min_mm": 3.0,
+      "max_mm": 3.0
+    },
+    {
+      "part": "D4-FRONT",
+      "boundary_samples": 5621,
+      "min_mm": 3.0,
+      "max_mm": 3.0
+    },
+    {
+      "part": "D5-FRONT",
+      "boundary_samples": 3201,
+      "min_mm": 3.0,
+      "max_mm": 3.0
+    },
+    {
+      "part": "D6-FRONT",
+      "boundary_samples": 3022,
+      "min_mm": 2.9990964560882287,
+      "max_mm": 3.0
+    },
+    {
+      "part": "T-DOOR-L",
+      "boundary_samples": 12248,
+      "min_mm": 2.999096456088199,
+      "max_mm": 3.336631368352233
+    },
+    {
+      "part": "T-DOOR-R",
+      "boundary_samples": 10708,
+      "min_mm": 2.999096456088172,
+      "max_mm": 3.0
+    }
+  ],
+  "straight_front_seams_mm": [
+    [
+      "T-DOOR-L",
+      "T-DOOR-R",
+      3.0
+    ],
+    [
+      "T-DOOR-L",
+      "D1-FRONT",
+      3.0
+    ],
+    [
+      "D1-FRONT",
+      "D2-FRONT",
+      3.0
+    ],
+    [
+      "D2-FRONT",
+      "D3-FRONT",
+      3.0
+    ],
+    [
+      "D3-FRONT",
+      "D4-FRONT",
+      3.0
+    ],
+    [
+      "D4-FRONT",
+      "D5-FRONT",
+      3.0
+    ],
+    [
+      "D5-FRONT",
+      "D6-FRONT",
+      3.0
+    ]
+  ],
+  "background_edge_and_internal_seams_mm": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+  ],
+  "exact_DXF_arc_radii_mm": {
+    "T-DOOR-L": [
+      79.0,
+      79.0
+    ],
+    "T-DOOR-R": [
+      79.0
+    ],
+    "D6-FRONT": [
+      59.0,
+      59.0
+    ],
+    "FRAME-T-TOP": [
+      100.0,
+      100.0,
+      82.0,
+      82.0
+    ],
+    "FRAME-T-BOT": [
+      100.0,
+      82.0
+    ],
+    "FRAME-B-TOP": [
+      80.0,
+      62.0
+    ],
+    "FRAME-B-BOT": [
+      62.0,
+      80.0
+    ]
+  },
+  "curved_cap_door_sweep": {
+    "sampled_cross_section_poses": 64064,
+    "hits": [],
+    "limits": "Nominal pivot only;1degree/2mm plus contour vertices. Real hinges/cables and workshop tolerances not certified."
+  },
+  "textile_top_bottom_margins_mm": [
+    105,
+    105
+  ],
+  "textile_light_margins_mm": [
+    100,
+    100
+  ],
+  "light_loop_inside_real_pocket": true,
+  "TV_size_unchanged": true,
+  "ceiling_LED_gap_mm": 25,
+  "further_scope": "Static part envelopes/contours and sampled nominal motions. No assertion of installed building dimensions, real hinges, fasteners, electrical/thermal verification or manufacturing approval."
+}

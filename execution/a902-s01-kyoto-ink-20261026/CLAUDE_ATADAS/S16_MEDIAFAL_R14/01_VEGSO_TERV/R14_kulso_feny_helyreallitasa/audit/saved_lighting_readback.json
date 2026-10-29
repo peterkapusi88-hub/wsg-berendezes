@@ -1,0 +1,43 @@
+{
+  "A1_emitter_y_mm": 4.000000189989805,
+  "paths": [
+    {
+      "path": "right_outward",
+      "first_surface": "TECHNICAL-WALL",
+      "hit_mm": [
+        -3590.0,
+        -5.0,
+        1500.0
+      ]
+    },
+    {
+      "path": "upper_outward",
+      "first_surface": "TECHNICAL-WALL",
+      "hit_mm": [
+        -2000.0,
+        -5.0,
+        2865.0
+      ]
+    },
+    {
+      "path": "upward_gap",
+      "first_surface": "CEILING-DATUM",
+      "hit_mm": [
+        -2000.0,
+        15.0,
+        2900.0
+      ]
+    },
+    {
+      "path": "downwash_surface",
+      "first_surface": "BG-FINISH",
+      "hit_mm": [
+        -2000.0,
+        26.0,
+        2866.0
+      ]
+    }
+  ],
+  "main_geometry_matches_R13": true,
+  "scope": "Geometric light-path checks, not calibrated illuminance or product validation"
+}

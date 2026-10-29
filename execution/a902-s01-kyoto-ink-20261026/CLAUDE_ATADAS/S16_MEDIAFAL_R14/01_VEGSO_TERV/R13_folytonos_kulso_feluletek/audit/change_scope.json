@@ -1,0 +1,34 @@
+{
+  "revision": "S16 R13",
+  "status": "DESIGN_STUDY_NOT_RELEASED",
+  "primary_changed": [
+    "BG-1",
+    "BG-2",
+    "BG-3",
+    "BG-4",
+    "BG-FINISH",
+    "TV-FIELD",
+    "CURVE-T-TOP",
+    "T-R",
+    "CURVE-B-TOP",
+    "D6-R",
+    "D6-T",
+    "BATTEN-1",
+    "BATTEN-2",
+    "BATTEN-3",
+    "BATTEN-4",
+    "BATTEN-5",
+    "TV-SPACER-1",
+    "TV-SPACER-2"
+  ],
+  "replaces": "R12 csomóponti megoldása elutasítva",
+  "solution": "A háttér kész síkjaY78 helyettY26, a szekrény hátsó síkjaY40. A felső fénytakaró legelső síkjaY38, így egészében a szekrény mögött marad. A háttér téglalapként átfed a felső és alsó ív mögött. Nincs látható íves kivágás vagy helyi karosszéria-bemarás.",
+  "spacers": "Háttértávtartók8mm; TV-panel távtartói69mm-es összeállítások.",
+  "outer_finish": "M02 egységes a külső oldalon, íven, alsó fedlapon és a látható felső lapéleken.",
+  "preserved": "3600x2875x400 külső bútor; TV75col változatlan; TV-panel2630széles, jobbX3500, síkjaY95..113; nagy háttér jobb felső sarka szögletes; nincs jobb oldali első keret; háttér-súrolófény csak felül.",
+  "limits": [
+    "8mm hátsó légrésnél a konkrét Hue és profil illeszkedése külön műhelyi próba. Szükség lehet hátoldali profilmarásra.",
+    "Rétegrend, rögzítés, falteher és szerelési tűrés nincs kiadva.",
+    "R05 gyártási fájlok nem frissültek."
+  ]
+}

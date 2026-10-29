@@ -24,3 +24,9 @@ scripts/r12_* ... r16_* és r16_workbook.mjs – a munkafolyamat forrásai. R16 
 outputs/A902_Kyoto_Ink_elo_regiszter.xlsx – teljes projekt élő költségregisztere; kézi módosításokat őrizni kell.
 
 A munkafolyamat-leírás technikai összefoglaló a megőrzött fájlokból és a beszélgetés döntéseiből, nem a teljes chat szó szerinti exportja. A GitHub-repozitórium privát hozzáférését Claude-ban külön biztosítani kell. Nem kell nyilvánossá tenni.
+
+S16 MÉDIAFAL – KÜLÖN ALTERNATÍVA, R14 VÉGSŐ TERVI ÁLLAPOT
+A kért S16 teljes átadása is ide került: S16_MEDIAFAL_R14/00_KEZDD_ITT.txt
+Bemásolható Claude-indító: S16_MEDIAFAL_R14/01_CLAUDE_INDITOPROMPT.txt
+Teljes offline csomag: S16_R14_CLAUDE_TELJES_ATADAS.zip
+Az S16 R14 végső Blender/PDF/képek/JSON/forrásai mellett a korábbi R05 AutoCAD/DXF/Excel alap külön történeti mappában található. Az R14 megfelelő CAD- és műhelyi kiadása még elvégzendő; az S16 nem az S01 R16 új revíziója. A fenti S01 hibastátusz változatlan.

@@ -1,0 +1,32 @@
+AUTOCAD-FOLYTATÁS ÉS A VALÓS BÚTORHOZ MÉG SZÜKSÉGES MUNKA
+
+1. Aktuális geometria, verziók
+Az R05 natív DWG és DXF korábbi alap, az R14 Blender/JSON a jelenlegi forma. Az R05 CAD-generátor még nem ismeri az R14 összes mesh_mm alakját, süllyesztett kazettáját, csatlakozását és fénytakaróját. Át kell alakítani vagy az alkatrészeket újra felépíteni. A 05_R05_R14_ALKATRESZ_ELTERESEK.json segít az eltérések feltárásában, de a jelenetben létrehozott extra tárgyakat külön is fel kell dolgozni.
+A 06_CAD_SEGITSEG/R14_ZART_JELENET_MM.json minden mentett alaphálót tartalmaz mm-ben, a Blender-tükrözés visszafordításával, névleges zárt állapotban. A primary_part jelölés a 120 alkatrészre vonatkozik. Az auxiliary_scene_object_VERIFY_PURPOSE tárgyak között fényforrásfelületek, takarók, hardver-helyettesítők és egyéb segédek is lehetnek: nem mindegyik legyártandó tárgy. A módosítók nem kerültek a hálóba alkalmazásra. Az export nem kész AutoCAD-szilárdtestmodell és nem helyettesíti a mentett Blender-jelenetet.
+
+2. Végleges anyag- és rétegrend
+A render alapú faerezet/textilhatás mellé konkrét termék, hordozó, vastagság, szálirány, élképzés és ragasztás kell. A hordozó méretének és a felület vastagságának együtt kell kiadnia a jóváhagyott kész felületet. A nagy, szinte osztásmentes háttérnél a kapható táblaméretet, textilszélességet, hordozócsatlakozást, hőtágulást és a helyszíni szerelési bontást együtt kell megoldani. Az ívek ne váljanak sokszögessé, és az erezet folytatása legyen tervezett. Készíts együttmintát az ajtóról, nagy háttérről és TV-panelről nappali és meleg LED-fényben.
+
+3. Ajtó, süllyesztett textil és mozgás
+A kazettás ajtó vastagságát, merevségét és tömegét méretezd. Ellenőrizd a teljes nyitási pályát konkrét gyári pánttal/talppal és a rögzítési furatokkal. A régi „bal 6/jobb 5 pánt” csak előirányzat, nem terhelésigazolás. A nyíló ajtóra szerelt peremfény kábelének legyen rejtett, tehermentesített átvezetése és karbantartható csatlakozója; a kábel nem lóghat a pántpályába. A polcok előrébb tolása nem tüntetheti el a kazetta mögötti szükséges helyet.
+
+4. Hat külön fiók és nyitás
+Mind a hat fiók önálló sínpár és front. Ellenőrizd a valódi sín hosszát, terhelhetőségét, oldalhézagát, fenék- és hátkialakítását, nyitó/behúzó rendszerét és frontbeállítását. A széles/rövid fiók stabilizálását ne hagyd feltételezésnek. Az R05 MOVENTO/TIP-ON megnevezések és költségek nem végleges termékkiírások. Ne alkalmazz fogantyú nélküli nyitási megoldást addig, amíg a szükséges benyomási út és a valós hézag nincs megtervezve. Ellenőrizd a szomszéd frontokat, ajtókat, asztalt és használati sávot teljes nyitásnál.
+
+5. Fényprofilok és elektromos rendszer
+Készíts metszetet az A1 kifelé, A6 lefelé, A8 felfelé világító ágakról, a TV-panel kontúrjáról és az ajtóbetétről. Méretezd a konkrét LED/profil/búra/csatlakozó helyét, a hűtést, a takarást és a gyártható íves átmeneteket. A külső Philips Hue termékeket pontos cikkszám és gyártói adat alapján válaszd ki. A belső rendszerhez táp, érzékelők és ágankénti kapcsolás szükséges. A belső meleg színt hangold a külső jelenethez.
+A tápegységet és vezérlőt hozzáférhető, hűlni képes rekeszbe tervezd. A háttér mögötti 8 mm vagy a torony mögött maradó 14 mm nem igazolt szervizhely. Lehetséges irány a belső levehető takaró vagy kihúzott/kivehető fiók mögötti hozzáférés, de ilyen kész rekesz még nincs megrajzolva. Tisztázd a hálózati és kisfeszültségű vezetékutakat, csatlakozókat, kapcsolást és szerelési sorrendet a kivitelezővel.
+A lighting.json néhány régi adatútját a night_study.py újraépíti; például a süllyesztett ajtó peremének tényleges sugárzófelületét nem a régi Y=401-es önálló pályaadat írja le. A modellben lévő aktuális tárgyakat/metódusokat kell felhasználni, és az új CAD/villamos tervben egységesíteni az adatokat.
+
+6. Falrögzítés, TV és felmérés
+Felmérendő a tényleges szélesség/magasság több ponton, átlók, falanyag, falsík, mennyezeteltérés, szegő, függöny és elektromos kiállások. Méretezd a függesztett bútor és panel teherútját, konzoljait, horgonyait. A TV tényleges készülékmérete, VESA, csatlakozóhajlítás, konzolfeloldás, hűtés és szervizhozzáférés még véglegesítendő. A megadott 75 col nem pótolja a kiválasztott készülék méretrajzát.
+
+7. Panelbontás és szerelés
+A nagy háttér szekrény mögé futó peremei rejtsék a csatlakozásokat. Ne hosszabbítsd automatikusan mindenütt az egész szekrény mögé: az befolyásolhatja a mélységet, rögzítést és szervizt. A jelenlegi 130/100 mm-es takart túlfutásokat az asztalossal ellenőrizd. Ha szükséges ráhagyás/helyszíni szabás, írd elő a konkrét vágási és illesztési helyet, ne a véletlen összeszerelésre bízd. A 25 mm-es felső rés miatt a felakasztás/előrefelé bonthatóság tényleges mozgását is igazold. Lift, ajtó és fordulók mérete alapján tervezd a szállítási darabokat.
+
+8. Egyetlen igaz adatforrás és végső export
+Az alkatrésztáblában minden valós lapnak legyen pozitív hosszúság/szélesség/vastagság, nettó és ráhagyásos méret, anyag, szálirány, él és szükség szerint marási adata. Az összeállításokat (pl. távtartó szerkezet) ne írja ki egyetlen lapként a rendszer. Vezesd át a hardvereket, profilokat és vezetékezést az anyag- és költséglistába is. Ellenőrizd alkatrészazonosítónként: modellbefoglaló ↔ alkatrészméret ↔ rajzi méret ↔ DXF ↔ Excel/PDF. Az S01-ben talált negatív lécméretekből az a tanulság, hogy a szép 3D és a rajzi egyezés önmagában nem elég.
+Csak a végső modellből frissített DWG/DXF/PDF/Excel kapjon új egységes revíziót. Az R05 régi árszintje nem aktuális végső ajánlat. A Homag „WOF211”/woodWOP 5.0 korábbi említés nem gépazonosítás: adattábla, szerszámok, befogás és posztprocesszor nélkül nincs CNC-kiadás.
+
+9. Mit kell bizonyítani a lezáráshoz?
+Felmérés és gyári termékméretek; pozitív/egyező alkatrészadatok; kész anyagrétegrend; működési hézagok; teljes ajtó/fiók/kábel mozgás; tartószerkezet; szervizelhetőség; profilok láthatatlansága és fényfolytonosság; elsődarab és felület-/fényminta; egymásnak megfelelő exportok. Az R14 meglévő vizsgálatai ezeknek csak egy részét fedik le.
