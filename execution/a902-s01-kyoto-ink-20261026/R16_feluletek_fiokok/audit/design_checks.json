@@ -1,0 +1,19 @@
+{
+  "parts": 106,
+  "holes": 956,
+  "hinges": 10,
+  "shelf_pins": 40,
+  "blank_overlaps": [],
+  "cylinder_outside_blank": [],
+  "parallel_hole_intersections": [],
+  "expected_net_volume_mm3": 407177992.03061026,
+  "volume_assumption": "No intersecting bores. Native AutoCAD volume must match.",
+  "NOT_APPROVED": [
+    "helyszíni felmérés",
+    "MOVENTO gyári fúrósablon és vasalati próba",
+    "falrögzítés",
+    "woodWOP és gépi próba",
+    "szín/nyomat/adhézió/matt bronz minta",
+    "asztal200mm eltolás tulajdonosi és helyszíni próba"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "Névleges téglatestfrontok,1mm transzláció; nem emberi használat, teljes mechanizmus vagy falfelmérés",
+  "original_table": [
+    2050,
+    -858,
+    0,
+    450,
+    700,
+    350
+  ],
+  "proposed_table": [
+    2050,
+    -1058,
+    0,
+    450,
+    700,
+    350
+  ],
+  "front_clearance_mm_at_full_extension": 37,
+  "table_to_sofa_nominal_mm": 330,
+  "status": "Asztalmozgatás javaslat, nem automatikusan elfogadott",
+  "results": [
+    {
+      "drawer": "D1",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": null,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    },
+    {
+      "drawer": "D2",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": null,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    },
+    {
+      "drawer": "D3",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": null,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    },
+    {
+      "drawer": "D4",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": 138,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    },
+    {
+      "drawer": "D5",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": null,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    },
+    {
+      "drawer": "D6",
+      "steps_mm": 1,
+      "range_mm": [
+        0,
+        300
+      ],
+      "original_first_collision_mm": null,
+      "proposed_collisions": 0,
+      "proposed_table_move_Y_mm": -200
+    }
+  ]
+}

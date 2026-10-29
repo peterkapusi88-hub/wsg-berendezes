@@ -1,0 +1,538 @@
+{
+  "parts": [
+    {
+      "id": "KI12-TV01S-01",
+      "sha256": "12ab28b8596e5c66fb7b3556d3b480091201380365dafa72095f697f2bd5ba14",
+      "bbox_error_mm": 1.9073486328125e-06
+    },
+    {
+      "id": "KI12-TV01S-02",
+      "sha256": "98691725e6e88a952b5eb14c70fb4aba89b2a51847b436a32b5e6a13bb2077c4",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV01T-01",
+      "sha256": "99706a9801e28d26e4f1f879d2ef79330993cb0b719d82f6bcde28a83b1cf544",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV01T-02",
+      "sha256": "65668c53c5e55cb9d1e05c17166fc8fb3c8e18ce3faeeed56ebdc0a896cfe88f",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV01C-01",
+      "sha256": "11c90d6f03eb1f13c9d2f2d937ca1780d466edfa73f90939dc575dda1ca6fb30",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV01P-01",
+      "sha256": "0b2d5817b6f9f85d80092177b35fcc22db13acf925536ce79152f847ac2f8189",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-02",
+      "sha256": "775ca5bcfd51c09cd949b26c702b398e311c2e43d9da3b4688ec713cb568b88b",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-03",
+      "sha256": "38375919424e1752cc6e0f8fd400f3566e3e46eab7adb32877aa1ff2b76ffb87",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-04",
+      "sha256": "df16976f5106b35d080012d48aa5d4b45e20a4eb8e9c42bea56f24c7f894f31b",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-05",
+      "sha256": "96549a9b5c164b7298b716f47b286d108503b2a779b62c6e35c5ce6472b1865d",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-06",
+      "sha256": "a5de7759d526d0cdfa9a6323d9fc56d081bf623ab4581805abfeda26db2e250d",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-07",
+      "sha256": "34806ebf95fa33a20cb738af7c2bf10219462d193cde615603927bd48c144603",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-08",
+      "sha256": "1fc3951f9a51048c54b80b7cc856d5f51ed770b813e93688b2790860ae668569",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-09",
+      "sha256": "03db7ae0b8768910083c06d63b222a3664866e42dc04e1e29bbc0630b36fe36e",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01P-10",
+      "sha256": "cc4f00da3a6b29b460442c5bdf73bd24dbea2dedcd5735f3a45d8a4c7aa317e3",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV01F-01",
+      "sha256": "7a2c0779c3002ca4488b756a06f88b2857a982725226f6ac4e56d9b70bbc13d4",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV01F-02",
+      "sha256": "52b313baf91e9fe8a13ed45d84305a17f3f0d49b5af39c0d50f790562581b3f0",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV01H-01",
+      "sha256": "5f05f956a362a776edd1a6c112b8ac7251c68a315377636f140399d56d23633e",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02CAP-01",
+      "sha256": "b1993512a5e2c1c4324be0838797bb96d1d15788d31f92b9a17f2c4bb2eea1f4",
+      "bbox_error_mm": 1.0000001111620804e-06
+    },
+    {
+      "id": "KI12-TV03P-01",
+      "sha256": "86ea50fe67c18dbd47e6cc981ed1aa4a1f44366dddec93a4b5b9489e668ec48c",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV03P-02",
+      "sha256": "044842abf765ffe83f533cd84376763882e8b79182fd558e7fbb4150102a26f9",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV03P-03",
+      "sha256": "7065585a6d08a4fc2e46f5ea1c31d9a3aa1a6fa2a23c8a08e7aec51ef6266b17",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV03P-04",
+      "sha256": "3e0fe4126115f8a7b2227216e74ddee05837e54047244fc5f04022b907b06d26",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-GAP-01",
+      "sha256": "2f75e9ec7995b0893d3b2f49da704551f75faf08f8ad6fdab9e3bdd85cf2b2b3",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-01",
+      "sha256": "a98327e0ad66d77c10ed3c99ab9829680525e19554869de7bab755f72c8acdae",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-02",
+      "sha256": "042a634bb66bba053069712673541ca5bb61ca5893bb1e6527a846a06a78008b",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-06",
+      "sha256": "2f60fbd4bced263c167bcbc55639975b5f3deac5cdabe7c6cb8151809d8103a8",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-07",
+      "sha256": "c63e86f076c9fbebfa8111534177af372670277dfae60fcf9db1d3c723a0b550",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02S-01",
+      "sha256": "b9951919f084ad6a536a83883c07a9d2dd2edbca64891bca958b051b1bf08823",
+      "bbox_error_mm": 1.9073486328125e-06
+    },
+    {
+      "id": "KI12-TV02S-02",
+      "sha256": "e6891153c9929c43edcdd795e5f65864d5203f79e5771b1ad806ea27a6133d11",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02T1-01",
+      "sha256": "7e99d28b59d01343940f11e1aad08fd51ea6ecff30a103a00483a79d81baecf7",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02F1-01",
+      "sha256": "e7444393c0d2187db2e6f2838d88dfea3aff391b758cc5e28659a761f5eaf192",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV02H1-01",
+      "sha256": "2ad0db6be9f3cd4c26f00ca7c558211c7a6f388de85fc62408f9ff38774b1bda",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-03",
+      "sha256": "d2b4da45534101538589509c93cff3f4444aea31d3efccbd459887b63535e30f",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-04",
+      "sha256": "258148402fe4dde008eb6bca65c0091b2bded0b2fa9ea572bdbf61e6a220b794",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-01",
+      "sha256": "02278e4948ff1b71d98de61898538e6131fd821ec97ffff6d4b8091785d04039",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D1-L",
+      "sha256": "7fbfc0053bdc855cf13fd023d7ad454415a654a5052714b94b21f5e5266a4185",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D1-R",
+      "sha256": "7176bb2f5bbf952f9fb3dce7ab9de26770706dc3a1a0aaf5a77b3317faca0471",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D1-B",
+      "sha256": "622f548e0f0094ef8ef4c749405c23b442e2d93d3772b4b2691030f4dbf66322",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D1-F",
+      "sha256": "8fa81ba67ad7829d3635e172afd35d5f74567cb7093d14c514fa917081bb16d8",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D1-H",
+      "sha256": "e198f954fe38de1bc50423e90c9e6ad45b261ec5e66062ab0c178638599c01a0",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02S-03",
+      "sha256": "f883e28318705c8af70e6ff7f95464b684d5e75b4a7ae4eb63f2e3e4c1f043a9",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02S-04",
+      "sha256": "ed65fc902a3e1f8150486d56cbed8246220f9a8c0156e2fffb2939240e085dbc",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02T2-01",
+      "sha256": "06c8b91908ee135880e9908ff0f014d3252340a34d6fa2f53feae3d6a7356968",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02F2-01",
+      "sha256": "771d9481df1285e525fcd62fcb47713b619bf0cb0d67dbb44303a82ddcf9961f",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV02H2-01",
+      "sha256": "bc75544ac77cbbf6b8015c4ffc3804de5d51360f8fb7eb2c046085715211478e",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-05",
+      "sha256": "2a7a069267c7f19587355a0e451d1cb12d6d84ee1560a866254e58608b9f4ea4",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-06",
+      "sha256": "4398e3fce7e4220f25a14a71b69bf3efe1b2d8df9cb4f6132ca7a92132d0f1dd",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-02",
+      "sha256": "f44cd92687b18f3c707746780b8c320d5d0122e12faeb807bf4fa45ca3f69add",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D2-L",
+      "sha256": "40b05eba9031d8c4426da5dfea08da6ad06496673508dafc76dd066e50c79bd3",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D2-R",
+      "sha256": "2f36a695b70259f2a3dea0e613b3835c8b11d2732d2fe6c5c02507618d5267fd",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D2-B",
+      "sha256": "0c299836b249239d68de20f4ea1742ec3eb8c40ae7a8d0ab31e002ba68993a6e",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D2-F",
+      "sha256": "a022798bc2d033644a5e1bb22864076347a65f70dab1982d4c7889924c1d5330",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D2-H",
+      "sha256": "37e1efb4eadf3687d4544c74a022a9353558aa1aebad79972f1d87e89123e896",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02S-05",
+      "sha256": "89d899c3b3a881fa533ec20e13fb42d074b655830c9cee1d56c2bef3b2045d41",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02S-06",
+      "sha256": "f3bfde033784555fd37b32257d9dfa14d2ad164d4f5ccf52769831dabb6a3406",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02T2-02",
+      "sha256": "7e2e57683d4d7afb781a9ecc112fbacf88593e85943ad77bf3cd8c6589ac3c67",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02F2-02",
+      "sha256": "cbb01d8d7b520f5a74c15f0d5c40b4a42e27854aee5c4dd461a7fc93f580ffc2",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV02H2-02",
+      "sha256": "497bf8a566fab21b518650c9cf4c2ac4321a771fa8195e402c12b4484287f313",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-07",
+      "sha256": "5eb3defec53edc49e3a275fd9a308fa88888c95470316947d6a9515ed3195803",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-08",
+      "sha256": "b9ad05fd1a592e4a8d11e1220c2197563d79383af04c6a877000a926fa8cac61",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-03",
+      "sha256": "e9d3add0055d331542fcbd57f1501a7d3f2dc0a1bb4e6d53acf6398b0d5966d3",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D3-L",
+      "sha256": "0b0e775cddf65368159d96e6a8780eccda5072e7574ca78780146749f16c53e7",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D3-R",
+      "sha256": "04d33827fb7cd9162050022d0ff7ae7dd72ac5532e4c2360a21a162de2357d18",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D3-B",
+      "sha256": "0fdf82b71903a63a2efadf934da6e13cc930425ada2afbf8eda5a5f80ecc7102",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D3-F",
+      "sha256": "919ec3448ca52d32f4b12d47210e3a4edf5b9cdfebf74f8d57ebfeca83ee5e85",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D3-H",
+      "sha256": "68b6c46e65740667dd3eb96f0afda2d531cf579f953818665e678333e5ea411f",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02S-07",
+      "sha256": "3557db01c745fce9c5162498377bf2af75343e7e5c5d0ca9587d2f5a400eef2b",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02S-08",
+      "sha256": "87fd53df5bf02d30b691c4b4d58576ab176b0d57281ec658a81c1998749b1e98",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02T2-03",
+      "sha256": "75e7384564ecb0a74c5903d0983297415af02982fa2c0c89ab6abbdf6c094369",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02F2-03",
+      "sha256": "4073f1d9d409b7fc81beb1fb477740c50b35cfdaffb93fcde5964e4a96613517",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV02H2-03",
+      "sha256": "6b9d86677dc9eeb99c14eca5c7ed2c3a2aaf6a48368c6e7829cf5b7af9274bd1",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-09",
+      "sha256": "507e4e68bdfd8c6424955270f38fa4e7569695500d878b27605fcb9761eb10b9",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-10",
+      "sha256": "fab699c4a6a247d08973b0919e93c9a69d973e773a151c08a5a5bc8592a5a2c4",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-04",
+      "sha256": "d6b17997667d4e15a482498090aaad6f71bc8cf1c37979f41ace00144a8c9419",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D4-L",
+      "sha256": "96e0833ef2b24406b01f0e5739ba6ed4a068a7d9aa044667346b0f8acdddf9f4",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D4-R",
+      "sha256": "6379bae45140312a7d6ac65f79176c3d01b93a02d14b688732e91f8bc22f2e98",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D4-B",
+      "sha256": "c7a040e419cf864ca90a84de1a1005e13b9b8435788a1960de2c569da69d8073",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D4-F",
+      "sha256": "e544aac60e6c3158132b114beb9336c91ba086c3b127686706bbc469b9c589ac",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D4-H",
+      "sha256": "844bc92f3d135714b5e74337726286fbac26b46bcf2e9170d4b642c75be637e1",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI12-TV02S-09",
+      "sha256": "4e1ef80d5b9fffc0dc760c33cc0ffa1f417b9392cd725518debc588bd6b43d59",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02S-10",
+      "sha256": "71bda931ab1b6f2046d6986ae244001f9801a3affe6a93f27d9d2a9742162d56",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02T2-04",
+      "sha256": "9875d2eddad4f201e53b4471cee694eb1fb8c8eea612cb71b2caa412cbb61931",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI12-TV02F2-04",
+      "sha256": "3c521622d8277837076c8cd04438e6fe490944dc201526c8248135df27c87697",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI12-TV02H2-04",
+      "sha256": "420c310f4a3ba7523a890f0b3e6daff60942c2c11fab5c7b4c28f5ede8a7b836",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-11",
+      "sha256": "7890e8b3f92442fc0a343370dc727467633d94f88771fe661d5a1dbb6b764d12",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-BAT-12",
+      "sha256": "68f84929d34f412ed4b9cf9a0a81a4aa72441f33d4c186009757f7dd9d1ec31d",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI14-RAIL-05",
+      "sha256": "8ced58e81b9a25038c48e6ab2c6c832ffe42c88e4aceb21ef518699cbe80217e",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D5-L",
+      "sha256": "ef1cf1a0b54585f387d06a0942daaa6a9f861984ca800aee116553c5d981fa75",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D5-R",
+      "sha256": "d0d64422e11061b30a1a66de5c81484cadbf5efd1c4cdd1a8dfb8145ef1a39da",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D5-B",
+      "sha256": "eaf0a1e7d77fed1f783256f8a964385249257dafe0aea82987822ed3ffc79003",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D5-F",
+      "sha256": "6d2b4ee55ddb28cd2d71e90ce516256f64c274c8e3e013e0ee46678da15b3588",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D5-H",
+      "sha256": "57288fadc754222f57ad6c63dc8e1a7d1fb893b6b709ed4a5a9477e3939ac67d",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-M6-TV02-S-01",
+      "sha256": "83abf4aca8759d81404d09e8f200bc9739b8afb6dc01b32b7926d7ff45d8827f",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-M6-TV02-S-02",
+      "sha256": "90da215c69efb65d347131829b765b750d4a19adad6f6bf67ed909d1d402ae83",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-M6-BOTTOM-03",
+      "sha256": "85bd10f0aa83de0440814eefa7b5fb2a7b519813af50bbefbd2f56f6c3a07383",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-M6-FRONT-04",
+      "sha256": "9598b449233fdcd424c3a7e5a9598e2f96b0bba4df59d26a89d443d64eac2d6b",
+      "bbox_error_mm": 9.073486317845436e-07
+    },
+    {
+      "id": "KI16-M6-BACK-05",
+      "sha256": "a3afb13be41f501637dccd19c7a134495c1c230286be07bdaf01e900e3d5bdbd",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-M6-BAT-06",
+      "sha256": "ac9a91173464a0df377ff67039101ef070278149eb638631333dc388a1769533",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-M6-BAT-07",
+      "sha256": "d59221a9a16f734b0d69a5364cc51fb41913ae4f7100995c80212a7203705056",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-M6-RAIL-08",
+      "sha256": "402b6ae336ed557df7305f5645ac20aea9323f35affa0b701963b0a25291cfae",
+      "bbox_error_mm": 0.0
+    },
+    {
+      "id": "KI16-D6-L",
+      "sha256": "9ddc3445c8cb0c947dcb985a070aa43bd169268c0ff614099d567a48ca6891d4",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D6-R",
+      "sha256": "526ad6bd0a256fdeab00d4ebd64116d1ce1fecb76b1f0fc8a46e48d5316215b1",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D6-B",
+      "sha256": "11ae7d343122597a4ce7ad8d915e82766c3e99f379b83ae967f169941ed9453f",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D6-F",
+      "sha256": "17e1d0b29d17faf779b08930f0892eb91753d789e28ff3c9f0ecfb0ef3c2c0d3",
+      "bbox_error_mm": 9.999999974752427e-07
+    },
+    {
+      "id": "KI16-D6-H",
+      "sha256": "062bc9999a2e2f058b392fbe0fd0207f0f73f29c4afda2e609c78ab3b20b9ec4",
+      "bbox_error_mm": 0.0
+    }
+  ],
+  "source": "TV_R16_megmunkalt.dwg STL exports",
+  "render_status": "technical preview, not a photoreal validated room render",
+  "wood_bbox_checked": true,
+  "hardware_factory_geometry": false
+}

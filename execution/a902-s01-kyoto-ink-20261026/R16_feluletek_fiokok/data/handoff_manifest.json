@@ -1,0 +1,25 @@
+{
+  "revision": "R16",
+  "scope": "media wall only",
+  "authoritative_drawings": [
+    "rajzok/TV_R16_teljes_zart.dwg",
+    "rajzok/TV_R16_fiokok_nyitva.dwg"
+  ],
+  "blend": "rajzok/TV_R16_koordinacio.blend",
+  "source_image": "sources/T16_mediafal_tulajdonosi_celkep.png",
+  "source_sha256": "de778754cfcf852acf2507311f038b84064668ab7fb550ef4eb2c36361796042",
+  "owner_decisions": [
+    "lower drawers; tall unit doors",
+    "every lower front one high drawer, no horizontal split",
+    "bronze-brown material band about200mm, lit from cabinet side"
+  ],
+  "cost_items": [
+    "KI-030",
+    "KI-031",
+    "KI-032",
+    "KI-034",
+    "KI-114"
+  ],
+  "art": "artwork/INK_W01_R16_MASTER_3600.svg",
+  "render_status": "CONDITIONAL_DESIGN_NOT_MANUFACTURING_APPROVED"
+}

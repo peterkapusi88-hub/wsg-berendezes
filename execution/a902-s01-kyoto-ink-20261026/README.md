@@ -1,3 +1,7 @@
+## R16 – médiafal: bronzbetét, tusgrafika és magas fiókok (2026-10-29)
+
+Aktuális médiafalcsomag: `R16_feluletek_fiokok/00_OLVASD_EL.txt`. Hat magas fiók, ajtós torony,200mm matt bronzbarna betétsáv oldalsó LED-del,8nyitásérzékelős belső fény. R16felváltja azR15alsó ajtós kiosztását. Az élő Excel öt érintett sora frissítve; becsült főösszeg26 212 190Ft. R16CAD/PDF/Blender/grafika/címke/MPR-tervezet ténylegesen átadva. Felmérés, gyári vasalati sablonművelet, anyag/nyomatminta, gépi és szakági próba nyitott. Asztal200mm eltolás: külön javaslat.
+
 # Legutóbbi részfeladat: R15 – hat műhelyi továbbfejlesztés / 2026-10-29
 
 Aktuális átadás: `R15_muhely/OLVASD_EL.txt`; `A902_TV_R15_hat_fejlesztes.zip`. 75 megmunkált faalkatrész,826 furat,12 kivágás,113 vasalati helyfoglalás;103 oldalas rajzkönyv,12 lapos Excel,73 aktív fúrási MPR-tervezet. Külön10darabos/84furatos/11MPR elsődarab-csomag. A korábbi revíziókat ne állítsd vissza.

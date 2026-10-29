@@ -1,0 +1,188 @@
+[
+  {
+    "id": "D1",
+    "module": 1,
+    "front": "KI12-TV02F1-01",
+    "parts": [
+      "KI16-D1-L",
+      "KI16-D1-R",
+      "KI16-D1-B",
+      "KI16-D1-F",
+      "KI16-D1-H"
+    ],
+    "offset": 0,
+    "width": 720,
+    "LW": 684,
+    "SKW": 642,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      642,
+      260,
+      222
+    ],
+    "litres": 37.05624,
+    "empty_mass_estimate_kg": 11.1569714,
+    "motion_unit": "T60L7140 / S1",
+    "max_total_kg": 20,
+    "contents_limit_estimate_kg": 8.8430286,
+    "sync_cut_mm": 417,
+    "stabilizer_cut_mm": 369,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  },
+  {
+    "id": "D2",
+    "module": 2,
+    "front": "KI12-TV02F2-01",
+    "parts": [
+      "KI16-D2-L",
+      "KI16-D2-R",
+      "KI16-D2-B",
+      "KI16-D2-F",
+      "KI16-D2-H"
+    ],
+    "offset": 720,
+    "width": 450,
+    "LW": 414,
+    "SKW": 372,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      372,
+      260,
+      222
+    ],
+    "litres": 21.47184,
+    "empty_mass_estimate_kg": 7.7254874000000004,
+    "motion_unit": "T60L7040 / S0",
+    "max_total_kg": 10,
+    "contents_limit_estimate_kg": 2.2745125999999996,
+    "sync_cut_mm": 147,
+    "stabilizer_cut_mm": 99,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  },
+  {
+    "id": "D3",
+    "module": 3,
+    "front": "KI12-TV02F2-02",
+    "parts": [
+      "KI16-D3-L",
+      "KI16-D3-R",
+      "KI16-D3-B",
+      "KI16-D3-F",
+      "KI16-D3-H"
+    ],
+    "offset": 1170,
+    "width": 450,
+    "LW": 414,
+    "SKW": 372,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      372,
+      260,
+      222
+    ],
+    "litres": 21.47184,
+    "empty_mass_estimate_kg": 7.7254874000000004,
+    "motion_unit": "T60L7040 / S0",
+    "max_total_kg": 10,
+    "contents_limit_estimate_kg": 2.2745125999999996,
+    "sync_cut_mm": 147,
+    "stabilizer_cut_mm": 99,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  },
+  {
+    "id": "D4",
+    "module": 4,
+    "front": "KI12-TV02F2-03",
+    "parts": [
+      "KI16-D4-L",
+      "KI16-D4-R",
+      "KI16-D4-B",
+      "KI16-D4-F",
+      "KI16-D4-H"
+    ],
+    "offset": 1620,
+    "width": 1080,
+    "LW": 1044,
+    "SKW": 1002,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      1002,
+      260,
+      222
+    ],
+    "litres": 57.83544,
+    "empty_mass_estimate_kg": 15.7322834,
+    "motion_unit": "T60L7140 / S1",
+    "max_total_kg": 20,
+    "contents_limit_estimate_kg": 4.2677166,
+    "sync_cut_mm": 777,
+    "stabilizer_cut_mm": 729,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  },
+  {
+    "id": "D5",
+    "module": 5,
+    "front": "KI12-TV02F2-04",
+    "parts": [
+      "KI16-D5-L",
+      "KI16-D5-R",
+      "KI16-D5-B",
+      "KI16-D5-F",
+      "KI16-D5-H"
+    ],
+    "offset": 2700,
+    "width": 450,
+    "LW": 414,
+    "SKW": 372,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      372,
+      260,
+      222
+    ],
+    "litres": 21.47184,
+    "empty_mass_estimate_kg": 7.7254874000000004,
+    "motion_unit": "T60L7040 / S0",
+    "max_total_kg": 10,
+    "contents_limit_estimate_kg": 2.2745125999999996,
+    "sync_cut_mm": 147,
+    "stabilizer_cut_mm": 99,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  },
+  {
+    "id": "D6",
+    "module": 6,
+    "front": "KI16-M6-FRONT-04",
+    "parts": [
+      "KI16-D6-L",
+      "KI16-D6-R",
+      "KI16-D6-B",
+      "KI16-D6-F",
+      "KI16-D6-H"
+    ],
+    "offset": 3150,
+    "width": 450,
+    "LW": 414,
+    "SKW": 372,
+    "NL": 300,
+    "depth": 290,
+    "inside": [
+      372,
+      260,
+      222
+    ],
+    "litres": 21.47184,
+    "empty_mass_estimate_kg": 7.7254874000000004,
+    "motion_unit": "T60L7040 / S0",
+    "max_total_kg": 10,
+    "contents_limit_estimate_kg": 2.2745125999999996,
+    "sync_cut_mm": 147,
+    "stabilizer_cut_mm": 99,
+    "status": "Fa geometria kidolgozva; MOVENTO sablonfuratok + valós tömegpróba még szükséges"
+  }
+]
