@@ -1,0 +1,96 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="337"
+B="420"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="S16_D2-L B-OLDAL FELUL - S16-R15-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<102 \BohrVert\
+XA="305"
+YA="411"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-B:E4:D2-L:0 TERVEZET"
+
+<102 \BohrVert\
+XA="168.5"
+YA="411"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-B:E4:D2-L:1 TERVEZET"
+
+<102 \BohrVert\
+XA="32"
+YA="411"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-B:E4:D2-L:2 TERVEZET"
+
+<102 \BohrVert\
+XA="305"
+YA="9"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-T:E4:D2-L:0 TERVEZET"
+
+<102 \BohrVert\
+XA="168.5"
+YA="9"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-T:E4:D2-L:1 TERVEZET"
+
+<102 \BohrVert\
+XA="32"
+YA="9"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP D2-T:E4:D2-L:2 TERVEZET"
+
