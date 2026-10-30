@@ -55,6 +55,7 @@ KOZOS = ["DWG-ben két színezés: a modelltérben bal oldalt a gyártási model
          "Élkód a DWG rétegnevében: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2 (coo1.dwg mintájára) – FELTEVÉS.",
          "Az asztalos konvenciója szerint: cikkszám-jelölő = üres blokk ($ITEM_REF/$ART_), megmunkálás = test a $DIFF_OUT rétegen, kötőelem = CONNOBJ_* blokk (pl. CONNOBJ_DOWEL_D8_L35_13-24, CONNOBJ_MINIFIX_D15_AV18_L24) – a programjában ellenőrizendő.",
          "Méretezett elöl-, felül- és oldalnézet a DWG-ben (külön lap, ~23 méretvonal).",
+         "Anyag- és élzárójavaslat (Excel „Anyagjavaslat” lap): valós Egger/egyéb termékkódok magyar forgalmazóval és 2026-10-30-i árral – JAVASLAT, mintával ellenőrizendő.",
          "MPR: woodWOP 4.0 formátumú TERVEZET, csak furatok; kontúrmarás a szerszámtábla után. Gépi futtathatóság próbadarabbal igazolandó.",
          "Anyag-, élzáró- és táblaméret-feltevések: gyartasi_szabalyok_v1.json – az asztalos válaszai után újragenerálható."]
 

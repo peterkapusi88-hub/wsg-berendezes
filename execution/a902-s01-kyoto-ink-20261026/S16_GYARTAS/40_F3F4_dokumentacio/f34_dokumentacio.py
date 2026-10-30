@@ -449,6 +449,26 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
         row[0].font = Font(name=F, bold=True, size=10)
         row[1].font = bfont
         row[1].alignment = Alignment(wrap_text=True)
+    # anyag- és élzáró-termékjavaslat (forrásolt, 2026-10-30; Claude szúrópróbával ellenőrizte: Lapp-fa U741 ST9 ár/készlet)
+    jp = CODE.parent / "10_F1_adatmodell" / "anyag_termekjavaslat_2026-10-30.json"
+    if jp.exists():
+        J = [j for j in json.loads(jp.read_text(encoding="utf-8"))["jeloltek"] if j.get("szekreny", "").startswith(PREFIX)]
+        wj = wb.create_sheet("Anyagjavaslat")
+        header(wj, ["Anyagkód", "#", "Gyártó", "Termékkód", "Név", "Felület", "Vastagság mm", "Táblaméret", "Élzáró (ABS)", "Forgalmazó",
+                    "Ár", "Ár egység / megjegyzés", "Ár dátuma", "Színegyezés", "Forrás", "Státusz"],
+               [9, 4, 12, 16, 34, 16, 10, 12, 40, 34, 10, 40, 11, 40, 50, 26])
+        for j in J:
+            ar = j.get("ar") or {}
+            el = j.get("abs_el") or {}
+            wj.append([j.get("kod"), j.get("jelolt_sorszam"), j.get("gyarto"), j.get("termekkod"), j.get("nev"), j.get("felulet"),
+                       ", ".join(map(str, j.get("vastagsag_mm") or [])), j.get("tablameret_mm"),
+                       " · ".join(str(x) for x in (el.get("gyarto"), el.get("kod")) if x), j.get("forgalmazo"),
+                       ar.get("ertek"), " ".join(str(x) for x in (ar.get("egyseg"), ar.get("brutto_netto")) if x), ar.get("datum"),
+                       j.get("szinegyezes_megjegyzes"), "\n".join(j.get("forras_url") or []), j.get("statusz")])
+        for row in wj.iter_rows(min_row=2):
+            for c in row:
+                c.font = bfont
+                c.alignment = Alignment(wrap_text=True, vertical="top")
     wb.save(path)
 
 
