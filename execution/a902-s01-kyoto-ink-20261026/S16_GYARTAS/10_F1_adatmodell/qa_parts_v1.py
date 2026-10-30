@@ -183,6 +183,14 @@ def q_lapmeret(doc, rules, qa):
         W = m["nyers"]["W"] or m["kesz"]["W"]
         S_long, S_short = max(sheet), min(sheet)
         g = r["szalirany"]["helyi_tengely"]
+        felul = rules.get("alkatresz_anyag_felulbiralas", {}).get(r["id"])
+        if felul and felul.get("hordozo_erezetes") is False:
+            hs = felul.get("hordozo_lapmeret") or sheet
+            ok = max(L, W) <= max(hs) and min(L, W) <= min(hs)
+            qa.add("FIGYELMEZTETES" if ok else "HIBA", "Q10_FURNER_HORDOZO", r["id"],
+                   f"{L}×{W} mm – {felul['kivitel']}; hordozó {max(hs)}×{min(hs)} " + ("elég" if ok else "NEM elég")
+                   + f". Nyitott: {felul['nyitott']}", dontes=felul.get("dontes"))
+            continue
         if mat.get("erezetes") and g:
             along, across = (L, W) if g == "U" else (W, L)
             if along > S_long or across > S_short:

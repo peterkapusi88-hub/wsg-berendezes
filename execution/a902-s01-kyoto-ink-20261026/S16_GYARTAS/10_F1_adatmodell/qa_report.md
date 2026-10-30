@@ -7,8 +7,8 @@ Generálva: 2026-10-30 · `qa_parts_v1.py` · forrás: `parts_v1.json` (120 alka
 | Súlyosság | db |
 |---|---|
 | BLOKKOLO | 2 |
-| HIBA | 17 |
-| FIGYELMEZTETES | 12 |
+| HIBA | 16 |
+| FIGYELMEZTETES | 13 |
 | INFO | 41 |
 
 Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kontur_extrudalas': 2} · vizsgált ütköző pár (befoglaló-átfedéssel): 27
@@ -20,7 +20,7 @@ Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kont
 | Q02_NYERS_KISEBB_MINT_KESZ | BG-1 | nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból · forrás: R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi) |
 | Q02_NYERS_KISEBB_MINT_KESZ | BG-FINISH | nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból · forrás: R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi) |
 
-## HIBA (17)
+## HIBA (16)
 
 | Kód | Alkatrész | Megállapítás |
 |---|---|---|
@@ -32,7 +32,6 @@ Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kont
 | Q07_VASTAGSAG_ANYAG_ELTERES | BATTEN-4 | T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm |
 | Q07_VASTAGSAG_ANYAG_ELTERES | BATTEN-5 | T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm |
 | Q07_VASTAGSAG_ANYAG_ELTERES | T-DOOR-L-BACK | T=12 mm, de az anyag (M02 – Szatén sötét barnásgrafit keret) névleges vastagsága 18 mm |
-| Q10_EREZET_LAPMERET | TV-FIELD | 2640.0×1590.0 mm, erezet a V tengely mentén (1590.0 mm) – becsült 2800×2070 táblából erezettel nem jön ki; erezet nélkül/90°-kal kijönne |
 | Q13_BLUM_FENEK_BESULLYESZTES | D1 | fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen · forrás: https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30) |
 | Q13_BLUM_FENEK_BESULLYESZTES | D2 | fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen · forrás: https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30) |
 | Q13_BLUM_FENEK_BESULLYESZTES | D3 | fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen · forrás: https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30) |
@@ -42,13 +41,14 @@ Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kont
 | Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK | BG-LOWER-HIDDEN-RETURN | a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test |
 | Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK | BG-UPPER-HIDDEN-RETURN | a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test |
 
-## FIGYELMEZTETES (12)
+## FIGYELMEZTETES (13)
 
 | Kód | Alkatrész | Megállapítás |
 |---|---|---|
 | Q03_NYERS_SZABALY_ELLENTMONDAS | BG-1 | R14 explicit nyers 831×2315 ≠ anyagszabály szerinti 811.0×2405.0 |
 | Q03_NYERS_SZABALY_ELLENTMONDAS | BG-FINISH | R14 explicit nyers 2877×2315 ≠ anyagszabály szerinti 2857.0×2405.0 |
 | Q03_NYERS_SZABALY_ELLENTMONDAS | T-DOOR-L-BACK | R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0 |
+| Q10_FURNER_HORDOZO | TV-FIELD | 2640.0×1590.0 mm – valódi furnér, függőleges furnérlapok egymás mellé toldva, MDF-hordozóra préselve; hordozó 2800×2070 elég. Nyitott: furnérfaj/szín, toldási mód (slip/book match), présméret ≥ 2640×1590 az asztalosnál, a többi M03 front anyaga a tónusegyezéshez |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | DECK-CONTINUOUS-BAFFLE | R14 jelenet-segédobjektum (befoglaló [870.0, 109.0, 579.0, 2628.0, 4.0, 17.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | DECK-CONTINUOUS-COVER | R14 jelenet-segédobjektum (befoglaló [870.0, 101.0, 592.0, 2628.0, 8.0, 4.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | LOW-INTERNAL-LIGHT-VISOR | R14 jelenet-segédobjektum (befoglaló [57.0, 359.0, 554.0, 306.0, 5.0, 16.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |

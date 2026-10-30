@@ -54,6 +54,16 @@
     "M08": {"tipus": "hatlap_8mm", "nevleges_vastagsag": 8, "elanyag": "ABS 0,8 mm grafit (csak szervizfedél)", "elvastagsag": 0.8, "elomaras_elenkent": 0.0, "rahagyas_L": 0, "rahagyas_W": 0, "lapmeret": [2800, 2070], "erezetes": false, "lapmeret_forras": "becslés"}
   },
 
+  "alkatresz_anyag_felulbiralas": {
+    "TV-FIELD": {
+      "kivitel": "valódi furnér, függőleges furnérlapok egymás mellé toldva, MDF-hordozóra préselve",
+      "hordozo_erezetes": false,
+      "hordozo_lapmeret": [2800, 2070],
+      "dontes": "Péter, 2026-10-30 12:43 – függőleges erezet marad (GOAL.md 7.)",
+      "nyitott": "furnérfaj/szín, toldási mód (slip/book match), présméret ≥ 2640×1590 az asztalosnál, a többi M03 front anyaga a tónusegyezéshez"
+    }
+  },
+
   "elszabalyok": {
     "leiras": "Él-szerep geometriából (érintkezés a többi alkatrésszel ±0,6 mm-en belül) + irány; él-jel anyagonként.",
     "erintkezes_tures_mm": 0.6,

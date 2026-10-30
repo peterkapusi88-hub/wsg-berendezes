@@ -290,6 +290,9 @@ def main():
         if grain_ax:
             grain_glob = fr.u_ax if grain_ax == "U" else fr.v_ax
         nyitott = []
+        felul = rules.get("alkatresz_anyag_felulbiralas", {}).get(pid)
+        if felul:
+            nyitott.append(f"Anyagkivitel döntés: {felul['kivitel']} ({felul['dontes']}). Nyitott: {felul['nyitott']}.")
         if gt in ("IVES_SZERELVENY", "OSSZEALLITAS"):
             nyitott.append("Összeállítás – a 2. fázisban lapalkatrészekre/rétegekre bontandó; nem egy darab lap.")
         if p.get("outline"):
@@ -310,7 +313,8 @@ def main():
             "anyag": {"kod": p["material"], "megnevezes": materials[p["material"]][1],
                       "tipus": mat["tipus"], "nevleges_vastagsag": mat["nevleges_vastagsag"],
                       "latszo_felso_felulet": p.get("exposed_top_finish"),
-                      "alternativak": p.get("material_alternatives")},
+                      "alternativak": p.get("material_alternatives"),
+                      "kivitel": felul["kivitel"] if felul else None},
             "meret": size_block(p, fr, codes, edges, mat, rules),
             "befoglalo_globalis": p["box"],
             "helyi_rendszer": {

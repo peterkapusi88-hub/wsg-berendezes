@@ -3,8 +3,8 @@
  "modell_revizio": "S16-GY-F1-v1",
  "osszesites": {
   "BLOKKOLO": 2,
-  "HIBA": 17,
-  "FIGYELMEZTETES": 12,
+  "HIBA": 16,
+  "FIGYELMEZTETES": 13,
   "INFO": 41
  },
  "itelet": "BLOKKOLT – gyártási kiadás tilos",
@@ -242,13 +242,6 @@
   },
   {
    "sulyossag": "HIBA",
-   "kod": "Q10_EREZET_LAPMERET",
-   "alkatresz": "TV-FIELD",
-   "uzenet": "2640.0×1590.0 mm, erezet a V tengely mentén (1590.0 mm) – becsült 2800×2070 táblából erezettel nem jön ki; erezet nélkül/90°-kal kijönne",
-   "lapmeret_forras": "becslés – dekor/termék nincs kiválasztva (materials.json M03)"
-  },
-  {
-   "sulyossag": "HIBA",
    "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
    "alkatresz": "D1",
    "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
@@ -321,6 +314,13 @@
    "alkatresz": "T-DOOR-L-BACK",
    "uzenet": "R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0",
    "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után."
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q10_FURNER_HORDOZO",
+   "alkatresz": "TV-FIELD",
+   "uzenet": "2640.0×1590.0 mm – valódi furnér, függőleges furnérlapok egymás mellé toldva, MDF-hordozóra préselve; hordozó 2800×2070 elég. Nyitott: furnérfaj/szín, toldási mód (slip/book match), présméret ≥ 2640×1590 az asztalosnál, a többi M03 front anyaga a tónusegyezéshez",
+   "dontes": "Péter, 2026-10-30 12:43 – függőleges erezet marad (GOAL.md 7.)"
   },
   {
    "sulyossag": "FIGYELMEZTETES",
