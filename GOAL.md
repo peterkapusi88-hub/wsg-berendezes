@@ -546,6 +546,10 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Következmény (Claude): szabványos dekorlapból (becsült 2800×2070, erezet a hossz mentén) egy darabban nem jön ki → javasolt kivitel: valódi furnér, függőleges furnérlapok egymás mellé toldva, 2800×2070-es MDF-hordozóra préselve (a hordozó erezet nélkül kijön). Nyitott: furnérfaj/szín, toldási mód, a présméret (≥ 2640×1590) az asztalosnál, és hogy a többi M03 front is furnér legyen-e az egyező tónusért.
   - QA: `S16_GYARTAS/10_F1_adatmodell/` – a TV-FIELD erezet-lapméret hibája ezzel feloldva, helyette nyitott anyagkérdés.
 
+- *(2026-10-30 12:49 CET, Péter – eldöntve, felülírja a 12:43-as bejegyzést)* **S16 TV-panel (TV-FIELD): VÍZSZINTES erezet.**
+  - Így egy darabból kijön szabványos (becsült 2800×2070-es, erezet a hossz mentén) faerezetes lapból, furnértoldás nélkül; a fiókfrontok erezetével azonos irányú. A magas toronyajtók függőlegesek maradnak.
+  - Az R14 renderek függőleges erezetet mutatnak – a következő látványfrissítésnél vízszintesre igazítandó.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
