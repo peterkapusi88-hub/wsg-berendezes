@@ -1,0 +1,2534 @@
+{
+ "modell_revizio": "R16-J-GY-v1",
+ "datum": "2026-10-30",
+ "megjegyzesek": [],
+ "alkatreszek": [
+  {
+   "id": "KI12-TV01S-01",
+   "num": 16001,
+   "reteg": "$PART_R16_KI12-TV01S-01˙0˙0¨V000˙0¨#0¨16001",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     0,
+     36.0,
+     550,
+     18,
+     382,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01S-02",
+   "num": 16002,
+   "reteg": "$PART_R16_KI12-TV01S-02˙0˙0¨V000˙0¨#0¨16002",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     702,
+     36.0,
+     550,
+     18,
+     382,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01T-01",
+   "num": 16003,
+   "reteg": "$PART_R16_KI12-TV01T-01˙0˙0¨V000˙0¨#0¨16003",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     36.0,
+     550,
+     684,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01T-02",
+   "num": 16004,
+   "reteg": "$PART_R16_KI12-TV01T-02˙0˙0¨V000˙0¨#0¨16004",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     36.0,
+     2862,
+     684,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01C-01",
+   "num": 16005,
+   "reteg": "$PART_R16_KI12-TV01C-01˙0˙0¨V000˙0¨#0¨16005",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     351,
+     64.0,
+     568,
+     18,
+     354,
+     2294
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-01",
+   "num": 16006,
+   "reteg": "$PART_R16_KI12-TV01P-01˙0˙0¨V000˙0¨#0¨16006",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     108.0,
+     935,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-02",
+   "num": 16007,
+   "reteg": "$PART_R16_KI12-TV01P-02˙0˙0¨V000˙0¨#0¨16007",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     108.0,
+     1320,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-03",
+   "num": 16008,
+   "reteg": "$PART_R16_KI12-TV01P-03˙0˙0¨V000˙0¨#0¨16008",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     108.0,
+     1705,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-04",
+   "num": 16009,
+   "reteg": "$PART_R16_KI12-TV01P-04˙0˙0¨V000˙0¨#0¨16009",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     108.0,
+     2090,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-05",
+   "num": 16010,
+   "reteg": "$PART_R16_KI12-TV01P-05˙0˙0¨V000˙0¨#0¨16010",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     108.0,
+     2475,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-06",
+   "num": 16011,
+   "reteg": "$PART_R16_KI12-TV01P-06˙0˙0¨V000˙0¨#0¨16011",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     370,
+     108.0,
+     935,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-07",
+   "num": 16012,
+   "reteg": "$PART_R16_KI12-TV01P-07˙0˙0¨V000˙0¨#0¨16012",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     370,
+     108.0,
+     1320,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-08",
+   "num": 16013,
+   "reteg": "$PART_R16_KI12-TV01P-08˙0˙0¨V000˙0¨#0¨16013",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     370,
+     108.0,
+     1705,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-09",
+   "num": 16014,
+   "reteg": "$PART_R16_KI12-TV01P-09˙0˙0¨V000˙0¨#0¨16014",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     370,
+     108.0,
+     2090,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01P-10",
+   "num": 16015,
+   "reteg": "$PART_R16_KI12-TV01P-10˙0˙0¨V000˙0¨#0¨16015",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     370,
+     108.0,
+     2475,
+     331,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01F-01",
+   "num": 16016,
+   "reteg": "$PART_R16_KI12-TV01F-01˙0˙0¨FFFF˙0¨#0¨16016",
+   "el_kod_etalon": "FFFF",
+   "szin": 207,
+   "anyag": "M01+nyomat",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1.5,
+     421.0,
+     551.5,
+     357,
+     18,
+     2327
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01F-02",
+   "num": 16017,
+   "reteg": "$PART_R16_KI12-TV01F-02˙0˙0¨FFFF˙0¨#0¨16017",
+   "el_kod_etalon": "FFFF",
+   "szin": 207,
+   "anyag": "M01+nyomat",
+   "test": {
+    "tipus": "box",
+    "box": [
+     361.5,
+     421.0,
+     551.5,
+     357,
+     18,
+     2327
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV01H-01",
+   "num": 16018,
+   "reteg": "$PART_R16_KI12-TV01H-01˙0˙0¨0000˙0¨#0¨16018",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     19,
+     56.0,
+     569
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       682.0,
+       0.0,
+       0.0
+      ],
+      [
+       682.0,
+       2166.0,
+       0.0
+      ],
+      [
+       660.0,
+       2166.0,
+       0.0
+      ],
+      [
+       660.0,
+       2292.0,
+       0.0
+      ],
+      [
+       22.0,
+       2292.0,
+       0.0
+      ],
+      [
+       22.0,
+       2166.0,
+       0.0
+      ],
+      [
+       0.0,
+       2166.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02CAP-01",
+   "num": 16019,
+   "reteg": "$PART_R16_KI12-TV02CAP-01˙0˙0¨F0FF˙0¨#0¨16019",
+   "el_kod_etalon": "F0FF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     0,
+     36.0,
+     532,
+     3600,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV03P-01",
+   "num": 16020,
+   "reteg": "$PART_R16_KI12-TV03P-01˙0˙0¨0000˙0¨#0¨16020",
+   "el_kod_etalon": "0000",
+   "szin": 250,
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     921.5,
+     18.0,
+     550,
+     667,
+     18,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV03P-02",
+   "num": 16021,
+   "reteg": "$PART_R16_KI12-TV03P-02˙0˙0¨0000˙0¨#0¨16021",
+   "el_kod_etalon": "0000",
+   "szin": 250,
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1591.5,
+     18.0,
+     550,
+     667,
+     18,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV03P-03",
+   "num": 16022,
+   "reteg": "$PART_R16_KI12-TV03P-03˙0˙0¨0000˙0¨#0¨16022",
+   "el_kod_etalon": "0000",
+   "szin": 250,
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2261.5,
+     18.0,
+     550,
+     667,
+     18,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV03P-04",
+   "num": 16023,
+   "reteg": "$PART_R16_KI12-TV03P-04˙0˙0¨0000˙0¨#0¨16023",
+   "el_kod_etalon": "0000",
+   "szin": 250,
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2931.5,
+     18.0,
+     550,
+     667,
+     18,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-GAP-01",
+   "num": 16024,
+   "reteg": "$PART_R16_KI12-GAP-01˙0˙0¨FFFF˙0¨#0¨16024",
+   "el_kod_etalon": "FFFF",
+   "szin": 63,
+   "anyag": "M16-BRONZE",
+   "test": {
+    "tipus": "box",
+    "box": [
+     720,
+     18.0,
+     550,
+     200,
+     18,
+     2330
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-01",
+   "num": 16025,
+   "reteg": "$PART_R16_KI14-BAT-01˙0˙0¨0000˙0¨#0¨16025",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     64.0,
+     588,
+     18,
+     18,
+     2142
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-02",
+   "num": 16026,
+   "reteg": "$PART_R16_KI14-BAT-02˙0˙0¨0000˙0¨#0¨16026",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     684,
+     64.0,
+     588,
+     18,
+     18,
+     2142
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-06",
+   "num": 16027,
+   "reteg": "$PART_R16_KI14-RAIL-06˙0˙0¨0000˙0¨#0¨16027",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     82.0,
+     2632,
+     333,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-07",
+   "num": 16028,
+   "reteg": "$PART_R16_KI14-RAIL-07˙0˙0¨0000˙0¨#0¨16028",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     369,
+     82.0,
+     2632,
+     333,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-01",
+   "num": 16029,
+   "reteg": "$PART_R16_KI12-TV02S-01˙0˙0¨00V0˙0¨#0¨16029",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     0,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-02",
+   "num": 16030,
+   "reteg": "$PART_R16_KI12-TV02S-02˙0˙0¨00V0˙0¨#0¨16030",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     702,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02T1-01",
+   "num": 16031,
+   "reteg": "$PART_R16_KI12-TV02T1-01˙0˙0¨V000˙0¨#0¨16031",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     36.0,
+     150,
+     684,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02F1-01",
+   "num": 16032,
+   "reteg": "$PART_R16_KI12-TV02F1-01˙0˙0¨FFFF˙0¨#0¨16032",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1.5,
+     421.0,
+     151.5,
+     717,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02H1-01",
+   "num": 16033,
+   "reteg": "$PART_R16_KI12-TV02H1-01˙0˙0¨0000˙0¨#0¨16033",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     19,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       682.0,
+       0.0,
+       0.0
+      ],
+      [
+       682.0,
+       236.0,
+       0.0
+      ],
+      [
+       660.0,
+       236.0,
+       0.0
+      ],
+      [
+       660.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-03",
+   "num": 16034,
+   "reteg": "$PART_R16_KI14-BAT-03˙0˙0¨0000˙0¨#0¨16034",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-04",
+   "num": 16035,
+   "reteg": "$PART_R16_KI14-BAT-04˙0˙0¨0000˙0¨#0¨16035",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     684,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-01",
+   "num": 16036,
+   "reteg": "$PART_R16_KI14-RAIL-01˙0˙0¨0000˙0¨#0¨16036",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     82.0,
+     300,
+     684,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D1-L",
+   "num": 16037,
+   "reteg": "$PART_R16_KI16-D1-L˙0˙0¨LLLL˙0¨#0¨16037",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     24,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D1-R",
+   "num": 16038,
+   "reteg": "$PART_R16_KI16-D1-R˙0˙0¨LLLL˙0¨#0¨16038",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     681,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D1-B",
+   "num": 16039,
+   "reteg": "$PART_R16_KI16-D1-B˙0˙0¨LL00˙0¨#0¨16039",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     39,
+     128.0,
+     210,
+     642,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D1-F",
+   "num": 16040,
+   "reteg": "$PART_R16_KI16-D1-F˙0˙0¨L000˙0¨#0¨16040",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     39,
+     403.0,
+     225,
+     642,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D1-H",
+   "num": 16041,
+   "reteg": "$PART_R16_KI16-D1-H˙0˙0¨L000˙0¨#0¨16041",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     39,
+     128.0,
+     225,
+     642,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-03",
+   "num": 16042,
+   "reteg": "$PART_R16_KI12-TV02S-03˙0˙0¨00V0˙0¨#0¨16042",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     720,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-04",
+   "num": 16043,
+   "reteg": "$PART_R16_KI12-TV02S-04˙0˙0¨00V0˙0¨#0¨16043",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1152,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02T2-01",
+   "num": 16044,
+   "reteg": "$PART_R16_KI12-TV02T2-01˙0˙0¨V000˙0¨#0¨16044",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     738,
+     36.0,
+     150,
+     414,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02F2-01",
+   "num": 16045,
+   "reteg": "$PART_R16_KI12-TV02F2-01˙0˙0¨FFFF˙0¨#0¨16045",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     721.5,
+     421.0,
+     151.5,
+     447,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02H2-01",
+   "num": 16046,
+   "reteg": "$PART_R16_KI12-TV02H2-01˙0˙0¨0000˙0¨#0¨16046",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     739,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       412.0,
+       0.0,
+       0.0
+      ],
+      [
+       412.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-05",
+   "num": 16047,
+   "reteg": "$PART_R16_KI14-BAT-05˙0˙0¨0000˙0¨#0¨16047",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     738,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-06",
+   "num": 16048,
+   "reteg": "$PART_R16_KI14-BAT-06˙0˙0¨0000˙0¨#0¨16048",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1134,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-02",
+   "num": 16049,
+   "reteg": "$PART_R16_KI14-RAIL-02˙0˙0¨0000˙0¨#0¨16049",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     738,
+     82.0,
+     300,
+     414,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D2-L",
+   "num": 16050,
+   "reteg": "$PART_R16_KI16-D2-L˙0˙0¨LLLL˙0¨#0¨16050",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     744,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D2-R",
+   "num": 16051,
+   "reteg": "$PART_R16_KI16-D2-R˙0˙0¨LLLL˙0¨#0¨16051",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1131,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D2-B",
+   "num": 16052,
+   "reteg": "$PART_R16_KI16-D2-B˙0˙0¨LL00˙0¨#0¨16052",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     759,
+     128.0,
+     210,
+     372,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D2-F",
+   "num": 16053,
+   "reteg": "$PART_R16_KI16-D2-F˙0˙0¨L000˙0¨#0¨16053",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     759,
+     403.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D2-H",
+   "num": 16054,
+   "reteg": "$PART_R16_KI16-D2-H˙0˙0¨L000˙0¨#0¨16054",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     759,
+     128.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-05",
+   "num": 16055,
+   "reteg": "$PART_R16_KI12-TV02S-05˙0˙0¨00V0˙0¨#0¨16055",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1170,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-06",
+   "num": 16056,
+   "reteg": "$PART_R16_KI12-TV02S-06˙0˙0¨00V0˙0¨#0¨16056",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1602,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02T2-02",
+   "num": 16057,
+   "reteg": "$PART_R16_KI12-TV02T2-02˙0˙0¨V000˙0¨#0¨16057",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1188,
+     36.0,
+     150,
+     414,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02F2-02",
+   "num": 16058,
+   "reteg": "$PART_R16_KI12-TV02F2-02˙0˙0¨FFFF˙0¨#0¨16058",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1171.5,
+     421.0,
+     151.5,
+     447,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02H2-02",
+   "num": 16059,
+   "reteg": "$PART_R16_KI12-TV02H2-02˙0˙0¨0000˙0¨#0¨16059",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     1189,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       412.0,
+       0.0,
+       0.0
+      ],
+      [
+       412.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-07",
+   "num": 16060,
+   "reteg": "$PART_R16_KI14-BAT-07˙0˙0¨0000˙0¨#0¨16060",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1188,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-08",
+   "num": 16061,
+   "reteg": "$PART_R16_KI14-BAT-08˙0˙0¨0000˙0¨#0¨16061",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1584,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-03",
+   "num": 16062,
+   "reteg": "$PART_R16_KI14-RAIL-03˙0˙0¨0000˙0¨#0¨16062",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1188,
+     82.0,
+     300,
+     414,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D3-L",
+   "num": 16063,
+   "reteg": "$PART_R16_KI16-D3-L˙0˙0¨LLLL˙0¨#0¨16063",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1194,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D3-R",
+   "num": 16064,
+   "reteg": "$PART_R16_KI16-D3-R˙0˙0¨LLLL˙0¨#0¨16064",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1581,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D3-B",
+   "num": 16065,
+   "reteg": "$PART_R16_KI16-D3-B˙0˙0¨LL00˙0¨#0¨16065",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1209,
+     128.0,
+     210,
+     372,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D3-F",
+   "num": 16066,
+   "reteg": "$PART_R16_KI16-D3-F˙0˙0¨L000˙0¨#0¨16066",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1209,
+     403.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D3-H",
+   "num": 16067,
+   "reteg": "$PART_R16_KI16-D3-H˙0˙0¨L000˙0¨#0¨16067",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1209,
+     128.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-07",
+   "num": 16068,
+   "reteg": "$PART_R16_KI12-TV02S-07˙0˙0¨00V0˙0¨#0¨16068",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1620,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-08",
+   "num": 16069,
+   "reteg": "$PART_R16_KI12-TV02S-08˙0˙0¨00V0˙0¨#0¨16069",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2682,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02T2-03",
+   "num": 16070,
+   "reteg": "$PART_R16_KI12-TV02T2-03˙0˙0¨V000˙0¨#0¨16070",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1638,
+     36.0,
+     150,
+     1044,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02F2-03",
+   "num": 16071,
+   "reteg": "$PART_R16_KI12-TV02F2-03˙0˙0¨FFFF˙0¨#0¨16071",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1621.5,
+     421.0,
+     151.5,
+     1077,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02H2-03",
+   "num": 16072,
+   "reteg": "$PART_R16_KI12-TV02H2-03˙0˙0¨0000˙0¨#0¨16072",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     1639,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       1042.0,
+       0.0,
+       0.0
+      ],
+      [
+       1042.0,
+       236.0,
+       0.0
+      ],
+      [
+       1020.0,
+       236.0,
+       0.0
+      ],
+      [
+       1020.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-09",
+   "num": 16073,
+   "reteg": "$PART_R16_KI14-BAT-09˙0˙0¨0000˙0¨#0¨16073",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1638,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-10",
+   "num": 16074,
+   "reteg": "$PART_R16_KI14-BAT-10˙0˙0¨0000˙0¨#0¨16074",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2664,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-04",
+   "num": 16075,
+   "reteg": "$PART_R16_KI14-RAIL-04˙0˙0¨0000˙0¨#0¨16075",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1638,
+     82.0,
+     300,
+     1044,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D4-L",
+   "num": 16076,
+   "reteg": "$PART_R16_KI16-D4-L˙0˙0¨LLLL˙0¨#0¨16076",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1644,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D4-R",
+   "num": 16077,
+   "reteg": "$PART_R16_KI16-D4-R˙0˙0¨LLLL˙0¨#0¨16077",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2661,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D4-B",
+   "num": 16078,
+   "reteg": "$PART_R16_KI16-D4-B˙0˙0¨LL00˙0¨#0¨16078",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1659,
+     128.0,
+     210,
+     1002,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D4-F",
+   "num": 16079,
+   "reteg": "$PART_R16_KI16-D4-F˙0˙0¨L000˙0¨#0¨16079",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1659,
+     403.0,
+     225,
+     1002,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D4-H",
+   "num": 16080,
+   "reteg": "$PART_R16_KI16-D4-H˙0˙0¨L000˙0¨#0¨16080",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1659,
+     128.0,
+     225,
+     1002,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-09",
+   "num": 16081,
+   "reteg": "$PART_R16_KI12-TV02S-09˙0˙0¨00V0˙0¨#0¨16081",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2700,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02S-10",
+   "num": 16082,
+   "reteg": "$PART_R16_KI12-TV02S-10˙0˙0¨00V0˙0¨#0¨16082",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3132,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02T2-04",
+   "num": 16083,
+   "reteg": "$PART_R16_KI12-TV02T2-04˙0˙0¨V000˙0¨#0¨16083",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2718,
+     36.0,
+     150,
+     414,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02F2-04",
+   "num": 16084,
+   "reteg": "$PART_R16_KI12-TV02F2-04˙0˙0¨FFFF˙0¨#0¨16084",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2701.5,
+     421.0,
+     151.5,
+     447,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI12-TV02H2-04",
+   "num": 16085,
+   "reteg": "$PART_R16_KI12-TV02H2-04˙0˙0¨0000˙0¨#0¨16085",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     2719,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       412.0,
+       0.0,
+       0.0
+      ],
+      [
+       412.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-11",
+   "num": 16086,
+   "reteg": "$PART_R16_KI14-BAT-11˙0˙0¨0000˙0¨#0¨16086",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2718,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-BAT-12",
+   "num": 16087,
+   "reteg": "$PART_R16_KI14-BAT-12˙0˙0¨0000˙0¨#0¨16087",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3114,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI14-RAIL-05",
+   "num": 16088,
+   "reteg": "$PART_R16_KI14-RAIL-05˙0˙0¨0000˙0¨#0¨16088",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2718,
+     82.0,
+     300,
+     414,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D5-L",
+   "num": 16089,
+   "reteg": "$PART_R16_KI16-D5-L˙0˙0¨LLLL˙0¨#0¨16089",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2724,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D5-R",
+   "num": 16090,
+   "reteg": "$PART_R16_KI16-D5-R˙0˙0¨LLLL˙0¨#0¨16090",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3111,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D5-B",
+   "num": 16091,
+   "reteg": "$PART_R16_KI16-D5-B˙0˙0¨LL00˙0¨#0¨16091",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2739,
+     128.0,
+     210,
+     372,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D5-F",
+   "num": 16092,
+   "reteg": "$PART_R16_KI16-D5-F˙0˙0¨L000˙0¨#0¨16092",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2739,
+     403.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D5-H",
+   "num": 16093,
+   "reteg": "$PART_R16_KI16-D5-H˙0˙0¨L000˙0¨#0¨16093",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2739,
+     128.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-TV02-S-01",
+   "num": 16094,
+   "reteg": "$PART_R16_KI16-M6-TV02-S-01˙0˙0¨00V0˙0¨#0¨16094",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3150,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-TV02-S-02",
+   "num": 16095,
+   "reteg": "$PART_R16_KI16-M6-TV02-S-02˙0˙0¨00V0˙0¨#0¨16095",
+   "el_kod_etalon": "00V0",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3582,
+     36.0,
+     150,
+     18,
+     382,
+     382
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-BOTTOM-03",
+   "num": 16096,
+   "reteg": "$PART_R16_KI16-M6-BOTTOM-03˙0˙0¨V000˙0¨#0¨16096",
+   "el_kod_etalon": "V000",
+   "szin": 34,
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3168,
+     36.0,
+     150,
+     414,
+     382,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-FRONT-04",
+   "num": 16097,
+   "reteg": "$PART_R16_KI16-M6-FRONT-04˙0˙0¨FFFF˙0¨#0¨16097",
+   "el_kod_etalon": "FFFF",
+   "szin": 8,
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3151.5,
+     421.0,
+     151.5,
+     447,
+     18,
+     397
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-BACK-05",
+   "num": 16098,
+   "reteg": "$PART_R16_KI16-M6-BACK-05˙0˙0¨0000˙0¨#0¨16098",
+   "el_kod_etalon": "0000",
+   "szin": 179,
+   "anyag": "M03-8",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3169,
+     56.0,
+     169
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       412.0,
+       0.0,
+       0.0
+      ],
+      [
+       412.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       236.0,
+       0.0
+      ],
+      [
+       390.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       362.0,
+       0.0
+      ],
+      [
+       22.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       236.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-BAT-06",
+   "num": 16099,
+   "reteg": "$PART_R16_KI16-M6-BAT-06˙0˙0¨0000˙0¨#0¨16099",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3168,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-BAT-07",
+   "num": 16100,
+   "reteg": "$PART_R16_KI16-M6-BAT-07˙0˙0¨0000˙0¨#0¨16100",
+   "el_kod_etalon": "0000",
+   "szin": 26,
+   "anyag": "BEECH18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3564,
+     64.0,
+     188,
+     18,
+     18,
+     212
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-M6-RAIL-08",
+   "num": 16101,
+   "reteg": "$PART_R16_KI16-M6-RAIL-08˙0˙0¨0000˙0¨#0¨16101",
+   "el_kod_etalon": "0000",
+   "szin": 240,
+   "anyag": "PLY18",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3168,
+     82.0,
+     300,
+     414,
+     18,
+     100
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D6-L",
+   "num": 16102,
+   "reteg": "$PART_R16_KI16-D6-L˙0˙0¨LLLL˙0¨#0¨16102",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3174,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D6-R",
+   "num": 16103,
+   "reteg": "$PART_R16_KI16-D6-R˙0˙0¨LLLL˙0¨#0¨16103",
+   "el_kod_etalon": "LLLL",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3561,
+     128.0,
+     197,
+     15,
+     290,
+     250
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D6-B",
+   "num": 16104,
+   "reteg": "$PART_R16_KI16-D6-B˙0˙0¨LL00˙0¨#0¨16104",
+   "el_kod_etalon": "LL00",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3189,
+     128.0,
+     210,
+     372,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D6-F",
+   "num": 16105,
+   "reteg": "$PART_R16_KI16-D6-F˙0˙0¨L000˙0¨#0¨16105",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3189,
+     403.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "KI16-D6-H",
+   "num": 16106,
+   "reteg": "$PART_R16_KI16-D6-H˙0˙0¨L000˙0¨#0¨16106",
+   "el_kod_etalon": "L000",
+   "szin": 70,
+   "anyag": "M16-DRAWER15",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3189,
+     128.0,
+     225,
+     372,
+     15,
+     222
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  }
+ ]
+}

@@ -25,11 +25,16 @@ from pathlib import Path
 
 import numpy as np
 
-HERE = Path(__file__).resolve().parent
-F1 = HERE.parent / "10_F1_adatmodell"
-F2B = HERE.parent / "30_F2b_vasalat"
-sys.path.insert(0, str(F1))
-from s16_geom import AXIS_VEC, LocalFrame, load_json  # noqa: E402
+import os
+CODE = Path(__file__).resolve().parent
+BASE = Path(os.environ["WSG_GYARTAS"]).resolve() if os.environ.get("WSG_GYARTAS") else CODE.parent
+HERE = BASE / "40_F3F4_dokumentacio"
+HERE.mkdir(exist_ok=True)
+F1 = BASE / "10_F1_adatmodell"
+F2B = BASE / "30_F2b_vasalat"
+sys.path.insert(0, str(CODE.parent / "10_F1_adatmodell"))
+from s16_geom import AXIS_VEC, LocalFrame, etalon_el_kod, load_json  # noqa: E402
+PREFIX, TAG, CIM = "S16", "S16_R15B", "WSG A-902 · S16 médiafal"
 
 TODAY = date.today().isoformat()
 STATUS = "TERVI – NEM GYÁRTÁSI KIADÁS"
@@ -72,7 +77,7 @@ def classify_holes(doc, rules, vas):
             else:
                 el = "E1" if ld[1] > 0 else "E3"
         out[r["id"]].append({"u": round(float(u), 2), "v": round(float(v), 2), "n": round(float(n), 2), "oldal": side, "el": el,
-                             "d": h["d"], "melyseg": h["melyseg"], "funkcio": h["funkcio"], "kapcsolat": h["kapcsolat"],
+                             "d": h["d"], "melyseg": h["melyseg"], "funkcio": h["funkcio"], "kapcsolat": h["kapcsolat"], "atmeno": bool(h.get("atmeno")),
                              "L": L, "W": W, "T": T})
     return out
 
@@ -83,11 +88,11 @@ def mpr_text(rec, holes, side):
     L, W, T = rec["meret"]["kesz"]["L"], rec["meret"]["kesz"]["W"], rec["meret"]["kesz"]["T"]
     ops = []
     for i, h in enumerate(holes, 1):
-        tag = f'{h["funkcio"]} {h["kapcsolat"]} TERVEZET'
+        tag = f'{h["funkcio"]} {h["kapcsolat"]}{" ATMENO" if h.get("atmeno") else ""} TERVEZET'
         if side in ("A", "B") and h["oldal"] == side:
             x = h["u"]
             y = h["v"] if side == "A" else W - h["v"]
-            ops.append(("<102 \\BohrVert\\", {"XA": x, "YA": y, "BM": "SS", "TI": h["melyseg"], "DU": h["d"], "AN": 1, "MI": 0,
+            ops.append(("<102 \\BohrVert\\", {"XA": x, "YA": y, "BM": "SS", "TI": (T + 1.0 if h.get("atmeno") else h["melyseg"]), "DU": h["d"], "AN": 1, "MI": 0,
                                               "AB": 0, "F_": "STANDARD", "EN": 1, "KM": tag}))
         elif side == "A" and h["oldal"] == "EL":
             e = h["el"]
@@ -213,7 +218,7 @@ def draw_sheet(pdf, rec, holes, src, mpr_names, blokk=()):
         (f"Anyag: {rec['anyag']['kod']} {rec['anyag']['megnevezes']} · vastagság {T:g} mm · db {rec['db']} · modul {rec['modul']} · {rec['gyartasi_tipus']}", 9, "normal"),
         (f"Kész: {L:g} × {W:g} · élzárás előtt: {m['elzaras_elotti']['L']:g} × {m['elzaras_elotti']['W']:g} · nyers: "
          f"{m['nyers']['L'] if m['nyers']['L'] is not None else '–'} × {m['nyers']['W'] if m['nyers']['W'] is not None else '–'} mm", 9, "normal"),
-        (f"Él-kód (E1-E2-E3-E4): {rec['el_kod']} · ütköző: E1+E4 · szálirány: {rec['szalirany']['helyi_tengely'] or 'nincs'} · "
+        (f"Él-kód E1-E2-E3-E4: {rec['el_kod']} · asztalos-sorrend {etalon_el_kod(rec)[0]} ({'-'.join(etalon_el_kod(rec)[1])}) · ütköző: E1+E4 · szálirány: {rec['szalirany']['helyi_tengely'] or 'nincs'} · "
          f"furat: A {sum(h['oldal'] == 'A' for h in holes)} / B {sum(h['oldal'] == 'B' for h in holes)} / él {sum(h['oldal'] == 'EL' for h in holes)}", 9, "normal"),
         (f"MPR: {', '.join(mpr_names) if mpr_names else '– (nincs furat)'} · Rev {rec['modell_revizio']} · {TODAY} · {STATUS}", 8.5, "normal"),
     ]
@@ -224,7 +229,7 @@ def draw_sheet(pdf, rec, holes, src, mpr_names, blokk=()):
         info.append(("NYITOTT: " + " ".join(rec["nyitott"])[:220], 7.5, "normal"))
     for k, (t, fs, fw) in enumerate(info):
         st.text(0.01, 0.92 - k * 0.135, t, fontsize=fs, fontweight=fw, transform=st.transAxes, va="top")
-    st.text(0.99, 0.06, "WSG A-902 · S16 médiafal · Claude (AI) / Kapusi Péter", fontsize=7, ha="right", transform=st.transAxes)
+    st.text(0.99, 0.06, f"{CIM} · Claude (AI) / Kapusi Péter", fontsize=7, ha="right", transform=st.transAxes)
     pdf.savefig(fig)
     plt.close(fig)
 
@@ -297,7 +302,7 @@ def write_labels(parts, holes_by, mpr_by, path, blokk_by=None):
             c.drawString(60 * mm, 30 * mm, "BLOKKOLÓ – NE GYÁRTSD")
             c.setFillColorRGB(0, 0, 0)
         c.setFont("DV", 5.5)
-        c.drawString(4 * mm, 3.5 * mm, f"WSG A-902 S16 · {r['modell_revizio']} · {TODAY} · TERVI – NEM GYÁRTÁSI")
+        c.drawString(4 * mm, 3.5 * mm, f"WSG A-902 {PREFIX} · {r['modell_revizio']} · {TODAY} · TERVI – NEM GYÁRTÁSI")
         # tájolás: kis téglalap az E1/E4 ütköző sarokkal
         x0, y0, w, hh = 80 * mm, 14 * mm, 15 * mm, 10 * mm
         c.rect(x0, y0, w, hh)
@@ -310,6 +315,9 @@ def write_labels(parts, holes_by, mpr_by, path, blokk_by=None):
 
 
 # ---------------------------------------------------------------------------- Excel
+
+DWGNUM = {}
+
 
 def write_excel(doc, parts, holes_by, mpr_by, vas, path):
     from openpyxl import Workbook
@@ -340,8 +348,8 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
     cols = ["Címke-ID (MPR alap)", "Megnevezés", "Modul", "Gyártási típus", "Anyag", "Anyag megnevezés", "Vastagság mm",
             "Kész hossz L", "Kész szél. W", "Élzárás előtt L", "Élzárás előtt W", "Nyers L", "Nyers W", "Db", "Szálirány",
             "A oldal", "E1", "E2", "E3", "E4", "Élanyag (élzárt élek)", "Ütköző élek", "Furat A", "Furat B", "Furat él",
-            "MPR fájlok", "Felület m²", "Élzáró fm", "Nyitott / megjegyzés"]
-    header(ws, cols, [20, 30, 13, 15, 7, 34, 9, 9, 9, 10, 10, 9, 9, 5, 9, 10, 5, 5, 5, 5, 30, 9, 7, 7, 7, 26, 9, 9, 50])
+            "MPR fájlok", "Felület m²", "Élzáró fm", "Nyitott / megjegyzés", "Élkód (asztalos-sorrend)", "DWG réteg-azonosító"]
+    header(ws, cols, [20, 30, 13, 15, 7, 34, 9, 9, 9, 10, 10, 9, 9, 5, 9, 10, 5, 5, 5, 5, 30, 9, 7, 7, 7, 26, 9, 9, 50, 14, 12])
     for r in parts:
         m = r["meret"]
         h = holes_by.get(r["id"], [])
@@ -352,7 +360,7 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
                    m["nyers"]["L"], m["nyers"]["W"], r["db"], r["szalirany"]["helyi_tengely"] or "–", r["lapoldal"]["A"],
                    el["E1"]["jel"], el["E2"]["jel"], el["E3"]["jel"], el["E4"]["jel"], "; ".join(anyag) or "–", "E1+E4",
                    sum(x["oldal"] == "A" for x in h), sum(x["oldal"] == "B" for x in h), sum(x["oldal"] == "EL" for x in h),
-                   ", ".join(mpr_by.get(r["id"], [])) or "–", None, None, " ".join(r.get("nyitott", []))])
+                   ", ".join(mpr_by.get(r["id"], [])) or "–", None, None, " ".join(r.get("nyitott", [])), etalon_el_kod(r)[0] + " (" + "-".join(etalon_el_kod(r)[1]) + ")", DWGNUM.get(r["id"])])
         i = ws.max_row
         ws[f"AA{i}"] = f"=H{i}*I{i}/1000000*N{i}"
         # élzáró folyóméter: E1/E3 a hosszél (L), E2/E4 a szélességél (W); csak a V (ABS) éleket számoljuk
@@ -365,7 +373,7 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
     for col in ("AA", "AB"):
         for i in range(2, n + 1):
             ws[f"{col}{i}"].number_format = "0.000"
-    ws.add_table(Table(displayName="Szabasjegyzek", ref=f"A1:AC{n}", tableStyleInfo=TableStyleInfo(name="TableStyleLight1", showRowStripes=True)))
+    ws.add_table(Table(displayName="Szabasjegyzek", ref=f"A1:AE{n}", tableStyleInfo=TableStyleInfo(name="TableStyleLight1", showRowStripes=True)))
     ws[f"Z{n + 2}"] = "Összesen:"
     ws[f"AA{n + 2}"] = f"=SUM(AA2:AA{n})"
     ws[f"AB{n + 2}"] = f"=SUM(AB2:AB{n})"
@@ -404,10 +412,9 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
         db = sum(w.get("db", 1) for w in vas["vasalat"] if w["tipus"] == t)
         wv.append([t, names[t], db, "f2b_vasalat.py – geometriából", "TERVI – típus/variáns műhelyi megerősítésre"])
     wv.append(["PANT talplemez", "Blum CLIP top talplemez (variáns nyitott)", cnt.get("PANT_CLIPTOP_110", 0), "f2b_vasalat.py", "TERVI"])
-    for row in [("Blum MOVENTO 760H sínpár (NL300)", "760H3000S pár + T51.7601 kapocs (R14 drawers.json)", 6, "R14 drawers.json", "NYITOTT – gyári furatkép a sín kiválasztása után"),
+    for row in ([] if PREFIX != "S16" else [("Blum MOVENTO 760H sínpár (NL300)", "760H3000S pár + T51.7601 kapocs (R14 drawers.json)", 6, "R14 drawers.json", "NYITOTT – gyári furatkép a sín kiválasztása után"),
                 ("TIP-ON BLUMOTION egység", "T60L7140 / T60L7040 (R14 drawers.json)", 6, "R14 drawers.json", "NYITOTT"),
-                ("Bal toronyajtó pánt", "szabványos CLIP top NEM építhető be (31 mm keretszár)", 6, "f2b_vasalat.py BLOKKOLÓ", "DÖNTÉS KELL: csapos/keskeny keretes pánt vagy keret szélesítése"),
-                ("Korpusz él-él illesztések kötése", "Häfele kötő / csavar (etalon: 637.76.333/351)", None, "vasalat_jelentes.md", "NYITOTT – műhelyi döntés")]:
+                ("Korpusz él-él illesztések kötése", "Häfele kötő / csavar (etalon: 637.76.333/351)", None, "vasalat_jelentes.md", "NYITOTT – műhelyi döntés")]):
         wv.append(list(row))
     for row in wv.iter_rows(min_row=2):
         for c in row:
@@ -435,7 +442,8 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
              ("Él-kód", "E1-E2-E3-E4 sorrend (E1 alsó, E2 jobb, E3 felső, E4 bal az A oldal felől). V = élzárt (ABS), F = festett, L = lakkozott, K = kárpitozott, 0 = nincs."),
              ("Asztalos konvenció", "Az etalon él-kódjának (pl. V0VV) sorrendje és az 'A' jel jelentése még nincs megerősítve – a válasz után átállítható."),
              ("MPR", "woodWOP TERVEZET (VERSION 4.0 formátum, csak furatok). Gépre kész csak az asztalos minta-MPR-je, szerszámtáblája és próbadarab után."),
-             ("BLOKKOLÓ", "Bal toronyajtó (T-DOOR-L): 31 mm-es keretszár, Ø35 pántkehely nem fér – pántmegoldás vagy keretszélesítés kell."),
+             ("Asztalos él-kód", "A DWG rétegnevében és a Szabásjegyzék 'Élkód (asztalos)' oszlopában: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2, a coo1.dwg mintájára. FELTEVÉS, az asztalos megerősítéséig."),
+             ("Pánt (S16)", "R15B: bal toronyajtó keretszára 50/50 mm → Blum 70T3750 (rugó nélküli inset, TIP-ON) + 177H3100E, B = 3 mm. Péter 2026-10-30 megbízásából Claude döntése, visszafordítható."),
              ("Nyitott", "Lapanyag/dekor termék és táblaméret; élzáró vastagság és előmarás; polctartó típus; fiók sín furatképe; LED-profilok; helyszíni felmérés.")]
     for k, v in items:
         wn.append([k, v])
@@ -456,7 +464,14 @@ def main():
     font_manager.fontManager.addfont(FONT)
     matplotlib.rcParams["font.family"] = "DejaVu Sans"
 
+    global PREFIX, TAG, CIM
     doc, rules, vas, src = load_all()
+    PREFIX = doc["alkatreszek"][0]["cimke_id"].split("_")[0]
+    ct = BASE / "20_F2_cad" / "cad_terv.json"
+    if ct.exists():
+        DWGNUM.update({it["id"]: f"#{it['num']}" for it in load_json(ct)["alkatreszek"]})
+    TAG = f"{PREFIX}_{doc['modell_revizio'].split('-')[1]}"
+    CIM = os.environ.get("WSG_CIM") or f"WSG A-902 · {PREFIX} médiafal"
     holes_by = classify_holes(doc, rules, vas)
     blokk_by = defaultdict(list)
     for pr in vas["problemak"]:
@@ -478,13 +493,13 @@ def main():
                 mpr_by.setdefault(r["id"], []).append(fn)
                 mpr_counts[fn] = nops
 
-    with PdfPages(HERE / "S16_R15_alkatreszlapok.pdf") as pdf:
+    with PdfPages(HERE / f"{TAG}_alkatreszlapok.pdf") as pdf:
         for r in parts:
             draw_sheet(pdf, r, holes_by.get(r["id"], []), src, mpr_by.get(r["id"], []), blokk_by.get(r["id"], []))
     for r in parts:
         write_dxf(r, holes_by.get(r["id"], []), src, HERE / "dxf_alkatreszek" / f"{r['cimke_id']}.dxf")
-    write_labels(parts, holes_by, mpr_by, HERE / "S16_R15_cimkek.pdf", blokk_by)
-    write_excel(doc, parts, holes_by, mpr_by, vas, HERE / "S16_R15_szabasjegyzek.xlsx")
+    write_labels(parts, holes_by, mpr_by, HERE / f"{TAG}_cimkek.pdf", blokk_by)
+    write_excel(doc, parts, holes_by, mpr_by, vas, HERE / f"{TAG}_szabasjegyzek.xlsx")
 
     # ------------------------------------------------ visszaolvasó QA
     qa = []
@@ -502,7 +517,7 @@ def main():
                 x, y, ti, du = float(o["XA"]), float(o["YA"]), float(o["TI"]), float(o["DU"])
                 if not (-1e-6 <= x <= L + 1e-6 and -1e-6 <= y <= W + 1e-6):
                     bad.append(f"{fn.name}: furat a darabon kívül X{x} Y{y}")
-                if "BohrVert" in o["_op"] and ti >= T:
+                if "BohrVert" in o["_op"] and ti >= T and "ATMENO" not in o.get("KM", ""):
                     bad.append(f"{fn.name}: függőleges furat mélység {ti} ≥ vastagság {T}")
                 if "BohrHoriz" in o["_op"]:
                     za = float(o["ZA"])
@@ -510,23 +525,23 @@ def main():
                         bad.append(f"{fn.name}: vízszintes furat ZA {za} kilóg a lapvastagságból")
     qa.append(("MPR-ből visszaolvasott furat", total_v, "MPR műveletek", nmpr, nmpr == total_v))
     import openpyxl
-    wb = openpyxl.load_workbook(HERE / "S16_R15_szabasjegyzek.xlsx")
+    wb = openpyxl.load_workbook(HERE / f"{TAG}_szabasjegyzek.xlsx")
     xl_rows = wb["Szabásjegyzék"].max_row - 1 - 0
-    xl_parts = sum(1 for r in wb["Szabásjegyzék"].iter_rows(min_row=2, values_only=True) if r[0] and str(r[0]).startswith("S16_"))
+    xl_parts = sum(1 for r in wb["Szabásjegyzék"].iter_rows(min_row=2, values_only=True) if r[0] and str(r[0]).startswith(PREFIX + "_"))
     xl_holes = wb["Furatok"].max_row - 1
     qa.append(("Excel alkatrész-sor", len(parts), "Szabásjegyzék", xl_parts, xl_parts == len(parts)))
     qa.append(("Excel furat-sor", total_v, "Furatok lap", xl_holes, xl_holes == total_v))
     neg = [r["cimke_id"] for r in parts for k in ("L", "W", "T") if not (isinstance(r["meret"]["kesz"][k], (int, float)) and r["meret"]["kesz"][k] > 0)]
     qa.append(("Negatív/nulla méret", 0, "kész méretek", len(neg), not neg))
     from pypdf import PdfReader
-    npages = len(PdfReader(str(HERE / "S16_R15_alkatreszlapok.pdf")).pages)
-    nlab = len(PdfReader(str(HERE / "S16_R15_cimkek.pdf")).pages)
+    npages = len(PdfReader(str(HERE / f"{TAG}_alkatreszlapok.pdf")).pages)
+    nlab = len(PdfReader(str(HERE / f"{TAG}_cimkek.pdf")).pages)
     qa.append(("Alkatrészlap (PDF oldal)", len(parts), "oldal", npages, npages == len(parts)))
     qa.append(("Címke (PDF oldal)", len(parts), "oldal", nlab, nlab == len(parts)))
     ndxf = len(list((HERE / "dxf_alkatreszek").glob("*.dxf")))
     qa.append(("Alkatrész-DXF", len(parts), "fájl", ndxf, ndxf == len(parts)))
     ok = all(q[4] for q in qa) and not bad
-    L = [f"# S16 F3–F4 dokumentáció – visszaolvasó QA ({doc['modell_revizio']}, {TODAY})", "",
+    L = [f"# {PREFIX} F3–F4 dokumentáció – visszaolvasó QA ({doc['modell_revizio']}, {TODAY})", "",
          f"**Eredmény: {'MINDEN EGYEZIK' if ok else 'ELTÉRÉS VAN'}**", "", "| Ellenőrzés | elvárt | forrás | kapott | OK |", "|---|---|---|---|---|"]
     L += [f"| {a} | {b} | {c} | {d} | {'✓' if e else '✗'} |" for a, b, c, d, e in qa]
     L += ["", f"MPR-fájlok: {len(mpr_counts)} db · műveletek: {nmpr} · tiltott/ismeretlen kulcs: {sum('ismeretlen' in b for b in bad)}", ""]

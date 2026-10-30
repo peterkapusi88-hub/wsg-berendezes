@@ -1,0 +1,251 @@
+{
+  "circuits": [
+    {
+      "id": "AMB-TOP",
+      "length_mm": 2650,
+      "wpm": 8,
+      "path": [
+        [
+          930,
+          380,
+          2870
+        ],
+        [
+          3580,
+          380,
+          2870
+        ]
+      ],
+      "control": "Sunricher DIM1",
+      "watts": 21.2,
+      "amps": 0.8833333333333333,
+      "voltage": 24
+    },
+    {
+      "id": "AMB-LOW",
+      "length_mm": 3550,
+      "wpm": 8,
+      "path": [
+        [
+          25,
+          30,
+          150
+        ],
+        [
+          3575,
+          30,
+          150
+        ]
+      ],
+      "control": "Sunricher DIM2",
+      "watts": 28.4,
+      "amps": 1.1833333333333333,
+      "voltage": 24
+    },
+    {
+      "id": "AMB-BRONZE",
+      "length_mm": 2300,
+      "wpm": 8,
+      "path": [
+        [
+          729,
+          339,
+          565
+        ],
+        [
+          729,
+          339,
+          2865
+        ]
+      ],
+      "control": "Sunricher DIM3 / oldalról a bronzbetétre",
+      "watts": 18.4,
+      "amps": 0.7666666666666666,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D1",
+      "length_mm": 600,
+      "wpm": 4.8,
+      "path": [
+        [
+          50,
+          29,
+          525
+        ],
+        [
+          670,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 2.88,
+      "amps": 0.12,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D2",
+      "length_mm": 300,
+      "wpm": 4.8,
+      "path": [
+        [
+          770,
+          29,
+          525
+        ],
+        [
+          1120,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 1.44,
+      "amps": 0.06,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D3",
+      "length_mm": 300,
+      "wpm": 4.8,
+      "path": [
+        [
+          1220,
+          29,
+          525
+        ],
+        [
+          1570,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 1.44,
+      "amps": 0.06,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D4",
+      "length_mm": 950,
+      "wpm": 4.8,
+      "path": [
+        [
+          1670,
+          29,
+          525
+        ],
+        [
+          2650,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 4.56,
+      "amps": 0.18999999999999997,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D5",
+      "length_mm": 300,
+      "wpm": 4.8,
+      "path": [
+        [
+          2750,
+          29,
+          525
+        ],
+        [
+          3100,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 1.44,
+      "amps": 0.06,
+      "voltage": 24
+    },
+    {
+      "id": "INT-D6",
+      "length_mm": 300,
+      "wpm": 4.8,
+      "path": [
+        [
+          3200,
+          29,
+          525
+        ],
+        [
+          3550,
+          29,
+          525
+        ]
+      ],
+      "control": "833.89.253 saját nyitásérzékelő",
+      "watts": 1.44,
+      "amps": 0.06,
+      "voltage": 24
+    },
+    {
+      "id": "INT-T1",
+      "length_mm": 2250,
+      "wpm": 4.8,
+      "path": [
+        [
+          342,
+          6,
+          600
+        ],
+        [
+          342,
+          6,
+          2850
+        ]
+      ],
+      "control": "833.89.253 / ajtónként külön",
+      "watts": 10.799999999999999,
+      "amps": 0.44999999999999996,
+      "voltage": 24
+    },
+    {
+      "id": "INT-T2",
+      "length_mm": 2250,
+      "wpm": 4.8,
+      "path": [
+        [
+          378,
+          6,
+          600
+        ],
+        [
+          378,
+          6,
+          2850
+        ]
+      ],
+      "control": "833.89.253 / ajtónként külön",
+      "watts": 10.799999999999999,
+      "amps": 0.44999999999999996,
+      "voltage": 24
+    }
+  ],
+  "power_W": 102.8,
+  "supply_W": 151.2,
+  "supply": "LPV-150-24",
+  "internal_sensors": 8,
+  "internal_LED": "Häfele Loox5 LED3040 833.76.300,24V4.8W/m2700K",
+  "sensor": "833.89.253 / profil2194; gyári csatlakozó és HU cikkszám visszaigazolása kell",
+  "cable": "24V osztó → külön ágankénti védelem → ajtószenzor → álló korpuszprofil.8ág,2m gyári szenzorkábel +méretezett hosszabbítás; nincs kábel a mozgó fiókon.",
+  "service": "Bal és jobb torony alsó rekeszének hátsó bontható lemeze. Elölről kiemelhető; 230Vcsatlakozások külön szigetelt dobozban, nem a tárolt holmik között.",
+  "space_loss": "A torony két legalsó rekeszében a hátsó Y260..362 sáv szervizterület; az ide rakható tárgyak mélysége legfeljebb240mm.",
+  "conditions": [
+    "Zárt és nyitott frontszenzorpróba matt bronz felülettel",
+    "LEDhűtés és tápegység teljes terhelésű hőpróba",
+    "CV csatlakozás/vezeték/védelem villanyszerelői ellenőrzés",
+    "300mm kihúzáskor a fiókba nem érhet profil vagy szenzor",
+    "belső fény nem a nappali dimmerével együtt kapcsol"
+  ]
+}

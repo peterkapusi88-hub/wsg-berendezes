@@ -1,0 +1,60 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="18"
+B="212"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="R16_KI14-BAT-09 A-OLDAL FELUL - R16-J-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="0"
+YA="37"
+ZA="9"
+BM="XP"
+TI="12"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="HATLAP_LEC R16H0672 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="117"
+ZA="9"
+BM="XP"
+TI="12"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="HATLAP_LEC R16H0674 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="197"
+ZA="9"
+BM="XP"
+TI="12"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="HATLAP_LEC R16H0676 TERVEZET"
+

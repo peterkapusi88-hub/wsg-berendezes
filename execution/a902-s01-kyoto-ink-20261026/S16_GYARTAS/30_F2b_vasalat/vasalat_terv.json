@@ -1,5 +1,5 @@
 {
- "modell_revizio": "S16-R15-GY-v1",
+ "modell_revizio": "S16-R15B-GY-v1",
  "datum": "2026-10-30",
  "generator": "f2b_vasalat.py",
  "parameterek": {
@@ -29,7 +29,7 @@
   "pant": {
    "kehely_d": 35.0,
    "kehely_melyseg": 13.0,
-   "B": 4.0,
+   "B": 3.0,
    "csavar_d": 8.0,
    "csavar_melyseg": 11.5,
    "csavar_koz": 45.0,
@@ -41,7 +41,9 @@
    "veg_tav": 100.0,
    "talp_magassag": 50.0,
    "talp_kiallas": 12.0,
-   "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer"
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer; 71T3750 = inset 110° csavaros (sfs.ch), 70T3750 = rugó nélküli (TIP-ON) változat; etalon km.dwg: 71T3750 + 177H3100E"
   },
   "min_maradek": 5.0
  },
@@ -6269,10 +6271,700 @@
    ]
   },
   {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    271.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:0",
+   "helyi": [
+    20.5,
+    100.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    248.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:0",
+   "helyi": [
+    30.0,
+    77.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    293.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:0",
+   "helyi": [
+    30.0,
+    122.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    255.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:0",
+   "helyi": [
+    300.0,
+    5.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    287.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:0",
+   "helyi": [
+    300.0,
+    37.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    767.6
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:1",
+   "helyi": [
+    20.5,
+    596.6,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    745.1
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:1",
+   "helyi": [
+    30.0,
+    574.1,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    790.1
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:1",
+   "helyi": [
+    30.0,
+    619.1,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    751.6
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:1",
+   "helyi": [
+    300.0,
+    501.6,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    783.6
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:1",
+   "helyi": [
+    300.0,
+    533.6,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    1232.2
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:2",
+   "helyi": [
+    20.5,
+    1061.2,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    1209.7
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:2",
+   "helyi": [
+    30.0,
+    1038.7,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    1254.7
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:2",
+   "helyi": [
+    30.0,
+    1083.7,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    1216.2
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:2",
+   "helyi": [
+    300.0,
+    966.2,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    1248.2
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:2",
+   "helyi": [
+    300.0,
+    998.2,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    1792.8
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:3",
+   "helyi": [
+    20.5,
+    1621.8,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    1770.3
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:3",
+   "helyi": [
+    30.0,
+    1599.3,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    1815.3
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:3",
+   "helyi": [
+    30.0,
+    1644.3,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    1776.8
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:3",
+   "helyi": [
+    300.0,
+    1526.8,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    1808.8
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:3",
+   "helyi": [
+    300.0,
+    1558.8,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    2257.4
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:4",
+   "helyi": [
+    20.5,
+    2086.4,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    2234.9
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:4",
+   "helyi": [
+    30.0,
+    2063.9,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    2279.9
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:4",
+   "helyi": [
+    30.0,
+    2108.9,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    2241.4
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:4",
+   "helyi": [
+    300.0,
+    1991.4,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    2273.4
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:4",
+   "helyi": [
+    300.0,
+    2023.4,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    41.5,
+    382.0,
+    2754.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-L:PANT:5",
+   "helyi": [
+    20.5,
+    2583.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    2731.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:5",
+   "helyi": [
+    30.0,
+    2560.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "cel": "B oldal",
+   "start": [
+    51.0,
+    382.0,
+    2776.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-L:PANT:5",
+   "helyi": [
+    30.0,
+    2605.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    2738.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:5",
+   "helyi": [
+    300.0,
+    2488.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    340.0,
+    2770.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-L:PANT:5",
+   "helyi": [
+    300.0,
+    2520.0,
+    0.0
+   ]
+  },
+  {
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    827.5,
+    828.5,
     382.0,
     673.0
    ],
@@ -6286,7 +6978,7 @@
    "funkcio": "PANTKEHELY",
    "kapcsolat": "T-DOOR-R:PANT:0",
    "helyi": [
-    391.0,
+    392.0,
     100.0,
     0.0
    ]
@@ -6295,7 +6987,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     650.5
    ],
@@ -6309,7 +7001,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:0",
    "helyi": [
-    381.5,
+    382.5,
     77.5,
     0.0
    ]
@@ -6318,7 +7010,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     695.5
    ],
@@ -6332,7 +7024,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:0",
    "helyi": [
-    381.5,
+    382.5,
     122.5,
     0.0
    ]
@@ -6387,7 +7079,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    827.5,
+    828.5,
     382.0,
     1193.25
    ],
@@ -6401,7 +7093,7 @@
    "funkcio": "PANTKEHELY",
    "kapcsolat": "T-DOOR-R:PANT:1",
    "helyi": [
-    391.0,
+    392.0,
     620.25,
     0.0
    ]
@@ -6410,7 +7102,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     1170.75
    ],
@@ -6424,7 +7116,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:1",
    "helyi": [
-    381.5,
+    382.5,
     597.75,
     0.0
    ]
@@ -6433,7 +7125,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     1215.75
    ],
@@ -6447,7 +7139,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:1",
    "helyi": [
-    381.5,
+    382.5,
     642.75,
     0.0
    ]
@@ -6502,7 +7194,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    827.5,
+    828.5,
     382.0,
     1809.5
    ],
@@ -6516,7 +7208,7 @@
    "funkcio": "PANTKEHELY",
    "kapcsolat": "T-DOOR-R:PANT:2",
    "helyi": [
-    391.0,
+    392.0,
     1236.5,
     0.0
    ]
@@ -6525,7 +7217,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     1787.0
    ],
@@ -6539,7 +7231,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:2",
    "helyi": [
-    381.5,
+    382.5,
     1214.0,
     0.0
    ]
@@ -6548,7 +7240,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     1832.0
    ],
@@ -6562,7 +7254,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:2",
    "helyi": [
-    381.5,
+    382.5,
     1259.0,
     0.0
    ]
@@ -6617,7 +7309,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    827.5,
+    828.5,
     382.0,
     2233.75
    ],
@@ -6631,7 +7323,7 @@
    "funkcio": "PANTKEHELY",
    "kapcsolat": "T-DOOR-R:PANT:3",
    "helyi": [
-    391.0,
+    392.0,
     1660.75,
     0.0
    ]
@@ -6640,7 +7332,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     2211.25
    ],
@@ -6654,7 +7346,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:3",
    "helyi": [
-    381.5,
+    382.5,
     1638.25,
     0.0
    ]
@@ -6663,7 +7355,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     2256.25
    ],
@@ -6677,7 +7369,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:3",
    "helyi": [
-    381.5,
+    382.5,
     1683.25,
     0.0
    ]
@@ -6732,7 +7424,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    827.5,
+    828.5,
     382.0,
     2754.0
    ],
@@ -6746,7 +7438,7 @@
    "funkcio": "PANTKEHELY",
    "kapcsolat": "T-DOOR-R:PANT:4",
    "helyi": [
-    391.0,
+    392.0,
     2181.0,
     0.0
    ]
@@ -6755,7 +7447,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     2731.5
    ],
@@ -6769,7 +7461,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:4",
    "helyi": [
-    381.5,
+    382.5,
     2158.5,
     0.0
    ]
@@ -6778,7 +7470,7 @@
    "alkatresz": "T-DOOR-R",
    "cel": "B oldal",
    "start": [
-    818.0,
+    819.0,
     382.0,
     2776.5
    ],
@@ -6792,7 +7484,7 @@
    "funkcio": "PANT_DUBEL",
    "kapcsolat": "T-DOOR-R:PANT:4",
    "helyi": [
-    381.5,
+    382.5,
     2203.5,
     0.0
    ]
@@ -8192,9 +8884,88 @@
   },
   {
    "tipus": "PANT_CLIPTOP_110",
-   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
    "pozicio": [
-    827.5,
+    41.5,
+    382.0,
+    271.0
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:0"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    41.5,
+    382.0,
+    767.6
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:1"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    41.5,
+    382.0,
+    1232.2
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:2"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    41.5,
+    382.0,
+    1792.8
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:3"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    41.5,
+    382.0,
+    2257.4
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:4"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    41.5,
+    382.0,
+    2754.0
+   ],
+   "ajto": "T-DOOR-L",
+   "korpusz": "T-L",
+   "kapcsolat": "T-DOOR-L:PANT:5"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+   "pozicio": [
+    828.5,
     382.0,
     673.0
    ],
@@ -8204,9 +8975,10 @@
   },
   {
    "tipus": "PANT_CLIPTOP_110",
-   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
    "pozicio": [
-    827.5,
+    828.5,
     382.0,
     1193.25
    ],
@@ -8216,9 +8988,10 @@
   },
   {
    "tipus": "PANT_CLIPTOP_110",
-   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
    "pozicio": [
-    827.5,
+    828.5,
     382.0,
     1809.5
    ],
@@ -8228,9 +9001,10 @@
   },
   {
    "tipus": "PANT_CLIPTOP_110",
-   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
    "pozicio": [
-    827.5,
+    828.5,
     382.0,
     2233.75
    ],
@@ -8240,9 +9014,10 @@
   },
   {
    "tipus": "PANT_CLIPTOP_110",
-   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+   "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
    "pozicio": [
-    827.5,
+    828.5,
     382.0,
     2754.0
    ],
@@ -8677,32 +9452,6 @@
    "szakasz_mm": 337.0
   }
  ],
- "problemak": [
-  {
-   "sulyossag": "BLOKKOLO",
-   "alkatresz": "T-DOOR-L",
-   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=768 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
-  },
-  {
-   "sulyossag": "BLOKKOLO",
-   "alkatresz": "T-DOOR-L",
-   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=1232 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
-  },
-  {
-   "sulyossag": "BLOKKOLO",
-   "alkatresz": "T-DOOR-L",
-   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=1793 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
-  },
-  {
-   "sulyossag": "BLOKKOLO",
-   "alkatresz": "T-DOOR-L",
-   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=2257 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
-  },
-  {
-   "sulyossag": "BLOKKOLO",
-   "alkatresz": "T-DOOR-L",
-   "uzenet": "0/6 pánt helyezhető el szabványos CLIP top-pal"
-  }
- ],
+ "problemak": [],
  "statusz": "TERVI – vasalat típusok és pántoldal műhelyi/tulajdonosi megerősítésre"
 }

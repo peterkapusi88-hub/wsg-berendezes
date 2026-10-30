@@ -1,0 +1,51 @@
+[
+ [
+  "BEECH18",
+  "18×18 mm bükk léc (hátlaprögzítő)",
+  "R16 parts.json"
+ ],
+ [
+  "M01",
+  "18 mm MDF, matt bronzbarna 2KPU festés (alsó frontok, összefüggő fedő)",
+  "R16 face_finishes.json / 00_OLVASD_EL: alsó front bronzbarna; kód az R12–R16 alkatrészlistából"
+ ],
+ [
+  "M01+nyomat",
+  "18 mm MDF, bronzbarna matt alap + tusgrafika nyomott/UV réteg (toronyajtók)",
+  "R16 materials.json M16-TOWER"
+ ],
+ [
+  "M02",
+  "18 mm MDF hordozó + Vescom Bely+Print 1040.01 textilhatású burkolat (dekor panel)",
+  "R16 materials.json M16-WALL"
+ ],
+ [
+  "M03",
+  "18 mm laminált bútorlap (korpusz belső) – dekor nyitott",
+  "R16 face_finishes.json: interior M03; R12 OLVASD_EL: tervezett 1 mm élzárás"
+ ],
+ [
+  "M03-8",
+  "8 mm hátlap, M03 korpuszdekorban",
+  "R16 parts.json: TV01-H/TV02-H2 M03 kóddal, t = 8 mm"
+ ],
+ [
+  "M16-BRONZE",
+  "18mm MDF hordozó + kétoldali lezárás + matt bronzbarna 2KPU felület",
+  "200x2330mm; frontY382;18mm szerelőtér a fal előtt",
+  "Színminta: NCS S7005-Y20R barnás alap,5–10GU cél60fokon; ez tervezett színrecept, nem gyártói rendelési kód. Bronzos hatást a2700Kfény ad; fémcsillám csak mintajóváhagyással.",
+  "Az alsó frontokkal azonos színminta/batch; nem fényes rézcsík. AlternatívaEGGERF528ST20, de szálcsiszolt és fényesebb lehet."
+ ],
+ [
+  "M16-DRAWER15",
+  "15mm nyír rétegelt lemez,csiszolt él,vízbázisú matt lakk",
+  "30fiókdobozalkatrész;testoldal≤16mm",
+  "Lapvastagság és sűrűség valódi beszállítói mintán ellenőrizendő.",
+  "Névleges700kg/m³ tömegbecslés; csavarozott kötés és teljes terhelésű próba."
+ ],
+ [
+  "PLY18",
+  "18 mm rétegelt lemez merevítő keresztléc",
+  "R16 parts.json"
+ ]
+]

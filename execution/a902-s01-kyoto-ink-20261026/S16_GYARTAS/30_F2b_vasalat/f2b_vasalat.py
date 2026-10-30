@@ -36,10 +36,12 @@ P = {
               "min_el": 60.0, "forras": "etalon (km/coo1): Ø8×25/35 bordás tipli; 32-es rendszer"},
     "polc": {"d": 5.0, "melyseg": 10.0, "elol": 37.0, "hatul": 37.0, "z_eltolas": -6.0, "lepes": [-32, 0, 32],
              "forras": "becslés – a polctartó (etalon: de_11090) típusától függ"},
-    "pant": {"kehely_d": 35.0, "kehely_melyseg": 13.0, "B": 4.0, "csavar_d": 8.0, "csavar_melyseg": 11.5,
+    "pant": {"kehely_d": 35.0, "kehely_melyseg": 13.0, "B": 3.0, "csavar_d": 8.0, "csavar_melyseg": 11.5,
              "csavar_koz": 45.0, "csavar_eltolas": 9.5, "talp_elol": 37.0, "talp_koz": 32.0, "talp_d": 5.0,
              "talp_melyseg": 12.0, "veg_tav": 100.0, "talp_magassag": 50.0, "talp_kiallas": 12.0,
-             "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer"},
+             "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750", "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+             "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer; "
+                       "71T3750 = inset 110° csavaros (sfs.ch), 70T3750 = rugó nélküli (TIP-ON) változat; etalon km.dwg: 71T3750 + 177H3100E"},
     "min_maradek": 5.0,
 }
 
@@ -167,6 +169,16 @@ def main():
         from s16_geom import largest_polygon
         door_poly = largest_polygon(Polygon(sd["outline"])) if sd.get("outline") else None
         cut_polys = [largest_polygon(Polygon(c["outline"])) for c in sd.get("cutouts", [])]
+        # az ajtó hátoldalára szerelt alkatrészek (pl. kazettahát) lenyomata az ajtó helyi U,V síkjában
+        back_polys = []
+        for oid, osrc in src.items():
+            ob = osrc["box"]
+            if oid == did or abs((ob[1] + ob[4]) - y) > 0.5:
+                continue
+            if ob[0] < x + dx and ob[0] + ob[3] > x and ob[2] < z + dz and ob[2] + ob[5] > z:
+                pl = (Polygon([(a + ob[0] - x, b + ob[2] - z) for a, b in osrc["outline"]]) if osrc.get("outline") and osrc.get("axis") == "y"
+                      else Polygon([(ob[0] - x, ob[2] - z), (ob[0] + ob[3] - x, ob[2] - z), (ob[0] + ob[3] - x, ob[2] + ob[5] - z), (ob[0] - x, ob[2] + ob[5] - z)]))
+                back_polys.append((oid, largest_polygon(pl)))
         n = cfg["db"]
         vs = list(np.linspace(hp["veg_tav"], dz - hp["veg_tav"], n))
         corpus = R[cfg["korpusz"]]
@@ -197,6 +209,9 @@ def main():
             for cp in cut_polys:
                 if cp.intersects(cup):
                     bad.append(f"metszi az átmenő kivágást (keretszár {cp.bounds[0]:.0f} mm széles a pántoldalon)")
+            for oid, bp in back_polys:
+                if bp.intersects(Point(u, vloc).buffer(hp["kehely_d"] / 2 + 2.0)):
+                    bad.append(f"ütközik az ajtó hátoldali alkatrészével ({oid}, {bp.bounds[0]:.0f} mm-től)")
             if bad:
                 door_blocked = True
                 problems.append({"sulyossag": "BLOKKOLO", "alkatresz": did,
@@ -217,7 +232,7 @@ def main():
                 tp_pt = np.array([cface, front_y - hp["talp_elol"], gz + s * hp["talp_koz"] / 2])
                 holes.append(hole(cfg["korpusz"], "lap", tp_pt, -vec(into),
                                   hp["talp_d"], hp["talp_melyseg"], "PANTTALP", tag, helyi=local_of(FR[cfg["korpusz"]], tp_pt)))
-            hardware.append({"tipus": "PANT_CLIPTOP_110", "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+            hardware.append({"tipus": "PANT_CLIPTOP_110", "cikkszam": hp["cikkszam"], "talp_cikkszam": hp["talp_cikkszam"],
                              "pozicio": [round(float(c), 3) for c in cup_pt], "ajto": did, "korpusz": cfg["korpusz"], "kapcsolat": tag})
             placed += 1
         if door_blocked:

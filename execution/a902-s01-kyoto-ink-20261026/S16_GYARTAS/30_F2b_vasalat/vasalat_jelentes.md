@@ -1,12 +1,12 @@
-# S16 F2b – vasalat- és furatterv (S16-R15-GY-v1)
+# S16 F2b – vasalat- és furatterv (S16-R15B-GY-v1)
 
 Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 
 | Furat-funkció | db |
 |---|---|
-| PANTKEHELY | 5 |
-| PANTTALP | 10 |
-| PANT_DUBEL | 10 |
+| PANTKEHELY | 11 |
+| PANTTALP | 22 |
+| PANT_DUBEL | 22 |
 | POLCTARTO | 120 |
 | TIPLI_EL | 75 |
 | TIPLI_LAP | 75 |
@@ -17,15 +17,10 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 | NEM_TIPLIS | 11 |
 | TIPLI | 25 |
 
-**Problémák:** {'BLOKKOLO': 5}
+**Problémák:** {}
 
 | Súlyosság | Alkatrész | Megállapítás |
 |---|---|---|
-| BLOKKOLO | T-DOOR-L | Ø35 pántkehely (B=4.0 mm) a z=768 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell |
-| BLOKKOLO | T-DOOR-L | Ø35 pántkehely (B=4.0 mm) a z=1232 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell |
-| BLOKKOLO | T-DOOR-L | Ø35 pántkehely (B=4.0 mm) a z=1793 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell |
-| BLOKKOLO | T-DOOR-L | Ø35 pántkehely (B=4.0 mm) a z=2257 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell |
-| BLOKKOLO | T-DOOR-L | 0/6 pánt helyezhető el szabványos CLIP top-pal |
 
 ## Nem tiplis kapcsolatok (külön kötés kell)
 
@@ -94,7 +89,7 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
  "pant": {
   "kehely_d": 35.0,
   "kehely_melyseg": 13.0,
-  "B": 4.0,
+  "B": 3.0,
   "csavar_d": 8.0,
   "csavar_melyseg": 11.5,
   "csavar_koz": 45.0,
@@ -106,7 +101,9 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
   "veg_tav": 100.0,
   "talp_magassag": 50.0,
   "talp_kiallas": 12.0,
-  "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer"
+  "cikkszam": "Blum CLIP top 110° rugó nélküli, inset, csavaros 70T3750",
+  "talp_cikkszam": "Blum CLIP talplemez 0 mm 177H3100E",
+  "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer; 71T3750 = inset 110° csavaros (sfs.ch), 70T3750 = rugó nélküli (TIP-ON) változat; etalon km.dwg: 71T3750 + 177H3100E"
  },
  "min_maradek": 5.0
 }

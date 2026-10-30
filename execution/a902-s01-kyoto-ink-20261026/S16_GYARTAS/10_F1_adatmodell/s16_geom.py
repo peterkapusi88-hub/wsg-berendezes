@@ -235,3 +235,19 @@ class Solid:
 
     def bbox_overlap(self, other, tol=0.0):
         return bool(np.all(self.lo < other.hi - tol) and np.all(other.lo < self.hi - tol))
+
+
+EL_PRIORITAS = {"SZABAD_ELOL": 0, "SZABAD_EGYEB": 1, "CSATLAKOZO": 2}
+
+
+def etalon_el_kod(rec):
+    """Él-kód az asztalos etalonjának (coo1.dwg) sorrendjében – FELTEVÉS, az asztalos megerősítéséig:
+    hossz-él 1 (a látszó/elülső), hossz-él 2, szél-él 1, szél-él 2. A hosszél az L ≥ W oldal; E1/E3 az U (L) irányú élek.
+    Indok: coo1 – Oldal V0VV (elöl V, hátul 0, fent/lent V), Polc/Tető V000 (csak az elülső él), Kötő VV00, Front AAAA.
+    Visszaad: (kód, élsorrend)."""
+    e = rec["elek"]
+    L, W = rec["meret"]["kesz"]["L"], rec["meret"]["kesz"]["W"]
+    hossz, szel = (["E1", "E3"], ["E4", "E2"]) if L >= W else (["E4", "E2"], ["E1", "E3"])
+    key = lambda k: (EL_PRIORITAS.get(e[k]["szerep"], 9), k)
+    order = sorted(hossz, key=key) + sorted(szel, key=key)
+    return "".join(e[k]["jel"] for k in order), order

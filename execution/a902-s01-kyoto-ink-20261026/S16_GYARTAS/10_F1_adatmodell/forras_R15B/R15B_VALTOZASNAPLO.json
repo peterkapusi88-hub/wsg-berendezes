@@ -1,0 +1,109 @@
+{
+ "revizio": "S16-R15B-GY",
+ "datum": "2026-10-30",
+ "generator": "r15b_patch.py",
+ "alap": {
+  "R15_VALTOZASNAPLO.json": "ac053b459c99c1a30d78f91fbb69d28ade848b3e64a190982a703553f8f5c6de",
+  "R15_ZART_JELENET_MM.json": "54e8a5395d85e3d7826db69fe8780ed41d826936da9a36616115c25167666b47",
+  "drawers.json": "e2562aceac7a19eeda254db8e8558acd867a803033139a09eef66409ca95b91e",
+  "layout.json": "ed8115f084fc76a831e147a4ec28ab5ee648310366fd1ce40a58b3cd08562d5f",
+  "materials.json": "65eaf826fd8827c74342dc40bc5ebd83dbcdd36796dd944377543f2ad6df579c",
+  "parts.json": "d6ac45450fb8f34032429c666c483259e5c2cfa3c0ccc2c377c0ec4b7905917c"
+ },
+ "valtozasok": [
+  {
+   "alkatresz": "T-DOOR-L",
+   "mezo": "cutouts[0].outline x",
+   "regi": [
+    31.0,
+    381.0
+   ],
+   "uj": [
+    50.0,
+    362.5
+   ],
+   "indok": "keretszár 31 → 50 mm (pántkehely Ø35, B=3 + 12 mm fal)",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "T-DOOR-L",
+   "mezo": "rear_light_rebate x",
+   "regi": [
+    46.0,
+    408.0
+   ],
+   "uj": [
+    65.0,
+    389.5
+   ],
+   "indok": "a fényfalc a kivágással együtt tolódik (6 mm perem marad)",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "T-DOOR-L-BACK",
+   "mezo": "box/outline",
+   "regi": [
+    42,
+    354,
+    250,
+    370,
+    12,
+    2525
+   ],
+   "uj": [
+    61.0,
+    354,
+    250,
+    332.5,
+    12,
+    2525
+   ],
+   "indok": "a kazetta a kivágással együtt keskenyedik (szimmetrikus 19/18,5 mm)",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TEXTILE",
+   "mezo": "box/outline",
+   "regi": [
+    47,
+    366,
+    255,
+    360,
+    8,
+    2515
+   ],
+   "uj": [
+    66.0,
+    366,
+    255,
+    322.5,
+    8,
+    2515
+   ],
+   "indok": "a kazetta a kivágással együtt keskenyedik (szimmetrikus 19/18,5 mm)",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TEXTILE-RECESSED-HOUSING",
+   "mezo": "vertices x",
+   "regi": "42…412 / 47…407",
+   "uj": "R15B tolás",
+   "indok": "jelenetobjektum a kazettával együtt",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TEXTILE-RECESSED-EMITTER",
+   "mezo": "vertices x",
+   "regi": "42…412 / 47…407",
+   "uj": "R15B tolás",
+   "indok": "jelenetobjektum a kazettával együtt",
+   "forras": "Péter 2026-10-30 („a pántozást oldd meg”) – Claude döntés, visszafordítható",
+   "statusz": "JAVITVA"
+  }
+ ]
+}

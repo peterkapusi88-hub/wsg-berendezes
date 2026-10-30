@@ -11,6 +11,7 @@ A `../10_F1_adatmodell/parts_v1.json` (R15, QA: 0 blokkoló / 0 hiba) 129 alkatr
 | `S16_R15_szerkezet.dwg` | **natív AutoCAD-modell** (AutoCAD 2018 formátum): 129 tömör test, mindegyik saját `$PART_` rétegen + `TECH_*` megmunkálás-testek | AutoCAD 2027-ben felépítve, **129/129 visszaolvasva** (`mac_futtatas/README_readback.md`) |
 | `S16_R15_szerkezet_v2.dwg` | ugyanaz, **délnyugati axonometria + realisztikus nézet** és `S16_ATTEKINTES` rajzlap 4 nézettel (elöl/bal/felül/axo) – így nyílik meg | 2026-10-30 15:04, AcCoreConsole, 129 test |
 | **`S16_R15_szerkezet_v3.dwg`** | **etalon-szintű változat:** rétegnév `$PART_<ID>˙0˙0¨<élkód>˙0¨#0¨<szám>` (mint a km.dwg), 299 `TECH_*` furattest, 205 `$ITEM_REF_*` vasalat (75 tipli, 120 polctartó, 5 pánt + talp), 4 pecsétes A4 rajzlap (áttekintés, torony, alsó sor, háttér/TV), 3 nézet laponként | AcCoreConsole 2026-10-30 15:33, **129/129 visszaolvasva** |
+| **`S16_R15B_szerkezet_v4.dwg`** | **R15B (bal ajtó keretszár 50/50 mm) + etalon-szint 2:** vasalat **cikkszámos blokként** a km.dwg mintájára (`$ITEM_REF`: TIPLI_D8_L35_BORDÁS 75, 70T3750 pánt 11; `$ART_`: 177H3100E talp 11, de_11090 polctartó 120, 760H3000S sín 12 – sematikus burkoló), **SH_STAMP** attribútumos pecsétblokk minden lapon, rétegnévben az asztalos-sorrendű élkód (hossz1-hossz2-szél1-szél2, FELTEVÉS) | AcCoreConsole 2026-10-30 16:47, **129/129 visszaolvasva** (`mac_futtatas/readback_eredmeny_R15B_v4.txt`) |
 | `S16_R15_szerkezet.lsp` | AutoLISP (ActiveX nélkül) – interaktív AutoCAD-hez | generálva |
 | `S16_R15_build.scr`, `S16_R15_smoke.scr` | ugyanaz AcCoreConsole-szkriptként (háttérben, képernyő nélkül fut) | ez futott |
 | `S16_R15_elonezet.dxf` | ugyanaz MESH-ként, bárhol megnyitható előnézet | kész – nem gyártási modell (háló, nem tömör test) |
@@ -41,3 +42,7 @@ Tanulságok (2026-10-30): (a) a `-help` kapcsoló interaktív parancssort nyit �
 ## Ami még nincs benne (2. fázis b)
 
 Gyári vasalat-geometria (Blum CLIP top pánt + talp, MOVENTO sín, TIP-ON, kötőelemek) és furatképek; fényprofilok. Ezek a Blum/Häfele gyári CAD-adatából jönnek, nem kitalálva.
+
+## v4 (2026-10-30 este)
+
+Ugyanez a szkript paraméterezve más szekrényre: `WSG_GYARTAS=../R16_GYARTAS python3 f2_cad_export.py` → `R16_GYARTAS/20_F2_cad/R16_J_szerkezet_v4.dwg` (106/106 visszaolvasva). Futtatás a Macen: `mac_futtatas/WSG_v4_build.command` (mindkét szekrény egymás után). A DWG→PDF nyomtatás AcCoreConsole-ban nem működik (a `-PLOT` a kimeneti eszköznél leáll, a motor összeomlik) – a rajzlapok a DWG layoutjaiban vannak, PDF-et az asztalos AutoCAD-je nyomtat.
