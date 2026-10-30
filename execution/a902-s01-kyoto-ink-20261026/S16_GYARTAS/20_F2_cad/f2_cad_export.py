@@ -36,6 +36,11 @@ from s16_geom import box_mesh, build_solid, etalon_el_kod, load_json  # noqa: E4
 PREFIX = "S16"
 SEG_MM = 1.0  # ív-mintavétel a Python-oldali ellenőrzéshez
 
+# valós (render-) színek: a materials.json hex-értéke; ahol nincs (R16), KÖZELÍTŐ képernyőszín a leírásból – nem színminta
+SZIN_KOZELITO = {"M01": "#5e5247", "M01+nyomat": "#5e5247", "M16-BRONZE": "#5e5247",   # matt bronzbarna, NCS S 7005-Y20R körül
+                 "M02": "#7a6d5e", "M03": "#504942", "M03-8": "#504942", "BEECH18": "#cfae84",
+                 "PLY18": "#c4af8b", "M16-DRAWER15": "#c4af8b"}
+VASALAT_SZIN = "140,140,140"
 COLORS = {"M01": 8, "M02": 250, "M03": 34, "M04": 41, "M05": 51, "M07": 42, "M08": 9, "M10": 254, "M11": 250, "M12": 1}
 
 
@@ -81,12 +86,27 @@ def dedupe(pts, tol=1e-3):
 
 # ------------------------------------------------------------------ építési terv
 
+def _rgb(hx):
+    if not hx:
+        return None
+    return '"' + ",".join(str(int(hx[i:i + 2], 16)) for i in (1, 3, 5)) + '"'
+
+
 def make_plan(doc, src_parts, rules):
     src = {p["id"]: p for p in src_parts}
     # etalon (km.dwg): $PART_<név>˙0˙0¨<élkód>˙0¨#0¨<azonosító>
     tpl = rules.get("cad", {}).get("reteg_minta", "$PART_{cimke_id}\u02d90\u02d90\u00a8{el_kod}\u02d90\u00a8#0\u00a8{num}")
     num0 = rules.get("cad", {}).get("azonosito_kezdet", 16001)
     plan, notes = [], []
+    rgb = {}
+    try:
+        mats = load_json(F1 / doc["forras"]["mappa"] / "materials.json")
+        for row in mats:
+            hx = next((c for c in row if isinstance(c, str) and len(c) == 7 and c.startswith("#")), None)
+            if hx:
+                rgb[row[0]] = hx
+    except Exception:
+        pass
     for r in doc["alkatreszek"]:
         pid = r["id"]
         p = src[pid]
@@ -94,7 +114,8 @@ def make_plan(doc, src_parts, rules):
         num = num0 + len(plan)
         ek, _ = etalon_el_kod(r)
         item = {"id": pid, "num": num, "reteg": tpl.format(cimke_id=r["cimke_id"], el_kod=ek, id=pid, num=num), "el_kod_etalon": ek,
-                "szin": COLORS.get(r["anyag"]["kod"], 10 + (sum(map(ord, r["anyag"]["kod"])) * 37) % 240), "anyag": r["anyag"]["kod"], "test": None,
+                "szin": _rgb(rgb.get(r["anyag"]["kod"]) or SZIN_KOZELITO.get(r["anyag"]["kod"]))
+                or COLORS.get(r["anyag"]["kod"], 10 + (sum(map(ord, r["anyag"]["kod"])) * 37) % 240), "anyag": r["anyag"]["kod"], "test": None,
                 "kivonas": [], "tech": []}
         if p.get("outline") and p["axis"] == "y":
             cv = p.get("curve_vertices")
@@ -178,7 +199,9 @@ LSP_HEAD = r''';;; S16 R15 médiafal – 3D szerkezeti modell (generálva: {datu
   (command "_.UCS" "_W"))
 
 (defun s16-layer (name col)
-  (if (not (tblsearch "LAYER" name)) (command "_.-LAYER" "_M" name "_C" (itoa col) "" "") (command "_.-LAYER" "_S" name ""))
+  (if (not (tblsearch "LAYER" name))
+    (if (= (type col) 'STR) (command "_.-LAYER" "_M" name "_C" "_T" col "" "") (command "_.-LAYER" "_M" name "_C" (itoa col) "" ""))
+    (command "_.-LAYER" "_S" name ""))
   (setvar "CLAYER" name))
 
 (defun s16-box (x y z dx dy dz)
@@ -337,7 +360,7 @@ def write_dxf(plan, meshes, path):
     for it in plan:
         lay = it["reteg"].replace("#", "_")
         if lay not in doc.layers:
-            doc.layers.add(lay, color=it["szin"])
+            doc.layers.add(lay, color=it["szin"] if isinstance(it["szin"], int) else 7)
         m = meshes[it["id"]]
         e = msp.add_mesh(dxfattribs={"layer": lay})
         with e.edit_data() as md:
@@ -531,6 +554,9 @@ def hardware_lines(vas, plan, doc=None, drawers=None):
             for x, xs in ((xl, 1.0), (xr, -1.0)):
                 nm = blk("760H3000S", "SIN")
                 ins.append(f"(s16-ins {nm} \"$ART_\" {_l(_cad([x, yc, zb]))} (list 0.0 0.0 1.0) 0.0 {xs})")
+    L.append(f"(s16-layer \"$ITEM_REF\" \"{VASALAT_SZIN}\")")
+    L.append(f"(s16-layer \"$ART_\" \"{VASALAT_SZIN}\")")
+    cur = None
     lay("0", 7)
     for name, geo in BLOKKOK.items():
         L.append(f"(s16-blk {lstr(name)} (list " + " ".join(geo) + "))")
@@ -636,7 +662,9 @@ def sheet_lines(doc, open_items, sheets, cim):
         notes = [t for (sheet, t) in open_items if sheet in (lay, "*")]
         for k, t in enumerate(notes[:4]):
             L.append(_ptxt(lay, -12, 25 - 5 * k, 2.2, "MEGJEGYZÉS: " + t))
-    L.append(f'(setvar "CTAB" {lstr(sheets[0][0])})')
+    # az etalonhoz hasonlóan a modelltérben nyílik (délnyugati axonometria, valós színek); a sablon üres lapjai törölve
+    L += ['(setvar "CTAB" "Model")', '(command "_.-LAYOUT" "_D" "Layout1")', '(command "_.-LAYOUT" "_D" "Layout2")',
+          '(setvar "CTAB" "Model")', '(command "_.-VIEW" "_SWISO")', '(command "_.VSCURRENT" "_R")', '(command "_.ZOOM" "_E")']
     return L
 
 

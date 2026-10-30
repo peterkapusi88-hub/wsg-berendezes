@@ -11,7 +11,7 @@
    "num": 16001,
    "reteg": "$PART_S16_D1-L˙0˙0¨V000˙0¨#0¨16001",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -32,7 +32,7 @@
    "num": 16002,
    "reteg": "$PART_S16_D1-R˙0˙0¨V000˙0¨#0¨16002",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -53,7 +53,7 @@
    "num": 16003,
    "reteg": "$PART_S16_D1-T˙0˙0¨FF00˙0¨#0¨16003",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -74,7 +74,7 @@
    "num": 16004,
    "reteg": "$PART_S16_D1-BACK˙0˙0¨0000˙0¨#0¨16004",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -95,7 +95,7 @@
    "num": 16005,
    "reteg": "$PART_S16_D1-FRONT˙0˙0¨VVVV˙0¨#0¨16005",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "box",
@@ -116,7 +116,7 @@
    "num": 16006,
    "reteg": "$PART_S16_D1-BOX-L˙0˙0¨LLLL˙0¨#0¨16006",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -137,7 +137,7 @@
    "num": 16007,
    "reteg": "$PART_S16_D1-BOX-R˙0˙0¨LLLL˙0¨#0¨16007",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -158,7 +158,7 @@
    "num": 16008,
    "reteg": "$PART_S16_D1-BOX-F˙0˙0¨L000˙0¨#0¨16008",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -179,7 +179,7 @@
    "num": 16009,
    "reteg": "$PART_S16_D1-BOX-H˙0˙0¨L000˙0¨#0¨16009",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -200,7 +200,7 @@
    "num": 16010,
    "reteg": "$PART_S16_D1-BOX-B˙0˙0¨LL00˙0¨#0¨16010",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -221,7 +221,7 @@
    "num": 16011,
    "reteg": "$PART_S16_D2-L˙0˙0¨V0VV˙0¨#0¨16011",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -242,7 +242,7 @@
    "num": 16012,
    "reteg": "$PART_S16_D2-R˙0˙0¨V0VV˙0¨#0¨16012",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -263,7 +263,7 @@
    "num": 16013,
    "reteg": "$PART_S16_D2-B˙0˙0¨V000˙0¨#0¨16013",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -284,7 +284,7 @@
    "num": 16014,
    "reteg": "$PART_S16_D2-T˙0˙0¨FF00˙0¨#0¨16014",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -305,7 +305,7 @@
    "num": 16015,
    "reteg": "$PART_S16_D2-BACK˙0˙0¨0000˙0¨#0¨16015",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -326,7 +326,7 @@
    "num": 16016,
    "reteg": "$PART_S16_D2-FRONT˙0˙0¨VVVV˙0¨#0¨16016",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "box",
@@ -347,7 +347,7 @@
    "num": 16017,
    "reteg": "$PART_S16_D2-BOX-L˙0˙0¨LLLL˙0¨#0¨16017",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -368,7 +368,7 @@
    "num": 16018,
    "reteg": "$PART_S16_D2-BOX-R˙0˙0¨LLLL˙0¨#0¨16018",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -389,7 +389,7 @@
    "num": 16019,
    "reteg": "$PART_S16_D2-BOX-F˙0˙0¨L000˙0¨#0¨16019",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -410,7 +410,7 @@
    "num": 16020,
    "reteg": "$PART_S16_D2-BOX-H˙0˙0¨L000˙0¨#0¨16020",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -431,7 +431,7 @@
    "num": 16021,
    "reteg": "$PART_S16_D2-BOX-B˙0˙0¨LL00˙0¨#0¨16021",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -452,7 +452,7 @@
    "num": 16022,
    "reteg": "$PART_S16_D3-L˙0˙0¨V0VV˙0¨#0¨16022",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -473,7 +473,7 @@
    "num": 16023,
    "reteg": "$PART_S16_D3-R˙0˙0¨V0VV˙0¨#0¨16023",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -494,7 +494,7 @@
    "num": 16024,
    "reteg": "$PART_S16_D3-B˙0˙0¨V000˙0¨#0¨16024",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -515,7 +515,7 @@
    "num": 16025,
    "reteg": "$PART_S16_D3-T˙0˙0¨FF00˙0¨#0¨16025",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -536,7 +536,7 @@
    "num": 16026,
    "reteg": "$PART_S16_D3-BACK˙0˙0¨0000˙0¨#0¨16026",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -557,7 +557,7 @@
    "num": 16027,
    "reteg": "$PART_S16_D3-FRONT˙0˙0¨VVVV˙0¨#0¨16027",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "box",
@@ -578,7 +578,7 @@
    "num": 16028,
    "reteg": "$PART_S16_D3-BOX-L˙0˙0¨LLLL˙0¨#0¨16028",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -599,7 +599,7 @@
    "num": 16029,
    "reteg": "$PART_S16_D3-BOX-R˙0˙0¨LLLL˙0¨#0¨16029",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -620,7 +620,7 @@
    "num": 16030,
    "reteg": "$PART_S16_D3-BOX-F˙0˙0¨L000˙0¨#0¨16030",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -641,7 +641,7 @@
    "num": 16031,
    "reteg": "$PART_S16_D3-BOX-H˙0˙0¨L000˙0¨#0¨16031",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -662,7 +662,7 @@
    "num": 16032,
    "reteg": "$PART_S16_D3-BOX-B˙0˙0¨LL00˙0¨#0¨16032",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -683,7 +683,7 @@
    "num": 16033,
    "reteg": "$PART_S16_D4-L˙0˙0¨V0VV˙0¨#0¨16033",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -704,7 +704,7 @@
    "num": 16034,
    "reteg": "$PART_S16_D4-R˙0˙0¨V0VV˙0¨#0¨16034",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -725,7 +725,7 @@
    "num": 16035,
    "reteg": "$PART_S16_D4-B˙0˙0¨V000˙0¨#0¨16035",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -746,7 +746,7 @@
    "num": 16036,
    "reteg": "$PART_S16_D4-T˙0˙0¨FF00˙0¨#0¨16036",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -767,7 +767,7 @@
    "num": 16037,
    "reteg": "$PART_S16_D4-BACK˙0˙0¨0000˙0¨#0¨16037",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -788,7 +788,7 @@
    "num": 16038,
    "reteg": "$PART_S16_D4-FRONT˙0˙0¨VVVV˙0¨#0¨16038",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "box",
@@ -809,7 +809,7 @@
    "num": 16039,
    "reteg": "$PART_S16_D4-BOX-L˙0˙0¨LLLL˙0¨#0¨16039",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -830,7 +830,7 @@
    "num": 16040,
    "reteg": "$PART_S16_D4-BOX-R˙0˙0¨LLLL˙0¨#0¨16040",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -851,7 +851,7 @@
    "num": 16041,
    "reteg": "$PART_S16_D4-BOX-F˙0˙0¨L000˙0¨#0¨16041",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -872,7 +872,7 @@
    "num": 16042,
    "reteg": "$PART_S16_D4-BOX-H˙0˙0¨L000˙0¨#0¨16042",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -893,7 +893,7 @@
    "num": 16043,
    "reteg": "$PART_S16_D4-BOX-B˙0˙0¨LL00˙0¨#0¨16043",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -914,7 +914,7 @@
    "num": 16044,
    "reteg": "$PART_S16_D5-L˙0˙0¨V0VV˙0¨#0¨16044",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -935,7 +935,7 @@
    "num": 16045,
    "reteg": "$PART_S16_D5-R˙0˙0¨V0VV˙0¨#0¨16045",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -956,7 +956,7 @@
    "num": 16046,
    "reteg": "$PART_S16_D5-B˙0˙0¨V000˙0¨#0¨16046",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -977,7 +977,7 @@
    "num": 16047,
    "reteg": "$PART_S16_D5-T˙0˙0¨FF00˙0¨#0¨16047",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -998,7 +998,7 @@
    "num": 16048,
    "reteg": "$PART_S16_D5-BACK˙0˙0¨0000˙0¨#0¨16048",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -1019,7 +1019,7 @@
    "num": 16049,
    "reteg": "$PART_S16_D5-FRONT˙0˙0¨VVVV˙0¨#0¨16049",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "box",
@@ -1040,7 +1040,7 @@
    "num": 16050,
    "reteg": "$PART_S16_D5-BOX-L˙0˙0¨LLLL˙0¨#0¨16050",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1061,7 +1061,7 @@
    "num": 16051,
    "reteg": "$PART_S16_D5-BOX-R˙0˙0¨LLLL˙0¨#0¨16051",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1082,7 +1082,7 @@
    "num": 16052,
    "reteg": "$PART_S16_D5-BOX-F˙0˙0¨L000˙0¨#0¨16052",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1103,7 +1103,7 @@
    "num": 16053,
    "reteg": "$PART_S16_D5-BOX-H˙0˙0¨L000˙0¨#0¨16053",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1124,7 +1124,7 @@
    "num": 16054,
    "reteg": "$PART_S16_D5-BOX-B˙0˙0¨LL00˙0¨#0¨16054",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1145,7 +1145,7 @@
    "num": 16055,
    "reteg": "$PART_S16_D6-L˙0˙0¨V0VV˙0¨#0¨16055",
    "el_kod_etalon": "V0VV",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1166,7 +1166,7 @@
    "num": 16056,
    "reteg": "$PART_S16_D6-R˙0˙0¨00FF˙0¨#0¨16056",
    "el_kod_etalon": "00FF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -1187,7 +1187,7 @@
    "num": 16057,
    "reteg": "$PART_S16_D6-B˙0˙0¨00V0˙0¨#0¨16057",
    "el_kod_etalon": "00V0",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1208,7 +1208,7 @@
    "num": 16058,
    "reteg": "$PART_S16_D6-T˙0˙0¨00FF˙0¨#0¨16058",
    "el_kod_etalon": "00FF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -1229,7 +1229,7 @@
    "num": 16059,
    "reteg": "$PART_S16_D6-BACK˙0˙0¨0000˙0¨#0¨16059",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "extrude_y",
@@ -1283,7 +1283,7 @@
    "num": 16060,
    "reteg": "$PART_S16_D6-FRONT˙0˙0¨VVVV˙0¨#0¨16060",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "extrude_y",
@@ -1337,7 +1337,7 @@
    "num": 16061,
    "reteg": "$PART_S16_D6-BOX-L˙0˙0¨LLLL˙0¨#0¨16061",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1358,7 +1358,7 @@
    "num": 16062,
    "reteg": "$PART_S16_D6-BOX-R˙0˙0¨LLLL˙0¨#0¨16062",
    "el_kod_etalon": "LLLL",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1379,7 +1379,7 @@
    "num": 16063,
    "reteg": "$PART_S16_D6-BOX-F˙0˙0¨L000˙0¨#0¨16063",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1400,7 +1400,7 @@
    "num": 16064,
    "reteg": "$PART_S16_D6-BOX-H˙0˙0¨L000˙0¨#0¨16064",
    "el_kod_etalon": "L000",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1421,7 +1421,7 @@
    "num": 16065,
    "reteg": "$PART_S16_D6-BOX-B˙0˙0¨LL00˙0¨#0¨16065",
    "el_kod_etalon": "LL00",
-   "szin": 42,
+   "szin": "\"196,175,139\"",
    "anyag": "M07",
    "test": {
     "tipus": "box",
@@ -1442,7 +1442,7 @@
    "num": 16066,
    "reteg": "$PART_S16_T-L˙0˙0¨V000˙0¨#0¨16066",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1463,7 +1463,7 @@
    "num": 16067,
    "reteg": "$PART_S16_T-R˙0˙0¨FF00˙0¨#0¨16067",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -1484,7 +1484,7 @@
    "num": 16068,
    "reteg": "$PART_S16_T-B˙0˙0¨V000˙0¨#0¨16068",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1531,7 +1531,7 @@
    "num": 16069,
    "reteg": "$PART_S16_T-C˙0˙0¨V000˙0¨#0¨16069",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1552,7 +1552,7 @@
    "num": 16070,
    "reteg": "$PART_S16_T-L-S1˙0˙0¨V000˙0¨#0¨16070",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1573,7 +1573,7 @@
    "num": 16071,
    "reteg": "$PART_S16_T-L-S2˙0˙0¨V000˙0¨#0¨16071",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1594,7 +1594,7 @@
    "num": 16072,
    "reteg": "$PART_S16_T-L-S3˙0˙0¨V000˙0¨#0¨16072",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1615,7 +1615,7 @@
    "num": 16073,
    "reteg": "$PART_S16_T-L-S4˙0˙0¨V000˙0¨#0¨16073",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1636,7 +1636,7 @@
    "num": 16074,
    "reteg": "$PART_S16_T-L-S5˙0˙0¨V000˙0¨#0¨16074",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1657,7 +1657,7 @@
    "num": 16075,
    "reteg": "$PART_S16_T-L-BACK˙0˙0¨0000˙0¨#0¨16075",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "extrude_y",
@@ -1711,7 +1711,7 @@
    "num": 16076,
    "reteg": "$PART_S16_T-L-SERVICE˙0˙0¨VVVV˙0¨#0¨16076",
    "el_kod_etalon": "VVVV",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -1732,7 +1732,7 @@
    "num": 16077,
    "reteg": "$PART_S16_T-R-S1˙0˙0¨V000˙0¨#0¨16077",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1753,7 +1753,7 @@
    "num": 16078,
    "reteg": "$PART_S16_T-R-S2˙0˙0¨V000˙0¨#0¨16078",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1774,7 +1774,7 @@
    "num": 16079,
    "reteg": "$PART_S16_T-R-S3˙0˙0¨V000˙0¨#0¨16079",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1795,7 +1795,7 @@
    "num": 16080,
    "reteg": "$PART_S16_T-R-S4˙0˙0¨V000˙0¨#0¨16080",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1816,7 +1816,7 @@
    "num": 16081,
    "reteg": "$PART_S16_T-R-S5˙0˙0¨V000˙0¨#0¨16081",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -1837,7 +1837,7 @@
    "num": 16082,
    "reteg": "$PART_S16_T-R-BACK˙0˙0¨0000˙0¨#0¨16082",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "extrude_y",
@@ -1891,7 +1891,7 @@
    "num": 16083,
    "reteg": "$PART_S16_T-R-SERVICE˙0˙0¨VVVV˙0¨#0¨16083",
    "el_kod_etalon": "VVVV",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "box",
@@ -1912,7 +1912,7 @@
    "num": 16084,
    "reteg": "$PART_S16_T-DOOR-L˙0˙0¨VVVV˙0¨#0¨16084",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "extrude_y",
@@ -4668,7 +4668,7 @@
    "num": 16085,
    "reteg": "$PART_S16_T-DOOR-R˙0˙0¨VVVV˙0¨#0¨16085",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "extrude_y",
@@ -4717,7 +4717,7 @@
    "num": 16086,
    "reteg": "$PART_S16_TEXTILE˙0˙0¨KKKK˙0¨#0¨16086",
    "el_kod_etalon": "KKKK",
-   "szin": 51,
+   "szin": "\"199,188,167\"",
    "anyag": "M05",
    "test": {
     "tipus": "extrude_y",
@@ -4781,7 +4781,7 @@
    "num": 16087,
    "reteg": "$PART_S16_BG-1˙0˙0¨0000˙0¨#0¨16087",
    "el_kod_etalon": "0000",
-   "szin": 41,
+   "szin": "\"112,98,82\"",
    "anyag": "M04",
    "test": {
     "tipus": "box",
@@ -4802,7 +4802,7 @@
    "num": 16088,
    "reteg": "$PART_S16_BG-2˙0˙0¨0000˙0¨#0¨16088",
    "el_kod_etalon": "0000",
-   "szin": 41,
+   "szin": "\"112,98,82\"",
    "anyag": "M04",
    "test": {
     "tipus": "box",
@@ -4823,7 +4823,7 @@
    "num": 16089,
    "reteg": "$PART_S16_BG-3˙0˙0¨0000˙0¨#0¨16089",
    "el_kod_etalon": "0000",
-   "szin": 41,
+   "szin": "\"112,98,82\"",
    "anyag": "M04",
    "test": {
     "tipus": "box",
@@ -4844,7 +4844,7 @@
    "num": 16090,
    "reteg": "$PART_S16_BG-4˙0˙0¨0000˙0¨#0¨16090",
    "el_kod_etalon": "0000",
-   "szin": 41,
+   "szin": "\"112,98,82\"",
    "anyag": "M04",
    "test": {
     "tipus": "box",
@@ -4865,7 +4865,7 @@
    "num": 16091,
    "reteg": "$PART_S16_BATTEN-1˙0˙0¨0000˙0¨#0¨16091",
    "el_kod_etalon": "0000",
-   "szin": 254,
+   "szin": "\"138,127,114\"",
    "anyag": "M10",
    "test": {
     "tipus": "box",
@@ -4886,7 +4886,7 @@
    "num": 16092,
    "reteg": "$PART_S16_BATTEN-2˙0˙0¨0000˙0¨#0¨16092",
    "el_kod_etalon": "0000",
-   "szin": 254,
+   "szin": "\"138,127,114\"",
    "anyag": "M10",
    "test": {
     "tipus": "box",
@@ -4907,7 +4907,7 @@
    "num": 16093,
    "reteg": "$PART_S16_BATTEN-3˙0˙0¨0000˙0¨#0¨16093",
    "el_kod_etalon": "0000",
-   "szin": 254,
+   "szin": "\"138,127,114\"",
    "anyag": "M10",
    "test": {
     "tipus": "box",
@@ -4928,7 +4928,7 @@
    "num": 16094,
    "reteg": "$PART_S16_BATTEN-4˙0˙0¨0000˙0¨#0¨16094",
    "el_kod_etalon": "0000",
-   "szin": 254,
+   "szin": "\"138,127,114\"",
    "anyag": "M10",
    "test": {
     "tipus": "box",
@@ -4949,7 +4949,7 @@
    "num": 16095,
    "reteg": "$PART_S16_BATTEN-5˙0˙0¨0000˙0¨#0¨16095",
    "el_kod_etalon": "0000",
-   "szin": 254,
+   "szin": "\"138,127,114\"",
    "anyag": "M10",
    "test": {
     "tipus": "box",
@@ -4970,7 +4970,7 @@
    "num": 16096,
    "reteg": "$PART_S16_CURVE-T-TOP˙0˙0¨FFFF˙0¨#0¨16096",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5034,7 +5034,7 @@
    "num": 16097,
    "reteg": "$PART_S16_FRAME-T-TOP˙0˙0¨FFFF˙0¨#0¨16097",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5098,7 +5098,7 @@
    "num": 16098,
    "reteg": "$PART_S16_CURVE-T-BOT˙0˙0¨FFF0˙0¨#0¨16098",
    "el_kod_etalon": "FFF0",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5152,7 +5152,7 @@
    "num": 16099,
    "reteg": "$PART_S16_FRAME-T-BOT˙0˙0¨FFFF˙0¨#0¨16099",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5206,7 +5206,7 @@
    "num": 16100,
    "reteg": "$PART_S16_FRAME-T-L˙0˙0¨FF00˙0¨#0¨16100",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5227,7 +5227,7 @@
    "num": 16101,
    "reteg": "$PART_S16_FRAME-T-R˙0˙0¨FF00˙0¨#0¨16101",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5248,7 +5248,7 @@
    "num": 16102,
    "reteg": "$PART_S16_FRAME-T-MID˙0˙0¨FFF0˙0¨#0¨16102",
    "el_kod_etalon": "FFF0",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5269,7 +5269,7 @@
    "num": 16103,
    "reteg": "$PART_S16_FRAME-B-LOW-1˙0˙0¨FF00˙0¨#0¨16103",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5290,7 +5290,7 @@
    "num": 16104,
    "reteg": "$PART_S16_FRAME-B-LOW-2˙0˙0¨FF00˙0¨#0¨16104",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5311,7 +5311,7 @@
    "num": 16105,
    "reteg": "$PART_S16_FRAME-B-LOW-3˙0˙0¨FF00˙0¨#0¨16105",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5332,7 +5332,7 @@
    "num": 16106,
    "reteg": "$PART_S16_FRAME-B-HIGH-1˙0˙0¨FF00˙0¨#0¨16106",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5353,7 +5353,7 @@
    "num": 16107,
    "reteg": "$PART_S16_FRAME-B-HIGH-2˙0˙0¨FF00˙0¨#0¨16107",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5374,7 +5374,7 @@
    "num": 16108,
    "reteg": "$PART_S16_FRAME-B-HIGH-3˙0˙0¨FF00˙0¨#0¨16108",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5395,7 +5395,7 @@
    "num": 16109,
    "reteg": "$PART_S16_FRAME-B-TOP˙0˙0¨FFFF˙0¨#0¨16109",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5439,7 +5439,7 @@
    "num": 16110,
    "reteg": "$PART_S16_CURVE-B-TOP˙0˙0¨FFFF˙0¨#0¨16110",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5483,7 +5483,7 @@
    "num": 16111,
    "reteg": "$PART_S16_FRAME-B-BOT˙0˙0¨FFFF˙0¨#0¨16111",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5527,7 +5527,7 @@
    "num": 16112,
    "reteg": "$PART_S16_CURVE-B-BOT˙0˙0¨FFFF˙0¨#0¨16112",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "extrude_y",
@@ -5571,7 +5571,7 @@
    "num": 16113,
    "reteg": "$PART_S16_FRAME-B-R˙0˙0¨FF00˙0¨#0¨16113",
    "el_kod_etalon": "FF00",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5592,7 +5592,7 @@
    "num": 16114,
    "reteg": "$PART_S16_TV-SPACER-1˙0˙0¨FFFF˙0¨#0¨16114",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5613,7 +5613,7 @@
    "num": 16115,
    "reteg": "$PART_S16_TV-SPACER-2˙0˙0¨FFFF˙0¨#0¨16115",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M02",
    "test": {
     "tipus": "box",
@@ -5634,7 +5634,7 @@
    "num": 16116,
    "reteg": "$PART_S16_T-LOW-DIV˙0˙0¨V000˙0¨#0¨16116",
    "el_kod_etalon": "V000",
-   "szin": 8,
+   "szin": "\"80,73,66\"",
    "anyag": "M01",
    "test": {
     "tipus": "box",
@@ -5655,7 +5655,7 @@
    "num": 16117,
    "reteg": "$PART_S16_T-LOW-BACK˙0˙0¨0000˙0¨#0¨16117",
    "el_kod_etalon": "0000",
-   "szin": 9,
+   "szin": "\"105,108,103\"",
    "anyag": "M08",
    "test": {
     "tipus": "extrude_y",
@@ -5704,7 +5704,7 @@
    "num": 16118,
    "reteg": "$PART_S16_T-DOOR-L-BACK˙0˙0¨FFFF˙0¨#0¨16118",
    "el_kod_etalon": "FFFF",
-   "szin": 250,
+   "szin": "\"51,44,38\"",
    "anyag": "M11",
    "test": {
     "tipus": "extrude_y",
@@ -6388,7 +6388,7 @@
    "num": 16119,
    "reteg": "$PART_S16_TV-FIELD˙0˙0¨VVVV˙0¨#0¨16119",
    "el_kod_etalon": "VVVV",
-   "szin": 34,
+   "szin": "\"64,54,46\"",
    "anyag": "M03",
    "test": {
     "tipus": "extrude_y",
@@ -6953,7 +6953,7 @@
    "num": 16120,
    "reteg": "$PART_S16_BG-FINISH˙0˙0¨0000˙0¨#0¨16120",
    "el_kod_etalon": "0000",
-   "szin": 41,
+   "szin": "\"112,98,82\"",
    "anyag": "M04",
    "test": {
     "tipus": "box",
@@ -6974,7 +6974,7 @@
    "num": 16121,
    "reteg": "$PART_S16_TOP-WASH-COVER˙0˙0¨0000˙0¨#0¨16121",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -6995,7 +6995,7 @@
    "num": 16122,
    "reteg": "$PART_S16_TOP-WASH-BAFFLE˙0˙0¨0000˙0¨#0¨16122",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7016,7 +7016,7 @@
    "num": 16123,
    "reteg": "$PART_S16_TOP-WASH-HIDDEN-END˙0˙0¨0000˙0¨#0¨16123",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7037,7 +7037,7 @@
    "num": 16124,
    "reteg": "$PART_S16_UPLIGHT-TRAY˙0˙0¨0000˙0¨#0¨16124",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7058,7 +7058,7 @@
    "num": 16125,
    "reteg": "$PART_S16_UPLIGHT-FRONT-VISOR˙0˙0¨0000˙0¨#0¨16125",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7079,7 +7079,7 @@
    "num": 16126,
    "reteg": "$PART_S16_UPLIGHT-REAR-VISOR˙0˙0¨0000˙0¨#0¨16126",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7100,7 +7100,7 @@
    "num": 16127,
    "reteg": "$PART_S16_DECK-CONTINUOUS-COVER˙0˙0¨0000˙0¨#0¨16127",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7121,7 +7121,7 @@
    "num": 16128,
    "reteg": "$PART_S16_DECK-CONTINUOUS-BAFFLE˙0˙0¨0000˙0¨#0¨16128",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",
@@ -7142,7 +7142,7 @@
    "num": 16129,
    "reteg": "$PART_S16_LOW-INTERNAL-LIGHT-VISOR˙0˙0¨0000˙0¨#0¨16129",
    "el_kod_etalon": "0000",
-   "szin": 1,
+   "szin": "\"42,38,34\"",
    "anyag": "M12",
    "test": {
     "tipus": "box",

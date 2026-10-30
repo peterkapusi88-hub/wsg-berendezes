@@ -1,7 +1,7 @@
 (setvar "FILEDIA" 0)
 (setvar "CMDECHO" 0)
 (defun s16-env () (setvar "CMDECHO" 0) (setvar "OSMODE" 0) (setvar "INSUNITS" 4) (setvar "DELOBJ" 1) (command "_.UCS" "_W"))
-(defun s16-layer (name col) (if (not (tblsearch "LAYER" name)) (command "_.-LAYER" "_M" name "_C" (itoa col) "" "") (command "_.-LAYER" "_S" name "")) (setvar "CLAYER" name))
+(defun s16-layer (name col) (if (not (tblsearch "LAYER" name)) (if (= (type col) 'STR) (command "_.-LAYER" "_M" name "_C" "_T" col "" "") (command "_.-LAYER" "_M" name "_C" (itoa col) "" "")) (command "_.-LAYER" "_S" name "")) (setvar "CLAYER" name))
 (defun s16-box (x y z dx dy dz) (command "_.BOX" (list x y z) (list (+ x dx) (+ y dy) (+ z dz))) (entlast))
 (defun s16-lwpoly (pts / d) (setq d (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(100 . "AcDbPolyline") (cons 90 (length pts)) '(70 . 1))) (foreach p pts (setq d (append d (list (list 10 (car p) (cadr p)) (cons 42 (caddr p)))))) (entmake d) (entlast))
 (defun s16-extrude-y (pts tt x0 y0 z0 / pl s) (setq pl (s16-lwpoly pts)) (command "_.EXTRUDE" pl "" tt) (setq s (entlast)) (command "_.ROTATE3D" s "" "_X" '(0 0 0) 90) (command "_.MOVE" s "" '(0 0 0) (list x0 y0 z0)) s)
