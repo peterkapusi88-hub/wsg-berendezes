@@ -34,6 +34,7 @@ sys.path.insert(0, str(CODE.parent / "10_F1_adatmodell"))
 from s16_geom import box_mesh, build_solid, etalon_el_kod, load_json  # noqa: E402
 
 PREFIX = "S16"
+SZINES_DX = 0   # a műhelyi (típusszínes) másolat X-eltolása a modelltérben; main() állítja
 SEG_MM = 1.0  # ív-mintavétel a Python-oldali ellenőrzéshez
 
 # valós (render-) színek: a materials.json hex-értéke; ahol nincs (R16), KÖZELÍTŐ képernyőszín a leírásból – nem színminta
@@ -86,6 +87,29 @@ def dedupe(pts, tol=1e-3):
 
 # ------------------------------------------------------------------ építési terv
 
+# műhelyi típusszínek az asztalos coo1.dwg rétegszínei szerint (ACI): Oldal 40, Polc 145, Tető 173, Fenék 104, Front 81,
+# Hátlemez 17, Kötő 153, Lábazat 51, Vosztó 93, Fiókfenék 65, Fiókhát 55 – kiegészítve: Fiókoldal 40, Keret 33, Burkolat 31, Fény 121
+TIPUS_SZIN = [("Fiókfenék", 65, r"fiók ?fenék|fiókfenék"), ("Fiókhát", 55, r"dobozelő|fiókdoboz|fiók.*(hát|elő)"), ("Fiókoldal", 40, r"fiók.*oldal|fiókoldal"),
+              ("Front", 81, r"front|ajtó"), ("Polc", 145, r"polc"), ("Tető", 173, r"tető|sapka|fedő"), ("Fenék", 104, r"fenék"),
+              ("Hátlemez", 17, r"\bhát|hátlap|szervizfedél|háttérpanel|kazettahát|hordozópanel"), ("Kötő", 153, r"léc|merevítő|távtartó|falsín"),
+              ("Lábazat", 51, r"lábazat|talp"), ("Vosztó", 93, r"osztó"), ("Oldal", 40, r"oldal"), ("Keret", 33, r"keret|sarok|záróelem"),
+              ("Fény", 121, r"fény|tálca|baffle|visor"), ("Burkolat", 31, r"burkolat|szövet|textil|tv-mező|réteg|sáv")]
+
+
+def tipus_of(r):
+    import re
+    name = r["megnevezes"].lower()
+    for t, c, rx in TIPUS_SZIN:
+        if re.search(rx, name):
+            return t, c
+    a = r["helyi_rendszer"]["A_normal"]
+    if a in ("+X", "-X"):
+        return "Oldal", 40
+    if a in ("+Z", "-Z"):
+        return "Polc", 145
+    return ("Front", 81) if a == "+Y" else ("Hátlemez", 17)
+
+
 def _rgb(hx):
     if not hx:
         return None
@@ -113,7 +137,8 @@ def make_plan(doc, src_parts, rules):
         x, y, z, dx, dy, dz = p["box"]
         num = num0 + len(plan)
         ek, _ = etalon_el_kod(r)
-        item = {"id": pid, "num": num, "reteg": tpl.format(cimke_id=r["cimke_id"], el_kod=ek, id=pid, num=num), "el_kod_etalon": ek,
+        tip, tcol = tipus_of(r)
+        item = {"id": pid, "num": num, "reteg": tpl.format(cimke_id=r["cimke_id"], el_kod=ek, id=pid, num=num), "el_kod_etalon": ek, "tipus": tip, "tipus_szin": tcol,
                 "szin": _rgb(rgb.get(r["anyag"]["kod"]) or SZIN_KOZELITO.get(r["anyag"]["kod"]))
                 or COLORS.get(r["anyag"]["kod"], 10 + (sum(map(ord, r["anyag"]["kod"])) * 37) % 240), "anyag": r["anyag"]["kod"], "test": None,
                 "kivonas": [], "tech": []}
@@ -338,6 +363,9 @@ def write_lsp(plan, path, rev):
             L.append(f"  (s16-layer {lstr(it['reteg'])} {it['szin']})")
             L.append("  " + lsp_shape(k, "b"))
             L.append("  (s16-sub a b)")
+        if SZINES_DX:
+            L.append(f"  (s16-layer {lstr('SZINES_' + it['tipus'])} {it['tipus_szin']})")
+            L.append(f"  (command \"_.COPY\" a \"\" '(0 0 0) '({SZINES_DX} 0 0)) (command \"_.CHPROP\" (entlast) \"\" \"_LA\" {lstr('SZINES_' + it['tipus'])} \"\")")
     L += ["  (command \"_.ZOOM\" \"_E\")", f"  (princ \"\\n{rev}: {len(plan)} alkatrész felépítve.\")", "  (princ))",
           "(princ \"\\nS16 betöltve: (s16-build) majd (s16-readback \\\"/Users/<te>/CAD/s16_readback\\\")\")", "(princ)"]
     path.write_text("\n".join(L) + "\n", encoding="utf-8")
@@ -631,12 +659,13 @@ def sheet_lines(doc, open_items, sheets, cim):
     parts = doc["alkatreszek"]
     L = ['(command "_.-VIEW" "_SWISO")', '(command "_.VSCURRENT" "_R")', '(command "_.ZOOM" "_E")',
          '(command "_.-LAYER" "_M" "S16_PECSET" "_C" "7" "" "")'] + stamp_block_lines()
-    for no, (lay, title, mods, views) in enumerate(sheets, 1):
+    for no, (lay, title, mods, views, *rest) in enumerate(sheets, 1):
+        dx = rest[0] if rest else 0
         sel = [r for r in parts if mods is None or r["modul"] in mods]
         lo = np.min([r["befoglalo_globalis"][:3] for r in sel], axis=0)
         hi = np.max([np.add(r["befoglalo_globalis"][:3], r["befoglalo_globalis"][3:]) for r in sel], axis=0)
         m = 0.06 * (hi - lo).max()
-        x0, x1, z0, z1 = lo[0] - m, hi[0] + m, lo[2] - m, hi[2] + m
+        x0, x1, z0, z1 = lo[0] - m + dx, hi[0] + m + dx, lo[2] - m, hi[2] + m
         y0, y1 = -(hi[1] + m), -(lo[1] - m)               # CAD-ban tükrözve
         L += [f'(command "_.-LAYOUT" "_N" {lstr(lay)})', f'(setvar "CTAB" {lstr(lay)})',
               f'(command "_.ERASE" (ssget "_X" (list (cons 0 "VIEWPORT") (cons 410 {lstr(lay)}))) "")', '(command "_.PSPACE")']
@@ -649,7 +678,7 @@ def sheet_lines(doc, open_items, sheets, cim):
             elif view == "_TOP":
                 zw = f"(list {x0:.1f} {y0:.1f} 0) (list {x1:.1f} {y1:.1f} 0)"
             else:
-                zw = None
+                zw = f"(list {x0:.1f} {y0:.1f} {z0:.1f}) (list {x1:.1f} {y1:.1f} {z1:.1f})" if dx else None
             vs = "_R" if view == "_SWISO" else "_H"
             zoom = f'(command "_.ZOOM" "_W" {zw})' if zw else '(command "_.ZOOM" "_E")'
             L.append(f'(command "_.MSPACE") (setvar "CVPORT" s16vp) (command "_.-VIEW" "{view}") (command "_.VSCURRENT" "{vs}") {zoom} (command "_.PSPACE")')
@@ -659,6 +688,12 @@ def sheet_lines(doc, open_items, sheets, cim):
                                 "SH_PRNAME": "TERVI – NEM GYÁRTÁSI KIADÁS · Claude (AI) / Kapusi Péter",
                                 "SH_PRNUM": f"Rev {doc['modell_revizio']} · mm · nézetek méretarány nélkül",
                                 "SH_DATE": date.today().isoformat()})
+        if dx:
+            tips = sorted({(r_["tipus"], r_["tipus_szin"]) for r_ in rest[1]}, key=lambda t: t[0])
+            L.append(_ptxt(lay, -12, 192, 2.6, "MŰHELYI NÉZET – alkatrész-típusszínek (mint a coo1.dwg); a gyártási rétegek ($PART_) a valós színeket viselik"))
+            for k_, (t_, c_) in enumerate(tips):
+                L.append(f'(entmake (list (cons 0 "TEXT") (cons 67 1) (cons 410 {lstr(lay)}) (cons 8 "S16_PECSET") (cons 62 {c_}) '
+                         f'(cons 10 (list {-12 + 30 * (k_ % 5)} {186 - 4 * (k_ // 5)} 0.0)) (cons 40 2.4) (cons 1 {lstr("■ " + t_)})))')
         notes = [t for (sheet, t) in open_items if sheet in (lay, "*")]
         for k, t in enumerate(notes[:4]):
             L.append(_ptxt(lay, -12, 25 - 5 * k, 2.2, "MEGJEGYZÉS: " + t))
@@ -684,7 +719,10 @@ def main():
     tag = f"{PREFIX}_{rev.split('-')[1]}"                       # pl. S16_R15B
     ver = os.environ.get("WSG_DWG_VER", "v4")
 
+    global SZINES_DX
     plan, notes = make_plan(doc, src_parts, rules)
+    xs = [r["befoglalo_globalis"][0] for r in doc["alkatreszek"]] + [r["befoglalo_globalis"][0] + r["befoglalo_globalis"][3] for r in doc["alkatreszek"]]
+    SZINES_DX = int(round((max(xs) - min(xs) + 1500) / 100.0) * 100)
     (HERE / "cad_terv.json").write_text(json.dumps({"modell_revizio": rev, "datum": date.today().isoformat(),
                                                     "megjegyzesek": notes, "alkatreszek": plan}, ensure_ascii=False, indent=1), encoding="utf-8")
     lsp = HERE / f"{tag}_szerkezet.lsp"
@@ -706,13 +744,16 @@ def main():
     sheets = [(a.replace("S16", PREFIX), b, c, d) for a, b, c, d in SHEETS if c is None or mods & set(c)]
     if len(sheets) < 3:
         sheets = auto_sheets(doc)
+    sheets = sheets + [(f"{PREFIX}_L{len(sheets) + 1:02d}_MUHELYI_SZINES", "Műhelyi nézet – alkatrész-típusszínek", None,
+                        ("_FRONT", "_TOP", "_SWISO"), SZINES_DX, plan)]
     cim = os.environ.get("WSG_CIM") or ("WSG A-902 · S16 médiafal (Kyoto Ink)" if PREFIX == "S16" else f"WSG A-902 · {PREFIX} szekrény")
     names = list(nblk) + ["SH_STAMP"]
     counts = ['(princ (list "S16_DARAB" "PART" (s16-count "$PART_") "TECH" (s16-count "TECH_") '
               + " ".join(f'{lstr(k)} (s16-count-ins {lstr(k)})' for k in names) + '))']
     write_scr(lsp, body + hw + [f'(s16-readback "{mac}/readback_{tag}_{ver}")'] + counts,
               HERE / f"{tag}_build.scr", f"{mac}/{tag}_szerkezet_{ver}.dwg", presentation=sheet_lines(doc, open_items, sheets, cim))
-    (HERE / "vasalat_blokkok.json").write_text(json.dumps({"blokkok": nblk, "lapok": [s_[0] for s_ in sheets]}, ensure_ascii=False, indent=1), encoding="utf-8")
+    (HERE / "vasalat_blokkok.json").write_text(json.dumps({"blokkok": nblk, "lapok": [s_[0] for s_ in sheets], "szines_dx": SZINES_DX,
+                                                          "tipusok": sorted({(it["tipus"], it["tipus_szin"]) for it in plan})}, ensure_ascii=False, indent=1), encoding="utf-8")
     print("vasalat-sorok:", len(hw), "blokk-beillesztések:", nblk)
 
     srcp = {p["id"]: p for p in src_parts}

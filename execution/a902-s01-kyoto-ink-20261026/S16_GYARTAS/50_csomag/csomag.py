@@ -26,7 +26,7 @@ def stats(base, tag):
     vas = json.loads((base / "30_F2b_vasalat/vasalat_terv.json").read_text(encoding="utf-8"))
     qa = json.loads((base / "10_F1_adatmodell/qa_report.json").read_text(encoding="utf-8"))
     blk = json.loads((base / "20_F2_cad/vasalat_blokkok.json").read_text(encoding="utf-8"))
-    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v5.txt")
+    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v6.txt")
     rbt = next(iter(sorted(rb)), None)
     rbl = rbt.read_text(encoding="utf-8").strip().splitlines()[-1] if rbt else "–"
     dq = (base / "40_F3F4_dokumentacio/dokumentacio_qa.md").read_text(encoding="utf-8")
@@ -49,7 +49,8 @@ NYITOTT = {
             "M02 dekorpanel élkezelése az R16-ban nincs megadva; falsík-eltolás FELTEVÉS (Y = 418 − Y_R16).",
             "Pánt: R16 saját választása – Blum 70T3550.TL + 173H7100, B = 5,5 mm."],
 }
-KOZOS = ["Élkód a DWG rétegnevében: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2 (coo1.dwg mintájára) – FELTEVÉS.",
+KOZOS = ["DWG-ben két színezés: a modelltérben bal oldalt a gyártási modell valós anyagszínekkel ($PART_ rétegek), jobbra 5,1 m-rel eltolva egy műhelyi másolat alkatrész-típusszínekkel (SZINES_* rétegek, mint a coo1.dwg) – ehhez saját rajzlap (L05_MUHELYI_SZINES). A gyártási adat csak a $PART_ rétegeken van.",
+         "Élkód a DWG rétegnevében: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2 (coo1.dwg mintájára) – FELTEVÉS.",
          "Vasalat cikkszámos blokként, sematikus burkoló geometriával – gyári 3D-re cserélhető.",
          "MPR: woodWOP 4.0 formátumú TERVEZET, csak furatok; kontúrmarás a szerszámtábla után. Gépi futtathatóság próbadarabbal igazolandó.",
          "Anyag-, élzáró- és táblaméret-feltevések: gyartasi_szabalyok_v1.json – az asztalos válaszai után újragenerálható."]
@@ -118,7 +119,7 @@ def main():
         S[name] = stats(base, tag)
         d = root / name
         (d / "01_DWG").mkdir(parents=True)
-        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v5.dwg", d / "01_DWG")
+        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v6.dwg", d / "01_DWG")
         doc_dir = base / "40_F3F4_dokumentacio"
         shutil.copy(doc_dir / f"{tag}_alkatreszlapok.pdf", d / f"02_{tag}_alkatreszlapok.pdf")
         shutil.copy(doc_dir / f"{tag}_szabasjegyzek.xlsx", d / f"03_{tag}_szabasjegyzek.xlsx")
