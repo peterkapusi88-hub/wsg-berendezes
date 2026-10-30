@@ -26,7 +26,7 @@ def stats(base, tag):
     vas = json.loads((base / "30_F2b_vasalat/vasalat_terv.json").read_text(encoding="utf-8"))
     qa = json.loads((base / "10_F1_adatmodell/qa_report.json").read_text(encoding="utf-8"))
     blk = json.loads((base / "20_F2_cad/vasalat_blokkok.json").read_text(encoding="utf-8"))
-    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v6.txt")
+    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v7.txt")
     rbt = next(iter(sorted(rb)), None)
     rbl = rbt.read_text(encoding="utf-8").strip().splitlines()[-1] if rbt else "–"
     dq = (base / "40_F3F4_dokumentacio/dokumentacio_qa.md").read_text(encoding="utf-8")
@@ -41,17 +41,20 @@ def stats(base, tag):
 
 NYITOTT = {
     "S16": ["Pánt: bal toronyajtó keretszár 50/50 mm (R15B) → Blum 70T3750 + 177H3100E, B = 3 mm – Péter megbízásából Claude döntése, visszafordítható.",
-            "Fiók: MOVENTO 760H3000S + T51.7601 + TIP-ON T60L7140 – a sínt Blum sablonnal csavarozzuk, gyári furatkép a végleges cikkszám után.",
-            "21 él-él illesztés és 11 nem tiplis kötés (vasalat_jelentes.md) – kötőelem műhelyi döntés (etalon: Häfele 637.76.333/351).",
+            "Kötések: 111 Ø8×35 tipli (13/25 mm, mint a km.dwg), 14 keretléc-illesztés Ø6×30 tiplivel, 1 egymásra ülő oldalpár Ø8×35 él-él tiplivel, "
+            "11 íves héj-kötés tipli + 2 Minifix 15 (Häfele 262.26.174) – a héj külső felülete érintetlen.",
+            "Fiók: MOVENTO 760H3000S jelölőfuratok (37/165/261 mm) + hátsó horogfurat Ø6×10 (7/11 mm) a Blum útmutató szerint; zár és TIP-ON sablonnal.",
+            "DÖNTÉS: a D6 fiók jobb oldali síne a rövidebb D6-R korpuszoldal alá esne (íves sarok) – szerelőléc vagy az oldal meghosszabbítása kell.",
             "BG rejtett visszahajtások (2 db) – helyszíni/Blender ellenőrzés."],
     "R16": ["KI12-TV02CAP-01 fedő 3610 mm nyersen: 2800-as táblából nem jön ki – toldás vagy jumbo tábla (döntés kell).",
             "Mennyezeti rés 20 mm (2900 mm névleges belmagasság, helyszíni felmérés nincs).",
-            "M02 dekorpanel élkezelése az R16-ban nincs megadva; falsík-eltolás FELTEVÉS (Y = 418 − Y_R16).",
-            "Pánt: R16 saját választása – Blum 70T3550.TL + 173H7100, B = 5,5 mm."],
+            "MOVENTO sablonfuratok az R16-ban sincsenek (az R16 fiókfuratai a dobozcsavarozás) – a S16 szabálya átvehető.",
+            "M02 dekorpanel élkezelése nincs megadva; falsík-eltolás FELTEVÉS (Y = 418 − Y_R16). Pánt: Blum 70T3550.TL + 173H7100."],
 }
 KOZOS = ["DWG-ben két színezés: a modelltérben bal oldalt a gyártási modell valós anyagszínekkel ($PART_ rétegek), jobbra 5,1 m-rel eltolva egy műhelyi másolat alkatrész-típusszínekkel (SZINES_* rétegek, mint a coo1.dwg) – ehhez saját rajzlap (L05_MUHELYI_SZINES). A gyártási adat csak a $PART_ rétegeken van.",
          "Élkód a DWG rétegnevében: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2 (coo1.dwg mintájára) – FELTEVÉS.",
-         "Vasalat cikkszámos blokként, sematikus burkoló geometriával – gyári 3D-re cserélhető.",
+         "Az asztalos konvenciója szerint: cikkszám-jelölő = üres blokk ($ITEM_REF/$ART_), megmunkálás = test a $DIFF_OUT rétegen, kötőelem = CONNOBJ_* blokk (pl. CONNOBJ_DOWEL_D8_L35_13-24, CONNOBJ_MINIFIX_D15_AV18_L24) – a programjában ellenőrizendő.",
+         "Méretezett elöl-, felül- és oldalnézet a DWG-ben (külön lap, ~23 méretvonal).",
          "MPR: woodWOP 4.0 formátumú TERVEZET, csak furatok; kontúrmarás a szerszámtábla után. Gépi futtathatóság próbadarabbal igazolandó.",
          "Anyag-, élzáró- és táblaméret-feltevések: gyartasi_szabalyok_v1.json – az asztalos válaszai után újragenerálható."]
 
@@ -119,7 +122,7 @@ def main():
         S[name] = stats(base, tag)
         d = root / name
         (d / "01_DWG").mkdir(parents=True)
-        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v6.dwg", d / "01_DWG")
+        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v7.dwg", d / "01_DWG")
         doc_dir = base / "40_F3F4_dokumentacio"
         shutil.copy(doc_dir / f"{tag}_alkatreszlapok.pdf", d / f"02_{tag}_alkatreszlapok.pdf")
         shutil.copy(doc_dir / f"{tag}_szabasjegyzek.xlsx", d / f"03_{tag}_szabasjegyzek.xlsx")

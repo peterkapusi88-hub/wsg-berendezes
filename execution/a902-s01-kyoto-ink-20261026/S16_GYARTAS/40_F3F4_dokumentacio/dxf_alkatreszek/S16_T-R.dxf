@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461344.7027314813
+2461344.743113426
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461344.7027314813
+2461344.743113426
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-E6
+F0
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{4BBD3A1F-F6CB-40D1-9B43-B581F6B21945}
+{9846A25E-A8EE-4C03-A112-19B2632C7C4F}
   9
 $VERSIONGUID
   2
-{564E63A8-C15E-43A3-B9C7-B16BA11F6C84}
+{888F0F52-34D5-43D4-9B16-3A34722C7AA5}
   9
 $EXTNAMES
 290
@@ -3281,7 +3281,7 @@ ACAD
   0
 APPID
   5
-E3
+ED
 330
 3
 100
@@ -3295,7 +3295,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-E4
+EE
 330
 3
 100
@@ -5101,7 +5101,7 @@ _CLOSEDBLANK
   0
 BLOCK_RECORD
   5
-C5
+CF
 330
 9
 100
@@ -5121,7 +5121,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-D4
+DE
 330
 9
 100
@@ -5441,9 +5441,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-C6
+D0
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5467,9 +5467,9 @@ AcDbBlockBegin
   0
 LINE
   5
-C8
+D2
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5491,9 +5491,9 @@ AcDbLine
   0
 LINE
   5
-C9
+D3
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5515,9 +5515,9 @@ AcDbLine
   0
 INSERT
   5
-CA
+D4
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5541,9 +5541,9 @@ _ARCHTICK
   0
 INSERT
   5
-CC
+D6
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5565,9 +5565,9 @@ _ARCHTICK
   0
 LINE
   5
-CE
+D8
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5589,9 +5589,9 @@ AcDbLine
   0
 MTEXT
   5
-CF
+D9
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5615,9 +5615,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-D0
+DA
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5633,9 +5633,9 @@ AcDbPoint
   0
 POINT
   5
-D1
+DB
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5651,9 +5651,9 @@ AcDbPoint
   0
 POINT
   5
-D2
+DC
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5669,9 +5669,9 @@ AcDbPoint
   0
 ENDBLK
   5
-C7
+D1
 330
-C5
+CF
 100
 AcDbEntity
   8
@@ -5681,9 +5681,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-D5
+DF
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5707,9 +5707,9 @@ AcDbBlockBegin
   0
 LINE
   5
-D7
+E1
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5731,9 +5731,9 @@ AcDbLine
   0
 LINE
   5
-D8
+E2
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5755,9 +5755,9 @@ AcDbLine
   0
 INSERT
   5
-D9
+E3
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5781,9 +5781,9 @@ _ARCHTICK
   0
 INSERT
   5
-DB
+E5
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5807,9 +5807,9 @@ _ARCHTICK
   0
 LINE
   5
-DD
+E7
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5831,9 +5831,9 @@ AcDbLine
   0
 MTEXT
   5
-DE
+E8
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5859,9 +5859,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-DF
+E9
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5877,9 +5877,9 @@ AcDbPoint
   0
 POINT
   5
-E0
+EA
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5895,9 +5895,9 @@ AcDbPoint
   0
 POINT
   5
-E1
+EB
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -5913,9 +5913,9 @@ AcDbPoint
   0
 ENDBLK
   5
-D6
+E0
 330
-D4
+DE
 100
 AcDbEntity
   8
@@ -6133,9 +6133,241 @@ E4:F
 100
 AcDbText
   0
-CIRCLE
+LINE
   5
 99
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+305.0
+ 20
+0.0
+ 30
+0.0
+ 11
+305.0
+ 21
+17.5
+ 31
+0.0
+  0
+LINE
+  5
+9A
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+168.5
+ 20
+0.0
+ 30
+0.0
+ 11
+168.5
+ 21
+17.5
+ 31
+0.0
+  0
+LINE
+  5
+9B
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+32.0
+ 20
+0.0
+ 30
+0.0
+ 11
+32.0
+ 21
+17.5
+ 31
+0.0
+  0
+LINE
+  5
+9C
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+32.0
+ 20
+2205.0
+ 30
+0.0
+ 11
+32.0
+ 21
+2180.0
+ 31
+0.0
+  0
+LINE
+  5
+9D
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+168.5
+ 20
+2205.0
+ 30
+0.0
+ 11
+168.5
+ 21
+2180.0
+ 31
+0.0
+  0
+LINE
+  5
+9E
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+305.0
+ 20
+2205.0
+ 30
+0.0
+ 11
+305.0
+ 21
+2180.0
+ 31
+0.0
+  0
+CIRCLE
+  5
+9F
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+84.25
+ 20
+2181.0
+ 30
+0.0
+ 40
+7.5
+  0
+LINE
+  5
+A0
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+84.25
+ 20
+2205.0
+ 30
+0.0
+ 11
+84.25
+ 21
+2180.0
+ 31
+0.0
+  0
+CIRCLE
+  5
+A1
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+252.75
+ 20
+2181.0
+ 30
+0.0
+ 40
+7.5
+  0
+LINE
+  5
+A2
+330
+17
+100
+AcDbEntity
+  8
+FURAT_EL
+100
+AcDbLine
+ 10
+252.75
+ 20
+2205.0
+ 30
+0.0
+ 11
+252.75
+ 21
+2180.0
+ 31
+0.0
+  0
+CIRCLE
+  5
+A3
 330
 17
 100
@@ -6155,7 +6387,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9A
+A4
 330
 17
 100
@@ -6175,7 +6407,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9B
+A5
 330
 17
 100
@@ -6195,206 +6427,6 @@ AcDbCircle
   0
 CIRCLE
   5
-9C
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-327.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-9D
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-359.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-9E
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-391.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-9F
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-290.0
- 20
-327.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A0
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-290.0
- 20
-359.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A1
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-290.0
- 20
-391.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A2
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-712.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A3
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-744.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A4
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-74.0
- 20
-776.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
-A5
-330
-17
-100
-AcDbEntity
-  8
-FURAT_B
-100
-AcDbCircle
- 10
-290.0
- 20
-712.0
- 30
-0.0
- 40
-2.5
-  0
-CIRCLE
-  5
 A6
 330
 17
@@ -6405,9 +6437,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-744.0
+327.0
  30
 0.0
  40
@@ -6425,9 +6457,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-776.0
+359.0
  30
 0.0
  40
@@ -6447,7 +6479,7 @@ AcDbCircle
  10
 74.0
  20
-1097.0
+391.0
  30
 0.0
  40
@@ -6465,9 +6497,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1129.0
+327.0
  30
 0.0
  40
@@ -6485,9 +6517,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1161.0
+359.0
  30
 0.0
  40
@@ -6507,7 +6539,7 @@ AcDbCircle
  10
 290.0
  20
-1097.0
+391.0
  30
 0.0
  40
@@ -6525,9 +6557,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-1129.0
+712.0
  30
 0.0
  40
@@ -6545,9 +6577,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-1161.0
+744.0
  30
 0.0
  40
@@ -6567,7 +6599,7 @@ AcDbCircle
  10
 74.0
  20
-1482.0
+776.0
  30
 0.0
  40
@@ -6585,9 +6617,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1514.0
+712.0
  30
 0.0
  40
@@ -6605,9 +6637,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1546.0
+744.0
  30
 0.0
  40
@@ -6627,7 +6659,7 @@ AcDbCircle
  10
 290.0
  20
-1482.0
+776.0
  30
 0.0
  40
@@ -6645,9 +6677,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-1514.0
+1097.0
  30
 0.0
  40
@@ -6665,9 +6697,9 @@ FURAT_B
 100
 AcDbCircle
  10
-290.0
+74.0
  20
-1546.0
+1129.0
  30
 0.0
  40
@@ -6687,7 +6719,7 @@ AcDbCircle
  10
 74.0
  20
-1867.0
+1161.0
  30
 0.0
  40
@@ -6705,9 +6737,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1899.0
+1097.0
  30
 0.0
  40
@@ -6725,9 +6757,9 @@ FURAT_B
 100
 AcDbCircle
  10
-74.0
+290.0
  20
-1931.0
+1129.0
  30
 0.0
  40
@@ -6747,7 +6779,7 @@ AcDbCircle
  10
 290.0
  20
-1867.0
+1161.0
  30
 0.0
  40
@@ -6756,6 +6788,206 @@ AcDbCircle
 CIRCLE
   5
 B8
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1482.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+B9
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1514.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BA
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1546.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BB
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+290.0
+ 20
+1482.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BC
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+290.0
+ 20
+1514.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BD
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+290.0
+ 20
+1546.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BE
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1867.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+BF
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1899.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+C0
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+74.0
+ 20
+1931.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+290.0
+ 20
+1867.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+C2
 330
 17
 100
@@ -6775,7 +7007,7 @@ AcDbCircle
   0
 CIRCLE
   5
-B9
+C3
 330
 17
 100
@@ -6795,7 +7027,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BA
+C4
 330
 17
 100
@@ -6815,7 +7047,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BB
+C5
 330
 17
 100
@@ -6835,7 +7067,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BC
+C6
 330
 17
 100
@@ -6855,7 +7087,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BD
+C7
 330
 17
 100
@@ -6875,7 +7107,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BE
+C8
 330
 17
 100
@@ -6895,7 +7127,7 @@ AcDbCircle
   0
 CIRCLE
   5
-BF
+C9
 330
 17
 100
@@ -6915,7 +7147,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C0
+CA
 330
 17
 100
@@ -6935,7 +7167,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C1
+CB
 330
 17
 100
@@ -6955,7 +7187,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C2
+CC
 330
 17
 100
@@ -6975,7 +7207,7 @@ AcDbCircle
   0
 CIRCLE
   5
-C3
+CD
 330
 17
 100
@@ -6995,7 +7227,7 @@ AcDbCircle
   0
 DIMENSION
   5
-C4
+CE
 330
 17
 100
@@ -7049,7 +7281,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-D3
+DD
 330
 17
 100
@@ -7103,7 +7335,7 @@ AcDbRotatedDimension
   0
 TEXT
   5
-E2
+EC
 330
 17
 100
@@ -8221,7 +8453,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-E5
+EF
   0
 DICTIONARYVAR
   5
@@ -8233,7 +8465,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T15:51:56.933142+00:00
+1.4.5 @ 2026-10-30T16:50:05.264993+00:00
   0
 VISUALSTYLE
   5
@@ -14787,7 +15019,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-E5
+EF
 330
 2D
 100
@@ -14795,7 +15027,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T15:51:56.937106+00:00
+1.4.5 @ 2026-10-30T16:50:05.269778+00:00
   0
 ENDSEC
   0

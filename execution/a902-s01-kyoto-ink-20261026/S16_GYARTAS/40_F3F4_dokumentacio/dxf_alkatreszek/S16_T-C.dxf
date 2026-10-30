@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461344.7027314813
+2461344.743113426
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461344.7027314813
+2461344.743113426
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-F9
+100
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{CFD804F1-BBC8-4A89-8614-15D4440A4F65}
+{3CFCFB6E-AB4B-4234-B810-38514424CD04}
   9
 $VERSIONGUID
   2
-{00ADA3AA-F51C-472D-9DCE-14191E0B1B30}
+{7BDA24A9-CA47-453B-9263-D28489D188ED}
   9
 $EXTNAMES
 290
@@ -3281,7 +3281,7 @@ ACAD
   0
 APPID
   5
-F6
+FD
 330
 3
 100
@@ -3295,7 +3295,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-F7
+FE
 330
 3
 100
@@ -5101,7 +5101,7 @@ _CLOSEDBLANK
   0
 BLOCK_RECORD
   5
-D8
+DF
 330
 9
 100
@@ -5121,7 +5121,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-E7
+EE
 330
 9
 100
@@ -5441,9 +5441,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-D9
+E0
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5467,9 +5467,9 @@ AcDbBlockBegin
   0
 LINE
   5
-DB
+E2
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5491,9 +5491,9 @@ AcDbLine
   0
 LINE
   5
-DC
+E3
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5515,9 +5515,9 @@ AcDbLine
   0
 INSERT
   5
-DD
+E4
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5541,9 +5541,9 @@ _ARCHTICK
   0
 INSERT
   5
-DF
+E6
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5565,9 +5565,9 @@ _ARCHTICK
   0
 LINE
   5
-E1
+E8
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5589,9 +5589,9 @@ AcDbLine
   0
 MTEXT
   5
-E2
+E9
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5615,9 +5615,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-E3
+EA
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5633,9 +5633,9 @@ AcDbPoint
   0
 POINT
   5
-E4
+EB
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5651,9 +5651,9 @@ AcDbPoint
   0
 POINT
   5
-E5
+EC
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5669,9 +5669,9 @@ AcDbPoint
   0
 ENDBLK
   5
-DA
+E1
 330
-D8
+DF
 100
 AcDbEntity
   8
@@ -5681,9 +5681,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-E8
+EF
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5707,9 +5707,9 @@ AcDbBlockBegin
   0
 LINE
   5
-EA
+F1
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5731,9 +5731,9 @@ AcDbLine
   0
 LINE
   5
-EB
+F2
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5755,9 +5755,9 @@ AcDbLine
   0
 INSERT
   5
-EC
+F3
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5781,9 +5781,9 @@ _ARCHTICK
   0
 INSERT
   5
-EE
+F5
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5807,9 +5807,9 @@ _ARCHTICK
   0
 LINE
   5
-F0
+F7
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5831,9 +5831,9 @@ AcDbLine
   0
 MTEXT
   5
-F1
+F8
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5859,9 +5859,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-F2
+F9
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5877,9 +5877,9 @@ AcDbPoint
   0
 POINT
   5
-F3
+FA
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5895,9 +5895,9 @@ AcDbPoint
   0
 POINT
   5
-F4
+FB
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -5913,9 +5913,9 @@ AcDbPoint
   0
 ENDBLK
   5
-E9
+F0
 330
-E7
+EE
 100
 AcDbEntity
   8
@@ -6179,7 +6179,7 @@ AcDbLine
  31
 0.0
   0
-CIRCLE
+LINE
   5
 9B
 330
@@ -6187,19 +6187,23 @@ CIRCLE
 100
 AcDbEntity
   8
-FURAT_A
+FURAT_EL
 100
-AcDbCircle
+AcDbLine
  10
-263.0
+32.0
  20
-309.0
+2269.0
  30
 0.0
- 40
-2.5
+ 11
+32.0
+ 21
+2244.0
+ 31
+0.0
   0
-CIRCLE
+LINE
   5
 9C
 330
@@ -6207,19 +6211,23 @@ CIRCLE
 100
 AcDbEntity
   8
-FURAT_A
+FURAT_EL
 100
-AcDbCircle
+AcDbLine
  10
-263.0
+168.5
  20
-341.0
+2269.0
  30
 0.0
- 40
-2.5
+ 11
+168.5
+ 21
+2244.0
+ 31
+0.0
   0
-CIRCLE
+LINE
   5
 9D
 330
@@ -6227,17 +6235,21 @@ CIRCLE
 100
 AcDbEntity
   8
-FURAT_A
+FURAT_EL
 100
-AcDbCircle
+AcDbLine
  10
-263.0
+305.0
  20
-373.0
+2269.0
  30
 0.0
- 40
-2.5
+ 11
+305.0
+ 21
+2244.0
+ 31
+0.0
   0
 CIRCLE
   5
@@ -6251,15 +6263,15 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+84.25
  20
-309.0
+2245.0
  30
 0.0
  40
-2.5
+7.5
   0
-CIRCLE
+LINE
   5
 9F
 330
@@ -6267,17 +6279,21 @@ CIRCLE
 100
 AcDbEntity
   8
-FURAT_A
+FURAT_EL
 100
-AcDbCircle
+AcDbLine
  10
-47.0
+84.25
  20
-341.0
+2269.0
  30
 0.0
- 40
-2.5
+ 11
+84.25
+ 21
+2244.0
+ 31
+0.0
   0
 CIRCLE
   5
@@ -6291,15 +6307,15 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+252.75
  20
-373.0
+2245.0
  30
 0.0
  40
-2.5
+7.5
   0
-CIRCLE
+LINE
   5
 A1
 330
@@ -6307,17 +6323,21 @@ A1
 100
 AcDbEntity
   8
-FURAT_A
+FURAT_EL
 100
-AcDbCircle
+AcDbLine
  10
-263.0
+252.75
  20
-694.0
+2269.0
  30
 0.0
- 40
-2.5
+ 11
+252.75
+ 21
+2244.0
+ 31
+0.0
   0
 CIRCLE
   5
@@ -6333,7 +6353,7 @@ AcDbCircle
  10
 263.0
  20
-726.0
+309.0
  30
 0.0
  40
@@ -6353,7 +6373,7 @@ AcDbCircle
  10
 263.0
  20
-758.0
+341.0
  30
 0.0
  40
@@ -6371,9 +6391,9 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-694.0
+373.0
  30
 0.0
  40
@@ -6393,7 +6413,7 @@ AcDbCircle
  10
 47.0
  20
-726.0
+309.0
  30
 0.0
  40
@@ -6413,7 +6433,7 @@ AcDbCircle
  10
 47.0
  20
-758.0
+341.0
  30
 0.0
  40
@@ -6431,9 +6451,9 @@ FURAT_A
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1079.0
+373.0
  30
 0.0
  40
@@ -6453,7 +6473,7 @@ AcDbCircle
  10
 263.0
  20
-1111.0
+694.0
  30
 0.0
  40
@@ -6473,7 +6493,7 @@ AcDbCircle
  10
 263.0
  20
-1143.0
+726.0
  30
 0.0
  40
@@ -6491,9 +6511,9 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1079.0
+758.0
  30
 0.0
  40
@@ -6513,7 +6533,7 @@ AcDbCircle
  10
 47.0
  20
-1111.0
+694.0
  30
 0.0
  40
@@ -6533,7 +6553,7 @@ AcDbCircle
  10
 47.0
  20
-1143.0
+726.0
  30
 0.0
  40
@@ -6551,9 +6571,9 @@ FURAT_A
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1464.0
+758.0
  30
 0.0
  40
@@ -6573,7 +6593,7 @@ AcDbCircle
  10
 263.0
  20
-1496.0
+1079.0
  30
 0.0
  40
@@ -6593,7 +6613,7 @@ AcDbCircle
  10
 263.0
  20
-1528.0
+1111.0
  30
 0.0
  40
@@ -6611,9 +6631,9 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1464.0
+1143.0
  30
 0.0
  40
@@ -6633,7 +6653,7 @@ AcDbCircle
  10
 47.0
  20
-1496.0
+1079.0
  30
 0.0
  40
@@ -6653,7 +6673,7 @@ AcDbCircle
  10
 47.0
  20
-1528.0
+1111.0
  30
 0.0
  40
@@ -6671,9 +6691,9 @@ FURAT_A
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1849.0
+1143.0
  30
 0.0
  40
@@ -6693,7 +6713,7 @@ AcDbCircle
  10
 263.0
  20
-1881.0
+1464.0
  30
 0.0
  40
@@ -6713,7 +6733,7 @@ AcDbCircle
  10
 263.0
  20
-1913.0
+1496.0
  30
 0.0
  40
@@ -6731,9 +6751,9 @@ FURAT_A
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1849.0
+1528.0
  30
 0.0
  40
@@ -6753,7 +6773,7 @@ AcDbCircle
  10
 47.0
  20
-1881.0
+1464.0
  30
 0.0
  40
@@ -6773,7 +6793,7 @@ AcDbCircle
  10
 47.0
  20
-1913.0
+1496.0
  30
 0.0
  40
@@ -6787,13 +6807,13 @@ B9
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-309.0
+1528.0
  30
 0.0
  40
@@ -6807,13 +6827,13 @@ BA
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
 263.0
  20
-341.0
+1849.0
  30
 0.0
  40
@@ -6827,13 +6847,13 @@ BB
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
 263.0
  20
-373.0
+1881.0
  30
 0.0
  40
@@ -6847,13 +6867,13 @@ BC
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-309.0
+1913.0
  30
 0.0
  40
@@ -6867,13 +6887,13 @@ BD
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
 47.0
  20
-341.0
+1849.0
  30
 0.0
  40
@@ -6887,13 +6907,13 @@ BE
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
 47.0
  20
-373.0
+1881.0
  30
 0.0
  40
@@ -6907,13 +6927,13 @@ BF
 100
 AcDbEntity
   8
-FURAT_B
+FURAT_A
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-694.0
+1913.0
  30
 0.0
  40
@@ -6933,7 +6953,7 @@ AcDbCircle
  10
 263.0
  20
-726.0
+309.0
  30
 0.0
  40
@@ -6953,7 +6973,7 @@ AcDbCircle
  10
 263.0
  20
-758.0
+341.0
  30
 0.0
  40
@@ -6971,9 +6991,9 @@ FURAT_B
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-694.0
+373.0
  30
 0.0
  40
@@ -6993,7 +7013,7 @@ AcDbCircle
  10
 47.0
  20
-726.0
+309.0
  30
 0.0
  40
@@ -7013,7 +7033,7 @@ AcDbCircle
  10
 47.0
  20
-758.0
+341.0
  30
 0.0
  40
@@ -7031,9 +7051,9 @@ FURAT_B
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1079.0
+373.0
  30
 0.0
  40
@@ -7053,7 +7073,7 @@ AcDbCircle
  10
 263.0
  20
-1111.0
+694.0
  30
 0.0
  40
@@ -7073,7 +7093,7 @@ AcDbCircle
  10
 263.0
  20
-1143.0
+726.0
  30
 0.0
  40
@@ -7091,9 +7111,9 @@ FURAT_B
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1079.0
+758.0
  30
 0.0
  40
@@ -7113,7 +7133,7 @@ AcDbCircle
  10
 47.0
  20
-1111.0
+694.0
  30
 0.0
  40
@@ -7133,7 +7153,7 @@ AcDbCircle
  10
 47.0
  20
-1143.0
+726.0
  30
 0.0
  40
@@ -7151,9 +7171,9 @@ FURAT_B
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1464.0
+758.0
  30
 0.0
  40
@@ -7173,7 +7193,7 @@ AcDbCircle
  10
 263.0
  20
-1496.0
+1079.0
  30
 0.0
  40
@@ -7193,7 +7213,7 @@ AcDbCircle
  10
 263.0
  20
-1528.0
+1111.0
  30
 0.0
  40
@@ -7211,9 +7231,9 @@ FURAT_B
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1464.0
+1143.0
  30
 0.0
  40
@@ -7233,7 +7253,7 @@ AcDbCircle
  10
 47.0
  20
-1496.0
+1079.0
  30
 0.0
  40
@@ -7253,7 +7273,7 @@ AcDbCircle
  10
 47.0
  20
-1528.0
+1111.0
  30
 0.0
  40
@@ -7271,9 +7291,9 @@ FURAT_B
 100
 AcDbCircle
  10
-263.0
+47.0
  20
-1849.0
+1143.0
  30
 0.0
  40
@@ -7293,7 +7313,7 @@ AcDbCircle
  10
 263.0
  20
-1881.0
+1464.0
  30
 0.0
  40
@@ -7313,7 +7333,7 @@ AcDbCircle
  10
 263.0
  20
-1913.0
+1496.0
  30
 0.0
  40
@@ -7331,9 +7351,9 @@ FURAT_B
 100
 AcDbCircle
  10
-47.0
+263.0
  20
-1849.0
+1528.0
  30
 0.0
  40
@@ -7353,7 +7373,7 @@ AcDbCircle
  10
 47.0
  20
-1881.0
+1464.0
  30
 0.0
  40
@@ -7373,6 +7393,146 @@ AcDbCircle
  10
 47.0
  20
+1496.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+D7
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+47.0
+ 20
+1528.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+D8
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+263.0
+ 20
+1849.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+D9
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+263.0
+ 20
+1881.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+DA
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+263.0
+ 20
+1913.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+DB
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+47.0
+ 20
+1849.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+DC
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+47.0
+ 20
+1881.0
+ 30
+0.0
+ 40
+2.5
+  0
+CIRCLE
+  5
+DD
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+47.0
+ 20
 1913.0
  30
 0.0
@@ -7381,7 +7541,7 @@ AcDbCircle
   0
 DIMENSION
   5
-D7
+DE
 330
 17
 100
@@ -7435,7 +7595,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-E6
+ED
 330
 17
 100
@@ -7489,7 +7649,7 @@ AcDbRotatedDimension
   0
 TEXT
   5
-F5
+FC
 330
 17
 100
@@ -8607,7 +8767,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-F8
+FF
   0
 DICTIONARYVAR
   5
@@ -8619,7 +8779,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T15:51:56.957006+00:00
+1.4.5 @ 2026-10-30T16:50:05.290221+00:00
   0
 VISUALSTYLE
   5
@@ -15173,7 +15333,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-F8
+FF
 330
 2D
 100
@@ -15181,7 +15341,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T15:51:56.961319+00:00
+1.4.5 @ 2026-10-30T16:50:05.294910+00:00
   0
 ENDSEC
   0

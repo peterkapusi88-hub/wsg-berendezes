@@ -251,3 +251,17 @@ def etalon_el_kod(rec):
     key = lambda k: (EL_PRIORITAS.get(e[k]["szerep"], 9), k)
     order = sorted(hossz, key=key) + sorted(szel, key=key)
     return "".join(e[k]["jel"] for k in order), order
+
+
+def contains_robust(solid, pts):
+    """contains + második vélemény: az előjeles távolság közelpont-kétértelműségnél (vékony íves darab) tévesen negatív
+    lehet; ilyenkor a sugaras teszt dönt. Csak furat-ellenőrzéshez."""
+    pts = np.atleast_2d(pts)
+    res = solid.contains(pts)
+    if solid.mesh is not None and not res.all():
+        bad = ~res
+        inb = np.all((pts > solid.lo - 1e-6) & (pts < solid.hi + 1e-6), axis=1)
+        chk = bad & inb
+        if chk.any():
+            res[chk] = solid.mesh.contains(pts[chk])
+    return res

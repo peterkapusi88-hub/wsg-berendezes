@@ -411,10 +411,8 @@ def write_excel(doc, parts, holes_by, mpr_by, vas, path):
     for t, dbn in sorted(cnt.items()):
         db = sum(w.get("db", 1) for w in vas["vasalat"] if w["tipus"] == t)
         wv.append([t, names[t], db, "f2b_vasalat.py – geometriából", "TERVI – típus/variáns műhelyi megerősítésre"])
-    wv.append(["PANT talplemez", "Blum CLIP top talplemez (variáns nyitott)", cnt.get("PANT_CLIPTOP_110", 0), "f2b_vasalat.py", "TERVI"])
-    for row in ([] if PREFIX != "S16" else [("Blum MOVENTO 760H sínpár (NL300)", "760H3000S pár + T51.7601 kapocs (R14 drawers.json)", 6, "R14 drawers.json", "NYITOTT – gyári furatkép a sín kiválasztása után"),
-                ("TIP-ON BLUMOTION egység", "T60L7140 / T60L7040 (R14 drawers.json)", 6, "R14 drawers.json", "NYITOTT"),
-                ("Korpusz él-él illesztések kötése", "Häfele kötő / csavar (etalon: 637.76.333/351)", None, "vasalat_jelentes.md", "NYITOTT – műhelyi döntés")]):
+    wv.append(["PANT talplemez", (vas["vasalat"] and next((w.get("talp_cikkszam") for w in vas["vasalat"] if w.get("talp_cikkszam")), None)) or "a pánt cikkszámában", cnt.get("PANT_CLIPTOP_110", 0), "f2b_vasalat.py", "TERVI"])
+    for row in []:
         wv.append(list(row))
     for row in wv.iter_rows(min_row=2):
         for c in row:

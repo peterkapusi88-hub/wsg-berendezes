@@ -1649,7 +1649,8 @@
    ],
    "tech": [
     {
-     "reteg": "TECH_KIMETSZES_S16_T-B",
+     "reteg": "$DIFF_OUT",
+     "op": "KIMETSZES",
      "tipus": "box",
      "box": [
       37,
@@ -3480,7 +3481,8 @@
    ],
    "tech": [
     {
-     "reteg": "TECH_ATMENO_KIVAGAS_S16_T-DOOR-L",
+     "reteg": "$DIFF_OUT",
+     "op": "ATMENO_KIVAGAS",
      "tipus": "extrude_y",
      "origo": [
       21,
@@ -4155,7 +4157,8 @@
      }
     },
     {
-     "reteg": "TECH_HATSO_FENYFALC_S16_T-DOOR-L",
+     "reteg": "$DIFF_OUT",
+     "op": "HATSO_FENYFALC",
      "tipus": "extrude_y",
      "origo": [
       21,
@@ -7173,7 +7176,8 @@
    ],
    "tech": [
     {
-     "reteg": "TECH_FENYCSATORNA_FALC_S16_TV-FIELD",
+     "reteg": "$DIFF_OUT",
+     "op": "FENYCSATORNA_FALC",
      "tipus": "box",
      "box": [
       869,

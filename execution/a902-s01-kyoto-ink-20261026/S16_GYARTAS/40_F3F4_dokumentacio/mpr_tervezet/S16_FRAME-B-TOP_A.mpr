@@ -1,0 +1,46 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="80"
+B="80"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="S16_FRAME-B-TOP A-OLDAL FELUL - S16-R15B-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="0"
+YA="71"
+ZA="9"
+BM="XP"
+TI="15"
+DU="6"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL FRAME-B-HIGH-3:E2:FRAME-B-TOP:EE0 TERVEZET"
+
+<103 \BohrHoriz\
+XA="71"
+YA="0"
+ZA="9"
+BM="YP"
+TI="15"
+DU="6"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL FRAME-B-R:E3:FRAME-B-TOP:EE0 TERVEZET"
+

@@ -4,60 +4,61 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 
 | Furat-funkció | db |
 |---|---|
+| MINIFIX_CSAP | 22 |
+| MINIFIX_CSATORNA | 22 |
+| MINIFIX_HAZ | 22 |
+| MOVENTO_HOROG | 12 |
+| MOVENTO_SIN_JELOLO | 33 |
 | PANTKEHELY | 11 |
 | PANTTALP | 22 |
 | PANT_DUBEL | 22 |
 | POLCTARTO | 120 |
-| TIPLI_EL | 75 |
-| TIPLI_LAP | 75 |
+| TIPLI_EL | 142 |
+| TIPLI_LAP | 108 |
 
 | Kötés | db |
 |---|---|
-| EL_EL_ILLESZTES | 21 |
-| NEM_TIPLIS | 11 |
 | TIPLI | 25 |
+| TIPLI+MINIFIX | 11 |
+| TIPLI_EL_EL | 1 |
+| TIPLI_EL_EL_KERETLEC | 14 |
 
-**Problémák:** {}
+**Problémák:** {'HIBA': 1}
 
 | Súlyosság | Alkatrész | Megállapítás |
 |---|---|---|
+| HIBA | D6-R | D6 sín (Z≈204) a korpuszoldal (D6-R, Z 230…) alatt van – a sín az íves sarokelemre esne: szerelőléc/távtartó vagy a korpuszoldal lefelé hosszabbítása kell (DÖNTÉS) |
 
 ## Nem tiplis kapcsolatok (külön kötés kell)
 
 | A | él | B | típus | ok |
 |---|---|---|---|---|
-| D1-L | E1 | CURVE-T-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| D1-R | E1 | CURVE-T-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| D1-R | E3 | T-R | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| D6-R | E1 | CURVE-B-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| D6-R | E3 | CURVE-B-TOP | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| D6-B | E2 | CURVE-B-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| D6-T | E2 | CURVE-B-TOP | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| T-L | E1 | CURVE-T-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| T-L | E3 | CURVE-T-TOP | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| T-R | E1 | D1-R | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| T-R | E3 | CURVE-T-TOP | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| T-C | E3 | CURVE-T-TOP | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
-| FRAME-T-L | E1 | FRAME-T-BOT | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-T-L | E3 | FRAME-T-TOP | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-T-R | E1 | FRAME-T-MID | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-T-R | E3 | FRAME-T-TOP | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-T-MID | E2 | FRAME-B-HIGH-1 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-1 | E2 | FRAME-B-LOW-2 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-1 | E4 | FRAME-T-BOT | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-2 | E2 | FRAME-B-LOW-3 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-2 | E4 | FRAME-B-LOW-1 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-3 | E2 | FRAME-B-BOT | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-LOW-3 | E4 | FRAME-B-LOW-2 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-1 | E2 | FRAME-B-HIGH-2 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-1 | E4 | FRAME-T-MID | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-2 | E2 | FRAME-B-HIGH-3 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-2 | E4 | FRAME-B-HIGH-1 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-3 | E2 | FRAME-B-TOP | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-HIGH-3 | E4 | FRAME-B-HIGH-2 | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-R | E1 | FRAME-B-BOT | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| FRAME-B-R | E3 | FRAME-B-TOP | EL_EL_ILLESZTES | két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem |
-| T-LOW-DIV | E1 | CURVE-T-BOT | NEM_TIPLIS | B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés |
+| D1-L | E1 | CURVE-T-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D1-R | E1 | CURVE-T-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D1-R | E3 | T-R | TIPLI_EL_EL | él-él illesztés (egymásra ülő oldallapok): Ø8×35, 17,5/17,5 – Claude döntés |
+| D6-R | E1 | CURVE-B-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D6-R | E3 | CURVE-B-TOP | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D6-B | E2 | CURVE-B-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D6-T | E2 | CURVE-B-TOP | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| T-L | E1 | CURVE-T-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| T-L | E3 | CURVE-T-TOP | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| T-R | E3 | CURVE-T-TOP | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| T-C | E3 | CURVE-T-TOP | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| FRAME-T-L | E1 | FRAME-T-BOT | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-T-L | E3 | FRAME-T-TOP | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-T-R | E1 | FRAME-T-MID | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-T-R | E3 | FRAME-T-TOP | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-T-MID | E2 | FRAME-B-HIGH-1 | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-LOW-1 | E2 | FRAME-B-LOW-2 | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-LOW-1 | E4 | FRAME-T-BOT | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-LOW-2 | E2 | FRAME-B-LOW-3 | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-LOW-3 | E2 | FRAME-B-BOT | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-HIGH-1 | E2 | FRAME-B-HIGH-2 | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-HIGH-2 | E2 | FRAME-B-HIGH-3 | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-HIGH-3 | E2 | FRAME-B-TOP | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-R | E1 | FRAME-B-BOT | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| FRAME-B-R | E3 | FRAME-B-TOP | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
+| T-LOW-DIV | E1 | CURVE-T-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
 
 ## Paraméterek és források
 
@@ -66,12 +67,48 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
  "tipli": {
   "d": 8.0,
   "el_melyseg": 25.0,
-  "lap_melyseg": 12.0,
+  "lap_melyseg": 13.0,
   "hossz": 35,
   "veg_tav": 32.0,
   "max_koz": 192.0,
   "min_el": 60.0,
-  "forras": "etalon (km/coo1): Ø8×25/35 bordás tipli; 32-es rendszer"
+  "forras": "etalon km.dwg CONNOBJ_DOWEL_D8_L35_13-24: Ø8, lapba 13, élbe 25 mm; 32-es rendszer"
+ },
+ "tipli_el_el": {
+  "d": 8.0,
+  "melyseg": 17.5,
+  "hossz": 35,
+  "forras": "él-él illesztés (egymásra ülő oldallapok): Ø8×35, 17,5/17,5 – Claude döntés"
+ },
+ "tipli_keret": {
+  "d": 6.0,
+  "melyseg": 15.0,
+  "hossz": 30,
+  "forras": "18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés"
+ },
+ "minifix": {
+  "haz_d": 15.0,
+  "haz_melyseg": 12.5,
+  "B": 24.0,
+  "csatorna_d": 8.0,
+  "csap_d": 5.0,
+  "csap_melyseg": 11.0,
+  "forras": "Häfele Minifix 15 (262.26.174, az asztalos km.dwg/coo1.dwg CONNOBJ_MINIFIX_D15_AV18_L24 blokkja); B = 24 mm; furatmélységek Häfele adatlap szerint ellenőrizendők"
+ },
+ "movento": {
+  "sin_jelolo_d": 2.5,
+  "sin_jelolo_m": 3.0,
+  "sin_furatok_eloltol": [
+   37.0,
+   165.0,
+   261.0
+  ],
+  "sin_magassag_fiokoldal_alatt": 6.5,
+  "horog_d": 6.0,
+  "horog_m": 10.0,
+  "horog_alulrol": 7.0,
+  "horog_kulso_oldaltol": 11.0,
+  "forras": "Blum MOVENTO szerelési útmutató (wwhardware.com movento-2016.pdf): hátsó horog Ø6×10, 7/11 mm; elülső hézag 3 mm; csavarpozíciók A/B NL300-hoz (763.3050M: 165/261) + 37 mm elülső rendszerfurat; zár (T51.7601) és TIP-ON sablonnal (T65.1000.02 / T65.1600.01)"
  },
  "polc": {
   "d": 5.0,
