@@ -100,7 +100,8 @@ def atadasi_lap(path, S):
                  "02 – alkatrészlapok (PDF, alkatrészenként 1 oldal: kontúr, A/B oldali és élfuratok, élzárás, ütköző, szálirány, furattábla).",
                  "03 – szabásjegyzék (XLSX): kész / élzárás előtti / nyers méret, élek, furatszám, MPR-név, anyag- és vasalat-összesítő, furatlista.",
                  "04 – matricák 100×50 mm, Code128 = címke-ID = MPR-programnév alapja.",
-                 "05 – MPR-tervezetek (woodWOP), 06 – alkatrészenkénti DXF (kontúr, furatok, élzárás rétegeken)."]:
+                 "05 – MPR-tervezetek (woodWOP), 06 – alkatrészenkénti DXF (kontúr, furatok, élzárás rétegeken).",
+                 "07 – látványterv (KONCEPCIÓ, csak tájékoztató; eltérés esetén a gyártási adat érvényes)."]:
         E.append(Paragraph("• " + line, p))
     E.append(Paragraph("Közös feltevések", h2))
     E += [Paragraph("• " + x, p) for x in KOZOS]
@@ -132,6 +133,15 @@ def main():
         shutil.copy(doc_dir / f"{tag}_cimkek.pdf", d / f"04_{tag}_cimkek.pdf")
         shutil.copytree(doc_dir / "mpr_tervezet", d / "05_MPR_tervezet")
         shutil.copytree(doc_dir / "dxf_alkatreszek", d / "06_DXF_alkatreszek")
+        lat = HERE / "latvany" / f"A902_KyotoInk_{name}_mediafal_latvany.png"
+        if lat.exists():
+            (d / "07_LATVANY").mkdir()
+            shutil.copy(lat, d / "07_LATVANY" / lat.name)
+            (d / "07_LATVANY" / "OLVASD_EL.txt").write_text(
+                "Látványterv – KONCEPCIÓ, NEM GYÁRTÁSI RAJZ (Péter kérésére a csomagban, 2026-10-30).\n"
+                "Csak a megjelenés érzékeltetésére. Minden méret, anyag, furat és vasalat a DWG, az alkatrészlapok és a szabásjegyzék szerint.\n"
+                "Ahol a kép eltér a gyártási adattól, a gyártási adat érvényes (pl. S16: a TV-mező erezete vízszintes, a bal ajtó textilmezője "
+                "keskenyebb az 50 mm-es keretszár miatt; anyagok: Egger U741 / H1399 / F424 – lásd Excel „Anyagjavaslat”).\n", encoding="utf-8")
     atadasi_lap(root / "00_ATADASI_LAP.pdf", S)
     z = out / (root.name + ".zip")
     with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
