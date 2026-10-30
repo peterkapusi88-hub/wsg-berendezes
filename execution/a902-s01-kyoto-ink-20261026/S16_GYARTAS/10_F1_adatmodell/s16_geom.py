@@ -172,6 +172,13 @@ def build_solid(part, zobj):
     if part.get("outline") and part["axis"] == "y":
         holes = [c["outline"] for c in part.get("cutouts", []) if c.get("type") == "through_contour"]
         m = extrude_outline_y(part, holes)
+        rr = part.get("rear_light_rebate")
+        if rr and m.is_watertight:
+            # hátsó fényfalc: a kontúr-prizma kivonása az y_mm tartományban (globális X,Z kontúr)
+            x, y, z = part["box"][:3]
+            sub = extrude_outline_y({"box": [x, rr["y_mm"][0] - 1, z, 0, rr["y_mm"][1] - rr["y_mm"][0] + 1, 0],
+                                     "outline": [[a - x, b - z] for a, b in rr["outline_xz_mm"]]})
+            m = m.difference(sub, engine="manifold")
         if m.is_watertight:
             return Solid.from_mesh(name, m, "R14_kontur_extrudalas")
     if part.get("assembly_rebate"):
