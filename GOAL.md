@@ -550,6 +550,16 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - Így egy darabból kijön szabványos (becsült 2800×2070-es, erezet a hossz mentén) faerezetes lapból, furnértoldás nélkül; a fiókfrontok erezetével azonos irányú. A magas toronyajtók függőlegesek maradnak.
   - Az R14 renderek függőleges erezetet mutatnak – a következő látványfrissítésnél vízszintesre igazítandó.
 
+- *(2026-10-30 esti döntések, Péter – az asztalosi csomag v8-ba beépítve, PR #30, „mehet” előtt)* **S16 és R16 médiafal:**
+  - **S16 bal toronyajtó pántolhatósága:** keretszár 31 → 50/50 mm, a textilmező 350 → 312,5 mm; Blum 70T3750 (rugó nélküli inset, TIP-ON) + 177H3100E. Péter: „a pántozást oldd meg, ahogy legjobbnak gondolod” → Claude döntése, visszafordítható (R15B).
+  - **S16 D6 fiók:** a fiókdoboz 35 mm-rel feljebb (belső magasság 210 → 175 mm, front változatlan), mert a jobb sín az íves sarokelembe esett. Péter választása 18:05 (R15C).
+  - **Élzáró:** korpusz 0,8 mm, front 2 mm ABS („amelyik jobb” → Claude választása).
+  - **S16 háttér (M04):** szín ÉS textilhatás („is-is”) → Egger F424 ST10 barna len HPL (javaslat, mintával ellenőrizendő).
+  - **8 mm grafit hátlap (Egger U961):** rendelésre („majd rendelünk”).
+  - **R16 dekorpanel (M02):** Egger F433 ST10 antracit len kész lap a Vescom tekercs helyett („ahogy jobb” → Claude választása).
+  - **R16 felső fedő (3610 mm):** egy darabból, toldás nélkül, hosszú MDF-táblából („ahogy igényesebb”); beszerzés egyeztetendő. Mennyezeti rés (20 mm) helyszíni mérésre vár.
+  - **Asztalos:** a csomag + kérdések (DWG betöltése a programjába, minta-MPR/szerszámlista, anyag/él/vasalat megerősítés, Excel-sablon, matrica, élkód-sorrend, de_11090) kiküldése Péter „mehet”-jére vár.
+
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
 2. Tételes lista lakásonként (helyiség · tétel · termék · méret · ár · forrás · státusz) Kave Home + IKEA + asztalos; összeg + 10% + maradék.
