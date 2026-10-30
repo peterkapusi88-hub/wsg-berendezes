@@ -69,3 +69,22 @@ Valós pánt/sín kinematika, ajtónyitás (pántoldal nincs rögzítve), kábel
 **Péternek:** a TV-FIELD erezete eldöntve (vízszintes). Később: faerezetes dekor/termék mintáról.
 
 **Tervezői javítás (2. fázis elején, R15):** fiókfenék besüllyesztés, BG-1/BG-FINISH nyers méret + szöveg, BATTEN és T-DOOR-L-BACK anyag/vastagság, a hiányzó BG-visszafordulások és fénytakarók felvétele a listába.
+
+---
+
+## R15 – adatjavítás (2026-10-30 délután, PR #29)
+
+`r15_patch.py` az érintetlen `forras_R14/`-ből előállítja a `forras_R15/`-öt, minden változás indokkal és forrással a `forras_R15/R15_VALTOZASNAPLO.json`-ban (44 tétel: 42 JAVÍTVA, 1 JAVASLAT, 1 NYITOTT). A build és a QA alapértelmezésben már az R15-ből fut (`S16_FORRAS=forras_R14` környezeti változóval visszaállítható). Az R14 F1-jelentés a main `79d8c0a` commitjában marad meg.
+
+| Javítás | Mit |
+|---|---|
+| 6 fiók | fenék 12 mm-rel feljebb (Blum MOVENTO), elő-/hátfal 222 → 210 mm magas, belső magasság 210 mm |
+| BG-1, BG-FINISH | nyers magasság 2405 (volt 2315), nyers hossz = kész + 30 mm szerelési ráhagyás (841 / 2887), új szabály-szöveg |
+| BATTEN-1…5 | anyag M10 – 8 mm MDF léc (javaslat) |
+| T-DOOR-L-BACK | anyag M11 – 12 mm festett MDF; nyers a szabályból (+10/+10) |
+| 9 fénytakaró/tálca | felvéve alkatrészként (M12, termék nyitott) – most már anyagjegyzékben és ütközésvizsgálatban |
+| LOW-INTERNAL-LIGHT-VISOR | **JAVASLAT:** a csukott ajtó kazetta-hátlapjába lógott (24 480 mm³) → 6 mm-rel a kazetta mögé (Y 343–348) |
+| BG-UPPER/LOWER-HIDDEN-RETURN | **NYITOTT:** nem rekonstruálható bizonyítékkal, Blender-ellenőrzés kell |
+| TV-FIELD | vízszintes erezet (Péter, 12:49) |
+
+**QA R15: 0 BLOKKOLO · 0 HIBA · 2 FIGYELMEZTETÉS** (a két BG-visszafordulás). Ez az *adat* konzisztenciája – a gyártási kiadáshoz még kell: valós vasalat-geometria, műhelyi konvenciók, felmérés, első darab.

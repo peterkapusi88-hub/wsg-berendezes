@@ -1,15 +1,13 @@
 {
  "datum": "2026-10-30",
- "modell_revizio": "S16-GY-F1-v1",
+ "modell_revizio": "S16-R15-GY-v1",
  "osszesites": {
-  "BLOKKOLO": 2,
-  "HIBA": 16,
-  "FIGYELMEZTETES": 12,
-  "INFO": 41
+  "FIGYELMEZTETES": 2,
+  "INFO": 44
  },
- "itelet": "BLOKKOLT – gyártási kiadás tilos",
+ "itelet": "adatmodell konzisztens (műhelyi megerősítés még kell)",
  "meta": {
-  "alkatresz": 120,
+  "alkatresz": 129,
   "vizsgalt_utkozo_par": 27,
   "frontres_sorok": [
    [
@@ -170,204 +168,35 @@
    ]
   ],
   "geometria_forrasok": {
-   "R14_zart_halo": 117,
+   "R14_zart_halo": 126,
    "doboz_minusz_kimetszes": 1,
    "R14_kontur_extrudalas": 2
   }
  },
  "tetelek": [
   {
-   "sulyossag": "BLOKKOLO",
-   "kod": "Q02_NYERS_KISEBB_MINT_KESZ",
-   "alkatresz": "BG-1",
-   "uzenet": "nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból",
-   "forras": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)"
-  },
-  {
-   "sulyossag": "BLOKKOLO",
-   "kod": "Q02_NYERS_KISEBB_MINT_KESZ",
-   "alkatresz": "BG-FINISH",
-   "uzenet": "nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból",
-   "forras": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q03_SZOVEG_ADAT_ELTERES",
-   "alkatresz": "BG-1",
-   "uzenet": "R14 raw_rule szövege kész L=801 mm-t ír, az adat L=811.0 mm; nyers a szövegben 831, adatban 831",
-   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q03_SZOVEG_ADAT_ELTERES",
-   "alkatresz": "BG-FINISH",
-   "uzenet": "R14 raw_rule szövege kész L=801 mm-t ír, az adat L=2857 mm; nyers a szövegben 831, adatban 2877",
-   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "BATTEN-1",
-   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "BATTEN-2",
-   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "BATTEN-3",
-   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "BATTEN-4",
-   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "BATTEN-5",
-   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
-   "alkatresz": "T-DOOR-L-BACK",
-   "uzenet": "T=12 mm, de az anyag (M02 – Szatén sötét barnásgrafit keret) névleges vastagsága 18 mm"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D1",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D2",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D3",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D4",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D5",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
-   "alkatresz": "D6",
-   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
-   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
-  },
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK",
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_HIVATKOZAS_TISZTAZANDO",
    "alkatresz": "BG-LOWER-HIDDEN-RETURN",
-   "uzenet": "a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test"
+   "uzenet": "nincs ilyen test; R15-ben tisztázandóként rögzítve (layout.r15_tisztazando) – Blender-ellenőrzés, kitalált geometria nélkül"
   },
   {
-   "sulyossag": "HIBA",
-   "kod": "Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK",
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_HIVATKOZAS_TISZTAZANDO",
    "alkatresz": "BG-UPPER-HIDDEN-RETURN",
-   "uzenet": "a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test"
+   "uzenet": "nincs ilyen test; R15-ben tisztázandóként rögzítve (layout.r15_tisztazando) – Blender-ellenőrzés, kitalált geometria nélkül"
   },
   {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
+   "sulyossag": "INFO",
+   "kod": "Q03_SZANDEKOS_RAHAGYAS",
    "alkatresz": "BG-1",
-   "uzenet": "R14 explicit nyers 831×2315 ≠ anyagszabály szerinti 811.0×2405.0",
-   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+   "uzenet": "nyers 841.0×2405 a szabály-szövegben rögzített ráhagyással egyezik"
   },
   {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
+   "sulyossag": "INFO",
+   "kod": "Q03_SZANDEKOS_RAHAGYAS",
    "alkatresz": "BG-FINISH",
-   "uzenet": "R14 explicit nyers 2877×2315 ≠ anyagszabály szerinti 2857.0×2405.0",
-   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
-   "alkatresz": "T-DOOR-L-BACK",
-   "uzenet": "R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0",
-   "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után."
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "DECK-CONTINUOUS-BAFFLE",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [870.0, 109.0, 579.0, 2628.0, 4.0, 17.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "DECK-CONTINUOUS-COVER",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [870.0, 101.0, 592.0, 2628.0, 8.0, 4.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "LOW-INTERNAL-LIGHT-VISOR",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [57.0, 359.0, 554.0, 306.0, 5.0, 16.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "TOP-WASH-BAFFLE",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 34.0, 2857.0, 2857.0, 4.0, 18.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "TOP-WASH-COVER",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 26.0, 2872.0, 2857.0, 8.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "TOP-WASH-HIDDEN-END",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [3595.0, 26.0, 2857.0, 2.0, 8.0, 15.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "UPLIGHT-FRONT-VISOR",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 25.0, 2876.0, 2845.0, 4.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "UPLIGHT-REAR-VISOR",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 5.0, 2876.0, 2845.0, 3.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
-   "alkatresz": "UPLIGHT-TRAY",
-   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 5.0, 2875.0, 2845.0, 24.0, 1.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+   "uzenet": "nyers 2887×2405 a szabály-szövegben rögzített ráhagyással egyezik"
   },
   {
    "sulyossag": "INFO",
@@ -533,8 +362,14 @@
   },
   {
    "sulyossag": "INFO",
+   "kod": "Q18_FENYRES_SZABAD",
+   "alkatresz": "fénytakarók",
+   "uzenet": "a résben ülő felfelé világító szerelvény fölött 21.0 mm szabad (R14 szándék: 4 mm-t foglal, 21 mm marad; min. 20 mm)"
+  },
+  {
+   "sulyossag": "INFO",
    "kod": "Q18_MENNYEZETI_RES",
-   "alkatresz": "*",
+   "alkatresz": "bútortest",
    "uzenet": "legmagasabb pont Z=2875, rés a névleges 2900 mm-es mennyezetig 25 mm (helyszíni felmérés még nincs)"
   },
   {

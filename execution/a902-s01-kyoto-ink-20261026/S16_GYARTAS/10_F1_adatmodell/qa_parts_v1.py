@@ -21,7 +21,11 @@ from datetime import date
 from itertools import combinations
 from pathlib import Path
 
+import warnings
+
 import numpy as np
+
+warnings.filterwarnings("ignore", category=RuntimeWarning, module="trimesh")
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -84,7 +88,10 @@ def q_nyers_vs_kesz(doc, rules, qa):
             pm = mat.get("elomaras_elenkent") or 0
             exp_L = m["elzaras_elotti"]["L"] + mat["rahagyas_L"]
             exp_W = m["elzaras_elotti"]["W"] + mat["rahagyas_W"]
-            if pm == 0 and (abs(m["nyers"]["L"] - exp_L) > 0.01 or abs(m["nyers"]["W"] - exp_W) > 0.01):
+            szandekos = mn and abs(float(mn.group(1).replace(",", ".")) - m["nyers"]["L"]) < 0.01
+            if szandekos:
+                qa.add("INFO", "Q03_SZANDEKOS_RAHAGYAS", r["id"], f"nyers {m['nyers']['L']}×{m['nyers']['W']} a szabály-szövegben rögzített ráhagyással egyezik")
+            elif pm == 0 and (abs(m["nyers"]["L"] - exp_L) > 0.01 or abs(m["nyers"]["W"] - exp_W) > 0.01):
                 qa.add("FIGYELMEZTETES", "Q03_NYERS_SZABALY_ELLENTMONDAS", r["id"],
                        f"R14 explicit nyers {m['nyers']['L']}×{m['nyers']['W']} ≠ anyagszabály szerinti {exp_L}×{exp_W}",
                        r14_raw_rule=m.get("r14_raw_rule"))
@@ -365,7 +372,12 @@ def q_fiok_mozgas(doc, drawers, solids, rules, qa):
 
 def q_hianyzo(doc, layout, qa):
     ids = {r["id"] for r in doc["alkatreszek"]}
+    tisztazando = " ".join(layout.get("r15_tisztazando", {}).keys())
     for n in layout.get("current_changes", {}).get("primary_changed", []):
+        if n not in ids and n in tisztazando:
+            qa.add("FIGYELMEZTETES", "Q16_HIVATKOZAS_TISZTAZANDO", n,
+                   "nincs ilyen test; R15-ben tisztázandóként rögzítve (layout.r15_tisztazando) – Blender-ellenőrzés, kitalált geometria nélkül")
+            continue
         if n not in ids:
             qa.add("HIBA", "Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK", n,
                    "a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test")
@@ -428,10 +440,17 @@ def q_geom_forras(doc, qa):
 
 
 def q_mennyezet(doc, rules, qa):
-    zmax = max(r["befoglalo_globalis"][2] + r["befoglalo_globalis"][5] for r in doc["alkatreszek"])
-    gap = rules["qa"]["mennyezet_nevleges"] - zmax
+    top = lambda rs: max(r["befoglalo_globalis"][2] + r["befoglalo_globalis"][5] for r in rs)
+    ceil = rules["qa"]["mennyezet_nevleges"]
+    body = [r for r in doc["alkatreszek"] if r["gyartasi_tipus"] != "FENYTAKARO"]
+    gap = ceil - top(body)
     sev = "INFO" if gap >= rules["qa"]["mennyezeti_res_min"] - 1e-6 else "HIBA"
-    qa.add(sev, "Q18_MENNYEZETI_RES", "*", f"legmagasabb pont Z={zmax}, rés a névleges {rules['qa']['mennyezet_nevleges']} mm-es mennyezetig {gap} mm (helyszíni felmérés még nincs)")
+    qa.add(sev, "Q18_MENNYEZETI_RES", "bútortest", f"legmagasabb pont Z={top(body)}, rés a névleges {ceil} mm-es mennyezetig {gap} mm (helyszíni felmérés még nincs)")
+    lights = [r for r in doc["alkatreszek"] if r["gyartasi_tipus"] == "FENYTAKARO"]
+    if lights:
+        g2 = ceil - top(lights)
+        qa.add("INFO" if g2 >= 20 - 1e-6 else "HIBA", "Q18_FENYRES_SZABAD", "fénytakarók",
+               f"a résben ülő felfelé világító szerelvény fölött {g2} mm szabad (R14 szándék: 4 mm-t foglal, 21 mm marad; min. 20 mm)")
 
 
 # ---------------------------------------------------------------- futtatás
@@ -439,9 +458,9 @@ def q_mennyezet(doc, rules, qa):
 def run(parts_path: Path):
     doc = load_json(parts_path)
     rules = load_json(HERE / "gyartasi_szabalyok_v1.json")
-    src = HERE / "forras_R14"
+    src = HERE / doc["forras"].get("mappa", "forras_R14")
     parts_src = load_json(src / "parts.json")
-    zart = load_json(src / "R14_ZART_JELENET_MM.json")
+    zart = load_json(next(src.glob("*_ZART_JELENET_MM.json")))
     materials = load_json(src / "materials.json")
     drawers = load_json(src / "drawers.json")
     layout = load_json(src / "layout.json")

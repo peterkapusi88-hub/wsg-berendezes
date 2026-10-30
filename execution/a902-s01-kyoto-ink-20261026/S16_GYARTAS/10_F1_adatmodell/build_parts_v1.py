@@ -26,12 +26,13 @@ sys.path.insert(0, str(HERE))
 from s16_geom import (IRANY_NEV, LocalFrame, build_solid, load_json, neg,  # noqa: E402
                       sha256)
 
-SRC = HERE / "forras_R14"
+import os
+SRC = HERE / os.environ.get("S16_FORRAS", "forras_R15" if (HERE / "forras_R15").is_dir() else "forras_R14")
 RULES = HERE / "gyartasi_szabalyok_v1.json"
 OUT_JSON = HERE / "parts_v1.json"
 OUT_CSV = HERE / "parts_v1.csv"
 
-MODEL_REV = "S16-GY-F1-v1"
+MODEL_REV = "S16-R15-GY-v1" if SRC.name == "forras_R15" else "S16-GY-F1-v1"
 
 
 def modul_of(pid: str) -> str:
@@ -146,7 +147,7 @@ def contour_info(part):
     mn, mx = a.min(0), a.max(0)
     return {"van": True, "pontok": len(o), "kerulet_mm": round(per, 1),
             "bbox_uv": [round(float(mn[0]), 3), round(float(mn[1]), 3), round(float(mx[0]), 3), round(float(mx[1]), 3)],
-            "geometria": f"forras_R14/parts.json#{part['id']}.outline"}
+            "geometria": f"{SRC.name}/parts.json#{part['id']}.outline"}
 
 
 def operations(part, frame, drawers_by_front):
@@ -157,13 +158,13 @@ def operations(part, frame, drawers_by_front):
         return "A" if frame.a_normal == globalis_irany else ("B" if frame.a_normal == neg(globalis_irany) else "?")
     if part.get("outline"):
         ops.append({"op": "KONTUR_MARAS", "oldal": "A", "melyseg": "atmeno",
-                    "geometria": f"forras_R14/parts.json#{pid}.outline", "szerszam": None,
+                    "geometria": f"{SRC.name}/parts.json#{pid}.outline", "szerszam": None,
                     "statusz": "NYITOTT – szerszámtábla hiányzik"})
     for i, c in enumerate(part.get("cutouts", [])):
         a = np.asarray(c["outline"], float)
         ops.append({"op": "ATMENO_KIVAGAS", "oldal": "A", "melyseg": "atmeno",
                     "bbox_uv": [*a.min(0).round(3).tolist(), *a.max(0).round(3).tolist()],
-                    "geometria": f"forras_R14/parts.json#{pid}.cutouts[{i}].outline",
+                    "geometria": f"{SRC.name}/parts.json#{pid}.cutouts[{i}].outline",
                     "megjegyzes": c.get("note", ""), "szerszam": None,
                     "statusz": "NYITOTT – szerszámtábla hiányzik"})
     if part.get("assembly_rebate"):
@@ -191,11 +192,11 @@ def operations(part, frame, drawers_by_front):
                     "melyseg_mm": round(r["y_mm"][1] - r["y_mm"][0], 3),
                     "n_tartomany": [round(r["y_mm"][0] - y0, 3), round(r["y_mm"][1] - y0, 3)],
                     "perem_mm": r.get("lip_mm"),
-                    "geometria": f"forras_R14/parts.json#{pid}.rear_light_rebate.outline_xz_mm (globális X,Z)",
+                    "geometria": f"{SRC.name}/parts.json#{pid}.rear_light_rebate.outline_xz_mm (globális X,Z)",
                     "szerszam": None, "statusz": "NYITOTT – LED-profil kiválasztása után"})
     if part.get("recess_opening"):
         ops.append({"op": "SULLYESZTETT_KAZETTA_NYILAS", "oldal": "A",
-                    "geometria": f"forras_R14/parts.json#{pid}.recess_opening",
+                    "geometria": f"{SRC.name}/parts.json#{pid}.recess_opening",
                     "megjegyzes": "azonos a cutouts[0] átmenő kivágással – egyszer gyártandó",
                     "szerszam": None, "statusz": "NYITOTT"})
     # vasalat – csak az R14-ben megnevezett rendszer, koordináta nélkül (nincs kitalált furatkép)
@@ -258,7 +259,7 @@ def main():
     parts = load_json(SRC / "parts.json")
     materials = {m[0]: m for m in load_json(SRC / "materials.json")}
     drawers = load_json(SRC / "drawers.json")
-    zart = {o["name"]: o for o in load_json(SRC / "R14_ZART_JELENET_MM.json")["objects"]}
+    zart = {o["name"]: o for o in load_json(next(SRC.glob("*_ZART_JELENET_MM.json")))["objects"]}
     moving = mozgo_egysegek(drawers)
     drawers_by_front = {d["front"]: d for d in drawers}
 
@@ -365,6 +366,7 @@ def main():
         "generator": "build_parts_v1.py",
         "statusz": "TERVI ADATMODELL – nem gyártási kiadás; műhelyi konvenciók megerősítésre várnak",
         "forras": {
+            "mappa": SRC.name,
             "git_ag": "execution/a902-s01-kyoto-ink-design-to-budget-20261026",
             "git_commit": "251457939478f0786ef04337a372c13418ef6dd4",
             "fajlok": {f.name: sha256(f) for f in sorted(SRC.glob("*.json"))},

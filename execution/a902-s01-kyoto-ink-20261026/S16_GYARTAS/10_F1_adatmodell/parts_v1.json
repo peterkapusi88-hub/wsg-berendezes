@@ -1,21 +1,23 @@
 {
  "modell": "S16 R14 médiafal – gyártási adatmodell",
- "modell_revizio": "S16-GY-F1-v1",
+ "modell_revizio": "S16-R15-GY-v1",
  "generalva": "2026-10-30",
  "generator": "build_parts_v1.py",
  "statusz": "TERVI ADATMODELL – nem gyártási kiadás; műhelyi konvenciók megerősítésre várnak",
  "forras": {
+  "mappa": "forras_R15",
   "git_ag": "execution/a902-s01-kyoto-ink-design-to-budget-20261026",
   "git_commit": "251457939478f0786ef04337a372c13418ef6dd4",
   "fajlok": {
-   "R14_ZART_JELENET_MM.json": "d57aa03c52afa51acc2b7c515dd0633f91f643b7f21139b05684753f31746ac7",
-   "drawers.json": "a8bbf48b9e17c195905f7d9653e6a319b76abaecd1656a73f5dbe33f78775f7b",
-   "layout.json": "5a0beca9c17de970a064b4e0ed42e01d282c7b92413cf21c00e461bd1f8735b2",
-   "materials.json": "2280eed37d7a47cfb7ddbcef21bba1f65faa725e499157db45c6390566961701",
-   "parts.json": "559479b655fb612da67b24f81a0118b356e7f65238cb87e32559a26ef3bd6cd3"
+   "R15_VALTOZASNAPLO.json": "ac053b459c99c1a30d78f91fbb69d28ade848b3e64a190982a703553f8f5c6de",
+   "R15_ZART_JELENET_MM.json": "54e8a5395d85e3d7826db69fe8780ed41d826936da9a36616115c25167666b47",
+   "drawers.json": "e2562aceac7a19eeda254db8e8558acd867a803033139a09eef66409ca95b91e",
+   "layout.json": "ed8115f084fc76a831e147a4ec28ab5ee648310366fd1ce40a58b3cd08562d5f",
+   "materials.json": "65eaf826fd8827c74342dc40bc5ebd83dbcdd36796dd944377543f2ad6df579c",
+   "parts.json": "d6ac45450fb8f34032429c666c483259e5c2cfa3c0ccc2c377c0ec4b7905917c"
   },
   "szabalyfajl": {
-   "gyartasi_szabalyok_v1.json": "8a68867e38150a7ac32ecd2d4d88c9affe217e85a31d7f662bf6190f2fc133ab"
+   "gyartasi_szabalyok_v1.json": "9de8a7064680ff948c3f611e24634787a684d49298754fc0ff4f745eb27b8f97"
   }
  },
  "koordinata_konvencio": {
@@ -67,7 +69,7 @@
   {
    "id": "D1-L",
    "cimke_id": "S16_D1-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -228,7 +230,7 @@
   {
    "id": "D1-R",
    "cimke_id": "S16_D1-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -389,7 +391,7 @@
   {
    "id": "D1-T",
    "cimke_id": "S16_D1-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -541,7 +543,7 @@
   {
    "id": "D1-BACK",
    "cimke_id": "S16_D1-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -697,7 +699,7 @@
   {
    "id": "D1-FRONT",
    "cimke_id": "S16_D1-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -854,7 +856,7 @@
   {
    "id": "D1-BOX-L",
    "cimke_id": "S16_D1-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -1010,7 +1012,7 @@
   {
    "id": "D1-BOX-R",
    "cimke_id": "S16_D1-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -1166,10 +1168,10 @@
   {
    "id": "D1-BOX-F",
    "cimke_id": "S16_D1-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D1",
@@ -1190,32 +1192,32 @@
    "meret": {
     "kesz": {
      "L": 357,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 357.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 357.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 357.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     474,
     355,
-    225,
+    237,
     357,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -1225,7 +1227,7 @@
     "nullpont_globalis": [
      474.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -1255,7 +1257,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -1285,7 +1287,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -1320,10 +1322,10 @@
   {
    "id": "D1-BOX-H",
    "cimke_id": "S16_D1-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D1",
@@ -1344,32 +1346,32 @@
    "meret": {
     "kesz": {
      "L": 357,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 357.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 357.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 357.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     474,
     80,
-    225,
+    237,
     357,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -1379,7 +1381,7 @@
     "nullpont_globalis": [
      474.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -1409,7 +1411,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -1439,7 +1441,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -1482,10 +1484,10 @@
   {
    "id": "D1-BOX-B",
    "cimke_id": "S16_D1-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D1-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D1",
@@ -1528,7 +1530,7 @@
    "befoglalo_globalis": [
     474,
     80,
-    210,
+    222,
     357,
     290,
     15
@@ -1541,7 +1543,7 @@
     "nullpont_globalis": [
      474.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -1634,7 +1636,7 @@
   {
    "id": "D2-L",
    "cimke_id": "S16_D2-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -1793,7 +1795,7 @@
   {
    "id": "D2-R",
    "cimke_id": "S16_D2-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -1952,7 +1954,7 @@
   {
    "id": "D2-B",
    "cimke_id": "S16_D2-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -2104,7 +2106,7 @@
   {
    "id": "D2-T",
    "cimke_id": "S16_D2-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -2256,7 +2258,7 @@
   {
    "id": "D2-BACK",
    "cimke_id": "S16_D2-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -2412,7 +2414,7 @@
   {
    "id": "D2-FRONT",
    "cimke_id": "S16_D2-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -2569,7 +2571,7 @@
   {
    "id": "D2-BOX-L",
    "cimke_id": "S16_D2-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -2725,7 +2727,7 @@
   {
    "id": "D2-BOX-R",
    "cimke_id": "S16_D2-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -2881,10 +2883,10 @@
   {
    "id": "D2-BOX-F",
    "cimke_id": "S16_D2-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D2",
@@ -2905,32 +2907,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     909,
     355,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -2940,7 +2942,7 @@
     "nullpont_globalis": [
      909.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -2970,7 +2972,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -3000,7 +3002,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -3035,10 +3037,10 @@
   {
    "id": "D2-BOX-H",
    "cimke_id": "S16_D2-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D2",
@@ -3059,32 +3061,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     909,
     80,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -3094,7 +3096,7 @@
     "nullpont_globalis": [
      909.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -3124,7 +3126,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -3154,7 +3156,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -3197,10 +3199,10 @@
   {
    "id": "D2-BOX-B",
    "cimke_id": "S16_D2-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D2-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D2",
@@ -3243,7 +3245,7 @@
    "befoglalo_globalis": [
     909,
     80,
-    210,
+    222,
     347,
     290,
     15
@@ -3256,7 +3258,7 @@
     "nullpont_globalis": [
      909.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -3349,7 +3351,7 @@
   {
    "id": "D3-L",
    "cimke_id": "S16_D3-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -3508,7 +3510,7 @@
   {
    "id": "D3-R",
    "cimke_id": "S16_D3-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -3667,7 +3669,7 @@
   {
    "id": "D3-B",
    "cimke_id": "S16_D3-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -3819,7 +3821,7 @@
   {
    "id": "D3-T",
    "cimke_id": "S16_D3-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -3971,7 +3973,7 @@
   {
    "id": "D3-BACK",
    "cimke_id": "S16_D3-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -4127,7 +4129,7 @@
   {
    "id": "D3-FRONT",
    "cimke_id": "S16_D3-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -4284,7 +4286,7 @@
   {
    "id": "D3-BOX-L",
    "cimke_id": "S16_D3-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -4440,7 +4442,7 @@
   {
    "id": "D3-BOX-R",
    "cimke_id": "S16_D3-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -4596,10 +4598,10 @@
   {
    "id": "D3-BOX-F",
    "cimke_id": "S16_D3-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D3",
@@ -4620,32 +4622,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     1334,
     355,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -4655,7 +4657,7 @@
     "nullpont_globalis": [
      1334.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -4685,7 +4687,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -4715,7 +4717,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -4750,10 +4752,10 @@
   {
    "id": "D3-BOX-H",
    "cimke_id": "S16_D3-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D3",
@@ -4774,32 +4776,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     1334,
     80,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -4809,7 +4811,7 @@
     "nullpont_globalis": [
      1334.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -4839,7 +4841,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -4869,7 +4871,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -4912,10 +4914,10 @@
   {
    "id": "D3-BOX-B",
    "cimke_id": "S16_D3-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D3-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D3",
@@ -4958,7 +4960,7 @@
    "befoglalo_globalis": [
     1334,
     80,
-    210,
+    222,
     347,
     290,
     15
@@ -4971,7 +4973,7 @@
     "nullpont_globalis": [
      1334.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -5064,7 +5066,7 @@
   {
    "id": "D4-L",
    "cimke_id": "S16_D4-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -5223,7 +5225,7 @@
   {
    "id": "D4-R",
    "cimke_id": "S16_D4-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -5382,7 +5384,7 @@
   {
    "id": "D4-B",
    "cimke_id": "S16_D4-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -5534,7 +5536,7 @@
   {
    "id": "D4-T",
    "cimke_id": "S16_D4-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -5686,7 +5688,7 @@
   {
    "id": "D4-BACK",
    "cimke_id": "S16_D4-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -5842,7 +5844,7 @@
   {
    "id": "D4-FRONT",
    "cimke_id": "S16_D4-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -5999,7 +6001,7 @@
   {
    "id": "D4-BOX-L",
    "cimke_id": "S16_D4-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -6155,7 +6157,7 @@
   {
    "id": "D4-BOX-R",
    "cimke_id": "S16_D4-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -6311,10 +6313,10 @@
   {
    "id": "D4-BOX-F",
    "cimke_id": "S16_D4-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D4",
@@ -6335,32 +6337,32 @@
    "meret": {
     "kesz": {
      "L": 952,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 952.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 952.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 952.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     1759,
     355,
-    225,
+    237,
     952,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -6370,7 +6372,7 @@
     "nullpont_globalis": [
      1759.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -6400,7 +6402,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -6430,7 +6432,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -6465,10 +6467,10 @@
   {
    "id": "D4-BOX-H",
    "cimke_id": "S16_D4-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D4",
@@ -6489,32 +6491,32 @@
    "meret": {
     "kesz": {
      "L": 952,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 952.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 952.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 952.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     1759,
     80,
-    225,
+    237,
     952,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -6524,7 +6526,7 @@
     "nullpont_globalis": [
      1759.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -6554,7 +6556,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -6584,7 +6586,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -6627,10 +6629,10 @@
   {
    "id": "D4-BOX-B",
    "cimke_id": "S16_D4-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D4-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D4",
@@ -6673,7 +6675,7 @@
    "befoglalo_globalis": [
     1759,
     80,
-    210,
+    222,
     952,
     290,
     15
@@ -6686,7 +6688,7 @@
     "nullpont_globalis": [
      1759.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -6779,7 +6781,7 @@
   {
    "id": "D5-L",
    "cimke_id": "S16_D5-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -6938,7 +6940,7 @@
   {
    "id": "D5-R",
    "cimke_id": "S16_D5-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -7097,7 +7099,7 @@
   {
    "id": "D5-B",
    "cimke_id": "S16_D5-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -7249,7 +7251,7 @@
   {
    "id": "D5-T",
    "cimke_id": "S16_D5-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -7401,7 +7403,7 @@
   {
    "id": "D5-BACK",
    "cimke_id": "S16_D5-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -7557,7 +7559,7 @@
   {
    "id": "D5-FRONT",
    "cimke_id": "S16_D5-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -7714,7 +7716,7 @@
   {
    "id": "D5-BOX-L",
    "cimke_id": "S16_D5-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -7870,7 +7872,7 @@
   {
    "id": "D5-BOX-R",
    "cimke_id": "S16_D5-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -8026,10 +8028,10 @@
   {
    "id": "D5-BOX-F",
    "cimke_id": "S16_D5-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D5",
@@ -8050,32 +8052,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     2789,
     355,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -8085,7 +8087,7 @@
     "nullpont_globalis": [
      2789.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -8115,7 +8117,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -8145,7 +8147,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -8180,10 +8182,10 @@
   {
    "id": "D5-BOX-H",
    "cimke_id": "S16_D5-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D5",
@@ -8204,32 +8206,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     2789,
     80,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -8239,7 +8241,7 @@
     "nullpont_globalis": [
      2789.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -8269,7 +8271,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -8299,7 +8301,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -8342,10 +8344,10 @@
   {
    "id": "D5-BOX-B",
    "cimke_id": "S16_D5-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D5-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D5",
@@ -8388,7 +8390,7 @@
    "befoglalo_globalis": [
     2789,
     80,
-    210,
+    222,
     347,
     290,
     15
@@ -8401,7 +8403,7 @@
     "nullpont_globalis": [
      2789.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -8494,7 +8496,7 @@
   {
    "id": "D6-L",
    "cimke_id": "S16_D6-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -8653,7 +8655,7 @@
   {
    "id": "D6-R",
    "cimke_id": "S16_D6-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -8814,7 +8816,7 @@
   {
    "id": "D6-B",
    "cimke_id": "S16_D6-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -8966,7 +8968,7 @@
   {
    "id": "D6-T",
    "cimke_id": "S16_D6-T",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-T",
     "r14_revizio": "S16-R14-STUDY",
@@ -9118,7 +9120,7 @@
   {
    "id": "D6-BACK",
    "cimke_id": "S16_D6-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -9276,14 +9278,14 @@
      389.0,
      384.0
     ],
-    "geometria": "forras_R14/parts.json#D6-BACK.outline"
+    "geometria": "forras_R15/parts.json#D6-BACK.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#D6-BACK.outline",
+     "geometria": "forras_R15/parts.json#D6-BACK.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -9298,7 +9300,7 @@
   {
    "id": "D6-FRONT",
    "cimke_id": "S16_D6-FRONT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-FRONT",
     "r14_revizio": "S16-R14-STUDY",
@@ -9444,14 +9446,14 @@
      402.5,
      378.0
     ],
-    "geometria": "forras_R14/parts.json#D6-FRONT.outline"
+    "geometria": "forras_R15/parts.json#D6-FRONT.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#D6-FRONT.outline",
+     "geometria": "forras_R15/parts.json#D6-FRONT.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     },
@@ -9474,7 +9476,7 @@
   {
    "id": "D6-BOX-L",
    "cimke_id": "S16_D6-BOX-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BOX-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -9630,7 +9632,7 @@
   {
    "id": "D6-BOX-R",
    "cimke_id": "S16_D6-BOX-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BOX-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -9786,10 +9788,10 @@
   {
    "id": "D6-BOX-F",
    "cimke_id": "S16_D6-BOX-F",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BOX-F",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D6",
@@ -9810,32 +9812,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     3214,
     355,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -9845,7 +9847,7 @@
     "nullpont_globalis": [
      3214.0,
      355.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -9875,7 +9877,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -9905,7 +9907,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -9940,10 +9942,10 @@
   {
    "id": "D6-BOX-H",
    "cimke_id": "S16_D6-BOX-H",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BOX-H",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D6",
@@ -9964,32 +9966,32 @@
    "meret": {
     "kesz": {
      "L": 347,
-     "W": 222,
+     "W": 210,
      "T": 15
     },
     "elzaras_elotti": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers": {
      "L": 347.0,
-     "W": 222.0
+     "W": 210.0
     },
     "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 347.0,
-     "W": 222.0,
+     "W": 210.0,
      "T": 15.0
     }
    },
    "befoglalo_globalis": [
     3214,
     80,
-    225,
+    237,
     347,
     15,
-    222
+    210
    ],
    "helyi_rendszer": {
     "A_normal": "+Y",
@@ -9999,7 +10001,7 @@
     "nullpont_globalis": [
      3214.0,
      80.0,
-     225.0
+     237.0
     ],
     "leiras": "szobából nézve (homlokzat)"
    },
@@ -10029,7 +10031,7 @@
      "helyi": "U=max",
      "globalis_irany": "+X",
      "irany_nev": "jobb",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -10059,7 +10061,7 @@
      "helyi": "U=0",
      "globalis_irany": "-X",
      "irany_nev": "bal",
-     "hossz_mm": 222.0,
+     "hossz_mm": 210.0,
      "szerep": "CSATLAKOZO",
      "erintkezes_arany": 1.0,
      "szomszedok": {
@@ -10102,10 +10104,10 @@
   {
    "id": "D6-BOX-B",
    "cimke_id": "S16_D6-BOX-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "D6-BOX-B",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "D6",
@@ -10148,7 +10150,7 @@
    "befoglalo_globalis": [
     3214,
     80,
-    210,
+    222,
     347,
     290,
     15
@@ -10161,7 +10163,7 @@
     "nullpont_globalis": [
      3214.0,
      370.0,
-     210.0
+     222.0
     ],
     "leiras": "felülnézet, szoba lent"
    },
@@ -10254,7 +10256,7 @@
   {
    "id": "T-L",
    "cimke_id": "S16_T-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -10415,7 +10417,7 @@
   {
    "id": "T-R",
    "cimke_id": "S16_T-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -10576,7 +10578,7 @@
   {
    "id": "T-B",
    "cimke_id": "S16_T-B",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-B",
     "r14_revizio": "S16-R14-STUDY",
@@ -10752,7 +10754,7 @@
   {
    "id": "T-C",
    "cimke_id": "S16_T-C",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-C",
     "r14_revizio": "S16-R14-STUDY",
@@ -10912,7 +10914,7 @@
   {
    "id": "T-L-S1",
    "cimke_id": "S16_T-L-S1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-S1",
     "r14_revizio": "S16-R14-STUDY",
@@ -11060,7 +11062,7 @@
   {
    "id": "T-L-S2",
    "cimke_id": "S16_T-L-S2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-S2",
     "r14_revizio": "S16-R14-STUDY",
@@ -11208,7 +11210,7 @@
   {
    "id": "T-L-S3",
    "cimke_id": "S16_T-L-S3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-S3",
     "r14_revizio": "S16-R14-STUDY",
@@ -11356,7 +11358,7 @@
   {
    "id": "T-L-S4",
    "cimke_id": "S16_T-L-S4",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-S4",
     "r14_revizio": "S16-R14-STUDY",
@@ -11504,7 +11506,7 @@
   {
    "id": "T-L-S5",
    "cimke_id": "S16_T-L-S5",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-S5",
     "r14_revizio": "S16-R14-STUDY",
@@ -11652,7 +11654,7 @@
   {
    "id": "T-L-BACK",
    "cimke_id": "S16_T-L-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -11802,14 +11804,14 @@
      406.0,
      1921.0
     ],
-    "geometria": "forras_R14/parts.json#T-L-BACK.outline"
+    "geometria": "forras_R15/parts.json#T-L-BACK.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-L-BACK.outline",
+     "geometria": "forras_R15/parts.json#T-L-BACK.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -11824,7 +11826,7 @@
   {
    "id": "T-L-SERVICE",
    "cimke_id": "S16_T-L-SERVICE",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-L-SERVICE",
     "r14_revizio": "S16-R14-STUDY",
@@ -11976,7 +11978,7 @@
   {
    "id": "T-R-S1",
    "cimke_id": "S16_T-R-S1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-S1",
     "r14_revizio": "S16-R14-STUDY",
@@ -12124,7 +12126,7 @@
   {
    "id": "T-R-S2",
    "cimke_id": "S16_T-R-S2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-S2",
     "r14_revizio": "S16-R14-STUDY",
@@ -12272,7 +12274,7 @@
   {
    "id": "T-R-S3",
    "cimke_id": "S16_T-R-S3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-S3",
     "r14_revizio": "S16-R14-STUDY",
@@ -12420,7 +12422,7 @@
   {
    "id": "T-R-S4",
    "cimke_id": "S16_T-R-S4",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-S4",
     "r14_revizio": "S16-R14-STUDY",
@@ -12568,7 +12570,7 @@
   {
    "id": "T-R-S5",
    "cimke_id": "S16_T-R-S5",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-S5",
     "r14_revizio": "S16-R14-STUDY",
@@ -12716,7 +12718,7 @@
   {
    "id": "T-R-BACK",
    "cimke_id": "S16_T-R-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -12866,14 +12868,14 @@
      406.0,
      1921.0
     ],
-    "geometria": "forras_R14/parts.json#T-R-BACK.outline"
+    "geometria": "forras_R15/parts.json#T-R-BACK.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-R-BACK.outline",
+     "geometria": "forras_R15/parts.json#T-R-BACK.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -12888,7 +12890,7 @@
   {
    "id": "T-R-SERVICE",
    "cimke_id": "S16_T-R-SERVICE",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-R-SERVICE",
     "r14_revizio": "S16-R14-STUDY",
@@ -13040,7 +13042,7 @@
   {
    "id": "T-DOOR-L",
    "cimke_id": "S16_T-DOOR-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-DOOR-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -13186,14 +13188,14 @@
      412.5,
      2683.0
     ],
-    "geometria": "forras_R14/parts.json#T-DOOR-L.outline"
+    "geometria": "forras_R15/parts.json#T-DOOR-L.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-DOOR-L.outline",
+     "geometria": "forras_R15/parts.json#T-DOOR-L.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     },
@@ -13207,7 +13209,7 @@
       381.0,
       2594.0
      ],
-     "geometria": "forras_R14/parts.json#T-DOOR-L.cutouts[0].outline",
+     "geometria": "forras_R15/parts.json#T-DOOR-L.cutouts[0].outline",
      "megjegyzes": "Through opening for recessed cassette; hinge drilling requires hardware selection.",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
@@ -13227,14 +13229,14 @@
       10
      ],
      "perem_mm": 8,
-     "geometria": "forras_R14/parts.json#T-DOOR-L.rear_light_rebate.outline_xz_mm (globális X,Z)",
+     "geometria": "forras_R15/parts.json#T-DOOR-L.rear_light_rebate.outline_xz_mm (globális X,Z)",
      "szerszam": null,
      "statusz": "NYITOTT – LED-profil kiválasztása után"
     },
     {
      "op": "SULLYESZTETT_KAZETTA_NYILAS",
      "oldal": "A",
-     "geometria": "forras_R14/parts.json#T-DOOR-L.recess_opening",
+     "geometria": "forras_R15/parts.json#T-DOOR-L.recess_opening",
      "megjegyzes": "azonos a cutouts[0] átmenő kivágással – egyszer gyártandó",
      "szerszam": null,
      "statusz": "NYITOTT"
@@ -13257,7 +13259,7 @@
   {
    "id": "T-DOOR-R",
    "cimke_id": "S16_T-DOOR-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-DOOR-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -13403,14 +13405,14 @@
      412.5,
      2281.0
     ],
-    "geometria": "forras_R14/parts.json#T-DOOR-R.outline"
+    "geometria": "forras_R15/parts.json#T-DOOR-R.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-DOOR-R.outline",
+     "geometria": "forras_R15/parts.json#T-DOOR-R.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     },
@@ -13432,7 +13434,7 @@
   {
    "id": "TEXTILE",
    "cimke_id": "S16_TEXTILE",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "TEXTILE",
     "r14_revizio": "S16-R14-STUDY",
@@ -13578,14 +13580,14 @@
      360.0,
      2515.0
     ],
-    "geometria": "forras_R14/parts.json#TEXTILE.outline"
+    "geometria": "forras_R15/parts.json#TEXTILE.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#TEXTILE.outline",
+     "geometria": "forras_R15/parts.json#TEXTILE.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -13600,10 +13602,10 @@
   {
    "id": "BG-1",
    "cimke_id": "S16_BG-1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BG-1",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "profile"
    },
    "modul": "HATTER",
@@ -13632,11 +13634,11 @@
      "W": 2405.0
     },
     "nyers": {
-     "L": 831,
-     "W": 2315
+     "L": 841.0,
+     "W": 2405
     },
     "nyers_szabaly": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)",
-    "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé.",
+    "r14_raw_rule": "Bal oldali 30 mm szerelési ráhagyás (helyszíni visszaillesztés a torony íve mögött). Kész L811.0 mm, nyers L841.0 mm; magasság ráhagyás nélkül W2405 mm. A 100 mm magas felső fül a toronyív mögé nyúlik; az alsó él nem nyúlik a korpusz mögé.",
     "geometriabol": {
      "L": 811.0,
      "W": 2405.0,
@@ -13702,9 +13704,11 @@
      "globalis_irany": "+Z",
      "irany_nev": "fent",
      "hossz_mm": 811.0,
-     "szerep": "SZABAD_EGYEB",
-     "erintkezes_arany": 0.0,
-     "szomszedok": {},
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "UPLIGHT-TRAY": 1.0
+     },
      "jel": "0",
      "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
      "elvastagsag_mm": 0.0,
@@ -13748,7 +13752,7 @@
   {
    "id": "BG-2",
    "cimke_id": "S16_BG-2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BG-2",
     "r14_revizio": "S16-R14-STUDY",
@@ -13850,9 +13854,11 @@
      "globalis_irany": "+Z",
      "irany_nev": "fent",
      "hossz_mm": 679.5,
-     "szerep": "SZABAD_EGYEB",
-     "erintkezes_arany": 0.0,
-     "szomszedok": {},
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "UPLIGHT-TRAY": 1.0
+     },
      "jel": "0",
      "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
      "elvastagsag_mm": 0.0,
@@ -13896,7 +13902,7 @@
   {
    "id": "BG-3",
    "cimke_id": "S16_BG-3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BG-3",
     "r14_revizio": "S16-R14-STUDY",
@@ -13998,9 +14004,11 @@
      "globalis_irany": "+Z",
      "irany_nev": "fent",
      "hossz_mm": 679.5,
-     "szerep": "SZABAD_EGYEB",
-     "erintkezes_arany": 0.0,
-     "szomszedok": {},
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "UPLIGHT-TRAY": 1.0
+     },
      "jel": "0",
      "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
      "elvastagsag_mm": 0.0,
@@ -14044,7 +14052,7 @@
   {
    "id": "BG-4",
    "cimke_id": "S16_BG-4",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BG-4",
     "r14_revizio": "S16-R14-STUDY",
@@ -14146,9 +14154,11 @@
      "globalis_irany": "+Z",
      "irany_nev": "fent",
      "hossz_mm": 678.0,
-     "szerep": "SZABAD_EGYEB",
-     "erintkezes_arany": 0.0,
-     "szomszedok": {},
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 0.964,
+     "szomszedok": {
+      "UPLIGHT-TRAY": 0.964
+     },
      "jel": "0",
      "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
      "elvastagsag_mm": 0.0,
@@ -14192,10 +14202,10 @@
   {
    "id": "BATTEN-1",
    "cimke_id": "S16_BATTEN-1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BATTEN-1",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "HATTER",
@@ -14205,10 +14215,10 @@
    "db": 1,
    "mozgo_egyseg": null,
    "anyag": {
-    "kod": "M01",
-    "megnevezes": "18 mm kétoldalt melaminos grafitszürke bútorlap",
-    "tipus": "melamin_forgacslap",
-    "nevleges_vastagsag": 18,
+    "kod": "M10",
+    "megnevezes": "8 mm MDF léc (rejtett háttér-távtartó)",
+    "tipus": "MDF_lec",
+    "nevleges_vastagsag": 8,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -14227,7 +14237,7 @@
      "L": 40.0,
      "W": 2235.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 40.0,
@@ -14340,10 +14350,10 @@
   {
    "id": "BATTEN-2",
    "cimke_id": "S16_BATTEN-2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BATTEN-2",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "HATTER",
@@ -14353,10 +14363,10 @@
    "db": 1,
    "mozgo_egyseg": null,
    "anyag": {
-    "kod": "M01",
-    "megnevezes": "18 mm kétoldalt melaminos grafitszürke bútorlap",
-    "tipus": "melamin_forgacslap",
-    "nevleges_vastagsag": 18,
+    "kod": "M10",
+    "megnevezes": "8 mm MDF léc (rejtett háttér-távtartó)",
+    "tipus": "MDF_lec",
+    "nevleges_vastagsag": 8,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -14375,7 +14385,7 @@
      "L": 40.0,
      "W": 2235.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 40.0,
@@ -14488,10 +14498,10 @@
   {
    "id": "BATTEN-3",
    "cimke_id": "S16_BATTEN-3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BATTEN-3",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "HATTER",
@@ -14501,10 +14511,10 @@
    "db": 1,
    "mozgo_egyseg": null,
    "anyag": {
-    "kod": "M01",
-    "megnevezes": "18 mm kétoldalt melaminos grafitszürke bútorlap",
-    "tipus": "melamin_forgacslap",
-    "nevleges_vastagsag": 18,
+    "kod": "M10",
+    "megnevezes": "8 mm MDF léc (rejtett háttér-távtartó)",
+    "tipus": "MDF_lec",
+    "nevleges_vastagsag": 8,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -14523,7 +14533,7 @@
      "L": 40.0,
      "W": 2235.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 40.0,
@@ -14636,10 +14646,10 @@
   {
    "id": "BATTEN-4",
    "cimke_id": "S16_BATTEN-4",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BATTEN-4",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "HATTER",
@@ -14649,10 +14659,10 @@
    "db": 1,
    "mozgo_egyseg": null,
    "anyag": {
-    "kod": "M01",
-    "megnevezes": "18 mm kétoldalt melaminos grafitszürke bútorlap",
-    "tipus": "melamin_forgacslap",
-    "nevleges_vastagsag": 18,
+    "kod": "M10",
+    "megnevezes": "8 mm MDF léc (rejtett háttér-távtartó)",
+    "tipus": "MDF_lec",
+    "nevleges_vastagsag": 8,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -14671,7 +14681,7 @@
      "L": 40.0,
      "W": 2235.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 40.0,
@@ -14784,10 +14794,10 @@
   {
    "id": "BATTEN-5",
    "cimke_id": "S16_BATTEN-5",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BATTEN-5",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "plate"
    },
    "modul": "HATTER",
@@ -14797,10 +14807,10 @@
    "db": 1,
    "mozgo_egyseg": null,
    "anyag": {
-    "kod": "M01",
-    "megnevezes": "18 mm kétoldalt melaminos grafitszürke bútorlap",
-    "tipus": "melamin_forgacslap",
-    "nevleges_vastagsag": 18,
+    "kod": "M10",
+    "megnevezes": "8 mm MDF léc (rejtett háttér-távtartó)",
+    "tipus": "MDF_lec",
+    "nevleges_vastagsag": 8,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -14819,7 +14829,7 @@
      "L": 40.0,
      "W": 2235.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 40.0,
@@ -14932,7 +14942,7 @@
   {
    "id": "CURVE-T-TOP",
    "cimke_id": "S16_CURVE-T-TOP",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "CURVE-T-TOP",
     "r14_revizio": "S16-R14-STUDY",
@@ -15082,14 +15092,14 @@
      870.0,
      100.0
     ],
-    "geometria": "forras_R14/parts.json#CURVE-T-TOP.outline"
+    "geometria": "forras_R15/parts.json#CURVE-T-TOP.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#CURVE-T-TOP.outline",
+     "geometria": "forras_R15/parts.json#CURVE-T-TOP.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -15105,7 +15115,7 @@
   {
    "id": "FRAME-T-TOP",
    "cimke_id": "S16_FRAME-T-TOP",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-T-TOP",
     "r14_revizio": "S16-R14-STUDY",
@@ -15254,14 +15264,14 @@
      870.0,
      100.0
     ],
-    "geometria": "forras_R14/parts.json#FRAME-T-TOP.outline"
+    "geometria": "forras_R15/parts.json#FRAME-T-TOP.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#FRAME-T-TOP.outline",
+     "geometria": "forras_R15/parts.json#FRAME-T-TOP.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -15276,7 +15286,7 @@
   {
    "id": "CURVE-T-BOT",
    "cimke_id": "S16_CURVE-T-BOT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "CURVE-T-BOT",
     "r14_revizio": "S16-R14-STUDY",
@@ -15429,14 +15439,14 @@
      870.0,
      100.0
     ],
-    "geometria": "forras_R14/parts.json#CURVE-T-BOT.outline"
+    "geometria": "forras_R15/parts.json#CURVE-T-BOT.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#CURVE-T-BOT.outline",
+     "geometria": "forras_R15/parts.json#CURVE-T-BOT.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -15452,7 +15462,7 @@
   {
    "id": "FRAME-T-BOT",
    "cimke_id": "S16_FRAME-T-BOT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-T-BOT",
     "r14_revizio": "S16-R14-STUDY",
@@ -15603,14 +15613,14 @@
      870.0,
      100.0
     ],
-    "geometria": "forras_R14/parts.json#FRAME-T-BOT.outline"
+    "geometria": "forras_R15/parts.json#FRAME-T-BOT.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#FRAME-T-BOT.outline",
+     "geometria": "forras_R15/parts.json#FRAME-T-BOT.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -15625,7 +15635,7 @@
   {
    "id": "FRAME-T-L",
    "cimke_id": "S16_FRAME-T-L",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-T-L",
     "r14_revizio": "S16-R14-STUDY",
@@ -15777,7 +15787,7 @@
   {
    "id": "FRAME-T-R",
    "cimke_id": "S16_FRAME-T-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-T-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -15929,7 +15939,7 @@
   {
    "id": "FRAME-T-MID",
    "cimke_id": "S16_FRAME-T-MID",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-T-MID",
     "r14_revizio": "S16-R14-STUDY",
@@ -16081,7 +16091,7 @@
   {
    "id": "FRAME-B-LOW-1",
    "cimke_id": "S16_FRAME-B-LOW-1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-LOW-1",
     "r14_revizio": "S16-R14-STUDY",
@@ -16234,7 +16244,7 @@
   {
    "id": "FRAME-B-LOW-2",
    "cimke_id": "S16_FRAME-B-LOW-2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-LOW-2",
     "r14_revizio": "S16-R14-STUDY",
@@ -16387,7 +16397,7 @@
   {
    "id": "FRAME-B-LOW-3",
    "cimke_id": "S16_FRAME-B-LOW-3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-LOW-3",
     "r14_revizio": "S16-R14-STUDY",
@@ -16540,7 +16550,7 @@
   {
    "id": "FRAME-B-HIGH-1",
    "cimke_id": "S16_FRAME-B-HIGH-1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-HIGH-1",
     "r14_revizio": "S16-R14-STUDY",
@@ -16692,7 +16702,7 @@
   {
    "id": "FRAME-B-HIGH-2",
    "cimke_id": "S16_FRAME-B-HIGH-2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-HIGH-2",
     "r14_revizio": "S16-R14-STUDY",
@@ -16844,7 +16854,7 @@
   {
    "id": "FRAME-B-HIGH-3",
    "cimke_id": "S16_FRAME-B-HIGH-3",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-HIGH-3",
     "r14_revizio": "S16-R14-STUDY",
@@ -16996,7 +17006,7 @@
   {
    "id": "FRAME-B-TOP",
    "cimke_id": "S16_FRAME-B-TOP",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-TOP",
     "r14_revizio": "S16-R14-STUDY",
@@ -17146,14 +17156,14 @@
      80.0,
      80.0
     ],
-    "geometria": "forras_R14/parts.json#FRAME-B-TOP.outline"
+    "geometria": "forras_R15/parts.json#FRAME-B-TOP.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#FRAME-B-TOP.outline",
+     "geometria": "forras_R15/parts.json#FRAME-B-TOP.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -17168,7 +17178,7 @@
   {
    "id": "CURVE-B-TOP",
    "cimke_id": "S16_CURVE-B-TOP",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "CURVE-B-TOP",
     "r14_revizio": "S16-R14-STUDY",
@@ -17318,14 +17328,14 @@
      80.0,
      80.0
     ],
-    "geometria": "forras_R14/parts.json#CURVE-B-TOP.outline"
+    "geometria": "forras_R15/parts.json#CURVE-B-TOP.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#CURVE-B-TOP.outline",
+     "geometria": "forras_R15/parts.json#CURVE-B-TOP.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -17341,7 +17351,7 @@
   {
    "id": "FRAME-B-BOT",
    "cimke_id": "S16_FRAME-B-BOT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-BOT",
     "r14_revizio": "S16-R14-STUDY",
@@ -17492,14 +17502,14 @@
      80.0,
      80.0
     ],
-    "geometria": "forras_R14/parts.json#FRAME-B-BOT.outline"
+    "geometria": "forras_R15/parts.json#FRAME-B-BOT.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#FRAME-B-BOT.outline",
+     "geometria": "forras_R15/parts.json#FRAME-B-BOT.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -17514,7 +17524,7 @@
   {
    "id": "CURVE-B-BOT",
    "cimke_id": "S16_CURVE-B-BOT",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "CURVE-B-BOT",
     "r14_revizio": "S16-R14-STUDY",
@@ -17665,14 +17675,14 @@
      80.0,
      80.0
     ],
-    "geometria": "forras_R14/parts.json#CURVE-B-BOT.outline"
+    "geometria": "forras_R15/parts.json#CURVE-B-BOT.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#CURVE-B-BOT.outline",
+     "geometria": "forras_R15/parts.json#CURVE-B-BOT.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -17688,7 +17698,7 @@
   {
    "id": "FRAME-B-R",
    "cimke_id": "S16_FRAME-B-R",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "FRAME-B-R",
     "r14_revizio": "S16-R14-STUDY",
@@ -17840,7 +17850,7 @@
   {
    "id": "TV-SPACER-1",
    "cimke_id": "S16_TV-SPACER-1",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "TV-SPACER-1",
     "r14_revizio": "S16-R14-STUDY",
@@ -17990,7 +18000,7 @@
   {
    "id": "TV-SPACER-2",
    "cimke_id": "S16_TV-SPACER-2",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "TV-SPACER-2",
     "r14_revizio": "S16-R14-STUDY",
@@ -18140,7 +18150,7 @@
   {
    "id": "T-LOW-DIV",
    "cimke_id": "S16_T-LOW-DIV",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-LOW-DIV",
     "r14_revizio": "S16-R14-STUDY",
@@ -18292,7 +18302,7 @@
   {
    "id": "T-LOW-BACK",
    "cimke_id": "S16_T-LOW-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-LOW-BACK",
     "r14_revizio": "S16-R14-STUDY",
@@ -18447,14 +18457,14 @@
      399.0,
      402.0
     ],
-    "geometria": "forras_R14/parts.json#T-LOW-BACK.outline"
+    "geometria": "forras_R15/parts.json#T-LOW-BACK.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-LOW-BACK.outline",
+     "geometria": "forras_R15/parts.json#T-LOW-BACK.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -18469,10 +18479,10 @@
   {
    "id": "T-DOOR-L-BACK",
    "cimke_id": "S16_T-DOOR-L-BACK",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "T-DOOR-L-BACK",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "rounded"
    },
    "modul": "TORONY",
@@ -18482,10 +18492,10 @@
    "db": 1,
    "mozgo_egyseg": "T-AJTO-BAL",
    "anyag": {
-    "kod": "M02",
-    "megnevezes": "Szatén sötét barnásgrafit keret",
-    "tipus": "festett_MDF",
-    "nevleges_vastagsag": 18,
+    "kod": "M11",
+    "megnevezes": "12 mm festett MDF (M02 színben)",
+    "tipus": "festett_MDF_12",
+    "nevleges_vastagsag": 12,
     "latszo_felso_felulet": null,
     "alternativak": null,
     "kivitel": null
@@ -18501,10 +18511,10 @@
      "W": 2525.0
     },
     "nyers": {
-     "L": 370,
-     "W": 2525
+     "L": 380.0,
+     "W": 2535.0
     },
-    "nyers_szabaly": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(10/10)",
     "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után.",
     "geometriabol": {
      "L": 370.0,
@@ -18615,14 +18625,14 @@
      370.0,
      2525.0
     ],
-    "geometria": "forras_R14/parts.json#T-DOOR-L-BACK.outline"
+    "geometria": "forras_R15/parts.json#T-DOOR-L-BACK.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#T-DOOR-L-BACK.outline",
+     "geometria": "forras_R15/parts.json#T-DOOR-L-BACK.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     }
@@ -18637,7 +18647,7 @@
   {
    "id": "TV-FIELD",
    "cimke_id": "S16_TV-FIELD",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "TV-FIELD",
     "r14_revizio": "S16-R14-STUDY",
@@ -18799,14 +18809,14 @@
      2630.0,
      1580.0
     ],
-    "geometria": "forras_R14/parts.json#TV-FIELD.outline"
+    "geometria": "forras_R15/parts.json#TV-FIELD.outline"
    },
    "muveletek": [
     {
      "op": "KONTUR_MARAS",
      "oldal": "A",
      "melyseg": "atmeno",
-     "geometria": "forras_R14/parts.json#TV-FIELD.outline",
+     "geometria": "forras_R15/parts.json#TV-FIELD.outline",
      "szerszam": null,
      "statusz": "NYITOTT – szerszámtábla hiányzik"
     },
@@ -18845,10 +18855,10 @@
   {
    "id": "BG-FINISH",
    "cimke_id": "S16_BG-FINISH",
-   "modell_revizio": "S16-GY-F1-v1",
+   "modell_revizio": "S16-R15-GY-v1",
    "forras": {
     "r14_id": "BG-FINISH",
-    "r14_revizio": "S16-R14-STUDY",
+    "r14_revizio": "S16-R15-GY",
     "r14_kind": "profile"
    },
    "modul": "HATTER",
@@ -18877,11 +18887,11 @@
      "W": 2405.0
     },
     "nyers": {
-     "L": 2877,
-     "W": 2315
+     "L": 2887,
+     "W": 2405
     },
     "nyers_szabaly": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)",
-    "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé.",
+    "r14_raw_rule": "Bal oldali 30 mm szerelési ráhagyás (helyszíni visszaillesztés a torony íve mögött). Kész L2857 mm, nyers L2887 mm; magasság ráhagyás nélkül W2405 mm. A 100 mm magas felső fül a toronyív mögé nyúlik; az alsó él nem nyúlik a korpusz mögé.",
     "geometriabol": {
      "L": 2857.0,
      "W": 2405.0,
@@ -18947,9 +18957,11 @@
      "globalis_irany": "+Z",
      "irany_nev": "fent",
      "hossz_mm": 2857.0,
-     "szerep": "SZABAD_EGYEB",
-     "erintkezes_arany": 0.0,
-     "szomszedok": {},
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 0.991,
+     "szomszedok": {
+      "UPLIGHT-TRAY": 0.991
+     },
      "jel": "0",
      "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
      "elvastagsag_mm": 0.0,
@@ -18987,6 +18999,1366 @@
    "muveletek": [],
    "geometria_forras": "R14_zart_halo",
    "r14_megjegyzes": "Folytonos háttér a szekrény mögött. Hátsó síkY8, kész felületY26. Az ívnél nincs látható kontúrkivágás.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "TOP-WASH-COVER",
+   "cimke_id": "S16_TOP-WASH-COVER",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "TOP-WASH-COVER",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (TOP-WASH-COVER)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2857.0,
+     "W": 8.0,
+     "T": 3.0
+    },
+    "elzaras_elotti": {
+     "L": 2857.0,
+     "W": 8.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2857.0,
+     "W": 8.0,
+     "T": 3.0
+    }
+   },
+   "befoglalo_globalis": [
+    740.0,
+    26.0,
+    2872.0,
+    2857.0,
+    8.0,
+    3.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Z",
+    "U": "+X",
+    "V": "-Y",
+    "N": "+Z",
+    "nullpont_globalis": [
+     740.0,
+     34.0,
+     2872.0
+    ],
+    "leiras": "felülnézet, szoba lent"
+   },
+   "lapoldal": {
+    "A": "+Z (fent)",
+    "B": "-Z (lent)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 2857.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TOP-WASH-BAFFLE": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 8.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 2857.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "BG-FINISH": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 8.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "TOP-WASH-BAFFLE",
+   "cimke_id": "S16_TOP-WASH-BAFFLE",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "TOP-WASH-BAFFLE",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (TOP-WASH-BAFFLE)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2857.0,
+     "W": 18.0,
+     "T": 4.0
+    },
+    "elzaras_elotti": {
+     "L": 2857.0,
+     "W": 18.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2857.0,
+     "W": 18.0,
+     "T": 4.0
+    }
+   },
+   "befoglalo_globalis": [
+    740.0,
+    34.0,
+    2857.0,
+    2857.0,
+    4.0,
+    18.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Y",
+    "U": "+X",
+    "V": "+Z",
+    "N": "+Y",
+    "nullpont_globalis": [
+     740.0,
+     34.0,
+     2857.0
+    ],
+    "leiras": "szobából nézve (homlokzat)"
+   },
+   "lapoldal": {
+    "A": "+Y (elöl (szoba))",
+    "B": "-Y (hátul (fal))"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "-Z",
+     "irany_nev": "lent",
+     "hossz_mm": 2857.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 18.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "+Z",
+     "irany_nev": "fent",
+     "hossz_mm": 2857.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 18.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "TOP-WASH-HIDDEN-END",
+   "cimke_id": "S16_TOP-WASH-HIDDEN-END",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "TOP-WASH-HIDDEN-END",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (TOP-WASH-HIDDEN-END)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 8.0,
+     "W": 15.0,
+     "T": 2.0
+    },
+    "elzaras_elotti": {
+     "L": 8.0,
+     "W": 15.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 8.0,
+     "W": 15.0,
+     "T": 2.0
+    }
+   },
+   "befoglalo_globalis": [
+    3595.0,
+    26.0,
+    2857.0,
+    2.0,
+    8.0,
+    15.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "-X",
+    "U": "+Y",
+    "V": "+Z",
+    "N": "-X",
+    "nullpont_globalis": [
+     3597.0,
+     26.0,
+     2857.0
+    ],
+    "leiras": "bal oldalról nézve"
+   },
+   "lapoldal": {
+    "A": "-X (bal)",
+    "B": "+X (jobb)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "-Z",
+     "irany_nev": "lent",
+     "hossz_mm": 8.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 15.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TOP-WASH-BAFFLE": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "+Z",
+     "irany_nev": "fent",
+     "hossz_mm": 8.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TOP-WASH-COVER": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 15.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "BG-FINISH": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "UPLIGHT-TRAY",
+   "cimke_id": "S16_UPLIGHT-TRAY",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "UPLIGHT-TRAY",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (UPLIGHT-TRAY)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2845.0,
+     "W": 24.0,
+     "T": 1.0
+    },
+    "elzaras_elotti": {
+     "L": 2845.0,
+     "W": 24.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2845.0,
+     "W": 24.0,
+     "T": 1.0
+    }
+   },
+   "befoglalo_globalis": [
+    740.0,
+    5.0,
+    2875.0,
+    2845.0,
+    24.0,
+    1.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Z",
+    "U": "+X",
+    "V": "-Y",
+    "N": "+Z",
+    "nullpont_globalis": [
+     740.0,
+     29.0,
+     2875.0
+    ],
+    "leiras": "felülnézet, szoba lent"
+   },
+   "lapoldal": {
+    "A": "+Z (fent)",
+    "B": "-Z (lent)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_ELOL",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 24.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 24.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "UPLIGHT-FRONT-VISOR",
+   "cimke_id": "S16_UPLIGHT-FRONT-VISOR",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "UPLIGHT-FRONT-VISOR",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (UPLIGHT-FRONT-VISOR)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2845.0,
+     "W": 4.0,
+     "T": 3.0
+    },
+    "elzaras_elotti": {
+     "L": 2845.0,
+     "W": 4.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2845.0,
+     "W": 4.0,
+     "T": 3.0
+    }
+   },
+   "befoglalo_globalis": [
+    740.0,
+    25.0,
+    2876.0,
+    2845.0,
+    4.0,
+    3.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Z",
+    "U": "+X",
+    "V": "-Y",
+    "N": "+Z",
+    "nullpont_globalis": [
+     740.0,
+     29.0,
+     2876.0
+    ],
+    "leiras": "felülnézet, szoba lent"
+   },
+   "lapoldal": {
+    "A": "+Z (fent)",
+    "B": "-Z (lent)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_ELOL",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 4.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 4.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "UPLIGHT-REAR-VISOR",
+   "cimke_id": "S16_UPLIGHT-REAR-VISOR",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "UPLIGHT-REAR-VISOR",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (UPLIGHT-REAR-VISOR)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2845.0,
+     "W": 3.0,
+     "T": 3.0
+    },
+    "elzaras_elotti": {
+     "L": 2845.0,
+     "W": 3.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2845.0,
+     "W": 3.0,
+     "T": 3.0
+    }
+   },
+   "befoglalo_globalis": [
+    740.0,
+    5.0,
+    2876.0,
+    2845.0,
+    3.0,
+    3.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Z",
+    "U": "+X",
+    "V": "-Y",
+    "N": "+Z",
+    "nullpont_globalis": [
+     740.0,
+     8.0,
+     2876.0
+    ],
+    "leiras": "felülnézet, szoba lent"
+   },
+   "lapoldal": {
+    "A": "+Z (fent)",
+    "B": "-Z (lent)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_ELOL",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 3.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 2845.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 3.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "DECK-CONTINUOUS-COVER",
+   "cimke_id": "S16_DECK-CONTINUOUS-COVER",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "DECK-CONTINUOUS-COVER",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (DECK-CONTINUOUS-COVER)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2628.0,
+     "W": 8.0,
+     "T": 4.0
+    },
+    "elzaras_elotti": {
+     "L": 2628.0,
+     "W": 8.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2628.0,
+     "W": 8.0,
+     "T": 4.0
+    }
+   },
+   "befoglalo_globalis": [
+    870.0,
+    101.0,
+    592.0,
+    2628.0,
+    8.0,
+    4.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Z",
+    "U": "+X",
+    "V": "-Y",
+    "N": "+Z",
+    "nullpont_globalis": [
+     870.0,
+     109.0,
+     592.0
+    ],
+    "leiras": "felülnézet, szoba lent"
+   },
+   "lapoldal": {
+    "A": "+Z (fent)",
+    "B": "-Z (lent)"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "+Y",
+     "irany_nev": "elöl (szoba)",
+     "hossz_mm": 2628.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "DECK-CONTINUOUS-BAFFLE": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 8.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TV-FIELD": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "-Y",
+     "irany_nev": "hátul (fal)",
+     "hossz_mm": 2628.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TV-FIELD": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 8.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "T-R": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "DECK-CONTINUOUS-BAFFLE",
+   "cimke_id": "S16_DECK-CONTINUOUS-BAFFLE",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "DECK-CONTINUOUS-BAFFLE",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (DECK-CONTINUOUS-BAFFLE)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 2628.0,
+     "W": 17.0,
+     "T": 4.0
+    },
+    "elzaras_elotti": {
+     "L": 2628.0,
+     "W": 17.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 2628.0,
+     "W": 17.0,
+     "T": 4.0
+    }
+   },
+   "befoglalo_globalis": [
+    870.0,
+    109.0,
+    579.0,
+    2628.0,
+    4.0,
+    17.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Y",
+    "U": "+X",
+    "V": "+Z",
+    "N": "+Y",
+    "nullpont_globalis": [
+     870.0,
+     109.0,
+     579.0
+    ],
+    "leiras": "szobából nézve (homlokzat)"
+   },
+   "lapoldal": {
+    "A": "+Y (elöl (szoba))",
+    "B": "-Y (hátul (fal))"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "-Z",
+     "irany_nev": "lent",
+     "hossz_mm": 2628.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.003,
+     "szomszedok": {
+      "TV-FIELD": 0.003
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 17.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TV-FIELD": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "+Z",
+     "irany_nev": "fent",
+     "hossz_mm": 2628.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "TV-FIELD": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 17.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "T-R": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
+   "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
+   "nyitott": []
+  },
+  {
+   "id": "LOW-INTERNAL-LIGHT-VISOR",
+   "cimke_id": "S16_LOW-INTERNAL-LIGHT-VISOR",
+   "modell_revizio": "S16-R15-GY-v1",
+   "forras": {
+    "r14_id": "LOW-INTERNAL-LIGHT-VISOR",
+    "r14_revizio": "S16-R15-GY",
+    "r14_kind": "light_cover"
+   },
+   "modul": "EGYEB",
+   "megnevezes": "Fénytakaró / tálca (LOW-INTERNAL-LIGHT-VISOR)",
+   "gyartasi_tipus": "FENYTAKARO",
+   "lap_alkatresz": false,
+   "db": 1,
+   "mozgo_egyseg": null,
+   "anyag": {
+    "kod": "M12",
+    "megnevezes": "Fénytakaró / tálca / baffle profil – termék kiválasztandó",
+    "tipus": "fenytakaro_profil",
+    "nevleges_vastagsag": null,
+    "latszo_felso_felulet": null,
+    "alternativak": null,
+    "kivitel": null
+   },
+   "meret": {
+    "kesz": {
+     "L": 306.0,
+     "W": 16.0,
+     "T": 5.0
+    },
+    "elzaras_elotti": {
+     "L": 306.0,
+     "W": 16.0
+    },
+    "nyers": {
+     "L": null,
+     "W": null
+    },
+    "nyers_szabaly": null,
+    "r14_raw_rule": "Profil/termék szerint.",
+    "geometriabol": {
+     "L": 306.0,
+     "W": 16.0,
+     "T": 5.0
+    }
+   },
+   "befoglalo_globalis": [
+    57.0,
+    343.0,
+    554.0,
+    306.0,
+    5.0,
+    16.0
+   ],
+   "helyi_rendszer": {
+    "A_normal": "+Y",
+    "U": "+X",
+    "V": "+Z",
+    "N": "+Y",
+    "nullpont_globalis": [
+     57.0,
+     343.0,
+     554.0
+    ],
+    "leiras": "szobából nézve (homlokzat)"
+   },
+   "lapoldal": {
+    "A": "+Y (elöl (szoba))",
+    "B": "-Y (hátul (fal))"
+   },
+   "elek": {
+    "E1": {
+     "el": "E1",
+     "helyi": "V=0",
+     "globalis_irany": "-Z",
+     "irany_nev": "lent",
+     "hossz_mm": 306.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    },
+    "E2": {
+     "el": "E2",
+     "helyi": "U=max",
+     "globalis_irany": "+X",
+     "irany_nev": "jobb",
+     "hossz_mm": 16.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E3": {
+     "el": "E3",
+     "helyi": "V=max",
+     "globalis_irany": "+Z",
+     "irany_nev": "fent",
+     "hossz_mm": 306.0,
+     "szerep": "CSATLAKOZO",
+     "erintkezes_arany": 1.0,
+     "szomszedok": {
+      "T-B": 1.0
+     },
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": false
+    },
+    "E4": {
+     "el": "E4",
+     "helyi": "U=0",
+     "globalis_irany": "-X",
+     "irany_nev": "bal",
+     "hossz_mm": 16.0,
+     "szerep": "SZABAD_EGYEB",
+     "erintkezes_arany": 0.0,
+     "szomszedok": {},
+     "jel": "0",
+     "elanyag": "nincs élkezelés (csatlakozó vagy takart él)",
+     "elvastagsag_mm": 0.0,
+     "gepi_utkozo": true
+    }
+   },
+   "el_kod": "0000",
+   "gepi_utkozo": [
+    "E1",
+    "E4"
+   ],
+   "szalirany": {
+    "r14": "nincs",
+    "helyi_tengely": null,
+    "globalis": null,
+    "felulbiralva": null
+   },
+   "kontur": {
+    "van": false
+   },
+   "muveletek": [],
+   "geometria_forras": "R14_zart_halo",
+   "r14_megjegyzes": "R15: az R14 jelenetben csak segédobjektum volt; valós gyártandó/beszerzendő elem. Méret a jelenetből, termék nyitott.",
    "statusz": "TERVI ADATMODELL – nem gyártási kiadás",
    "nyitott": []
   }
@@ -19253,32 +20625,6 @@
    "render_lathato": true
   },
   {
-   "nev": "DECK-CONTINUOUS-COVER",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    870.0,
-    101.0,
-    592.0,
-    2628.0,
-    8.0,
-    4.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "DECK-CONTINUOUS-BAFFLE",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    870.0,
-    109.0,
-    579.0,
-    2628.0,
-    4.0,
-    17.0
-   ],
-   "render_lathato": true
-  },
-  {
    "nev": "A5-CONTINUOUS-CONCEALED",
    "kategoria": "FENYFORRAS_FELULET (render; valós LED-szalag/profil kiválasztandó)",
    "befoglalo": [
@@ -19305,45 +20651,6 @@
    "render_lathato": true
   },
   {
-   "nev": "TOP-WASH-COVER",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    740.0,
-    26.0,
-    2872.0,
-    2857.0,
-    8.0,
-    3.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "TOP-WASH-BAFFLE",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    740.0,
-    34.0,
-    2857.0,
-    2857.0,
-    4.0,
-    18.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "TOP-WASH-HIDDEN-END",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    3595.0,
-    26.0,
-    2857.0,
-    2.0,
-    8.0,
-    15.0
-   ],
-   "render_lathato": true
-  },
-  {
    "nev": "TOP-WASH-EMITTER",
    "kategoria": "FENYFORRAS_FELULET (render; valós LED-szalag/profil kiválasztandó)",
    "befoglalo": [
@@ -19353,45 +20660,6 @@
     2705.0,
     0.0,
     14.5
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "UPLIGHT-TRAY",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    740.0,
-    5.0,
-    2875.0,
-    2845.0,
-    24.0,
-    1.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "UPLIGHT-FRONT-VISOR",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    740.0,
-    25.0,
-    2876.0,
-    2845.0,
-    4.0,
-    3.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "UPLIGHT-REAR-VISOR",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    740.0,
-    5.0,
-    2876.0,
-    2845.0,
-    3.0,
-    3.0
    ],
    "render_lathato": true
   },
@@ -19431,19 +20699,6 @@
     360.0,
     14.5,
     2515.0
-   ],
-   "render_lathato": true
-  },
-  {
-   "nev": "LOW-INTERNAL-LIGHT-VISOR",
-   "kategoria": "GYARTANDO_TAKARO/TALCA (anyagjegyzékből hiányzik)",
-   "befoglalo": [
-    57.0,
-    359.0,
-    554.0,
-    306.0,
-    5.0,
-    16.0
    ],
    "render_lathato": true
   }

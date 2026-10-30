@@ -1,0 +1,745 @@
+{
+ "revizio": "S16-R15-GY",
+ "datum": "2026-10-30",
+ "generator": "r15_patch.py",
+ "alap": {
+  "R14_ZART_JELENET_MM.json": "d57aa03c52afa51acc2b7c515dd0633f91f643b7f21139b05684753f31746ac7",
+  "drawers.json": "a8bbf48b9e17c195905f7d9653e6a319b76abaecd1656a73f5dbe33f78775f7b",
+  "layout.json": "5a0beca9c17de970a064b4e0ed42e01d282c7b92413cf21c00e461bd1f8735b2",
+  "materials.json": "2280eed37d7a47cfb7ddbcef21bba1f65faa725e499157db45c6390566961701",
+  "parts.json": "559479b655fb612da67b24f81a0118b356e7f65238cb87e32559a26ef3bd6cd3"
+ },
+ "valtozasok": [
+  {
+   "alkatresz": "D1-BOX-B",
+   "mezo": "box",
+   "regi": [
+    474,
+    80,
+    210,
+    357,
+    290,
+    15
+   ],
+   "uj": [
+    474,
+    80,
+    222,
+    357,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D1-BOX-F",
+   "mezo": "box",
+   "regi": [
+    474,
+    355,
+    225,
+    357,
+    15,
+    222
+   ],
+   "uj": [
+    474,
+    355,
+    237,
+    357,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D1-BOX-H",
+   "mezo": "box",
+   "regi": [
+    474,
+    80,
+    225,
+    357,
+    15,
+    222
+   ],
+   "uj": [
+    474,
+    80,
+    237,
+    357,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D1",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    357,
+    260,
+    222
+   ],
+   "uj": [
+    357,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "mezo": "box",
+   "regi": [
+    909,
+    80,
+    210,
+    347,
+    290,
+    15
+   ],
+   "uj": [
+    909,
+    80,
+    222,
+    347,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D2-BOX-F",
+   "mezo": "box",
+   "regi": [
+    909,
+    355,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    909,
+    355,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D2-BOX-H",
+   "mezo": "box",
+   "regi": [
+    909,
+    80,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    909,
+    80,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D2",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    347,
+    260,
+    222
+   ],
+   "uj": [
+    347,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "mezo": "box",
+   "regi": [
+    1334,
+    80,
+    210,
+    347,
+    290,
+    15
+   ],
+   "uj": [
+    1334,
+    80,
+    222,
+    347,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D3-BOX-F",
+   "mezo": "box",
+   "regi": [
+    1334,
+    355,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    1334,
+    355,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D3-BOX-H",
+   "mezo": "box",
+   "regi": [
+    1334,
+    80,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    1334,
+    80,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D3",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    347,
+    260,
+    222
+   ],
+   "uj": [
+    347,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "mezo": "box",
+   "regi": [
+    1759,
+    80,
+    210,
+    952,
+    290,
+    15
+   ],
+   "uj": [
+    1759,
+    80,
+    222,
+    952,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D4-BOX-F",
+   "mezo": "box",
+   "regi": [
+    1759,
+    355,
+    225,
+    952,
+    15,
+    222
+   ],
+   "uj": [
+    1759,
+    355,
+    237,
+    952,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D4-BOX-H",
+   "mezo": "box",
+   "regi": [
+    1759,
+    80,
+    225,
+    952,
+    15,
+    222
+   ],
+   "uj": [
+    1759,
+    80,
+    237,
+    952,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D4",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    952,
+    260,
+    222
+   ],
+   "uj": [
+    952,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "mezo": "box",
+   "regi": [
+    2789,
+    80,
+    210,
+    347,
+    290,
+    15
+   ],
+   "uj": [
+    2789,
+    80,
+    222,
+    347,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D5-BOX-F",
+   "mezo": "box",
+   "regi": [
+    2789,
+    355,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    2789,
+    355,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D5-BOX-H",
+   "mezo": "box",
+   "regi": [
+    2789,
+    80,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    2789,
+    80,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D5",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    347,
+    260,
+    222
+   ],
+   "uj": [
+    347,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "mezo": "box",
+   "regi": [
+    3214,
+    80,
+    210,
+    347,
+    290,
+    15
+   ],
+   "uj": [
+    3214,
+    80,
+    222,
+    347,
+    290,
+    15
+   ],
+   "indok": "fiókfenék 12 mm-rel feljebb (alsó síkja az oldal alsó éle fölött 12 mm), hogy a MOVENTO sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "mezo": "box",
+   "regi": [
+    3214,
+    355,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    3214,
+    355,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "mezo": "box",
+   "regi": [
+    3214,
+    80,
+    225,
+    347,
+    15,
+    222
+   ],
+   "uj": [
+    3214,
+    80,
+    237,
+    347,
+    15,
+    210
+   ],
+   "indok": "fiók elő-/hátfala a felemelt fenékre ül, felső éle változatlan (az oldal tetejével egy síkban)",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6",
+   "mezo": "drawers.inside/litres",
+   "regi": [
+    347,
+    260,
+    222
+   ],
+   "uj": [
+    347,
+    260,
+    210
+   ],
+   "indok": "belső magasság a felemelt fenék miatt csökken",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ – fenékbesüllyesztés min. 12 mm magas, max. 15 mm mély (lekérve 2026-10-30)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BG-1",
+   "mezo": "raw_L/raw_W/raw_rule",
+   "regi": [
+    831,
+    2315,
+    "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+   ],
+   "uj": [
+    841.0,
+    2405,
+    "Bal oldali 30 mm szerelési ráhagyás (helyszíni visszaillesztés a torony íve mögött). Kész L811.0 mm, nyers L841.0 mm; magasság ráhagyás nélkül W2405 mm. A 100 mm magas felső fül a toronyív mögé nyúlik; az alsó él nem nyúlik a korpusz mögé."
+   ],
+   "indok": "R14: raw_W 2315 egy korábbi háttérmagasságból maradt (kész 2405), a szöveg kész L801-et írt az adat 811-ével szemben, a BG-FINISH a BG-1 szövegét örökölte. A szövegben rögzített 30 mm szerelési ráhagyást alkalmazzuk; magasságban nincs indokolt levonás.",
+   "forras": "R14 parts.json raw_rule (BG-1) – szándék: 30 mm bal ráhagyás",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BG-FINISH",
+   "mezo": "raw_L/raw_W/raw_rule",
+   "regi": [
+    2877,
+    2315,
+    "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+   ],
+   "uj": [
+    2887,
+    2405,
+    "Bal oldali 30 mm szerelési ráhagyás (helyszíni visszaillesztés a torony íve mögött). Kész L2857 mm, nyers L2887 mm; magasság ráhagyás nélkül W2405 mm. A 100 mm magas felső fül a toronyív mögé nyúlik; az alsó él nem nyúlik a korpusz mögé."
+   ],
+   "indok": "R14: raw_W 2315 egy korábbi háttérmagasságból maradt (kész 2405), a szöveg kész L801-et írt az adat 811-ével szemben, a BG-FINISH a BG-1 szövegét örökölte. A szövegben rögzített 30 mm szerelési ráhagyást alkalmazzuk; magasságban nincs indokolt levonás.",
+   "forras": "R14 parts.json raw_rule (BG-1) – szándék: 30 mm bal ráhagyás",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BATTEN-1",
+   "mezo": "material",
+   "regi": "M01",
+   "uj": "M10",
+   "indok": "8 mm vastag léc nem lehet 18 mm-es bútorlapból (M01)",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BATTEN-2",
+   "mezo": "material",
+   "regi": "M01",
+   "uj": "M10",
+   "indok": "8 mm vastag léc nem lehet 18 mm-es bútorlapból (M01)",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BATTEN-3",
+   "mezo": "material",
+   "regi": "M01",
+   "uj": "M10",
+   "indok": "8 mm vastag léc nem lehet 18 mm-es bútorlapból (M01)",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BATTEN-4",
+   "mezo": "material",
+   "regi": "M01",
+   "uj": "M10",
+   "indok": "8 mm vastag léc nem lehet 18 mm-es bútorlapból (M01)",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "BATTEN-5",
+   "mezo": "material",
+   "regi": "M01",
+   "uj": "M10",
+   "indok": "8 mm vastag léc nem lehet 18 mm-es bútorlapból (M01)",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "T-DOOR-L-BACK",
+   "mezo": "material",
+   "regi": "M02",
+   "uj": "M11",
+   "indok": "12 mm vastag kazetta-hátlap nem lehet 18 mm-es M02; a geometria (12 mm, 14 mm polcrés) marad, az anyag lesz 12 mm-es",
+   "forras": "QA Q07 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "T-DOOR-L-BACK",
+   "mezo": "raw_L/raw_W",
+   "regi": [
+    370,
+    2525
+   ],
+   "uj": null,
+   "indok": "az R14 explicit nyers = kész ellentmondott a +10/+10 festett MDF szabálynak; a szabályfájl számol",
+   "forras": "QA Q03 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TOP-WASH-COVER",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TOP-WASH-BAFFLE",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "TOP-WASH-HIDDEN-END",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "UPLIGHT-TRAY",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "UPLIGHT-FRONT-VISOR",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "UPLIGHT-REAR-VISOR",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "DECK-CONTINUOUS-COVER",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "DECK-CONTINUOUS-BAFFLE",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "LOW-INTERNAL-LIGHT-VISOR",
+   "mezo": "felvétel",
+   "regi": "segédobjektum",
+   "uj": "alkatrész (M12)",
+   "indok": "valós takaró/tálca, eddig hiányzott az anyagjegyzékből",
+   "forras": "QA Q16 (F1)",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "LOW-INTERNAL-LIGHT-VISOR",
+   "mezo": "box",
+   "regi": [
+    57.0,
+    359.0,
+    554.0,
+    306.0,
+    5.0,
+    16.0
+   ],
+   "uj": [
+    57.0,
+    343.0,
+    554.0,
+    306.0,
+    5.0,
+    16.0
+   ],
+   "indok": "csukott ajtónál a süllyesztett kazetta hátlapjával (Y354..366) ütközött; 6 mm-rel a kazetta mögé tolva. A LED-profil és a fényirány a termékválasztásnál ellenőrzendő.",
+   "forras": "QA Q11 (R15)",
+   "statusz": "JAVASLAT"
+  },
+  {
+   "alkatresz": "BG-*-HIDDEN-RETURN",
+   "mezo": "tisztázás",
+   "regi": null,
+   "uj": {
+    "BG-UPPER-HIDDEN-RETURN/BG-LOWER-HIDDEN-RETURN": "A layout R14 'primary_changed' listája hivatkozza, de nincs ilyen test. A 130 mm (torony mögött, BG-1 X=740-től) és 100 mm (alsó sor mögött, BG Z=470-től) takart túlfutás a BG-1…4 geometriájában benne van; az 'Y20..38' hátsó átfedés viszont sehol nincs modellezve. Blender-jelenetben ellenőrizendő, addig NEM pótoljuk kitalált méretekkel."
+   },
+   "indok": "nem rekonstruálható bizonyítékkal",
+   "forras": "layout.json R14",
+   "statusz": "NYITOTT"
+  }
+ ]
+}
