@@ -8,7 +8,8 @@
  "alkatreszek": [
   {
    "id": "D1-L",
-   "reteg": "$PART_S16_D1-L#0V00",
+   "num": 16001,
+   "reteg": "$PART_S16_D1-L˙0˙0¨0V00˙0¨#0¨16001",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -27,7 +28,8 @@
   },
   {
    "id": "D1-R",
-   "reteg": "$PART_S16_D1-R#0V00",
+   "num": 16002,
+   "reteg": "$PART_S16_D1-R˙0˙0¨0V00˙0¨#0¨16002",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -46,7 +48,8 @@
   },
   {
    "id": "D1-T",
-   "reteg": "$PART_S16_D1-T#F0F0",
+   "num": 16003,
+   "reteg": "$PART_S16_D1-T˙0˙0¨F0F0˙0¨#0¨16003",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -65,7 +68,8 @@
   },
   {
    "id": "D1-BACK",
-   "reteg": "$PART_S16_D1-BACK#0000",
+   "num": 16004,
+   "reteg": "$PART_S16_D1-BACK˙0˙0¨0000˙0¨#0¨16004",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -84,7 +88,8 @@
   },
   {
    "id": "D1-FRONT",
-   "reteg": "$PART_S16_D1-FRONT#VVVV",
+   "num": 16005,
+   "reteg": "$PART_S16_D1-FRONT˙0˙0¨VVVV˙0¨#0¨16005",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -103,7 +108,8 @@
   },
   {
    "id": "D1-BOX-L",
-   "reteg": "$PART_S16_D1-BOX-L#LLLL",
+   "num": 16006,
+   "reteg": "$PART_S16_D1-BOX-L˙0˙0¨LLLL˙0¨#0¨16006",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -122,7 +128,8 @@
   },
   {
    "id": "D1-BOX-R",
-   "reteg": "$PART_S16_D1-BOX-R#LLLL",
+   "num": 16007,
+   "reteg": "$PART_S16_D1-BOX-R˙0˙0¨LLLL˙0¨#0¨16007",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -141,7 +148,8 @@
   },
   {
    "id": "D1-BOX-F",
-   "reteg": "$PART_S16_D1-BOX-F#00L0",
+   "num": 16008,
+   "reteg": "$PART_S16_D1-BOX-F˙0˙0¨00L0˙0¨#0¨16008",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -160,7 +168,8 @@
   },
   {
    "id": "D1-BOX-H",
-   "reteg": "$PART_S16_D1-BOX-H#00L0",
+   "num": 16009,
+   "reteg": "$PART_S16_D1-BOX-H˙0˙0¨00L0˙0¨#0¨16009",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -179,7 +188,8 @@
   },
   {
    "id": "D1-BOX-B",
-   "reteg": "$PART_S16_D1-BOX-B#L0L0",
+   "num": 16010,
+   "reteg": "$PART_S16_D1-BOX-B˙0˙0¨L0L0˙0¨#0¨16010",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -198,7 +208,8 @@
   },
   {
    "id": "D2-L",
-   "reteg": "$PART_S16_D2-L#VVV0",
+   "num": 16011,
+   "reteg": "$PART_S16_D2-L˙0˙0¨VVV0˙0¨#0¨16011",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -217,7 +228,8 @@
   },
   {
    "id": "D2-R",
-   "reteg": "$PART_S16_D2-R#VVV0",
+   "num": 16012,
+   "reteg": "$PART_S16_D2-R˙0˙0¨VVV0˙0¨#0¨16012",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -236,7 +248,8 @@
   },
   {
    "id": "D2-B",
-   "reteg": "$PART_S16_D2-B#V000",
+   "num": 16013,
+   "reteg": "$PART_S16_D2-B˙0˙0¨V000˙0¨#0¨16013",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -255,7 +268,8 @@
   },
   {
    "id": "D2-T",
-   "reteg": "$PART_S16_D2-T#F0F0",
+   "num": 16014,
+   "reteg": "$PART_S16_D2-T˙0˙0¨F0F0˙0¨#0¨16014",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -274,7 +288,8 @@
   },
   {
    "id": "D2-BACK",
-   "reteg": "$PART_S16_D2-BACK#0000",
+   "num": 16015,
+   "reteg": "$PART_S16_D2-BACK˙0˙0¨0000˙0¨#0¨16015",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -293,7 +308,8 @@
   },
   {
    "id": "D2-FRONT",
-   "reteg": "$PART_S16_D2-FRONT#VVVV",
+   "num": 16016,
+   "reteg": "$PART_S16_D2-FRONT˙0˙0¨VVVV˙0¨#0¨16016",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -312,7 +328,8 @@
   },
   {
    "id": "D2-BOX-L",
-   "reteg": "$PART_S16_D2-BOX-L#LLLL",
+   "num": 16017,
+   "reteg": "$PART_S16_D2-BOX-L˙0˙0¨LLLL˙0¨#0¨16017",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -331,7 +348,8 @@
   },
   {
    "id": "D2-BOX-R",
-   "reteg": "$PART_S16_D2-BOX-R#LLLL",
+   "num": 16018,
+   "reteg": "$PART_S16_D2-BOX-R˙0˙0¨LLLL˙0¨#0¨16018",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -350,7 +368,8 @@
   },
   {
    "id": "D2-BOX-F",
-   "reteg": "$PART_S16_D2-BOX-F#00L0",
+   "num": 16019,
+   "reteg": "$PART_S16_D2-BOX-F˙0˙0¨00L0˙0¨#0¨16019",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -369,7 +388,8 @@
   },
   {
    "id": "D2-BOX-H",
-   "reteg": "$PART_S16_D2-BOX-H#00L0",
+   "num": 16020,
+   "reteg": "$PART_S16_D2-BOX-H˙0˙0¨00L0˙0¨#0¨16020",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -388,7 +408,8 @@
   },
   {
    "id": "D2-BOX-B",
-   "reteg": "$PART_S16_D2-BOX-B#L0L0",
+   "num": 16021,
+   "reteg": "$PART_S16_D2-BOX-B˙0˙0¨L0L0˙0¨#0¨16021",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -407,7 +428,8 @@
   },
   {
    "id": "D3-L",
-   "reteg": "$PART_S16_D3-L#VVV0",
+   "num": 16022,
+   "reteg": "$PART_S16_D3-L˙0˙0¨VVV0˙0¨#0¨16022",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -426,7 +448,8 @@
   },
   {
    "id": "D3-R",
-   "reteg": "$PART_S16_D3-R#VVV0",
+   "num": 16023,
+   "reteg": "$PART_S16_D3-R˙0˙0¨VVV0˙0¨#0¨16023",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -445,7 +468,8 @@
   },
   {
    "id": "D3-B",
-   "reteg": "$PART_S16_D3-B#V000",
+   "num": 16024,
+   "reteg": "$PART_S16_D3-B˙0˙0¨V000˙0¨#0¨16024",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -464,7 +488,8 @@
   },
   {
    "id": "D3-T",
-   "reteg": "$PART_S16_D3-T#F0F0",
+   "num": 16025,
+   "reteg": "$PART_S16_D3-T˙0˙0¨F0F0˙0¨#0¨16025",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -483,7 +508,8 @@
   },
   {
    "id": "D3-BACK",
-   "reteg": "$PART_S16_D3-BACK#0000",
+   "num": 16026,
+   "reteg": "$PART_S16_D3-BACK˙0˙0¨0000˙0¨#0¨16026",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -502,7 +528,8 @@
   },
   {
    "id": "D3-FRONT",
-   "reteg": "$PART_S16_D3-FRONT#VVVV",
+   "num": 16027,
+   "reteg": "$PART_S16_D3-FRONT˙0˙0¨VVVV˙0¨#0¨16027",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -521,7 +548,8 @@
   },
   {
    "id": "D3-BOX-L",
-   "reteg": "$PART_S16_D3-BOX-L#LLLL",
+   "num": 16028,
+   "reteg": "$PART_S16_D3-BOX-L˙0˙0¨LLLL˙0¨#0¨16028",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -540,7 +568,8 @@
   },
   {
    "id": "D3-BOX-R",
-   "reteg": "$PART_S16_D3-BOX-R#LLLL",
+   "num": 16029,
+   "reteg": "$PART_S16_D3-BOX-R˙0˙0¨LLLL˙0¨#0¨16029",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -559,7 +588,8 @@
   },
   {
    "id": "D3-BOX-F",
-   "reteg": "$PART_S16_D3-BOX-F#00L0",
+   "num": 16030,
+   "reteg": "$PART_S16_D3-BOX-F˙0˙0¨00L0˙0¨#0¨16030",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -578,7 +608,8 @@
   },
   {
    "id": "D3-BOX-H",
-   "reteg": "$PART_S16_D3-BOX-H#00L0",
+   "num": 16031,
+   "reteg": "$PART_S16_D3-BOX-H˙0˙0¨00L0˙0¨#0¨16031",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -597,7 +628,8 @@
   },
   {
    "id": "D3-BOX-B",
-   "reteg": "$PART_S16_D3-BOX-B#L0L0",
+   "num": 16032,
+   "reteg": "$PART_S16_D3-BOX-B˙0˙0¨L0L0˙0¨#0¨16032",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -616,7 +648,8 @@
   },
   {
    "id": "D4-L",
-   "reteg": "$PART_S16_D4-L#VVV0",
+   "num": 16033,
+   "reteg": "$PART_S16_D4-L˙0˙0¨VVV0˙0¨#0¨16033",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -635,7 +668,8 @@
   },
   {
    "id": "D4-R",
-   "reteg": "$PART_S16_D4-R#VVV0",
+   "num": 16034,
+   "reteg": "$PART_S16_D4-R˙0˙0¨VVV0˙0¨#0¨16034",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -654,7 +688,8 @@
   },
   {
    "id": "D4-B",
-   "reteg": "$PART_S16_D4-B#V000",
+   "num": 16035,
+   "reteg": "$PART_S16_D4-B˙0˙0¨V000˙0¨#0¨16035",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -673,7 +708,8 @@
   },
   {
    "id": "D4-T",
-   "reteg": "$PART_S16_D4-T#F0F0",
+   "num": 16036,
+   "reteg": "$PART_S16_D4-T˙0˙0¨F0F0˙0¨#0¨16036",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -692,7 +728,8 @@
   },
   {
    "id": "D4-BACK",
-   "reteg": "$PART_S16_D4-BACK#0000",
+   "num": 16037,
+   "reteg": "$PART_S16_D4-BACK˙0˙0¨0000˙0¨#0¨16037",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -711,7 +748,8 @@
   },
   {
    "id": "D4-FRONT",
-   "reteg": "$PART_S16_D4-FRONT#VVVV",
+   "num": 16038,
+   "reteg": "$PART_S16_D4-FRONT˙0˙0¨VVVV˙0¨#0¨16038",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -730,7 +768,8 @@
   },
   {
    "id": "D4-BOX-L",
-   "reteg": "$PART_S16_D4-BOX-L#LLLL",
+   "num": 16039,
+   "reteg": "$PART_S16_D4-BOX-L˙0˙0¨LLLL˙0¨#0¨16039",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -749,7 +788,8 @@
   },
   {
    "id": "D4-BOX-R",
-   "reteg": "$PART_S16_D4-BOX-R#LLLL",
+   "num": 16040,
+   "reteg": "$PART_S16_D4-BOX-R˙0˙0¨LLLL˙0¨#0¨16040",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -768,7 +808,8 @@
   },
   {
    "id": "D4-BOX-F",
-   "reteg": "$PART_S16_D4-BOX-F#00L0",
+   "num": 16041,
+   "reteg": "$PART_S16_D4-BOX-F˙0˙0¨00L0˙0¨#0¨16041",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -787,7 +828,8 @@
   },
   {
    "id": "D4-BOX-H",
-   "reteg": "$PART_S16_D4-BOX-H#00L0",
+   "num": 16042,
+   "reteg": "$PART_S16_D4-BOX-H˙0˙0¨00L0˙0¨#0¨16042",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -806,7 +848,8 @@
   },
   {
    "id": "D4-BOX-B",
-   "reteg": "$PART_S16_D4-BOX-B#L0L0",
+   "num": 16043,
+   "reteg": "$PART_S16_D4-BOX-B˙0˙0¨L0L0˙0¨#0¨16043",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -825,7 +868,8 @@
   },
   {
    "id": "D5-L",
-   "reteg": "$PART_S16_D5-L#VVV0",
+   "num": 16044,
+   "reteg": "$PART_S16_D5-L˙0˙0¨VVV0˙0¨#0¨16044",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -844,7 +888,8 @@
   },
   {
    "id": "D5-R",
-   "reteg": "$PART_S16_D5-R#VVV0",
+   "num": 16045,
+   "reteg": "$PART_S16_D5-R˙0˙0¨VVV0˙0¨#0¨16045",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -863,7 +908,8 @@
   },
   {
    "id": "D5-B",
-   "reteg": "$PART_S16_D5-B#V000",
+   "num": 16046,
+   "reteg": "$PART_S16_D5-B˙0˙0¨V000˙0¨#0¨16046",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -882,7 +928,8 @@
   },
   {
    "id": "D5-T",
-   "reteg": "$PART_S16_D5-T#F0F0",
+   "num": 16047,
+   "reteg": "$PART_S16_D5-T˙0˙0¨F0F0˙0¨#0¨16047",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -901,7 +948,8 @@
   },
   {
    "id": "D5-BACK",
-   "reteg": "$PART_S16_D5-BACK#0000",
+   "num": 16048,
+   "reteg": "$PART_S16_D5-BACK˙0˙0¨0000˙0¨#0¨16048",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -920,7 +968,8 @@
   },
   {
    "id": "D5-FRONT",
-   "reteg": "$PART_S16_D5-FRONT#VVVV",
+   "num": 16049,
+   "reteg": "$PART_S16_D5-FRONT˙0˙0¨VVVV˙0¨#0¨16049",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -939,7 +988,8 @@
   },
   {
    "id": "D5-BOX-L",
-   "reteg": "$PART_S16_D5-BOX-L#LLLL",
+   "num": 16050,
+   "reteg": "$PART_S16_D5-BOX-L˙0˙0¨LLLL˙0¨#0¨16050",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -958,7 +1008,8 @@
   },
   {
    "id": "D5-BOX-R",
-   "reteg": "$PART_S16_D5-BOX-R#LLLL",
+   "num": 16051,
+   "reteg": "$PART_S16_D5-BOX-R˙0˙0¨LLLL˙0¨#0¨16051",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -977,7 +1028,8 @@
   },
   {
    "id": "D5-BOX-F",
-   "reteg": "$PART_S16_D5-BOX-F#00L0",
+   "num": 16052,
+   "reteg": "$PART_S16_D5-BOX-F˙0˙0¨00L0˙0¨#0¨16052",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -996,7 +1048,8 @@
   },
   {
    "id": "D5-BOX-H",
-   "reteg": "$PART_S16_D5-BOX-H#00L0",
+   "num": 16053,
+   "reteg": "$PART_S16_D5-BOX-H˙0˙0¨00L0˙0¨#0¨16053",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1015,7 +1068,8 @@
   },
   {
    "id": "D5-BOX-B",
-   "reteg": "$PART_S16_D5-BOX-B#L0L0",
+   "num": 16054,
+   "reteg": "$PART_S16_D5-BOX-B˙0˙0¨L0L0˙0¨#0¨16054",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1034,7 +1088,8 @@
   },
   {
    "id": "D6-L",
-   "reteg": "$PART_S16_D6-L#VVV0",
+   "num": 16055,
+   "reteg": "$PART_S16_D6-L˙0˙0¨VVV0˙0¨#0¨16055",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1053,7 +1108,8 @@
   },
   {
    "id": "D6-R",
-   "reteg": "$PART_S16_D6-R#0F0F",
+   "num": 16056,
+   "reteg": "$PART_S16_D6-R˙0˙0¨0F0F˙0¨#0¨16056",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -1072,7 +1128,8 @@
   },
   {
    "id": "D6-B",
-   "reteg": "$PART_S16_D6-B#V000",
+   "num": 16057,
+   "reteg": "$PART_S16_D6-B˙0˙0¨V000˙0¨#0¨16057",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1091,7 +1148,8 @@
   },
   {
    "id": "D6-T",
-   "reteg": "$PART_S16_D6-T#F0F0",
+   "num": 16058,
+   "reteg": "$PART_S16_D6-T˙0˙0¨F0F0˙0¨#0¨16058",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -1110,7 +1168,8 @@
   },
   {
    "id": "D6-BACK",
-   "reteg": "$PART_S16_D6-BACK#0000",
+   "num": 16059,
+   "reteg": "$PART_S16_D6-BACK˙0˙0¨0000˙0¨#0¨16059",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -1162,7 +1221,8 @@
   },
   {
    "id": "D6-FRONT",
-   "reteg": "$PART_S16_D6-FRONT#VVVV",
+   "num": 16060,
+   "reteg": "$PART_S16_D6-FRONT˙0˙0¨VVVV˙0¨#0¨16060",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -1214,7 +1274,8 @@
   },
   {
    "id": "D6-BOX-L",
-   "reteg": "$PART_S16_D6-BOX-L#LLLL",
+   "num": 16061,
+   "reteg": "$PART_S16_D6-BOX-L˙0˙0¨LLLL˙0¨#0¨16061",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1233,7 +1294,8 @@
   },
   {
    "id": "D6-BOX-R",
-   "reteg": "$PART_S16_D6-BOX-R#LLLL",
+   "num": 16062,
+   "reteg": "$PART_S16_D6-BOX-R˙0˙0¨LLLL˙0¨#0¨16062",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1252,7 +1314,8 @@
   },
   {
    "id": "D6-BOX-F",
-   "reteg": "$PART_S16_D6-BOX-F#00L0",
+   "num": 16063,
+   "reteg": "$PART_S16_D6-BOX-F˙0˙0¨00L0˙0¨#0¨16063",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1271,7 +1334,8 @@
   },
   {
    "id": "D6-BOX-H",
-   "reteg": "$PART_S16_D6-BOX-H#00L0",
+   "num": 16064,
+   "reteg": "$PART_S16_D6-BOX-H˙0˙0¨00L0˙0¨#0¨16064",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1290,7 +1354,8 @@
   },
   {
    "id": "D6-BOX-B",
-   "reteg": "$PART_S16_D6-BOX-B#L0L0",
+   "num": 16065,
+   "reteg": "$PART_S16_D6-BOX-B˙0˙0¨L0L0˙0¨#0¨16065",
    "szin": 42,
    "anyag": "M07",
    "test": {
@@ -1309,7 +1374,8 @@
   },
   {
    "id": "T-L",
-   "reteg": "$PART_S16_T-L#0V00",
+   "num": 16066,
+   "reteg": "$PART_S16_T-L˙0˙0¨0V00˙0¨#0¨16066",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1328,7 +1394,8 @@
   },
   {
    "id": "T-R",
-   "reteg": "$PART_S16_T-R#0F0F",
+   "num": 16067,
+   "reteg": "$PART_S16_T-R˙0˙0¨0F0F˙0¨#0¨16067",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -1347,7 +1414,8 @@
   },
   {
    "id": "T-B",
-   "reteg": "$PART_S16_T-B#V000",
+   "num": 16068,
+   "reteg": "$PART_S16_T-B˙0˙0¨V000˙0¨#0¨16068",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1392,7 +1460,8 @@
   },
   {
    "id": "T-C",
-   "reteg": "$PART_S16_T-C#0V00",
+   "num": 16069,
+   "reteg": "$PART_S16_T-C˙0˙0¨0V00˙0¨#0¨16069",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1411,7 +1480,8 @@
   },
   {
    "id": "T-L-S1",
-   "reteg": "$PART_S16_T-L-S1#V000",
+   "num": 16070,
+   "reteg": "$PART_S16_T-L-S1˙0˙0¨V000˙0¨#0¨16070",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1430,7 +1500,8 @@
   },
   {
    "id": "T-L-S2",
-   "reteg": "$PART_S16_T-L-S2#V000",
+   "num": 16071,
+   "reteg": "$PART_S16_T-L-S2˙0˙0¨V000˙0¨#0¨16071",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1449,7 +1520,8 @@
   },
   {
    "id": "T-L-S3",
-   "reteg": "$PART_S16_T-L-S3#V000",
+   "num": 16072,
+   "reteg": "$PART_S16_T-L-S3˙0˙0¨V000˙0¨#0¨16072",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1468,7 +1540,8 @@
   },
   {
    "id": "T-L-S4",
-   "reteg": "$PART_S16_T-L-S4#V000",
+   "num": 16073,
+   "reteg": "$PART_S16_T-L-S4˙0˙0¨V000˙0¨#0¨16073",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1487,7 +1560,8 @@
   },
   {
    "id": "T-L-S5",
-   "reteg": "$PART_S16_T-L-S5#V000",
+   "num": 16074,
+   "reteg": "$PART_S16_T-L-S5˙0˙0¨V000˙0¨#0¨16074",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1506,7 +1580,8 @@
   },
   {
    "id": "T-L-BACK",
-   "reteg": "$PART_S16_T-L-BACK#0000",
+   "num": 16075,
+   "reteg": "$PART_S16_T-L-BACK˙0˙0¨0000˙0¨#0¨16075",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -1558,7 +1633,8 @@
   },
   {
    "id": "T-L-SERVICE",
-   "reteg": "$PART_S16_T-L-SERVICE#VVVV",
+   "num": 16076,
+   "reteg": "$PART_S16_T-L-SERVICE˙0˙0¨VVVV˙0¨#0¨16076",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -1577,7 +1653,8 @@
   },
   {
    "id": "T-R-S1",
-   "reteg": "$PART_S16_T-R-S1#V000",
+   "num": 16077,
+   "reteg": "$PART_S16_T-R-S1˙0˙0¨V000˙0¨#0¨16077",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1596,7 +1673,8 @@
   },
   {
    "id": "T-R-S2",
-   "reteg": "$PART_S16_T-R-S2#V000",
+   "num": 16078,
+   "reteg": "$PART_S16_T-R-S2˙0˙0¨V000˙0¨#0¨16078",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1615,7 +1693,8 @@
   },
   {
    "id": "T-R-S3",
-   "reteg": "$PART_S16_T-R-S3#V000",
+   "num": 16079,
+   "reteg": "$PART_S16_T-R-S3˙0˙0¨V000˙0¨#0¨16079",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1634,7 +1713,8 @@
   },
   {
    "id": "T-R-S4",
-   "reteg": "$PART_S16_T-R-S4#V000",
+   "num": 16080,
+   "reteg": "$PART_S16_T-R-S4˙0˙0¨V000˙0¨#0¨16080",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1653,7 +1733,8 @@
   },
   {
    "id": "T-R-S5",
-   "reteg": "$PART_S16_T-R-S5#V000",
+   "num": 16081,
+   "reteg": "$PART_S16_T-R-S5˙0˙0¨V000˙0¨#0¨16081",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -1672,7 +1753,8 @@
   },
   {
    "id": "T-R-BACK",
-   "reteg": "$PART_S16_T-R-BACK#0000",
+   "num": 16082,
+   "reteg": "$PART_S16_T-R-BACK˙0˙0¨0000˙0¨#0¨16082",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -1724,7 +1806,8 @@
   },
   {
    "id": "T-R-SERVICE",
-   "reteg": "$PART_S16_T-R-SERVICE#VVVV",
+   "num": 16083,
+   "reteg": "$PART_S16_T-R-SERVICE˙0˙0¨VVVV˙0¨#0¨16083",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -1743,7 +1826,8 @@
   },
   {
    "id": "T-DOOR-L",
-   "reteg": "$PART_S16_T-DOOR-L#VVVV",
+   "num": 16084,
+   "reteg": "$PART_S16_T-DOOR-L˙0˙0¨VVVV˙0¨#0¨16084",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -4497,7 +4581,8 @@
   },
   {
    "id": "T-DOOR-R",
-   "reteg": "$PART_S16_T-DOOR-R#VVVV",
+   "num": 16085,
+   "reteg": "$PART_S16_T-DOOR-R˙0˙0¨VVVV˙0¨#0¨16085",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -4544,7 +4629,8 @@
   },
   {
    "id": "TEXTILE",
-   "reteg": "$PART_S16_TEXTILE#KKKK",
+   "num": 16086,
+   "reteg": "$PART_S16_TEXTILE˙0˙0¨KKKK˙0¨#0¨16086",
    "szin": 51,
    "anyag": "M05",
    "test": {
@@ -4606,7 +4692,8 @@
   },
   {
    "id": "BG-1",
-   "reteg": "$PART_S16_BG-1#0000",
+   "num": 16087,
+   "reteg": "$PART_S16_BG-1˙0˙0¨0000˙0¨#0¨16087",
    "szin": 41,
    "anyag": "M04",
    "test": {
@@ -4625,7 +4712,8 @@
   },
   {
    "id": "BG-2",
-   "reteg": "$PART_S16_BG-2#0000",
+   "num": 16088,
+   "reteg": "$PART_S16_BG-2˙0˙0¨0000˙0¨#0¨16088",
    "szin": 41,
    "anyag": "M04",
    "test": {
@@ -4644,7 +4732,8 @@
   },
   {
    "id": "BG-3",
-   "reteg": "$PART_S16_BG-3#0000",
+   "num": 16089,
+   "reteg": "$PART_S16_BG-3˙0˙0¨0000˙0¨#0¨16089",
    "szin": 41,
    "anyag": "M04",
    "test": {
@@ -4663,7 +4752,8 @@
   },
   {
    "id": "BG-4",
-   "reteg": "$PART_S16_BG-4#0000",
+   "num": 16090,
+   "reteg": "$PART_S16_BG-4˙0˙0¨0000˙0¨#0¨16090",
    "szin": 41,
    "anyag": "M04",
    "test": {
@@ -4682,7 +4772,8 @@
   },
   {
    "id": "BATTEN-1",
-   "reteg": "$PART_S16_BATTEN-1#0000",
+   "num": 16091,
+   "reteg": "$PART_S16_BATTEN-1˙0˙0¨0000˙0¨#0¨16091",
    "szin": 254,
    "anyag": "M10",
    "test": {
@@ -4701,7 +4792,8 @@
   },
   {
    "id": "BATTEN-2",
-   "reteg": "$PART_S16_BATTEN-2#0000",
+   "num": 16092,
+   "reteg": "$PART_S16_BATTEN-2˙0˙0¨0000˙0¨#0¨16092",
    "szin": 254,
    "anyag": "M10",
    "test": {
@@ -4720,7 +4812,8 @@
   },
   {
    "id": "BATTEN-3",
-   "reteg": "$PART_S16_BATTEN-3#0000",
+   "num": 16093,
+   "reteg": "$PART_S16_BATTEN-3˙0˙0¨0000˙0¨#0¨16093",
    "szin": 254,
    "anyag": "M10",
    "test": {
@@ -4739,7 +4832,8 @@
   },
   {
    "id": "BATTEN-4",
-   "reteg": "$PART_S16_BATTEN-4#0000",
+   "num": 16094,
+   "reteg": "$PART_S16_BATTEN-4˙0˙0¨0000˙0¨#0¨16094",
    "szin": 254,
    "anyag": "M10",
    "test": {
@@ -4758,7 +4852,8 @@
   },
   {
    "id": "BATTEN-5",
-   "reteg": "$PART_S16_BATTEN-5#0000",
+   "num": 16095,
+   "reteg": "$PART_S16_BATTEN-5˙0˙0¨0000˙0¨#0¨16095",
    "szin": 254,
    "anyag": "M10",
    "test": {
@@ -4777,7 +4872,8 @@
   },
   {
    "id": "CURVE-T-TOP",
-   "reteg": "$PART_S16_CURVE-T-TOP#FFFF",
+   "num": 16096,
+   "reteg": "$PART_S16_CURVE-T-TOP˙0˙0¨FFFF˙0¨#0¨16096",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -4839,7 +4935,8 @@
   },
   {
    "id": "FRAME-T-TOP",
-   "reteg": "$PART_S16_FRAME-T-TOP#FFFF",
+   "num": 16097,
+   "reteg": "$PART_S16_FRAME-T-TOP˙0˙0¨FFFF˙0¨#0¨16097",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -4901,7 +4998,8 @@
   },
   {
    "id": "CURVE-T-BOT",
-   "reteg": "$PART_S16_CURVE-T-BOT#F0FF",
+   "num": 16098,
+   "reteg": "$PART_S16_CURVE-T-BOT˙0˙0¨F0FF˙0¨#0¨16098",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -4953,7 +5051,8 @@
   },
   {
    "id": "FRAME-T-BOT",
-   "reteg": "$PART_S16_FRAME-T-BOT#FFFF",
+   "num": 16099,
+   "reteg": "$PART_S16_FRAME-T-BOT˙0˙0¨FFFF˙0¨#0¨16099",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5005,7 +5104,8 @@
   },
   {
    "id": "FRAME-T-L",
-   "reteg": "$PART_S16_FRAME-T-L#0F0F",
+   "num": 16100,
+   "reteg": "$PART_S16_FRAME-T-L˙0˙0¨0F0F˙0¨#0¨16100",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5024,7 +5124,8 @@
   },
   {
    "id": "FRAME-T-R",
-   "reteg": "$PART_S16_FRAME-T-R#0F0F",
+   "num": 16101,
+   "reteg": "$PART_S16_FRAME-T-R˙0˙0¨0F0F˙0¨#0¨16101",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5043,7 +5144,8 @@
   },
   {
    "id": "FRAME-T-MID",
-   "reteg": "$PART_S16_FRAME-T-MID#F0FF",
+   "num": 16102,
+   "reteg": "$PART_S16_FRAME-T-MID˙0˙0¨F0FF˙0¨#0¨16102",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5062,7 +5164,8 @@
   },
   {
    "id": "FRAME-B-LOW-1",
-   "reteg": "$PART_S16_FRAME-B-LOW-1#F0F0",
+   "num": 16103,
+   "reteg": "$PART_S16_FRAME-B-LOW-1˙0˙0¨F0F0˙0¨#0¨16103",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5081,7 +5184,8 @@
   },
   {
    "id": "FRAME-B-LOW-2",
-   "reteg": "$PART_S16_FRAME-B-LOW-2#F0F0",
+   "num": 16104,
+   "reteg": "$PART_S16_FRAME-B-LOW-2˙0˙0¨F0F0˙0¨#0¨16104",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5100,7 +5204,8 @@
   },
   {
    "id": "FRAME-B-LOW-3",
-   "reteg": "$PART_S16_FRAME-B-LOW-3#F0F0",
+   "num": 16105,
+   "reteg": "$PART_S16_FRAME-B-LOW-3˙0˙0¨F0F0˙0¨#0¨16105",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5119,7 +5224,8 @@
   },
   {
    "id": "FRAME-B-HIGH-1",
-   "reteg": "$PART_S16_FRAME-B-HIGH-1#F0F0",
+   "num": 16106,
+   "reteg": "$PART_S16_FRAME-B-HIGH-1˙0˙0¨F0F0˙0¨#0¨16106",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5138,7 +5244,8 @@
   },
   {
    "id": "FRAME-B-HIGH-2",
-   "reteg": "$PART_S16_FRAME-B-HIGH-2#F0F0",
+   "num": 16107,
+   "reteg": "$PART_S16_FRAME-B-HIGH-2˙0˙0¨F0F0˙0¨#0¨16107",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5157,7 +5264,8 @@
   },
   {
    "id": "FRAME-B-HIGH-3",
-   "reteg": "$PART_S16_FRAME-B-HIGH-3#F0F0",
+   "num": 16108,
+   "reteg": "$PART_S16_FRAME-B-HIGH-3˙0˙0¨F0F0˙0¨#0¨16108",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5176,7 +5284,8 @@
   },
   {
    "id": "FRAME-B-TOP",
-   "reteg": "$PART_S16_FRAME-B-TOP#FFFF",
+   "num": 16109,
+   "reteg": "$PART_S16_FRAME-B-TOP˙0˙0¨FFFF˙0¨#0¨16109",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5218,7 +5327,8 @@
   },
   {
    "id": "CURVE-B-TOP",
-   "reteg": "$PART_S16_CURVE-B-TOP#FFFF",
+   "num": 16110,
+   "reteg": "$PART_S16_CURVE-B-TOP˙0˙0¨FFFF˙0¨#0¨16110",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5260,7 +5370,8 @@
   },
   {
    "id": "FRAME-B-BOT",
-   "reteg": "$PART_S16_FRAME-B-BOT#FFFF",
+   "num": 16111,
+   "reteg": "$PART_S16_FRAME-B-BOT˙0˙0¨FFFF˙0¨#0¨16111",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5302,7 +5413,8 @@
   },
   {
    "id": "CURVE-B-BOT",
-   "reteg": "$PART_S16_CURVE-B-BOT#FFFF",
+   "num": 16112,
+   "reteg": "$PART_S16_CURVE-B-BOT˙0˙0¨FFFF˙0¨#0¨16112",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5344,7 +5456,8 @@
   },
   {
    "id": "FRAME-B-R",
-   "reteg": "$PART_S16_FRAME-B-R#0F0F",
+   "num": 16113,
+   "reteg": "$PART_S16_FRAME-B-R˙0˙0¨0F0F˙0¨#0¨16113",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5363,7 +5476,8 @@
   },
   {
    "id": "TV-SPACER-1",
-   "reteg": "$PART_S16_TV-SPACER-1#FFFF",
+   "num": 16114,
+   "reteg": "$PART_S16_TV-SPACER-1˙0˙0¨FFFF˙0¨#0¨16114",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5382,7 +5496,8 @@
   },
   {
    "id": "TV-SPACER-2",
-   "reteg": "$PART_S16_TV-SPACER-2#FFFF",
+   "num": 16115,
+   "reteg": "$PART_S16_TV-SPACER-2˙0˙0¨FFFF˙0¨#0¨16115",
    "szin": 250,
    "anyag": "M02",
    "test": {
@@ -5401,7 +5516,8 @@
   },
   {
    "id": "T-LOW-DIV",
-   "reteg": "$PART_S16_T-LOW-DIV#0V00",
+   "num": 16116,
+   "reteg": "$PART_S16_T-LOW-DIV˙0˙0¨0V00˙0¨#0¨16116",
    "szin": 8,
    "anyag": "M01",
    "test": {
@@ -5420,7 +5536,8 @@
   },
   {
    "id": "T-LOW-BACK",
-   "reteg": "$PART_S16_T-LOW-BACK#0000",
+   "num": 16117,
+   "reteg": "$PART_S16_T-LOW-BACK˙0˙0¨0000˙0¨#0¨16117",
    "szin": 9,
    "anyag": "M08",
    "test": {
@@ -5467,7 +5584,8 @@
   },
   {
    "id": "T-DOOR-L-BACK",
-   "reteg": "$PART_S16_T-DOOR-L-BACK#FFFF",
+   "num": 16118,
+   "reteg": "$PART_S16_T-DOOR-L-BACK˙0˙0¨FFFF˙0¨#0¨16118",
    "szin": 250,
    "anyag": "M11",
    "test": {
@@ -6149,7 +6267,8 @@
   },
   {
    "id": "TV-FIELD",
-   "reteg": "$PART_S16_TV-FIELD#VVVV",
+   "num": 16119,
+   "reteg": "$PART_S16_TV-FIELD˙0˙0¨VVVV˙0¨#0¨16119",
    "szin": 34,
    "anyag": "M03",
    "test": {
@@ -6712,7 +6831,8 @@
   },
   {
    "id": "BG-FINISH",
-   "reteg": "$PART_S16_BG-FINISH#0000",
+   "num": 16120,
+   "reteg": "$PART_S16_BG-FINISH˙0˙0¨0000˙0¨#0¨16120",
    "szin": 41,
    "anyag": "M04",
    "test": {
@@ -6731,7 +6851,8 @@
   },
   {
    "id": "TOP-WASH-COVER",
-   "reteg": "$PART_S16_TOP-WASH-COVER#0000",
+   "num": 16121,
+   "reteg": "$PART_S16_TOP-WASH-COVER˙0˙0¨0000˙0¨#0¨16121",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6750,7 +6871,8 @@
   },
   {
    "id": "TOP-WASH-BAFFLE",
-   "reteg": "$PART_S16_TOP-WASH-BAFFLE#0000",
+   "num": 16122,
+   "reteg": "$PART_S16_TOP-WASH-BAFFLE˙0˙0¨0000˙0¨#0¨16122",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6769,7 +6891,8 @@
   },
   {
    "id": "TOP-WASH-HIDDEN-END",
-   "reteg": "$PART_S16_TOP-WASH-HIDDEN-END#0000",
+   "num": 16123,
+   "reteg": "$PART_S16_TOP-WASH-HIDDEN-END˙0˙0¨0000˙0¨#0¨16123",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6788,7 +6911,8 @@
   },
   {
    "id": "UPLIGHT-TRAY",
-   "reteg": "$PART_S16_UPLIGHT-TRAY#0000",
+   "num": 16124,
+   "reteg": "$PART_S16_UPLIGHT-TRAY˙0˙0¨0000˙0¨#0¨16124",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6807,7 +6931,8 @@
   },
   {
    "id": "UPLIGHT-FRONT-VISOR",
-   "reteg": "$PART_S16_UPLIGHT-FRONT-VISOR#0000",
+   "num": 16125,
+   "reteg": "$PART_S16_UPLIGHT-FRONT-VISOR˙0˙0¨0000˙0¨#0¨16125",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6826,7 +6951,8 @@
   },
   {
    "id": "UPLIGHT-REAR-VISOR",
-   "reteg": "$PART_S16_UPLIGHT-REAR-VISOR#0000",
+   "num": 16126,
+   "reteg": "$PART_S16_UPLIGHT-REAR-VISOR˙0˙0¨0000˙0¨#0¨16126",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6845,7 +6971,8 @@
   },
   {
    "id": "DECK-CONTINUOUS-COVER",
-   "reteg": "$PART_S16_DECK-CONTINUOUS-COVER#0000",
+   "num": 16127,
+   "reteg": "$PART_S16_DECK-CONTINUOUS-COVER˙0˙0¨0000˙0¨#0¨16127",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6864,7 +6991,8 @@
   },
   {
    "id": "DECK-CONTINUOUS-BAFFLE",
-   "reteg": "$PART_S16_DECK-CONTINUOUS-BAFFLE#0000",
+   "num": 16128,
+   "reteg": "$PART_S16_DECK-CONTINUOUS-BAFFLE˙0˙0¨0000˙0¨#0¨16128",
    "szin": 1,
    "anyag": "M12",
    "test": {
@@ -6883,7 +7011,8 @@
   },
   {
    "id": "LOW-INTERNAL-LIGHT-VISOR",
-   "reteg": "$PART_S16_LOW-INTERNAL-LIGHT-VISOR#0000",
+   "num": 16129,
+   "reteg": "$PART_S16_LOW-INTERNAL-LIGHT-VISOR˙0˙0¨0000˙0¨#0¨16129",
    "szin": 1,
    "anyag": "M12",
    "test": {

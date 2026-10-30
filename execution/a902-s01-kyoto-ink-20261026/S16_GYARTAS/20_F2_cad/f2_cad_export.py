@@ -77,13 +77,16 @@ def dedupe(pts, tol=1e-3):
 
 def make_plan(doc, src_parts, rules):
     src = {p["id"]: p for p in src_parts}
-    tpl = rules.get("cad", {}).get("reteg_minta", "$PART_{cimke_id}#{el_kod}")
+    # etalon (km.dwg): $PART_<név>˙0˙0¨<élkód>˙0¨#0¨<azonosító>
+    tpl = rules.get("cad", {}).get("reteg_minta", "$PART_{cimke_id}\u02d90\u02d90\u00a8{el_kod}\u02d90\u00a8#0\u00a8{num}")
+    num0 = rules.get("cad", {}).get("azonosito_kezdet", 16001)
     plan, notes = [], []
     for r in doc["alkatreszek"]:
         pid = r["id"]
         p = src[pid]
         x, y, z, dx, dy, dz = p["box"]
-        item = {"id": pid, "reteg": tpl.format(cimke_id=r["cimke_id"], el_kod=r["el_kod"], id=pid),
+        num = num0 + len(plan)
+        item = {"id": pid, "num": num, "reteg": tpl.format(cimke_id=r["cimke_id"], el_kod=r["el_kod"], id=pid, num=num),
                 "szin": COLORS.get(r["anyag"]["kod"], 7), "anyag": r["anyag"]["kod"], "test": None,
                 "kivonas": [], "tech": []}
         if p.get("outline") and p["axis"] == "y":
@@ -194,6 +197,14 @@ LSP_HEAD = r''';;; S16 R15 médiafal – 3D szerkezeti modell (generálva: {datu
 
 (defun s16-sub (a b) (command "_.SUBTRACT" a "" b "") a)
 
+;; henger két pont között (tengely), r sugár – furatokhoz, tiplikhez
+(defun s16-cyl (x y z r x2 y2 z2) (command "_.CYLINDER" (list x y z) r "_A" (list x2 y2 z2)) (entlast))
+
+(defun s16-count (pre / ss i n e)
+  (setq ss (ssget "_X" '((0 . "3DSOLID"))) i 0 n 0)
+  (if ss (while (< i (sslength ss)) (setq e (ssname ss i)) (if (wcmatch (cdr (assoc 8 (entget e))) (strcat pre "*")) (setq n (1+ n))) (setq i (1+ i))))
+  n)
+
 (defun s16-copy (e / last) (setq last (entlast)) (command "_.COPY" e "" '(0 0 0) '(0 0 0)) (entlast))
 
 (defun s16-safe (s / r i c)
@@ -235,6 +246,19 @@ LSP_HEAD = r''';;; S16 R15 médiafal – 3D szerkezeti modell (generálva: {datu
 '''
 
 
+def lstr(text):
+    """AutoLISP-string: az AcCoreConsole a szkriptet Latin-1-ként olvassa → minden nem ASCII karakter \\U+XXXX."""
+    out = []
+    for ch in text:
+        if ch in '"\\':
+            out.append("\\" + ch)
+        elif ord(ch) < 128:
+            out.append(ch)
+        else:
+            out.append("\\U+%04X" % ord(ch))
+    return '"' + "".join(out) + '"'
+
+
 def lsp_pts(pts):
     return "(list " + " ".join(f"(list {a:.4f} {b:.4f} {c:.9f})" for a, b, c in pts) + ")"
 
@@ -262,12 +286,12 @@ def write_lsp(plan, path, rev):
     for it in plan:
         L.append(f"  ;; {it['id']}")
         for t in it["tech"]:
-            L.append(f"  (s16-layer \"{t['reteg']}\" 1)")
+            L.append(f"  (s16-layer {lstr(t['reteg'])} 1)")
             L.append("  " + lsp_shape(t, "b"))
-        L.append(f"  (s16-layer \"{it['reteg']}\" {it['szin']})")
+        L.append(f"  (s16-layer {lstr(it['reteg'])} {it['szin']})")
         L.append("  " + lsp_shape(it["test"], "a"))
         for k in it["kivonas"]:
-            L.append(f"  (s16-layer \"{it['reteg']}\" {it['szin']})")
+            L.append(f"  (s16-layer {lstr(it['reteg'])} {it['szin']})")
             L.append("  " + lsp_shape(k, "b"))
             L.append("  (s16-sub a b)")
     L += ["  (command \"_.ZOOM\" \"_E\")", f"  (princ \"\\nS16 R15: {len(plan)} alkatrész felépítve.\")", "  (princ))",
@@ -361,15 +385,136 @@ PRESENTATION = [
 ]
 
 
-def write_scr(lsp_path, calls, scr_path, dwg_path, presentation=True):
+def write_scr(lsp_path, calls, scr_path, dwg_path, presentation=None):
     forms = lisp_forms(lsp_path.read_text(encoding="utf-8"))
     forms = [f for f in forms if not f.startswith("(princ") and not f.startswith("(defun s16-build")]
     if presentation:
-        calls = calls + PRESENTATION
+        calls = calls + presentation
     lines = ['(setvar "FILEDIA" 0)', '(setvar "CMDECHO" 0)'] + forms + calls + [
         f'(command "_.SAVEAS" "2018" "{dwg_path}")', '(princ "S16_SAVE_DONE")', "_.QUIT", "_Y"]
     scr_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return len(forms)
+
+
+# ------------------------------------------------------------------ F2b: furatok (TECH_*) és vasalat ($ITEM_REF_*)
+
+def _p(v):
+    """helyi → CAD (Y tükrözés)"""
+    return f"{v[0]:.3f} {-v[1]:.3f} {v[2]:.3f}"
+
+
+def hardware_lines(vas, plan):
+    cim = {it["id"]: it for it in plan}
+    L = []
+    cur = None
+
+    def lay(name, col):
+        nonlocal cur
+        if name != cur:
+            L.append(f"(s16-layer {lstr(name)} {col})")
+            cur = name
+
+    import numpy as np
+    for h in vas["furatok"]:
+        st, d = np.array(h["start"]), np.array(h["irany"])
+        en = st + d * h["melyseg"]
+        tag = h["alkatresz"]
+        lay(f"TECH_{h['funkcio']}_S16_{tag}", 1)
+        L.append(f"(s16-cyl {_p(st)} {h['d'] / 2} {_p(en)})")
+    for w in vas["vasalat"]:
+        if w["tipus"] == "TIPLI_D8x35":
+            st, d = np.array(w["pozicio"]), np.array(w["irany"])
+            lay("$ITEM_REF_TIPLI_D8_L35_BORDAS", 30)
+            L.append(f"(s16-cyl {_p(st - d * 24)} 4.0 {_p(st + d * 11)})")
+    # polctartó-csapok: a POLCTARTO furatokból 6 mm kiállással
+    for h in vas["furatok"]:
+        if h["funkcio"] == "POLCTARTO":
+            st, d = np.array(h["start"]), np.array(h["irany"])
+            lay("$ITEM_REF_POLCTARTO_D5", 30)
+            L.append(f"(s16-cyl {_p(st + d * 8)} 2.5 {_p(st - d * 6)})")
+    # pánt: kehelytest + talplemez (sematikus burkoló, nem gyári geometria)
+    for w in vas["vasalat"]:
+        if w["tipus"] != "PANT_CLIPTOP_110":
+            continue
+        cup = np.array(w["pozicio"])
+        lay("$ITEM_REF_BLUM_CLIPTOP_110_SEMATIKUS", 5)
+        L.append(f"(s16-cyl {_p(cup)} 17.4 {_p(cup + np.array([0, 12.0, 0]))})")
+        talp = [h for h in vas["furatok"] if h["funkcio"] == "PANTTALP" and h["kapcsolat"] == w["kapcsolat"]]
+        if len(talp) == 2:
+            c = (np.array(talp[0]["start"]) + np.array(talp[1]["start"])) / 2
+            d = np.array(talp[0]["irany"])          # a korpuszlapba mutat
+            lo = c - d * 10                          # a lemez a rekesz felé áll ki
+            xs = sorted([c[0], lo[0]])
+            box = [xs[0], c[1] - 22.5, c[2] - 25, xs[1] - xs[0], 45.0, 50.0]
+            L.append(f"(s16-box {box[0]:.3f} {-(box[1] + box[4]):.3f} {box[2]:.3f} {box[3]:.3f} {box[4]:.3f} {box[5]:.3f})")
+    return L
+
+
+# ------------------------------------------------------------------ rajzlapok pecséttel (A4 fekvő, mint az etalon)
+
+SHEETS = [
+    ("S16_L01_ATTEKINTES", "Áttekintés – teljes médiafal", None, ("_FRONT", "_TOP", "_SWISO")),
+    ("S16_L02_TORONY", "Bal torony – ajtók, polcok, ívek", ("TORONY", "TORONY_KERET"), ("_FRONT", "_LEFT", "_SWISO")),
+    ("S16_L03_ALSO_SOR", "Alsó fiókos sor D1–D6", ("D1", "D2", "D3", "D4", "D5", "D6", "ALSO_KERET"), ("_FRONT", "_TOP", "_SWISO")),
+    ("S16_L04_HATTER_TV", "Háttérpanelek, falsínek, TV-mező", ("HATTER", "TV"), ("_FRONT", "_LEFT", "_SWISO")),
+]
+VP_RECTS = [((-13, 33), (168, 198)), ((171, 100), (270, 198)), ((171, 33), (270, 97))]
+VIEW_NAME = {"_FRONT": "ELÖLNÉZET (szobából)", "_LEFT": "OLDALNÉZET (balról)", "_TOP": "FELÜLNÉZET", "_SWISO": "AXONOMETRIA"}
+
+
+def _ptxt(lay, x, y, h, txt):
+    return (f"(entmake (list (cons 0 \"TEXT\") (cons 67 1) (cons 410 {lstr(lay)}) (cons 8 \"S16_PECSET\") "
+            f"(cons 10 (list {x} {y} 0.0)) (cons 40 {h}) (cons 1 {lstr(txt)})))")
+
+
+def _pline(lay, pts, closed=True):
+    v = " ".join(f"(cons 10 (list {x} {y}))" for x, y in pts)
+    return (f"(entmake (list (cons 0 \"LWPOLYLINE\") (cons 100 \"AcDbEntity\") (cons 67 1) (cons 410 {lstr(lay)}) (cons 8 \"S16_PECSET\") "
+            f"(cons 100 \"AcDbPolyline\") (cons 90 {len(pts)}) (cons 70 {1 if closed else 0}) {v}))")
+
+
+def sheet_lines(doc, open_items):
+    import numpy as np
+    parts = doc["alkatreszek"]
+    L = ['(command "_.-VIEW" "_SWISO")', '(command "_.VSCURRENT" "_R")', '(command "_.ZOOM" "_E")',
+         '(command "_.-LAYER" "_M" "S16_PECSET" "_C" "7" "" "")']
+    for no, (lay, title, mods, views) in enumerate(SHEETS, 1):
+        sel = [r for r in parts if mods is None or r["modul"] in mods]
+        lo = np.min([r["befoglalo_globalis"][:3] for r in sel], axis=0)
+        hi = np.max([np.add(r["befoglalo_globalis"][:3], r["befoglalo_globalis"][3:]) for r in sel], axis=0)
+        m = 0.06 * (hi - lo).max()
+        x0, x1, z0, z1 = lo[0] - m, hi[0] + m, lo[2] - m, hi[2] + m
+        y0, y1 = -(hi[1] + m), -(lo[1] - m)               # CAD-ban tükrözve
+        L += [f'(command "_.-LAYOUT" "_N" {lstr(lay)})', f'(setvar "CTAB" {lstr(lay)})',
+              f'(command "_.ERASE" (ssget "_X" (list (cons 0 "VIEWPORT") (cons 410 {lstr(lay)}))) "")', '(command "_.PSPACE")']
+        for (a, b), view in zip(VP_RECTS, views):
+            L.append(f'(command "_.MVIEW" (list {a[0]} {a[1]}) (list {b[0]} {b[1]})) (setq s16vp (cdr (assoc 69 (entget (entlast)))))')
+            if view == "_FRONT":
+                zw = f"(list {x0:.1f} 0 {z0:.1f}) (list {x1:.1f} 0 {z1:.1f})"
+            elif view == "_LEFT":
+                zw = f"(list 0 {y0:.1f} {z0:.1f}) (list 0 {y1:.1f} {z1:.1f})"
+            elif view == "_TOP":
+                zw = f"(list {x0:.1f} {y0:.1f} 0) (list {x1:.1f} {y1:.1f} 0)"
+            else:
+                zw = None
+            vs = "_R" if view == "_SWISO" else "_H"
+            zoom = f'(command "_.ZOOM" "_W" {zw})' if zw else '(command "_.ZOOM" "_E")'
+            L.append(f'(command "_.MSPACE") (setvar "CVPORT" s16vp) (command "_.-VIEW" "{view}") (command "_.VSCURRENT" "{vs}") {zoom} (command "_.PSPACE")')
+            L.append(_ptxt(lay, a[0] + 1.5, a[1] + 1.5, 2.2, VIEW_NAME[view]))
+        # keret + pecsét (az etalon SH_STAMP blokkjának megfelelő adattartalom)
+        L.append(_pline(lay, [(-15, -5), (272, -5), (272, 200), (-15, 200)]))
+        L.append(_pline(lay, [(147, -5), (272, -5), (272, 30), (147, 30)]))
+        for yy in (21.5, 13, 4.5):
+            L.append(_pline(lay, [(147, yy), (272, yy)], closed=False))
+        L += [_ptxt(lay, 149, 24, 3.5, "WSG A-902 · S16 médiafal (Kyoto Ink)"),
+              _ptxt(lay, 149, 15.5, 2.5, f"Lap {no}/{len(SHEETS)}: {title}"),
+              _ptxt(lay, 149, 7, 2.2, f"Rev: {doc['modell_revizio']} · Dátum: {date.today().isoformat()} · mm · nézetek méretarány nélkül"),
+              _ptxt(lay, 149, -2.5, 2.2, "TERVI – NEM GYÁRTÁSI KIADÁS · Készítette: Claude (AI) / Kapusi Péter")]
+        notes = [t for (sheet, t) in open_items if sheet in (lay, "*")]
+        for k, t in enumerate(notes[:3]):
+            L.append(_ptxt(lay, -12, 25 - 5 * k, 2.2, "NYITOTT: " + t))
+    L.append(f'(setvar "CTAB" {lstr(SHEETS[0][0])})')
+    return L
 
 
 # ------------------------------------------------------------------ main
@@ -387,9 +532,20 @@ def main():
     body = write_lsp(plan, HERE / "S16_R15_szerkezet.lsp", doc["modell_revizio"])
     mac = rules.get("cad", {}).get("mac_mappa", "/Users/peterkapusi/CAD/S16_R15")
     write_scr(HERE / "S16_R15_szerkezet.lsp", ['(s16-smoketest)', f'(s16-readback "{mac}/readback_smoke")'],
-              HERE / "S16_R15_smoke.scr", f"{mac}/S16_R15_smoke.dwg", presentation=False)
-    write_scr(HERE / "S16_R15_szerkezet.lsp", body + [f'(s16-readback "{mac}/readback")'],
-              HERE / "S16_R15_build.scr", f"{mac}/S16_R15_szerkezet_v2.dwg")
+              HERE / "S16_R15_smoke.scr", f"{mac}/S16_R15_smoke.dwg")
+    vas_path = HERE.parent / "30_F2b_vasalat" / "vasalat_terv.json"
+    hw = []
+    open_items = []
+    if vas_path.exists():
+        vas = load_json(vas_path)
+        hw = hardware_lines(vas, plan)
+        if any(p["alkatresz"] == "T-DOOR-L" and p["sulyossag"] == "BLOKKOLO" for p in vas["problemak"]):
+            open_items.append(("S16_L02_TORONY", "bal ajtó pántja – a betét körüli keret 31 mm, Ø35 kehely nem fér (vasalat_jelentes.md)"))
+        open_items.append(("*", "vasalat sematikus, cikkszám/variáns és pántoldal műhelyi megerősítésre"))
+    counts = ['(princ (list "S16_DARAB" "PART" (s16-count "$PART_") "TECH" (s16-count "TECH_") "ITEM" (s16-count "$ITEM_REF")))']
+    write_scr(HERE / "S16_R15_szerkezet.lsp", body + hw + [f'(s16-readback "{mac}/readback4")'] + counts,
+              HERE / "S16_R15_build.scr", f"{mac}/S16_R15_szerkezet_v3.dwg", presentation=sheet_lines(doc, open_items))
+    print("vasalat-sorok:", len(hw))
 
     srcp = {p["id"]: p for p in src_parts}
     rows, meshes, worst = [], {}, 0.0

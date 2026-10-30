@@ -10,6 +10,7 @@ A `../10_F1_adatmodell/parts_v1.json` (R15, QA: 0 blokkoló / 0 hiba) 129 alkatr
 |---|---|---|
 | `S16_R15_szerkezet.dwg` | **natív AutoCAD-modell** (AutoCAD 2018 formátum): 129 tömör test, mindegyik saját `$PART_` rétegen + `TECH_*` megmunkálás-testek | AutoCAD 2027-ben felépítve, **129/129 visszaolvasva** (`mac_futtatas/README_readback.md`) |
 | `S16_R15_szerkezet_v2.dwg` | ugyanaz, **délnyugati axonometria + realisztikus nézet** és `S16_ATTEKINTES` rajzlap 4 nézettel (elöl/bal/felül/axo) – így nyílik meg | 2026-10-30 15:04, AcCoreConsole, 129 test |
+| **`S16_R15_szerkezet_v3.dwg`** | **etalon-szintű változat:** rétegnév `$PART_<ID>˙0˙0¨<élkód>˙0¨#0¨<szám>` (mint a km.dwg), 299 `TECH_*` furattest, 205 `$ITEM_REF_*` vasalat (75 tipli, 120 polctartó, 5 pánt + talp), 4 pecsétes A4 rajzlap (áttekintés, torony, alsó sor, háttér/TV), 3 nézet laponként | AcCoreConsole 2026-10-30 15:33, **129/129 visszaolvasva** |
 | `S16_R15_szerkezet.lsp` | AutoLISP (ActiveX nélkül) – interaktív AutoCAD-hez | generálva |
 | `S16_R15_build.scr`, `S16_R15_smoke.scr` | ugyanaz AcCoreConsole-szkriptként (háttérben, képernyő nélkül fut) | ez futott |
 | `S16_R15_elonezet.dxf` | ugyanaz MESH-ként, bárhol megnyitható előnézet | kész – nem gyártási modell (háló, nem tömör test) |

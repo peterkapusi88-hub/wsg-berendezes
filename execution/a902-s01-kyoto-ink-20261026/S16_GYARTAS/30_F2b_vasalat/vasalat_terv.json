@@ -1,0 +1,8708 @@
+{
+ "modell_revizio": "S16-R15-GY-v1",
+ "datum": "2026-10-30",
+ "generator": "f2b_vasalat.py",
+ "parameterek": {
+  "tipli": {
+   "d": 8.0,
+   "el_melyseg": 25.0,
+   "lap_melyseg": 12.0,
+   "hossz": 35,
+   "veg_tav": 32.0,
+   "max_koz": 192.0,
+   "min_el": 60.0,
+   "forras": "etalon (km/coo1): Ø8×25/35 bordás tipli; 32-es rendszer"
+  },
+  "polc": {
+   "d": 5.0,
+   "melyseg": 10.0,
+   "elol": 37.0,
+   "hatul": 37.0,
+   "z_eltolas": -6.0,
+   "lepes": [
+    -32,
+    0,
+    32
+   ],
+   "forras": "becslés – a polctartó (etalon: de_11090) típusától függ"
+  },
+  "pant": {
+   "kehely_d": 35.0,
+   "kehely_melyseg": 13.0,
+   "B": 4.0,
+   "csavar_d": 8.0,
+   "csavar_melyseg": 11.5,
+   "csavar_koz": 45.0,
+   "csavar_eltolas": 9.5,
+   "talp_elol": 37.0,
+   "talp_koz": 32.0,
+   "talp_d": 5.0,
+   "talp_melyseg": 12.0,
+   "veg_tav": 100.0,
+   "talp_magassag": 50.0,
+   "talp_kiallas": 12.0,
+   "forras": "Blum CLIP top: Ø35, B 3–6 mm, Ø8 45/9,5 (richelieu.com Blum adatlap); 13 mm mélység, 37/32 rendszer"
+  },
+  "min_maradek": 5.0
+ },
+ "pantoldal_javaslat": {
+  "T-DOOR-L": {
+   "oldal": "-X",
+   "korpusz": "T-L",
+   "db": 6
+  },
+  "T-DOOR-R": {
+   "oldal": "+X",
+   "korpusz": "T-R",
+   "db": 5
+  }
+ },
+ "furatok": [
+  {
+   "alkatresz": "D1-L",
+   "cel": "él E3",
+   "start": [
+    444.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-L:E3:T-B:0",
+   "helyi": [
+    32.0,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    444.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-L:E3:T-B:0",
+   "helyi": [
+    426.0,
+    305.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-L",
+   "cel": "él E3",
+   "start": [
+    444.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-L:E3:T-B:1",
+   "helyi": [
+    168.5,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    444.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-L:E3:T-B:1",
+   "helyi": [
+    426.0,
+    168.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-L",
+   "cel": "él E3",
+   "start": [
+    444.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-L:E3:T-B:2",
+   "helyi": [
+    305.0,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    444.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-L:E3:T-B:2",
+   "helyi": [
+    426.0,
+    32.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E2:D1-R:0",
+   "helyi": [
+    399.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E2:D1-R:0",
+   "helyi": [
+    305.0,
+    393.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E2:D1-R:1",
+   "helyi": [
+    399.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E2:D1-R:1",
+   "helyi": [
+    168.5,
+    393.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E2:D1-R:2",
+   "helyi": [
+    399.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E2:D1-R:2",
+   "helyi": [
+    32.0,
+    393.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E4",
+   "start": [
+    453.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E4:D1-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-L",
+   "cel": "lap",
+   "start": [
+    453.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E4:D1-L:0",
+   "helyi": [
+    305.0,
+    393.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E4",
+   "start": [
+    453.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E4:D1-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-L",
+   "cel": "lap",
+   "start": [
+    453.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E4:D1-L:1",
+   "helyi": [
+    168.5,
+    393.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-T",
+   "cel": "él E4",
+   "start": [
+    453.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D1-T:E4:D1-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D1-L",
+   "cel": "lap",
+   "start": [
+    453.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D1-T:E4:D1-L:2",
+   "helyi": [
+    32.0,
+    393.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E2:D2-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E2:D2-R:0",
+   "helyi": [
+    305.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E2:D2-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E2:D2-R:1",
+   "helyi": [
+    168.5,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E2:D2-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E2:D2-R:2",
+   "helyi": [
+    32.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E4:D2-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E4:D2-L:0",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E4:D2-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E4:D2-L:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-B",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-B:E4:D2-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-B:E4:D2-L:2",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E2:D2-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E2:D2-R:0",
+   "helyi": [
+    305.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E2:D2-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E2:D2-R:1",
+   "helyi": [
+    168.5,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E2",
+   "start": [
+    1277.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E2:D2-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-R",
+   "cel": "lap",
+   "start": [
+    1277.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E2:D2-R:2",
+   "helyi": [
+    32.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E4:D2-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E4:D2-L:0",
+   "helyi": [
+    305.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E4:D2-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E4:D2-L:1",
+   "helyi": [
+    168.5,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-T",
+   "cel": "él E4",
+   "start": [
+    888.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D2-T:E4:D2-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D2-L",
+   "cel": "lap",
+   "start": [
+    888.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D2-T:E4:D2-L:2",
+   "helyi": [
+    32.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E2:D3-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E2:D3-R:0",
+   "helyi": [
+    305.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E2:D3-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E2:D3-R:1",
+   "helyi": [
+    168.5,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E2:D3-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E2:D3-R:2",
+   "helyi": [
+    32.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E4:D3-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E4:D3-L:0",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E4:D3-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E4:D3-L:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-B",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-B:E4:D3-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-B:E4:D3-L:2",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E2:D3-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E2:D3-R:0",
+   "helyi": [
+    305.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E2:D3-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E2:D3-R:1",
+   "helyi": [
+    168.5,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E2",
+   "start": [
+    1702.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E2:D3-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-R",
+   "cel": "lap",
+   "start": [
+    1702.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E2:D3-R:2",
+   "helyi": [
+    32.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E4:D3-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E4:D3-L:0",
+   "helyi": [
+    305.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E4:D3-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E4:D3-L:1",
+   "helyi": [
+    168.5,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-T",
+   "cel": "él E4",
+   "start": [
+    1313.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D3-T:E4:D3-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D3-L",
+   "cel": "lap",
+   "start": [
+    1313.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D3-T:E4:D3-L:2",
+   "helyi": [
+    32.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E2:D4-R:0",
+   "helyi": [
+    994.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E2:D4-R:0",
+   "helyi": [
+    305.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E2:D4-R:1",
+   "helyi": [
+    994.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E2:D4-R:1",
+   "helyi": [
+    168.5,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E2:D4-R:2",
+   "helyi": [
+    994.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E2:D4-R:2",
+   "helyi": [
+    32.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E4:D4-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E4:D4-L:0",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E4:D4-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E4:D4-L:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-B",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-B:E4:D4-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-B:E4:D4-L:2",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E2:D4-R:0",
+   "helyi": [
+    994.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E2:D4-R:0",
+   "helyi": [
+    305.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E2:D4-R:1",
+   "helyi": [
+    994.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E2:D4-R:1",
+   "helyi": [
+    168.5,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E2",
+   "start": [
+    2732.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E2:D4-R:2",
+   "helyi": [
+    994.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-R",
+   "cel": "lap",
+   "start": [
+    2732.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E2:D4-R:2",
+   "helyi": [
+    32.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E4:D4-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E4:D4-L:0",
+   "helyi": [
+    305.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E4:D4-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E4:D4-L:1",
+   "helyi": [
+    168.5,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-T",
+   "cel": "él E4",
+   "start": [
+    1738.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D4-T:E4:D4-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D4-L",
+   "cel": "lap",
+   "start": [
+    1738.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D4-T:E4:D4-L:2",
+   "helyi": [
+    32.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E2:D5-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E2:D5-R:0",
+   "helyi": [
+    305.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E2:D5-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E2:D5-R:1",
+   "helyi": [
+    168.5,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E2:D5-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E2:D5-R:2",
+   "helyi": [
+    32.0,
+    9.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E4:D5-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E4:D5-L:0",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E4:D5-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E4:D5-L:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-B",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-B:E4:D5-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-B:E4:D5-L:2",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E2:D5-R:0",
+   "helyi": [
+    389.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E2:D5-R:0",
+   "helyi": [
+    305.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E2:D5-R:1",
+   "helyi": [
+    389.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E2:D5-R:1",
+   "helyi": [
+    168.5,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E2",
+   "start": [
+    3157.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E2:D5-R:2",
+   "helyi": [
+    389.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-R",
+   "cel": "lap",
+   "start": [
+    3157.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E2:D5-R:2",
+   "helyi": [
+    32.0,
+    411.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E4:D5-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E4:D5-L:0",
+   "helyi": [
+    305.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E4:D5-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E4:D5-L:1",
+   "helyi": [
+    168.5,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-T",
+   "cel": "él E4",
+   "start": [
+    2768.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D5-T:E4:D5-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D5-L",
+   "cel": "lap",
+   "start": [
+    2768.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D5-T:E4:D5-L:2",
+   "helyi": [
+    32.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-B",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-B:E4:D6-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-B:E4:D6-L:0",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-B",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-B:E4:D6-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-B:E4:D6-L:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-B",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-B:E4:D6-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-B:E4:D6-L:2",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-T",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-T:E4:D6-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-T:E4:D6-L:0",
+   "helyi": [
+    305.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-T",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-T:E4:D6-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-T:E4:D6-L:1",
+   "helyi": [
+    168.5,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-T",
+   "cel": "él E4",
+   "start": [
+    3193.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "D6-T:E4:D6-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "D6-L",
+   "cel": "lap",
+   "start": [
+    3193.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "D6-T:E4:D6-L:2",
+   "helyi": [
+    32.0,
+    411.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E2:T-R:0",
+   "helyi": [
+    834.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E2:T-R:0",
+   "helyi": [
+    32.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E2:T-R:1",
+   "helyi": [
+    834.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E2:T-R:1",
+   "helyi": [
+    168.5,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E2",
+   "start": [
+    852.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E2:T-R:2",
+   "helyi": [
+    834.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E2:T-R:2",
+   "helyi": [
+    305.0,
+    9.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E4",
+   "start": [
+    18.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E4:T-L:0",
+   "helyi": [
+    0.0,
+    32.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E4:T-L:0",
+   "helyi": [
+    305.0,
+    329.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E4",
+   "start": [
+    18.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E4:T-L:1",
+   "helyi": [
+    0.0,
+    168.5,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E4:T-L:1",
+   "helyi": [
+    168.5,
+    329.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "él E4",
+   "start": [
+    18.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-B:E4:T-L:2",
+   "helyi": [
+    0.0,
+    305.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-B:E4:T-L:2",
+   "helyi": [
+    32.0,
+    329.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "él E1",
+   "start": [
+    435.0,
+    72.0,
+    588.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-C:E1:T-B:0",
+   "helyi": [
+    32.0,
+    0.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    435.0,
+    72.0,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-C:E1:T-B:0",
+   "helyi": [
+    417.0,
+    305.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "él E1",
+   "start": [
+    435.0,
+    208.5,
+    588.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-C:E1:T-B:1",
+   "helyi": [
+    168.5,
+    0.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    435.0,
+    208.5,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-C:E1:T-B:1",
+   "helyi": [
+    417.0,
+    168.5,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "él E1",
+   "start": [
+    435.0,
+    345.0,
+    588.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-C:E1:T-B:2",
+   "helyi": [
+    305.0,
+    0.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    435.0,
+    345.0,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-C:E1:T-B:2",
+   "helyi": [
+    417.0,
+    32.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-LOW-DIV",
+   "cel": "él E3",
+   "start": [
+    426.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:0",
+   "helyi": [
+    32.0,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    426.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:0",
+   "helyi": [
+    408.0,
+    305.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-LOW-DIV",
+   "cel": "él E3",
+   "start": [
+    426.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:1",
+   "helyi": [
+    168.5,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    426.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:1",
+   "helyi": [
+    408.0,
+    168.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-LOW-DIV",
+   "cel": "él E3",
+   "start": [
+    426.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "d": 8.0,
+   "melyseg": 25.0,
+   "funkcio": "TIPLI_EL",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:2",
+   "helyi": [
+    305.0,
+    402.0,
+    9.0
+   ]
+  },
+  {
+   "alkatresz": "T-B",
+   "cel": "lap",
+   "start": [
+    426.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "d": 8.0,
+   "melyseg": 12.0,
+   "funkcio": "TIPLI_LAP",
+   "kapcsolat": "T-LOW-DIV:E3:T-B:2",
+   "helyi": [
+    408.0,
+    32.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    897.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    647.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    929.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    679.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    961.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    711.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    897.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    647.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    929.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    679.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    961.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    711.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    897.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    309.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    929.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    341.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    961.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    263.0,
+    373.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    897.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    309.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    929.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    341.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    961.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S1",
+   "helyi": [
+    47.0,
+    373.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1282.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    1032.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1314.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    1064.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1346.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    1096.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1282.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    1032.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1314.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    1064.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1346.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    1096.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1282.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    694.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1314.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    726.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1346.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    263.0,
+    758.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1282.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    694.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1314.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    726.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1346.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S2",
+   "helyi": [
+    47.0,
+    758.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1667.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1417.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1699.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1449.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    1731.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1481.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1667.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1417.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1699.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1449.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    1731.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1481.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1667.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1079.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1699.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1111.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    1731.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    263.0,
+    1143.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1667.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1079.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1699.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1111.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    1731.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S3",
+   "helyi": [
+    47.0,
+    1143.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2052.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1802.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2084.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1834.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2116.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1866.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2052.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1802.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2084.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1834.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2116.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1866.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2052.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1464.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2084.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1496.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2116.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    263.0,
+    1528.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2052.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1464.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2084.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1496.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2116.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S4",
+   "helyi": [
+    47.0,
+    1528.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2437.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    2187.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2469.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    2219.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    303.0,
+    2501.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    2251.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2437.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    2187.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2469.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    2219.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-L",
+   "cel": "lap",
+   "start": [
+    18.0,
+    87.0,
+    2501.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    2251.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2437.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    1849.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2469.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    1881.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    303.0,
+    2501.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    263.0,
+    1913.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2437.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    1849.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2469.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    1881.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    426.0,
+    87.0,
+    2501.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-L-S5",
+   "helyi": [
+    47.0,
+    1913.0,
+    18.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    897.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    263.0,
+    309.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    929.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    263.0,
+    341.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    961.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    263.0,
+    373.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    897.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    47.0,
+    309.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    929.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    47.0,
+    341.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    961.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    47.0,
+    373.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    897.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    74.0,
+    327.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    929.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    74.0,
+    359.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    961.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    74.0,
+    391.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    897.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    290.0,
+    327.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    929.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    290.0,
+    359.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    961.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S1",
+   "helyi": [
+    290.0,
+    391.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1282.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    263.0,
+    694.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1314.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    263.0,
+    726.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1346.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    263.0,
+    758.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1282.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    47.0,
+    694.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1314.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    47.0,
+    726.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1346.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    47.0,
+    758.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1282.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    74.0,
+    712.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1314.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    74.0,
+    744.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1346.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    74.0,
+    776.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1282.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    290.0,
+    712.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1314.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    290.0,
+    744.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1346.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S2",
+   "helyi": [
+    290.0,
+    776.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1667.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    263.0,
+    1079.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1699.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    263.0,
+    1111.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    1731.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    263.0,
+    1143.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1667.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    47.0,
+    1079.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1699.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    47.0,
+    1111.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    1731.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    47.0,
+    1143.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1667.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    74.0,
+    1097.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1699.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    74.0,
+    1129.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    1731.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    74.0,
+    1161.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1667.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    290.0,
+    1097.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1699.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    290.0,
+    1129.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    1731.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S3",
+   "helyi": [
+    290.0,
+    1161.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2052.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    263.0,
+    1464.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2084.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    263.0,
+    1496.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2116.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    263.0,
+    1528.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2052.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    47.0,
+    1464.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2084.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    47.0,
+    1496.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2116.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    47.0,
+    1528.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2052.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    74.0,
+    1482.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2084.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    74.0,
+    1514.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2116.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    74.0,
+    1546.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2052.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    290.0,
+    1482.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2084.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    290.0,
+    1514.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2116.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S4",
+   "helyi": [
+    290.0,
+    1546.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2437.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    263.0,
+    1849.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2469.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    263.0,
+    1881.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    303.0,
+    2501.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    263.0,
+    1913.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2437.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    47.0,
+    1849.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2469.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    47.0,
+    1881.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-C",
+   "cel": "lap",
+   "start": [
+    444.0,
+    87.0,
+    2501.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    47.0,
+    1913.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2437.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    74.0,
+    1867.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2469.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    74.0,
+    1899.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    303.0,
+    2501.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    74.0,
+    1931.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2437.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    290.0,
+    1867.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2469.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    290.0,
+    1899.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    87.0,
+    2501.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 5.0,
+   "melyseg": 10.0,
+   "funkcio": "POLCTARTO",
+   "kapcsolat": "T-R-S5",
+   "helyi": [
+    290.0,
+    1931.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    827.5,
+    382.0,
+    673.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-R:PANT:0",
+   "helyi": [
+    391.0,
+    100.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    650.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:0",
+   "helyi": [
+    381.5,
+    77.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    695.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:0",
+   "helyi": [
+    381.5,
+    122.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    657.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:0",
+   "helyi": [
+    37.0,
+    87.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    689.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:0",
+   "helyi": [
+    37.0,
+    119.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    827.5,
+    382.0,
+    1193.25
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-R:PANT:1",
+   "helyi": [
+    391.0,
+    620.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    1170.75
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:1",
+   "helyi": [
+    381.5,
+    597.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    1215.75
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:1",
+   "helyi": [
+    381.5,
+    642.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    1177.25
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:1",
+   "helyi": [
+    37.0,
+    607.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    1209.25
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:1",
+   "helyi": [
+    37.0,
+    639.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    827.5,
+    382.0,
+    1809.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-R:PANT:2",
+   "helyi": [
+    391.0,
+    1236.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    1787.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:2",
+   "helyi": [
+    381.5,
+    1214.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    1832.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:2",
+   "helyi": [
+    381.5,
+    1259.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    1793.5
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:2",
+   "helyi": [
+    37.0,
+    1223.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    1825.5
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:2",
+   "helyi": [
+    37.0,
+    1255.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    827.5,
+    382.0,
+    2233.75
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-R:PANT:3",
+   "helyi": [
+    391.0,
+    1660.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    2211.25
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:3",
+   "helyi": [
+    381.5,
+    1638.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    2256.25
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:3",
+   "helyi": [
+    381.5,
+    1683.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    2217.75
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:3",
+   "helyi": [
+    37.0,
+    1647.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    2249.75
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:3",
+   "helyi": [
+    37.0,
+    1679.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    827.5,
+    382.0,
+    2754.0
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 35.0,
+   "melyseg": 13.0,
+   "funkcio": "PANTKEHELY",
+   "kapcsolat": "T-DOOR-R:PANT:4",
+   "helyi": [
+    391.0,
+    2181.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    2731.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:4",
+   "helyi": [
+    381.5,
+    2158.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-DOOR-R",
+   "cel": "B oldal",
+   "start": [
+    818.0,
+    382.0,
+    2776.5
+   ],
+   "irany": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "d": 8.0,
+   "melyseg": 11.5,
+   "funkcio": "PANT_DUBEL",
+   "kapcsolat": "T-DOOR-R:PANT:4",
+   "helyi": [
+    381.5,
+    2203.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    2738.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:4",
+   "helyi": [
+    37.0,
+    2168.0,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "T-R",
+   "cel": "lap",
+   "start": [
+    852.0,
+    340.0,
+    2770.0
+   ],
+   "irany": [
+    1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 5.0,
+   "melyseg": 12.0,
+   "funkcio": "PANTTALP",
+   "kapcsolat": "T-DOOR-R:PANT:4",
+   "helyi": [
+    37.0,
+    2200.0,
+    0.0
+   ]
+  }
+ ],
+ "vasalat": [
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    444.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "D1-L:E3:T-B:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    444.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "D1-L:E3:T-B:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    444.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "D1-L:E3:T-B:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E2:D1-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E2:D1-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E2:D1-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    453.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E4:D1-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    453.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E4:D1-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    453.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D1-T:E4:D1-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E2:D2-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E2:D2-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E2:D2-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E4:D2-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E4:D2-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-B:E4:D2-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E2:D2-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E2:D2-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1277.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E2:D2-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E4:D2-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E4:D2-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    888.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D2-T:E4:D2-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E2:D3-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E2:D3-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E2:D3-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E4:D3-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E4:D3-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-B:E4:D3-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E2:D3-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E2:D3-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1702.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E2:D3-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E4:D3-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E4:D3-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1313.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D3-T:E4:D3-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E2:D4-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E2:D4-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E2:D4-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E4:D4-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E4:D4-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-B:E4:D4-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E2:D4-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E2:D4-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2732.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E2:D4-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E4:D4-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E4:D4-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    1738.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D4-T:E4:D4-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E2:D5-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E2:D5-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E2:D5-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E4:D5-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E4:D5-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-B:E4:D5-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E2:D5-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E2:D5-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3157.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E2:D5-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E4:D5-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E4:D5-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    2768.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D5-T:E4:D5-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    345.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-B:E4:D6-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    208.5,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-B:E4:D6-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    72.0,
+    159.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-B:E4:D6-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    345.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-T:E4:D6-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    208.5,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-T:E4:D6-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    3193.0,
+    72.0,
+    561.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "D6-T:E4:D6-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E2:T-R:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E2:T-R:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    852.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E2:T-R:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    18.0,
+    345.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E4:T-L:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    18.0,
+    208.5,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E4:T-L:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    18.0,
+    72.0,
+    579.0
+   ],
+   "irany": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "kapcsolat": "T-B:E4:T-L:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    435.0,
+    72.0,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "kapcsolat": "T-C:E1:T-B:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    435.0,
+    208.5,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "kapcsolat": "T-C:E1:T-B:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    435.0,
+    345.0,
+    588.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "kapcsolat": "T-C:E1:T-B:2"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    426.0,
+    72.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "T-LOW-DIV:E3:T-B:0"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    426.0,
+    208.5,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "T-LOW-DIV:E3:T-B:1"
+  },
+  {
+   "tipus": "TIPLI_D8x35",
+   "cikkszam": "Ø8×35 bordás tipli (etalon: TIPLI_D8_L25/35)",
+   "pozicio": [
+    426.0,
+    345.0,
+    570.0
+   ],
+   "irany": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "kapcsolat": "T-LOW-DIV:E3:T-B:2"
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    18,
+    195.0,
+    935
+   ],
+   "kapcsolat": "T-L-S1",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    426,
+    195.0,
+    935
+   ],
+   "kapcsolat": "T-L-S1",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    18,
+    195.0,
+    1320
+   ],
+   "kapcsolat": "T-L-S2",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    426,
+    195.0,
+    1320
+   ],
+   "kapcsolat": "T-L-S2",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    18,
+    195.0,
+    1705
+   ],
+   "kapcsolat": "T-L-S3",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    426,
+    195.0,
+    1705
+   ],
+   "kapcsolat": "T-L-S3",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    18,
+    195.0,
+    2090
+   ],
+   "kapcsolat": "T-L-S4",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    426,
+    195.0,
+    2090
+   ],
+   "kapcsolat": "T-L-S4",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    18,
+    195.0,
+    2475
+   ],
+   "kapcsolat": "T-L-S5",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    426,
+    195.0,
+    2475
+   ],
+   "kapcsolat": "T-L-S5",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    444,
+    195.0,
+    935
+   ],
+   "kapcsolat": "T-R-S1",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    852,
+    195.0,
+    935
+   ],
+   "kapcsolat": "T-R-S1",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    444,
+    195.0,
+    1320
+   ],
+   "kapcsolat": "T-R-S2",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    852,
+    195.0,
+    1320
+   ],
+   "kapcsolat": "T-R-S2",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    444,
+    195.0,
+    1705
+   ],
+   "kapcsolat": "T-R-S3",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    852,
+    195.0,
+    1705
+   ],
+   "kapcsolat": "T-R-S3",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    444,
+    195.0,
+    2090
+   ],
+   "kapcsolat": "T-R-S4",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    852,
+    195.0,
+    2090
+   ],
+   "kapcsolat": "T-R-S4",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    444,
+    195.0,
+    2475
+   ],
+   "kapcsolat": "T-R-S5",
+   "db": 2
+  },
+  {
+   "tipus": "POLCTARTO",
+   "cikkszam": "polctartó Ø5 (etalon: de_11090) – típus nyitott",
+   "pozicio": [
+    852,
+    195.0,
+    2475
+   ],
+   "kapcsolat": "T-R-S5",
+   "db": 2
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "pozicio": [
+    827.5,
+    382.0,
+    673.0
+   ],
+   "ajto": "T-DOOR-R",
+   "korpusz": "T-R",
+   "kapcsolat": "T-DOOR-R:PANT:0"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "pozicio": [
+    827.5,
+    382.0,
+    1193.25
+   ],
+   "ajto": "T-DOOR-R",
+   "korpusz": "T-R",
+   "kapcsolat": "T-DOOR-R:PANT:1"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "pozicio": [
+    827.5,
+    382.0,
+    1809.5
+   ],
+   "ajto": "T-DOOR-R",
+   "korpusz": "T-R",
+   "kapcsolat": "T-DOOR-R:PANT:2"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "pozicio": [
+    827.5,
+    382.0,
+    2233.75
+   ],
+   "ajto": "T-DOOR-R",
+   "korpusz": "T-R",
+   "kapcsolat": "T-DOOR-R:PANT:3"
+  },
+  {
+   "tipus": "PANT_CLIPTOP_110",
+   "cikkszam": "Blum CLIP top 110° (variáns/átfedés nyitott) + talplemez",
+   "pozicio": [
+    827.5,
+    382.0,
+    2754.0
+   ],
+   "ajto": "T-DOOR-R",
+   "korpusz": "T-R",
+   "kapcsolat": "T-DOOR-R:PANT:4"
+  }
+ ],
+ "kotesek": [
+  {
+   "A": "D1-L",
+   "el": "E1",
+   "B": "CURVE-T-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D1-L",
+   "el": "E3",
+   "B": "T-B",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D1-R",
+   "el": "E1",
+   "B": "CURVE-T-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D1-R",
+   "el": "E3",
+   "B": "T-R",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "D1-T",
+   "el": "E2",
+   "B": "D1-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D1-T",
+   "el": "E4",
+   "B": "D1-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D2-B",
+   "el": "E2",
+   "B": "D2-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D2-B",
+   "el": "E4",
+   "B": "D2-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D2-T",
+   "el": "E2",
+   "B": "D2-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D2-T",
+   "el": "E4",
+   "B": "D2-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D3-B",
+   "el": "E2",
+   "B": "D3-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D3-B",
+   "el": "E4",
+   "B": "D3-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D3-T",
+   "el": "E2",
+   "B": "D3-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D3-T",
+   "el": "E4",
+   "B": "D3-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D4-B",
+   "el": "E2",
+   "B": "D4-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D4-B",
+   "el": "E4",
+   "B": "D4-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D4-T",
+   "el": "E2",
+   "B": "D4-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D4-T",
+   "el": "E4",
+   "B": "D4-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D5-B",
+   "el": "E2",
+   "B": "D5-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D5-B",
+   "el": "E4",
+   "B": "D5-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D5-T",
+   "el": "E2",
+   "B": "D5-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D5-T",
+   "el": "E4",
+   "B": "D5-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D6-R",
+   "el": "E1",
+   "B": "CURVE-B-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D6-R",
+   "el": "E3",
+   "B": "CURVE-B-TOP",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D6-B",
+   "el": "E2",
+   "B": "CURVE-B-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D6-B",
+   "el": "E4",
+   "B": "D6-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "D6-T",
+   "el": "E2",
+   "B": "CURVE-B-TOP",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "D6-T",
+   "el": "E4",
+   "B": "D6-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "T-L",
+   "el": "E1",
+   "B": "CURVE-T-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "T-L",
+   "el": "E3",
+   "B": "CURVE-T-TOP",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "T-R",
+   "el": "E1",
+   "B": "D1-R",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "T-R",
+   "el": "E3",
+   "B": "CURVE-T-TOP",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "T-B",
+   "el": "E2",
+   "B": "T-R",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "T-B",
+   "el": "E4",
+   "B": "T-L",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "T-C",
+   "el": "E1",
+   "B": "T-B",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  },
+  {
+   "A": "T-C",
+   "el": "E3",
+   "B": "CURVE-T-TOP",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "FRAME-T-L",
+   "el": "E1",
+   "B": "FRAME-T-BOT",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-T-L",
+   "el": "E3",
+   "B": "FRAME-T-TOP",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-T-R",
+   "el": "E1",
+   "B": "FRAME-T-MID",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-T-R",
+   "el": "E3",
+   "B": "FRAME-T-TOP",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-T-MID",
+   "el": "E2",
+   "B": "FRAME-B-HIGH-1",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-1",
+   "el": "E2",
+   "B": "FRAME-B-LOW-2",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-1",
+   "el": "E4",
+   "B": "FRAME-T-BOT",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-2",
+   "el": "E2",
+   "B": "FRAME-B-LOW-3",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-2",
+   "el": "E4",
+   "B": "FRAME-B-LOW-1",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-3",
+   "el": "E2",
+   "B": "FRAME-B-BOT",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-LOW-3",
+   "el": "E4",
+   "B": "FRAME-B-LOW-2",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-1",
+   "el": "E2",
+   "B": "FRAME-B-HIGH-2",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-1",
+   "el": "E4",
+   "B": "FRAME-T-MID",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-2",
+   "el": "E2",
+   "B": "FRAME-B-HIGH-3",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-2",
+   "el": "E4",
+   "B": "FRAME-B-HIGH-1",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-3",
+   "el": "E2",
+   "B": "FRAME-B-TOP",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-HIGH-3",
+   "el": "E4",
+   "B": "FRAME-B-HIGH-2",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-R",
+   "el": "E1",
+   "B": "FRAME-B-BOT",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "FRAME-B-R",
+   "el": "E3",
+   "B": "FRAME-B-TOP",
+   "tipus": "EL_EL_ILLESZTES",
+   "ok": "két lap éllel ül egymáson (nem T-kötés) – összekötő vasalat/léc kell, tipli nem"
+  },
+  {
+   "A": "T-LOW-DIV",
+   "el": "E1",
+   "B": "CURVE-T-BOT",
+   "tipus": "NEM_TIPLIS",
+   "ok": "B (IVES_SZERELVENY, M02) nem 18 mm-es korpuszlap – ragasztás/csavar/szerelvény, műhelyi döntés"
+  },
+  {
+   "A": "T-LOW-DIV",
+   "el": "E3",
+   "B": "T-B",
+   "tipus": "TIPLI",
+   "db": 3,
+   "szakasz_mm": 337.0
+  }
+ ],
+ "problemak": [
+  {
+   "sulyossag": "BLOKKOLO",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=768 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
+  },
+  {
+   "sulyossag": "BLOKKOLO",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=1232 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
+  },
+  {
+   "sulyossag": "BLOKKOLO",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=1793 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
+  },
+  {
+   "sulyossag": "BLOKKOLO",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "Ø35 pántkehely (B=4.0 mm) a z=2257 pozícióban: metszi az átmenő kivágást (keretszár 31 mm széles a pántoldalon) – szabványos CLIP top nem építhető be; keskeny keretes / csapos (pivot) pánt vagy szerkezetváltás kell"
+  },
+  {
+   "sulyossag": "BLOKKOLO",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "0/6 pánt helyezhető el szabványos CLIP top-pal"
+  }
+ ],
+ "statusz": "TERVI – vasalat típusok és pántoldal műhelyi/tulajdonosi megerősítésre"
+}

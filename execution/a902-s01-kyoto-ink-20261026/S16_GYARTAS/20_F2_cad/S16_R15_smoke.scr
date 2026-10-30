@@ -6,6 +6,8 @@
 (defun s16-lwpoly (pts / d) (setq d (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(100 . "AcDbPolyline") (cons 90 (length pts)) '(70 . 1))) (foreach p pts (setq d (append d (list (list 10 (car p) (cadr p)) (cons 42 (caddr p)))))) (entmake d) (entlast))
 (defun s16-extrude-y (pts tt x0 y0 z0 / pl s) (setq pl (s16-lwpoly pts)) (command "_.EXTRUDE" pl "" tt) (setq s (entlast)) (command "_.ROTATE3D" s "" "_X" '(0 0 0) 90) (command "_.MOVE" s "" '(0 0 0) (list x0 y0 z0)) s)
 (defun s16-sub (a b) (command "_.SUBTRACT" a "" b "") a)
+(defun s16-cyl (x y z r x2 y2 z2) (command "_.CYLINDER" (list x y z) r "_A" (list x2 y2 z2)) (entlast))
+(defun s16-count (pre / ss i n e) (setq ss (ssget "_X" '((0 . "3DSOLID"))) i 0 n 0) (if ss (while (< i (sslength ss)) (setq e (ssname ss i)) (if (wcmatch (cdr (assoc 8 (entget e))) (strcat pre "*")) (setq n (1+ n))) (setq i (1+ i)))) n)
 (defun s16-copy (e / last) (setq last (entlast)) (command "_.COPY" e "" '(0 0 0) '(0 0 0)) (entlast))
 (defun s16-safe (s / r i c) (setq r "" i 1) (while (<= i (strlen s)) (setq c (substr s i 1)) (setq r (strcat r (if (member c '("$" "#")) "_" c)) i (1+ i))) r)
 (defun s16-readback (dir / ss i e lay n) (setvar "FILEDIA" 0) (setq ss (ssget "_X" '((0 . "3DSOLID"))) i 0 n 0) (if ss (while (< i (sslength ss)) (setq e (ssname ss i) lay (cdr (assoc 8 (entget e)))) (if (= (substr lay 1 6) "$PART_") (progn (command "_.MASSPROP" e "" "_Y" (strcat dir "/" (s16-safe lay))) (setq n (1+ n)))) (setq i (1+ i)))) (setvar "FILEDIA" 1) (princ (strcat "\nS16 readback: " (itoa n) " test kiirva ide: " dir)) (princ))
