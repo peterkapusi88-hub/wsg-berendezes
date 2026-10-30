@@ -1,0 +1,119 @@
+FÁJL: coo1.dxf
+DXF verzió: AC1032 | $INSUNITS: 4 | $MEASUREMENT: 1
+$DIMSCALE: 0.0 | $LTSCALE: 0.5
+
+RÉTEGEK (45):
+  $DIFF_OUT                    szín=1    lt=Continuous     lw=-3   msp_ent=0
+  $ITEM_REF                    szín=7    lt=Continuous     lw=-3   msp_ent=0
+  $PART_FIÓKFENÉK.TANDEMBOX    szín=65   lt=Continuous     lw=-3   msp_ent=0
+  $PART_FIÓKHÁT.TANDEMBOX      szín=55   lt=Continuous     lw=-3   msp_ent=0
+  $PART_FenékM¨VV00˙0¨0        szín=104  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Fenék¨V000˙0¨0         szín=104  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Fogadó¨VV00˙0¨0        szín=203  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Front¨AAAA˙0¨0         szín=81   lt=Continuous     lw=-3   msp_ent=0
+  $PART_FÉNYLÉC                szín=61   lt=Continuous     lw=-3   msp_ent=0
+  $PART_Hátlemez¨0000˙0¨0      szín=17   lt=Continuous     lw=-3   msp_ent=0
+  $PART_KötőM¨VV00˙0¨0         szín=153  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Kötő¨V000˙0¨0          szín=153  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Kötő¨VV00˙0¨0          szín=153  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Lábazat                szín=51   lt=Continuous     lw=-3   msp_ent=0
+  $PART_Mellvéd¨A0VV˙0¨0       szín=33   lt=Continuous     lw=-3   msp_ent=0
+  $PART_OldalM_B¨VVVV˙0¨0      szín=40   lt=Continuous     lw=-3   msp_ent=0
+  $PART_OldalM_J¨VVVV˙0¨0      szín=40   lt=Continuous     lw=-3   msp_ent=0
+  $PART_Oldal_B¨V0VV˙0¨0       szín=40   lt=Continuous     lw=-3   msp_ent=0
+  $PART_Oldal_J¨V0VV˙0¨0       szín=40   lt=Continuous     lw=-3   msp_ent=0
+  $PART_Paszdarab¨AVVV˙0¨0     szín=152  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Polc¨V000˙0¨0          szín=145  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Tető¨V000˙0¨0          szín=173  lt=Continuous     lw=-3   msp_ent=0
+  $PART_Vosztó¨V000˙0¨0        szín=93   lt=Continuous     lw=-3   msp_ent=0
+  *ADSK_ASSOC_ENTITY_BACKUPS   szín=-7   lt=Continuous     lw=-3   msp_ent=1
+  0                            szín=9    lt=Continuous     lw=-3   msp_ent=331
+  12mm mdf                     szín=9    lt=Continuous     lw=-3   msp_ent=1
+  18mm festett lábazat         szín=9    lt=Continuous     lw=-3   msp_ent=16
+  Defpoints                    szín=7    lt=Continuous     lw=-3   msp_ent=0
+  Ikea_Homoki|$DIFF_OUT        szín=1    lt=Continuous     lw=-3   msp_ent=0
+  Layer1                       szín=9    lt=Continuous     lw=-3   msp_ent=0
+  MD_Hidden                    szín=7    lt=HIDDEN2        lw=35   msp_ent=0
+  MD_Visible                   szín=7    lt=Continuous     lw=50   msp_ent=0
+  bb02                         szín=9    lt=Continuous     lw=-3   msp_ent=1
+  bb15 szűrke laminalt         szín=9    lt=Continuous     lw=-3   msp_ent=15
+  fb05 18mm festett mdf        szín=9    lt=Continuous     lw=-3   msp_ent=6
+  front                        szín=9    lt=Continuous     lw=-3   msp_ent=16
+  konhha hatfal                szín=9    lt=Continuous     lw=-3   msp_ent=9
+  konyha hátfal                szín=9    lt=Continuous     lw=-3   msp_ent=1
+  konyha laminalt              szín=9    lt=Continuous     lw=-3   msp_ent=59
+  lábazat                      szín=9    lt=Continuous     lw=-3   msp_ent=3
+  padlo                        szín=9    lt=Continuous     lw=-3   msp_ent=7
+  polc                         szín=9    lt=Continuous     lw=-3   msp_ent=4
+  szűrke hátfal                szín=9    lt=Continuous     lw=-3   msp_ent=1
+  teto                         szín=9    lt=Continuous     lw=-3   msp_ent=12
+  viz                          szín=160  lt=Continuous     lw=-3   msp_ent=0
+
+MODELSPACE entitások (485):
+  3DSOLID          481
+  ACDBVIEWREPBLOCKREFERENCE 2
+  INSERT           1
+  LINE             1
+
+BLOKKOK (64 nem névtelen):
+  _Open30                          beillesztve=0    tartalom={'LINE': 3}
+  _Open90                          beillesztve=0    tartalom={'LINE': 3}
+  _Small                           beillesztve=0    tartalom={'CIRCLE': 1}
+  _ArchTick                        beillesztve=0    tartalom={'LWPOLYLINE': 1}
+  SH_STAMP                         beillesztve=0    tartalom={'ATTDEF': 5, 'MTEXT': 1, 'INSERT': 1}
+  Flow_logo_vector                 beillesztve=0    tartalom={'HATCH': 17}
+  A$C1708da98                      beillesztve=0    tartalom={'3DSOLID': 1}
+  klipsz_mualab                    beillesztve=0    tartalom={'3DSOLID': 3}
+  TECH_LÁBFURAT                    beillesztve=0    tartalom={'3DSOLID': 1}
+  KONFIRMÁTOR_D4_L50               beillesztve=0    tartalom={}
+  CONNOBJ_KONFIRMÁTOR_D4_AV18_L50  beillesztve=0    tartalom={'INSERT': 1, '3DSOLID': 1}
+  262_26_174                       beillesztve=0    tartalom={}
+  GEN_MFX_BOLT_24x5                beillesztve=0    tartalom={}
+  CONNOBJ_MINIFIX_D15_AV18_L24     beillesztve=0    tartalom={'INSERT': 2, '3DSOLID': 1}
+  TIPLI_D8_L35_BORDÁS              beillesztve=0    tartalom={}
+  CONNOBJ_DOWEL_D8_L35_13-24       beillesztve=0    tartalom={'INSERT': 1, '3DSOLID': 1}
+  CONNOBJ_AV18                     beillesztve=0    tartalom={'INSERT': 3}
+  Pillér pánt talp                 beillesztve=0    tartalom={}
+  Pillér pánt                      beillesztve=0    tartalom={}
+  Kivetőpánt_pillér GTV_EURO       beillesztve=0    tartalom={'3DSOLID': 5, 'INSERT': 2}
+  SZINTEZŐLÁB_KONZOL               beillesztve=0    tartalom={'3DSOLID': 1}
+  SZINTEZŐLÁB_TALP                 beillesztve=0    tartalom={'3DSOLID': 1}
+  KV1_alapkorpusz_alsó_sarokelem_egyenes beillesztve=0    tartalom={'INSERT': 82, 'MESH': 26}
+  558.5501B                        beillesztve=0    tartalom={}
+  558.2701B                        beillesztve=0    tartalom={}
+  558.3001B                        beillesztve=0    tartalom={}
+  558.3501B                        beillesztve=0    tartalom={}
+  558.4001B                        beillesztve=0    tartalom={}
+  558.4501B                        beillesztve=0    tartalom={}
+  558.5001B                        beillesztve=0    tartalom={}
+  378M5502SA                       beillesztve=0    tartalom={}
+  378M2702SA                       beillesztve=0    tartalom={}
+  378M3002SA                       beillesztve=0    tartalom={}
+  378M3502SA                       beillesztve=0    tartalom={}
+  378M4002SA                       beillesztve=0    tartalom={}
+  378M4502SA                       beillesztve=0    tartalom={}
+  378M5002SA                       beillesztve=0    tartalom={}
+  ZSF.3502.02                      beillesztve=0    tartalom={}
+  TECH_JELÖLŐFURAT_ZSF.3502.02     beillesztve=0    tartalom={'3DSOLID': 1}
+  TECH_DB_BLUM_ANTARO__KSF_500-550 beillesztve=0    tartalom={'3DSOLID': 1}
+
+MÉRETEK: 0 | stílusok: []
+DIMSTYLE-ok: [('Standard', 2.5, 2.5, 2, 1), ('Annotative', 2.5, 2.5, 1, 0.0), ('ISO-25', 2.5, 2.5, 2, 1)]
+TEXTSTYLE-ok: [('Standard', 'arial.ttf'), ('Annotative', 'arial.ttf')]
+
+SZÖVEGEK (5) – magasságok: [(2.0, 2), (1.5, 1), (2.5, 1), (3.0, 1)]
+  [BLOCK:SH_STAMP h=1.5] 'ATTDEF SH_DATE=2022. 06. 14. 15:33:15'
+  [BLOCK:SH_STAMP h=2.0] 'ATTDEF SH_PRNAME=####'
+  [BLOCK:SH_STAMP h=2.0] 'ATTDEF SH_PRNUM=####'
+  [BLOCK:SH_STAMP h=2.5] 'ATTDEF SH_TITLE=####'
+  [BLOCK:SH_STAMP h=3.0] 'ATTDEF SH_SUBSET='
+
+LAPOK (layouts): ['1', 'Model']
+  1: ent={'VIEWPORT': 5, 'DRAWINGVIEW': 2, 'INSERT': 1, 'DIMENSION': 1} viewports=5 paper=210.0x297.0 None
+     VP center=(345, 205, 0) w=1046 h=376 view_h=376 scale≈1:1.0
+     VP center=(64, 139, 0) w=7 h=7 view_h=7 scale≈1:1.0
+     VP center=(64, 139, 0) w=7 h=7 view_h=130 scale≈1:20.0
+     VP center=(64, 102, 0) w=7 h=7 view_h=7 scale≈1:1.0
+     VP center=(64, 102, 0) w=7 h=7 view_h=130 scale≈1:20.0
+
+MODELSPACE kiterjedés: (-17629, -13069, 1205) -> (-17188, -13065, 1205) méret: (441, 4, 0)
