@@ -558,7 +558,7 @@ A-902 helyiségméretek (méretezett alaprajz 1:50, vakolatlan; v2-geometria: `0
   - **8 mm grafit hátlap (Egger U961):** rendelésre („majd rendelünk”).
   - **R16 dekorpanel (M02):** Egger F433 ST10 antracit len kész lap a Vescom tekercs helyett („ahogy jobb” → Claude választása).
   - **R16 felső fedő (3610 mm):** egy darabból, toldás nélkül, hosszú MDF-táblából („ahogy igényesebb”); beszerzés egyeztetendő. Mennyezeti rés (20 mm) helyszíni mérésre vár.
-  - **Asztalos:** a csomag + kérdések (DWG betöltése a programjába, minta-MPR/szerszámlista, anyag/él/vasalat megerősítés, Excel-sablon, matrica, élkód-sorrend, de_11090) kiküldése Péter „mehet”-jére vár.
+  - **Asztalos:** a v8 csomagot (S16 + R16, látványtervvel) és a kérdéseket Péter 2026-10-30 18:23-kor elküldte; válaszra várunk (DWG-betöltés a programjába, minta-MPR/szerszámlista, anyag/él/vasalat, Excel-sablon, matrica, élkód-sorrend, de_11090).
 
 ## 8. Következő lépések
 1. Péter dönt: melyik stílus melyik lakásba (7. pont), és a Gemini vagy a ChatGPT képei tetszenek jobban (`04_renderek/A902_Gemini_vs_ChatGPT.jpg`).
