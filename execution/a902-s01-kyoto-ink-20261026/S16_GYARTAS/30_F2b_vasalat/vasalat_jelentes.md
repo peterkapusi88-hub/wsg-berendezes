@@ -1,4 +1,4 @@
-# S16 F2b – vasalat- és furatterv (S16-R15B-GY-v1)
+# S16 F2b – vasalat- és furatterv (S16-R15C-GY-v1)
 
 Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 
@@ -8,7 +8,7 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 | MINIFIX_CSATORNA | 22 |
 | MINIFIX_HAZ | 22 |
 | MOVENTO_HOROG | 12 |
-| MOVENTO_SIN_JELOLO | 33 |
+| MOVENTO_SIN_JELOLO | 36 |
 | PANTKEHELY | 11 |
 | PANTTALP | 22 |
 | PANT_DUBEL | 22 |
@@ -23,11 +23,10 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 | TIPLI_EL_EL | 1 |
 | TIPLI_EL_EL_KERETLEC | 14 |
 
-**Problémák:** {'HIBA': 1}
+**Problémák:** {}
 
 | Súlyosság | Alkatrész | Megállapítás |
 |---|---|---|
-| HIBA | D6-R | D6 sín (Z≈204) a korpuszoldal (D6-R, Z 230…) alatt van – a sín az íves sarokelemre esne: szerelőléc/távtartó vagy a korpuszoldal lefelé hosszabbítása kell (DÖNTÉS) |
 
 ## Nem tiplis kapcsolatok (külön kötés kell)
 

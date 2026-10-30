@@ -79,8 +79,8 @@
   "M03": {
    "tipus": "laminalt_butorlap_korpusz",
    "nevleges_vastagsag": 18,
-   "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-   "elvastagsag": 1.0,
+   "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+   "elvastagsag": 0.8,
    "elomaras_elenkent": 1.0,
    "rahagyas_L": 0,
    "rahagyas_W": 0,
@@ -90,7 +90,13 @@
    ],
    "erezetes": false,
    "lapmeret_forras": "becslés – S16 M01 szabály átvéve; dekor nincs kiválasztva",
-   "elomaras_forras": "becslés – élzárógép előmarása, műhelyi adat kell"
+   "elomaras_forras": "becslés – élzárógép előmarása, műhelyi adat kell",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "U741 ST9",
+    "nev": "Láva szürke (NCS S 7005-Y20R = a bronzbarna festék színe)",
+    "dontes": "Péter 2026-10-30 18:02: „ahogy jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő"
+   }
   },
   "M01": {
    "tipus": "festett_MDF_2KPU_bronz",
@@ -101,11 +107,11 @@
    "rahagyas_L": 10,
    "rahagyas_W": 10,
    "lapmeret": [
-    2800,
-    2070
+    3660,
+    1830
    ],
    "erezetes": false,
-   "lapmeret_forras": "becslés",
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
    "rahagyas_forras": "becslés – S16 M02 (festett MDF +10/+10) szabály átvéve"
   },
   "M01+nyomat": {
@@ -117,11 +123,11 @@
    "rahagyas_L": 10,
    "rahagyas_W": 10,
    "lapmeret": [
-    2800,
-    2070
+    3660,
+    1830
    ],
    "erezetes": false,
-   "lapmeret_forras": "becslés",
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
    "rahagyas_forras": "becslés – S16 M02 szabály átvéve; nyomat 10 mm kifutóval (R16 artwork)"
   },
   "M16-BRONZE": {
@@ -133,19 +139,19 @@
    "rahagyas_L": 10,
    "rahagyas_W": 10,
    "lapmeret": [
-    2800,
-    2070
+    3660,
+    1830
    ],
    "erezetes": false,
-   "lapmeret_forras": "becslés",
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
    "rahagyas_forras": "becslés – S16 M02 szabály átvéve"
   },
   "M02": {
    "tipus": "MDF_hordozo_falburkolattal",
    "nevleges_vastagsag": 18,
-   "elanyag": "élkezelés nyitott (R16: nincs megadva; M16-WALL 'szélek zárása')",
-   "elvastagsag": 0.0,
-   "elomaras_elenkent": 0.0,
+   "elanyag": "ABS 0,8 mm Egger F433 ST10 dekoregyező",
+   "elvastagsag": 0.8,
+   "elomaras_elenkent": 1.0,
    "rahagyas_L": 10,
    "rahagyas_W": 10,
    "lapmeret": [
@@ -154,7 +160,14 @@
    ],
    "erezetes": false,
    "lapmeret_forras": "becslés",
-   "rahagyas_forras": "becslés – S16 M02 szabály átvéve"
+   "rahagyas_forras": "becslés – S16 M02 szabály átvéve",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "F433 ST10",
+    "nev": "Antracit len – kész textilhatású lap 18 mm (a Vescom tekercs helyett, kasírozás nélkül)",
+    "dontes": "Péter 2026-10-30 18:02: „ahogy jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő",
+    "ok": "kész lap: élzárható, sík, nincs kasírozási kockázat; alternatíva a S16-tal egyező Egger F424 barna len HPL"
+   }
   },
   "M16-DRAWER15": {
    "tipus": "nyir_retegelt_lemez",
@@ -242,8 +255,8 @@
    },
    "M02": {
     "CSATLAKOZO": "0",
-    "SZABAD_ELOL": "0",
-    "SZABAD_EGYEB": "0"
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "V"
    },
    "M16-DRAWER15": {
     "CSATLAKOZO": "0",
@@ -324,5 +337,6 @@
  },
  "cad": {
   "mac_mappa": "/Users/peterkapusi/CAD/R16_J"
- }
+ },
+ "anyag_dontesek_2026_10_30": "M03 ABS 0,8 (U741); M02 → Egger F433 ST10 kész lap + 0,8 ABS; fedő egy darabból jumbo MDF-ből"
 }

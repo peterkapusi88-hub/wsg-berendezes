@@ -2,7 +2,7 @@
  "datum": "2026-10-30",
  "modell_revizio": "R16-J-GY-v1",
  "osszesites": {
-  "HIBA": 2,
+  "HIBA": 1,
   "FIGYELMEZTETES": 12,
   "INFO": 13
  },
@@ -66,13 +66,6 @@
   }
  },
  "tetelek": [
-  {
-   "sulyossag": "HIBA",
-   "kod": "Q10_LAPMERET",
-   "alkatresz": "KI12-TV02CAP-01",
-   "uzenet": "3610.0×392.0 mm nem fér ki a becsült 2800×2070 táblából",
-   "lapmeret_forras": "becslés"
-  },
   {
    "sulyossag": "HIBA",
    "kod": "Q18_MENNYEZETI_RES",

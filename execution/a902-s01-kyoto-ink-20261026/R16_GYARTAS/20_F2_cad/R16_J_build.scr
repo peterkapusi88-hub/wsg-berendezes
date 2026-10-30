@@ -2912,7 +2912,7 @@
 (entmake (list (cons 0 "TEXT") (cons 8 "MERET_NEZET") (cons 10 (list 0.00 4350.00 0.0)) (cons 40 60) (cons 1 "EL\U+00D6LN\U+00C9ZET (szob\U+00E1b\U+00F3l) \U+2013 alkatr\U+00E9sz-kont\U+00FArok, mm")))
 (entmake (list (cons 0 "TEXT") (cons 8 "MERET_NEZET") (cons 10 (list 0.00 5471.00 0.0)) (cons 40 60) (cons 1 "FEL\U+00DCLN\U+00C9ZET (fal lent, szoba fent)")))
 (entmake (list (cons 0 "TEXT") (cons 8 "MERET_NEZET") (cons 10 (list 4300.00 4350.00 0.0)) (cons 40 60) (cons 1 "OLDALN\U+00C9ZET (balr\U+00F3l)")))
-(s16-readback "/Users/peterkapusi/CAD/R16_J/readback_R16_J_v7")
+(s16-readback "/Users/peterkapusi/CAD/R16_J/readback_R16_J_v8")
 (princ (list "S16_DARAB" "PART" (s16-count "$PART_") "DIFF_OUT" (s16-count "$DIFF_OUT")))
 (princ (list "S16_BLK" "TECH_FURAT_D8_M12" (s16-count-ins "TECH_FURAT_D8_M12") "TECH_FURAT_D8_M22" (s16-count-ins "TECH_FURAT_D8_M22") "TECH_FURAT_D35_M13" (s16-count-ins "TECH_FURAT_D35_M13") "TECH_FURAT_D2p5_M10" (s16-count-ins "TECH_FURAT_D2p5_M10") "TECH_FURAT_D5_M8" (s16-count-ins "TECH_FURAT_D5_M8") "TECH_FURAT_D4_M19" (s16-count-ins "TECH_FURAT_D4_M19") "TECH_FURAT_D2p5_M12" (s16-count-ins "TECH_FURAT_D2p5_M12") "TECH_FURAT_D3p5_M9" (s16-count-ins "TECH_FURAT_D3p5_M9")))
 (princ (list "S16_BLK" "TECH_FURAT_D10_M12" (s16-count-ins "TECH_FURAT_D10_M12") "TECH_FURAT_D4p5_M16" (s16-count-ins "TECH_FURAT_D4p5_M16") "TECH_FURAT_D2p5_M20" (s16-count-ins "TECH_FURAT_D2p5_M20") "TECH_FURAT_D5_M16" (s16-count-ins "TECH_FURAT_D5_M16") "TECH_FURAT_D5_M9" (s16-count-ins "TECH_FURAT_D5_M9") "TECH_FURAT_D20_M9" (s16-count-ins "TECH_FURAT_D20_M9") "TECH_FURAT_D12_M9" (s16-count-ins "TECH_FURAT_D12_M9") "TIPLI_D8_L30_BORD\U+00C1S" (s16-count-ins "TIPLI_D8_L30_BORD\U+00C1S")))
@@ -3071,7 +3071,7 @@
 (command "_.-VIEW" "_SWISO")
 (command "_.VSCURRENT" "_R")
 (command "_.ZOOM" "_E")
-(command "_.SAVEAS" "2018" "/Users/peterkapusi/CAD/R16_J/R16_J_szerkezet_v7.dwg")
+(command "_.SAVEAS" "2018" "/Users/peterkapusi/CAD/R16_J/R16_J_szerkezet_v8.dwg")
 (princ "S16_SAVE_DONE")
 _.QUIT
 _Y

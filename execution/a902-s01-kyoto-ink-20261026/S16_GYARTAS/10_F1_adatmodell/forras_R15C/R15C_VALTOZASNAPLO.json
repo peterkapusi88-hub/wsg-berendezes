@@ -1,0 +1,146 @@
+{
+ "revizio": "S16-R15C-GY",
+ "datum": "2026-10-30",
+ "alap": {
+  "R15B_VALTOZASNAPLO.json": "e7fd82e8571ff07fc12f4f182df049d6e80f1bea07b526a0acf3161c2c1a5cce",
+  "R15_ZART_JELENET_MM.json": "8d2f97e6d5db95dcb6859ec25c6801df582df1f7eab25877f6f2fa72b3eeb53a",
+  "drawers.json": "e2562aceac7a19eeda254db8e8558acd867a803033139a09eef66409ca95b91e",
+  "layout.json": "ed8115f084fc76a831e147a4ec28ab5ee648310366fd1ce40a58b3cd08562d5f",
+  "materials.json": "65eaf826fd8827c74342dc40bc5ebd83dbcdd36796dd944377543f2ad6df579c",
+  "parts.json": "b739464a4b5e758a0f6ab23a3541b017132ab85441c94a36b09b51bc38de53be"
+ },
+ "valtozasok": [
+  {
+   "alkatresz": "D6-BOX-L",
+   "mezo": "box",
+   "regi": [
+    3199,
+    80,
+    210,
+    15,
+    290,
+    237
+   ],
+   "uj": [
+    3199,
+    80,
+    245.0,
+    15,
+    290,
+    202.0
+   ],
+   "indok": "D6 sín a D6-R-re kerül (íves sarok ütközés megszűnik)",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "mezo": "box",
+   "regi": [
+    3561,
+    80,
+    210,
+    15,
+    290,
+    237
+   ],
+   "uj": [
+    3561,
+    80,
+    245.0,
+    15,
+    290,
+    202.0
+   ],
+   "indok": "D6 sín a D6-R-re kerül (íves sarok ütközés megszűnik)",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "mezo": "box",
+   "regi": [
+    3214,
+    355,
+    237,
+    347,
+    15,
+    210
+   ],
+   "uj": [
+    3214,
+    355,
+    272.0,
+    347,
+    15,
+    175.0
+   ],
+   "indok": "D6 sín a D6-R-re kerül (íves sarok ütközés megszűnik)",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "mezo": "box",
+   "regi": [
+    3214,
+    80,
+    237,
+    347,
+    15,
+    210
+   ],
+   "uj": [
+    3214,
+    80,
+    272.0,
+    347,
+    15,
+    175.0
+   ],
+   "indok": "D6 sín a D6-R-re kerül (íves sarok ütközés megszűnik)",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "mezo": "box",
+   "regi": [
+    3214,
+    80,
+    222,
+    347,
+    290,
+    15
+   ],
+   "uj": [
+    3214,
+    80,
+    257.0,
+    347,
+    290,
+    15
+   ],
+   "indok": "D6 sín a D6-R-re kerül (íves sarok ütközés megszűnik)",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  },
+  {
+   "alkatresz": "D6",
+   "mezo": "drawers.inside",
+   "regi": [
+    347,
+    260,
+    210
+   ],
+   "uj": [
+    347,
+    260,
+    175.0
+   ],
+   "indok": "lásd fent",
+   "forras": "Péter döntése 2026-10-30 18:05",
+   "statusz": "JAVITVA"
+  }
+ ]
+}

@@ -27,13 +27,13 @@ from s16_geom import (IRANY_NEV, LocalFrame, build_solid, load_json, neg,  # noq
                       sha256)
 
 import os
-_DEF = next(d for d in ("forras_R15B", "forras_R15", "forras_R14") if (HERE / d).is_dir())
+_DEF = next(d for d in ("forras_R15C", "forras_R15B", "forras_R15", "forras_R14") if (HERE / d).is_dir())
 SRC = HERE / os.environ.get("S16_FORRAS", _DEF)
 RULES = HERE / "gyartasi_szabalyok_v1.json"
 OUT_JSON = HERE / "parts_v1.json"
 OUT_CSV = HERE / "parts_v1.csv"
 
-MODEL_REV = {"forras_R15B": "S16-R15B-GY-v1", "forras_R15": "S16-R15-GY-v1"}.get(SRC.name, "S16-GY-F1-v1")
+MODEL_REV = {"forras_R15C": "S16-R15C-GY-v1", "forras_R15B": "S16-R15B-GY-v1", "forras_R15": "S16-R15-GY-v1"}.get(SRC.name, "S16-GY-F1-v1")
 
 
 def modul_of(pid: str) -> str:

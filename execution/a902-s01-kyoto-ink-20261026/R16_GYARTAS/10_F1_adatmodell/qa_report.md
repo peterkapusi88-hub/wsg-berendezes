@@ -7,17 +7,16 @@ Generálva: 2026-10-30 · `r16_qa.py` (a S16 qa_parts_v1.py ellenőrzéseivel) �
 | Súlyosság | db |
 |---|---|
 | BLOKKOLO | 0 |
-| HIBA | 2 |
+| HIBA | 1 |
 | FIGYELMEZTETES | 12 |
 | INFO | 13 |
 
 Geometria-forrás: {'R16_doboz': 99, 'R14_kontur_extrudalas': 7} · vizsgált ütköző pár (befoglaló-átfedéssel): 0
 
-## HIBA (2)
+## HIBA (1)
 
 | Kód | Alkatrész | Megállapítás |
 |---|---|---|
-| Q10_LAPMERET | KI12-TV02CAP-01 | 3610.0×392.0 mm nem fér ki a becsült 2800×2070 táblából |
 | Q18_MENNYEZETI_RES | bútortest | legmagasabb pont Z=2880, rés a névleges 2900 mm-es mennyezetig 20 mm (helyszíni felmérés még nincs) |
 
 ## FIGYELMEZTETES (12)

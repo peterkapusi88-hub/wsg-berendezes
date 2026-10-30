@@ -1,5 +1,5 @@
 ;;; S16 R15 médiafal – 3D szerkezeti modell (generálva: 2026-10-30, f2_cad_export.py)
-;;; STÁTUSZ: TERVI MODELL – nem gyártási kiadás. Forrás: parts_v1.json (S16-R15B-GY-v1).
+;;; STÁTUSZ: TERVI MODELL – nem gyártási kiadás. Forrás: parts_v1.json (S16-R15C-GY-v1).
 ;;; ActiveX (vla-*) nélkül: csak parancs + entmake – AutoCAD for Mac-en is fut.
 ;;; Használat: APPLOAD → ezt a fájlt → parancssor: (s16-build)   majd ellenőrzés: (s16-readback "<mappa>")
 ;;; Egység: mm. KOORDINÁTA: Y_CAD = -Y_helyi (egyetlen tükrözés). Az R14 helyi rendszer (X jobbra a szobából, Y faltól a szoba
@@ -408,27 +408,27 @@
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Front" "")
   ;; D6-BOX-L
   (s16-layer "$PART_S16_D6-BOX-L\U+02D90\U+02D90\U+00A8LLLL\U+02D90\U+00A8#0\U+00A816061" "196,175,139")
-  (setq a (s16-box 3199 -370 210 15 290 237))
+  (setq a (s16-box 3199 -370 245.0 15 290 202.0))
   (s16-layer "SZINES_Fi\U+00F3koldal" 40)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Fi\U+00F3koldal" "")
   ;; D6-BOX-R
   (s16-layer "$PART_S16_D6-BOX-R\U+02D90\U+02D90\U+00A8LLLL\U+02D90\U+00A8#0\U+00A816062" "196,175,139")
-  (setq a (s16-box 3561 -370 210 15 290 237))
+  (setq a (s16-box 3561 -370 245.0 15 290 202.0))
   (s16-layer "SZINES_Fi\U+00F3koldal" 40)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Fi\U+00F3koldal" "")
   ;; D6-BOX-F
   (s16-layer "$PART_S16_D6-BOX-F\U+02D90\U+02D90\U+00A8L000\U+02D90\U+00A8#0\U+00A816063" "196,175,139")
-  (setq a (s16-box 3214 -370 237 347 15 210))
+  (setq a (s16-box 3214 -370 272.0 347 15 175.0))
   (s16-layer "SZINES_Fi\U+00F3kh\U+00E1t" 55)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Fi\U+00F3kh\U+00E1t" "")
   ;; D6-BOX-H
   (s16-layer "$PART_S16_D6-BOX-H\U+02D90\U+02D90\U+00A8L000\U+02D90\U+00A8#0\U+00A816064" "196,175,139")
-  (setq a (s16-box 3214 -95 237 347 15 210))
+  (setq a (s16-box 3214 -95 272.0 347 15 175.0))
   (s16-layer "SZINES_Fi\U+00F3kh\U+00E1t" 55)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Fi\U+00F3kh\U+00E1t" "")
   ;; D6-BOX-B
   (s16-layer "$PART_S16_D6-BOX-B\U+02D90\U+02D90\U+00A8LL00\U+02D90\U+00A8#0\U+00A816065" "196,175,139")
-  (setq a (s16-box 3214 -370 222 347 290 15))
+  (setq a (s16-box 3214 -370 257.0 347 290 15))
   (s16-layer "SZINES_Fi\U+00F3kfen\U+00E9k" 65)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_Fi\U+00F3kfen\U+00E9k" "")
   ;; T-L
@@ -829,7 +829,7 @@
   (s16-layer "SZINES_F\U+00E9ny" 121)
   (command "_.COPY" a "" '(0 0 0) '(5100 0 0)) (command "_.CHPROP" (entlast) "" "_LA" "SZINES_F\U+00E9ny" "")
   (command "_.ZOOM" "_E")
-  (princ "\nS16-R15B-GY-v1: 129 alkatrész felépítve.")
+  (princ "\nS16-R15C-GY-v1: 129 alkatrész felépítve.")
   (princ))
 (princ "\nS16 betöltve: (s16-build) majd (s16-readback \"/Users/<te>/CAD/s16_readback\")")
 (princ)

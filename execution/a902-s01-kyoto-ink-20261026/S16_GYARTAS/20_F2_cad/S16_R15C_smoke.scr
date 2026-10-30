@@ -17,7 +17,7 @@
 (defun s16-smoketest ( / a b c) (s16-env) (s16-layer "$PART_SMOKE_BOX#0000" 3) (setq a (s16-box 0 -300 0 400 18 600)) (s16-layer "$PART_SMOKE_ARC#0000" 4) (setq c (s16-extrude-y (list (list 0 0 0) (list 100 0 0.414213562) (list 200 100 0) (list 200 200 0) (list 0 200 0)) 18 600 -18 0)) (s16-layer "$PART_SMOKE_SUB#0000" 5) (setq a (s16-box 1000 -300 0 400 18 600)) (setq b (s16-box 1100 -310 100 200 38 400)) (s16-sub a b) (command "_.ZOOM" "_E") (princ "\nS16 smoketest kesz: 3 test. Futtasd: (s16-readback \"<mappa>\")") (princ))
 (s16-smoketest)
 (s16-readback "/Users/peterkapusi/CAD/S16_R15/readback_smoke")
-(command "_.SAVEAS" "2018" "/Users/peterkapusi/CAD/S16_R15/S16_R15B_smoke.dwg")
+(command "_.SAVEAS" "2018" "/Users/peterkapusi/CAD/S16_R15/S16_R15C_smoke.dwg")
 (princ "S16_SAVE_DONE")
 _.QUIT
 _Y

@@ -1,5 +1,5 @@
 {
- "modell_revizio": "S16-R15B-GY-v1",
+ "modell_revizio": "S16-R15C-GY-v1",
  "datum": "2026-10-30",
  "generator": "f2b_vasalat.py",
  "parameterek": {
@@ -12315,7 +12315,7 @@
    "start": [
     3193.0,
     340.0,
-    203.5
+    238.5
    ],
    "irany": [
     -1.0,
@@ -12328,7 +12328,7 @@
    "kapcsolat": "D6:SIN:D6-L:0",
    "helyi": [
     300.0,
-    53.5,
+    88.5,
     0.0
    ]
   },
@@ -12338,7 +12338,7 @@
    "start": [
     3193.0,
     212.0,
-    203.5
+    238.5
    ],
    "irany": [
     -1.0,
@@ -12351,7 +12351,7 @@
    "kapcsolat": "D6:SIN:D6-L:1",
    "helyi": [
     172.0,
-    53.5,
+    88.5,
     0.0
    ]
   },
@@ -12361,7 +12361,7 @@
    "start": [
     3193.0,
     116.0,
-    203.5
+    238.5
    ],
    "irany": [
     -1.0,
@@ -12374,7 +12374,76 @@
    "kapcsolat": "D6:SIN:D6-L:2",
    "helyi": [
     76.0,
-    53.5,
+    88.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-R",
+   "cel": "lap (belső)",
+   "start": [
+    3582.0,
+    340.0,
+    238.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 3.0,
+   "funkcio": "MOVENTO_SIN_JELOLO",
+   "kapcsolat": "D6:SIN:D6-R:0",
+   "helyi": [
+    37.0,
+    8.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-R",
+   "cel": "lap (belső)",
+   "start": [
+    3582.0,
+    212.0,
+    238.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 3.0,
+   "funkcio": "MOVENTO_SIN_JELOLO",
+   "kapcsolat": "D6:SIN:D6-R:1",
+   "helyi": [
+    165.0,
+    8.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-R",
+   "cel": "lap (belső)",
+   "start": [
+    3582.0,
+    116.0,
+    238.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 3.0,
+   "funkcio": "MOVENTO_SIN_JELOLO",
+   "kapcsolat": "D6:SIN:D6-R:2",
+   "helyi": [
+    261.0,
+    8.5,
     0.0
    ]
   },
@@ -12384,7 +12453,7 @@
    "start": [
     3210.0,
     80.0,
-    217.0
+    252.0
    ],
    "irany": [
     0.0,
@@ -12407,7 +12476,7 @@
    "start": [
     3565.0,
     80.0,
-    217.0
+    252.0
    ],
    "irany": [
     0.0,
@@ -19278,12 +19347,6 @@
    "d": 8.0
   }
  ],
- "problemak": [
-  {
-   "sulyossag": "HIBA",
-   "alkatresz": "D6-R",
-   "uzenet": "D6 sín (Z≈204) a korpuszoldal (D6-R, Z 230…) alatt van – a sín az íves sarokelemre esne: szerelőléc/távtartó vagy a korpuszoldal lefelé hosszabbítása kell (DÖNTÉS)"
-  }
- ],
+ "problemak": [],
  "statusz": "TERVI – vasalat típusok és pántoldal műhelyi/tulajdonosi megerősítésre"
 }

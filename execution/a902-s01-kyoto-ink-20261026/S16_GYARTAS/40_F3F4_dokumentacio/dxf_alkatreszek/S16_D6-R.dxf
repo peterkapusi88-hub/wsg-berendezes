@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461344.748726852
+2461344.754814815
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461344.748726852
+2461344.754814815
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-C9
+CC
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{5D729192-4749-4BAE-B9B6-A1476ACFA669}
+{6BB86742-7B7D-4315-B0D0-8ED4DC8D88F4}
   9
 $VERSIONGUID
   2
-{B8A4296D-759A-4F4D-998E-822E0AE60EAB}
+{C2286215-70AA-49A0-8C2E-6469CFF4CE7F}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -3281,7 +3281,7 @@ ACAD
   0
 APPID
   5
-C6
+C9
 330
 3
 100
@@ -3295,7 +3295,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-C7
+CA
 330
 3
 100
@@ -5101,7 +5101,7 @@ _CLOSEDBLANK
   0
 BLOCK_RECORD
   5
-A8
+AB
 330
 9
 100
@@ -5121,7 +5121,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-B7
+BA
 330
 9
 100
@@ -5441,9 +5441,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-A9
+AC
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5467,9 +5467,9 @@ AcDbBlockBegin
   0
 LINE
   5
-AB
+AE
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5491,9 +5491,9 @@ AcDbLine
   0
 LINE
   5
-AC
+AF
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5515,9 +5515,9 @@ AcDbLine
   0
 INSERT
   5
-AD
+B0
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5541,9 +5541,9 @@ _ARCHTICK
   0
 INSERT
   5
-AF
+B2
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5565,9 +5565,9 @@ _ARCHTICK
   0
 LINE
   5
-B1
+B4
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5589,9 +5589,9 @@ AcDbLine
   0
 MTEXT
   5
-B2
+B5
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5615,9 +5615,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-B3
+B6
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5633,9 +5633,9 @@ AcDbPoint
   0
 POINT
   5
-B4
+B7
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5651,9 +5651,9 @@ AcDbPoint
   0
 POINT
   5
-B5
+B8
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5669,9 +5669,9 @@ AcDbPoint
   0
 ENDBLK
   5
-AA
+AD
 330
-A8
+AB
 100
 AcDbEntity
   8
@@ -5681,9 +5681,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-B8
+BB
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5707,9 +5707,9 @@ AcDbBlockBegin
   0
 LINE
   5
-BA
+BD
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5731,9 +5731,9 @@ AcDbLine
   0
 LINE
   5
-BB
+BE
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5755,9 +5755,9 @@ AcDbLine
   0
 INSERT
   5
-BC
+BF
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5781,9 +5781,9 @@ _ARCHTICK
   0
 INSERT
   5
-BE
+C1
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5807,9 +5807,9 @@ _ARCHTICK
   0
 LINE
   5
-C0
+C3
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5831,9 +5831,9 @@ AcDbLine
   0
 MTEXT
   5
-C1
+C4
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5859,9 +5859,9 @@ OpenSansCondensed-Light
   0
 POINT
   5
-C2
+C5
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5877,9 +5877,9 @@ AcDbPoint
   0
 POINT
   5
-C3
+C6
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5895,9 +5895,9 @@ AcDbPoint
   0
 POINT
   5
-C4
+C7
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -5913,9 +5913,9 @@ AcDbPoint
   0
 ENDBLK
   5
-B9
+BC
 330
-B7
+BA
 100
 AcDbEntity
   8
@@ -6453,9 +6453,69 @@ AcDbLine
  31
 0.0
   0
-DIMENSION
+CIRCLE
   5
 A7
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+37.0
+ 20
+8.5
+ 30
+0.0
+ 40
+1.25
+  0
+CIRCLE
+  5
+A8
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+165.0
+ 20
+8.5
+ 30
+0.0
+ 40
+1.25
+  0
+CIRCLE
+  5
+A9
+330
+17
+100
+AcDbEntity
+  8
+FURAT_B
+100
+AcDbCircle
+ 10
+261.0
+ 20
+8.5
+ 30
+0.0
+ 40
+1.25
+  0
+DIMENSION
+  5
+AA
 330
 17
 100
@@ -6509,7 +6569,7 @@ AcDbRotatedDimension
   0
 DIMENSION
   5
-B6
+B9
 330
 17
 100
@@ -6563,7 +6623,7 @@ AcDbRotatedDimension
   0
 TEXT
   5
-C5
+C8
 330
 17
 100
@@ -7681,7 +7741,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-C8
+CB
   0
 DICTIONARYVAR
   5
@@ -7693,7 +7753,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T16:58:10.898732+00:00
+1.4.5 @ 2026-10-30T17:06:56.151863+00:00
   0
 VISUALSTYLE
   5
@@ -14247,7 +14307,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-C8
+CB
 330
 2D
 100
@@ -14255,7 +14315,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-30T16:58:10.902804+00:00
+1.4.5 @ 2026-10-30T17:06:56.155300+00:00
   0
 ENDSEC
   0

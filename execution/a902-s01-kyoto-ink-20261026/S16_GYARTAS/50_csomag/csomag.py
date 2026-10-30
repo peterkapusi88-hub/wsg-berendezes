@@ -16,7 +16,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 EX = HERE.parent.parent
-CAB = [("S16", EX / "S16_GYARTAS", "S16_R15B"), ("R16", EX / "R16_GYARTAS", "R16_J")]
+CAB = [("S16", EX / "S16_GYARTAS", "S16_R15C"), ("R16", EX / "R16_GYARTAS", "R16_J")]
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -26,7 +26,7 @@ def stats(base, tag):
     vas = json.loads((base / "30_F2b_vasalat/vasalat_terv.json").read_text(encoding="utf-8"))
     qa = json.loads((base / "10_F1_adatmodell/qa_report.json").read_text(encoding="utf-8"))
     blk = json.loads((base / "20_F2_cad/vasalat_blokkok.json").read_text(encoding="utf-8"))
-    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v7.txt")
+    rb = (base / "20_F2_cad/mac_futtatas").glob("readback_eredmeny_*v8.txt")
     rbt = next(iter(sorted(rb)), None)
     rbl = rbt.read_text(encoding="utf-8").strip().splitlines()[-1] if rbt else "–"
     dq = (base / "40_F3F4_dokumentacio/dokumentacio_qa.md").read_text(encoding="utf-8")
@@ -44,12 +44,14 @@ NYITOTT = {
             "Kötések: 111 Ø8×35 tipli (13/25 mm, mint a km.dwg), 14 keretléc-illesztés Ø6×30 tiplivel, 1 egymásra ülő oldalpár Ø8×35 él-él tiplivel, "
             "11 íves héj-kötés tipli + 2 Minifix 15 (Häfele 262.26.174) – a héj külső felülete érintetlen.",
             "Fiók: MOVENTO 760H3000S jelölőfuratok (37/165/261 mm) + hátsó horogfurat Ø6×10 (7/11 mm) a Blum útmutató szerint; zár és TIP-ON sablonnal.",
-            "DÖNTÉS: a D6 fiók jobb oldali síne a rövidebb D6-R korpuszoldal alá esne (íves sarok) – szerelőléc vagy az oldal meghosszabbítása kell.",
+            "D6 fiók (R15C, Péter döntése): a fiókdoboz 35 mm-rel feljebb, a sín a D6-R oldalon; belső magasság 210 → 175 mm, a front változatlan.",
+            "Anyag (Péter döntései 18:02): korpusz Egger U741 ST9 + 0,8 mm ABS; front H1399 ST10 + 2 mm ABS; háttér Egger F424 ST10 barna len HPL; 8 mm grafit hátlap U961 rendelésre.",
             "BG rejtett visszahajtások (2 db) – helyszíni/Blender ellenőrzés."],
-    "R16": ["KI12-TV02CAP-01 fedő 3610 mm nyersen: 2800-as táblából nem jön ki – toldás vagy jumbo tábla (döntés kell).",
+    "R16": ["KI12-TV02CAP-01 fedő 3610 mm: EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül (Péter: „ahogy igényesebb”) – beszerzés egyeztetendő.",
+            "Dekor panel (M02): Egger F433 ST10 antracit len kész lap + 0,8 mm ABS a Vescom tekercs helyett; korpusz U741 + 0,8 mm ABS.",
             "Mennyezeti rés 20 mm (2900 mm névleges belmagasság, helyszíni felmérés nincs).",
             "MOVENTO sablonfuratok az R16-ban sincsenek (az R16 fiókfuratai a dobozcsavarozás) – a S16 szabálya átvehető.",
-            "M02 dekorpanel élkezelése nincs megadva; falsík-eltolás FELTEVÉS (Y = 418 − Y_R16). Pánt: Blum 70T3550.TL + 173H7100."],
+            "Falsík-eltolás FELTEVÉS (Y = 418 − Y_R16). Pánt: Blum 70T3550.TL + 173H7100."],
 }
 KOZOS = ["DWG-ben két színezés: a modelltérben bal oldalt a gyártási modell valós anyagszínekkel ($PART_ rétegek), jobbra 5,1 m-rel eltolva egy műhelyi másolat alkatrész-típusszínekkel (SZINES_* rétegek, mint a coo1.dwg) – ehhez saját rajzlap (L05_MUHELYI_SZINES). A gyártási adat csak a $PART_ rétegeken van.",
          "Élkód a DWG rétegnevében: hossz-él 1 (látszó) – hossz-él 2 – szél-él 1 – szél-él 2 (coo1.dwg mintájára) – FELTEVÉS.",
@@ -123,7 +125,7 @@ def main():
         S[name] = stats(base, tag)
         d = root / name
         (d / "01_DWG").mkdir(parents=True)
-        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v7.dwg", d / "01_DWG")
+        shutil.copy(base / f"20_F2_cad/{tag}_szerkezet_v8.dwg", d / "01_DWG")
         doc_dir = base / "40_F3F4_dokumentacio"
         shutil.copy(doc_dir / f"{tag}_alkatreszlapok.pdf", d / f"02_{tag}_alkatreszlapok.pdf")
         shutil.copy(doc_dir / f"{tag}_szabasjegyzek.xlsx", d / f"03_{tag}_szabasjegyzek.xlsx")

@@ -16,7 +16,7 @@
    "parts.json": "5660a9c98a7fd7deba6a6cf229f7dcc5fc282bd35d4dffb259fa4880b2bfcf49"
   },
   "szabalyfajl": {
-   "gyartasi_szabalyok_v1.json": "1991d1761e2dda14151efc74d817e69deed03734067f4726e9fc8203e74de656"
+   "gyartasi_szabalyok_v1.json": "f6b19961f62114541494c0041e2c92c0d755bfd21a30e5fe38146337ef3f1348"
   }
  },
  "koordinata_konvencio": {
@@ -96,14 +96,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 2330.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 2330.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -171,8 +171,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -261,14 +261,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 2330.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 2330.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -368,8 +368,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     }
    },
@@ -427,13 +427,13 @@
     },
     "elzaras_elotti": {
      "L": 684.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 684.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 684.0,
@@ -483,8 +483,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -592,13 +592,13 @@
     },
     "elzaras_elotti": {
      "L": 684.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 684.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 684.0,
@@ -648,8 +648,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -758,14 +758,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 353.0,
+     "L": 353.2,
      "W": 2294.0
     },
     "nyers": {
-     "L": 354.0,
+     "L": 354.2,
      "W": 2294.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 354.0,
@@ -833,8 +833,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -926,13 +926,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -982,8 +982,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1087,13 +1087,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1143,8 +1143,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1248,13 +1248,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1304,8 +1304,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1409,13 +1409,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1465,8 +1465,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1570,13 +1570,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1626,8 +1626,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1731,13 +1731,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1787,8 +1787,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -1892,13 +1892,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -1948,8 +1948,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -2053,13 +2053,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -2109,8 +2109,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -2214,13 +2214,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -2270,8 +2270,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -2375,13 +2375,13 @@
     },
     "elzaras_elotti": {
      "L": 331.0,
-     "W": 289.0
+     "W": 289.2
     },
     "nyers": {
      "L": 331.0,
-     "W": 290.0
+     "W": 290.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 331.0,
@@ -2431,8 +2431,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -3252,7 +3252,7 @@
      "L": 677.0,
      "W": 2340.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(10/10)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(10/10)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 667.0,
@@ -3416,7 +3416,7 @@
      "L": 677.0,
      "W": 2340.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(10/10)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(10/10)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 667.0,
@@ -3580,7 +3580,7 @@
      "L": 677.0,
      "W": 2340.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(10/10)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(10/10)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 667.0,
@@ -3744,7 +3744,7 @@
      "L": 677.0,
      "W": 2340.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(0.0) × élzárt él + előmarás(0.0) × élzárt él + ráhagyás(10/10)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(10/10)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 667.0,
@@ -4724,14 +4724,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -4797,8 +4797,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -4887,14 +4887,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -4960,8 +4960,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -5051,13 +5051,13 @@
     },
     "elzaras_elotti": {
      "L": 684.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 684.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 684.0,
@@ -5107,8 +5107,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -6914,14 +6914,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -6987,8 +6987,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -7077,14 +7077,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -7150,8 +7150,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -7241,13 +7241,13 @@
     },
     "elzaras_elotti": {
      "L": 414.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 414.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 414.0,
@@ -7297,8 +7297,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -9104,14 +9104,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -9177,8 +9177,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -9267,14 +9267,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -9340,8 +9340,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -9431,13 +9431,13 @@
     },
     "elzaras_elotti": {
      "L": 414.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 414.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 414.0,
@@ -9487,8 +9487,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -11294,14 +11294,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -11367,8 +11367,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -11457,14 +11457,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -11530,8 +11530,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -11621,13 +11621,13 @@
     },
     "elzaras_elotti": {
      "L": 1044.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 1044.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 1044.0,
@@ -11677,8 +11677,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -13484,14 +13484,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -13557,8 +13557,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -13647,14 +13647,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -13720,8 +13720,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -13811,13 +13811,13 @@
     },
     "elzaras_elotti": {
      "L": 414.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 414.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 414.0,
@@ -13867,8 +13867,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {
@@ -15674,14 +15674,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -15747,8 +15747,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": false
     },
     "E3": {
@@ -15837,14 +15837,14 @@
      "T": 18.0
     },
     "elzaras_elotti": {
-     "L": 381.0,
+     "L": 381.2,
      "W": 382.0
     },
     "nyers": {
-     "L": 382.0,
+     "L": 382.2,
      "W": 382.0
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 382.0,
@@ -15944,8 +15944,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     }
    },
@@ -16001,13 +16001,13 @@
     },
     "elzaras_elotti": {
      "L": 414.0,
-     "W": 381.0
+     "W": 381.2
     },
     "nyers": {
      "L": 414.0,
-     "W": 382.0
+     "W": 382.2
     },
-    "nyers_szabaly": "nyers = kész − élvastagság(1.0) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
+    "nyers_szabaly": "nyers = kész − élvastagság(0.8) × élzárt él + előmarás(1.0) × élzárt él + ráhagyás(0/0)",
     "r14_raw_rule": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
     "geometriabol": {
      "L": 414.0,
@@ -16057,8 +16057,8 @@
      "jel": "V",
      "r16_edge_flag": 1,
      "indok": "R16 edge=1",
-     "elanyag": "ABS 1 mm dekoregyező (korpusz)",
-     "elvastagsag_mm": 1.0,
+     "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+     "elvastagsag_mm": 0.8,
      "gepi_utkozo": true
     },
     "E2": {

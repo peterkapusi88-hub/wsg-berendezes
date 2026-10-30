@@ -1,4 +1,4 @@
-# S16 F2 – CAD-terv önellenőrzés (S16-R15B-GY-v1)
+# S16 F2 – CAD-terv önellenőrzés (S16-R15C-GY-v1)
 
 Generálva: 2026-10-30 · `f2_cad_export.py` · 129 alkatrész
 
@@ -75,10 +75,10 @@ A `cad_terv.json`-ból Pythonban újraépített testet (ugyanaz a terv, amiből 
 | D6-T | `$PART_S16_D6-T˙0˙0¨00FF˙0¨#0¨16058` | box | 0 | 1983582 | 1983584 | -0.0 | 0.0 |
 | D6-BACK | `$PART_S16_D6-BACK˙0˙0¨0000˙0¨#0¨16059` | extrude_y/bulge | 0 | 1181807 | 1181790 | 0.001 | 0.0 |
 | D6-FRONT | `$PART_S16_D6-FRONT˙0˙0¨VVVV˙0¨#0¨16060` | extrude_y/bulge | 0 | 2711712 | 2711678 | 0.001 | 0.0 |
-| D6-BOX-L | `$PART_S16_D6-BOX-L˙0˙0¨LLLL˙0¨#0¨16061` | box | 0 | 1030950 | 1030941 | 0.001 | 0.0 |
-| D6-BOX-R | `$PART_S16_D6-BOX-R˙0˙0¨LLLL˙0¨#0¨16062` | box | 0 | 1030950 | 1030941 | 0.001 | 0.0 |
-| D6-BOX-F | `$PART_S16_D6-BOX-F˙0˙0¨L000˙0¨#0¨16063` | box | 0 | 1093050 | 1093050 | 0.0 | 0.0 |
-| D6-BOX-H | `$PART_S16_D6-BOX-H˙0˙0¨L000˙0¨#0¨16064` | box | 0 | 1093050 | 1093050 | 0.0 | 0.0 |
+| D6-BOX-L | `$PART_S16_D6-BOX-L˙0˙0¨LLLL˙0¨#0¨16061` | box | 0 | 878700 | 878700 | 0.0 | 0.0 |
+| D6-BOX-R | `$PART_S16_D6-BOX-R˙0˙0¨LLLL˙0¨#0¨16062` | box | 0 | 878700 | 878700 | 0.0 | 0.0 |
+| D6-BOX-F | `$PART_S16_D6-BOX-F˙0˙0¨L000˙0¨#0¨16063` | box | 0 | 910875 | 910875 | 0.0 | 0.0 |
+| D6-BOX-H | `$PART_S16_D6-BOX-H˙0˙0¨L000˙0¨#0¨16064` | box | 0 | 910875 | 910875 | 0.0 | 0.0 |
 | D6-BOX-B | `$PART_S16_D6-BOX-B˙0˙0¨LL00˙0¨#0¨16065` | box | 0 | 1509450 | 1509450 | 0.0 | 0.0 |
 | T-L | `$PART_S16_T-L˙0˙0¨V000˙0¨#0¨16066` | box | 0 | 15316650 | 15316650 | -0.0 | 0.0 |
 | T-R | `$PART_S16_T-R˙0˙0¨FF00˙0¨#0¨16067` | box | 0 | 13375530 | 13375536 | -0.0 | 0.0 |
