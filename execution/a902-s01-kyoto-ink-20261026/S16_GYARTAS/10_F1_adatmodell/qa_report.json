@@ -1,0 +1,626 @@
+{
+ "datum": "2026-10-30",
+ "modell_revizio": "S16-GY-F1-v1",
+ "osszesites": {
+  "BLOKKOLO": 2,
+  "HIBA": 17,
+  "FIGYELMEZTETES": 12,
+  "INFO": 41
+ },
+ "itelet": "BLOKKOLT – gyártási kiadás tilos",
+ "meta": {
+  "alkatresz": 120,
+  "vizsgalt_utkozo_par": 27,
+  "frontres_sorok": [
+   [
+    "D1-FRONT",
+    "D2-FRONT",
+    3.0,
+    0.0
+   ],
+   [
+    "D1-FRONT",
+    "T-DOOR-L",
+    3.0,
+    0.0
+   ],
+   [
+    "D1-FRONT",
+    "FRAME-T-BOT",
+    3.0,
+    0.0
+   ],
+   [
+    "D1-FRONT",
+    "FRAME-T-MID",
+    3.0,
+    0.0
+   ],
+   [
+    "D2-FRONT",
+    "D3-FRONT",
+    3.0,
+    0.0
+   ],
+   [
+    "D2-FRONT",
+    "FRAME-B-LOW-1",
+    3.0,
+    0.0
+   ],
+   [
+    "D2-FRONT",
+    "FRAME-B-HIGH-1",
+    3.0,
+    0.0
+   ],
+   [
+    "D3-FRONT",
+    "D4-FRONT",
+    3.0,
+    0.0
+   ],
+   [
+    "D3-FRONT",
+    "FRAME-B-LOW-1",
+    3.0,
+    0.0
+   ],
+   [
+    "D3-FRONT",
+    "FRAME-B-HIGH-1",
+    3.0,
+    0.0
+   ],
+   [
+    "D4-FRONT",
+    "D5-FRONT",
+    3.0,
+    0.0
+   ],
+   [
+    "D4-FRONT",
+    "FRAME-B-LOW-2",
+    3.0,
+    0.0
+   ],
+   [
+    "D4-FRONT",
+    "FRAME-B-HIGH-2",
+    3.0,
+    0.0
+   ],
+   [
+    "D5-FRONT",
+    "D6-FRONT",
+    3.0,
+    0.0
+   ],
+   [
+    "D5-FRONT",
+    "FRAME-B-LOW-3",
+    3.0,
+    0.0
+   ],
+   [
+    "D5-FRONT",
+    "FRAME-B-HIGH-3",
+    3.0,
+    0.0
+   ],
+   [
+    "D6-FRONT",
+    "FRAME-B-LOW-3",
+    3.0,
+    0.0
+   ],
+   [
+    "D6-FRONT",
+    "FRAME-B-HIGH-3",
+    3.0,
+    0.0
+   ],
+   [
+    "D6-FRONT",
+    "FRAME-B-R",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-L",
+    "T-DOOR-R",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-L",
+    "FRAME-T-TOP",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-L",
+    "FRAME-T-BOT",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-L",
+    "FRAME-T-L",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-L",
+    "FRAME-T-MID",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-R",
+    "FRAME-T-R",
+    3.0,
+    0.0
+   ],
+   [
+    "T-DOOR-R",
+    "FRAME-T-MID",
+    3.0,
+    0.0
+   ]
+  ],
+  "geometria_forrasok": {
+   "R14_zart_halo": 117,
+   "doboz_minusz_kimetszes": 1,
+   "R14_kontur_extrudalas": 2
+  }
+ },
+ "tetelek": [
+  {
+   "sulyossag": "BLOKKOLO",
+   "kod": "Q02_NYERS_KISEBB_MINT_KESZ",
+   "alkatresz": "BG-1",
+   "uzenet": "nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból",
+   "forras": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)"
+  },
+  {
+   "sulyossag": "BLOKKOLO",
+   "kod": "Q02_NYERS_KISEBB_MINT_KESZ",
+   "alkatresz": "BG-FINISH",
+   "uzenet": "nyers W=2315 < élzárás előtti 2405.0 (kész 2405) – a darab nem gyártható le ebből a szabásból",
+   "forras": "R14 explicit raw_L/raw_W (forrásból átvéve – QA ellenőrzi)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q03_SZOVEG_ADAT_ELTERES",
+   "alkatresz": "BG-1",
+   "uzenet": "R14 raw_rule szövege kész L=801 mm-t ír, az adat L=811.0 mm; nyers a szövegben 831, adatban 831",
+   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q03_SZOVEG_ADAT_ELTERES",
+   "alkatresz": "BG-FINISH",
+   "uzenet": "R14 raw_rule szövege kész L=801 mm-t ír, az adat L=2857 mm; nyers a szövegben 831, adatban 2877",
+   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "BATTEN-1",
+   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "BATTEN-2",
+   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "BATTEN-3",
+   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "BATTEN-4",
+   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "BATTEN-5",
+   "uzenet": "T=8 mm, de az anyag (M01 – 18 mm kétoldalt melaminos grafitszürke bútorlap) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q07_VASTAGSAG_ANYAG_ELTERES",
+   "alkatresz": "T-DOOR-L-BACK",
+   "uzenet": "T=12 mm, de az anyag (M02 – Szatén sötét barnásgrafit keret) névleges vastagsága 18 mm"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q10_EREZET_LAPMERET",
+   "alkatresz": "TV-FIELD",
+   "uzenet": "2640.0×1590.0 mm, erezet a V tengely mentén (1590.0 mm) – becsült 2800×2070 táblából erezettel nem jön ki; erezet nélkül/90°-kal kijönne",
+   "lapmeret_forras": "becslés – dekor/termék nincs kiválasztva (materials.json M03)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D1",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D2",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D3",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D4",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D5",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q13_BLUM_FENEK_BESULLYESZTES",
+   "alkatresz": "D6",
+   "uzenet": "fiókfenék alsó síkja az oldal alsó élétől 0.0 mm-re van; MOVENTO-hoz ≥ 12 mm (max 15 mm mély) besüllyesztés kell, hogy a sín takarva legyen",
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK",
+   "alkatresz": "BG-LOWER-HIDDEN-RETURN",
+   "uzenet": "a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test"
+  },
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK",
+   "alkatresz": "BG-UPPER-HIDDEN-RETURN",
+   "uzenet": "a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
+   "alkatresz": "BG-1",
+   "uzenet": "R14 explicit nyers 831×2315 ≠ anyagszabály szerinti 811.0×2405.0",
+   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
+   "alkatresz": "BG-FINISH",
+   "uzenet": "R14 explicit nyers 2877×2315 ≠ anyagszabály szerinti 2857.0×2405.0",
+   "r14_raw_rule": "Felső bal szárny:30mm szerelési ráhagyás balra. A készL801mm, nyers befoglalóL831mm; a szárny helyszínen visszaillesztendő. A100mm magas felső fül a toronyív mögé nyúlik. Az alsó hosszú él nem nyúlik a polcok/korpusz mögé."
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q03_NYERS_SZABALY_ELLENTMONDAS",
+   "alkatresz": "T-DOOR-L-BACK",
+   "uzenet": "R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0",
+   "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után."
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "DECK-CONTINUOUS-BAFFLE",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [870.0, 109.0, 579.0, 2628.0, 4.0, 17.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "DECK-CONTINUOUS-COVER",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [870.0, 101.0, 592.0, 2628.0, 8.0, 4.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "LOW-INTERNAL-LIGHT-VISOR",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [57.0, 359.0, 554.0, 306.0, 5.0, 16.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "TOP-WASH-BAFFLE",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 34.0, 2857.0, 2857.0, 4.0, 18.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "TOP-WASH-COVER",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 26.0, 2872.0, 2857.0, 8.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "TOP-WASH-HIDDEN-END",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [3595.0, 26.0, 2857.0, 2.0, 8.0, 15.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "UPLIGHT-FRONT-VISOR",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 25.0, 2876.0, 2845.0, 4.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "UPLIGHT-REAR-VISOR",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 5.0, 2876.0, 2845.0, 3.0, 3.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN",
+   "alkatresz": "UPLIGHT-TRAY",
+   "uzenet": "R14 jelenet-segédobjektum (befoglaló [740.0, 5.0, 2875.0, 2845.0, 24.0, 1.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "CURVE-B-BOT",
+   "uzenet": "IVES_SZERELVENY – T=337 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "CURVE-B-TOP",
+   "uzenet": "IVES_SZERELVENY – T=337 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "CURVE-T-BOT",
+   "uzenet": "IVES_SZERELVENY – T=337 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "CURVE-T-TOP",
+   "uzenet": "IVES_SZERELVENY – T=337 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "TV-SPACER-1",
+   "uzenet": "OSSZEALLITAS – T=69 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q07_OSSZEALLITAS_NEM_LAP",
+   "alkatresz": "TV-SPACER-2",
+   "uzenet": "OSSZEALLITAS – T=69 befoglaló, nem lapvastagság; nem írható ki egy lapként"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D1",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D2",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D3",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D4",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D5",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D6",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D1-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D2-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D3-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D4-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D5-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-D6-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-TL-DIFFUSER",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-TL-HOUSING",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-TL-LOW-0",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-TR-DIFFUSER",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "I-TR-HOUSING",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "PSU-INTERNAL",
+   "uzenet": "VASAROLT_KESZULEK / HELYFOGLALO"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "TEXTILE-RECESSED-HOUSING",
+   "uzenet": "BELSO_LED_PROFIL (helyfoglaló – termék kiválasztandó)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "TV-CONSOLE-ENVELOPE",
+   "uzenet": "VASAROLT_KESZULEK / HELYFOGLALO"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q16_TERMEK_HELYFOGLALO",
+   "alkatresz": "TV-SCREEN",
+   "uzenet": "VASAROLT_KESZULEK / HELYFOGLALO"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q18_MENNYEZETI_RES",
+   "alkatresz": "*",
+   "uzenet": "legmagasabb pont Z=2875, rés a névleges 2900 mm-es mennyezetig 25 mm (helyszíni felmérés még nincs)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q20_FALC_MERES",
+   "alkatresz": "T-DOOR-L",
+   "uzenet": "HATSO_FENYFALC: mélység 10.0 mm, maradék 8.0 mm, perem 8 mm"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q20_FALC_MERES",
+   "alkatresz": "TV-FIELD",
+   "uzenet": "FENYCSATORNA_FALC: mélység 12.0 mm, maradék 6.0 mm"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "ATMENO_KIVAGAS",
+   "uzenet": "1 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "FENYCSATORNA_FALC",
+   "uzenet": "1 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "FRONTRÖGZÍTÉS_FURAT",
+   "uzenet": "6 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "HATSO_FENYFALC",
+   "uzenet": "1 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "KIMETSZES",
+   "uzenet": "1 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "KONTUR_MARAS",
+   "uzenet": "18 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "PANTKEHELY",
+   "uzenet": "2 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "PANTTALP_FURAT",
+   "uzenet": "3 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "SIN_KAPCSOLAT_MEGMUNKALAS",
+   "uzenet": "18 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "SIN_RÖGZÍTÉS_FURAT",
+   "uzenet": "12 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "SULLYESZTETT_KAZETTA_NYILAS",
+   "uzenet": "1 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  }
+ ]
+}
