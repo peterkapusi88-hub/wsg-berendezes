@@ -340,9 +340,32 @@ def lisp_forms(text):
     return forms
 
 
-def write_scr(lsp_path, calls, scr_path, dwg_path):
+PRESENTATION = [
+    # modelltér: délnyugati axonometria, realisztikus megjelenítés
+    '(command "_.-VIEW" "_SWISO")',
+    '(command "_.VSCURRENT" "_R")',
+    '(command "_.ZOOM" "_E")',
+    # áttekintő rajzlap 4 nézettel (elöl / bal / felül / axonometria)
+    '(command "_.-LAYOUT" "_N" "S16_ATTEKINTES")',
+    '(setvar "CTAB" "S16_ATTEKINTES")',
+    '(command "_.ERASE" (ssget "_X" (list (cons 0 "VIEWPORT") (cons 410 "S16_ATTEKINTES"))) "")',
+    '(command "_.MVIEW" "_4" "_F")',
+    '(command "_.MSPACE")',
+    '(setvar "CVPORT" 2) (command "_.-VIEW" "_FRONT") (command "_.VSCURRENT" "_H") (command "_.ZOOM" "_E")',
+    '(setvar "CVPORT" 3) (command "_.-VIEW" "_LEFT") (command "_.VSCURRENT" "_H") (command "_.ZOOM" "_E")',
+    '(setvar "CVPORT" 4) (command "_.-VIEW" "_TOP") (command "_.VSCURRENT" "_H") (command "_.ZOOM" "_E")',
+    '(setvar "CVPORT" 5) (command "_.-VIEW" "_SWISO") (command "_.VSCURRENT" "_R") (command "_.ZOOM" "_E")',
+    '(command "_.PSPACE")',
+    '(entmake (list (cons 0 "TEXT") (cons 67 1) (cons 410 "S16_ATTEKINTES") (cons 10 (list 10.0 5.0 0.0)) (cons 40 3.5) '
+    '(cons 1 "S16 R15 mediafal - szerkezeti 3D modell - TERVI, NEM GYARTASI KIADAS - 129 alkatresz")))',
+]
+
+
+def write_scr(lsp_path, calls, scr_path, dwg_path, presentation=True):
     forms = lisp_forms(lsp_path.read_text(encoding="utf-8"))
     forms = [f for f in forms if not f.startswith("(princ") and not f.startswith("(defun s16-build")]
+    if presentation:
+        calls = calls + PRESENTATION
     lines = ['(setvar "FILEDIA" 0)', '(setvar "CMDECHO" 0)'] + forms + calls + [
         f'(command "_.SAVEAS" "2018" "{dwg_path}")', '(princ "S16_SAVE_DONE")', "_.QUIT", "_Y"]
     scr_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -364,9 +387,9 @@ def main():
     body = write_lsp(plan, HERE / "S16_R15_szerkezet.lsp", doc["modell_revizio"])
     mac = rules.get("cad", {}).get("mac_mappa", "/Users/peterkapusi/CAD/S16_R15")
     write_scr(HERE / "S16_R15_szerkezet.lsp", ['(s16-smoketest)', f'(s16-readback "{mac}/readback_smoke")'],
-              HERE / "S16_R15_smoke.scr", f"{mac}/S16_R15_smoke.dwg")
+              HERE / "S16_R15_smoke.scr", f"{mac}/S16_R15_smoke.dwg", presentation=False)
     write_scr(HERE / "S16_R15_szerkezet.lsp", body + [f'(s16-readback "{mac}/readback")'],
-              HERE / "S16_R15_build.scr", f"{mac}/S16_R15_szerkezet.dwg")
+              HERE / "S16_R15_build.scr", f"{mac}/S16_R15_szerkezet_v2.dwg")
 
     srcp = {p["id"]: p for p in src_parts}
     rows, meshes, worst = [], {}, 0.0
