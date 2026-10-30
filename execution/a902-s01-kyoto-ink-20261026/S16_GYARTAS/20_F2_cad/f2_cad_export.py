@@ -239,13 +239,21 @@ def lsp_pts(pts):
     return "(list " + " ".join(f"(list {a:.4f} {b:.4f} {c:.9f})" for a, b, c in pts) + ")"
 
 
+CHUNK = 40  # AcCoreConsole kb. 4 KB-nál levágja a szkriptsort → a pontlista részletekben épül
+
+
 def lsp_shape(spec, var):
-    # CAD-tükrözés: Y_CAD = -Y_helyi
+    """Egy vagy több (soronként teljes) LISP-kifejezés '\n'-nel elválasztva. CAD-tükrözés: Y_CAD = -Y_helyi."""
     if spec["tipus"] == "box":
         x, y, z, dx, dy, dz = spec["box"]
         return f"(setq {var} (s16-box {x} {-(y + dy)} {z} {dx} {dy} {dz}))"
     x, y, z = spec["origo"]
-    return f"(setq {var} (s16-extrude-y {lsp_pts(spec['profil']['pontok'])} {spec['T']} {x} {-y} {z}))"
+    pts = spec["profil"]["pontok"]
+    lines = ["(setq s16p nil)"]
+    for i in range(0, len(pts), CHUNK):
+        lines.append(f"(setq s16p (append s16p {lsp_pts(pts[i:i + CHUNK])}))")
+    lines.append(f"(setq {var} (s16-extrude-y s16p {spec['T']} {x} {-y} {z}))")
+    return "\n  ".join(lines)
 
 
 def write_lsp(plan, path, rev):
@@ -265,6 +273,13 @@ def write_lsp(plan, path, rev):
     L += ["  (command \"_.ZOOM\" \"_E\")", f"  (princ \"\\nS16 R15: {len(plan)} alkatrész felépítve.\")", "  (princ))",
           "(princ \"\\nS16 betöltve: (s16-build) majd (s16-readback \\\"/Users/<te>/CAD/s16_readback\\\")\")", "(princ)"]
     path.write_text("\n".join(L) + "\n", encoding="utf-8")
+    # a s16-build törzse soronként (AcCoreConsole-szkripthez, hogy ne egy óriási sor legyen)
+    out = []
+    for x in L[2:]:
+        for y in x.split("\n"):
+            if y.startswith("  (") and not y.strip().startswith("(princ"):
+                out.append(y.strip())
+    return out
 
 
 # ------------------------------------------------------------------ DXF előnézet
@@ -286,6 +301,54 @@ def write_dxf(plan, meshes, path):
     doc.saveas(path)
 
 
+# ------------------------------------------------------------------ AcCoreConsole-szkript (.scr)
+
+def lisp_forms(text):
+    """Felső szintű LISP-kifejezések, kommentek nélkül, egy sorba tömörítve (AcCoreConsole-hoz)."""
+    forms, buf, depth, in_str, esc, i = [], [], 0, False, False, 0
+    while i < len(text):
+        c = text[i]
+        if in_str:
+            buf.append(c)
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+        elif c == ";":
+            while i < len(text) and text[i] != "\n":
+                i += 1
+            buf.append(" ")
+            continue
+        elif c == '"':
+            in_str = True
+            buf.append(c)
+        elif c == "(":
+            depth += 1
+            buf.append(c)
+        elif c == ")":
+            depth -= 1
+            buf.append(c)
+            if depth == 0:
+                forms.append(" ".join("".join(buf).split()))
+                buf = []
+        elif depth > 0:
+            buf.append(" " if c in "\r\n\t" else c)
+        i += 1
+    assert depth == 0 and not in_str, "kiegyensúlyozatlan zárójel"
+    return forms
+
+
+def write_scr(lsp_path, calls, scr_path, dwg_path):
+    forms = lisp_forms(lsp_path.read_text(encoding="utf-8"))
+    forms = [f for f in forms if not f.startswith("(princ") and not f.startswith("(defun s16-build")]
+    lines = ['(setvar "FILEDIA" 0)', '(setvar "CMDECHO" 0)'] + forms + calls + [
+        f'(command "_.SAVEAS" "2018" "{dwg_path}")', '(princ "S16_SAVE_DONE")', "_.QUIT", "_Y"]
+    scr_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return len(forms)
+
+
 # ------------------------------------------------------------------ main
 
 def main():
@@ -298,7 +361,12 @@ def main():
     plan, notes = make_plan(doc, src_parts, rules)
     (HERE / "cad_terv.json").write_text(json.dumps({"modell_revizio": doc["modell_revizio"], "datum": date.today().isoformat(),
                                                     "megjegyzesek": notes, "alkatreszek": plan}, ensure_ascii=False, indent=1), encoding="utf-8")
-    write_lsp(plan, HERE / "S16_R15_szerkezet.lsp", doc["modell_revizio"])
+    body = write_lsp(plan, HERE / "S16_R15_szerkezet.lsp", doc["modell_revizio"])
+    mac = rules.get("cad", {}).get("mac_mappa", "/Users/peterkapusi/CAD/S16_R15")
+    write_scr(HERE / "S16_R15_szerkezet.lsp", ['(s16-smoketest)', f'(s16-readback "{mac}/readback_smoke")'],
+              HERE / "S16_R15_smoke.scr", f"{mac}/S16_R15_smoke.dwg")
+    write_scr(HERE / "S16_R15_szerkezet.lsp", body + [f'(s16-readback "{mac}/readback")'],
+              HERE / "S16_R15_build.scr", f"{mac}/S16_R15_szerkezet.dwg")
 
     srcp = {p["id"]: p for p in src_parts}
     rows, meshes, worst = [], {}, 0.0

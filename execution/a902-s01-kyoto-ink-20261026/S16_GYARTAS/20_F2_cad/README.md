@@ -1,6 +1,6 @@
 # S16 R15 médiafal – 2. fázis (a): 3D szerkezeti CAD-modell
 
-Készült: 2026-10-30, Claude (Opus 5.5). Státusz: **TERVI MODELL – nem gyártási kiadás.** Az AutoCAD-beli lefuttatás és visszaolvasás még hátravan.
+Készült: 2026-10-30, Claude (Opus 5.5). Státusz: **TERVI MODELL – nem gyártási kiadás.** **Az AutoCAD-ben felépítve és visszaolvasva: 129/129 test egyezik** (2026-10-30 14:22, Péter Macje).
 
 ## Mi ez?
 
@@ -8,7 +8,9 @@ A `../10_F1_adatmodell/parts_v1.json` (R15, QA: 0 blokkoló / 0 hiba) 129 alkatr
 
 | Fájl | Mi | Státusz |
 |---|---|---|
-| `S16_R15_szerkezet.lsp` | AutoLISP, ActiveX nélkül (Mac-en is fut): alkatrészenként 1 tömör test saját rétegen, valódi ívekkel, kivont megmunkálásokkal | generálva, **AutoCAD-ben még nem futott** |
+| `S16_R15_szerkezet.dwg` | **natív AutoCAD-modell** (AutoCAD 2018 formátum): 129 tömör test, mindegyik saját `$PART_` rétegen + `TECH_*` megmunkálás-testek | AutoCAD 2027-ben felépítve, **129/129 visszaolvasva** (`mac_futtatas/README_readback.md`) |
+| `S16_R15_szerkezet.lsp` | AutoLISP (ActiveX nélkül) – interaktív AutoCAD-hez | generálva |
+| `S16_R15_build.scr`, `S16_R15_smoke.scr` | ugyanaz AcCoreConsole-szkriptként (háttérben, képernyő nélkül fut) | ez futott |
 | `S16_R15_elonezet.dxf` | ugyanaz MESH-ként, bárhol megnyitható előnézet | kész – nem gyártási modell (háló, nem tömör test) |
 | `cad_ellenorzes.md` | a tervből újraépített testek ↔ QA-ellenőrzött geometria | **129/129 egyezik**, max. térfogat-eltérés 0,04 % |
 
@@ -24,14 +26,15 @@ Futtatás: `python3 f2_cad_export.py` (a F1 függőségei + `ezdxf`).
 
 Az R14 helyi rendszere (X jobbra a szobából, Y a faltól a szoba felé, Z fel) **balkezes** – ezért kellett a Blenderben az X-tükröző szülő. Jobbkezes AutoCAD-ben ez a bútor tükörképét adná (torony jobb oldalt). A CAD-exportban ezért **egyetlen tükrözés: Y_CAD = −Y_helyi**. Eredmény: fal síkja Y=0, a front −Y felé néz, az **AutoCAD FRONT nézet = szobából nézett homlokzat, torony bal oldalt** (előnézettel ellenőrizve). Az adatmodell helyi koordinátái (A/B oldal, E1–E4) ettől nem változnak.
 
-## Lefuttatás a Macen (még hátravan)
+## Lefuttatás a Macen (megtörtént, megismételhető)
 
-1. AutoCAD 2027 for Mac, új üres rajz (mm), `APPLOAD` → `S16_R15_szerkezet.lsp`.
-2. Próba: `(s16-smoketest)` → `(s16-readback "/Users/<név>/CAD/s16_smoke")` → `python3 f2_readback.py <mappa> --smoke` (3 test: hasáb, íves kihúzás, kivonás).
-3. Ha a próba OK: új rajz, `(s16-build)` → `(s16-readback "/Users/<név>/CAD/s16_readback")` → `python3 f2_readback.py <mappa>` – mind a 129 test térfogata (≤ 0,5 %) és befoglalója (≤ 0,05 mm) a tervhez.
-4. Mentés: `S16_R15_szerkezet.dwg`.
+Az AutoCAD for Mac csomagban lévő **AcCoreConsole** (grafikus felület nélküli parancssori motor) futtatja a `.scr`-t háttérben – ugyanezt használta a ChatGPT is az R05-höz. Lépések (`mac_futtatas/`):
 
-A `ROTATE3D`, `EXTRUDE` és `MASSPROP` parancssori viselkedése a Mac-verzión élő próbán ellenőrizendő – ezért van előbb a smoketest.
+1. `S16_R15_*.scr` + `mac_futtatas/S16_*.command` → `~/CAD/S16_R15/`.
+2. Finderben megnyitni: `S16_smoke.command` (3 test), majd `S16_build.command` (129 test, DWG-mentés). Billentyűzet-bemenet nélkül, időkorláttal futnak.
+3. `python3 f2_readback.py <readback-mappa> [--smoke]` – minden test térfogata és befoglalója a tervhez.
+
+Tanulságok (2026-10-30): (a) a `-help` kapcsoló interaktív parancssort nyit és beragad – nem használjuk; (b) az AcCoreConsole kb. 4 KB-nál levágja a szkriptsort → a pontlisták 40 pontos részletekben épülnek; (c) külső `.lsp` betöltését a motor biztonsági okból megtagadja, ezért minden a `.scr`-ben van; (d) a kényszerített leállítás Autodesk-hibaablakot nyit – ártalmatlan, bezárható.
 
 ## Ami még nincs benne (2. fázis b)
 
