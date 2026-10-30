@@ -285,7 +285,8 @@ def main():
                 edges[e]["indok"] = ok
             edges[e]["elvastagsag_mm"] = mat.get("elvastagsag", 0.0) if codes[e] == "V" else 0.0
             edges[e]["gepi_utkozo"] = e in rules["gepi_utkozo"]["alapertelmezes"]
-        grain_ax = r14_grain_to_local(p.get("grain"))
+        felul_g = rules.get("alkatresz_anyag_felulbiralas", {}).get(pid, {})
+        grain_ax = felul_g.get("szalirany") or r14_grain_to_local(p.get("grain"))
         grain_glob = None
         if grain_ax:
             grain_glob = fr.u_ax if grain_ax == "U" else fr.v_ax
@@ -326,7 +327,7 @@ def main():
             "elek": edges,
             "el_kod": "".join(codes[e] for e in ("E1", "E2", "E3", "E4")),
             "gepi_utkozo": rules["gepi_utkozo"]["alapertelmezes"],
-            "szalirany": {"r14": p.get("grain"), "helyi_tengely": grain_ax, "globalis": grain_glob},
+            "szalirany": {"r14": p.get("grain"), "helyi_tengely": grain_ax, "globalis": grain_glob, "felulbiralva": felul_g.get("dontes")},
             "kontur": contour_info(p),
             "muveletek": operations(p, fr, drawers_by_front),
             "geometria_forras": solids[pid].method,

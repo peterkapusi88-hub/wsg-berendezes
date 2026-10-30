@@ -8,7 +8,7 @@ Generálva: 2026-10-30 · `qa_parts_v1.py` · forrás: `parts_v1.json` (120 alka
 |---|---|
 | BLOKKOLO | 2 |
 | HIBA | 16 |
-| FIGYELMEZTETES | 13 |
+| FIGYELMEZTETES | 12 |
 | INFO | 41 |
 
 Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kontur_extrudalas': 2} · vizsgált ütköző pár (befoglaló-átfedéssel): 27
@@ -41,14 +41,13 @@ Geometria-forrás: {'R14_zart_halo': 117, 'doboz_minusz_kimetszes': 1, 'R14_kont
 | Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK | BG-LOWER-HIDDEN-RETURN | a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test |
 | Q16_HIVATKOZOTT_ALKATRESZ_HIANYZIK | BG-UPPER-HIDDEN-RETURN | a layout.json R14 'primary_changed' listája hivatkozza, de sem a parts.json-ban, sem a zárt jelenetben nincs ilyen test |
 
-## FIGYELMEZTETES (13)
+## FIGYELMEZTETES (12)
 
 | Kód | Alkatrész | Megállapítás |
 |---|---|---|
 | Q03_NYERS_SZABALY_ELLENTMONDAS | BG-1 | R14 explicit nyers 831×2315 ≠ anyagszabály szerinti 811.0×2405.0 |
 | Q03_NYERS_SZABALY_ELLENTMONDAS | BG-FINISH | R14 explicit nyers 2877×2315 ≠ anyagszabály szerinti 2857.0×2405.0 |
 | Q03_NYERS_SZABALY_ELLENTMONDAS | T-DOOR-L-BACK | R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0 |
-| Q10_FURNER_HORDOZO | TV-FIELD | 2640.0×1590.0 mm – valódi furnér, függőleges furnérlapok egymás mellé toldva, MDF-hordozóra préselve; hordozó 2800×2070 elég. Nyitott: furnérfaj/szín, toldási mód (slip/book match), présméret ≥ 2640×1590 az asztalosnál, a többi M03 front anyaga a tónusegyezéshez |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | DECK-CONTINUOUS-BAFFLE | R14 jelenet-segédobjektum (befoglaló [870.0, 109.0, 579.0, 2628.0, 4.0, 17.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | DECK-CONTINUOUS-COVER | R14 jelenet-segédobjektum (befoglaló [870.0, 101.0, 592.0, 2628.0, 8.0, 4.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |
 | Q16_GYARTANDO_ELEM_NINCS_A_LISTABAN | LOW-INTERNAL-LIGHT-VISOR | R14 jelenet-segédobjektum (befoglaló [57.0, 359.0, 554.0, 306.0, 5.0, 16.0]) – valós takaró/tálca, anyagjegyzékbe és rétegrendbe veendő |

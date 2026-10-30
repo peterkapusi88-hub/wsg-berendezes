@@ -4,7 +4,7 @@
  "osszesites": {
   "BLOKKOLO": 2,
   "HIBA": 16,
-  "FIGYELMEZTETES": 13,
+  "FIGYELMEZTETES": 12,
   "INFO": 41
  },
  "itelet": "BLOKKOLT – gyártási kiadás tilos",
@@ -314,13 +314,6 @@
    "alkatresz": "T-DOOR-L-BACK",
    "uzenet": "R14 explicit nyers 370×2525 ≠ anyagszabály szerinti 380.0×2535.0",
    "r14_raw_rule": "MDF keret/front: előirányzat +10/+10 mm marási ráhagyás. Melamin: élzárás után értelmezett készméret; nyers méret műhelyi élrendszer után."
-  },
-  {
-   "sulyossag": "FIGYELMEZTETES",
-   "kod": "Q10_FURNER_HORDOZO",
-   "alkatresz": "TV-FIELD",
-   "uzenet": "2640.0×1590.0 mm – valódi furnér, függőleges furnérlapok egymás mellé toldva, MDF-hordozóra préselve; hordozó 2800×2070 elég. Nyitott: furnérfaj/szín, toldási mód (slip/book match), présméret ≥ 2640×1590 az asztalosnál, a többi M03 front anyaga a tónusegyezéshez",
-   "dontes": "Péter, 2026-10-30 12:43 – függőleges erezet marad (GOAL.md 7.)"
   },
   {
    "sulyossag": "FIGYELMEZTETES",

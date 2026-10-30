@@ -37,7 +37,7 @@ A 32 R14 jelenet-segédobjektum is be van sorolva (fényforrás-felület / LED-p
 
 ## QA eredmény (2026-10-30)
 
-**2 BLOKKOLO · 16 HIBA · 13 FIGYELMEZTETÉS · 41 INFO** (a TV-panel erezetdöntése után) – részletek: `qa_report.md`.
+**2 BLOKKOLO · 16 HIBA · 12 FIGYELMEZTETÉS · 41 INFO** (a TV-panel erezetdöntése után) – részletek: `qa_report.md`.
 
 Blokkoló:
 - **BG-1 és BG-FINISH: nyers magasság 2315 < kész 2405 mm.** Az R14 explicit `raw_W` egy korábbi háttérmagasságból maradt; ebből a szabásból a darab nem gyártható le. Ugyanaz a hibatípus, mint az S01 negatív mérete.
@@ -46,7 +46,7 @@ Hiba:
 - **6 fiók: a fiókfenék egy síkban van az oldal alsó élével**, a Blum MOVENTO-hoz ≥ 12 mm (max. 15 mm mély) besüllyesztés kell ([Blum](https://ea.blum.com/en/building-a-movento-drawer/)). Az SKW = LW − 42 és az oldalhossz = NL − 10 egyezik.
 - **BATTEN-1…5:** 8 mm vastag, de anyaga M01 (18 mm bútorlap) – anyag- vagy méretdöntés kell.
 - **T-DOOR-L-BACK:** 12 mm, de M02 (18 mm festett MDF).
-- ~~TV-FIELD erezet~~ → **eldöntve (Péter, 2026-10-30): függőleges marad**, valódi furnér toldva 2800×2070-es MDF-hordozón; most FIGYELMEZTETÉS (furnérfaj, présméret ≥ 2640×1590 nyitott).
+- ~~TV-FIELD erezet~~ → **eldöntve (Péter, 2026-10-30 12:49): vízszintes** – egy darabból kijön 2800×2070-es táblából; a renderek a következő látványkörben igazítandók.
 - **BG-1 szabály-szöveg ↔ adat:** a szöveg kész L = 801 mm-t ír, az adat 811 mm; a BG-FINISH ugyanezt a BG-1-re írt szöveget örökölte.
 - **BG-UPPER-/BG-LOWER-HIDDEN-RETURN:** az R14 layout „módosított fő alkatrésznek” nevezi őket, de sem a listában, sem a modellben nincs ilyen test (a 130/100 mm-es takart túlfutás).
 
@@ -66,6 +66,6 @@ Valós pánt/sín kinematika, ajtónyitás (pántoldal nincs rögzítve), kábel
 3. Élanyag-vastagság és előmarás (mi 1 mm ABS + 1 mm előmarás élenként – becslés), festett MDF ráhagyás (+10/+10 az R14 szerint).
 4. Minta `.mpr` + szerszámtábla (már kérve).
 
-**Péternek:** a TV-FIELD erezete eldöntve (függőleges, furnér). Később: furnérfaj/szín mintáról, és hogy a többi faerezetes front is furnér legyen-e (tónusegyezés).
+**Péternek:** a TV-FIELD erezete eldöntve (vízszintes). Később: faerezetes dekor/termék mintáról.
 
 **Tervezői javítás (2. fázis elején, R15):** fiókfenék besüllyesztés, BG-1/BG-FINISH nyers méret + szöveg, BATTEN és T-DOOR-L-BACK anyag/vastagság, a hiányzó BG-visszafordulások és fénytakarók felvétele a listába.
