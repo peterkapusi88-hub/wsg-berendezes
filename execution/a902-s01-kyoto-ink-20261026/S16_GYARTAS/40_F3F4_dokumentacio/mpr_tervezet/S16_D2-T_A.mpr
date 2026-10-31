@@ -1,0 +1,102 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="389"
+B="337"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="S16_D2-T A-OLDAL FELUL - S16-R15C-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="389"
+YA="32"
+ZA="9"
+BM="XM"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E2:D2-R:0 TERVEZET"
+
+<103 \BohrHoriz\
+XA="389"
+YA="168.5"
+ZA="9"
+BM="XM"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E2:D2-R:1 TERVEZET"
+
+<103 \BohrHoriz\
+XA="389"
+YA="305"
+ZA="9"
+BM="XM"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E2:D2-R:2 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="32"
+ZA="9"
+BM="XP"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E4:D2-L:0 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="168.5"
+ZA="9"
+BM="XP"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E4:D2-L:1 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="305"
+ZA="9"
+BM="XP"
+TI="25"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL D2-T:E4:D2-L:2 TERVEZET"
+

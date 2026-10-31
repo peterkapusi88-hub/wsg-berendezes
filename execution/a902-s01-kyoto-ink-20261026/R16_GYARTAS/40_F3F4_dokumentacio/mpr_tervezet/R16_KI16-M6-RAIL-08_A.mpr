@@ -1,0 +1,102 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="414"
+B="100"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="R16_KI16-M6-RAIL-08 A-OLDAL FELUL - R16-J-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="0"
+YA="20"
+ZA="9"
+BM="XP"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-01:0 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="50"
+ZA="9"
+BM="XP"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-01:1 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="80"
+ZA="9"
+BM="XP"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-01:2 TERVEZET"
+
+<103 \BohrHoriz\
+XA="414"
+YA="20"
+ZA="9"
+BM="XM"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-02:0 TERVEZET"
+
+<103 \BohrHoriz\
+XA="414"
+YA="50"
+ZA="9"
+BM="XM"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-02:1 TERVEZET"
+
+<103 \BohrHoriz\
+XA="414"
+YA="80"
+ZA="9"
+BM="XM"
+TI="22"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_EL KI16-M6-RAIL-08:CSAP:KI16-M6-TV02-S-02:2 TERVEZET"
+

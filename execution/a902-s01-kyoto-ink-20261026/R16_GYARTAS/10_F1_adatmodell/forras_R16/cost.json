@@ -1,0 +1,103 @@
+{
+  "rows": [
+    [
+      "C01",
+      "KI-030 teljes felső csomag: hordozók,toronyfront,nyomat,bronxbetét,minták",
+      1,
+      765500,
+      760000,
+      935500,
+      1200000,
+      "Régi765500 kiváltása; a klipsz/falrögzítés különR15 csomagban."
+    ],
+    [
+      "C02",
+      "KI-031 teljes alsó6fiókos bútor és beépítés",
+      1,
+      350000,
+      770000,
+      985000,
+      1290000,
+      "Régi350000 kiváltása. Korpusz/front250000 +6sínpár210000 +6TIPON/kuplung/stabilizátor180000 +fiókdoboz145000 +műhelymunka200000."
+    ],
+    [
+      "C03",
+      "Plusz1korpusz Camar pár+lemezek",
+      1,
+      0,
+      9000,
+      15000,
+      24000,
+      "R15 hat pár helyett hét pár a toronnyal együtt."
+    ],
+    [
+      "C04",
+      "Belső nyitásérzékelők",
+      8,
+      0,
+      4500,
+      7000,
+      11000,
+      "Häfele833.89.253; darabár becslés, nem HU webshopigazolás."
+    ],
+    [
+      "C05",
+      "Belső24V4.8W LEDszalag rendelt10m",
+      10,
+      0,
+      1800,
+      3000,
+      4500,
+      "Beépülés számított; két5mtekercs, maradék tartalék."
+    ],
+    [
+      "C06",
+      "Belső profil,diffúzor,végzáró,klipsz",
+      10,
+      0,
+      2500,
+      4000,
+      6000,
+      "10m rendelési keret; vágásveszteség és szenzor helye."
+    ],
+    [
+      "C07",
+      "Szenzorcsatlakozók,kábel,ágvédelem",
+      8,
+      0,
+      1500,
+      2500,
+      4000,
+      "Hossz és csatlakozórendszer villanyszerelői egyeztetés."
+    ],
+    [
+      "C08",
+      "Belső fény szerelése és próbája",
+      1,
+      0,
+      30000,
+      50000,
+      80000,
+      "8nyitási kör; nincs beüzemelve."
+    ],
+    [
+      "C09",
+      "Szerviz áttelepítése a toronyba",
+      1,
+      0,
+      15000,
+      35000,
+      65000,
+      "R15 tálcaátalakítás többlete; tápegység nem újra vásárolt."
+    ]
+  ],
+  "R15_conditional_total": 25161190,
+  "master_readback_total": 24673390,
+  "old_main_affected": 1115500,
+  "increment_expected": 1051000,
+  "conditional_expected": 26212190,
+  "conditional_lower": 25720690,
+  "conditional_upper": 26929690,
+  "note": "MindenR16ár becslés. A tartomány csak e változtatás bizonytalanságát fedi, az egész projekt többi nyitott árát nem. Főregiszter eredetije megőrizve. Nincs duplán6régi ajtó: teljes KI031csere. A régiR15kötőelemcsomag átfedését nem vontuk le bizonyíték nélkül.",
+  "reserve": 2000000
+}

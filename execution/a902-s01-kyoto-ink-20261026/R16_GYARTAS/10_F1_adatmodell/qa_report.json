@@ -1,0 +1,226 @@
+{
+ "datum": "2026-10-30",
+ "modell_revizio": "R16-J-GY-v1",
+ "osszesites": {
+  "HIBA": 1,
+  "FIGYELMEZTETES": 12,
+  "INFO": 13
+ },
+ "itelet": "NEM KIADHATÓ – HIBA javítandó",
+ "meta": {
+  "alkatresz": 106,
+  "vizsgalt_utkozo_par": 0,
+  "frontres_sorok": [
+   [
+    "KI12-TV01F-01",
+    "KI12-TV01F-02",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV01F-01",
+    "KI12-TV02F1-01",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV01F-02",
+    "KI12-TV02F1-01",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV02F1-01",
+    "KI12-TV02F2-01",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV02F2-01",
+    "KI12-TV02F2-02",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV02F2-02",
+    "KI12-TV02F2-03",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV02F2-03",
+    "KI12-TV02F2-04",
+    3.0,
+    0.0
+   ],
+   [
+    "KI12-TV02F2-04",
+    "KI16-M6-FRONT-04",
+    3.0,
+    0.0
+   ]
+  ],
+  "geometria_forrasok": {
+   "R16_doboz": 99,
+   "R14_kontur_extrudalas": 7
+  }
+ },
+ "tetelek": [
+  {
+   "sulyossag": "HIBA",
+   "kod": "Q18_MENNYEZETI_RES",
+   "alkatresz": "bútortest",
+   "uzenet": "legmagasabb pont Z=2880, rés a névleges 2900 mm-es mennyezetig 20 mm (helyszíni felmérés még nincs)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-03",
+   "uzenet": "R16 listázott [212, 48, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-04",
+   "uzenet": "R16 listázott [212, 48, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-05",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-06",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-07",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-08",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-09",
+   "uzenet": "R16 listázott [212, 408, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-10",
+   "uzenet": "R16 listázott [212, 408, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-11",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI14-BAT-12",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI16-M6-BAT-06",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "FIGYELMEZTETES",
+   "kod": "Q05R_R16_LISTA_JAVITVA",
+   "alkatresz": "KI16-M6-BAT-07",
+   "uzenet": "R16 listázott [212, -222, 18] hibás → kész 18×212×18 a befoglalóból (javitasi_naplo.json)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D1",
+   "uzenet": "LW 684, SKW 642, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D2",
+   "uzenet": "LW 414, SKW 372, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D3",
+   "uzenet": "LW 414, SKW 372, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D4",
+   "uzenet": "LW 1044, SKW 1002, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D5",
+   "uzenet": "LW 414, SKW 372, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q13_FIOK_OK",
+   "alkatresz": "D6",
+   "uzenet": "LW 414, SKW 372, oldal 290 (NL 300), fenék besüllyesztés 13 mm – MOVENTO szabályok szerint"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D1",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D2",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D3",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D4",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D5",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q14_FIOK_MOZGAS_OK",
+   "alkatresz": "D6",
+   "uzenet": "300 mm névleges kihúzás 25/50/75/100%-on ütközésmentes (csak tömör alkatrészek; sín, kábel, LED-profil nincs benne)"
+  },
+  {
+   "sulyossag": "INFO",
+   "kod": "Q21_SZERSZAM_NINCS",
+   "alkatresz": "KIMETSZES",
+   "uzenet": "14 művelet szerszám-hozzárendelés nélkül – MPR nem generálható"
+  }
+ ]
+}

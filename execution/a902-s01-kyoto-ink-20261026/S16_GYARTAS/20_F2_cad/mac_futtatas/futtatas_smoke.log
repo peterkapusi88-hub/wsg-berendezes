@@ -1,0 +1,136 @@
+== v2 Fri 30 Oct 2026 14:18:37 CET
+Attribute Qt::AA_PluginApplication must be set before QCoreApplication is created.
+Redirect stdout (file: /var/tmp/accc39451WX3Ptn).
+AcCoreConsole: StdOutConsoleMode: processed-output: enabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.119.M.246)
+
+Execution Path:
+/Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Helpers/AcCoreConsole.app
+Current Directory: /Users/peterkapusi/CAD/S16_R15
+Isolating to regkey=s16r15smoke, userDataFolder=/private/tmp/s16r15smoke.
+
+INFO: Isolation create time: 246 ms.
+
+Version Number: X.119.M.246 (UNICODE)
+LogFilePath has been set to the working folder.
+.
+Drawing created using acadiso.dwt from AutoCAD profile: <<Unnamed Profile>>
+; error: File load canceled: /Applications/Autodesk/AutoCAD 2027/AutoCAD 2027.app/Contents/Resources/Support/@en@/acad2027.LSP
+Command: 
+Command: 
+Command: 
+Command: (setvar "FILEDIA" 0)
+0
+Command: (setvar "CMDECHO" 0)
+0
+Command: (defun s16-env () (setvar "CMDECHO" 0) (setvar "OSMODE" 0) (setvar "INSUNITS" 4) (setvar "DELOBJ" 1) (command "_.UCS" "_W"))
+S16-ENV
+Command: (defun s16-layer (name col) (if (not (tblsearch "LAYER" name)) (command "_.-LAYER" "_M" name "_C" (itoa col) "" "") (command "_.-LAYER" "_S" name "")) (setvar "CLAYER" name))
+S16-LAYER
+Command: (defun s16-box (x y z dx dy dz) (command "_.BOX" (list x y z) (list (+ x dx) (+ y dy) (+ z dz))) (entlast))
+S16-BOX
+Command: (defun s16-lwpoly (pts / d) (setq d (list '(0 . "LWPOLYLINE") '(100 . "AcDbEntity") '(100 . "AcDbPolyline") (cons 90 (length pts)) '(70 . 1))) (foreach p pts (setq d (append d (list (list 10 (car p) (cadr p)) (cons 42 (caddr p)))))) (entmake d) (entlast))
+S16-LWPOLY
+Command: (defun s16-extrude-y (pts tt x0 y0 z0 / pl s) (setq pl (s16-lwpoly pts)) (command "_.EXTRUDE" pl "" tt) (setq s (entlast)) (command "_.ROTATE3D" s "" "_X" '(0 0 0) 90) (command "_.MOVE" s "" '(0 0 0) (list x0 y0 z0)) s)
+S16-EXTRUDE-Y
+Command: (defun s16-sub (a b) (command "_.SUBTRACT" a "" b "") a)
+S16-SUB
+Command: (defun s16-copy (e / last) (setq last (entlast)) (command "_.COPY" e "" '(0 0 0) '(0 0 0)) (entlast))
+S16-COPY
+Command: (defun s16-safe (s / r i c) (setq r "" i 1) (while (<= i (strlen s)) (setq c (substr s i 1)) (setq r (strcat r (if (member c '("$" "#")) "_" c)) i (1+ i))) r)
+S16-SAFE
+Command: (defun s16-readback (dir / ss i e lay n) (setvar "FILEDIA" 0) (setq ss (ssget "_X" '((0 . "3DSOLID"))) i 0 n 0) (if ss (while (< i (sslength ss)) (setq e (ssname ss i) lay (cdr (assoc 8 (entget e)))) (if (= (substr lay 1 6) "$PART_") (progn (command "_.MASSPROP" e "" "_Y" (strcat dir "/" (s16-safe lay))) (setq n (1+ n)))) (setq i (1+ i)))) (setvar "FILEDIA" 1) (princ (strcat "\nS16 readback: " (itoa n) " test kiirva ide: " dir)) (princ))
+S16-READBACK
+Command: (defun s16-smoketest ( / a b c) (s16-env) (s16-layer "$PART_SMOKE_BOX#0000" 3) (setq a (s16-box 0 -300 0 400 18 600)) (s16-layer "$PART_SMOKE_ARC#0000" 4) (setq c (s16-extrude-y (list (list 0 0 0) (list 100 0 0.414213562) (list 200 100 0) (list 200 200 0) (list 0 200 0)) 18 600 -18 0)) (s16-layer "$PART_SMOKE_SUB#0000" 5) (setq a (s16-box 1000 -300 0 400 18 600)) (setq b (s16-box 1100 -310 100 200 38 400)) (s16-sub a b) (command "_.ZOOM" "_E") (princ "\nS16 smoketest kesz: 3 test. Futtasd: (s16-readback \"<mappa>\")") (princ))
+S16-SMOKETEST
+Command: (s16-smoketest)
+Current positive angle:  ANGDIR=counterclockwise  ANGBASE=0
+S16 smoketest kesz: 3 test. Futtasd: (s16-readback "<mappa>")
+Command: (s16-readback "/Users/peterkapusi/CAD/S16_R15/readback_smoke")
+ ----------------   SOLIDS    ---------------- 
+Mass:                    2880000.0000 
+Volume:                  2880000.0000 
+Bounding box:         X: 1000.0000  --  1400.0000 
+                      Y: -300.0000  --  -282.0000 
+                      Z: 0.0000  --  600.0000 
+Centroid:             X: 1200.0000 
+                      Y: -291.0000 
+                      Z: 300.0000 
+Moments of inertia:   X: 6.1356E+11  
+                      Y: 4.5696E+12  
+                      Z: 4.4440E+12  
+Products of inertia: XY: 1.0057E+12  
+                     YZ: 2.5142E+11  
+                     ZX: -1.0368E+12  
+Radii of gyration:    X: 461.5640 
+                      Y: 1259.6296 
+                      Z: 1242.1921 
+Principal moments and X-Y-Z directions about centroid:
+                      I: 1.1048E+11 along [1.0000 0.0000 0.0000]
+                      J: 1.6320E+11 along [0.0000 1.0000 0.0000]
+                      K: 52877760000.0000 along [0.0000 0.0000 1.0000]
+ ----------------   SOLIDS    ---------------- 
+Mass:                    681371.6694 
+Volume:                  681371.6694 
+Bounding box:         X: 600.0000  --  800.0000 
+                      Y: -36.0000  --  -18.0000 
+                      Z: 0.0000  --  200.0000 
+Centroid:             X: 695.5971 
+                      Y: -27.0000 
+                      Z: 104.4029 
+Moments of inertia:   X: 10082262849.5985  
+                      Y: 3.4139E+11  
+                      Z: 3.3234E+11  
+Products of inertia: XY: 12796924550.8598  
+                     YZ: 1920703507.3666  
+                     ZX: -4.9721E+10  
+Radii of gyration:    X: 121.6430 
+                      Y: 707.8400 
+                      Z: 698.3927 
+Principal moments and X-Y-Z directions about centroid:
+                      I: 2396826208.5467 along [0.7071 0.0000 -0.7071]
+                      J: 4280441046.2160 along [0.0000 1.0000 0.0000]
+                      K: 1920408907.8149 along [0.7071 0.0000 0.7071]
+ ----------------   SOLIDS    ---------------- 
+Mass:                    4320000.0000 
+Volume:                  4320000.0000 
+Bounding box:         X: 0.0000  --  400.0000 
+                      Y: -300.0000  --  -282.0000 
+                      Z: 0.0000  --  600.0000 
+Centroid:             X: 200.0000 
+                      Y: -291.0000 
+                      Z: 300.0000 
+Moments of inertia:   X: 8.8434E+11  
+                      Y: 7.4880E+11  
+                      Z: 5.9634E+11  
+Products of inertia: XY: 2.5142E+11  
+                     YZ: 3.7714E+11  
+                     ZX: -2.5920E+11  
+Radii of gyration:    X: 452.4467 
+                      Y: 416.3332 
+                      Z: 371.5391 
+Principal moments and X-Y-Z directions about centroid:
+                      I: 1.2972E+11 along [1.0000 0.0000 0.0000]
+                      J: 1.8720E+11 along [0.0000 1.0000 0.0000]
+                      K: 57716640000.0000 along [0.0000 0.0000 1.0000]
+S16 readback: 3 test kiirva ide: /Users/peterkapusi/CAD/S16_R15/readback_smoke
+Command: (command "_.SAVEAS" "2018" "/Users/peterkapusi/CAD/S16_R15/S16_R15_smoke.dwg")
+nil
+Command: (princ "S16_SAVE_DONE")
+S16_SAVE_DONE"S16_SAVE_DONE"
+Command: _.QUIT
+_Y
+Really want to discard all changes to drawing? <N> _Y== kilepesi kod: 0
+== readback:
+-rw-r--r--  1 peterkapusi  staff  40990 30 Oct 14:18 /Users/peterkapusi/CAD/S16_R15/S16_R15_smoke.dwg
+
+/Users/peterkapusi/CAD/S16_R15/readback_smoke:
+total 24
+-rw-r--r--   1 peterkapusi  staff  1017 30 Oct 14:18 _PART_SMOKE_ARC_0000.mpr
+-rw-r--r--   1 peterkapusi  staff   993 30 Oct 14:18 _PART_SMOKE_BOX_0000.mpr
+-rw-r--r--   1 peterkapusi  staff  1000 30 Oct 14:18 _PART_SMOKE_SUB_0000.mpr
+drwxr-xr-x@  5 peterkapusi  staff   160 30 Oct 14:18 .
+drwx------@ 13 peterkapusi  staff   416 30 Oct 14:18 ..
+/Users/peterkapusi/CAD/S16_R15/S16_smoke_v2.command: line 18: 39452 Terminated: 15          ( sleep $T; if kill -0 $PID 2> /dev/null; then
+    echo "== IDOTULLEPES ($T s) - leallitas"; kill $PID;
+fi )

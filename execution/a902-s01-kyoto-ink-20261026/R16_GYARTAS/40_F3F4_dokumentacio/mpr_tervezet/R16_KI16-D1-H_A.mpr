@@ -1,0 +1,74 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="642"
+B="222"
+D="15"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="R16_KI16-D1-H A-OLDAL FELUL - R16-J-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="0"
+YA="45"
+ZA="7.5"
+BM="XP"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_ELO_HAT_PILOT R16H0393+R16H0394 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="175"
+ZA="7.5"
+BM="XP"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_ELO_HAT_PILOT R16H0395+R16H0396 TERVEZET"
+
+<103 \BohrHoriz\
+XA="642"
+YA="45"
+ZA="7.5"
+BM="XM"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_ELO_HAT_PILOT R16H0407+R16H0408 TERVEZET"
+
+<103 \BohrHoriz\
+XA="642"
+YA="175"
+ZA="7.5"
+BM="XM"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_ELO_HAT_PILOT R16H0409+R16H0410 TERVEZET"
+

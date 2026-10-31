@@ -1,4 +1,4 @@
-# S16 F1 – QA-jelentés (S16-R15-GY-v1)
+# S16 F1 – QA-jelentés (S16-R15C-GY-v1)
 
 Generálva: 2026-10-30 · `qa_parts_v1.py` · forrás: `parts_v1.json` (129 alkatrész)
 
@@ -11,7 +11,7 @@ Generálva: 2026-10-30 · `qa_parts_v1.py` · forrás: `parts_v1.json` (129 alka
 | FIGYELMEZTETES | 2 |
 | INFO | 44 |
 
-Geometria-forrás: {'R14_zart_halo': 126, 'doboz_minusz_kimetszes': 1, 'R14_kontur_extrudalas': 2} · vizsgált ütköző pár (befoglaló-átfedéssel): 27
+Geometria-forrás: {'R14_zart_halo': 127, 'doboz_minusz_kimetszes': 1, 'R14_kontur_extrudalas': 1} · vizsgált ütköző pár (befoglaló-átfedéssel): 25
 
 ## FIGYELMEZTETES (2)
 
