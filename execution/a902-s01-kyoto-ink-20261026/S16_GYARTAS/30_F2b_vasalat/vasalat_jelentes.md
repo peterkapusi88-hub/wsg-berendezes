@@ -4,6 +4,8 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 
 | Furat-funkció | db |
 |---|---|
+| FIOK_DOBOZ_CSAVAR_ATMENO | 84 |
+| FIOK_DOBOZ_CSAVAR_ELOFURAS | 84 |
 | MINIFIX_CSAP | 22 |
 | MINIFIX_CSATORNA | 22 |
 | MINIFIX_HAZ | 22 |
@@ -18,6 +20,7 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 
 | Kötés | db |
 |---|---|
+| FIOKDOBOZ_CSAVAR | 36 |
 | TIPLI | 25 |
 | TIPLI+MINIFIX | 11 |
 | TIPLI_EL_EL | 1 |
@@ -58,6 +61,42 @@ Generálva: 2026-10-30 · `f2b_vasalat.py` · státusz: TERVI
 | FRAME-B-R | E1 | FRAME-B-BOT | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
 | FRAME-B-R | E3 | FRAME-B-TOP | TIPLI_EL_EL_KERETLEC | 18×18 festett MDF keretlécek tompa illesztése: 1 db Ø6×30 bükk tipli + ragasztás – Claude döntés |
 | T-LOW-DIV | E1 | CURVE-T-BOT | TIPLI+MINIFIX | íves héj: tipli + 2 Minifix 15 (bontható, rejtett) + ragasztás – Claude döntés |
+| D1-BOX-L |  | D1-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D1-BOX-R |  | D1-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D1-BOX-L |  | D1-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D1-BOX-R |  | D1-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D1-BOX-L |  | D1-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D1-BOX-R |  | D1-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-L |  | D2-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-R |  | D2-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-L |  | D2-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-R |  | D2-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-L |  | D2-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D2-BOX-R |  | D2-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-L |  | D3-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-R |  | D3-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-L |  | D3-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-R |  | D3-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-L |  | D3-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D3-BOX-R |  | D3-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-L |  | D4-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-R |  | D4-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-L |  | D4-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-R |  | D4-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-L |  | D4-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D4-BOX-R |  | D4-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-L |  | D5-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-R |  | D5-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-L |  | D5-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-R |  | D5-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-L |  | D5-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D5-BOX-R |  | D5-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-L |  | D6-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-R |  | D6-BOX-F | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-L |  | D6-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-R |  | D6-BOX-H | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-L |  | D6-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
+| D6-BOX-R |  | D6-BOX-B | FIOKDOBOZ_CSAVAR | oldalon át 4×35 csavar + ragasztás |
 
 ## Paraméterek és források
 

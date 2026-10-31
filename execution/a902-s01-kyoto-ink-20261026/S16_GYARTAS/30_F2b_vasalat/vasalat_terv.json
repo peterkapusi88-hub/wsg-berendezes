@@ -11574,6 +11574,664 @@
    ]
   },
   {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    474.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    474.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    474.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    474.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    474.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    474.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    459.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    474.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    831.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.25",
+   "helyi": [
+    357.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    831.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.75",
+   "helyi": [
+    357.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    831.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.25",
+   "helyi": [
+    357.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    831.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.75",
+   "helyi": [
+    357.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    831.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.2",
+   "helyi": [
+    357.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    831.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.5",
+   "helyi": [
+    357.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    846.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D1-BOX-B",
+   "cel": "él",
+   "start": [
+    831.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.8",
+   "helyi": [
+    357.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
    "alkatresz": "D2-L",
    "cel": "lap (belső)",
    "start": [
@@ -11755,6 +12413,664 @@
     0.0,
     7.0,
     11.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    909.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    909.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    909.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    909.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    909.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    909.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    894.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    909.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1256.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1256.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1256.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1256.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    1256.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.2",
+   "helyi": [
+    347.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    1256.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.5",
+   "helyi": [
+    347.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1271.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D2-BOX-B",
+   "cel": "él",
+   "start": [
+    1256.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.8",
+   "helyi": [
+    347.0,
+    58.0,
+    7.5
    ]
   },
   {
@@ -11942,6 +13258,664 @@
    ]
   },
   {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1334.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1334.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1334.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1334.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1334.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1334.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1319.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1334.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1681.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1681.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1681.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1681.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1681.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.2",
+   "helyi": [
+    347.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1681.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.5",
+   "helyi": [
+    347.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    1696.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D3-BOX-B",
+   "cel": "él",
+   "start": [
+    1681.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.8",
+   "helyi": [
+    347.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
    "alkatresz": "D4-L",
    "cel": "lap (belső)",
    "start": [
@@ -12123,6 +14097,664 @@
     0.0,
     7.0,
     11.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1759.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    1759.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1759.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    1759.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    1759.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    1759.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    1744.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    1759.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    2711.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.25",
+   "helyi": [
+    952.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    2711.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.75",
+   "helyi": [
+    952.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    2711.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.25",
+   "helyi": [
+    952.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    2711.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.75",
+   "helyi": [
+    952.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    2711.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.2",
+   "helyi": [
+    952.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    2711.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.5",
+   "helyi": [
+    952.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    2726.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D4-BOX-B",
+   "cel": "él",
+   "start": [
+    2711.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.8",
+   "helyi": [
+    952.0,
+    58.0,
+    7.5
    ]
   },
   {
@@ -12310,6 +14942,664 @@
    ]
   },
   {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    2789.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    2789.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    2789.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    2789.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    2789.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    2789.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    2774.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    2789.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3136.0,
+    362.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3136.0,
+    362.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    79.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3136.0,
+    87.5,
+    289.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.25",
+   "helyi": [
+    347.0,
+    52.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    184.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3136.0,
+    87.5,
+    394.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.75",
+   "helyi": [
+    347.0,
+    157.5,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    3136.0,
+    138.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.2",
+   "helyi": [
+    347.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    3136.0,
+    225.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.5",
+   "helyi": [
+    347.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3151.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D5-BOX-B",
+   "cel": "él",
+   "start": [
+    3136.0,
+    312.0,
+    229.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.8",
+   "helyi": [
+    347.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
    "alkatresz": "D6-L",
    "cel": "lap (belső)",
    "start": [
@@ -12491,6 +15781,664 @@
     0.0,
     7.0,
     11.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    362.5,
+    315.75
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    70.75,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3214.0,
+    362.5,
+    315.75
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.25",
+   "helyi": [
+    0.0,
+    43.75,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    362.5,
+    403.25
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    158.25,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3214.0,
+    362.5,
+    403.25
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.75",
+   "helyi": [
+    0.0,
+    131.25,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    87.5,
+    315.75
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    70.75,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3214.0,
+    87.5,
+    315.75
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.25",
+   "helyi": [
+    0.0,
+    43.75,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    87.5,
+    403.25
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    158.25,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3214.0,
+    87.5,
+    403.25
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.75",
+   "helyi": [
+    0.0,
+    131.25,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    138.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3214.0,
+    138.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.2",
+   "helyi": [
+    0.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    225.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3214.0,
+    225.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.5",
+   "helyi": [
+    0.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-L",
+   "cel": "lap (külső)",
+   "start": [
+    3199.0,
+    312.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    15.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3214.0,
+    312.0,
+    264.5
+   ],
+   "irany": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.8",
+   "helyi": [
+    0.0,
+    58.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    362.5,
+    315.75
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.25",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    70.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3561.0,
+    362.5,
+    315.75
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.25",
+   "helyi": [
+    347.0,
+    43.75,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    362.5,
+    403.25
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.75",
+   "atmeno": true,
+   "helyi": [
+    282.5,
+    158.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-F",
+   "cel": "él (vég)",
+   "start": [
+    3561.0,
+    362.5,
+    403.25
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.75",
+   "helyi": [
+    347.0,
+    131.25,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    87.5,
+    315.75
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.25",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    70.75,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3561.0,
+    87.5,
+    315.75
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.25",
+   "helyi": [
+    347.0,
+    43.75,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    87.5,
+    403.25
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.75",
+   "atmeno": true,
+   "helyi": [
+    7.5,
+    158.25,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-H",
+   "cel": "él (vég)",
+   "start": [
+    3561.0,
+    87.5,
+    403.25
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.75",
+   "helyi": [
+    347.0,
+    131.25,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    138.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.2",
+   "atmeno": true,
+   "helyi": [
+    58.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3561.0,
+    138.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.2",
+   "helyi": [
+    347.0,
+    232.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    225.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.5",
+   "atmeno": true,
+   "helyi": [
+    145.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3561.0,
+    225.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.5",
+   "helyi": [
+    347.0,
+    145.0,
+    7.5
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-R",
+   "cel": "lap (külső)",
+   "start": [
+    3576.0,
+    312.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 4.5,
+   "melyseg": 15,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ATMENO",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.8",
+   "atmeno": true,
+   "helyi": [
+    232.0,
+    19.5,
+    0.0
+   ]
+  },
+  {
+   "alkatresz": "D6-BOX-B",
+   "cel": "él",
+   "start": [
+    3561.0,
+    312.0,
+    264.5
+   ],
+   "irany": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "d": 2.5,
+   "melyseg": 20.0,
+   "funkcio": "FIOK_DOBOZ_CSAVAR_ELOFURAS",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.8",
+   "helyi": [
+    347.0,
+    58.0,
+    7.5
    ]
   }
  ],
@@ -15814,6 +19762,90 @@
    "kapcsolat": "T-DOOR-R:PANT:4"
   },
   {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-L:D1-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:DOBOZ:D1-BOX-R:D1-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D1:FENEK:D1-BOX-R:0.8",
+   "db": 1
+  },
+  {
    "tipus": "760H3000S",
    "cikkszam": "Blum MOVENTO 760H3000S sínpár NL300 (csavarozva, sablon T65.1600.01)",
    "kapcsolat": "D1",
@@ -15838,6 +19870,90 @@
    "db": 1
   },
   {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-L:D2-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:DOBOZ:D2-BOX-R:D2-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D2:FENEK:D2-BOX-R:0.8",
+   "db": 1
+  },
+  {
    "tipus": "760H3000S",
    "cikkszam": "Blum MOVENTO 760H3000S sínpár NL300 (csavarozva, sablon T65.1600.01)",
    "kapcsolat": "D2",
@@ -15862,6 +19978,90 @@
    "db": 1
   },
   {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-L:D3-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:DOBOZ:D3-BOX-R:D3-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D3:FENEK:D3-BOX-R:0.8",
+   "db": 1
+  },
+  {
    "tipus": "760H3000S",
    "cikkszam": "Blum MOVENTO 760H3000S sínpár NL300 (csavarozva, sablon T65.1600.01)",
    "kapcsolat": "D3",
@@ -15883,6 +20083,90 @@
    "tipus": "SZINKRON",
    "cikkszam": "T60.1125W + 2×T60.000D – szinkronrúd vágási méret: 122 mm",
    "kapcsolat": "D3",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-L:D4-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:DOBOZ:D4-BOX-R:D4-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D4:FENEK:D4-BOX-R:0.8",
    "db": 1
   },
   {
@@ -15910,6 +20194,90 @@
    "db": 1
   },
   {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-L:D5-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:DOBOZ:D5-BOX-R:D5-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D5:FENEK:D5-BOX-R:0.8",
+   "db": 1
+  },
+  {
    "tipus": "760H3000S",
    "cikkszam": "Blum MOVENTO 760H3000S sínpár NL300 (csavarozva, sablon T65.1600.01)",
    "kapcsolat": "D5",
@@ -15931,6 +20299,90 @@
    "tipus": "SZINKRON",
    "cikkszam": "T60.1125W + 2×T60.000D – szinkronrúd vágási méret: 122 mm",
    "kapcsolat": "D5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-L:D6-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-L:0.8",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-F:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.25",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:DOBOZ:D6-BOX-R:D6-BOX-H:0.75",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.2",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.5",
+   "db": 1
+  },
+  {
+   "tipus": "CSAVAR_4x35",
+   "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)",
+   "kapcsolat": "D6:FENEK:D6-BOX-R:0.8",
    "db": 1
   },
   {
@@ -16403,6 +20855,258 @@
    "tipus": "TIPLI",
    "db": 3,
    "szakasz_mm": 337.0
+  },
+  {
+   "A": "D1-BOX-L",
+   "B": "D1-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D1-BOX-R",
+   "B": "D1-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D1-BOX-L",
+   "B": "D1-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D1-BOX-R",
+   "B": "D1-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D1-BOX-L",
+   "B": "D1-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D1-BOX-R",
+   "B": "D1-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-L",
+   "B": "D2-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-R",
+   "B": "D2-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-L",
+   "B": "D2-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-R",
+   "B": "D2-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-L",
+   "B": "D2-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D2-BOX-R",
+   "B": "D2-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-L",
+   "B": "D3-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-R",
+   "B": "D3-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-L",
+   "B": "D3-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-R",
+   "B": "D3-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-L",
+   "B": "D3-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D3-BOX-R",
+   "B": "D3-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-L",
+   "B": "D4-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-R",
+   "B": "D4-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-L",
+   "B": "D4-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-R",
+   "B": "D4-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-L",
+   "B": "D4-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D4-BOX-R",
+   "B": "D4-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-L",
+   "B": "D5-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-R",
+   "B": "D5-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-L",
+   "B": "D5-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-R",
+   "B": "D5-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-L",
+   "B": "D5-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D5-BOX-R",
+   "B": "D5-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-L",
+   "B": "D6-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-R",
+   "B": "D6-BOX-F",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-L",
+   "B": "D6-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-R",
+   "B": "D6-BOX-H",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 2,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-L",
+   "B": "D6-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
+  },
+  {
+   "A": "D6-BOX-R",
+   "B": "D6-BOX-B",
+   "tipus": "FIOKDOBOZ_CSAVAR",
+   "db": 3,
+   "ok": "oldalon át 4×35 csavar + ragasztás"
   }
  ],
  "konnektorok": [

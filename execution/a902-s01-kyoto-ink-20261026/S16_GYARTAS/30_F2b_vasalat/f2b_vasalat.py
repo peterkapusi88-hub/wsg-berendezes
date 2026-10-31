@@ -367,6 +367,46 @@ def main():
             pt = np.array([x0 + sgn * mv["horog_kulso_oldaltol"], box["befoglalo_globalis"][1], box["befoglalo_globalis"][2] + mv["horog_alulrol"]])
             holes.append(hole(box["id"], "hátsó él", pt, vec("+Y"), mv["horog_d"], mv["horog_m"], "MOVENTO_HOROG", f"{m}:HOROG:{box['id']}",
                               helyi=local_of(FR[box["id"]], pt)))
+        # fiókdoboz-kötés (15 mm nyír rétegelt): az oldalon át csavar az elő/hátlap végébe és a fenék élébe
+        #   oldal: Ø4,5 átmenő (süllyesztve), a fogadó darab végében Ø2,5×20 előfúrás – az R16 fiókjaival azonos rendszer
+        fb = R.get(f"{m}-BOX-B")
+        for box, sgn in ((bl, 1), (br, -1)):
+            bx = box["befoglalo_globalis"]
+            xo = bx[0] if sgn > 0 else bx[0] + bx[3]          # külső lapsík
+            xi = bx[0] + bx[3] if sgn > 0 else bx[0]          # belső lapsík
+            into = vec("+X") * sgn
+            for rid in (f"{m}-BOX-F", f"{m}-BOX-H"):
+                r_ = R.get(rid)
+                if not r_:
+                    continue
+                rb = r_["befoglalo_globalis"]
+                yc = rb[1] + rb[4] / 2
+                for f_ in (0.25, 0.75):
+                    zc = rb[2] + rb[5] * f_
+                    tag = f"{m}:DOBOZ:{box['id']}:{rid}:{f_}"
+                    holes.append(hole(box["id"], "lap (külső)", np.array([xo, yc, zc]), into, 4.5, bx[3], "FIOK_DOBOZ_CSAVAR_ATMENO", tag,
+                                      atmeno=True, helyi=local_of(FR[box["id"]], np.array([xo, yc, zc]))))
+                    holes.append(hole(rid, "él (vég)", np.array([xi, yc, zc]), into, 2.5, 20.0, "FIOK_DOBOZ_CSAVAR_ELOFURAS", tag,
+                                      helyi=local_of(FR[rid], np.array([xi, yc, zc]))))
+                    hardware.append({"tipus": "CSAVAR_4x35", "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)", "kapcsolat": tag, "db": 1})
+            if fb:
+                fbb = fb["befoglalo_globalis"]
+                zc = fbb[2] + fbb[5] / 2
+                for f_ in (0.2, 0.5, 0.8):
+                    yc = fbb[1] + fbb[4] * f_
+                    tag = f"{m}:FENEK:{box['id']}:{f_}"
+                    holes.append(hole(box["id"], "lap (külső)", np.array([xo, yc, zc]), into, 4.5, bx[3], "FIOK_DOBOZ_CSAVAR_ATMENO", tag,
+                                      atmeno=True, helyi=local_of(FR[box["id"]], np.array([xo, yc, zc]))))
+                    holes.append(hole(fb["id"], "él", np.array([xi, yc, zc]), into, 2.5, 20.0, "FIOK_DOBOZ_CSAVAR_ELOFURAS", tag,
+                                      helyi=local_of(FR[fb["id"]], np.array([xi, yc, zc]))))
+                    hardware.append({"tipus": "CSAVAR_4x35", "cikkszam": "faforgácscsavar 4×35 süllyesztett fejű (fiókdoboz)", "kapcsolat": tag, "db": 1})
+        kotesek.append({"A": bl["id"], "B": f"{m}-BOX-F", "tipus": "FIOKDOBOZ_CSAVAR", "db": 2, "ok": "oldalon át 4×35 csavar + ragasztás"})
+        kotesek.append({"A": br["id"], "B": f"{m}-BOX-F", "tipus": "FIOKDOBOZ_CSAVAR", "db": 2, "ok": "oldalon át 4×35 csavar + ragasztás"})
+        kotesek.append({"A": bl["id"], "B": f"{m}-BOX-H", "tipus": "FIOKDOBOZ_CSAVAR", "db": 2, "ok": "oldalon át 4×35 csavar + ragasztás"})
+        kotesek.append({"A": br["id"], "B": f"{m}-BOX-H", "tipus": "FIOKDOBOZ_CSAVAR", "db": 2, "ok": "oldalon át 4×35 csavar + ragasztás"})
+        if fb:
+            kotesek.append({"A": bl["id"], "B": fb["id"], "tipus": "FIOKDOBOZ_CSAVAR", "db": 3, "ok": "oldalon át 4×35 csavar + ragasztás"})
+            kotesek.append({"A": br["id"], "B": fb["id"], "tipus": "FIOKDOBOZ_CSAVAR", "db": 3, "ok": "oldalon át 4×35 csavar + ragasztás"})
         for t, c, db in (("760H3000S", "Blum MOVENTO 760H3000S sínpár NL300 (csavarozva, sablon T65.1600.01)", 1),
                          ("T51.7601", "Blum MOVENTO frontrögzítő pár T51.7601 (sablonnal előfúrva Ø2,5×10, 75°)", 1),
                          ("TIP-ON", f"Blum TIP-ON BLUMOTION {dr.get('tipon', 'T60L7140')} (szerszám nélkül a sínre)", 1),
@@ -390,7 +430,7 @@ def main():
         inside = contains_robust(sol, inner)
         if not inside.all():
             problems.append({"sulyossag": "BLOKKOLO", "alkatresz": pid, "uzenet": f"{h['funkcio']} furat ({h['kapcsolat']}) részben az anyagon kívül"})
-        if h["funkcio"] not in ("TIPLI_EL",) and not sol.contains(behind[None, :])[0]:
+        if h["funkcio"] not in ("TIPLI_EL",) and not h.get("atmeno") and not sol.contains(behind[None, :])[0]:
             problems.append({"sulyossag": "HIBA", "alkatresz": pid, "uzenet": f"{h['funkcio']} ({h['kapcsolat']}): a furat mögött < {P['min_maradek']} mm anyag marad (átfúrás veszélye)"})
 
     out = {"modell_revizio": doc["modell_revizio"], "datum": date.today().isoformat(), "generator": "f2b_vasalat.py",
@@ -416,7 +456,7 @@ def main():
         seen.add(key)
         L.append(f"| {p['sulyossag']} | {p['alkatresz']} | {p['uzenet']} |")
     L += ["", "## Nem tiplis kapcsolatok (külön kötés kell)", "", "| A | él | B | típus | ok |", "|---|---|---|---|---|"]
-    L += [f"| {k['A']} | {k['el']} | {k['B']} | {k['tipus']} | {k['ok']} |" for k in kotesek if k["tipus"] != "TIPLI"]
+    L += [f"| {k['A']} | {k.get('el', '')} | {k['B']} | {k['tipus']} | {k.get('ok', '')} |" for k in kotesek if k["tipus"] != "TIPLI"]
     L += ["", "## Paraméterek és források", "", "```json", json.dumps(P, ensure_ascii=False, indent=1), "```"]
     (HERE / "vasalat_jelentes.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("furatok:", dict(fc), "| kötések:", dict(kc), "| problémák:", dict(pc))
