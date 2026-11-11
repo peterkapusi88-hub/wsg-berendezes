@@ -56,3 +56,8 @@ Minden új render/szállított kép előtt és után kövesd az `ai-coordination
 - **Keret:** A-811/A-812 10–10 M Ft, A-902 20 M Ft bruttó, alap: 18 M költés + 2 M elkülönített tartalék. Péter szerint a Zenit/Lake Forest kivételesen erős minőségéért kb. 1 M Ft többletet is érdemes lehet mérlegelni; ezt **csak külön, feltételes forgatókönyvként** mutasd, az alapkeretet/tartalékot ne írd át, és valódi többletköltést csak összeg- és forrásjóváhagyással engedj.
 - **Könnyű bútortömeg-próba:** a méretarányos PDF/PNG alaprajzból egyszerű, ingyenesen kipróbálható kattintós alaprajzprogram (pl. Floorplanner vagy Sweet Home 3D); a terv legyen mérethelyesen kalibrált, de a programban rajzolt objektum nem helyettesíti a Blender-lockot/validátort. A végleges Blender-modell építészeti alapja és a variálható bútor-/stílusréteg legyen külön.
 - **GitHub = forrásarchívum és döntésnapló, nem automatikus feladatindító.** Kis szöveges döntésfrissítés maradhat közvetlen `main` commit; nagy geometriai/költségváltozás külön ellenőrzött PR. A korábbi briefek és eredmények nem írhatók át visszamenőleg; eltéréseket új, hivatkozó kiegészítésben és a következő feladatban jelezd.
+
+## Claude Code-munkamenet (2026-11-12)
+- Ezt a fájlt a Claude Code minden indításkor betölti. A gyökér `AGENTS.md` a Codex házirendje; mivel van `CLAUDE.md`, a Claude Code alapból nem tölti be – így is maradjon, mert a két szerep más.
+- Kezdéskor: `git status`, aktuális ág és a nyitott draft PR-ek – a friss munka gyakran egy PR-ágon van, nem a `main`-en.
+- Médiafal-gyártás (S16 + R16): `execution/a902-s01-kyoto-ink-20261026/AGENTS.md` – állapot, kapuk, tilalmak. Az ottani `CLAUDE.md` ezt magától behúzza, amint abban a mappában dolgozol.

@@ -24,3 +24,7 @@ Az `ai-coordination/ROUTER.md` irányadó a Claude → Codex átadáshoz. A Chat
 ## Render Reality Gate – Codex műszaki audit
 
 Minden WSG geometriai/render-auditban olvasd az `ai-coordination/RENDER_REALITY_GATE.md` fájlt. Vizsgáld a fix falakat, ablakokat, kamerákat, belmagasságot, jeleneten belüli valódi padló/falfelületeket, bútorpozíciókat és méreteket; a renderen megjelent eltéréseket jelentésbe tedd. A parketta dekorazonosítója a helyszíni bizonyítékig nem igazolt. Kód és Blender-jelenet tud csak geometriai megfelelést ellenőrizni, anyagárat/termékazonosságot önmagában nem. Ne nevezd `RENDER REALITY PASS`-nak a csak kódon átfutott képet, és ne változtasd meg Claude élő fájlját.
+
+## Médiafal-gyártás (S16 + R16) – 2026-11-12
+
+Ha az `execution/a902-s01-kyoto-ink-20261026/` alatt dolgozol, előbb olvasd el az ottani `AGENTS.md`-t (állapot, kapuk, mit nem találunk ki). Ott független ellenőr vagy: olvasol és saját teszteket írsz külön ágon; a generált fájlokhoz, a `forras_*` mappákhoz és az AutoCAD-hez nem nyúlsz.
