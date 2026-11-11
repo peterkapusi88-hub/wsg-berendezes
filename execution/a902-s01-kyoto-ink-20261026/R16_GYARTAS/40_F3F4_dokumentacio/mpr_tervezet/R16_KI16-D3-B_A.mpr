@@ -1,0 +1,102 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="372"
+B="290"
+D="15"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="R16_KI16-D3-B A-OLDAL FELUL - R16-J-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<103 \BohrHoriz\
+XA="0"
+YA="50"
+ZA="7.5"
+BM="XP"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0591+R16H0592 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="145"
+ZA="7.5"
+BM="XP"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0593+R16H0594 TERVEZET"
+
+<103 \BohrHoriz\
+XA="0"
+YA="240"
+ZA="7.5"
+BM="XP"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0595+R16H0596 TERVEZET"
+
+<103 \BohrHoriz\
+XA="372"
+YA="50"
+ZA="7.5"
+BM="XM"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0605+R16H0606 TERVEZET"
+
+<103 \BohrHoriz\
+XA="372"
+YA="145"
+ZA="7.5"
+BM="XM"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0607+R16H0608 TERVEZET"
+
+<103 \BohrHoriz\
+XA="372"
+YA="240"
+ZA="7.5"
+BM="XM"
+TI="20"
+DU="2.5"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="FIOK_FENEK_PILOT R16H0609+R16H0610 TERVEZET"
+

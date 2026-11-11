@@ -1,6 +1,6 @@
 {
  "datum": "2026-10-30",
- "modell_revizio": "S16-R15-GY-v1",
+ "modell_revizio": "S16-R15C-GY-v1",
  "osszesites": {
   "FIGYELMEZTETES": 2,
   "INFO": 44
@@ -8,7 +8,7 @@
  "itelet": "adatmodell konzisztens (műhelyi megerősítés még kell)",
  "meta": {
   "alkatresz": 129,
-  "vizsgalt_utkozo_par": 27,
+  "vizsgalt_utkozo_par": 25,
   "frontres_sorok": [
    [
     "D1-FRONT",
@@ -168,9 +168,9 @@
    ]
   ],
   "geometria_forrasok": {
-   "R14_zart_halo": 126,
+   "R14_zart_halo": 127,
    "doboz_minusz_kimetszes": 1,
-   "R14_kontur_extrudalas": 2
+   "R14_kontur_extrudalas": 1
   }
  },
  "tetelek": [

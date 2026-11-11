@@ -1,0 +1,608 @@
+{
+  "leiras": "Lapanyag- és élzáró-termékjavaslat S16/R16 médiafalhoz – forrásolt jelöltek, Péter dönt. Színegyezés minden esetben becslés.",
+  "keszult": "2026-10-30",
+  "keszitette": "Claude (alügynök, webes kutatás)",
+  "jeloltek": [
+    {
+      "szekreny": "S16",
+      "kod": "M01",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger",
+      "termekkod": "U741 ST9",
+      "nev": "Lava Grey / Láva szürke (Eurodekor laminált forgácslap)",
+      "felulet": "ST9 Smoothtouch Matt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS E_U741 ST9 – 0,8/23 mm (JAF cikksz. 24744/0741) vagy 2/23 mm (24721/0741)",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Lapp-fa Kft. (Budapest XVII. ker. telephely, készleten) / Fabuli Style / JAF Holz Hungária",
+      "ar": {
+        "ertek": 29629,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nettó (Lapp-fa); Fabuli: 37 764 nettó / 47 960 bruttó/tábla; Fabuli él 0,8/23: 230 Ft bruttó (egység nincs kiírva, valószínűleg fm)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/butorlap/u-741-st9-lava-szurke-18mm-2800x2070-154.html",
+        "https://fabuli.hu/butorlap-egger-uni-u741-st9-lava-szurke-2800x2070x18mm-7646",
+        "https://www.jafholz.hu/shop/Dekorativ-lapok/Laminalt-forgacslap/egger-eurodekor-laminalt-forgacslap-lava-szurke-u741-st9~p2204155",
+        "https://www.egger.com/en/interior/decor-detail/U741_9?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: Egger saját referenciája NCS S 7005-Y20R (nagyon jó egyezés), RAL 7013 – meleg, vöröses grafit; #504942-höz a legközelebbi talált uni. 1 mm-es Egger ABS ehhez a dekorhoz nem látszott a forrásokban (csak 0,4/0,8/2 mm) – 0,8 vagy 2 mm-re kell dönteni, vagy Rehau/Ostermann 1 mm-es párost kérni.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M01",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "U748 ST9",
+      "nev": "Truffle Brown / Trüffel barna",
+      "felulet": "ST9 Smoothtouch Matt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS E_U748 ST9 – 0,8/23 mm vagy 2,0/23 mm",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Lapp-fa Kft. (készleten mindhárom telephelyen) / Fabuli Style",
+      "ar": {
+        "ertek": 26534,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nettó (Lapp-fa); Fabuli: 33 819 nettó / 42 950 bruttó/tábla",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/butorlap/u-748-st9-truffel-18mm-2800x2070-344.html",
+        "https://fabuli.hu/butorlap-egger-uni-u748-st9-truffel-barna-2800x2070x18mm-7647",
+        "https://www.egger.com/en/interior/decor-detail/U748_9?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: Egger ref. NCS S 7005-Y50R – barnább, mint a cél; csak akkor, ha a grafit helyett barnásabb korpusz kell.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M02",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger (hordozó) + IVM Chemicals / Milesi (festékrendszer)",
+      "termekkod": "Egger MDF natúr 18 mm + Milesi LBR 30 2K PU fehér MDF-alapozó (edző LNB 42, 50%) + Milesi PU pigmentált fedőfesték szatén fokban, NCS-re keverve",
+      "nev": "Szatén sötét barnásgrafit festett MDF keret",
+      "felulet": "2K PU, szatén (fényfok a festékrendszer adatlapja szerint, pl. 20–30 gloss – egyeztetendő)",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "MDF: Lapp-fa Kft. (a forrás szerint jelenleg nincs készleten); festék: M.L.S. Magyarország Kft. (Milesi HU, 2310 Szigetszentmiklós, Sellő u. 8.)",
+      "ar": {
+        "ertek": 21694,
+        "egyseg": "Ft/tábla (MDF)",
+        "brutto_netto": "nettó; festék ár nincs nyilvános",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/mdf/mdf-egger-natur-18mm-2800x2070-141.html",
+        "https://www.milesi.hu/ipari-felhasznalok/component/pes/product/66?catid=2212",
+        "https://milesi.hu/lakossagi-felhasznalok"
+      ],
+      "szinegyezes_megjegyzes": "Szín becslés #332c26-ra: NCS S 8005-Y50R körül; RAL közelítés RAL 8019 (Szürkésbarna) – mindkettő saját becslés, nem gyártói adat. Festett minta (drawdown) MDF-en kötelező. A szatén fedőfesték pontos Milesi-cikkszáma a forgalmazótól kérendő (nyilvánosan nem találtam).",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M02",
+      "jelolt_sorszam": 2,
+      "gyarto": "Sayerlack (Sherwin-Williams) festékrendszer",
+      "termekkod": "Sayerlack 2K PU pigmentált alapozó + fedő, NCS-re színezve – cikkszám a forgalmazótól",
+      "nev": "Alternatív festékrendszer ugyanarra az Egger MDF 18 mm hordozóra",
+      "felulet": "2K PU szatén",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "Mile Color Kft. (Sayerlack HU szerződött partner, Miskolc) / Lakgruppen",
+      "ar": null,
+      "forras_url": [
+        "https://sayerlack.hu/",
+        "https://lakgruppen.hu/sayerlack/b/18"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános; termékkód nem látszott a forrásban – csak a márka és forgalmazó igazolt. Az asztalos/fényező saját bevált rendszere is elfogadható, ha NCS-mintát ad.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M03",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger",
+      "termekkod": "H1399 ST10",
+      "nev": "Truffle Brown Denver Oak / Trüffel barna Denver tölgy",
+      "felulet": "ST10 Deepskin Rough",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS H1399 ST10 (0,8 vagy 2 mm; pontos cikkszám a forgalmazótól)",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Lapp-fa Kft. (készleten mindhárom telephelyen) / Fabuli / Szabhatjuk.hu (1037 Bp., Csillaghegyi út 23.)",
+      "ar": {
+        "ertek": 34950,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nettó (Lapp-fa)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/butorlap/h-1399-st10-truffelbarna-denver-tolgy-18mm-2800x2070-672.html",
+        "https://szabhatjuk.hu/termek/egger-h1399-st10-truffel-barna-denver-tolgy-butorlap/",
+        "https://www.egger.com/en/interior/decor-detail/H1399_10?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: Egger leírás szerint barna, meleg és hideg tónusok keveréke, finom erezet, kis görcsök, enyhe deszkahatás – a 'füstös barnásszürke' célhoz (#40362e) közel, de görcsös. Erezetirány: tábla hossza 2800 mm mentén fut; magas ajtók függőleges erezetéhez 2800 mm-es irány elég, vízszintes frontoknál a szabásterv ezt vegye figyelembe. Az ABS élhez az ST10 dekorpárt a forgalmazó erősítse meg.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M03",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "H1199 ST12",
+      "nev": "Black-Brown Thermo Oak / Sötétbarna Thermo tölgy",
+      "felulet": "ST12 Omnipore Matt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS H1199 ST12 – 0,8/23 mm vagy 2,0/23 mm",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Fabuli Style (központi raktár, várható 2026-11-10)",
+      "ar": {
+        "ertek": 47960,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "bruttó (Fabuli; nettó 37 764); él 0,8/23: 290 Ft bruttó, 2,0/23: 400 Ft bruttó (egység nincs kiírva)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://fabuli.hu/butorlap-egger-fautanzat-h1199-st12-sotetbarna-thermo-tolgy-2800x2070x18mm-7690"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: sötétebb, kevésbé szürke, mint a cél; nyugodtabb, görcs nélküli 'thermo' karakter. Szín-referenciát (NCS) nem találtam.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M04",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger",
+      "termekkod": "U740 ST9",
+      "nev": "Dark Taupe / Sötét taupe",
+      "felulet": "ST9 Smoothtouch Matt (NEM textilhatású)",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS U740 ST9 (cikkszám a forgalmazótól)",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Szabhatjuk.hu (Budapest) – ár nem látszott",
+      "ar": null,
+      "forras_url": [
+        "https://szabhatjuk.hu/termek/sotet-taupe-butorlap-egger-u740-st9/",
+        "https://www.egger.com/en/interior/decor-detail/U740_9?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános. Becslés: Egger ref. NCS S 5005-Y20R – színben a legközelebbi talált meleg taupe a #706252-höz (a cél kissé sárgásabb/telítettebb), de a felület sima matt, nem textil. Ha a textilhatás fontosabb, lásd 2. jelölt.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M04",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "F416 ST10",
+      "nev": "Beige Textile / Bézs textil",
+      "felulet": "ST10 Deepskin Rough – textil/szövet struktúra",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS E_F416 ST10 – 0,8/23 mm vagy 2,0/23 mm",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Fabuli Style (központi raktár, várható 2026-11-10) / JAF Holz / Szabhatjuk",
+      "ar": {
+        "ertek": 45030,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "bruttó (Fabuli; nettó 35 457); él 0,8/23: 280 Ft, 2,0/23: 400 Ft bruttó (egység nincs kiírva)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://fabuli.hu/butorlap-egger-fantazia-f416-st10-bezs-textil-2800x2070x18mm-7761",
+        "https://www.jafholz.hu/shop/lap--lemez-termekek/dekorativ-lap/laminalt-forgacslap/egger-laminalt-forgacslap-textil-bezs-f416-st10~p6939089"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: valódi textilhatás, de valószínűleg VILÁGOSABB a #706252-nél (NCS-ref. nem található) – csak mintával dönthető el. Sötét textil-alternatíva: Egger F433 ST10 Antracit len (túl hideg/sötét a célhoz).",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M05",
+      "jelolt_sorszam": 1,
+      "gyarto": "Kvadrat",
+      "termekkod": "Hallingdal 65, szín 0200",
+      "nev": "Hallingdal 65 – bézs/törtfehér melírozott gyapjú kárpitszövet",
+      "felulet": "szövött, 70% új gyapjú / 30% viszkóz, Martindale 100 000",
+      "vastagsag_mm": null,
+      "tablameret_mm": "tekercs, szélesség 1300 mm",
+      "abs_el": null,
+      "forgalmazo": "Magyar Kvadrat-viszonteladó: paisley.hu (Kvadrat kollekciókat listáz; Hallingdal HU-készlet nem igazolt) – EU-webshop: etoffe.com",
+      "ar": {
+        "ertek": 199,
+        "egyseg": "EUR/fm",
+        "brutto_netto": "nincs jelölve (etoffe.com, FR; jelenleg nincs készleten)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://audocph.com/collections/hallingdal-65/products/hallingdal-65-0200",
+        "https://www.etoffe.com/en/furnishing-fabrics/11771-hallingdal-65-fabric-kvadrat.html",
+        "https://paisley.hu/kollekciok/fuggony-butorszovet-kollekciok/kvadrat-textil/kvadrat-san-0910-karpit-anyag-butorszovet"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: 0200 = bézs és törtfehér szálak keveréke – elefántcsont–len (#c7bca7) hangulathoz illik, pontos árnyalat csak mintával (Kvadrat minta ~4 EUR). Magyar ár nincs nyilvános. Kvadrat 0110 is jelölt lehet, adatát nem tudtam ellenőrizni.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M07",
+      "jelolt_sorszam": 1,
+      "gyarto": "ismeretlen (finn/balti nyír, gyártó nincs megnevezve a forrásban)",
+      "termekkod": "Nyír rétegelt lemez 15 mm BB/WG, BFU-100 (DIN 68705), 11 réteg",
+      "nev": "Nyír rétegelt lemez fiókdobozhoz",
+      "felulet": "mindkét oldal javított, csiszolt; matt vízbázisú lakk külön",
+      "vastagsag_mm": [
+        15
+      ],
+      "tablameret_mm": "2500x1250",
+      "abs_el": null,
+      "forgalmazo": "OKFT Faáruház (6750 Algyő; webes rendelés)",
+      "ar": {
+        "ertek": 38821,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nincs jelölve a forrásban",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://www.okftfaaruhaz.hu/NYIR-RET-LEM-15mm-BB/WG-vizallo-2500x1250x15mm-BFU"
+      ],
+      "szinegyezes_megjegyzes": "Látszó él (rétegzett nyír) – az élminőséget (hézag, foltok) mintával/első táblánál ellenőrizni. Gyártó (pl. Riga Wood/Koskisen) nem igazolt.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M08",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger",
+      "termekkod": "U961 ST2",
+      "nev": "Graphite Grey – 8 mm kétoldalt melaminos forgácslap",
+      "felulet": "ST2 Smoothtouch Pearl",
+      "vastagsag_mm": [
+        8
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "HU: nem találtam raktári 8 mm-es tételt (Fabuli a 18 mm-es U961 ST2-t 'NEM KAPHATÓ'-nak jelöli); Forest Hungary U961 ST7 18 mm-t listáz – 8 mm csak rendelésre, ellenőrizendő",
+      "ar": null,
+      "forras_url": [
+        "https://www.lawcris.co.uk/2800mm-x-2070mm-x-8mm-u961-st2-graphite-grey-melamine-faced-chipboard-cmeu961st208",
+        "https://fabuli.hu/butorlap-egger-uni-u961-st2-grafit-szurke-2800x2070x18mm-7663",
+        "https://www.foresteu.com/laptermekek-es-tartozekaik/butorlap/egger-uni/20010961182-butorlap-egger-uni-u961-st7-grafit-szurke-2800x2070x18mm"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános (HU). A 8 mm-es U961 ST2 létezése csak brit forgalmazónál látszott. Szín becslés: U961 valószínűleg sötétebb és hidegebb a #696c67-nél.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "S16",
+      "kod": "M08",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "U963 ST9",
+      "nev": "Diamond Grey / Gyémántszürke",
+      "felulet": "ST9 Smoothtouch Matt",
+      "vastagsag_mm": [
+        16,
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS U963 ST9 – 0,8/23 mm (JAF 24744/0963)",
+        "vastagsag_mm": [
+          0.8
+        ]
+      },
+      "forgalmazo": "JAF Holz Hungária (16 mm: 13113/0963; 18 mm: 13198/0963)",
+      "ar": null,
+      "forras_url": [
+        "https://www.jafholz.hu/shop/lap--lemez-termekek/dekorativ-lap/laminalt-forgacslap/egger-eurodekor-laminalt-forgacslap-gyemantszurke-u963-st9~p12239867"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános (JAF bejelentkezéshez köti). ELTÉRÉS: 8 mm helyett 16 mm – csak akkor, ha a hátlap-horony/szerkezet átírható; HU-ban 8 mm-ben nem látszott. Szín becslés: középgrafit, a #696c67-hez valószínűleg közelebb, mint az U961.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M01",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger (hordozó) + IVM Chemicals / Milesi (2K PU)",
+      "termekkod": "Egger MDF natúr 18 mm + Milesi LBR 30 2K PU MDF-alapozó (LNB 42 edző) + Milesi PU pigmentált matt fedő NCS S 7005-Y20R-re keverve",
+      "nev": "Matt bronzbarna festett MDF",
+      "felulet": "2K PU matt (fényfok egyeztetendő)",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "MDF: Lapp-fa Kft.; festék: M.L.S. Magyarország Kft. (Szigetszentmiklós)",
+      "ar": {
+        "ertek": 21694,
+        "egyseg": "Ft/tábla (MDF)",
+        "brutto_netto": "nettó; festék ár nincs nyilvános",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/mdf/mdf-egger-natur-18mm-2800x2070-141.html",
+        "https://www.milesi.hu/ipari-felhasznalok/component/pes/product/66?catid=2212"
+      ],
+      "szinegyezes_megjegyzes": "Az NCS S 7005-Y20R kódot az Egger U741 Láva szürke referenciájaként is megadja (RAL 7013 közelítés) – így a festett R16 M01 és a laminált U741 ugyanabba a színcsaládba esik; a 'bronzbarna' hatás a kevert festékmintán ellenőrizendő. Fedőfesték-cikkszám a forgalmazótól.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M01",
+      "jelolt_sorszam": 2,
+      "gyarto": "Sayerlack (Sherwin-Williams)",
+      "termekkod": "2K PU pigmentált rendszer, NCS S 7005-Y20R – cikkszám a forgalmazótól",
+      "nev": "Alternatív festékrendszer Egger MDF 18 mm-re",
+      "felulet": "2K PU matt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "Mile Color Kft. (Miskolc) / Lakgruppen",
+      "ar": null,
+      "forras_url": [
+        "https://sayerlack.hu/"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános; termékkód nem igazolt.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M02",
+      "jelolt_sorszam": 1,
+      "gyarto": "Vescom",
+      "termekkod": "Bely+Print 1040.01",
+      "nev": "Bely+Print – digitálisan nyomtatott vinyl falburkolat len (linen) textúrával",
+      "felulet": "vinyl, len textúra; kb. 350 g/m², szélesség 134 cm (nyomtatható 133 cm); MDF-re kasírozva",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "tekercs 1340 mm széles + 18 mm MDF hordozó (Egger MDF 2800x2070)",
+      "abs_el": null,
+      "forgalmazo": "Top Trade Kft. (Vescom-márkát forgalmaz; 1142 Bp., Erzsébet királyné útja 125.) – a Bely+Print HU-elérhetősége nem igazolt",
+      "ar": {
+        "ertek": 99.56,
+        "egyseg": "CHF (egység nincs jelölve; 'Price on request' is szerepel)",
+        "brutto_netto": "nincs jelölve (wirzwelt.ch, CH)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://vescom.com/en/products/belyprint",
+        "https://wirzwelt.ch/en/vescom-wallcovering-print-bely-print-pro-1040-01pro",
+        "https://kubecontract.com/products/pleso-print",
+        "https://toptrade.hu/vescom"
+      ],
+      "szinegyezes_megjegyzes": "LÉTEZIK: az 1040.01 a Bely+Print (nyomtatható) alapcikk kódja; a végső szín a digitális nyomattól függ, minimum rendelés 'custom'. Nem raktári lapanyag: tekercs, amit MDF-re kell kasírozni (asztalos/kasírozó), élzárása külön megoldandó. HU ár nincs nyilvános – Top Trade-től kérendő.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M02",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "F433 ST10",
+      "nev": "Anthracite Linen / Antracit len",
+      "felulet": "ST10 Deepskin Rough – finom len hatás",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS F433 ST10 (cikkszám a forgalmazótól)",
+        "vastagsag_mm": [
+          0.8,
+          2.0
+        ]
+      },
+      "forgalmazo": "Forest Hungary (cikksz. 20030433180) / Lapszabo.hu (Woodframe Kft.) / Szabhatjuk.hu",
+      "ar": {
+        "ertek": 67089,
+        "egyseg": "Ft/tábla (szabott táblaár)",
+        "brutto_netto": "bruttó (lapszabo.hu)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://www.foresteu.com/laptermekek-es-tartozekaik/butorlap/egger-fantazia/20030433180-butorlap-egger-fantazia-f433-st10-antracit-len-2800x2070x18mm",
+        "https://www.lapszabo.hu/butorlap/egger/f433-st10-antracit-len",
+        "https://www.egger.com/en/interior/decor-detail/F433_10?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "Kész lapanyag-alternatíva textilhatással, kasírozás nélkül. Világosabb textil-alternatíva: Egger F416 ST10 Bézs textil (lásd S16 M04/2). Színegyezés a Vescom nyomathoz nem értelmezhető – mintával.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M03",
+      "jelolt_sorszam": 1,
+      "gyarto": "Egger",
+      "termekkod": "U741 ST9",
+      "nev": "Lava Grey / Láva szürke – korpusz belső",
+      "felulet": "ST9 Smoothtouch Matt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": {
+        "gyarto": "Egger",
+        "kod": "ABS E_U741 ST9 – 0,8/23 mm (24744/0741)",
+        "vastagsag_mm": [
+          0.8
+        ]
+      },
+      "forgalmazo": "Lapp-fa Kft. (XVII. ker. készleten) / Fabuli / JAF",
+      "ar": {
+        "ertek": 29629,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nettó (Lapp-fa)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/butorlap/u-741-st9-lava-szurke-18mm-2800x2070-154.html",
+        "https://fabuli.hu/butorlap-egger-uni-u741-st9-lava-szurke-2800x2070x18mm-7646",
+        "https://www.egger.com/en/interior/decor-detail/U741_9?country=GB"
+      ],
+      "szinegyezes_megjegyzes": "Becslés: NCS S 7005-Y20R – azonos az R16 M01 festék célszínével, ezért a belső és a festett külső egy tónusban marad; egyben egységesíti az S16 M01-gyel a beszerzést. 8 mm-es U741 változatot HU-ban nem találtam (JAF csak 18 mm-t listáz) – 8 mm-re lásd 2. jelölt.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M03",
+      "jelolt_sorszam": 2,
+      "gyarto": "Egger",
+      "termekkod": "U961 ST2 (8 mm) / U963 ST9 (16 mm)",
+      "nev": "8 mm-es korpusz/hátlap változat – ugyanaz, mint S16 M08",
+      "felulet": "ST2 / ST9",
+      "vastagsag_mm": [
+        8,
+        16
+      ],
+      "tablameret_mm": "2800x2070",
+      "abs_el": null,
+      "forgalmazo": "lásd S16 M08 – HU 8 mm rendelhetőség ellenőrizendő",
+      "ar": null,
+      "forras_url": [
+        "https://www.lawcris.co.uk/2800mm-x-2070mm-x-8mm-u961-st2-graphite-grey-melamine-faced-chipboard-cmeu961st208"
+      ],
+      "szinegyezes_megjegyzes": "ár nincs nyilvános. Grafit, nem láva tónus – ha a 8 mm-es elem látszik, színeltérés; ha nem látszik, elfogadható. Alternatíva: 8 mm MDF festve (R16 M01 rendszerrel).",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "BEECH18",
+      "jelolt_sorszam": 1,
+      "gyarto": "ismeretlen (Alföldfa saját forgalom)",
+      "termekkod": "Bükk (enyhén gőzölt) táblásított lap 18 mm, AB, HT (hossztoldott)",
+      "nev": "18 mm bükk táblásított lap – asztalos hasítja 18×18 mm-es lécre",
+      "felulet": "nyers, csiszolt",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "3000x1200",
+      "abs_el": null,
+      "forgalmazo": "Alföldfa (5000 Szolnok); rendelésre, 8–10 munkanap",
+      "ar": {
+        "ertek": 71900,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "bruttó (árlista érvényes 2026-10-30-ig – lejár, újrakérendő)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://www.alfoldfa.hu/termek/bukk-tablasitott-lap/"
+      ],
+      "szinegyezes_megjegyzes": "Kész 18×18 mm-es gyalult bükk lécet HU webshopban nem találtam (OBI-nál 18 mm-es kerek bükk rúd van, az nem jó). HT = hossztoldott – látszó lécnél a 2000x1200 'TM' (64 900 Ft bruttó) változat toldásmentességét kérdezd meg. Jobb: asztalos saját bükk pallóból hasítja.",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "PLY18",
+      "jelolt_sorszam": 1,
+      "gyarto": "ismeretlen (finn nyír, márka nincs kitöltve)",
+      "termekkod": "Rétegelt finn nyír 18 mm BB/CP, vízálló ragasztású",
+      "nev": "18 mm nyír rétegelt lemez",
+      "felulet": "BB/CP (BBWG)",
+      "vastagsag_mm": [
+        18
+      ],
+      "tablameret_mm": "2500x1250",
+      "abs_el": null,
+      "forgalmazo": "Lapp-fa Kft. (Budapest XVII. ker. / központi raktár)",
+      "ar": {
+        "ertek": 34960,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nettó (egység a forrásban nincs kiírva, táblaár valószínű)",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://lapp-fa.hu/retegeltlemez/retegelt-finn-nyir-18-mm-2500x1250-bb-cp-vizallo-ragasztasu-1838.html"
+      ],
+      "szinegyezes_megjegyzes": "CP hátoldal javításokkal – ha mindkét oldal látszik, BB/BB minőség kell (pl. OKFT 1525x1525x18 BB/BB).",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    },
+    {
+      "szekreny": "R16",
+      "kod": "M16-DRAWER15",
+      "jelolt_sorszam": 1,
+      "gyarto": "ismeretlen (nyír, BFU-100)",
+      "termekkod": "Nyír rétegelt lemez 15 mm BB/WG, BFU-100, 11 réteg",
+      "nev": "15 mm nyír rétegelt fiókdobozhoz (azonos az S16 M07-tel)",
+      "felulet": "csiszolt mindkét oldal",
+      "vastagsag_mm": [
+        15
+      ],
+      "tablameret_mm": "2500x1250",
+      "abs_el": null,
+      "forgalmazo": "OKFT Faáruház (Algyő)",
+      "ar": {
+        "ertek": 38821,
+        "egyseg": "Ft/tábla",
+        "brutto_netto": "nincs jelölve",
+        "datum": "2026-10-30"
+      },
+      "forras_url": [
+        "https://www.okftfaaruhaz.hu/NYIR-RET-LEM-15mm-BB/WG-vizallo-2500x1250x15mm-BFU"
+      ],
+      "szinegyezes_megjegyzes": "Ugyanaz a tétel, mint S16 M07 – közös beszerzés javasolt. Budapesti 15 mm-es forrást nem találtam (Lapp-fa csak 18 mm-t listáz).",
+      "statusz": "JAVASLAT – mintával ellenőrizendő"
+    }
+  ]
+}

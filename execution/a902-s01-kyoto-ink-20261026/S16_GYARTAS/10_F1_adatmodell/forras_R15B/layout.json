@@ -1,0 +1,112 @@
+{
+ "revision": "S16-R15-GY",
+ "date": "2026-10-29",
+ "status": "Fényhatás és rejtett elhelyezés tanulmánya; nem gyártási kiadás",
+ "width": 3600,
+ "height": 2875,
+ "depth": 400,
+ "ceiling_nominal": 2900,
+ "origin": "Bal alsó falsarok a kész padlón. X jobbra, Y faltól a szoba felé, Z felfelé; mm. Nem a S01 Y-tengelye.",
+ "source": "Szélesség: tulajdonosi 3600 mm döntés. Magasság: prompt és v2b modell; helyi minimum még felmérendő. Többi méret R05 tervezési javaslat.",
+ "tower_width": 870,
+ "base_z": 150,
+ "base_top": 570,
+ "tower_base": 570,
+ "module_widths": [
+  435,
+  425,
+  425,
+  1030,
+  425,
+  425
+ ],
+ "screen_box": [
+  1436.25,
+  151,
+  968.8,
+  1677.5,
+  61.1,
+  962.4
+ ],
+ "screen_note": "Tulajdonosi kérésre65 helyett75col. Méretreferencia: Samsung QE75Q7FAAUXXH,1677,5×962,4×61,1mm talp nélkül;25,3kg;VESA400×400. Gyári HU oldal ellenőrizve2026-10-29. A konkrét modell beszerzése nincs jóváhagyva.",
+ "relief": {
+  "background_face_y": 78,
+  "TV_face_y": 113,
+  "difference": 35
+ },
+ "tower_doors": "2 nyomásra nyíló rugó nélküli pántos ajtó; bal ajtón textil és teljes peremfény együtt mozog. Rejtett24V hajlékony pántoldali átvezetés.6 fiók TIP-ON BLUMOTION.",
+ "room_mapping": "v2b Fal_05_1_nappali_0 keleti falsík x=3.67 m, y=4.05..8.05. Javasolt bútor: világ X=3.67+helyiY/1000, világ Y=4.25+helyiX/1000. Két oldalon 200 mm névleges maradék. Helyszíni szegőléc/függöny/kiállás nincs igazolva.",
+ "owner_latest": "R14: erősebb lefelé súrolófény, külön felfelé plafonrés-fény, helyreállított felső és jobb oldali kifelé falmegvilágítás. R13 főgeometria változatlan.",
+ "ceiling_gap": 25,
+ "top_door_gap_mm": 3,
+ "top_door_curve_R": 79,
+ "top_frame_inside_R": 82,
+ "visible_front_gap_mm": 3,
+ "bottom_frame_thickness_mm": 18,
+ "base_end_front_radius_mm": 59,
+ "top_gap_correction": "A korábbi20mm ajtó-felsőhézag helyett3mm. Ajtók17mm-rel magasabbak. Belső keretR82 és ajtóR79 közös ívközépponttal. A mennyezeti25mm fényrés külön változatlan.",
+ "drawer_start_x": 435,
+ "textile_margins": {
+  "top": 105,
+  "bottom": 105,
+  "light_top": 100,
+  "light_bottom": 100
+ },
+ "curves": {
+  "tower_outer_R": 100,
+  "base_right_R": 80,
+  "textile_R": 60,
+  "TV_concave_R": 160,
+  "TV_convex_R": 140,
+  "TV_right_R": 100,
+  "status": "R05 tulajdonosi korrekció szerinti kontúr; nem pixelből igazolt gyártási méret.",
+  "TV_bottom_right_R": 100
+ },
+ "TV_field": "R10 position and2630x1580mm envelope restored; square lower-right corner; wood finish.",
+ "lighting_rule": "Minden külső ág eredeti Philips Hue; belső nyitásra működő, kedvező árú minőségi24VLED, takart profil.",
+ "background_tab": "BG-1 felső L fül a torony íve mögött;30mm bal szerelési ráhagyás",
+ "internal_kelvin_target": 2700,
+ "lighting_addition": "Only top inward grazing on large background. Original R10 outward halo, TV contour, inset and underside light retained as pictured.",
+ "material_reference": "sources/S16_tulajdonosi_anyagreferencia.png",
+ "geometry_change_from_R09": true,
+ "geometry_change_from_R10": true,
+ "selected_material": "faerezet",
+ "current_changes": {
+  "revision": "R14",
+  "base": "R12 owner-selected R10 shape; R12 joints rejected",
+  "selected_material": "faerezet",
+  "primary_changed": [
+   "BG-1",
+   "BG-4",
+   "BG-FINISH",
+   "TV-FIELD",
+   "CURVE-T-TOP",
+   "T-R",
+   "CURVE-B-TOP",
+   "D6-R",
+   "D6-T",
+   "BG-UPPER-HIDDEN-RETURN",
+   "BG-LOWER-HIDDEN-RETURN"
+  ],
+  "root_causes": [
+   "Exposed tower side and deck used internal M01 finish instead of outer M02",
+   "Scribing against hollow curved shell produced visible spikes and internal islands"
+  ],
+  "repair": [
+   "Restore full curved shell without local rebates",
+   "Visible BG follows full outer silhouette, not hollow ring",
+   "Separate rear overlapsY20..38 behind cabinet",
+   "Consistent outer finish and tangent shading",
+   "Light cover trimmed to filled silhouette; solid concealed right end closure"
+  ],
+  "status": "Design study, actual manufacturing not released"
+ },
+ "TV_panel_side_margins_mm": {
+  "left": 256.25,
+  "right": 386.25
+ },
+ "TV_panel_right_edge_x_mm": 3500,
+ "r15_tisztazando": {
+  "BG-UPPER-HIDDEN-RETURN/BG-LOWER-HIDDEN-RETURN": "A layout R14 'primary_changed' listája hivatkozza, de nincs ilyen test. A 130 mm (torony mögött, BG-1 X=740-től) és 100 mm (alsó sor mögött, BG Z=470-től) takart túlfutás a BG-1…4 geometriájában benne van; az 'Y20..38' hátsó átfedés viszont sehol nincs modellezve. Blender-jelenetben ellenőrizendő, addig NEM pótoljuk kitalált méretekkel."
+ }
+}

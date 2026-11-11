@@ -1,0 +1,41 @@
+{
+  "width": 3600,
+  "height": 2880,
+  "tower": 720,
+  "bronze_band": 200,
+  "upper_panels_nominal": [
+    670,
+    670,
+    670,
+    670
+  ],
+  "lower_modules": [
+    [
+      0,
+      720
+    ],
+    [
+      720,
+      450
+    ],
+    [
+      1170,
+      450
+    ],
+    [
+      1620,
+      1080
+    ],
+    [
+      2700,
+      450
+    ],
+    [
+      3150,
+      450
+    ]
+  ],
+  "lower_fronts": "6 db egyetlen magas fiók, nincs vízszintes osztás",
+  "basis": "képi frontosztás értelmezése a korábbi3600/720mm tervkereten belül; méretarányos tervezési adaptáció, nem a raster méretbizonyítéka",
+  "owner_decision": "Minden alsó front egyetlen magas fiók; magas szekrény ajtós."
+}

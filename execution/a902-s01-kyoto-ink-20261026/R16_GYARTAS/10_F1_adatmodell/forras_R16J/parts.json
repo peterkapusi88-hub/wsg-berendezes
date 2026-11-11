@@ -1,0 +1,6084 @@
+[
+ {
+  "id": "KI12-TV01S-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony oldalak / bal oldallap",
+  "box": [
+   0,
+   36.0,
+   550,
+   18,
+   382,
+   2330
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   382,
+   18
+  ],
+  "note": "Tető/fenék oldalak közé",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01S-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony oldalak / jobb oldallap",
+  "box": [
+   702,
+   36.0,
+   550,
+   18,
+   382,
+   2330
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   382,
+   18
+  ],
+  "note": "Tető/fenék oldalak közé",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01T-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony tető/fenék / alsó",
+  "box": [
+   18,
+   36.0,
+   550,
+   684,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-T",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   684,
+   382,
+   18
+  ],
+  "note": "Két szélső oldal közé; középosztó hossza végleges kötéstől függ!",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01T-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony tető/fenék / felső",
+  "box": [
+   18,
+   36.0,
+   2862,
+   684,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-T",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   684,
+   382,
+   18
+  ],
+  "note": "Két szélső oldal közé; középosztó hossza végleges kötéstől függ!",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01C-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony középosztó / példány 1",
+  "box": [
+   351,
+   64.0,
+   568,
+   18,
+   354,
+   2294
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-C",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2294,
+   354,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 1",
+  "box": [
+   19,
+   108.0,
+   935,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 2",
+  "box": [
+   19,
+   108.0,
+   1320,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 3",
+  "box": [
+   19,
+   108.0,
+   1705,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 4",
+  "box": [
+   19,
+   108.0,
+   2090,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-05",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 5",
+  "box": [
+   19,
+   108.0,
+   2475,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-06",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 6",
+  "box": [
+   370,
+   108.0,
+   935,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-07",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 7",
+  "box": [
+   370,
+   108.0,
+   1320,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-08",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 8",
+  "box": [
+   370,
+   108.0,
+   1705,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-09",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 9",
+  "box": [
+   370,
+   108.0,
+   2090,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01P-10",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony állítható polc / példány 10",
+  "box": [
+   370,
+   108.0,
+   2475,
+   331,
+   290,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV01-P",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   331,
+   290,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV01F-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony front / bal ajtó",
+  "box": [
+   1.5,
+   421.0,
+   551.5,
+   357,
+   18,
+   2327
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01+nyomat",
+  "kind": "TV01-F",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2327,
+   357,
+   18
+  ],
+  "note": "Nyomat és vetemedés gyártóval egyeztetendő R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-TV01F-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony front / jobb ajtó",
+  "box": [
+   361.5,
+   421.0,
+   551.5,
+   357,
+   18,
+   2327
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01+nyomat",
+  "kind": "TV01-F",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2327,
+   357,
+   18
+  ],
+  "note": "Nyomat és vetemedés gyártóval egyeztetendő R13: 3 mm tervezett nyomási hézag; teljes névleges mélység 403 mm.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-TV01H-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Torony hátlap / példány 1",
+  "box": [
+   19,
+   56.0,
+   569,
+   682,
+   8,
+   2292
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV01-H",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2292,
+   682,
+   8
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY",
+  "outline": [
+   [
+    682.0,
+    0.0
+   ],
+   [
+    682.0,
+    2166.0
+   ],
+   [
+    660.0,
+    2166.0
+   ],
+   [
+    660.0,
+    2292.0
+   ],
+   [
+    22.0,
+    2292.0
+   ],
+   [
+    22.0,
+    2166.0
+   ],
+   [
+    0.0,
+    2166.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-T-1",
+    "box_r16": [
+     19,
+     354,
+     2735,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarokkivágás; két egyenes vágás, sarokig. CNC-szerszámút nincs kiadva."
+   },
+   {
+    "id": "NC-T-2",
+    "box_r16": [
+     679,
+     354,
+     2735,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarokkivágás; két egyenes vágás, sarokig. CNC-szerszámút nincs kiadva."
+   }
+  ]
+ },
+ {
+  "id": "KI12-TV02CAP-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Összefüggő felső fedő / példány 1",
+  "box": [
+   0,
+   36.0,
+   532,
+   3600,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-CAP",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   3600,
+   382,
+   18
+  ],
+  "note": "R12 javítás: fedő 382 mm mély; a 400 mm-es korábbi fedő áthatolt a 397 mm magas frontokon. Kész mélység továbbra is 382+18=400.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "ALSO_KERET"
+ },
+ {
+  "id": "KI12-TV03P-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Dekor hordozópanel / példány 1",
+  "box": [
+   921.5,
+   18.0,
+   550,
+   667,
+   18,
+   2330
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M02",
+  "kind": "TV03-P",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   667,
+   18
+  ],
+  "note": "Tervezési darabméret; nem gyártási kiadás",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "HATTER",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-TV03P-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Dekor hordozópanel / példány 2",
+  "box": [
+   1591.5,
+   18.0,
+   550,
+   667,
+   18,
+   2330
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M02",
+  "kind": "TV03-P",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   667,
+   18
+  ],
+  "note": "Tervezési darabméret; nem gyártási kiadás",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "HATTER",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-TV03P-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Dekor hordozópanel / példány 3",
+  "box": [
+   2261.5,
+   18.0,
+   550,
+   667,
+   18,
+   2330
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M02",
+  "kind": "TV03-P",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   667,
+   18
+  ],
+  "note": "Tervezési darabméret; nem gyártási kiadás",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "HATTER",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-TV03P-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Dekor hordozópanel / példány 4",
+  "box": [
+   2931.5,
+   18.0,
+   550,
+   667,
+   18,
+   2330
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M02",
+  "kind": "TV03-P",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   667,
+   18
+  ],
+  "note": "Tervezési darabméret; nem gyártási kiadás",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "HATTER",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI12-GAP-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "200 mm matt bronzbarna betétsáv / nem üres rés",
+  "box": [
+   720,
+   18.0,
+   550,
+   200,
+   18,
+   2330
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M16-BRONZE",
+  "kind": "GAP",
+  "grain": null,
+  "r16_grain": "X irány: magasság",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    1,
+    0,
+    0
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2330,
+   200,
+   18
+  ],
+  "note": "Front Y382 azonos panelhordozó-sík; tapétaréteg előrébb. Hátsó18mm szerelőtér. Oldalról súrolófény.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "HATTER",
+  "grain_global": "Z"
+ },
+ {
+  "id": "KI14-BAT-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Hátlaprögzítő bükk léc",
+  "box": [
+   18,
+   64.0,
+   588,
+   18,
+   18,
+   2142
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2142,
+   18,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI14-BAT-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Hátlaprögzítő bükk léc",
+  "box": [
+   684,
+   64.0,
+   588,
+   18,
+   18,
+   2142
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   2142,
+   18,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI14-RAIL-06",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Hátsó merevítő keresztléc",
+  "box": [
+   18,
+   82.0,
+   2632,
+   333,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   333,
+   100,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI14-RAIL-07",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Hátsó merevítő keresztléc",
+  "box": [
+   369,
+   82.0,
+   2632,
+   333,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   333,
+   100,
+   18
+  ],
+  "note": "R15 rejtett szerkezeti átrendezés. Látható front változatlan; hátlap Y354..362, polc 290mm mély.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "TORONY"
+ },
+ {
+  "id": "KI12-TV02S-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / bal oldallap",
+  "box": [
+   0,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI12-TV02S-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / jobb oldallap",
+  "box": [
+   702,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI12-TV02T1-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / példány 4",
+  "box": [
+   18,
+   36.0,
+   150,
+   684,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   684,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI12-TV02F1-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / példány 4",
+  "box": [
+   1.5,
+   421.0,
+   151.5,
+   717,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   717,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI12-TV02H1-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / példány 4",
+  "box": [
+   19,
+   56.0,
+   169,
+   682,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   682,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "outline": [
+   [
+    682.0,
+    0.0
+   ],
+   [
+    682.0,
+    236.0
+   ],
+   [
+    660.0,
+    236.0
+   ],
+   [
+    660.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M1-1",
+    "box_r16": [
+     19,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M1-2",
+    "box_r16": [
+     679,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI14-BAT-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / Hátlaprögzítő bükk léc",
+  "box": [
+   18,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   48,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI14-BAT-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / Hátlaprögzítő bükk léc",
+  "box": [
+   684,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   48,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI14-RAIL-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M1 / Hátsó merevítő keresztléc",
+  "box": [
+   18,
+   82.0,
+   300,
+   684,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   684,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1"
+ },
+ {
+  "id": "KI16-D1-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   24,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D1-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   681,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D1-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   39,
+   128.0,
+   210,
+   642,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   642,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D1-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   39,
+   403.0,
+   225,
+   642,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   642,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D1-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   39,
+   128.0,
+   225,
+   642,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   642,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D1",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI12-TV02S-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / bal oldallap",
+  "box": [
+   720,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI12-TV02S-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / jobb oldallap",
+  "box": [
+   1152,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI12-TV02T2-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / példány 4",
+  "box": [
+   738,
+   36.0,
+   150,
+   414,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI12-TV02F2-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / példány 4",
+  "box": [
+   721.5,
+   421.0,
+   151.5,
+   447,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   447,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI12-TV02H2-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / példány 4",
+  "box": [
+   739,
+   56.0,
+   169,
+   412,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   412,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "outline": [
+   [
+    412.0,
+    0.0
+   ],
+   [
+    412.0,
+    236.0
+   ],
+   [
+    390.0,
+    236.0
+   ],
+   [
+    390.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M2-1",
+    "box_r16": [
+     739,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M2-2",
+    "box_r16": [
+     1129,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI14-BAT-05",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / Hátlaprögzítő bükk léc",
+  "box": [
+   738,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI14-BAT-06",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / Hátlaprögzítő bükk léc",
+  "box": [
+   1134,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI14-RAIL-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M2 / Hátsó merevítő keresztléc",
+  "box": [
+   738,
+   82.0,
+   300,
+   414,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2"
+ },
+ {
+  "id": "KI16-D2-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   744,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D2-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   1131,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D2-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   759,
+   128.0,
+   210,
+   372,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D2-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   759,
+   403.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D2-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   759,
+   128.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D2",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI12-TV02S-05",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / bal oldallap",
+  "box": [
+   1170,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI12-TV02S-06",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / jobb oldallap",
+  "box": [
+   1602,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI12-TV02T2-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / példány 4",
+  "box": [
+   1188,
+   36.0,
+   150,
+   414,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI12-TV02F2-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / példány 4",
+  "box": [
+   1171.5,
+   421.0,
+   151.5,
+   447,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   447,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI12-TV02H2-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / példány 4",
+  "box": [
+   1189,
+   56.0,
+   169,
+   412,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   412,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "outline": [
+   [
+    412.0,
+    0.0
+   ],
+   [
+    412.0,
+    236.0
+   ],
+   [
+    390.0,
+    236.0
+   ],
+   [
+    390.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M3-1",
+    "box_r16": [
+     1189,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M3-2",
+    "box_r16": [
+     1579,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI14-BAT-07",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / Hátlaprögzítő bükk léc",
+  "box": [
+   1188,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI14-BAT-08",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / Hátlaprögzítő bükk léc",
+  "box": [
+   1584,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI14-RAIL-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M3 / Hátsó merevítő keresztléc",
+  "box": [
+   1188,
+   82.0,
+   300,
+   414,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3"
+ },
+ {
+  "id": "KI16-D3-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   1194,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D3-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   1581,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D3-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   1209,
+   128.0,
+   210,
+   372,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D3-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   1209,
+   403.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D3-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   1209,
+   128.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D3",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI12-TV02S-07",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / bal oldallap",
+  "box": [
+   1620,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI12-TV02S-08",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / jobb oldallap",
+  "box": [
+   2682,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI12-TV02T2-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / példány 4",
+  "box": [
+   1638,
+   36.0,
+   150,
+   1044,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   1044,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI12-TV02F2-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / példány 4",
+  "box": [
+   1621.5,
+   421.0,
+   151.5,
+   1077,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   1077,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI12-TV02H2-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / példány 4",
+  "box": [
+   1639,
+   56.0,
+   169,
+   1042,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   1042,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "outline": [
+   [
+    1042.0,
+    0.0
+   ],
+   [
+    1042.0,
+    236.0
+   ],
+   [
+    1020.0,
+    236.0
+   ],
+   [
+    1020.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M4-1",
+    "box_r16": [
+     1639,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M4-2",
+    "box_r16": [
+     2659,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI14-BAT-09",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / Hátlaprögzítő bükk léc",
+  "box": [
+   1638,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   408,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI14-BAT-10",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / Hátlaprögzítő bükk léc",
+  "box": [
+   2664,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   408,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI14-RAIL-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M4 / Hátsó merevítő keresztléc",
+  "box": [
+   1638,
+   82.0,
+   300,
+   1044,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   1044,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4"
+ },
+ {
+  "id": "KI16-D4-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   1644,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D4-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   2661,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D4-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   1659,
+   128.0,
+   210,
+   1002,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   1002,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D4-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   1659,
+   403.0,
+   225,
+   1002,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   1002,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D4-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   1659,
+   128.0,
+   225,
+   1002,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   1002,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D4",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI12-TV02S-09",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / bal oldallap",
+  "box": [
+   2700,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI12-TV02S-10",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / jobb oldallap",
+  "box": [
+   3132,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI12-TV02T2-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / példány 4",
+  "box": [
+   2718,
+   36.0,
+   150,
+   414,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI12-TV02F2-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / példány 4",
+  "box": [
+   2701.5,
+   421.0,
+   151.5,
+   447,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   447,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI12-TV02H2-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / példány 4",
+  "box": [
+   2719,
+   56.0,
+   169,
+   412,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   412,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "outline": [
+   [
+    412.0,
+    0.0
+   ],
+   [
+    412.0,
+    236.0
+   ],
+   [
+    390.0,
+    236.0
+   ],
+   [
+    390.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M5-1",
+    "box_r16": [
+     2719,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M5-2",
+    "box_r16": [
+     3109,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI14-BAT-11",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / Hátlaprögzítő bükk léc",
+  "box": [
+   2718,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI14-BAT-12",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / Hátlaprögzítő bükk léc",
+  "box": [
+   3114,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI14-RAIL-05",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M5 / Hátsó merevítő keresztléc",
+  "box": [
+   2718,
+   82.0,
+   300,
+   414,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5"
+ },
+ {
+  "id": "KI16-D5-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   2724,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D5-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   3111,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D5-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   2739,
+   128.0,
+   210,
+   372,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D5-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   2739,
+   403.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D5-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   2739,
+   128.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D5",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-M6-TV02-S-01",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / bal oldallap",
+  "box": [
+   3150,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-TV02-S-02",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / jobb oldallap",
+  "box": [
+   3582,
+   36.0,
+   150,
+   18,
+   382,
+   382
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-S",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   382,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-BOTTOM-03",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / példány 4",
+  "box": [
+   3168,
+   36.0,
+   150,
+   414,
+   382,
+   18
+  ],
+  "axis": "z",
+  "T": 18,
+  "material": "M03",
+  "kind": "TV02-T2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   382,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-FRONT-04",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / példány 4",
+  "box": [
+   3151.5,
+   421.0,
+   151.5,
+   447,
+   18,
+   397
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "M01",
+  "kind": "TV02-F2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   447,
+   397,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-BACK-05",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / példány 4",
+  "box": [
+   3169,
+   56.0,
+   169,
+   412,
+   8,
+   362
+  ],
+  "axis": "y",
+  "T": 8,
+  "material": "M03-8",
+  "kind": "TV02-H2",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   412,
+   362,
+   8
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "outline": [
+   [
+    412.0,
+    0.0
+   ],
+   [
+    412.0,
+    236.0
+   ],
+   [
+    390.0,
+    236.0
+   ],
+   [
+    390.0,
+    362.0
+   ],
+   [
+    22.0,
+    362.0
+   ],
+   [
+    22.0,
+    236.0
+   ],
+   [
+    0.0,
+    236.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "cutouts": [],
+  "notches_r16": [
+   {
+    "id": "NC-M6-1",
+    "box_r16": [
+     3169,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   },
+   {
+    "id": "NC-M6-2",
+    "box_r16": [
+     3559,
+     354,
+     405,
+     22,
+     8,
+     126
+    ],
+    "method": "Nyitott sarok, két egyenes fűrészes vágás; nem MPR"
+   }
+  ]
+ },
+ {
+  "id": "KI16-M6-BAT-06",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / Hátlaprögzítő bükk léc",
+  "box": [
+   3168,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-BAT-07",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / Hátlaprögzítő bükk léc",
+  "box": [
+   3564,
+   64.0,
+   188,
+   18,
+   18,
+   212
+  ],
+  "axis": "x",
+  "T": 18,
+  "material": "BEECH18",
+  "kind": "BAT",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   212,
+   -222,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-M6-RAIL-08",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "M6 / Hátsó merevítő keresztléc",
+  "box": [
+   3168,
+   82.0,
+   300,
+   414,
+   18,
+   100
+  ],
+  "axis": "y",
+  "T": 18,
+  "material": "PLY18",
+  "kind": "RAIL",
+  "grain": null,
+  "r16_grain": "egyszínű / mintázat egyeztetendő",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   414,
+   100,
+   18
+  ],
+  "note": "R16 új frontosztás; korábbi R15 program nem használható automatikusan.",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6"
+ },
+ {
+  "id": "KI16-D6-L",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók bal oldal",
+  "box": [
+   3174,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D6-R",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók jobb oldal",
+  "box": [
+   3561,
+   128.0,
+   197,
+   15,
+   290,
+   250
+  ],
+  "axis": "x",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    0,
+    0,
+    1
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   250,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D6-B",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiók fenék",
+  "box": [
+   3189,
+   128.0,
+   210,
+   372,
+   290,
+   15
+  ],
+  "axis": "z",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    -1,
+    0
+   ],
+   "outward_A": [
+    0,
+    0,
+    1
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   290,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D6-F",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz belső előlap",
+  "box": [
+   3189,
+   403.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "grain_global": "LONG"
+ },
+ {
+  "id": "KI16-D6-H",
+  "revision": "R16J",
+  "r16_revision": "R16",
+  "name": "Fiókdoboz hátlap",
+  "box": [
+   3189,
+   128.0,
+   225,
+   372,
+   15,
+   222
+  ],
+  "axis": "y",
+  "T": 15,
+  "material": "M16-DRAWER15",
+  "kind": "DRAWER",
+  "grain": null,
+  "r16_grain": "hosszanti / mintázat jóváhagyandó",
+  "r16_edge": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r16_frame": {
+   "U": [
+    -1,
+    0,
+    0
+   ],
+   "V": [
+    0,
+    0,
+    1
+   ],
+   "outward_A": [
+    0,
+    -1,
+    0
+   ]
+  },
+  "r16_listed_xyt": [
+   372,
+   222,
+   15
+  ],
+  "note": "R16 készméret; nem felmért gyártási méret",
+  "status": "TERVI – R16J",
+  "r16_status": "TERV - NEM GYARTAS",
+  "raw_size_status": "Élzárási ráhagyás és műhelyélkód még nem kiadott",
+  "modul": "D6",
+  "grain_global": "LONG"
+ }
+]

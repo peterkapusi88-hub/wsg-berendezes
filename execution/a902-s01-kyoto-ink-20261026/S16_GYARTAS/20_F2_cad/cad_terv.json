@@ -1,0 +1,7424 @@
+{
+ "modell_revizio": "S16-R15C-GY-v1",
+ "datum": "2026-10-30",
+ "megjegyzesek": [
+  "T-DOOR-L-BACK: curve_vertices ellentmond a kontúrnak (max. eltérés 12.071 mm) – a sokszögelt kontúr készül",
+  "TV-FIELD: curve_vertices ellentmond a kontúrnak (max. eltérés 2001.5 mm) – a sokszögelt kontúr készül"
+ ],
+ "alkatreszek": [
+  {
+   "id": "D1-L",
+   "num": 16001,
+   "reteg": "$PART_S16_D1-L˙0˙0¨V000˙0¨#0¨16001",
+   "el_kod_etalon": "V000",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     435,
+     40,
+     168,
+     18,
+     337,
+     402
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-R",
+   "num": 16002,
+   "reteg": "$PART_S16_D1-R˙0˙0¨V000˙0¨#0¨16002",
+   "el_kod_etalon": "V000",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     852,
+     40,
+     168,
+     18,
+     337,
+     402
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-T",
+   "num": 16003,
+   "reteg": "$PART_S16_D1-T˙0˙0¨FF00˙0¨#0¨16003",
+   "el_kod_etalon": "FF00",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     453,
+     40,
+     552,
+     399,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BACK",
+   "num": 16004,
+   "reteg": "$PART_S16_D1-BACK˙0˙0¨0000˙0¨#0¨16004",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     453,
+     40,
+     168,
+     399,
+     8,
+     384
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-FRONT",
+   "num": 16005,
+   "reteg": "$PART_S16_D1-FRONT˙0˙0¨VVVV˙0¨#0¨16005",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     436.5,
+     382,
+     171,
+     432,
+     18,
+     378
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BOX-L",
+   "num": 16006,
+   "reteg": "$PART_S16_D1-BOX-L˙0˙0¨LLLL˙0¨#0¨16006",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     459,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BOX-R",
+   "num": 16007,
+   "reteg": "$PART_S16_D1-BOX-R˙0˙0¨LLLL˙0¨#0¨16007",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     831,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BOX-F",
+   "num": 16008,
+   "reteg": "$PART_S16_D1-BOX-F˙0˙0¨L000˙0¨#0¨16008",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     474,
+     355,
+     237,
+     357,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BOX-H",
+   "num": 16009,
+   "reteg": "$PART_S16_D1-BOX-H˙0˙0¨L000˙0¨#0¨16009",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     474,
+     80,
+     237,
+     357,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D1-BOX-B",
+   "num": 16010,
+   "reteg": "$PART_S16_D1-BOX-B˙0˙0¨LL00˙0¨#0¨16010",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     474,
+     80,
+     222,
+     357,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-L",
+   "num": 16011,
+   "reteg": "$PART_S16_D2-L˙0˙0¨V0VV˙0¨#0¨16011",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     870,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-R",
+   "num": 16012,
+   "reteg": "$PART_S16_D2-R˙0˙0¨V0VV˙0¨#0¨16012",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1277,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-B",
+   "num": 16013,
+   "reteg": "$PART_S16_D2-B˙0˙0¨V000˙0¨#0¨16013",
+   "el_kod_etalon": "V000",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     888,
+     40,
+     150,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-T",
+   "num": 16014,
+   "reteg": "$PART_S16_D2-T˙0˙0¨FF00˙0¨#0¨16014",
+   "el_kod_etalon": "FF00",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     888,
+     40,
+     552,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BACK",
+   "num": 16015,
+   "reteg": "$PART_S16_D2-BACK˙0˙0¨0000˙0¨#0¨16015",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     888,
+     40,
+     168,
+     389,
+     8,
+     384
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-FRONT",
+   "num": 16016,
+   "reteg": "$PART_S16_D2-FRONT˙0˙0¨VVVV˙0¨#0¨16016",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     871.5,
+     382,
+     171,
+     422,
+     18,
+     378
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BOX-L",
+   "num": 16017,
+   "reteg": "$PART_S16_D2-BOX-L˙0˙0¨LLLL˙0¨#0¨16017",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     894,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BOX-R",
+   "num": 16018,
+   "reteg": "$PART_S16_D2-BOX-R˙0˙0¨LLLL˙0¨#0¨16018",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1256,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BOX-F",
+   "num": 16019,
+   "reteg": "$PART_S16_D2-BOX-F˙0˙0¨L000˙0¨#0¨16019",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     909,
+     355,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BOX-H",
+   "num": 16020,
+   "reteg": "$PART_S16_D2-BOX-H˙0˙0¨L000˙0¨#0¨16020",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     909,
+     80,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D2-BOX-B",
+   "num": 16021,
+   "reteg": "$PART_S16_D2-BOX-B˙0˙0¨LL00˙0¨#0¨16021",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     909,
+     80,
+     222,
+     347,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-L",
+   "num": 16022,
+   "reteg": "$PART_S16_D3-L˙0˙0¨V0VV˙0¨#0¨16022",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1295,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-R",
+   "num": 16023,
+   "reteg": "$PART_S16_D3-R˙0˙0¨V0VV˙0¨#0¨16023",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1702,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-B",
+   "num": 16024,
+   "reteg": "$PART_S16_D3-B˙0˙0¨V000˙0¨#0¨16024",
+   "el_kod_etalon": "V000",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1313,
+     40,
+     150,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-T",
+   "num": 16025,
+   "reteg": "$PART_S16_D3-T˙0˙0¨FF00˙0¨#0¨16025",
+   "el_kod_etalon": "FF00",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1313,
+     40,
+     552,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BACK",
+   "num": 16026,
+   "reteg": "$PART_S16_D3-BACK˙0˙0¨0000˙0¨#0¨16026",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1313,
+     40,
+     168,
+     389,
+     8,
+     384
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-FRONT",
+   "num": 16027,
+   "reteg": "$PART_S16_D3-FRONT˙0˙0¨VVVV˙0¨#0¨16027",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1296.5,
+     382,
+     171,
+     422,
+     18,
+     378
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BOX-L",
+   "num": 16028,
+   "reteg": "$PART_S16_D3-BOX-L˙0˙0¨LLLL˙0¨#0¨16028",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1319,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BOX-R",
+   "num": 16029,
+   "reteg": "$PART_S16_D3-BOX-R˙0˙0¨LLLL˙0¨#0¨16029",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1681,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BOX-F",
+   "num": 16030,
+   "reteg": "$PART_S16_D3-BOX-F˙0˙0¨L000˙0¨#0¨16030",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1334,
+     355,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BOX-H",
+   "num": 16031,
+   "reteg": "$PART_S16_D3-BOX-H˙0˙0¨L000˙0¨#0¨16031",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1334,
+     80,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D3-BOX-B",
+   "num": 16032,
+   "reteg": "$PART_S16_D3-BOX-B˙0˙0¨LL00˙0¨#0¨16032",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1334,
+     80,
+     222,
+     347,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-L",
+   "num": 16033,
+   "reteg": "$PART_S16_D4-L˙0˙0¨V0VV˙0¨#0¨16033",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1720,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-R",
+   "num": 16034,
+   "reteg": "$PART_S16_D4-R˙0˙0¨V0VV˙0¨#0¨16034",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2732,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-B",
+   "num": 16035,
+   "reteg": "$PART_S16_D4-B˙0˙0¨V000˙0¨#0¨16035",
+   "el_kod_etalon": "V000",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1738,
+     40,
+     150,
+     994,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-T",
+   "num": 16036,
+   "reteg": "$PART_S16_D4-T˙0˙0¨FF00˙0¨#0¨16036",
+   "el_kod_etalon": "FF00",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1738,
+     40,
+     552,
+     994,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BACK",
+   "num": 16037,
+   "reteg": "$PART_S16_D4-BACK˙0˙0¨0000˙0¨#0¨16037",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1738,
+     40,
+     168,
+     994,
+     8,
+     384
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-FRONT",
+   "num": 16038,
+   "reteg": "$PART_S16_D4-FRONT˙0˙0¨VVVV˙0¨#0¨16038",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1721.5,
+     382,
+     171,
+     1027,
+     18,
+     378
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BOX-L",
+   "num": 16039,
+   "reteg": "$PART_S16_D4-BOX-L˙0˙0¨LLLL˙0¨#0¨16039",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1744,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BOX-R",
+   "num": 16040,
+   "reteg": "$PART_S16_D4-BOX-R˙0˙0¨LLLL˙0¨#0¨16040",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2711,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BOX-F",
+   "num": 16041,
+   "reteg": "$PART_S16_D4-BOX-F˙0˙0¨L000˙0¨#0¨16041",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1759,
+     355,
+     237,
+     952,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BOX-H",
+   "num": 16042,
+   "reteg": "$PART_S16_D4-BOX-H˙0˙0¨L000˙0¨#0¨16042",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1759,
+     80,
+     237,
+     952,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D4-BOX-B",
+   "num": 16043,
+   "reteg": "$PART_S16_D4-BOX-B˙0˙0¨LL00˙0¨#0¨16043",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1759,
+     80,
+     222,
+     952,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-L",
+   "num": 16044,
+   "reteg": "$PART_S16_D5-L˙0˙0¨V0VV˙0¨#0¨16044",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2750,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-R",
+   "num": 16045,
+   "reteg": "$PART_S16_D5-R˙0˙0¨V0VV˙0¨#0¨16045",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3157,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-B",
+   "num": 16046,
+   "reteg": "$PART_S16_D5-B˙0˙0¨V000˙0¨#0¨16046",
+   "el_kod_etalon": "V000",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2768,
+     40,
+     150,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-T",
+   "num": 16047,
+   "reteg": "$PART_S16_D5-T˙0˙0¨FF00˙0¨#0¨16047",
+   "el_kod_etalon": "FF00",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2768,
+     40,
+     552,
+     389,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BACK",
+   "num": 16048,
+   "reteg": "$PART_S16_D5-BACK˙0˙0¨0000˙0¨#0¨16048",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2768,
+     40,
+     168,
+     389,
+     8,
+     384
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-FRONT",
+   "num": 16049,
+   "reteg": "$PART_S16_D5-FRONT˙0˙0¨VVVV˙0¨#0¨16049",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2751.5,
+     382,
+     171,
+     422,
+     18,
+     378
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BOX-L",
+   "num": 16050,
+   "reteg": "$PART_S16_D5-BOX-L˙0˙0¨LLLL˙0¨#0¨16050",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2774,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BOX-R",
+   "num": 16051,
+   "reteg": "$PART_S16_D5-BOX-R˙0˙0¨LLLL˙0¨#0¨16051",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3136,
+     80,
+     210,
+     15,
+     290,
+     237
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BOX-F",
+   "num": 16052,
+   "reteg": "$PART_S16_D5-BOX-F˙0˙0¨L000˙0¨#0¨16052",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2789,
+     355,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BOX-H",
+   "num": 16053,
+   "reteg": "$PART_S16_D5-BOX-H˙0˙0¨L000˙0¨#0¨16053",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2789,
+     80,
+     237,
+     347,
+     15,
+     210
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D5-BOX-B",
+   "num": 16054,
+   "reteg": "$PART_S16_D5-BOX-B˙0˙0¨LL00˙0¨#0¨16054",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2789,
+     80,
+     222,
+     347,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-L",
+   "num": 16055,
+   "reteg": "$PART_S16_D6-L˙0˙0¨V0VV˙0¨#0¨16055",
+   "el_kod_etalon": "V0VV",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3175,
+     40,
+     150,
+     18,
+     337,
+     420
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-R",
+   "num": 16056,
+   "reteg": "$PART_S16_D6-R˙0˙0¨00FF˙0¨#0¨16056",
+   "el_kod_etalon": "00FF",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3582,
+     40,
+     230,
+     18,
+     337,
+     260
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-B",
+   "num": 16057,
+   "reteg": "$PART_S16_D6-B˙0˙0¨00V0˙0¨#0¨16057",
+   "el_kod_etalon": "00V0",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3193,
+     40,
+     150,
+     327,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-T",
+   "num": 16058,
+   "reteg": "$PART_S16_D6-T˙0˙0¨00FF˙0¨#0¨16058",
+   "el_kod_etalon": "00FF",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3193,
+     40,
+     552,
+     327,
+     337,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BACK",
+   "num": 16059,
+   "reteg": "$PART_S16_D6-BACK˙0˙0¨0000˙0¨#0¨16059",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3193,
+     40,
+     168
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       327,
+       0,
+       0.414213562
+      ],
+      [
+       389.0,
+       62.0,
+       0
+      ],
+      [
+       389,
+       322,
+       0.414213562
+      ],
+      [
+       327.0,
+       384.0,
+       0
+      ],
+      [
+       0,
+       384,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-FRONT",
+   "num": 16060,
+   "reteg": "$PART_S16_D6-FRONT˙0˙0¨VVVV˙0¨#0¨16060",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3176.5,
+     382,
+     171
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       343.5,
+       0,
+       0.414213562
+      ],
+      [
+       402.5,
+       59.0,
+       0
+      ],
+      [
+       402.5,
+       319,
+       0.414213562
+      ],
+      [
+       343.5,
+       378.0,
+       0
+      ],
+      [
+       0,
+       378,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BOX-L",
+   "num": 16061,
+   "reteg": "$PART_S16_D6-BOX-L˙0˙0¨LLLL˙0¨#0¨16061",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3199,
+     80,
+     245.0,
+     15,
+     290,
+     202.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BOX-R",
+   "num": 16062,
+   "reteg": "$PART_S16_D6-BOX-R˙0˙0¨LLLL˙0¨#0¨16062",
+   "el_kod_etalon": "LLLL",
+   "tipus": "Fiókoldal",
+   "tipus_szin": 40,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3561,
+     80,
+     245.0,
+     15,
+     290,
+     202.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BOX-F",
+   "num": 16063,
+   "reteg": "$PART_S16_D6-BOX-F˙0˙0¨L000˙0¨#0¨16063",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3214,
+     355,
+     272.0,
+     347,
+     15,
+     175.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BOX-H",
+   "num": 16064,
+   "reteg": "$PART_S16_D6-BOX-H˙0˙0¨L000˙0¨#0¨16064",
+   "el_kod_etalon": "L000",
+   "tipus": "Fiókhát",
+   "tipus_szin": 55,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3214,
+     80,
+     272.0,
+     347,
+     15,
+     175.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "D6-BOX-B",
+   "num": 16065,
+   "reteg": "$PART_S16_D6-BOX-B˙0˙0¨LL00˙0¨#0¨16065",
+   "el_kod_etalon": "LL00",
+   "tipus": "Fiókfenék",
+   "tipus_szin": 65,
+   "szin": "\"196,175,139\"",
+   "anyag": "M07",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3214,
+     80,
+     257.0,
+     347,
+     290,
+     15
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L",
+   "num": 16066,
+   "reteg": "$PART_S16_T-L˙0˙0¨V000˙0¨#0¨16066",
+   "el_kod_etalon": "V000",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     0,
+     40,
+     250,
+     18,
+     337,
+     2525
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R",
+   "num": 16067,
+   "reteg": "$PART_S16_T-R˙0˙0¨FF00˙0¨#0¨16067",
+   "el_kod_etalon": "FF00",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     852,
+     40,
+     570,
+     18,
+     337,
+     2205
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-B",
+   "num": 16068,
+   "reteg": "$PART_S16_T-B˙0˙0¨V000˙0¨#0¨16068",
+   "el_kod_etalon": "V000",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     18,
+     40,
+     570,
+     834,
+     337,
+     18
+    ]
+   },
+   "kivonas": [
+    {
+     "tipus": "box",
+     "box": [
+      37,
+      350,
+      569,
+      380,
+      28,
+      20
+     ],
+     "op": "KIMETSZES"
+    }
+   ],
+   "tech": [
+    {
+     "reteg": "$DIFF_OUT",
+     "op": "KIMETSZES",
+     "tipus": "box",
+     "box": [
+      37,
+      350,
+      569,
+      380,
+      28,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T-C",
+   "num": 16069,
+   "reteg": "$PART_S16_T-C˙0˙0¨V000˙0¨#0¨16069",
+   "el_kod_etalon": "V000",
+   "tipus": "Vosztó",
+   "tipus_szin": 93,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     426,
+     40,
+     588,
+     18,
+     337,
+     2269
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-S1",
+   "num": 16070,
+   "reteg": "$PART_S16_T-L-S1˙0˙0¨V000˙0¨#0¨16070",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     50,
+     935,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-S2",
+   "num": 16071,
+   "reteg": "$PART_S16_T-L-S2˙0˙0¨V000˙0¨#0¨16071",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     50,
+     1320,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-S3",
+   "num": 16072,
+   "reteg": "$PART_S16_T-L-S3˙0˙0¨V000˙0¨#0¨16072",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     50,
+     1705,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-S4",
+   "num": 16073,
+   "reteg": "$PART_S16_T-L-S4˙0˙0¨V000˙0¨#0¨16073",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     50,
+     2090,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-S5",
+   "num": 16074,
+   "reteg": "$PART_S16_T-L-S5˙0˙0¨V000˙0¨#0¨16074",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     50,
+     2475,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-BACK",
+   "num": 16075,
+   "reteg": "$PART_S16_T-L-BACK˙0˙0¨0000˙0¨#0¨16075",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     19,
+     40,
+     935
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       0.0,
+       0
+      ],
+      [
+       406,
+       0.0,
+       0
+      ],
+      [
+       406,
+       1921.0,
+       0
+      ],
+      [
+       81,
+       1921,
+       0.357805721
+      ],
+      [
+       0.5756,
+       1854.9974,
+       0
+      ],
+      [
+       0,
+       1851.6801,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-L-SERVICE",
+   "num": 16076,
+   "reteg": "$PART_S16_T-L-SERVICE˙0˙0¨VVVV˙0¨#0¨16076",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     19,
+     127,
+     589,
+     406,
+     8,
+     345
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-S1",
+   "num": 16077,
+   "reteg": "$PART_S16_T-R-S1˙0˙0¨V000˙0¨#0¨16077",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     50,
+     935,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-S2",
+   "num": 16078,
+   "reteg": "$PART_S16_T-R-S2˙0˙0¨V000˙0¨#0¨16078",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     50,
+     1320,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-S3",
+   "num": 16079,
+   "reteg": "$PART_S16_T-R-S3˙0˙0¨V000˙0¨#0¨16079",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     50,
+     1705,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-S4",
+   "num": 16080,
+   "reteg": "$PART_S16_T-R-S4˙0˙0¨V000˙0¨#0¨16080",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     50,
+     2090,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-S5",
+   "num": 16081,
+   "reteg": "$PART_S16_T-R-S5˙0˙0¨V000˙0¨#0¨16081",
+   "el_kod_etalon": "V000",
+   "tipus": "Polc",
+   "tipus_szin": 145,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     50,
+     2475,
+     406,
+     290,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-BACK",
+   "num": 16082,
+   "reteg": "$PART_S16_T-R-BACK˙0˙0¨0000˙0¨#0¨16082",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     445,
+     40,
+     935
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       0.0,
+       0
+      ],
+      [
+       406,
+       0.0,
+       0
+      ],
+      [
+       406,
+       1851.6801,
+       0
+      ],
+      [
+       405.4244,
+       1854.9974,
+       0.357805721
+      ],
+      [
+       325.0,
+       1921.0,
+       0
+      ],
+      [
+       0,
+       1921.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-R-SERVICE",
+   "num": 16083,
+   "reteg": "$PART_S16_T-R-SERVICE˙0˙0¨VVVV˙0¨#0¨16083",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "box",
+    "box": [
+     445,
+     127,
+     589,
+     406,
+     8,
+     345
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-DOOR-L",
+   "num": 16084,
+   "reteg": "$PART_S16_T-DOOR-L˙0˙0¨VVVV˙0¨#0¨16084",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     21,
+     382,
+     171
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       79,
+       0,
+       0
+      ],
+      [
+       412.5,
+       0,
+       0
+      ],
+      [
+       412.5,
+       2683,
+       0
+      ],
+      [
+       79,
+       2683,
+       0.414213562
+      ],
+      [
+       0.0,
+       2604.0,
+       0
+      ],
+      [
+       0,
+       79,
+       0.414213562
+      ]
+     ]
+    }
+   },
+   "kivonas": [
+    {
+     "tipus": "extrude_y",
+     "origo": [
+      21,
+      381,
+      171
+     ],
+     "T": 20,
+     "profil": {
+      "tipus": "poly",
+      "pontok": [
+       [
+        307.5,
+        89.0,
+        0.0
+       ],
+       [
+        310.1987,
+        89.0662,
+        0.0
+       ],
+       [
+        312.8909,
+        89.2648,
+        0.0
+       ],
+       [
+        315.5702,
+        89.5953,
+        0.0
+       ],
+       [
+        318.23,
+        90.0568,
+        0.0
+       ],
+       [
+        320.8639,
+        90.6483,
+        0.0
+       ],
+       [
+        323.4657,
+        91.3683,
+        0.0
+       ],
+       [
+        326.0289,
+        92.2151,
+        0.0
+       ],
+       [
+        328.5476,
+        93.1866,
+        0.0
+       ],
+       [
+        331.0155,
+        94.2806,
+        0.0
+       ],
+       [
+        333.4268,
+        95.4943,
+        0.0
+       ],
+       [
+        335.7757,
+        96.8249,
+        0.0
+       ],
+       [
+        338.0564,
+        98.2692,
+        0.0
+       ],
+       [
+        340.2635,
+        99.8236,
+        0.0
+       ],
+       [
+        342.3916,
+        101.4844,
+        0.0
+       ],
+       [
+        344.4357,
+        103.2477,
+        0.0
+       ],
+       [
+        346.3909,
+        105.1091,
+        0.0
+       ],
+       [
+        348.2523,
+        107.0643,
+        0.0
+       ],
+       [
+        350.0156,
+        109.1084,
+        0.0
+       ],
+       [
+        351.6764,
+        111.2365,
+        0.0
+       ],
+       [
+        353.2308,
+        113.4436,
+        0.0
+       ],
+       [
+        354.6751,
+        115.7243,
+        0.0
+       ],
+       [
+        356.0057,
+        118.0732,
+        0.0
+       ],
+       [
+        357.2194,
+        120.4845,
+        0.0
+       ],
+       [
+        358.3134,
+        122.9524,
+        0.0
+       ],
+       [
+        359.2849,
+        125.4711,
+        0.0
+       ],
+       [
+        360.1317,
+        128.0343,
+        0.0
+       ],
+       [
+        360.8517,
+        130.6361,
+        0.0
+       ],
+       [
+        361.4432,
+        133.27,
+        0.0
+       ],
+       [
+        361.9047,
+        135.9298,
+        0.0
+       ],
+       [
+        362.2352,
+        138.6091,
+        0.0
+       ],
+       [
+        362.4338,
+        141.3013,
+        0.0
+       ],
+       [
+        362.5,
+        144.0,
+        0.0
+       ],
+       [
+        362.5,
+        2539.0,
+        0.0
+       ],
+       [
+        362.4338,
+        2541.6987,
+        0.0
+       ],
+       [
+        362.2352,
+        2544.3909,
+        0.0
+       ],
+       [
+        361.9047,
+        2547.0702,
+        0.0
+       ],
+       [
+        361.4432,
+        2549.73,
+        0.0
+       ],
+       [
+        360.8517,
+        2552.3639,
+        0.0
+       ],
+       [
+        360.1317,
+        2554.9657,
+        0.0
+       ],
+       [
+        359.2849,
+        2557.5289,
+        0.0
+       ],
+       [
+        358.3134,
+        2560.0476,
+        0.0
+       ],
+       [
+        357.2194,
+        2562.5155,
+        0.0
+       ],
+       [
+        356.0057,
+        2564.9268,
+        0.0
+       ],
+       [
+        354.6751,
+        2567.2757,
+        0.0
+       ],
+       [
+        353.2308,
+        2569.5564,
+        0.0
+       ],
+       [
+        351.6764,
+        2571.7635,
+        0.0
+       ],
+       [
+        350.0156,
+        2573.8916,
+        0.0
+       ],
+       [
+        348.2523,
+        2575.9357,
+        0.0
+       ],
+       [
+        346.3909,
+        2577.8909,
+        0.0
+       ],
+       [
+        344.4357,
+        2579.7523,
+        0.0
+       ],
+       [
+        342.3916,
+        2581.5156,
+        0.0
+       ],
+       [
+        340.2635,
+        2583.1764,
+        0.0
+       ],
+       [
+        338.0564,
+        2584.7308,
+        0.0
+       ],
+       [
+        335.7757,
+        2586.1751,
+        0.0
+       ],
+       [
+        333.4268,
+        2587.5057,
+        0.0
+       ],
+       [
+        331.0155,
+        2588.7194,
+        0.0
+       ],
+       [
+        328.5476,
+        2589.8134,
+        0.0
+       ],
+       [
+        326.0289,
+        2590.7849,
+        0.0
+       ],
+       [
+        323.4657,
+        2591.6317,
+        0.0
+       ],
+       [
+        320.8639,
+        2592.3517,
+        0.0
+       ],
+       [
+        318.23,
+        2592.9432,
+        0.0
+       ],
+       [
+        315.5702,
+        2593.4047,
+        0.0
+       ],
+       [
+        312.8909,
+        2593.7352,
+        0.0
+       ],
+       [
+        310.1987,
+        2593.9338,
+        0.0
+       ],
+       [
+        307.5,
+        2594.0,
+        0.0
+       ],
+       [
+        105.0,
+        2594.0,
+        0.0
+       ],
+       [
+        102.3013,
+        2593.9338,
+        0.0
+       ],
+       [
+        99.6091,
+        2593.7352,
+        0.0
+       ],
+       [
+        96.9298,
+        2593.4047,
+        0.0
+       ],
+       [
+        94.27,
+        2592.9432,
+        0.0
+       ],
+       [
+        91.6361,
+        2592.3517,
+        0.0
+       ],
+       [
+        89.0343,
+        2591.6317,
+        0.0
+       ],
+       [
+        86.4711,
+        2590.7849,
+        0.0
+       ],
+       [
+        83.9524,
+        2589.8134,
+        0.0
+       ],
+       [
+        81.4845,
+        2588.7194,
+        0.0
+       ],
+       [
+        79.0732,
+        2587.5057,
+        0.0
+       ],
+       [
+        76.7243,
+        2586.1751,
+        0.0
+       ],
+       [
+        74.4436,
+        2584.7308,
+        0.0
+       ],
+       [
+        72.2365,
+        2583.1764,
+        0.0
+       ],
+       [
+        70.1084,
+        2581.5156,
+        0.0
+       ],
+       [
+        68.0643,
+        2579.7523,
+        0.0
+       ],
+       [
+        66.1091,
+        2577.8909,
+        0.0
+       ],
+       [
+        64.2477,
+        2575.9357,
+        0.0
+       ],
+       [
+        62.4844,
+        2573.8916,
+        0.0
+       ],
+       [
+        60.8236,
+        2571.7635,
+        0.0
+       ],
+       [
+        59.2692,
+        2569.5564,
+        0.0
+       ],
+       [
+        57.8249,
+        2567.2757,
+        0.0
+       ],
+       [
+        56.4943,
+        2564.9268,
+        0.0
+       ],
+       [
+        55.2806,
+        2562.5155,
+        0.0
+       ],
+       [
+        54.1866,
+        2560.0476,
+        0.0
+       ],
+       [
+        53.2151,
+        2557.5289,
+        0.0
+       ],
+       [
+        52.3683,
+        2554.9657,
+        0.0
+       ],
+       [
+        51.6483,
+        2552.3639,
+        0.0
+       ],
+       [
+        51.0568,
+        2549.73,
+        0.0
+       ],
+       [
+        50.5953,
+        2547.0702,
+        0.0
+       ],
+       [
+        50.2648,
+        2544.3909,
+        0.0
+       ],
+       [
+        50.0662,
+        2541.6987,
+        0.0
+       ],
+       [
+        50.0,
+        2539.0,
+        0.0
+       ],
+       [
+        50.0,
+        144.0,
+        0.0
+       ],
+       [
+        50.0662,
+        141.3013,
+        0.0
+       ],
+       [
+        50.2648,
+        138.6091,
+        0.0
+       ],
+       [
+        50.5953,
+        135.9298,
+        0.0
+       ],
+       [
+        51.0568,
+        133.27,
+        0.0
+       ],
+       [
+        51.6483,
+        130.6361,
+        0.0
+       ],
+       [
+        52.3683,
+        128.0343,
+        0.0
+       ],
+       [
+        53.2151,
+        125.4711,
+        0.0
+       ],
+       [
+        54.1866,
+        122.9524,
+        0.0
+       ],
+       [
+        55.2806,
+        120.4845,
+        0.0
+       ],
+       [
+        56.4943,
+        118.0732,
+        0.0
+       ],
+       [
+        57.8249,
+        115.7243,
+        0.0
+       ],
+       [
+        59.2692,
+        113.4436,
+        0.0
+       ],
+       [
+        60.8236,
+        111.2365,
+        0.0
+       ],
+       [
+        62.4844,
+        109.1084,
+        0.0
+       ],
+       [
+        64.2477,
+        107.0643,
+        0.0
+       ],
+       [
+        66.1091,
+        105.1091,
+        0.0
+       ],
+       [
+        68.0643,
+        103.2477,
+        0.0
+       ],
+       [
+        70.1084,
+        101.4844,
+        0.0
+       ],
+       [
+        72.2365,
+        99.8236,
+        0.0
+       ],
+       [
+        74.4436,
+        98.2692,
+        0.0
+       ],
+       [
+        76.7243,
+        96.8249,
+        0.0
+       ],
+       [
+        79.0732,
+        95.4943,
+        0.0
+       ],
+       [
+        81.4845,
+        94.2806,
+        0.0
+       ],
+       [
+        83.9524,
+        93.1866,
+        0.0
+       ],
+       [
+        86.4711,
+        92.2151,
+        0.0
+       ],
+       [
+        89.0343,
+        91.3683,
+        0.0
+       ],
+       [
+        91.6361,
+        90.6483,
+        0.0
+       ],
+       [
+        94.27,
+        90.0568,
+        0.0
+       ],
+       [
+        96.9298,
+        89.5953,
+        0.0
+       ],
+       [
+        99.6091,
+        89.2648,
+        0.0
+       ],
+       [
+        102.3013,
+        89.0662,
+        0.0
+       ],
+       [
+        105.0,
+        89.0,
+        0.0
+       ]
+      ]
+     },
+     "op": "ATMENO_KIVAGAS"
+    },
+    {
+     "tipus": "extrude_y",
+     "origo": [
+      21,
+      381,
+      171
+     ],
+     "T": 11,
+     "profil": {
+      "tipus": "poly",
+      "pontok": [
+       [
+        307.5,
+        83.0,
+        0.0
+       ],
+       [
+        310.4931,
+        83.0735,
+        0.0
+       ],
+       [
+        313.479,
+        83.2937,
+        0.0
+       ],
+       [
+        316.4506,
+        83.6602,
+        0.0
+       ],
+       [
+        319.4005,
+        84.1721,
+        0.0
+       ],
+       [
+        322.3218,
+        84.8281,
+        0.0
+       ],
+       [
+        325.2074,
+        85.6266,
+        0.0
+       ],
+       [
+        328.0503,
+        86.56580000000002,
+        0.0
+       ],
+       [
+        330.8437,
+        87.64330000000001,
+        0.0
+       ],
+       [
+        333.5809,
+        88.85669999999999,
+        0.0
+       ],
+       [
+        336.2552,
+        90.20280000000002,
+        0.0
+       ],
+       [
+        338.8603,
+        91.67860000000002,
+        0.0
+       ],
+       [
+        341.3898,
+        93.28039999999999,
+        0.0
+       ],
+       [
+        343.8377,
+        95.0043,
+        0.0
+       ],
+       [
+        346.198,
+        96.84640000000002,
+        0.0
+       ],
+       [
+        348.4651,
+        98.80200000000002,
+        0.0
+       ],
+       [
+        350.6335,
+        100.86649999999997,
+        0.0
+       ],
+       [
+        352.698,
+        103.0349,
+        0.0
+       ],
+       [
+        354.6536,
+        105.30200000000002,
+        0.0
+       ],
+       [
+        356.4957,
+        107.66230000000002,
+        0.0
+       ],
+       [
+        358.2196,
+        110.11020000000002,
+        0.0
+       ],
+       [
+        359.8214,
+        112.6397,
+        0.0
+       ],
+       [
+        361.2972,
+        115.2448,
+        0.0
+       ],
+       [
+        362.6433,
+        117.91910000000001,
+        0.0
+       ],
+       [
+        363.8567,
+        120.65629999999999,
+        0.0
+       ],
+       [
+        364.9342,
+        123.4497,
+        0.0
+       ],
+       [
+        365.8734,
+        126.2926,
+        0.0
+       ],
+       [
+        366.6719,
+        129.1782,
+        0.0
+       ],
+       [
+        367.3279,
+        132.09949999999998,
+        0.0
+       ],
+       [
+        367.8398,
+        135.0494,
+        0.0
+       ],
+       [
+        368.2063,
+        138.02100000000002,
+        0.0
+       ],
+       [
+        368.4265,
+        141.00689999999997,
+        0.0
+       ],
+       [
+        368.5,
+        144.0,
+        0.0
+       ],
+       [
+        368.5,
+        2539.0,
+        0.0
+       ],
+       [
+        368.4265,
+        2541.9931,
+        0.0
+       ],
+       [
+        368.2063,
+        2544.979,
+        0.0
+       ],
+       [
+        367.8398,
+        2547.9506,
+        0.0
+       ],
+       [
+        367.3279,
+        2550.9005,
+        0.0
+       ],
+       [
+        366.6719,
+        2553.8218,
+        0.0
+       ],
+       [
+        365.8734,
+        2556.7074,
+        0.0
+       ],
+       [
+        364.9342,
+        2559.5503,
+        0.0
+       ],
+       [
+        363.8567,
+        2562.3437,
+        0.0
+       ],
+       [
+        362.6433,
+        2565.0809,
+        0.0
+       ],
+       [
+        361.2972,
+        2567.7552,
+        0.0
+       ],
+       [
+        359.8214,
+        2570.3603,
+        0.0
+       ],
+       [
+        358.2196,
+        2572.8898,
+        0.0
+       ],
+       [
+        356.4957,
+        2575.3377,
+        0.0
+       ],
+       [
+        354.6536,
+        2577.698,
+        0.0
+       ],
+       [
+        352.698,
+        2579.9651,
+        0.0
+       ],
+       [
+        350.6335,
+        2582.1335,
+        0.0
+       ],
+       [
+        348.4651,
+        2584.198,
+        0.0
+       ],
+       [
+        346.198,
+        2586.1536,
+        0.0
+       ],
+       [
+        343.8377,
+        2587.9957,
+        0.0
+       ],
+       [
+        341.3898,
+        2589.7196,
+        0.0
+       ],
+       [
+        338.8603,
+        2591.3214,
+        0.0
+       ],
+       [
+        336.2552,
+        2592.7972,
+        0.0
+       ],
+       [
+        333.5809,
+        2594.1433,
+        0.0
+       ],
+       [
+        330.8437,
+        2595.3567,
+        0.0
+       ],
+       [
+        328.0503,
+        2596.4342,
+        0.0
+       ],
+       [
+        325.2074,
+        2597.3734,
+        0.0
+       ],
+       [
+        322.3218,
+        2598.1719,
+        0.0
+       ],
+       [
+        319.4005,
+        2598.8279,
+        0.0
+       ],
+       [
+        316.4506,
+        2599.3398,
+        0.0
+       ],
+       [
+        313.479,
+        2599.7063,
+        0.0
+       ],
+       [
+        310.4931,
+        2599.9265,
+        0.0
+       ],
+       [
+        307.5,
+        2600.0,
+        0.0
+       ],
+       [
+        105.0,
+        2600.0,
+        0.0
+       ],
+       [
+        102.0069,
+        2599.9265,
+        0.0
+       ],
+       [
+        99.021,
+        2599.7063,
+        0.0
+       ],
+       [
+        96.0494,
+        2599.3398,
+        0.0
+       ],
+       [
+        93.0995,
+        2598.8279,
+        0.0
+       ],
+       [
+        90.1782,
+        2598.1719,
+        0.0
+       ],
+       [
+        87.2926,
+        2597.3734,
+        0.0
+       ],
+       [
+        84.4497,
+        2596.4342,
+        0.0
+       ],
+       [
+        81.6563,
+        2595.3567,
+        0.0
+       ],
+       [
+        78.9191,
+        2594.1433,
+        0.0
+       ],
+       [
+        76.2448,
+        2592.7972,
+        0.0
+       ],
+       [
+        73.6397,
+        2591.3214,
+        0.0
+       ],
+       [
+        71.1102,
+        2589.7196,
+        0.0
+       ],
+       [
+        68.6623,
+        2587.9957,
+        0.0
+       ],
+       [
+        66.302,
+        2586.1536,
+        0.0
+       ],
+       [
+        64.0349,
+        2584.198,
+        0.0
+       ],
+       [
+        61.8665,
+        2582.1335,
+        0.0
+       ],
+       [
+        59.80200000000001,
+        2579.9651,
+        0.0
+       ],
+       [
+        57.8464,
+        2577.698,
+        0.0
+       ],
+       [
+        56.0043,
+        2575.3377,
+        0.0
+       ],
+       [
+        54.2804,
+        2572.8898,
+        0.0
+       ],
+       [
+        52.6786,
+        2570.3603,
+        0.0
+       ],
+       [
+        51.202799999999996,
+        2567.7552,
+        0.0
+       ],
+       [
+        49.856700000000004,
+        2565.0809,
+        0.0
+       ],
+       [
+        48.643299999999996,
+        2562.3437,
+        0.0
+       ],
+       [
+        47.565799999999996,
+        2559.5503,
+        0.0
+       ],
+       [
+        46.626599999999996,
+        2556.7074,
+        0.0
+       ],
+       [
+        45.828100000000006,
+        2553.8218,
+        0.0
+       ],
+       [
+        45.1721,
+        2550.9005,
+        0.0
+       ],
+       [
+        44.6602,
+        2547.9506,
+        0.0
+       ],
+       [
+        44.2937,
+        2544.979,
+        0.0
+       ],
+       [
+        44.073499999999996,
+        2541.9931,
+        0.0
+       ],
+       [
+        44.0,
+        2539.0,
+        0.0
+       ],
+       [
+        44.0,
+        144.0,
+        0.0
+       ],
+       [
+        44.073499999999996,
+        141.00689999999997,
+        0.0
+       ],
+       [
+        44.2937,
+        138.02100000000002,
+        0.0
+       ],
+       [
+        44.6602,
+        135.0494,
+        0.0
+       ],
+       [
+        45.1721,
+        132.09949999999998,
+        0.0
+       ],
+       [
+        45.828100000000006,
+        129.1782,
+        0.0
+       ],
+       [
+        46.626599999999996,
+        126.2926,
+        0.0
+       ],
+       [
+        47.565799999999996,
+        123.4497,
+        0.0
+       ],
+       [
+        48.643299999999996,
+        120.65629999999999,
+        0.0
+       ],
+       [
+        49.856700000000004,
+        117.91910000000001,
+        0.0
+       ],
+       [
+        51.202799999999996,
+        115.2448,
+        0.0
+       ],
+       [
+        52.6786,
+        112.6397,
+        0.0
+       ],
+       [
+        54.2804,
+        110.11020000000002,
+        0.0
+       ],
+       [
+        56.0043,
+        107.66230000000002,
+        0.0
+       ],
+       [
+        57.8464,
+        105.30200000000002,
+        0.0
+       ],
+       [
+        59.80200000000001,
+        103.0349,
+        0.0
+       ],
+       [
+        61.8665,
+        100.86649999999997,
+        0.0
+       ],
+       [
+        64.0349,
+        98.80200000000002,
+        0.0
+       ],
+       [
+        66.302,
+        96.84640000000002,
+        0.0
+       ],
+       [
+        68.6623,
+        95.0043,
+        0.0
+       ],
+       [
+        71.1102,
+        93.28039999999999,
+        0.0
+       ],
+       [
+        73.6397,
+        91.67860000000002,
+        0.0
+       ],
+       [
+        76.2448,
+        90.20280000000002,
+        0.0
+       ],
+       [
+        78.9191,
+        88.85669999999999,
+        0.0
+       ],
+       [
+        81.6563,
+        87.64330000000001,
+        0.0
+       ],
+       [
+        84.4497,
+        86.56580000000002,
+        0.0
+       ],
+       [
+        87.2926,
+        85.6266,
+        0.0
+       ],
+       [
+        90.1782,
+        84.8281,
+        0.0
+       ],
+       [
+        93.0995,
+        84.1721,
+        0.0
+       ],
+       [
+        96.0494,
+        83.6602,
+        0.0
+       ],
+       [
+        99.021,
+        83.2937,
+        0.0
+       ],
+       [
+        102.0069,
+        83.0735,
+        0.0
+       ],
+       [
+        105.0,
+        83.0,
+        0.0
+       ]
+      ]
+     },
+     "op": "HATSO_FENYFALC"
+    }
+   ],
+   "tech": [
+    {
+     "reteg": "$DIFF_OUT",
+     "op": "ATMENO_KIVAGAS",
+     "tipus": "extrude_y",
+     "origo": [
+      21,
+      381,
+      171
+     ],
+     "T": 20,
+     "profil": {
+      "tipus": "poly",
+      "pontok": [
+       [
+        307.5,
+        89.0,
+        0.0
+       ],
+       [
+        310.1987,
+        89.0662,
+        0.0
+       ],
+       [
+        312.8909,
+        89.2648,
+        0.0
+       ],
+       [
+        315.5702,
+        89.5953,
+        0.0
+       ],
+       [
+        318.23,
+        90.0568,
+        0.0
+       ],
+       [
+        320.8639,
+        90.6483,
+        0.0
+       ],
+       [
+        323.4657,
+        91.3683,
+        0.0
+       ],
+       [
+        326.0289,
+        92.2151,
+        0.0
+       ],
+       [
+        328.5476,
+        93.1866,
+        0.0
+       ],
+       [
+        331.0155,
+        94.2806,
+        0.0
+       ],
+       [
+        333.4268,
+        95.4943,
+        0.0
+       ],
+       [
+        335.7757,
+        96.8249,
+        0.0
+       ],
+       [
+        338.0564,
+        98.2692,
+        0.0
+       ],
+       [
+        340.2635,
+        99.8236,
+        0.0
+       ],
+       [
+        342.3916,
+        101.4844,
+        0.0
+       ],
+       [
+        344.4357,
+        103.2477,
+        0.0
+       ],
+       [
+        346.3909,
+        105.1091,
+        0.0
+       ],
+       [
+        348.2523,
+        107.0643,
+        0.0
+       ],
+       [
+        350.0156,
+        109.1084,
+        0.0
+       ],
+       [
+        351.6764,
+        111.2365,
+        0.0
+       ],
+       [
+        353.2308,
+        113.4436,
+        0.0
+       ],
+       [
+        354.6751,
+        115.7243,
+        0.0
+       ],
+       [
+        356.0057,
+        118.0732,
+        0.0
+       ],
+       [
+        357.2194,
+        120.4845,
+        0.0
+       ],
+       [
+        358.3134,
+        122.9524,
+        0.0
+       ],
+       [
+        359.2849,
+        125.4711,
+        0.0
+       ],
+       [
+        360.1317,
+        128.0343,
+        0.0
+       ],
+       [
+        360.8517,
+        130.6361,
+        0.0
+       ],
+       [
+        361.4432,
+        133.27,
+        0.0
+       ],
+       [
+        361.9047,
+        135.9298,
+        0.0
+       ],
+       [
+        362.2352,
+        138.6091,
+        0.0
+       ],
+       [
+        362.4338,
+        141.3013,
+        0.0
+       ],
+       [
+        362.5,
+        144.0,
+        0.0
+       ],
+       [
+        362.5,
+        2539.0,
+        0.0
+       ],
+       [
+        362.4338,
+        2541.6987,
+        0.0
+       ],
+       [
+        362.2352,
+        2544.3909,
+        0.0
+       ],
+       [
+        361.9047,
+        2547.0702,
+        0.0
+       ],
+       [
+        361.4432,
+        2549.73,
+        0.0
+       ],
+       [
+        360.8517,
+        2552.3639,
+        0.0
+       ],
+       [
+        360.1317,
+        2554.9657,
+        0.0
+       ],
+       [
+        359.2849,
+        2557.5289,
+        0.0
+       ],
+       [
+        358.3134,
+        2560.0476,
+        0.0
+       ],
+       [
+        357.2194,
+        2562.5155,
+        0.0
+       ],
+       [
+        356.0057,
+        2564.9268,
+        0.0
+       ],
+       [
+        354.6751,
+        2567.2757,
+        0.0
+       ],
+       [
+        353.2308,
+        2569.5564,
+        0.0
+       ],
+       [
+        351.6764,
+        2571.7635,
+        0.0
+       ],
+       [
+        350.0156,
+        2573.8916,
+        0.0
+       ],
+       [
+        348.2523,
+        2575.9357,
+        0.0
+       ],
+       [
+        346.3909,
+        2577.8909,
+        0.0
+       ],
+       [
+        344.4357,
+        2579.7523,
+        0.0
+       ],
+       [
+        342.3916,
+        2581.5156,
+        0.0
+       ],
+       [
+        340.2635,
+        2583.1764,
+        0.0
+       ],
+       [
+        338.0564,
+        2584.7308,
+        0.0
+       ],
+       [
+        335.7757,
+        2586.1751,
+        0.0
+       ],
+       [
+        333.4268,
+        2587.5057,
+        0.0
+       ],
+       [
+        331.0155,
+        2588.7194,
+        0.0
+       ],
+       [
+        328.5476,
+        2589.8134,
+        0.0
+       ],
+       [
+        326.0289,
+        2590.7849,
+        0.0
+       ],
+       [
+        323.4657,
+        2591.6317,
+        0.0
+       ],
+       [
+        320.8639,
+        2592.3517,
+        0.0
+       ],
+       [
+        318.23,
+        2592.9432,
+        0.0
+       ],
+       [
+        315.5702,
+        2593.4047,
+        0.0
+       ],
+       [
+        312.8909,
+        2593.7352,
+        0.0
+       ],
+       [
+        310.1987,
+        2593.9338,
+        0.0
+       ],
+       [
+        307.5,
+        2594.0,
+        0.0
+       ],
+       [
+        105.0,
+        2594.0,
+        0.0
+       ],
+       [
+        102.3013,
+        2593.9338,
+        0.0
+       ],
+       [
+        99.6091,
+        2593.7352,
+        0.0
+       ],
+       [
+        96.9298,
+        2593.4047,
+        0.0
+       ],
+       [
+        94.27,
+        2592.9432,
+        0.0
+       ],
+       [
+        91.6361,
+        2592.3517,
+        0.0
+       ],
+       [
+        89.0343,
+        2591.6317,
+        0.0
+       ],
+       [
+        86.4711,
+        2590.7849,
+        0.0
+       ],
+       [
+        83.9524,
+        2589.8134,
+        0.0
+       ],
+       [
+        81.4845,
+        2588.7194,
+        0.0
+       ],
+       [
+        79.0732,
+        2587.5057,
+        0.0
+       ],
+       [
+        76.7243,
+        2586.1751,
+        0.0
+       ],
+       [
+        74.4436,
+        2584.7308,
+        0.0
+       ],
+       [
+        72.2365,
+        2583.1764,
+        0.0
+       ],
+       [
+        70.1084,
+        2581.5156,
+        0.0
+       ],
+       [
+        68.0643,
+        2579.7523,
+        0.0
+       ],
+       [
+        66.1091,
+        2577.8909,
+        0.0
+       ],
+       [
+        64.2477,
+        2575.9357,
+        0.0
+       ],
+       [
+        62.4844,
+        2573.8916,
+        0.0
+       ],
+       [
+        60.8236,
+        2571.7635,
+        0.0
+       ],
+       [
+        59.2692,
+        2569.5564,
+        0.0
+       ],
+       [
+        57.8249,
+        2567.2757,
+        0.0
+       ],
+       [
+        56.4943,
+        2564.9268,
+        0.0
+       ],
+       [
+        55.2806,
+        2562.5155,
+        0.0
+       ],
+       [
+        54.1866,
+        2560.0476,
+        0.0
+       ],
+       [
+        53.2151,
+        2557.5289,
+        0.0
+       ],
+       [
+        52.3683,
+        2554.9657,
+        0.0
+       ],
+       [
+        51.6483,
+        2552.3639,
+        0.0
+       ],
+       [
+        51.0568,
+        2549.73,
+        0.0
+       ],
+       [
+        50.5953,
+        2547.0702,
+        0.0
+       ],
+       [
+        50.2648,
+        2544.3909,
+        0.0
+       ],
+       [
+        50.0662,
+        2541.6987,
+        0.0
+       ],
+       [
+        50.0,
+        2539.0,
+        0.0
+       ],
+       [
+        50.0,
+        144.0,
+        0.0
+       ],
+       [
+        50.0662,
+        141.3013,
+        0.0
+       ],
+       [
+        50.2648,
+        138.6091,
+        0.0
+       ],
+       [
+        50.5953,
+        135.9298,
+        0.0
+       ],
+       [
+        51.0568,
+        133.27,
+        0.0
+       ],
+       [
+        51.6483,
+        130.6361,
+        0.0
+       ],
+       [
+        52.3683,
+        128.0343,
+        0.0
+       ],
+       [
+        53.2151,
+        125.4711,
+        0.0
+       ],
+       [
+        54.1866,
+        122.9524,
+        0.0
+       ],
+       [
+        55.2806,
+        120.4845,
+        0.0
+       ],
+       [
+        56.4943,
+        118.0732,
+        0.0
+       ],
+       [
+        57.8249,
+        115.7243,
+        0.0
+       ],
+       [
+        59.2692,
+        113.4436,
+        0.0
+       ],
+       [
+        60.8236,
+        111.2365,
+        0.0
+       ],
+       [
+        62.4844,
+        109.1084,
+        0.0
+       ],
+       [
+        64.2477,
+        107.0643,
+        0.0
+       ],
+       [
+        66.1091,
+        105.1091,
+        0.0
+       ],
+       [
+        68.0643,
+        103.2477,
+        0.0
+       ],
+       [
+        70.1084,
+        101.4844,
+        0.0
+       ],
+       [
+        72.2365,
+        99.8236,
+        0.0
+       ],
+       [
+        74.4436,
+        98.2692,
+        0.0
+       ],
+       [
+        76.7243,
+        96.8249,
+        0.0
+       ],
+       [
+        79.0732,
+        95.4943,
+        0.0
+       ],
+       [
+        81.4845,
+        94.2806,
+        0.0
+       ],
+       [
+        83.9524,
+        93.1866,
+        0.0
+       ],
+       [
+        86.4711,
+        92.2151,
+        0.0
+       ],
+       [
+        89.0343,
+        91.3683,
+        0.0
+       ],
+       [
+        91.6361,
+        90.6483,
+        0.0
+       ],
+       [
+        94.27,
+        90.0568,
+        0.0
+       ],
+       [
+        96.9298,
+        89.5953,
+        0.0
+       ],
+       [
+        99.6091,
+        89.2648,
+        0.0
+       ],
+       [
+        102.3013,
+        89.0662,
+        0.0
+       ],
+       [
+        105.0,
+        89.0,
+        0.0
+       ]
+      ]
+     }
+    },
+    {
+     "reteg": "$DIFF_OUT",
+     "op": "HATSO_FENYFALC",
+     "tipus": "extrude_y",
+     "origo": [
+      21,
+      381,
+      171
+     ],
+     "T": 11,
+     "profil": {
+      "tipus": "poly",
+      "pontok": [
+       [
+        307.5,
+        83.0,
+        0.0
+       ],
+       [
+        310.4931,
+        83.0735,
+        0.0
+       ],
+       [
+        313.479,
+        83.2937,
+        0.0
+       ],
+       [
+        316.4506,
+        83.6602,
+        0.0
+       ],
+       [
+        319.4005,
+        84.1721,
+        0.0
+       ],
+       [
+        322.3218,
+        84.8281,
+        0.0
+       ],
+       [
+        325.2074,
+        85.6266,
+        0.0
+       ],
+       [
+        328.0503,
+        86.56580000000002,
+        0.0
+       ],
+       [
+        330.8437,
+        87.64330000000001,
+        0.0
+       ],
+       [
+        333.5809,
+        88.85669999999999,
+        0.0
+       ],
+       [
+        336.2552,
+        90.20280000000002,
+        0.0
+       ],
+       [
+        338.8603,
+        91.67860000000002,
+        0.0
+       ],
+       [
+        341.3898,
+        93.28039999999999,
+        0.0
+       ],
+       [
+        343.8377,
+        95.0043,
+        0.0
+       ],
+       [
+        346.198,
+        96.84640000000002,
+        0.0
+       ],
+       [
+        348.4651,
+        98.80200000000002,
+        0.0
+       ],
+       [
+        350.6335,
+        100.86649999999997,
+        0.0
+       ],
+       [
+        352.698,
+        103.0349,
+        0.0
+       ],
+       [
+        354.6536,
+        105.30200000000002,
+        0.0
+       ],
+       [
+        356.4957,
+        107.66230000000002,
+        0.0
+       ],
+       [
+        358.2196,
+        110.11020000000002,
+        0.0
+       ],
+       [
+        359.8214,
+        112.6397,
+        0.0
+       ],
+       [
+        361.2972,
+        115.2448,
+        0.0
+       ],
+       [
+        362.6433,
+        117.91910000000001,
+        0.0
+       ],
+       [
+        363.8567,
+        120.65629999999999,
+        0.0
+       ],
+       [
+        364.9342,
+        123.4497,
+        0.0
+       ],
+       [
+        365.8734,
+        126.2926,
+        0.0
+       ],
+       [
+        366.6719,
+        129.1782,
+        0.0
+       ],
+       [
+        367.3279,
+        132.09949999999998,
+        0.0
+       ],
+       [
+        367.8398,
+        135.0494,
+        0.0
+       ],
+       [
+        368.2063,
+        138.02100000000002,
+        0.0
+       ],
+       [
+        368.4265,
+        141.00689999999997,
+        0.0
+       ],
+       [
+        368.5,
+        144.0,
+        0.0
+       ],
+       [
+        368.5,
+        2539.0,
+        0.0
+       ],
+       [
+        368.4265,
+        2541.9931,
+        0.0
+       ],
+       [
+        368.2063,
+        2544.979,
+        0.0
+       ],
+       [
+        367.8398,
+        2547.9506,
+        0.0
+       ],
+       [
+        367.3279,
+        2550.9005,
+        0.0
+       ],
+       [
+        366.6719,
+        2553.8218,
+        0.0
+       ],
+       [
+        365.8734,
+        2556.7074,
+        0.0
+       ],
+       [
+        364.9342,
+        2559.5503,
+        0.0
+       ],
+       [
+        363.8567,
+        2562.3437,
+        0.0
+       ],
+       [
+        362.6433,
+        2565.0809,
+        0.0
+       ],
+       [
+        361.2972,
+        2567.7552,
+        0.0
+       ],
+       [
+        359.8214,
+        2570.3603,
+        0.0
+       ],
+       [
+        358.2196,
+        2572.8898,
+        0.0
+       ],
+       [
+        356.4957,
+        2575.3377,
+        0.0
+       ],
+       [
+        354.6536,
+        2577.698,
+        0.0
+       ],
+       [
+        352.698,
+        2579.9651,
+        0.0
+       ],
+       [
+        350.6335,
+        2582.1335,
+        0.0
+       ],
+       [
+        348.4651,
+        2584.198,
+        0.0
+       ],
+       [
+        346.198,
+        2586.1536,
+        0.0
+       ],
+       [
+        343.8377,
+        2587.9957,
+        0.0
+       ],
+       [
+        341.3898,
+        2589.7196,
+        0.0
+       ],
+       [
+        338.8603,
+        2591.3214,
+        0.0
+       ],
+       [
+        336.2552,
+        2592.7972,
+        0.0
+       ],
+       [
+        333.5809,
+        2594.1433,
+        0.0
+       ],
+       [
+        330.8437,
+        2595.3567,
+        0.0
+       ],
+       [
+        328.0503,
+        2596.4342,
+        0.0
+       ],
+       [
+        325.2074,
+        2597.3734,
+        0.0
+       ],
+       [
+        322.3218,
+        2598.1719,
+        0.0
+       ],
+       [
+        319.4005,
+        2598.8279,
+        0.0
+       ],
+       [
+        316.4506,
+        2599.3398,
+        0.0
+       ],
+       [
+        313.479,
+        2599.7063,
+        0.0
+       ],
+       [
+        310.4931,
+        2599.9265,
+        0.0
+       ],
+       [
+        307.5,
+        2600.0,
+        0.0
+       ],
+       [
+        105.0,
+        2600.0,
+        0.0
+       ],
+       [
+        102.0069,
+        2599.9265,
+        0.0
+       ],
+       [
+        99.021,
+        2599.7063,
+        0.0
+       ],
+       [
+        96.0494,
+        2599.3398,
+        0.0
+       ],
+       [
+        93.0995,
+        2598.8279,
+        0.0
+       ],
+       [
+        90.1782,
+        2598.1719,
+        0.0
+       ],
+       [
+        87.2926,
+        2597.3734,
+        0.0
+       ],
+       [
+        84.4497,
+        2596.4342,
+        0.0
+       ],
+       [
+        81.6563,
+        2595.3567,
+        0.0
+       ],
+       [
+        78.9191,
+        2594.1433,
+        0.0
+       ],
+       [
+        76.2448,
+        2592.7972,
+        0.0
+       ],
+       [
+        73.6397,
+        2591.3214,
+        0.0
+       ],
+       [
+        71.1102,
+        2589.7196,
+        0.0
+       ],
+       [
+        68.6623,
+        2587.9957,
+        0.0
+       ],
+       [
+        66.302,
+        2586.1536,
+        0.0
+       ],
+       [
+        64.0349,
+        2584.198,
+        0.0
+       ],
+       [
+        61.8665,
+        2582.1335,
+        0.0
+       ],
+       [
+        59.80200000000001,
+        2579.9651,
+        0.0
+       ],
+       [
+        57.8464,
+        2577.698,
+        0.0
+       ],
+       [
+        56.0043,
+        2575.3377,
+        0.0
+       ],
+       [
+        54.2804,
+        2572.8898,
+        0.0
+       ],
+       [
+        52.6786,
+        2570.3603,
+        0.0
+       ],
+       [
+        51.202799999999996,
+        2567.7552,
+        0.0
+       ],
+       [
+        49.856700000000004,
+        2565.0809,
+        0.0
+       ],
+       [
+        48.643299999999996,
+        2562.3437,
+        0.0
+       ],
+       [
+        47.565799999999996,
+        2559.5503,
+        0.0
+       ],
+       [
+        46.626599999999996,
+        2556.7074,
+        0.0
+       ],
+       [
+        45.828100000000006,
+        2553.8218,
+        0.0
+       ],
+       [
+        45.1721,
+        2550.9005,
+        0.0
+       ],
+       [
+        44.6602,
+        2547.9506,
+        0.0
+       ],
+       [
+        44.2937,
+        2544.979,
+        0.0
+       ],
+       [
+        44.073499999999996,
+        2541.9931,
+        0.0
+       ],
+       [
+        44.0,
+        2539.0,
+        0.0
+       ],
+       [
+        44.0,
+        144.0,
+        0.0
+       ],
+       [
+        44.073499999999996,
+        141.00689999999997,
+        0.0
+       ],
+       [
+        44.2937,
+        138.02100000000002,
+        0.0
+       ],
+       [
+        44.6602,
+        135.0494,
+        0.0
+       ],
+       [
+        45.1721,
+        132.09949999999998,
+        0.0
+       ],
+       [
+        45.828100000000006,
+        129.1782,
+        0.0
+       ],
+       [
+        46.626599999999996,
+        126.2926,
+        0.0
+       ],
+       [
+        47.565799999999996,
+        123.4497,
+        0.0
+       ],
+       [
+        48.643299999999996,
+        120.65629999999999,
+        0.0
+       ],
+       [
+        49.856700000000004,
+        117.91910000000001,
+        0.0
+       ],
+       [
+        51.202799999999996,
+        115.2448,
+        0.0
+       ],
+       [
+        52.6786,
+        112.6397,
+        0.0
+       ],
+       [
+        54.2804,
+        110.11020000000002,
+        0.0
+       ],
+       [
+        56.0043,
+        107.66230000000002,
+        0.0
+       ],
+       [
+        57.8464,
+        105.30200000000002,
+        0.0
+       ],
+       [
+        59.80200000000001,
+        103.0349,
+        0.0
+       ],
+       [
+        61.8665,
+        100.86649999999997,
+        0.0
+       ],
+       [
+        64.0349,
+        98.80200000000002,
+        0.0
+       ],
+       [
+        66.302,
+        96.84640000000002,
+        0.0
+       ],
+       [
+        68.6623,
+        95.0043,
+        0.0
+       ],
+       [
+        71.1102,
+        93.28039999999999,
+        0.0
+       ],
+       [
+        73.6397,
+        91.67860000000002,
+        0.0
+       ],
+       [
+        76.2448,
+        90.20280000000002,
+        0.0
+       ],
+       [
+        78.9191,
+        88.85669999999999,
+        0.0
+       ],
+       [
+        81.6563,
+        87.64330000000001,
+        0.0
+       ],
+       [
+        84.4497,
+        86.56580000000002,
+        0.0
+       ],
+       [
+        87.2926,
+        85.6266,
+        0.0
+       ],
+       [
+        90.1782,
+        84.8281,
+        0.0
+       ],
+       [
+        93.0995,
+        84.1721,
+        0.0
+       ],
+       [
+        96.0494,
+        83.6602,
+        0.0
+       ],
+       [
+        99.021,
+        83.2937,
+        0.0
+       ],
+       [
+        102.0069,
+        83.0735,
+        0.0
+       ],
+       [
+        105.0,
+        83.0,
+        0.0
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "T-DOOR-R",
+   "num": 16085,
+   "reteg": "$PART_S16_T-DOOR-R˙0˙0¨VVVV˙0¨#0¨16085",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     436.5,
+     382,
+     573
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       0.0,
+       0
+      ],
+      [
+       412.5,
+       0,
+       0
+      ],
+      [
+       412.5,
+       2202,
+       0.414213562
+      ],
+      [
+       333.5,
+       2281.0,
+       0
+      ],
+      [
+       0.0,
+       2281.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TEXTILE",
+   "num": 16086,
+   "reteg": "$PART_S16_TEXTILE˙0˙0¨KKKK˙0¨#0¨16086",
+   "el_kod_etalon": "KKKK",
+   "tipus": "Burkolat",
+   "tipus_szin": 31,
+   "szin": "\"199,188,167\"",
+   "anyag": "M05",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     66.0,
+     366,
+     255
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       262.5,
+       0.0,
+       0.414213562
+      ],
+      [
+       322.5,
+       60.0,
+       0
+      ],
+      [
+       322.5,
+       2455.0,
+       0.414213562
+      ],
+      [
+       262.5,
+       2515.0,
+       0
+      ],
+      [
+       60.0,
+       2515.0,
+       0.414213562
+      ],
+      [
+       0.0,
+       2455.0,
+       0
+      ],
+      [
+       0.0,
+       60.0,
+       0.414213562
+      ],
+      [
+       60.0,
+       0.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BG-1",
+   "num": 16087,
+   "reteg": "$PART_S16_BG-1˙0˙0¨0000˙0¨#0¨16087",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"112,98,82\"",
+   "anyag": "M04",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740,
+     8,
+     470,
+     811.0,
+     17,
+     2405
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BG-2",
+   "num": 16088,
+   "reteg": "$PART_S16_BG-2˙0˙0¨0000˙0¨#0¨16088",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"112,98,82\"",
+   "anyag": "M04",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1554.0,
+     8,
+     470,
+     679.5,
+     17,
+     2405
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BG-3",
+   "num": 16089,
+   "reteg": "$PART_S16_BG-3˙0˙0¨0000˙0¨#0¨16089",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"112,98,82\"",
+   "anyag": "M04",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2236.5,
+     8,
+     470,
+     679.5,
+     17,
+     2405
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BG-4",
+   "num": 16090,
+   "reteg": "$PART_S16_BG-4˙0˙0¨0000˙0¨#0¨16090",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"112,98,82\"",
+   "anyag": "M04",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2919,
+     8,
+     470,
+     678.0,
+     17,
+     2405
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BATTEN-1",
+   "num": 16091,
+   "reteg": "$PART_S16_BATTEN-1˙0˙0¨0000˙0¨#0¨16091",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"138,127,114\"",
+   "anyag": "M10",
+   "test": {
+    "tipus": "box",
+    "box": [
+     910,
+     0,
+     590,
+     40,
+     8,
+     2235
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BATTEN-2",
+   "num": 16092,
+   "reteg": "$PART_S16_BATTEN-2˙0˙0¨0000˙0¨#0¨16092",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"138,127,114\"",
+   "anyag": "M10",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1540,
+     0,
+     590,
+     40,
+     8,
+     2235
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BATTEN-3",
+   "num": 16093,
+   "reteg": "$PART_S16_BATTEN-3˙0˙0¨0000˙0¨#0¨16093",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"138,127,114\"",
+   "anyag": "M10",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2220,
+     0,
+     590,
+     40,
+     8,
+     2235
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BATTEN-4",
+   "num": 16094,
+   "reteg": "$PART_S16_BATTEN-4˙0˙0¨0000˙0¨#0¨16094",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"138,127,114\"",
+   "anyag": "M10",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2900,
+     0,
+     590,
+     40,
+     8,
+     2235
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "BATTEN-5",
+   "num": 16095,
+   "reteg": "$PART_S16_BATTEN-5˙0˙0¨0000˙0¨#0¨16095",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"138,127,114\"",
+   "anyag": "M10",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3530,
+     0,
+     590,
+     40,
+     8,
+     2235
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "CURVE-T-TOP",
+   "num": 16096,
+   "reteg": "$PART_S16_CURVE-T-TOP˙0˙0¨FFFF˙0¨#0¨16096",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     0,
+     40,
+     2775
+    ],
+    "T": 337,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       0.0,
+       -0.414213562
+      ],
+      [
+       100.0,
+       100.0,
+       0
+      ],
+      [
+       770,
+       100,
+       -0.414213562
+      ],
+      [
+       870.0,
+       0.0,
+       0
+      ],
+      [
+       852,
+       0,
+       0.414213562
+      ],
+      [
+       770.0,
+       82.0,
+       0
+      ],
+      [
+       100,
+       82,
+       0.414213562
+      ],
+      [
+       18.0,
+       0.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-T-TOP",
+   "num": 16097,
+   "reteg": "$PART_S16_FRAME-T-TOP˙0˙0¨FFFF˙0¨#0¨16097",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     0,
+     382,
+     2775
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       0.0,
+       -0.414213562
+      ],
+      [
+       100.0,
+       100.0,
+       0
+      ],
+      [
+       770,
+       100,
+       -0.414213562
+      ],
+      [
+       870.0,
+       0.0,
+       0
+      ],
+      [
+       852,
+       0,
+       0.414213562
+      ],
+      [
+       770.0,
+       82.0,
+       0
+      ],
+      [
+       100,
+       82,
+       0.414213562
+      ],
+      [
+       18.0,
+       0.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "CURVE-T-BOT",
+   "num": 16098,
+   "reteg": "$PART_S16_CURVE-T-BOT˙0˙0¨FFF0˙0¨#0¨16098",
+   "el_kod_etalon": "FFF0",
+   "tipus": "Tető",
+   "tipus_szin": 173,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     0,
+     40,
+     150
+    ],
+    "T": 337,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       100,
+       0.414213562
+      ],
+      [
+       100.0,
+       0.0,
+       0
+      ],
+      [
+       870,
+       0,
+       0
+      ],
+      [
+       870,
+       18,
+       0
+      ],
+      [
+       100,
+       18,
+       -0.414213562
+      ],
+      [
+       18.0,
+       100.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-T-BOT",
+   "num": 16099,
+   "reteg": "$PART_S16_FRAME-T-BOT˙0˙0¨FFFF˙0¨#0¨16099",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     0,
+     382,
+     150
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       100,
+       0.414213562
+      ],
+      [
+       100.0,
+       0.0,
+       0
+      ],
+      [
+       870,
+       0,
+       0
+      ],
+      [
+       870,
+       18,
+       0
+      ],
+      [
+       100,
+       18,
+       -0.414213562
+      ],
+      [
+       18.0,
+       100.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-T-L",
+   "num": 16100,
+   "reteg": "$PART_S16_FRAME-T-L˙0˙0¨FF00˙0¨#0¨16100",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     0,
+     382,
+     250,
+     18,
+     18,
+     2525
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-T-R",
+   "num": 16101,
+   "reteg": "$PART_S16_FRAME-T-R˙0˙0¨FF00˙0¨#0¨16101",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     852,
+     382,
+     570,
+     18,
+     18,
+     2205
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-T-MID",
+   "num": 16102,
+   "reteg": "$PART_S16_FRAME-T-MID˙0˙0¨FFF0˙0¨#0¨16102",
+   "el_kod_etalon": "FFF0",
+   "tipus": "Vosztó",
+   "tipus_szin": 93,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     436.5,
+     382,
+     552,
+     433.5,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-LOW-1",
+   "num": 16103,
+   "reteg": "$PART_S16_FRAME-B-LOW-1˙0˙0¨FF00˙0¨#0¨16103",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     870,
+     382,
+     150,
+     850,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-LOW-2",
+   "num": 16104,
+   "reteg": "$PART_S16_FRAME-B-LOW-2˙0˙0¨FF00˙0¨#0¨16104",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1720,
+     382,
+     150,
+     1030,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-LOW-3",
+   "num": 16105,
+   "reteg": "$PART_S16_FRAME-B-LOW-3˙0˙0¨FF00˙0¨#0¨16105",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2750,
+     382,
+     150,
+     770,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-HIGH-1",
+   "num": 16106,
+   "reteg": "$PART_S16_FRAME-B-HIGH-1˙0˙0¨FF00˙0¨#0¨16106",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     870,
+     382,
+     552,
+     850,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-HIGH-2",
+   "num": 16107,
+   "reteg": "$PART_S16_FRAME-B-HIGH-2˙0˙0¨FF00˙0¨#0¨16107",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1720,
+     382,
+     552,
+     1030,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-HIGH-3",
+   "num": 16108,
+   "reteg": "$PART_S16_FRAME-B-HIGH-3˙0˙0¨FF00˙0¨#0¨16108",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     2750,
+     382,
+     552,
+     770,
+     18,
+     18
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-TOP",
+   "num": 16109,
+   "reteg": "$PART_S16_FRAME-B-TOP˙0˙0¨FFFF˙0¨#0¨16109",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3520,
+     382,
+     490
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       80.0,
+       -0.414213562
+      ],
+      [
+       80.0,
+       0.0,
+       0
+      ],
+      [
+       62,
+       0,
+       0.414213562
+      ],
+      [
+       0.0,
+       62.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "CURVE-B-TOP",
+   "num": 16110,
+   "reteg": "$PART_S16_CURVE-B-TOP˙0˙0¨FFFF˙0¨#0¨16110",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3520,
+     40,
+     490
+    ],
+    "T": 337,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       80.0,
+       -0.414213562
+      ],
+      [
+       80.0,
+       0.0,
+       0
+      ],
+      [
+       62,
+       0,
+       0.414213562
+      ],
+      [
+       0.0,
+       62.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-BOT",
+   "num": 16111,
+   "reteg": "$PART_S16_FRAME-B-BOT˙0˙0¨FFFF˙0¨#0¨16111",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3520,
+     382,
+     150
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       18.0,
+       0.414213562
+      ],
+      [
+       62.0,
+       80.0,
+       0
+      ],
+      [
+       80.0,
+       80.0,
+       -0.414213562
+      ],
+      [
+       0.0,
+       0.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "CURVE-B-BOT",
+   "num": 16112,
+   "reteg": "$PART_S16_CURVE-B-BOT˙0˙0¨FFFF˙0¨#0¨16112",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     3520,
+     40,
+     150
+    ],
+    "T": 337,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0.0,
+       18.0,
+       0.414213562
+      ],
+      [
+       62.0,
+       80.0,
+       0
+      ],
+      [
+       80.0,
+       80.0,
+       -0.414213562
+      ],
+      [
+       0.0,
+       0.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "FRAME-B-R",
+   "num": 16113,
+   "reteg": "$PART_S16_FRAME-B-R˙0˙0¨FF00˙0¨#0¨16113",
+   "el_kod_etalon": "FF00",
+   "tipus": "Keret",
+   "tipus_szin": 33,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3582,
+     382,
+     230,
+     18,
+     18,
+     260
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TV-SPACER-1",
+   "num": 16114,
+   "reteg": "$PART_S16_TV-SPACER-1˙0˙0¨FFFF˙0¨#0¨16114",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Kötő",
+   "tipus_szin": 153,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     910,
+     26,
+     605,
+     2530,
+     69,
+     30
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TV-SPACER-2",
+   "num": 16115,
+   "reteg": "$PART_S16_TV-SPACER-2˙0˙0¨FFFF˙0¨#0¨16115",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Kötő",
+   "tipus_szin": 153,
+   "szin": "\"51,44,38\"",
+   "anyag": "M02",
+   "test": {
+    "tipus": "box",
+    "box": [
+     1340,
+     26,
+     2050,
+     2020,
+     69,
+     30
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-LOW-DIV",
+   "num": 16116,
+   "reteg": "$PART_S16_T-LOW-DIV˙0˙0¨V000˙0¨#0¨16116",
+   "el_kod_etalon": "V000",
+   "tipus": "Oldal",
+   "tipus_szin": 40,
+   "szin": "\"80,73,66\"",
+   "anyag": "M01",
+   "test": {
+    "tipus": "box",
+    "box": [
+     417,
+     40,
+     168,
+     18,
+     337,
+     402
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-LOW-BACK",
+   "num": 16117,
+   "reteg": "$PART_S16_T-LOW-BACK˙0˙0¨0000˙0¨#0¨16117",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"105,108,103\"",
+   "anyag": "M08",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     18,
+     40,
+     168
+    ],
+    "T": 8,
+    "profil": {
+     "tipus": "bulge",
+     "pontok": [
+      [
+       0,
+       402,
+       0
+      ],
+      [
+       399,
+       402,
+       0
+      ],
+      [
+       399,
+       0,
+       0
+      ],
+      [
+       82,
+       0,
+       -0.414213562
+      ],
+      [
+       0.0,
+       82.0,
+       0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "T-DOOR-L-BACK",
+   "num": 16118,
+   "reteg": "$PART_S16_T-DOOR-L-BACK˙0˙0¨FFFF˙0¨#0¨16118",
+   "el_kod_etalon": "FFFF",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"51,44,38\"",
+   "anyag": "M11",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     61.0,
+     354,
+     250
+    ],
+    "T": 12,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       267.5,
+       0.0,
+       0.0
+      ],
+      [
+       270.6894,
+       0.0783,
+       0.0
+      ],
+      [
+       273.8711,
+       0.313,
+       0.0
+      ],
+      [
+       277.0375,
+       0.7035,
+       0.0
+      ],
+      [
+       280.1809,
+       1.249,
+       0.0
+      ],
+      [
+       283.2937,
+       1.948,
+       0.0
+      ],
+      [
+       286.3685,
+       2.7989,
+       0.0
+      ],
+      [
+       289.3978,
+       3.7996,
+       0.0
+      ],
+      [
+       292.3744,
+       4.9478,
+       0.0
+      ],
+      [
+       295.2911,
+       6.2407,
+       0.0
+      ],
+      [
+       298.1408,
+       7.6751,
+       0.0
+      ],
+      [
+       300.9167,
+       9.2476,
+       0.0
+      ],
+      [
+       303.6121,
+       10.9545,
+       0.0
+      ],
+      [
+       306.2205,
+       12.7915,
+       0.0
+      ],
+      [
+       308.7356,
+       14.7543,
+       0.0
+      ],
+      [
+       311.1513,
+       16.8382,
+       0.0
+      ],
+      [
+       313.4619,
+       19.0381,
+       0.0
+      ],
+      [
+       315.6618,
+       21.3487,
+       0.0
+      ],
+      [
+       317.7457,
+       23.7644,
+       0.0
+      ],
+      [
+       319.7085,
+       26.2795,
+       0.0
+      ],
+      [
+       321.5455,
+       28.8879,
+       0.0
+      ],
+      [
+       323.2524,
+       31.5833,
+       0.0
+      ],
+      [
+       324.8249,
+       34.3592,
+       0.0
+      ],
+      [
+       326.2593,
+       37.2089,
+       0.0
+      ],
+      [
+       327.5522,
+       40.1256,
+       0.0
+      ],
+      [
+       328.7004,
+       43.1022,
+       0.0
+      ],
+      [
+       329.7011,
+       46.1315,
+       0.0
+      ],
+      [
+       330.552,
+       49.2063,
+       0.0
+      ],
+      [
+       331.251,
+       52.3191,
+       0.0
+      ],
+      [
+       331.7965,
+       55.4625,
+       0.0
+      ],
+      [
+       332.187,
+       58.6289,
+       0.0
+      ],
+      [
+       332.4217,
+       61.8106,
+       0.0
+      ],
+      [
+       332.5,
+       65.0,
+       0.0
+      ],
+      [
+       332.5,
+       2460.0,
+       0.0
+      ],
+      [
+       332.4217,
+       2463.1894,
+       0.0
+      ],
+      [
+       332.187,
+       2466.3711,
+       0.0
+      ],
+      [
+       331.7965,
+       2469.5375,
+       0.0
+      ],
+      [
+       331.251,
+       2472.6809,
+       0.0
+      ],
+      [
+       330.552,
+       2475.7937,
+       0.0
+      ],
+      [
+       329.7011,
+       2478.8685,
+       0.0
+      ],
+      [
+       328.7004,
+       2481.8978,
+       0.0
+      ],
+      [
+       327.5522,
+       2484.8744,
+       0.0
+      ],
+      [
+       326.2593,
+       2487.7911,
+       0.0
+      ],
+      [
+       324.8249,
+       2490.6408,
+       0.0
+      ],
+      [
+       323.2524,
+       2493.4167,
+       0.0
+      ],
+      [
+       321.5455,
+       2496.1121,
+       0.0
+      ],
+      [
+       319.7085,
+       2498.7205,
+       0.0
+      ],
+      [
+       317.7457,
+       2501.2356,
+       0.0
+      ],
+      [
+       315.6618,
+       2503.6513,
+       0.0
+      ],
+      [
+       313.4619,
+       2505.9619,
+       0.0
+      ],
+      [
+       311.1513,
+       2508.1618,
+       0.0
+      ],
+      [
+       308.7356,
+       2510.2457,
+       0.0
+      ],
+      [
+       306.2205,
+       2512.2085,
+       0.0
+      ],
+      [
+       303.6121,
+       2514.0455,
+       0.0
+      ],
+      [
+       300.9167,
+       2515.7524,
+       0.0
+      ],
+      [
+       298.1408,
+       2517.3249,
+       0.0
+      ],
+      [
+       295.2911,
+       2518.7593,
+       0.0
+      ],
+      [
+       292.3744,
+       2520.0522,
+       0.0
+      ],
+      [
+       289.3978,
+       2521.2004,
+       0.0
+      ],
+      [
+       286.3685,
+       2522.2011,
+       0.0
+      ],
+      [
+       283.2937,
+       2523.052,
+       0.0
+      ],
+      [
+       280.1809,
+       2523.751,
+       0.0
+      ],
+      [
+       277.0375,
+       2524.2965,
+       0.0
+      ],
+      [
+       273.8711,
+       2524.687,
+       0.0
+      ],
+      [
+       270.6894,
+       2524.9217,
+       0.0
+      ],
+      [
+       267.5,
+       2525.0,
+       0.0
+      ],
+      [
+       65.0,
+       2525.0,
+       0.0
+      ],
+      [
+       61.8106,
+       2524.9217,
+       0.0
+      ],
+      [
+       58.6289,
+       2524.687,
+       0.0
+      ],
+      [
+       55.4625,
+       2524.2965,
+       0.0
+      ],
+      [
+       52.3191,
+       2523.751,
+       0.0
+      ],
+      [
+       49.2063,
+       2523.052,
+       0.0
+      ],
+      [
+       46.1315,
+       2522.2011,
+       0.0
+      ],
+      [
+       43.1022,
+       2521.2004,
+       0.0
+      ],
+      [
+       40.1256,
+       2520.0522,
+       0.0
+      ],
+      [
+       37.2089,
+       2518.7593,
+       0.0
+      ],
+      [
+       34.3592,
+       2517.3249,
+       0.0
+      ],
+      [
+       31.5833,
+       2515.7524,
+       0.0
+      ],
+      [
+       28.8879,
+       2514.0455,
+       0.0
+      ],
+      [
+       26.2795,
+       2512.2085,
+       0.0
+      ],
+      [
+       23.7644,
+       2510.2457,
+       0.0
+      ],
+      [
+       21.3487,
+       2508.1618,
+       0.0
+      ],
+      [
+       19.0381,
+       2505.9619,
+       0.0
+      ],
+      [
+       16.8382,
+       2503.6513,
+       0.0
+      ],
+      [
+       14.7543,
+       2501.2356,
+       0.0
+      ],
+      [
+       12.7915,
+       2498.7205,
+       0.0
+      ],
+      [
+       10.9545,
+       2496.1121,
+       0.0
+      ],
+      [
+       9.2476,
+       2493.4167,
+       0.0
+      ],
+      [
+       7.6751,
+       2490.6408,
+       0.0
+      ],
+      [
+       6.2407,
+       2487.7911,
+       0.0
+      ],
+      [
+       4.9478,
+       2484.8744,
+       0.0
+      ],
+      [
+       3.7996,
+       2481.8978,
+       0.0
+      ],
+      [
+       2.7989,
+       2478.8685,
+       0.0
+      ],
+      [
+       1.948,
+       2475.7937,
+       0.0
+      ],
+      [
+       1.249,
+       2472.6809,
+       0.0
+      ],
+      [
+       0.7035,
+       2469.5375,
+       0.0
+      ],
+      [
+       0.313,
+       2466.3711,
+       0.0
+      ],
+      [
+       0.0783,
+       2463.1894,
+       0.0
+      ],
+      [
+       0.0,
+       2460.0,
+       0.0
+      ],
+      [
+       0.0,
+       65.0,
+       0.0
+      ],
+      [
+       0.0783,
+       61.8106,
+       0.0
+      ],
+      [
+       0.313,
+       58.6289,
+       0.0
+      ],
+      [
+       0.7035,
+       55.4625,
+       0.0
+      ],
+      [
+       1.249,
+       52.3191,
+       0.0
+      ],
+      [
+       1.948,
+       49.2063,
+       0.0
+      ],
+      [
+       2.7989,
+       46.1315,
+       0.0
+      ],
+      [
+       3.7996,
+       43.1022,
+       0.0
+      ],
+      [
+       4.9478,
+       40.1256,
+       0.0
+      ],
+      [
+       6.2407,
+       37.2089,
+       0.0
+      ],
+      [
+       7.6751,
+       34.3592,
+       0.0
+      ],
+      [
+       9.2476,
+       31.5833,
+       0.0
+      ],
+      [
+       10.9545,
+       28.8879,
+       0.0
+      ],
+      [
+       12.7915,
+       26.2795,
+       0.0
+      ],
+      [
+       14.7543,
+       23.7644,
+       0.0
+      ],
+      [
+       16.8382,
+       21.3487,
+       0.0
+      ],
+      [
+       19.0381,
+       19.0381,
+       0.0
+      ],
+      [
+       21.3487,
+       16.8382,
+       0.0
+      ],
+      [
+       23.7644,
+       14.7543,
+       0.0
+      ],
+      [
+       26.2795,
+       12.7915,
+       0.0
+      ],
+      [
+       28.8879,
+       10.9545,
+       0.0
+      ],
+      [
+       31.5833,
+       9.2476,
+       0.0
+      ],
+      [
+       34.3592,
+       7.6751,
+       0.0
+      ],
+      [
+       37.2089,
+       6.2407,
+       0.0
+      ],
+      [
+       40.1256,
+       4.9478,
+       0.0
+      ],
+      [
+       43.1022,
+       3.7996,
+       0.0
+      ],
+      [
+       46.1315,
+       2.7989,
+       0.0
+      ],
+      [
+       49.2063,
+       1.948,
+       0.0
+      ],
+      [
+       52.3191,
+       1.249,
+       0.0
+      ],
+      [
+       55.4625,
+       0.7035,
+       0.0
+      ],
+      [
+       58.6289,
+       0.313,
+       0.0
+      ],
+      [
+       61.8106,
+       0.0783,
+       0.0
+      ],
+      [
+       65.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TV-FIELD",
+   "num": 16119,
+   "reteg": "$PART_S16_TV-FIELD˙0˙0¨VVVV˙0¨#0¨16119",
+   "el_kod_etalon": "VVVV",
+   "tipus": "Burkolat",
+   "tipus_szin": 31,
+   "szin": "\"64,54,46\"",
+   "anyag": "M03",
+   "test": {
+    "tipus": "extrude_y",
+    "origo": [
+     870,
+     95,
+     570
+    ],
+    "T": 18,
+    "profil": {
+     "tipus": "poly",
+     "pontok": [
+      [
+       0,
+       0,
+       0.0
+      ],
+      [
+       2630,
+       0,
+       0.0
+      ],
+      [
+       2630.0,
+       100.0,
+       0.0
+      ],
+      [
+       2630.0,
+       1480.0,
+       0.0
+      ],
+      [
+       2629.8795,
+       1484.9068,
+       0.0
+      ],
+      [
+       2629.5185,
+       1489.8017,
+       0.0
+      ],
+      [
+       2628.9177,
+       1494.673,
+       0.0
+      ],
+      [
+       2628.0785,
+       1499.509,
+       0.0
+      ],
+      [
+       2627.0031,
+       1504.298,
+       0.0
+      ],
+      [
+       2625.694,
+       1509.0285,
+       0.0
+      ],
+      [
+       2624.1544,
+       1513.689,
+       0.0
+      ],
+      [
+       2622.388,
+       1518.2683,
+       0.0
+      ],
+      [
+       2620.3989,
+       1522.7555,
+       0.0
+      ],
+      [
+       2618.1921,
+       1527.1397,
+       0.0
+      ],
+      [
+       2615.7729,
+       1531.4103,
+       0.0
+      ],
+      [
+       2613.147,
+       1535.557,
+       0.0
+      ],
+      [
+       2610.3208,
+       1539.5699,
+       0.0
+      ],
+      [
+       2607.301,
+       1543.4393,
+       0.0
+      ],
+      [
+       2604.0951,
+       1547.1559,
+       0.0
+      ],
+      [
+       2600.7107,
+       1550.7107,
+       0.0
+      ],
+      [
+       2597.1559,
+       1554.0951,
+       0.0
+      ],
+      [
+       2593.4393,
+       1557.301,
+       0.0
+      ],
+      [
+       2589.5699,
+       1560.3208,
+       0.0
+      ],
+      [
+       2585.557,
+       1563.147,
+       0.0
+      ],
+      [
+       2581.4103,
+       1565.7729,
+       0.0
+      ],
+      [
+       2577.1397,
+       1568.1921,
+       0.0
+      ],
+      [
+       2572.7555,
+       1570.3989,
+       0.0
+      ],
+      [
+       2568.2683,
+       1572.388,
+       0.0
+      ],
+      [
+       2563.689,
+       1574.1544,
+       0.0
+      ],
+      [
+       2559.0285,
+       1575.694,
+       0.0
+      ],
+      [
+       2554.298,
+       1577.0031,
+       0.0
+      ],
+      [
+       2549.509,
+       1578.0785,
+       0.0
+      ],
+      [
+       2544.673,
+       1578.9177,
+       0.0
+      ],
+      [
+       2539.8017,
+       1579.5185,
+       0.0
+      ],
+      [
+       2534.9068,
+       1579.8795,
+       0.0
+      ],
+      [
+       2530.0,
+       1580.0,
+       0.0
+      ],
+      [
+       450.0,
+       1580.0,
+       0.0
+      ],
+      [
+       443.1305,
+       1579.8314,
+       0.0
+      ],
+      [
+       436.2776,
+       1579.3259,
+       0.0
+      ],
+      [
+       429.4577,
+       1578.4847,
+       0.0
+      ],
+      [
+       422.6874,
+       1577.3099,
+       0.0
+      ],
+      [
+       415.9828,
+       1575.8044,
+       0.0
+      ],
+      [
+       409.3601,
+       1573.9716,
+       0.0
+      ],
+      [
+       402.8354,
+       1571.8162,
+       0.0
+      ],
+      [
+       396.4243,
+       1569.3431,
+       0.0
+      ],
+      [
+       390.1423,
+       1566.5585,
+       0.0
+      ],
+      [
+       384.0045,
+       1563.469,
+       0.0
+      ],
+      [
+       378.0256,
+       1560.082,
+       0.0
+      ],
+      [
+       372.2202,
+       1556.4057,
+       0.0
+      ],
+      [
+       366.6021,
+       1552.4491,
+       0.0
+      ],
+      [
+       361.1849,
+       1548.2215,
+       0.0
+      ],
+      [
+       355.9817,
+       1543.7332,
+       0.0
+      ],
+      [
+       351.0051,
+       1538.9949,
+       0.0
+      ],
+      [
+       346.2668,
+       1534.0183,
+       0.0
+      ],
+      [
+       341.7785,
+       1528.8151,
+       0.0
+      ],
+      [
+       337.5509,
+       1523.3979,
+       0.0
+      ],
+      [
+       333.5943,
+       1517.7798,
+       0.0
+      ],
+      [
+       329.918,
+       1511.9744,
+       0.0
+      ],
+      [
+       326.531,
+       1505.9955,
+       0.0
+      ],
+      [
+       323.4415,
+       1499.8577,
+       0.0
+      ],
+      [
+       320.6569,
+       1493.5757,
+       0.0
+      ],
+      [
+       318.1838,
+       1487.1646,
+       0.0
+      ],
+      [
+       316.0284,
+       1480.6399,
+       0.0
+      ],
+      [
+       314.1956,
+       1474.0172,
+       0.0
+      ],
+      [
+       312.6901,
+       1467.3126,
+       0.0
+      ],
+      [
+       311.5153,
+       1460.5423,
+       0.0
+      ],
+      [
+       310.6741,
+       1453.7224,
+       0.0
+      ],
+      [
+       310.1686,
+       1446.8695,
+       0.0
+      ],
+      [
+       310.0,
+       1440.0,
+       0.0
+      ],
+      [
+       310.0,
+       540.0,
+       0.0
+      ],
+      [
+       309.8073,
+       532.1492,
+       0.0
+      ],
+      [
+       309.2296,
+       524.3173,
+       0.0
+      ],
+      [
+       308.2682,
+       516.5231,
+       0.0
+      ],
+      [
+       306.9256,
+       508.7855,
+       0.0
+      ],
+      [
+       305.205,
+       501.1232,
+       0.0
+      ],
+      [
+       303.1105,
+       493.5545,
+       0.0
+      ],
+      [
+       300.6471,
+       486.0976,
+       0.0
+      ],
+      [
+       297.8207,
+       478.7707,
+       0.0
+      ],
+      [
+       294.6383,
+       471.5912,
+       0.0
+      ],
+      [
+       291.1074,
+       464.5765,
+       0.0
+      ],
+      [
+       287.2366,
+       457.7436,
+       0.0
+      ],
+      [
+       283.0351,
+       451.1088,
+       0.0
+      ],
+      [
+       278.5132,
+       444.6881,
+       0.0
+      ],
+      [
+       273.6817,
+       438.4971,
+       0.0
+      ],
+      [
+       268.5522,
+       432.5506,
+       0.0
+      ],
+      [
+       263.1371,
+       426.8629,
+       0.0
+      ],
+      [
+       257.4494,
+       421.4478,
+       0.0
+      ],
+      [
+       251.5029,
+       416.3183,
+       0.0
+      ],
+      [
+       245.3119,
+       411.4868,
+       0.0
+      ],
+      [
+       238.8912,
+       406.9649,
+       0.0
+      ],
+      [
+       232.2564,
+       402.7634,
+       0.0
+      ],
+      [
+       225.4235,
+       398.8926,
+       0.0
+      ],
+      [
+       218.4088,
+       395.3617,
+       0.0
+      ],
+      [
+       211.2293,
+       392.1793,
+       0.0
+      ],
+      [
+       203.9024,
+       389.3529,
+       0.0
+      ],
+      [
+       196.4455,
+       386.8895,
+       0.0
+      ],
+      [
+       188.8768,
+       384.795,
+       0.0
+      ],
+      [
+       181.2145,
+       383.0744,
+       0.0
+      ],
+      [
+       173.4769,
+       381.7318,
+       0.0
+      ],
+      [
+       165.6827,
+       380.7704,
+       0.0
+      ],
+      [
+       157.8508,
+       380.1927,
+       0.0
+      ],
+      [
+       150.0,
+       380.0,
+       0.0
+      ],
+      [
+       0,
+       380,
+       0.0
+      ]
+     ]
+    }
+   },
+   "kivonas": [
+    {
+     "tipus": "box",
+     "box": [
+      869,
+      101,
+      569,
+      2629,
+      13,
+      27
+     ],
+     "op": "FENYCSATORNA_FALC"
+    }
+   ],
+   "tech": [
+    {
+     "reteg": "$DIFF_OUT",
+     "op": "FENYCSATORNA_FALC",
+     "tipus": "box",
+     "box": [
+      869,
+      101,
+      569,
+      2629,
+      13,
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "BG-FINISH",
+   "num": 16120,
+   "reteg": "$PART_S16_BG-FINISH˙0˙0¨0000˙0¨#0¨16120",
+   "el_kod_etalon": "0000",
+   "tipus": "Hátlemez",
+   "tipus_szin": 17,
+   "szin": "\"112,98,82\"",
+   "anyag": "M04",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740,
+     25,
+     470,
+     2857,
+     1,
+     2405
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TOP-WASH-COVER",
+   "num": 16121,
+   "reteg": "$PART_S16_TOP-WASH-COVER˙0˙0¨0000˙0¨#0¨16121",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740.0,
+     26.0,
+     2872.0,
+     2857.0,
+     8.0,
+     3.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TOP-WASH-BAFFLE",
+   "num": 16122,
+   "reteg": "$PART_S16_TOP-WASH-BAFFLE˙0˙0¨0000˙0¨#0¨16122",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740.0,
+     34.0,
+     2857.0,
+     2857.0,
+     4.0,
+     18.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "TOP-WASH-HIDDEN-END",
+   "num": 16123,
+   "reteg": "$PART_S16_TOP-WASH-HIDDEN-END˙0˙0¨0000˙0¨#0¨16123",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     3595.0,
+     26.0,
+     2857.0,
+     2.0,
+     8.0,
+     15.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "UPLIGHT-TRAY",
+   "num": 16124,
+   "reteg": "$PART_S16_UPLIGHT-TRAY˙0˙0¨0000˙0¨#0¨16124",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740.0,
+     5.0,
+     2875.0,
+     2845.0,
+     24.0,
+     1.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "UPLIGHT-FRONT-VISOR",
+   "num": 16125,
+   "reteg": "$PART_S16_UPLIGHT-FRONT-VISOR˙0˙0¨0000˙0¨#0¨16125",
+   "el_kod_etalon": "0000",
+   "tipus": "Front",
+   "tipus_szin": 81,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740.0,
+     25.0,
+     2876.0,
+     2845.0,
+     4.0,
+     3.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "UPLIGHT-REAR-VISOR",
+   "num": 16126,
+   "reteg": "$PART_S16_UPLIGHT-REAR-VISOR˙0˙0¨0000˙0¨#0¨16126",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     740.0,
+     5.0,
+     2876.0,
+     2845.0,
+     3.0,
+     3.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "DECK-CONTINUOUS-COVER",
+   "num": 16127,
+   "reteg": "$PART_S16_DECK-CONTINUOUS-COVER˙0˙0¨0000˙0¨#0¨16127",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     870.0,
+     101.0,
+     592.0,
+     2628.0,
+     8.0,
+     4.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "DECK-CONTINUOUS-BAFFLE",
+   "num": 16128,
+   "reteg": "$PART_S16_DECK-CONTINUOUS-BAFFLE˙0˙0¨0000˙0¨#0¨16128",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     870.0,
+     109.0,
+     579.0,
+     2628.0,
+     4.0,
+     17.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  },
+  {
+   "id": "LOW-INTERNAL-LIGHT-VISOR",
+   "num": 16129,
+   "reteg": "$PART_S16_LOW-INTERNAL-LIGHT-VISOR˙0˙0¨0000˙0¨#0¨16129",
+   "el_kod_etalon": "0000",
+   "tipus": "Fény",
+   "tipus_szin": 121,
+   "szin": "\"42,38,34\"",
+   "anyag": "M12",
+   "test": {
+    "tipus": "box",
+    "box": [
+     57.0,
+     343.0,
+     554.0,
+     306.0,
+     5.0,
+     16.0
+    ]
+   },
+   "kivonas": [],
+   "tech": []
+  }
+ ]
+}

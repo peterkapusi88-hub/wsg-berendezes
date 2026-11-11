@@ -1,0 +1,57 @@
+[H
+VERSION="4.0"
+HP="1"
+IN="0"
+
+[001
+L="684"
+B="382"
+D="18"
+
+<100 \WerkStck\
+LA="L"
+BR="B"
+DI="D"
+
+<101 \Kommentar\
+KM="R16_KI12-TV01T-02 B-OLDAL FELUL - R16-J-GY-v1 - TERVEZET, NEM GEPRE KESZ (minta-MPR es szerszamtabla hianyzik)"
+
+<102 \BohrVert\
+XA="342"
+YA="332"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP KI12-TV01C-01:CSAP:KI12-TV01T-02:0 TERVEZET"
+
+<102 \BohrVert\
+XA="342"
+YA="191"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP KI12-TV01C-01:CSAP:KI12-TV01T-02:1 TERVEZET"
+
+<102 \BohrVert\
+XA="342"
+YA="50"
+BM="SS"
+TI="12"
+DU="8"
+AN="1"
+MI="0"
+AB="0"
+F_="STANDARD"
+EN="1"
+KM="TIPLI_LAP KI12-TV01C-01:CSAP:KI12-TV01T-02:2 TERVEZET"
+

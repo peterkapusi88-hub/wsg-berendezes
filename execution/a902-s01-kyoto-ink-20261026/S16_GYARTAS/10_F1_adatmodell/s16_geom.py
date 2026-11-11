@@ -172,6 +172,13 @@ def build_solid(part, zobj):
     if part.get("outline") and part["axis"] == "y":
         holes = [c["outline"] for c in part.get("cutouts", []) if c.get("type") == "through_contour"]
         m = extrude_outline_y(part, holes)
+        rr = part.get("rear_light_rebate")
+        if rr and m.is_watertight:
+            # hátsó fényfalc: a kontúr-prizma kivonása az y_mm tartományban (globális X,Z kontúr)
+            x, y, z = part["box"][:3]
+            sub = extrude_outline_y({"box": [x, rr["y_mm"][0] - 1, z, 0, rr["y_mm"][1] - rr["y_mm"][0] + 1, 0],
+                                     "outline": [[a - x, b - z] for a, b in rr["outline_xz_mm"]]})
+            m = m.difference(sub, engine="manifold")
         if m.is_watertight:
             return Solid.from_mesh(name, m, "R14_kontur_extrudalas")
     if part.get("assembly_rebate"):
@@ -228,3 +235,33 @@ class Solid:
 
     def bbox_overlap(self, other, tol=0.0):
         return bool(np.all(self.lo < other.hi - tol) and np.all(other.lo < self.hi - tol))
+
+
+EL_PRIORITAS = {"SZABAD_ELOL": 0, "SZABAD_EGYEB": 1, "CSATLAKOZO": 2}
+
+
+def etalon_el_kod(rec):
+    """Él-kód az asztalos etalonjának (coo1.dwg) sorrendjében – FELTEVÉS, az asztalos megerősítéséig:
+    hossz-él 1 (a látszó/elülső), hossz-él 2, szél-él 1, szél-él 2. A hosszél az L ≥ W oldal; E1/E3 az U (L) irányú élek.
+    Indok: coo1 – Oldal V0VV (elöl V, hátul 0, fent/lent V), Polc/Tető V000 (csak az elülső él), Kötő VV00, Front AAAA.
+    Visszaad: (kód, élsorrend)."""
+    e = rec["elek"]
+    L, W = rec["meret"]["kesz"]["L"], rec["meret"]["kesz"]["W"]
+    hossz, szel = (["E1", "E3"], ["E4", "E2"]) if L >= W else (["E4", "E2"], ["E1", "E3"])
+    key = lambda k: (EL_PRIORITAS.get(e[k]["szerep"], 9), k)
+    order = sorted(hossz, key=key) + sorted(szel, key=key)
+    return "".join(e[k]["jel"] for k in order), order
+
+
+def contains_robust(solid, pts):
+    """contains + második vélemény: az előjeles távolság közelpont-kétértelműségnél (vékony íves darab) tévesen negatív
+    lehet; ilyenkor a sugaras teszt dönt. Csak furat-ellenőrzéshez."""
+    pts = np.atleast_2d(pts)
+    res = solid.contains(pts)
+    if solid.mesh is not None and not res.all():
+        bad = ~res
+        inb = np.all((pts > solid.lo - 1e-6) & (pts < solid.hi + 1e-6), axis=1)
+        chk = bad & inb
+        if chk.any():
+            res[chk] = solid.mesh.contains(pts[chk])
+    return res

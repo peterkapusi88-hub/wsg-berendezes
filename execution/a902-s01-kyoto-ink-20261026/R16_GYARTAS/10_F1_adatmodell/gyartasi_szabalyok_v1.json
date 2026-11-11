@@ -1,0 +1,342 @@
+{
+ "verzio": "R16J-GY-v1",
+ "datum": "2026-10-30",
+ "statusz": "JAVASLAT – a S16 műhelyi feltételezései (élanyag, előmarás, ráhagyás, lapformátum, ütköztetés) átvéve R16 anyagokra; asztalosi megerősítésig nem végleges",
+ "megjegyzes": "R16 szabályfájl. Anyagkódok az R16 alkatrészlistából; a S16 azonos típusú anyagának paraméterei (becslés) átvéve. Él-jel elsődlegesen az R16 edge mezőjéből (r16_build_parts.py).",
+ "koordinata_konvencio": {
+  "globalis": "S16 konvenció: X balról jobbra (szobából), Y faltól a szoba felé, Z fel, mm. R16-ból: Y_S16 = 418 − Y_R16 (FELTEVÉS: fal az R16 Y=418 síkban – M16-BRONZE 'frontY382; 18 mm szerelőtér a fal előtt').",
+  "alkatresz_helyi": "U,V a lap síkjában, az A oldal felől nézve: U jobbra, V felfelé; N az A oldal kifelé mutató normálisa. Nullpont (0,0,0) = az A oldalról nézett bal alsó befoglaló sarok a B lapsíkon (N=0 a B oldal, N=T az A oldal).",
+  "elek": "E1 = V=0 (alsó), E2 = U=max (jobb), E3 = V=max (felső), E4 = U=0 (bal) – az A oldal felől nézve. Megegyezik az R14 'edge' mezőjének konvenciójával.",
+  "nezetek": {
+   "+Y": {
+    "U": "+X",
+    "V": "+Z",
+    "leiras": "szobából nézve (homlokzat)"
+   },
+   "-Y": {
+    "U": "-X",
+    "V": "+Z",
+    "leiras": "fal felől nézve"
+   },
+   "-X": {
+    "U": "+Y",
+    "V": "+Z",
+    "leiras": "bal oldalról nézve"
+   },
+   "+X": {
+    "U": "-Y",
+    "V": "+Z",
+    "leiras": "jobb oldalról nézve"
+   },
+   "+Z": {
+    "U": "+X",
+    "V": "-Y",
+    "leiras": "felülnézet, szoba lent"
+   },
+   "-Z": {
+    "U": "+X",
+    "V": "+Y",
+    "leiras": "alulnézet"
+   }
+  }
+ },
+ "a_oldal": {
+  "definicio": "A oldal = látszó / dekor-irányadó oldal (front: szoba felé; korpusz: belső tér felé vagy külső véglap). B oldal = szerelési/hátsó oldal. A pántkehely- és sínfuratok oldala a műveletnél külön van megadva.",
+  "alapertelmezes_tengely_szerint": {
+   "y": "+Y",
+   "z": "+Z",
+   "x": "-X"
+  },
+  "kivetelek": {
+   "KI12-TV01S-02": {
+    "irany": "+X",
+    "ok": "torony jobb külső látszó oldala (R16 face_finishes: X720 sík bronz)"
+   },
+   "KI16-M6-TV02-S-02": {
+    "irany": "+X",
+    "ok": "jobb szélső külső véglap (X3600)"
+   }
+  },
+  "statusz": "muhelyi_megerosites"
+ },
+ "gepi_utkozo": {
+  "alapertelmezes": [
+   "E1",
+   "E4"
+  ],
+  "leiras": "Gépi nullpont = helyi (0,0) sarok, ütköztetett élek E1 (alsó) és E4 (bal), A oldal felfelé a gépasztalon. Kontúros alkatrésznél a befoglaló sarok; ott sablon vagy nesting-kontúr kell.",
+  "statusz": "muhelyi_megerosites – a műhely gépének nullpont-/ütköző-konvenciója és a woodWOP X/Y irány még nincs megadva"
+ },
+ "el_kod_jelek": {
+  "V": "élzárt (ABS/élfólia, az anyag szerinti élanyag)",
+  "F": "festett él (festett MDF)",
+  "L": "csiszolt + lakkozott látszó rétegelt él",
+  "K": "kárpitozott / textil körbehajtva",
+  "0": "nincs élkezelés (csatlakozó vagy takart él)",
+  "etalon_megfeleltetes": "Az asztalos coo1 etalonjában 4 jeles kód van (pl. 'V0VV', 'V000', 'A0VV'). A pozíciók sorrendje és az 'A' jelentése NINCS dokumentálva – a mi kódunk E1-E2-E3-E4 sorrendű. Megfeleltetés az asztalos válasza után (nyitott kérdés)."
+ },
+ "anyagok": {
+  "M03": {
+   "tipus": "laminalt_butorlap_korpusz",
+   "nevleges_vastagsag": 18,
+   "elanyag": "ABS 0,8 mm Egger U741 ST9 (korpusz)",
+   "elvastagsag": 0.8,
+   "elomaras_elenkent": 1.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – S16 M01 szabály átvéve; dekor nincs kiválasztva",
+   "elomaras_forras": "becslés – élzárógép előmarása, műhelyi adat kell",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "U741 ST9",
+    "nev": "Láva szürke (NCS S 7005-Y20R = a bronzbarna festék színe)",
+    "dontes": "Péter 2026-10-30 18:02: „ahogy jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő"
+   }
+  },
+  "M01": {
+   "tipus": "festett_MDF_2KPU_bronz",
+   "nevleges_vastagsag": 18,
+   "elanyag": "festett él (2KPU bronzbarna)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    3660,
+    1830
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
+   "rahagyas_forras": "becslés – S16 M02 (festett MDF +10/+10) szabály átvéve"
+  },
+  "M01+nyomat": {
+   "tipus": "festett_MDF_nyomattal",
+   "nevleges_vastagsag": 18,
+   "elanyag": "festett él (2KPU bronzbarna)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    3660,
+    1830
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
+   "rahagyas_forras": "becslés – S16 M02 szabály átvéve; nyomat 10 mm kifutóval (R16 artwork)"
+  },
+  "M16-BRONZE": {
+   "tipus": "festett_MDF_2KPU_bronz",
+   "nevleges_vastagsag": 18,
+   "elanyag": "festett él (2KPU bronzbarna)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    3660,
+    1830
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "Péter 2026-10-30: „ahogy igényesebb” → a 3610 mm-es fedő EGY DARABBÓL, hosszú (3660×1830) MDF-táblából, toldás nélkül – beszerzés az asztalossal egyeztetendő",
+   "rahagyas_forras": "becslés – S16 M02 szabály átvéve"
+  },
+  "M02": {
+   "tipus": "MDF_hordozo_falburkolattal",
+   "nevleges_vastagsag": 18,
+   "elanyag": "ABS 0,8 mm Egger F433 ST10 dekoregyező",
+   "elvastagsag": 0.8,
+   "elomaras_elenkent": 1.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés",
+   "rahagyas_forras": "becslés – S16 M02 szabály átvéve",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "F433 ST10",
+    "nev": "Antracit len – kész textilhatású lap 18 mm (a Vescom tekercs helyett, kasírozás nélkül)",
+    "dontes": "Péter 2026-10-30 18:02: „ahogy jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő",
+    "ok": "kész lap: élzárható, sík, nincs kasírozási kockázat; alternatíva a S16-tal egyező Egger F424 barna len HPL"
+   }
+  },
+  "M16-DRAWER15": {
+   "tipus": "nyir_retegelt_lemez",
+   "nevleges_vastagsag": 15,
+   "elanyag": "csiszolt + lakk (R16 M16-DRAWER15)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    1525,
+    1525
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – szokásos nyír rétegelt formátum"
+  },
+  "BEECH18": {
+   "tipus": "tomorfa_lec",
+   "nevleges_vastagsag": 18,
+   "elanyag": "nincs",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": null,
+   "erezetes": false,
+   "megjegyzes": "léc, szálban vágva"
+  },
+  "PLY18": {
+   "tipus": "retegelt_lemez_18",
+   "nevleges_vastagsag": 18,
+   "elanyag": "nincs (takart)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2500,
+    1250
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – szokásos rétegelt formátum"
+  },
+  "M03-8": {
+   "tipus": "hatlap_8mm",
+   "nevleges_vastagsag": 8,
+   "elanyag": "nincs (takart hátlap)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – S16 M08 szabály átvéve"
+  }
+ },
+ "alkatresz_anyag_felulbiralas": {},
+ "elszabalyok": {
+  "leiras": "Él-szerep geometriából (érintkezés a többi alkatrésszel ±0,6 mm-en belül) + irány; él-jel anyagonként.",
+  "erintkezes_tures_mm": 0.6,
+  "erintkezes_kuszob_arany": 0.5,
+  "anyag": {
+   "M03": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "0"
+   },
+   "M01": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "F",
+    "SZABAD_EGYEB": "F"
+   },
+   "M01+nyomat": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "F",
+    "SZABAD_EGYEB": "F"
+   },
+   "M16-BRONZE": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "F",
+    "SZABAD_EGYEB": "F"
+   },
+   "M02": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "V"
+   },
+   "M16-DRAWER15": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "L",
+    "SZABAD_EGYEB": "L"
+   },
+   "BEECH18": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   },
+   "PLY18": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   },
+   "M03-8": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   }
+  },
+  "irany_felulbiralas": [],
+  "id_kivetelek": {},
+  "statusz": "JAVASLAT – műhelyi megerősítésre"
+ },
+ "gyartasi_tipus": {
+  "alapertelmezes": "LAP",
+  "id": {},
+  "nem_lap_tipusok": [
+   "IVES_SZERELVENY",
+   "OSSZEALLITAS",
+   "BURKOLAT_RETEG",
+   "TEXTIL_BETET",
+   "FENYTAKARO"
+  ],
+  "BAT": "LEC",
+  "RAIL": "LAP"
+ },
+ "cimke_azonosito": {
+  "elotag": "R16",
+  "minta": "^[A-Z0-9][A-Z0-9_-]{0,31}$",
+  "megjegyzes": "A címke-ID = későbbi MPR fájlnév (woodWOP-kompatibilis ASCII)."
+ },
+ "qa": {
+  "tures_mm": 0.01,
+  "mesh_tures_mm": 0.05,
+  "front_res_nevleges_mm": 3.0,
+  "front_res_min_mm": 2.5,
+  "front_sik_y": [
+   421,
+   439
+  ],
+  "falc_min_maradek_mm": 6.0,
+  "utkozes_min_terfogat_mm3": 1.0,
+  "blum_movento": {
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)",
+   "SKW_eq_LW_minus": 42,
+   "fiokoldal_hossz_eq_NL_minus": 10,
+   "oldal_max_vastagsag": 16,
+   "fenek_besullyesztes_min_magassag": 12,
+   "fenek_besullyesztes_max_melyseg": 15
+  },
+  "mennyezet_nevleges": 2900,
+  "mennyezeti_res_min": 25
+ },
+ "el_jel_R16": {
+  "leiras": "R16 edge[E1..E4] (R16 frame) → globális irány → S16 E1..E4; 1 = élkezelt",
+  "M03": "V",
+  "M01": "F",
+  "M01+nyomat": "F",
+  "M16-BRONZE": "F",
+  "M02": null,
+  "M16-DRAWER15": "L_SZABAD",
+  "BEECH18": "0",
+  "PLY18": "0",
+  "M03-8": "0"
+ },
+ "cad": {
+  "mac_mappa": "/Users/peterkapusi/CAD/R16_J"
+ },
+ "anyag_dontesek_2026_10_30": "M03 ABS 0,8 (U741); M02 → Egger F433 ST10 kész lap + 0,8 ABS; fedő egy darabból jumbo MDF-ből"
+}

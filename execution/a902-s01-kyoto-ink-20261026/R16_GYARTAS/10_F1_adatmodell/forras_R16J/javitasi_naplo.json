@@ -1,0 +1,297 @@
+{
+ "forras": "forras_R16 (git 2514579)",
+ "fal_y_r16": 418.0,
+ "valtozasok": [
+  {
+   "id": "KI12-TV01H-01",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV01H-01",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI12-TV02H1-01",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV02H1-01",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI14-BAT-03",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    48,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI14-BAT-04",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    48,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI12-TV02H2-01",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV02H2-01",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI14-BAT-05",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI14-BAT-06",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI12-TV02H2-02",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV02H2-02",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI14-BAT-07",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI14-BAT-08",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI12-TV02H2-03",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV02H2-03",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI14-BAT-09",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    408,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI14-BAT-10",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    408,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI12-TV02H2-04",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI12-TV02H2-04",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI14-BAT-11",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI14-BAT-12",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI16-M6-BACK-05",
+   "mezo": "material",
+   "volt": "M03",
+   "lett": "M03-8",
+   "forras": "ugyanaz az M03 kód 18 és 8 mm-es lapra – a 8 mm-es hátlap külön anyagkódot kap (vastagság a befoglalóból)"
+  },
+  {
+   "id": "KI16-M6-BACK-05",
+   "mezo": "outline",
+   "volt": "befoglaló + notches.json (külön)",
+   "lett": "8 pontos kontúr",
+   "forras": "notches.json – sarokkivágás a kontúrba építve (a CAD/QA lánc a kontúrt olvassa)"
+  },
+  {
+   "id": "KI16-M6-BAT-06",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "KI16-M6-BAT-07",
+   "mezo": "x/y/t (listázott méret)",
+   "volt": [
+    212,
+    -222,
+    18
+   ],
+   "lett": "a befoglalóból: 18×18×212",
+   "forras": "assembly_box_mm (R16 natív STL-visszaolvasással igazolt, audit max 1,9e-6 mm) – a listázott sor hibás",
+   "audit_egyezes": true
+  },
+  {
+   "id": "anyag:BEECH18",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18×18 mm bükk léc (hátlaprögzítő)",
+   "forras": "R16 parts.json"
+  },
+  {
+   "id": "anyag:M01",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18 mm MDF, matt bronzbarna 2KPU festés (alsó frontok, összefüggő fedő)",
+   "forras": "R16 face_finishes.json / 00_OLVASD_EL: alsó front bronzbarna; kód az R12–R16 alkatrészlistából"
+  },
+  {
+   "id": "anyag:M01+nyomat",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18 mm MDF, bronzbarna matt alap + tusgrafika nyomott/UV réteg (toronyajtók)",
+   "forras": "R16 materials.json M16-TOWER"
+  },
+  {
+   "id": "anyag:M02",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18 mm MDF hordozó + Vescom Bely+Print 1040.01 textilhatású burkolat (dekor panel)",
+   "forras": "R16 materials.json M16-WALL"
+  },
+  {
+   "id": "anyag:M03",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18 mm laminált bútorlap (korpusz belső) – dekor nyitott",
+   "forras": "R16 face_finishes.json: interior M03; R12 OLVASD_EL: tervezett 1 mm élzárás"
+  },
+  {
+   "id": "anyag:M03-8",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "8 mm hátlap, M03 korpuszdekorban",
+   "forras": "R16 parts.json: TV01-H/TV02-H2 M03 kóddal, t = 8 mm"
+  },
+  {
+   "id": "anyag:PLY18",
+   "mezo": "materials.json",
+   "volt": "nincs definiálva az R16 materials.json-ban",
+   "lett": "18 mm rétegelt lemez merevítő keresztléc",
+   "forras": "R16 parts.json"
+  }
+ ]
+}

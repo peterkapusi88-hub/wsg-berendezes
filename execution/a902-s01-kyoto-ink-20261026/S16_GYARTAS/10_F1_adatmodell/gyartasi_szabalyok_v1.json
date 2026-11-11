@@ -1,389 +1,429 @@
 {
-  "verzio": "S16-GY-F1-v1",
-  "datum": "2026-10-30",
-  "statusz": "JAVASLAT – minden 'becsles' vagy 'muhelyi_megerosites' jelölésű érték az asztalos visszajelzéséig nem végleges",
-  "megjegyzes": "Ez az egyetlen hely, ahol műhelyi feltételezés (élanyag, ráhagyás, lapformátum, ütköztetés, A-oldal) él. A build_parts_v1.py ebből és a forras_R14 geometriából generál; kézzel a parts_v1.json-t nem szerkesztjük.",
-  "koordinata_konvencio": {
-    "globalis": "R14 helyi rajzi rendszer: X balról jobbra (szobából nézve), Y faltól a szoba felé, Z felfelé, mm. Bal alsó falsarok a kész padlón. Nem tükrözzük újra (lásd 04_FORRASOK...txt).",
-    "alkatresz_helyi": "U,V a lap síkjában, az A oldal felől nézve: U jobbra, V felfelé; N az A oldal kifelé mutató normálisa. Nullpont (0,0,0) = az A oldalról nézett bal alsó befoglaló sarok a B lapsíkon (N=0 a B oldal, N=T az A oldal).",
-    "elek": "E1 = V=0 (alsó), E2 = U=max (jobb), E3 = V=max (felső), E4 = U=0 (bal) – az A oldal felől nézve. Megegyezik az R14 'edge' mezőjének konvenciójával.",
-    "nezetek": {
-      "+Y": {
-        "U": "+X",
-        "V": "+Z",
-        "leiras": "szobából nézve (homlokzat)"
-      },
-      "-Y": {
-        "U": "-X",
-        "V": "+Z",
-        "leiras": "fal felől nézve"
-      },
-      "-X": {
-        "U": "+Y",
-        "V": "+Z",
-        "leiras": "bal oldalról nézve"
-      },
-      "+X": {
-        "U": "-Y",
-        "V": "+Z",
-        "leiras": "jobb oldalról nézve"
-      },
-      "+Z": {
-        "U": "+X",
-        "V": "-Y",
-        "leiras": "felülnézet, szoba lent"
-      },
-      "-Z": {
-        "U": "+X",
-        "V": "+Y",
-        "leiras": "alulnézet"
-      }
-    }
-  },
-  "a_oldal": {
-    "definicio": "A oldal = látszó / dekor-irányadó oldal (front: szoba felé; korpusz: belső tér felé vagy külső véglap). B oldal = szerelési/hátsó oldal. A pántkehely- és sínfuratok oldala a műveletnél külön van megadva.",
-    "alapertelmezes_tengely_szerint": {
-      "y": "+Y",
-      "z": "+Z",
-      "x": "-X"
-    },
-    "kivetelek": {
-      "T-R": {
-        "irany": "+X",
-        "ok": "jobb oldali külső látszó oldal a D1 fölött"
-      },
-      "D6-R": {
-        "irany": "+X",
-        "ok": "jobb oldali külső véglap"
-      },
-      "T-L": {
-        "irany": "-X",
-        "ok": "bal oldali külső véglap"
-      }
-    },
-    "statusz": "muhelyi_megerosites"
-  },
-  "gepi_utkozo": {
-    "alapertelmezes": [
-      "E1",
-      "E4"
-    ],
-    "leiras": "Gépi nullpont = helyi (0,0) sarok, ütköztetett élek E1 (alsó) és E4 (bal), A oldal felfelé a gépasztalon. Kontúros alkatrésznél a befoglaló sarok; ott sablon vagy nesting-kontúr kell.",
-    "statusz": "muhelyi_megerosites – a műhely gépének nullpont-/ütköző-konvenciója és a woodWOP X/Y irány még nincs megadva"
-  },
-  "el_kod_jelek": {
-    "V": "élzárt (ABS/élfólia, az anyag szerinti élanyag)",
-    "F": "festett él (festett MDF)",
-    "L": "csiszolt + lakkozott látszó rétegelt él",
-    "K": "kárpitozott / textil körbehajtva",
-    "0": "nincs élkezelés (csatlakozó vagy takart él)",
-    "etalon_megfeleltetes": "Az asztalos coo1 etalonjában 4 jeles kód van (pl. 'V0VV', 'V000', 'A0VV'). A pozíciók sorrendje és az 'A' jelentése NINCS dokumentálva – a mi kódunk E1-E2-E3-E4 sorrendű. Megfeleltetés az asztalos válasza után (nyitott kérdés)."
-  },
-  "anyagok": {
-    "M01": {
-      "tipus": "melamin_forgacslap",
-      "nevleges_vastagsag": 18,
-      "elanyag": "ABS 1 mm grafit",
-      "elvastagsag": 1.0,
-      "elomaras_elenkent": 1.0,
-      "rahagyas_L": 0,
-      "rahagyas_W": 0,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés – általános bútorlap-formátum, termék nincs kiválasztva",
-      "elomaras_forras": "becslés – élzárógép előmarása, műhelyi adat kell"
-    },
-    "M02": {
-      "tipus": "festett_MDF",
-      "nevleges_vastagsag": 18,
-      "elanyag": "festett él",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 10,
-      "rahagyas_W": 10,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés",
-      "rahagyas_forras": "R14 raw_rule: 'MDF keret/front +10/+10 mm marási ráhagyás'"
-    },
-    "M03": {
-      "tipus": "faerezetes_dekor_front",
-      "nevleges_vastagsag": 18,
-      "elanyag": "ABS 1 mm dekoregyező",
-      "elvastagsag": 1.0,
-      "elomaras_elenkent": 1.0,
-      "rahagyas_L": 10,
-      "rahagyas_W": 10,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": true,
-      "erezet_a_lap_hosszaban": true,
-      "lapmeret_forras": "becslés – dekor/termék nincs kiválasztva (materials.json M03)",
-      "rahagyas_forras": "R14 raw_rule (front)"
-    },
-    "M04": {
-      "tipus": "hatter_hordozo",
-      "nevleges_vastagsag": 17,
-      "elanyag": "nincs",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 0,
-      "rahagyas_W": 0,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": true,
-      "erezet_a_lap_hosszaban": true,
-      "lapmeret_forras": "becslés",
-      "megjegyzes": "R14 explicit raw_L/raw_W elsőbbséget kap, de a QA ellenőrzi"
-    },
-    "M05": {
-      "tipus": "textil_betet",
-      "nevleges_vastagsag": 8,
-      "elanyag": "textil körbehajtva",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": null,
-      "rahagyas_W": null,
-      "lapmeret": null,
-      "erezetes": false,
-      "megjegyzes": "kárpitos rétegrend és szövetráhagyás műhelyi adat"
-    },
-    "M07": {
-      "tipus": "nyir_retegelt_lemez",
-      "nevleges_vastagsag": 15,
-      "elanyag": "csiszolt + lakk",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 0,
-      "rahagyas_W": 0,
-      "lapmeret": [
-        1525,
-        1525
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés – szokásos nyír rétegelt formátum"
-    },
-    "M08": {
-      "tipus": "hatlap_8mm",
-      "nevleges_vastagsag": 8,
-      "elanyag": "ABS 0,8 mm grafit (csak szervizfedél)",
-      "elvastagsag": 0.8,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 0,
-      "rahagyas_W": 0,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés"
-    },
-    "M10": {
-      "tipus": "MDF_lec",
-      "nevleges_vastagsag": 8,
-      "elanyag": "nincs",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 0,
-      "rahagyas_W": 0,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés",
-      "megjegyzes": "R15 javaslat"
-    },
-    "M11": {
-      "tipus": "festett_MDF_12",
-      "nevleges_vastagsag": 12,
-      "elanyag": "festett él",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": 10,
-      "rahagyas_W": 10,
-      "lapmeret": [
-        2800,
-        2070
-      ],
-      "erezetes": false,
-      "lapmeret_forras": "becslés",
-      "rahagyas_forras": "R14 raw_rule (MDF +10/+10)",
-      "megjegyzes": "R15 javaslat"
-    },
-    "M12": {
-      "tipus": "fenytakaro_profil",
-      "nevleges_vastagsag": null,
-      "elanyag": "profil szerint",
-      "elvastagsag": 0.0,
-      "elomaras_elenkent": 0.0,
-      "rahagyas_L": null,
-      "rahagyas_W": null,
-      "lapmeret": null,
-      "erezetes": false,
-      "megjegyzes": "termék nyitott"
-    }
-  },
-  "alkatresz_anyag_felulbiralas": {
-    "TV-FIELD": {
-      "szalirany": "U",
-      "kivitel": "faerezetes lap egy darabból, VÍZSZINTES erezet (a fiókfrontokkal azonos irány)",
-      "dontes": "Péter, 2026-10-30 12:49 – vízszintes erezet (felülírja a 12:43-as függőlegest; GOAL.md 7.)",
-      "nyitott": "dekor/termék és tényleges táblaméret; az R14 renderek még függőleges erezetet mutatnak"
-    }
-  },
-  "elszabalyok": {
-    "leiras": "Él-szerep geometriából (érintkezés a többi alkatrésszel ±0,6 mm-en belül) + irány; él-jel anyagonként.",
-    "erintkezes_tures_mm": 0.6,
-    "erintkezes_kuszob_arany": 0.5,
-    "anyag": {
-      "M01": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "V",
-        "SZABAD_EGYEB": "0"
-      },
-      "M02": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "F",
-        "SZABAD_EGYEB": "F"
-      },
-      "M03": {
-        "CSATLAKOZO": "V",
-        "SZABAD_ELOL": "V",
-        "SZABAD_EGYEB": "V"
-      },
-      "M04": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "0",
-        "SZABAD_EGYEB": "0"
-      },
-      "M05": {
-        "CSATLAKOZO": "K",
-        "SZABAD_ELOL": "K",
-        "SZABAD_EGYEB": "K"
-      },
-      "M07": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "L",
-        "SZABAD_EGYEB": "L"
-      },
-      "M08": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "0",
-        "SZABAD_EGYEB": "0"
-      },
-      "M10": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "0",
-        "SZABAD_EGYEB": "0"
-      },
-      "M11": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "F",
-        "SZABAD_EGYEB": "F"
-      },
-      "M12": {
-        "CSATLAKOZO": "0",
-        "SZABAD_ELOL": "0",
-        "SZABAD_EGYEB": "0"
-      }
-    },
-    "irany_felulbiralas": [
-      {
-        "anyag": [
-          "M01"
-        ],
-        "irany": "+Z",
-        "szerep": [
-          "SZABAD_EGYEB",
-          "SZABAD_ELOL"
-        ],
-        "ha_mezo": "exposed_top_finish",
-        "jel": "V",
-        "elanyag": "ABS 1 mm, a látszó felső felület színében (exposed_top_finish)",
-        "ok": "R14 exposed_top_finish: a korpuszoldal felső éle a komód tetején látszik"
-      },
-      {
-        "anyag": [
-          "M01",
-          "M02"
-        ],
-        "irany": "-Z",
-        "szerep": [
-          "SZABAD_EGYEB"
-        ],
-        "also_sik_z": 150,
-        "jel": "V",
-        "elanyag": "ABS 1 mm grafit / festett",
-        "ok": "függesztett bútor alsó síkja (layout.base_z = 150), alulról látszik"
-      }
-    ],
-    "id_kivetelek": {
-      "T-L-SERVICE": {
-        "SZABAD_ELOL": "V",
-        "SZABAD_EGYEB": "V",
-        "ok": "kivehető szervizfedél, nyitott ajtónál látszik"
-      },
-      "T-R-SERVICE": {
-        "SZABAD_ELOL": "V",
-        "SZABAD_EGYEB": "V",
-        "ok": "kivehető szervizfedél, nyitott ajtónál látszik"
-      }
-    },
-    "statusz": "JAVASLAT – műhelyi megerősítésre"
-  },
-  "gyartasi_tipus": {
-    "curved_assembly": "IVES_SZERELVENY",
-    "spacer_assembly": "OSSZEALLITAS",
-    "id": {
-      "BG-FINISH": "BURKOLAT_RETEG",
-      "TEXTILE": "TEXTIL_BETET"
-    },
-    "alapertelmezes": "LAP",
-    "nem_lap_tipusok": [
-      "IVES_SZERELVENY",
-      "OSSZEALLITAS",
-      "BURKOLAT_RETEG",
-      "TEXTIL_BETET",
-      "FENYTAKARO"
-    ],
-    "light_cover": "FENYTAKARO"
-  },
-  "cimke_azonosito": {
-    "elotag": "S16",
-    "minta": "^[A-Z0-9][A-Z0-9_-]{0,31}$",
-    "megjegyzes": "A címke-ID = későbbi MPR fájlnév (woodWOP-kompatibilis ASCII)."
-  },
-  "qa": {
-    "tures_mm": 0.01,
-    "mesh_tures_mm": 0.05,
-    "front_res_nevleges_mm": 3.0,
-    "front_res_min_mm": 2.5,
-    "front_sik_y": [
-      382,
-      400
-    ],
-    "falc_min_maradek_mm": 6.0,
-    "utkozes_min_terfogat_mm3": 1.0,
-    "blum_movento": {
-      "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)",
-      "SKW_eq_LW_minus": 42,
-      "fiokoldal_hossz_eq_NL_minus": 10,
-      "oldal_max_vastagsag": 16,
-      "fenek_besullyesztes_min_magassag": 12,
-      "fenek_besullyesztes_max_melyseg": 15
-    },
-    "mennyezet_nevleges": 2900,
-    "mennyezeti_res_min": 25
+ "verzio": "S16-GY-F1-v1",
+ "datum": "2026-10-30",
+ "statusz": "JAVASLAT – minden 'becsles' vagy 'muhelyi_megerosites' jelölésű érték az asztalos visszajelzéséig nem végleges",
+ "megjegyzes": "Ez az egyetlen hely, ahol műhelyi feltételezés (élanyag, ráhagyás, lapformátum, ütköztetés, A-oldal) él. A build_parts_v1.py ebből és a forras_R14 geometriából generál; kézzel a parts_v1.json-t nem szerkesztjük.",
+ "koordinata_konvencio": {
+  "globalis": "R14 helyi rajzi rendszer: X balról jobbra (szobából nézve), Y faltól a szoba felé, Z felfelé, mm. Bal alsó falsarok a kész padlón. Nem tükrözzük újra (lásd 04_FORRASOK...txt).",
+  "alkatresz_helyi": "U,V a lap síkjában, az A oldal felől nézve: U jobbra, V felfelé; N az A oldal kifelé mutató normálisa. Nullpont (0,0,0) = az A oldalról nézett bal alsó befoglaló sarok a B lapsíkon (N=0 a B oldal, N=T az A oldal).",
+  "elek": "E1 = V=0 (alsó), E2 = U=max (jobb), E3 = V=max (felső), E4 = U=0 (bal) – az A oldal felől nézve. Megegyezik az R14 'edge' mezőjének konvenciójával.",
+  "nezetek": {
+   "+Y": {
+    "U": "+X",
+    "V": "+Z",
+    "leiras": "szobából nézve (homlokzat)"
+   },
+   "-Y": {
+    "U": "-X",
+    "V": "+Z",
+    "leiras": "fal felől nézve"
+   },
+   "-X": {
+    "U": "+Y",
+    "V": "+Z",
+    "leiras": "bal oldalról nézve"
+   },
+   "+X": {
+    "U": "-Y",
+    "V": "+Z",
+    "leiras": "jobb oldalról nézve"
+   },
+   "+Z": {
+    "U": "+X",
+    "V": "-Y",
+    "leiras": "felülnézet, szoba lent"
+   },
+   "-Z": {
+    "U": "+X",
+    "V": "+Y",
+    "leiras": "alulnézet"
+   }
   }
+ },
+ "a_oldal": {
+  "definicio": "A oldal = látszó / dekor-irányadó oldal (front: szoba felé; korpusz: belső tér felé vagy külső véglap). B oldal = szerelési/hátsó oldal. A pántkehely- és sínfuratok oldala a műveletnél külön van megadva.",
+  "alapertelmezes_tengely_szerint": {
+   "y": "+Y",
+   "z": "+Z",
+   "x": "-X"
+  },
+  "kivetelek": {
+   "T-R": {
+    "irany": "+X",
+    "ok": "jobb oldali külső látszó oldal a D1 fölött"
+   },
+   "D6-R": {
+    "irany": "+X",
+    "ok": "jobb oldali külső véglap"
+   },
+   "T-L": {
+    "irany": "-X",
+    "ok": "bal oldali külső véglap"
+   }
+  },
+  "statusz": "muhelyi_megerosites"
+ },
+ "gepi_utkozo": {
+  "alapertelmezes": [
+   "E1",
+   "E4"
+  ],
+  "leiras": "Gépi nullpont = helyi (0,0) sarok, ütköztetett élek E1 (alsó) és E4 (bal), A oldal felfelé a gépasztalon. Kontúros alkatrésznél a befoglaló sarok; ott sablon vagy nesting-kontúr kell.",
+  "statusz": "muhelyi_megerosites – a műhely gépének nullpont-/ütköző-konvenciója és a woodWOP X/Y irány még nincs megadva"
+ },
+ "el_kod_jelek": {
+  "V": "élzárt (ABS/élfólia, az anyag szerinti élanyag)",
+  "F": "festett él (festett MDF)",
+  "L": "csiszolt + lakkozott látszó rétegelt él",
+  "K": "kárpitozott / textil körbehajtva",
+  "0": "nincs élkezelés (csatlakozó vagy takart él)",
+  "etalon_megfeleltetes": "Az asztalos coo1 etalonjában 4 jeles kód van (pl. 'V0VV', 'V000', 'A0VV'). A pozíciók sorrendje és az 'A' jelentése NINCS dokumentálva – a mi kódunk E1-E2-E3-E4 sorrendű. Megfeleltetés az asztalos válasza után (nyitott kérdés)."
+ },
+ "anyagok": {
+  "M01": {
+   "tipus": "melamin_forgacslap",
+   "nevleges_vastagsag": 18,
+   "elanyag": "ABS 0,8 mm Egger U741 ST9 (dekoregyező)",
+   "elvastagsag": 0.8,
+   "elomaras_elenkent": 1.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – általános bútorlap-formátum, termék nincs kiválasztva",
+   "elomaras_forras": "becslés – élzárógép előmarása, műhelyi adat kell",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "U741 ST9",
+    "nev": "Láva szürke",
+    "forrás": "anyag_termekjavaslat_2026-10-30.json #1 (Lapp-fa 29 629 Ft nettó/tábla, 2026-10-30, Claude ellenőrizte)",
+    "dontes": "Péter 2026-10-30 18:02: „amelyik jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő",
+    "ok": "korpusz: csak az elülső él látszik – vékony 0,8 mm él finomabb vonal"
+   }
+  },
+  "M02": {
+   "tipus": "festett_MDF",
+   "nevleges_vastagsag": 18,
+   "elanyag": "festett él",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés",
+   "rahagyas_forras": "R14 raw_rule: 'MDF keret/front +10/+10 mm marási ráhagyás'",
+   "termek": {
+    "hordozo": "Egger natúr MDF 18 mm",
+    "festek": "2K PU (Milesi/Sayerlack vagy a fényező bevált rendszere), NCS S 8005-Y50R körül – színminta kell"
+   }
+  },
+  "M03": {
+   "tipus": "faerezetes_dekor_front",
+   "nevleges_vastagsag": 18,
+   "elanyag": "ABS 2 mm Egger H1399 ST10 dekoregyező, R2 lekerekítés",
+   "elvastagsag": 2.0,
+   "elomaras_elenkent": 1.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": true,
+   "erezet_a_lap_hosszaban": true,
+   "lapmeret_forras": "becslés – dekor/termék nincs kiválasztva (materials.json M03)",
+   "rahagyas_forras": "R14 raw_rule (front)",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "H1399 ST10",
+    "nev": "Trüffel barna Denver tölgy",
+    "forrás": "anyag_termekjavaslat #1 (Lapp-fa 34 950 Ft nettó/tábla)",
+    "dontes": "Péter 2026-10-30 18:02: „amelyik jobb / ahogy igényesebb” → Claude választása, mintával ellenőrizendő",
+    "ok": "front/ajtó: a 2 mm-es él ütésállóbb és lekerekíthető – az 1 mm-es Egger-él nem létezik (csak 0,8 / 2)"
+   }
+  },
+  "M04": {
+   "tipus": "hatter_hordozo",
+   "nevleges_vastagsag": 17,
+   "elanyag": "nincs (HPL a felületen)",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": true,
+   "erezet_a_lap_hosszaban": true,
+   "lapmeret_forras": "becslés",
+   "megjegyzes": "R14 explicit raw_L/raw_W elsőbbséget kap, de a QA ellenőrzi",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "F424 ST10",
+    "nev": "Brown Linen (barna len) HPL laminát 0,8 mm, 17 mm hordozóra kasírozva",
+    "forrás": "lawcris.co.uk F424 ST10 Brown Linen laminate (létezés); magyar beszerzés rendelésre",
+    "dontes": "Péter 2026-10-30 18:02: „is-is” – szín ÉS textilhatás → barna len HPL (az U740 csak szín, az F416 csak textil és világos)",
+    "ok": "a meglévő 17 + 1 mm-es rétegrendbe illik"
+   }
+  },
+  "M05": {
+   "tipus": "textil_betet",
+   "nevleges_vastagsag": 8,
+   "elanyag": "textil körbehajtva",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": null,
+   "rahagyas_W": null,
+   "lapmeret": null,
+   "erezetes": false,
+   "megjegyzes": "kárpitos rétegrend és szövetráhagyás műhelyi adat"
+  },
+  "M07": {
+   "tipus": "nyir_retegelt_lemez",
+   "nevleges_vastagsag": 15,
+   "elanyag": "csiszolt + lakk",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    1525,
+    1525
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés – szokásos nyír rétegelt formátum",
+   "termek": {
+    "nev": "nyír rétegelt lemez 15 mm BB/WG",
+    "forrás": "anyag_termekjavaslat (OKFT Faáruház)"
+   }
+  },
+  "M08": {
+   "tipus": "hatlap_8mm",
+   "nevleges_vastagsag": 8,
+   "elanyag": "ABS 0,8 mm grafit (csak szervizfedél)",
+   "elvastagsag": 0.8,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés",
+   "termek": {
+    "gyarto": "Egger",
+    "kod": "U961 ST2",
+    "nev": "Grafit, 8 mm",
+    "forrás": "anyag_termekjavaslat; HU-ban rendelésre",
+    "dontes": "Péter 2026-10-30 18:02: „majd rendelünk”"
+   }
+  },
+  "M10": {
+   "tipus": "MDF_lec",
+   "nevleges_vastagsag": 8,
+   "elanyag": "nincs",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 0,
+   "rahagyas_W": 0,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés",
+   "megjegyzes": "R15 javaslat"
+  },
+  "M11": {
+   "tipus": "festett_MDF_12",
+   "nevleges_vastagsag": 12,
+   "elanyag": "festett él",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": 10,
+   "rahagyas_W": 10,
+   "lapmeret": [
+    2800,
+    2070
+   ],
+   "erezetes": false,
+   "lapmeret_forras": "becslés",
+   "rahagyas_forras": "R14 raw_rule (MDF +10/+10)",
+   "megjegyzes": "R15 javaslat"
+  },
+  "M12": {
+   "tipus": "fenytakaro_profil",
+   "nevleges_vastagsag": null,
+   "elanyag": "profil szerint",
+   "elvastagsag": 0.0,
+   "elomaras_elenkent": 0.0,
+   "rahagyas_L": null,
+   "rahagyas_W": null,
+   "lapmeret": null,
+   "erezetes": false,
+   "megjegyzes": "termék nyitott"
+  }
+ },
+ "alkatresz_anyag_felulbiralas": {
+  "TV-FIELD": {
+   "szalirany": "U",
+   "kivitel": "faerezetes lap egy darabból, VÍZSZINTES erezet (a fiókfrontokkal azonos irány)",
+   "dontes": "Péter, 2026-10-30 12:49 – vízszintes erezet (felülírja a 12:43-as függőlegest; GOAL.md 7.)",
+   "nyitott": "dekor/termék és tényleges táblaméret; az R14 renderek még függőleges erezetet mutatnak"
+  }
+ },
+ "elszabalyok": {
+  "leiras": "Él-szerep geometriából (érintkezés a többi alkatrésszel ±0,6 mm-en belül) + irány; él-jel anyagonként.",
+  "erintkezes_tures_mm": 0.6,
+  "erintkezes_kuszob_arany": 0.5,
+  "anyag": {
+   "M01": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "0"
+   },
+   "M02": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "F",
+    "SZABAD_EGYEB": "F"
+   },
+   "M03": {
+    "CSATLAKOZO": "V",
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "V"
+   },
+   "M04": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   },
+   "M05": {
+    "CSATLAKOZO": "K",
+    "SZABAD_ELOL": "K",
+    "SZABAD_EGYEB": "K"
+   },
+   "M07": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "L",
+    "SZABAD_EGYEB": "L"
+   },
+   "M08": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   },
+   "M10": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   },
+   "M11": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "F",
+    "SZABAD_EGYEB": "F"
+   },
+   "M12": {
+    "CSATLAKOZO": "0",
+    "SZABAD_ELOL": "0",
+    "SZABAD_EGYEB": "0"
+   }
+  },
+  "irany_felulbiralas": [
+   {
+    "anyag": [
+     "M01"
+    ],
+    "irany": "+Z",
+    "szerep": [
+     "SZABAD_EGYEB",
+     "SZABAD_ELOL"
+    ],
+    "ha_mezo": "exposed_top_finish",
+    "jel": "V",
+    "elanyag": "ABS 1 mm, a látszó felső felület színében (exposed_top_finish)",
+    "ok": "R14 exposed_top_finish: a korpuszoldal felső éle a komód tetején látszik"
+   },
+   {
+    "anyag": [
+     "M01",
+     "M02"
+    ],
+    "irany": "-Z",
+    "szerep": [
+     "SZABAD_EGYEB"
+    ],
+    "also_sik_z": 150,
+    "jel": "V",
+    "elanyag": "ABS 1 mm grafit / festett",
+    "ok": "függesztett bútor alsó síkja (layout.base_z = 150), alulról látszik"
+   }
+  ],
+  "id_kivetelek": {
+   "T-L-SERVICE": {
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "V",
+    "ok": "kivehető szervizfedél, nyitott ajtónál látszik"
+   },
+   "T-R-SERVICE": {
+    "SZABAD_ELOL": "V",
+    "SZABAD_EGYEB": "V",
+    "ok": "kivehető szervizfedél, nyitott ajtónál látszik"
+   }
+  },
+  "statusz": "JAVASLAT – műhelyi megerősítésre"
+ },
+ "gyartasi_tipus": {
+  "curved_assembly": "IVES_SZERELVENY",
+  "spacer_assembly": "OSSZEALLITAS",
+  "id": {
+   "BG-FINISH": "BURKOLAT_RETEG",
+   "TEXTILE": "TEXTIL_BETET"
+  },
+  "alapertelmezes": "LAP",
+  "nem_lap_tipusok": [
+   "IVES_SZERELVENY",
+   "OSSZEALLITAS",
+   "BURKOLAT_RETEG",
+   "TEXTIL_BETET",
+   "FENYTAKARO"
+  ],
+  "light_cover": "FENYTAKARO"
+ },
+ "cimke_azonosito": {
+  "elotag": "S16",
+  "minta": "^[A-Z0-9][A-Z0-9_-]{0,31}$",
+  "megjegyzes": "A címke-ID = későbbi MPR fájlnév (woodWOP-kompatibilis ASCII)."
+ },
+ "qa": {
+  "tures_mm": 0.01,
+  "mesh_tures_mm": 0.05,
+  "front_res_nevleges_mm": 3.0,
+  "front_res_min_mm": 2.5,
+  "front_sik_y": [
+   382,
+   400
+  ],
+  "falc_min_maradek_mm": 6.0,
+  "utkozes_min_terfogat_mm3": 1.0,
+  "blum_movento": {
+   "forras": "https://ea.blum.com/en/building-a-movento-drawer/ (lekérve 2026-10-30)",
+   "SKW_eq_LW_minus": 42,
+   "fiokoldal_hossz_eq_NL_minus": 10,
+   "oldal_max_vastagsag": 16,
+   "fenek_besullyesztes_min_magassag": 12,
+   "fenek_besullyesztes_max_melyseg": 15
+  },
+  "mennyezet_nevleges": 2900,
+  "mennyezeti_res_min": 25
+ },
+ "anyag_dontesek_2026_10_30": "M01 0,8 mm / M03 2 mm ABS; M04 Egger F424 ST10 HPL; M08 U961 rendelésre (Péter: „majd rendelünk”)"
 }
