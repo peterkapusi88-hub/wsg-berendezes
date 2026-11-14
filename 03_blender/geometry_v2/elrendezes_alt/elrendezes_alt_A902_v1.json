@@ -1,0 +1,490 @@
+{
+ "datum": "2026-10-25",
+ "statusz": "MÉRETPRÓBA – nem stílusterv, nem kivitelezési terv; geometry_lock_A902_v2b (terv szerinti), helyszínen nem mért",
+ "szabalyok": {
+  "fo_ut_m": 0.9,
+  "mellekut_m": 0.75,
+  "szekkihuzas_m": 0.9,
+  "kanape_tv_min_m": 0.6,
+  "nezotav_m": [
+   2.0,
+   3.4
+  ],
+  "ulo_vendeg_sav_m": 0.6,
+  "betolt_szek_m": 0.18
+ },
+ "celok": {
+  "bejárat": [
+   7.3,
+   3.3,
+   8.35,
+   4.05
+  ],
+  "terasz (tolóajtó, keleti rész)": [
+   6.69,
+   7.6,
+   8.94,
+   8.05
+  ],
+  "konyha (a pultsorok közé)": [
+   9.05,
+   4.05,
+   9.95,
+   4.8
+  ],
+  "hálók folyosója": [
+   3.7,
+   3.25,
+   5.0,
+   3.95
+  ],
+  "05.3 háló ajtaja": [
+   10.0,
+   6.05,
+   10.75,
+   6.95
+  ]
+ },
+ "pult": [
+  [
+   8.45,
+   2.35,
+   9.05,
+   4.05
+  ],
+  [
+   9.95,
+   1.35,
+   10.55,
+   5.25
+  ],
+  [
+   9.05,
+   1.35,
+   9.95,
+   1.95
+  ],
+  [
+   8.45,
+   1.35,
+   8.95,
+   2.25
+  ]
+ ],
+ "tv_zona": [
+  3.67,
+  4.25,
+  4.07,
+  7.65
+ ],
+ "eredmeny": [
+  {
+   "kod": "R",
+   "stilus": "S01",
+   "cim": "R – mostani (P902_24A, V3-tömb) – NEM ELFOGADHATÓ",
+   "kanape": "Westwing Lennon L 238×180 (jobbos)",
+   "kanape_hat_x": 7.17,
+   "kanape_befoglalo": [
+    5.37,
+    5.21,
+    7.17,
+    7.59
+   ],
+   "asztal": "Westwing Toni ovális 200×90",
+   "asztal_befoglalo": [
+    7.9,
+    5.27,
+    8.8,
+    7.27
+   ],
+   "kanape_TV_butor_m": 1.3,
+   "nezotav_m": 2.9,
+   "asztal_kanape_m": 0.73,
+   "betolt_szek_kanape_m": 0.38,
+   "ulo_szek_kanape_m": 0.13,
+   "szekkihuzas_m": [
+    0.73,
+    1.95,
+    0.73,
+    1.95,
+    0.73,
+    1.0
+   ],
+   "ML04_eltetes_m": 0.2,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.46,
+   "etkezo_huto_sarok_m": 0.804,
+   "szekkihuzas_min_m": 0.73,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.65,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.8
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": null,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.55
+   }
+  },
+  {
+   "kod": "A",
+   "stilus": "S01",
+   "cim": "A – hosszanti asztal 3+3, termékcsere nélkül",
+   "kanape": "Westwing Lennon L 238×180 (jobbos)",
+   "kanape_hat_x": 6.5,
+   "kanape_befoglalo": [
+    4.7,
+    5.21,
+    6.5,
+    7.59
+   ],
+   "asztal": "Westwing Toni ovális 200×90",
+   "asztal_befoglalo": [
+    7.8,
+    5.25,
+    8.7,
+    7.25
+   ],
+   "kanape_TV_butor_m": 0.63,
+   "nezotav_m": 2.23,
+   "asztal_kanape_m": 1.3,
+   "betolt_szek_kanape_m": 0.95,
+   "ulo_szek_kanape_m": 0.7,
+   "szekkihuzas_m": [
+    1.3,
+    2.05,
+    1.3,
+    2.05,
+    1.3,
+    1.1
+   ],
+   "ML04_eltetes_m": 0.3,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.46,
+   "etkezo_huto_sarok_m": 0.902,
+   "szekkihuzas_min_m": 1.1,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.9
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.7,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.65
+   }
+  },
+  {
+   "kod": "B",
+   "stilus": "S01",
+   "cim": "B – keresztbe fordított asztal 3+3",
+   "kanape": "Westwing Lennon L 238×180 (jobbos)",
+   "kanape_hat_x": 6.5,
+   "kanape_befoglalo": [
+    4.7,
+    5.21,
+    6.5,
+    7.59
+   ],
+   "asztal": "180×90-es asztal (a Toni 200 helyett; termék kutatandó)",
+   "asztal_befoglalo": [
+    7.1,
+    5.8,
+    8.9,
+    6.7
+   ],
+   "kanape_TV_butor_m": 0.63,
+   "nezotav_m": 2.23,
+   "asztal_kanape_m": 0.6,
+   "betolt_szek_kanape_m": 0.625,
+   "ulo_szek_kanape_m": 0.625,
+   "szekkihuzas_m": [
+    1.35,
+    1.75,
+    1.35,
+    3.0,
+    1.35,
+    1.75
+   ],
+   "ML04_eltetes_m": 0.55,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.46,
+   "etkezo_huto_sarok_m": 1.093,
+   "szekkihuzas_min_m": 1.35,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 1.0
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.75,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 1.0
+   }
+  },
+  {
+   "kod": "C",
+   "stilus": "S01",
+   "cim": "C – hosszanti asztal 2+2+1+1, az ML04 alatt",
+   "kanape": "Westwing Lennon L 238×180 (jobbos)",
+   "kanape_hat_x": 6.6,
+   "kanape_befoglalo": [
+    4.8,
+    5.21,
+    6.6,
+    7.59
+   ],
+   "asztal": "Westwing Toni ovális 160×90",
+   "asztal_befoglalo": [
+    8.0,
+    5.5,
+    8.9,
+    7.1
+   ],
+   "kanape_TV_butor_m": 0.73,
+   "nezotav_m": 2.33,
+   "asztal_kanape_m": 1.4,
+   "betolt_szek_kanape_m": 1.05,
+   "ulo_szek_kanape_m": 0.8,
+   "szekkihuzas_m": [
+    1.4,
+    1.4,
+    1.85,
+    0.9,
+    1.45,
+    0.95
+   ],
+   "ML04_eltetes_m": 0.1,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.46,
+   "etkezo_huto_sarok_m": 0.972,
+   "szekkihuzas_min_m": 0.9,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.95
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.75,
+    "konyha (a pultsorok közé)": 0.85,
+    "hálók folyosója": 1.0,
+    "05.3 háló ajtaja": 0.8
+   }
+  },
+  {
+   "kod": "R",
+   "stilus": "S02",
+   "cim": "R – mostani (P902_24A, V3-tömb) – NEM ELFOGADHATÓ",
+   "kanape": "IKEA JÄTTEBO U 285×160",
+   "kanape_hat_x": 7.17,
+   "kanape_befoglalo": [
+    5.57,
+    4.975,
+    7.17,
+    7.825
+   ],
+   "asztal": "Westwing Anouk 180×90",
+   "asztal_befoglalo": [
+    7.9,
+    5.37,
+    8.8,
+    7.17
+   ],
+   "kanape_TV_butor_m": 1.5,
+   "nezotav_m": 2.9,
+   "asztal_kanape_m": 0.73,
+   "betolt_szek_kanape_m": 0.36,
+   "ulo_szek_kanape_m": 0.13,
+   "szekkihuzas_m": [
+    0.73,
+    1.95,
+    0.73,
+    1.95,
+    0.73,
+    1.0
+   ],
+   "ML04_eltetes_m": 0.2,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.225,
+   "etkezo_huto_sarok_m": 0.796,
+   "szekkihuzas_min_m": 0.73,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.6,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.75
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": null,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.55
+   }
+  },
+  {
+   "kod": "A",
+   "stilus": "S02",
+   "cim": "A – hosszanti asztal 3+3, termékcsere nélkül",
+   "kanape": "IKEA JÄTTEBO U 285×160",
+   "kanape_hat_x": 6.4,
+   "kanape_befoglalo": [
+    4.8,
+    4.975,
+    6.4,
+    7.825
+   ],
+   "asztal": "Westwing Anouk 180×90",
+   "asztal_befoglalo": [
+    7.8,
+    5.4,
+    8.7,
+    7.2
+   ],
+   "kanape_TV_butor_m": 0.73,
+   "nezotav_m": 2.13,
+   "asztal_kanape_m": 1.4,
+   "betolt_szek_kanape_m": 1.03,
+   "ulo_szek_kanape_m": 0.8,
+   "szekkihuzas_m": [
+    1.4,
+    2.05,
+    1.4,
+    2.05,
+    1.4,
+    1.1
+   ],
+   "ML04_eltetes_m": 0.3,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.225,
+   "etkezo_huto_sarok_m": 0.9,
+   "szekkihuzas_min_m": 1.1,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.9
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.75,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.65
+   }
+  },
+  {
+   "kod": "B",
+   "stilus": "S02",
+   "cim": "B – keresztbe fordított asztal 3+3",
+   "kanape": "IKEA JÄTTEBO U 285×160",
+   "kanape_hat_x": 6.35,
+   "kanape_befoglalo": [
+    4.75,
+    4.975,
+    6.35,
+    7.825
+   ],
+   "asztal": "Westwing Anouk 180×90 (elforgatva)",
+   "asztal_befoglalo": [
+    7.3,
+    5.8,
+    9.1,
+    6.7
+   ],
+   "kanape_TV_butor_m": 0.68,
+   "nezotav_m": 2.08,
+   "asztal_kanape_m": 0.95,
+   "betolt_szek_kanape_m": 0.987,
+   "ulo_szek_kanape_m": 0.987,
+   "szekkihuzas_m": [
+    1.35,
+    3.0,
+    1.35,
+    1.75,
+    1.35,
+    1.75
+   ],
+   "ML04_eltetes_m": 0.35,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.225,
+   "etkezo_huto_sarok_m": 0.906,
+   "szekkihuzas_min_m": 1.35,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.9
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 1.0,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.85
+   }
+  },
+  {
+   "kod": "C",
+   "stilus": "S02",
+   "cim": "C – hosszanti asztal 2+2+1+1, az ML04 alatt",
+   "kanape": "IKEA JÄTTEBO U 285×160",
+   "kanape_hat_x": 6.6,
+   "kanape_befoglalo": [
+    5.0,
+    4.975,
+    6.6,
+    7.825
+   ],
+   "asztal": "Westwing Anouk 180×90",
+   "asztal_befoglalo": [
+    8.0,
+    5.35,
+    8.9,
+    7.15
+   ],
+   "kanape_TV_butor_m": 0.93,
+   "nezotav_m": 2.33,
+   "asztal_kanape_m": 1.4,
+   "betolt_szek_kanape_m": 1.03,
+   "ulo_szek_kanape_m": 0.8,
+   "szekkihuzas_m": [
+    1.4,
+    1.4,
+    1.85,
+    1.85,
+    1.3,
+    0.9
+   ],
+   "ML04_eltetes_m": 0.1,
+   "huto_elo_szabad_betolt": true,
+   "huto_elo_szabad_ulo": true,
+   "kanape_uveg_m": 0.225,
+   "etkezo_huto_sarok_m": 0.932,
+   "szekkihuzas_min_m": 0.9,
+   "ut_betolt_szekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.9,
+    "konyha (a pultsorok közé)": 0.9,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.9
+   },
+   "ut_ulo_vendegekkel_m": {
+    "terasz (tolóajtó, keleti rész)": 0.75,
+    "konyha (a pultsorok közé)": 0.7,
+    "hálók folyosója": 0.9,
+    "05.3 háló ajtaja": 0.7
+   }
+  }
+ ]
+}

@@ -1,0 +1,8417 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "WSG_A902_v2b_alaprajz_ELOZETES_20261025_v2b1k11b_agy640_JAVASLAT_r2.blend",
+ "sha256": "9875cd570b85843387c8f7e9da32cea7735b3fbeb1396b5b6139a8b36e41ed28",
+ "jeloltek": {
+  "K1_ENy_sarok_20": {
+   "loc": [
+    3.95,
+    7.9,
+    1.45
+   ],
+   "theta": -47.0,
+   "lens": 20.0,
+   "shift_y": -0.05,
+   "rot": [
+    1.5708,
+    0.0,
+    -2.3911
+   ],
+   "ures_mp": 10.6,
+   "S01_mp": 4.7,
+   "S02_mp": 4.7,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.262,
+      0.822,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.346,
+      0.751,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.221,
+      0.568,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.105,
+      0.483,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.196,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.237,
+      0.575,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.295,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.414,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.512,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.478,
+      0.485,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.64,
+      0.466,
+      false,
+      "Fal_wc_E_nappali_0"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.532,
+      0.482,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.903,
+      0.532,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.776,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.77,
+      0.503,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.97,
+      0.51,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.21,
+      0.122,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.262,
+      0.822,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.346,
+      0.751,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.221,
+      0.568,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.105,
+      0.483,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.196,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.237,
+      0.575,
+      false,
+      "S01_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.295,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.414,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.512,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.478,
+      0.485,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.64,
+      0.466,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.532,
+      0.482,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.903,
+      0.532,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.776,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.77,
+      0.503,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.97,
+      0.51,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.21,
+      0.122,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.262,
+      0.822,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.346,
+      0.751,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.221,
+      0.568,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.105,
+      0.483,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.196,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.237,
+      0.575,
+      false,
+      "S02_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.295,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.414,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.512,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.478,
+      0.485,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.64,
+      0.466,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.532,
+      0.482,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.903,
+      0.532,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.776,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.77,
+      0.503,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.97,
+      0.51,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.21,
+      0.122,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 147,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.156,
+       0.25
+      ],
+      "v": [
+       0.22,
+       0.613
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 85,
+      "arany": 0.944,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.059,
+       0.152
+      ],
+      "v": [
+       0.338,
+       0.634
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 119,
+      "arany": 0.895,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.063,
+       0.156
+      ],
+      "v": [
+       0.198,
+       0.634
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 56,
+      "lathato": 56,
+      "arany": 0.364,
+      "fal_tartomany": [
+       7.03,
+       7.37
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.003,
+       0.058
+      ],
+      "v": [
+       0.146,
+       0.684
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 7,
+      "arany": 0.05,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.059,
+       0.059
+      ],
+      "v": [
+       0.161,
+       0.67
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.257,
+       0.33
+      ],
+      "v": [
+       0.238,
+       0.596
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 354,
+      "arany": 0.903,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.33,
+       0.479
+      ],
+      "v": [
+       0.255,
+       0.579
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.478,
+       0.503
+      ],
+      "v": [
+       0.325,
+       0.503
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.519,
+       0.759
+      ],
+      "v": [
+       0.093,
+       0.735
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.765,
+       0.787
+      ],
+      "v": [
+       0.099,
+       0.729
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.818,
+       0.834
+      ],
+      "v": [
+       0.118,
+       0.711
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 168,
+      "lathato": 140,
+      "arany": 0.667,
+      "fal_tartomany": [
+       4.05,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.84,
+       0.998
+      ],
+      "v": [
+       0.107,
+       0.721
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.156,
+       0.25
+      ],
+      "v": [
+       0.22,
+       0.546
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.059,
+       0.152
+      ],
+      "v": [
+       0.338,
+       0.56
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.063,
+       0.156
+      ],
+      "v": [
+       0.198,
+       0.56
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 56,
+      "lathato": 50,
+      "arany": 0.325,
+      "fal_tartomany": [
+       7.03,
+       7.37
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.003,
+       0.058
+      ],
+      "v": [
+       0.146,
+       0.684
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.059,
+       0.059
+      ],
+      "v": [
+       0.161,
+       0.497
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.257,
+       0.33
+      ],
+      "v": [
+       0.238,
+       0.535
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 335,
+      "arany": 0.855,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.33,
+       0.479
+      ],
+      "v": [
+       0.255,
+       0.565
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.478,
+       0.503
+      ],
+      "v": [
+       0.325,
+       0.503
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.519,
+       0.759
+      ],
+      "v": [
+       0.093,
+       0.735
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.765,
+       0.787
+      ],
+      "v": [
+       0.099,
+       0.729
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.818,
+       0.834
+      ],
+      "v": [
+       0.118,
+       0.711
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 168,
+      "lathato": 140,
+      "arany": 0.667,
+      "fal_tartomany": [
+       4.05,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.84,
+       0.998
+      ],
+      "v": [
+       0.107,
+       0.721
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 128,
+      "arany": 0.871,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.156,
+       0.25
+      ],
+      "v": [
+       0.22,
+       0.599
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.059,
+       0.152
+      ],
+      "v": [
+       0.338,
+       0.56
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.063,
+       0.156
+      ],
+      "v": [
+       0.198,
+       0.56
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 56,
+      "lathato": 54,
+      "arany": 0.351,
+      "fal_tartomany": [
+       7.03,
+       7.37
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.003,
+       0.058
+      ],
+      "v": [
+       0.146,
+       0.684
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.059,
+       0.059
+      ],
+      "v": [
+       0.161,
+       0.497
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 113,
+      "arany": 0.807,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.257,
+       0.33
+      ],
+      "v": [
+       0.238,
+       0.53
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 338,
+      "arany": 0.862,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.33,
+       0.479
+      ],
+      "v": [
+       0.255,
+       0.567
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.478,
+       0.503
+      ],
+      "v": [
+       0.325,
+       0.503
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 276,
+      "arany": 0.917,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.519,
+       0.759
+      ],
+      "v": [
+       0.093,
+       0.735
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.765,
+       0.787
+      ],
+      "v": [
+       0.099,
+       0.729
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.818,
+       0.834
+      ],
+      "v": [
+       0.118,
+       0.711
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 168,
+      "lathato": 140,
+      "arany": 0.667,
+      "fal_tartomany": [
+       4.05,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.84,
+       0.998
+      ],
+      "v": [
+       0.107,
+       0.721
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    }
+   },
+   "kozeli_tomeg_15cm": [],
+   "fal_tav": {
+    "TV_fal_x367": 0.28,
+    "eszaki_sik_y805": 0.15,
+    "deli_sik_y405": 3.85
+   }
+  },
+  "K2_ENy_bentebb_20": {
+   "loc": [
+    4.5,
+    7.65,
+    1.45
+   ],
+   "theta": -52.0,
+   "lens": 20.0,
+   "shift_y": -0.05,
+   "rot": [
+    1.5708,
+    0.0,
+    -2.4784
+   ],
+   "ures_mp": 4.9,
+   "S01_mp": 5.2,
+   "S02_mp": 5.2,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.199,
+      0.975,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.312,
+      0.845,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.149,
+      0.6,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.006,
+      0.495,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.122,
+      0.477,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.172,
+      0.597,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.24,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.375,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.48,
+      0.42,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.454,
+      0.493,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.617,
+      0.468,
+      false,
+      "Fal_wc_E_nappali_0"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.516,
+      0.49,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.951,
+      0.545,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.795,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.792,
+      0.512,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.991,
+      0.516,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.136,
+      0.06,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.199,
+      0.975,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.312,
+      0.845,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.149,
+      0.6,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.006,
+      0.495,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.122,
+      0.477,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.172,
+      0.597,
+      false,
+      "S01_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.24,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.375,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.48,
+      0.42,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.454,
+      0.493,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.617,
+      0.468,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.516,
+      0.49,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.951,
+      0.545,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.795,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.792,
+      0.512,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.991,
+      0.516,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.136,
+      0.06,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.199,
+      0.975,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.312,
+      0.845,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.149,
+      0.6,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.006,
+      0.495,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.122,
+      0.477,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.172,
+      0.597,
+      false,
+      "S02_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.24,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.375,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.48,
+      0.42,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.454,
+      0.493,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.617,
+      0.468,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kozep": [
+      0.619,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.516,
+      0.49,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.951,
+      0.545,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.795,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.792,
+      0.512,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": [
+      0.991,
+      0.516,
+      true,
+      null
+     ],
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.136,
+      0.06,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 147,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.072,
+       0.187
+      ],
+      "v": [
+       0.185,
+       0.646
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 50,
+      "lathato": 50,
+      "arany": 0.556,
+      "fal_tartomany": [
+       6.08,
+       6.52
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.003,
+       0.067
+      ],
+      "v": [
+       0.326,
+       0.663
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 70,
+      "lathato": 70,
+      "arany": 0.526,
+      "fal_tartomany": [
+       6.05,
+       6.5
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.072
+      ],
+      "v": [
+       0.168,
+       0.663
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.195,
+       0.28
+      ],
+      "v": [
+       0.212,
+       0.62
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 360,
+      "arany": 0.918,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.28,
+       0.443
+      ],
+      "v": [
+       0.236,
+       0.597
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 62,
+      "arany": 0.295,
+      "fal_tartomany": [
+       9.95,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.443,
+       0.472
+      ],
+      "v": [
+       0.318,
+       0.51
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.501,
+       0.783
+      ],
+      "v": [
+       0.053,
+       0.774
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.787,
+       0.802
+      ],
+      "v": [
+       0.061,
+       0.765
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.837,
+       0.846
+      ],
+      "v": [
+       0.088,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 147,
+      "lathato": 119,
+      "arany": 0.567,
+      "fal_tartomany": [
+       4.2,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.992
+      ],
+      "v": [
+       0.093,
+       0.734
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.072,
+       0.187
+      ],
+      "v": [
+       0.185,
+       0.568
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 50,
+      "lathato": 40,
+      "arany": 0.444,
+      "fal_tartomany": [
+       6.08,
+       6.52
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.003,
+       0.067
+      ],
+      "v": [
+       0.326,
+       0.579
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 70,
+      "lathato": 60,
+      "arany": 0.451,
+      "fal_tartomany": [
+       6.05,
+       6.5
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.072
+      ],
+      "v": [
+       0.168,
+       0.579
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.195,
+       0.28
+      ],
+      "v": [
+       0.212,
+       0.551
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 359,
+      "arany": 0.916,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.28,
+       0.443
+      ],
+      "v": [
+       0.236,
+       0.596
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 62,
+      "arany": 0.295,
+      "fal_tartomany": [
+       9.95,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.443,
+       0.472
+      ],
+      "v": [
+       0.318,
+       0.51
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.501,
+       0.783
+      ],
+      "v": [
+       0.053,
+       0.774
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.787,
+       0.802
+      ],
+      "v": [
+       0.061,
+       0.765
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.837,
+       0.846
+      ],
+      "v": [
+       0.088,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 147,
+      "lathato": 119,
+      "arany": 0.567,
+      "fal_tartomany": [
+       4.2,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.992
+      ],
+      "v": [
+       0.093,
+       0.734
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.072,
+       0.187
+      ],
+      "v": [
+       0.185,
+       0.568
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 50,
+      "lathato": 40,
+      "arany": 0.444,
+      "fal_tartomany": [
+       6.08,
+       6.52
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.003,
+       0.067
+      ],
+      "v": [
+       0.326,
+       0.579
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 70,
+      "lathato": 60,
+      "arany": 0.451,
+      "fal_tartomany": [
+       6.05,
+       6.5
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.072
+      ],
+      "v": [
+       0.168,
+       0.579
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 123,
+      "arany": 0.879,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.195,
+       0.28
+      ],
+      "v": [
+       0.212,
+       0.599
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 360,
+      "arany": 0.918,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.28,
+       0.443
+      ],
+      "v": [
+       0.236,
+       0.597
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 62,
+      "arany": 0.295,
+      "fal_tartomany": [
+       9.95,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.443,
+       0.472
+      ],
+      "v": [
+       0.318,
+       0.51
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 273,
+      "arany": 0.907,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.501,
+       0.783
+      ],
+      "v": [
+       0.053,
+       0.774
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.787,
+       0.802
+      ],
+      "v": [
+       0.061,
+       0.765
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.837,
+       0.846
+      ],
+      "v": [
+       0.088,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 147,
+      "lathato": 119,
+      "arany": 0.567,
+      "fal_tartomany": [
+       4.2,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.992
+      ],
+      "v": [
+       0.093,
+       0.734
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    }
+   },
+   "kozeli_tomeg_15cm": [],
+   "fal_tav": {
+    "TV_fal_x367": 0.83,
+    "eszaki_sik_y805": 0.4,
+    "deli_sik_y405": 3.6
+   }
+  },
+  "K3_DNy_sarok_20": {
+   "loc": [
+    4.25,
+    4.35,
+    1.45
+   ],
+   "theta": 30.0,
+   "lens": 20.0,
+   "shift_y": -0.05,
+   "rot": [
+    1.5708,
+    0.0,
+    -1.0472
+   ],
+   "ures_mp": 4.9,
+   "S01_mp": 5.1,
+   "S02_mp": 5.2,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.272,
+      0.727,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.365,
+      0.737,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.548,
+      0.558,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.616,
+      0.473,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.688,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.731,
+      0.589,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.501,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.794,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": [
+      0.886,
+      0.541,
+      true,
+      null
+     ],
+     "bejarati_ajto": null,
+     "W02_kozep": [
+      0.942,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.902,
+      0.552,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.206,
+      0.464,
+      true,
+      null
+     ],
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.557,
+      0.145,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.272,
+      0.727,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.365,
+      0.737,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.548,
+      0.558,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.616,
+      0.473,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.688,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.731,
+      0.589,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.501,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.794,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": [
+      0.886,
+      0.541,
+      true,
+      null
+     ],
+     "bejarati_ajto": null,
+     "W02_kozep": [
+      0.942,
+      0.42,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.902,
+      0.552,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.206,
+      0.464,
+      true,
+      null
+     ],
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.557,
+      0.145,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.272,
+      0.727,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.365,
+      0.737,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.548,
+      0.558,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.616,
+      0.473,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.688,
+      0.47,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.731,
+      0.589,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.501,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.794,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": [
+      0.886,
+      0.541,
+      true,
+      null
+     ],
+     "bejarati_ajto": null,
+     "W02_kozep": [
+      0.942,
+      0.42,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.902,
+      0.552,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.206,
+      0.464,
+      true,
+      null
+     ],
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.557,
+      0.145,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 140,
+      "arany": 0.952,
+      "fal_tartomany": [
+       5.1,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.652,
+       0.741
+      ],
+      "v": [
+       0.22,
+       0.613
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 90,
+      "arany": 1.0,
+      "fal_tartomany": [
+       6.08,
+       6.92
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.583,
+       0.65
+      ],
+      "v": [
+       0.352,
+       0.597
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 133,
+      "arany": 1.0,
+      "fal_tartomany": [
+       6.05,
+       6.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.58,
+       0.652
+      ],
+      "v": [
+       0.235,
+       0.598
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 21,
+      "arany": 1.0,
+      "fal_tartomany": [
+       6.95,
+       7.03
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.574,
+       0.58
+      ],
+      "v": [
+       0.247,
+       0.587
+      ]
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 154,
+      "arany": 1.0,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.464,
+       0.541
+      ],
+      "v": [
+       0.225,
+       0.608
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       9.8,
+       10.75
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.542,
+       0.575
+      ],
+      "v": [
+       0.225,
+       0.608
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.743,
+       0.851
+      ],
+      "v": [
+       0.195,
+       0.637
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 154,
+      "lathato": 48,
+      "arany": 0.122,
+      "fal_tartomany": [
+       3.75,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.851,
+       0.895
+      ],
+      "v": [
+       0.192,
+       0.64
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 151,
+      "lathato": 151,
+      "arany": 0.502,
+      "fal_tartomany": [
+       5.7,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.897,
+       0.993
+      ],
+      "v": [
+       0.001,
+       0.993
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 30,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 414,
+      "lathato": 402,
+      "arany": 0.736,
+      "fal_tartomany": [
+       5.54,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.005,
+       0.405
+      ],
+      "v": [
+       0.145,
+       0.797
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 119,
+      "arany": 1.0,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.423,
+       0.464
+      ],
+      "v": [
+       0.219,
+       0.614
+      ]
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 131,
+      "arany": 0.891,
+      "fal_tartomany": [
+       5.1,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.652,
+       0.741
+      ],
+      "v": [
+       0.22,
+       0.613
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 72,
+      "arany": 0.8,
+      "fal_tartomany": [
+       6.08,
+       6.92
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.583,
+       0.65
+      ],
+      "v": [
+       0.352,
+       0.536
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 114,
+      "arany": 0.857,
+      "fal_tartomany": [
+       6.05,
+       6.95
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.58,
+       0.652
+      ],
+      "v": [
+       0.235,
+       0.537
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 18,
+      "arany": 0.857,
+      "fal_tartomany": [
+       6.95,
+       7.03
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.574,
+       0.58
+      ],
+      "v": [
+       0.247,
+       0.529
+      ]
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 119,
+      "arany": 0.773,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.464,
+       0.541
+      ],
+      "v": [
+       0.225,
+       0.537
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 110,
+      "arany": 0.786,
+      "fal_tartomany": [
+       9.8,
+       10.75
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.542,
+       0.575
+      ],
+      "v": [
+       0.225,
+       0.54
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.743,
+       0.851
+      ],
+      "v": [
+       0.195,
+       0.637
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 154,
+      "lathato": 48,
+      "arany": 0.122,
+      "fal_tartomany": [
+       3.75,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.851,
+       0.895
+      ],
+      "v": [
+       0.192,
+       0.64
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 151,
+      "lathato": 66,
+      "arany": 0.219,
+      "fal_tartomany": [
+       5.7,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.897,
+       0.993
+      ],
+      "v": [
+       0.018,
+       0.993
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 30,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 414,
+      "lathato": 356,
+      "arany": 0.652,
+      "fal_tartomany": [
+       5.54,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.005,
+       0.405
+      ],
+      "v": [
+       0.145,
+       0.797
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 102,
+      "arany": 0.857,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.423,
+       0.464
+      ],
+      "v": [
+       0.219,
+       0.547
+      ]
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 133,
+      "arany": 0.905,
+      "fal_tartomany": [
+       5.1,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.652,
+       0.741
+      ],
+      "v": [
+       0.22,
+       0.613
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 72,
+      "arany": 0.8,
+      "fal_tartomany": [
+       6.08,
+       6.92
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.583,
+       0.65
+      ],
+      "v": [
+       0.352,
+       0.536
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 114,
+      "arany": 0.857,
+      "fal_tartomany": [
+       6.05,
+       6.95
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.58,
+       0.652
+      ],
+      "v": [
+       0.235,
+       0.537
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 18,
+      "arany": 0.857,
+      "fal_tartomany": [
+       6.95,
+       7.03
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.574,
+       0.58
+      ],
+      "v": [
+       0.247,
+       0.529
+      ]
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 121,
+      "arany": 0.786,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.464,
+       0.541
+      ],
+      "v": [
+       0.225,
+       0.538
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 109,
+      "arany": 0.779,
+      "fal_tartomany": [
+       9.8,
+       10.75
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.542,
+       0.575
+      ],
+      "v": [
+       0.225,
+       0.538
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.743,
+       0.851
+      ],
+      "v": [
+       0.195,
+       0.637
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 154,
+      "lathato": 48,
+      "arany": 0.122,
+      "fal_tartomany": [
+       3.75,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.851,
+       0.895
+      ],
+      "v": [
+       0.192,
+       0.64
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 151,
+      "lathato": 64,
+      "arany": 0.213,
+      "fal_tartomany": [
+       5.7,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.897,
+       0.993
+      ],
+      "v": [
+       0.018,
+       0.993
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 30,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 414,
+      "lathato": 302,
+      "arany": 0.553,
+      "fal_tartomany": [
+       5.54,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.005,
+       0.405
+      ],
+      "v": [
+       0.145,
+       0.797
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 103,
+      "arany": 0.866,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.423,
+       0.464
+      ],
+      "v": [
+       0.219,
+       0.595
+      ]
+     }
+    }
+   },
+   "kozeli_tomeg_15cm": [],
+   "fal_tav": {
+    "TV_fal_x367": 0.58,
+    "eszaki_sik_y805": 3.7,
+    "deli_sik_y405": 0.3
+   }
+  },
+  "K1_ENy_sarok_22": {
+   "loc": [
+    3.95,
+    7.9,
+    1.45
+   ],
+   "theta": -47.0,
+   "lens": 22.0,
+   "shift_y": -0.05,
+   "rot": [
+    1.5708,
+    0.0,
+    -2.3911
+   ],
+   "ures_mp": 4.3,
+   "S01_mp": 4.7,
+   "S02_mp": 4.7,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.238,
+      0.862,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.33,
+      0.784,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.193,
+      0.583,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.066,
+      0.489,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.166,
+      0.474,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.211,
+      0.59,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.274,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.406,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.513,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.476,
+      0.492,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.654,
+      0.47,
+      false,
+      "Fal_wc_E_nappali_0"
+     ],
+     "W02_kozep": [
+      0.631,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.535,
+      0.488,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.944,
+      0.543,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.804,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.796,
+      0.511,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.181,
+      0.093,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.238,
+      0.862,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.33,
+      0.784,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.193,
+      0.583,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.066,
+      0.489,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.166,
+      0.474,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.211,
+      0.59,
+      false,
+      "S01_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.274,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.406,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.513,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.476,
+      0.492,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.654,
+      0.47,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kozep": [
+      0.631,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.535,
+      0.488,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.944,
+      0.543,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.804,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.796,
+      0.511,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.181,
+      0.093,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.238,
+      0.862,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.33,
+      0.784,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.193,
+      0.583,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.066,
+      0.489,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.166,
+      0.474,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.211,
+      0.59,
+      false,
+      "S02_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.274,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.406,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.513,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.476,
+      0.492,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.654,
+      0.47,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kozep": [
+      0.631,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.535,
+      0.488,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": [
+      0.944,
+      0.543,
+      true,
+      null
+     ],
+     "kozlekedo_keleti_fal": [
+      0.804,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.796,
+      0.511,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.181,
+      0.093,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 147,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.121,
+       0.225
+      ],
+      "v": [
+       0.2,
+       0.632
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 85,
+      "arany": 0.944,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.015,
+       0.117
+      ],
+      "v": [
+       0.33,
+       0.655
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 119,
+      "arany": 0.895,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.019,
+       0.121
+      ],
+      "v": [
+       0.176,
+       0.655
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 7,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 14,
+      "lathato": 14,
+      "arany": 0.091,
+      "fal_tartomany": [
+       7.03,
+       7.07
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.006,
+       0.014
+      ],
+      "v": [
+       0.133,
+       0.697
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 91,
+      "lathato": 7,
+      "arany": 0.05,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.014,
+       0.014
+      ],
+      "v": [
+       0.135,
+       0.694
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.233,
+       0.312
+      ],
+      "v": [
+       0.22,
+       0.613
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 354,
+      "arany": 0.903,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.312,
+       0.476
+      ],
+      "v": [
+       0.239,
+       0.595
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.476,
+       0.503
+      ],
+      "v": [
+       0.316,
+       0.511
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.521,
+       0.785
+      ],
+      "v": [
+       0.06,
+       0.767
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.791,
+       0.816
+      ],
+      "v": [
+       0.067,
+       0.76
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.868
+      ],
+      "v": [
+       0.087,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 133,
+      "lathato": 105,
+      "arany": 0.5,
+      "fal_tartomany": [
+       4.3,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.874,
+       0.997
+      ],
+      "v": [
+       0.09,
+       0.737
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.121,
+       0.225
+      ],
+      "v": [
+       0.2,
+       0.559
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.015,
+       0.117
+      ],
+      "v": [
+       0.33,
+       0.574
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.019,
+       0.121
+      ],
+      "v": [
+       0.176,
+       0.574
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 7,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 14,
+      "lathato": 10,
+      "arany": 0.065,
+      "fal_tartomany": [
+       7.03,
+       7.07
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.006,
+       0.014
+      ],
+      "v": [
+       0.133,
+       0.505
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 91,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.014,
+       0.014
+      ],
+      "v": [
+       0.135,
+       0.504
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.233,
+       0.312
+      ],
+      "v": [
+       0.22,
+       0.546
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 335,
+      "arany": 0.855,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.312,
+       0.476
+      ],
+      "v": [
+       0.239,
+       0.579
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.476,
+       0.503
+      ],
+      "v": [
+       0.316,
+       0.511
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.521,
+       0.785
+      ],
+      "v": [
+       0.06,
+       0.767
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.791,
+       0.816
+      ],
+      "v": [
+       0.067,
+       0.76
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.868
+      ],
+      "v": [
+       0.087,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 133,
+      "lathato": 105,
+      "arany": 0.5,
+      "fal_tartomany": [
+       4.3,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.874,
+       0.997
+      ],
+      "v": [
+       0.09,
+       0.737
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 128,
+      "arany": 0.871,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.121,
+       0.225
+      ],
+      "v": [
+       0.2,
+       0.617
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.015,
+       0.117
+      ],
+      "v": [
+       0.33,
+       0.574
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.019,
+       0.121
+      ],
+      "v": [
+       0.176,
+       0.574
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 7,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 14,
+      "lathato": 12,
+      "arany": 0.078,
+      "fal_tartomany": [
+       7.03,
+       7.07
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.006,
+       0.014
+      ],
+      "v": [
+       0.133,
+       0.697
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 91,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.014,
+       0.014
+      ],
+      "v": [
+       0.135,
+       0.504
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 113,
+      "arany": 0.807,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.233,
+       0.312
+      ],
+      "v": [
+       0.22,
+       0.542
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 338,
+      "arany": 0.862,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.312,
+       0.476
+      ],
+      "v": [
+       0.239,
+       0.582
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.476,
+       0.503
+      ],
+      "v": [
+       0.316,
+       0.511
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 276,
+      "arany": 0.917,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.521,
+       0.785
+      ],
+      "v": [
+       0.06,
+       0.767
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.791,
+       0.816
+      ],
+      "v": [
+       0.067,
+       0.76
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.849,
+       0.868
+      ],
+      "v": [
+       0.087,
+       0.74
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 133,
+      "lathato": 105,
+      "arany": 0.5,
+      "fal_tartomany": [
+       4.3,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.874,
+       0.997
+      ],
+      "v": [
+       0.09,
+       0.737
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    }
+   },
+   "kozeli_tomeg_15cm": [],
+   "fal_tav": {
+    "TV_fal_x367": 0.28,
+    "eszaki_sik_y805": 0.15,
+    "deli_sik_y405": 3.85
+   }
+  },
+  "K1_ENy_sarok_24": {
+   "loc": [
+    3.95,
+    7.9,
+    1.45
+   ],
+   "theta": -45.0,
+   "lens": 24.0,
+   "shift_y": -0.05,
+   "rot": [
+    1.5708,
+    0.0,
+    -2.3562
+   ],
+   "ures_mp": 4.3,
+   "S01_mp": 4.6,
+   "S02_mp": 4.6,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.241,
+      0.895,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.34,
+      0.813,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.194,
+      0.595,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.06,
+      0.493,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.165,
+      0.478,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.212,
+      0.603,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.28,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.421,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.538,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.497,
+      0.498,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.693,
+      0.475,
+      false,
+      "Fal_wc_E_nappali_0"
+     ],
+     "W02_kozep": [
+      0.668,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.561,
+      0.495,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": [
+      0.861,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.853,
+      0.521,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.182,
+      0.069,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.241,
+      0.895,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.34,
+      0.813,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.194,
+      0.595,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.06,
+      0.493,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.165,
+      0.478,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.212,
+      0.603,
+      false,
+      "S01_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.28,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.421,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.538,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.497,
+      0.498,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.693,
+      0.475,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kozep": [
+      0.668,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.561,
+      0.495,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": [
+      0.861,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.853,
+      0.521,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.182,
+      0.069,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.241,
+      0.895,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.34,
+      0.813,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.194,
+      0.595,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.06,
+      0.493,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.165,
+      0.478,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.212,
+      0.603,
+      false,
+      "S02_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": [
+      0.28,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.421,
+      0.42,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.538,
+      0.42,
+      false,
+      "Fal_szekrenyfulke_E_v2b"
+     ],
+     "atjaro_kozep": [
+      0.497,
+      0.498,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.693,
+      0.475,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kozep": [
+      0.668,
+      0.42,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.561,
+      0.495,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": [
+      0.861,
+      0.42,
+      true,
+      null
+     ],
+     "kozlekedo_kapcsolok_K25_27_D46": [
+      0.853,
+      0.521,
+      true,
+      null
+     ],
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.182,
+      0.069,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 147,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.119,
+       0.227
+      ],
+      "v": [
+       0.185,
+       0.647
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 85,
+      "arany": 0.944,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.008,
+       0.114
+      ],
+      "v": [
+       0.324,
+       0.67
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 126,
+      "lathato": 119,
+      "arany": 0.895,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.012,
+       0.119
+      ],
+      "v": [
+       0.161,
+       0.67
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 7,
+      "lathato": 7,
+      "arany": 0.045,
+      "fal_tartomany": [
+       7.03,
+       7.03
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.712
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 42,
+      "lathato": 7,
+      "arany": 0.05,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.712
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.236,
+       0.321
+      ],
+      "v": [
+       0.204,
+       0.628
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 354,
+      "arany": 0.903,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.321,
+       0.498
+      ],
+      "v": [
+       0.224,
+       0.609
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.497,
+       0.526
+      ],
+      "v": [
+       0.306,
+       0.519
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.546,
+       0.84
+      ],
+      "v": [
+       0.021,
+       0.805
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.847,
+       0.875
+      ],
+      "v": [
+       0.028,
+       0.797
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.913,
+       0.934
+      ],
+      "v": [
+       0.05,
+       0.777
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 77,
+      "lathato": 49,
+      "arany": 0.233,
+      "fal_tartomany": [
+       4.7,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.941,
+       0.997
+      ],
+      "v": [
+       0.075,
+       0.752
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.119,
+       0.227
+      ],
+      "v": [
+       0.185,
+       0.568
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.008,
+       0.114
+      ],
+      "v": [
+       0.324,
+       0.583
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 126,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.012,
+       0.119
+      ],
+      "v": [
+       0.161,
+       0.583
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 7,
+      "lathato": 5,
+      "arany": 0.032,
+      "fal_tartomany": [
+       7.03,
+       7.03
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.51
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 42,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.51
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.236,
+       0.321
+      ],
+      "v": [
+       0.204,
+       0.556
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 335,
+      "arany": 0.855,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.321,
+       0.498
+      ],
+      "v": [
+       0.224,
+       0.593
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.497,
+       0.526
+      ],
+      "v": [
+       0.306,
+       0.519
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 301,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.546,
+       0.84
+      ],
+      "v": [
+       0.021,
+       0.805
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.847,
+       0.875
+      ],
+      "v": [
+       0.028,
+       0.797
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.913,
+       0.934
+      ],
+      "v": [
+       0.05,
+       0.777
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 77,
+      "lathato": 49,
+      "arany": 0.233,
+      "fal_tartomany": [
+       4.7,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.941,
+       0.997
+      ],
+      "v": [
+       0.075,
+       0.752
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 128,
+      "arany": 0.871,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.119,
+       0.227
+      ],
+      "v": [
+       0.185,
+       0.631
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.008,
+       0.114
+      ],
+      "v": [
+       0.324,
+       0.583
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 126,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.012,
+       0.119
+      ],
+      "v": [
+       0.161,
+       0.583
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 7,
+      "lathato": 5,
+      "arany": 0.032,
+      "fal_tartomany": [
+       7.03,
+       7.03
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.51
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 42,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.007,
+       0.007
+      ],
+      "v": [
+       0.117,
+       0.51
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 113,
+      "arany": 0.807,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.236,
+       0.321
+      ],
+      "v": [
+       0.204,
+       0.551
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 338,
+      "arany": 0.862,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.321,
+       0.498
+      ],
+      "v": [
+       0.224,
+       0.595
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 53,
+      "arany": 0.252,
+      "fal_tartomany": [
+       10.0,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.497,
+       0.526
+      ],
+      "v": [
+       0.306,
+       0.519
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 301,
+      "lathato": 276,
+      "arany": 0.917,
+      "fal_tartomany": [
+       5.2,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.546,
+       0.84
+      ],
+      "v": [
+       0.021,
+       0.805
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 175,
+      "lathato": 77,
+      "arany": 0.44,
+      "fal_tartomany": [
+       3.45,
+       3.95
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.847,
+       0.875
+      ],
+      "v": [
+       0.028,
+       0.797
+      ]
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 77,
+      "lathato": 77,
+      "arany": 1.0,
+      "fal_tartomany": [
+       2.95,
+       3.45
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.913,
+       0.934
+      ],
+      "v": [
+       0.05,
+       0.777
+      ]
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 77,
+      "lathato": 49,
+      "arany": 0.233,
+      "fal_tartomany": [
+       4.7,
+       5.0
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.941,
+       0.997
+      ],
+      "v": [
+       0.075,
+       0.752
+      ]
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    }
+   },
+   "kozeli_tomeg_15cm": [],
+   "fal_tav": {
+    "TV_fal_x367": 0.28,
+    "eszaki_sik_y805": 0.15,
+    "deli_sik_y405": 3.85
+   }
+  },
+  "Cam_03_referencia": {
+   "loc": [
+    4.7,
+    7.7,
+    1.5
+   ],
+   "rot": [
+    1.493,
+    0.0,
+    -2.1112
+   ],
+   "lens": 20.0,
+   "shift_y": 0.0,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.47,
+      0.968,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.561,
+      0.868,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.407,
+      0.602,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.301,
+      0.499,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.38,
+      0.488,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.418,
+      0.594,
+      true,
+      null
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.189,
+      0.441,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.472,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.594,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.706,
+      0.437,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.684,
+      0.518,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.88,
+      0.495,
+      false,
+      "Fal_wc_E_nappali_0"
+     ],
+     "W02_kozep": [
+      0.905,
+      0.445,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.76,
+      0.52,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.392,
+      0.112,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.47,
+      0.968,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.561,
+      0.868,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.407,
+      0.602,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.301,
+      0.499,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.38,
+      0.488,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.418,
+      0.594,
+      false,
+      "S01_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.189,
+      0.441,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.472,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.594,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.706,
+      0.437,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.684,
+      0.518,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.88,
+      0.495,
+      false,
+      "S01_KI3A_mu_W02"
+     ],
+     "W02_kozep": [
+      0.905,
+      0.445,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.76,
+      0.52,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.392,
+      0.112,
+      true,
+      null
+     ],
+     "ML05": null
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.47,
+      0.968,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.561,
+      0.868,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": [
+      0.407,
+      0.602,
+      true,
+      null
+     ],
+     "ajto_05_3_kozep": [
+      0.301,
+      0.499,
+      true,
+      null
+     ],
+     "W03_kapcsolok_K07_09_D12": [
+      0.38,
+      0.488,
+      true,
+      null
+     ],
+     "W03_huto_dugalj_D13": [
+      0.418,
+      0.594,
+      false,
+      "S02_etkezo_asztal_lap"
+     ],
+     "akna_nyugati_lap_kozep": [
+      0.189,
+      0.441,
+      true,
+      null
+     ],
+     "konyha_csonk_kozep": [
+      0.472,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_keleti_fal_kozep": [
+      0.594,
+      0.437,
+      true,
+      null
+     ],
+     "konyha_deli_fal_kozep": [
+      0.706,
+      0.437,
+      false,
+      "Beepitett_szekreny_eloter"
+     ],
+     "atjaro_kozep": [
+      0.684,
+      0.518,
+      true,
+      null
+     ],
+     "bejarati_ajto": [
+      0.88,
+      0.495,
+      false,
+      "S02_BN3A_grafika_W02"
+     ],
+     "W02_kozep": [
+      0.905,
+      0.445,
+      true,
+      null
+     ],
+     "W02_kapcsolooszlop_K10_12_T01_D19": [
+      0.76,
+      0.52,
+      true,
+      null
+     ],
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": null,
+     "TV_kozep": null,
+     "FL02": null,
+     "ML04": [
+      0.392,
+      0.112,
+      true,
+      null
+     ],
+     "ML05": null
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 147,
+      "arany": 1.0,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.341,
+       0.43
+      ],
+      "v": [
+       0.235,
+       0.627
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 85,
+      "arany": 0.944,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.15,
+       1.95
+      ],
+      "u": [
+       0.26,
+       0.343
+      ],
+      "v": [
+       0.359,
+       0.641
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 119,
+      "arany": 0.895,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.26,
+       0.346
+      ],
+      "v": [
+       0.22,
+       0.641
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 154,
+      "arany": 1.0,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.102,
+       0.264
+      ],
+      "v": [
+       0.146,
+       0.712
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 7,
+      "arany": 0.05,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.254,
+       0.264
+      ],
+      "v": [
+       0.179,
+       0.681
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 140,
+      "arany": 1.0,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.435,
+       0.506
+      ],
+      "v": [
+       0.245,
+       0.617
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 364,
+      "arany": 0.929,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.506,
+       0.665
+      ],
+      "v": [
+       0.259,
+       0.604
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 70,
+      "arany": 0.333,
+      "fal_tartomany": [
+       9.9,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.662,
+       0.701
+      ],
+      "v": [
+       0.326,
+       0.534
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 210,
+      "lathato": 210,
+      "arany": 0.698,
+      "fal_tartomany": [
+       5.8,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.737,
+       1.0
+      ],
+      "v": [
+       0.016,
+       0.843
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 176,
+      "lathato": 146,
+      "arany": 0.267,
+      "fal_tartomany": [
+       7.29,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.0,
+       0.073
+      ],
+      "v": [
+       0.08,
+       0.998
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 119,
+      "arany": 1.0,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.089,
+       0.121
+      ],
+      "v": [
+       0.089,
+       0.765
+      ]
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.341,
+       0.429
+      ],
+      "v": [
+       0.235,
+       0.563
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.26,
+       0.342
+      ],
+      "v": [
+       0.359,
+       0.572
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.26,
+       0.345
+      ],
+      "v": [
+       0.22,
+       0.572
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 148,
+      "arany": 0.961,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.102,
+       0.26
+      ],
+      "v": [
+       0.146,
+       0.712
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.254,
+       0.261
+      ],
+      "v": [
+       0.179,
+       0.515
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.435,
+       0.506
+      ],
+      "v": [
+       0.245,
+       0.556
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 348,
+      "arany": 0.888,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.506,
+       0.665
+      ],
+      "v": [
+       0.259,
+       0.594
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 70,
+      "arany": 0.333,
+      "fal_tartomany": [
+       9.9,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.662,
+       0.701
+      ],
+      "v": [
+       0.326,
+       0.534
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 210,
+      "lathato": 210,
+      "arany": 0.698,
+      "fal_tartomany": [
+       5.8,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.737,
+       1.0
+      ],
+      "v": [
+       0.016,
+       0.843
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 176,
+      "lathato": 146,
+      "arany": 0.267,
+      "fal_tartomany": [
+       7.29,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.0,
+       0.073
+      ],
+      "v": [
+       0.08,
+       0.998
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 119,
+      "arany": 1.0,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.089,
+       0.121
+      ],
+      "v": [
+       0.089,
+       0.765
+      ]
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 147,
+      "lathato": 126,
+      "arany": 0.857,
+      "fal_tartomany": [
+       5.05,
+       6.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.341,
+       0.429
+      ],
+      "v": [
+       0.235,
+       0.563
+      ]
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 90,
+      "lathato": 68,
+      "arany": 0.756,
+      "fal_tartomany": [
+       6.08,
+       6.87
+      ],
+      "z_tartomany": [
+       0.6,
+       1.95
+      ],
+      "u": [
+       0.26,
+       0.342
+      ],
+      "v": [
+       0.359,
+       0.572
+      ]
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 133,
+      "lathato": 102,
+      "arany": 0.767,
+      "fal_tartomany": [
+       6.05,
+       6.85
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.26,
+       0.345
+      ],
+      "v": [
+       0.22,
+       0.572
+      ]
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 21,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 154,
+      "lathato": 152,
+      "arany": 0.987,
+      "fal_tartomany": [
+       7.03,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.102,
+       0.26
+      ],
+      "v": [
+       0.146,
+       0.712
+      ]
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 5,
+      "arany": 0.036,
+      "fal_tartomany": [
+       9.8,
+       9.8
+      ],
+      "z_tartomany": [
+       1.05,
+       2.8
+      ],
+      "u": [
+       0.254,
+       0.261
+      ],
+      "v": [
+       0.179,
+       0.515
+      ]
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 140,
+      "lathato": 120,
+      "arany": 0.857,
+      "fal_tartomany": [
+       4.1,
+       5.05
+      ],
+      "z_tartomany": [
+       0.6,
+       2.8
+      ],
+      "u": [
+       0.435,
+       0.506
+      ],
+      "v": [
+       0.245,
+       0.556
+      ]
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 392,
+      "lathato": 352,
+      "arany": 0.898,
+      "fal_tartomany": [
+       1.35,
+       4.1
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.506,
+       0.665
+      ],
+      "v": [
+       0.259,
+       0.597
+      ]
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 210,
+      "lathato": 70,
+      "arany": 0.333,
+      "fal_tartomany": [
+       9.9,
+       10.55
+      ],
+      "z_tartomany": [
+       0.6,
+       2.4
+      ],
+      "u": [
+       0.662,
+       0.701
+      ],
+      "v": [
+       0.326,
+       0.534
+      ]
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 210,
+      "lathato": 181,
+      "arany": 0.601,
+      "fal_tartomany": [
+       5.8,
+       7.3
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.739,
+       1.0
+      ],
+      "v": [
+       0.016,
+       0.843
+      ]
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 280,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 176,
+      "lathato": 146,
+      "arany": 0.267,
+      "fal_tartomany": [
+       7.29,
+       8.94
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.0,
+       0.073
+      ],
+      "v": [
+       0.08,
+       0.998
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 119,
+      "lathato": 119,
+      "arany": 1.0,
+      "fal_tartomany": [
+       9.0,
+       9.8
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.089,
+       0.121
+      ],
+      "v": [
+       0.089,
+       0.765
+      ]
+     }
+    }
+   }
+  },
+  "Cam_02_kontroll": {
+   "loc": [
+    8.3,
+    4.4,
+    1.55
+   ],
+   "rot": [
+    1.4791,
+    0.0,
+    0.8577
+   ],
+   "lens": 20.0,
+   "shift_y": 0.0,
+   "celpontok": {
+    "epiteszet": {
+     "kanape_S01_ules_eleje": [
+      0.589,
+      0.724,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.553,
+      0.774,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": null,
+     "ajto_05_3_kozep": null,
+     "W03_kapcsolok_K07_09_D12": null,
+     "W03_huto_dugalj_D13": null,
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": null,
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": null,
+     "bejarati_ajto": null,
+     "W02_kozep": null,
+     "W02_kapcsolooszlop_K10_12_T01_D19": null,
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.777,
+      0.49,
+      true,
+      null
+     ],
+     "TV_kozep": [
+      0.322,
+      0.473,
+      false,
+      "Fal_05_1_nappali_0"
+     ],
+     "FL02": [
+      0.459,
+      0.212,
+      true,
+      null
+     ],
+     "ML04": null,
+     "ML05": [
+      0.44,
+      0.032,
+      true,
+      null
+     ]
+    },
+    "S01": {
+     "kanape_S01_ules_eleje": [
+      0.589,
+      0.724,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.553,
+      0.774,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": null,
+     "ajto_05_3_kozep": null,
+     "W03_kapcsolok_K07_09_D12": null,
+     "W03_huto_dugalj_D13": null,
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": null,
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": null,
+     "bejarati_ajto": null,
+     "W02_kozep": null,
+     "W02_kapcsolooszlop_K10_12_T01_D19": null,
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.777,
+      0.49,
+      true,
+      null
+     ],
+     "TV_kozep": [
+      0.322,
+      0.473,
+      false,
+      "S01_TV_kepernyo"
+     ],
+     "FL02": [
+      0.459,
+      0.212,
+      true,
+      null
+     ],
+     "ML04": null,
+     "ML05": [
+      0.44,
+      0.032,
+      true,
+      null
+     ]
+    },
+    "S02": {
+     "kanape_S01_ules_eleje": [
+      0.589,
+      0.724,
+      true,
+      null
+     ],
+     "kanape_S02_U_belseje": [
+      0.553,
+      0.774,
+      true,
+      null
+     ],
+     "etkezo_asztal_kozep": null,
+     "ajto_05_3_kozep": null,
+     "W03_kapcsolok_K07_09_D12": null,
+     "W03_huto_dugalj_D13": null,
+     "akna_nyugati_lap_kozep": null,
+     "konyha_csonk_kozep": null,
+     "konyha_keleti_fal_kozep": null,
+     "konyha_deli_fal_kozep": null,
+     "atjaro_kozep": null,
+     "bejarati_ajto": null,
+     "W02_kozep": null,
+     "W02_kapcsolooszlop_K10_12_T01_D19": null,
+     "kozlekedo_torok_kozep": null,
+     "kozlekedo_keleti_fal": null,
+     "kozlekedo_kapcsolok_K25_27_D46": null,
+     "furdo_06_1_ajto": null,
+     "ajto_05_2": null,
+     "uvegfal_kozep": [
+      0.777,
+      0.49,
+      true,
+      null
+     ],
+     "TV_kozep": [
+      0.322,
+      0.473,
+      false,
+      "S02_TV_kepernyo"
+     ],
+     "FL02": [
+      0.459,
+      0.212,
+      true,
+      null
+     ],
+     "ML04": null,
+     "ML05": [
+      0.44,
+      0.032,
+      true,
+      null
+     ]
+    }
+   },
+   "falak": {
+    "epiteszet": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 527,
+      "lathato": 527,
+      "arany": 0.929,
+      "fal_tartomany": [
+       4.25,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.001,
+       0.475
+      ],
+      "v": [
+       0.087,
+       0.774
+      ]
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 105,
+      "lathato": 105,
+      "arany": 1.0,
+      "fal_tartomany": [
+       3.67,
+       4.38
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.474,
+       0.521
+      ],
+      "v": [
+       0.204,
+       0.647
+      ]
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 409,
+      "lathato": 397,
+      "arany": 0.727,
+      "fal_tartomany": [
+       4.49,
+       7.89
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.542,
+       0.999
+      ],
+      "v": [
+       0.152,
+       0.843
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S01": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 527,
+      "lathato": 332,
+      "arany": 0.586,
+      "fal_tartomany": [
+       4.25,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.001,
+       0.475
+      ],
+      "v": [
+       0.087,
+       0.774
+      ]
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 105,
+      "lathato": 105,
+      "arany": 1.0,
+      "fal_tartomany": [
+       3.67,
+       4.38
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.474,
+       0.521
+      ],
+      "v": [
+       0.204,
+       0.647
+      ]
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 409,
+      "lathato": 357,
+      "arany": 0.654,
+      "fal_tartomany": [
+       4.49,
+       7.84
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.542,
+       0.996
+      ],
+      "v": [
+       0.152,
+       0.813
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    },
+    "S02": {
+     "W03 keleti fal x10,75 y5,05–6,05 (K07–K09+D12, D13)": {
+      "minta": 147,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 05.3 ajtó y6,08–6,92": {
+      "minta": 90,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 ajtó fölötti szemöldök y6,05–6,95": {
+      "minta": 133,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W03 csík y6,95–7,025": {
+      "minta": 21,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna nyugati lap x9,80 y7,025–8,05": {
+      "minta": 154,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Akna déli lap y7,025 x9,80–10,75": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyhacsonk x10,55 y4,10–5,05": {
+      "minta": 140,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha keleti fal x10,55 y1,35–4,10": {
+      "minta": 392,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Konyha déli fal y1,35 x9,10–10,55": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W02 déli tömör fal y4,05 x5,20–7,30 (kapcsolóoszlop x7,149)": {
+      "minta": 301,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Átjáró nyugati fala x7,30 y2,00–3,95": {
+      "minta": 280,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő keleti fala x5,20 y2,75–3,95 (K25–K27+D46 y3,90)": {
+      "minta": 175,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő pillér x5,00 y2,95–3,45": {
+      "minta": 77,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "Közlekedő déli fala y2,75 x3,75–5,20 (06.1 ajtó)": {
+      "minta": 210,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     },
+     "W01 TV-fal x3,67 y4,05–8,05": {
+      "minta": 567,
+      "kepben": 527,
+      "lathato": 179,
+      "arany": 0.316,
+      "fal_tartomany": [
+       4.4,
+       8.05
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.001,
+       0.475
+      ],
+      "v": [
+       0.087,
+       0.718
+      ]
+     },
+     "Északi pillér Ny y8,05 x3,67–4,38": {
+      "minta": 105,
+      "kepben": 105,
+      "lathato": 105,
+      "arany": 1.0,
+      "fal_tartomany": [
+       3.67,
+       4.38
+      ],
+      "z_tartomany": [
+       0.15,
+       2.8
+      ],
+      "u": [
+       0.474,
+       0.521
+      ],
+      "v": [
+       0.204,
+       0.647
+      ]
+     },
+     "Üvegfal y8,25 x4,44–8,94": {
+      "minta": 546,
+      "kepben": 409,
+      "lathato": 309,
+      "arany": 0.566,
+      "fal_tartomany": [
+       4.49,
+       7.84
+      ],
+      "z_tartomany": [
+       0.15,
+       2.4
+      ],
+      "u": [
+       0.542,
+       0.996
+      ],
+      "v": [
+       0.152,
+       0.813
+      ]
+     },
+     "Északi pillér K y8,05 x9,00–9,80": {
+      "minta": 119,
+      "kepben": 0,
+      "lathato": 0,
+      "arany": 0.0
+     }
+    }
+   }
+  }
+ },
+ "tomegek": {
+  "S01": {
+   "S01_KI3L_also_tarolo": [
+    3.67,
+    5.15,
+    0,
+    4.07,
+    7.55,
+    0.48
+   ],
+   "S01_KI3V_torony": [
+    3.67,
+    4.35,
+    0,
+    3.97,
+    4.95,
+    2.2
+   ],
+   "S01_KI3P_panel_a": [
+    3.67,
+    5.05,
+    0.55,
+    3.69,
+    6.35,
+    2.45
+   ],
+   "S01_KI3P_panel_b": [
+    3.67,
+    6.35,
+    0.55,
+    3.705,
+    7.65,
+    2.45
+   ],
+   "S01_TV_kepernyo": [
+    3.71,
+    5.625,
+    0.85,
+    3.76,
+    7.075,
+    1.68
+   ],
+   "S01_KI3A_mu_W02": [
+    5.95,
+    4.05,
+    0.8,
+    6.95,
+    4.08,
+    2.6
+   ],
+   "S01_kanape_L_fo": [
+    6.22,
+    6.16,
+    0,
+    7.17,
+    7.59,
+    0.42
+   ],
+   "S01_kanape_L_chaise": [
+    5.37,
+    5.21,
+    0,
+    7.17,
+    6.16,
+    0.42
+   ],
+   "S01_kanape_L_hattamla": [
+    6.95,
+    5.21,
+    0.42,
+    7.17,
+    7.59,
+    0.68
+   ],
+   "S01_kanape_L_kar": [
+    6.22,
+    7.39,
+    0.42,
+    6.95,
+    7.59,
+    0.6
+   ],
+   "S01_etkezo_asztal_lap": [
+    7.9,
+    5.27,
+    0.72,
+    8.8,
+    7.27,
+    0.75
+   ],
+   "S01_etkezo_asztal_labd": [
+    8.1,
+    5.52,
+    0,
+    8.6,
+    5.6,
+    0.72
+   ],
+   "S01_etkezo_asztal_labe": [
+    8.1,
+    6.94,
+    0,
+    8.6,
+    7.02,
+    0.72
+   ],
+   "S01_etkezo_szekny0_ules": [
+    7.55,
+    5.325,
+    0,
+    8.08,
+    5.875,
+    0.46
+   ],
+   "S01_etkezo_szekny0_hat": [
+    7.55,
+    5.325,
+    0.46,
+    7.61,
+    5.875,
+    0.78
+   ],
+   "S01_etkezo_szekk0_ules": [
+    8.62,
+    5.325,
+    0,
+    9.15,
+    5.875,
+    0.46
+   ],
+   "S01_etkezo_szekk0_hat": [
+    9.09,
+    5.325,
+    0.46,
+    9.15,
+    5.875,
+    0.78
+   ],
+   "S01_etkezo_szekny1_ules": [
+    7.55,
+    5.995,
+    0,
+    8.08,
+    6.545,
+    0.46
+   ],
+   "S01_etkezo_szekny1_hat": [
+    7.55,
+    5.995,
+    0.46,
+    7.61,
+    6.545,
+    0.78
+   ],
+   "S01_etkezo_szekk1_ules": [
+    8.62,
+    5.995,
+    0,
+    9.15,
+    6.545,
+    0.46
+   ],
+   "S01_etkezo_szekk1_hat": [
+    9.09,
+    5.995,
+    0.46,
+    9.15,
+    6.545,
+    0.78
+   ],
+   "S01_etkezo_szekny2_ules": [
+    7.55,
+    6.665,
+    0,
+    8.08,
+    7.215,
+    0.46
+   ],
+   "S01_etkezo_szekny2_hat": [
+    7.55,
+    6.665,
+    0.46,
+    7.61,
+    7.215,
+    0.78
+   ],
+   "S01_etkezo_szekk2_ules": [
+    8.62,
+    6.665,
+    0,
+    9.15,
+    7.215,
+    0.46
+   ],
+   "S01_etkezo_szekk2_hat": [
+    9.09,
+    6.665,
+    0.46,
+    9.15,
+    7.215,
+    0.78
+   ]
+  },
+  "S02": {
+   "S02_BN3L_also_tarolo": [
+    3.67,
+    5.25,
+    0,
+    4.07,
+    7.65,
+    0.5
+   ],
+   "S02_BN3V_kabinet": [
+    3.67,
+    4.25,
+    0,
+    3.99,
+    5.15,
+    2.2
+   ],
+   "S02_BN3P_panel": [
+    3.67,
+    5.25,
+    0.55,
+    3.71,
+    7.65,
+    2.45
+   ],
+   "S02_TV_kepernyo": [
+    3.71,
+    5.625,
+    0.85,
+    3.76,
+    7.075,
+    1.68
+   ],
+   "S02_BN3A_grafika_W02": [
+    5.85,
+    4.05,
+    0.85,
+    7.0,
+    4.07,
+    2.45
+   ],
+   "S02_kanape_U_hat": [
+    6.22,
+    4.975,
+    0,
+    7.17,
+    7.825,
+    0.42
+   ],
+   "S02_kanape_U_del": [
+    5.57,
+    4.975,
+    0,
+    6.22,
+    5.925,
+    0.42
+   ],
+   "S02_kanape_U_eszak": [
+    5.57,
+    6.875,
+    0,
+    6.22,
+    7.825,
+    0.42
+   ],
+   "S02_kanape_U_hattamla": [
+    6.95,
+    4.975,
+    0.42,
+    7.17,
+    7.825,
+    0.71
+   ],
+   "S02_kanape_U_hattamla_d": [
+    5.57,
+    4.975,
+    0.42,
+    6.95,
+    5.195,
+    0.71
+   ],
+   "S02_kanape_U_hattamla_e": [
+    5.57,
+    7.605,
+    0.42,
+    6.95,
+    7.825,
+    0.71
+   ],
+   "S02_etkezo_asztal_lap": [
+    7.9,
+    5.37,
+    0.72,
+    8.8,
+    7.17,
+    0.75
+   ],
+   "S02_etkezo_asztal_labd": [
+    8.1,
+    5.62,
+    0,
+    8.6,
+    5.7,
+    0.72
+   ],
+   "S02_etkezo_asztal_labe": [
+    8.1,
+    6.84,
+    0,
+    8.6,
+    6.92,
+    0.72
+   ],
+   "S02_etkezo_szekny0_ules": [
+    7.53,
+    5.407,
+    0,
+    8.08,
+    5.933,
+    0.46
+   ],
+   "S02_etkezo_szekny0_hat": [
+    7.53,
+    5.407,
+    0.46,
+    7.59,
+    5.933,
+    0.78
+   ],
+   "S02_etkezo_szekk0_ules": [
+    8.62,
+    5.407,
+    0,
+    9.17,
+    5.933,
+    0.46
+   ],
+   "S02_etkezo_szekk0_hat": [
+    9.11,
+    5.407,
+    0.46,
+    9.17,
+    5.933,
+    0.78
+   ],
+   "S02_etkezo_szekny1_ules": [
+    7.53,
+    6.007,
+    0,
+    8.08,
+    6.532,
+    0.46
+   ],
+   "S02_etkezo_szekny1_hat": [
+    7.53,
+    6.007,
+    0.46,
+    7.59,
+    6.532,
+    0.78
+   ],
+   "S02_etkezo_szekk1_ules": [
+    8.62,
+    6.007,
+    0,
+    9.17,
+    6.532,
+    0.46
+   ],
+   "S02_etkezo_szekk1_hat": [
+    9.11,
+    6.007,
+    0.46,
+    9.17,
+    6.532,
+    0.78
+   ],
+   "S02_etkezo_szekny2_ules": [
+    7.53,
+    6.607,
+    0,
+    8.08,
+    7.133,
+    0.46
+   ],
+   "S02_etkezo_szekny2_hat": [
+    7.53,
+    6.607,
+    0.46,
+    7.59,
+    7.133,
+    0.78
+   ],
+   "S02_etkezo_szekk2_ules": [
+    8.62,
+    6.607,
+    0,
+    9.17,
+    7.133,
+    0.46
+   ],
+   "S02_etkezo_szekk2_hat": [
+    9.11,
+    6.607,
+    0.46,
+    9.17,
+    7.133,
+    0.78
+   ]
+  }
+ },
+ "felulnezet": {
+  "kozep": [
+   7.0,
+   5.0
+  ],
+  "ortho_scale": 12.0,
+  "px": [
+   1400,
+   1000
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "fajl": "/Users/peterkapusi/Downloads/WSG/KEP-004/_munka/blender_cam12C_v1/WSG_A902_v2b_alaprajz_ELOZETES_20261025_v2b1k13_KAMERACSOMAG_C.blend",
+ "lock": "geometry_lock_A902_v2b.json",
+ "stilus": [
+  "Stil_TOMEG_C_S01",
+  "Stil_TOMEG_TV60M"
+ ],
+ "errors": [],
+ "warnings": [
+  "ÁTFEDÉS: TV_kepernyo.001 ↔ TV_szekreny60_eszak (5.0 cm)",
+  "VILLAMOS: TV_panel_4 a(z) A902-D16 dugalj  előtt (x 3.693, y 6.33, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-D16 dugalj  előtt (x 3.693, y 6.33, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_panel_4 a(z) A902-D17 dugalj  előtt (x 3.693, y 6.249, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-D17 dugalj  előtt (x 3.693, y 6.249, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_szekreny60_del a(z) A902-D18 dugalj  előtt (x 3.693, y 4.749, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-G01 gyengearamu_aljzat BK előtt (x 4.027, y 6.44, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-G02 gyengearamu_aljzat 1 előtt (x 4.027, y 6.272, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-G03 gyengearamu_aljzat 2 előtt (x 4.027, y 6.108, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-G04 gyengearamu_aljzat 3 előtt (x 3.913, y 6.13, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_panel_4 a(z) A902-G08 antenna_tv_aljzat  előtt (x 3.693, y 6.169, ~0.3 m) – hozzáférés ellenőrizendő",
+  "VILLAMOS: TV_konzol_40.001 a(z) A902-G08 antenna_tv_aljzat  előtt (x 3.693, y 6.169, ~0.3 m) – hozzáférés ellenőrizendő"
+ ],
+ "ok": [
+  "LOCK walls: 61 elem, 0 eltérés",
+  "LOCK openings: 54 elem, 0 eltérés",
+  "LOCK floors: 17 elem, 0 eltérés",
+  "TERASZ v2 (tetőkert): 43 elem, 0 változás",
+  "KAMERA: 12 kamera teljes paraméterrel; aktív: Cam_04_Master",
+  "BURKOLÓ: 25 látható bútorelem",
+  "ÜTKÖZÉS: bútor–fal/nyílászáró 0, bútor–bútor átfedés 1",
+  "AJTÓ: 11 nyílás negyedkörrel/sávval vizsgálva",
+  "VILLAMOS: 130 terv szerinti kiállás vizsgálva; takarás 0, dugalj elé állás 11"
+ ],
+ "info": [
+  "KAMERA Cam_01_Felulnezet: ellenőrző felülnézet",
+  "KAMERA Cam_02_Nappali_terasz: ÖSSZEHASONLÍTÓ – B fázis",
+  "KAMERA Cam_03_Etkezo_konyha: JAVASLAT – KAMERACSOMAG C (Péter 2026-10-25 04:08: K1 elfogadva; a lockba a merge-zel kerül): konyhaorientált Cam_03, nappali fény; hely [9,45; 7,55; 1,50] – az étkező északkeleti sarka mellől, a konyha tengelyében dél felé, vízszintes (rot [π/2; 0; −π]), 20 mm, shift_y −0,08; a két pultsor, a hűtőoszlop (D13) és a déli magas elemfal (sütő/mikró) a kép tárgya, előtérben az étkező széle és az ML04; a régi Cam_03 ([4,70; 7,70; 1,50], 20 mm) a Cam_12-vel 70 %-ban fedett át – paraméterei a javitasok v2b-1-k13 bejegyzésében",
+  "KAMERA Cam_04_Master: ÖSSZEHASONLÍTÓ – B fázis",
+  "KAMERA Cam_05_Terasz: ELAVULT (régi sík teraszra; évelőágyás fölé esik) – nem használandó",
+  "KAMERA Cam_06_Alaprajz_lakas: ellenőrző alaprajz",
+  "KAMERA Cam_07_Terasz_v2_greslaprol: ELŐZETES terasznézet (16 mm, z 1,45 = 1,60 a gres fölött)",
+  "KAMERA Cam_08_Terasz_v2_madarnezet: ellenőrző madártávlat",
+  "KAMERA Cam_09_Terasz_v2_felulnezet: ellenőrző felülnézet",
+  "KAMERA Cam_10_Furdo_06_2: ÖSSZEHASONLÍTÓ – KEP-004, fürdő 06.2 (ablaktalan, csak műfény); 16 mm a 1,93×2,85 m-es tér miatt; nézet az ajtónyílásból kelet felé, a helyszíni ME-BAL-064 fotóval egyező irány",
+  "KAMERA Cam_11_Master_Panorama: JAVASLAT – Péter külön jóváhagyásáig NEM összehasonlító master (a Cam_04_Master marad); 05.1 az ágy/párnák felől, ülő szemmagasság ≈1,20 m (becslés), vízszintes kamera nyugat felé a nyugati üvegfalra és a valós panorámára; 20 mm, mint a Cam_02/03/04; az ágy a terv szerinti helyen (Agy_05_1 tengelye y 6,40, keret y 5,50–7,30 – Péter, 2026-10-25 00:05; v2b-1-k11b); a kamera y 6,10-en, az üvegfal közepén marad: az ágyon, a tengelytől 0,30 m-re",
+  "KAMERA Cam_12_Nappali_Hero: JAVASLAT v3 – KAMERACSOMAG C (Péter 2026-10-25 04:08: a C elrendezéssel kötelező kompozíciós felülvizsgálat): nappali HERO az ÉNy-i sarokból délkelet felé (θ −48°), hely [4,40; 7,88; 1,60] – a TV-faltól 0,73 m, így a W01 legfeljebb 60 cm mély, mennyezetig érő szekrénye sem takarja ki (a v2 helyén [3,95; 7,90] a 60 cm-es északi szekrény a kép 52–58 %-át töltené ki); vízszintes kamera, 22 mm, shift_y −0,05 (kevesebb kanapé-előtér); látszik: a kanapé eleje, az étkező az ML04-gyel, a konyha, a W03 a 05.3 ajtóval, a W02 és a W07; a v2 paraméterei a javitasok v2b-1-k13 bejegyzésében; Péter külön jóváhagyásáig nem összehasonlító nézet",
+  "KONYHA: nincs két munkalap-sor a látható rétegben – a pultköz nem mérhető",
+  "05.2: fejjel a déli falnak, az ajtóforgásokon kívül elférő ágyak (legjobb oldaltávolság): 140 cm x 1.10–2.50, oldalt 110/115 cm, lábnál 60 cm; 160 cm x 1.00–2.60, oldalt 100/105 cm, lábnál 60 cm",
+  "VILLAMOS: a(z) A902-ML04 „b” mennyezeti kiállás alatt: ['C_ML04_fuggeszto', 'C_ML04_kabel', 'C_etkezo_asztal']"
+ ],
+ "measurements": {
+  "aktiv_kamera": "Cam_04_Master",
+  "butor_butor_atfedes_db": 1,
+  "05_2_agy_alternativak": [
+   {
+    "agy_szelesseg": 1.4,
+    "x0": 1.1,
+    "x1": 2.5,
+    "bal_oldal_cm": 110,
+    "jobb_oldal_cm": 115,
+    "labnal_cm": 60
+   },
+   {
+    "agy_szelesseg": 1.6,
+    "x0": 1.0,
+    "x1": 2.6,
+    "bal_oldal_cm": 100,
+    "jobb_oldal_cm": 105,
+    "labnal_cm": 60
+   }
+  ]
+ },
+ "summary": "PASS – 0 hiba, 12 figyelmeztetés; réteg: ['Stil_TOMEG_C_S01', 'Stil_TOMEG_TV60M']"
+}
