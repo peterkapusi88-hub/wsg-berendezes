@@ -1,0 +1,1359 @@
+{
+ "blender": "5.2.3 LTS",
+ "fajl": "WSG_A902_v2b_alaprajz_ELOZETES_20261025_v2b1k12_JAVASLAT_v2.blend",
+ "sha256": "66172d43cedfa3b7ccc78bb5dea894c02acef80933940f5a0ea98c1bef61c9d3",
+ "jeloltek": {
+  "K1_EK_konyhatengely_20": {
+   "loc": [
+    9.45,
+    7.55,
+    1.5
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    -3.1416
+   ],
+   "lens": 20.0,
+   "shift_y": -0.07999999821186066,
+   "ures_konyha_mp": 3.6,
+   "S02_A_mp": 3.3,
+   "S01_C_mp": 3.2,
+   "konyha_kepterulet": 0.215,
+   "legtobb_talalat": [
+    [
+     "P_nappali_etkezo",
+     1489
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     1298
+    ],
+    [
+     "Akna_etkezo_05_3",
+     1200
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     1084
+    ],
+    [
+     "Fal_nappali_05_3_v2b_0",
+     655
+    ],
+    [
+     "Plafon_A",
+     478
+    ],
+    [
+     "Akna_WC_gepeszet",
+     474
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     352
+    ],
+    [
+     "Fal_konyha_K_csonk_v2b",
+     291
+    ],
+    [
+     "KONYHA_deli_magas_elemek_suto_mikro",
+     286
+    ],
+    [
+     "KONYHA_nyugati_sor_fozolap",
+     260
+    ],
+    [
+     "Fal_szekrenyfulke_E_v2b",
+     214
+    ]
+   ],
+   "atfedes_cam12": 0.424,
+   "atfedes_cam03_regi": 0.456
+  },
+  "K1_EK_konyhatengely_18": {
+   "loc": [
+    9.45,
+    7.55,
+    1.5
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    -3.1416
+   ],
+   "lens": 18.0,
+   "shift_y": -0.07999999821186066,
+   "ures_konyha_mp": 3.3,
+   "S02_A_mp": 3.5,
+   "S01_C_mp": 3.5,
+   "konyha_kepterulet": 0.175,
+   "legtobb_talalat": [
+    [
+     "P_nappali_etkezo",
+     1713
+    ],
+    [
+     "Akna_etkezo_05_3",
+     1500
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     1185
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     1063
+    ],
+    [
+     "Plafon_A",
+     621
+    ],
+    [
+     "Fal_nappali_05_3_v2b_0",
+     619
+    ],
+    [
+     "Akna_WC_gepeszet",
+     396
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     280
+    ],
+    [
+     "Fal_konyha_K_csonk_v2b",
+     222
+    ],
+    [
+     "KONYHA_deli_magas_elemek_suto_mikro",
+     216
+    ],
+    [
+     "KONYHA_nyugati_sor_fozolap",
+     213
+    ],
+    [
+     "Fal_szekrenyfulke_E_v2b",
+     170
+    ]
+   ],
+   "atfedes_cam12": 0.446,
+   "atfedes_cam03_regi": 0.476
+  },
+  "K2_EK_atlos_20": {
+   "loc": [
+    8.95,
+    7.7,
+    1.5
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    -2.9322
+   ],
+   "lens": 20.0,
+   "shift_y": -0.07999999821186066,
+   "ures_konyha_mp": 3.4,
+   "S02_A_mp": 3.4,
+   "S01_C_mp": 3.3,
+   "konyha_kepterulet": 0.188,
+   "legtobb_talalat": [
+    [
+     "P_nappali_etkezo",
+     1521
+    ],
+    [
+     "Fal_nappali_05_3_v2b_0",
+     1462
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     1027
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     695
+    ],
+    [
+     "Akna_WC_gepeszet",
+     441
+    ],
+    [
+     "Plafon_A",
+     438
+    ],
+    [
+     "Ajto_05_3_lap",
+     403
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     399
+    ],
+    [
+     "Akna_etkezo_05_3",
+     375
+    ],
+    [
+     "KONYHA_deli_magas_elemek_suto_mikro",
+     269
+    ],
+    [
+     "KONYHA_nyugati_sor_fozolap",
+     235
+    ],
+    [
+     "Fal_szekrenyfulke_E_v2b",
+     215
+    ]
+   ],
+   "atfedes_cam12": 0.485,
+   "atfedes_cam03_regi": 0.513
+  },
+  "K3_nappali_kozep_22": {
+   "loc": [
+    7.2,
+    7.2,
+    1.5
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    -2.5307
+   ],
+   "lens": 22.0,
+   "shift_y": -0.05999999865889549,
+   "ures_konyha_mp": 3.4,
+   "S02_A_mp": 3.6,
+   "S01_C_mp": 3.5,
+   "konyha_kepterulet": 0.189,
+   "legtobb_talalat": [
+    [
+     "Fal_nappali_05_3_v2b_0",
+     1346
+    ],
+    [
+     "P_nappali_etkezo",
+     1236
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     884
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     862
+    ],
+    [
+     "Kulso_K_konyha_05_3_0",
+     628
+    ],
+    [
+     "Plafon_A",
+     492
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     488
+    ],
+    [
+     "KONYHA_keleti_sor",
+     383
+    ],
+    [
+     "Ajto_bejarat_lap",
+     374
+    ],
+    [
+     "P_eloter_atjaro",
+     353
+    ],
+    [
+     "KONYHA_nyugati_sor_fozolap",
+     269
+    ],
+    [
+     "Fal_szekrenyfulke_E_v2b",
+     260
+    ]
+   ],
+   "atfedes_cam12": 0.622,
+   "atfedes_cam03_regi": 0.663
+  },
+  "K4_konyhabol_ki_18": {
+   "loc": [
+    9.5,
+    2.2,
+    1.5
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    0.0
+   ],
+   "lens": 18.0,
+   "shift_y": -0.05000000074505806,
+   "ures_konyha_mp": 3.1,
+   "S02_A_mp": 3.4,
+   "S01_C_mp": 3.3,
+   "konyha_kepterulet": 0.282,
+   "legtobb_talalat": [
+    [
+     "Kulso_K_konyha_05_3_0",
+     1568
+    ],
+    [
+     "KONYHA_keleti_sor",
+     1072
+    ],
+    [
+     "P_nappali_etkezo",
+     1046
+    ],
+    [
+     "Uvegfal_nappali_terasz_uveg",
+     1008
+    ],
+    [
+     "Plafon_A",
+     1006
+    ],
+    [
+     "KONYHA_nyugati_sor_fozolap",
+     891
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     578
+    ],
+    [
+     "Fal_konyha_K_csonk_v2b",
+     392
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     312
+    ],
+    [
+     "Kulso_E_terasz_0",
+     262
+    ],
+    [
+     "Kulso_E_terasz_1",
+     240
+    ],
+    [
+     "Akna_etkezo_05_3",
+     218
+    ]
+   ],
+   "atfedes_cam12": 0.183,
+   "atfedes_cam03_regi": 0.403
+  },
+  "Cam_12_hero": {
+   "loc": [
+    3.95,
+    7.9,
+    1.45
+   ],
+   "rot": [
+    1.5708,
+    0.0,
+    -2.3562
+   ],
+   "lens": 22.0,
+   "shift_y": -0.07999999821186066,
+   "ures_konyha_mp": 2.5,
+   "S02_A_mp": 3.0,
+   "S01_C_mp": 3.0,
+   "konyha_kepterulet": 0.051,
+   "legtobb_talalat": [
+    [
+     "P_nappali_etkezo",
+     2940
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     1636
+    ],
+    [
+     "Plafon_A",
+     839
+    ],
+    [
+     "Fal_furdo_E_1",
+     452
+    ],
+    [
+     "Pillér_kozlekedo",
+     371
+    ],
+    [
+     "Fal_nappali_05_3_v2b_0",
+     371
+    ],
+    [
+     "Kulso_K_konyha_05_3_0",
+     334
+    ],
+    [
+     "Ajto_05_3_lap",
+     313
+    ],
+    [
+     "Akna_etkezo_05_3",
+     274
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     231
+    ],
+    [
+     "Fal_kozlekedo_wc_v2b",
+     189
+    ],
+    [
+     "P_eloszoba_kozlekedo",
+     143
+    ]
+   ],
+   "atfedes_cam12": 1.0,
+   "atfedes_cam03_regi": 0.738
+  },
+  "Cam_03_regi": {
+   "loc": [
+    4.7,
+    7.7,
+    1.5
+   ],
+   "rot": [
+    1.493,
+    0.0,
+    -2.1112
+   ],
+   "lens": 20.0,
+   "shift_y": 0.0,
+   "ures_konyha_mp": 3.9,
+   "S02_A_mp": 4.2,
+   "S01_C_mp": 4.1,
+   "konyha_kepterulet": 0.053,
+   "legtobb_talalat": [
+    [
+     "P_nappali_etkezo",
+     2228
+    ],
+    [
+     "Fal_wc_E_nappali_0",
+     1779
+    ],
+    [
+     "Plafon_A",
+     1293
+    ],
+    [
+     "Akna_etkezo_05_3",
+     772
+    ],
+    [
+     "Uvegfal_nappali_terasz_uveg",
+     357
+    ],
+    [
+     "Kulso_K_konyha_05_3_0",
+     327
+    ],
+    [
+     "Fal_nappali_05_3_v2b_0",
+     284
+    ],
+    [
+     "Kulso_E_terasz_1",
+     251
+    ],
+    [
+     "Ajto_05_3_lap",
+     230
+    ],
+    [
+     "KONYHA_huto_oszlop_D13",
+     223
+    ],
+    [
+     "Szemoldok_atjaro_eloter_nappali",
+     173
+    ],
+    [
+     "Fal_konyha_Ny_0",
+     140
+    ]
+   ],
+   "atfedes_cam12": 0.696,
+   "atfedes_cam03_regi": 1.0
+  },
+  "Cam_02_kontroll": {
+   "loc": [
+    8.3,
+    4.4,
+    1.55
+   ],
+   "rot": [
+    1.4791,
+    0.0,
+    0.8577
+   ],
+   "lens": 20.0,
+   "shift_y": 0.0,
+   "ures_konyha_mp": 3.4,
+   "S02_A_mp": 3.8,
+   "S01_C_mp": 3.7,
+   "konyha_kepterulet": 0.0,
+   "legtobb_talalat": [
+    [
+     "Fal_05_1_nappali_0",
+     2547
+    ],
+    [
+     "Uvegfal_nappali_terasz_uveg",
+     2311
+    ],
+    [
+     "P_nappali_etkezo",
+     2190
+    ],
+    [
+     "Plafon_A",
+     999
+    ],
+    [
+     "Kulso_E_terasz_szemoldok1",
+     439
+    ],
+    [
+     "Kulso_E_terasz_0",
+     240
+    ],
+    [
+     "v2_T09_greslap_Ny",
+     66
+    ],
+    [
+     "Uvegfal_nappali_terasz_felso",
+     62
+    ],
+    [
+     "Uvegfal_nappali_terasz_also",
+     60
+    ],
+    [
+     "Uvegfal_nappali_terasz_profil1",
+     55
+    ],
+    [
+     "Uvegfal_nappali_terasz_profil0",
+     31
+    ]
+   ],
+   "atfedes_cam12": 0.0,
+   "atfedes_cam03_regi": 0.057
+  }
+ },
+ "konyha_tomeg": {
+  "KONYHA_nyugati_sor_fozolap": [
+   8.45,
+   2.35,
+   0,
+   9.05,
+   4.05,
+   0.9
+  ],
+  "KONYHA_keleti_sor": [
+   9.95,
+   1.95,
+   0,
+   10.55,
+   4.65,
+   0.9
+  ],
+  "KONYHA_huto_oszlop_D13": [
+   9.95,
+   4.65,
+   0,
+   10.55,
+   5.25,
+   2.2
+  ],
+  "KONYHA_deli_magas_elemek_suto_mikro": [
+   9.05,
+   1.35,
+   0,
+   9.95,
+   1.95,
+   2.2
+  ],
+  "KONYHA_keleti_sor_deli_vege": [
+   9.95,
+   1.35,
+   0,
+   10.55,
+   1.95,
+   0.9
+  ],
+  "KONYHA_sarok_elem": [
+   8.45,
+   1.35,
+   0,
+   8.95,
+   2.25,
+   0.9
+  ]
+ },
+ "alt_tomeg": {
+  "S01_A": {
+   "ALT_kanape_fo_ules": [
+    5.55,
+    6.16,
+    0,
+    6.5,
+    7.59,
+    0.42
+   ],
+   "ALT_kanape_chaise": [
+    4.7,
+    5.21,
+    0,
+    6.5,
+    6.16,
+    0.42
+   ],
+   "ALT_kanape_hattamla_k": [
+    6.3,
+    5.21,
+    0.42,
+    6.5,
+    7.59,
+    0.68
+   ],
+   "ALT_kanape_kartamla_e": [
+    5.55,
+    7.41,
+    0.42,
+    6.3,
+    7.59,
+    0.6
+   ],
+   "ALT_asztal_lap": [
+    7.8,
+    5.25,
+    0.72,
+    8.7,
+    7.25,
+    0.75
+   ],
+   "ALT_asztal_lab": [
+    8.05,
+    6.05,
+    0,
+    8.45,
+    6.45,
+    0.72
+   ],
+   "ALT_szek_0_ules": [
+    7.45,
+    5.305,
+    0,
+    7.98,
+    5.855,
+    0.46
+   ],
+   "ALT_szek_0_hat": [
+    7.45,
+    5.305,
+    0.46,
+    7.51,
+    5.855,
+    0.8
+   ],
+   "ALT_szek_1_ules": [
+    8.52,
+    5.305,
+    0,
+    9.05,
+    5.855,
+    0.46
+   ],
+   "ALT_szek_1_hat": [
+    8.99,
+    5.305,
+    0.46,
+    9.05,
+    5.855,
+    0.8
+   ],
+   "ALT_szek_2_ules": [
+    7.45,
+    5.975,
+    0,
+    7.98,
+    6.525,
+    0.46
+   ],
+   "ALT_szek_2_hat": [
+    7.45,
+    5.975,
+    0.46,
+    7.51,
+    6.525,
+    0.8
+   ],
+   "ALT_szek_3_ules": [
+    8.52,
+    5.975,
+    0,
+    9.05,
+    6.525,
+    0.46
+   ],
+   "ALT_szek_3_hat": [
+    8.99,
+    5.975,
+    0.46,
+    9.05,
+    6.525,
+    0.8
+   ],
+   "ALT_szek_4_ules": [
+    7.45,
+    6.645,
+    0,
+    7.98,
+    7.195,
+    0.46
+   ],
+   "ALT_szek_4_hat": [
+    7.45,
+    6.645,
+    0.46,
+    7.51,
+    7.195,
+    0.8
+   ],
+   "ALT_szek_5_ules": [
+    8.52,
+    6.645,
+    0,
+    9.05,
+    7.195,
+    0.46
+   ],
+   "ALT_szek_5_hat": [
+    8.99,
+    6.645,
+    0.46,
+    9.05,
+    7.195,
+    0.8
+   ],
+   "ALT_tv_konzol_40": [
+    3.67,
+    5.15,
+    0,
+    4.07,
+    7.55,
+    0.5
+   ],
+   "ALT_tv_kepernyo": [
+    3.7,
+    5.625,
+    0.85,
+    3.75,
+    7.075,
+    1.68
+   ],
+   "ALT_ML04_fuggeszte_jel": [
+    8.299,
+    6.024,
+    1.5,
+    8.799,
+    6.524,
+    2.0
+   ],
+   "ALT_ML04_kabel": [
+    8.544,
+    6.269,
+    2.0,
+    8.554,
+    6.279,
+    2.9
+   ]
+  },
+  "S02_A": {
+   "ALT_kanape_hat_ules": [
+    5.45,
+    4.975,
+    0,
+    6.4,
+    7.825,
+    0.42
+   ],
+   "ALT_kanape_del_kar": [
+    4.8,
+    4.975,
+    0,
+    5.45,
+    5.925,
+    0.42
+   ],
+   "ALT_kanape_eszak_kar": [
+    4.8,
+    6.875,
+    0,
+    5.45,
+    7.825,
+    0.42
+   ],
+   "ALT_kanape_hattamla_k": [
+    6.2,
+    4.975,
+    0.42,
+    6.4,
+    7.825,
+    0.8
+   ],
+   "ALT_kanape_hattamla_d": [
+    4.8,
+    4.975,
+    0.42,
+    6.2,
+    5.175,
+    0.8
+   ],
+   "ALT_kanape_hattamla_e": [
+    4.8,
+    7.625,
+    0.42,
+    6.2,
+    7.825,
+    0.8
+   ],
+   "ALT_asztal_lap": [
+    7.8,
+    5.4,
+    0.72,
+    8.7,
+    7.2,
+    0.75
+   ],
+   "ALT_asztal_lab": [
+    8.05,
+    6.1,
+    0,
+    8.45,
+    6.5,
+    0.72
+   ],
+   "ALT_szek_0_ules": [
+    7.43,
+    5.438,
+    0,
+    7.98,
+    5.963,
+    0.46
+   ],
+   "ALT_szek_0_hat": [
+    7.43,
+    5.438,
+    0.46,
+    7.49,
+    5.963,
+    0.8
+   ],
+   "ALT_szek_1_ules": [
+    8.52,
+    5.438,
+    0,
+    9.07,
+    5.963,
+    0.46
+   ],
+   "ALT_szek_1_hat": [
+    9.01,
+    5.438,
+    0.46,
+    9.07,
+    5.963,
+    0.8
+   ],
+   "ALT_szek_2_ules": [
+    7.43,
+    6.037,
+    0,
+    7.98,
+    6.562,
+    0.46
+   ],
+   "ALT_szek_2_hat": [
+    7.43,
+    6.037,
+    0.46,
+    7.49,
+    6.562,
+    0.8
+   ],
+   "ALT_szek_3_ules": [
+    8.52,
+    6.037,
+    0,
+    9.07,
+    6.562,
+    0.46
+   ],
+   "ALT_szek_3_hat": [
+    9.01,
+    6.037,
+    0.46,
+    9.07,
+    6.562,
+    0.8
+   ],
+   "ALT_szek_4_ules": [
+    7.43,
+    6.638,
+    0,
+    7.98,
+    7.163,
+    0.46
+   ],
+   "ALT_szek_4_hat": [
+    7.43,
+    6.638,
+    0.46,
+    7.49,
+    7.163,
+    0.8
+   ],
+   "ALT_szek_5_ules": [
+    8.52,
+    6.638,
+    0,
+    9.07,
+    7.163,
+    0.46
+   ],
+   "ALT_szek_5_hat": [
+    9.01,
+    6.638,
+    0.46,
+    9.07,
+    7.163,
+    0.8
+   ],
+   "ALT_tv_konzol_40": [
+    3.67,
+    5.15,
+    0,
+    4.07,
+    7.55,
+    0.5
+   ],
+   "ALT_tv_kepernyo": [
+    3.7,
+    5.625,
+    0.85,
+    3.75,
+    7.075,
+    1.68
+   ],
+   "ALT_ML04_fuggeszte_jel.001": [
+    8.299,
+    6.024,
+    1.5,
+    8.799,
+    6.524,
+    2.0
+   ],
+   "ALT_ML04_kabel": [
+    8.544,
+    6.269,
+    2.0,
+    8.554,
+    6.279,
+    2.9
+   ]
+  },
+  "S01_C": {
+   "ALT_kanape_fo_ules": [
+    5.65,
+    6.16,
+    0,
+    6.6,
+    7.59,
+    0.42
+   ],
+   "ALT_kanape_chaise": [
+    4.8,
+    5.21,
+    0,
+    6.6,
+    6.16,
+    0.42
+   ],
+   "ALT_kanape_hattamla_k": [
+    6.4,
+    5.21,
+    0.42,
+    6.6,
+    7.59,
+    0.68
+   ],
+   "ALT_kanape_kartamla_e": [
+    5.65,
+    7.41,
+    0.42,
+    6.4,
+    7.59,
+    0.6
+   ],
+   "ALT_asztal_lap": [
+    8.0,
+    5.5,
+    0.72,
+    8.9,
+    7.1,
+    0.75
+   ],
+   "ALT_asztal_lab": [
+    8.25,
+    6.1,
+    0,
+    8.65,
+    6.5,
+    0.72
+   ],
+   "ALT_szek_0_ules": [
+    7.65,
+    5.925,
+    0,
+    8.18,
+    6.475,
+    0.46
+   ],
+   "ALT_szek_0_hat": [
+    7.65,
+    5.925,
+    0.46,
+    7.71,
+    6.475,
+    0.8
+   ],
+   "ALT_szek_1_ules": [
+    7.65,
+    6.525,
+    0,
+    8.18,
+    7.075,
+    0.46
+   ],
+   "ALT_szek_1_hat": [
+    7.65,
+    6.525,
+    0.46,
+    7.71,
+    7.075,
+    0.8
+   ],
+   "ALT_szek_2_ules": [
+    8.72,
+    5.925,
+    0,
+    9.25,
+    6.475,
+    0.46
+   ],
+   "ALT_szek_2_hat": [
+    9.19,
+    5.925,
+    0.46,
+    9.25,
+    6.475,
+    0.8
+   ],
+   "ALT_szek_3_ules": [
+    8.72,
+    6.525,
+    0,
+    9.25,
+    7.075,
+    0.46
+   ],
+   "ALT_szek_3_hat": [
+    9.19,
+    6.525,
+    0.46,
+    9.25,
+    7.075,
+    0.8
+   ],
+   "ALT_szek_4_ules": [
+    8.175,
+    5.15,
+    0,
+    8.725,
+    5.68,
+    0.46
+   ],
+   "ALT_szek_4_hat": [
+    8.175,
+    5.15,
+    0.46,
+    8.725,
+    5.21,
+    0.8
+   ],
+   "ALT_szek_5_ules": [
+    8.175,
+    6.92,
+    0,
+    8.725,
+    7.45,
+    0.46
+   ],
+   "ALT_szek_5_hat": [
+    8.175,
+    7.39,
+    0.46,
+    8.725,
+    7.45,
+    0.8
+   ],
+   "ALT_tv_konzol_40": [
+    3.67,
+    5.15,
+    0,
+    4.07,
+    7.55,
+    0.5
+   ],
+   "ALT_tv_kepernyo": [
+    3.7,
+    5.625,
+    0.85,
+    3.75,
+    7.075,
+    1.68
+   ],
+   "ALT_ML04_fuggeszte_jel.002": [
+    8.299,
+    6.024,
+    1.5,
+    8.799,
+    6.524,
+    2.0
+   ],
+   "ALT_ML04_kabel": [
+    8.544,
+    6.269,
+    2.0,
+    8.554,
+    6.279,
+    2.9
+   ]
+  },
+  "S02_C": {
+   "ALT_kanape_hat_ules": [
+    5.65,
+    4.975,
+    0,
+    6.6,
+    7.825,
+    0.42
+   ],
+   "ALT_kanape_del_kar": [
+    5.0,
+    4.975,
+    0,
+    5.65,
+    5.925,
+    0.42
+   ],
+   "ALT_kanape_eszak_kar": [
+    5.0,
+    6.875,
+    0,
+    5.65,
+    7.825,
+    0.42
+   ],
+   "ALT_kanape_hattamla_k": [
+    6.4,
+    4.975,
+    0.42,
+    6.6,
+    7.825,
+    0.8
+   ],
+   "ALT_kanape_hattamla_d": [
+    5.0,
+    4.975,
+    0.42,
+    6.4,
+    5.175,
+    0.8
+   ],
+   "ALT_kanape_hattamla_e": [
+    5.0,
+    7.625,
+    0.42,
+    6.4,
+    7.825,
+    0.8
+   ],
+   "ALT_asztal_lap": [
+    8.0,
+    5.35,
+    0.72,
+    8.9,
+    7.15,
+    0.75
+   ],
+   "ALT_asztal_lab": [
+    8.25,
+    6.05,
+    0,
+    8.65,
+    6.45,
+    0.72
+   ],
+   "ALT_szek_0_ules": [
+    7.63,
+    5.888,
+    0,
+    8.18,
+    6.413,
+    0.46
+   ],
+   "ALT_szek_0_hat": [
+    7.63,
+    5.888,
+    0.46,
+    7.69,
+    6.413,
+    0.8
+   ],
+   "ALT_szek_1_ules": [
+    7.63,
+    6.487,
+    0,
+    8.18,
+    7.013,
+    0.46
+   ],
+   "ALT_szek_1_hat": [
+    7.63,
+    6.487,
+    0.46,
+    7.69,
+    7.013,
+    0.8
+   ],
+   "ALT_szek_2_ules": [
+    8.72,
+    5.888,
+    0,
+    9.27,
+    6.413,
+    0.46
+   ],
+   "ALT_szek_2_hat": [
+    9.21,
+    5.888,
+    0.46,
+    9.27,
+    6.413,
+    0.8
+   ],
+   "ALT_szek_3_ules": [
+    8.72,
+    6.487,
+    0,
+    9.27,
+    7.013,
+    0.46
+   ],
+   "ALT_szek_3_hat": [
+    9.21,
+    6.487,
+    0.46,
+    9.27,
+    7.013,
+    0.8
+   ],
+   "ALT_szek_4_ules": [
+    8.188,
+    4.98,
+    0,
+    8.712,
+    5.53,
+    0.46
+   ],
+   "ALT_szek_4_hat": [
+    8.188,
+    4.98,
+    0.46,
+    8.712,
+    5.04,
+    0.8
+   ],
+   "ALT_szek_5_ules": [
+    8.188,
+    6.97,
+    0,
+    8.712,
+    7.52,
+    0.46
+   ],
+   "ALT_szek_5_hat": [
+    8.188,
+    7.46,
+    0.46,
+    8.712,
+    7.52,
+    0.8
+   ],
+   "ALT_tv_konzol_40": [
+    3.67,
+    5.15,
+    0,
+    4.07,
+    7.55,
+    0.5
+   ],
+   "ALT_tv_kepernyo": [
+    3.7,
+    5.625,
+    0.85,
+    3.75,
+    7.075,
+    1.68
+   ],
+   "ALT_ML04_fuggeszte_jel.003": [
+    8.299,
+    6.024,
+    1.5,
+    8.799,
+    6.524,
+    2.0
+   ],
+   "ALT_ML04_kabel": [
+    8.544,
+    6.269,
+    2.0,
+    8.554,
+    6.279,
+    2.9
+   ]
+  }
+ }
+}
