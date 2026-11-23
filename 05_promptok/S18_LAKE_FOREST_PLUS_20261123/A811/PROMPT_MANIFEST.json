@@ -13,7 +13,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BED1_HERO_v1.prompt.txt",
-    "prompt_sha256": "cec3fe61bd1925e2033951c5b69b8373dfd07e0460c19eab3d75867ed4e7154c",
+    "prompt_sha256": "3b404199ed9c4859693d24d8996ef05b2fcea1a5e1dc501884124a4eaf85d161",
     "reference_ids": [
       "LF11",
       "LF06"
@@ -22,7 +22,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BED1_HERO",
@@ -38,7 +49,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BED1_HERO_v1.prompt.txt",
-    "prompt_sha256": "a7dc98eca3ae029657570733941a961244c1b6bdaf10c8f31fd6a13ebc2024ab",
+    "prompt_sha256": "928d15b8b933566f03b886c43d78023685e702a283c853abbbb501b305576b42",
     "reference_ids": [
       "LF12",
       "LF13",
@@ -48,7 +59,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BED1_MEDIA",
@@ -64,7 +86,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
-    "prompt_sha256": "444cc74132c73f4485b57c57191acf9e8cbafec4622706c3edcc01f1bd88069b",
+    "prompt_sha256": "a805ed194ea6d262c6232c758de5beffed37335ac03043421ff076a3898d4275",
     "reference_ids": [
       "LF11",
       "LF06"
@@ -73,7 +95,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BED1_MEDIA",
@@ -89,7 +122,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
-    "prompt_sha256": "4bce09c9b8466b1061c659351061483b6d15227ba6c3abfea8b103e931c1db55",
+    "prompt_sha256": "3d51cc5bfc157f4e236805c497cb25193923aa3f5f27f2cc1857d1ef90774d4a",
     "reference_ids": [
       "LF12",
       "LF13",
@@ -99,7 +132,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "MASTER_HERO",
@@ -115,7 +159,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
-    "prompt_sha256": "5be45912604353d7b759265d475262e78130b892b44aaf0dc25a4dda62779d16",
+    "prompt_sha256": "beaaebc1d99afdbd11ac9f7306fbdd732d391f009cba216caf92842b1750f145",
     "reference_ids": [
       "LF11",
       "LF06"
@@ -124,7 +168,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 2
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "MASTER_HERO",
@@ -140,7 +195,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
-    "prompt_sha256": "87b544c04df7b378ada069698465697e7c4ae49cdca1c2a391cc09d5516cc426",
+    "prompt_sha256": "a3de310755c5938ceb97c3cea6f229f2e4dda81eea93983e250ee94707ab22e6",
     "reference_ids": [
       "LF12",
       "LF13",
@@ -150,7 +205,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 2
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "MASTER_MEDIA",
@@ -166,7 +232,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
-    "prompt_sha256": "271478bf6672ec78ab1931823d24cb304bc2940a7cbea12ac99a54f7574c82ee",
+    "prompt_sha256": "ee33af7147463e3d532d2aafbad2eb3c8f6208df903f8b8377d3f80bc41679a5",
     "reference_ids": [
       "LF11",
       "LF06"
@@ -175,7 +241,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "MASTER_MEDIA",
@@ -191,7 +268,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
-    "prompt_sha256": "8181d919b5ae7ba3d361f717674dbdc35fa53552849f6e0bb93558d53cc0a4b6",
+    "prompt_sha256": "d4f176b80a8972ea6ce2b6f4584b1e6824c6999688bec8caf590d4a1c22a3ee8",
     "reference_ids": [
       "LF12",
       "LF13",
@@ -201,7 +278,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "MASTER_GARD_HERO",
@@ -217,7 +305,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.prompt.txt",
-    "prompt_sha256": "5a178ff2579e0f3a58621d538b1a8f1143fec0a711c8c58ad37b3d8bfceeb2f9",
+    "prompt_sha256": "d00597290eb521ed7e810c079024741fac312e47bc91f4c2d216640cf4cf2849",
     "reference_ids": [
       "LF06",
       "LF11"
@@ -226,7 +314,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "MASTER_GARD_HERO",
@@ -242,7 +333,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_GARD_HERO_v1.prompt.txt",
-    "prompt_sha256": "864371830f129902194ff06f46b7124fb0697620414f19bde29fabbaeea72e95",
+    "prompt_sha256": "bc65f84f01f1b026be42ebeff5e287eacff2412c0dfa38f7fcd435e8b9a2ec1c",
     "reference_ids": [
       "LF15",
       "LF12"
@@ -251,7 +342,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "LIVING_HERO",
@@ -267,7 +361,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
-    "prompt_sha256": "d7178996803fe554cc261063290db39c444642c66ad7701ea8613e5719157400",
+    "prompt_sha256": "e315eb31a47e3f5cfd79729c792f92fb2f5be7dfb7b5352744e525db0a767ae9",
     "reference_ids": [
       "LF08",
       "LF02"
@@ -276,7 +370,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 1
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_4122-110.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
+    ],
+    "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "LIVING_HERO",
@@ -292,7 +397,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
-    "prompt_sha256": "5f2bfb1943657557eed8b18ae06ec5751857bb3658cbd4741e983901f6931c8c",
+    "prompt_sha256": "0d7bb14b71bd38e117c3268c468d4e33c309db6265eca6d914b7938dd2d250d6",
     "reference_ids": [
       "LF09",
       "LF14"
@@ -301,7 +406,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 1
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_4122-110.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
+    ],
+    "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "LIVING_WINDOW",
@@ -317,7 +433,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
-    "prompt_sha256": "0b33ddb8fdc4ad598c02b9e9ff638caeaa34165ca2002d6e3b1ba1e97e50cc28",
+    "prompt_sha256": "baa793916bf8ad398c9102aa8a3b20f4d1b3b6a7c489c4c6144badb3ded8222e",
     "reference_ids": [
       "LF08",
       "LF02"
@@ -326,7 +442,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3449-783.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
+    ],
+    "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "LIVING_WINDOW",
@@ -342,7 +469,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
-    "prompt_sha256": "2b5f19530b4a1f001da16f48f9a751933c9534ee23727b335e3d150a2e9fe5f4",
+    "prompt_sha256": "cc9cfd3ddd06df083eea6742c5edd114c7c8f3e43cbfac5fee783e3a0e1c02e9",
     "reference_ids": [
       "LF09",
       "LF14"
@@ -351,7 +478,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3449-783.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
+    ],
+    "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "KITCHEN_HERO",
@@ -367,7 +505,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
-    "prompt_sha256": "c4922f4dcfe2e5ddbaf7e13e084d6e64d64170a71fa767d58a48b115352397f5",
+    "prompt_sha256": "c3e12b10006f8ea8a00d56d8b126b03502a578ff767adca084ffa08ea5b609cf",
     "reference_ids": [
       "LF03",
       "LF02"
@@ -376,7 +514,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 2
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_4148-084.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
+    ],
+    "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "KITCHEN_HERO",
@@ -392,7 +541,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
-    "prompt_sha256": "a335c5c16162e01817da24ec2a4043322b0fcd6fc529e000b7c7a1b758a0f8f7",
+    "prompt_sha256": "37b799aa25bbed31a08d3baa06027c53bd599a812a6074b3c039bb0503e15d0c",
     "reference_ids": [
       "LF10",
       "LF14"
@@ -401,7 +550,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 2
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_4148-084.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
+    ],
+    "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "ENTRY_HERO",
@@ -417,7 +577,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
-    "prompt_sha256": "c1608f5e1ebae00babbe1be5e3df866f1616d6d7f939517f37afedf2fbe3f17c",
+    "prompt_sha256": "94f05e7733b38d8e8315c72b274096a29f887978772ed197b7d244448276be73",
     "reference_ids": [
       "LF08",
       "LF02"
@@ -426,7 +586,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_4145-087.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
+    ],
+    "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "ENTRY_HERO",
@@ -442,7 +613,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
-    "prompt_sha256": "be083e95d1df4f2799dfbda9c35d88a192fb6cf481bb352447223a529cdfb083",
+    "prompt_sha256": "99110b124227ce28b387928eac7707febee65cf6facf5f84969f8f0dd52edd6a",
     "reference_ids": [
       "LF09",
       "LF14"
@@ -451,7 +622,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_4145-087.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
+    ],
+    "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH1_HERO",
@@ -467,7 +649,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH1_HERO_v1.prompt.txt",
-    "prompt_sha256": "e96d5932eeaa5d492b7246f89c15450efe4593debf7bed74ba93b7af96822988",
+    "prompt_sha256": "95efd6cf102ff39ab0648bd4c70727bb8ab5b7cb6d740e75fcea8e66edb5d8c2",
     "reference_ids": [
       "LF05"
     ],
@@ -475,7 +657,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3309-923.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
+    ],
+    "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH1_HERO",
@@ -491,7 +684,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH1_HERO_v1.prompt.txt",
-    "prompt_sha256": "44cbfbe85823ee3cb30d437edec04242f938d4a86d9c8cb0b8f82697c7703220",
+    "prompt_sha256": "b5db073f30e7728bfc95481dedebe7f9b9209f45680799fc04ca62ee18059a35",
     "reference_ids": [
       "LF05"
     ],
@@ -499,7 +692,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3309-923.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
+    ],
+    "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH2_HERO",
@@ -515,7 +719,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
-    "prompt_sha256": "65071d4371b1bc4991d9b249a6532e137bc48da578bbca963be3aa4d7fc8582f",
+    "prompt_sha256": "7beba0660e25744c08b57c0761f8d4bffc70d21830e4c4c1cd105f0cb38b839f",
     "reference_ids": [
       "LF05"
     ],
@@ -523,7 +727,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH2_HERO",
@@ -539,7 +754,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
-    "prompt_sha256": "c15fa3286a2256f7cc4f6ceb0a8e2b01b522604421c48806bb8d9dd68b85f8bc",
+    "prompt_sha256": "b4bc7f8ae19fee4a52f804d92984335d9788e9ecefdec3b9201b8c41b6cd82ab",
     "reference_ids": [
       "LF05"
     ],
@@ -547,7 +762,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "WC_HERO",
@@ -563,7 +789,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_WC_HERO_v1.prompt.txt",
-    "prompt_sha256": "785deb7b893e9de1727e25bce2fcca05e02170367471f656a585bc9ecaa01406",
+    "prompt_sha256": "2a0f81dbdb1ed5b972432bbe73b75a9dd1010fa39c9f7dbd708864c4bb0ef7c3",
     "reference_ids": [
       "LF05"
     ],
@@ -571,7 +797,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "WC_HERO",
@@ -587,7 +816,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_WC_HERO_v1.prompt.txt",
-    "prompt_sha256": "290ea413ab10dea54bd4e6cda8411c11b5e20da93612b409dc7d47ad21569018",
+    "prompt_sha256": "9371315cc69cae6ebf5bb425b4ee18bdd6f05de15fc7a65cdbfe965421cabadf",
     "reference_ids": [
       "LF05"
     ],
@@ -595,7 +824,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "UTILITY_HERO",
@@ -611,7 +843,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
-    "prompt_sha256": "af2197d50d9b602795a08951393027bc8c2f8b4163eca586ec40b7ff6a58000d",
+    "prompt_sha256": "728114e4ef93d7e0b346771e12bae7cb29896b1a60cf2d94ebf075b3cb19fa48",
     "reference_ids": [
       "LF07",
       "LF03"
@@ -620,7 +852,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "UTILITY_HERO",
@@ -636,7 +871,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
-    "prompt_sha256": "eab7706f11beba920c116021bda37fcfb3abaec15029a27f3ac3ddcbf9d75985",
+    "prompt_sha256": "0310184f76f374a17e0558ee4ce796e80d0a8091553035971fda333a367989e8",
     "reference_ids": [
       "LF07",
       "LF10"
@@ -645,7 +880,10 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
   },
   {
     "camera": "HALL_HERO",
@@ -661,7 +899,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_HALL_HERO_v1.prompt.txt",
-    "prompt_sha256": "b4634e7b8607f2b9c20b7771fe4f7458200746777f2116e190c70a979142a7b1",
+    "prompt_sha256": "2bfded6866ee83b3689fc707fac6e6a48607ae398ff0d8eb7afaae23e87078e2",
     "reference_ids": [
       "LF07",
       "LF03"
@@ -670,7 +908,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3335-897.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
+    ],
+    "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "HALL_HERO",
@@ -686,7 +935,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_HALL_HERO_v1.prompt.txt",
-    "prompt_sha256": "d48fa76c0c6500915341971ea8db0e7b3c60b9eb207107dd90942baae9095c50",
+    "prompt_sha256": "a026a0c432c486d843e89ace2ef95bcb6f149a55bb1dfc57a9497b17a2a5c1b8",
     "reference_ids": [
       "LF07",
       "LF10"
@@ -695,7 +944,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3335-897.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
+    ],
+    "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH2_SHOWER",
@@ -711,7 +971,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
-    "prompt_sha256": "3d31e8d8073829e1e0752390016d34c32a44860010dbf8105d48fd36fd752a8d",
+    "prompt_sha256": "18faa343b9bd2c17ae066ec513cad67ae18cdeaf19a93ff1d930a5951b7b3f17",
     "reference_ids": [
       "LF05"
     ],
@@ -719,7 +979,18 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   },
   {
     "camera": "BATH2_SHOWER",
@@ -735,7 +1006,7 @@
     "apartment": "A811",
     "style": "S18",
     "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
-    "prompt_sha256": "c865e2d13ff7ba19665d3ae7559a2cf92db6a038aa867c6b3c828ecd47d0d0e1",
+    "prompt_sha256": "406406eb16436df6d35039cc0da5eaa891477f1351a85a70d4bf21d41481bb03",
     "reference_ids": [
       "LF05"
     ],
@@ -743,6 +1014,17 @@
     "image_status": "NOT_GENERATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
-    "priority": 3
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
   }
 ]

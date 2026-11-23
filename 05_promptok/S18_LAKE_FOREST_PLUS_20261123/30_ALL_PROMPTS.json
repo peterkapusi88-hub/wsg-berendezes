@@ -1,0 +1,2658 @@
+[
+  {
+    "camera": "BED1_HERO",
+    "room": "05.1 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A811_BED1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A811_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BED1_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_BED1_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BED1_HERO_v1.prompt.txt",
+    "prompt_sha256": "3b404199ed9c4859693d24d8996ef05b2fcea1a5e1dc501884124a4eaf85d161",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_HERO",
+    "room": "05.1 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A811_BED1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A811_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BED1_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_BED1_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BED1_HERO_v1.prompt.txt",
+    "prompt_sha256": "928d15b8b933566f03b886c43d78023685e702a283c853abbbb501b305576b42",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_MEDIA",
+    "room": "05.1 · háló, médiafal és tárolás",
+    "kind": "bed",
+    "control": "controls/A811_BED1_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A811_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BED1_MEDIA_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_BED1_MEDIA_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "a805ed194ea6d262c6232c758de5beffed37335ac03043421ff076a3898d4275",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_MEDIA",
+    "room": "05.1 · háló, médiafal és tárolás",
+    "kind": "bed",
+    "control": "controls/A811_BED1_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A811_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BED1_MEDIA_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_BED1_MEDIA_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "3d51cc5bfc157f4e236805c497cb25193923aa3f5f27f2cc1857d1ef90774d4a",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3275-957.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
+    ],
+    "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_HERO",
+    "room": "05.2–3 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A811_MASTER_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A811_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_MASTER_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
+    "prompt_sha256": "beaaebc1d99afdbd11ac9f7306fbdd732d391f009cba216caf92842b1750f145",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_HERO",
+    "room": "05.2–3 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A811_MASTER_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A811_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_MASTER_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
+    "prompt_sha256": "a3de310755c5938ceb97c3cea6f229f2e4dda81eea93983e250ee94707ab22e6",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_MEDIA",
+    "room": "05.2–3 · háló, médiafal",
+    "kind": "bed",
+    "control": "controls/A811_MASTER_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A811_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_MEDIA_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_MASTER_MEDIA_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "ee33af7147463e3d532d2aafbad2eb3c8f6208df903f8b8377d3f80bc41679a5",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_MEDIA",
+    "room": "05.2–3 · háló, médiafal",
+    "kind": "bed",
+    "control": "controls/A811_MASTER_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A811_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_MEDIA_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_MASTER_MEDIA_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "d4f176b80a8972ea6ce2b6f4584b1e6824c6999688bec8caf590d4a1c22a3ee8",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3284-948.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
+    ],
+    "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_GARD_HERO",
+    "room": "05.2–3 · gardrób teljes tér",
+    "kind": "wardrobe",
+    "control": "controls/A811_MASTER_GARD_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_GARD_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_GARD_HERO camera and crop of control A811_MASTER_GARD_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_GARD_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.prompt.txt",
+    "prompt_sha256": "d00597290eb521ed7e810c079024741fac312e47bc91f4c2d216640cf4cf2849",
+    "reference_ids": [
+      "LF06",
+      "LF11"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "MASTER_GARD_HERO",
+    "room": "05.2–3 · gardrób teljes tér",
+    "kind": "wardrobe",
+    "control": "controls/A811_MASTER_GARD_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_GARD_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_GARD_HERO camera and crop of control A811_MASTER_GARD_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_MASTER_GARD_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_MASTER_GARD_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_MASTER_GARD_HERO_v1.prompt.txt",
+    "prompt_sha256": "bc65f84f01f1b026be42ebeff5e287eacff2412c0dfa38f7fcd435e8b9a2ec1c",
+    "reference_ids": [
+      "LF15",
+      "LF12"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "LIVING_HERO",
+    "room": "Nappali · médiafal és berendezés",
+    "kind": "living",
+    "control": "controls/A811_LIVING_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A811_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_LIVING_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_LIVING_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
+    "prompt_sha256": "e315eb31a47e3f5cfd79729c792f92fb2f5be7dfb7b5352744e525db0a767ae9",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_4122-110.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
+    ],
+    "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_HERO",
+    "room": "Nappali · médiafal és berendezés",
+    "kind": "living",
+    "control": "controls/A811_LIVING_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A811_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_LIVING_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_LIVING_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
+    "prompt_sha256": "0d7bb14b71bd38e117c3268c468d4e33c309db6265eca6d914b7938dd2d250d6",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_4122-110.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
+    ],
+    "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_WINDOW",
+    "room": "Nappali · ablak és ülőgarnitúra",
+    "kind": "living",
+    "control": "controls/A811_LIVING_WINDOW.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_WINDOW.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A811_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_LIVING_WINDOW_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_LIVING_WINDOW_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
+    "prompt_sha256": "baa793916bf8ad398c9102aa8a3b20f4d1b3b6a7c489c4c6144badb3ded8222e",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3449-783.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
+    ],
+    "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_WINDOW",
+    "room": "Nappali · ablak és ülőgarnitúra",
+    "kind": "living",
+    "control": "controls/A811_LIVING_WINDOW.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_WINDOW.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A811_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_LIVING_WINDOW_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_LIVING_WINDOW_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
+    "prompt_sha256": "cc9cfd3ddd06df083eea6742c5edd114c7c8f3e43cbfac5fee783e3a0e1c02e9",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3449-783.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
+    ],
+    "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "KITCHEN_HERO",
+    "room": "Konyha és étkező",
+    "kind": "living",
+    "control": "controls/A811_KITCHEN_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_KITCHEN_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A811_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_KITCHEN_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_KITCHEN_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
+    "prompt_sha256": "c3e12b10006f8ea8a00d56d8b126b03502a578ff767adca084ffa08ea5b609cf",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_4148-084.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
+    ],
+    "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "KITCHEN_HERO",
+    "room": "Konyha és étkező",
+    "kind": "living",
+    "control": "controls/A811_KITCHEN_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_KITCHEN_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A811_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_KITCHEN_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_KITCHEN_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
+    "prompt_sha256": "37b799aa25bbed31a08d3baa06027c53bd599a812a6074b3c039bb0503e15d0c",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_4148-084.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
+    ],
+    "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "ENTRY_HERO",
+    "room": "Előszoba · tárolás és bejárat",
+    "kind": "living",
+    "control": "controls/A811_ENTRY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_ENTRY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A811_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_ENTRY_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_ENTRY_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
+    "prompt_sha256": "94f05e7733b38d8e8315c72b274096a29f887978772ed197b7d244448276be73",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_4145-087.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
+    ],
+    "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "ENTRY_HERO",
+    "room": "Előszoba · tárolás és bejárat",
+    "kind": "living",
+    "control": "controls/A811_ENTRY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_ENTRY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A811_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_ENTRY_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_ENTRY_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
+    "prompt_sha256": "99110b124227ce28b387928eac7707febee65cf6facf5f84969f8f0dd52edd6a",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_4145-087.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
+    ],
+    "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH1_HERO",
+    "room": "06.1 · fürdő teljes berendezés",
+    "kind": "bath",
+    "control": "controls/A811_BATH1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH1_HERO camera and crop of control A811_BATH1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH1_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_BATH1_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH1_HERO_v1.prompt.txt",
+    "prompt_sha256": "95efd6cf102ff39ab0648bd4c70727bb8ab5b7cb6d740e75fcea8e66edb5d8c2",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3309-923.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
+    ],
+    "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH1_HERO",
+    "room": "06.1 · fürdő teljes berendezés",
+    "kind": "bath",
+    "control": "controls/A811_BATH1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH1_HERO camera and crop of control A811_BATH1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH1_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_BATH1_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH1_HERO_v1.prompt.txt",
+    "prompt_sha256": "b5db073f30e7728bfc95481dedebe7f9b9209f45680799fc04ca62ee18059a35",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3309-923.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
+    ],
+    "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_HERO",
+    "room": "06.2 · fürdő mosdó és zuhany",
+    "kind": "bath",
+    "control": "controls/A811_BATH2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A811_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH2_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_BATH2_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
+    "prompt_sha256": "7beba0660e25744c08b57c0761f8d4bffc70d21830e4c4c1cd105f0cb38b839f",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_HERO",
+    "room": "06.2 · fürdő mosdó és zuhany",
+    "kind": "bath",
+    "control": "controls/A811_BATH2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A811_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH2_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_BATH2_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
+    "prompt_sha256": "b4bc7f8ae19fee4a52f804d92984335d9788e9ecefdec3b9201b8c41b6cd82ab",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "WC_HERO",
+    "room": "08 · vendégmosdó",
+    "kind": "bath",
+    "control": "controls/A811_WC_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_WC_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native WC_HERO camera and crop of control A811_WC_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_WC_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_WC_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_WC_HERO_v1.prompt.txt",
+    "prompt_sha256": "2a0f81dbdb1ed5b972432bbe73b75a9dd1010fa39c9f7dbd708864c4bb0ef7c3",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "WC_HERO",
+    "room": "08 · vendégmosdó",
+    "kind": "bath",
+    "control": "controls/A811_WC_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_WC_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native WC_HERO camera and crop of control A811_WC_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_WC_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_WC_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_WC_HERO_v1.prompt.txt",
+    "prompt_sha256": "9371315cc69cae6ebf5bb425b4ee18bdd6f05de15fc7a65cdbfe965421cabadf",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "UTILITY_HERO",
+    "room": "09 · háztartási helyiség",
+    "kind": "utility",
+    "control": "controls/A811_UTILITY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_UTILITY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A811_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_UTILITY_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_UTILITY_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
+    "prompt_sha256": "728114e4ef93d7e0b346771e12bae7cb29896b1a60cf2d94ebf075b3cb19fa48",
+    "reference_ids": [
+      "LF07",
+      "LF03"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "UTILITY_HERO",
+    "room": "09 · háztartási helyiség",
+    "kind": "utility",
+    "control": "controls/A811_UTILITY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_UTILITY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A811_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_UTILITY_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_UTILITY_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
+    "prompt_sha256": "0310184f76f374a17e0558ee4ce796e80d0a8091553035971fda333a367989e8",
+    "reference_ids": [
+      "LF07",
+      "LF10"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "HALL_HERO",
+    "room": "07 · közlekedő",
+    "kind": "hall",
+    "control": "controls/A811_HALL_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_HALL_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A811_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_HALL_HERO_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_HALL_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_HALL_HERO_v1.prompt.txt",
+    "prompt_sha256": "2bfded6866ee83b3689fc707fac6e6a48607ae398ff0d8eb7afaae23e87078e2",
+    "reference_ids": [
+      "LF07",
+      "LF03"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3335-897.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
+    ],
+    "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "HALL_HERO",
+    "room": "07 · közlekedő",
+    "kind": "hall",
+    "control": "controls/A811_HALL_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_HALL_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A811_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_HALL_HERO_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_HALL_HERO_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_HALL_HERO_v1.prompt.txt",
+    "prompt_sha256": "a026a0c432c486d843e89ace2ef95bcb6f149a55bb1dfc57a9497b17a2a5c1b8",
+    "reference_ids": [
+      "LF07",
+      "LF10"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3335-897.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
+    ],
+    "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_SHOWER",
+    "room": "06.2 · Zuhanyzó felé",
+    "kind": "bath",
+    "control": "controls/A811_BATH2_SHOWER.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_SHOWER.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A811_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH2_SHOWER_curated",
+    "variant": "A",
+    "image_id": "A811_S18A_LakeForestPlus_BATH2_SHOWER_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
+    "prompt_sha256": "18faa343b9bd2c17ae066ec513cad67ae18cdeaf19a93ff1d930a5951b7b3f17",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_SHOWER",
+    "room": "06.2 · Zuhanyzó felé",
+    "kind": "bath",
+    "control": "controls/A811_BATH2_SHOWER.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_SHOWER.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A811_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A811_S07_BATH2_SHOWER_curated",
+    "variant": "B",
+    "image_id": "A811_S18B_LakeForestPlus_BATH2_SHOWER_v1",
+    "apartment": "A811",
+    "style": "S18",
+    "prompt": "prompts/A811/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
+    "prompt_sha256": "406406eb16436df6d35039cc0da5eaa891477f1351a85a70d4bf21d41481bb03",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3320-912.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
+    ],
+    "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_HERO",
+    "room": "05.1 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_BED1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A812_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED1_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BED1_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BED1_HERO_v1.prompt.txt",
+    "prompt_sha256": "82463f4a946944978bb85c3a1b157dcd80a7ded429c370b1c5fe4d843f9ade8e",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3132-1100.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3132-1100.jpg"
+    ],
+    "control_sha256": "e42ae09348c10edcc64fb915a34910b4e53276d16695ca2a178442745a8d4eec",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_HERO",
+    "room": "05.1 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_BED1_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A812_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED1_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BED1_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BED1_HERO_v1.prompt.txt",
+    "prompt_sha256": "9337d1aeb817ef3b8bf8e10dcd778d103e098b256461382696a0413af9ab8503",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3132-1100.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3132-1100.jpg"
+    ],
+    "control_sha256": "e42ae09348c10edcc64fb915a34910b4e53276d16695ca2a178442745a8d4eec",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_MEDIA",
+    "room": "05.1 · háló, médiafal és tárolás",
+    "kind": "bed",
+    "control": "controls/A812_BED1_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A812_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED1_MEDIA_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BED1_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "764a68d93f6e6ffbe01172850a9871edb92365eff0926c518478ef3ac9c766d1",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3132-1100.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3132-1100.jpg"
+    ],
+    "control_sha256": "e2002ed5794cf7904d0d0fb54b4667bb94162937fc6b033fca2a34a330409ee8",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED1_MEDIA",
+    "room": "05.1 · háló, médiafal és tárolás",
+    "kind": "bed",
+    "control": "controls/A812_BED1_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A812_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED1_MEDIA_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BED1_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BED1_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "99cc359faabc6a41f31526a510cdc6fca3a85145116bd768afeedc51a90b8939",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3132-1100.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3132-1100.jpg"
+    ],
+    "control_sha256": "e2002ed5794cf7904d0d0fb54b4667bb94162937fc6b033fca2a34a330409ee8",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED2_HERO",
+    "room": "05.2 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_BED2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED2_HERO camera and crop of control A812_BED2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED2_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BED2_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BED2_HERO_v1.prompt.txt",
+    "prompt_sha256": "a850a41330528cd21c02eac24ef692046d06023b7eecb289203b291a2a767580",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3141-1091.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3141-1091.jpg"
+    ],
+    "control_sha256": "eeae9029347f96c4bd7e58e5a8e24a1ad2b445616c6acb6fb15a8cecd8615057",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED2_HERO",
+    "room": "05.2 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_BED2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED2_HERO camera and crop of control A812_BED2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED2_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BED2_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BED2_HERO_v1.prompt.txt",
+    "prompt_sha256": "e3c23db5efa902e4224373da132527cfee031c0d546fbce1f3d31e9b39286599",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3141-1091.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3141-1091.jpg"
+    ],
+    "control_sha256": "eeae9029347f96c4bd7e58e5a8e24a1ad2b445616c6acb6fb15a8cecd8615057",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED2_MEDIA",
+    "room": "05.2 · háló, médiafal",
+    "kind": "bed",
+    "control": "controls/A812_BED2_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED2_MEDIA camera and crop of control A812_BED2_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED2_MEDIA_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BED2_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "e1657478547f2c63f9736201ddee5a958094bd144b37851c5495d98a982bf6d8",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3141-1091.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3141-1091.jpg"
+    ],
+    "control_sha256": "f3367bb7fc74f49fec167289ca543fb736e0007efea1eb024a44606256a19aac",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BED2_MEDIA",
+    "room": "05.2 · háló, médiafal",
+    "kind": "bed",
+    "control": "controls/A812_BED2_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BED2_MEDIA camera and crop of control A812_BED2_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BED2_MEDIA_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BED2_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BED2_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "71e8a77435d1cd8044732ef4e36a9abcfc99fe57113298d78989e89c72f254ba",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3141-1091.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3141-1091.jpg"
+    ],
+    "control_sha256": "f3367bb7fc74f49fec167289ca543fb736e0007efea1eb024a44606256a19aac",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_HERO",
+    "room": "05.3 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_MASTER_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A812_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_MASTER_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_MASTER_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
+    "prompt_sha256": "c4370c377ee462bdf16dda438051b4185f56a6b041e573b1c9c2c971e1601680",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3170-1062.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3170-1062.jpg"
+    ],
+    "control_sha256": "fa3995e284962cbbad3c20e8a42062c79f77fd44939ff9c5913962fdf36c10c0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_HERO",
+    "room": "05.3 · háló, ágy és ablak",
+    "kind": "bed",
+    "control": "controls/A812_MASTER_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A812_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_MASTER_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_MASTER_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_MASTER_HERO_v1.prompt.txt",
+    "prompt_sha256": "282054e39e809523908dff5029d8abc62e54d4146719efcf5ead78c1f7d43f57",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3170-1062.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3170-1062.jpg"
+    ],
+    "control_sha256": "fa3995e284962cbbad3c20e8a42062c79f77fd44939ff9c5913962fdf36c10c0",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_MEDIA",
+    "room": "05.3 · háló, médiafal és gardróbkapcsolat",
+    "kind": "bed",
+    "control": "controls/A812_MASTER_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A812_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_MASTER_MEDIA_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_MASTER_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "d9e4cefe096bcb4d60e9e211b9fc80621f77f8f311f78cd936196e39059b0988",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3170-1062.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3170-1062.jpg"
+    ],
+    "control_sha256": "d4c6a27a77e9385340d72ef99da71199eb3806f6ed4c9d7132b317da1f40b9cb",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "MASTER_MEDIA",
+    "room": "05.3 · háló, médiafal és gardróbkapcsolat",
+    "kind": "bed",
+    "control": "controls/A812_MASTER_MEDIA.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_MEDIA.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A812_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_MASTER_MEDIA_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_MASTER_MEDIA_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_MASTER_MEDIA_v1.prompt.txt",
+    "prompt_sha256": "c2ef3917dc0e8c6d7059c9387feb3dcd423db9505d241b9769d44abe490a363e",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3170-1062.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3170-1062.jpg"
+    ],
+    "control_sha256": "d4c6a27a77e9385340d72ef99da71199eb3806f6ed4c9d7132b317da1f40b9cb",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "GARD3_HERO",
+    "room": "10.3 · gardrób és tükör",
+    "kind": "wardrobe",
+    "control": "controls/A812_GARD3_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_GARD3_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native GARD3_HERO camera and crop of control A812_GARD3_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_GARD3_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_GARD3_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_GARD3_HERO_v1.prompt.txt",
+    "prompt_sha256": "de1b5e628e116d0f5e1b20b1124611aac0fd550866d8200fd481b32b1b8cb45a",
+    "reference_ids": [
+      "LF06",
+      "LF11"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "af3cd14f06dd057aed9cb3b81ff5fa70fe2e8530b34e56f8c27563c7df72e529",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "GARD3_HERO",
+    "room": "10.3 · gardrób és tükör",
+    "kind": "wardrobe",
+    "control": "controls/A812_GARD3_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_GARD3_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native GARD3_HERO camera and crop of control A812_GARD3_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_GARD3_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_GARD3_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_GARD3_HERO_v1.prompt.txt",
+    "prompt_sha256": "6250cdfe5f5be420d4d90d7c584f75e5cbd65342343b24c5e0c51bdbc73f059f",
+    "reference_ids": [
+      "LF15",
+      "LF12"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "af3cd14f06dd057aed9cb3b81ff5fa70fe2e8530b34e56f8c27563c7df72e529",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "LIVING_HERO",
+    "room": "Nappali · médiafal és berendezés",
+    "kind": "living",
+    "control": "controls/A812_LIVING_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A812_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_LIVING_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_LIVING_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
+    "prompt_sha256": "bc84b1d368f9d7e7994c351f7694c0b6b251db8078fb6d77cbb57b4ce0e66456",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_3103-1129.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3103-1129.jpg"
+    ],
+    "control_sha256": "2147c623d716c7f7ded715e3399ff14cb0bbc665029824bf7d82aea75f13cc64",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_HERO",
+    "room": "Nappali · médiafal és berendezés",
+    "kind": "living",
+    "control": "controls/A812_LIVING_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A812_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_LIVING_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_LIVING_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_LIVING_HERO_v1.prompt.txt",
+    "prompt_sha256": "fad06dc582f5b00f1fade3ccb86e615e1a231c9e0324078103b080bea5bd29d3",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photos": [
+      [
+        "KZS_3103-1129.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3103-1129.jpg"
+    ],
+    "control_sha256": "2147c623d716c7f7ded715e3399ff14cb0bbc665029824bf7d82aea75f13cc64",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_WINDOW",
+    "room": "Nappali · ablak és ülőgarnitúra",
+    "kind": "living",
+    "control": "controls/A812_LIVING_WINDOW.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_WINDOW.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A812_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_LIVING_WINDOW_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_LIVING_WINDOW_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
+    "prompt_sha256": "e2d7ff2bd81b856bf932a93412e8dc90a0222ff314d978a5b405a7bd8e101cc9",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3065-1167.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3065-1167.jpg"
+    ],
+    "control_sha256": "7471051733beeaf427a964076ec0562dfccf3a71eddbc7a44ab398317d7f6d77",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "LIVING_WINDOW",
+    "room": "Nappali · ablak és ülőgarnitúra",
+    "kind": "living",
+    "control": "controls/A812_LIVING_WINDOW.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_WINDOW.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A812_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_LIVING_WINDOW_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_LIVING_WINDOW_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_LIVING_WINDOW_v1.prompt.txt",
+    "prompt_sha256": "31c34698e4c98c996615e1918a6534c37e8be822d92e8949bfd01b6cd6fa7136",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3065-1167.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3065-1167.jpg"
+    ],
+    "control_sha256": "7471051733beeaf427a964076ec0562dfccf3a71eddbc7a44ab398317d7f6d77",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "KITCHEN_HERO",
+    "room": "Konyha és étkező",
+    "kind": "living",
+    "control": "controls/A812_KITCHEN_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_KITCHEN_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A812_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_KITCHEN_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_KITCHEN_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
+    "prompt_sha256": "a94f4d7a531b587b79276b7a84f7f7fc06d10435deaba96019213c31fd56c42c",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3104-1128.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3104-1128.jpg"
+    ],
+    "control_sha256": "fe2072f7eb16ebbf7fd95937c4056264c68b6bc9760de990625800c86776f816",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "KITCHEN_HERO",
+    "room": "Konyha és étkező",
+    "kind": "living",
+    "control": "controls/A812_KITCHEN_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_KITCHEN_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A812_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_KITCHEN_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_KITCHEN_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_KITCHEN_HERO_v1.prompt.txt",
+    "prompt_sha256": "dcbb2d8ed9252f3114e3e185066d5a2766a51054aca869878330ce3b298b2ae3",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photos": [
+      [
+        "KZS_3104-1128.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3104-1128.jpg"
+    ],
+    "control_sha256": "fe2072f7eb16ebbf7fd95937c4056264c68b6bc9760de990625800c86776f816",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "ENTRY_HERO",
+    "room": "Előszoba · tárolás és bejárat",
+    "kind": "living",
+    "control": "controls/A812_ENTRY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_ENTRY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A812_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_ENTRY_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_ENTRY_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
+    "prompt_sha256": "7500b21c33b6d93f052cdab1d2b3fd4c559412e90005e789d2c42e8fb1dc57a6",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3104-1128.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3104-1128.jpg"
+    ],
+    "control_sha256": "edf3f601eb07309349c626ce5e6b6a44e85cdbda5b20e82756b62764fbfa8952",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "ENTRY_HERO",
+    "room": "Előszoba · tárolás és bejárat",
+    "kind": "living",
+    "control": "controls/A812_ENTRY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_ENTRY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A812_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_ENTRY_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_ENTRY_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_ENTRY_HERO_v1.prompt.txt",
+    "prompt_sha256": "5b89cddd76e29607dfa5ddf2bda5c69165f7994679c8604a222434b16a67d8e2",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3104-1128.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3104-1128.jpg"
+    ],
+    "control_sha256": "edf3f601eb07309349c626ce5e6b6a44e85cdbda5b20e82756b62764fbfa8952",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_HERO",
+    "room": "06.2 · fürdő teljes berendezés",
+    "kind": "bath",
+    "control": "controls/A812_BATH2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A812_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH2_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BATH2_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
+    "prompt_sha256": "71573343ccc0fc9febe94a8dc06538b49f190db7fd92804479306075cf7c67fa",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3215-1017.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3215-1017.jpg"
+    ],
+    "control_sha256": "211c1b7376c68d493718e3ee1230e686da291b9233ce0171912c0a54b95f5d4c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_HERO",
+    "room": "06.2 · fürdő teljes berendezés",
+    "kind": "bath",
+    "control": "controls/A812_BATH2_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A812_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH2_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BATH2_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BATH2_HERO_v1.prompt.txt",
+    "prompt_sha256": "efe0c63cd5b4b8cfea148622b005d6fc0949d46586c04a485c49d4b14b33102d",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3215-1017.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3215-1017.jpg"
+    ],
+    "control_sha256": "211c1b7376c68d493718e3ee1230e686da291b9233ce0171912c0a54b95f5d4c",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH08_HERO",
+    "room": "08/09 · kádas fürdő",
+    "kind": "bath",
+    "control": "controls/A812_BATH08_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH08_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH08_HERO camera and crop of control A812_BATH08_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH08_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BATH08_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BATH08_HERO_v1.prompt.txt",
+    "prompt_sha256": "0ddea4723e79eb0214c0aa34b77a67b3b2e608e641a3972abf47dfdae24e2bdd",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3266-966.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3266-966.jpg"
+    ],
+    "control_sha256": "0ab3a8e211e3ff19c9ad0a13f38691388fdf9b50b60b4f0df517fb33047a99ab",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH08_HERO",
+    "room": "08/09 · kádas fürdő",
+    "kind": "bath",
+    "control": "controls/A812_BATH08_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH08_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH08_HERO camera and crop of control A812_BATH08_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH08_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BATH08_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BATH08_HERO_v1.prompt.txt",
+    "prompt_sha256": "162941ac45c416b1b03fa46486bd1686fd9d66337bebf728cf3f2a3a2acdab38",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3266-966.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3266-966.jpg"
+    ],
+    "control_sha256": "0ab3a8e211e3ff19c9ad0a13f38691388fdf9b50b60b4f0df517fb33047a99ab",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "UTILITY_HERO",
+    "room": "06.1 · háztartási helyiség",
+    "kind": "utility",
+    "control": "controls/A812_UTILITY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_UTILITY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A812_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_UTILITY_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_UTILITY_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
+    "prompt_sha256": "0d5428661fcd61e4e7e607ad62ee88c8f4798b5121e721ef577cbf42356e3bde",
+    "reference_ids": [
+      "LF07",
+      "LF03"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "ac4018a7c60b2429e4aab785541eda4f6bd7fe73adc5288f5b6f39b02c832df6",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "UTILITY_HERO",
+    "room": "06.1 · háztartási helyiség",
+    "kind": "utility",
+    "control": "controls/A812_UTILITY_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_UTILITY_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A812_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_UTILITY_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_UTILITY_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_UTILITY_HERO_v1.prompt.txt",
+    "prompt_sha256": "615add5b443c172b3e2a5516669b023d8ee5b7bf8030615384baaf949dca0699",
+    "reference_ids": [
+      "LF07",
+      "LF10"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [],
+    "control_sha256": "ac4018a7c60b2429e4aab785541eda4f6bd7fe73adc5288f5b6f39b02c832df6",
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+  },
+  {
+    "camera": "HALL_HERO",
+    "room": "07 · közlekedő",
+    "kind": "hall",
+    "control": "controls/A812_HALL_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_HALL_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A812_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_HALL_HERO_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_HALL_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_HALL_HERO_v1.prompt.txt",
+    "prompt_sha256": "b8a9a7834fb1d65c1fea2253ebde1779399c70c5713107f9c0600b8525922dde",
+    "reference_ids": [
+      "LF07",
+      "LF03"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3162-1070.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3162-1070.jpg"
+    ],
+    "control_sha256": "4c576cb88cd42a7a725b8eecf0eb4a4c3d355f083bf44e1c4e557fc758aebecb",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "HALL_HERO",
+    "room": "07 · közlekedő",
+    "kind": "hall",
+    "control": "controls/A812_HALL_HERO.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_HALL_HERO.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A812_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_HALL_HERO_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_HALL_HERO_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_HALL_HERO_v1.prompt.txt",
+    "prompt_sha256": "b1087c75b7a9c3f8fcf003b4f2b8ee5cc9560949cf4140f03addd4eb5f2d1ca5",
+    "reference_ids": [
+      "LF07",
+      "LF10"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3162-1070.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3162-1070.jpg"
+    ],
+    "control_sha256": "4c576cb88cd42a7a725b8eecf0eb4a4c3d355f083bf44e1c4e557fc758aebecb",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_SHOWER",
+    "room": "06.2 · Zuhanyzó felé",
+    "kind": "bath",
+    "control": "controls/A812_BATH2_SHOWER.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_SHOWER.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A812_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH2_SHOWER_curated",
+    "variant": "A",
+    "image_id": "A812_S18A_LakeForestPlus_BATH2_SHOWER_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
+    "prompt_sha256": "ce9c31969116cbb0e92e59757171d7a15c200b707b144f62e58c6df33b8cf23f",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3215-1017.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3215-1017.jpg"
+    ],
+    "control_sha256": "b5661ca192d90ace40f2f483fae447773ad8e485436086ef7436a828c9a507cc",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "BATH2_SHOWER",
+    "room": "06.2 · Zuhanyzó felé",
+    "kind": "bath",
+    "control": "controls/A812_BATH2_SHOWER.png",
+    "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_SHOWER.png",
+    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A812_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+    "source_job": "A812_S07_BATH2_SHOWER_curated",
+    "variant": "B",
+    "image_id": "A812_S18B_LakeForestPlus_BATH2_SHOWER_v1",
+    "apartment": "A812",
+    "style": "S18",
+    "prompt": "prompts/A812/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1.prompt.txt",
+    "prompt_sha256": "4078e9a9b01ed9ee47fd5f7e2af67d87b9c8843bb3ad983c1a7e1a370883011d",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photos": [
+      [
+        "KZS_3215-1017.jpg",
+        "existing surface/window/panorama authority only; not this control camera"
+      ]
+    ],
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A812/KZS_3215-1017.jpg"
+    ],
+    "control_sha256": "b5661ca192d90ace40f2f483fae447773ad8e485436086ef7436a828c9a507cc",
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_12",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use Cam_12 v3, the level southeast-looking hero from the northwest corner, 22 mm at 1.60 m with the locked downward shift. The front of the sofa forms a modest foreground, approximately 16–23 percent of the image. Dining and the ML04 pendant lead into the kitchen; W03 and the existing grey 05.3 door sit beyond, W02 is the major designed wall and W07 returns at the right edge. The TV wall and terrace are behind the camera and remain outside this view.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "kitchen connection, csonk, floor and grey doors, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "dining-to-kitchen wall identity and controls, not camera"
+      ],
+      [
+        "KZS_3659-573.jpg",
+        "room proportions and floor continuity, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_12_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_12_v1.prompt.txt",
+    "prompt_sha256": "3e21cd333b893271eaa4c5fffccf01445f5ef40c80f41d6ba7bf656c83944f51",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_12",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use Cam_12 v3, the level southeast-looking hero from the northwest corner, 22 mm at 1.60 m with the locked downward shift. The front of the sofa forms a modest foreground, approximately 16–23 percent of the image. Dining and the ML04 pendant lead into the kitchen; W03 and the existing grey 05.3 door sit beyond, W02 is the major designed wall and W07 returns at the right edge. The TV wall and terrace are behind the camera and remain outside this view.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "kitchen connection, csonk, floor and grey doors, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "dining-to-kitchen wall identity and controls, not camera"
+      ],
+      [
+        "KZS_3659-573.jpg",
+        "room proportions and floor continuity, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_12_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_12_v1.prompt.txt",
+    "prompt_sha256": "8fbc6e86427882c8383be23eb86fcfd4ce7c40d5322d5653d3f0c926077946ac",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_02",
+    "room": "living_kitchen_dining",
+    "kind": "living",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use the fixed Cam_02 northwest-looking living-room view, 20 mm at 1.55 m. The west TV wall occupies the left, the seating island the middle, and the real terrace glazing, terrace and panorama the right. Only the western long edge of the dining setting enters the lower-right corner; the ML05 fitting may meet the upper frame edge. The television wall is the visual protagonist. Keep the architectural edges, floor–wall junction, terrace paving, railing and planted roof legible at mid-key exposure.",
+    "site_photos": [
+      [
+        "KZS_3659-573.jpg",
+        "living-room wall and glazing identity, not camera"
+      ],
+      [
+        "KZS_3695-537.jpg",
+        "actual floor, skirting and kitchen connection, not camera"
+      ],
+      [
+        "KZS_3726-506.jpg",
+        "terrace glazing and original level change, not camera"
+      ],
+      [
+        "KZS_3488-744.jpg",
+        "terrace paving, WPC steps and facade, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_02_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_02_v1.prompt.txt",
+    "prompt_sha256": "0572b4e9e229c85b5b0b2ffe23f81d3051c008506ed230314681ba863a6ca90a",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3726-506.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3488-744.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_02",
+    "room": "living_kitchen_dining",
+    "kind": "living",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use the fixed Cam_02 northwest-looking living-room view, 20 mm at 1.55 m. The west TV wall occupies the left, the seating island the middle, and the real terrace glazing, terrace and panorama the right. Only the western long edge of the dining setting enters the lower-right corner; the ML05 fitting may meet the upper frame edge. The television wall is the visual protagonist. Keep the architectural edges, floor–wall junction, terrace paving, railing and planted roof legible at mid-key exposure.",
+    "site_photos": [
+      [
+        "KZS_3659-573.jpg",
+        "living-room wall and glazing identity, not camera"
+      ],
+      [
+        "KZS_3695-537.jpg",
+        "actual floor, skirting and kitchen connection, not camera"
+      ],
+      [
+        "KZS_3726-506.jpg",
+        "terrace glazing and original level change, not camera"
+      ],
+      [
+        "KZS_3488-744.jpg",
+        "terrace paving, WPC steps and facade, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_02_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_02_v1.prompt.txt",
+    "prompt_sha256": "00ed8aaf4fbac86ff89d950e8edcd162184a0c3d90fca0af87a9115bfc9835d3",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3726-506.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3488-744.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_03",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_03 K1, level and looking south from the northeast side, 20 mm at 1.50 m with the locked downward shift. The kitchen is the subject: show the two working runs, their front grid, worktops and splashbacks, the D13 refrigerator tower and the southern tall-unit wall. Dining and its ML04 pendant enter the right foreground. The TV wall and terrace remain outside the frame; the composition is an exact galley study rather than a second living-room hero.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "actual kitchen csonk and wet-core door relationship, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "galley and dining context, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_03_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_03_v1.prompt.txt",
+    "prompt_sha256": "8258a2dfa2ac8e1685e72f7c2023bcddcb0c3795af858c14b7685e47be9a8017",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_03",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_03 K1, level and looking south from the northeast side, 20 mm at 1.50 m with the locked downward shift. The kitchen is the subject: show the two working runs, their front grid, worktops and splashbacks, the D13 refrigerator tower and the southern tall-unit wall. Dining and its ML04 pendant enter the right foreground. The TV wall and terrace remain outside the frame; the composition is an exact galley study rather than a second living-room hero.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "actual kitchen csonk and wet-core door relationship, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "galley and dining context, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_03_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_03_v1.prompt.txt",
+    "prompt_sha256": "a5c8017d953bd5b0d78bba73c78cd4b60021edff5118fd0bbe84769ce73c264b",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_04",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.",
+    "site_photos": [
+      [
+        "KZS_3741-491.jpg",
+        "north wardrobe niche, glazing and existing floor, not camera"
+      ],
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe wall and doorway, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields and actual panorama, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_04_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_04_v1.prompt.txt",
+    "prompt_sha256": "79b1972de9d3d2ab26b44b2c5ba29e2a00a9373bd2ebbf2702a88dc592afcfd6",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_04",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.",
+    "site_photos": [
+      [
+        "KZS_3741-491.jpg",
+        "north wardrobe niche, glazing and existing floor, not camera"
+      ],
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe wall and doorway, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields and actual panorama, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_04_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_04_v1.prompt.txt",
+    "prompt_sha256": "cdc24ba919731c4345510c247937df81113cdbdbf534a68538107e50f7c7f811",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_11c",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "01_image1_A902_Cam11c_master_panorama_semleges_blender.png (named in pinned render prompt; binary path must be resolved)",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use the separately owner-approved Cam_11c, 20 mm at seated eye height 1.20 m, from the north half of the bed near the headboard looking west and slightly southwest. Keep the approved 16:10 frame with horizon at 50 percent. From left to right: south wardrobe approximately 0–24 percent, white pier 24–32 percent, three glazing fields 32–92 percent, right white pier 92–100 percent. The opening sash occupies approximately 32–44 percent, middle field 44–58 percent and broad fixed field 58–92 percent. The north wardrobe, headboard and room door are outside the frame. The bed foot remains low in the foreground and the balcony is approximately 15 cm lower. Use the approved Blender camera reference, not a renamed professional photograph.",
+    "site_photos": [
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe strip and floor, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields, balcony and real panorama, not camera"
+      ],
+      [
+        "KZS_3741-491.jpg",
+        "opposite wall context only; do not bring north wardrobe into frame"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_11c_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_11c_v1.prompt.txt",
+    "prompt_sha256": "6c008b81599152843589b43b39b1c123bba89e8aff3d09555cf6edabab128435",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_11c",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "01_image1_A902_Cam11c_master_panorama_semleges_blender.png (named in pinned render prompt; binary path must be resolved)",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use the separately owner-approved Cam_11c, 20 mm at seated eye height 1.20 m, from the north half of the bed near the headboard looking west and slightly southwest. Keep the approved 16:10 frame with horizon at 50 percent. From left to right: south wardrobe approximately 0–24 percent, white pier 24–32 percent, three glazing fields 32–92 percent, right white pier 92–100 percent. The opening sash occupies approximately 32–44 percent, middle field 44–58 percent and broad fixed field 58–92 percent. The north wardrobe, headboard and room door are outside the frame. The bed foot remains low in the foreground and the balcony is approximately 15 cm lower. Use the approved Blender camera reference, not a renamed professional photograph.",
+    "site_photos": [
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe strip and floor, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields, balcony and real panorama, not camera"
+      ],
+      [
+        "KZS_3741-491.jpg",
+        "opposite wall context only; do not bring north wardrobe into frame"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_11c_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_11c_v1.prompt.txt",
+    "prompt_sha256": "973ae3aec72a63bce24020335216535b1f68936e48921fc6260dee7f0c1da88c",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_10",
+    "room": "06.2",
+    "kind": "bath",
+    "control": "05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md (camera block; approved neutral image must be resolved)",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_10 from the bathroom 06.2 doorway looking east, 16 mm at 1.50 m. Keep the real L-shaped room, the walk-in shower along the left/north side, the basin on the far wall and the shaft projection at the right. The WC niche lies behind the right frame edge and is not pulled into view for completeness. The room is windowless; this photograph is lit exclusively by the existing ceiling and above-basin points.",
+    "site_photos": [
+      [
+        "KZS_3598-634.jpg",
+        "actual A-902 bathroom06.2 tile, basin, shower and shaft; not a new camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_10_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_10_v1.prompt.txt",
+    "prompt_sha256": "d268c868503fbc2dee7fabeee301f65226d07c8a14c84e95fa9500379c873380",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3598-634.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  },
+  {
+    "camera": "Cam_10",
+    "room": "06.2",
+    "kind": "bath",
+    "control": "05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md (camera block; approved neutral image must be resolved)",
+    "camera_status": "INHERITED_CAMERA_REFERENCE_ASSEMBLY_PENDING",
+    "camera_text": "Use fixed Cam_10 from the bathroom 06.2 doorway looking east, 16 mm at 1.50 m. Keep the real L-shaped room, the walk-in shower along the left/north side, the basin on the far wall and the shaft projection at the right. The WC niche lies behind the right frame edge and is not pulled into view for completeness. The room is windowless; this photograph is lit exclusively by the existing ceiling and above-basin points.",
+    "site_photos": [
+      [
+        "KZS_3598-634.jpg",
+        "actual A-902 bathroom06.2 tile, basin, shower and shaft; not a new camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_10_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_10_v1.prompt.txt",
+    "prompt_sha256": "216728368b72c3a51ca3433cfc05abbf6d17fc5db67b3975b486605301e1a763",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "NOT_GENERATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3598-634.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+  }
+]

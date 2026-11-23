@@ -3,17 +3,32 @@
   "name": "Lake Forest Plus",
   "date": "2026-11-23",
   "branch": "competition/s18-lake-forest-plus-20261123",
-  "checkpoint": "CP_A811",
-  "status": "concept_packages_in_progress",
+  "checkpoint": "CP3_CONTENT",
+  "status": "COMPLETE_CONCEPT_AB",
   "apartments": {
     "A811": {
       "status": "COMPLETE_CONCEPT",
       "prompt_count": 30,
       "manifest": "A811/PROMPT_MANIFEST.json"
     },
-    "A812": "pending",
-    "A902": "pending"
+    "A812": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 32,
+      "manifest": "A812/PROMPT_MANIFEST.json"
+    },
+    "A902": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 12,
+      "manifest": "A902/PROMPT_MANIFEST.json"
+    }
   },
   "reference_registry": "sources/ORIGINAL_REFERENCES.json",
-  "images_generated": 0
+  "images_generated": 0,
+  "variants": [
+    "S18A",
+    "S18B"
+  ],
+  "prompt_count": 74,
+  "all_prompts": "30_ALL_PROMPTS.json",
+  "resume_rule": "Use image_id and prompt_sha256; do not regenerate completed text. Images have not been generated. Resolve material/product identity and image-input gates before production."
 }
