@@ -23,12 +23,16 @@
     }
   },
   "reference_registry": "sources/ORIGINAL_REFERENCES.json",
-  "images_generated": 0,
+  "images_generated": 16,
   "variants": [
     "S18A",
     "S18B"
   ],
   "prompt_count": 74,
   "all_prompts": "30_ALL_PROMPTS.json",
-  "resume_rule": "Use image_id and prompt_sha256; do not regenerate completed text. Images have not been generated. Resolve material/product identity and image-input gates before production."
+  "resume_rule": "Do not regenerate completed text or completed images. A902 has 12 base A/B views plus 1 daytime Cam02. Continue A811/A812 full dressing; 3 early drafts are not final. Read renders/GENERATION_MANIFEST.json and 92_RENDER_STATUS.md. All images remain conceptual, geometry/electrical/material validation pending.",
+  "A902_images_generated": 13,
+  "preliminary_A811_A812_images": 3,
+  "generation_manifest": "renders/GENERATION_MANIFEST.json",
+  "render_gallery": "renders/00_A902_KEPES_ATTEKINTO.html"
 }
