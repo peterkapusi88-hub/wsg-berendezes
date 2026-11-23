@@ -3,10 +3,14 @@
   "name": "Lake Forest Plus",
   "date": "2026-11-23",
   "branch": "competition/s18-lake-forest-plus-20261123",
-  "checkpoint": "CP0",
-  "status": "source_lock_started",
+  "checkpoint": "CP_A811",
+  "status": "concept_packages_in_progress",
   "apartments": {
-    "A811": "pending",
+    "A811": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 30,
+      "manifest": "A811/PROMPT_MANIFEST.json"
+    },
     "A812": "pending",
     "A902": "pending"
   },
