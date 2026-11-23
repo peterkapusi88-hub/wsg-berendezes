@@ -14,7 +14,9 @@ S18A: az eredeti A-tervek barna kő/erezetes fa változata. S18B: az eredeti B-t
 
 Az A902 Cam_12/02/03/04/11c/10 azonosítók megmaradtak. Az A811/A812 saját R9 nézetei nem lettek A902 kamerákra átnevezve. A meglévő padlót, alaprajzot, panorámát és villamos korlátokat a lakásonkénti utasítások rögzítik.
 
-**Kész:** kreatív anyag- és formakiosztás, két változat lakásadaptációja, promptok, forrásjegyzék, világítási ellenőrzőlista, költségkeret-felosztás. **Új képek:** 13 A902 koncepciókép (6 nézet × A/B + világos nappali); lásd [képes galéria](renders/00_A902_KEPES_ATTEKINTO.html). Három korai A811/A812 próba külön mentve, nem végleges sorozat. Termékazonosítás, ajánlatos árazás és helyszíni/Blender végvalidáció még nem történt. A gyökér áttekintő képei továbbra is eredeti villa-referenciák.
+**Elkészült: 75 koncepciókép — A902: 13 (12 A/B + világos nappali), A811: 30, A812: 32.** [Mindhárom lakás képes galériája](renders/00_TELJES_KEPES_ATTEKINTO.html). A galériákhoz az eredeti mintaképek és a tényleges generálóutasítások is kapcsolódnak. A 812-es kanapé fő ülőiránya a TV felé néz, az étkező felőli rövid visszafordulás alacsony; a javítás mindkét változatban szerepel. A korábbi hibás képek archiváltak, nem részei a 75 aktuális képnek.
+
+Kész a kreatív anyag- és formakiosztás, két változat lakásadaptációja, 74 alapprompt, világos nappali kiegészítés, forrásjegyzék, világítási ellenőrzőlista és költségkeret-felosztás. Termékazonosítás, ajánlatos árazás és helyszíni/Blender végvalidáció még nem történt. A gyökér áttekintő képei eredeti villa-referenciák.
 
 Az eredeti gyártó/dekor/termékmodell ismeretlen; a látványterv nem bizonyítja a természetes kő, kerámia, kompozit vagy dekorlap összetételét. Az online Claude artifact belső tartalmát nem sikerült kiolvasni, ezért annak verzióegyezése a helyi 2024.04.20-i eredeti csomaggal nyitott. Ezt a korlátot nem helyettesítettük kitalált anyagkóddal.
 

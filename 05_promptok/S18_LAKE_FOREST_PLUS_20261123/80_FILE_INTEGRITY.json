@@ -14,8 +14,8 @@
     },
     {
       "path": "00_README.md",
-      "bytes": 2373,
-      "sha256": "0a4e42ae3b0f65ff2721a299e69e2d720679c4f2bdc8f62f5e2f94c8224f904b"
+      "bytes": 2687,
+      "sha256": "93e01a4ba6d3ef16a342182920dd23d1736758ae3f3abab9712b32ec61190d62"
     },
     {
       "path": "10_S18_ANYAG_ES_FORMAZAR.md",
@@ -44,8 +44,8 @@
     },
     {
       "path": "60_HANDOFF.md",
-      "bytes": 3395,
-      "sha256": "e7feba21ae155c80e4e213373651ba03a74c5b4ad9abe5a543755bc9984f221c"
+      "bytes": 2913,
+      "sha256": "e46266d31c239b641d6090b69c0259427842838d867348fa45123e51c2482b09"
     },
     {
       "path": "70_QA.json",
@@ -59,18 +59,18 @@
     },
     {
       "path": "90_CHECKPOINT_NAPLO.md",
-      "bytes": 1216,
-      "sha256": "48eab1ae146e8e82f5476356de862aea425378c4090c70b296ba11d6915efbbb"
+      "bytes": 1697,
+      "sha256": "a4defb38a45d076c6fee845665a1934021bb40961a0ac009a44b1aae9eabf62d"
     },
     {
       "path": "92_RENDER_STATUS.md",
-      "bytes": 969,
-      "sha256": "c16aee48a9f21bf1664509e38328ed9ebb8adec5d4893b09b0d86e1727d60418"
+      "bytes": 970,
+      "sha256": "310a36a8826847068d435f8220457ecf9e80638aeca5d06f1520d80200cd7202"
     },
     {
       "path": "A811/PROMPT_MANIFEST.json",
       "bytes": 52543,
-      "sha256": "e786bec09785262d6efd3690479de4cb713f78c53311d85c6f3d45b7a403ad36"
+      "sha256": "582c938bf1ca68d195e7d253d16b1094382ca14b1399ef7251995913e5160400"
     },
     {
       "path": "A811/STILUSTERV.md",
@@ -79,8 +79,8 @@
     },
     {
       "path": "A812/PROMPT_MANIFEST.json",
-      "bytes": 50377,
-      "sha256": "554abdcac3b0b81aaf8fcedbf833d349ecc1635ed39315999efef665b61e9ba4"
+      "bytes": 56607,
+      "sha256": "9761a9b7160e550e1b8273f113ef25db1c986a74fcbed2de099446d8b83ffa7b"
     },
     {
       "path": "A812/STILUSTERV.md",
@@ -99,8 +99,8 @@
     },
     {
       "path": "MANIFEST.json",
-      "bytes": 1423,
-      "sha256": "147f0e7c01af51c5235c84407d930d1f2b8fa31477bc1eda60cbf5d4638d1dfd"
+      "bytes": 1425,
+      "sha256": "1f71855908e7dc87ce9b98b2fb4276b4b734e771ee60d98462284cfce91dc473"
     },
     {
       "path": "controls/A811_BATH1_HERO.png",
@@ -709,13 +709,13 @@
     },
     {
       "path": "renders/00_A811_KEPES_ATTEKINTO.html",
-      "bytes": 270510,
-      "sha256": "7347d23d6f4927d0ae62c713a8b8b201e50104a7c68f8ea726700c52381b1a71"
+      "bytes": 241202,
+      "sha256": "a2934385696580dbc32b716e7a1c3c7bdfa27df7d80e6cbc748053a9f137955c"
     },
     {
       "path": "renders/00_A812_KEPES_ATTEKINTO.html",
-      "bytes": 1635,
-      "sha256": "6795da783d77d8e9cef225ca6d1c40629a733fdad86511ad84c2581365d9c9e0"
+      "bytes": 312286,
+      "sha256": "ed05ee1709ef81356eb642e1e99e112383d2467af1b306797f2e6ef02318c3bc"
     },
     {
       "path": "renders/00_A902_KEPES_ATTEKINTO.html",
@@ -724,8 +724,8 @@
     },
     {
       "path": "renders/00_TELJES_KEPES_ATTEKINTO.html",
-      "bytes": 1904,
-      "sha256": "e1dd61ce5e79a8aaecaee4388235e14c0cae91b35e66c7bb2ca08fb47110cf47"
+      "bytes": 2126,
+      "sha256": "47ae01e0f7d43a184193443dbf94acd52d990ba713cf4f3e7a2119105f6e1f1c"
     },
     {
       "path": "renders/811_812_RENDER_QUEUE.json",
@@ -778,6 +778,11 @@
       "sha256": "f25911d243a9f0ca6497dbe3d62614f2dc1bb1bffc4825ccd8d6600acb841c16"
     },
     {
+      "path": "renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.correction.json",
+      "bytes": 1627,
+      "sha256": "430ce50ae7b6e260872c19124e2c6744ea56ecde66681c9fd71dce785f5d6cf2"
+    },
+    {
       "path": "renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.generation.executed.txt",
       "bytes": 10827,
       "sha256": "60a1443e600431ba65fd0e8593e1c6dc4948d5bea1c1606c422327e39b1adc4b"
@@ -789,6 +794,11 @@
     },
     {
       "path": "renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+      "bytes": 2248976,
+      "sha256": "9d575f1e3b9c8057ffe53ebf8656e44505e3d7b2520449f2213084ac33fd7c2a"
+    },
+    {
+      "path": "renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1_superseded_1.png",
       "bytes": 2492097,
       "sha256": "3863c0dc9066e98e81e3c9dcedb34d3f1c439fa068496651a0ffbbb1b344d602"
     },
@@ -1028,6 +1038,11 @@
       "sha256": "00d93f9f840633e5ca680e3e182e0f0eaa5f7f0793384eda2cb046367c286d47"
     },
     {
+      "path": "renders/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.correction.json",
+      "bytes": 1627,
+      "sha256": "0d0ec7eef5824539eec0cc175cf10f3ba6f52d0e3f00b87dd3ff91114d97990d"
+    },
+    {
       "path": "renders/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.generation.executed.txt",
       "bytes": 11229,
       "sha256": "c0f022315bb86f3057ea8997219510f30621ba008ac3dca637ea6f28ab07c070"
@@ -1039,6 +1054,11 @@
     },
     {
       "path": "renders/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.png",
+      "bytes": 2183830,
+      "sha256": "426feebc4b605fb3a85ebd40b306fb103d964e290774182174729e5c702c792f"
+    },
+    {
+      "path": "renders/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1_superseded_1.png",
       "bytes": 2343141,
       "sha256": "b133cdeefac19bec5f01a897397f697f5e758ec9b4ac2924a4e04296dfb45e9d"
     },
@@ -1143,6 +1163,11 @@
       "sha256": "d5656498ea3f5670378d29e51f48a1062a3961f190be70840b75cb80655934f1"
     },
     {
+      "path": "renders/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.correction.json",
+      "bytes": 928,
+      "sha256": "a8666335ab740a11d14d805a0bec78c98f03446da14fe8d24484bd96a0d31ef0"
+    },
+    {
       "path": "renders/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.generation.executed.txt",
       "bytes": 9493,
       "sha256": "8bfd64819a071aca3fc5889930e1e45c5a1726b889634f91c582d59dab6d847b"
@@ -1154,6 +1179,11 @@
     },
     {
       "path": "renders/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.png",
+      "bytes": 2385505,
+      "sha256": "786f54a90d6eb22760a32ff7810176e35fc56b89516b2b4eae863f8c29d2848e"
+    },
+    {
+      "path": "renders/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1_superseded_1.png",
       "bytes": 2547991,
       "sha256": "abb7343b0c6b39d4b10f8fff5c37f8b5d59c34f9068f6cec7ac3d0e1e439a605"
     },
@@ -1256,6 +1286,536 @@
       "path": "renders/A812_S18A_LIVING_HERO_draft_v1.png",
       "bytes": 2490404,
       "sha256": "d34b55c830148307d161aecdaa9be78d54807fdc6dbff24863a2ca184e4386d2"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.generation.executed.txt",
+      "bytes": 10358,
+      "sha256": "50694029bb37c5c7f4fdf9b0b4ea46012b09c9d1530e42754d21bb82d0ef8b84"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.generation.json",
+      "bytes": 11161,
+      "sha256": "3bf43a5977ce2606393c99ab44e41569e00d169590f76dad06fe6ebcdba16c14"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+      "bytes": 2137561,
+      "sha256": "55533018c39dabc4b7f560bec4755cd64048dda82069163ea70be67f1e921493"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.generation.executed.txt",
+      "bytes": 11169,
+      "sha256": "257a9cb85ba24a92e93dd1fd277dae58a57e53d14f55838b5be1283c511e834c"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.generation.json",
+      "bytes": 11968,
+      "sha256": "40372a4455ff6b0d1fcf5fa1c2376da1d268028f872583f0a2a04c38340c5c27"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+      "bytes": 2277058,
+      "sha256": "8976d47a020b08c7870ef6611951da4d9f31798a6b2acfea7731096450441677"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.correction.json",
+      "bytes": 1541,
+      "sha256": "ca907f69f9a279b21369448495bd69df926829685bec21de74951b4870900ed3"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.generation.executed.txt",
+      "bytes": 11181,
+      "sha256": "0224987d3aa3d1531074530344175a5f4bd716d5addde0dcbec3e55d5634852c"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.generation.json",
+      "bytes": 11988,
+      "sha256": "ca1f17d3f1739e32c935dc3f1b26711996d3acf669386eb1d7633c6fc85a8185"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+      "bytes": 2071219,
+      "sha256": "90525728b0deb9ef521b2ff69327301f64575dab91ac155a4701e72cf6e9b8cf"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1_superseded_1.png",
+      "bytes": 2219383,
+      "sha256": "3524700f20bb0089759ae9637d4da9e468df9e1254fcfa86591f0cae349b9f45"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.generation.executed.txt",
+      "bytes": 10048,
+      "sha256": "15b65a7176be4b108b6999c2f122e7f9b478a688b87a60b4ad5cc94893a7e565"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.generation.json",
+      "bytes": 10963,
+      "sha256": "f974d6972dd89ec284860bb68f4763ff3748faacf5d2e9cd6d07c9a6f8e01be3"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+      "bytes": 2641110,
+      "sha256": "50e740b396a2b96c09609341b2ab3b5a758c3ca5de9b286052f33ba2d1efb83d"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.generation.executed.txt",
+      "bytes": 10396,
+      "sha256": "e19a2338b6e58754157ed69734a44c1edaf60da888b1f020eb0aa7f7a3003451"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.generation.json",
+      "bytes": 11317,
+      "sha256": "d97b84d92df919cd9fa29f750d4d615f0a5947e0f329473277d6322d3dc9a4a6"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+      "bytes": 2468432,
+      "sha256": "723ea95b548bf5dc185ab3bbac5eec3b59919910fdbc308a6efecf53b233ab10"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.generation.executed.txt",
+      "bytes": 10048,
+      "sha256": "399b25b77ec3c5f0404858f67e06b797bf49f62efb6046d727d59116975e0698"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.generation.json",
+      "bytes": 10963,
+      "sha256": "893a849198690ab349f53e463970a67b3983b8a978e4113e0ec29e61aedca31e"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+      "bytes": 2665112,
+      "sha256": "5b30e8993dd69de22eae913b5fc295e1f1b21144e80c9c4c9c884cda081247d7"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.generation.executed.txt",
+      "bytes": 10396,
+      "sha256": "035a7b1293b8a37dee1b46f32d736836f65ab06630f25ffd92c3b4a940f47f5a"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.generation.json",
+      "bytes": 11317,
+      "sha256": "61a49328c082784aaba79d1238e58fc6e3d6330161127240ec52d712952d90d0"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+      "bytes": 2574416,
+      "sha256": "1e3e7fb694e43dd5171d4b038d9dc84b7fa6958cf1b1740326820baba67d0bd5"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.generation.executed.txt",
+      "bytes": 9606,
+      "sha256": "f2c7c60b70c72b83106c7152423dbfadfc9acc07f9745ca8c89c1cc28a7da3c4"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.generation.json",
+      "bytes": 10403,
+      "sha256": "d76d076cc96d663d235b22d8520e89db4a80d5818698ae89ece8048bf64804ce"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+      "bytes": 2996778,
+      "sha256": "dd68f13563f0a15eedfeb1f9d40d0d72324a161fd8c3c3156823a5a614140dfb"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.generation.executed.txt",
+      "bytes": 9261,
+      "sha256": "ba14d7b9f684bf3ea2f0b2335b17d8f33f90bc4a0d89a3b8eab21b95f280e44c"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.generation.json",
+      "bytes": 10180,
+      "sha256": "5bc48676a33caf5c84a3cf6f1fddf79bb35e248ea16b04bf462793a52135b81b"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+      "bytes": 2736082,
+      "sha256": "988f307a3f40035eb7257233bf42597b35be28c7e0e2c1cae5ec8f7be32fe702"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.generation.executed.txt",
+      "bytes": 9540,
+      "sha256": "e363530c9767e979a764bc7207cac8f32daa8e2f151b40c04f823188221630e0"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.generation.json",
+      "bytes": 10455,
+      "sha256": "00f24035d07f67445bd70831870da3032ab75973aa272b4c7dc1a0298471703b"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+      "bytes": 2140550,
+      "sha256": "2ae4c2a99f0bd3cb5c342206d4d1edda5fe9544c7b41fc11ce47b700ec85153f"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.generation.executed.txt",
+      "bytes": 10712,
+      "sha256": "c12180d8952f05cafa35464830fd1a848617467cdc96b7d3d36c3ce85772acee"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.generation.json",
+      "bytes": 11894,
+      "sha256": "1453e39d245a8dd88b1cc2d40224d7b6e8b5acc784d5e2c4fe46aa88908d1339"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+      "bytes": 2657341,
+      "sha256": "c2f5a781577dfe863e89fae2ec7c8eddae1442739cfefd3f06131c926f0f15cc"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.correction.json",
+      "bytes": 3667,
+      "sha256": "9e7223251876075ea39c5f40fdde81595d086d378b0b54f428126a5f80c66e70"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.generation.executed.txt",
+      "bytes": 10156,
+      "sha256": "79b1a0afcc41ab798dd1020266d250412b82a6615d05500e5472b1a8de14ee30"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.generation.json",
+      "bytes": 11079,
+      "sha256": "4f5e5e8a399a1d9aedaa0865d2643b045d5376cf33ee78827f9403e1f19ba39a"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+      "bytes": 2235359,
+      "sha256": "4c2fe9815b86b2640fd5e85986a99aadafd6b96ebec843c5b8eec187c20cddb9"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1_superseded.png",
+      "bytes": 2614502,
+      "sha256": "f6dbfa2c0f99e52c165aacc74d13ead1ce25fc066709859d33abeef62d29d9a5"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1_superseded_1.png",
+      "bytes": 2417529,
+      "sha256": "a4b088b5c8c94669c535d99eaf8344b2448b8a7733e3c7bfbf1fe0e804965922"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.generation.executed.txt",
+      "bytes": 10918,
+      "sha256": "14f9c7acce5c0f17f20d4edd8cc3c236f3c662d176ca3aa7af42e93dd4b8fe22"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.generation.json",
+      "bytes": 11983,
+      "sha256": "23565dd8891f5edbb2c43b0e9731552d168955db288e7ae0e3921e67bbe48cc4"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+      "bytes": 2612239,
+      "sha256": "8b8cac4639616f3925c4f73aeb3695b0faf1628a38e8a56fb7daa93bc8cb031e"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.generation.executed.txt",
+      "bytes": 10060,
+      "sha256": "b68d0e3b6ce827a87be50314ab8c2d96d796005e8e77fd925fcf607e7b5951f1"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.generation.json",
+      "bytes": 10983,
+      "sha256": "606fde4e57e7d21e31eb2a14aeec40f90b95f90ca586f47b490b08b95308e4f0"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+      "bytes": 2929853,
+      "sha256": "2343c735af2916bc8866485638216b967e99d429d00409636fe8eb4bf700748d"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.generation.executed.txt",
+      "bytes": 10408,
+      "sha256": "66365ddb910cf376fd3ecb8b66f1b9ccfe038c05a384b13c248002fe1813a4ef"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.generation.json",
+      "bytes": 11337,
+      "sha256": "888d9375ebe948c318d65c46d86f7f40b57638ccaaf81498e1a21bcc11bbb2dc"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+      "bytes": 2680926,
+      "sha256": "9a77b222cd53787bfc1a6c76c213edf43e6ccdbc9e98f92fc54967fc380c32ec"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.generation.executed.txt",
+      "bytes": 9300,
+      "sha256": "92a231732f133fa8426947b05a863f7c69e67264666a28fb580bed6499ecc051"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.generation.json",
+      "bytes": 10227,
+      "sha256": "e077381dd2bf0f6dbfe78ac42523189d8a3de787fb13dd0c51ec8d7f3682e7bb"
+    },
+    {
+      "path": "renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+      "bytes": 2307240,
+      "sha256": "37e3052a921d1bfeb95fb24310d3dee0ba897af83e9c3ae735c2dc74a2eeba8c"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH08_HERO_v1.generation.executed.txt",
+      "bytes": 10760,
+      "sha256": "4400ff27f8443ab8f1dbd6222533c3ca362cde9896d215312764bf182ab5a270"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH08_HERO_v1.generation.json",
+      "bytes": 11563,
+      "sha256": "2bef23aa4cdbd3cde851f693be1c0d53b21ab31cf893993694a4a3c44d29e879"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH08_HERO_v1.png",
+      "bytes": 2030202,
+      "sha256": "799f06dbfa4b3a8e8abcccad7899416618352b1cf1714058d319bea9a48c9cab"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_HERO_v1.generation.executed.txt",
+      "bytes": 11571,
+      "sha256": "752b569dc1c18ca07564da1177aeaad48dd775fb82e9050032197ac634f5946b"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_HERO_v1.generation.json",
+      "bytes": 12370,
+      "sha256": "c3028b314e9cfe3f988fadb4d570bc7854967490e3bafc63ee0bba1ae62a7c34"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_HERO_v1.png",
+      "bytes": 2224976,
+      "sha256": "909dd7633ec046c78f558448ef1b29f5f0fc686cc530b98e81c84257f2eed0c4"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1.correction.json",
+      "bytes": 1541,
+      "sha256": "1638d103fbdad40ba40bf5a1d02d1f610b1cfbf03873f02929ef75117b6186ae"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1.generation.executed.txt",
+      "bytes": 11583,
+      "sha256": "92cc863948b66ff53290b761c301414951d3c85ad8cf8d7286c54b6ae82b7d61"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1.generation.json",
+      "bytes": 12390,
+      "sha256": "1a7d900ad585f90182634c3619e2eb69191569f6cb15744b374083a21fb7805e"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1.png",
+      "bytes": 2126756,
+      "sha256": "754401681858a81e9c438eba3be5a60167fcd18389215757fe0b7e196685b719"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BATH2_SHOWER_v1_superseded_1.png",
+      "bytes": 2218002,
+      "sha256": "ec8f73dad72bf62028c8d1a1ab358a0901f01d3d93f81bb545dbddb9c8f571dc"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_HERO_v1.generation.executed.txt",
+      "bytes": 10570,
+      "sha256": "495786749bb205494fe3796b358feb3ae7b7a515bc552a08348d4e22d452ad43"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_HERO_v1.generation.json",
+      "bytes": 11607,
+      "sha256": "152a724eba6609e0e17e1a7b692c6e34aafc715887a779050b918f3ec3e4dbf6"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_HERO_v1.png",
+      "bytes": 2712944,
+      "sha256": "ecb6e27d854c078ffda78ad5484640e6fb1804800637d5fdf7186a19def9dbbb"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_MEDIA_v1.generation.executed.txt",
+      "bytes": 10801,
+      "sha256": "301ac6e82032cf89071cbe95b33f8104669a794e1e164ef6794db030e58d3cdb"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_MEDIA_v1.generation.json",
+      "bytes": 11842,
+      "sha256": "fb7109c3100c990c884eca1548ff25b9b9ae3f3c2ded01c40451766902b0a48f"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED1_MEDIA_v1.png",
+      "bytes": 2167804,
+      "sha256": "989c448fcdea3bc90de955ada39fdd24aacd3cba73554fe3ab6ac619b185c24f"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_HERO_v1.generation.executed.txt",
+      "bytes": 10570,
+      "sha256": "470ff818f3c85e17d698d5af237ec83260f7d585f11955f0e440dd08023a9e70"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_HERO_v1.generation.json",
+      "bytes": 11607,
+      "sha256": "27d60732ba359b76acf4278b9d79a6a3b875a61ca9de8dab006666bc37efabec"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_HERO_v1.png",
+      "bytes": 2948494,
+      "sha256": "d526b83aae0db19f500fc79721a78fe5553232dc6695b67984e3434706275a9c"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_MEDIA_v1.generation.executed.txt",
+      "bytes": 10801,
+      "sha256": "6013b9b918c714ee784bdbc900f1303d7794027cc74a1923433f5929ef96a1ec"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_MEDIA_v1.generation.json",
+      "bytes": 11842,
+      "sha256": "b18dee3b62aa4eeb57a6b2e62ace0ef87fa4b8f0ce3ba9324947d819be1f94c8"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_BED2_MEDIA_v1.png",
+      "bytes": 2335743,
+      "sha256": "e14412a12b5934a649f7f22144c34144ae089c9c7e974fc4f89b67f5685a4599"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_ENTRY_HERO_v1.generation.executed.txt",
+      "bytes": 10445,
+      "sha256": "6347d88e6e801516df9d8d013dd726dce048b81ad42fda5df1c25e089f0cdd0a"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_ENTRY_HERO_v1.generation.json",
+      "bytes": 11242,
+      "sha256": "27edd9de6610c7d67cf35d65db46b1e973e1bd68ab9d7b5d3d7adea654140a6e"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_ENTRY_HERO_v1.png",
+      "bytes": 3036010,
+      "sha256": "f3e3fd289dbc79b87dc45f034e5400bc0df5a22619f6fa2dd4d17077c76facde"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_GARD3_HERO_v1.generation.executed.txt",
+      "bytes": 9653,
+      "sha256": "e37e3a2ae23fa04ce691f2832590bb2dc22ee9ba1b1d97b7bc2b478330be8632"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_GARD3_HERO_v1.generation.json",
+      "bytes": 10572,
+      "sha256": "f0a30f3324f69d797504de861052b8716bb036b24fb1a1d22063be35f0217655"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_GARD3_HERO_v1.png",
+      "bytes": 2519097,
+      "sha256": "1b2e79e9ddebbb1e07b3b3ed174afb67fe6745f8ace308806192b798bd7b9573"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_HALL_HERO_v1.generation.executed.txt",
+      "bytes": 9945,
+      "sha256": "fbe070843821dbb7b4b3f822bfcb5d799cc7eb56493e2410c4e6aa89dac0da2c"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_HALL_HERO_v1.generation.json",
+      "bytes": 10860,
+      "sha256": "b2558d9951711e74d32db1a94c21c65ae89a226d3c1bb158ca40cba6a520afa6"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_HALL_HERO_v1.png",
+      "bytes": 3019579,
+      "sha256": "eb5fe37b3ee55039e4a157320d5f3ea4c550abab1b742ac4813fe882713d046a"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_KITCHEN_HERO_v1.generation.executed.txt",
+      "bytes": 10891,
+      "sha256": "c9bccec5e5461e9162be1417d67e6276d36c1d590254718342ca8458dcb21270"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_KITCHEN_HERO_v1.generation.json",
+      "bytes": 12073,
+      "sha256": "282c826d87beb59d2a681121007928e407819f17bc270dc377cbf7f1c3bb6360"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_KITCHEN_HERO_v1.png",
+      "bytes": 2441378,
+      "sha256": "7d24bddda5465c913cef7edb7ee5e82f74c40313abb539805fdc7c438fe7b297"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1.correction.json",
+      "bytes": 2577,
+      "sha256": "5138f2ff267fcaabb54683dd989ffa560ea42ec06e4b69986b7542e75d24da11"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1.generation.executed.txt",
+      "bytes": 10363,
+      "sha256": "cb376a8129db5ab9ed84bb2fb1e14b1a4b6bc2647394fa188b83826975bfecfd"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1.generation.json",
+      "bytes": 11286,
+      "sha256": "1d53977ea3998443f47ebc4179527b3cce405c0244e3e4e48fee4f3d6c8abee8"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1.png",
+      "bytes": 2112663,
+      "sha256": "bf29245b38328c1f267744bf023b55d7b28754c743f557cdfc43f10e3b8f1604"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1_superseded.png",
+      "bytes": 2428556,
+      "sha256": "c5700da186e1e38a1b1432250636e060d39c1ce3a28e6d48e691b0fe84e57ea8"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1_superseded_1.png",
+      "bytes": 2194539,
+      "sha256": "78937778affd350fab4ac0efd9a857d28cfcf312026fc489829d2dfa1c9575cf"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_WINDOW_v1.generation.executed.txt",
+      "bytes": 11125,
+      "sha256": "f667a6a41e30182c944427853f7e00a196bbd4a83ec89bf2ec1553845f798834"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_WINDOW_v1.generation.json",
+      "bytes": 12190,
+      "sha256": "3e465d5a891e247ce2f415b2fadf8cbf9ce4c715d4196d2d540cec9124a6604b"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_LIVING_WINDOW_v1.png",
+      "bytes": 2498313,
+      "sha256": "40f203e82172e3d70bec24f92ca621f7cd75b052baa31be4dbf68863fce8d420"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_HERO_v1.generation.executed.txt",
+      "bytes": 10582,
+      "sha256": "7c867f67cee93d5fd89594a7df08d21450d51757f37207eddb5682540a92ad76"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_HERO_v1.generation.json",
+      "bytes": 11627,
+      "sha256": "0864f21259ccc47d77269227751342fbbbc5b7b16b830323af0de1f34498f3d1"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_HERO_v1.png",
+      "bytes": 2993476,
+      "sha256": "214c50b49523d319d0a4b2281297749353069bf70f77428c4ae20214a85a12ab"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_MEDIA_v1.generation.executed.txt",
+      "bytes": 10813,
+      "sha256": "777121d2d3e9f6406eee6a2cb9a9877cf6fbac1e90d9fbff35858e80386db3e7"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_MEDIA_v1.generation.json",
+      "bytes": 11862,
+      "sha256": "f681d3a9cd7a76f55f701caa54ebf250766705a0eacd07b99fc2bc238c9b2c2b"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_MASTER_MEDIA_v1.png",
+      "bytes": 2430452,
+      "sha256": "6fb37e4040a35f559213c965432ab27125f04f512b7398c5d1e0a3e9c3f44fab"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_UTILITY_HERO_v1.generation.executed.txt",
+      "bytes": 9702,
+      "sha256": "2f65df2e3cc5c83acb14ecad11f26a9e1ce126dc3f58c9303d0662fd7941b2f5"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_UTILITY_HERO_v1.generation.json",
+      "bytes": 10629,
+      "sha256": "ff62f5948787fe4a3f5f084c8459e4ef29a674de0aba6a34293536aba2040991"
+    },
+    {
+      "path": "renders/A812_S18B_LakeForestPlus_UTILITY_HERO_v1.png",
+      "bytes": 2261554,
+      "sha256": "5ec8ca73a32b5d6924725461d683f9363233dbeca3fd0e14e8adb619c6b8320b"
     },
     {
       "path": "renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.executed.txt",
@@ -1438,14 +1998,19 @@
       "sha256": "5662ec86922c92ef6835b6905f2fe45c3077fa1c437df35b360b7af10e36305a"
     },
     {
+      "path": "renders/FINAL_GALLERY_QA.json",
+      "bytes": 771,
+      "sha256": "48a095220fe3967754e22ee27eabc57cb4e3b87dd1bfd3edc6b2f51504d4f452"
+    },
+    {
       "path": "renders/GALLERY_QA.json",
       "bytes": 278,
       "sha256": "a0f537ceb0718e26187a2c1b6660ec1085ce0bf20da1a5ba45368a3717013c79"
     },
     {
       "path": "renders/GENERATION_MANIFEST.json",
-      "bytes": 468020,
-      "sha256": "5465a885c7691c808abe0284e5c94351c75b3d6d2b6604e9e88348b84e97e917"
+      "bytes": 850456,
+      "sha256": "7ca5dbea4d494fb934997112bfe22b05cca2803c32019f288d9bc27dbb4e47f0"
     },
     {
       "path": "sources/ORIGINAL_REFERENCES.json",

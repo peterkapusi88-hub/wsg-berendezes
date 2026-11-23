@@ -16,7 +16,7 @@
       "status": "COMPLETE_CONCEPT",
       "prompt_count": 32,
       "manifest": "A812/PROMPT_MANIFEST.json",
-      "images_generated": 0
+      "images_generated": 32
     },
     "A902": {
       "status": "COMPLETE_CONCEPT",
@@ -26,7 +26,7 @@
     }
   },
   "reference_registry": "sources/ORIGINAL_REFERENCES.json",
-  "images_generated": 43,
+  "images_generated": 75,
   "variants": [
     "S18A",
     "S18B"
@@ -40,7 +40,7 @@
   "archived_preliminary_images": 3,
   "image_counts": {
     "A811": 30,
-    "A812": 0,
+    "A812": 32,
     "A902": 13
   }
 }

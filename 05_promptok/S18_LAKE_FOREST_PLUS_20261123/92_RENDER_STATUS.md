@@ -1,7 +1,7 @@
 # S18 – képgenerálási állapot
 
 - A811: 30 elkészült kép.
-- A812: 0 elkészült kép.
+- A812: 32 elkészült kép.
 - A902: 13 elkészült kép.
 
 A902: 12 alapnézet + 1 világos nappali. A811 cél: 30, A812 cél: 32. A 3 korai előkép és a superseded javítás előtti változatok nem részei az aktuális képszámnak.

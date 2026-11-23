@@ -1,15 +1,14 @@
 # S18 – önálló folytatási csomag
 
-## Következő lépés
+## Aktuális állapot és folytatás
 
-A szövegek elkészültek. **Ne generáld újra a promptokat.** A `30_ALL_PROMPTS.json` az `image_id`, `variant`, `prompt_sha256`, kamera, eredeti LF-referencia és helyszíni forrás alapján azonosít minden munkát. Az új lakásképek állapota `NOT_GENERATED`; a korábbi feladat szerint a tényleges generálás a későbbi Claude Browser munkameneté.
+75 aktuális kép elkészült: A902 13, A811 30, A812 32. A tulajdonos későbbi döntése engedélyezte a tényleges képgenerálást; a korábbi „csak prompt / későbbi Claude Browser” korlát már nem az aktuális feladat. **Ne generáld újra a kész képeket vagy promptokat.**
 
-1. Állítsd össze az inputot a prompt megadott sorrendjében. Az első kép a lakás saját geometriája/kamerája. Utána az adott A vagy B változat eredeti LF-képei; a hozzárendelt KZS-fotók csak a meglévő felületekhez és panorámához adnak bizonyítékot.
-2. A811/A812: 31 kontroll másolata a `controls/` alatt. Az R9 forrás geometriai tanúsítása hiányos; ne állíts helyszíni méretvalidációt. A fehér Blender-szanitertömb nem bizonyítja a valódi termék formáját.
-3. A902: a manifestben megnevezett hat kamera inputját össze kell állítani. Cam_02 és Cam_04 semleges forrása a main repóban megvan; Cam_12 v3, Cam_03 K1 és Cam_11c pontos képi inputja külön feloldandó. Cam_10-nél a rögzített kamerablokk létezik, de az elfogadott semleges képet nem helyettesítheti az ideiglenes WC-ben álló kamera. A konkrét képösszeállítás előtt nincs generálás.
-4. Ahol nincs helyiséghez rendelt helyszíni anyagfotó (a QA listázza), pótold ezt az inputot. Ne használd a villa padlóját vagy a Blender ideiglenes shaderét.
-5. Első kör: a három nappali A/B, összesen 6 összehasonlító kép. Második: konyha és master A/B. Ezután a többi kamera és funkcionális részlet. Egy véglegesített anyagkészlet menjen tovább minden nézetbe.
-6. Egymás mellé téve ellenőrizd az eredeti referenciát és a lakásrendet: TV-mező, faerezet, pult, kárpit, gardróbmotívum, fejvég; külön a fix építészet és fényforrások. Ugyanaz a hibás felület nem válik elfogadhatóvá attól, hogy több kamerán következetes.
+Nyitóoldal: `renders/00_TELJES_KEPES_ATTEKINTO.html`. A `renders/GENERATION_MANIFEST.json` a tényleges végrehajtott utasításokat, bemeneteket és aktuális képfájlok SHA-256 értékeit tartalmazza. A `*.correction.json` az utolsó javítást és a korábbi javítási láncot őrzi; a superseded képek archiváltak. A `30_ALL_PROMPTS.json` az eredeti 74 alapprompt jegyzéke, nem az aktuális generálási állapot forrása.
+
+A812 tulajdonosi kanapéjavítás: fő háttámla a TV-fallal párhuzamos, ülőirány a TV felé, az étkezőoldali rövid rész alacsony chaise. A nappali ellenkező nézetében és a konyhai nézetben is ezt kell megtartani. Az étkezőlap A fehér finom szürke/arany erezetes, B világos szürkésfehér. A811/A812 zuhanyközeli képekből a hibásan a zuhanyba került második mosdóbútor el lett távolítva; más kamerában meglévő mosdó nem helyezhető át ide.
+
+Az R9 kontrollok és meglévő 17-stílusos rendernézetek kameraalapok, nem mérettanúsítások. A pontos nézet-, bútor-, elektromos és termékazonosság ellenőrzése következő műszaki lépés. Az eredeti referenciafájlok változatlanok.
 
 ## Eredeti anyagok beérkezésekor
 
