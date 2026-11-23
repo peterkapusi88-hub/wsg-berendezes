@@ -19,3 +19,5 @@ Az A902 Cam_12/02/03/04/11c/10 azonosítók megmaradtak. Az A811/A812 saját R9 
 Az eredeti gyártó/dekor/termékmodell ismeretlen; a látványterv nem bizonyítja a természetes kő, kerámia, kompozit vagy dekorlap összetételét. Az online Claude artifact belső tartalmát nem sikerült kiolvasni, ezért annak verzióegyezése a helyi 2024.04.20-i eredeti csomaggal nyitott. Ezt a korlátot nem helyettesítettük kitalált anyagkóddal.
 
 GitHub-ág: `competition/s18-lake-forest-plus-20261123`. Bázis: `main@5b2ad8e3d431a210ffbf85f0057ac95b0bb7299c`. A korábbi S01–S17 anyagok változatlanok.
+
+[GitHub átadás – PR #31](https://github.com/peterkapusi88-hub/wsg-berendezes/pull/31) · [Checkpointnapló](90_CHECKPOINT_NAPLO.md).
