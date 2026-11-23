@@ -5,7 +5,7 @@
     "kind": "bed",
     "control": "controls/A811_BED1_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A811_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BED1_HERO_curated",
     "variant": "A",
@@ -19,7 +19,7 @@
       "LF06"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -33,7 +33,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
     ],
     "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+    "render_sha256": "9876319c22685923f325331fb9787cdbb4c6b3f6032df3fb17385fc6bbe8c983"
   },
   {
     "camera": "BED1_HERO",
@@ -41,7 +43,7 @@
     "kind": "bed",
     "control": "controls/A811_BED1_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BED1_HERO camera and crop of control A811_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BED1_HERO_curated",
     "variant": "B",
@@ -56,7 +58,7 @@
       "LF15"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -70,7 +72,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
     ],
     "control_sha256": "77b484ff69826a2cf3e3183ec9038145d1b4cb74ac06e424b18dc74f8e44fb8e",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_BED1_HERO_v1.png",
+    "render_sha256": "171cc27f2d64efdd99bc5a323f9849ea64cf9d8286bdb21047ddc9c43d79b1a8"
   },
   {
     "camera": "BED1_MEDIA",
@@ -78,7 +82,7 @@
     "kind": "bed",
     "control": "controls/A811_BED1_MEDIA.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_MEDIA.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A811_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BED1_MEDIA_curated",
     "variant": "A",
@@ -92,7 +96,7 @@
       "LF06"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -106,7 +110,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
     ],
     "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+    "render_sha256": "3fb386a1412cd6595d41b42bb82a63ee07cc2b7e3779a40b23909b7836515d7b"
   },
   {
     "camera": "BED1_MEDIA",
@@ -114,7 +120,7 @@
     "kind": "bed",
     "control": "controls/A811_BED1_MEDIA.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_MEDIA.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BED1_MEDIA camera and crop of control A811_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BED1_MEDIA_curated",
     "variant": "B",
@@ -129,7 +135,7 @@
       "LF15"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -143,7 +149,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3275-957.jpg"
     ],
     "control_sha256": "f236c357989435eed85b8a3e4246769827a222d1fe9279a05d8938e10a311d62",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_BED1_MEDIA_v1.png",
+    "render_sha256": "0399a78a6f554c601688ceeabba4b786e0656d5ec45e8809283ea424b573bc49"
   },
   {
     "camera": "MASTER_HERO",
@@ -151,7 +159,7 @@
     "kind": "bed",
     "control": "controls/A811_MASTER_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A811_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_HERO_curated",
     "variant": "A",
@@ -165,7 +173,7 @@
       "LF06"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 2,
@@ -179,7 +187,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
     ],
     "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+    "render_sha256": "c2f07666f7d2394da6741d43fd94c74da0b1e54aba6169c9799afe7005d15efe"
   },
   {
     "camera": "MASTER_HERO",
@@ -187,7 +197,7 @@
     "kind": "bed",
     "control": "controls/A811_MASTER_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_HERO camera and crop of control A811_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_HERO_curated",
     "variant": "B",
@@ -202,7 +212,7 @@
       "LF15"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 2,
@@ -216,7 +226,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
     ],
     "control_sha256": "1c7f24bec296b14a633a7c0874cd78e930fee19b4f0d316c2fd220308ea25079",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_MASTER_HERO_v1.png",
+    "render_sha256": "ece7ba82be2aa059e7236a69c2f676eeafc635eedc6e20c624805667f923b10b"
   },
   {
     "camera": "MASTER_MEDIA",
@@ -224,7 +236,7 @@
     "kind": "bed",
     "control": "controls/A811_MASTER_MEDIA.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_MEDIA.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A811_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_MEDIA_curated",
     "variant": "A",
@@ -238,7 +250,7 @@
       "LF06"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -252,7 +264,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
     ],
     "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+    "render_sha256": "958e2cb5656c21cb94875fb9c11b8ac05e2af71c3b22fd1bc843e766cea732fc"
   },
   {
     "camera": "MASTER_MEDIA",
@@ -260,7 +274,7 @@
     "kind": "bed",
     "control": "controls/A811_MASTER_MEDIA.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_MEDIA.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_MEDIA camera and crop of control A811_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_MEDIA_curated",
     "variant": "B",
@@ -275,7 +289,7 @@
       "LF15"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -289,7 +303,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3284-948.jpg"
     ],
     "control_sha256": "51454597ac980ec16613e60ac007a11fe579a17a2361583abd550789138c3500",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_MASTER_MEDIA_v1.png",
+    "render_sha256": "6ea09bcd43027b8448628e0496191fa76df40a4d3976908e832983a3d80aba34"
   },
   {
     "camera": "MASTER_GARD_HERO",
@@ -297,7 +313,7 @@
     "kind": "wardrobe",
     "control": "controls/A811_MASTER_GARD_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_GARD_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_GARD_HERO camera and crop of control A811_MASTER_GARD_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_GARD_HERO_curated",
     "variant": "A",
@@ -311,13 +327,15 @@
       "LF11"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+    "render_sha256": "218e427172ae015d51358f1b899dae95c7656c4669011aff86c1da1a1f16eed0"
   },
   {
     "camera": "MASTER_GARD_HERO",
@@ -325,7 +343,7 @@
     "kind": "wardrobe",
     "control": "controls/A811_MASTER_GARD_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_GARD_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native MASTER_GARD_HERO camera and crop of control A811_MASTER_GARD_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_MASTER_GARD_HERO_curated",
     "variant": "B",
@@ -339,13 +357,15 @@
       "LF12"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "7af3a61f1a5b6cf01975deb4f0bb33bf5c073ba5bdeee77539acc923f4ba3f78",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18B_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+    "render_sha256": "760ac48b48c62eed4dddcb290d5bd649641c76ed8b50f28544f98fc937528f42"
   },
   {
     "camera": "LIVING_HERO",
@@ -353,7 +373,7 @@
     "kind": "living",
     "control": "controls/A811_LIVING_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A811_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_LIVING_HERO_curated",
     "variant": "A",
@@ -367,7 +387,7 @@
       "LF02"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 1,
@@ -381,7 +401,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
     ],
     "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+    "render_sha256": "5f704a695f15c22186b121611e14d1609b6cb4dea1b0b3bd4b2b5216c167e921"
   },
   {
     "camera": "LIVING_HERO",
@@ -389,7 +411,7 @@
     "kind": "living",
     "control": "controls/A811_LIVING_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native LIVING_HERO camera and crop of control A811_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_LIVING_HERO_curated",
     "variant": "B",
@@ -403,7 +425,7 @@
       "LF14"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 1,
@@ -417,7 +439,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4122-110.jpg"
     ],
     "control_sha256": "2dd4cbb92b62d0a1e6e99c4878652c975eda128d16bfc0593df56ed945ff3595",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_LIVING_HERO_v1.png",
+    "render_sha256": "d5656498ea3f5670378d29e51f48a1062a3961f190be70840b75cb80655934f1"
   },
   {
     "camera": "LIVING_WINDOW",
@@ -425,7 +449,7 @@
     "kind": "living",
     "control": "controls/A811_LIVING_WINDOW.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_WINDOW.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A811_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_LIVING_WINDOW_curated",
     "variant": "A",
@@ -439,7 +463,7 @@
       "LF02"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -453,7 +477,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
     ],
     "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+    "render_sha256": "f530a938e4367c59be7f6a7c0530d9e70a4a12b9141c13190ab3500726e55bc1"
   },
   {
     "camera": "LIVING_WINDOW",
@@ -461,7 +487,7 @@
     "kind": "living",
     "control": "controls/A811_LIVING_WINDOW.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_WINDOW.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native LIVING_WINDOW camera and crop of control A811_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_LIVING_WINDOW_curated",
     "variant": "B",
@@ -475,7 +501,7 @@
       "LF14"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -489,7 +515,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3449-783.jpg"
     ],
     "control_sha256": "d67cf48694e688514689bd5ca0fd575e99eccd5a1d25a1bc423f85d5d2be0c4d",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_LIVING_WINDOW_v1.png",
+    "render_sha256": "abb7343b0c6b39d4b10f8fff5c37f8b5d59c34f9068f6cec7ac3d0e1e439a605"
   },
   {
     "camera": "KITCHEN_HERO",
@@ -497,7 +525,7 @@
     "kind": "living",
     "control": "controls/A811_KITCHEN_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_KITCHEN_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A811_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_KITCHEN_HERO_curated",
     "variant": "A",
@@ -511,7 +539,7 @@
       "LF02"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 2,
@@ -525,7 +553,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
     ],
     "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+    "render_sha256": "f555e637e0a848544cb8bc993dc46fd95b610b7ea6467efe408dbbb5b71b44af"
   },
   {
     "camera": "KITCHEN_HERO",
@@ -533,7 +563,7 @@
     "kind": "living",
     "control": "controls/A811_KITCHEN_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_KITCHEN_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native KITCHEN_HERO camera and crop of control A811_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_KITCHEN_HERO_curated",
     "variant": "B",
@@ -547,7 +577,7 @@
       "LF14"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 2,
@@ -561,7 +591,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4148-084.jpg"
     ],
     "control_sha256": "058b390ac0f3e7f1a8c2309f832beb2a6ae5aec67486b93e8ab8a7ee90eb1e35",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_KITCHEN_HERO_v1.png",
+    "render_sha256": "996684650dc78d7d467cde81fb085d582bb857749bfc47f19d4f0a1c4916bf48"
   },
   {
     "camera": "ENTRY_HERO",
@@ -569,7 +601,7 @@
     "kind": "living",
     "control": "controls/A811_ENTRY_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_ENTRY_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A811_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_ENTRY_HERO_curated",
     "variant": "A",
@@ -583,7 +615,7 @@
       "LF02"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -597,7 +629,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
     ],
     "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+    "render_sha256": "729c7be9664f73145a457db5c251533654b20d2bdc424691ba6a213ea9154666"
   },
   {
     "camera": "ENTRY_HERO",
@@ -605,7 +639,7 @@
     "kind": "living",
     "control": "controls/A811_ENTRY_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_ENTRY_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native ENTRY_HERO camera and crop of control A811_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_ENTRY_HERO_curated",
     "variant": "B",
@@ -619,7 +653,7 @@
       "LF14"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -633,7 +667,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_4145-087.jpg"
     ],
     "control_sha256": "00aeb8516be7d2e5fb87e8593a35267c1baf9eabad6bd70cd88208b463cdd919",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_ENTRY_HERO_v1.png",
+    "render_sha256": "10a56ee262bc9583bf575a38bae442ffa6995e846832c59d0d94b612dfa4d924"
   },
   {
     "camera": "BATH1_HERO",
@@ -641,7 +677,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH1_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH1_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH1_HERO camera and crop of control A811_BATH1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH1_HERO_curated",
     "variant": "A",
@@ -654,7 +690,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -668,7 +704,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
     ],
     "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+    "render_sha256": "fa912395d3aa212956e455d891392cf8499e4c3114cfb1b38976dab617fea9ef"
   },
   {
     "camera": "BATH1_HERO",
@@ -676,7 +714,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH1_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH1_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH1_HERO camera and crop of control A811_BATH1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH1_HERO_curated",
     "variant": "B",
@@ -689,7 +727,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -703,7 +741,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3309-923.jpg"
     ],
     "control_sha256": "d37be95f833d5946237d8369d7d17803646bee017993f49591c054e7993c221c",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_BATH1_HERO_v1.png",
+    "render_sha256": "9f575f948fda1abd0ab763a727f1cb41c7cec17f8ec8467bce0797ce28f33b28"
   },
   {
     "camera": "BATH2_HERO",
@@ -711,7 +751,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH2_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A811_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH2_HERO_curated",
     "variant": "A",
@@ -724,7 +764,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -738,7 +778,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
     ],
     "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+    "render_sha256": "f25911d243a9f0ca6497dbe3d62614f2dc1bb1bffc4825ccd8d6600acb841c16"
   },
   {
     "camera": "BATH2_HERO",
@@ -746,7 +788,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH2_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH2_HERO camera and crop of control A811_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH2_HERO_curated",
     "variant": "B",
@@ -759,7 +801,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -773,7 +815,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
     ],
     "control_sha256": "a003b6f973159234905cd1326636f851c8f3567a3db0c8184d276a07442357f0",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_BATH2_HERO_v1.png",
+    "render_sha256": "00d93f9f840633e5ca680e3e182e0f0eaa5f7f0793384eda2cb046367c286d47"
   },
   {
     "camera": "WC_HERO",
@@ -781,7 +825,7 @@
     "kind": "bath",
     "control": "controls/A811_WC_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_WC_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native WC_HERO camera and crop of control A811_WC_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_WC_HERO_curated",
     "variant": "A",
@@ -794,13 +838,15 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+    "render_sha256": "f53b02e2030297fa11e1a4bba486a22f7573ff6d430c89b6c281ee15ea62fe60"
   },
   {
     "camera": "WC_HERO",
@@ -808,7 +854,7 @@
     "kind": "bath",
     "control": "controls/A811_WC_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_WC_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native WC_HERO camera and crop of control A811_WC_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_WC_HERO_curated",
     "variant": "B",
@@ -821,13 +867,15 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "9b27d0ad4153b645e043be2eecf0af31b1f5fba5f6933ff8595cfe4d1866a67b",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18B_LakeForestPlus_WC_HERO_v1.png",
+    "render_sha256": "7f94c6fe0a0add673b2e02e0cff32dc79483e6c6c43d153777bfecfabd2c3613"
   },
   {
     "camera": "UTILITY_HERO",
@@ -835,7 +883,7 @@
     "kind": "utility",
     "control": "controls/A811_UTILITY_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_UTILITY_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A811_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_UTILITY_HERO_curated",
     "variant": "A",
@@ -849,13 +897,15 @@
       "LF03"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+    "render_sha256": "0c5bd4a5e0b4cf3cd5a75b249b58c9a870ccf3de3d21d0dc5d01c086966ff3b1"
   },
   {
     "camera": "UTILITY_HERO",
@@ -863,7 +913,7 @@
     "kind": "utility",
     "control": "controls/A811_UTILITY_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_UTILITY_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native UTILITY_HERO camera and crop of control A811_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_UTILITY_HERO_curated",
     "variant": "B",
@@ -877,13 +927,15 @@
       "LF10"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
     "site_photo_repo_paths": [],
     "control_sha256": "198493b7a5f7ff611b1ff2b4dcd0095fd1dc33dee5ab600b6ac8498079ae522a",
-    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING"
+    "surface_reference_status": "ROOM_SITE_SURFACE_REFERENCE_PENDING",
+    "render": "renders/A811_S18B_LakeForestPlus_UTILITY_HERO_v1.png",
+    "render_sha256": "5f8e28a15c41ff9cbb295659b73ed452089263f5f1fdaa25e1aef4b7604740ec"
   },
   {
     "camera": "HALL_HERO",
@@ -891,7 +943,7 @@
     "kind": "hall",
     "control": "controls/A811_HALL_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_HALL_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A811_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_HALL_HERO_curated",
     "variant": "A",
@@ -905,7 +957,7 @@
       "LF03"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -919,7 +971,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
     ],
     "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+    "render_sha256": "1873f58e39c90eda683d537119e8b0cd15916f28c2f4e68dd0a217fcffc8b1ec"
   },
   {
     "camera": "HALL_HERO",
@@ -927,7 +981,7 @@
     "kind": "hall",
     "control": "controls/A811_HALL_HERO.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_HALL_HERO.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native HALL_HERO camera and crop of control A811_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_HALL_HERO_curated",
     "variant": "B",
@@ -941,7 +995,7 @@
       "LF10"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -955,7 +1009,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3335-897.jpg"
     ],
     "control_sha256": "d9fbc72b03ef9088792f5b671fdfd70da1e6d0bc95a0bcd4d951fd17508c4a6a",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_HALL_HERO_v1.png",
+    "render_sha256": "4c4d58ee320e561b98f5b2493d41ac10da32337045796b93fe19b02d48fa7c41"
   },
   {
     "camera": "BATH2_SHOWER",
@@ -963,7 +1019,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH2_SHOWER.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_SHOWER.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A811_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH2_SHOWER_curated",
     "variant": "A",
@@ -976,7 +1032,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -990,7 +1046,9 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
     ],
     "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+    "render_sha256": "3863c0dc9066e98e81e3c9dcedb34d3f1c439fa068496651a0ffbbb1b344d602"
   },
   {
     "camera": "BATH2_SHOWER",
@@ -998,7 +1056,7 @@
     "kind": "bath",
     "control": "controls/A811_BATH2_SHOWER.png",
     "control_origin": "execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_SHOWER.png",
-    "camera_status": "INHERITED_R9_CONTROL_NOT_SITE_CERTIFIED",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
     "camera_text": "Use the unchanged native BATH2_SHOWER camera and crop of control A811_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
     "source_job": "A811_S07_BATH2_SHOWER_curated",
     "variant": "B",
@@ -1011,7 +1069,7 @@
       "LF05"
     ],
     "text_status": "COMPLETE_CONCEPT",
-    "image_status": "NOT_GENERATED",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
     "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
     "budget_status": "NOT_PRICED_OR_VALIDATED",
     "priority": 3,
@@ -1025,6 +1083,8 @@
       "08_allapotfelmeres/fotok_profi_20261025/A811/KZS_3320-912.jpg"
     ],
     "control_sha256": "f5a7ca5da641564a612f71267a3b1a8f23a683caad80d7e8b0631a2706cf764d",
-    "surface_reference_status": "REPO_PHOTOS_MAPPED"
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A811_S18B_LakeForestPlus_BATH2_SHOWER_v1.png",
+    "render_sha256": "b133cdeefac19bec5f01a897397f697f5e758ec9b4ac2924a4e04296dfb45e9d"
   }
 ]

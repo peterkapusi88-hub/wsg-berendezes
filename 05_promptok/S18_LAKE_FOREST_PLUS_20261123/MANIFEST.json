@@ -3,36 +3,44 @@
   "name": "Lake Forest Plus",
   "date": "2026-11-23",
   "branch": "competition/s18-lake-forest-plus-20261123",
-  "checkpoint": "CP3_CONTENT",
+  "checkpoint": "RENDER_PROGRESS",
   "status": "COMPLETE_CONCEPT_AB",
   "apartments": {
     "A811": {
       "status": "COMPLETE_CONCEPT",
       "prompt_count": 30,
-      "manifest": "A811/PROMPT_MANIFEST.json"
+      "manifest": "A811/PROMPT_MANIFEST.json",
+      "images_generated": 30
     },
     "A812": {
       "status": "COMPLETE_CONCEPT",
       "prompt_count": 32,
-      "manifest": "A812/PROMPT_MANIFEST.json"
+      "manifest": "A812/PROMPT_MANIFEST.json",
+      "images_generated": 0
     },
     "A902": {
       "status": "COMPLETE_CONCEPT",
       "prompt_count": 12,
-      "manifest": "A902/PROMPT_MANIFEST.json"
+      "manifest": "A902/PROMPT_MANIFEST.json",
+      "images_generated": 13
     }
   },
   "reference_registry": "sources/ORIGINAL_REFERENCES.json",
-  "images_generated": 16,
+  "images_generated": 43,
   "variants": [
     "S18A",
     "S18B"
   ],
   "prompt_count": 74,
   "all_prompts": "30_ALL_PROMPTS.json",
-  "resume_rule": "Do not regenerate completed text or completed images. A902 has 12 base A/B views plus 1 daytime Cam02. Continue A811/A812 full dressing; 3 early drafts are not final. Read renders/GENERATION_MANIFEST.json and 92_RENDER_STATUS.md. All images remain conceptual, geometry/electrical/material validation pending.",
+  "resume_rule": "Use renders/GENERATION_MANIFEST.json; never regenerate completed images. Read correction records as the final generation instructions. Continue only image_status NOT_GENERATED. Concept images are not geometric, electrical or manufacturer validation.",
   "A902_images_generated": 13,
-  "preliminary_A811_A812_images": 3,
   "generation_manifest": "renders/GENERATION_MANIFEST.json",
-  "render_gallery": "renders/00_A902_KEPES_ATTEKINTO.html"
+  "render_gallery": "renders/00_TELJES_KEPES_ATTEKINTO.html",
+  "archived_preliminary_images": 3,
+  "image_counts": {
+    "A811": 30,
+    "A812": 0,
+    "A902": 13
+  }
 }

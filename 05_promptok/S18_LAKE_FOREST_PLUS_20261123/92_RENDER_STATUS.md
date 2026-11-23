@@ -1,12 +1,11 @@
-# S18 képgenerálás – 2026-11-23
+# S18 – képgenerálási állapot
 
-A tulajdonos engedélyezte a képgenerálást, teljes berendezést, függönyöket és szekrényeket kért. Elsőbbség: A-902, ugyanazok a nézetek, mint a 17 stílusos választóban.
+- A811: 30 elkészült kép.
+- A812: 0 elkészült kép.
+- A902: 13 elkészült kép.
 
-Elkészült 12 A902 alapváltozat és 1 nappali fényű Cam02. Az eredeti minták képfájlként kerültek a generátorba. A902 Cam02 az eredeti semleges képre és a választó berendezett kamerájára; a további nézetek a választó S07 padlo_v2 renderjeire épülő képszerkesztések. A stílusanyag kizárólag az eredeti LF-referenciákból ered.
+A902: 12 alapnézet + 1 világos nappali. A811 cél: 30, A812 cél: 32. A 3 korai előkép és a superseded javítás előtti változatok nem részei az aktuális képszámnak.
 
-Közvetlen nézet: renders/00_A902_KEPES_ATTEKINTO.html
-Gépi napló: renders/GENERATION_MANIFEST.json
+A végleges képek a renders/GENERATION_MANIFEST.json-ban szerepelnek, aktuális SHA-256-tal és tényleges generálóutasítással. A correction.json felülírja az eredeti generálási utasítást; az előző változat auditcélra megmarad.
 
-KONCEPCIÓ – NEM VALIDÁLT. Pixelpontos kamera- és textúraegyezés, valós panoráma, szekrénybeépítés és villamos adottságok még ellenőrzendők. A Cam12 közlekedőszekrények látható frontjai nem bizonyítják a mögöttes fal/közmű/mélység szerelhetőségét.
-
-A811/A812: három korai próbakép mentve, függöny- és kamerajavítás előtt; nem végleges képsor. A többi kép még nem készült el.
+A mintaképek ténylegesen csatolt eredeti Lake Forest fájlok. A kamera alapja a meglévő 17 stílusos sorozat megfelelő renderje. Képi egyezésre törekvés, nem pixelpontos kameraigazolás. A 100 cm zuhanyüveg méretét, bútorok mélységét, fióknyitást, WC melletti helyet és villamos kiállásokat műszaki ellenőrzésben kell igazolni. A902 Cam12 jobb oldali szekrény illeszkedése külön ellenőrzendő.
