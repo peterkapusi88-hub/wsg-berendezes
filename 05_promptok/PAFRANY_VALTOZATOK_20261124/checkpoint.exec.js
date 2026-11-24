@@ -16,7 +16,7 @@ for(const file of changed){
    const r=await tools.exec_command({cmd:"python3 -c "+q("import pathlib,base64;print(base64.b64encode(pathlib.Path("+JSON.stringify(file.path)+").read_bytes()["+offset+":"+Math.min(offset+300000,file.size)+"]).decode())"),max_output_tokens:200000});
    b64+=r.output.trim();
   }
-  const r=await tools.mcp__codex_apps__github_create_blob({repository_full_name:repo,encoding:"base64",content:b64});
+  let r;for(let attempt=0;attempt<3;attempt++){r=await tools.mcp__codex_apps__github_create_blob({repository_full_name:repo,encoding:"base64",content:b64});if(r.structuredContent?.sha===file.sha)break;}
   if(r.structuredContent?.sha!==file.sha)throw Error("Upload SHA mismatch "+file.path+" "+JSON.stringify(r).slice(0,400));
   entries.push({path:file.path,mode:"100644",type:"blob",sha:file.sha});notify("GitHub-kép mentve: "+file.path.split('/').pop());
  }else{

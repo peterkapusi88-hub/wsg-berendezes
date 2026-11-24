@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 21,
+  "completed_images": 28,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -534,9 +534,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_02_v1.txt",
       "output": "renders/A902_PD_Cam_02_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7634d703d2578b2e5add09030c9a793f4bab98f4570df162d7b0b5f014608975"
+      "prompt_sha256": "7634d703d2578b2e5add09030c9a793f4bab98f4570df162d7b0b5f014608975",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-17b0550d-c877-43ec-85bc-03c7981c0da4.png",
+      "sha256": "027e53c54bcbada4185980d578982cab117b1ca8c183749c7d20728d69bf3fb6",
+      "generated_at": "2026-11-24T12:55:39.492480+00:00"
     },
     {
       "id": "A902_PD_Cam_04_v1",
@@ -553,9 +556,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_04_v1.txt",
       "output": "renders/A902_PD_Cam_04_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "41d9932002bf2bfeb0788cc40bf6a8cfa43ccac8fb7de665ac672f4af7199490"
+      "prompt_sha256": "41d9932002bf2bfeb0788cc40bf6a8cfa43ccac8fb7de665ac672f4af7199490",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-15abe8fc-68cc-4c26-995e-f30f26371d3f.png",
+      "sha256": "dfa144727f4b14489cf4e89398bf5c06c48834252dc337c2efb859b6b67c0b79",
+      "generated_at": "2026-11-24T12:55:17.255585+00:00"
     },
     {
       "id": "A902_PD_Cam_12_v1",
@@ -580,9 +586,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_12_v1.txt",
       "output": "renders/A902_PD_Cam_12_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3d6e86353918129aa3500a04b9d60fd0675869b954b640faed015623e60b11d3"
+      "prompt_sha256": "3c3808d8151817709fb9fe4d611862ed4e0f18f9144dba1c6623aec294b61415",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-8ecbf043-9105-4224-8112-83d2702276c6.png",
+      "sha256": "6b4e5c352040acdb981fcd8e2eb0271a157d16600f046b6cacc0331489461f49",
+      "generated_at": "2026-11-24T12:57:16.642148+00:00"
     },
     {
       "id": "A902_PD_Cam_03_v1",
@@ -607,9 +616,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_03_v1.txt",
       "output": "renders/A902_PD_Cam_03_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2255dacfbfa8b44e9044b1c21a8ed91eaf2cdd2ef5314c8fd622db29d8e27ef2"
+      "prompt_sha256": "9ed566d80b8b04817093025f2f8a46823b8a6be52cd0e6b0d910204bf11207a6",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-98374eff-ba49-482c-8f44-025794eb20c2.png",
+      "sha256": "dd2f81906de97574448dd8ba9651d4149a8b388b80d0ac8a8297ea2984ec1b57",
+      "generated_at": "2026-11-24T12:59:06.485929+00:00"
     },
     {
       "id": "A902_PD_Cam_11c_v1",
@@ -626,9 +638,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_11c_v1.txt",
       "output": "renders/A902_PD_Cam_11c_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dfb6f3402d4163a7ef3e3c647f5c0ff16fbafa11bea41511031f7aed13ebcfd6"
+      "prompt_sha256": "2c29d71fa2e5f4a30c119def7192619715bd47c7a2b7f56adeb5bb463bce9fbf",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-dd7dc1cf-4035-43c7-a9fe-4737a66bdbf1.png",
+      "sha256": "f3be0f56e8504b597782e4851e99c2323a651418cd6feaaf4c16933e7af6a8b1",
+      "generated_at": "2026-11-24T12:57:16.951663+00:00"
     },
     {
       "id": "A902_PD_Cam_10_v1",
@@ -645,9 +660,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_10_v1.txt",
       "output": "renders/A902_PD_Cam_10_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "cd2ddd4f7066125aec3b96785d05d16754e7883ab5eb8f4bbe5b3d41d5babc9a"
+      "prompt_sha256": "cd2ddd4f7066125aec3b96785d05d16754e7883ab5eb8f4bbe5b3d41d5babc9a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ca3ec228-f0b3-4db6-ac1f-e18a6bb2c7ee.png",
+      "sha256": "23e8520ba9719f7947da8e42f06c5866b116161fb808b92b010dec2284cdebef",
+      "generated_at": "2026-11-24T12:54:23.627291+00:00"
     },
     {
       "id": "A902_PD_Cam_02_DAY_v1",
@@ -666,9 +684,12 @@
       ],
       "prompt": "prompts/A902/A902_PD_Cam_02_DAY_v1.txt",
       "output": "renders/A902_PD_Cam_02_DAY_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "98aa5f1ab109ce2a09a01407856b20f9b5ee52826a64be5012fa2f4facd04fad"
+      "prompt_sha256": "3e4320505cb0680b5735ec899f7b42839ffd4311cbd685d081c5fc5680e37210",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2b804b0c-af6a-4100-9513-1d56efc9caab.png",
+      "sha256": "5c931aef5a534f967cad4988f1493dc91bc5564a1b77aa1ce346ce2db6ebee1b",
+      "generated_at": "2026-11-24T12:57:17.579366+00:00"
     },
     {
       "id": "A812_PA_LIVING_HERO_v1",
@@ -689,7 +710,7 @@
       "output": "renders/A812_PA_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "51d8d94b00cf354149e39b75ff61985dd5dbdce7b52ff0171f56c8cd7a34cba4"
+      "prompt_sha256": "38687cb0171eec9bb865a59c904259a387b10fc9eb16f90b051fe0a870142195"
     },
     {
       "id": "A812_PA_MASTER_HERO_v1",
@@ -708,7 +729,7 @@
       "output": "renders/A812_PA_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "eaf38fc57f49ee832f02b26ef077b030e3645dcaf646909182af656078b368a2"
+      "prompt_sha256": "64bd5001e6197fe333afe5ef185f799998b52798531df70a4ea2234f409253fc"
     },
     {
       "id": "A812_PA_BED1_HERO_v1",
@@ -727,7 +748,7 @@
       "output": "renders/A812_PA_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "874ab8c023bbc9774dec770c57949954f4bf726574264c7ea84ceaad00117f11"
+      "prompt_sha256": "b0a8a190db64e1120c254dd768112371f44dd4981b2a5e753d8df3bfac2fbc2d"
     },
     {
       "id": "A812_PA_BED1_MEDIA_v1",
@@ -746,7 +767,7 @@
       "output": "renders/A812_PA_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4fd4f5aa34ffa68a222ccf8647d99216797a6fe65f4deb86b20d88e75e5866b0"
+      "prompt_sha256": "6eee12e9d41bb2376d65db5f1c3d39a0f8b5ecd2d56666628eb73283ac6796c5"
     },
     {
       "id": "A812_PA_BED2_HERO_v1",
@@ -765,7 +786,7 @@
       "output": "renders/A812_PA_BED2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6e3d3377f45a04ba9675301480317fe3b33b62e6d6bc794e8789db9e7c3bcb8a"
+      "prompt_sha256": "255c5f14ad6822f3d22560e3720748f00396d096d8a1f211b472af490254ba44"
     },
     {
       "id": "A812_PA_BED2_MEDIA_v1",
@@ -784,7 +805,7 @@
       "output": "renders/A812_PA_BED2_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1354ae3b3cdc8de337e238c3bac9049a6936f83cfb0c546f48a7cc9be5c3cf66"
+      "prompt_sha256": "be1f9adbfa7f0ecc4433bcb420f81c5f89fc8114f53ead4be8db93c2b7288903"
     },
     {
       "id": "A812_PA_MASTER_MEDIA_v1",
@@ -803,7 +824,7 @@
       "output": "renders/A812_PA_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "169c477359ea6132e35474100e699005bfebe0df914db4f6634aa837018a3658"
+      "prompt_sha256": "0a54a8a802a594d36fa2e9edf783e6fcfc565103858ed2f20822923ed981b66c"
     },
     {
       "id": "A812_PA_GARD3_HERO_v1",
@@ -822,7 +843,7 @@
       "output": "renders/A812_PA_GARD3_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "23be6ecb1126eca34131bd751887abae833c208db12ce111de07daf890570b1e"
+      "prompt_sha256": "7078a1b37c1c9da93d84acafb03d1de0a9586c8f577fe8a0d2b4b56483f12c56"
     },
     {
       "id": "A812_PA_LIVING_WINDOW_v1",
@@ -843,7 +864,7 @@
       "output": "renders/A812_PA_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dacbf00c480bee47a435fbcf00043600d00f528ea4dc454f9d623c66d5d6a39b"
+      "prompt_sha256": "9ceae0e530c3db95ad60c2e66902a2356ff58199b2ed85907104be9fe0cd7092"
     },
     {
       "id": "A812_PA_KITCHEN_HERO_v1",
@@ -864,7 +885,7 @@
       "output": "renders/A812_PA_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8a4cdf6cf192ddc8ee934ee54d23dc357c2e7cc18c9a3dfe1b645b0bf3e8ca61"
+      "prompt_sha256": "55cdeececa85a4d242f41b053d98842f4d5bcaf60db632e19aa72b9f8ec9cc6b"
     },
     {
       "id": "A812_PA_ENTRY_HERO_v1",
@@ -883,7 +904,7 @@
       "output": "renders/A812_PA_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "23961722e599a84314f66844ea598b5bacb75a8d779e310c35fdbd17c77a895e"
+      "prompt_sha256": "da22916aec4af3d17439235e6e5b93112a7ce57d50a0e6ff52770c296b05dd17"
     },
     {
       "id": "A812_PA_BATH2_HERO_v1",
@@ -904,7 +925,7 @@
       "output": "renders/A812_PA_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3d524a6f1a7fa6caff94322a926670a37391ed32cc0567bdf1eff5d6de371e25"
+      "prompt_sha256": "9e2345dc44b02d22c45c45330e66b36a460772807996af4c04a301eba2e38a29"
     },
     {
       "id": "A812_PA_BATH08_HERO_v1",
@@ -925,7 +946,7 @@
       "output": "renders/A812_PA_BATH08_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8f0a1e9d5950e494f07b7f2e9a17a4265cdd0bcca81e81d88b62fa1d57fa4c41"
+      "prompt_sha256": "94d8969048f1049b79e9788391927d12f050c16eca8b7edf72f751e8b5b13863"
     },
     {
       "id": "A812_PA_UTILITY_HERO_v1",
@@ -944,7 +965,7 @@
       "output": "renders/A812_PA_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3aeb4786964770fc56d7ab3453673b5f3d72140030cdd79f10785c0204a7dd04"
+      "prompt_sha256": "f6a39beddfd58b0aeb80b70ac9515d5ebdc76388f2ad31249614d2997800c77a"
     },
     {
       "id": "A812_PA_HALL_HERO_v1",
@@ -963,7 +984,7 @@
       "output": "renders/A812_PA_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2d7fcb298538954d2c807971dec4f0fa77e329e509421567530075664c0e5476"
+      "prompt_sha256": "ff0789f4a3af8798895a8c486a55840f8c1ba7f7c60863aa7a126a9b68dbdae8"
     },
     {
       "id": "A812_PA_BATH2_SHOWER_v1",
@@ -984,7 +1005,7 @@
       "output": "renders/A812_PA_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e67ebaea1cf0349f4c077acabab5f8402eaee7f33c1c1bb54a5777e25020bc85"
+      "prompt_sha256": "b41d4ee0dcab0e7c5bee52b5a820df2c1588db7c73ee1562082c9b3459d53dfd"
     },
     {
       "id": "A812_PB_LIVING_HERO_v1",
@@ -1009,7 +1030,7 @@
       "output": "renders/A812_PB_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a777685ff20844bc9c6bc8ff008bfd75196aef9ba28293d7b485ae305d9aa3ca"
+      "prompt_sha256": "d834669a13de9103b2ed7376349f2e7fb677b81e2a7856e40850e664c404e2b2"
     },
     {
       "id": "A812_PB_MASTER_HERO_v1",
@@ -1028,7 +1049,7 @@
       "output": "renders/A812_PB_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8c4afe135d110aaa372897588a021a35a35c4f37b98a1e0bf5ce103cec699fb9"
+      "prompt_sha256": "9fc86eadbc6aa38feda3a6e0313f295af0711294f06445941024860cbacd7a31"
     },
     {
       "id": "A812_PB_BED1_HERO_v1",
@@ -1047,7 +1068,7 @@
       "output": "renders/A812_PB_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dbd493432d2fc38f4d624ace26c39a7f808d2ba1b4e2c50634a3b034f3a90fd4"
+      "prompt_sha256": "40c709739b80ffd492e813dd143ce7c72b374b79dc5cc0bb8c6109244251dd60"
     },
     {
       "id": "A812_PB_BED1_MEDIA_v1",
@@ -1066,7 +1087,7 @@
       "output": "renders/A812_PB_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "29714c040d7aa238cabfbf89473370595d8d8860ab72ae4692d349dc449da672"
+      "prompt_sha256": "cfb97e3878504ddfa8e821f8a1760e1ac5560c8c58ea5cd7d479a2624842cb54"
     },
     {
       "id": "A812_PB_BED2_HERO_v1",
@@ -1085,7 +1106,7 @@
       "output": "renders/A812_PB_BED2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "14ea0432c071dc3bb1caa5a4ed4946b01e030be3bcee8d2fab8c46740a00c291"
+      "prompt_sha256": "8ba910d41a07d4d15e958660cc6d9d85ed0950ae889d7268b2c757b27b0a4584"
     },
     {
       "id": "A812_PB_BED2_MEDIA_v1",
@@ -1104,7 +1125,7 @@
       "output": "renders/A812_PB_BED2_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d99170773085c1de9a9733b7fb3fadf9d172ebc08a38b5faa03bcba898fc698a"
+      "prompt_sha256": "0b7d35ff9348f91ae299de8740a6e3e1a447f768b940bde9d413a6092ed47de5"
     },
     {
       "id": "A812_PB_MASTER_MEDIA_v1",
@@ -1123,7 +1144,7 @@
       "output": "renders/A812_PB_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "81b28e49bac4e7f3262562ac74295470aec198d04217389a1a3d305a2bd989ab"
+      "prompt_sha256": "d5d4719a1e82af975a2bb87f8b1a0cda4399bc519c1b3cba2c6b46a578c18c6c"
     },
     {
       "id": "A812_PB_GARD3_HERO_v1",
@@ -1142,7 +1163,7 @@
       "output": "renders/A812_PB_GARD3_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "469881122740071b8a1afc7db5c64b8314d87de58790912f90c6c9cc756b3707"
+      "prompt_sha256": "e148ce184951006fca1304771f763bf9189af53c945e1ecb9233ed050893fad6"
     },
     {
       "id": "A812_PB_LIVING_WINDOW_v1",
@@ -1167,7 +1188,7 @@
       "output": "renders/A812_PB_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0569196afc220b2beef37b10abeabb850a3019dfa2bbf306c2de7c63f5796b90"
+      "prompt_sha256": "11934171b4c2b25a83ebce1f110d742801acb9419c8d2fcf0a3d30ce26b80fd1"
     },
     {
       "id": "A812_PB_KITCHEN_HERO_v1",
@@ -1192,7 +1213,7 @@
       "output": "renders/A812_PB_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "347f363086df1de1b71449d263f6540a0b0575cb3939005936785be8ea4c9c57"
+      "prompt_sha256": "8990f551db0abdbe1da9022d3f77f1000a9d593949fd7b725c95c515bd68f85d"
     },
     {
       "id": "A812_PB_ENTRY_HERO_v1",
@@ -1211,7 +1232,7 @@
       "output": "renders/A812_PB_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "27227ca227d4373726b2a4fd147f4e6e6dc985319ceec78e56c1261a806ee66f"
+      "prompt_sha256": "7edcf095f95f9e306f7ff1a2fe766da47988dadf43fc080e5d07f2544c0c29bf"
     },
     {
       "id": "A812_PB_BATH2_HERO_v1",
@@ -1232,7 +1253,7 @@
       "output": "renders/A812_PB_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "59b26ab87d482a7c9ea645362c15184fc0d2a74d19dab19cf418575f7bc9c6b7"
+      "prompt_sha256": "339dae637c22ff1af7fabe0338705bcb041b4128e55e0b9e38eaf56e734d1da5"
     },
     {
       "id": "A812_PB_BATH08_HERO_v1",
@@ -1253,7 +1274,7 @@
       "output": "renders/A812_PB_BATH08_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "df59f54636cc8789dbb39dc2f0ca215c550cbf013358171f130a71d5eff515e3"
+      "prompt_sha256": "6498443b4fcf41dcf1c15a5c6d5f3ccd459f2ac317d334fdf43b2088aa084fcc"
     },
     {
       "id": "A812_PB_UTILITY_HERO_v1",
@@ -1272,7 +1293,7 @@
       "output": "renders/A812_PB_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9a33a37aa246c1ffd30991bc6e9e2b3da44761f4607a4c81d4100fbebd275e8f"
+      "prompt_sha256": "6d2e26971aa7affe8c37b328e96063dfbc6fcad8932a498b7bc7d29224283058"
     },
     {
       "id": "A812_PB_HALL_HERO_v1",
@@ -1291,7 +1312,7 @@
       "output": "renders/A812_PB_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a3a723093112036795b58d4ca20b248b9c4a802deb635bfbf25df4a7f88f1e75"
+      "prompt_sha256": "c06861b2fbbfc08d874ac40a75471548fbe2326e6e01722a505b25e813aa557c"
     },
     {
       "id": "A812_PB_BATH2_SHOWER_v1",
@@ -1312,7 +1333,7 @@
       "output": "renders/A812_PB_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "934cf7be87d02b901e53ce8866efbe1bcc058b5710b2f8059fa02df2c20b8abb"
+      "prompt_sha256": "54f478b2c0ea466b71cb5822a8aad97f24ab6c6182ecff3f99665e10406fcead"
     },
     {
       "id": "A812_PC_LIVING_HERO_v1",
@@ -1333,7 +1354,7 @@
       "output": "renders/A812_PC_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7064ae9887bd377da6b33617fa4d75f75c89e58beef48fb0616b2d3883fd52f7"
+      "prompt_sha256": "d24660d6278fe262c3aa91a07d68a1adeb14899ef5224a121a0396d7183aadb2"
     },
     {
       "id": "A812_PC_MASTER_HERO_v1",
@@ -1352,7 +1373,7 @@
       "output": "renders/A812_PC_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b3c74c4c8b539d59f65ae3cfe577df4c1503cfce619b9e288874ec723b272a23"
+      "prompt_sha256": "07d2b6b49e236dd4f591f48d80147e9a101761e7c63d0de7711be4354579801f"
     },
     {
       "id": "A812_PC_BED1_HERO_v1",
@@ -1371,7 +1392,7 @@
       "output": "renders/A812_PC_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2bdf7a75d59df6ecd16f06a1cf90eb1a2b52822b5fdfbece4c9cfe4b26dbcb39"
+      "prompt_sha256": "1f2847f610368ca7b74d96c619ef9e730098795126477d0985ffc9eade2507f9"
     },
     {
       "id": "A812_PC_BED1_MEDIA_v1",
@@ -1390,7 +1411,7 @@
       "output": "renders/A812_PC_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "66e5444d34c10fea268fb2a5eab7ad104e3d286444d946ee6958e20e72868894"
+      "prompt_sha256": "780b6e653985fa96de8fedd2d5cbda5cb633f876b9569a7a7d8851e9456139e7"
     },
     {
       "id": "A812_PC_BED2_HERO_v1",
@@ -1409,7 +1430,7 @@
       "output": "renders/A812_PC_BED2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b2f6024f5a460ba6dad3828408945d08d78e2fde8311aa426a761ba1f334a896"
+      "prompt_sha256": "3b86ef076f72d4a86945d5de04d7a863781a15db5cd308bcabbfff63e4fe0b05"
     },
     {
       "id": "A812_PC_BED2_MEDIA_v1",
@@ -1428,7 +1449,7 @@
       "output": "renders/A812_PC_BED2_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "321045a16e9b34045ed98dee4becd4301b0bb99579e179da0bf080008886c12b"
+      "prompt_sha256": "bc2c6c30d4d557d04ac53f58d8ceb6adef3129dcc1e3f0c6ede751f3ac912764"
     },
     {
       "id": "A812_PC_MASTER_MEDIA_v1",
@@ -1447,7 +1468,7 @@
       "output": "renders/A812_PC_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "701ff30c9945539fbf582a0da2684f4a222836e77792bb72e67f0e2b8aa91768"
+      "prompt_sha256": "c0da269c6231be165df7dd1e7b881dc8e23836b1c3d2edc6065c5bc2bf7d605e"
     },
     {
       "id": "A812_PC_GARD3_HERO_v1",
@@ -1466,7 +1487,7 @@
       "output": "renders/A812_PC_GARD3_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "63538d590b9b9c864029fa6ead7b4e347f2b465a902a7711b60ac932253d5821"
+      "prompt_sha256": "913e67058bdb03918bc3a00dd0c2300ced3c4267c5bf78ac65ca91ef4761efdf"
     },
     {
       "id": "A812_PC_LIVING_WINDOW_v1",
@@ -1487,7 +1508,7 @@
       "output": "renders/A812_PC_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "67601c88154301c5623f510fa543254e5873141dce8695fb39b412aa42501c4f"
+      "prompt_sha256": "6a6cba554c90d33b59f9074b7cec6c585b20641d3474274f9e30914a5a073af9"
     },
     {
       "id": "A812_PC_KITCHEN_HERO_v1",
@@ -1508,7 +1529,7 @@
       "output": "renders/A812_PC_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "34cc839199ff6e79152aea4078651a7a6972b9f907dad8bf800d674ae8b8bc87"
+      "prompt_sha256": "2c4dd9ca42ed43d32ae6e800befc573839d25588263c8a31c00b389d511c41a3"
     },
     {
       "id": "A812_PC_ENTRY_HERO_v1",
@@ -1527,7 +1548,7 @@
       "output": "renders/A812_PC_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f62f392780d638e3d0dd0785260299d915938c78b8f668feb57ad21cb0c285c2"
+      "prompt_sha256": "f8261ad69ed472f70aabaae8598dd27b1ce0452dfff0139682bb6799a3cb67e2"
     },
     {
       "id": "A812_PC_BATH2_HERO_v1",
@@ -1546,7 +1567,7 @@
       "output": "renders/A812_PC_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "82fcedad646f8b4614a2c418dc640292c888bc22a216822bbc0bdad4ec2755cc"
+      "prompt_sha256": "40dafe4ba3e45f4d5ff5d5150b1d89bbad0d78574705621665469c6e5f8176d2"
     },
     {
       "id": "A812_PC_BATH08_HERO_v1",
@@ -1565,7 +1586,7 @@
       "output": "renders/A812_PC_BATH08_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3641aea62a8d96bd332cfe3c692beb63462cb85e419cfe58b01c4b43f04cbbce"
+      "prompt_sha256": "f4cdf3937656c1b49b854b2336dc42356d322942242a22abaf11cbd1f157aec5"
     },
     {
       "id": "A812_PC_UTILITY_HERO_v1",
@@ -1584,7 +1605,7 @@
       "output": "renders/A812_PC_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d56512b36143d82df04c15730356cdc4da46d299243061e9f81d1e0aa13ffa80"
+      "prompt_sha256": "a90d11a402c5be6a6476d108ced7fb57c0ba27cb101b79df4f017fe4c733d89a"
     },
     {
       "id": "A812_PC_HALL_HERO_v1",
@@ -1603,7 +1624,7 @@
       "output": "renders/A812_PC_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0e053db743b66624afe731c40c419a8aa355f1a2ba72122adf4e2979ef9f7053"
+      "prompt_sha256": "49b45bdcc9a6488487728b2fb1e927c713194a735c05cea52f054d780a5d47f9"
     },
     {
       "id": "A812_PC_BATH2_SHOWER_v1",
@@ -1622,7 +1643,7 @@
       "output": "renders/A812_PC_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6c3fe89b211c2f410de527f484339efe595566ed6db9b7f35a626b09aeee7a36"
+      "prompt_sha256": "294471569d64454993f4d8a5b7495ec303f2937a5791b1f706cb1281c0b45c10"
     },
     {
       "id": "A812_PD_LIVING_HERO_v1",
@@ -1649,7 +1670,7 @@
       "output": "renders/A812_PD_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c1a720fc0321ad0b3e8d49ae3568c9645f2c456e26de99faa3d31db30f130af3"
+      "prompt_sha256": "bb38e74e9a9baa4d03593d0d4182d7715862714a684867cb644bd059228964a0"
     },
     {
       "id": "A812_PD_MASTER_HERO_v1",
@@ -1668,7 +1689,7 @@
       "output": "renders/A812_PD_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9fb8b1df60b2843b99ee24d1c3315fd40ae6c3c5f55f2593fa5f3e6980fbf2cf"
+      "prompt_sha256": "fd461bdca81a98ba72da1f42f39a37c53257de1d4bcfaf8b1b753f38474e8613"
     },
     {
       "id": "A812_PD_BED1_HERO_v1",
@@ -1687,7 +1708,7 @@
       "output": "renders/A812_PD_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "233b4673ea654c367c3667d0aeb93f87abf1d121f25276d7444179848d02c5de"
+      "prompt_sha256": "313a5dd737f76510c6ce3b22837300a2f700d1107c785afa93a884c4e1e04367"
     },
     {
       "id": "A812_PD_BED1_MEDIA_v1",
@@ -1706,7 +1727,7 @@
       "output": "renders/A812_PD_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "263594de05e7c71cc586a7d88001308c1001faf5d31109520782d72c7188656c"
+      "prompt_sha256": "f7c7121621568692941b5b981c1440efa230721f5079db65928fa7fbc7f9a677"
     },
     {
       "id": "A812_PD_BED2_HERO_v1",
@@ -1725,7 +1746,7 @@
       "output": "renders/A812_PD_BED2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e96e02993fa0120bd5347e9e4ceed30d1458ad1cab072af4ff06bd25de9c6a52"
+      "prompt_sha256": "305046f1fa36e7adc83d894087bc0c59c4c654072cca189d0480cc2684f33db8"
     },
     {
       "id": "A812_PD_BED2_MEDIA_v1",
@@ -1744,7 +1765,7 @@
       "output": "renders/A812_PD_BED2_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dfebb64d4be702d1ac8d16288c760ed30886c2811f9b52c2a4dd017bf00bc00d"
+      "prompt_sha256": "e17a6b4c28fae6bc5a7ac765ddb976ab911c4ce01b5e1b9c61bfde80e1ebf3c5"
     },
     {
       "id": "A812_PD_MASTER_MEDIA_v1",
@@ -1763,7 +1784,7 @@
       "output": "renders/A812_PD_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8465e8afcc2884dec70387d8dbd1df7941e601a6b65da5391cd7d3d645a85367"
+      "prompt_sha256": "52eef89e2309b9640af583468189d18386e62e09d6b6cb71838561ec2787591d"
     },
     {
       "id": "A812_PD_GARD3_HERO_v1",
@@ -1782,7 +1803,7 @@
       "output": "renders/A812_PD_GARD3_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a3aa07a6b8999e134c473a691dc4833552ee77b2368968474de59cd2984f2283"
+      "prompt_sha256": "e3da2f2062407fb217efce9ced28dace839a034a12d4b63ca90275c30c301b74"
     },
     {
       "id": "A812_PD_LIVING_WINDOW_v1",
@@ -1809,7 +1830,7 @@
       "output": "renders/A812_PD_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5fc6db0f0afeca90836177ddd9848d7564c92598dceea348f1b7fcccd9fd7420"
+      "prompt_sha256": "7e470c3ab8b1e45d4ea8236b01aab8d505a67c984aa793249ebaf633d906f651"
     },
     {
       "id": "A812_PD_KITCHEN_HERO_v1",
@@ -1836,7 +1857,7 @@
       "output": "renders/A812_PD_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5232c99b7deb735a7ecefec90012100d11f5c1572b1a68c2f0a106e907d01c37"
+      "prompt_sha256": "55c11de4f84b426ffa37c261a6357bb561c81f0fa3adc4ad9a93ed5e9ff4a702"
     },
     {
       "id": "A812_PD_ENTRY_HERO_v1",
@@ -1855,7 +1876,7 @@
       "output": "renders/A812_PD_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "36c82fa875f78a3059831df7ae3dc75e7532d77f25777457265a900a9978e38a"
+      "prompt_sha256": "be874ac677d805a6efe7ec614a7796ccd61e585aa2d1aaa9c4ae890728eb78de"
     },
     {
       "id": "A812_PD_BATH2_HERO_v1",
@@ -1874,7 +1895,7 @@
       "output": "renders/A812_PD_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7ff7566b64c7138e8c0ef4cd0618d80ebdfcd94673826b4399562e4e382df02f"
+      "prompt_sha256": "23cfaadb3939b35fa91c46fdb337c0a1f4367b0d18298932d54952ebdf77a9c1"
     },
     {
       "id": "A812_PD_BATH08_HERO_v1",
@@ -1893,7 +1914,7 @@
       "output": "renders/A812_PD_BATH08_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "52e6c4c94ab033c02a0fbc5379fa00f8cf16e9a34b075179f31cb6db1cabbd6b"
+      "prompt_sha256": "cca410173090f8ab1cc875396f02b95ee47d915b29acabe549dced7a490ee54b"
     },
     {
       "id": "A812_PD_UTILITY_HERO_v1",
@@ -1912,7 +1933,7 @@
       "output": "renders/A812_PD_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "68856262aa668fa96c50cb74d9c84d4e1905e64547c2454d9906a5097346c0eb"
+      "prompt_sha256": "c1e5363605d4a1609309c9b0358e332e9ac82a6df5b17f08780b983fedd90fca"
     },
     {
       "id": "A812_PD_HALL_HERO_v1",
@@ -1931,7 +1952,7 @@
       "output": "renders/A812_PD_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "fcda6b2ce9ea52a832295a321e83aa985bcbed3735bd99772c34ad740a653a1c"
+      "prompt_sha256": "f0ce840f0e6138ac0707edcb6cd0dcac045b592f09915c4a17ad561484087146"
     },
     {
       "id": "A812_PD_BATH2_SHOWER_v1",
@@ -1950,7 +1971,7 @@
       "output": "renders/A812_PD_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a1be6531cc3c913c145f6969f607ef1fb0a1177ade201f2ae1573340071df09d"
+      "prompt_sha256": "eda9c8935eae7b3db401cc16390c7cf569b3ec26b7ae3db14437f9bbf6a01773"
     },
     {
       "id": "A811_PA_LIVING_HERO_v1",
@@ -1971,7 +1992,7 @@
       "output": "renders/A811_PA_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3225400f298fdc5e9a0958297d17e570cc53ed9637f031effd81d7363372a502"
+      "prompt_sha256": "8ed3d7d221051d574fc50c8ed138a4d47182d49720e5ccc133f6a0694a128744"
     },
     {
       "id": "A811_PA_MASTER_HERO_v1",
@@ -1990,7 +2011,7 @@
       "output": "renders/A811_PA_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "33d1305660bd9bc9d3b89413c1f934079ae64c730a8ec1e4b8615d2a1fbe2839"
+      "prompt_sha256": "babc46fa495a872f67e648413094954aec5a4dd7312ddc8ac38171af9c9c8127"
     },
     {
       "id": "A811_PA_BED1_HERO_v1",
@@ -2009,7 +2030,7 @@
       "output": "renders/A811_PA_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "89b1e725d79dcbaab6e879b60ebeedec92bcf8e8ff5702a96843eb5a040272c4"
+      "prompt_sha256": "07cb97da9b4db1a6547ccc96e8bbdbb733dd85762d8e46811ef9d29811359907"
     },
     {
       "id": "A811_PA_BED1_MEDIA_v1",
@@ -2028,7 +2049,7 @@
       "output": "renders/A811_PA_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "60db9751bf3d86359f6fde2e61c4419e063b85dc3212eeffeb9e11ab89b2c08d"
+      "prompt_sha256": "6e8768c395fe4b2a8ca355a62138f598c450332ecadbca4fc35fb38256832a01"
     },
     {
       "id": "A811_PA_MASTER_MEDIA_v1",
@@ -2047,7 +2068,7 @@
       "output": "renders/A811_PA_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3dd38a3972815b74f1729ebed23be5abf02f0a90c71645abfb33c3f1789da864"
+      "prompt_sha256": "675e5cd7feda9b86b0d10d0f5213e65827fb2595275c16201a1c6144338c2471"
     },
     {
       "id": "A811_PA_MASTER_GARD_HERO_v1",
@@ -2066,7 +2087,7 @@
       "output": "renders/A811_PA_MASTER_GARD_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "aae4d634147af512102bda7aa20705558abad46114bb3524acca8d4cd0d230e2"
+      "prompt_sha256": "81cab5775b7d53c424ec24a01d9c6089d7718fb28e5b0946a687102552768441"
     },
     {
       "id": "A811_PA_LIVING_WINDOW_v1",
@@ -2087,7 +2108,7 @@
       "output": "renders/A811_PA_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ffb526113d4243d01526b40aa00c3c4ee8ac83520de829279b2c60da055f6650"
+      "prompt_sha256": "91a519079c8f7d99d50623df7ded34e32726499490b4d911a7e16547e1842ab3"
     },
     {
       "id": "A811_PA_KITCHEN_HERO_v1",
@@ -2108,7 +2129,7 @@
       "output": "renders/A811_PA_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "80a7be3f66dd0d9b070dce6d63eb0f45d0b56dcfb44c892975e6c6bafb045f42"
+      "prompt_sha256": "0680a0a3be4b9a23aa39970cccccfdc5fe7f9b2a437b5173daff83d11147d7cf"
     },
     {
       "id": "A811_PA_ENTRY_HERO_v1",
@@ -2127,7 +2148,7 @@
       "output": "renders/A811_PA_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0fd94ed7549eeb8adcf6cfb6266d1fa914f4bf704b14a9cbd46d5782a7fa0ad9"
+      "prompt_sha256": "372992cdcdd05d5a9766823a90a8c06a67016a3c4557f1651794ed2caa96b729"
     },
     {
       "id": "A811_PA_BATH1_HERO_v1",
@@ -2148,7 +2169,7 @@
       "output": "renders/A811_PA_BATH1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "447188a5215e0af5a1cfece1b2a731029f1f7fbb735a1c2b5d0f0baeb576ed19"
+      "prompt_sha256": "adb1b11917ad8b47b1e285a6825647946e8b3bd2e78639f83779a8d1fcae44d6"
     },
     {
       "id": "A811_PA_BATH2_HERO_v1",
@@ -2169,7 +2190,7 @@
       "output": "renders/A811_PA_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c407df24f4b7f42b36c2c1a5061042ec4c2873b796a64530e69ffe741e92e7bf"
+      "prompt_sha256": "b211e5ad79b0e82dcfb55c8e8c193f246f58e6717ca512e24dc7a2dc80197945"
     },
     {
       "id": "A811_PA_WC_HERO_v1",
@@ -2190,7 +2211,7 @@
       "output": "renders/A811_PA_WC_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d9233f08a0ec6f60381aa4d061d91f81d6bbbbe0dae132b76255492c3d3dfa30"
+      "prompt_sha256": "af3740aef46c6a7b6c166feeb73e8e51cd8c56ee9511f763450b2c5288ea0a48"
     },
     {
       "id": "A811_PA_UTILITY_HERO_v1",
@@ -2209,7 +2230,7 @@
       "output": "renders/A811_PA_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "fcaa6f39e45596916ffda2dbbcae598d50d555ca1240e7944ddbd08849ba2812"
+      "prompt_sha256": "786ae8d1a5c88fca5486d3075a66256ebc9848563748f4fdd601b15ededf6769"
     },
     {
       "id": "A811_PA_HALL_HERO_v1",
@@ -2228,7 +2249,7 @@
       "output": "renders/A811_PA_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d3d3c4a128926fb4a4658d035b7609c305bdd77001429a29d2a9355788d9d4f8"
+      "prompt_sha256": "788dac66edfc49bf9548fba810b653507135f7a26d395c0030dd484793490295"
     },
     {
       "id": "A811_PA_BATH2_SHOWER_v1",
@@ -2249,7 +2270,7 @@
       "output": "renders/A811_PA_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4033f8d425f9e70db3991851440448651aac5d7a0e410e2af3b7628d38adf4d4"
+      "prompt_sha256": "ff893e78adde04a580693c5597640bda459b1301d0af460e4ccd46de28ac79c0"
     },
     {
       "id": "A811_PB_LIVING_HERO_v1",
@@ -2274,7 +2295,7 @@
       "output": "renders/A811_PB_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "54a30a118a0b62bd61ac1f4954f2c8aa628c9657198d9ac5a2c6e3c86a0c505b"
+      "prompt_sha256": "c946c4ce36a4ba7f93617b691518e994fd6cbe4857933c8ebede24f3e127264b"
     },
     {
       "id": "A811_PB_MASTER_HERO_v1",
@@ -2293,7 +2314,7 @@
       "output": "renders/A811_PB_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f9b4a182ed1f1ae5a689dbe5203e9dfc952c8ee94ea4d1c5c4e457b6589f01a6"
+      "prompt_sha256": "7fa5077530c484f0b421e99b9e11ecc175657b6e70ba05a04a7ddd7cd8fd7fc0"
     },
     {
       "id": "A811_PB_BED1_HERO_v1",
@@ -2312,7 +2333,7 @@
       "output": "renders/A811_PB_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c67010fa17c08f515a60748d71c01f3fc71b0c81460c05172351e5ac65093091"
+      "prompt_sha256": "5aab20e56ec04d928827ffa9c20fb8bf708a589231bb6ea7309797561eac75c5"
     },
     {
       "id": "A811_PB_BED1_MEDIA_v1",
@@ -2331,7 +2352,7 @@
       "output": "renders/A811_PB_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "fd7c54b93b317fc1db24958f944e3b36d64e67b8cc4e3ba524d9e836492bc476"
+      "prompt_sha256": "5cd3e66eda61da0dfd2712e49dbeac5d321fdc3f0776f2fd645de5ef17d27297"
     },
     {
       "id": "A811_PB_MASTER_MEDIA_v1",
@@ -2350,7 +2371,7 @@
       "output": "renders/A811_PB_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a461b1100140ef7c5db7c1ca633020ace18f39563064767ceadda09c6e06de6f"
+      "prompt_sha256": "10391297715d636f4c844777888ada2d9afed48b1e0d673ff1e6383b41f1c10a"
     },
     {
       "id": "A811_PB_MASTER_GARD_HERO_v1",
@@ -2369,7 +2390,7 @@
       "output": "renders/A811_PB_MASTER_GARD_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "911b9ee867bd51935aea251ab87d85c0e48fc31910a66bbc6ab98b24d1cd1c1b"
+      "prompt_sha256": "c6d78cdb5cb3645aa75f09ace865473907bab0aecb757280d509703cb0186886"
     },
     {
       "id": "A811_PB_LIVING_WINDOW_v1",
@@ -2394,7 +2415,7 @@
       "output": "renders/A811_PB_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1143bef7f1f40032beffff328bfdaf5fab4d006b6050edfb39720b793d9ca782"
+      "prompt_sha256": "70b54fc1bff474c9153d8acbe5d6fb38b6b6041d01485c899b318f373926c3f3"
     },
     {
       "id": "A811_PB_KITCHEN_HERO_v1",
@@ -2419,7 +2440,7 @@
       "output": "renders/A811_PB_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3cc32db3658edff733d3016ccc31bdc8f456535e0803b8d39b4a92fde2c08d80"
+      "prompt_sha256": "224815f184934913b2bf7c63917ec0e99d9d9b103f1951bb381047fa954996b4"
     },
     {
       "id": "A811_PB_ENTRY_HERO_v1",
@@ -2438,7 +2459,7 @@
       "output": "renders/A811_PB_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c906f0202025d4fc272a25b27b6661f522e56d6e82ef5647774e421575d93cb6"
+      "prompt_sha256": "632ab52ac729a2faa5fa0bee95b77ad0f6217c1b1d125e38acedcf8b78c45b43"
     },
     {
       "id": "A811_PB_BATH1_HERO_v1",
@@ -2459,7 +2480,7 @@
       "output": "renders/A811_PB_BATH1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "26dfd89edd10df0421e2052bcd00af89b98362575efc9055d5950481caece8eb"
+      "prompt_sha256": "dc87e2cc253c4d06ad955bf8da5ab613ec1772f3947eab0033a5b80dbb6d2032"
     },
     {
       "id": "A811_PB_BATH2_HERO_v1",
@@ -2480,7 +2501,7 @@
       "output": "renders/A811_PB_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f1e9030891691d96c8ace208d034919df4f5ac1ec46a977661aea5ecb3a0c849"
+      "prompt_sha256": "11ae29fdf31d84fe1e9a10abf0e352c39239536988781d8cf918419223bc57d6"
     },
     {
       "id": "A811_PB_WC_HERO_v1",
@@ -2501,7 +2522,7 @@
       "output": "renders/A811_PB_WC_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "523bab95cc54c2b077406b9a3abc817c38a541a6cc3b25eb7ca572f8a3535c3b"
+      "prompt_sha256": "c5aa5a37a9099272795e64aaf144b7362fff49cce6a5e18558bdaca657d3baf5"
     },
     {
       "id": "A811_PB_UTILITY_HERO_v1",
@@ -2520,7 +2541,7 @@
       "output": "renders/A811_PB_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e75291a45c32ebcd0ab61303d4acb72cb918fd6224898389ad4830addc1838cf"
+      "prompt_sha256": "9f8064bb9c4e1c55cf3160b924d69504ed370b515a48474583bf60a7b52c69a3"
     },
     {
       "id": "A811_PB_HALL_HERO_v1",
@@ -2539,7 +2560,7 @@
       "output": "renders/A811_PB_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "289c0e316de2c57bc3e3e0e27e12c0362fe8d75a44d007c2d8a9b1167c43cafe"
+      "prompt_sha256": "ab82ddb8cdd1784919ea4c494721282bb5c64f589d3bbb93f15a69569ad28d3e"
     },
     {
       "id": "A811_PB_BATH2_SHOWER_v1",
@@ -2560,7 +2581,7 @@
       "output": "renders/A811_PB_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2fa38efd0d33b62381da34e9fa652ed7229bd9110ab611329cf8a8f2c993a367"
+      "prompt_sha256": "d826cf05d9cfb1aa468c91b3bfbc742c8862ac36cc3e3c42b32ed2bc6e47c30b"
     },
     {
       "id": "A811_PC_LIVING_HERO_v1",
@@ -2581,7 +2602,7 @@
       "output": "renders/A811_PC_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b497d5bc2a6e0a2262154abbf8a3365d3f5ad6e7c1771d10822388576080477c"
+      "prompt_sha256": "303bc522642294f472dde4e4840a8796d2de505d151ece7d3f0c5f3790501861"
     },
     {
       "id": "A811_PC_MASTER_HERO_v1",
@@ -2600,7 +2621,7 @@
       "output": "renders/A811_PC_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "69ace8140b8b9cc86c1e6e576fe323a2f40442a0e75d4d41b284784230502e5b"
+      "prompt_sha256": "0ee57b7a780869a958c45ae56dca7e6bea6828ecd8e4a347b5660770bef01563"
     },
     {
       "id": "A811_PC_BED1_HERO_v1",
@@ -2619,7 +2640,7 @@
       "output": "renders/A811_PC_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "953fef718c5b271e1ba5c6bf1205a4b523807a27f2c18d0bd9dc7cb925da004e"
+      "prompt_sha256": "67d712ea672356a89a08cebdad06b1e4655b98d2a298fd55e0f6497fa938543b"
     },
     {
       "id": "A811_PC_BED1_MEDIA_v1",
@@ -2638,7 +2659,7 @@
       "output": "renders/A811_PC_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "eb9ebcba5109e501b3d7ac3039f51064bcc4db285d16711f71391e4a42802c97"
+      "prompt_sha256": "2b7510b246f058c0f341aa854a29c73d8b279ad817f24125cc7afcac835ffa08"
     },
     {
       "id": "A811_PC_MASTER_MEDIA_v1",
@@ -2657,7 +2678,7 @@
       "output": "renders/A811_PC_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4beac5f8ca5f98de84b493d105b420df732db6e66f9c91d22cecc343ac528091"
+      "prompt_sha256": "bf3b133b3afa813fb1a77f8ea78d40881cc6c4ec91144add655cdd063bd3a3ff"
     },
     {
       "id": "A811_PC_MASTER_GARD_HERO_v1",
@@ -2676,7 +2697,7 @@
       "output": "renders/A811_PC_MASTER_GARD_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6b33ede42b6362cf2f7bca8ff5a2938d9d4ff83bd02a330df0df20d64e55f08f"
+      "prompt_sha256": "efaa776de569f347c15e9f6510dbc0459b9abcffb79badffd198c6a55d8e3b0f"
     },
     {
       "id": "A811_PC_LIVING_WINDOW_v1",
@@ -2697,7 +2718,7 @@
       "output": "renders/A811_PC_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8556d5e10b4da55446590abdf81fa439e8419592ed2c9ce549fd2c7c17410d44"
+      "prompt_sha256": "05fea452849fc531b100de1f6a77b712e69ef48de7165bcc695679213c9337f7"
     },
     {
       "id": "A811_PC_KITCHEN_HERO_v1",
@@ -2718,7 +2739,7 @@
       "output": "renders/A811_PC_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3acaa894b47e673fd3e9981ceffa8319c3e8d90fbb108b7cea9ee5cb3a8f20c6"
+      "prompt_sha256": "22b2410274f13003bb5d3f4bd2a66ba9cb27e89764c9a0c7f01a133f6441d152"
     },
     {
       "id": "A811_PC_ENTRY_HERO_v1",
@@ -2737,7 +2758,7 @@
       "output": "renders/A811_PC_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d5d043520daa1abbbdf915a7fa5330ad6622d194614201605592ff2f7cd19c16"
+      "prompt_sha256": "dcdd71d9c3655eae9544d5fe56e8981f037f11c6fcd043a067806d1925a0f7e2"
     },
     {
       "id": "A811_PC_BATH1_HERO_v1",
@@ -2756,7 +2777,7 @@
       "output": "renders/A811_PC_BATH1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "740e07bf2d2074fcd2ce83488f3ab8119572fdc4df47c317cc3083b2476896f1"
+      "prompt_sha256": "163c82d6780ceaa6a9073038bf7a80822b3d29c4490d5c2be0dc3ecce61ffb75"
     },
     {
       "id": "A811_PC_BATH2_HERO_v1",
@@ -2775,7 +2796,7 @@
       "output": "renders/A811_PC_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8ff5b1190d9ab7e6c73cd3c8c02ae9108c33b20514ffef4357d3f9df989ce77b"
+      "prompt_sha256": "80a6dfe894e7db8e89f76587416114ca7fbe9f0800afefe6cf2923d76756bdb8"
     },
     {
       "id": "A811_PC_WC_HERO_v1",
@@ -2794,7 +2815,7 @@
       "output": "renders/A811_PC_WC_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1275a1833ce811af851957ffff5824a8b36d35fb7134b724e3066822bd057b1e"
+      "prompt_sha256": "6e6fbc90996b0857fed625abf4ea2a2ea4c167acb850feffbf82bb9572714282"
     },
     {
       "id": "A811_PC_UTILITY_HERO_v1",
@@ -2813,7 +2834,7 @@
       "output": "renders/A811_PC_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d0b488bd07a6b01d3e0660aae7d9f3c72f507ca64540f244d46fb10498d76676"
+      "prompt_sha256": "b2053a91d5a8a523f9846e277f31168ad9a263f2e5dc33c8c21fe4d000a1db83"
     },
     {
       "id": "A811_PC_HALL_HERO_v1",
@@ -2832,7 +2853,7 @@
       "output": "renders/A811_PC_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ee5952153a6b79010da3f1cecc50e425760f515b5331a9f7a63553668eb572c7"
+      "prompt_sha256": "9c62fa26f276f86c27d65b99636afd4347bed06d9dcf2abb6a01e583294a28fa"
     },
     {
       "id": "A811_PC_BATH2_SHOWER_v1",
@@ -2851,7 +2872,7 @@
       "output": "renders/A811_PC_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "61f0eb8dc09695bb2313c4875f2437f115454d0871a89c798f04301eb37c6d4b"
+      "prompt_sha256": "dd915d6654fd52f64aef8165caa05251edb26a7cd634aaec622d06d6341f7cb9"
     },
     {
       "id": "A811_PD_LIVING_HERO_v1",
@@ -2878,7 +2899,7 @@
       "output": "renders/A811_PD_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c0ebd7a01109660e1409d84dbc3c28cc03856cb9998db13f8ddb11ea20a66d7d"
+      "prompt_sha256": "c453044906282bb46d17f16ab187f658347a4a9e27acdfff7faf3e4adb830335"
     },
     {
       "id": "A811_PD_MASTER_HERO_v1",
@@ -2897,7 +2918,7 @@
       "output": "renders/A811_PD_MASTER_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "886fa766ad9681cb3377d8cdca5546e6efb16a69c7ec755007895dd297397fb9"
+      "prompt_sha256": "3843382a646a63a0f327896115df441dab566bbd9e55fcfe513cc63f30d26f66"
     },
     {
       "id": "A811_PD_BED1_HERO_v1",
@@ -2916,7 +2937,7 @@
       "output": "renders/A811_PD_BED1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5ec6ffa54d997def78ceac0454ff87b21f7c6cd281c24220889c75c67ad49bb1"
+      "prompt_sha256": "04234d12a783bd19c709a253ce97a31d201acd5a2a3fb2637d2aecbe9251b6e9"
     },
     {
       "id": "A811_PD_BED1_MEDIA_v1",
@@ -2935,7 +2956,7 @@
       "output": "renders/A811_PD_BED1_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ee1c6405cd36ed8c3a15782c795ae3baed12beac990608515b704a55d5f9d104"
+      "prompt_sha256": "4d04da9667975e4f836466544b4234ee10dbcf11d17bbce528213d54120b09ad"
     },
     {
       "id": "A811_PD_MASTER_MEDIA_v1",
@@ -2954,7 +2975,7 @@
       "output": "renders/A811_PD_MASTER_MEDIA_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ba17eafba397f57c2fd522d2cd2492b2090e95b50c06ce0b6e6c7e7b42d6eabe"
+      "prompt_sha256": "e7b8d7da74d6568aba95aa5b96579de33b31b5ebfd56de5a7d27aff67992342c"
     },
     {
       "id": "A811_PD_MASTER_GARD_HERO_v1",
@@ -2973,7 +2994,7 @@
       "output": "renders/A811_PD_MASTER_GARD_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f325e7248a51a8152fa45e7116240c338967e81bdbb8050a254cf09cc58cf695"
+      "prompt_sha256": "4fccd5cb7854d6f6096c99502549ef26d4c72751fd7a45ef08827a40e2a4838d"
     },
     {
       "id": "A811_PD_LIVING_WINDOW_v1",
@@ -3000,7 +3021,7 @@
       "output": "renders/A811_PD_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8d2d38dabce3ce3c1e2ce835743c1c0c542c29739a7dce2a3c82ba8f743dcd65"
+      "prompt_sha256": "1fc352fdc3aa0d66ee4f22a10c33eebed992ab4ce66c7a13be8bebbd62958a81"
     },
     {
       "id": "A811_PD_KITCHEN_HERO_v1",
@@ -3027,7 +3048,7 @@
       "output": "renders/A811_PD_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "59f99d406cfefa61e9310e8674237a2170dae6da2c269ec15e13c827912f32a1"
+      "prompt_sha256": "7be6a3e51677a9e19dcb4a21a75731fc3429468a0d44c416539a198932ba7231"
     },
     {
       "id": "A811_PD_ENTRY_HERO_v1",
@@ -3046,7 +3067,7 @@
       "output": "renders/A811_PD_ENTRY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5a8e2eda29397e20e565ca497d1c8943afcf06c1334d916c2e427e950d42819b"
+      "prompt_sha256": "f5f472c3891348645f0519fb0302fbc6eee8ecef78bf040c5a6f60779c6868ec"
     },
     {
       "id": "A811_PD_BATH1_HERO_v1",
@@ -3065,7 +3086,7 @@
       "output": "renders/A811_PD_BATH1_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8414bb03a34c8967f230df517c686d4fceee7b764199f75443bba449725a4411"
+      "prompt_sha256": "1a8e9be3c8f4b9ca33df020b838bba89d2a211b09fd8984f44a20d295900c8f7"
     },
     {
       "id": "A811_PD_BATH2_HERO_v1",
@@ -3084,7 +3105,7 @@
       "output": "renders/A811_PD_BATH2_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "13c6d452c622bda81f94375cbbf4d4ab462b1b281505632ea2ae41a29e042a44"
+      "prompt_sha256": "3325366336ccd8839c133d6070672123aaf2a9af2b146d655c2ea74c9d932c41"
     },
     {
       "id": "A811_PD_WC_HERO_v1",
@@ -3103,7 +3124,7 @@
       "output": "renders/A811_PD_WC_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "718d918f65185d6e7f583da27d4762ae654cc879561367aecb5630560f8dc71b"
+      "prompt_sha256": "d89311d55eb13472435522b02e88075a69cbf34f436c23d4e643ec84931e81b9"
     },
     {
       "id": "A811_PD_UTILITY_HERO_v1",
@@ -3122,7 +3143,7 @@
       "output": "renders/A811_PD_UTILITY_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d033854bddc2c31ff0d5e0eb4b7ba0c3f57a554478f628c283239f2f5c336e8f"
+      "prompt_sha256": "3b051147c9ae36da074094802af750804c504a3891ee9e5b366459d161e20759"
     },
     {
       "id": "A811_PD_HALL_HERO_v1",
@@ -3141,7 +3162,7 @@
       "output": "renders/A811_PD_HALL_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "04dd7a14756ee146eede923376e88a6bf2b4663571786e4928ce962f18127e7c"
+      "prompt_sha256": "ac9afcda6c608edf8e0ea6ebacafd491d38d8a6ad539ac306d198bd49330f361"
     },
     {
       "id": "A811_PD_BATH2_SHOWER_v1",
@@ -3160,7 +3181,7 @@
       "output": "renders/A811_PD_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e82ff1b2da86b75bfa9969800cbc6ce7913a2e5bfd318040fd24a41afa7ca8f6"
+      "prompt_sha256": "051af2927b08301f9c881d7cb41cd7590c41ea1719c77d8611ecb33a061d5453"
     }
   ]
 }

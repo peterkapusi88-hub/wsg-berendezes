@@ -1,0 +1,22 @@
+{
+  "id": "A902_PD_Cam_10_v1",
+  "apartment": "A902",
+  "variant": "PD",
+  "camera": "Cam_10",
+  "kind": "bath",
+  "reference_ids": [
+    "PF23"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+  ],
+  "prompt": "prompts/A902/A902_PD_Cam_10_v1.txt",
+  "output": "renders/A902_PD_Cam_10_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "cd2ddd4f7066125aec3b96785d05d16754e7883ab5eb8f4bbe5b3d41d5babc9a",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ca3ec228-f0b3-4db6-ac1f-e18a6bb2c7ee.png",
+  "sha256": "23e8520ba9719f7947da8e42f06c5866b116161fb808b92b010dec2284cdebef",
+  "generated_at": "2026-11-24T12:54:23.627291+00:00"
+}
