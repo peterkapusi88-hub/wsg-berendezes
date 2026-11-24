@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 60,
+  "completed_images": 76,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -1480,9 +1480,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_LIVING_HERO_v1.txt",
       "output": "renders/A812_PC_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8cc9e7ad518153c1b025d3f37acb3dd7b0a1fea3ca8eec08003f4cc541b1c854"
+      "prompt_sha256": "8cc9e7ad518153c1b025d3f37acb3dd7b0a1fea3ca8eec08003f4cc541b1c854",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-c88f1b7d-b8d1-4c8a-b279-e48e8a257872.png",
+      "sha256": "911f166982b8e6c172d92e58063379609826d437c726e7d36bb18ec8fc739561",
+      "generated_at": "2026-11-24T13:34:53.635902+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_MASTER_HERO_v1",
@@ -1499,9 +1503,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_MASTER_HERO_v1.txt",
       "output": "renders/A812_PC_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "07d2b6b49e236dd4f591f48d80147e9a101761e7c63d0de7711be4354579801f"
+      "prompt_sha256": "07d2b6b49e236dd4f591f48d80147e9a101761e7c63d0de7711be4354579801f",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-23a2fea6-6b8f-43c1-b166-b808a4e5c6a2.png",
+      "sha256": "2b5f5aacee197da2233fcd1bf680870d4a6594969dcdd58e9cad2cbc23a16b11",
+      "generated_at": "2026-11-24T13:34:53.833366+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BED1_HERO_v1",
@@ -1518,9 +1526,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BED1_HERO_v1.txt",
       "output": "renders/A812_PC_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1f2847f610368ca7b74d96c619ef9e730098795126477d0985ffc9eade2507f9"
+      "prompt_sha256": "1f2847f610368ca7b74d96c619ef9e730098795126477d0985ffc9eade2507f9",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-124397f6-74f1-40fa-8d3a-36d7cf59b70b.png",
+      "sha256": "9ea2222f55b4646379eeec3ed1b9632120c9999ee79d578605bee4d83e197700",
+      "generated_at": "2026-11-24T13:34:54.150326+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BED1_MEDIA_v1",
@@ -1537,9 +1549,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BED1_MEDIA_v1.txt",
       "output": "renders/A812_PC_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "780b6e653985fa96de8fedd2d5cbda5cb633f876b9569a7a7d8851e9456139e7"
+      "prompt_sha256": "780b6e653985fa96de8fedd2d5cbda5cb633f876b9569a7a7d8851e9456139e7",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d69eab4a-3f1b-4c0c-a2dd-10fa42d70628.png",
+      "sha256": "9cd46fdb744956a9fae74f6c61a9662b4ee04595eef92961eb35ed490d35c673",
+      "generated_at": "2026-11-24T13:37:19.292252+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BED2_HERO_v1",
@@ -1556,9 +1572,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BED2_HERO_v1.txt",
       "output": "renders/A812_PC_BED2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3b86ef076f72d4a86945d5de04d7a863781a15db5cd308bcabbfff63e4fe0b05"
+      "prompt_sha256": "3b86ef076f72d4a86945d5de04d7a863781a15db5cd308bcabbfff63e4fe0b05",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9152b65c-0077-44bf-a744-51c8d15aa49f.png",
+      "sha256": "bc6694f6c7cce26c9766687eee8659ab589b1128ebdeaaf3e35e44f28bf4ac9e",
+      "generated_at": "2026-11-24T13:34:54.403012+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BED2_MEDIA_v1",
@@ -1575,9 +1595,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BED2_MEDIA_v1.txt",
       "output": "renders/A812_PC_BED2_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "bc2c6c30d4d557d04ac53f58d8ceb6adef3129dcc1e3f0c6ede751f3ac912764"
+      "prompt_sha256": "bc2c6c30d4d557d04ac53f58d8ceb6adef3129dcc1e3f0c6ede751f3ac912764",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f3463a95-3abd-4fc8-bc8b-d36549fa4878.png",
+      "sha256": "6c817436054cfbec79de9786739ee700c299a14d2eb42825231213c42a62f2fb",
+      "generated_at": "2026-11-24T13:42:13.843958+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_MASTER_MEDIA_v1",
@@ -1594,9 +1618,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_MASTER_MEDIA_v1.txt",
       "output": "renders/A812_PC_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c0da269c6231be165df7dd1e7b881dc8e23836b1c3d2edc6065c5bc2bf7d605e"
+      "prompt_sha256": "c0da269c6231be165df7dd1e7b881dc8e23836b1c3d2edc6065c5bc2bf7d605e",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-394fb282-c7be-473d-a5e1-9695aed1c449.png",
+      "sha256": "5774a1a2f6ef791af6a7cf75d4bde87bca50ef4fc9d25911b0ec2017d27d7e5f",
+      "generated_at": "2026-11-24T13:37:19.781223+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_GARD3_HERO_v1",
@@ -1613,9 +1641,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_GARD3_HERO_v1.txt",
       "output": "renders/A812_PC_GARD3_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "913e67058bdb03918bc3a00dd0c2300ced3c4267c5bf78ac65ca91ef4761efdf"
+      "prompt_sha256": "913e67058bdb03918bc3a00dd0c2300ced3c4267c5bf78ac65ca91ef4761efdf",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-67cc08fc-5ccb-429e-be17-ec1d94968f29.png",
+      "sha256": "ff4592ed55484b009f370fa9d98309643d8ef544663490cfc4dd7af3572847b0",
+      "generated_at": "2026-11-24T13:37:20.088276+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_LIVING_WINDOW_v1",
@@ -1634,9 +1666,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_LIVING_WINDOW_v1.txt",
       "output": "renders/A812_PC_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2eb515f882bb42015fe22d9797f9c98ca34d657873612369b00603aee7b89757"
+      "prompt_sha256": "2eb515f882bb42015fe22d9797f9c98ca34d657873612369b00603aee7b89757",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-56202b13-9f5d-434d-a47d-73e8e6c87f25.png",
+      "sha256": "019e3dc0766a1784aa81fa946c0529519b7133f22953689431489768be5b253c",
+      "generated_at": "2026-11-24T13:42:13.315155+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_KITCHEN_HERO_v1",
@@ -1655,9 +1691,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_KITCHEN_HERO_v1.txt",
       "output": "renders/A812_PC_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f5f375837d632101db7bcb0bf821ece5afd7e219e36824d0cfb80a3099fd477c"
+      "prompt_sha256": "f5f375837d632101db7bcb0bf821ece5afd7e219e36824d0cfb80a3099fd477c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-84e85a3d-f325-4152-82b3-e9b309796687.png",
+      "sha256": "3a4619c7bc5d9e3ea94aaea9f9690f7ed7f14e7db4974eefd4089aab8a1c9aea",
+      "generated_at": "2026-11-24T13:42:13.530323+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_ENTRY_HERO_v1",
@@ -1674,9 +1714,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_ENTRY_HERO_v1.txt",
       "output": "renders/A812_PC_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f8261ad69ed472f70aabaae8598dd27b1ce0452dfff0139682bb6799a3cb67e2"
+      "prompt_sha256": "f8261ad69ed472f70aabaae8598dd27b1ce0452dfff0139682bb6799a3cb67e2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6e385a5c-9d80-457b-8086-2d9a0b6502d3.png",
+      "sha256": "4693878b814930875b8367339d6b998367943c578a9fc2fea34886d84c94be40",
+      "generated_at": "2026-11-24T13:39:56.241774+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BATH2_HERO_v1",
@@ -1693,9 +1737,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BATH2_HERO_v1.txt",
       "output": "renders/A812_PC_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "40dafe4ba3e45f4d5ff5d5150b1d89bbad0d78574705621665469c6e5f8176d2"
+      "prompt_sha256": "40dafe4ba3e45f4d5ff5d5150b1d89bbad0d78574705621665469c6e5f8176d2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ac7596de-ca42-4ac2-ab90-12c7d6ee3d23.png",
+      "sha256": "c49c489d6e3c72d2662e5d7e9ec7773b3dc8f7d2ce2c4728bd35138c1d6a709f",
+      "generated_at": "2026-11-24T13:39:56.531342+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BATH08_HERO_v1",
@@ -1712,9 +1760,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BATH08_HERO_v1.txt",
       "output": "renders/A812_PC_BATH08_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f4cdf3937656c1b49b854b2336dc42356d322942242a22abaf11cbd1f157aec5"
+      "prompt_sha256": "f4cdf3937656c1b49b854b2336dc42356d322942242a22abaf11cbd1f157aec5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d876c870-0fbe-4894-823d-75ec9cc23b39.png",
+      "sha256": "543982d3b3181549557464826ebd13fef97fbe9dfe8a19f076a98753102a55c3",
+      "generated_at": "2026-11-24T13:44:13.367559+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_UTILITY_HERO_v1",
@@ -1731,9 +1783,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_UTILITY_HERO_v1.txt",
       "output": "renders/A812_PC_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a90d11a402c5be6a6476d108ced7fb57c0ba27cb101b79df4f017fe4c733d89a"
+      "prompt_sha256": "a90d11a402c5be6a6476d108ced7fb57c0ba27cb101b79df4f017fe4c733d89a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-bf549800-7040-4a9c-9b6e-b127af676139.png",
+      "sha256": "94147c047874a01f7decfe65efe56ef89b439cf5e21f2111e0ee151a36503422",
+      "generated_at": "2026-11-24T13:44:13.585964+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_HALL_HERO_v1",
@@ -1750,9 +1806,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_HALL_HERO_v1.txt",
       "output": "renders/A812_PC_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "49b45bdcc9a6488487728b2fb1e927c713194a735c05cea52f054d780a5d47f9"
+      "prompt_sha256": "49b45bdcc9a6488487728b2fb1e927c713194a735c05cea52f054d780a5d47f9",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ec774314-5f5f-4680-9576-2661e5be9e0b.png",
+      "sha256": "70f0b7e9623fc2059f3ce856618c0ee441127b9ce0177685bef3696aff034288",
+      "generated_at": "2026-11-24T13:44:13.802433+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PC_BATH2_SHOWER_v1",
@@ -1769,9 +1829,13 @@
       ],
       "prompt": "prompts/A812/A812_PC_BATH2_SHOWER_v1.txt",
       "output": "renders/A812_PC_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2f8128b4bc1afdac0b0fe9d32060c5246bf3e4fd4297448e31585c0952653e27"
+      "prompt_sha256": "2f8128b4bc1afdac0b0fe9d32060c5246bf3e4fd4297448e31585c0952653e27",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-88804750-f5d6-4600-afb0-65eea9de4bcd.png",
+      "sha256": "4fa3d7d4864b51c4ca01c31c6359ec9d7048a6441168dc49967d16f3cd0a2c78",
+      "generated_at": "2026-11-24T13:44:14.313631+00:00",
+      "review_note": "All 16 views reviewed, extra living ceiling fixture removed, kitchen storage/table and bedroom textile continuity corrected. Concept only; geometry/electrical validation pending."
     },
     {
       "id": "A812_PD_LIVING_HERO_v1",

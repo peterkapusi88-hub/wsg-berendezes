@@ -1,0 +1,24 @@
+{
+  "id": "A812_PC_LIVING_HERO_v1",
+  "apartment": "A812",
+  "variant": "PC",
+  "camera": "LIVING_HERO",
+  "kind": "living",
+  "reference_ids": [
+    "PF10",
+    "PF11"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PC_LIVING_HERO_v1.txt",
+  "output": "renders/A812_PC_LIVING_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "8cc9e7ad518153c1b025d3f37acb3dd7b0a1fea3ca8eec08003f4cc541b1c854",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-c88f1b7d-b8d1-4c8a-b279-e48e8a257872.png",
+  "sha256": "911f166982b8e6c172d92e58063379609826d437c726e7d36bb18ec8fc739561",
+  "generated_at": "2026-11-24T13:34:53.635902+00:00"
+}
