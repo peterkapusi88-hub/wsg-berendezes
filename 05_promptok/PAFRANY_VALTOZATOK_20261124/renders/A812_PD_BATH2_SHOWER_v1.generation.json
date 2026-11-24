@@ -1,0 +1,22 @@
+{
+  "id": "A812_PD_BATH2_SHOWER_v1",
+  "apartment": "A812",
+  "variant": "PD",
+  "camera": "BATH2_SHOWER",
+  "kind": "bath",
+  "reference_ids": [
+    "PF23"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PD_BATH2_SHOWER_v1.txt",
+  "output": "renders/A812_PD_BATH2_SHOWER_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "32a4b057a615ff21422440d6aca8ef53ea570d0242cbebf65d79b3a8971ed01a",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f44fce77-9744-413c-8873-09032e163a81.png",
+  "sha256": "4f62b62b677cafae67eefca7e124d2e93b0d38a6559533564f124e425af1cc36",
+  "generated_at": "2026-11-24T13:58:58.208272+00:00"
+}

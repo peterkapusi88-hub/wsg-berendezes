@@ -19,6 +19,7 @@ if pending:
   j['prompt_text']=(p/j['prompt']).read_text()
   if a:
    j['inputs']=j['inputs'][:4]+[str(f)];j['prompt_text']+='\n\nCONTINUITY INPUT. Last image shows this exact new variant in another camera. Keep its exact furniture materials, art, pendant design and cabinetry details, with Image 1 governing camera and shell. Transfer only visible matching surfaces; never copy an opposite TV wall onto an art wall.'
+  j['inputs']=j['inputs'][:5]
   jobs.append(j)
   if len(jobs)==4:break
 print(json.dumps(jobs))

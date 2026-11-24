@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 76,
+  "completed_images": 92,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -1860,9 +1860,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_LIVING_HERO_v1.txt",
       "output": "renders/A812_PD_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8bdba30de2dae323bdfffbd4612f84526d6e265a2035f4750fcfeaf5bf69ea96"
+      "prompt_sha256": "8bdba30de2dae323bdfffbd4612f84526d6e265a2035f4750fcfeaf5bf69ea96",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-27029ce8-1df3-413e-a9ba-5067b9b00485.png",
+      "sha256": "4fff9ac37e168b065f748df57372e225de7373f88fb3a8508d103ad4cc80e568",
+      "generated_at": "2026-11-24T13:51:51.727960+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_MASTER_HERO_v1",
@@ -1879,9 +1883,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_MASTER_HERO_v1.txt",
       "output": "renders/A812_PD_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "fd461bdca81a98ba72da1f42f39a37c53257de1d4bcfaf8b1b753f38474e8613"
+      "prompt_sha256": "fd461bdca81a98ba72da1f42f39a37c53257de1d4bcfaf8b1b753f38474e8613",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d02b1c70-ead1-463d-9007-14ab421dcfd2.png",
+      "sha256": "82df46a387a40a671f09ff1ecec55d25ff1a93b7b5193b2f0409e9102cef836c",
+      "generated_at": "2026-11-24T13:48:28.071070+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BED1_HERO_v1",
@@ -1898,9 +1906,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BED1_HERO_v1.txt",
       "output": "renders/A812_PD_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "313a5dd737f76510c6ce3b22837300a2f700d1107c785afa93a884c4e1e04367"
+      "prompt_sha256": "313a5dd737f76510c6ce3b22837300a2f700d1107c785afa93a884c4e1e04367",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-638b6972-abb9-4835-8349-8bb2fcfa9698.png",
+      "sha256": "9e1dbe89a28c0ca7c0bf35208749c7b102b908e0ce182a43599262f855a2d03f",
+      "generated_at": "2026-11-24T13:48:28.288719+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BED1_MEDIA_v1",
@@ -1917,9 +1929,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BED1_MEDIA_v1.txt",
       "output": "renders/A812_PD_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f7c7121621568692941b5b981c1440efa230721f5079db65928fa7fbc7f9a677"
+      "prompt_sha256": "f7c7121621568692941b5b981c1440efa230721f5079db65928fa7fbc7f9a677",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d8973b52-b4e1-4c62-a395-ae4b556f88d8.png",
+      "sha256": "1da500604dc2bcd8b93bac49f822b0b0ebd3e6f53f2abbe3662f8173ac2c2422",
+      "generated_at": "2026-11-24T13:51:51.933702+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BED2_HERO_v1",
@@ -1936,9 +1952,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BED2_HERO_v1.txt",
       "output": "renders/A812_PD_BED2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "305046f1fa36e7adc83d894087bc0c59c4c654072cca189d0480cc2684f33db8"
+      "prompt_sha256": "305046f1fa36e7adc83d894087bc0c59c4c654072cca189d0480cc2684f33db8",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-cb248d69-ed0e-493b-80d6-12ccdaab32ec.png",
+      "sha256": "f2a7a990a8bce7bcc1427523dd6a77be2999090a2f1b3b3e0e7c4fde0c69ff35",
+      "generated_at": "2026-11-24T13:48:28.477526+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BED2_MEDIA_v1",
@@ -1955,9 +1975,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BED2_MEDIA_v1.txt",
       "output": "renders/A812_PD_BED2_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e17a6b4c28fae6bc5a7ac765ddb976ab911c4ce01b5e1b9c61bfde80e1ebf3c5"
+      "prompt_sha256": "e17a6b4c28fae6bc5a7ac765ddb976ab911c4ce01b5e1b9c61bfde80e1ebf3c5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b12358e9-31cc-427c-a4ac-a42f7c4a6e13.png",
+      "sha256": "83b8959bb034fa7aec895ee67186848c1c906179af51c0885cd58865fd796a39",
+      "generated_at": "2026-11-24T13:51:52.230452+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_MASTER_MEDIA_v1",
@@ -1974,9 +1998,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_MASTER_MEDIA_v1.txt",
       "output": "renders/A812_PD_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "52eef89e2309b9640af583468189d18386e62e09d6b6cb71838561ec2787591d"
+      "prompt_sha256": "52eef89e2309b9640af583468189d18386e62e09d6b6cb71838561ec2787591d",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-65cebd4f-9aac-47d5-99f9-302af8ad6041.png",
+      "sha256": "c00624e2bb4d4b5910da3dc9b0f89dd8be9aa921f61fe2fb788673696cc43d6b",
+      "generated_at": "2026-11-24T13:51:52.475994+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_GARD3_HERO_v1",
@@ -1993,9 +2021,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_GARD3_HERO_v1.txt",
       "output": "renders/A812_PD_GARD3_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e3da2f2062407fb217efce9ced28dace839a034a12d4b63ca90275c30c301b74"
+      "prompt_sha256": "e3da2f2062407fb217efce9ced28dace839a034a12d4b63ca90275c30c301b74",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-8bb1fa13-6150-4ad7-b724-be620a91f0b4.png",
+      "sha256": "54c0d9d10d725b226e9c28a703f1e617ee0cbbd3b93be2a2ff6e087962cbc539",
+      "generated_at": "2026-11-24T13:54:44.512285+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_LIVING_WINDOW_v1",
@@ -2020,9 +2052,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_LIVING_WINDOW_v1.txt",
       "output": "renders/A812_PD_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0004b8f33b634349184419cb97b265ac61e35dbb0846967fdb0961ded604de34"
+      "prompt_sha256": "0004b8f33b634349184419cb97b265ac61e35dbb0846967fdb0961ded604de34",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4f17a38b-1586-4bf9-b6b1-7c3818e8ff88.png",
+      "sha256": "7066ce76e2039b4eb54dae4881788fdea07ff0ae1a09120465c9b0ba8506e3f5",
+      "generated_at": "2026-11-24T13:54:44.713734+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_KITCHEN_HERO_v1",
@@ -2047,9 +2083,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_KITCHEN_HERO_v1.txt",
       "output": "renders/A812_PD_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c814f376bb31247580153df32435297aa11fae28868f8c3c474f7fb59b8661c1"
+      "prompt_sha256": "c814f376bb31247580153df32435297aa11fae28868f8c3c474f7fb59b8661c1",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-fb3b808e-5ec2-43d4-80a0-3cd55249aa05.png",
+      "sha256": "92c9055a1f20a6a9baef619d54a8bfce76608b5fe543f043999299d823e497af",
+      "generated_at": "2026-11-24T13:54:45.006713+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_ENTRY_HERO_v1",
@@ -2066,9 +2106,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_ENTRY_HERO_v1.txt",
       "output": "renders/A812_PD_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "be874ac677d805a6efe7ec614a7796ccd61e585aa2d1aaa9c4ae890728eb78de"
+      "prompt_sha256": "be874ac677d805a6efe7ec614a7796ccd61e585aa2d1aaa9c4ae890728eb78de",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-5c54ff97-a3d7-45aa-8f4e-ebd4d2436d32.png",
+      "sha256": "ad19d6e4475cd9fe5a96f0b52ac4375a22874c2367e540e3563445ddd6481005",
+      "generated_at": "2026-11-24T13:54:45.315751+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BATH2_HERO_v1",
@@ -2085,9 +2129,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BATH2_HERO_v1.txt",
       "output": "renders/A812_PD_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "23cfaadb3939b35fa91c46fdb337c0a1f4367b0d18298932d54952ebdf77a9c1"
+      "prompt_sha256": "23cfaadb3939b35fa91c46fdb337c0a1f4367b0d18298932d54952ebdf77a9c1",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-adba1cb2-bb1a-40f7-8bef-0aeda6635bcc.png",
+      "sha256": "a976d84220b0cb0e439a013fcefc29e9b2feacad0595ee022fba4bc2840c7a83",
+      "generated_at": "2026-11-24T13:57:31.791964+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BATH08_HERO_v1",
@@ -2104,9 +2152,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BATH08_HERO_v1.txt",
       "output": "renders/A812_PD_BATH08_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "cca410173090f8ab1cc875396f02b95ee47d915b29acabe549dced7a490ee54b"
+      "prompt_sha256": "cca410173090f8ab1cc875396f02b95ee47d915b29acabe549dced7a490ee54b",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6500eefc-3042-40a2-a10f-c154cd741f74.png",
+      "sha256": "ffaa9ea81bc2bd1ac53642aa7e3061206d0e241b25571074028435a7d0d17e37",
+      "generated_at": "2026-11-24T13:57:31.992290+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_UTILITY_HERO_v1",
@@ -2123,9 +2175,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_UTILITY_HERO_v1.txt",
       "output": "renders/A812_PD_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c1e5363605d4a1609309c9b0358e332e9ac82a6df5b17f08780b983fedd90fca"
+      "prompt_sha256": "c1e5363605d4a1609309c9b0358e332e9ac82a6df5b17f08780b983fedd90fca",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-02e8bc94-a349-4730-b8b5-4862785308de.png",
+      "sha256": "9c102effe8d0b76f6015a2ca578afb8f5faf5115078e7a0698f4fc8a20fc507d",
+      "generated_at": "2026-11-24T13:57:32.291379+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_HALL_HERO_v1",
@@ -2142,9 +2198,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_HALL_HERO_v1.txt",
       "output": "renders/A812_PD_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f0ce840f0e6138ac0707edcb6cd0dcac045b592f09915c4a17ad561484087146"
+      "prompt_sha256": "f0ce840f0e6138ac0707edcb6cd0dcac045b592f09915c4a17ad561484087146",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b6b1fb46-5de2-4e81-a6d9-dfcd0b57b17c.png",
+      "sha256": "34da790d57984c62bcf90bd35a86ba121017aef998a6cb7128ac78c7ea9451fb",
+      "generated_at": "2026-11-24T13:57:32.676299+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A812_PD_BATH2_SHOWER_v1",
@@ -2161,9 +2221,13 @@
       ],
       "prompt": "prompts/A812/A812_PD_BATH2_SHOWER_v1.txt",
       "output": "renders/A812_PD_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "32a4b057a615ff21422440d6aca8ef53ea570d0242cbebf65d79b3a8971ed01a"
+      "prompt_sha256": "32a4b057a615ff21422440d6aca8ef53ea570d0242cbebf65d79b3a8971ed01a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f44fce77-9744-413c-8873-09032e163a81.png",
+      "sha256": "4f62b62b677cafae67eefca7e124d2e93b0d38a6559533564f124e425af1cc36",
+      "generated_at": "2026-11-24T13:58:58.208272+00:00",
+      "review_note": "All 16 images visually reviewed; corrected sofa orientation retained, all room coverage complete. Concept only, dimensional/electrical validation pending."
     },
     {
       "id": "A811_PA_LIVING_HERO_v1",
