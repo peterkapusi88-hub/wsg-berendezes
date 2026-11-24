@@ -1,0 +1,28 @@
+{
+  "id": "A812_PB_LIVING_HERO_v1",
+  "apartment": "A812",
+  "variant": "PB",
+  "camera": "LIVING_HERO",
+  "kind": "living",
+  "reference_ids": [
+    "PF09",
+    "PF24",
+    "PF06",
+    "PF12"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PB_LIVING_HERO_v1.txt",
+  "output": "renders/A812_PB_LIVING_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "f4ee50966ee37d8b3b33a589aa0665da41d012ef6a57e2234d416fe5c58f2c93",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4fee5eed-2cca-470b-b00a-c3eebf12c45d.png",
+  "sha256": "7c36b279024c724211540a55fa8656db56bf9968bc5ec6e87d845deda3813a0d",
+  "generated_at": "2026-11-24T13:23:04.390428+00:00"
+}

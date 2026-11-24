@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 44,
+  "completed_images": 60,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -1092,9 +1092,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_LIVING_HERO_v1.txt",
       "output": "renders/A812_PB_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f4ee50966ee37d8b3b33a589aa0665da41d012ef6a57e2234d416fe5c58f2c93"
+      "prompt_sha256": "f4ee50966ee37d8b3b33a589aa0665da41d012ef6a57e2234d416fe5c58f2c93",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4fee5eed-2cca-470b-b00a-c3eebf12c45d.png",
+      "sha256": "7c36b279024c724211540a55fa8656db56bf9968bc5ec6e87d845deda3813a0d",
+      "generated_at": "2026-11-24T13:23:04.390428+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_MASTER_HERO_v1",
@@ -1111,9 +1115,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_MASTER_HERO_v1.txt",
       "output": "renders/A812_PB_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9fc86eadbc6aa38feda3a6e0313f295af0711294f06445941024860cbacd7a31"
+      "prompt_sha256": "9fc86eadbc6aa38feda3a6e0313f295af0711294f06445941024860cbacd7a31",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2b344bb9-ddc4-456a-817c-305cef4af356.png",
+      "sha256": "40eafd5ab547e377c2743a17321ce3197eaa0d161719a0240eaee6ee2f5d30b3",
+      "generated_at": "2026-11-24T13:23:04.717162+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BED1_HERO_v1",
@@ -1130,9 +1138,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BED1_HERO_v1.txt",
       "output": "renders/A812_PB_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "40c709739b80ffd492e813dd143ce7c72b374b79dc5cc0bb8c6109244251dd60"
+      "prompt_sha256": "40c709739b80ffd492e813dd143ce7c72b374b79dc5cc0bb8c6109244251dd60",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-757a73f2-dc02-459d-bef9-f4daec4a7c26.png",
+      "sha256": "f2821f29f8a64f4969fa50ea6163f6f9bd91ed14bed7af396664c44347ad7f21",
+      "generated_at": "2026-11-24T13:23:05.607448+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BED1_MEDIA_v1",
@@ -1149,9 +1161,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BED1_MEDIA_v1.txt",
       "output": "renders/A812_PB_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "cfb97e3878504ddfa8e821f8a1760e1ac5560c8c58ea5cd7d479a2624842cb54"
+      "prompt_sha256": "cfb97e3878504ddfa8e821f8a1760e1ac5560c8c58ea5cd7d479a2624842cb54",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9f73270c-78ab-4913-86ad-14c6c73048c4.png",
+      "sha256": "65c50d5ed32bee92f6d548d9c4a20f68f5f07d996bdddd1770b77e7615b235ee",
+      "generated_at": "2026-11-24T13:25:14.265486+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BED2_HERO_v1",
@@ -1168,9 +1184,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BED2_HERO_v1.txt",
       "output": "renders/A812_PB_BED2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8ba910d41a07d4d15e958660cc6d9d85ed0950ae889d7268b2c757b27b0a4584"
+      "prompt_sha256": "8ba910d41a07d4d15e958660cc6d9d85ed0950ae889d7268b2c757b27b0a4584",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-94ab4bd6-0821-4997-af48-d27b33fcc12f.png",
+      "sha256": "5fc8a99924b6e4750a1755de3a229aaae2b4458da90e69c3461ac85d789c1c1a",
+      "generated_at": "2026-11-24T13:23:06.191267+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BED2_MEDIA_v1",
@@ -1187,9 +1207,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BED2_MEDIA_v1.txt",
       "output": "renders/A812_PB_BED2_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0b7d35ff9348f91ae299de8740a6e3e1a447f768b940bde9d413a6092ed47de5"
+      "prompt_sha256": "0b7d35ff9348f91ae299de8740a6e3e1a447f768b940bde9d413a6092ed47de5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f0dc719e-869e-40f7-ab38-e2570da43fbf.png",
+      "sha256": "ae47a008432b36d13e668785e9c50dd7e77b0537090ea71933a333bbe4718c86",
+      "generated_at": "2026-11-24T13:25:14.610692+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_MASTER_MEDIA_v1",
@@ -1206,9 +1230,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_MASTER_MEDIA_v1.txt",
       "output": "renders/A812_PB_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d5d4719a1e82af975a2bb87f8b1a0cda4399bc519c1b3cba2c6b46a578c18c6c"
+      "prompt_sha256": "d5d4719a1e82af975a2bb87f8b1a0cda4399bc519c1b3cba2c6b46a578c18c6c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6d3e26de-a1a5-4526-b142-f1ad3f20979f.png",
+      "sha256": "a124daaf6207604822cd30635245446969a2f301c9d112389c976b76b9206ab3",
+      "generated_at": "2026-11-24T13:25:14.909017+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_GARD3_HERO_v1",
@@ -1225,9 +1253,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_GARD3_HERO_v1.txt",
       "output": "renders/A812_PB_GARD3_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e148ce184951006fca1304771f763bf9189af53c945e1ecb9233ed050893fad6"
+      "prompt_sha256": "e148ce184951006fca1304771f763bf9189af53c945e1ecb9233ed050893fad6",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b5a7e102-e2e5-4fbb-b558-4d7de78fea1a.png",
+      "sha256": "5e7c452d837600070ac169cd84020094008ff66474161daec0a71da064563faa",
+      "generated_at": "2026-11-24T13:25:15.519622+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_LIVING_WINDOW_v1",
@@ -1250,9 +1282,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_LIVING_WINDOW_v1.txt",
       "output": "renders/A812_PB_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "07d6e386f061d83607a4b4a7ac85db07868c6fd349e8b8dea5d7110f2914f866"
+      "prompt_sha256": "07d6e386f061d83607a4b4a7ac85db07868c6fd349e8b8dea5d7110f2914f866",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-1bbc359e-a64a-4ccd-b571-badd3be2ff46.png",
+      "sha256": "384aa7f36bfd740d23b3e96705971a17cbc812bfd0b738fdd65b1bc7d9705b44",
+      "generated_at": "2026-11-24T13:27:51.270671+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_KITCHEN_HERO_v1",
@@ -1275,9 +1311,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_KITCHEN_HERO_v1.txt",
       "output": "renders/A812_PB_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c10e499a11f08235d903bc717b51f33ac6db3513f2cd274ddaaf6e21aaf036fe"
+      "prompt_sha256": "c10e499a11f08235d903bc717b51f33ac6db3513f2cd274ddaaf6e21aaf036fe",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7c587082-f58a-49da-b857-f8a930af84a8.png",
+      "sha256": "3e6f9ef2cb498b6618b8876f26ddc8dc95ba0fa2bdf8438bedb76a62287ff28a",
+      "generated_at": "2026-11-24T13:27:51.568967+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_ENTRY_HERO_v1",
@@ -1294,9 +1334,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_ENTRY_HERO_v1.txt",
       "output": "renders/A812_PB_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7edcf095f95f9e306f7ff1a2fe766da47988dadf43fc080e5d07f2544c0c29bf"
+      "prompt_sha256": "7edcf095f95f9e306f7ff1a2fe766da47988dadf43fc080e5d07f2544c0c29bf",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-adf38bde-c3bf-47d5-b516-04c6975171fe.png",
+      "sha256": "f32d3b56e310abc8abe1e806e1853a01742878304156c40f205646fd9bfc0a32",
+      "generated_at": "2026-11-24T13:27:52.016009+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BATH2_HERO_v1",
@@ -1315,9 +1359,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BATH2_HERO_v1.txt",
       "output": "renders/A812_PB_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "339dae637c22ff1af7fabe0338705bcb041b4128e55e0b9e38eaf56e734d1da5"
+      "prompt_sha256": "339dae637c22ff1af7fabe0338705bcb041b4128e55e0b9e38eaf56e734d1da5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-48a280b2-ede7-4cd0-a9cd-ed90b034033f.png",
+      "sha256": "5648653d5f0d7d4d57a712411ea7636984f58be0073d1d94f8eac82ebb30b136",
+      "generated_at": "2026-11-24T13:27:52.530116+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BATH08_HERO_v1",
@@ -1336,9 +1384,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BATH08_HERO_v1.txt",
       "output": "renders/A812_PB_BATH08_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6498443b4fcf41dcf1c15a5c6d5f3ccd459f2ac317d334fdf43b2088aa084fcc"
+      "prompt_sha256": "6498443b4fcf41dcf1c15a5c6d5f3ccd459f2ac317d334fdf43b2088aa084fcc",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-51e1f97b-42b1-4493-8cbe-9549e06ba80c.png",
+      "sha256": "a6740d316ff7943c9a0ef655729173f86bcb5d0646debd48cb4dfac7e6575d1a",
+      "generated_at": "2026-11-24T13:30:28.579417+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_UTILITY_HERO_v1",
@@ -1355,9 +1407,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_UTILITY_HERO_v1.txt",
       "output": "renders/A812_PB_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6d2e26971aa7affe8c37b328e96063dfbc6fcad8932a498b7bc7d29224283058"
+      "prompt_sha256": "6d2e26971aa7affe8c37b328e96063dfbc6fcad8932a498b7bc7d29224283058",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ca7d5223-a434-4d5f-8cde-1b6e59eb5708.png",
+      "sha256": "98e018e17bf9ab1518928079548a6ffe53367cc7057c79e8030bb3dc3b413938",
+      "generated_at": "2026-11-24T13:30:28.803085+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_HALL_HERO_v1",
@@ -1374,9 +1430,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_HALL_HERO_v1.txt",
       "output": "renders/A812_PB_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c06861b2fbbfc08d874ac40a75471548fbe2326e6e01722a505b25e813aa557c"
+      "prompt_sha256": "c06861b2fbbfc08d874ac40a75471548fbe2326e6e01722a505b25e813aa557c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-125b30ad-4a52-4d16-9f62-fff292bf26a3.png",
+      "sha256": "a59bfb4f9225ca655ddb6d5793213d6190268923950f3522fb4fec21db81137e",
+      "generated_at": "2026-11-24T13:30:29.120852+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PB_BATH2_SHOWER_v1",
@@ -1395,9 +1455,13 @@
       ],
       "prompt": "prompts/A812/A812_PB_BATH2_SHOWER_v1.txt",
       "output": "renders/A812_PB_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2285bee953bd5185764f9322e03e1d64f49c1f22c238840c11419b42d84c6102"
+      "prompt_sha256": "2285bee953bd5185764f9322e03e1d64f49c1f22c238840c11419b42d84c6102",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d968c94f-b86c-4b6c-a3f2-28adb87f1acc.png",
+      "sha256": "bf1d673a2ed1ebded4925b9fa6a21e06c74d286ff46832fa1d0b99084a3d22bc",
+      "generated_at": "2026-11-24T13:30:29.477439+00:00",
+      "review_note": "All 16 views visually reviewed. Material language, sofa orientation, integrated basins and shower reverse checked; dimensions/electrical verification pending."
     },
     {
       "id": "A812_PC_LIVING_HERO_v1",
