@@ -1,0 +1,24 @@
+{
+  "id": "A902_PC_Cam_12_v1",
+  "apartment": "A902",
+  "variant": "PC",
+  "camera": "Cam_12",
+  "kind": "kitchen",
+  "reference_ids": [
+    "PF10",
+    "PF11"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+  ],
+  "prompt": "prompts/A902/A902_PC_Cam_12_v1.txt",
+  "output": "renders/A902_PC_Cam_12_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "3c99f91a32e90c0ac845cafdbd73729840ed662136d864ba085f0fab2107eeda",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b888d17d-7206-4dad-bb80-d5b2500ea5c3.png",
+  "sha256": "248379d1935f64b087bc1f8771c162db55890e472d3ab9bca26e48b5880b562c",
+  "generated_at": "2026-11-24T12:50:23.330735+00:00"
+}

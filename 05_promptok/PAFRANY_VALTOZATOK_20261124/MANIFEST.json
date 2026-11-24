@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 14,
+  "completed_images": 21,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -374,9 +374,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_02_v1.txt",
       "output": "renders/A902_PC_Cam_02_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e90d6e7183a95ddee64b12320413423d7a286f4f8dd9009c617032a00010c810"
+      "prompt_sha256": "e90d6e7183a95ddee64b12320413423d7a286f4f8dd9009c617032a00010c810",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-84d6e74f-4369-4906-b31b-afe321eb95e5.png",
+      "sha256": "253a5a582eafedd263ecc2c5030e2cf9717681e54d16d603e8e65997e13d7518",
+      "generated_at": "2026-11-24T12:48:45.209055+00:00"
     },
     {
       "id": "A902_PC_Cam_04_v1",
@@ -393,9 +396,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_04_v1.txt",
       "output": "renders/A902_PC_Cam_04_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e98d14da9192bd405c5de76a9ad50803da1e83a38b96ae2ffec45b40c0df15f1"
+      "prompt_sha256": "e98d14da9192bd405c5de76a9ad50803da1e83a38b96ae2ffec45b40c0df15f1",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-40614bdd-d518-4fcb-9f0b-ceba40dfa368.png",
+      "sha256": "3661b08af12f87a677437989cdf681e4308ce86d9d16073f44a4e94293d9e6e1",
+      "generated_at": "2026-11-24T12:48:45.526259+00:00"
     },
     {
       "id": "A902_PC_Cam_12_v1",
@@ -414,9 +420,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_12_v1.txt",
       "output": "renders/A902_PC_Cam_12_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3c99f91a32e90c0ac845cafdbd73729840ed662136d864ba085f0fab2107eeda"
+      "prompt_sha256": "3c99f91a32e90c0ac845cafdbd73729840ed662136d864ba085f0fab2107eeda",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b888d17d-7206-4dad-bb80-d5b2500ea5c3.png",
+      "sha256": "248379d1935f64b087bc1f8771c162db55890e472d3ab9bca26e48b5880b562c",
+      "generated_at": "2026-11-24T12:50:23.330735+00:00"
     },
     {
       "id": "A902_PC_Cam_03_v1",
@@ -435,9 +444,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_03_v1.txt",
       "output": "renders/A902_PC_Cam_03_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "13385c55de9a3c4c54b7f8dc212159a3b5da9af29d4c2d9de2d9112c5d89d545"
+      "prompt_sha256": "13385c55de9a3c4c54b7f8dc212159a3b5da9af29d4c2d9de2d9112c5d89d545",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e7a05dad-4f56-4a42-a80a-5d1e231b22f4.png",
+      "sha256": "28947a702dae5785d560dce921b7432e991f8771d4a857993723a279ff893d33",
+      "generated_at": "2026-11-24T12:51:33.557243+00:00"
     },
     {
       "id": "A902_PC_Cam_11c_v1",
@@ -454,9 +466,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_11c_v1.txt",
       "output": "renders/A902_PC_Cam_11c_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ed1f59e4f66c2022f4cca5a8f38b676428bc580b5d3583d5e2a08a43ff885298"
+      "prompt_sha256": "ed1f59e4f66c2022f4cca5a8f38b676428bc580b5d3583d5e2a08a43ff885298",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-bfaf42e6-5400-4cd5-94c5-5b2657e4e14c.png",
+      "sha256": "145b6247a68a1e9232c0c02087846972f28cac101dcf6e98baddf22e59792947",
+      "generated_at": "2026-11-24T12:51:47.758120+00:00"
     },
     {
       "id": "A902_PC_Cam_10_v1",
@@ -473,9 +488,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_10_v1.txt",
       "output": "renders/A902_PC_Cam_10_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9eb8933d54b48b5f24ef3ec7fef267eba13ae6cc36f85bc313e1c0e3633fc3d2"
+      "prompt_sha256": "9eb8933d54b48b5f24ef3ec7fef267eba13ae6cc36f85bc313e1c0e3633fc3d2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-72297a6f-a996-4880-8dd8-423cd66d2391.png",
+      "sha256": "29e77e0ee46e259b1205f2175d6420292e20098551e1b2c25900fcbb029b316a",
+      "generated_at": "2026-11-24T12:48:46.094369+00:00"
     },
     {
       "id": "A902_PC_Cam_02_DAY_v1",
@@ -492,9 +510,12 @@
       ],
       "prompt": "prompts/A902/A902_PC_Cam_02_DAY_v1.txt",
       "output": "renders/A902_PC_Cam_02_DAY_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "07bcf1b2a2c51dbb0268c86ef0df72cdb22575bba54e4ef804fc1a8129749ca8"
+      "prompt_sha256": "07bcf1b2a2c51dbb0268c86ef0df72cdb22575bba54e4ef804fc1a8129749ca8",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-c4b5744d-5a2a-447b-bd05-5a816e1eb291.png",
+      "sha256": "45feccf4552e4a5658258df4d44eedd57a01d3d621fea6fa350aa937808e4867",
+      "generated_at": "2026-11-24T12:50:24.442724+00:00"
     },
     {
       "id": "A902_PD_Cam_02_v1",
