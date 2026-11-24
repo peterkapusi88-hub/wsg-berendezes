@@ -5,12 +5,14 @@ const head=(await get("https://api.github.com/repos/"+repo+"/git/ref/heads/"+bra
 const base=(await get("https://api.github.com/repos/"+repo+"/git/commits/"+head)).tree.sha;
 const remote=await get("https://api.github.com/repos/"+repo+"/git/trees/"+base+"?recursive=1");
 const map=new Map(remote.tree.map(x=>[x.path,x.sha]));
-const f=await tools.exec_command({cmd:"python3 - <<'PY'\nimport pathlib,json,hashlib\np=pathlib.Path('05_promptok/PAFRANY_VALTOZATOK_20261124');print(json.dumps([{'path':str(f),'size':f.stat().st_size,'sha':hashlib.sha1(b'blob '+str(f.stat().st_size).encode()+b'\\0'+f.read_bytes()).hexdigest()} for f in sorted(p.rglob('*')) if f.is_file() and '__pycache__' not in str(f)]))\nPY",max_output_tokens:25000});
+const f=await tools.exec_command({cmd:"python3 - <<'PY'\nimport pathlib,json,hashlib\np=pathlib.Path('05_promptok/PAFRANY_VALTOZATOK_20261124');print(json.dumps([{'path':str(f),'size':f.stat().st_size,'sha':hashlib.sha1(b'blob '+str(f.stat().st_size).encode()+b'\\0'+f.read_bytes()).hexdigest()} for f in sorted(p.rglob('*')) if f.is_file() and '__pycache__' not in str(f)]))\nPY",max_output_tokens:50000});
 const files=JSON.parse(f.output),changed=files.filter(x=>map.get(x.path)!==x.sha), entries=[];
 const q=s=>"'"+s.replace(/'/g,"'\\''")+"'";
 let tree=base;
+const uploaded=new Set(load("pfUploadedBlobs")||[]);
 for(const file of changed){
  if(file.path.endsWith('.png')){
+  if(uploaded.has(file.sha)){entries.push({path:file.path,mode:"100644",type:"blob",sha:file.sha});continue;}
   let b64="";
   for(let offset=0;offset<file.size;offset+=300000){
    const r=await tools.exec_command({cmd:"python3 -c "+q("import pathlib,base64;print(base64.b64encode(pathlib.Path("+JSON.stringify(file.path)+").read_bytes()["+offset+":"+Math.min(offset+300000,file.size)+"]).decode())"),max_output_tokens:200000});
@@ -18,7 +20,7 @@ for(const file of changed){
   }
   let r;for(let attempt=0;attempt<3;attempt++){r=await tools.mcp__codex_apps__github_create_blob({repository_full_name:repo,encoding:"base64",content:b64});if(r.structuredContent?.sha===file.sha)break;}
   if(r.structuredContent?.sha!==file.sha)throw Error("Upload SHA mismatch "+file.path+" "+JSON.stringify(r).slice(0,400));
-  entries.push({path:file.path,mode:"100644",type:"blob",sha:file.sha});notify("GitHub-kép mentve: "+file.path.split('/').pop());
+  uploaded.add(file.sha);store("pfUploadedBlobs",[...uploaded]);entries.push({path:file.path,mode:"100644",type:"blob",sha:file.sha});notify("GitHub-kép mentve: "+file.path.split('/').pop());
  }else{
   const r=await tools.exec_command({cmd:"cat "+q(file.path),max_output_tokens:150000});
   entries.push({path:file.path,mode:"100644",type:"blob",content:r.output});

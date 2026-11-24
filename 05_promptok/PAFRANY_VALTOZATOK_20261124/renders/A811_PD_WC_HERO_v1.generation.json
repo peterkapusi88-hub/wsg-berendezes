@@ -1,0 +1,22 @@
+{
+  "id": "A811_PD_WC_HERO_v1",
+  "apartment": "A811",
+  "variant": "PD",
+  "camera": "WC_HERO",
+  "kind": "bath",
+  "reference_ids": [
+    "PF23"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PD_WC_HERO_v1.txt",
+  "output": "renders/A811_PD_WC_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "d89311d55eb13472435522b02e88075a69cbf34f436c23d4e643ec84931e81b9",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9581b50a-9bc6-4c91-8c3d-b84abce20677.png",
+  "sha256": "90bfe10256907b97f09794c6740347481c73e2f98cab36645e3f2c0557825f6a",
+  "generated_at": "2026-11-24T14:53:03.471072+00:00"
+}

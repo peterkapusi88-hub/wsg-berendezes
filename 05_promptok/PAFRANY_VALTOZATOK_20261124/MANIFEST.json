@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 137,
+  "completed_images": 152,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -3333,9 +3333,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_LIVING_HERO_v1.txt",
       "output": "renders/A811_PD_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "56379695dc33110b19118d754107d55d7c7b42d803590a041793e53d3d1e0d9e"
+      "prompt_sha256": "56379695dc33110b19118d754107d55d7c7b42d803590a041793e53d3d1e0d9e",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-dd9f327c-c76b-4d3a-8cf6-f2460a70c39b.png",
+      "sha256": "7a541db0d678d1d33c327e6ee71a87286b35f883765f58aad6597368aec688c5",
+      "generated_at": "2026-11-24T14:46:13.043733+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_MASTER_HERO_v1",
@@ -3352,9 +3356,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_MASTER_HERO_v1.txt",
       "output": "renders/A811_PD_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3843382a646a63a0f327896115df441dab566bbd9e55fcfe513cc63f30d26f66"
+      "prompt_sha256": "3843382a646a63a0f327896115df441dab566bbd9e55fcfe513cc63f30d26f66",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4f09c246-c97f-40a5-8a6c-698ad381fe01.png",
+      "sha256": "6f85fb3f0c53f3de7e9aca0ce9f7bf3f404ec0b2883d480735deb86d9c3babe9",
+      "generated_at": "2026-11-24T14:46:13.363917+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_BED1_HERO_v1",
@@ -3371,9 +3379,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_BED1_HERO_v1.txt",
       "output": "renders/A811_PD_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "04234d12a783bd19c709a253ce97a31d201acd5a2a3fb2637d2aecbe9251b6e9"
+      "prompt_sha256": "04234d12a783bd19c709a253ce97a31d201acd5a2a3fb2637d2aecbe9251b6e9",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7f4f7eca-0d21-4476-9e84-7f92ae4d5b27.png",
+      "sha256": "e54a656006ecaef89d45604707e0193da6a8b87e13692df9647a021d86cf38dd",
+      "generated_at": "2026-11-24T14:46:13.881839+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_BED1_MEDIA_v1",
@@ -3390,9 +3402,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_BED1_MEDIA_v1.txt",
       "output": "renders/A811_PD_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4d04da9667975e4f836466544b4234ee10dbcf11d17bbce528213d54120b09ad"
+      "prompt_sha256": "4d04da9667975e4f836466544b4234ee10dbcf11d17bbce528213d54120b09ad",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4c7338fa-79f0-4051-85bb-4fc2d3d5c437.png",
+      "sha256": "1f682f9539dcb982453d3a3b3f4b4ed08f6ca636bb84e36626266379929d6e1d",
+      "generated_at": "2026-11-24T14:49:13.779917+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_MASTER_MEDIA_v1",
@@ -3409,9 +3425,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_MASTER_MEDIA_v1.txt",
       "output": "renders/A811_PD_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "e7b8d7da74d6568aba95aa5b96579de33b31b5ebfd56de5a7d27aff67992342c"
+      "prompt_sha256": "e7b8d7da74d6568aba95aa5b96579de33b31b5ebfd56de5a7d27aff67992342c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6eadeedd-84f2-4ebd-9886-830e54c91ff7.png",
+      "sha256": "637b00a693f1b73e7036ef84302ec61946e71c6b009f011c37da2ab2879053d6",
+      "generated_at": "2026-11-24T14:49:14.275971+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_MASTER_GARD_HERO_v1",
@@ -3428,9 +3448,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_MASTER_GARD_HERO_v1.txt",
       "output": "renders/A811_PD_MASTER_GARD_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4fccd5cb7854d6f6096c99502549ef26d4c72751fd7a45ef08827a40e2a4838d"
+      "prompt_sha256": "4fccd5cb7854d6f6096c99502549ef26d4c72751fd7a45ef08827a40e2a4838d",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-551522ff-c380-427b-a1b3-cd81864dcddb.png",
+      "sha256": "adeac37e9bc5e6fa12d88e22e134ad065f729e696715042f6afe2f99e7f35f3b",
+      "generated_at": "2026-11-24T14:46:14.617675+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_LIVING_WINDOW_v1",
@@ -3455,9 +3479,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_LIVING_WINDOW_v1.txt",
       "output": "renders/A811_PD_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1c2b6f8867d9156dd4a32d3476ce7b2c22b3bf8ca71127dd5bdb30f596637ad2"
+      "prompt_sha256": "1c2b6f8867d9156dd4a32d3476ce7b2c22b3bf8ca71127dd5bdb30f596637ad2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-acfb8a2a-470e-494d-b689-a9dba5d94c1a.png",
+      "sha256": "017fd582d8b696469e824729b424af48c70fdf65013d2885ab89fa2ce1701b41",
+      "generated_at": "2026-11-24T14:49:14.962816+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_KITCHEN_HERO_v1",
@@ -3482,9 +3510,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_KITCHEN_HERO_v1.txt",
       "output": "renders/A811_PD_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7dd74ffcd2464b411c3d9558f8b26b32ad6e30e38976a0d921921e266086cf07"
+      "prompt_sha256": "7dd74ffcd2464b411c3d9558f8b26b32ad6e30e38976a0d921921e266086cf07",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-10308fc5-3749-454c-849d-47f2ddb949e6.png",
+      "sha256": "67f7b15cb357a00ac1dc5d29853df96d1743b9936fc1129fcb1aed7efd7026ae",
+      "generated_at": "2026-11-24T14:50:52.772536+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_ENTRY_HERO_v1",
@@ -3501,9 +3533,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_ENTRY_HERO_v1.txt",
       "output": "renders/A811_PD_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f5f472c3891348645f0519fb0302fbc6eee8ecef78bf040c5a6f60779c6868ec"
+      "prompt_sha256": "f5f472c3891348645f0519fb0302fbc6eee8ecef78bf040c5a6f60779c6868ec",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-59ee9472-6eba-4e03-90c2-ea3aac7dcf6f.png",
+      "sha256": "acbd228ae2da7c16c4e8d47ffd01ac4ea68244e58e2726c4a0ca7da7938eeb49",
+      "generated_at": "2026-11-24T14:53:02.400225+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_BATH1_HERO_v1",
@@ -3520,9 +3556,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_BATH1_HERO_v1.txt",
       "output": "renders/A811_PD_BATH1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1a8e9be3c8f4b9ca33df020b838bba89d2a211b09fd8984f44a20d295900c8f7"
+      "prompt_sha256": "1a8e9be3c8f4b9ca33df020b838bba89d2a211b09fd8984f44a20d295900c8f7",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ad58b995-d9f1-467f-bee7-23455357d271.png",
+      "sha256": "7007f9dad3d187d5b5c2e93a74b5065534f464da47edb58b36e10960abcfd1f0",
+      "generated_at": "2026-11-24T14:53:02.659493+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_BATH2_HERO_v1",
@@ -3539,9 +3579,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_BATH2_HERO_v1.txt",
       "output": "renders/A811_PD_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3325366336ccd8839c133d6070672123aaf2a9af2b146d655c2ea74c9d932c41"
+      "prompt_sha256": "3325366336ccd8839c133d6070672123aaf2a9af2b146d655c2ea74c9d932c41",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-24001626-7f6c-4b72-a3ec-a07ba59d4984.png",
+      "sha256": "eb3c8c51aee5c45288c1e727b63a6890c5fa3de111ff9b8b2aaebd53d5e38590",
+      "generated_at": "2026-11-24T14:53:03.017636+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_WC_HERO_v1",
@@ -3558,9 +3602,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_WC_HERO_v1.txt",
       "output": "renders/A811_PD_WC_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d89311d55eb13472435522b02e88075a69cbf34f436c23d4e643ec84931e81b9"
+      "prompt_sha256": "d89311d55eb13472435522b02e88075a69cbf34f436c23d4e643ec84931e81b9",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9581b50a-9bc6-4c91-8c3d-b84abce20677.png",
+      "sha256": "90bfe10256907b97f09794c6740347481c73e2f98cab36645e3f2c0557825f6a",
+      "generated_at": "2026-11-24T14:53:03.471072+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_UTILITY_HERO_v1",
@@ -3577,9 +3625,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_UTILITY_HERO_v1.txt",
       "output": "renders/A811_PD_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3b051147c9ae36da074094802af750804c504a3891ee9e5b366459d161e20759"
+      "prompt_sha256": "3b051147c9ae36da074094802af750804c504a3891ee9e5b366459d161e20759",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7a3ee7f7-7f31-4e17-ad38-e0f22e08e5da.png",
+      "sha256": "c5d29c5dcc1f1e093c32e8dae445e35f3576968ed10a4ec7cc120d34d2f8321e",
+      "generated_at": "2026-11-24T14:55:14.840110+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_HALL_HERO_v1",
@@ -3596,9 +3648,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_HALL_HERO_v1.txt",
       "output": "renders/A811_PD_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ac9afcda6c608edf8e0ea6ebacafd491d38d8a6ad539ac306d198bd49330f361"
+      "prompt_sha256": "ac9afcda6c608edf8e0ea6ebacafd491d38d8a6ad539ac306d198bd49330f361",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-5b70de34-0b28-4271-8a35-0a041b2062a3.png",
+      "sha256": "81bb85fd927ab6c4af21c0c9cf665bb5cab2c148ba12a3b076abc5df246aff18",
+      "generated_at": "2026-11-24T14:55:15.166781+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     },
     {
       "id": "A811_PD_BATH2_SHOWER_v1",
@@ -3615,9 +3671,13 @@
       ],
       "prompt": "prompts/A811/A811_PD_BATH2_SHOWER_v1.txt",
       "output": "renders/A811_PD_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "04b68ffe3eb37500e0cda406071ac4347bb663727f6d238aa041c600f568d247"
+      "prompt_sha256": "04b68ffe3eb37500e0cda406071ac4347bb663727f6d238aa041c600f568d247",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2c388f19-47de-475a-b5f3-1d6e09138726.png",
+      "sha256": "4793e29c1aa4898b4ad256fa0d6a4b14216492d4e2788d5bc1332829e0008b45",
+      "generated_at": "2026-11-24T14:55:15.533137+00:00",
+      "review_note": "All 15 views visually inspected; kitchen reverse storage doors and TV relief corrected to match living views. Concept only; technical validation pending."
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "id": "A811_PD_KITCHEN_HERO_v1",
+  "apartment": "A811",
+  "variant": "PD",
+  "camera": "KITCHEN_HERO",
+  "kind": "kitchen",
+  "reference_ids": [
+    "PF16",
+    "PF17",
+    "PF18",
+    "PF19",
+    "PF20"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PD_KITCHEN_HERO_v1.txt",
+  "output": "renders/A811_PD_KITCHEN_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "7dd74ffcd2464b411c3d9558f8b26b32ad6e30e38976a0d921921e266086cf07",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-10308fc5-3749-454c-849d-47f2ddb949e6.png",
+  "sha256": "67f7b15cb357a00ac1dc5d29853df96d1743b9936fc1129fcb1aed7efd7026ae",
+  "generated_at": "2026-11-24T14:50:52.772536+00:00"
+}
