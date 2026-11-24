@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 122,
+  "completed_images": 137,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -2976,9 +2976,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_LIVING_HERO_v1.txt",
       "output": "renders/A811_PC_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "44159c8a3c8c1b5dcf312ec6755b78e007219b263e5503b49d6a2fcdc856c394"
+      "prompt_sha256": "44159c8a3c8c1b5dcf312ec6755b78e007219b263e5503b49d6a2fcdc856c394",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6d4a583b-c012-4ca0-b04e-412a7d5ce3f2.png",
+      "sha256": "381c6ba4610ac71ce8e5fde414e7d3b9785462beee61d9b8a7707c85c25872ac",
+      "generated_at": "2026-11-24T14:36:24.294373+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_MASTER_HERO_v1",
@@ -2995,9 +2999,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_MASTER_HERO_v1.txt",
       "output": "renders/A811_PC_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0ee57b7a780869a958c45ae56dca7e6bea6828ecd8e4a347b5660770bef01563"
+      "prompt_sha256": "0ee57b7a780869a958c45ae56dca7e6bea6828ecd8e4a347b5660770bef01563",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-121c841d-2bac-4b83-88b7-e9201691a3c6.png",
+      "sha256": "6a7bf71112e048c6136b4f1d24c1e14b9514778a153197b8e535456325bff55f",
+      "generated_at": "2026-11-24T14:36:24.505162+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_BED1_HERO_v1",
@@ -3014,9 +3022,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_BED1_HERO_v1.txt",
       "output": "renders/A811_PC_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "67d712ea672356a89a08cebdad06b1e4655b98d2a298fd55e0f6497fa938543b"
+      "prompt_sha256": "67d712ea672356a89a08cebdad06b1e4655b98d2a298fd55e0f6497fa938543b",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d75c20b1-6f05-4f98-8d2c-ce43ce1df517.png",
+      "sha256": "87e942a096c976f4cdf27b0b7998773bf5b4d96a23135964fb993e5b8a6c7379",
+      "generated_at": "2026-11-24T14:36:24.774713+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_BED1_MEDIA_v1",
@@ -3033,9 +3045,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_BED1_MEDIA_v1.txt",
       "output": "renders/A811_PC_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2b7510b246f058c0f341aa854a29c73d8b279ad817f24125cc7afcac835ffa08"
+      "prompt_sha256": "2b7510b246f058c0f341aa854a29c73d8b279ad817f24125cc7afcac835ffa08",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3c139e43-c8e1-45e9-9697-4c9d1f901599.png",
+      "sha256": "2745af7d8c8285c4a5dd270ecd8dc5340e084494d9a2cdadda2bebd2e3adf6a2",
+      "generated_at": "2026-11-24T14:38:48.627761+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_MASTER_MEDIA_v1",
@@ -3052,9 +3068,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_MASTER_MEDIA_v1.txt",
       "output": "renders/A811_PC_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "bf3b133b3afa813fb1a77f8ea78d40881cc6c4ec91144add655cdd063bd3a3ff"
+      "prompt_sha256": "bf3b133b3afa813fb1a77f8ea78d40881cc6c4ec91144add655cdd063bd3a3ff",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3fa1c6c0-5e8f-42a5-ab9e-fabfc41e0454.png",
+      "sha256": "f9fdd7ef3ef0868bdc760055a5e4356c12081d8eab7d182dab41dd7c647e5365",
+      "generated_at": "2026-11-24T14:38:48.827018+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_MASTER_GARD_HERO_v1",
@@ -3071,9 +3091,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_MASTER_GARD_HERO_v1.txt",
       "output": "renders/A811_PC_MASTER_GARD_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "efaa776de569f347c15e9f6510dbc0459b9abcffb79badffd198c6a55d8e3b0f"
+      "prompt_sha256": "efaa776de569f347c15e9f6510dbc0459b9abcffb79badffd198c6a55d8e3b0f",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4c1052d9-77b6-4367-8f89-1dc0861bae34.png",
+      "sha256": "388f28a7d8f64574595ec802c57bb7549216944598f9933f516f73354ac76ba1",
+      "generated_at": "2026-11-24T14:36:25.115615+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_LIVING_WINDOW_v1",
@@ -3092,9 +3116,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_LIVING_WINDOW_v1.txt",
       "output": "renders/A811_PC_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "956f9ee1d0160bd289ddce6510105215cfde0dd7eaba67f34e83325fd7077039"
+      "prompt_sha256": "956f9ee1d0160bd289ddce6510105215cfde0dd7eaba67f34e83325fd7077039",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-a07d2886-5d96-4faa-99a5-a0c8daf61d75.png",
+      "sha256": "03a5f2e517507ea3b9e96be282e80d8cd968c7787c56abbaa7748861751ea65c",
+      "generated_at": "2026-11-24T14:38:49.073626+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_KITCHEN_HERO_v1",
@@ -3113,9 +3141,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_KITCHEN_HERO_v1.txt",
       "output": "renders/A811_PC_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "58e6fa843fac597064c3cbb2b7235cea538986f1d2ce376f934df0984ea1dd31"
+      "prompt_sha256": "58e6fa843fac597064c3cbb2b7235cea538986f1d2ce376f934df0984ea1dd31",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-83e09c19-68fa-4381-ab06-3df2f9b25536.png",
+      "sha256": "4bc432502fe65576a8e7f6996f8b811d15d4b3b78b7af46ebb722528ec64007a",
+      "generated_at": "2026-11-24T14:38:49.568315+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_ENTRY_HERO_v1",
@@ -3132,9 +3164,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_ENTRY_HERO_v1.txt",
       "output": "renders/A811_PC_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dcdd71d9c3655eae9544d5fe56e8981f037f11c6fcd043a067806d1925a0f7e2"
+      "prompt_sha256": "dcdd71d9c3655eae9544d5fe56e8981f037f11c6fcd043a067806d1925a0f7e2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-821da1ca-d31a-4266-a1a6-965b922b3b80.png",
+      "sha256": "cf0f49a059963c203dd4c5771bdea8cf756cd9697d044a48d39ecc839fcf8f3a",
+      "generated_at": "2026-11-24T14:40:43.555703+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_BATH1_HERO_v1",
@@ -3151,9 +3187,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_BATH1_HERO_v1.txt",
       "output": "renders/A811_PC_BATH1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "163c82d6780ceaa6a9073038bf7a80822b3d29c4490d5c2be0dc3ecce61ffb75"
+      "prompt_sha256": "163c82d6780ceaa6a9073038bf7a80822b3d29c4490d5c2be0dc3ecce61ffb75",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f4f4dc21-efa4-45c4-933d-ff29a8925672.png",
+      "sha256": "27a8b670edaa0b2eab094e6d24ee3158dcd03d5e35e69cca2a4b576a865aafc6",
+      "generated_at": "2026-11-24T14:40:43.781412+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_BATH2_HERO_v1",
@@ -3170,9 +3210,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_BATH2_HERO_v1.txt",
       "output": "renders/A811_PC_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "80a6dfe894e7db8e89f76587416114ca7fbe9f0800afefe6cf2923d76756bdb8"
+      "prompt_sha256": "80a6dfe894e7db8e89f76587416114ca7fbe9f0800afefe6cf2923d76756bdb8",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-a157805f-09f1-4f1f-9b4d-81c60eefa7e3.png",
+      "sha256": "7cdf119acb5238adfcaf31effc2c9bf7b59e26c9c342076e1432895ab682b8c0",
+      "generated_at": "2026-11-24T14:40:44.036397+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_WC_HERO_v1",
@@ -3189,9 +3233,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_WC_HERO_v1.txt",
       "output": "renders/A811_PC_WC_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6e6fbc90996b0857fed625abf4ea2a2ea4c167acb850feffbf82bb9572714282"
+      "prompt_sha256": "6e6fbc90996b0857fed625abf4ea2a2ea4c167acb850feffbf82bb9572714282",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-8f337e16-9f7d-4bb3-b2e1-9b4711c9c19a.png",
+      "sha256": "06d70f743dbba935ee9a25aae011f10afa8ad09c4f5228a907f56f895c19c9f9",
+      "generated_at": "2026-11-24T14:40:44.435595+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_UTILITY_HERO_v1",
@@ -3208,9 +3256,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_UTILITY_HERO_v1.txt",
       "output": "renders/A811_PC_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b2053a91d5a8a523f9846e277f31168ad9a263f2e5dc33c8c21fe4d000a1db83"
+      "prompt_sha256": "b2053a91d5a8a523f9846e277f31168ad9a263f2e5dc33c8c21fe4d000a1db83",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7360669e-65ed-47b8-b6d4-e6e157810753.png",
+      "sha256": "2363e6f566ac882fce6c4cca0a81b17d166eb833a175ff9b1ce86d7903288229",
+      "generated_at": "2026-11-24T14:42:24.692567+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_HALL_HERO_v1",
@@ -3227,9 +3279,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_HALL_HERO_v1.txt",
       "output": "renders/A811_PC_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9c62fa26f276f86c27d65b99636afd4347bed06d9dcf2abb6a01e583294a28fa"
+      "prompt_sha256": "9c62fa26f276f86c27d65b99636afd4347bed06d9dcf2abb6a01e583294a28fa",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-508eefa9-17a1-4da0-9c8a-cab6320031e1.png",
+      "sha256": "7bcb7c43b6f31d13d3856d1808e68982dea6898cd3ca0fe89d3ed2ee0f6ef271",
+      "generated_at": "2026-11-24T14:42:24.926694+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PC_BATH2_SHOWER_v1",
@@ -3246,9 +3302,13 @@
       ],
       "prompt": "prompts/A811/A811_PC_BATH2_SHOWER_v1.txt",
       "output": "renders/A811_PC_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a7ff2f1830d10ed8b211877aae9249003f1004fef228eab35be30441299410ec"
+      "prompt_sha256": "a7ff2f1830d10ed8b211877aae9249003f1004fef228eab35be30441299410ec",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0d54c66c-5adc-48d1-8fae-e0dff43068d9.png",
+      "sha256": "381ae82a9c8b8cd6e0e6149b71be6de716c09b6954bbac923b40980da328bf53",
+      "generated_at": "2026-11-24T14:42:25.197512+00:00",
+      "review_note": "All 15 views visually inspected. Concept only; dimensions, cabinet access and electrical/wet-zone implementation remain subject to technical validation."
     },
     {
       "id": "A811_PD_LIVING_HERO_v1",

@@ -1,0 +1,22 @@
+{
+  "id": "A811_PC_MASTER_GARD_HERO_v1",
+  "apartment": "A811",
+  "variant": "PC",
+  "camera": "MASTER_GARD_HERO",
+  "kind": "wardrobe",
+  "reference_ids": [
+    "PF15"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PC_MASTER_GARD_HERO_v1.txt",
+  "output": "renders/A811_PC_MASTER_GARD_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "efaa776de569f347c15e9f6510dbc0459b9abcffb79badffd198c6a55d8e3b0f",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4c1052d9-77b6-4367-8f89-1dc0861bae34.png",
+  "sha256": "388f28a7d8f64574595ec802c57bb7549216944598f9933f516f73354ac76ba1",
+  "generated_at": "2026-11-24T14:36:25.115615+00:00"
+}
