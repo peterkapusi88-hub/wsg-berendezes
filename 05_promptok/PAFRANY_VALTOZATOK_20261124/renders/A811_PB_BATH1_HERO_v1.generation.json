@@ -1,0 +1,24 @@
+{
+  "id": "A811_PB_BATH1_HERO_v1",
+  "apartment": "A811",
+  "variant": "PB",
+  "camera": "BATH1_HERO",
+  "kind": "bath",
+  "reference_ids": [
+    "PF14",
+    "PF25"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PB_BATH1_HERO_v1.txt",
+  "output": "renders/A811_PB_BATH1_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "dc87e2cc253c4d06ad955bf8da5ab613ec1772f3947eab0033a5b80dbb6d2032",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e7be85be-d223-4721-9dca-4315fe8f0f9a.png",
+  "sha256": "297b4b3a1524358d8618b3d5215ec3c8de4bce09de701c6a16bb909c94a0d1f5",
+  "generated_at": "2026-11-24T14:26:32.361455+00:00"
+}

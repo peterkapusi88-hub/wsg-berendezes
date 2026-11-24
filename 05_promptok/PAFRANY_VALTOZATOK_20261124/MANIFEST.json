@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 107,
+  "completed_images": 122,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -2609,9 +2609,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_LIVING_HERO_v1.txt",
       "output": "renders/A811_PB_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3b218b358d8b2c6ad6e1df4a03dd8144f629cd78f5123c7f44bfe957c76be454"
+      "prompt_sha256": "3b218b358d8b2c6ad6e1df4a03dd8144f629cd78f5123c7f44bfe957c76be454",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0d62cb8c-58ef-48c7-8688-bbbd767b5606.png",
+      "sha256": "7536118a646bb53198807877576ed8f0d9f04728306015fd58b86bd3aaac050b",
+      "generated_at": "2026-11-24T14:20:13.598246+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_MASTER_HERO_v1",
@@ -2628,9 +2632,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_MASTER_HERO_v1.txt",
       "output": "renders/A811_PB_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7fa5077530c484f0b421e99b9e11ecc175657b6e70ba05a04a7ddd7cd8fd7fc0"
+      "prompt_sha256": "7fa5077530c484f0b421e99b9e11ecc175657b6e70ba05a04a7ddd7cd8fd7fc0",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f4dce620-dcd7-442a-a9c0-72248cca88dc.png",
+      "sha256": "58f80e0ba126bf71e10dce6f6e35b259e6d23d285bf9099190cf43eaa0ff62a2",
+      "generated_at": "2026-11-24T14:17:49.661716+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_BED1_HERO_v1",
@@ -2647,9 +2655,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_BED1_HERO_v1.txt",
       "output": "renders/A811_PB_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5aab20e56ec04d928827ffa9c20fb8bf708a589231bb6ea7309797561eac75c5"
+      "prompt_sha256": "5aab20e56ec04d928827ffa9c20fb8bf708a589231bb6ea7309797561eac75c5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-4c82d7ec-a76e-4d44-9ac6-f5a4cede1f25.png",
+      "sha256": "a6f1c5d03ecf204ea2710cef19fe8fc63b290047ca4187127102704c452c6910",
+      "generated_at": "2026-11-24T14:17:49.967259+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_BED1_MEDIA_v1",
@@ -2666,9 +2678,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_BED1_MEDIA_v1.txt",
       "output": "renders/A811_PB_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5cd3e66eda61da0dfd2712e49dbeac5d321fdc3f0776f2fd645de5ef17d27297"
+      "prompt_sha256": "5cd3e66eda61da0dfd2712e49dbeac5d321fdc3f0776f2fd645de5ef17d27297",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-05227bf4-f940-43b1-91b7-1106a5b0199a.png",
+      "sha256": "85631016da88eea6fe7f3330ebca8192d2474c7c8a46158111cfc069c57edfbc",
+      "generated_at": "2026-11-24T14:23:20.089871+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_MASTER_MEDIA_v1",
@@ -2685,9 +2701,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_MASTER_MEDIA_v1.txt",
       "output": "renders/A811_PB_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "10391297715d636f4c844777888ada2d9afed48b1e0d673ff1e6383b41f1c10a"
+      "prompt_sha256": "10391297715d636f4c844777888ada2d9afed48b1e0d673ff1e6383b41f1c10a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-533c58d4-faf8-45e2-ab87-6847c4a907e3.png",
+      "sha256": "af89b3eeae8c328f98471b9a93e47c16ee4e8677f7b11e8c957cbe61c17e1e56",
+      "generated_at": "2026-11-24T14:23:20.344252+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_MASTER_GARD_HERO_v1",
@@ -2704,9 +2724,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_MASTER_GARD_HERO_v1.txt",
       "output": "renders/A811_PB_MASTER_GARD_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c6d78cdb5cb3645aa75f09ace865473907bab0aecb757280d509703cb0186886"
+      "prompt_sha256": "c6d78cdb5cb3645aa75f09ace865473907bab0aecb757280d509703cb0186886",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-8a80e174-7a6f-4de8-bedf-88b3d18571b3.png",
+      "sha256": "0fac2f4a8a0db3d9fc6dea2c16dcbfb2af798759db22fd40fbb24741f33fa9f3",
+      "generated_at": "2026-11-24T14:17:50.325793+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_LIVING_WINDOW_v1",
@@ -2729,9 +2753,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_LIVING_WINDOW_v1.txt",
       "output": "renders/A811_PB_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5c9be38ea9ce72391c4e7fbb7f7cf314caf479ba6cf952e4335d8d1eee090b09"
+      "prompt_sha256": "5c9be38ea9ce72391c4e7fbb7f7cf314caf479ba6cf952e4335d8d1eee090b09",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-eeda7795-3837-4a48-a66c-367632719de4.png",
+      "sha256": "fe77c92fb4cdde627b99d41e0ed73cca8a8ac178c4f228a9fe4c6a9854ee91b5",
+      "generated_at": "2026-11-24T14:23:20.649326+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_KITCHEN_HERO_v1",
@@ -2754,9 +2782,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_KITCHEN_HERO_v1.txt",
       "output": "renders/A811_PB_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dc1ea9586d1f12628809e83ccfd2d46c8df4f217eaf4dda362647467a17b20ff"
+      "prompt_sha256": "dc1ea9586d1f12628809e83ccfd2d46c8df4f217eaf4dda362647467a17b20ff",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b21ccf0b-84bd-4b1c-a2aa-e291252a644a.png",
+      "sha256": "0d6f5f8fa189a5519ac9853c6790bd6822f0fa8f9faa15c2bf8f0f37f806e08e",
+      "generated_at": "2026-11-24T14:23:21.099935+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_ENTRY_HERO_v1",
@@ -2773,9 +2805,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_ENTRY_HERO_v1.txt",
       "output": "renders/A811_PB_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "632ab52ac729a2faa5fa0bee95b77ad0f6217c1b1d125e38acedcf8b78c45b43"
+      "prompt_sha256": "632ab52ac729a2faa5fa0bee95b77ad0f6217c1b1d125e38acedcf8b78c45b43",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0140f30d-e71b-4bec-8d12-1c832b8158a0.png",
+      "sha256": "6af83c00714d4db39d3b3ef3e4c23c4dd346d3f1c77b28fdffb1003da2b635a0",
+      "generated_at": "2026-11-24T14:26:32.136373+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_BATH1_HERO_v1",
@@ -2794,9 +2830,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_BATH1_HERO_v1.txt",
       "output": "renders/A811_PB_BATH1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dc87e2cc253c4d06ad955bf8da5ab613ec1772f3947eab0033a5b80dbb6d2032"
+      "prompt_sha256": "dc87e2cc253c4d06ad955bf8da5ab613ec1772f3947eab0033a5b80dbb6d2032",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e7be85be-d223-4721-9dca-4315fe8f0f9a.png",
+      "sha256": "297b4b3a1524358d8618b3d5215ec3c8de4bce09de701c6a16bb909c94a0d1f5",
+      "generated_at": "2026-11-24T14:26:32.361455+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_BATH2_HERO_v1",
@@ -2815,9 +2855,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_BATH2_HERO_v1.txt",
       "output": "renders/A811_PB_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "11ae29fdf31d84fe1e9a10abf0e352c39239536988781d8cf918419223bc57d6"
+      "prompt_sha256": "11ae29fdf31d84fe1e9a10abf0e352c39239536988781d8cf918419223bc57d6",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3b6e5826-4771-41ac-bdf4-ae0aeb9d931e.png",
+      "sha256": "dcb5bf6561e17a78b889ed93b0dad8d2afc1349871115fa80e05752eba87e4a9",
+      "generated_at": "2026-11-24T14:26:32.561724+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_WC_HERO_v1",
@@ -2836,9 +2880,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_WC_HERO_v1.txt",
       "output": "renders/A811_PB_WC_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c5aa5a37a9099272795e64aaf144b7362fff49cce6a5e18558bdaca657d3baf5"
+      "prompt_sha256": "c5aa5a37a9099272795e64aaf144b7362fff49cce6a5e18558bdaca657d3baf5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0de96f53-a265-46ff-998c-7e1e0191c371.png",
+      "sha256": "59c57161e0a1694783970937403214f973873c2f25b0d3811c63b0d20dab5d31",
+      "generated_at": "2026-11-24T14:26:32.998753+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_UTILITY_HERO_v1",
@@ -2855,9 +2903,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_UTILITY_HERO_v1.txt",
       "output": "renders/A811_PB_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9f8064bb9c4e1c55cf3160b924d69504ed370b515a48474583bf60a7b52c69a3"
+      "prompt_sha256": "9f8064bb9c4e1c55cf3160b924d69504ed370b515a48474583bf60a7b52c69a3",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9e53f3f8-e471-482f-aaf9-d907197b7bfe.png",
+      "sha256": "35b6780aaeab711a627d394a26885ad39fcec6699a11bc562430cea52bd82c90",
+      "generated_at": "2026-11-24T14:29:22.006100+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_HALL_HERO_v1",
@@ -2874,9 +2926,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_HALL_HERO_v1.txt",
       "output": "renders/A811_PB_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ab82ddb8cdd1784919ea4c494721282bb5c64f589d3bbb93f15a69569ad28d3e"
+      "prompt_sha256": "ab82ddb8cdd1784919ea4c494721282bb5c64f589d3bbb93f15a69569ad28d3e",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0ae08b00-1817-42c8-8267-c942c79b95f5.png",
+      "sha256": "a51e9c08d924d449616d4535b01af2b492129efd9ed4e8baa3d1263ca212e3cf",
+      "generated_at": "2026-11-24T14:29:22.219385+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PB_BATH2_SHOWER_v1",
@@ -2895,9 +2951,13 @@
       ],
       "prompt": "prompts/A811/A811_PB_BATH2_SHOWER_v1.txt",
       "output": "renders/A811_PB_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5c7ea202cf6b33a6f83f33ebae220a3c1e8231ca09f10219d43c99c734fa8038"
+      "prompt_sha256": "5c7ea202cf6b33a6f83f33ebae220a3c1e8231ca09f10219d43c99c734fa8038",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b45c08a2-50c2-4aa4-a04b-d7058cea3fd9.png",
+      "sha256": "9b14e4852ca7d8f01b57628424ef3c3dcdd8ae9a90c4dd6d1d4cdb5b16894212",
+      "generated_at": "2026-11-24T14:29:22.490108+00:00",
+      "review_note": "All 15 views visually reviewed; unapproved living ceiling fixture removed. Concept only; dimensional and electrical validation pending."
     },
     {
       "id": "A811_PC_LIVING_HERO_v1",
@@ -2918,7 +2978,7 @@
       "output": "renders/A811_PC_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d0f3d52aa2a5f2b05f118d373b8509f06e32cecb73169a1e81cbdb2b3dab7b27"
+      "prompt_sha256": "44159c8a3c8c1b5dcf312ec6755b78e007219b263e5503b49d6a2fcdc856c394"
     },
     {
       "id": "A811_PC_MASTER_HERO_v1",
@@ -3215,7 +3275,7 @@
       "output": "renders/A811_PD_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "95c006275c95cf61bc569735937eddccf8c24c09adbd321da703af5f62c704f4"
+      "prompt_sha256": "56379695dc33110b19118d754107d55d7c7b42d803590a041793e53d3d1e0d9e"
     },
     {
       "id": "A811_PD_MASTER_HERO_v1",
