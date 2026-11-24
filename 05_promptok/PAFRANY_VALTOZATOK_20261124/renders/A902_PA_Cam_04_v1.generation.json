@@ -1,0 +1,24 @@
+{
+  "id": "A902_PA_Cam_04_v1",
+  "apartment": "A902",
+  "variant": "PA",
+  "camera": "Cam_04",
+  "kind": "bed",
+  "reference_ids": [
+    "PF04"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+  ],
+  "prompt": "prompts/A902/A902_PA_Cam_04_v1.txt",
+  "output": "renders/A902_PA_Cam_04_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "20bc210f60d202ebb4e745bfaaf1d44588b4feb1dee7156ad1f51565fa8ed9c0",
+  "rejected_attempt": "rejected/A902_PA_Cam_04_v1.png",
+  "rejection_reason": "Copied PF04 reference architecture; wrong camera, window and ceiling track.",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ad689137-dcbe-4530-956b-c047b15d079c.png",
+  "sha256": "38b940f904e1a37f82738420ca85b49f600f429f71d0239eae27972dd040f703",
+  "generated_at": "2026-11-24T12:27:41.948624+00:00"
+}
