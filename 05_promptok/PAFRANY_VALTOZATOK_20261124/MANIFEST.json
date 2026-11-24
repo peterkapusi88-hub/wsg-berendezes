@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 28,
+  "completed_images": 44,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -708,9 +708,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_LIVING_HERO_v1.txt",
       "output": "renders/A812_PA_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "38687cb0171eec9bb865a59c904259a387b10fc9eb16f90b051fe0a870142195"
+      "prompt_sha256": "938d9c532fcb2a6d4f8538b2dedcef473caadedf50ab3cbd2967167f39a870fc",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-c9b24b14-9d33-416e-9018-54e20294feb4.png",
+      "sha256": "0ed3558dc9b3b3a973bca1f3a5f4d521f087e0c71e766262cb662dbb28147d1e",
+      "generated_at": "2026-11-24T13:06:26.478447+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_MASTER_HERO_v1",
@@ -727,9 +731,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_MASTER_HERO_v1.txt",
       "output": "renders/A812_PA_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "64bd5001e6197fe333afe5ef185f799998b52798531df70a4ea2234f409253fc"
+      "prompt_sha256": "64bd5001e6197fe333afe5ef185f799998b52798531df70a4ea2234f409253fc",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-1ad426da-4bff-440c-ba27-abd0ca85e603.png",
+      "sha256": "5f234359ab00fc032b5db106d6fdacf457bb144eeae96359ba07c79f6a26a40c",
+      "generated_at": "2026-11-24T13:04:17.582587+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BED1_HERO_v1",
@@ -746,9 +754,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BED1_HERO_v1.txt",
       "output": "renders/A812_PA_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b0a8a190db64e1120c254dd768112371f44dd4981b2a5e753d8df3bfac2fbc2d"
+      "prompt_sha256": "b0a8a190db64e1120c254dd768112371f44dd4981b2a5e753d8df3bfac2fbc2d",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-0717b0db-d00d-4185-aac9-d8434225ee54.png",
+      "sha256": "1332e86e30f8085aebf689d2da0691709826d93c39a4e44686de56ef01f5a444",
+      "generated_at": "2026-11-24T13:04:18.242760+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BED1_MEDIA_v1",
@@ -765,9 +777,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BED1_MEDIA_v1.txt",
       "output": "renders/A812_PA_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6eee12e9d41bb2376d65db5f1c3d39a0f8b5ecd2d56666628eb73283ac6796c5"
+      "prompt_sha256": "6eee12e9d41bb2376d65db5f1c3d39a0f8b5ecd2d56666628eb73283ac6796c5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3e23ee54-ecd7-49d4-bc9f-bab3f8ad3650.png",
+      "sha256": "4940c74d4aaf2bc5d557060b6801ede94da2dd2a79da6451f34c18810378502a",
+      "generated_at": "2026-11-24T13:08:40.678804+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BED2_HERO_v1",
@@ -784,9 +800,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BED2_HERO_v1.txt",
       "output": "renders/A812_PA_BED2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "255c5f14ad6822f3d22560e3720748f00396d096d8a1f211b472af490254ba44"
+      "prompt_sha256": "255c5f14ad6822f3d22560e3720748f00396d096d8a1f211b472af490254ba44",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-1777e066-2d2c-4425-9f91-76f1d7abc039.png",
+      "sha256": "263a680f7439c522d701d9cff211f9b723d7c3e82ec20cf2a22533d2a599a294",
+      "generated_at": "2026-11-24T13:04:18.663562+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BED2_MEDIA_v1",
@@ -803,9 +823,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BED2_MEDIA_v1.txt",
       "output": "renders/A812_PA_BED2_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "be1f9adbfa7f0ecc4433bcb420f81c5f89fc8114f53ead4be8db93c2b7288903"
+      "prompt_sha256": "be1f9adbfa7f0ecc4433bcb420f81c5f89fc8114f53ead4be8db93c2b7288903",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-820077c1-948a-4c2c-b7d2-7d59866292f9.png",
+      "sha256": "b8b8d56399ccfc921fe0596942a788e022f25d3006406764eda017fd2c8be954",
+      "generated_at": "2026-11-24T13:08:41.146388+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_MASTER_MEDIA_v1",
@@ -822,9 +846,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_MASTER_MEDIA_v1.txt",
       "output": "renders/A812_PA_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0a54a8a802a594d36fa2e9edf783e6fcfc565103858ed2f20822923ed981b66c"
+      "prompt_sha256": "0a54a8a802a594d36fa2e9edf783e6fcfc565103858ed2f20822923ed981b66c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d348d71b-3dd9-48b8-8d82-512aa6ac400d.png",
+      "sha256": "95cbf157567f105ac5ea1995e024f76e1a1a368f31c5cbbd28767a5b00f7c570",
+      "generated_at": "2026-11-24T13:08:41.609496+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_GARD3_HERO_v1",
@@ -841,9 +869,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_GARD3_HERO_v1.txt",
       "output": "renders/A812_PA_GARD3_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7078a1b37c1c9da93d84acafb03d1de0a9586c8f577fe8a0d2b4b56483f12c56"
+      "prompt_sha256": "7078a1b37c1c9da93d84acafb03d1de0a9586c8f577fe8a0d2b4b56483f12c56",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-183e3cf6-bc77-4ff9-aa42-767c56f0da1d.png",
+      "sha256": "8760213b6ffc5e05d79c55018c01a48e9d8758566b69f2dc73abe3208e7093e0",
+      "generated_at": "2026-11-24T13:08:42.178971+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_LIVING_WINDOW_v1",
@@ -862,9 +894,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_LIVING_WINDOW_v1.txt",
       "output": "renders/A812_PA_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9ceae0e530c3db95ad60c2e66902a2356ff58199b2ed85907104be9fe0cd7092"
+      "prompt_sha256": "1fb74c8a2c8c329ae6756710e9272be1a8e3e7f22274222ed3776b61cca38613",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d7b7837b-3790-46a2-8cf7-ef4d2cf5d5c1.png",
+      "sha256": "f754980e70e1d4b95dece776c617b51020d128f3e3887b1f8e1567b9c87b1130",
+      "generated_at": "2026-11-24T13:12:04.242291+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_KITCHEN_HERO_v1",
@@ -883,9 +919,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_KITCHEN_HERO_v1.txt",
       "output": "renders/A812_PA_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "55cdeececa85a4d242f41b053d98842f4d5bcaf60db632e19aa72b9f8ec9cc6b"
+      "prompt_sha256": "0748d79a43c50cb7ad44ab4f38a45a9862b347e17c70d90882708c4ce1d78fe5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-489e7c6c-1522-47ee-81c0-19a1245c7bfa.png",
+      "sha256": "ff71e1d88b3a5c7c8105346416868a88b79aa77f0af46ea7ab7eee7177a2a53a",
+      "generated_at": "2026-11-24T13:12:04.737703+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_ENTRY_HERO_v1",
@@ -902,9 +942,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_ENTRY_HERO_v1.txt",
       "output": "renders/A812_PA_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "da22916aec4af3d17439235e6e5b93112a7ce57d50a0e6ff52770c296b05dd17"
+      "prompt_sha256": "da22916aec4af3d17439235e6e5b93112a7ce57d50a0e6ff52770c296b05dd17",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-15bdd2cd-c122-4624-8178-4c4ffe889bc8.png",
+      "sha256": "891bf04824a1f860dfd4cdafb248e72462aeed4f9b1d11ef9f4dbf64d160e95d",
+      "generated_at": "2026-11-24T13:12:05.710982+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BATH2_HERO_v1",
@@ -923,9 +967,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BATH2_HERO_v1.txt",
       "output": "renders/A812_PA_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "9e2345dc44b02d22c45c45330e66b36a460772807996af4c04a301eba2e38a29"
+      "prompt_sha256": "9e2345dc44b02d22c45c45330e66b36a460772807996af4c04a301eba2e38a29",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-a56e7fb4-cdc7-4649-8d86-fb5d05903bcb.png",
+      "sha256": "495e53e493408b940561bb80f5700a9410ce09d0b15943477cc9984576220ba1",
+      "generated_at": "2026-11-24T13:15:00.752753+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BATH08_HERO_v1",
@@ -944,9 +992,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BATH08_HERO_v1.txt",
       "output": "renders/A812_PA_BATH08_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "94d8969048f1049b79e9788391927d12f050c16eca8b7edf72f751e8b5b13863"
+      "prompt_sha256": "94d8969048f1049b79e9788391927d12f050c16eca8b7edf72f751e8b5b13863",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3f9ab0fd-ded3-4fba-9179-7a08dbc002b8.png",
+      "sha256": "7f57d739552d742962e1571c855a2642c9885dd0bec363f1b0aff528bf095c70",
+      "generated_at": "2026-11-24T13:17:35.992928+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_UTILITY_HERO_v1",
@@ -963,9 +1015,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_UTILITY_HERO_v1.txt",
       "output": "renders/A812_PA_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "f6a39beddfd58b0aeb80b70ac9515d5ebdc76388f2ad31249614d2997800c77a"
+      "prompt_sha256": "f6a39beddfd58b0aeb80b70ac9515d5ebdc76388f2ad31249614d2997800c77a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7501c20f-abec-4505-944d-58c2249ea8c8.png",
+      "sha256": "b87365ec7d4ad787cca32d97da6c047f6c6ec8320ba3fb125d9b06a4c8b88c4e",
+      "generated_at": "2026-11-24T13:17:36.420237+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_HALL_HERO_v1",
@@ -982,9 +1038,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_HALL_HERO_v1.txt",
       "output": "renders/A812_PA_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ff0789f4a3af8798895a8c486a55840f8c1ba7f7c60863aa7a126a9b68dbdae8"
+      "prompt_sha256": "ff0789f4a3af8798895a8c486a55840f8c1ba7f7c60863aa7a126a9b68dbdae8",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-aa5b625b-7c61-4df5-b300-8593eb05320b.png",
+      "sha256": "807552872c4536507fa78be6335b5864598ab52dafd86334e05607f60c264d48",
+      "generated_at": "2026-11-24T13:17:37.279481+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PA_BATH2_SHOWER_v1",
@@ -1003,9 +1063,13 @@
       ],
       "prompt": "prompts/A812/A812_PA_BATH2_SHOWER_v1.txt",
       "output": "renders/A812_PA_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b41d4ee0dcab0e7c5bee52b5a820df2c1588db7c73ee1562082c9b3459d53dfd"
+      "prompt_sha256": "b41d4ee0dcab0e7c5bee52b5a820df2c1588db7c73ee1562082c9b3459d53dfd",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-86924c55-4506-4895-8936-e125aee94423.png",
+      "sha256": "29baa7e397985aaa6f042965f9c9c620a5c5d664abdfae4136e4c1ec5fb65630",
+      "generated_at": "2026-11-24T13:19:04.806866+00:00",
+      "review_note": "All 16 views visually reviewed; shower reverse corrected to original tiles and hallway. Geometry/electrical dimensions remain unvalidated."
     },
     {
       "id": "A812_PB_LIVING_HERO_v1",
@@ -1030,7 +1094,7 @@
       "output": "renders/A812_PB_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d834669a13de9103b2ed7376349f2e7fb677b81e2a7856e40850e664c404e2b2"
+      "prompt_sha256": "f4ee50966ee37d8b3b33a589aa0665da41d012ef6a57e2234d416fe5c58f2c93"
     },
     {
       "id": "A812_PB_MASTER_HERO_v1",
@@ -1188,7 +1252,7 @@
       "output": "renders/A812_PB_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "11934171b4c2b25a83ebce1f110d742801acb9419c8d2fcf0a3d30ce26b80fd1"
+      "prompt_sha256": "07d6e386f061d83607a4b4a7ac85db07868c6fd349e8b8dea5d7110f2914f866"
     },
     {
       "id": "A812_PB_KITCHEN_HERO_v1",
@@ -1213,7 +1277,7 @@
       "output": "renders/A812_PB_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8990f551db0abdbe1da9022d3f77f1000a9d593949fd7b725c95c515bd68f85d"
+      "prompt_sha256": "c10e499a11f08235d903bc717b51f33ac6db3513f2cd274ddaaf6e21aaf036fe"
     },
     {
       "id": "A812_PB_ENTRY_HERO_v1",
@@ -1333,7 +1397,7 @@
       "output": "renders/A812_PB_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "54f478b2c0ea466b71cb5822a8aad97f24ab6c6182ecff3f99665e10406fcead"
+      "prompt_sha256": "2285bee953bd5185764f9322e03e1d64f49c1f22c238840c11419b42d84c6102"
     },
     {
       "id": "A812_PC_LIVING_HERO_v1",
@@ -1354,7 +1418,7 @@
       "output": "renders/A812_PC_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d24660d6278fe262c3aa91a07d68a1adeb14899ef5224a121a0396d7183aadb2"
+      "prompt_sha256": "8cc9e7ad518153c1b025d3f37acb3dd7b0a1fea3ca8eec08003f4cc541b1c854"
     },
     {
       "id": "A812_PC_MASTER_HERO_v1",
@@ -1508,7 +1572,7 @@
       "output": "renders/A812_PC_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6a6cba554c90d33b59f9074b7cec6c585b20641d3474274f9e30914a5a073af9"
+      "prompt_sha256": "2eb515f882bb42015fe22d9797f9c98ca34d657873612369b00603aee7b89757"
     },
     {
       "id": "A812_PC_KITCHEN_HERO_v1",
@@ -1529,7 +1593,7 @@
       "output": "renders/A812_PC_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "2c4dd9ca42ed43d32ae6e800befc573839d25588263c8a31c00b389d511c41a3"
+      "prompt_sha256": "f5f375837d632101db7bcb0bf821ece5afd7e219e36824d0cfb80a3099fd477c"
     },
     {
       "id": "A812_PC_ENTRY_HERO_v1",
@@ -1643,7 +1707,7 @@
       "output": "renders/A812_PC_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "294471569d64454993f4d8a5b7495ec303f2937a5791b1f706cb1281c0b45c10"
+      "prompt_sha256": "2f8128b4bc1afdac0b0fe9d32060c5246bf3e4fd4297448e31585c0952653e27"
     },
     {
       "id": "A812_PD_LIVING_HERO_v1",
@@ -1670,7 +1734,7 @@
       "output": "renders/A812_PD_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "bb38e74e9a9baa4d03593d0d4182d7715862714a684867cb644bd059228964a0"
+      "prompt_sha256": "8bdba30de2dae323bdfffbd4612f84526d6e265a2035f4750fcfeaf5bf69ea96"
     },
     {
       "id": "A812_PD_MASTER_HERO_v1",
@@ -1830,7 +1894,7 @@
       "output": "renders/A812_PD_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7e470c3ab8b1e45d4ea8236b01aab8d505a67c984aa793249ebaf633d906f651"
+      "prompt_sha256": "0004b8f33b634349184419cb97b265ac61e35dbb0846967fdb0961ded604de34"
     },
     {
       "id": "A812_PD_KITCHEN_HERO_v1",
@@ -1857,7 +1921,7 @@
       "output": "renders/A812_PD_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "55c11de4f84b426ffa37c261a6357bb561c81f0fa3adc4ad9a93ed5e9ff4a702"
+      "prompt_sha256": "c814f376bb31247580153df32435297aa11fae28868f8c3c474f7fb59b8661c1"
     },
     {
       "id": "A812_PD_ENTRY_HERO_v1",
@@ -1971,7 +2035,7 @@
       "output": "renders/A812_PD_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "eda9c8935eae7b3db401cc16390c7cf569b3ec26b7ae3db14437f9bbf6a01773"
+      "prompt_sha256": "32a4b057a615ff21422440d6aca8ef53ea570d0242cbebf65d79b3a8971ed01a"
     },
     {
       "id": "A811_PA_LIVING_HERO_v1",
@@ -1992,7 +2056,7 @@
       "output": "renders/A811_PA_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "8ed3d7d221051d574fc50c8ed138a4d47182d49720e5ccc133f6a0694a128744"
+      "prompt_sha256": "4689c374def99e89b7abfe1752891f3940c586037656386ff283026e790737f3"
     },
     {
       "id": "A811_PA_MASTER_HERO_v1",
@@ -2108,7 +2172,7 @@
       "output": "renders/A811_PA_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "91a519079c8f7d99d50623df7ded34e32726499490b4d911a7e16547e1842ab3"
+      "prompt_sha256": "3d248cb63ea53842addbba859b19f4113f9f9944946ba10e59949329544178a2"
     },
     {
       "id": "A811_PA_KITCHEN_HERO_v1",
@@ -2129,7 +2193,7 @@
       "output": "renders/A811_PA_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "0680a0a3be4b9a23aa39970cccccfdc5fe7f9b2a437b5173daff83d11147d7cf"
+      "prompt_sha256": "c5b2f8867d1d735f221d4b2482de8a4e0828ebb465b49a9994f1f07926abecba"
     },
     {
       "id": "A811_PA_ENTRY_HERO_v1",
@@ -2270,7 +2334,7 @@
       "output": "renders/A811_PA_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "ff893e78adde04a580693c5597640bda459b1301d0af460e4ccd46de28ac79c0"
+      "prompt_sha256": "12d426da11ab1e29bddf02436850715428f5caeae7b63f52106a6ee0593e1014"
     },
     {
       "id": "A811_PB_LIVING_HERO_v1",
@@ -2295,7 +2359,7 @@
       "output": "renders/A811_PB_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c946c4ce36a4ba7f93617b691518e994fd6cbe4857933c8ebede24f3e127264b"
+      "prompt_sha256": "3b218b358d8b2c6ad6e1df4a03dd8144f629cd78f5123c7f44bfe957c76be454"
     },
     {
       "id": "A811_PB_MASTER_HERO_v1",
@@ -2415,7 +2479,7 @@
       "output": "renders/A811_PB_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "70b54fc1bff474c9153d8acbe5d6fb38b6b6041d01485c899b318f373926c3f3"
+      "prompt_sha256": "5c9be38ea9ce72391c4e7fbb7f7cf314caf479ba6cf952e4335d8d1eee090b09"
     },
     {
       "id": "A811_PB_KITCHEN_HERO_v1",
@@ -2440,7 +2504,7 @@
       "output": "renders/A811_PB_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "224815f184934913b2bf7c63917ec0e99d9d9b103f1951bb381047fa954996b4"
+      "prompt_sha256": "dc1ea9586d1f12628809e83ccfd2d46c8df4f217eaf4dda362647467a17b20ff"
     },
     {
       "id": "A811_PB_ENTRY_HERO_v1",
@@ -2581,7 +2645,7 @@
       "output": "renders/A811_PB_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "d826cf05d9cfb1aa468c91b3bfbc742c8862ac36cc3e3c42b32ed2bc6e47c30b"
+      "prompt_sha256": "5c7ea202cf6b33a6f83f33ebae220a3c1e8231ca09f10219d43c99c734fa8038"
     },
     {
       "id": "A811_PC_LIVING_HERO_v1",
@@ -2602,7 +2666,7 @@
       "output": "renders/A811_PC_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "303bc522642294f472dde4e4840a8796d2de505d151ece7d3f0c5f3790501861"
+      "prompt_sha256": "d0f3d52aa2a5f2b05f118d373b8509f06e32cecb73169a1e81cbdb2b3dab7b27"
     },
     {
       "id": "A811_PC_MASTER_HERO_v1",
@@ -2718,7 +2782,7 @@
       "output": "renders/A811_PC_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "05fea452849fc531b100de1f6a77b712e69ef48de7165bcc695679213c9337f7"
+      "prompt_sha256": "956f9ee1d0160bd289ddce6510105215cfde0dd7eaba67f34e83325fd7077039"
     },
     {
       "id": "A811_PC_KITCHEN_HERO_v1",
@@ -2739,7 +2803,7 @@
       "output": "renders/A811_PC_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "22b2410274f13003bb5d3f4bd2a66ba9cb27e89764c9a0c7f01a133f6441d152"
+      "prompt_sha256": "58e6fa843fac597064c3cbb2b7235cea538986f1d2ce376f934df0984ea1dd31"
     },
     {
       "id": "A811_PC_ENTRY_HERO_v1",
@@ -2872,7 +2936,7 @@
       "output": "renders/A811_PC_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "dd915d6654fd52f64aef8165caa05251edb26a7cd634aaec622d06d6341f7cb9"
+      "prompt_sha256": "a7ff2f1830d10ed8b211877aae9249003f1004fef228eab35be30441299410ec"
     },
     {
       "id": "A811_PD_LIVING_HERO_v1",
@@ -2899,7 +2963,7 @@
       "output": "renders/A811_PD_LIVING_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c453044906282bb46d17f16ab187f658347a4a9e27acdfff7faf3e4adb830335"
+      "prompt_sha256": "95c006275c95cf61bc569735937eddccf8c24c09adbd321da703af5f62c704f4"
     },
     {
       "id": "A811_PD_MASTER_HERO_v1",
@@ -3021,7 +3085,7 @@
       "output": "renders/A811_PD_LIVING_WINDOW_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "1fc352fdc3aa0d66ee4f22a10c33eebed992ab4ce66c7a13be8bebbd62958a81"
+      "prompt_sha256": "1c2b6f8867d9156dd4a32d3476ce7b2c22b3bf8ca71127dd5bdb30f596637ad2"
     },
     {
       "id": "A811_PD_KITCHEN_HERO_v1",
@@ -3048,7 +3112,7 @@
       "output": "renders/A811_PD_KITCHEN_HERO_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "7be6a3e51677a9e19dcb4a21a75731fc3429468a0d44c416539a198932ba7231"
+      "prompt_sha256": "7dd74ffcd2464b411c3d9558f8b26b32ad6e30e38976a0d921921e266086cf07"
     },
     {
       "id": "A811_PD_ENTRY_HERO_v1",
@@ -3181,7 +3245,7 @@
       "output": "renders/A811_PD_BATH2_SHOWER_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "051af2927b08301f9c881d7cb41cd7590c41ea1719c77d8611ecb33a061d5453"
+      "prompt_sha256": "04b68ffe3eb37500e0cda406071ac4347bb663727f6d238aa041c600f568d247"
     }
   ]
 }

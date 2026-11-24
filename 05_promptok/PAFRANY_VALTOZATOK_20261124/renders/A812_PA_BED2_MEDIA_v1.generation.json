@@ -1,0 +1,22 @@
+{
+  "id": "A812_PA_BED2_MEDIA_v1",
+  "apartment": "A812",
+  "variant": "PA",
+  "camera": "BED2_MEDIA",
+  "kind": "bed",
+  "reference_ids": [
+    "PF04"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PA_BED2_MEDIA_v1.txt",
+  "output": "renders/A812_PA_BED2_MEDIA_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "be1f9adbfa7f0ecc4433bcb420f81c5f89fc8114f53ead4be8db93c2b7288903",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-820077c1-948a-4c2c-b7d2-7d59866292f9.png",
+  "sha256": "b8b8d56399ccfc921fe0596942a788e022f25d3006406764eda017fd2c8be954",
+  "generated_at": "2026-11-24T13:08:41.146388+00:00"
+}
