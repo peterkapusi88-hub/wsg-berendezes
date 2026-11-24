@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 92,
+  "completed_images": 107,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -2246,9 +2246,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_LIVING_HERO_v1.txt",
       "output": "renders/A811_PA_LIVING_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4689c374def99e89b7abfe1752891f3940c586037656386ff283026e790737f3"
+      "prompt_sha256": "4689c374def99e89b7abfe1752891f3940c586037656386ff283026e790737f3",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-1fd7f37b-83de-4ee6-a194-d9cb9c8cbe50.png",
+      "sha256": "b163a0d447e8b0360473dc6eded6ba204df614a7161b41ee227a42fe40e173f5",
+      "generated_at": "2026-11-24T14:03:57.693732+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_MASTER_HERO_v1",
@@ -2265,9 +2269,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_MASTER_HERO_v1.txt",
       "output": "renders/A811_PA_MASTER_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "babc46fa495a872f67e648413094954aec5a4dd7312ddc8ac38171af9c9c8127"
+      "prompt_sha256": "babc46fa495a872f67e648413094954aec5a4dd7312ddc8ac38171af9c9c8127",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f5caaff8-85d1-4abf-a89a-163409d5827f.png",
+      "sha256": "584dfbe3ad8cc1c4cd0e59998d99751b5272506c068644ceb279a2476f6dd490",
+      "generated_at": "2026-11-24T14:03:57.943009+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_BED1_HERO_v1",
@@ -2284,9 +2292,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_BED1_HERO_v1.txt",
       "output": "renders/A811_PA_BED1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "07cb97da9b4db1a6547ccc96e8bbdbb733dd85762d8e46811ef9d29811359907"
+      "prompt_sha256": "07cb97da9b4db1a6547ccc96e8bbdbb733dd85762d8e46811ef9d29811359907",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b2200453-f30a-4e9f-b015-361b0046a0be.png",
+      "sha256": "9904c0c8a1f937ea1c11a7b4fe7f91bb71b9a9e4b0fe6cae7bbf5fbc36f10bbc",
+      "generated_at": "2026-11-24T14:03:58.279545+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_BED1_MEDIA_v1",
@@ -2303,9 +2315,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_BED1_MEDIA_v1.txt",
       "output": "renders/A811_PA_BED1_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6e8768c395fe4b2a8ca355a62138f598c450332ecadbca4fc35fb38256832a01"
+      "prompt_sha256": "6e8768c395fe4b2a8ca355a62138f598c450332ecadbca4fc35fb38256832a01",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-edede7b5-74e1-49ba-b091-296978fbf102.png",
+      "sha256": "59636b6352b2067c525f4e2b74e5112cea50633c61e6acc2efd2a0f2786a103c",
+      "generated_at": "2026-11-24T14:07:13.079840+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_MASTER_MEDIA_v1",
@@ -2322,9 +2338,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_MASTER_MEDIA_v1.txt",
       "output": "renders/A811_PA_MASTER_MEDIA_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "675e5cd7feda9b86b0d10d0f5213e65827fb2595275c16201a1c6144338c2471"
+      "prompt_sha256": "675e5cd7feda9b86b0d10d0f5213e65827fb2595275c16201a1c6144338c2471",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9e19de85-e001-4f74-a38f-db44741d226a.png",
+      "sha256": "cbaeb3ed0402da90949eb170e1b168940289b60b12bffe64bf4ff48cfbbd3a21",
+      "generated_at": "2026-11-24T14:07:13.299428+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_MASTER_GARD_HERO_v1",
@@ -2341,9 +2361,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_MASTER_GARD_HERO_v1.txt",
       "output": "renders/A811_PA_MASTER_GARD_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "81cab5775b7d53c424ec24a01d9c6089d7718fb28e5b0946a687102552768441"
+      "prompt_sha256": "81cab5775b7d53c424ec24a01d9c6089d7718fb28e5b0946a687102552768441",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2bf0ba20-2fb3-4358-b8fe-445f56d69c92.png",
+      "sha256": "ba0a026cc28df17e35f25c768630598d61a3f6ec739c4091e1468aef7b07a42b",
+      "generated_at": "2026-11-24T14:03:58.672178+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_LIVING_WINDOW_v1",
@@ -2362,9 +2386,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_LIVING_WINDOW_v1.txt",
       "output": "renders/A811_PA_LIVING_WINDOW_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3d248cb63ea53842addbba859b19f4113f9f9944946ba10e59949329544178a2"
+      "prompt_sha256": "3d248cb63ea53842addbba859b19f4113f9f9944946ba10e59949329544178a2",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-997c9a44-bf92-41f4-b410-ff232a03dd30.png",
+      "sha256": "0b1d6f7a5d803c5c440210b71893d01075b63e3d3abcb63e0dfac494e9ee734a",
+      "generated_at": "2026-11-24T14:07:13.642791+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_KITCHEN_HERO_v1",
@@ -2383,9 +2411,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_KITCHEN_HERO_v1.txt",
       "output": "renders/A811_PA_KITCHEN_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "c5b2f8867d1d735f221d4b2482de8a4e0828ebb465b49a9994f1f07926abecba"
+      "prompt_sha256": "c5b2f8867d1d735f221d4b2482de8a4e0828ebb465b49a9994f1f07926abecba",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ca06ec8d-74da-46ad-8d68-6860d0cf8d33.png",
+      "sha256": "97a3b001528d22aab4b389fe9a66021b225e1e42c9c1ec8a1c767261fbb63bf3",
+      "generated_at": "2026-11-24T14:07:13.995684+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_ENTRY_HERO_v1",
@@ -2402,9 +2434,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_ENTRY_HERO_v1.txt",
       "output": "renders/A811_PA_ENTRY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "372992cdcdd05d5a9766823a90a8c06a67016a3c4557f1651794ed2caa96b729"
+      "prompt_sha256": "372992cdcdd05d5a9766823a90a8c06a67016a3c4557f1651794ed2caa96b729",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-52e0af14-a0b4-4ff9-8dfd-6e39b9db5cb2.png",
+      "sha256": "78d32615d4d91b9756c96eb09a4cbc86d777bf52ab9915ff1e29f8298968fdba",
+      "generated_at": "2026-11-24T14:09:59.593004+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_BATH1_HERO_v1",
@@ -2423,9 +2459,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_BATH1_HERO_v1.txt",
       "output": "renders/A811_PA_BATH1_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "adb1b11917ad8b47b1e285a6825647946e8b3bd2e78639f83779a8d1fcae44d6"
+      "prompt_sha256": "adb1b11917ad8b47b1e285a6825647946e8b3bd2e78639f83779a8d1fcae44d6",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-972db383-2057-40ba-94c7-a5cb1b80de21.png",
+      "sha256": "6d3ba0f14e57d96fb418631ebbee0e8553b2a791d6d15d955b40aef9a7559d6b",
+      "generated_at": "2026-11-24T14:09:59.794499+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_BATH2_HERO_v1",
@@ -2444,9 +2484,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_BATH2_HERO_v1.txt",
       "output": "renders/A811_PA_BATH2_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "b211e5ad79b0e82dcfb55c8e8c193f246f58e6717ca512e24dc7a2dc80197945"
+      "prompt_sha256": "b211e5ad79b0e82dcfb55c8e8c193f246f58e6717ca512e24dc7a2dc80197945",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-b9d7c7bc-bd33-4ad4-9b70-92c543425734.png",
+      "sha256": "08a9697af2a208006cee956b0e1812821de221cfa1e18025998f36f2a45ba953",
+      "generated_at": "2026-11-24T14:10:00.125953+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_WC_HERO_v1",
@@ -2465,9 +2509,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_WC_HERO_v1.txt",
       "output": "renders/A811_PA_WC_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "af3740aef46c6a7b6c166feeb73e8e51cd8c56ee9511f763450b2c5288ea0a48"
+      "prompt_sha256": "af3740aef46c6a7b6c166feeb73e8e51cd8c56ee9511f763450b2c5288ea0a48",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-68e6db6f-c32e-4d2c-86a3-0f1e1553efa0.png",
+      "sha256": "1fa9d175db5d560975d160682cb92b0183d642bc5966c0f838d2ad642b64cb3a",
+      "generated_at": "2026-11-24T14:10:00.500828+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_UTILITY_HERO_v1",
@@ -2484,9 +2532,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_UTILITY_HERO_v1.txt",
       "output": "renders/A811_PA_UTILITY_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "786ae8d1a5c88fca5486d3075a66256ebc9848563748f4fdd601b15ededf6769"
+      "prompt_sha256": "786ae8d1a5c88fca5486d3075a66256ebc9848563748f4fdd601b15ededf6769",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-6252e4b9-eb7a-4899-aac5-935496fa81a4.png",
+      "sha256": "b825dde93811e6b73db50b2e0a39ea4115efd39a3f00b82815880698203e3e41",
+      "generated_at": "2026-11-24T14:12:24.424735+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_HALL_HERO_v1",
@@ -2503,9 +2555,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_HALL_HERO_v1.txt",
       "output": "renders/A811_PA_HALL_HERO_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "788dac66edfc49bf9548fba810b653507135f7a26d395c0030dd484793490295"
+      "prompt_sha256": "788dac66edfc49bf9548fba810b653507135f7a26d395c0030dd484793490295",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-31cde770-9323-448b-8887-6da969a08fba.png",
+      "sha256": "9ae5627a1314ce38b84e8c5c6cf2a9bd2583fb7d17b38e00d94006b9cda7b51e",
+      "generated_at": "2026-11-24T14:12:24.630369+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PA_BATH2_SHOWER_v1",
@@ -2524,9 +2580,13 @@
       ],
       "prompt": "prompts/A811/A811_PA_BATH2_SHOWER_v1.txt",
       "output": "renders/A811_PA_BATH2_SHOWER_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "12d426da11ab1e29bddf02436850715428f5caeae7b63f52106a6ee0593e1014"
+      "prompt_sha256": "12d426da11ab1e29bddf02436850715428f5caeae7b63f52106a6ee0593e1014",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-9c53fb68-baf7-4336-9815-4c845761aa1a.png",
+      "sha256": "d2de13c407c0ff7d11adf5587ff3cf092d58d3d44024454772899330fc0d7a0e",
+      "generated_at": "2026-11-24T14:12:24.918501+00:00",
+      "review_note": "All 15 views visually reviewed. Full room coverage; geometry, clearances and electrical supplies require later validation."
     },
     {
       "id": "A811_PB_LIVING_HERO_v1",
