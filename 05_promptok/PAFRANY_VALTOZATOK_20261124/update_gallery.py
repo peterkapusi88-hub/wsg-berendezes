@@ -4,9 +4,9 @@ h=['<!doctype html><html lang="hu"><meta charset="utf-8"><meta name="viewport" c
 for apt in ['A902','A812','A811']:h.append(f'<a href="#{apt}">{apt}</a>')
 h.append('<a href="../../02_referenciak/BUKOSDI_PAFRANY_20261124/00_KEPES_ATTEKINTO.html">25 eredeti mintakép</a></nav></header><main>')
 for apt in ['A902','A812','A811']:
- h.append(f'<h2 id="{apt}">{apt}</h2>')
+ h.append(f'<h2 id="{apt}">{apt}</h2><nav>'+''.join(f'<a href="#{apt}_{s["id"]}">{s["id"]} · {html.escape(s["name"])}</a>' for s in styles)+'</nav>')
  for s in styles:
-  h.append(f'<section><h3>{s["id"]} · {html.escape(s["name"])}</h3><p>Nappali: {", ".join(s["living"])} · Háló: {", ".join(s["bed"])}. A helyiségek párosítása az új változat tervezési döntése.</p><div class="refs">')
+  h.append(f'<section id="{apt}_{s["id"]}"><h3>{s["id"]} · {html.escape(s["name"])}</h3><p>Nappali: {", ".join(s["living"])} · Háló: {", ".join(s["bed"])}. A helyiségek párosítása az új változat tervezési döntése.</p><div class="refs">')
   for rid in dict.fromkeys(s['living']+s['bed']+s['kitchen']+s['entry']+s['bath']):
    r=refs[rid];url='../../02_referenciak/BUKOSDI_PAFRANY_20261124/'+r['file'];h.append(f'<a href="{url}"><img loading="lazy" src="{url}" alt="{rid}">{rid}</a>')
   h.append('</div><div class="grid">')
