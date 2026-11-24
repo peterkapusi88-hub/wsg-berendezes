@@ -4,7 +4,7 @@
   "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
   "branch": "competition/s18-lake-forest-plus-20261123",
   "expected_images": 152,
-  "completed_images": 7,
+  "completed_images": 14,
   "jobs": [
     {
       "id": "A902_PA_Cam_02_v1",
@@ -29,7 +29,7 @@
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-94514136-8005-47c0-bcbb-0730e29d50c8.png",
       "sha256": "e774712923ae41920c3bf280b9f9b1f952059844e218f2231913f9388b0b5069",
       "generated_at": "2026-11-24T12:24:46.824914+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_04_v1",
@@ -54,7 +54,7 @@
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ad689137-dcbe-4530-956b-c047b15d079c.png",
       "sha256": "38b940f904e1a37f82738420ca85b49f600f429f71d0239eae27972dd040f703",
       "generated_at": "2026-11-24T12:27:41.948624+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_12_v1",
@@ -75,11 +75,11 @@
       "output": "renders/A902_PA_Cam_12_v1.png",
       "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "259a1af8fe199ecd6f8a9ab1e5a8d9b102d3e2795a92c870fcfc6d0bdf3ce760",
+      "prompt_sha256": "cdd54286eca87ceae467f7fb0877cbd71a07f7141c1019210ef54791df5ebf7c",
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e05f96bc-dc87-4e1e-84a2-19f506980aa4.png",
       "sha256": "58415d5b67ec259a841066015e821708f7e90047c8241ece6c94aae211485519",
       "generated_at": "2026-11-24T12:26:29.467022+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_03_v1",
@@ -100,11 +100,11 @@
       "output": "renders/A902_PA_Cam_03_v1.png",
       "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "4995756c58c3b6cf43289e0441582fb46cad613d899bebe532fe7f41a74c3e43",
+      "prompt_sha256": "93984c565f6a101e1182d1473b9554d6dac7641b58a97956c90a35b27ada0a7c",
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-813752d1-28a0-42ad-81a9-0e8b8574abc3.png",
       "sha256": "4dfe0039f440fd15e2e064a4ca0d161488b2a912780eb3a2e3feca21e97a3046",
       "generated_at": "2026-11-24T12:28:42.504133+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_11c_v1",
@@ -127,7 +127,7 @@
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ab36cb08-52e8-42c6-9c7f-32bba28812e3.png",
       "sha256": "c7a232237a0294456487d5a4d22e304027ca6fb2ff768b7f4c8e186f329bf3fb",
       "generated_at": "2026-11-24T12:28:42.526552+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_10_v1",
@@ -152,7 +152,7 @@
       "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-ec323608-18dc-4cbb-ae40-c2b6ebe2308b.png",
       "sha256": "67344eb3b6ec968abdf14858bf8f14f84b45819b271c2c6e542cff4d05e8405e",
       "generated_at": "2026-11-24T12:29:55.434664+00:00",
-      "review_note": "Camera/room identity, style, storage and lighting visually reviewed; not a dimensional or electrical validation."
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PA_Cam_02_DAY_v1",
@@ -171,9 +171,13 @@
       ],
       "prompt": "prompts/A902/A902_PA_Cam_02_DAY_v1.txt",
       "output": "renders/A902_PA_Cam_02_DAY_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "80a1fb20eafa9979a3ca4b4e9fb83a1548950f7e518762214211cb9cb60ba80b"
+      "prompt_sha256": "80a1fb20eafa9979a3ca4b4e9fb83a1548950f7e518762214211cb9cb60ba80b",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e5973b79-3b3b-487e-a546-c0b97c14a377.png",
+      "sha256": "aad90be01775b1c021f712e50f2e8cfa703d237bf9fb4394d39c5624cd99625b",
+      "generated_at": "2026-11-24T12:33:50.620748+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_02_v1",
@@ -192,9 +196,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_02_v1.txt",
       "output": "renders/A902_PB_Cam_02_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "75f6124a83b9d6d7269e57b7d68c2042346445908d658009a6f0fe55baca3a6e"
+      "prompt_sha256": "75f6124a83b9d6d7269e57b7d68c2042346445908d658009a6f0fe55baca3a6e",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d911c5a1-1cd0-454d-812f-4864502744fe.png",
+      "sha256": "eade1cb2f4f1a189d880a116280c4fdfbc3fef4f8fd2fb2e6c166f83961dccd8",
+      "generated_at": "2026-11-24T12:33:18.869616+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_04_v1",
@@ -211,9 +219,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_04_v1.txt",
       "output": "renders/A902_PB_Cam_04_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5d1a0b4b7bf02644ac79cef8ff046c56b66377ac295bca8af433ace2247ee544"
+      "prompt_sha256": "5d1a0b4b7bf02644ac79cef8ff046c56b66377ac295bca8af433ace2247ee544",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-865deb0b-3090-4937-8efd-0df307c4eddc.png",
+      "sha256": "e203ab2228a4eeecfa599d0dd3df868cf8a733985ee032e4ba5dafe6a53806b6",
+      "generated_at": "2026-11-24T12:34:29.566836+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_12_v1",
@@ -236,9 +248,14 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_12_v1.txt",
       "output": "renders/A902_PB_Cam_12_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "020fa369a4b45fd6c45c0c49add6d175d38a4e23ff019eb580aebb48de1eb1a8"
+      "prompt_sha256": "3e0b381ffba743e118caba52a9bc526289be4b4daa22f4cd02a967ff1d722d4f",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-3be821a0-3c2e-435f-a26c-8f75f896444d.png",
+      "sha256": "10b2cb1c436510173dc78eca3ed6cadd9cb81f650ec1291575f62bcb92776684",
+      "generated_at": "2026-11-24T12:45:40.066774+00:00",
+      "rejection_reason": "TV composition wrongly copied onto reverse-camera art wall",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_03_v1",
@@ -261,9 +278,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_03_v1.txt",
       "output": "renders/A902_PB_Cam_03_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "79592fe2db54b286f226e3a31b23fe322bc9eb4f83e93097893e91093e553e0f"
+      "prompt_sha256": "97f0a5625b4c539bc9ba44c96057ecd556ece1136af07fe564421b29c285ecb5",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-240a26eb-d9a5-47d7-8a74-67f7195b7cd6.png",
+      "sha256": "4a278f86d5156f4348aed53f1c17be27c5156dee00b276bbfda8aff224b53632",
+      "generated_at": "2026-11-24T12:45:40.517578+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_11c_v1",
@@ -280,9 +301,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_11c_v1.txt",
       "output": "renders/A902_PB_Cam_11c_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "a3ddfd56d88449949adf8a093edf241b37f3e6aa36a6f8ff08cbb8b6a947731c"
+      "prompt_sha256": "a3ddfd56d88449949adf8a093edf241b37f3e6aa36a6f8ff08cbb8b6a947731c",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-58f5a1a7-552d-405a-923f-dd93f8170cca.png",
+      "sha256": "09da3358a95d4c92cb6620acdbdfb6d9a4444ebed1a69b0eda2ae4546cc50dab",
+      "generated_at": "2026-11-24T12:42:57.154364+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_10_v1",
@@ -301,9 +326,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_10_v1.txt",
       "output": "renders/A902_PB_Cam_10_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "6441537b12ab2947221450d51afb9b191533fe2ecab522b526d29115b40c719a"
+      "prompt_sha256": "6441537b12ab2947221450d51afb9b191533fe2ecab522b526d29115b40c719a",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-42328617-4171-4ed1-af4e-28d13691f866.png",
+      "sha256": "d55176cd754a8ddc1ef88a8995e879ebadfd5af0768a270730aeb5f2b8deb8db",
+      "generated_at": "2026-11-24T12:44:24.946839+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PB_Cam_02_DAY_v1",
@@ -322,9 +351,13 @@
       ],
       "prompt": "prompts/A902/A902_PB_Cam_02_DAY_v1.txt",
       "output": "renders/A902_PB_Cam_02_DAY_v1.png",
-      "status": "PENDING",
+      "status": "VISUAL_REVIEWED_CONCEPT",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "10acb5cf149ef27b9ccf8ae02dd466aa749f9687c2785328d4ee513690a54a46"
+      "prompt_sha256": "10acb5cf149ef27b9ccf8ae02dd466aa749f9687c2785328d4ee513690a54a46",
+      "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d17c83bf-8017-41d2-a409-b4159509d724.png",
+      "sha256": "7ad756c6b4a68b2b0f516c76fa49f22b562b7a9a086662e4d6b6a690ff3d324d",
+      "generated_at": "2026-11-24T12:44:24.886956+00:00",
+      "review_note": "Visual camera/style/storage/lighting review complete; dimensional, electrical and exact product verification pending."
     },
     {
       "id": "A902_PC_Cam_02_v1",
@@ -383,7 +416,7 @@
       "output": "renders/A902_PC_Cam_12_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "5f45f70b0aeee399a8942d8ecb8b1601afc4d3db78037a7ace1dea8e6e17f49f"
+      "prompt_sha256": "3c99f91a32e90c0ac845cafdbd73729840ed662136d864ba085f0fab2107eeda"
     },
     {
       "id": "A902_PC_Cam_03_v1",
@@ -404,7 +437,7 @@
       "output": "renders/A902_PC_Cam_03_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "710b57216a5e0dedf2bf0cba5312bd768045c84036f6acc00d3fc0988cca2b05"
+      "prompt_sha256": "13385c55de9a3c4c54b7f8dc212159a3b5da9af29d4c2d9de2d9112c5d89d545"
     },
     {
       "id": "A902_PC_Cam_11c_v1",
@@ -528,7 +561,7 @@
       "output": "renders/A902_PD_Cam_12_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "604bf175e48832660e218e799fa04fcd478b0872729a848deeafcd01c26160d5"
+      "prompt_sha256": "3d6e86353918129aa3500a04b9d60fd0675869b954b640faed015623e60b11d3"
     },
     {
       "id": "A902_PD_Cam_03_v1",
@@ -555,7 +588,7 @@
       "output": "renders/A902_PD_Cam_03_v1.png",
       "status": "PENDING",
       "geometry_status": "CONCEPT_NOT_VALIDATED",
-      "prompt_sha256": "3e20035e0bf0d69e9544fa45c95ff468cd894f63e20e98b370dab1e6f823c660"
+      "prompt_sha256": "2255dacfbfa8b44e9044b1c21a8ed91eaf2cdd2ef5314c8fd622db29d8e27ef2"
     },
     {
       "id": "A902_PD_Cam_11c_v1",
