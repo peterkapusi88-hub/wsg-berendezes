@@ -1,0 +1,3086 @@
+{
+  "project": "Páfrány – minden tervváltozat, minden korábbi kamera",
+  "date": "2026-11-24",
+  "scope": "4 full apartment variants covering all 4 distinct living designs and all 4 distinct bedroom designs; repeated reference camera views grouped; full cross product of living x bedroom not requested",
+  "branch": "competition/s18-lake-forest-plus-20261123",
+  "expected_images": 152,
+  "completed_images": 0,
+  "jobs": [
+    {
+      "id": "A902_PA_Cam_02_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_02",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_02_v1.txt",
+      "output": "renders/A902_PA_Cam_02_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d62de7b0f27619516998a3f4e72bd9be530eaf68df03db95ed2a37c069dd8ad2"
+    },
+    {
+      "id": "A902_PA_Cam_04_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_04",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_04_v1.txt",
+      "output": "renders/A902_PA_Cam_04_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "38da340b85a8e7868a42e8c7556f8e67a4e9a485ffe8bf5979b27b846f351cfc"
+    },
+    {
+      "id": "A902_PA_Cam_12_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_12",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_12_v1.txt",
+      "output": "renders/A902_PA_Cam_12_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "259a1af8fe199ecd6f8a9ab1e5a8d9b102d3e2795a92c870fcfc6d0bdf3ce760"
+    },
+    {
+      "id": "A902_PA_Cam_03_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_03",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_03_v1.txt",
+      "output": "renders/A902_PA_Cam_03_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d90af32975fc6931bdcf2c8134a205efdbbf869575dd5a9856812c0bcb646cdd"
+    },
+    {
+      "id": "A902_PA_Cam_11c_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_11c",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_11c_v1.txt",
+      "output": "renders/A902_PA_Cam_11c_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "40b8a533b90348049400594e48a70955b1061529514993dfbcb44d6f12e2cfc5"
+    },
+    {
+      "id": "A902_PA_Cam_10_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_10",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_10_v1.txt",
+      "output": "renders/A902_PA_Cam_10_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "4a64247cd4db360e2355dbcfc0dc439df5f2568eb92a9495c78b0c4c0a617122"
+    },
+    {
+      "id": "A902_PA_Cam_02_DAY_v1",
+      "apartment": "A902",
+      "variant": "PA",
+      "camera": "Cam_02_DAY",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PA_Cam_02_DAY_v1.txt",
+      "output": "renders/A902_PA_Cam_02_DAY_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "8bf2abe374f6929021a3a0f8b5a8e927de1e51cd5f34d83c0683e2a371ba0188"
+    },
+    {
+      "id": "A902_PB_Cam_02_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_02",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_02_v1.txt",
+      "output": "renders/A902_PB_Cam_02_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9f9e4e7c853a83f8524a797f393713198273ce8eed981f75eadb8890f7dd4fd1"
+    },
+    {
+      "id": "A902_PB_Cam_04_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_04",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_04_v1.txt",
+      "output": "renders/A902_PB_Cam_04_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "7e2cabfb41950fafeb72778414bba30453a02248cbc217dc46055d185322c9ef"
+    },
+    {
+      "id": "A902_PB_Cam_12_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_12",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_12_v1.txt",
+      "output": "renders/A902_PB_Cam_12_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5b72876635c1641a2a4de93188fa25f35d86567f3506a22e021c1b82ac4b8311"
+    },
+    {
+      "id": "A902_PB_Cam_03_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_03",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_03_v1.txt",
+      "output": "renders/A902_PB_Cam_03_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "45b387c6c6ac2f2892eb2aed90079ee1f0d792566af7929cda4f14eb3e27e659"
+    },
+    {
+      "id": "A902_PB_Cam_11c_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_11c",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_11c_v1.txt",
+      "output": "renders/A902_PB_Cam_11c_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "7d4f0238500f4b48bb62e34eacecdc2c611ffc07d84dcf9b65c6dd1acc2b3c4b"
+    },
+    {
+      "id": "A902_PB_Cam_10_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_10",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_10_v1.txt",
+      "output": "renders/A902_PB_Cam_10_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "09178142c9d67bc5c537de440b1a49dfa40a0d75f707a3375a2b3b850436b7d1"
+    },
+    {
+      "id": "A902_PB_Cam_02_DAY_v1",
+      "apartment": "A902",
+      "variant": "PB",
+      "camera": "Cam_02_DAY",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PB_Cam_02_DAY_v1.txt",
+      "output": "renders/A902_PB_Cam_02_DAY_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1d01b62a62747aa34416b728d5e233909532ec1fec00c22f92f01164f7769400"
+    },
+    {
+      "id": "A902_PC_Cam_02_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_02",
+      "kind": "living",
+      "reference_ids": [
+        "PF10"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_02_v1.txt",
+      "output": "renders/A902_PC_Cam_02_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0501ca2b01c2992c356c7d26f1be27b782ba82a0580b14dc0b0a856c45eeb3a8"
+    },
+    {
+      "id": "A902_PC_Cam_04_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_04",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_04_v1.txt",
+      "output": "renders/A902_PC_Cam_04_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "dfe9ecc140e3963757e1c0fcc73fa78e5c44cdfb48c85390bfa223198e7423b7"
+    },
+    {
+      "id": "A902_PC_Cam_12_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_12",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_12_v1.txt",
+      "output": "renders/A902_PC_Cam_12_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "4991a6853780237ad94a79cfc1367cb5d6c4f387b4a87d9028c285eea7f56b69"
+    },
+    {
+      "id": "A902_PC_Cam_03_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_03",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_03_v1.txt",
+      "output": "renders/A902_PC_Cam_03_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1cbe757033d347fb394df32eee4c9fa9b2079bb0d5e02999d2be358d069463e0"
+    },
+    {
+      "id": "A902_PC_Cam_11c_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_11c",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_11c_v1.txt",
+      "output": "renders/A902_PC_Cam_11c_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "cf2d9581d8499f465ac4947f8388880435263ee00b4f1d4f9be27227854b2cbd"
+    },
+    {
+      "id": "A902_PC_Cam_10_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_10",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_10_v1.txt",
+      "output": "renders/A902_PC_Cam_10_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "23f0ea490ee48b336548a47d719fe7c9405f7440b40ac9d379cf9c4b284b8b16"
+    },
+    {
+      "id": "A902_PC_Cam_02_DAY_v1",
+      "apartment": "A902",
+      "variant": "PC",
+      "camera": "Cam_02_DAY",
+      "kind": "living",
+      "reference_ids": [
+        "PF10"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PC_Cam_02_DAY_v1.txt",
+      "output": "renders/A902_PC_Cam_02_DAY_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ab2f19b214855a1b67ad70e41b1015e2569321715ef12e61be11845d6b7475ff"
+    },
+    {
+      "id": "A902_PD_Cam_02_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_02",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_02_v1.txt",
+      "output": "renders/A902_PD_Cam_02_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a7cc3801041fc3cf73f67e02c2a0b24143766138badf11d1a233c0fcf7ce11ba"
+    },
+    {
+      "id": "A902_PD_Cam_04_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_04",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_04_v1.txt",
+      "output": "renders/A902_PD_Cam_04_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "28a65ba57dbf90486c35617de75202977cf1f7e416832b03f84792211ae1eaa5"
+    },
+    {
+      "id": "A902_PD_Cam_12_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_12",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_12_v1.txt",
+      "output": "renders/A902_PD_Cam_12_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "3521490d98b2d80676e8ec2996c7343aa610b3a80e4ddc6a0baf2c068b913ea2"
+    },
+    {
+      "id": "A902_PD_Cam_03_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_03",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_03_v1.txt",
+      "output": "renders/A902_PD_Cam_03_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "fd232980140c1c6a366a4b158007ae6e2129bca40543d8c8833be90d14aa841e"
+    },
+    {
+      "id": "A902_PD_Cam_11c_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_11c",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_11c_v1.txt",
+      "output": "renders/A902_PD_Cam_11c_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e1483695ebea1cee82bbb7a87c3c04721822bd727a7525e17400222cebde11e9"
+    },
+    {
+      "id": "A902_PD_Cam_10_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_10",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_10_v1.txt",
+      "output": "renders/A902_PD_Cam_10_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0797c315489063417752cea319228feb4e6657295daff57e169db9b205990529"
+    },
+    {
+      "id": "A902_PD_Cam_02_DAY_v1",
+      "apartment": "A902",
+      "variant": "PD",
+      "camera": "Cam_02_DAY",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg"
+      ],
+      "prompt": "prompts/A902/A902_PD_Cam_02_DAY_v1.txt",
+      "output": "renders/A902_PD_Cam_02_DAY_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "42bbbae84ce939061fdee7b4ffae3aa0e2c28e1acbda9b9608b2dd5af31fe7b1"
+    },
+    {
+      "id": "A812_PA_LIVING_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_LIVING_HERO_v1.txt",
+      "output": "renders/A812_PA_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e8483d0bdb200d538007ae6c7d30ee86d424a9c667dae7c5ca935b86de52786e"
+    },
+    {
+      "id": "A812_PA_MASTER_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_MASTER_HERO_v1.txt",
+      "output": "renders/A812_PA_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "757efa6115f58871d06b5718a7e98f22d8ebfd981e7e5685646257edc836fc22"
+    },
+    {
+      "id": "A812_PA_BED1_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BED1_HERO_v1.txt",
+      "output": "renders/A812_PA_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "12e80d06fdb14e5efbb8b2d9c268a738ae9824b7f6d01261399afec505c95ca5"
+    },
+    {
+      "id": "A812_PA_BED1_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BED1_MEDIA_v1.txt",
+      "output": "renders/A812_PA_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "47ef7043d795e0ad78aa57e98f8b5f85efb38b748601e8b727d390b0e4315111"
+    },
+    {
+      "id": "A812_PA_BED2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BED2_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BED2_HERO_v1.txt",
+      "output": "renders/A812_PA_BED2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e1ca934bfd7b247396fa509095c44378738f78323942d2293fffa737b9205832"
+    },
+    {
+      "id": "A812_PA_BED2_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BED2_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BED2_MEDIA_v1.txt",
+      "output": "renders/A812_PA_BED2_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "07cd39302d59a766516102eaed0bcfac55e44eb727591af525a0296b80e94a0f"
+    },
+    {
+      "id": "A812_PA_MASTER_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_MASTER_MEDIA_v1.txt",
+      "output": "renders/A812_PA_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d6591e37fa52ae1e06fc21d20da6bfa2c3042938831edc5e3e71d7b484c872a5"
+    },
+    {
+      "id": "A812_PA_GARD3_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "GARD3_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_GARD3_HERO_v1.txt",
+      "output": "renders/A812_PA_GARD3_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "57ce0de5387f9b013c31567ae4fa4ef0e940758500fdf26be426918159d9a7e3"
+    },
+    {
+      "id": "A812_PA_LIVING_WINDOW_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_LIVING_WINDOW_v1.txt",
+      "output": "renders/A812_PA_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9ee80441945290064dd382264026702eb66d8e3c917ad0bca1724c81401503d2"
+    },
+    {
+      "id": "A812_PA_KITCHEN_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_KITCHEN_HERO_v1.txt",
+      "output": "renders/A812_PA_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "c2e6bba5e04feab6101dee4444aa14b9a814ed49fdb9780b139bc4332408c140"
+    },
+    {
+      "id": "A812_PA_ENTRY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_ENTRY_HERO_v1.txt",
+      "output": "renders/A812_PA_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "2a689342cdfad4d682e76ce0be44435e78c5aa4b39b6e1fe102cc49ffebbc13b"
+    },
+    {
+      "id": "A812_PA_BATH2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BATH2_HERO_v1.txt",
+      "output": "renders/A812_PA_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "fba2cf4a397ee12e3c529f2a8d224475448cf34cbdaecc5b169b425931cda854"
+    },
+    {
+      "id": "A812_PA_BATH08_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BATH08_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BATH08_HERO_v1.txt",
+      "output": "renders/A812_PA_BATH08_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0ee8301d22e746d80a1844227e8db60a7a0ad0a7a3a737dfb57a0e7381109ca5"
+    },
+    {
+      "id": "A812_PA_UTILITY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_UTILITY_HERO_v1.txt",
+      "output": "renders/A812_PA_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "89ba7e9624486ab542c30a7ef1637c5dc3167eba708d08a48b2977dc39f52a93"
+    },
+    {
+      "id": "A812_PA_HALL_HERO_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_HALL_HERO_v1.txt",
+      "output": "renders/A812_PA_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9be294e79f4fc05576037d674585b9019ab79761b2bcda06e19fa75696a7ea15"
+    },
+    {
+      "id": "A812_PA_BATH2_SHOWER_v1",
+      "apartment": "A812",
+      "variant": "PA",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PA_BATH2_SHOWER_v1.txt",
+      "output": "renders/A812_PA_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "737adaf2865f84d846a6d23d1aa92c01ffaa77795e932d9f8586661620d7b921"
+    },
+    {
+      "id": "A812_PB_LIVING_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_LIVING_HERO_v1.txt",
+      "output": "renders/A812_PB_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "004c5bb86fa6c9acc8a1f63c4c05932fad3a576945056d7c2d8b18d6f47ccc4f"
+    },
+    {
+      "id": "A812_PB_MASTER_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_MASTER_HERO_v1.txt",
+      "output": "renders/A812_PB_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "2a9d6a947d156178d809b9dec8a5f21081f6f44c5f73881cf90036ac93ae2838"
+    },
+    {
+      "id": "A812_PB_BED1_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BED1_HERO_v1.txt",
+      "output": "renders/A812_PB_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "8570d553a4a19e2eda79425428a9763c67254d7f24863ddde5434fb1517de508"
+    },
+    {
+      "id": "A812_PB_BED1_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BED1_MEDIA_v1.txt",
+      "output": "renders/A812_PB_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "513b40a41ff0566e0bad99a7e0f0d25939dc0ec70dbdf3d73bc8cdcfccbbe120"
+    },
+    {
+      "id": "A812_PB_BED2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BED2_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BED2_HERO_v1.txt",
+      "output": "renders/A812_PB_BED2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e334eb7bf0c96b978da5b62b4dcf598ddcef792f3bb7f675b98c31a94185de6f"
+    },
+    {
+      "id": "A812_PB_BED2_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BED2_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BED2_MEDIA_v1.txt",
+      "output": "renders/A812_PB_BED2_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "7badae90e577f2867185e65af9f3d7c6923ebc0e346cefad210a7f5394b94e53"
+    },
+    {
+      "id": "A812_PB_MASTER_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_MASTER_MEDIA_v1.txt",
+      "output": "renders/A812_PB_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "061da4da348efd3ccf7786566c4d61425ce94b73e58c95670f52a8b80f10616a"
+    },
+    {
+      "id": "A812_PB_GARD3_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "GARD3_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_GARD3_HERO_v1.txt",
+      "output": "renders/A812_PB_GARD3_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "834ff1b3a85882e0e39e12984b92603ac45e5b0ee4437f593e6411d1a2ffa475"
+    },
+    {
+      "id": "A812_PB_LIVING_WINDOW_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_LIVING_WINDOW_v1.txt",
+      "output": "renders/A812_PB_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "17ed9799c94b140bccd5bc8cbd53fffeb37c070d30894f7fa54305f2e40af22e"
+    },
+    {
+      "id": "A812_PB_KITCHEN_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_KITCHEN_HERO_v1.txt",
+      "output": "renders/A812_PB_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a766b17a0ac952520dc42f14c13e935673ddcf71c49eb5b1d984a01b14799531"
+    },
+    {
+      "id": "A812_PB_ENTRY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_ENTRY_HERO_v1.txt",
+      "output": "renders/A812_PB_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0f3c3014235c6070c043e771b267feac5b3cfa1e904dd862ab4ec19087c3920f"
+    },
+    {
+      "id": "A812_PB_BATH2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BATH2_HERO_v1.txt",
+      "output": "renders/A812_PB_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9d09c6d17f77854b87e07118fab287c3d4a536246d507a937e55cb66c6242a7b"
+    },
+    {
+      "id": "A812_PB_BATH08_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BATH08_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BATH08_HERO_v1.txt",
+      "output": "renders/A812_PB_BATH08_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "59cd1e4935efc12e6cf17e3755c71563117956bd1a13e2a78f9796825b7f4c7a"
+    },
+    {
+      "id": "A812_PB_UTILITY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_UTILITY_HERO_v1.txt",
+      "output": "renders/A812_PB_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6bce83c6b9065d39184f929446cf9a6d2d3beb3af2029ffa997b14574d0e28a4"
+    },
+    {
+      "id": "A812_PB_HALL_HERO_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_HALL_HERO_v1.txt",
+      "output": "renders/A812_PB_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "b498c1964c0b80fd6a62b64ca424ccc3d90d5af6a4e58ce2a2d3bff78ea4efd0"
+    },
+    {
+      "id": "A812_PB_BATH2_SHOWER_v1",
+      "apartment": "A812",
+      "variant": "PB",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PB_BATH2_SHOWER_v1.txt",
+      "output": "renders/A812_PB_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ba956eb1096343e410d25b094a489fbdf64142b3facaa545ccadb902163c3656"
+    },
+    {
+      "id": "A812_PC_LIVING_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_LIVING_HERO_v1.txt",
+      "output": "renders/A812_PC_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "53391ec1f34dbf9f48be7c72116e95a6726886c90fb73a990138ee6f7b775bfe"
+    },
+    {
+      "id": "A812_PC_MASTER_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_MASTER_HERO_v1.txt",
+      "output": "renders/A812_PC_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "b0bcf793bb9c1992f6bd98c1c46ff33b037d7be164cda97d77b1ae0408b7b718"
+    },
+    {
+      "id": "A812_PC_BED1_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BED1_HERO_v1.txt",
+      "output": "renders/A812_PC_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "f0b29115e4d7f91236bffc70d487225075ed4958238fb9600a2ae8a9824ba08a"
+    },
+    {
+      "id": "A812_PC_BED1_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BED1_MEDIA_v1.txt",
+      "output": "renders/A812_PC_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "fb844ec658f1dbdaf1425f95eda105d12a7c0df7aafd74a16757e7c9146fc1fd"
+    },
+    {
+      "id": "A812_PC_BED2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BED2_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BED2_HERO_v1.txt",
+      "output": "renders/A812_PC_BED2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "243857866720897a873ffe555fd3f6a80b3176066827d69a3d0ca7b5f237256a"
+    },
+    {
+      "id": "A812_PC_BED2_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BED2_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BED2_MEDIA_v1.txt",
+      "output": "renders/A812_PC_BED2_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "f265abb82ef7085fe26272895c4154b40730d636c8528f5b9108e459759866c8"
+    },
+    {
+      "id": "A812_PC_MASTER_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_MASTER_MEDIA_v1.txt",
+      "output": "renders/A812_PC_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9595017551849c5696a11f3d62fe25dc0e370e862bf4ed4fd34540adf22eec7a"
+    },
+    {
+      "id": "A812_PC_GARD3_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "GARD3_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_GARD3_HERO_v1.txt",
+      "output": "renders/A812_PC_GARD3_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ae232be1d403c800680bb091294d9c45fec743d943c36f970d417e2e05c1745d"
+    },
+    {
+      "id": "A812_PC_LIVING_WINDOW_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_LIVING_WINDOW_v1.txt",
+      "output": "renders/A812_PC_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "63536b42a5956df6a6ed144e29121fc6be65a464517b91fc4fb6a61a72b4c4ce"
+    },
+    {
+      "id": "A812_PC_KITCHEN_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_KITCHEN_HERO_v1.txt",
+      "output": "renders/A812_PC_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "8fea7d0de89918ec0b612440633defb8d633191642ef99a9a39207db3167721d"
+    },
+    {
+      "id": "A812_PC_ENTRY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_ENTRY_HERO_v1.txt",
+      "output": "renders/A812_PC_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "4a3185008ad51980762c59a12309396c575fba87b1156eb619986e895a21c19a"
+    },
+    {
+      "id": "A812_PC_BATH2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BATH2_HERO_v1.txt",
+      "output": "renders/A812_PC_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "58dc8c20eea173b18fba008c4266900882caa78f2340de32d8dbd52e662c52af"
+    },
+    {
+      "id": "A812_PC_BATH08_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BATH08_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BATH08_HERO_v1.txt",
+      "output": "renders/A812_PC_BATH08_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "fd2d61ce18afc1e5df6baac766d7a19af8fc055e60fdd823c41eb690632b5d38"
+    },
+    {
+      "id": "A812_PC_UTILITY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_UTILITY_HERO_v1.txt",
+      "output": "renders/A812_PC_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "747b3370c401afd2d655a27d5be091e3e5cc1a543b07acf98f9b268138ca0284"
+    },
+    {
+      "id": "A812_PC_HALL_HERO_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_HALL_HERO_v1.txt",
+      "output": "renders/A812_PC_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a63c5984b8fd3f2f46a5003fd9d2a0e50c3be7b2eab396a275dc85cd1518f8bb"
+    },
+    {
+      "id": "A812_PC_BATH2_SHOWER_v1",
+      "apartment": "A812",
+      "variant": "PC",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PC_BATH2_SHOWER_v1.txt",
+      "output": "renders/A812_PC_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "7b0543d5bc57221c7441a2bebc59b7b34ef49bc0d9519033368dfdd7fccfdee4"
+    },
+    {
+      "id": "A812_PD_LIVING_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_LIVING_HERO_v1.txt",
+      "output": "renders/A812_PD_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "2584e9e52277d65dfe9648ab884700f0b15b62f53429d4fc215ab5623e5f03ed"
+    },
+    {
+      "id": "A812_PD_MASTER_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_MASTER_HERO_v1.txt",
+      "output": "renders/A812_PD_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "faca779720cfe3c63ee361ded47a4b2e0be9d9ecdb93b1b5c64dbcb12f6ab7d2"
+    },
+    {
+      "id": "A812_PD_BED1_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BED1_HERO_v1.txt",
+      "output": "renders/A812_PD_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "119d4c0087753aaa4a7435a7c9ca8c35237527e1e664fc90c594329f23f030cb"
+    },
+    {
+      "id": "A812_PD_BED1_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BED1_MEDIA_v1.txt",
+      "output": "renders/A812_PD_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ab04046be7a1e49a2700a6a4750f0f0f6a8ad913eb39796d7d862b0896bf896e"
+    },
+    {
+      "id": "A812_PD_BED2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BED2_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BED2_HERO_v1.txt",
+      "output": "renders/A812_PD_BED2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0b4fa8ace1dc725903236eb8eed7d4df140fe8eacdad959f41df1c6b7bfa48c7"
+    },
+    {
+      "id": "A812_PD_BED2_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BED2_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BED2_MEDIA_v1.txt",
+      "output": "renders/A812_PD_BED2_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e2955dc26b685561007bbb3405bec84c47b08a942e5f4f703d86291a029fe486"
+    },
+    {
+      "id": "A812_PD_MASTER_MEDIA_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_MASTER_MEDIA_v1.txt",
+      "output": "renders/A812_PD_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "c6317533bee0bcd7e9c67651c8a252edaf9e350e8332dcf855aedf40db2eab2b"
+    },
+    {
+      "id": "A812_PD_GARD3_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "GARD3_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_GARD3_HERO_v1.txt",
+      "output": "renders/A812_PD_GARD3_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "400be104d65579ef37eb84eef9b3b744c01f017473fce40beffa30468f4692a8"
+    },
+    {
+      "id": "A812_PD_LIVING_WINDOW_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_LIVING_WINDOW_v1.txt",
+      "output": "renders/A812_PD_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d6408af1f89ba50b400f98a50f8929f7fa7e46118eca38a0edfa82cfb483d7ec"
+    },
+    {
+      "id": "A812_PD_KITCHEN_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_KITCHEN_HERO_v1.txt",
+      "output": "renders/A812_PD_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "8c78a7d13aaeed9fafc4f1e0aba18a9527279e3a5e90b06c40466dc78960bfbf"
+    },
+    {
+      "id": "A812_PD_ENTRY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_ENTRY_HERO_v1.txt",
+      "output": "renders/A812_PD_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "f3f4fbf35a1addfb19ce21d323938f5c8609e70d55dc130970315c5c6420526e"
+    },
+    {
+      "id": "A812_PD_BATH2_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BATH2_HERO_v1.txt",
+      "output": "renders/A812_PD_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "163c5791e072eb858bb982cd835fa298636db431d3b78b97809e8df01d5f9ee9"
+    },
+    {
+      "id": "A812_PD_BATH08_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BATH08_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BATH08_HERO_v1.txt",
+      "output": "renders/A812_PD_BATH08_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "96154982ecaac87f20ca132c660d6413505779533d798ba1f46679e9b962f08a"
+    },
+    {
+      "id": "A812_PD_UTILITY_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_UTILITY_HERO_v1.txt",
+      "output": "renders/A812_PD_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "25c7fa7c878217099a1e9a9fabf6390eebb418fb427eb42f9b5ed5d4256e653c"
+    },
+    {
+      "id": "A812_PD_HALL_HERO_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_HALL_HERO_v1.txt",
+      "output": "renders/A812_PD_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6e6d3e0cfe787c4b05121c6b31ac578155fd55455cae481509e5860b990e4096"
+    },
+    {
+      "id": "A812_PD_BATH2_SHOWER_v1",
+      "apartment": "A812",
+      "variant": "PD",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A812/A812_PD_BATH2_SHOWER_v1.txt",
+      "output": "renders/A812_PD_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9dfa48fde433938846c223dad4737da1e48a47ea2a10e7b500b91984d06ceed4"
+    },
+    {
+      "id": "A811_PA_LIVING_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_LIVING_HERO_v1.txt",
+      "output": "renders/A811_PA_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "769be1938b2ac82e042264f2aa27fc7e4265a604a10c5698bd85aa49e2b8e679"
+    },
+    {
+      "id": "A811_PA_MASTER_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_MASTER_HERO_v1.txt",
+      "output": "renders/A811_PA_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5df24d57667cb382181325a192ca5321d7e07dcdfc634affdf27761fa9f41cc5"
+    },
+    {
+      "id": "A811_PA_BED1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_BED1_HERO_v1.txt",
+      "output": "renders/A811_PA_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "b7dac1a96e72048643c254600cc9b5b70a0c55f4061d4a6094b136d22a0e640f"
+    },
+    {
+      "id": "A811_PA_BED1_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_BED1_MEDIA_v1.txt",
+      "output": "renders/A811_PA_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6a56559b5e70537db8ef15e037008e22f0a3664b5c5922d4369bae87856ba03e"
+    },
+    {
+      "id": "A811_PA_MASTER_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF04"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/22.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_MASTER_MEDIA_v1.txt",
+      "output": "renders/A811_PA_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ee5dc308e7643434cfa8e3032d6ff8c556ead6a5830223e4a077547aa4518f83"
+    },
+    {
+      "id": "A811_PA_MASTER_GARD_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "MASTER_GARD_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_MASTER_GARD_HERO_v1.txt",
+      "output": "renders/A811_PA_MASTER_GARD_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1589e822035c0a7c820de838d845d15ef1a2f51f16940d01fedfa9a6ce25fbb5"
+    },
+    {
+      "id": "A811_PA_LIVING_WINDOW_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_LIVING_WINDOW_v1.txt",
+      "output": "renders/A811_PA_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "309fbee5fcb26269766c2b1b8abdb8f0396642f880e7465fcf045ccab0e913e1"
+    },
+    {
+      "id": "A811_PA_KITCHEN_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF01",
+        "PF02"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/08.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/10-1.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_KITCHEN_HERO_v1.txt",
+      "output": "renders/A811_PA_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "943f3f56f9d332015a206320d52fb8a728fea6bac6962e108874b59daab842b3"
+    },
+    {
+      "id": "A811_PA_ENTRY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_ENTRY_HERO_v1.txt",
+      "output": "renders/A811_PA_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "16cd303888584a1b52359320d19275848a4fe69a51dbb1ab21365772cd9b033b"
+    },
+    {
+      "id": "A811_PA_BATH1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "BATH1_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_BATH1_HERO_v1.txt",
+      "output": "renders/A811_PA_BATH1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "00cbeb7e2fc95d463b6e94ba3b2ced3d31e66c441dbb1adfe62eb960deebb4e2"
+    },
+    {
+      "id": "A811_PA_BATH2_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_BATH2_HERO_v1.txt",
+      "output": "renders/A811_PA_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0fe9c5ed1e1199ca5a1a5a39744c3996e90722f2b0330b790add9bb6068eb76d"
+    },
+    {
+      "id": "A811_PA_WC_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "WC_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_WC_HERO_v1.txt",
+      "output": "renders/A811_PA_WC_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "60b942b6ee5a597ee8e68b5d5d362ea06bb760284f0d08a47dbfba52c5dd9d0a"
+    },
+    {
+      "id": "A811_PA_UTILITY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_UTILITY_HERO_v1.txt",
+      "output": "renders/A811_PA_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "beeaaddbb2c819a36ac31c8bccee4ec480302de55e8df4e27690680a5e1568a7"
+    },
+    {
+      "id": "A811_PA_HALL_HERO_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF03"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_HALL_HERO_v1.txt",
+      "output": "renders/A811_PA_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "52e987413972173ae6a98510620ca7297b241603911251a53b945025677dad17"
+    },
+    {
+      "id": "A811_PA_BATH2_SHOWER_v1",
+      "apartment": "A811",
+      "variant": "PA",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PA_BATH2_SHOWER_v1.txt",
+      "output": "renders/A811_PA_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "dc4f6f91fd760a34c3bca320f1e1c227ab26f277609d7575e71a1e34093d22bd"
+    },
+    {
+      "id": "A811_PB_LIVING_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_LIVING_HERO_v1.txt",
+      "output": "renders/A811_PB_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "0125456d6469f0cf8597a0015fe6c0ddcc0f9088b0a6870adc30b88918d9d698"
+    },
+    {
+      "id": "A811_PB_MASTER_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_MASTER_HERO_v1.txt",
+      "output": "renders/A811_PB_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "4c01ba8c80e0cea67565d63d4af666ed2c6f204864f55705481bf53a8c40cbd3"
+    },
+    {
+      "id": "A811_PB_BED1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_BED1_HERO_v1.txt",
+      "output": "renders/A811_PB_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "b7d905724e531e34e38eb4248fd66f5084d44962dec6514877caa359f4390e8d"
+    },
+    {
+      "id": "A811_PB_BED1_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_BED1_MEDIA_v1.txt",
+      "output": "renders/A811_PB_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1799666be1eb08c7cb7721ff0e04b3c36953e5383b0d778a3d1ef6f6af53f177"
+    },
+    {
+      "id": "A811_PB_MASTER_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF05"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_MASTER_MEDIA_v1.txt",
+      "output": "renders/A811_PB_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5cb82d91d952aa16e2321d4f443365cf27515803a9d0c6d9d0287981d92372a5"
+    },
+    {
+      "id": "A811_PB_MASTER_GARD_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "MASTER_GARD_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_MASTER_GARD_HERO_v1.txt",
+      "output": "renders/A811_PB_MASTER_GARD_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "39044f31dd01a622e2702cb48f4482bf13f220f11bbe6a5ef7ed9604d5b501cb"
+    },
+    {
+      "id": "A811_PB_LIVING_WINDOW_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_LIVING_WINDOW_v1.txt",
+      "output": "renders/A811_PB_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a25a15a0ebe6c004e52d4f59ba8f5faca350959d06389cdb5c6abc2a1a4949cd"
+    },
+    {
+      "id": "A811_PB_KITCHEN_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF09",
+        "PF24",
+        "PF06",
+        "PF12"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347112750_776313583891587_8250358086823342927_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347416601_937612757570546_3446148036076652304_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_KITCHEN_HERO_v1.txt",
+      "output": "renders/A811_PB_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d97fad0c1bc052fb52319e8dd4f37dc41b0b245dddf99cef367dc7a13424e205"
+    },
+    {
+      "id": "A811_PB_ENTRY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_ENTRY_HERO_v1.txt",
+      "output": "renders/A811_PB_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "67365075d3fb8206d9a31f91deec242427e0835baccd8423522c6a827268e5a8"
+    },
+    {
+      "id": "A811_PB_BATH1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "BATH1_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_BATH1_HERO_v1.txt",
+      "output": "renders/A811_PB_BATH1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ab716264c23d7665633d1a75444b81eedad005fc57bcd44c0852711838b4895b"
+    },
+    {
+      "id": "A811_PB_BATH2_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_BATH2_HERO_v1.txt",
+      "output": "renders/A811_PB_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "24a4024af6ed8a8fbe639991a13aaf93fa9f3b255c167d60099fe18a55438e89"
+    },
+    {
+      "id": "A811_PB_WC_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "WC_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_WC_HERO_v1.txt",
+      "output": "renders/A811_PB_WC_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "bb30fd8f55b49f4042189814acd01f687edf2d6f6a18cfdf5beafb9c0df07e90"
+    },
+    {
+      "id": "A811_PB_UTILITY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_UTILITY_HERO_v1.txt",
+      "output": "renders/A811_PB_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6f80fb945a9144afef21de7896da425770dabcb293db50dd674756975f94c41c"
+    },
+    {
+      "id": "A811_PB_HALL_HERO_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF07"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347227350_196785539951069_598147601485725925_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_HALL_HERO_v1.txt",
+      "output": "renders/A811_PB_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "f3b77c40a78c739739c3edfff3f50e8c8a644a2cc9f9ec5125f6e364be1f29f4"
+    },
+    {
+      "id": "A811_PB_BATH2_SHOWER_v1",
+      "apartment": "A811",
+      "variant": "PB",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF14",
+        "PF25"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347584356_1042521663819794_7466016512704951655_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/Pafrany_Belso_20230331_Lakas_1_Furdo_01_M-scaled.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PB_BATH2_SHOWER_v1.txt",
+      "output": "renders/A811_PB_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "9a4a52beea1e1f7f992476b422247c75a323964e79a564f73d299027bfe5f8f3"
+    },
+    {
+      "id": "A811_PC_LIVING_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_LIVING_HERO_v1.txt",
+      "output": "renders/A811_PC_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1937205c4ac7184e02e71c48c71ba9674fb30849b30c458c81e15d95ac553046"
+    },
+    {
+      "id": "A811_PC_MASTER_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_MASTER_HERO_v1.txt",
+      "output": "renders/A811_PC_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a89b9633d3d748b2e8404afcc3c15375084f7b4ef1f01a7a196a9c3be7448267"
+    },
+    {
+      "id": "A811_PC_BED1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_BED1_HERO_v1.txt",
+      "output": "renders/A811_PC_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d67bebd3fd14fec29b3e4bbe11f3d75311848bf393992ef50d46cce68c63ba16"
+    },
+    {
+      "id": "A811_PC_BED1_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_BED1_MEDIA_v1.txt",
+      "output": "renders/A811_PC_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e5364318f54de5339b2989e06e20a0e3aa026b82c99ddc129262e4ab2eed18df"
+    },
+    {
+      "id": "A811_PC_MASTER_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF08"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_MASTER_MEDIA_v1.txt",
+      "output": "renders/A811_PC_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "8c89b8f74e04072f0282ea509751e15955982b9a49984ab99af5bc46d6cbeb90"
+    },
+    {
+      "id": "A811_PC_MASTER_GARD_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "MASTER_GARD_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_MASTER_GARD_HERO_v1.txt",
+      "output": "renders/A811_PC_MASTER_GARD_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "510b351e534b0449e8e98aead831c882bc06a788f9b1effe2d2eae8c8e0df84d"
+    },
+    {
+      "id": "A811_PC_LIVING_WINDOW_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_LIVING_WINDOW_v1.txt",
+      "output": "renders/A811_PC_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6d1c99ecfcca8f938723c94085e30e218a6e6d9536d1224339ba3fb873ab679a"
+    },
+    {
+      "id": "A811_PC_KITCHEN_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF10",
+        "PF11"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347241570_1523197848206228_6816150073806048384_n.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347409283_207692398806315_5607236358794018248_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_KITCHEN_HERO_v1.txt",
+      "output": "renders/A811_PC_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "6abd7dfca291d6bd3ef8016fc9183ca860f8cf9476a8cbe10d737bea0a0a67d5"
+    },
+    {
+      "id": "A811_PC_ENTRY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_ENTRY_HERO_v1.txt",
+      "output": "renders/A811_PC_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "bb366d135b1ba83842c69c87f56f06b4df29f98dbf8f2c5c73f6409e331ed011"
+    },
+    {
+      "id": "A811_PC_BATH1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "BATH1_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_BATH1_HERO_v1.txt",
+      "output": "renders/A811_PC_BATH1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "4859a2281ea8cc81f9802f0857fb4bcc6b7805b772196844f4ec6180d41f045e"
+    },
+    {
+      "id": "A811_PC_BATH2_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_BATH2_HERO_v1.txt",
+      "output": "renders/A811_PC_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d188123a9f73f831c19de0fa6129b44577220466131e23b49e7c2de77a2b1811"
+    },
+    {
+      "id": "A811_PC_WC_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "WC_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_WC_HERO_v1.txt",
+      "output": "renders/A811_PC_WC_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "676f53731fb24c47bdad80d8986fa62a031e07a66cd5d2df6a343a38be4197d1"
+    },
+    {
+      "id": "A811_PC_UTILITY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_UTILITY_HERO_v1.txt",
+      "output": "renders/A811_PC_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5c1ea9c7708d5f13cf6f36432ed44f77b7bdd999b32d77fbbad2d2b9dc69f56b"
+    },
+    {
+      "id": "A811_PC_HALL_HERO_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF15"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347597995_1619537981887454_9013232046389904243_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_HALL_HERO_v1.txt",
+      "output": "renders/A811_PC_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "428d56756eff0fec98d0a5abf890d5db90711627b7027b36ee89338ea424fde9"
+    },
+    {
+      "id": "A811_PC_BATH2_SHOWER_v1",
+      "apartment": "A811",
+      "variant": "PC",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF13"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PC_BATH2_SHOWER_v1.txt",
+      "output": "renders/A811_PC_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "3f41d5bd1c1e4d16d6da0789bdad1fb0a124f92759d3988606d8b0ac6fe98216"
+    },
+    {
+      "id": "A811_PD_LIVING_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "LIVING_HERO",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_LIVING_HERO_v1.txt",
+      "output": "renders/A811_PD_LIVING_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "819c166347d220597891eedad1f4a04904b1eede20473795da639a04657f4558"
+    },
+    {
+      "id": "A811_PD_MASTER_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "MASTER_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_MASTER_HERO_v1.txt",
+      "output": "renders/A811_PD_MASTER_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5be302b4fa531ad4292a34339c4cff97b5743b86f8bb602a53ac24471d4ad028"
+    },
+    {
+      "id": "A811_PD_BED1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "BED1_HERO",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_BED1_HERO_v1.txt",
+      "output": "renders/A811_PD_BED1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1766690531a66d6833d659c8218895427a9e8ed4468ef62b6c69e578e622edd9"
+    },
+    {
+      "id": "A811_PD_BED1_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "BED1_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_BED1_MEDIA_v1.txt",
+      "output": "renders/A811_PD_BED1_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "a682e7d3e2c58909d8e04b99c1e64e7fd5c4eeb5057d311ab56adaae466234c1"
+    },
+    {
+      "id": "A811_PD_MASTER_MEDIA_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "MASTER_MEDIA",
+      "kind": "bed",
+      "reference_ids": [
+        "PF21"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-16.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_MASTER_MEDIA_v1.txt",
+      "output": "renders/A811_PD_MASTER_MEDIA_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "54cdb2158d9789e4bec5a71790b02820a95b3329de8437d31fdc8e890451bf43"
+    },
+    {
+      "id": "A811_PD_MASTER_GARD_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "MASTER_GARD_HERO",
+      "kind": "wardrobe",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_MASTER_GARD_HERO_v1.txt",
+      "output": "renders/A811_PD_MASTER_GARD_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "1198e04595333f6445b203cbb862cbe993d8e2a3690f58dbdc1bfadc3dd6bea7"
+    },
+    {
+      "id": "A811_PD_LIVING_WINDOW_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "LIVING_WINDOW",
+      "kind": "living",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_LIVING_WINDOW_v1.txt",
+      "output": "renders/A811_PD_LIVING_WINDOW_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "5b360afa05527476abcd6458fde14783f44518720dc6e207217e892ee0ae2521"
+    },
+    {
+      "id": "A811_PD_KITCHEN_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "KITCHEN_HERO",
+      "kind": "kitchen",
+      "reference_ids": [
+        "PF16",
+        "PF17",
+        "PF18",
+        "PF19",
+        "PF20"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B3.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-4.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-7.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-9.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-12.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_KITCHEN_HERO_v1.txt",
+      "output": "renders/A811_PD_KITCHEN_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "d3122d7eb930b4c19c5f3dd2cd538d5dd028a0fd78dccdb5cb1f1ae359721d96"
+    },
+    {
+      "id": "A811_PD_ENTRY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "ENTRY_HERO",
+      "kind": "entry",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_ENTRY_HERO_v1.txt",
+      "output": "renders/A811_PD_ENTRY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "14b0dae002598c8f3317a46a20b547df7b859fc7fb121bb4185a6a6e6ff09327"
+    },
+    {
+      "id": "A811_PD_BATH1_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "BATH1_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_BATH1_HERO_v1.txt",
+      "output": "renders/A811_PD_BATH1_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "3a2991bc8b9e2f8f5347e7f06a29414bd5afc7e37039620fc6e866b3c6c6dae3"
+    },
+    {
+      "id": "A811_PD_BATH2_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "BATH2_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_BATH2_HERO_v1.txt",
+      "output": "renders/A811_PD_BATH2_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "c86ce0c66ccc6fca8580d9a5efaa40e71d0f491086d6bd5dd6f0fe5c05f169d9"
+    },
+    {
+      "id": "A811_PD_WC_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "WC_HERO",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_WC_HERO_v1.txt",
+      "output": "renders/A811_PD_WC_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e0165c91d61b02ca64aa5dc66fdf6ae60a247481ea9a611bffbcedf31d5480a3"
+    },
+    {
+      "id": "A811_PD_UTILITY_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "UTILITY_HERO",
+      "kind": "utility",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_UTILITY_HERO_v1.txt",
+      "output": "renders/A811_PD_UTILITY_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "ee4dce0886380eef30e336dd6daaf0808ba6129e63c268e0ab4eb5b6b09f6b2a"
+    },
+    {
+      "id": "A811_PD_HALL_HERO_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "HALL_HERO",
+      "kind": "hall",
+      "reference_ids": [
+        "PF22"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-20.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_HALL_HERO_v1.txt",
+      "output": "renders/A811_PD_HALL_HERO_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "e43149b3cd0e7ad9337ac30c6b93319b35a66bdcc70ffafd20fb2161764a347a"
+    },
+    {
+      "id": "A811_PD_BATH2_SHOWER_v1",
+      "apartment": "A811",
+      "variant": "PD",
+      "camera": "BATH2_SHOWER",
+      "kind": "bath",
+      "reference_ids": [
+        "PF23"
+      ],
+      "inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/B-23.jpg"
+      ],
+      "prompt": "prompts/A811/A811_PD_BATH2_SHOWER_v1.txt",
+      "output": "renders/A811_PD_BATH2_SHOWER_v1.png",
+      "status": "PENDING",
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "prompt_sha256": "2591dd32bc3a5fea88385bf8bff5c8f5114f96698b4fada86b27198ffe91d55e"
+    }
+  ]
+}
