@@ -1,0 +1,538 @@
+{
+  "year": 2024,
+  "verified_date": "2026-11-27",
+  "photo_album_count": 43,
+  "photo_image_count": 188,
+  "policy": "Confirmed source families are separate from creative pairing proposals. Names from official portfolio denote visual scene matches, not invented Facebook titles. Each photo album belongs to exactly one source family. Videos and cover are separately archived and cannot serve as complete still-image series.",
+  "families": [
+    {
+      "id": "GD24_F01",
+      "label": "50 m²-es társasházi lakás",
+      "source_ids": [
+        "GD059",
+        "GD2024_03"
+      ],
+      "basis": "GD059 caption Part 1 / 50 négyzetméter; december 20-i folytató caption és vizuálisan következetes fa/fekete üveg anyagvilág.",
+      "status": "confirmed_caption_continuation",
+      "base_source_ids": [
+        "GD059"
+      ],
+      "same_source_modules": [
+        "GD2024_03"
+      ]
+    },
+    {
+      "id": "GD24_F02",
+      "label": "Calm / Marbella penthouse",
+      "source_ids": [
+        "GD060",
+        "GD061"
+      ],
+      "basis": "Azonos jelenetek a hivatalos Calm portfólióban; GD060 és GD061 Spanyolország/Marbella folytató caption.",
+      "status": "confirmed_visual_and_caption",
+      "base_source_ids": [
+        "GD060",
+        "GD061"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F03",
+      "label": "Slender",
+      "source_ids": [
+        "GD062",
+        "GD063",
+        "GD064"
+      ],
+      "basis": "Azonos jelenetek a hivatalos Slender portfólióban; három egymást folytató projekt-caption.",
+      "status": "confirmed_visual_and_caption",
+      "base_source_ids": [
+        "GD064"
+      ],
+      "same_source_modules": [
+        "GD062"
+      ],
+      "special_function_sources": [
+        "GD063"
+      ]
+    },
+    {
+      "id": "GD24_F04",
+      "label": "Proud",
+      "source_ids": [
+        "GD066",
+        "GD075",
+        "GD078",
+        "GD081",
+        "GD083"
+      ],
+      "basis": "Azonos berendezett jelenetek a hivatalos Proud portfólióban; nem pusztán színpaletta szerinti csoport.",
+      "status": "confirmed_visual",
+      "base_source_ids": [
+        "GD066",
+        "GD075"
+      ],
+      "same_source_modules": [
+        "GD078",
+        "GD081",
+        "GD083"
+      ]
+    },
+    {
+      "id": "GD24_F05",
+      "label": "Confident",
+      "source_ids": [
+        "GD090",
+        "GD091",
+        "GD092",
+        "GD093"
+      ],
+      "basis": "Azonos jelenetek a hivatalos Confident portfólióban; master háló, master fürdő és gyerekfürdő folytató captionök.",
+      "status": "confirmed_visual_and_caption",
+      "base_source_ids": [
+        "GD093"
+      ],
+      "same_source_modules": [
+        "GD090",
+        "GD091",
+        "GD092"
+      ]
+    },
+    {
+      "id": "GD24_F06",
+      "label": "Handsome",
+      "source_ids": [
+        "GD096",
+        "GD097",
+        "GD098",
+        "GD099",
+        "GD2024_09"
+      ],
+      "basis": "Azonos jelenetek a hivatalos Handsome portfólióban; január-februári folytató captionök és jellegzetes Dávid-szobros előtér.",
+      "status": "confirmed_visual_and_caption",
+      "base_source_ids": [
+        "GD098"
+      ],
+      "same_source_modules": [
+        "GD096",
+        "GD099",
+        "GD2024_09"
+      ],
+      "special_function_sources": [
+        "GD097"
+      ],
+      "note": "GD096 a caption szerint fiú/lány gyerekszobák; nem master hálóként címkézendő. A korábbi master háló a 2023-as források között keresendő."
+    },
+    {
+      "id": "GD24_F07",
+      "label": "2024. februári bemutatott lakóprojekt",
+      "source_ids": [
+        "GD094",
+        "GD095"
+      ],
+      "basis": "Február 21-i projektbemutató, február 28-i kifejezett folytatás master szekcióval és dolgozóval; projekt kereskedelmi neve nem szerepel a forrásban.",
+      "status": "confirmed_caption_continuation",
+      "base_source_ids": [
+        "GD095"
+      ],
+      "same_source_modules": [
+        "GD094"
+      ],
+      "label_is_descriptive": true
+    },
+    {
+      "id": "GD24_F08",
+      "label": "Kifutópályás háló és motoros lépcsőtér",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD067"
+      ],
+      "rooms": "háló/gardrób/lépcső",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F09",
+      "label": "Világos nappali és étkező",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD068"
+      ],
+      "rooms": "nappali/étkező",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [
+        "GD068"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F10",
+      "label": "Kapszulatükrös előtér",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD070"
+      ],
+      "rooms": "előszoba/folyosó",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F11",
+      "label": "Hangulatfényes fürdő",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD073"
+      ],
+      "rooms": "fürdő",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F12",
+      "label": "Taupe nappali",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD074"
+      ],
+      "rooms": "nappali",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [
+        "GD074"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F13",
+      "label": "Világos lépcsőtér",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD076"
+      ],
+      "rooms": "lépcső",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F14",
+      "label": "Minimalista előszoba",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD077"
+      ],
+      "rooms": "előszoba",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F15",
+      "label": "Világos szürke háló",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD079"
+      ],
+      "rooms": "háló/szépítkező",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F16",
+      "label": "Villa és medencés kert",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD084"
+      ],
+      "rooms": "kültér",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "archived_exterior_reference",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F17",
+      "label": "Tetőtéri babaszoba",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD086"
+      ],
+      "rooms": "babaszoba",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F18",
+      "label": "Sötét tetőtéri háló",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD087"
+      ],
+      "rooms": "háló/gardrób",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F19",
+      "label": "Sötét fürdő kör alakú tükrökkel",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD088"
+      ],
+      "rooms": "fürdő/WC",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F20",
+      "label": "Grafit nappali és konyha",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD089"
+      ],
+      "rooms": "nappali/konyha",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [
+        "GD089"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F21",
+      "label": "Üvegezett emeleti lépcsőfolyosó",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_01"
+      ],
+      "rooms": "lépcső/folyosó",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F22",
+      "label": "Fekete márványlapos dolgozó",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_02"
+      ],
+      "rooms": "dolgozó/olvasósarok",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F23",
+      "label": "Taupe konyha és hullámos függeszték",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_04"
+      ],
+      "rooms": "konyha/étkező",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [
+        "GD2024_04"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F24",
+      "label": "Emeleti gyereknappali és teakonyha",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_05"
+      ],
+      "rooms": "nappali/teakonyha",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [
+        "GD2024_05"
+      ],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F25",
+      "label": "Palaszürke fürdő",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_06"
+      ],
+      "rooms": "fürdő",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F26",
+      "label": "Otthoni dohányzó és dolgozó",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_07"
+      ],
+      "rooms": "dolgozó/dohányzó/bár",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    },
+    {
+      "id": "GD24_F27",
+      "label": "Tetőtéri zeneszoba és dolgozó",
+      "label_is_descriptive": true,
+      "source_ids": [
+        "GD2024_08"
+      ],
+      "rooms": "dolgozó/zeneszoba",
+      "basis": "Önálló Facebook-képsor; másik projektbe tartozása nem igazolt.",
+      "status": "standalone_source_project_unknown",
+      "base_source_ids": [],
+      "same_source_modules": []
+    }
+  ],
+  "proposed_creative_pairings": [
+    {
+      "id": "GD24_PAIR01",
+      "base_sources": [
+        "GD068"
+      ],
+      "module_sources": [
+        "GD2024_04",
+        "GD079",
+        "GD073",
+        "GD070"
+      ],
+      "status": "creative_pairing_only_not_verified_same_project",
+      "reason_hu": "Világos taupe nappalihoz a konyha, háló, fürdő és előtér arányos anyagpalettája társítható; az eredeti projektek azonossága nincs igazolva."
+    },
+    {
+      "id": "GD24_PAIR02",
+      "base_sources": [
+        "GD074"
+      ],
+      "module_sources": [
+        "GD2024_05",
+        "GD077",
+        "GD2024_06"
+      ],
+      "status": "creative_pairing_only_not_verified_same_project",
+      "reason_hu": "Lágy taupe nappalihoz egyszerű teakonyha/tároló és visszafogott előszoba; a sötétebb fürdő külön opció."
+    },
+    {
+      "id": "GD24_PAIR03",
+      "base_sources": [
+        "GD089"
+      ],
+      "module_sources": [
+        "GD087",
+        "GD088",
+        "GD086",
+        "GD2024_08"
+      ],
+      "status": "creative_pairing_only_not_verified_same_project",
+      "reason_hu": "Sötét grafit és tetőtéri részletek alapján összehangolható nappali-háló-fürdő-dolgozó család; a konkrét forrásprojekt-azonosság nincs bizonyítva."
+    },
+    {
+      "id": "GD24_PAIR04",
+      "base_sources": [
+        "GD060",
+        "GD061"
+      ],
+      "module_sources": [
+        "GD073",
+        "GD079"
+      ],
+      "status": "creative_pairing_only_not_verified_same_project",
+      "reason_hu": "A biztos Calm nappali-konyhához ezek kizárólag opcionális külön forrású fürdő/háló referenciák."
+    },
+    {
+      "id": "GD24_PAIR05",
+      "base_sources": [
+        "GD066",
+        "GD075"
+      ],
+      "module_sources": [
+        "GD2024_02",
+        "GD2024_07"
+      ],
+      "status": "creative_pairing_only_not_verified_same_project",
+      "reason_hu": "A biztos Proud nappali-konyha mellé csak külön kiegészítő dolgozó/tároló ötletként, a saját háló és fürdő megőrzésével."
+    }
+  ],
+  "non_album_records": [
+    {
+      "id": "GD065",
+      "kind": "cover",
+      "status": "archived_separately_not_new_design_group",
+      "source_url": "https://www.facebook.com/photo/?fbid=1080862317373026&set=a.483296273796303"
+    },
+    {
+      "id": "GD069",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    },
+    {
+      "id": "GD071",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    },
+    {
+      "id": "GD072",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    },
+    {
+      "id": "GD080",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    },
+    {
+      "id": "GD082",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    },
+    {
+      "id": "GD085",
+      "kind": "video",
+      "status": "source_url_and_poster_archived_video_file_unavailable_not_complete_still_group",
+      "details_file": "NON_ALBUM_2024.json"
+    }
+  ],
+  "coverage": {
+    "total_records": 50,
+    "photo_albums": 43,
+    "cover_records": 1,
+    "video_records": 6,
+    "lower_boundary_observed": [
+      "2023-12-23",
+      "2023-12-07"
+    ],
+    "all_records_assigned": true
+  }
+}

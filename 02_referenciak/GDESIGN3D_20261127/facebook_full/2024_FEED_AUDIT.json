@@ -1,0 +1,419 @@
+{
+  "verified_date": "2026-11-27",
+  "year": 2024,
+  "source_profile": "https://www.facebook.com/gdesign3d",
+  "method": "Logged-in Chrome profile filter year 2024; twenty successive 1.5-page scrolls with fresh AX observation and visible DOM caption/photo extraction after every scroll; reconciled album IDs against original index. No hidden state or private comments read into archive.",
+  "uppermost_record": "2024-12-20",
+  "lower_boundary_records": [
+    {
+      "date": "2023-12-23",
+      "photo_id": "900695388723054",
+      "kind": "single_photo"
+    },
+    {
+      "date": "2023-12-07",
+      "album_id": "889803039812289"
+    }
+  ],
+  "record_count": 50,
+  "photo_album_count": 43,
+  "photo_image_count": 188,
+  "cover_record_count": 1,
+  "video_record_count": 6,
+  "new_album_count": 9,
+  "new_image_count": 38,
+  "all_album_cycles_complete": true,
+  "all_saved_image_hashes_verified": true,
+  "album_internal_duplicate_hashes": 0,
+  "albums": [
+    {
+      "id": "GD059",
+      "date": "2024-12-11",
+      "album_id": "1162969572495633",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_03",
+      "date": "2024-12-20",
+      "album_id": "1170091005116823",
+      "expected_photos": 7,
+      "downloaded_count": 7,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD060",
+      "date": "2024-11-25",
+      "album_id": "1150528600406397",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD061",
+      "date": "2024-10-31",
+      "album_id": "1130542122405045",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD062",
+      "date": "2024-10-17",
+      "album_id": "1118736490252275",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD063",
+      "date": "2024-10-07",
+      "album_id": "1109371101188814",
+      "expected_photos": "6",
+      "downloaded_count": 6,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD064",
+      "date": "2024-09-12",
+      "album_id": "1088066729985918",
+      "expected_photos": "6",
+      "downloaded_count": 6,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD066",
+      "date": "2024-08-27",
+      "album_id": "1075791271213464",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD075",
+      "date": "2024-07-02",
+      "album_id": "1034651505327441",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD078",
+      "date": "2024-06-23",
+      "album_id": "1027530026039589",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD081",
+      "date": "2024-06-04",
+      "album_id": "1014167440709181",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD083",
+      "date": "2024-05-30",
+      "album_id": "1010738367718755",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD090",
+      "date": "2024-04-11",
+      "album_id": "975469594578966",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD091",
+      "date": "2024-04-02",
+      "album_id": "969522475173678",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD092",
+      "date": "2024-03-19",
+      "album_id": "959771022815490",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD093",
+      "date": "2024-03-14",
+      "album_id": "956517656474160",
+      "expected_photos": "7",
+      "downloaded_count": 7,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD096",
+      "date": "2024-02-13",
+      "album_id": "936914705101122",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD097",
+      "date": "2024-02-05",
+      "album_id": "931238449002081",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD098",
+      "date": "2024-01-24",
+      "album_id": "922784669847459",
+      "expected_photos": "6",
+      "downloaded_count": 6,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD099",
+      "date": "2024-01-17",
+      "album_id": "917863870339539",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_09",
+      "date": "2024-01-29",
+      "album_id": "926416709484255",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD094",
+      "date": "2024-02-28",
+      "album_id": "946626934129899",
+      "expected_photos": "6",
+      "downloaded_count": 6,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD095",
+      "date": "2024-02-21",
+      "album_id": "942152167910709",
+      "expected_photos": "6",
+      "downloaded_count": 6,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD067",
+      "date": "2024-08-05",
+      "album_id": "1059120162880575",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD068",
+      "date": "2024-07-19",
+      "album_id": "1046983584094233",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD070",
+      "date": "2024-07-14",
+      "album_id": "1043263667799558",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD073",
+      "date": "2024-07-09",
+      "album_id": "1039708531488405",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD074",
+      "date": "2024-07-03",
+      "album_id": "1035392411920017",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD076",
+      "date": "2024-06-30",
+      "album_id": "1032969585495633",
+      "expected_photos": "2",
+      "downloaded_count": 2,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD077",
+      "date": "2024-06-25",
+      "album_id": "1029168412542417",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD079",
+      "date": "2024-06-19",
+      "album_id": "1024587853000473",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD084",
+      "date": "2024-05-07",
+      "album_id": "994116256047633",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD086",
+      "date": "2024-04-28",
+      "album_id": "987263516732907",
+      "expected_photos": "3",
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD087",
+      "date": "2024-04-22",
+      "album_id": "982963530496239",
+      "expected_photos": "5",
+      "downloaded_count": 5,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD088",
+      "date": "2024-04-20",
+      "album_id": "981497730642819",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD089",
+      "date": "2024-04-19",
+      "album_id": "980838304042095",
+      "expected_photos": "4",
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_01",
+      "date": "2024-07-21",
+      "album_id": "1048223657303559",
+      "expected_photos": 3,
+      "downloaded_count": 3,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_02",
+      "date": "2024-06-27",
+      "album_id": "1030780455714546",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_04",
+      "date": "2024-06-17",
+      "album_id": "1023254373133821",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_05",
+      "date": "2024-06-06",
+      "album_id": "1015666453892613",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_06",
+      "date": "2024-05-23",
+      "album_id": "1005869418205650",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_07",
+      "date": "2024-05-15",
+      "album_id": "999710408821551",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    },
+    {
+      "id": "GD2024_08",
+      "date": "2024-04-25",
+      "album_id": "985200456939213",
+      "expected_photos": 4,
+      "downloaded_count": 4,
+      "cycle_confirmed": true,
+      "complete": true
+    }
+  ],
+  "non_album_reference": "PROJECT_FAMILIES_2024.json",
+  "limitation": "Coverage describes the currently visible published feed; deleted or inaccessible historical content cannot be asserted. Video URLs/posters are archived, video files unavailable."
+}

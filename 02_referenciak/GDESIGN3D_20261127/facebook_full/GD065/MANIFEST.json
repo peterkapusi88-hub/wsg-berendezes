@@ -6,7 +6,7 @@
   "media_type": "SINGLE_COVER_PHOTO",
   "expected_photos": 1,
   "downloaded": 1,
-  "status": "COMPLETE_SINGLE_IMAGE",
+  "status": "SINGLE_IMAGE_COMPLETE",
   "not_counted_as_photo_album": true,
   "video_file_status": null,
   "images": [
@@ -23,5 +23,10 @@
       "sha256": "8a9aa9397ae538b78750afa001af19f88caa93dcda1dfde088538e2fd3de9b61",
       "status": "VERIFIED"
     }
-  ]
+  ],
+  "classification": {
+    "title_hu": "G.Design – borítókép",
+    "category": "borítókép",
+    "rooms": []
+  }
 }

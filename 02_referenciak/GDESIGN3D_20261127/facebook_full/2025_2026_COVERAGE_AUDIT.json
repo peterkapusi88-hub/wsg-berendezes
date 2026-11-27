@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-27",
+  "method": "Independent second full timeline scan; 1.5-page overlapping scroll steps; all post action containers and photo links including set=a inspected.",
+  "boundary_observed": "2024-11-25",
+  "2026": {
+    "posts": 33,
+    "photo_albums": 33,
+    "new_albums": [
+      "GD2026_01",
+      "GD2026_02",
+      "GD2026_03",
+      "GD2026_04"
+    ]
+  },
+  "2025": {
+    "posts": 29,
+    "photo_albums": 26,
+    "video_posts": 3,
+    "new_albums": [
+      "GD2025_01"
+    ],
+    "videos": {
+      "GD046": "https://www.facebook.com/reel/1402054254181629",
+      "GD047": "https://www.facebook.com/reel/1429620864844860",
+      "GD058": "https://www.facebook.com/reel/579885424958190"
+    }
+  },
+  "duplicate_removed": {
+    "GD050": "Same 2025-06-16 post as GD047; no additional asset."
+  },
+  "video_limitation": "Rendered players expose no downloadable video URL; currentSrc empty, pageAssets video list empty, supported downloadMedia reports no downloadable URL. Original poster files preserved separately."
+}
