@@ -1,0 +1,283 @@
+{
+  "year": 2024,
+  "albums": 34,
+  "images": 150,
+  "full_cycles": 34,
+  "failures_remaining": 0,
+  "scope": "All nonempty album_id records GD059–GD099 in parent ALBUM_INDEX.tsv; 7 non-photo records handled by parent.",
+  "classification_method": "Visual review of every downloaded image on labeled contact sheets; exact source material SKUs are not inferred.",
+  "items": [
+    {
+      "id": "GD059",
+      "category_visual": "lakás",
+      "rooms_hu": "nappali, konyha, előtér",
+      "character_hu": "Sötét dió, grafit és fekete üveg, finom rejtett fények, szobrászati kárpit.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD060",
+      "category_visual": "lakás",
+      "rooms_hu": "nappali, folyosó",
+      "character_hu": "Világos taupe, kerekített fapanelek, fehér erezett kő és krémszínű kárpit.",
+      "official_portfolio_visual_match": "calm",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD061",
+      "category_visual": "lakás",
+      "rooms_hu": "konyha, étkező, szépítkező",
+      "character_hu": "A Calm nappalihoz tartozó fehér kősziget, körasztal és keskeny világított tároló.",
+      "official_portfolio_visual_match": "calm",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD062",
+      "category_visual": "lakóház",
+      "rooms_hu": "gardrób, háló, fürdő",
+      "character_hu": "Sötét dió, markáns fekete-fehér kő, füstüveg gardrób.",
+      "official_portfolio_visual_match": "slender",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD063",
+      "category_visual": "lakóház",
+      "rooms_hu": "garázs, wellness, szauna",
+      "character_hu": "Sötét dió és strukturált kő; autókiállítás és spa. Külön funkció, nem lakásba másolandó tér.",
+      "official_portfolio_visual_match": "slender",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD064",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali, konyha, lépcső",
+      "character_hu": "Kétszintes nappali, bordázott szürke kanapé, erezett kő és sötét fa.",
+      "official_portfolio_visual_match": "slender",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD066",
+      "category_visual": "lakóház",
+      "rooms_hu": "konyha, étkező",
+      "character_hu": "Bézs és bronz konyha, kontrasztos fehér kősziget.",
+      "official_portfolio_visual_match": "proud",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD067",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló, gardrób, lépcső",
+      "character_hu": "Rozsdabarna ágy, sötétfa gardrób, sziklaszerű kőfal, motoros lépcsőtér.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD068",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali, étkező",
+      "character_hu": "Világos széles kanapé, taupe faburkolat, fekete-fehér kő és hullámos függőlámpa.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD070",
+      "category_visual": "lakóház",
+      "rooms_hu": "előszoba, folyosó",
+      "character_hu": "Karcsú kapszula alakú világító tükrök és dióhatású gardrób.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD073",
+      "category_visual": "lakás",
+      "rooms_hu": "fürdő",
+      "character_hu": "Bézs travertinhatás, sötét bordázott mosdóbútor és széles megvilágított tükör.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD074",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali",
+      "character_hu": "Lágy taupe moduláris ülőbútorok, világos kanapé, vékony vonallámpás csillár.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD075",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali TV-fal",
+      "character_hu": "Bronz panel, világított texturált kőkeret, szobrászati fotel.",
+      "official_portfolio_visual_match": "proud",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD076",
+      "category_visual": "lakóház",
+      "rooms_hu": "lépcső",
+      "character_hu": "Világos kőlépcső, sötét fa és visszafogott alsó világítás.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD077",
+      "category_visual": "lakóház",
+      "rooms_hu": "előszoba",
+      "character_hu": "Taupe falpanel, keskeny konzol, világos kőbetét és ülőpuff.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD078",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő",
+      "character_hu": "Fehér-barnán erezett brecciahatású kő, függőleges tükrök, bézs kád.",
+      "official_portfolio_visual_match": "proud",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD079",
+      "category_visual": "lakás",
+      "rooms_hu": "háló, szépítkező",
+      "character_hu": "Világos szürke kárpit, füstszínű panelek, nagy köralakú világító tükör.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD081",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő",
+      "character_hu": "Szélesen erezett bézs-fehér kő, dupla köralakú tükör.",
+      "official_portfolio_visual_match": "proud",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD083",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló",
+      "character_hu": "Bronz paneles, texturált kőbetétes fejvég és meleg rétegzett világítás.",
+      "official_portfolio_visual_match": "proud",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD084",
+      "category_visual": "kültér",
+      "rooms_hu": "villa, kert, medence",
+      "character_hu": "Teraszos villa és kültéri medence. Archiválva, külön kezelendő, nem beltéri stílus.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD086",
+      "category_visual": "lakóház",
+      "rooms_hu": "babaszoba",
+      "character_hu": "Taupe és olíva fiókfrontok, lágy organikus világítás, tetőtéri babaszoba.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD087",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló, gardrób",
+      "character_hu": "Sötét tetőtéri háló, fekete textúrák, bronz/füstölt üveg, cipős vitrinek.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD088",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő, WC",
+      "character_hu": "Sötét kőhatás, világos szabadonálló kád, köralakú tükrök és rejtett világítás.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD089",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali, konyha",
+      "character_hu": "Grafit konyha, sötét kősziget, bronzos vitrinfal és mélyszürke kárpit.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD090",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő",
+      "character_hu": "Sötét dió, bézs kő, világos szabadonálló kád, gömblámpák.",
+      "official_portfolio_visual_match": "confident",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD091",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő",
+      "character_hu": "Dió és karakteres barnás kő, fehér erezett zuhanyfal, széles megvilágított tükör.",
+      "official_portfolio_visual_match": "confident",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD092",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló, gardrób",
+      "character_hu": "Lekerekített végű üveges gardrób, bronzbarna falpanelek, kőbetétes ágyfal.",
+      "official_portfolio_visual_match": "confident",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD093",
+      "category_visual": "lakóház",
+      "rooms_hu": "nappali, étkező, előtér",
+      "character_hu": "Alacsony krém kanapé, sötét dió és durva kőfelület, íves függőlámpa.",
+      "official_portfolio_visual_match": "confident",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD094",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló, fürdő, gyerekszoba",
+      "character_hu": "Kékes ágyfal és dolgozórészletek, dió és világos kő; több helyiség egy csomagban.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD095",
+      "category_visual": "lakóház",
+      "rooms_hu": "konyha, étkező, előtér",
+      "character_hu": "Világos fa, fehér erezett kő, kék étkező- és bárszékek, függőleges fekete fényrudak.",
+      "official_portfolio_visual_match": null,
+      "match_basis": "No confirmed official portfolio match."
+    },
+    {
+      "id": "GD096",
+      "category_visual": "lakóház",
+      "rooms_hu": "háló, szépítkező",
+      "character_hu": "Mélyzöld/fekete panelek, lágy szögletes fényvonalak és fehér erezett kő.",
+      "official_portfolio_visual_match": "handsome",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD097",
+      "category_visual": "lakóház",
+      "rooms_hu": "bár, garázs, mozi",
+      "character_hu": "Sötét dió és bronz, vörös mozifotelek, megvilágított üvegpolcos bár. Külön funkció.",
+      "official_portfolio_visual_match": "handsome",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD098",
+      "category_visual": "lakóház",
+      "rooms_hu": "konyha, étkező, előtér",
+      "character_hu": "Dió és bronz, fehér márványhatású sziget, lekerekített kárpitozott bárszékek.",
+      "official_portfolio_visual_match": "handsome",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    },
+    {
+      "id": "GD099",
+      "category_visual": "lakóház",
+      "rooms_hu": "fürdő, mosókonyha",
+      "character_hu": "Kapszula alakú tükrök, fehér márványhatás, rézszínű kád és diópanelek.",
+      "official_portfolio_visual_match": "handsome",
+      "match_basis": "Same rendered scene visibly present in official portfolio; project label inferred from visual match, not FBcaption."
+    }
+  ]
+}

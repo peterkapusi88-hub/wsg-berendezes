@@ -1,0 +1,52 @@
+{
+  "id": "GD076",
+  "date": "2024-06-30",
+  "first_photo_id": "1032969382162320",
+  "album_id": "1032969585495633",
+  "expected_photos": "2",
+  "verified_date": "2026-11-27",
+  "caption": null,
+  "caption_note": "Photo viewer had no project caption; no personal comments saved. Date and album identity from parent feed index.",
+  "cycle_confirmed": true,
+  "observed_count": 2,
+  "downloaded_count": 2,
+  "images": [
+    {
+      "id": "GD076_01",
+      "fbid": "1032969382162320",
+      "photo_url": "https://www.facebook.com/photo/?fbid=1032969382162320&set=pcb.1032969585495633",
+      "source_url": "https://scontent.fbud6-4.fna.fbcdn.net/v/t39.30808-6/905034752_1824460956346488_7509747325337832771_n.avif?stp=dst-jpg_tt6&cstp=mx2048x1229&ctp=s2048x1229&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ny4BaVKV4CoQ7kNvwEX715p&_nc_oc=Adpl9CePvFKv4zNDMfga5c9UlIyjMKOep2QtEakEJKYftxpOGgbJBaPuFyhhKcC5nrM-EZ8fStrqBf-Zbe6-WA84&_nc_zt=23&_nc_ht=scontent.fbud6-4.fna&_nc_gid=s4HMdXkrHpCCu7nf5dZTPA&_nc_ss=7a3a8&oh=00_AQUHbW869YQAx3sEuXkkgx4sNDyQDFG9F0Fqn27ah0A9IA&oe=6B0FAE16",
+      "source_filename": "905034752_1824460956346488_7509747325337832771_n.avif",
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD076/GD076_01.jpg",
+      "width": 2048,
+      "height": 1229,
+      "bytes": 104208,
+      "sha256": "ec75750ab88f93e2b4ca03c61be452d5bc401a4653de63d98f446ecd4abf3db7",
+      "status": "downloaded",
+      "room_type_visual": "lepcso"
+    },
+    {
+      "id": "GD076_02",
+      "fbid": "1032969325495659",
+      "photo_url": "https://www.facebook.com/photo/?fbid=1032969325495659&set=pcb.1032969585495633",
+      "source_url": "https://scontent.fbud7-4.fna.fbcdn.net/v/t39.30808-6/490745299_1269698385156084_3577052483793542236_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x2000&ctp=s1600x2000&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=v8S216-Il5UQ7kNvwF3xXGy&_nc_oc=Adq-e2iF6ZeqB8fKzejKX05gVr5kkOgksBm9x-MkZoFy_inVjcyy77NrHPFXhXA3tiRVpYgm66iXEFRAK9ZovdKW&_nc_zt=23&_nc_ht=scontent.fbud7-4.fna&_nc_gid=supQ_R3oF6frg_AfBLAadQ&_nc_ss=7a3a8&oh=00_AQXzsRTuAhaPrVnbiHATaZpzBmJfVRqW1wvuzG7NLmKoHg&oe=6B0FC213",
+      "source_filename": "490745299_1269698385156084_3577052483793542236_n.jpg",
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD076/GD076_02.jpg",
+      "width": 1600,
+      "height": 2000,
+      "bytes": 135190,
+      "sha256": "3515370063ce1d40cd72013fb3fea997a4d0386e98b9e952aa67ce9522a13a87",
+      "status": "downloaded",
+      "room_type_visual": "lepcso"
+    }
+  ],
+  "complete": true,
+  "classification": {
+    "id": "GD076",
+    "category_visual": "lakóház",
+    "rooms_hu": "lépcső",
+    "character_hu": "Világos kőlépcső, sötét fa és visszafogott alsó világítás.",
+    "official_portfolio_visual_match": null,
+    "match_basis": "No confirmed official portfolio match."
+  }
+}
