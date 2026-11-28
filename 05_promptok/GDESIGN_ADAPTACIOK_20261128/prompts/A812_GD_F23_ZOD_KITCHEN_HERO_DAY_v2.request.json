@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: precise-object-edit. Correct ONLY the far-left window/curtain region in image1, the A812 Ződ daytime kitchen-facing view. Image2 is the SAME camera approved evening version, authority for curtain coverage and background. Image1 incorrectly invented a prominent river and Parliament building in the extreme-left glass area. REMOVE those invented outside landmarks. Restore the original continuous WHITE TRANSLUCENT SHEER curtain coverage exactly like image2 across the entire far-left opening; behind it use softly diffused neutral daylight with no discernible river, Parliament, domes or new skyline. Keep actual curtain rail and white window edges at their original positions; no new opening and no wider view. Do not erase or move the opaque charcoal curtain or adjoining brown storage tower.\nEverything outside this far-left window/curtain region stays EXACTLY image1: unchanged crop, camera, architecture, furniture positions, four-chair table, low chaise sofa facingTV, materials/veins, daylight exposure, shadows, all lights and objects. Do not redesign anything else. One landscape photorealistic image with original aspect, no text/watermark/collage.",
+  "referenced_image_paths": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_KITCHEN_HERO_DAY_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v2.png"
+  ],
+  "transparent_background": false
+}

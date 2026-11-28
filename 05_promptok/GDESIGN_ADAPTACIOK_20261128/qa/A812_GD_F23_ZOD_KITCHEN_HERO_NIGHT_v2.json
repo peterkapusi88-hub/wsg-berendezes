@@ -1,0 +1,75 @@
+{
+  "id": "A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v2",
+  "apartment": "A812",
+  "physical_room": "living_kitchen_dining",
+  "function": "konyha / étkező",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "KITCHEN_HERO",
+  "physical_camera": "KITCHEN_HERO",
+  "lighting": "NIGHT",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_03_801219978670596.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_LIVING_HERO_NIGHT_v1.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v2.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v2.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Shell/camera, four chairs and sofa direction visually checked.",
+      "Kitchen media-wall strip and invented daytime outside landmarks corrected where applicable.",
+      "Fine textures, source panorama accuracy and measured fit still not certified."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "56bed1c9304b5be32da60832f00ca1277c307ad010a4d2a4695c2794b6dc111a",
+  "attempts": [
+    {
+      "id": "A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v1",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v1.png",
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v1.txt",
+      "sha256": "3b94cfd2562714ac04a08d91b8cd3573b7a0923f1c8faca241c0ff56d72e808d",
+      "status": "REJECTED_REQUIRES_CORRECTION",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "FAIL_CROSS_VIEW_MATERIAL_PLACEMENT",
+        "notes": [
+          "Green media-wall stone incorrectly appears beside kitchen tower. In living hero it is on opposite, window-side end of media wall. Must remove this visible strip, do not move any architecture."
+        ]
+      }
+    }
+  ],
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_KITCHEN_HERO_NIGHT_v1.png",
+      "sha256": "3b94cfd2562714ac04a08d91b8cd3573b7a0923f1c8faca241c0ff56d72e808d"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_LIVING_HERO_NIGHT_v1.png",
+      "sha256": "a4531093bef963bb92a3ac2aa650b8441480edc9f0fc52ceec459569fb92df44"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+      "sha256": "c2f5a781577dfe863e89fae2ec7c8eddae1442739cfefd3f06131c926f0f15cc"
+    }
+  ],
+  "prompt_sha256": "c17fad39eb969526c197298a9620ffa8e01f01d58c64b19a09a559e3c0e7f7dd",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/03_801219978670596.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}
