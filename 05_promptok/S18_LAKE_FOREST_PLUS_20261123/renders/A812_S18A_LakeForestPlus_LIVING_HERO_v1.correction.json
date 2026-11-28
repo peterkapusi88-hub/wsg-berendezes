@@ -1,0 +1,20 @@
+{
+  "id": "A812_S18A_LakeForestPlus_LIVING_HERO_v1",
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png"
+  ],
+  "reason": "Dining tabletop material continuity with Lake Forest kitchen and reverse views; preserve owner-corrected sofa.",
+  "prompt": "Precise object edit of this furnished apartment image. Change ONLY the top horizontal slab and its thin edge of the dining table at left from brown wood to pale warm white stone with very fine restrained grey and muted gold veining. Keep the exact table outline, thickness, base, chairs and all tabletop objects unchanged. Absolutely preserve all other image content: corrected sofa position and LOW dining-side chaise, camera, crop, room geometry, TV wall finish, curtains, rug, lighting, coffee table and decor. Do not add or move anything. Photoreal architectural visualization, same resolution and framing, no text.",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d738e7ea-b89d-4d40-9225-f89e6084aad2.png",
+  "previous_correction": {
+    "id": "A812_S18A_LakeForestPlus_LIVING_HERO_v1",
+    "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-e912cf39-20d3-41a2-984b-befc7a487b4a.png",
+    "inputs": [
+      "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+      "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/controls/A812_LIVING_HERO.png",
+      "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/controls/A812_LIVING_WINDOW.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Correct ONLY the sofa placement and orientation in image 1, an A812 Lake Forest Plus A living room. Image 2 is the EXACT same camera neutral layout control; image 3 is another camera of the SAME APPROVED SOFA LAYOUT, only to understand the U footprint, NEVER change to that camera. Image 1 material design, TV wall, dining, lighting, architecture, crop, glazing and all finishes must remain unchanged. CRITICAL: current image 1 wrongly put a long tall backrest and two back cushions along the dining-side short arm, making the main sofa face to screen right and SIDEWAYS to the TV. Restore the approved asymmetric U sofa from images 2+3. The main 300cm long backrest is PARALLEL to the TV wall, across the extreme lower foreground, mostly OUTSIDE this camera crop. People on the main seat face directly TOWARD the TV on the far wall. The short dining-side return at lower left of the seating zone is a CHAISE with a LOW arm, not a high-backed sofa: remove ALL tall tilted back cushions and continuous high backrest along that projecting short arm. Show low flat ivory seat/chaise modules there and a low outside arm, leaving a clear view to TV. The other return is toward the window, and the coffee table remains inside the U. Retain the original sofa's white finely flecked fabric, squarish separate cushions, slim dark base. Match original control projected footprint; do not pull the sofa toward dining or block dining passage. Preserve the existing 350mm forward shift and planned rear storage access represented by image 3; no measurement annotation. Do not change camera, TV, table, chairs, cabinets, lights, curtain or any architecture. Photorealistic landscape, no text.",
+    "reason": "Owner flagged A812 sofa position. Restore approved U orientation toward TV; low dining-side return."
+  }
+}

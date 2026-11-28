@@ -1,0 +1,22 @@
+{
+  "id": "A811_PA_MASTER_GARD_HERO_v1",
+  "apartment": "A811",
+  "variant": "PA",
+  "camera": "MASTER_GARD_HERO",
+  "kind": "wardrobe",
+  "reference_ids": [
+    "PF03"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PA_MASTER_GARD_HERO_v1.txt",
+  "output": "renders/A811_PA_MASTER_GARD_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "81cab5775b7d53c424ec24a01d9c6089d7718fb28e5b0946a687102552768441",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2bf0ba20-2fb3-4358-b8fe-445f56d69c92.png",
+  "sha256": "ba0a026cc28df17e35f25c768630598d61a3f6ec739c4091e1468aef7b07a42b",
+  "generated_at": "2026-11-24T14:03:58.672178+00:00"
+}

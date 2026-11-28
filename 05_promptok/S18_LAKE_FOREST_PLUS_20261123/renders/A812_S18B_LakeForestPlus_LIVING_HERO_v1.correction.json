@@ -1,0 +1,19 @@
+{
+  "id": "A812_S18B_LakeForestPlus_LIVING_HERO_v1",
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18B_LakeForestPlus_LIVING_HERO_v1.png"
+  ],
+  "reason": "Dining tabletop material continuity with Lake Forest kitchen and reverse views; preserve owner-corrected sofa.",
+  "prompt": "Precise object edit of this furnished apartment image. Change ONLY the top horizontal slab and its thin edge of the dining table at left from brown wood to pale grey-white subtly clouded stone. Keep the exact table outline, thickness, base, chairs and all tabletop objects unchanged. Absolutely preserve all other image content: corrected sofa position and LOW dining-side chaise, camera, crop, room geometry, TV wall finish, curtains, rug, lighting, coffee table and decor. Do not add or move anything. Photoreal architectural visualization, same resolution and framing, no text.",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-7c8d5d94-715c-4a74-87f0-b42013cfd826.png",
+  "previous_correction": {
+    "id": "A812_S18B_LakeForestPlus_LIVING_HERO_v1",
+    "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-208ad1ab-ca7e-462c-80fb-6ecc47fac41c.png",
+    "inputs": [
+      "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+      "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/references/LF09.jpg"
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the corrected A812 S18A living room with OWNER-CORRECTED SOFA PLACEMENT. Preserve its exact camera, architecture, sofa footprint and all objects. The main sofa backrest runs parallel to the TV across the bottom edge mostly cropped out; the dining-side return is a LOW chaise with NO upright back pillows. Keep this exact corrected sofa absolutely unchanged. Change ONLY the TV backing to the ORIGINAL Lake Forest B broad brushed bronze appearance from image 2, and the left tall cabinetry from timber to satin ivory/taupe B finish. Keep brown fine-veined lower TV cabinet and round stone coffee table, the same curtains, rug, dining and lights. Image 2 is material reference only, never copy its room or furniture layout. No changes to sofa, camera or furniture positions. Landscape photorealistic image, no text.",
+    "reason": "Apply corrected A812 U sofa orientation to B variant."
+  }
+}

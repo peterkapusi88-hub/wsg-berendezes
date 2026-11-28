@@ -1,0 +1,22 @@
+{
+  "id": "A811_PC_BATH1_HERO_v1",
+  "apartment": "A811",
+  "variant": "PC",
+  "camera": "BATH1_HERO",
+  "kind": "bath",
+  "reference_ids": [
+    "PF13"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347422121_964352514590695_5660451591547630434_n.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PC_BATH1_HERO_v1.txt",
+  "output": "renders/A811_PC_BATH1_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "163c82d6780ceaa6a9073038bf7a80822b3d29c4490d5c2be0dc3ecce61ffb75",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-f4f4dc21-efa4-45c4-933d-ff29a8925672.png",
+  "sha256": "27a8b670edaa0b2eab094e6d24ee3158dcd03d5e35e69cca2a4b576a865aafc6",
+  "generated_at": "2026-11-24T14:40:43.781412+00:00"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "A812_GD_F23_ZOD_GARD3_HERO_NIGHT_v1",
+  "apartment": "A812",
+  "physical_room": "10.3",
+  "function": "gardrób",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "GARD3_HERO",
+  "physical_camera": "GARD3_HERO",
+  "lighting": "NIGHT",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_HERO_NIGHT_v1.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_GARD3_HERO_NIGHT_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_GARD3_HERO_NIGHT_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Camera, existing openings, ceiling and floor retained visually. Smoked glass and dark oak continue master suite palette.",
+      "Decorative leaf art is a creative companion, not an original G.Design artwork. Exact measurements and electrical execution unverified."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "8fe5f7d1729864256f4cc1d845a478b2eb5fd859302817b42fe717ab7b9accfd",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+      "sha256": "988f307a3f40035eb7257233bf42597b35be28c7e0e2c1cae5ec8f7be32fe702"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+      "sha256": "466f4a6390a5670469db92061ca9135bb000d5438ac3a1c836423471f3c623ee"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+      "sha256": "33df7378d2c2683143eca2b7eec146d8d1e600d36df5320f414ec021f728e05a"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg",
+      "sha256": "4841cba6809b9e31577d91a67aba713e675af8824f6756a5588526544cb366a0"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_HERO_NIGHT_v1.png",
+      "sha256": "666c38ec00ac978e2cf11a730bc1486c5e159575a35f06922bbe606cb603f83b"
+    }
+  ],
+  "prompt_sha256": "8360c9523a392d84fbc38080e422a572a1544ef342674d90c2de0980df6438a5",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}

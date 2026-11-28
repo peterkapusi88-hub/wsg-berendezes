@@ -1,0 +1,49 @@
+{
+  "id": "A812_GD_F23_ZOD_MASTER_MEDIA_DAY_v1",
+  "apartment": "A812",
+  "physical_room": "05.3",
+  "function": "fő háló",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "MASTER_MEDIA_DAY",
+  "physical_camera": "MASTER_MEDIA",
+  "lighting": "DAY",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_MEDIA_NIGHT_v1.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_MASTER_MEDIA_DAY_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_MEDIA_DAY_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Day/night furniture and camera match visually; bedding microtexture and reflections can vary.",
+      "Exact geometry, products, outdoor panorama and electrical execution remain unverified."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "1cfd5192d35ff61f8c7e603b7a573d56a3df976d4b57042bb2fce15b56c0ba0b",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_MEDIA_NIGHT_v1.png",
+      "sha256": "5dcba6b4c0fbf17bf29ee86ed4ad1267aeecefb7608ef208734b10dcd6ef6007"
+    }
+  ],
+  "prompt_sha256": "9e5d2d9edce03a7870526973857d5865aba57e95a6769d46234b6168875d3d53",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A811_S18A_LakeForestPlus_BATH2_SHOWER_v1",
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/renders/A811_S07_BATH2_SHOWER_curated_v1.png"
+  ],
+  "reason": "Restore full original shower tray and remove wrongly invented vanity from this shower-only camera.",
+  "prompt": "Use case: precise-object-edit. Image 2 is the AUTHORITATIVE exact camera and geometry for this A811 shower-only view. Correct image 1 to that geometry. REMOVE ALL wrongly added vanity, sink, mirror, wall cupboards, wood fronts and brown slab to the right of the shower. Restore the original FULL WIDTH rectangular white shower tray across the entire alcove as in image 2; the grey tiled right wall extends from the corner to the doorway with the original small black shampoo shelf and existing simple wall light. Keep original large 100cm fixed clear glass in the original position shown in image 2, original black shower fittings, towel hooks and towels on left, existing tiles and doorway. No vanity or washbasin belongs in this camera; the real vanity is elsewhere out of frame. No cabinets, no wood inside shower, no new walls. Preserve camera and original proportions from image 2. Warm soft ambient illumination, photorealistic image, no text.",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-048e5436-932c-45ba-8566-565b7dc42de6.png"
+}

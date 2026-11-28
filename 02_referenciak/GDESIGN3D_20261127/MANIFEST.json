@@ -1,0 +1,66 @@
+{
+  "project": "G.Design reference archive for A811 / A812 / A902",
+  "date": "2026-11-27",
+  "source": "https://www.facebook.com/gdesign3d",
+  "scope_from": "2023-01-01",
+  "scope_to": "2026-11-27",
+  "status": "VISIBLE_PHOTO_POST_COLLECTION_AND_GROUPING_COMPLETE",
+  "coverage_basis": "Overlapping chronological public-feed audit through the 2022 boundary, followed by full photo-carousel enumeration. Deleted, private or feed-hidden posts cannot be certified.",
+  "photo_albums": 129,
+  "album_images": 637,
+  "single_photo_posts": 4,
+  "facebook_video_previews": 9,
+  "external_youtube_previews": 2,
+  "facebook_unique_posts": 144,
+  "facebook_saved_image_files": 652,
+  "official_projects": 11,
+  "official_image_files": 228,
+  "total_definitive_reference_image_files": 880,
+  "by_year": {
+    "2023": {
+      "albums": 27,
+      "album_images": 129,
+      "all_posts": 32
+    },
+    "2024": {
+      "albums": 43,
+      "album_images": 188,
+      "all_posts": 50
+    },
+    "2025": {
+      "albums": 26,
+      "album_images": 144,
+      "all_posts": 29
+    },
+    "2026": {
+      "albums": 33,
+      "album_images": 176,
+      "all_posts": 33
+    }
+  },
+  "excluded_duplicate_post_id": "GD050 duplicates GD047",
+  "legacy_folder": "facebook/ contains the earlier 35-image partial collection, excluded from the final totals",
+  "duplicates_note": "Image totals count source files, not unique interior designs. Official and Facebook sources may show the same scenes.",
+  "catalog": "catalog/index.html",
+  "family_catalog": "catalog/families.html",
+  "catalog_manifest": "catalog/CATALOG.json",
+  "facebook_manifest_pattern": "facebook_full/GD*/MANIFEST.json",
+  "official_manifest": "official/DOWNLOAD_MANIFEST.json",
+  "family_manifests": [
+    "facebook_full/PROJECT_FAMILIES_2026.json",
+    "facebook_full/PROJECT_FAMILIES_2024.json",
+    "facebook_full/PROJECT_FAMILIES_2023_2025.json"
+  ],
+  "qa": "facebook_full/FINAL_FILE_QA.json",
+  "media_limitations": "Full video files were not exposed by normal browser download. Eleven original previews and stable source links are saved; no claim of full video backup.",
+  "generation_status": "NOT_STARTED_COLLECTION_FIRST_OWNER_ORDER",
+  "next_stage": "Create distinct apartment design variants from residential families and compatible room modules, using existing fixed A811/A812/A902 cameras and geometry. Do not regenerate completed S18/Pafrany work.",
+  "repository": "peterkapusi88-hub/wsg-berendezes",
+  "branch": "competition/s18-lake-forest-plus-20261123",
+  "verified_prior_checkpoint": {
+    "id": "GDESIGN_CP2",
+    "commit": "0d33ef74a6948f3671905fd48acc9ae1204929d9"
+  },
+  "final_checkpoint_receipt": "../../output/checkpoints/GDESIGN_CP3_20261127.json",
+  "final_checkpoint_note": "The exact final commit is in the separately verified checkpoint receipt; this manifest is included in that checkpoint."
+}

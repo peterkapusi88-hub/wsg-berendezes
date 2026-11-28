@@ -1,0 +1,22 @@
+{
+  "id": "A812_PA_ENTRY_HERO_v1",
+  "apartment": "A812",
+  "variant": "PA",
+  "camera": "ENTRY_HERO",
+  "kind": "entry",
+  "reference_ids": [
+    "PF03"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PA_ENTRY_HERO_v1.txt",
+  "output": "renders/A812_PA_ENTRY_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "da22916aec4af3d17439235e6e5b93112a7ce57d50a0e6ff52770c296b05dd17",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-15bdd2cd-c122-4624-8178-4c4ffe889bc8.png",
+  "sha256": "891bf04824a1f860dfd4cdafb248e72462aeed4f9b1d11ef9f4dbf64d160e95d",
+  "generated_at": "2026-11-24T13:12:05.710982+00:00"
+}

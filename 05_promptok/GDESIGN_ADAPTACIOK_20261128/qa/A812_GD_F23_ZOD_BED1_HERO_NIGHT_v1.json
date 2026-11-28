@@ -1,0 +1,61 @@
+{
+  "id": "A812_GD_F23_ZOD_BED1_HERO_NIGHT_v1",
+  "apartment": "A812",
+  "physical_room": "05.1",
+  "function": "gyerekszoba",
+  "style_id": "GD_F23_ZOD",
+  "module_id": "GD110_CHILD_JOINERY",
+  "source_relationship": "CONFIRMED_SAME_PROJECT_ZOD_VOL2",
+  "functional_pairing": "SAME_PROJECT_CHILD_MODULE",
+  "camera_id": "BED1_HERO",
+  "physical_camera": "BED1_HERO",
+  "lighting": "NIGHT",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/05_804588011667126.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/06_804587855000475.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/02_804587788333815.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+  "continuity_inputs": [],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_BED1_HERO_NIGHT_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_BED1_HERO_NIGHT_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Camera and shell visually compared with original control. Source materials and room function reviewed; rejected material/detail attempts retained separately.",
+      "Fine textile/wood grain, reflections, distant adjacent-room details and exact clearances remain conceptual; not a measured construction model."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "beb015e788d2f383953a5d2db04e8ff40d381b373a3b32923c8ae7041bacc976",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+      "sha256": "50e740b396a2b96c09609341b2ab3b5a758c3ca5de9b286052f33ba2d1efb83d"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/05_804588011667126.jpg",
+      "sha256": "a15e098a7164e4bbed73678be121891c8746d23578d1fa4ccc90b00b76ed4d57"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/06_804587855000475.jpg",
+      "sha256": "f30e26870e0922dbc0dc337ae4970efe64a99bf0a0e562cedb16b02e78c75099"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/02_804587788333815.jpg",
+      "sha256": "1f3ead8e174ad841c68256f01a4d037527d1d92410549c434fd821d3d90055c5"
+    }
+  ],
+  "prompt_sha256": "0bcb8ac60895b90394880e432fa43602be8430a939891ee3416e90822f7c2117",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/05_804588011667126.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/06_804587855000475.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/02_804587788333815.jpg"
+  ],
+  "source_album_ids": [
+    "GD110"
+  ]
+}

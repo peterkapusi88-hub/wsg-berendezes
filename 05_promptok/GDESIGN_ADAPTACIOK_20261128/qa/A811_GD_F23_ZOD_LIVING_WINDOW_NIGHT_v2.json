@@ -1,0 +1,86 @@
+{
+  "id": "A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v2",
+  "apartment": "A811",
+  "physical_room": "living_kitchen_dining",
+  "function": "nappali / étkező",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "LIVING_WINDOW",
+  "physical_camera": "LIVING_WINDOW",
+  "lighting": "NIGHT",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/03_801219978670596.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_HERO_NIGHT_v3.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v2.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v2.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Reviewed during generation against original camera input and family references; rejected iterations retained separately.",
+      "Visible shell and furniture arrangement broadly retained. Exact dimensions, circulation, glass length, electrical feasibility, material identity and budget remain unverified.",
+      "Minor texture, stone veining, greenery and fabric differences across cameras require final harmonisation."
+    ]
+  },
+  "checkpoint": null,
+  "attempts": [
+    {
+      "id": "A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v1",
+      "apartment": "A811",
+      "physical_room": "living_kitchen_dining",
+      "function": "nappali / étkező",
+      "style_id": "GD_F23_ZOD",
+      "module_id": null,
+      "camera_id": "LIVING_WINDOW",
+      "physical_camera": "LIVING_WINDOW",
+      "lighting": "NIGHT",
+      "source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/03_801219978670596.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+      ],
+      "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+      "continuity_inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_HERO_NIGHT_v3.png"
+      ],
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v1.txt",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v1.png",
+      "status": "REJECTED_REQUIRES_CORRECTION",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "FAIL_CROSS_VIEW_DETAILS"
+      },
+      "checkpoint": null,
+      "sha256": "56d0ba20d5228c20754b28220c4c141b8c1376a1cb99728f695521522ec0fd2b"
+    }
+  ],
+  "sha256": "62a4db3574903c68b4526f5a7ec56d53a4506824855939a0cc8445afad85f9e8",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_WINDOW_NIGHT_v1.png",
+      "sha256": "56d0ba20d5228c20754b28220c4c141b8c1376a1cb99728f695521522ec0fd2b"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A811_GD_F23_ZOD_LIVING_HERO_NIGHT_v3.png",
+      "sha256": "9c813adf7a7bf356bf3e6a78c1f735a4e6ad598183ba8e959ba8c69f63d3ebee"
+    }
+  ],
+  "prompt_sha256": "d1e7bfd3313f1e493ab7aec645775ffa2f9a3ca253589c79bf0d35194965a315",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/03_801219978670596.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}

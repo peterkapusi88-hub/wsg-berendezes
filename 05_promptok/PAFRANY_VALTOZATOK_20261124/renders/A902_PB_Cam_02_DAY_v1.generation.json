@@ -1,0 +1,24 @@
+{
+  "id": "A902_PB_Cam_02_DAY_v1",
+  "apartment": "A902",
+  "variant": "PB",
+  "camera": "Cam_02_DAY",
+  "kind": "living",
+  "reference_ids": [
+    "PF09",
+    "PF24"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347237096_154050527659420_3200023048277725928_n.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/p1-1.jpg"
+  ],
+  "prompt": "prompts/A902/A902_PB_Cam_02_DAY_v1.txt",
+  "output": "renders/A902_PB_Cam_02_DAY_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "10acb5cf149ef27b9ccf8ae02dd466aa749f9687c2785328d4ee513690a54a46",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-d17c83bf-8017-41d2-a409-b4159509d724.png",
+  "sha256": "7ad756c6b4a68b2b0f516c76fa49f22b562b7a9a086662e4d6b6a690ff3d324d",
+  "generated_at": "2026-11-24T12:44:24.886956+00:00"
+}

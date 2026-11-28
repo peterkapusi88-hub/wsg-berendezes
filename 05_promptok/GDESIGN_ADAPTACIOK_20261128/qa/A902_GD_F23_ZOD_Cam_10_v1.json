@@ -1,0 +1,53 @@
+{
+  "id": "A902_GD_F23_ZOD_Cam_10_v1",
+  "apartment": "A902",
+  "physical_room": "06.2",
+  "function": "fürdő",
+  "style_id": "GD_F23_ZOD",
+  "module_id": "GD109_bath",
+  "camera_id": "Cam_10",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/02_808503977942196.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/01_808504031275524.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_10_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_10_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Shower, fixed glass, existing tile and dry-side integrated basin visually retained.",
+      "Fluted oak, circular mirror and black sculptural light derived from GD109 companions.",
+      "Extra surface mirror light needs electrical/wet-zone confirmation, no new ceiling supply."
+    ]
+  },
+  "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
+  "source_relationship": "verified_Zod_vol3_companion",
+  "sha256": "599094dece72693f5ba83d5387ad82a160a3a62cf25c8217ecd006544654d2a8",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+      "sha256": "6cd5a90b3a90d2b1a1998e65c29c2212ebb7a88c53e87885ad6e65836d7830ab"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/02_808503977942196.jpg",
+      "sha256": "e9edf11c1c924513ff2dee29b8e04c4bdac78d5a25daf459abd1a1259ec2032a"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/01_808504031275524.jpg",
+      "sha256": "8ef4a3345182fb307bb3930d2ba444fc9a6feaf0b4dc28cb4a335d72bf283ad7"
+    }
+  ],
+  "prompt_sha256": "84bd03e42b0093ed4ec146dab5c8ef17ac25114fd1e7b02bf9e849c79c50032f",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/02_808503977942196.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/01_808504031275524.jpg"
+  ],
+  "source_album_ids": [
+    "GD109"
+  ],
+  "lighting": "NIGHT"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "A812_GD_F23_ZOD_MASTER_HERO_DAY_v1",
+  "apartment": "A812",
+  "physical_room": "05.3",
+  "function": "fő háló",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "MASTER_HERO_DAY",
+  "physical_camera": "MASTER_HERO",
+  "lighting": "DAY",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_HERO_NIGHT_v1.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A812_GD_F23_ZOD_MASTER_HERO_DAY_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_HERO_DAY_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Day/night furniture and camera match visually; bedding microtexture and reflections can vary.",
+      "Exact geometry, products, outdoor panorama and electrical execution remain unverified."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "621d87ee31b91d1789128caf87c957608f39ab865a30f7fbd80a55efcb931ebb",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A812_GD_F23_ZOD_MASTER_HERO_NIGHT_v1.png",
+      "sha256": "666c38ec00ac978e2cf11a730bc1486c5e159575a35f06922bbe606cb603f83b"
+    }
+  ],
+  "prompt_sha256": "9e5d2d9edce03a7870526973857d5865aba57e95a6769d46234b6168875d3d53",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "A902_GD_F23_ZOD_Cam_12_DAY_v1",
+  "apartment": "A902",
+  "physical_room": "living_kitchen_dining",
+  "function": "konyha / étkező",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "Cam_12_DAY",
+  "physical_camera": "Cam_12",
+  "lighting": "DAY",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg"
+  ],
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png"
+  ],
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_12_DAY_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_DAY_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Day/night counterpart visually retains camera, openings and furniture.",
+      "Lighting is a generated concept; sun position and exact photometric performance not simulated.",
+      "No construction or exact product/material certification."
+    ]
+  },
+  "checkpoint": null,
+  "sha256": "12be5d88b328f49d2be9fdc9becf140649086b377c8f58a29a9289327fff74a8",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png",
+      "sha256": "bec10463c6775905504c388bb02e0a39e1e07d8a213bafead8892991cdd528d7"
+    }
+  ],
+  "prompt_sha256": "452d9ee032a0644db2368190afa0e7df15520d34749896c5f2dc65c89abee53f"
+}

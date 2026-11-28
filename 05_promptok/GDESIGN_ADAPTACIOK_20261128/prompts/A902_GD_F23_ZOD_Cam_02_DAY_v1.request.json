@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: lighting-weather. Produce one brighter daytime version of exactly image1, the completed A902 G.Design Ződ living room Cam_02. Image2 is the old same-camera daytime apartment view and is ONLY daylight, sky and panorama guidance; do NOT copy its furniture/materials. Image3 original GD111 photo03 is sofa/table fabric reference. Keep image1 exact crop, camera, white ceiling and frames, architecture, room dimensions, terrace/railings, all furnishings/material placement and every decorative object. Preserve grey tufted modular sofa and cushions, rectangular charcoal coffee table with grey bowl, green vase and books, dark timber media cabinetry, charcoal TV field, narrow flowing green stone panel, black wire three-shade pendant at same outlet, taupe bronze-tube dining chairs and brown oak dining top, grey rug and charcoal/white curtains. Do not add or move a chair, plant or table setting. Change only time-of-day/exposure: bright natural daytime through existing glazing, real city/terrace consistent with image2 daylight. Warm 2700K hidden under-cabinet and shelf glow still subtly perceptible. No new lights, ceiling cove, track, spots or electrical outlet. High quality neutral-colour interior photo, straight verticals, same landscape aspect, no text/watermark/people/collage. This is a lighting variant of Cam_02, not new geometry.",
+  "referenced_image_paths": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_02_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_03_801219978670596.jpg"
+  ],
+  "transparent_background": false
+}

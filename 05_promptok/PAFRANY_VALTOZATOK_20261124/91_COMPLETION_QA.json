@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-24T15:03:01.380193+00:00",
+  "images": 152,
+  "prompts": 152,
+  "unique_ids": 152,
+  "apartments": {
+    "A902": 28,
+    "A812": 64,
+    "A811": 60
+  },
+  "variants": [
+    "PA",
+    "PB",
+    "PC",
+    "PD"
+  ],
+  "original_references": 25,
+  "issues": [],
+  "status": "PASS",
+  "scope_note": "Four curated living/bedroom pairings adapted across every listed prior room camera; not a cartesian combination of all rooms.",
+  "limitations": [
+    "Concept images, not construction or measured geometry validation.",
+    "Exact manufacturer material codes and procurement prices are not confirmed.",
+    "Images can contain small cross-view styling differences; selected design needs final dimensional/electrical/cost coordination."
+  ]
+}

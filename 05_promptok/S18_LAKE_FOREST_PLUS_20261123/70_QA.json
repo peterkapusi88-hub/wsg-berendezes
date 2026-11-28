@@ -1,0 +1,39 @@
+{
+  "prompt_count": 74,
+  "apartments": {
+    "A811": 30,
+    "A812": 32,
+    "A902": 12
+  },
+  "variants": [
+    "A",
+    "B"
+  ],
+  "images_generated": 0,
+  "original_reference_files": 15,
+  "packaged_controls": 31,
+  "unique_ids": true,
+  "prompt_hashes_checked": true,
+  "reference_files_exist": true,
+  "lighting_and_shower_text_checked": true,
+  "validation": "TEXT_AND_FILE_CHECK_ONLY",
+  "room_surface_reference_pending": [
+    "A811 MASTER_GARD_HERO",
+    "A811 UTILITY_HERO",
+    "A811 WC_HERO",
+    "A812 GARD3_HERO",
+    "A812 UTILITY_HERO"
+  ],
+  "A902_control_assembly_pending": [
+    "Cam_12",
+    "Cam_02",
+    "Cam_03",
+    "Cam_04",
+    "Cam_11c",
+    "Cam_10"
+  ],
+  "original_manufacturer_material_codes": "UNKNOWN",
+  "artifact_version_equivalence": "NOT_VERIFIED",
+  "all_mapped_site_photo_paths_present_in_main": true,
+  "site_photo_path_count": 27
+}

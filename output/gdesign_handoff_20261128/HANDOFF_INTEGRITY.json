@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-28",
+  "files": [
+    {
+      "path": "output/gdesign_handoff_20261128/GEOMETRY_EXECUTION_HANDOFF.json",
+      "bytes": 84327,
+      "sha256": "590b626681159e5409c8cb3320422d2dece1b67357e1d7fc52609e754444e0ce"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/GEOMETRY_EXECUTION_HANDOFF.txt",
+      "bytes": 8336,
+      "sha256": "ececd03b247fb90459fc58280ccadd688e9a5d8476a2d71067c5b34048f67da0"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/HANDOFF_INDEX.json",
+      "bytes": 3204,
+      "sha256": "80976ab25560c8a8b2ff499d28a0366aef1c216686be49e8afa9ebd8a31a9b99"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/MODULE_CAMERA_COUNT_ANALYSIS.md",
+      "bytes": 8821,
+      "sha256": "dd9769ed501cccc01f4da51771dbe8abe5492a1d5d402bc9025faf920a21ebbd"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/MODULE_CAMERA_COUNT_AUDIT.json",
+      "bytes": 75024,
+      "sha256": "bc772f5c29071b8c646aa618ab8f015bce0796873926c77b0038bea66b356c30"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/OWNER_REQUEST.txt",
+      "bytes": 1387,
+      "sha256": "14c2fce621892b66356210565b8188a2ebf5c629f9208da147d0e7a7b7dfa6cc"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/START_HERE.txt",
+      "bytes": 7997,
+      "sha256": "f90cbc209c0759a881f51140f8ceec5785ce311c9f83d12b670e4a7e7399353d"
+    },
+    {
+      "path": "output/gdesign_handoff_20261128/count_audit.py",
+      "bytes": 12728,
+      "sha256": "83c08c31d14f1365246a8483ceced118c2b23d6d972cdfc92069cf8cd7661284"
+    }
+  ],
+  "existing_archive_checkpoint": "f0dc32ddd68808ac1da450a6b3767fe6b351de9b",
+  "existing_archive_files_verified_unchanged": 1332,
+  "existing_archive_source_images": 880,
+  "note": "Existing archive files are shared by absolute path, not duplicated or recollected. S18 and Pafrany image inputs independently checked by geometry handoff."
+}

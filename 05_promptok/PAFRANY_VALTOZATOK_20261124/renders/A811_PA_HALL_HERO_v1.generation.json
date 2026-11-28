@@ -1,0 +1,22 @@
+{
+  "id": "A811_PA_HALL_HERO_v1",
+  "apartment": "A811",
+  "variant": "PA",
+  "camera": "HALL_HERO",
+  "kind": "hall",
+  "reference_ids": [
+    "PF03"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/16.jpg"
+  ],
+  "prompt": "prompts/A811/A811_PA_HALL_HERO_v1.txt",
+  "output": "renders/A811_PA_HALL_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "788dac66edfc49bf9548fba810b653507135f7a26d395c0030dd484793490295",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-31cde770-9323-448b-8887-6da969a08fba.png",
+  "sha256": "9ae5627a1314ce38b84e8c5c6cf2a9bd2583fb7d17b38e00d94006b9cda7b51e",
+  "generated_at": "2026-11-24T14:12:24.630369+00:00"
+}

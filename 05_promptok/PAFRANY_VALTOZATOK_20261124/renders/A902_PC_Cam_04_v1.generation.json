@@ -1,0 +1,22 @@
+{
+  "id": "A902_PC_Cam_04_v1",
+  "apartment": "A902",
+  "variant": "PC",
+  "camera": "Cam_04",
+  "kind": "bed",
+  "reference_ids": [
+    "PF08"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347235065_994259908246973_4677225710433254295_n.jpg"
+  ],
+  "prompt": "prompts/A902/A902_PC_Cam_04_v1.txt",
+  "output": "renders/A902_PC_Cam_04_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "e98d14da9192bd405c5de76a9ad50803da1e83a38b96ae2ffec45b40c0df15f1",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-40614bdd-d518-4fcb-9f0b-ceba40dfa368.png",
+  "sha256": "3661b08af12f87a677437989cdf681e4308ce86d9d16073f44a4e94293d9e6e1",
+  "generated_at": "2026-11-24T12:48:45.526259+00:00"
+}

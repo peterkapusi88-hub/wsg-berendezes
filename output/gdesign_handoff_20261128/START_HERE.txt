@@ -1,0 +1,42 @@
+G.DESIGN → A811 / A812 / A902 — ÚJ KÉPGENERÁLÁSI CHAT ÁTADÁSA
+2026. november 28.
+
+EZ A FOLYTATÁS, NEM ÚJ REFERENCIAKUTATÁS.
+A tulajdonos kifejezetten külön chatet kért a sok saját lakásra adaptált kép elkészítéséhez. A teljes forrásgyűjtemény elkészült és ellenőrzött GitHub-mentésben van. Az új chat ugyanabban a helyi WSG – Stíluslabor projektben dolgozik, tehát az eredeti 880 referenciafájl közvetlenül elérhető. A chat nem kap automatikusan minden régi beszélgetést; ezt az átadási csomagot és a hivatkozott manifesteket olvasd el.
+
+1. KÖTELEZŐ OLVASÁSI SORREND
+- OWNER_REQUEST.txt — a november 28-i tulajdonosi döntés.
+- HANDOFF_INDEX.json — abszolút fájlutak, archívum, kamerák, branch, mentések.
+- Az ugyanitt található számítási audit és geometriai átadás.
+- 02_referenciak/GDESIGN3D_20261127/MANIFEST.json.
+- 02_referenciak/GDESIGN3D_20261127/catalog/CATALOG.json és a három facebook_full/PROJECT_FAMILIES_*.json.
+- 05_promptok/GDESIGN3D_20261127/CAMERA_RESUME_MANIFEST.json.
+- 05_promptok/S18_LAKE_FOREST_PLUS_20261123/60_HANDOFF.md és renders/GENERATION_MANIFEST.json.
+- 05_promptok/PAFRANY_VALTOZATOK_20261124/MANIFEST.json.
+A meglévő kész S18/Páfrány anyagot ne írd felül és ne generáld újra.
+
+2. TARTALOM ÉS EREDETHŰSÉG
+Minden lakóalap mindhárom lakáson készüljön el, az összes korábbi kamera megőrzésével. A kezdő 39 lakóalap × 38 nézethely = 1482 kép (A811: 585, A812: 624, A902: 273), 117 lakásváltozat. A 38-ban a Cam_02_DAY világítási változat is szerepel. Ez még nem tartalmaz minden külön helyiségmodult, funkcióalternatívát vagy kereskedelmi eredetű extra hangulatot. A külön modulok bruttó 340 további összehasonlító képet adnak: összesen 1822. A külön funkcióopciók 22 képet, mind a 11 kereskedelmi/szálláshelyi alap legfeljebb további 418 képet ad: feltételes bővített maximum 2262. A már alapban elkészülő azonos modulképeket levonjuk, az összelátható terek szükséges frissítése és új kamerák külön tétel. A végleges számítás feltételeit a mellékelt audit rögzíti; ne nevezd a modulkártyák és alapkoncepciók összes kombinációját kötelezőnek.
+A forráshoz való vizuális hűség elsődleges: azonos fa- és kőtónus, erezetjellemző, matt/fényes felületarány, kárpit, kontraszt, bútorforma, műalkotás-jelleg, rétegzett világítás. Ne szűrd át mindegyiket ugyanabba az általános bézs-luxus stílusba. A képről valós gyártói SKU vagy biztos anyagazonosság nem állítható. A forrásképet az adott kamerához és helyiséghez ténylegesen nézd meg, és használd a képgenerálás bemeneteként.
+A forrásprojekt építészete nem másolható át. A saját lakás falai, nyílászárói, mennyezete, kilátása és rögzített bútorhelyei maradnak. A különálló háló/fürdő/gyerek/dolgozó modult csak igazoltan közös projektként vagy külön jelölt kreatív társításként kapcsolhatod az alaphoz. Minden képhez rögzítsd az eredeti GD-albumot és képfájlokat.
+A 11 kereskedelmi/szálláshelyi csoport, 2 kültéri csoport és videóelőnézetek ne vesszenek el, de a lakóadaptációra való alkalmasságukat külön kezeld. Egy előnézeti kép nem teljes videós projektmentés.
+
+3. HELYISÉGFUNKCIÓK
+A fizikai szobaazonosító, kameraazonosító és használati funkció külön mező. A gyerekszoba/dolgozó/vendégszoba/főháló funkciót csak megfelelő meglévő szobához rendeld. A szerepkör megváltoztatása nem forgathatja el a kamerát vagy mozdíthatja el az ajtót. Ne találj ki új szobát a902-ben azért, hogy a többhálós ház minden helyisége egyszerre elférjen. A külön funkciók külön alternatívák lehetnek.
+A kezdeti funkciókiosztás tervezési javaslat, nem végleges tulajdonosi döntés. Készíts áttekinthető szobanév/funkció táblát, és szükség esetén kérj rövid választ úgy, hogy közben a nappali-konyha és más biztos terek munkája haladjon. A választást ne helyettesítse a hallgatás, ha valóban szükséges a generáláshoz. A teljes kész sorozat mellett a funkció szerinti válogatás is maradjon visszakereshető.
+
+4. VIZUÁLIS ÉS MŰSZAKI KORLÁTOK
+A saját lakásgeometria és kanapéjavítások kötelezők. KülönösenA812: TV-vel párhuzamos fő háttámla, TV felé ülőirány; étkező felőli rövid rész alacsony chaise. Fordított kamerából ugyanaz az elrendezés látszik. A korábbi zuhanynézetekben eltávolított második mosdóbútort ne tedd vissza a zuhanyba.
+Minden lakás teljes öltöztetést kap: függöny/sheer, szőnyeg, gondos ágynemű, stílusazonos tárgyak, teljes magasságú és folyosói tárolók, előtér, funkcionális konyha. A fürdőben 1 m fix üveg, integrált vagy süllyesztett mosdó és az üveg száraz oldala és fal között megoldható bútor; nincs tálmosdó és kitalált falfülke. A forrásban lévő új kád vagy extra mosdó nem jogosít fel a vizes kiállások áthelyezésére.
+FÉNY=LUXUS: finom, rétegzett, jellemzően 2200–2700 K, 2700 K esti világítás; Hue-kompatibilitás; rejtett diffúz profilok LED-pontok nélkül; kb. 3 m fejvégfény, Hue Go hangulatlámpák és funkcionális gardróbfény szándéka megőrzendő. A mennyezeti hűtés-fűtés miatt nincs kitalált fényvályú, új spot, álmennyezet vagy igazolatlan áramforrás. Műszakilag bizonytalan fény külön feltételes tétel.
+Keret:A811 9+1 M, A812 9+1 M, A902 18+2 M Ft. Ez tervezési keret, nem igazolt ajánlati végösszeg. Nem fér bele a forráshű anyag? Jelöld külön, ne cseréld le észrevétlenül. Ne költsd a kreatív szakaszt hosszas webshopkutatásra; az ismeretlen ár/SKU FELTÉTELES marad.
+A referenciarender vagy vizuális ellenőrzés önmagában nem mérettanúsítás. A szigorú geometriai minősítéshez a hiteles alaprajz/Blender-forrás kell; ezt ne állítsd késznek pusztán képi hasonlóságból.
+
+5. VÉGREHAJTÁS ÉS MENTÉS
+Először ellenőrizd, hogy az átadott források és kameraalapok elérhetők. Ezután készíts új GDesign-specifikus generálási manifestet, jól elkülönülő azonosítókkal, hogy a korábbi S01–S18/Páfrány rendszert ne írd felül. Minden képnél: apartment,physical_room,function,style_id,module_id,camera_id,source_images,geometry_input,prompt,output,status,validation,checkpoint.
+A tényleges képgenerálást ebben az új chatben folytasd; a szülőchat csak számolást és átadást végez. Használd az aktuálisan elérhető és engedélyezett képgeneráló eszközt és annak skilljét. Korábbi „csak prompt, későbbi Claude Browser” szabály már felülírt: a tulajdonos tényleges képeket kér. Ne vásárolj vagy válts fizetős külső generálásra külön felhatalmazás nélkül.
+Kis, ellenőrizhető adagokkal haladj. A902-vel kezdj, ahogy korábban kérte; utána A812 és A811. Egy adott változat anyagai és bútorai minden nézetben maradjanak ugyanazok. Az ezres sorozatot ne indítsd vakon egy hibás geometriájú első képből. A nézetek elkészültekor azonnal mentsd a manifestet; az egyes stílusok és fontos javítások után ellenőrzött GitHub-checkpoint kell. A képek mellé az eredeti mintaképek is legyenek visszanyithatók, a háromlakásos stílusválasztóba való későbbi beépítéshez.
+Repo: peterkapusi88-hub/wsg-berendezes
+Ág: competition/s18-lake-forest-plus-20261123
+A mappa helyi projekt, nem helyi Gitcheckout; meglévő GitHub-connectorral ments, ne feltételezz helyi.git-et. Ne írj felül közben keletkezett más legitimcommitot. GitHubhiba esetén teljes helyi vészátadás, konkrét fájlutakkal. Kész képet soha ne hagyj csak a chatben.
+A modell erőssége nem igazolja, hogy az összes képgenerálás egyetlen keretbe belefér. Valós kész képek száma, hibák, hátralévő feladatok és utolsó checkpoint alapján jelents, ne feltételezett kvótára ígérj teljesítést.

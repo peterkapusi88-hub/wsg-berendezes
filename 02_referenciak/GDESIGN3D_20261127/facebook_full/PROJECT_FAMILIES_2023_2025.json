@@ -1,0 +1,3404 @@
+{
+  "title": "G.Design 2023 + 2025 – projektcsaládok és helyiségmodulok",
+  "created": "2026-11-27",
+  "stage": "COLLECTION_AND_GROUPING_ONLY_NO_GENERATION",
+  "scope": {
+    "years": [
+      2023,
+      2025
+    ],
+    "unique_source_posts": 61,
+    "complete_photo_albums": 53,
+    "saved_images_including_previews": 281,
+    "year_image_counts": {
+      "2023": 134,
+      "2025": 147
+    },
+    "excluded_duplicate_record": {
+      "GD050": "Duplicate of GD047 per 2025_2026_COVERAGE_AUDIT.json; not a separate project or image source."
+    }
+  },
+  "method": {
+    "source_metadata": [
+      "2023_POST_AUDIT.json",
+      "2023_CLASSIFICATION.json",
+      "2025_CLASSIFICATION.json",
+      "2025_2026_COVERAGE_AUDIT.json",
+      "*/MANIFEST.json"
+    ],
+    "visual_review": "All original 2023 and 2025 album images reviewed in contact sheets; GD2025_01 six images separately reviewed.",
+    "same_project_rule": "Verified only from explicit named caption series or explicit sequential room-series captions reinforced by matching design; generic material similarity never verifies original identity.",
+    "material_verification": "APPEARANCE_ONLY: wood, stone, metal and textile descriptions are visual categories; exact brand, species, SKU, price, dimensions and procurement availability are unverified.",
+    "caption_quality": "GD105/GD106 numeric reaction/photo-count UI strings removed; truncated captions marked, never extended by invention.",
+    "reference_names": "Descriptive working family names, not claimed official G.Design project names unless explicitly in caption."
+  },
+  "adaptation_rules_hu": [
+    "Minden lakócsalád három külön adaptációt kaphat: A811, A812, A902. A referencia ház vagy kereskedelmi tér alaprajza nem kerül át.",
+    "A lakások hiteles meglévő geometriája, nyílászárói, panorámája, mennyezete, teraszszintjei és kameranézetei rögzítettek. Új lépcső, dupla belmagasság, udvar vagy panoráma nem másolható.",
+    "Az A812 javított kanapéalapját kell használni: TV-vel párhuzamos fő háttámla, alacsony étkezőoldali chaise, szabad hátsó közlekedő. A referencia kanapéhelye nem írja felül ezt.",
+    "Minden lakás teljes öltöztetést kap: függöny, fényáteresztő, szőnyeg, összehangolt teljes magasságú tárolók, előtér és folyosó.",
+    "Fürdőben 1 méter hosszú zuhanyüveg; száraz oldalon üvegtől falig futó mosdóbútor, beépített vagy alásüllyesztett medencével. A referencia tálmosdója nem írja felül ezt. Falitároló a valós adottságokhoz.",
+    "FÉNY = LUXUS: diffúz meleg rétegzett fény, Hue-kompatibilitás 2200–2700 K; főháló fejvég mögötti kb. 3 m fény és Hue Go szándéka marad. Meglévő kiállások és mennyezeti fűtés/hűtés korlátai kötelezők.",
+    "A forrásban látható kőburkolat vagy fürdőfelület nem jelent automatikus cseredöntést; rögzített anyagok és költségkeret ellenőrzése után pontosítható.",
+    "Költségtervbe minden új bútor, lámpa, tároló, terasz- és dekorációs elem bekerül. Anyagazonos látvány és azonos gyártói termék külön bizonyítási szint.",
+    "A fürdőmodulok és önálló hálóvariációk a javasolt alapkoncepciókhoz adhatók, mindig külön forrásazonosítóval. A párosítás kreatív adaptáció, nem állítás eredeti összetartozásról."
+  ],
+  "residential_base_families": [
+    {
+      "family_id": "F23_ZOD",
+      "title_hu": "Ződ – zöld kő, sötét fa és teljes házsorozat",
+      "members": [
+        {
+          "album_id": "GD111",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/MANIFEST.json",
+          "date": "2023-07-27",
+          "source_url": "https://www.facebook.com/801221775337083",
+          "image_count": 7,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "bed",
+            "wardrobe",
+            "vanity"
+          ],
+          "caption_excerpt": "\"Ződ\" vol.1\nElérkeztünk egy nagyobb projekt zárásához, mutatunk is Nektek néhány képet a nappali és master hálóból.",
+          "visual_notes": "Large indoor trees, green veined stone island/vanity, dark vertical slats, smoke glass wardrobes, charcoal bedding and greige sofa."
+        },
+        {
+          "album_id": "GD110",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/MANIFEST.json",
+          "date": "2023-08-01",
+          "source_url": "https://www.facebook.com/804590741666853",
+          "image_count": 6,
+          "rooms": [
+            "child",
+            "bed",
+            "corridor",
+            "bath",
+            "wc"
+          ],
+          "caption_excerpt": "\"Ződ\" vol.2\nMutatjuk is a ház következő részét, a gyerekek territóriumát!",
+          "visual_notes": "Sage/olive fluted arched panels, tropical mural, house-frame childbed, terrazzo and oak bathroom. Childbed configuration is optional, not presumed for owner."
+        },
+        {
+          "album_id": "GD109",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/MANIFEST.json",
+          "date": "2023-08-07",
+          "source_url": "https://www.facebook.com/808505517942042",
+          "image_count": 4,
+          "rooms": [
+            "bath",
+            "wc",
+            "courtyard"
+          ],
+          "caption_excerpt": "\"Ződ\" vol.3\nZárásképp, pedig néhány kép a fürdőszobákról.",
+          "visual_notes": "Olive green bowl basins and freestanding tub, taupe stone, black globe sconces and green marble WC accent. Adapt bowls to integrated owner-required basin."
+        }
+      ],
+      "origin_identity_status": "verified_caption_series",
+      "identity_evidence": [
+        "Explicit repeated title: Ződ vol.1, vol.2, vol.3.",
+        "GD111 names living/master; GD110 says next part of the house, children; GD109 says closing bathrooms."
+      ],
+      "appearance_to_preserve_hu": "Zöld márvány hatású felületek, mély faszínek, füstüveg, greige kárpit; a gyermekterek külön zsálya–terrazzo változatot kapnak.",
+      "missing_rooms_require_new_design": [
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_GREEN_BATH"
+      ],
+      "original_identity_verified": true
+    },
+    {
+      "family_id": "F23_DUNAKANYAR",
+      "title_hu": "Dunakanyar – világos rétegelt fa pavilon",
+      "members": [
+        {
+          "album_id": "GD2023_02",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_02/MANIFEST.json",
+          "date": "2023-08-30",
+          "source_url": "https://www.facebook.com/823021376490456",
+          "image_count": 4,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "lounge"
+          ],
+          "caption_excerpt": "Hegyoldal, Dunakanyar, panoráma... vol. 1\nVannak belsőépítészeti projektek, amikre nem lehet nemet mondani!",
+          "visual_notes": "Light plywood ceiling/walls, taupe stone, dark kitchen, pale wood dining table, black lounge chair; original caption identifies hillside Danube Bend vol1. Strong companion to GD107 bedroom; no pavilion window/ceiling geometry transfer."
+        },
+        {
+          "album_id": "GD107",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD107/MANIFEST.json",
+          "date": "2023-09-12",
+          "source_url": "https://www.facebook.com/831574485635145",
+          "image_count": 4,
+          "rooms": [
+            "bed",
+            "office"
+          ],
+          "caption_excerpt": "Hegyoldal, Dunakanyar, panoráma... vol. 2",
+          "visual_notes": "Pale plywood walls, grey low bed, black lounge chair, black/pale wood desk and vertical timber screen. Glazed pavilion shell must not transfer."
+        }
+      ],
+      "origin_identity_status": "verified_caption_series",
+      "identity_evidence": [
+        "Identical distinctive title Hegyoldal, Dunakanyar, panoráma... vol.1 / vol.2."
+      ],
+      "appearance_to_preserve_hu": "Világos rétegeltfa hatású síkok, fekete pihenőszék, világos kő, visszafogott kárpit és átlátható bútorok.",
+      "missing_rooms_require_new_design": [
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_LIGHT_SPA"
+      ],
+      "original_identity_verified": true
+    },
+    {
+      "family_id": "F23_BALATON",
+      "title_hu": "Balaton-parti kislakás – kő, réz és konyak",
+      "members": [
+        {
+          "album_id": "GD116",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD116/MANIFEST.json",
+          "date": "2023-06-07",
+          "source_url": "https://www.facebook.com/766889505436977",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "office"
+          ],
+          "caption_excerpt": "Egy közvetlen Balaton parti kislakás belsőépítészeti tervezése a legújabb projektjeink egyike. \n… Továbbiak",
+          "visual_notes": "Grey veined counters, warm taupe timber, rust leather dining chairs, grey sofa, rough mineral TV wall and copper branch pendant."
+        },
+        {
+          "album_id": "GD115",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD115/MANIFEST.json",
+          "date": "2023-06-20",
+          "source_url": "https://www.facebook.com/777030514422876",
+          "image_count": 3,
+          "rooms": [
+            "bed",
+            "media"
+          ],
+          "caption_excerpt": "Meghoztuk a Balaton parti kislakás terveinek folytatását.",
+          "visual_notes": "Pale rough mineral wall strip, cognac padded headboard, charcoal bedding, taupe wardrobes and slender vertical warm sconces."
+        }
+      ],
+      "origin_identity_status": "verified_caption_series",
+      "identity_evidence": [
+        "GD116 names Balaton parti kislakás; GD115 explicitly calls itself continuation of that apartment."
+      ],
+      "appearance_to_preserve_hu": "Szürke erezett és rusztikus kő, taupe fa, rozsda/konyak ülőfelületek, rézszínű ágvilágítás, finom sötét hálótextil.",
+      "missing_rooms_require_new_design": [
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_ROCK_MASTER",
+        "M25_ENTRY_ROCK"
+      ],
+      "original_identity_verified": true
+    },
+    {
+      "family_id": "F23_COGNAC",
+      "title_hu": "Konyak és grafit – modern családi ház",
+      "members": [
+        {
+          "album_id": "GD119",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD119/MANIFEST.json",
+          "date": "2023-03-08",
+          "source_url": "https://www.facebook.com/700821408710454",
+          "image_count": 4,
+          "rooms": [
+            "kitchen",
+            "dining"
+          ],
+          "caption_excerpt": "Legújabb belsőépítészeti projektünk ez a menő, modern családiház. \nHamarosan mutatjuk a többi helyiséget is!",
+          "visual_notes": "Black matt kitchen, warm copper/fawn chairs, long light stone dining table and rectangular suspended frame; indoor tree is visual reference, not proposed planter construction."
+        },
+        {
+          "album_id": "GD2023_06",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_06/MANIFEST.json",
+          "date": "2023-03-20",
+          "source_url": "https://www.facebook.com/709421161183812",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "entry"
+          ],
+          "caption_excerpt": "Múlthéten megosztott munkánk bemutatásának folytatásaként, csekkoljátok a nappali-előszoba kombót is.",
+          "visual_notes": "Cognac leather sectional, grey mineral TV panel, taupe wood cabinets, black/white stone tables, crisp rectangular pendant; no copied corridor steps."
+        },
+        {
+          "album_id": "GD2023_05",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_05/MANIFEST.json",
+          "date": "2023-03-28",
+          "source_url": "https://www.facebook.com/715339037258691",
+          "image_count": 4,
+          "rooms": [
+            "bed",
+            "bath",
+            "wardrobe"
+          ],
+          "caption_excerpt": "Zárnánk is legutóbbi belsőépítészeti munkánkról szóló sorozatunkat a \"master\" szekcióval.",
+          "visual_notes": "Warm low timber bed, dark charcoal bedding, grey mineral walls, dark slats, glass wardrobe and white freestanding tub."
+        }
+      ],
+      "origin_identity_status": "proposed_caption_sequence",
+      "identity_evidence": [
+        "GD119 announces other rooms; GD2023_06 explicitly continues previous work with living/entry; GD2023_05 closes latest project series with master.",
+        "Matching black/taupe kitchen, cognac seating, grey mineral surfaces and rectilinear lighting reinforce the caption sequence.",
+        "Identity is based on the observed post series, not an official project name or address.",
+        "Conservative limitation: captions refer relatively to previous/latest work without a unique title; keep a high-confidence proposed family rather than verified original identity."
+      ],
+      "appearance_to_preserve_hu": "Fekete konyha, világos kő, konyakbőr, szürke ásványi fal, taupe fa, fekete keretek és visszafogott geometrikus lámpa.",
+      "missing_rooms_require_new_design": [
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_ROCK_MASTER"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_GRAPHITE",
+      "title_hu": "Grafit és konyak – 60 m²-es nappali",
+      "members": [
+        {
+          "album_id": "GD102",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD102/MANIFEST.json",
+          "date": "2023-11-21",
+          "source_url": "https://www.facebook.com/879101524215774",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining"
+          ],
+          "caption_excerpt": "Elegáns, mégis letisztult 60 nm. konyha-nappali tér.",
+          "visual_notes": "Graphite sofa, cognac ottoman, grey/taupe cabinetry, illuminated bronze shelves, linear fireplaces; use furnishing language, not fireplace/ceiling architecture."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Grafit konyha, taupe tömbök, konyak puff, bronz üvegvitrin és szürke kárpit.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_BLUE_MASTER",
+        "M25_GRAPHITE_BATH",
+        "M25_CHILD_GRAPHITE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_WALNUT_DINING",
+      "title_hu": "Dió és fekete korongok – étkezőközpontú ház",
+      "members": [
+        {
+          "album_id": "GD103",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD103/MANIFEST.json",
+          "date": "2023-11-01",
+          "source_url": "https://www.facebook.com/866124858846774",
+          "image_count": 4,
+          "rooms": [
+            "dining",
+            "kitchen",
+            "entry",
+            "stair"
+          ],
+          "caption_excerpt": "Ismét egy izgalmas, de visszafogottabb projektünkből hoztunk némi ízelítőt.",
+          "visual_notes": "Dark upholstered chairs, warm wood, bronze shelving, thin black stacked disc pendants; stair/double height cannot transfer."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Diófelületek, sötét székek, fekete koronglámpák, bronzos tároló, tiszta nagy síkok.",
+      "missing_rooms_require_new_design": [
+        "living",
+        "bed",
+        "bath",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_WALNUT_MASTER",
+        "M25_BROWN_BATH",
+        "M25_STUDY"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_SCULPTURAL",
+      "title_hu": "Törtfehér szoborszerű nappali",
+      "members": [
+        {
+          "album_id": "GD104",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD104/MANIFEST.json",
+          "date": "2023-10-03",
+          "source_url": "https://www.facebook.com/845940577531869",
+          "image_count": 3,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining"
+          ],
+          "caption_excerpt": "Készülőben egy újabb vagány \"házikó\".",
+          "visual_notes": "Low off-white modular sofa, white veined monolithic coffee table, warm wood cabinetry and fluid line pendant."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Puha törtfehér kanapé, fehér erezett kőasztal, középbarna fa és hullámvonalas lámpa.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_WALNUT_MASTER",
+        "M25_CHILD_SAND",
+        "M25_SAND_MASTER",
+        "M25_LIGHT_STONE_KITCHEN",
+        "M25_CHILD_POWDER"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_COURTYARD",
+      "title_hu": "Belső udvar – beton és világos fa",
+      "members": [
+        {
+          "album_id": "GD106",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD106/MANIFEST.json",
+          "date": "2023-09-19",
+          "source_url": "https://www.facebook.com/836465681812692",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "entry"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Indoor tree courtyard, concrete ceiling, taupe sectional, pale cabinetry, wood dining table; transplant palette and furniture only, no courtyard/ceiling changes."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Világos beton/ásványi síkok, taupe kárpit, fa étkező, világos magasbútorok; az udvarfa csak hangulati jel.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_CHILD_SAND",
+        "M25_LIGHT_SPA",
+        "M25_CHILD_POWDER"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_WARM_BLACK",
+      "title_hu": "Meleg konyak és fekete konyha",
+      "members": [
+        {
+          "album_id": "GD112",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD112/MANIFEST.json",
+          "date": "2023-07-10",
+          "source_url": "https://www.facebook.com/790338436425417",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "entry"
+          ],
+          "caption_excerpt": "Egy vagány családiház belsőépítészete van ismét készülőben. \nKöltöznéd?",
+          "visual_notes": "Cognac chairs, taupe millwork, black kitchen, grey sectional, round coffee tables and thin linear pendant."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Konyakbőr, szürke ülőbútor, taupe tároló, fekete konyha, kerek alacsony asztalok és vékony fények.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_CHILD_GRAPHITE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_BRONZE_GALLERY",
+      "title_hu": "Bronz keretes lakógaléria",
+      "members": [
+        {
+          "album_id": "GD117",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD117/MANIFEST.json",
+          "date": "2023-05-24",
+          "source_url": "https://www.facebook.com/756357036490224",
+          "image_count": 4,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining"
+          ],
+          "caption_excerpt": "Ismét zárjuk egy családi ház belsőépítészeti tervezését, szóval már hozzuk is a látványokat Nektek.",
+          "visual_notes": "Fine dark bronze framing, grey stone flooring, charcoal and taupe millwork, leather chairs, delicate illuminated shelves."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Bronzos keretek, szürke kő, taupe-grafit szekrény, bőrszék és finom polcok.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_ENTRY_BRONZE",
+        "M25_BRONZE_BATH",
+        "M25_BRONZE_WARDROBE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_DUBAI",
+      "title_hu": "Dubai – bézs, arany és márvány",
+      "members": [
+        {
+          "album_id": "GD2023_03",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_03/MANIFEST.json",
+          "date": "2023-06-12",
+          "source_url": "https://www.facebook.com/770828671709727",
+          "image_count": 4,
+          "rooms": [
+            "living",
+            "dining"
+          ],
+          "caption_excerpt": "#interior #interiordesign #design #dubai #luxurylife  #instadesign #decoration #home #homeinterior #instahomes #interiors #interiorstyle #luxuryhomes #modern #modernhom… Továbbiak",
+          "visual_notes": "Warm grey tufted modular sofas, ivory marble/stone media wall and low tables, brass leaf chandelier and golden rod dining lights; retain existing electrical limitations."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Bézs-szürke tűzött kárpit, elefántcsont márványhatású médiafal, aranyszínű levél- és pálcalámpák.",
+      "missing_rooms_require_new_design": [
+        "kitchen",
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_BURGUNDY_BATH"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F23_ROCK",
+      "title_hu": "Fekete szikla és dió",
+      "members": [
+        {
+          "album_id": "GD2023_04",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_04/MANIFEST.json",
+          "date": "2023-04-11",
+          "source_url": "https://www.facebook.com/725183849607543",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "dining",
+            "kitchen",
+            "entry"
+          ],
+          "caption_excerpt": "Néhány részlet év eleji egyik belsőépítészeti projektünkből.",
+          "visual_notes": "Black rough-stone TV/fireplace mass, walnut kitchen, graphite sofa, pale timber floor and bronze branch pendant; floating stairs and fireplace not transferred."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Durva fekete kő TV-fal, dió konyha, szürke kanapé, világos fa padló és rézágas függeszték.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_ROCK_MASTER",
+        "M23_GREEN_BATH",
+        "M25_ENTRY_ROCK",
+        "M25_GRAPHITE_BATH"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_PETROL",
+      "title_hu": "Dió és fehér kő – petrol hangsúly",
+      "members": [
+        {
+          "album_id": "GD030",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD030/MANIFEST.json",
+          "date": "2025-12-03",
+          "source_url": "https://www.facebook.com/1483975397061714",
+          "image_count": 7,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "library"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Walnut panels and glass bronze display case, off-white sofa, blue sculptural stools, pale oak floor and white kitchen stone; double-height/floating stair shell not transferable."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Dió magasbútor, bronzos üvegvitrin, törtfehér kanapé, petrolkék bárszék, világos kő és tölgytónus.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_WALNUT_MASTER",
+        "M25_BLUE_MASTER",
+        "M25_BROWN_BATH",
+        "M25_STUDY",
+        "M25_ENTRY_BRONZE",
+        "M25_SAND_MASTER",
+        "M25_BRONZE_WARDROBE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_INDUSTRIAL",
+      "title_hu": "Ipari ház – rozsda, petrol és nyers kő",
+      "members": [
+        {
+          "album_id": "GD034",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD034/MANIFEST.json",
+          "date": "2025-10-21",
+          "source_url": "https://www.facebook.com/1443575001101754",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "lounge",
+            "entry"
+          ],
+          "caption_excerpt": "Folytatjuk ennek a dupla belmagasságú modern háznak a bemutatását, amelyben a modern vonalak találkoznak nyers felületekkel. -… Továbbiak",
+          "visual_notes": "Rust tubular chairs, pale sectional sofa, petrol lounge chairs, grey stone columns, rich brown panels and veined stone tables. Avoid importing staircase or double-height."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Rozsdaszín csővázas fotelek, törtfehér kanapé, petrol pihenőszék, szürke kő és mélybarna falpanelek.",
+      "missing_rooms_require_new_design": [
+        "kitchen",
+        "bed",
+        "bath",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_BROWN_BATH",
+        "M25_INDUSTRIAL_KITCHEN",
+        "M25_ENTRY_ROCK",
+        "M25_BRONZE_BATH",
+        "M25_INDUSTRIAL_MASTER"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_COMPACT",
+      "title_hu": "Kompakt dió–szürke lakás",
+      "members": [
+        {
+          "album_id": "GD039",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD039/MANIFEST.json",
+          "date": "2025-08-27",
+          "source_url": "https://www.facebook.com/1388599859932602",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "entry"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Taupe grey sofa, dark timber fullheight cabinetry, pale stone dining/work surfaces and grey upholstered stools, subtle black/glass kitchen accents."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Taupe kanapé, dió magas tároló, világos kő, szürke bárszék és fekete üveg.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_BLUE_MASTER",
+        "M25_ENTRY_BRONZE",
+        "M25_BRONZE_BATH",
+        "M25_CHILD_GRAPHITE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_MONUMENT",
+      "title_hu": "Monumentális dió–szürke nappali",
+      "members": [
+        {
+          "album_id": "GD045",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD045/MANIFEST.json",
+          "date": "2025-06-30",
+          "source_url": "https://www.facebook.com/1337047855087803",
+          "image_count": 7,
+          "rooms": [
+            "living",
+            "dining"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Deep grey pleated modular sofa, dark wood ceiling/panels, large pale veined dining slab, sculptural grey chairs, black disc wall lamp and fine cluster chandelier. No copied double height."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Finoman tagolt szürke kanapé, sötét dió, világos kő étkezőasztal, szoborszerű székek, fekete korongfény.",
+      "missing_rooms_require_new_design": [
+        "kitchen",
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_STUDY",
+        "M25_GRAPHITE_BATH",
+        "M25_LIGHT_STONE_KITCHEN"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_CLASSIC_LIGHT",
+      "title_hu": "Világos klasszikus-modern",
+      "members": [
+        {
+          "album_id": "GD054",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD054/MANIFEST.json",
+          "date": "2025-03-06",
+          "source_url": "https://www.facebook.com/1231993245593265",
+          "image_count": 5,
+          "rooms": [
+            "living",
+            "dining",
+            "stair",
+            "garage"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "White panelled walls and trim, black glossy stone TV field, cream seating, brown timber table, bronze glass shelves; garage and stair are nontransferable functions."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Törtfehér falosztások, fekete fényes kő TV-fal, krém ülőbútor, barna étkezőasztal és bronzos polcok.",
+      "missing_rooms_require_new_design": [
+        "kitchen",
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_CHILD_SAND",
+        "M25_SAND_MASTER",
+        "M25_LIGHT_SPA",
+        "M25_CHILD_POWDER"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_BOUTIQUE",
+      "title_hu": "Sötét butik lounge",
+      "members": [
+        {
+          "album_id": "GD055",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD055/MANIFEST.json",
+          "date": "2025-02-20",
+          "source_url": "https://www.facebook.com/1219709083488348",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "lounge",
+            "office",
+            "bar"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Dark blue/black wall mouldings, cognac and cream leather, black polished desk/bar, bronze shelves, crystal branch/cluster chandeliers. Rich classic masculine palette."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Feketéskék falosztások, konyak és krém bőr, bronz polcok, sötét fényes íróasztal és kristályág lámpa.",
+      "missing_rooms_require_new_design": [
+        "kitchen",
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M23_GREEN_BATH",
+        "M25_BURGUNDY_BATH",
+        "M25_BRONZE_WARDROBE"
+      ],
+      "original_identity_verified": false
+    },
+    {
+      "family_id": "F25_BURGUNDY",
+      "title_hu": "Borvörös és törtfehér otthon",
+      "members": [
+        {
+          "album_id": "GD056",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD056/MANIFEST.json",
+          "date": "2025-02-13",
+          "source_url": "https://www.facebook.com/1213567950769128",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "dining",
+            "kitchen"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Ivory modular sofa, burgundy velvet chair, pale textured rug, stone table, dark timber kitchen and thin black suspended open shelves."
+        }
+      ],
+      "origin_identity_status": "independent_album",
+      "identity_evidence": "One source album; no cross-post identity asserted.",
+      "appearance_to_preserve_hu": "Elefántcsont kanapé, borvörös fotel, világos textúra, kőasztal, dió konyha és finom fekete polcváz.",
+      "missing_rooms_require_new_design": [
+        "bed",
+        "bath",
+        "entry",
+        "terrace"
+      ],
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ],
+      "proposed_companion_module_ids": [
+        "M25_BURGUNDY_BATH"
+      ],
+      "original_identity_verified": false
+    }
+  ],
+  "standalone_room_modules": [
+    {
+      "module_id": "M23_ROCK_MASTER",
+      "title_hu": "Sziklafalú háló és kőfürdő",
+      "source": {
+        "album_id": "GD105",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD105/MANIFEST.json",
+        "date": "2023-09-25",
+        "source_url": "https://www.facebook.com/840782128047714",
+        "image_count": 3,
+        "rooms": [
+          "bed",
+          "bath"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Rough grey mineral headwall, warm wood low bed, charcoal linen, fine black fittings. White oval tub and warm stone bathroom."
+      },
+      "room_scope": [
+        "bed",
+        "bath"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_ROCK",
+        "F23_BALATON",
+        "F23_COGNAC"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Durva szürke kő, meleg fa és sötét textil összeköti a meglévő alapkoncepciókat; eredeti közös projekt nem bizonyított.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M23_GREEN_BATH",
+      "title_hu": "Fekete kő és mohazöld fürdő",
+      "source": {
+        "album_id": "GD118",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD118/MANIFEST.json",
+        "date": "2023-05-10",
+        "source_url": "https://www.facebook.com/745926274199967",
+        "image_count": 4,
+        "rooms": [
+          "bath",
+          "wc"
+        ],
+        "caption_excerpt": "Stílusos 5 négyzetméter, részletek egy készülő projektből.",
+        "visual_notes": "Black/charcoal stone, oval dark freestanding tub, black bowl basin, thick cream counter, wood underlighting and green moss wall. Use integrated basin and existing tile constraints."
+      },
+      "room_scope": [
+        "bath",
+        "WC"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_ZOD",
+        "F23_ROCK",
+        "F25_BOUTIQUE"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A zöld akcentus a Ződ családhoz, a fekete kő a sötét lakásokhoz illik; a zöld dekor nem állított eredeti anyag vagy élő növényrendszer.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M23_WALNUT_MASTER",
+      "title_hu": "Dió és fehér márvány háló",
+      "source": {
+        "album_id": "GD2023_01",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_01/MANIFEST.json",
+        "date": "2023-12-07",
+        "source_url": "https://www.facebook.com/889803039812289",
+        "image_count": 5,
+        "rooms": [
+          "bed",
+          "vanity",
+          "media"
+        ],
+        "caption_excerpt": "Ismét egy készülő projektből hoztuk az egyik kedvenc helyiségünket. \nAludnád?",
+        "visual_notes": "Warm walnut fullheight headboard and wardrobe, crisp white grey-veined stone slab, low greige bed and round upholstered chair, illuminated dressing niche."
+      },
+      "room_scope": [
+        "bed",
+        "vanity",
+        "media"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_PETROL",
+        "F23_SCULPTURAL",
+        "F23_WALNUT_DINING"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A dió és világos erezett felület közös anyagnyelve; a háló önálló forrásalbum marad.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_BURGUNDY_BATH",
+      "title_hu": "Bordó márvány fürdő",
+      "source": {
+        "album_id": "GD031",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD031/MANIFEST.json",
+        "date": "2025-11-25",
+        "source_url": "https://www.facebook.com/1477407091051878",
+        "image_count": 5,
+        "rooms": [
+          "bath",
+          "shower",
+          "wc",
+          "wardrobe"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Burgundy strongly veined integrated vanity, taupe mineral walls, dark timber, vertical warm mirror light, taupe freestanding bath; no unverified tile replacement."
+      },
+      "room_scope": [
+        "bath",
+        "shower",
+        "WC",
+        "wardrobe"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_BURGUNDY",
+        "F25_BOUTIQUE",
+        "F23_DUBAI"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A borvörös integrált mosdó hangsúlya és bronzos meleg fény folytatja a borvörös vagy butik nappalit.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_BLUE_MASTER",
+      "title_hu": "Grafit és kék háló dolgozósarokkal",
+      "source": {
+        "album_id": "GD032",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD032/MANIFEST.json",
+        "date": "2025-11-13",
+        "source_url": "https://www.facebook.com/1466890642103523",
+        "image_count": 4,
+        "rooms": [
+          "bed",
+          "office",
+          "wardrobe",
+          "media"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Grey panelled headwall, grey low upholstered bed, blue pegboard display, light timber desk, black tyre-like pouf and graphite wardrobes."
+      },
+      "room_scope": [
+        "bed",
+        "office",
+        "wardrobe"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_PETROL",
+        "F25_COMPACT",
+        "F23_GRAPHITE"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Grafit alap, kék részletek, világos fa munkaasztal; opcionális második háló/dolgozó, lakóhasználatot nem feltételez.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_BROWN_BATH",
+      "title_hu": "Dió és barna kő fürdő",
+      "source": {
+        "album_id": "GD033",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD033/MANIFEST.json",
+        "date": "2025-11-06",
+        "source_url": "https://www.facebook.com/1459689189490335",
+        "image_count": 4,
+        "rooms": [
+          "bath",
+          "shower"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Warm brown veined integrated stone vanity, walnut panels, cocoa freestanding tub, restrained linear bronze ceiling lamp."
+      },
+      "room_scope": [
+        "bath",
+        "shower",
+        "WC"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_INDUSTRIAL",
+        "F25_PETROL",
+        "F23_WALNUT_DINING"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Barna erezett mosdó, dió tároló és bronzos fény meleg anyagcsaládot ad a nappalik mellé.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_INDUSTRIAL_KITCHEN",
+      "title_hu": "Sötét dió és mészkő konyha",
+      "source": {
+        "album_id": "GD035",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD035/MANIFEST.json",
+        "date": "2025-10-13",
+        "source_url": "https://www.facebook.com/1435353051923949",
+        "image_count": 6,
+        "rooms": [
+          "kitchen",
+          "dining",
+          "corridor"
+        ],
+        "caption_excerpt": "Ebben a modern családi házban a letisztult formák találkoznak az indusztriális elemekkel. A dupla belmagasság és a hatalmas üvegfelületek természetes fénnyel árasztják … Továbbiak",
+        "visual_notes": "Deep brown timber island and fullheight cabinets, pale limestone-like counter, charcoal dining chairs and floating white linear pendants; appears related to GD034, not yet verified."
+      },
+      "room_scope": [
+        "kitchen",
+        "dining",
+        "corridor"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_INDUSTRIAL"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Erős kapcsolat: október 13. modern/indusztriális dupla belmagasságú ház, október 21. ennek a háznak a folytatása; mégsem adnak egyedi projektazonosítót, ezért proposed_pairing, magas bizalom.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_STUDY",
+      "title_hu": "Dió és travertin dolgozó",
+      "source": {
+        "album_id": "GD036",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD036/MANIFEST.json",
+        "date": "2025-09-17",
+        "source_url": "https://www.facebook.com/1408167034642551",
+        "image_count": 4,
+        "rooms": [
+          "office",
+          "media",
+          "library"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Warm vertical wood panels, light stone substantial desktop, bronze illuminated shelf and walnut legs. Office companion for existing study area."
+      },
+      "room_scope": [
+        "office",
+        "library",
+        "media"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_PETROL",
+        "F25_MONUMENT",
+        "F23_WALNUT_DINING"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A dió, világos kő és bronzpolc közös megjelenése; méretezve lehet hálóba illesztett dolgozórész is.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_ENTRY_ROCK",
+      "title_hu": "Szikla és fényhasáb előtér",
+      "source": {
+        "album_id": "GD037",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD037/MANIFEST.json",
+        "date": "2025-09-09",
+        "source_url": "https://www.facebook.com/1400288988763689",
+        "image_count": 4,
+        "rooms": [
+          "entry",
+          "corridor"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Rough stone illuminated vertical slab, taupe cabinetry, rounded stool; another entry uses grey stone planter, bronze hanging frame and slim upholstered bench. Do not add freestanding obstructive slab."
+      },
+      "room_scope": [
+        "entry",
+        "corridor"
+      ],
+      "source_image_indices": [
+        1,
+        2
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_ROCK",
+        "F25_INDUSTRIAL",
+        "F23_BALATON"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A kőhangsúly és taupe tároló illik; a közlekedősávot elzáró térbeli sziklatömböt falra síkba adaptáljuk.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_ENTRY_BRONZE",
+      "title_hu": "Bronz keret és kő előtér",
+      "source": {
+        "album_id": "GD037",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD037/MANIFEST.json",
+        "date": "2025-09-09",
+        "source_url": "https://www.facebook.com/1400288988763689",
+        "image_count": 4,
+        "rooms": [
+          "entry",
+          "corridor"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Rough stone illuminated vertical slab, taupe cabinetry, rounded stool; another entry uses grey stone planter, bronze hanging frame and slim upholstered bench. Do not add freestanding obstructive slab."
+      },
+      "room_scope": [
+        "entry",
+        "corridor"
+      ],
+      "source_image_indices": [
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_BRONZE_GALLERY",
+        "F25_PETROL",
+        "F25_COMPACT"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A bronz keret, kő kaspó és keskeny pad könnyebb, világosabb bejárati kiegészítés.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_CHILD_SAND",
+      "title_hu": "Bézs és púder szoba",
+      "source": {
+        "album_id": "GD038",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD038/MANIFEST.json",
+        "date": "2025-09-02",
+        "source_url": "https://www.facebook.com/1393903892735532",
+        "image_count": 5,
+        "rooms": [
+          "child",
+          "bed",
+          "play",
+          "corridor"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Rounded taupe cupboard forms, cream bouclé daybed, pale timber, blush vertical panel and bear mural. Childroom theme optional; keep functional bedroom use unless chosen."
+      },
+      "room_scope": [
+        "child_bed",
+        "play"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_SCULPTURAL",
+        "F25_CLASSIC_LIGHT",
+        "F23_COURTYARD"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Lekerekített bézs tároló és halvány púder; külön opcionális gyerekszoba-változat, nem írja felül a háló funkcióját.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_BRONZE_BATH",
+      "title_hu": "Bronz és kő integrált fürdő",
+      "source": {
+        "album_id": "GD040",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD040/MANIFEST.json",
+        "date": "2025-08-22",
+        "source_url": "https://www.facebook.com/1384183747040880",
+        "image_count": 6,
+        "rooms": [
+          "bath",
+          "shower",
+          "wc"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Speckled dark stone integrated basin, bronze/wood lower cabinet, mirror strips and dark textured shower. Separate black pedestal handbasin in WC, adapt to existing fixture geometry."
+      },
+      "room_scope": [
+        "bath",
+        "shower",
+        "WC"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_BRONZE_GALLERY",
+        "F25_COMPACT",
+        "F25_INDUSTRIAL"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Sötét finomszemcsés medence, bronzos tároló és tükörfény folytatja a finom keretes enteriőröket.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_GRAPHITE_BATH",
+      "title_hu": "Grafit márvány fürdő",
+      "source": {
+        "album_id": "GD041",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD041/MANIFEST.json",
+        "date": "2025-08-12",
+        "source_url": "https://www.facebook.com/1375059341286654",
+        "image_count": 4,
+        "rooms": [
+          "bath",
+          "shower"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Grey heavily veined wall, charcoal integrated vanity, taupe freestanding tub, dark vertical timber and fine black pendants."
+      },
+      "room_scope": [
+        "bath",
+        "shower",
+        "WC"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_GRAPHITE",
+        "F23_ROCK",
+        "F25_MONUMENT"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Szürke erezett kő, grafit bútor és taupe kád színei; kád csak ahol a valódi alaprajz biztosítja.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_SAND_MASTER",
+      "title_hu": "Homokszín háló íves fejvégfallal",
+      "source": {
+        "album_id": "GD042",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD042/MANIFEST.json",
+        "date": "2025-08-05",
+        "source_url": "https://www.facebook.com/1368662888592966",
+        "image_count": 5,
+        "rooms": [
+          "bed",
+          "media",
+          "lounge"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Ivory upholstery, pale grey veined rounded headwall, taupe flutes, chocolate bedthrow, fine black tables and soft cream lounge chair."
+      },
+      "room_scope": [
+        "bed",
+        "media",
+        "lounge"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_SCULPTURAL",
+        "F25_CLASSIC_LIGHT",
+        "F25_PETROL"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Világos kő, krém kárpit, taupe bordázat; a tömbös ív felületi kialakítás, nem új helyiséggeometria.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_BRONZE_WARDROBE",
+      "title_hu": "Világító bronz gardrób",
+      "source": {
+        "album_id": "GD043",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD043/MANIFEST.json",
+        "date": "2025-07-22",
+        "source_url": "https://www.facebook.com/1356078729851382",
+        "image_count": 6,
+        "rooms": [
+          "wardrobe",
+          "vanity",
+          "corridor"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Bronze glass shelves, pale stone island with glass accessory top, tall glowing mirror planes, padded bench and taupe wardrobes. Preserve existing wardrobe volume."
+      },
+      "room_scope": [
+        "wardrobe",
+        "vanity",
+        "corridor"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_BRONZE_GALLERY",
+        "F25_PETROL",
+        "F25_BOUTIQUE"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Bronzos belső, világított tárolás és sminktükör; külön sziget csak bizonyított hellyel, egyébként szekrénybe rendezve.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_LIGHT_STONE_KITCHEN",
+      "title_hu": "Dió és világos kő konyha",
+      "source": {
+        "album_id": "GD044",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD044/MANIFEST.json",
+        "date": "2025-07-11",
+        "source_url": "https://www.facebook.com/1346423037483618",
+        "image_count": 6,
+        "rooms": [
+          "kitchen",
+          "dining"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Warm wood fronts, thick pale mineral island, white/grey upholstered stools, wave line pendant. Do not add island absent from target layout."
+      },
+      "room_scope": [
+        "kitchen",
+        "dining"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_MONUMENT",
+        "F23_SCULPTURAL"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Dió, vastag világos kő és szoborszerű székek összeférnek; GD045-tel közös eredeti projekt nem bizonyított.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_LIGHT_SPA",
+      "title_hu": "Világos spa fürdő",
+      "source": {
+        "album_id": "GD048",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD048/MANIFEST.json",
+        "date": "2025-06-05",
+        "source_url": "https://www.facebook.com/1314952040630718",
+        "image_count": 3,
+        "rooms": [
+          "bath",
+          "wc"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Pale beige large-format walls, white oval tub and basin surface, floating dark cabinet, walnut panel and slender lit mirror."
+      },
+      "room_scope": [
+        "bath",
+        "WC"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_DUNAKANYAR",
+        "F23_COURTYARD",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Világos ásványi fal, dió és meleg tükörfény; az eredeti tálmosdó helyett a tulajdonosi integrált medencét kell használni.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_CHILD_GRAPHITE",
+      "title_hu": "Grafit gyerekszoba / kis háló",
+      "source": {
+        "album_id": "GD051",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD051/MANIFEST.json",
+        "date": "2025-05-22",
+        "source_url": "https://www.facebook.com/1303078785151377",
+        "image_count": 6,
+        "rooms": [
+          "child",
+          "bed",
+          "study"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Two distinct rooms: graphite panelled grey daybed/desk; blush-and-cream rounded upholstered daybed, circle motifs, small timber chair and vanity."
+      },
+      "room_scope": [
+        "child_bed",
+        "desk"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_GRAPHITE",
+        "F25_COMPACT",
+        "F23_WARM_BLACK"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Grafit napozóágy, fa íróasztal és visszafogott tárolás; életkorfüggő dekor csak külön döntéssel.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_CHILD_POWDER",
+      "title_hu": "Púder gyerekszoba / kis háló",
+      "source": {
+        "album_id": "GD051",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD051/MANIFEST.json",
+        "date": "2025-05-22",
+        "source_url": "https://www.facebook.com/1303078785151377",
+        "image_count": 6,
+        "rooms": [
+          "child",
+          "bed",
+          "study"
+        ],
+        "caption_excerpt": "",
+        "visual_notes": "Two distinct rooms: graphite panelled grey daybed/desk; blush-and-cream rounded upholstered daybed, circle motifs, small timber chair and vanity."
+      },
+      "room_scope": [
+        "child_bed",
+        "vanity"
+      ],
+      "source_image_indices": [
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F23_SCULPTURAL",
+        "F25_CLASSIC_LIGHT",
+        "F23_COURTYARD"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "Púder és krém kerekített felületek; nem olvasztjuk össze az album grafit változatával.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    },
+    {
+      "module_id": "M25_INDUSTRIAL_MASTER",
+      "title_hu": "Beton, dió és konyak – üveggardróbos háló",
+      "source": {
+        "album_id": "GD2025_01",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2025_01/MANIFEST.json",
+        "date": "2025-10-31",
+        "source_url": "https://www.facebook.com/photo/?fbid=1453645980094656&set=pcb.1453646386761282",
+        "image_count": 6,
+        "rooms": [
+          "bed",
+          "wardrobe",
+          "corridor"
+        ],
+        "caption_excerpt": "A tér a nyers és puha anyagok kontrasztjára épül: a beton és kő karakterét a meleg textíliák lágyítják. Az üvegfalas gardrób merész, mégis harmonikus eleme a hálónak, a… Továbbiak",
+        "visual_notes": "Cocoa-brown padded bed and segmented bench, walnut fullheight joinery, black-framed glass wardrobe with integrated warm display lighting, pale textured stone/concrete head wall and light timber floor. Existing apartment ceiling remains unchanged."
+      },
+      "room_scope": [
+        "bed",
+        "wardrobe",
+        "corridor"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "identity_status": "independent_room_module",
+      "compatible_base_families": [
+        "F25_INDUSTRIAL"
+      ],
+      "pairing_status": "proposed_pairing",
+      "pairing_reason_hu": "A barna kárpit, szürke kő/beton, fekete üveggardrób és dió erős társa GD034/GD035-nek; az október 31-i caption nem nevezi meg ugyanazt a házat, ezért csak javasolt társítás.",
+      "same_original_project_claimed": false,
+      "adaptation_targets": [
+        "A811",
+        "A812",
+        "A902"
+      ]
+    }
+  ],
+  "commercial_and_hospitality": [
+    {
+      "family_id": "C23_VIRO",
+      "title_hu": "VIRO Luxury – megvalósult tóparti szálláshely",
+      "origin_type": "hospitality_realized",
+      "members": [
+        {
+          "album_id": "GD101",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD101/MANIFEST.json",
+          "date": "2023-12-01",
+          "source_url": "https://www.facebook.com/885587073567219",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "dining",
+            "bath",
+            "wellness",
+            "exterior"
+          ],
+          "caption_excerpt": "Idilli felsőkategóriás szálláshely. \nNéhány fotó egy frissen elkészült munkánkból. \nhttps://www.viro-luxury.hu/",
+          "visual_notes": "Warm walnut pitched ceiling, emerald velvet, bronze glass cabinet, white veined polished stone; includes exterior and jacuzzi. Compare GD123 concept, likely related but identity unconfirmed."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Smaragdzöld bársony, sötét fa tetősík, bronz és fehér erezett kő.",
+      "adaptation_scope_hu": "Teljes hangulati csomagként adaptálható, de a ferde tető, kád/jakuzzi és nyaralóalaprajz nem kerül a lakásokba.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": true,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C23_BALATON_GUEST",
+      "title_hu": "Balaton-felvidéki vendégház",
+      "origin_type": "guesthouse",
+      "members": [
+        {
+          "album_id": "GD108",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD108/MANIFEST.json",
+          "date": "2023-08-22",
+          "source_url": "https://www.facebook.com/818169703642290",
+          "image_count": 6,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "bed",
+            "entry",
+            "bath"
+          ],
+          "caption_excerpt": "Hogy hozzunk egy kicsit mást is. \nBalaton-felvidéki vendégház vol.1",
+          "visual_notes": "Mint frames, clay brown upholstery, pale timber, light mineral walls, woven pendants. Preserve apartment window-frame colour."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Zsálya/mintzöld keretek, agyagbarna kanapé, világos fa, szőtt lámpa és világos ásványi fal.",
+      "adaptation_scope_hu": "Vendégházas eredet külön jelölve; az anyagpaletta és bútorozás adaptálható, a nyílászárók színe/geometriája rögzített marad.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": true,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C23_LAKE_HOLIDAY",
+      "title_hu": "Modern tóparti nyaraló – terv",
+      "origin_type": "holiday_home",
+      "members": [
+        {
+          "album_id": "GD123",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD123/MANIFEST.json",
+          "date": "2023-01-30",
+          "source_url": "https://www.facebook.com/669532961839299",
+          "image_count": 7,
+          "rooms": [
+            "living",
+            "kitchen",
+            "dining",
+            "bed",
+            "bath",
+            "wellness"
+          ],
+          "caption_excerpt": "Indítsuk az évet ezzel az általunk tervezett modern kis tóparti nyaralóval.",
+          "visual_notes": "Green dining chairs, grey curved lounge, walnut pitched ceiling, grey stone baths, bronze vanity details, green jacuzzi ceiling. Likely design counterpart of GD101, identity not verified."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Sötét fa tető, zöld székek, szürke íves kanapé, kőfürdő és jacuzzi.",
+      "adaptation_scope_hu": "Lakásváltozat készíthető a megjelenésből; a dupla szint és a wellness elemek nem automatikus tételek. GD101-gyel azonosság csak hipotézis.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": true,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C23_HOTEL",
+      "title_hu": "Dió–bordó hotelszoba",
+      "origin_type": "hotel_suite",
+      "members": [
+        {
+          "album_id": "GD122",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD122/MANIFEST.json",
+          "date": "2023-02-13",
+          "source_url": "https://www.facebook.com/681479223978006",
+          "image_count": 4,
+          "rooms": [
+            "bed",
+            "lounge",
+            "vanity"
+          ],
+          "caption_excerpt": "Hoteleket bírjátok?",
+          "visual_notes": "Walnut full-height panels, burgundy chairs, mustard sofa, tall tinted glass partition, greige bedding and dark carpet."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Dió, bordó és mustár ülőbútor, színezett üveg, greige ágy és sötét szőnyeg.",
+      "adaptation_scope_hu": "Háló/lounge részletmodul javasolt F25_BOUTIQUE vagy F25_BURGUNDY mellé, hotelalaprajz másolása nélkül.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": true,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C23_DENTAL",
+      "title_hu": "Taupe és íves fa fogászat",
+      "origin_type": "dental_clinic",
+      "members": [
+        {
+          "album_id": "GD113",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD113/MANIFEST.json",
+          "date": "2023-06-29",
+          "source_url": "https://www.facebook.com/782875967171664",
+          "image_count": 6,
+          "rooms": [
+            "commercial",
+            "reception",
+            "clinic",
+            "corridor",
+            "wc"
+          ],
+          "caption_excerpt": "Ha szerinted egy fogászat \"fehér kell legyen\", akkor most ne nézz ide... \nAvagy ismét villantunk pár részletet egy új belsőépítészeti projektünkből.",
+          "visual_notes": "Commercial dental clinic. Archive separately; curved wood reception, textured stone and warm minimal lighting transferable only as detail inspiration."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Íves fa recepció, taupe kő, világított ívek és finom folyosó.",
+      "adaptation_scope_hu": "Csak beépített tároló, pultél és fényrészlet inspirációja; egészségügyi elrendezést nem viszünk át.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C23_GOODWILL",
+      "title_hu": "Goodwill – funkcionális iroda",
+      "origin_type": "office",
+      "members": [
+        {
+          "album_id": "GD120",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD120/MANIFEST.json",
+          "date": "2023-03-03",
+          "source_url": "https://www.facebook.com/696966772429251",
+          "image_count": 5,
+          "rooms": [
+            "commercial",
+            "reception",
+            "office",
+            "meeting"
+          ],
+          "caption_excerpt": "Iroda by G.Design - egy újabb izgalmas és inspiráló, funkcionális munkakörnyezet.",
+          "visual_notes": "Corporate reception with mustard chairs, pale rounded desk, black/wood office, aqua accent. Archive commercial separately; not residential project."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Mustár székek, világos kerekített recepció, fekete-fa kabinet és aqua akcentus.",
+      "adaptation_scope_hu": "Kis dolgozó és tárolórészlet lehetséges; irodai alaprajz nem lakásterv.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C25_CAFE",
+      "title_hu": "Bronz rácsos kávézó",
+      "origin_type": "cafe",
+      "members": [
+        {
+          "album_id": "GD049",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD049/MANIFEST.json",
+          "date": "2025-04-30",
+          "source_url": "https://www.facebook.com/1284881023637820",
+          "image_count": 6,
+          "rooms": [
+            "commercial",
+            "cafe",
+            "dining"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Commercial cafe with suspended bronze grid, red barstools, dark panels, aged mineral wall and curved bench; detail inspiration only, ceiling structure not transferable."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Bronzos rács, piros bárszék, öregített ásványi fal és pad.",
+      "adaptation_scope_hu": "Vendéglátós anyagpaletta, pad vagy tároló részletként használható; rácsos mennyezetet nem másolunk.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C25_OFFICE",
+      "title_hu": "Kő és dió iroda",
+      "origin_type": "office",
+      "members": [
+        {
+          "album_id": "GD052",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD052/MANIFEST.json",
+          "date": "2025-04-01",
+          "source_url": "https://www.facebook.com/1255863479872908",
+          "image_count": 8,
+          "rooms": [
+            "commercial",
+            "office",
+            "reception",
+            "meeting",
+            "wc"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Commercial law/office environment with stone reception, burgundy meeting chairs, walnut cabinets and bronze shelves. Keep commercial archive apart from residential schemes."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Kőrecepció, borvörös székek, dió és bronz.",
+      "adaptation_scope_hu": "Munkaállomás, polc és anyagkontraszt F25_BURGUNDY-hoz javasolható; üzleti alaprajz nem másolható.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C25_GYM_RECEPTION",
+      "title_hu": "Fekete–piros edzőtermi recepció",
+      "origin_type": "gym_reception",
+      "members": [
+        {
+          "album_id": "GD053",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD053/MANIFEST.json",
+          "date": "2025-03-18",
+          "source_url": "https://www.facebook.com/1242636907862232",
+          "image_count": 7,
+          "rooms": [
+            "commercial",
+            "gym",
+            "reception"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Black gym reception, angular ceiling lines, red details, workout areas. Nonresidential, not full apartment reference."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Fekete–piros recepció, szögletes fények, sötét burkolat.",
+      "adaptation_scope_hu": "Kizárólag opcionális sportos részletnyelv. Lakás teljes stílusaként nem automatikus.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    },
+    {
+      "family_id": "C25_GYM",
+      "title_hu": "Fekete–piros edzőterem",
+      "origin_type": "gym",
+      "members": [
+        {
+          "album_id": "GD057",
+          "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD057/MANIFEST.json",
+          "date": "2025-01-22",
+          "source_url": "https://www.facebook.com/1195841469208443",
+          "image_count": 7,
+          "rooms": [
+            "commercial",
+            "gym"
+          ],
+          "caption_excerpt": "",
+          "visual_notes": "Full gym, hexagonal ceiling lights, red equipment and tracks, black structure. Commercial archive, not apartment design base; likely companion GD053, identity unconfirmed."
+        }
+      ],
+      "identity_status": "independent_album",
+      "appearance_hu": "Piros gépek, fekete burkolatok és hexagonális mennyezeti fény.",
+      "adaptation_scope_hu": "Edzőtermi eredet; eszköz és plafonrendszer nem lakásberendezés. GD053-mal közös projekt csak javasolt kapcsolat.",
+      "apartment_layout_transfer_allowed": false,
+      "direct_full_home_generation_ready": false,
+      "full_apartment_appearance_adaptation_eligible": false,
+      "readiness_reason": "Collection/grouping stage only; apartment-specific geometry and room coverage still required."
+    }
+  ],
+  "non_design_or_incomplete_media_records": [
+    {
+      "id": "GD100",
+      "type": "team_photo",
+      "source": {
+        "album_id": "GD100",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD100/MANIFEST.json",
+        "date": "2023-12-23",
+        "source_url": "https://www.facebook.com/photo/?fbid=900695388723054&set=a.483296277129636",
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "Idén is nagyon mozgalmas évet zárunk - nyitottunk az Emirátusok felé, Dubai projekteken dolgozhattunk, csapatunk új tagokkal bővült, meghívást kaptunk az Év Lakberendezője pályázat zsűritagjai közé - de az ez évi, igazán mutatós házaink bemutatása még hátra van, szóval köszönjük minden lelkes követőnk bizalmát, tartsátok meg jó szokásotokat, mert a java még hátra van! Kellemes Ünnepeket Kívánunk! G.Design csapata",
+        "visual_notes": ""
+      },
+      "classification_hu": "Évzáró csapatfotó; nem enteriőr referencia.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD114",
+      "type": "cover_collage",
+      "source": {
+        "album_id": "GD114",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD114/MANIFEST.json",
+        "date": "2023-06-26",
+        "source_url": "https://www.facebook.com/photo/?fbid=780654454060482&set=a.483296273796303&__cft__[0]=AZhSXDHIqtU80dM0kt-qUz1TGPwhTahj7QRAu5HSUqlfQnYMOlmSq1h6hFzoxiKprMAmQlRtBuvTcjxpa2VYufR3RdjUr1k-sfZc2CDhB2KraEGNgFL3PX0jk1i4d8VDlrnZuwPkC1tKIlORrzUyjgD6cKoKEB5eoZBB00ZOYShxnxCq-orUHyW_2216&__tn__=EH-R",
+        "image_count": 1,
+        "rooms": [
+          "mixed"
+        ],
+        "caption_excerpt": "G.Design megváltoztatta a borítóképét.",
+        "visual_notes": ""
+      },
+      "classification_hu": "Borítókép kollázs; nem új, teljes projektalbum. Más projekthez azonosság ellenőrzés nélkül nem rendeljük.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD124",
+      "type": "company_news",
+      "source": {
+        "album_id": "GD124",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD124/MANIFEST.json",
+        "date": "2023-01-09",
+        "source_url": "https://www.facebook.com/photo/?fbid=652388903553705&set=a.483296277129636&__cft__[0]=AZiFscUMN472uQZnSwuUIT9g3RB_0P9aThRFwCRVxrvp4yhUqzp5-jVhEO8LR0ZcfhkmKKGIUJU1JU78xa6WnbyQ46T_UmA1o_zOfE-WCsQx3d5oYvJ0dRs9x4KIVheuygwsKG7ePlbVukPH2hX71rM88AuXb2Fy9szhFlk4ah6dVdCLhIFJFK8-Sg&__tn__=EH-R",
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "Mint azt már sokan tudjátok, irodánk egy részét az év elején kiköltöztettük Dubai-ba, hogy az Pálma szigeti projektjeinket felügyeljük…",
+        "visual_notes": ""
+      },
+      "classification_hu": "Dubai iroda-költözési hír és személyfotó; nem enteriőr album.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD121",
+      "type": "external_interview_preview",
+      "source": {
+        "album_id": "GD121",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD121/MANIFEST.json",
+        "date": "2023-02-22",
+        "source_url": null,
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "handras.hu készített velünk egy remek kis interview-t, popcorn-t elő!",
+        "visual_notes": ""
+      },
+      "classification_hu": "Handras-interjú előnézete; nem teljes képsor, eredeti videó külső forrás.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD130",
+      "type": "external_study_video_preview",
+      "source": {
+        "album_id": "GD130",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD130/MANIFEST.json",
+        "date": "2023-02-01",
+        "source_url": null,
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "Elkészültünk handras.hu dolgozójával, forgatott is róla egy király kis videót.",
+        "visual_notes": ""
+      },
+      "classification_hu": "Handras dolgozó-videó előnézete; lehetséges önálló dolgozóreferencia, teljes képsor nélkül nem új tervalap.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD046",
+      "type": "video_poster_only",
+      "source": {
+        "album_id": "GD046",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD046/MANIFEST.json",
+        "date": "2025-06-24",
+        "source_url": "https://www.facebook.com/reel/1402054254181629",
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "",
+        "visual_notes": ""
+      },
+      "classification_hu": "Videó előképe mentve; nincs teljes videó vagy ellenőrzött teljes enteriőrsorozat.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD047",
+      "type": "video_poster_only",
+      "source": {
+        "album_id": "GD047",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD047/MANIFEST.json",
+        "date": "2025-06-16",
+        "source_url": "https://www.facebook.com/reel/1429620864844860",
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "",
+        "visual_notes": ""
+      },
+      "classification_hu": "Videó előképe mentve; nincs teljes videó vagy ellenőrzött teljes enteriőrsorozat.",
+      "generation_basis_ready": false
+    },
+    {
+      "id": "GD058",
+      "type": "video_poster_only",
+      "source": {
+        "album_id": "GD058",
+        "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD058/MANIFEST.json",
+        "date": "2025-01-16",
+        "source_url": "https://www.facebook.com/reel/579885424958190",
+        "image_count": 1,
+        "rooms": [],
+        "caption_excerpt": "",
+        "visual_notes": ""
+      },
+      "classification_hu": "Videó előképe mentve; nincs teljes videó vagy ellenőrzött teljes enteriőrsorozat.",
+      "generation_basis_ready": false
+    }
+  ],
+  "cross_post_relationships": [
+    {
+      "ids": [
+        "GD034",
+        "GD035"
+      ],
+      "status": "proposed_pairing",
+      "confidence": "high",
+      "reason": "2025-10-13 caption introduces double-height industrial modern house; 2025-10-21 explicitly continues this double-height house. Strong sequence, but no unique original project identifier."
+    },
+    {
+      "ids": [
+        "GD034",
+        "GD035",
+        "GD2025_01"
+      ],
+      "status": "proposed_pairing",
+      "confidence": "medium_high",
+      "reason": "Bedroom glass wardrobe, brown upholstery, walnut, concrete/stone vocabulary complements industrial living/kitchen. Bedroom caption does not explicitly identify same house."
+    },
+    {
+      "ids": [
+        "GD044",
+        "GD045"
+      ],
+      "status": "proposed_pairing",
+      "confidence": "medium",
+      "reason": "Compatible walnut and light stone kitchen/living vocabulary; no project identity proof."
+    },
+    {
+      "ids": [
+        "GD101",
+        "GD123"
+      ],
+      "status": "possible_same_project_unverified",
+      "confidence": "medium",
+      "reason": "Lakeside setting, dark pitched timber ceiling, green seating and spa vocabulary resemble render/realization pair. Different furniture and no explicit identity caption; remain separate."
+    },
+    {
+      "ids": [
+        "GD053",
+        "GD057"
+      ],
+      "status": "proposed_pairing",
+      "confidence": "medium_high",
+      "reason": "Matching black/red gym language and reception/gym roles; no unique project identifier in saved captions."
+    }
+  ],
+  "album_map": [
+    {
+      "album_id": "GD030",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD030/MANIFEST.json",
+      "date": "2025-12-03",
+      "source_url": "https://www.facebook.com/1483975397061714",
+      "image_count": 7,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "library"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Walnut panels and glass bronze display case, off-white sofa, blue sculptural stools, pale oak floor and white kitchen stone; double-height/floating stair shell not transferable.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_PETROL"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD031",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD031/MANIFEST.json",
+      "date": "2025-11-25",
+      "source_url": "https://www.facebook.com/1477407091051878",
+      "image_count": 5,
+      "rooms": [
+        "bath",
+        "shower",
+        "wc",
+        "wardrobe"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Burgundy strongly veined integrated vanity, taupe mineral walls, dark timber, vertical warm mirror light, taupe freestanding bath; no unverified tile replacement.",
+      "kind": "room_module",
+      "targets": [
+        "M25_BURGUNDY_BATH"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD032",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD032/MANIFEST.json",
+      "date": "2025-11-13",
+      "source_url": "https://www.facebook.com/1466890642103523",
+      "image_count": 4,
+      "rooms": [
+        "bed",
+        "office",
+        "wardrobe",
+        "media"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Grey panelled headwall, grey low upholstered bed, blue pegboard display, light timber desk, black tyre-like pouf and graphite wardrobes.",
+      "kind": "room_module",
+      "targets": [
+        "M25_BLUE_MASTER"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD033",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD033/MANIFEST.json",
+      "date": "2025-11-06",
+      "source_url": "https://www.facebook.com/1459689189490335",
+      "image_count": 4,
+      "rooms": [
+        "bath",
+        "shower"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Warm brown veined integrated stone vanity, walnut panels, cocoa freestanding tub, restrained linear bronze ceiling lamp.",
+      "kind": "room_module",
+      "targets": [
+        "M25_BROWN_BATH"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD034",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD034/MANIFEST.json",
+      "date": "2025-10-21",
+      "source_url": "https://www.facebook.com/1443575001101754",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "lounge",
+        "entry"
+      ],
+      "caption_excerpt": "Folytatjuk ennek a dupla belmagasságú modern háznak a bemutatását, amelyben a modern vonalak találkoznak nyers felületekkel. -… Továbbiak",
+      "visual_notes": "Rust tubular chairs, pale sectional sofa, petrol lounge chairs, grey stone columns, rich brown panels and veined stone tables. Avoid importing staircase or double-height.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_INDUSTRIAL"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD035",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD035/MANIFEST.json",
+      "date": "2025-10-13",
+      "source_url": "https://www.facebook.com/1435353051923949",
+      "image_count": 6,
+      "rooms": [
+        "kitchen",
+        "dining",
+        "corridor"
+      ],
+      "caption_excerpt": "Ebben a modern családi házban a letisztult formák találkoznak az indusztriális elemekkel. A dupla belmagasság és a hatalmas üvegfelületek természetes fénnyel árasztják … Továbbiak",
+      "visual_notes": "Deep brown timber island and fullheight cabinets, pale limestone-like counter, charcoal dining chairs and floating white linear pendants; appears related to GD034, not yet verified.",
+      "kind": "room_module",
+      "targets": [
+        "M25_INDUSTRIAL_KITCHEN"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD036",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD036/MANIFEST.json",
+      "date": "2025-09-17",
+      "source_url": "https://www.facebook.com/1408167034642551",
+      "image_count": 4,
+      "rooms": [
+        "office",
+        "media",
+        "library"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Warm vertical wood panels, light stone substantial desktop, bronze illuminated shelf and walnut legs. Office companion for existing study area.",
+      "kind": "room_module",
+      "targets": [
+        "M25_STUDY"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD037",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD037/MANIFEST.json",
+      "date": "2025-09-09",
+      "source_url": "https://www.facebook.com/1400288988763689",
+      "image_count": 4,
+      "rooms": [
+        "entry",
+        "corridor"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Rough stone illuminated vertical slab, taupe cabinetry, rounded stool; another entry uses grey stone planter, bronze hanging frame and slim upholstered bench. Do not add freestanding obstructive slab.",
+      "kind": "room_module",
+      "targets": [
+        "M25_ENTRY_ROCK",
+        "M25_ENTRY_BRONZE"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD038",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD038/MANIFEST.json",
+      "date": "2025-09-02",
+      "source_url": "https://www.facebook.com/1393903892735532",
+      "image_count": 5,
+      "rooms": [
+        "child",
+        "bed",
+        "play",
+        "corridor"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Rounded taupe cupboard forms, cream bouclé daybed, pale timber, blush vertical panel and bear mural. Childroom theme optional; keep functional bedroom use unless chosen.",
+      "kind": "room_module",
+      "targets": [
+        "M25_CHILD_SAND"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD039",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD039/MANIFEST.json",
+      "date": "2025-08-27",
+      "source_url": "https://www.facebook.com/1388599859932602",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "entry"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Taupe grey sofa, dark timber fullheight cabinetry, pale stone dining/work surfaces and grey upholstered stools, subtle black/glass kitchen accents.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_COMPACT"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD040",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD040/MANIFEST.json",
+      "date": "2025-08-22",
+      "source_url": "https://www.facebook.com/1384183747040880",
+      "image_count": 6,
+      "rooms": [
+        "bath",
+        "shower",
+        "wc"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Speckled dark stone integrated basin, bronze/wood lower cabinet, mirror strips and dark textured shower. Separate black pedestal handbasin in WC, adapt to existing fixture geometry.",
+      "kind": "room_module",
+      "targets": [
+        "M25_BRONZE_BATH"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD041",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD041/MANIFEST.json",
+      "date": "2025-08-12",
+      "source_url": "https://www.facebook.com/1375059341286654",
+      "image_count": 4,
+      "rooms": [
+        "bath",
+        "shower"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Grey heavily veined wall, charcoal integrated vanity, taupe freestanding tub, dark vertical timber and fine black pendants.",
+      "kind": "room_module",
+      "targets": [
+        "M25_GRAPHITE_BATH"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD042",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD042/MANIFEST.json",
+      "date": "2025-08-05",
+      "source_url": "https://www.facebook.com/1368662888592966",
+      "image_count": 5,
+      "rooms": [
+        "bed",
+        "media",
+        "lounge"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Ivory upholstery, pale grey veined rounded headwall, taupe flutes, chocolate bedthrow, fine black tables and soft cream lounge chair.",
+      "kind": "room_module",
+      "targets": [
+        "M25_SAND_MASTER"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD043",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD043/MANIFEST.json",
+      "date": "2025-07-22",
+      "source_url": "https://www.facebook.com/1356078729851382",
+      "image_count": 6,
+      "rooms": [
+        "wardrobe",
+        "vanity",
+        "corridor"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Bronze glass shelves, pale stone island with glass accessory top, tall glowing mirror planes, padded bench and taupe wardrobes. Preserve existing wardrobe volume.",
+      "kind": "room_module",
+      "targets": [
+        "M25_BRONZE_WARDROBE"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD044",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD044/MANIFEST.json",
+      "date": "2025-07-11",
+      "source_url": "https://www.facebook.com/1346423037483618",
+      "image_count": 6,
+      "rooms": [
+        "kitchen",
+        "dining"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Warm wood fronts, thick pale mineral island, white/grey upholstered stools, wave line pendant. Do not add island absent from target layout.",
+      "kind": "room_module",
+      "targets": [
+        "M25_LIGHT_STONE_KITCHEN"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD045",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD045/MANIFEST.json",
+      "date": "2025-06-30",
+      "source_url": "https://www.facebook.com/1337047855087803",
+      "image_count": 7,
+      "rooms": [
+        "living",
+        "dining"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Deep grey pleated modular sofa, dark wood ceiling/panels, large pale veined dining slab, sculptural grey chairs, black disc wall lamp and fine cluster chandelier. No copied double height.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_MONUMENT"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD046",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD046/MANIFEST.json",
+      "date": "2025-06-24",
+      "source_url": "https://www.facebook.com/reel/1402054254181629",
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD046"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD047",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD047/MANIFEST.json",
+      "date": "2025-06-16",
+      "source_url": "https://www.facebook.com/reel/1429620864844860",
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD047"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD048",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD048/MANIFEST.json",
+      "date": "2025-06-05",
+      "source_url": "https://www.facebook.com/1314952040630718",
+      "image_count": 3,
+      "rooms": [
+        "bath",
+        "wc"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Pale beige large-format walls, white oval tub and basin surface, floating dark cabinet, walnut panel and slender lit mirror.",
+      "kind": "room_module",
+      "targets": [
+        "M25_LIGHT_SPA"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD049",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD049/MANIFEST.json",
+      "date": "2025-04-30",
+      "source_url": "https://www.facebook.com/1284881023637820",
+      "image_count": 6,
+      "rooms": [
+        "commercial",
+        "cafe",
+        "dining"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Commercial cafe with suspended bronze grid, red barstools, dark panels, aged mineral wall and curved bench; detail inspiration only, ceiling structure not transferable.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C25_CAFE"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD051",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD051/MANIFEST.json",
+      "date": "2025-05-22",
+      "source_url": "https://www.facebook.com/1303078785151377",
+      "image_count": 6,
+      "rooms": [
+        "child",
+        "bed",
+        "study"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Two distinct rooms: graphite panelled grey daybed/desk; blush-and-cream rounded upholstered daybed, circle motifs, small timber chair and vanity.",
+      "kind": "room_module",
+      "targets": [
+        "M25_CHILD_GRAPHITE",
+        "M25_CHILD_POWDER"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD052",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD052/MANIFEST.json",
+      "date": "2025-04-01",
+      "source_url": "https://www.facebook.com/1255863479872908",
+      "image_count": 8,
+      "rooms": [
+        "commercial",
+        "office",
+        "reception",
+        "meeting",
+        "wc"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Commercial law/office environment with stone reception, burgundy meeting chairs, walnut cabinets and bronze shelves. Keep commercial archive apart from residential schemes.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C25_OFFICE"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD053",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD053/MANIFEST.json",
+      "date": "2025-03-18",
+      "source_url": "https://www.facebook.com/1242636907862232",
+      "image_count": 7,
+      "rooms": [
+        "commercial",
+        "gym",
+        "reception"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Black gym reception, angular ceiling lines, red details, workout areas. Nonresidential, not full apartment reference.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C25_GYM_RECEPTION"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD054",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD054/MANIFEST.json",
+      "date": "2025-03-06",
+      "source_url": "https://www.facebook.com/1231993245593265",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "dining",
+        "stair",
+        "garage"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "White panelled walls and trim, black glossy stone TV field, cream seating, brown timber table, bronze glass shelves; garage and stair are nontransferable functions.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_CLASSIC_LIGHT"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD055",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD055/MANIFEST.json",
+      "date": "2025-02-20",
+      "source_url": "https://www.facebook.com/1219709083488348",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "lounge",
+        "office",
+        "bar"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Dark blue/black wall mouldings, cognac and cream leather, black polished desk/bar, bronze shelves, crystal branch/cluster chandeliers. Rich classic masculine palette.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_BOUTIQUE"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD056",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD056/MANIFEST.json",
+      "date": "2025-02-13",
+      "source_url": "https://www.facebook.com/1213567950769128",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "dining",
+        "kitchen"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Ivory modular sofa, burgundy velvet chair, pale textured rug, stone table, dark timber kitchen and thin black suspended open shelves.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F25_BURGUNDY"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD057",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD057/MANIFEST.json",
+      "date": "2025-01-22",
+      "source_url": "https://www.facebook.com/1195841469208443",
+      "image_count": 7,
+      "rooms": [
+        "commercial",
+        "gym"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Full gym, hexagonal ceiling lights, red equipment and tracks, black structure. Commercial archive, not apartment design base; likely companion GD053, identity unconfirmed.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C25_GYM"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD058",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD058/MANIFEST.json",
+      "date": "2025-01-16",
+      "source_url": "https://www.facebook.com/reel/579885424958190",
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD058"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD100",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD100/MANIFEST.json",
+      "date": "2023-12-23",
+      "source_url": "https://www.facebook.com/photo/?fbid=900695388723054&set=a.483296277129636",
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "Idén is nagyon mozgalmas évet zárunk - nyitottunk az Emirátusok felé, Dubai projekteken dolgozhattunk, csapatunk új tagokkal bővült, meghívást kaptunk az Év Lakberendezője pályázat zsűritagjai közé - de az ez évi, igazán mutatós házaink bemutatása még hátra van, szóval köszönjük minden lelkes követőnk bizalmát, tartsátok meg jó szokásotokat, mert a java még hátra van! Kellemes Ünnepeket Kívánunk! G.Design csapata",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD100"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD101",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD101/MANIFEST.json",
+      "date": "2023-12-01",
+      "source_url": "https://www.facebook.com/885587073567219",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "dining",
+        "bath",
+        "wellness",
+        "exterior"
+      ],
+      "caption_excerpt": "Idilli felsőkategóriás szálláshely. \nNéhány fotó egy frissen elkészült munkánkból. \nhttps://www.viro-luxury.hu/",
+      "visual_notes": "Warm walnut pitched ceiling, emerald velvet, bronze glass cabinet, white veined polished stone; includes exterior and jacuzzi. Compare GD123 concept, likely related but identity unconfirmed.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_VIRO"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD102",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD102/MANIFEST.json",
+      "date": "2023-11-21",
+      "source_url": "https://www.facebook.com/879101524215774",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining"
+      ],
+      "caption_excerpt": "Elegáns, mégis letisztult 60 nm. konyha-nappali tér.",
+      "visual_notes": "Graphite sofa, cognac ottoman, grey/taupe cabinetry, illuminated bronze shelves, linear fireplaces; use furnishing language, not fireplace/ceiling architecture.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_GRAPHITE"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD103",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD103/MANIFEST.json",
+      "date": "2023-11-01",
+      "source_url": "https://www.facebook.com/866124858846774",
+      "image_count": 4,
+      "rooms": [
+        "dining",
+        "kitchen",
+        "entry",
+        "stair"
+      ],
+      "caption_excerpt": "Ismét egy izgalmas, de visszafogottabb projektünkből hoztunk némi ízelítőt.",
+      "visual_notes": "Dark upholstered chairs, warm wood, bronze shelving, thin black stacked disc pendants; stair/double height cannot transfer.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_WALNUT_DINING"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD104",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD104/MANIFEST.json",
+      "date": "2023-10-03",
+      "source_url": "https://www.facebook.com/845940577531869",
+      "image_count": 3,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining"
+      ],
+      "caption_excerpt": "Készülőben egy újabb vagány \"házikó\".",
+      "visual_notes": "Low off-white modular sofa, white veined monolithic coffee table, warm wood cabinetry and fluid line pendant.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_SCULPTURAL"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD105",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD105/MANIFEST.json",
+      "date": "2023-09-25",
+      "source_url": "https://www.facebook.com/840782128047714",
+      "image_count": 3,
+      "rooms": [
+        "bed",
+        "bath"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Rough grey mineral headwall, warm wood low bed, charcoal linen, fine black fittings. White oval tub and warm stone bathroom.",
+      "kind": "room_module",
+      "targets": [
+        "M23_ROCK_MASTER"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD106",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD106/MANIFEST.json",
+      "date": "2023-09-19",
+      "source_url": "https://www.facebook.com/836465681812692",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "entry"
+      ],
+      "caption_excerpt": "",
+      "visual_notes": "Indoor tree courtyard, concrete ceiling, taupe sectional, pale cabinetry, wood dining table; transplant palette and furniture only, no courtyard/ceiling changes.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_COURTYARD"
+      ],
+      "caption_is_available": false
+    },
+    {
+      "album_id": "GD107",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD107/MANIFEST.json",
+      "date": "2023-09-12",
+      "source_url": "https://www.facebook.com/831574485635145",
+      "image_count": 4,
+      "rooms": [
+        "bed",
+        "office"
+      ],
+      "caption_excerpt": "Hegyoldal, Dunakanyar, panoráma... vol. 2",
+      "visual_notes": "Pale plywood walls, grey low bed, black lounge chair, black/pale wood desk and vertical timber screen. Glazed pavilion shell must not transfer.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_DUNAKANYAR"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD108",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD108/MANIFEST.json",
+      "date": "2023-08-22",
+      "source_url": "https://www.facebook.com/818169703642290",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "bed",
+        "entry",
+        "bath"
+      ],
+      "caption_excerpt": "Hogy hozzunk egy kicsit mást is. \nBalaton-felvidéki vendégház vol.1",
+      "visual_notes": "Mint frames, clay brown upholstery, pale timber, light mineral walls, woven pendants. Preserve apartment window-frame colour.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_BALATON_GUEST"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD109",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD109/MANIFEST.json",
+      "date": "2023-08-07",
+      "source_url": "https://www.facebook.com/808505517942042",
+      "image_count": 4,
+      "rooms": [
+        "bath",
+        "wc",
+        "courtyard"
+      ],
+      "caption_excerpt": "\"Ződ\" vol.3\nZárásképp, pedig néhány kép a fürdőszobákról.",
+      "visual_notes": "Olive green bowl basins and freestanding tub, taupe stone, black globe sconces and green marble WC accent. Adapt bowls to integrated owner-required basin.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_ZOD"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD110",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD110/MANIFEST.json",
+      "date": "2023-08-01",
+      "source_url": "https://www.facebook.com/804590741666853",
+      "image_count": 6,
+      "rooms": [
+        "child",
+        "bed",
+        "corridor",
+        "bath",
+        "wc"
+      ],
+      "caption_excerpt": "\"Ződ\" vol.2\nMutatjuk is a ház következő részét, a gyerekek territóriumát!",
+      "visual_notes": "Sage/olive fluted arched panels, tropical mural, house-frame childbed, terrazzo and oak bathroom. Childbed configuration is optional, not presumed for owner.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_ZOD"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD111",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/MANIFEST.json",
+      "date": "2023-07-27",
+      "source_url": "https://www.facebook.com/801221775337083",
+      "image_count": 7,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "bed",
+        "wardrobe",
+        "vanity"
+      ],
+      "caption_excerpt": "\"Ződ\" vol.1\nElérkeztünk egy nagyobb projekt zárásához, mutatunk is Nektek néhány képet a nappali és master hálóból.",
+      "visual_notes": "Large indoor trees, green veined stone island/vanity, dark vertical slats, smoke glass wardrobes, charcoal bedding and greige sofa.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_ZOD"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD112",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD112/MANIFEST.json",
+      "date": "2023-07-10",
+      "source_url": "https://www.facebook.com/790338436425417",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "entry"
+      ],
+      "caption_excerpt": "Egy vagány családiház belsőépítészete van ismét készülőben. \nKöltöznéd?",
+      "visual_notes": "Cognac chairs, taupe millwork, black kitchen, grey sectional, round coffee tables and thin linear pendant.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_WARM_BLACK"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD113",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD113/MANIFEST.json",
+      "date": "2023-06-29",
+      "source_url": "https://www.facebook.com/782875967171664",
+      "image_count": 6,
+      "rooms": [
+        "commercial",
+        "reception",
+        "clinic",
+        "corridor",
+        "wc"
+      ],
+      "caption_excerpt": "Ha szerinted egy fogászat \"fehér kell legyen\", akkor most ne nézz ide... \nAvagy ismét villantunk pár részletet egy új belsőépítészeti projektünkből.",
+      "visual_notes": "Commercial dental clinic. Archive separately; curved wood reception, textured stone and warm minimal lighting transferable only as detail inspiration.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_DENTAL"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD114",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD114/MANIFEST.json",
+      "date": "2023-06-26",
+      "source_url": "https://www.facebook.com/photo/?fbid=780654454060482&set=a.483296273796303&__cft__[0]=AZhSXDHIqtU80dM0kt-qUz1TGPwhTahj7QRAu5HSUqlfQnYMOlmSq1h6hFzoxiKprMAmQlRtBuvTcjxpa2VYufR3RdjUr1k-sfZc2CDhB2KraEGNgFL3PX0jk1i4d8VDlrnZuwPkC1tKIlORrzUyjgD6cKoKEB5eoZBB00ZOYShxnxCq-orUHyW_2216&__tn__=EH-R",
+      "image_count": 1,
+      "rooms": [
+        "mixed"
+      ],
+      "caption_excerpt": "G.Design megváltoztatta a borítóképét.",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD114"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD115",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD115/MANIFEST.json",
+      "date": "2023-06-20",
+      "source_url": "https://www.facebook.com/777030514422876",
+      "image_count": 3,
+      "rooms": [
+        "bed",
+        "media"
+      ],
+      "caption_excerpt": "Meghoztuk a Balaton parti kislakás terveinek folytatását.",
+      "visual_notes": "Pale rough mineral wall strip, cognac padded headboard, charcoal bedding, taupe wardrobes and slender vertical warm sconces.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_BALATON"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD116",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD116/MANIFEST.json",
+      "date": "2023-06-07",
+      "source_url": "https://www.facebook.com/766889505436977",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "office"
+      ],
+      "caption_excerpt": "Egy közvetlen Balaton parti kislakás belsőépítészeti tervezése a legújabb projektjeink egyike. \n… Továbbiak",
+      "visual_notes": "Grey veined counters, warm taupe timber, rust leather dining chairs, grey sofa, rough mineral TV wall and copper branch pendant.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_BALATON"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD117",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD117/MANIFEST.json",
+      "date": "2023-05-24",
+      "source_url": "https://www.facebook.com/756357036490224",
+      "image_count": 4,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining"
+      ],
+      "caption_excerpt": "Ismét zárjuk egy családi ház belsőépítészeti tervezését, szóval már hozzuk is a látványokat Nektek.",
+      "visual_notes": "Fine dark bronze framing, grey stone flooring, charcoal and taupe millwork, leather chairs, delicate illuminated shelves.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_BRONZE_GALLERY"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD118",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD118/MANIFEST.json",
+      "date": "2023-05-10",
+      "source_url": "https://www.facebook.com/745926274199967",
+      "image_count": 4,
+      "rooms": [
+        "bath",
+        "wc"
+      ],
+      "caption_excerpt": "Stílusos 5 négyzetméter, részletek egy készülő projektből.",
+      "visual_notes": "Black/charcoal stone, oval dark freestanding tub, black bowl basin, thick cream counter, wood underlighting and green moss wall. Use integrated basin and existing tile constraints.",
+      "kind": "room_module",
+      "targets": [
+        "M23_GREEN_BATH"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD119",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD119/MANIFEST.json",
+      "date": "2023-03-08",
+      "source_url": "https://www.facebook.com/700821408710454",
+      "image_count": 4,
+      "rooms": [
+        "kitchen",
+        "dining"
+      ],
+      "caption_excerpt": "Legújabb belsőépítészeti projektünk ez a menő, modern családiház. \nHamarosan mutatjuk a többi helyiséget is!",
+      "visual_notes": "Black matt kitchen, warm copper/fawn chairs, long light stone dining table and rectangular suspended frame; indoor tree is visual reference, not proposed planter construction.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_COGNAC"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD120",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD120/MANIFEST.json",
+      "date": "2023-03-03",
+      "source_url": "https://www.facebook.com/696966772429251",
+      "image_count": 5,
+      "rooms": [
+        "commercial",
+        "reception",
+        "office",
+        "meeting"
+      ],
+      "caption_excerpt": "Iroda by G.Design - egy újabb izgalmas és inspiráló, funkcionális munkakörnyezet.",
+      "visual_notes": "Corporate reception with mustard chairs, pale rounded desk, black/wood office, aqua accent. Archive commercial separately; not residential project.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_GOODWILL"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD121",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD121/MANIFEST.json",
+      "date": "2023-02-22",
+      "source_url": null,
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "handras.hu készített velünk egy remek kis interview-t, popcorn-t elő!",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD121"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD122",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD122/MANIFEST.json",
+      "date": "2023-02-13",
+      "source_url": "https://www.facebook.com/681479223978006",
+      "image_count": 4,
+      "rooms": [
+        "bed",
+        "lounge",
+        "vanity"
+      ],
+      "caption_excerpt": "Hoteleket bírjátok?",
+      "visual_notes": "Walnut full-height panels, burgundy chairs, mustard sofa, tall tinted glass partition, greige bedding and dark carpet.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_HOTEL"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD123",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD123/MANIFEST.json",
+      "date": "2023-01-30",
+      "source_url": "https://www.facebook.com/669532961839299",
+      "image_count": 7,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "bed",
+        "bath",
+        "wellness"
+      ],
+      "caption_excerpt": "Indítsuk az évet ezzel az általunk tervezett modern kis tóparti nyaralóval.",
+      "visual_notes": "Green dining chairs, grey curved lounge, walnut pitched ceiling, grey stone baths, bronze vanity details, green jacuzzi ceiling. Likely design counterpart of GD101, identity not verified.",
+      "kind": "commercial_or_hospitality",
+      "targets": [
+        "C23_LAKE_HOLIDAY"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD124",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD124/MANIFEST.json",
+      "date": "2023-01-09",
+      "source_url": "https://www.facebook.com/photo/?fbid=652388903553705&set=a.483296277129636&__cft__[0]=AZiFscUMN472uQZnSwuUIT9g3RB_0P9aThRFwCRVxrvp4yhUqzp5-jVhEO8LR0ZcfhkmKKGIUJU1JU78xa6WnbyQ46T_UmA1o_zOfE-WCsQx3d5oYvJ0dRs9x4KIVheuygwsKG7ePlbVukPH2hX71rM88AuXb2Fy9szhFlk4ah6dVdCLhIFJFK8-Sg&__tn__=EH-R",
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "Mint azt már sokan tudjátok, irodánk egy részét az év elején kiköltöztettük Dubai-ba, hogy az Pálma szigeti projektjeinket felügyeljük…",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD124"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD130",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD130/MANIFEST.json",
+      "date": "2023-02-01",
+      "source_url": null,
+      "image_count": 1,
+      "rooms": [],
+      "caption_excerpt": "Elkészültünk handras.hu dolgozójával, forgatott is róla egy király kis videót.",
+      "visual_notes": "",
+      "kind": "non_album_or_incomplete_media",
+      "targets": [
+        "GD130"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_01",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_01/MANIFEST.json",
+      "date": "2023-12-07",
+      "source_url": "https://www.facebook.com/889803039812289",
+      "image_count": 5,
+      "rooms": [
+        "bed",
+        "vanity",
+        "media"
+      ],
+      "caption_excerpt": "Ismét egy készülő projektből hoztuk az egyik kedvenc helyiségünket. \nAludnád?",
+      "visual_notes": "Warm walnut fullheight headboard and wardrobe, crisp white grey-veined stone slab, low greige bed and round upholstered chair, illuminated dressing niche.",
+      "kind": "room_module",
+      "targets": [
+        "M23_WALNUT_MASTER"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_02",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_02/MANIFEST.json",
+      "date": "2023-08-30",
+      "source_url": "https://www.facebook.com/823021376490456",
+      "image_count": 4,
+      "rooms": [
+        "living",
+        "kitchen",
+        "dining",
+        "lounge"
+      ],
+      "caption_excerpt": "Hegyoldal, Dunakanyar, panoráma... vol. 1\nVannak belsőépítészeti projektek, amikre nem lehet nemet mondani!",
+      "visual_notes": "Light plywood ceiling/walls, taupe stone, dark kitchen, pale wood dining table, black lounge chair; original caption identifies hillside Danube Bend vol1. Strong companion to GD107 bedroom; no pavilion window/ceiling geometry transfer.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_DUNAKANYAR"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_03",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_03/MANIFEST.json",
+      "date": "2023-06-12",
+      "source_url": "https://www.facebook.com/770828671709727",
+      "image_count": 4,
+      "rooms": [
+        "living",
+        "dining"
+      ],
+      "caption_excerpt": "#interior #interiordesign #design #dubai #luxurylife  #instadesign #decoration #home #homeinterior #instahomes #interiors #interiorstyle #luxuryhomes #modern #modernhom… Továbbiak",
+      "visual_notes": "Warm grey tufted modular sofas, ivory marble/stone media wall and low tables, brass leaf chandelier and golden rod dining lights; retain existing electrical limitations.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_DUBAI"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_04",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_04/MANIFEST.json",
+      "date": "2023-04-11",
+      "source_url": "https://www.facebook.com/725183849607543",
+      "image_count": 6,
+      "rooms": [
+        "living",
+        "dining",
+        "kitchen",
+        "entry"
+      ],
+      "caption_excerpt": "Néhány részlet év eleji egyik belsőépítészeti projektünkből.",
+      "visual_notes": "Black rough-stone TV/fireplace mass, walnut kitchen, graphite sofa, pale timber floor and bronze branch pendant; floating stairs and fireplace not transferred.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_ROCK"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_05",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_05/MANIFEST.json",
+      "date": "2023-03-28",
+      "source_url": "https://www.facebook.com/715339037258691",
+      "image_count": 4,
+      "rooms": [
+        "bed",
+        "bath",
+        "wardrobe"
+      ],
+      "caption_excerpt": "Zárnánk is legutóbbi belsőépítészeti munkánkról szóló sorozatunkat a \"master\" szekcióval.",
+      "visual_notes": "Warm low timber bed, dark charcoal bedding, grey mineral walls, dark slats, glass wardrobe and white freestanding tub.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_COGNAC"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2023_06",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2023_06/MANIFEST.json",
+      "date": "2023-03-20",
+      "source_url": "https://www.facebook.com/709421161183812",
+      "image_count": 5,
+      "rooms": [
+        "living",
+        "entry"
+      ],
+      "caption_excerpt": "Múlthéten megosztott munkánk bemutatásának folytatásaként, csekkoljátok a nappali-előszoba kombót is.",
+      "visual_notes": "Cognac leather sectional, grey mineral TV panel, taupe wood cabinets, black/white stone tables, crisp rectangular pendant; no copied corridor steps.",
+      "kind": "residential_base_family",
+      "targets": [
+        "F23_COGNAC"
+      ],
+      "caption_is_available": true
+    },
+    {
+      "album_id": "GD2025_01",
+      "manifest": "02_referenciak/GDESIGN3D_20261127/facebook_full/GD2025_01/MANIFEST.json",
+      "date": "2025-10-31",
+      "source_url": "https://www.facebook.com/photo/?fbid=1453645980094656&set=pcb.1453646386761282",
+      "image_count": 6,
+      "rooms": [
+        "bed",
+        "wardrobe",
+        "corridor"
+      ],
+      "caption_excerpt": "A tér a nyers és puha anyagok kontrasztjára épül: a beton és kő karakterét a meleg textíliák lágyítják. Az üvegfalas gardrób merész, mégis harmonikus eleme a hálónak, a… Továbbiak",
+      "visual_notes": "Cocoa-brown padded bed and segmented bench, walnut fullheight joinery, black-framed glass wardrobe with integrated warm display lighting, pale textured stone/concrete head wall and light timber floor. Existing apartment ceiling remains unchanged.",
+      "kind": "room_module",
+      "targets": [
+        "M25_INDUSTRIAL_MASTER"
+      ],
+      "caption_is_available": true
+    }
+  ],
+  "validation": {
+    "all_unique_2023_2025_manifest_records_mapped": true,
+    "manifest_records": 61,
+    "mapped_records": 61,
+    "orphan_album_ids": [],
+    "complete_albums_all_mapped": true,
+    "residential_base_family_count": 19,
+    "standalone_module_count": 20,
+    "commercial_hospitality_family_count": 10,
+    "non_album_record_count": 8,
+    "source_album_split_into_multiple_modules": {
+      "GD037": [
+        "M25_ENTRY_ROCK",
+        "M25_ENTRY_BRONZE"
+      ],
+      "GD051": [
+        "M25_CHILD_GRAPHITE",
+        "M25_CHILD_POWDER"
+      ]
+    },
+    "source_image_files_exist": 281,
+    "source_path_errors": [],
+    "verified_named_multialbum_families": 3,
+    "proposed_caption_sequence_families": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "style": "S18",
+  "name": "Lake Forest Plus",
+  "date": "2026-11-23",
+  "branch": "competition/s18-lake-forest-plus-20261123",
+  "checkpoint": "RENDER_PROGRESS",
+  "status": "COMPLETE_CONCEPT_AB",
+  "apartments": {
+    "A811": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 30,
+      "manifest": "A811/PROMPT_MANIFEST.json",
+      "images_generated": 30
+    },
+    "A812": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 32,
+      "manifest": "A812/PROMPT_MANIFEST.json",
+      "images_generated": 32
+    },
+    "A902": {
+      "status": "COMPLETE_CONCEPT",
+      "prompt_count": 12,
+      "manifest": "A902/PROMPT_MANIFEST.json",
+      "images_generated": 13
+    }
+  },
+  "reference_registry": "sources/ORIGINAL_REFERENCES.json",
+  "images_generated": 75,
+  "variants": [
+    "S18A",
+    "S18B"
+  ],
+  "prompt_count": 74,
+  "all_prompts": "30_ALL_PROMPTS.json",
+  "resume_rule": "Use renders/GENERATION_MANIFEST.json; never regenerate completed images. Read correction records as the final generation instructions. Continue only image_status NOT_GENERATED. Concept images are not geometric, electrical or manufacturer validation.",
+  "A902_images_generated": 13,
+  "generation_manifest": "renders/GENERATION_MANIFEST.json",
+  "render_gallery": "renders/00_TELJES_KEPES_ATTEKINTO.html",
+  "archived_preliminary_images": 3,
+  "image_counts": {
+    "A811": 30,
+    "A812": 32,
+    "A902": 13
+  }
+}

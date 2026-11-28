@@ -1,0 +1,940 @@
+{
+  "811": {
+    "apartment": "811",
+    "revision": "R4",
+    "source_plan": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/plans/811.pdf",
+    "geometry_source": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/A811_geometria_ELOZETES.json",
+    "items": [
+      {
+        "id": "K_N1",
+        "label": "Sütő–mikró magas elem",
+        "box_m": [
+          4.9,
+          10.95,
+          5.5,
+          11.55
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "tall",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_N2",
+        "label": "Magas tároló",
+        "box_m": [
+          5.5,
+          10.95,
+          6.0,
+          11.55
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "tall",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_H",
+        "label": "Hűtő",
+        "box_m": [
+          6.0,
+          10.95,
+          6.6,
+          11.55
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "fridge",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_N3",
+        "label": "Északi munkapult",
+        "box_m": [
+          7.3,
+          10.95,
+          8.25,
+          11.55
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_E",
+        "label": "Keleti munkapult",
+        "box_m": [
+          7.65,
+          9.15,
+          8.25,
+          10.95
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "west",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_S",
+        "label": "Déli munkapult",
+        "box_m": [
+          6.17,
+          8.55,
+          8.25,
+          9.15
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_MG",
+        "label": "Mosogatógép",
+        "box_m": [
+          7.65,
+          9.15,
+          8.25,
+          9.75
+        ],
+        "z_m": [
+          0,
+          0.86
+        ],
+        "kind": "appliance",
+        "front": "west",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_M",
+        "label": "Mosogató helye",
+        "box_m": [
+          7.72,
+          9.83,
+          8.18,
+          10.29
+        ],
+        "z_m": [
+          0.901,
+          0.911
+        ],
+        "kind": "sink",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_F",
+        "label": "Főzőlap helye",
+        "box_m": [
+          6.22,
+          8.6,
+          6.77,
+          9.1
+        ],
+        "z_m": [
+          0.901,
+          0.921
+        ],
+        "kind": "hob",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FN",
+        "label": "Északi felső szekrény",
+        "box_m": [
+          7.3,
+          11.2,
+          8.25,
+          11.55
+        ],
+        "z_m": [
+          1.55,
+          2.7
+        ],
+        "kind": "upper",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FE",
+        "label": "Keleti felső szekrény",
+        "box_m": [
+          7.9,
+          9.15,
+          8.25,
+          11.2
+        ],
+        "z_m": [
+          1.55,
+          2.7
+        ],
+        "kind": "upper",
+        "front": "west",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FS",
+        "label": "Déli felső szekrény / elszívó",
+        "box_m": [
+          6.17,
+          8.55,
+          8.25,
+          8.9
+        ],
+        "z_m": [
+          1.55,
+          2.7
+        ],
+        "kind": "upper",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "E_N",
+        "label": "Előszobai szekrénysor",
+        "box_m": [
+          6.17,
+          7.85,
+          8.25,
+          8.45
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "wardrobe",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "E_S",
+        "label": "Előszobai sekély szekrény",
+        "box_m": [
+          6.27,
+          6.25,
+          7.2,
+          6.7
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "wardrobe",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "N_T",
+        "label": "Kanapé mögötti tároló",
+        "box_m": [
+          0,
+          10.95,
+          4.9,
+          11.55
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "sliding",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "N_TV",
+        "label": "Médiafal alsó tároló",
+        "box_m": [
+          0.35,
+          6.651,
+          3.2,
+          7.001
+        ],
+        "z_m": [
+          0.1,
+          0.52
+        ],
+        "kind": "media",
+        "front": "north",
+        "note": "2026-11-19 owner-approved shortening at window end: 3000 to 2850 mm; right endpoint fixed. Door operation rechecked in saved Blender model."
+      },
+      {
+        "id": "N_PANEL",
+        "label": "Teljes médiafal kompozíciós síkja",
+        "box_m": [
+          0,
+          6.651,
+          5.02,
+          6.691
+        ],
+        "z_m": [
+          0.1,
+          2.7
+        ],
+        "kind": "panel",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "ET",
+        "label": "Étkezőasztal",
+        "box_m": [
+          4.47,
+          8.56,
+          6.07,
+          9.36
+        ],
+        "z_m": [
+          0,
+          0.76
+        ],
+        "kind": "table",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "U1",
+        "label": "U-kanapé elem",
+        "box_m": [
+          0.78,
+          9.2,
+          3.58,
+          10.1
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "U2",
+        "label": "U-kanapé elem",
+        "box_m": [
+          0.78,
+          7.6,
+          1.63,
+          9.2
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "U3",
+        "label": "U-kanapé elem",
+        "box_m": [
+          2.73,
+          8.4,
+          3.58,
+          9.2
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "SZ1",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.52,
+          8.28,
+          5.02,
+          8.78
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ2",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.52,
+          9.12,
+          5.02,
+          9.62
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ3",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          5.52,
+          8.28,
+          6.02,
+          8.78
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ4",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          5.52,
+          9.12,
+          6.02,
+          9.62
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      }
+    ],
+    "ceiling_rule": "Minden magas szekrény a HELYI mennyezethez zár. A korpusz feletti szerelési hézag takart, nem nagy nyitott sáv.",
+    "scope": "Nappali, U-konyha, előszoba és közlekedő tárolói; az egész építészeti héj a forrásból. Hálók és fürdők új bútorgeometriája még nincs kidolgozva."
+  },
+  "812": {
+    "apartment": "812",
+    "revision": "R4",
+    "source_plan": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/plans/812.pdf",
+    "geometry_source": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/A812_geometria_ELOZETES.json",
+    "items": [
+      {
+        "id": "K_N",
+        "label": "Északi munkapult",
+        "box_m": [
+          5.8,
+          2.2,
+          8.25,
+          2.8
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_E",
+        "label": "Keleti munkapult",
+        "box_m": [
+          7.65,
+          0.6,
+          8.25,
+          2.2
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "west",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_S",
+        "label": "Déli visszaforduló pult",
+        "box_m": [
+          7.3,
+          0,
+          8.25,
+          0.6
+        ],
+        "z_m": [
+          0,
+          0.9
+        ],
+        "kind": "base",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_H",
+        "label": "Hűtő az akna bal oldalán",
+        "box_m": [
+          5.8,
+          0,
+          6.45,
+          0.6
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "fridge",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_MG",
+        "label": "Mosogatógép",
+        "box_m": [
+          5.8,
+          2.2,
+          6.4,
+          2.8
+        ],
+        "z_m": [
+          0,
+          0.86
+        ],
+        "kind": "appliance",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_M",
+        "label": "Mosogató helye",
+        "box_m": [
+          6.47,
+          2.27,
+          6.93,
+          2.73
+        ],
+        "z_m": [
+          0.901,
+          0.911
+        ],
+        "kind": "sink",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_F",
+        "label": "Főzőlap helye",
+        "box_m": [
+          7.7,
+          1.0,
+          8.2,
+          1.6
+        ],
+        "z_m": [
+          0.901,
+          0.921
+        ],
+        "kind": "hob",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FN",
+        "label": "Északi felső szekrény",
+        "box_m": [
+          5.8,
+          2.45,
+          8.25,
+          2.8
+        ],
+        "z_m": [
+          1.55,
+          2.7
+        ],
+        "kind": "upper",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FE",
+        "label": "Keleti felső szekrény",
+        "box_m": [
+          7.9,
+          0.3,
+          8.25,
+          2.45
+        ],
+        "z_m": [
+          1.55,
+          2.7
+        ],
+        "kind": "upper",
+        "front": "west",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "K_FSE",
+        "label": "Felső elem a helyi álmennyezet alatt",
+        "box_m": [
+          7.9,
+          0,
+          8.25,
+          0.3
+        ],
+        "z_m": [
+          1.55,
+          2.45
+        ],
+        "kind": "upper",
+        "front": "west",
+        "note": "Helyi konyhai álmennyezet +2,45 m: nem 2,70 m."
+      },
+      {
+        "id": "K_FS",
+        "label": "Déli felső elem",
+        "box_m": [
+          7.3,
+          0,
+          7.9,
+          0.3
+        ],
+        "z_m": [
+          1.55,
+          2.45
+        ],
+        "kind": "upper",
+        "front": "north",
+        "note": "Helyi konyhai álmennyezet +2,45 m."
+      },
+      {
+        "id": "E_N",
+        "label": "Előszobai szekrény",
+        "box_m": [
+          7.32,
+          4.1,
+          8.25,
+          4.575
+        ],
+        "z_m": [
+          0,
+          2.5
+        ],
+        "kind": "wardrobe",
+        "front": "south",
+        "note": "Előtéri álmennyezet +2,50 m; a szekrény ehhez zár."
+      },
+      {
+        "id": "E_G",
+        "label": "Közlekedői gardróbfülke",
+        "box_m": [
+          7.65,
+          4.8,
+          8.25,
+          6.3
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "wardrobe",
+        "front": "west",
+        "note": "Tervi fülke, konkrét belső kiosztás felmérésre vár."
+      },
+      {
+        "id": "N_T",
+        "label": "Kanapé mögötti tároló",
+        "box_m": [
+          0,
+          5.0,
+          3.22,
+          5.6
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "sliding",
+        "front": "south",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "N_K",
+        "label": "Fal két széléig kifutó íves, mennyezetig érő szekrénysor",
+        "box_m": [
+          3.32,
+          4.3,
+          6.17,
+          4.7
+        ],
+        "z_m": [
+          0,
+          2.7
+        ],
+        "kind": "rounded",
+        "front": "south",
+        "note": "2026-11-19: mennyezetig, a mögöttes fal két széléig (x=3,32–6,17 m) kifuttatva, két lekerekített véggel. Tervi befoglaló 2850×400×2700 mm; két R150 első végív tervezői paraméter. A végleges magasság a helyszíni mennyezethez igazítandó, takart szerelési hézaggal."
+      },
+      {
+        "id": "N_TV",
+        "label": "Médiafal alsó tároló",
+        "box_m": [
+          0.1,
+          0,
+          3.1,
+          0.35
+        ],
+        "z_m": [
+          0.1,
+          0.52
+        ],
+        "kind": "media",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "N_PANEL",
+        "label": "Teljes médiafal kompozíciós síkja",
+        "box_m": [
+          0,
+          0,
+          5.8,
+          0.04
+        ],
+        "z_m": [
+          0.1,
+          2.7
+        ],
+        "kind": "panel",
+        "front": "north",
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "ET",
+        "label": "Étkezőasztal",
+        "box_m": [
+          4.2,
+          0.725,
+          5.0,
+          2.325
+        ],
+        "z_m": [
+          0,
+          0.76
+        ],
+        "kind": "table",
+        "front": null,
+        "note": "Alaprajzi névleges hely; nem gyártási méret."
+      },
+      {
+        "id": "U1",
+        "label": "U-kanapé elem",
+        "box_m": [
+          0.15,
+          3.25,
+          3.15,
+          4.15
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "U2",
+        "label": "U-kanapé elem",
+        "box_m": [
+          0.15,
+          2.45,
+          1.0,
+          3.25
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "U3",
+        "label": "U-kanapé elem",
+        "box_m": [
+          2.3,
+          1.9,
+          3.15,
+          3.25
+        ],
+        "z_m": [
+          0.08,
+          0.82
+        ],
+        "kind": "sofa",
+        "front": null,
+        "note": "2026-11-19: 35 cm-rel a médiafal felé tolva. Hátsó tárolóig 85 cm névleges szabad sáv; a teljes U alak együtt mozdul."
+      },
+      {
+        "id": "SZ1",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          3.93,
+          0.75,
+          4.43,
+          1.25
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ2",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          3.93,
+          1.3,
+          4.43,
+          1.8
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ3",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          3.93,
+          1.85,
+          4.43,
+          2.35
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ4",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.77,
+          0.75,
+          5.27,
+          1.25
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ5",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.77,
+          1.3,
+          5.27,
+          1.8
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ6",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.77,
+          1.85,
+          5.27,
+          2.35
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ7",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.35,
+          0.26,
+          4.85,
+          0.76
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "A tervi székhely; kihúzás és személy használati tere külön ellenőrizendő."
+      },
+      {
+        "id": "SZ8",
+        "label": "Étkezőszék – tervi hely",
+        "box_m": [
+          4.35,
+          2.4,
+          4.85,
+          2.9
+        ],
+        "z_m": [
+          0,
+          0.83
+        ],
+        "kind": "chair",
+        "front": null,
+        "note": "2026-11-19 owner asked to pull rear end chair back; 300 mm translation, table unchanged. Mesh contacts rechecked."
+      }
+    ],
+    "ceiling_rule": "Minden magas szekrény a HELYI mennyezethez zár. A korpusz feletti szerelési hézag takart, nem nagy nyitott sáv.",
+    "scope": "Nappali, U-konyha, előszoba és közlekedő tárolói; az egész építészeti héj a forrásból. Hálók és fürdők új bútorgeometriája még nincs kidolgozva."
+  }
+}

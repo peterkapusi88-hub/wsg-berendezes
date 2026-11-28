@@ -1,0 +1,10 @@
+{
+  "id": "A812_S18A_LakeForestPlus_BATH2_SHOWER_v1",
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/renders/A812_S07_BATH2_SHOWER_curated_v1.png"
+  ],
+  "reason": "Remove invented second vanity inside shower, restore original tile wall and door clearance.",
+  "prompt": "Use case: precise-object-edit. Image 1 exact edit target; image 2 original same-camera geometry reference. REMOVE the entire wrongly added sink, vanity cabinet, mirror, brown decorative slab, upper cupboards and lit shelves on the RIGHT of the shower in image 1. Restore ONLY the uninterrupted original grey tiled shower wall from image 2, reaching the original doorway, with NO cabinet, NO sink, NO mirror, NO shelves on this right wall. Keep image 1 EXACT camera, crop, original WC on left, towels, clear fixed shower glass, original shower tray, drain, black shower fixtures, small left shampoo shelf, ceiling lamp, doorway, hall and finishes. This shot contains a shower and WC ONLY; the apartment's actual vanity is behind the camera. No second vanity, no new objects, no new room. Restore original shower dimensions from image 2. Photorealistic landscape, no text.",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-cfe37012-92eb-401c-b2f5-8443ad60c3ea.png"
+}

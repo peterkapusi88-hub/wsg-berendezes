@@ -1,0 +1,534 @@
+[
+  {
+    "camera": "Cam_12",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use Cam_12 v3, the level southeast-looking hero from the northwest corner, 22 mm at 1.60 m with the locked downward shift. The front of the sofa forms a modest foreground, approximately 16–23 percent of the image. Dining and the ML04 pendant lead into the kitchen; W03 and the existing grey 05.3 door sit beyond, W02 is the major designed wall and W07 returns at the right edge. The TV wall and terrace are behind the camera and remain outside this view.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "kitchen connection, csonk, floor and grey doors, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "dining-to-kitchen wall identity and controls, not camera"
+      ],
+      [
+        "KZS_3659-573.jpg",
+        "room proportions and floor continuity, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_12_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_12_v1.prompt.txt",
+    "prompt_sha256": "3e21cd333b893271eaa4c5fffccf01445f5ef40c80f41d6ba7bf656c83944f51",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_12",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use Cam_12 v3, the level southeast-looking hero from the northwest corner, 22 mm at 1.60 m with the locked downward shift. The front of the sofa forms a modest foreground, approximately 16–23 percent of the image. Dining and the ML04 pendant lead into the kitchen; W03 and the existing grey 05.3 door sit beyond, W02 is the major designed wall and W07 returns at the right edge. The TV wall and terrace are behind the camera and remain outside this view.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "kitchen connection, csonk, floor and grey doors, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "dining-to-kitchen wall identity and controls, not camera"
+      ],
+      [
+        "KZS_3659-573.jpg",
+        "room proportions and floor continuity, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_12_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_12_v1.prompt.txt",
+    "prompt_sha256": "8fbc6e86427882c8383be23eb86fcfd4ce7c40d5322d5653d3f0c926077946ac",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_12_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_02",
+    "room": "living_kitchen_dining",
+    "kind": "living",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use the fixed Cam_02 northwest-looking living-room view, 20 mm at 1.55 m. The west TV wall occupies the left, the seating island the middle, and the real terrace glazing, terrace and panorama the right. Only the western long edge of the dining setting enters the lower-right corner; the ML05 fitting may meet the upper frame edge. The television wall is the visual protagonist. Keep the architectural edges, floor–wall junction, terrace paving, railing and planted roof legible at mid-key exposure.",
+    "site_photos": [
+      [
+        "KZS_3659-573.jpg",
+        "living-room wall and glazing identity, not camera"
+      ],
+      [
+        "KZS_3695-537.jpg",
+        "actual floor, skirting and kitchen connection, not camera"
+      ],
+      [
+        "KZS_3726-506.jpg",
+        "terrace glazing and original level change, not camera"
+      ],
+      [
+        "KZS_3488-744.jpg",
+        "terrace paving, WPC steps and facade, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_02_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_02_v1.prompt.txt",
+    "prompt_sha256": "0572b4e9e229c85b5b0b2ffe23f81d3051c008506ed230314681ba863a6ca90a",
+    "reference_ids": [
+      "LF08",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3726-506.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3488-744.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_02",
+    "room": "living_kitchen_dining",
+    "kind": "living",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use the fixed Cam_02 northwest-looking living-room view, 20 mm at 1.55 m. The west TV wall occupies the left, the seating island the middle, and the real terrace glazing, terrace and panorama the right. Only the western long edge of the dining setting enters the lower-right corner; the ML05 fitting may meet the upper frame edge. The television wall is the visual protagonist. Keep the architectural edges, floor–wall junction, terrace paving, railing and planted roof legible at mid-key exposure.",
+    "site_photos": [
+      [
+        "KZS_3659-573.jpg",
+        "living-room wall and glazing identity, not camera"
+      ],
+      [
+        "KZS_3695-537.jpg",
+        "actual floor, skirting and kitchen connection, not camera"
+      ],
+      [
+        "KZS_3726-506.jpg",
+        "terrace glazing and original level change, not camera"
+      ],
+      [
+        "KZS_3488-744.jpg",
+        "terrace paving, WPC steps and facade, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_02_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_02_v1.prompt.txt",
+    "prompt_sha256": "00ed8aaf4fbac86ff89d950e8edcd162184a0c3d90fca0af87a9115bfc9835d3",
+    "reference_ids": [
+      "LF09",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 1,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3726-506.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3488-744.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_02_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_03",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_03 K1, level and looking south from the northeast side, 20 mm at 1.50 m with the locked downward shift. The kitchen is the subject: show the two working runs, their front grid, worktops and splashbacks, the D13 refrigerator tower and the southern tall-unit wall. Dining and its ML04 pendant enter the right foreground. The TV wall and terrace remain outside the frame; the composition is an exact galley study rather than a second living-room hero.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "actual kitchen csonk and wet-core door relationship, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "galley and dining context, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_03_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_03_v1.prompt.txt",
+    "prompt_sha256": "8258a2dfa2ac8e1685e72f7c2023bcddcb0c3795af858c14b7685e47be9a8017",
+    "reference_ids": [
+      "LF03",
+      "LF02"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_03",
+    "room": "living_kitchen_dining",
+    "kind": "kitchen",
+    "control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_03 K1, level and looking south from the northeast side, 20 mm at 1.50 m with the locked downward shift. The kitchen is the subject: show the two working runs, their front grid, worktops and splashbacks, the D13 refrigerator tower and the southern tall-unit wall. Dining and its ML04 pendant enter the right foreground. The TV wall and terrace remain outside the frame; the composition is an exact galley study rather than a second living-room hero.",
+    "site_photos": [
+      [
+        "KZS_3695-537.jpg",
+        "actual kitchen csonk and wet-core door relationship, not camera"
+      ],
+      [
+        "KZS_3708-524.jpg",
+        "galley and dining context, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_03_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_03_v1.prompt.txt",
+    "prompt_sha256": "a5c8017d953bd5b0d78bba73c78cd4b60021edff5118fd0bbe84769ce73c264b",
+    "reference_ids": [
+      "LF10",
+      "LF14"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_03_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_04",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.",
+    "site_photos": [
+      [
+        "KZS_3741-491.jpg",
+        "north wardrobe niche, glazing and existing floor, not camera"
+      ],
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe wall and doorway, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields and actual panorama, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_04_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_04_v1.prompt.txt",
+    "prompt_sha256": "79b1972de9d3d2ab26b44b2c5ba29e2a00a9373bd2ebbf2702a88dc592afcfd6",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_04",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.",
+    "site_photos": [
+      [
+        "KZS_3741-491.jpg",
+        "north wardrobe niche, glazing and existing floor, not camera"
+      ],
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe wall and doorway, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields and actual panorama, not camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_04_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_04_v1.prompt.txt",
+    "prompt_sha256": "cdc24ba919731c4345510c247937df81113cdbdbf534a68538107e50f7c7f811",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 2,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_04_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_11c",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "01_image1_A902_Cam11c_master_panorama_semleges_blender.png (named in pinned render prompt; binary path must be resolved)",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use the separately owner-approved Cam_11c, 20 mm at seated eye height 1.20 m, from the north half of the bed near the headboard looking west and slightly southwest. Keep the approved 16:10 frame with horizon at 50 percent. From left to right: south wardrobe approximately 0–24 percent, white pier 24–32 percent, three glazing fields 32–92 percent, right white pier 92–100 percent. The opening sash occupies approximately 32–44 percent, middle field 44–58 percent and broad fixed field 58–92 percent. The north wardrobe, headboard and room door are outside the frame. The bed foot remains low in the foreground and the balcony is approximately 15 cm lower. Use the approved Blender camera reference, not a renamed professional photograph.",
+    "site_photos": [
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe strip and floor, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields, balcony and real panorama, not camera"
+      ],
+      [
+        "KZS_3741-491.jpg",
+        "opposite wall context only; do not bring north wardrobe into frame"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_11c_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_11c_v1.prompt.txt",
+    "prompt_sha256": "6c008b81599152843589b43b39b1c123bba89e8aff3d09555cf6edabab128435",
+    "reference_ids": [
+      "LF11",
+      "LF06"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_11c",
+    "room": "05.1",
+    "kind": "bed",
+    "control": "01_image1_A902_Cam11c_master_panorama_semleges_blender.png (named in pinned render prompt; binary path must be resolved)",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use the separately owner-approved Cam_11c, 20 mm at seated eye height 1.20 m, from the north half of the bed near the headboard looking west and slightly southwest. Keep the approved 16:10 frame with horizon at 50 percent. From left to right: south wardrobe approximately 0–24 percent, white pier 24–32 percent, three glazing fields 32–92 percent, right white pier 92–100 percent. The opening sash occupies approximately 32–44 percent, middle field 44–58 percent and broad fixed field 58–92 percent. The north wardrobe, headboard and room door are outside the frame. The bed foot remains low in the foreground and the balcony is approximately 15 cm lower. Use the approved Blender camera reference, not a renamed professional photograph.",
+    "site_photos": [
+      [
+        "KZS_3771-461.jpg",
+        "south wardrobe strip and floor, not camera"
+      ],
+      [
+        "KZS_3753-479.jpg",
+        "three glazing fields, balcony and real panorama, not camera"
+      ],
+      [
+        "KZS_3741-491.jpg",
+        "opposite wall context only; do not bring north wardrobe into frame"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_11c_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_11c_v1.prompt.txt",
+    "prompt_sha256": "973ae3aec72a63bce24020335216535b1f68936e48921fc6260dee7f0c1da88c",
+    "reference_ids": [
+      "LF12",
+      "LF13",
+      "LF15"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_11c_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_10",
+    "room": "06.2",
+    "kind": "bath",
+    "control": "05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md (camera block; approved neutral image must be resolved)",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_10 from the bathroom 06.2 doorway looking east, 16 mm at 1.50 m. Keep the real L-shaped room, the walk-in shower along the left/north side, the basin on the far wall and the shaft projection at the right. The WC niche lies behind the right frame edge and is not pulled into view for completeness. The room is windowless; this photograph is lit exclusively by the existing ceiling and above-basin points.",
+    "site_photos": [
+      [
+        "KZS_3598-634.jpg",
+        "actual A-902 bathroom06.2 tile, basin, shower and shaft; not a new camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "A",
+    "image_id": "A902_S18A_LakeForestPlus_Cam_10_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18A_LakeForestPlus_Cam_10_v1.prompt.txt",
+    "prompt_sha256": "d268c868503fbc2dee7fabeee301f65226d07c8a14c84e95fa9500379c873380",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3598-634.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  },
+  {
+    "camera": "Cam_10",
+    "room": "06.2",
+    "kind": "bath",
+    "control": "05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md (camera block; approved neutral image must be resolved)",
+    "camera_status": "STYLE_SELECTOR_RENDER_EDIT_NOT_GEOMETRY_VALIDATED",
+    "camera_text": "Use fixed Cam_10 from the bathroom 06.2 doorway looking east, 16 mm at 1.50 m. Keep the real L-shaped room, the walk-in shower along the left/north side, the basin on the far wall and the shaft projection at the right. The WC niche lies behind the right frame edge and is not pulled into view for completeness. The room is windowless; this photograph is lit exclusively by the existing ceiling and above-basin points.",
+    "site_photos": [
+      [
+        "KZS_3598-634.jpg",
+        "actual A-902 bathroom06.2 tile, basin, shower and shaft; not a new camera"
+      ]
+    ],
+    "source_camera_manifest": "05_promptok/KEP006_GPT6ASTRA_V3_3_r1/30_GENERATION_MANIFEST.json",
+    "variant": "B",
+    "image_id": "A902_S18B_LakeForestPlus_Cam_10_v1",
+    "apartment": "A902",
+    "style": "S18",
+    "prompt": "prompts/A902/A902_S18B_LakeForestPlus_Cam_10_v1.prompt.txt",
+    "prompt_sha256": "216728368b72c3a51ca3433cfc05abbf6d17fc5db67b3975b486605301e1a763",
+    "reference_ids": [
+      "LF05"
+    ],
+    "text_status": "COMPLETE_CONCEPT",
+    "image_status": "GENERATED_CONCEPT_NOT_GEOMETRY_VALIDATED",
+    "product_status": "ORIGINAL_MATERIAL_IDS_PENDING",
+    "budget_status": "NOT_PRICED_OR_VALIDATED",
+    "priority": 3,
+    "site_photo_repo_paths": [
+      "08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3598-634.jpg"
+    ],
+    "surface_reference_status": "REPO_PHOTOS_MAPPED",
+    "render": "renders/A902_S18B_LakeForestPlus_Cam_10_v1.png",
+    "generation_record": "renders/GENERATION_MANIFEST.json"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "id": "A812_PB_MASTER_HERO_v1",
+  "apartment": "A812",
+  "variant": "PB",
+  "camera": "MASTER_HERO",
+  "kind": "bed",
+  "reference_ids": [
+    "PF05"
+  ],
+  "inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/BUKOSDI_PAFRANY_20261124/kepek/347110085_785845199597455_3040785988277321409_n.jpg"
+  ],
+  "prompt": "prompts/A812/A812_PB_MASTER_HERO_v1.txt",
+  "output": "renders/A812_PB_MASTER_HERO_v1.png",
+  "status": "GENERATED_PENDING_VISUAL_QA",
+  "geometry_status": "CONCEPT_NOT_VALIDATED",
+  "prompt_sha256": "9fc86eadbc6aa38feda3a6e0313f295af0711294f06445941024860cbacd7a31",
+  "source": "/Users/peterkapusi/.codex/generated_images/01a17160-33f1-7e53-af8c-75d23d28e15d/exec-2b344bb9-ddc4-456a-817c-305cef4af356.png",
+  "sha256": "40eafd5ab547e377c2743a17321ce3197eaa0d161719a0240eaee6ee2f5d30b3",
+  "generated_at": "2026-11-24T13:23:04.717162+00:00"
+}
