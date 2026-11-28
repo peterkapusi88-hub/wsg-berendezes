@@ -1,0 +1,1579 @@
+{
+  "created": "2026-11-28",
+  "purpose": "Read-only geometry and execution handoff; no images generated",
+  "workspace": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor",
+  "source_files": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/60_HANDOFF.md",
+      "exists": true,
+      "bytes": 2913
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/00_OWNER_DECISION.md",
+      "exists": true,
+      "bytes": 1940
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/sources/layout_R7.json",
+      "exists": true,
+      "bytes": 21421
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/40_ELEMEK_ES_KOLTSEG.md",
+      "exists": true,
+      "bytes": 4204
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/00_OWNER_SCOPE.txt",
+      "exists": true,
+      "bytes": 1198
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/91_COMPLETION_QA.json",
+      "exists": true,
+      "bytes": 763
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/README.md",
+      "exists": true,
+      "bytes": 16553
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/kamera_parameterlap_A811_A812.md",
+      "exists": true,
+      "bytes": 2537
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/sources/main/GOAL.md",
+      "exists": true,
+      "bytes": 90571
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-s01-kyoto-ink-20261026/sources/original/03_blender/geometry_lock_A902_v2b.json",
+      "exists": true,
+      "bytes": 38824
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/03_blender/WSG_A902_v2b_alaprajz_ELOZETES_20261024.blend",
+      "exists": true,
+      "bytes": 683328
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/03_blender/WSG_A902_v2_terasz_ELOZETES_20261024.blend",
+      "exists": true,
+      "bytes": 583496
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/plans/811.pdf",
+      "exists": true,
+      "bytes": 2959380
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/A811_geometria_ELOZETES.json",
+      "exists": true,
+      "bytes": 17064
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R7_JOVAHAGYOTT_ELRENDEZES/models/A811_R7.blend",
+      "exists": true,
+      "bytes": 2187933
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A811_R9_rooms.blend",
+      "exists": true,
+      "bytes": 2246061
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A811_R9_curated.blend",
+      "exists": true,
+      "bytes": 573157
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A811_R9_shower_views.blend",
+      "exists": true,
+      "bytes": 574523
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/plans/812.pdf",
+      "exists": true,
+      "bytes": 3140707
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/sources/geometry/A812_geometria_ELOZETES.json",
+      "exists": true,
+      "bytes": 21454
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R7_JOVAHAGYOTT_ELRENDEZES/models/A812_R7.blend",
+      "exists": true,
+      "bytes": 2184072
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A812_R9_rooms.blend",
+      "exists": true,
+      "bytes": 2248689
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A812_R9_curated.blend",
+      "exists": true,
+      "bytes": 569667
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/models/A812_R9_shower_views.blend",
+      "exists": true,
+      "bytes": 581686
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A811/STILUSTERV.md",
+      "exists": true,
+      "bytes": 8535
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A811/PROMPT_MANIFEST.json",
+      "exists": true,
+      "bytes": 52543
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A812/STILUSTERV.md",
+      "exists": true,
+      "bytes": 8832
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A812/PROMPT_MANIFEST.json",
+      "exists": true,
+      "bytes": 56607
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A902/STILUSTERV.md",
+      "exists": true,
+      "bytes": 6005
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/A902/PROMPT_MANIFEST.json",
+      "exists": true,
+      "bytes": 26205
+    }
+  ],
+  "completed_series": {
+    "S18": {
+      "manifest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/GENERATION_MANIFEST.json",
+      "counts": {
+        "A902": 13,
+        "A811": 30,
+        "A812": 32
+      },
+      "authority_note": "75 current images; 30_ALL_PROMPTS.json holds 74 original base prompts and is not live execution authority; correction sidecars/chains supersede older output."
+    },
+    "PAFRANY": {
+      "manifest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/MANIFEST.json",
+      "counts": {
+        "A902": 28,
+        "A812": 64,
+        "A811": 60
+      },
+      "variants": [
+        "PA",
+        "PB",
+        "PC",
+        "PD"
+      ],
+      "geometry_status": "CONCEPT_NOT_VALIDATED"
+    }
+  },
+  "completed_output_verification": {
+    "S18": {
+      "expected": 75,
+      "existing": 75,
+      "hash_checked": 75,
+      "issues": []
+    },
+    "PAFRANY": {
+      "expected": 152,
+      "existing": 152,
+      "hash_checked": 152,
+      "issues": []
+    }
+  },
+  "camera_slots": [
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_02",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_v1.png",
+        "exists": true,
+        "bytes": 2580072
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_02_v1.png",
+        "exists": true,
+        "bytes": 2651864
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_02_v1.txt",
+        "exists": true,
+        "bytes": 6695
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the fixed Cam_02 northwest-looking living-room view, 20 mm at 1.55 m. The west TV wall occupies the left, the seating island the middle, and the real terrace glazing, terrace and panorama the right. Only the western long edge of the dining setting enters the lower-right corner; the ML05 fitting may meet the upper frame edge. The television wall is the visual protagonist. Keep the architectural edges, floor–wall junction, terrace paving, railing and planted roof legible at mid-key exposure.",
+      "declared_control": "04_renderek/semleges_v2b/A902_semlegesv2b_1_nappali.png",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+          "exists": true,
+          "bytes": 9937102
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+          "exists": true,
+          "bytes": 10851535
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3726-506.jpg",
+          "exists": true,
+          "bytes": 14799071
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3488-744.jpg",
+          "exists": true,
+          "bytes": 16215776
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_04",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+        "exists": true,
+        "bytes": 2684871
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_04_v1.png",
+        "exists": true,
+        "bytes": 2395393
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_04_v1.txt",
+        "exists": true,
+        "bytes": 6890
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use fixed Cam_04, looking northeast at the master bedroom from the southwest, 20 mm at 1.50 m. The east headboard and bed provide the central composition, with bedside surfaces readable and the complete north wardrobe wall visibly closing its existing niche. The south wardrobe strip belongs to the room and retains its actual visibility at the edge of the locked frame. Let layered evening light reveal upholstery and front divisions without enlarging the room.",
+      "declared_control": "04_renderek/semleges_v2b/A902_semlegesv2b_3_master.png",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+          "exists": true,
+          "bytes": 11158491
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+          "exists": true,
+          "bytes": 11281900
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+          "exists": true,
+          "bytes": 9418160
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_12",
+      "room_kind_as_recorded": "kitchen",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+        "exists": true,
+        "bytes": 2795601
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_12_v1.png",
+        "exists": true,
+        "bytes": 2620674
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_12_v1.txt",
+        "exists": true,
+        "bytes": 7649
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use Cam_12 v3, the level southeast-looking hero from the northwest corner, 22 mm at 1.60 m with the locked downward shift. The front of the sofa forms a modest foreground, approximately 16–23 percent of the image. Dining and the ML04 pendant lead into the kitchen; W03 and the existing grey 05.3 door sit beyond, W02 is the major designed wall and W07 returns at the right edge. The TV wall and terrace are behind the camera and remain outside this view.",
+      "declared_control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_12_nappali-hero_JAVASLAT_v3.png",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+          "exists": true,
+          "bytes": 10851535
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+          "exists": true,
+          "bytes": 8434125
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3659-573.jpg",
+          "exists": true,
+          "bytes": 9937102
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_03",
+      "room_kind_as_recorded": "kitchen",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+        "exists": true,
+        "bytes": 2206790
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_03_v1.png",
+        "exists": true,
+        "bytes": 2077332
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_03_v1.txt",
+        "exists": true,
+        "bytes": 7868
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use fixed Cam_03 K1, level and looking south from the northeast side, 20 mm at 1.50 m with the locked downward shift. The kitchen is the subject: show the two working runs, their front grid, worktops and splashbacks, the D13 refrigerator tower and the southern tall-unit wall. Dining and its ML04 pendant enter the right foreground. The TV wall and terrace remain outside the frame; the composition is an exact galley study rather than a second living-room hero.",
+      "declared_control": "04_renderek/A902_kameracsomag_C/A902_Alap-v2b1k13_blender_03_konyha-etkezo_K1_JAVASLAT.png",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3695-537.jpg",
+          "exists": true,
+          "bytes": 10851535
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3708-524.jpg",
+          "exists": true,
+          "bytes": 8434125
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_11c",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+        "exists": true,
+        "bytes": 2468786
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_11c_v1.png",
+        "exists": true,
+        "bytes": 2182881
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_11c_v1.txt",
+        "exists": true,
+        "bytes": 6848
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the separately owner-approved Cam_11c, 20 mm at seated eye height 1.20 m, from the north half of the bed near the headboard looking west and slightly southwest. Keep the approved 16:10 frame with horizon at 50 percent. From left to right: south wardrobe approximately 0–24 percent, white pier 24–32 percent, three glazing fields 32–92 percent, right white pier 92–100 percent. The opening sash occupies approximately 32–44 percent, middle field 44–58 percent and broad fixed field 58–92 percent. The north wardrobe, headboard and room door are outside the frame. The bed foot remains low in the foreground and the balcony is approximately 15 cm lower. Use the approved Blender camera reference, not a renamed professional photograph.",
+      "declared_control": "01_image1_A902_Cam11c_master_panorama_semleges_blender.png (named in pinned render prompt; binary path must be resolved)",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3771-461.jpg",
+          "exists": true,
+          "bytes": 11281900
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3753-479.jpg",
+          "exists": true,
+          "bytes": 9418160
+        },
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3741-491.jpg",
+          "exists": true,
+          "bytes": 11158491
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_10",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_10_v1.png",
+        "exists": true,
+        "bytes": 2442746
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_10_v1.png",
+        "exists": true,
+        "bytes": 2420041
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_10_v1.txt",
+        "exists": true,
+        "bytes": 6366
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use fixed Cam_10 from the bathroom 06.2 doorway looking east, 16 mm at 1.50 m. Keep the real L-shaped room, the walk-in shower along the left/north side, the basin on the far wall and the shaft projection at the right. The WC niche lies behind the right frame edge and is not pulled into view for completeness. The room is windowless; this photograph is lit exclusively by the existing ceiling and above-basin points.",
+      "declared_control": "05_promptok/A902_Cam10_furdo06_2_rogzitett_kamerablokk_v1.md (camera block; approved neutral image must be resolved)",
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a902-terasz-p0-20261027/sources/08_allapotfelmeres/fotok_profi_20261025/A902/KZS_3598-634.jpg",
+          "exists": true,
+          "bytes": 10992043
+        }
+      ]
+    },
+    {
+      "apartment": "A902",
+      "camera_id": "Cam_02_DAY",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png",
+        "exists": true,
+        "bytes": 2565545
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A902_PA_Cam_02_DAY_v1.png",
+        "exists": true,
+        "bytes": 2497865
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A902/A902_PA_Cam_02_DAY_v1.txt",
+        "exists": true,
+        "bytes": 7233
+      },
+      "is_lighting_variant": true,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Same physical Cam_02 camera, requested brighter/daylight lighting variant; not a separate measured camera."
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "LIVING_HERO",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "exists": true,
+        "bytes": 2235359
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_LIVING_HERO_v1.png",
+        "exists": true,
+        "bytes": 2179829
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_LIVING_HERO_v1.txt",
+        "exists": true,
+        "bytes": 8322
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native LIVING_HERO camera and crop of control A812_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_LIVING_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_HERO.png",
+        "exists": true,
+        "bytes": 968923
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3103-1129.jpg",
+          "exists": true,
+          "bytes": 9545226
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "MASTER_HERO",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "exists": true,
+        "bytes": 2929853
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_MASTER_HERO_v1.png",
+        "exists": true,
+        "bytes": 2454563
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_MASTER_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7198
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native MASTER_HERO camera and crop of control A812_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_MASTER_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_HERO.png",
+        "exists": true,
+        "bytes": 922947
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3170-1062.jpg",
+          "exists": true,
+          "bytes": 9012838
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BED1_HERO",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2641110
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BED1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2434971
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BED1_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7192
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED1_HERO camera and crop of control A812_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BED1_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_HERO.png",
+        "exists": true,
+        "bytes": 901787
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3132-1100.jpg",
+          "exists": true,
+          "bytes": 13433152
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BED1_MEDIA",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2468432
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BED1_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2204813
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BED1_MEDIA_v1.txt",
+        "exists": true,
+        "bytes": 7195
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED1_MEDIA camera and crop of control A812_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BED1_MEDIA.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED1_MEDIA.png",
+        "exists": true,
+        "bytes": 1034270
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3132-1100.jpg",
+          "exists": true,
+          "bytes": 13433152
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BED2_HERO",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2665112
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BED2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2388464
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BED2_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7192
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED2_HERO camera and crop of control A812_BED2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BED2_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_HERO.png",
+        "exists": true,
+        "bytes": 904354
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3141-1091.jpg",
+          "exists": true,
+          "bytes": 15668248
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BED2_MEDIA",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BED2_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2574416
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BED2_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2324700
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BED2_MEDIA_v1.txt",
+        "exists": true,
+        "bytes": 7195
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED2_MEDIA camera and crop of control A812_BED2_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BED2_MEDIA.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BED2_MEDIA.png",
+        "exists": true,
+        "bytes": 981213
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3141-1091.jpg",
+          "exists": true,
+          "bytes": 15668248
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "MASTER_MEDIA",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2680926
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_MASTER_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2405011
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_MASTER_MEDIA_v1.txt",
+        "exists": true,
+        "bytes": 7201
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native MASTER_MEDIA camera and crop of control A812_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_MASTER_MEDIA.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_MASTER_MEDIA.png",
+        "exists": true,
+        "bytes": 988583
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3170-1062.jpg",
+          "exists": true,
+          "bytes": 9012838
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "GARD3_HERO",
+      "room_kind_as_recorded": "wardrobe",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_GARD3_HERO_v1.png",
+        "exists": true,
+        "bytes": 2736082
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_GARD3_HERO_v1.png",
+        "exists": true,
+        "bytes": 2446070
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_GARD3_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7232
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native GARD3_HERO camera and crop of control A812_GARD3_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_GARD3_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_GARD3_HERO.png",
+        "exists": true,
+        "bytes": 917033
+      },
+      "site_photo_files": []
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "LIVING_WINDOW",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "exists": true,
+        "bytes": 2612239
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_LIVING_WINDOW_v1.png",
+        "exists": true,
+        "bytes": 2476729
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_LIVING_WINDOW_v1.txt",
+        "exists": true,
+        "bytes": 8328
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native LIVING_WINDOW camera and crop of control A812_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_LIVING_WINDOW.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_LIVING_WINDOW.png",
+        "exists": true,
+        "bytes": 1022554
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3065-1167.jpg",
+          "exists": true,
+          "bytes": 14894929
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "KITCHEN_HERO",
+      "room_kind_as_recorded": "kitchen",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "exists": true,
+        "bytes": 2657341
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_KITCHEN_HERO_v1.png",
+        "exists": true,
+        "bytes": 2414832
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_KITCHEN_HERO_v1.txt",
+        "exists": true,
+        "bytes": 8325
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native KITCHEN_HERO camera and crop of control A812_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_KITCHEN_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_KITCHEN_HERO.png",
+        "exists": true,
+        "bytes": 1008847
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3104-1128.jpg",
+          "exists": true,
+          "bytes": 9017994
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "ENTRY_HERO",
+      "room_kind_as_recorded": "entry",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2996778
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_ENTRY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2262839
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_ENTRY_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6995
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native ENTRY_HERO camera and crop of control A812_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_ENTRY_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_S07_ENTRY_HERO.png",
+        "exists": true,
+        "bytes": 885416
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3104-1128.jpg",
+          "exists": true,
+          "bytes": 9017994
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BATH2_HERO",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2277058
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BATH2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2272479
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BATH2_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7048
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH2_HERO camera and crop of control A812_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BATH2_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_HERO.png",
+        "exists": true,
+        "bytes": 893930
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3215-1017.jpg",
+          "exists": true,
+          "bytes": 14531001
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BATH08_HERO",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH08_HERO_v1.png",
+        "exists": true,
+        "bytes": 2137561
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BATH08_HERO_v1.png",
+        "exists": true,
+        "bytes": 2123120
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BATH08_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7051
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH08_HERO camera and crop of control A812_BATH08_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BATH08_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH08_HERO.png",
+        "exists": true,
+        "bytes": 888891
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3266-966.jpg",
+          "exists": true,
+          "bytes": 11086175
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "UTILITY_HERO",
+      "room_kind_as_recorded": "utility",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2307240
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_UTILITY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2229583
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_UTILITY_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7012
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native UTILITY_HERO camera and crop of control A812_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_UTILITY_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_UTILITY_HERO.png",
+        "exists": true,
+        "bytes": 888016
+      },
+      "site_photo_files": []
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "HALL_HERO",
+      "room_kind_as_recorded": "hall",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "exists": true,
+        "bytes": 2140550
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_HALL_HERO_v1.png",
+        "exists": true,
+        "bytes": 2021820
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_HALL_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7144
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native HALL_HERO camera and crop of control A812_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_HALL_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_HALL_HERO.png",
+        "exists": true,
+        "bytes": 890423
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3162-1070.jpg",
+          "exists": true,
+          "bytes": 7803640
+        }
+      ]
+    },
+    {
+      "apartment": "A812",
+      "camera_id": "BATH2_SHOWER",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A812_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "exists": true,
+        "bytes": 2071219
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A812_PA_BATH2_SHOWER_v1.png",
+        "exists": true,
+        "bytes": 1971788
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A812/A812_PA_BATH2_SHOWER_v1.txt",
+        "exists": true,
+        "bytes": 7233
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH2_SHOWER camera and crop of control A812_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A812_BATH2_SHOWER.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A812_BATH2_SHOWER.png",
+        "exists": true,
+        "bytes": 1708379
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/812/KZS_3215-1017.jpg",
+          "exists": true,
+          "bytes": 14531001
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "LIVING_HERO",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_HERO_v1.png",
+        "exists": true,
+        "bytes": 2704235
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_LIVING_HERO_v1.png",
+        "exists": true,
+        "bytes": 2361751
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_LIVING_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7884
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native LIVING_HERO camera and crop of control A811_LIVING_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_LIVING_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_HERO.png",
+        "exists": true,
+        "bytes": 1001416
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_4122-110.jpg",
+          "exists": true,
+          "bytes": 8635939
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "MASTER_HERO",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_HERO_v1.png",
+        "exists": true,
+        "bytes": 2834894
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_MASTER_HERO_v1.png",
+        "exists": true,
+        "bytes": 2367301
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_MASTER_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6760
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native MASTER_HERO camera and crop of control A811_MASTER_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_MASTER_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_HERO.png",
+        "exists": true,
+        "bytes": 924599
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3284-948.jpg",
+          "exists": true,
+          "bytes": 9463213
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "BED1_HERO",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2813198
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_BED1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2426090
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_BED1_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6754
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED1_HERO camera and crop of control A811_BED1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_BED1_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_HERO.png",
+        "exists": true,
+        "bytes": 947130
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3275-957.jpg",
+          "exists": true,
+          "bytes": 9233663
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "BED1_MEDIA",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BED1_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2570861
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_BED1_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2258640
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_BED1_MEDIA_v1.txt",
+        "exists": true,
+        "bytes": 6757
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BED1_MEDIA camera and crop of control A811_BED1_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_BED1_MEDIA.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BED1_MEDIA.png",
+        "exists": true,
+        "bytes": 986513
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3275-957.jpg",
+          "exists": true,
+          "bytes": 9233663
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "MASTER_MEDIA",
+      "room_kind_as_recorded": "bed",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2718099
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_MASTER_MEDIA_v1.png",
+        "exists": true,
+        "bytes": 2362645
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_MASTER_MEDIA_v1.txt",
+        "exists": true,
+        "bytes": 6763
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native MASTER_MEDIA camera and crop of control A811_MASTER_MEDIA.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_MASTER_MEDIA.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_MEDIA.png",
+        "exists": true,
+        "bytes": 950419
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3284-948.jpg",
+          "exists": true,
+          "bytes": 9463213
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "MASTER_GARD_HERO",
+      "room_kind_as_recorded": "wardrobe",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_MASTER_GARD_HERO_v1.png",
+        "exists": true,
+        "bytes": 2579278
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_MASTER_GARD_HERO_v1.png",
+        "exists": true,
+        "bytes": 2257076
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_MASTER_GARD_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6812
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native MASTER_GARD_HERO camera and crop of control A811_MASTER_GARD_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_MASTER_GARD_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_MASTER_GARD_HERO.png",
+        "exists": true,
+        "bytes": 924658
+      },
+      "site_photo_files": []
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "LIVING_WINDOW",
+      "room_kind_as_recorded": "living",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_LIVING_WINDOW_v1.png",
+        "exists": true,
+        "bytes": 2634624
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_LIVING_WINDOW_v1.png",
+        "exists": true,
+        "bytes": 2455477
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_LIVING_WINDOW_v1.txt",
+        "exists": true,
+        "bytes": 7890
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native LIVING_WINDOW camera and crop of control A811_LIVING_WINDOW.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_LIVING_WINDOW.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_LIVING_WINDOW.png",
+        "exists": true,
+        "bytes": 1033759
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3449-783.jpg",
+          "exists": true,
+          "bytes": 9227845
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "KITCHEN_HERO",
+      "room_kind_as_recorded": "kitchen",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_KITCHEN_HERO_v1.png",
+        "exists": true,
+        "bytes": 2602506
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_KITCHEN_HERO_v1.png",
+        "exists": true,
+        "bytes": 2315908
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_KITCHEN_HERO_v1.txt",
+        "exists": true,
+        "bytes": 7887
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native KITCHEN_HERO camera and crop of control A811_KITCHEN_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_KITCHEN_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_KITCHEN_HERO.png",
+        "exists": true,
+        "bytes": 1005896
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_4148-084.jpg",
+          "exists": true,
+          "bytes": 10889633
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "ENTRY_HERO",
+      "room_kind_as_recorded": "entry",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_ENTRY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2878837
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_ENTRY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2166774
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_ENTRY_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6557
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native ENTRY_HERO camera and crop of control A811_ENTRY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_ENTRY_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_S07_ENTRY_HERO.png",
+        "exists": true,
+        "bytes": 1056631
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_4145-087.jpg",
+          "exists": true,
+          "bytes": 9562753
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "BATH1_HERO",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2301730
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_BATH1_HERO_v1.png",
+        "exists": true,
+        "bytes": 2384923
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_BATH1_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6610
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH1_HERO camera and crop of control A811_BATH1_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_BATH1_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH1_HERO.png",
+        "exists": true,
+        "bytes": 890742
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3309-923.jpg",
+          "exists": true,
+          "bytes": 12760772
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "BATH2_HERO",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2361145
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_BATH2_HERO_v1.png",
+        "exists": true,
+        "bytes": 2461868
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_BATH2_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6610
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH2_HERO camera and crop of control A811_BATH2_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_BATH2_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_HERO.png",
+        "exists": true,
+        "bytes": 869981
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3320-912.jpg",
+          "exists": true,
+          "bytes": 12702393
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "WC_HERO",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_WC_HERO_v1.png",
+        "exists": true,
+        "bytes": 2341258
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_WC_HERO_v1.png",
+        "exists": true,
+        "bytes": 2393782
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_WC_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6601
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native WC_HERO camera and crop of control A811_WC_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_WC_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_WC_HERO.png",
+        "exists": true,
+        "bytes": 811922
+      },
+      "site_photo_files": []
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "UTILITY_HERO",
+      "room_kind_as_recorded": "utility",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_UTILITY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2775204
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_UTILITY_HERO_v1.png",
+        "exists": true,
+        "bytes": 2370936
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_UTILITY_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6574
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native UTILITY_HERO camera and crop of control A811_UTILITY_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_UTILITY_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_UTILITY_HERO.png",
+        "exists": true,
+        "bytes": 828548
+      },
+      "site_photo_files": []
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "HALL_HERO",
+      "room_kind_as_recorded": "hall",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_HALL_HERO_v1.png",
+        "exists": true,
+        "bytes": 1957745
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_HALL_HERO_v1.png",
+        "exists": true,
+        "bytes": 2069115
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_HALL_HERO_v1.txt",
+        "exists": true,
+        "bytes": 6706
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native HALL_HERO camera and crop of control A811_HALL_HERO.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_HALL_HERO.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_HALL_HERO.png",
+        "exists": true,
+        "bytes": 838326
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3335-897.jpg",
+          "exists": true,
+          "bytes": 3845646
+        }
+      ]
+    },
+    {
+      "apartment": "A811",
+      "camera_id": "BATH2_SHOWER",
+      "room_kind_as_recorded": "bath",
+      "recommended_existing_edit_target": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A811_S18A_LakeForestPlus_BATH2_SHOWER_v1.png",
+        "exists": true,
+        "bytes": 2248976
+      },
+      "completed_pafrany_example": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/renders/A811_PA_BATH2_SHOWER_v1.png",
+        "exists": true,
+        "bytes": 2284923
+      },
+      "existing_prompt": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/prompts/A811/A811_PA_BATH2_SHOWER_v1.txt",
+        "exists": true,
+        "bytes": 7240
+      },
+      "is_lighting_variant": false,
+      "geometry_status": "CONCEPT_NOT_VALIDATED",
+      "camera_description": "Use the unchanged native BATH2_SHOWER camera and crop of control A811_BATH2_SHOWER.png. This is a Blender-derived room view, not an asserted match to any professional photo. Preserve every projected corner, opening and furniture footprint.",
+      "declared_control": "controls/A811_BATH2_SHOWER.png",
+      "original_control_file": {
+        "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/R9_REFERENCIAHU_TELJES/controls/A811_BATH2_SHOWER.png",
+        "exists": true,
+        "bytes": 1490452
+      },
+      "site_photo_files": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/execution/a811-a812-stiluslabor-20261118/photos/811/KZS_3320-912.jpg",
+          "exists": true,
+          "bytes": 12702393
+        }
+      ]
+    }
+  ],
+  "camera_slot_counts": {
+    "A902": 7,
+    "A812": 16,
+    "A811": 15
+  },
+  "rules": {
+    "authority": "Existing plans/model locks and later owner decisions govern geometry. Exact existing apartment camera image governs image-edit framing. G.Design references govern furniture/material/detail language only. Root screenshots are previews, not new geometry. A rendered concept is not an as-built dimensional certificate.",
+    "A811": "Preserve Nov19 R7: U1/U2/U3 jointly 350 mm toward media wall, nominal rear storage access 850 mm; N_TV length 2850 mm at approved endpoints. Dining 1600×800 mm, four chairs. Actual U kitchen. Principal ceiling nominal 2.70 m; WC soffit 2.40 m. Merged master 05.2–3 and separate 05.1 bedroom. Dimensions are nominal layout studies, not fabrication approval.",
+    "A812": "Preserve R7 footprint: asymmetrical sofa 3000 mm width, 350 mm forward, nominal 850 mm access to 3220 mm storage niche; separate N_K cabinet 2850×400 mm. Latest owner correction overrides older renders: main sofa back parallel to TV wall, sitting toward TV, dining-side short part a low chaise. Repeat correctly in living reverse and kitchen views. Dining 1600×800 mm, exactly four chairs, two each long side, none at ends. Keep three bedrooms distinct. Nominal principal ceiling 2.70 m, kitchen corner 2.45 m, entry 2.50 m.",
+    "A902": "Keep six comparison views Cam_12, Cam_02, Cam_03, Cam_04, Cam_11c, Cam_10 plus Cam_02_DAY lighting variant. Main room nominal 2.90 m, actual lower ceilings unchanged. W01 west TV wall and established seating face each other. S18 mentions 3.00×2.40 m U-layout study, not confirmed product/fit. Never use that study as permission to enlarge room. Actual kitchen runs, dining location, doors/control clearances stay. Cam_12 does not show TV wall; do not move TV onto its artwork wall. Terrace levels, WPC steps, rails and real Budapest panorama unchanged.",
+    "bathroom": "One-metre fixed clear glass at existing open shower edge, actual entry/footprint preserved. Integrated/undermounted basin, no vessel. Vanity from dry side of glass to adjoining wall where that span exists; practical wall storage on existing dry wall, surface mounted unless recess verified. Keep fixtures/tiles. Shower-only reverse image must not gain a vanity inside shower. Mirror face light + halo and restrained vanity underside lighting; 1–2 style-fitting useful objects.",
+    "fully_dressed": "All earlier room views, including corridors, entrance, wardrobes, utility, all distinct bedrooms and bathrooms. Full-height cabinetry to actual local ceiling, useful shelves and serviceable joints, curtains plus sheers at real positions, rugs and restrained textiles/accessories. Keep circulation and door openings. Same furniture, grain, art and lighting across views. Hidden objects stay out of frame.",
+    "light_luxury": "Dimmable Philips Hue-compatible warm white typically 2200–2700 K, 2700 K evening; functional wardrobe interior light may be independent. Concealed continuous aluminium/opal diffused profiles without dots at selected TV/storage edges, headboards, useful shelves, worktops, mirror and vanity. Master approximately 3 m concealed headboard strip plus two Hue Go intent retained. No new ceiling cove, false ceiling, spot/track or invented supply; respect ceiling heating/cooling and actual outlets. All drivers accessible. Electrical/wet-zone and fixture support checks pending. Bright readable neutral material colour, no orange wash.",
+    "budget": "A811 and A812 each HUF 9M design budget + HUF 1M untouched reserve; A902 HUF 18M + HUF 2M reserve. Full gross apartment cost incl bespoke joinery, lights/drivers/profiles/install, outdoor items, delivery; same object from multiple cameras counted once. Existing budgets are allocation targets, not verified prices. Never silently change material identity/quality or overspend; flag risky alternatives.",
+    "reference_assignment": "Use archived G.Design original images and source-family maps. Verified original project association and proposed cross-project creative pairing must remain distinct. Standalone bathroom can pair with a chosen living base as a labelled design proposal; do not invent source-project identity."
+  },
+  "execution": [
+    "Read this handoff, project/source-family map, scope and live generation manifest before new work. Do not regenerate completed S18/Páfrány images.",
+    "Create new G.Design style/variant IDs separate from S01–S18/Páfrány. Retain source IDs and actual file references; each distinct source design considered under parent scope.",
+    "For each apartment/style lock material/object schedule, then adapt all 38 listed view slots (15 A811, 16 A812, 7 A902 including brighter Cam_02_DAY) unless a later explicit scope changes it.",
+    "Image 1 must be the exact verified existing apartment view; attach the relevant original G.Design references as material/detail inputs. For same-style reverse views also attach the accepted lead image for continuity. Check actual first-image file existence and latest corrections.",
+    "Inspect each result for unchanged shell, camera, floor, openings, sofa orientation, chair count, bathroom glass/vanity, original reference materials, full dressing and lighting. Rejected outputs must not become next-view geometry authority.",
+    "Save image/prompt/input list/hash/source IDs/review status immediately to a dedicated manifest; checkpoint remote GitHub at least each completed style and before resource interruption. Root owns branch/backup orchestration; no commit performed in this handoff.",
+    "Keep status CONCEPT_NOT_VALIDATED until subsequent plan/Blender fit, electrical and cost/product validation. Incomplete/conditional items explicitly listed."
+  ],
+  "uncertainties": [
+    "38 is the prior view-slot count, including A902 daytime lighting variant; not 38 independently measured or photo-calibrated cameras.",
+    "R9 controls are Blender-derived design views, not assertions of exact professional-photo camera equivalence.",
+    "A811/A812 preliminary shell omits sanitary fixtures/service walls, uncertain A811 06.2 ceiling boxing, blind boxes and balcony overhead structures. Wet-room clear sizes cannot be inferred directly from uncorrected model areas.",
+    "Balcony levels/rail heights/types and local EL4 front wall need site confirmation; do not treat preliminary model guesses as measured facts.",
+    "The S18 layout_R7.json contains internal revision R4; later R7 owner decisions and A812 sofa correction prevail.",
+    "A902 original v2b model is archival preliminary geometry, not a claim that all later photo corrections are incorporated. Keep latest apartment image/owner corrections and validate conflicts against actual site evidence.",
+    "No new render, Blender operation, product verification or remote checkpoint was executed by this handoff task."
+  ],
+  "unresolved_site_photos": []
+}

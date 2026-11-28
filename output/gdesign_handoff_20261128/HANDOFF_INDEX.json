@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-28",
+  "purpose": "Complete handoff to a new user-requested G.Design apartment image-generation chat",
+  "workspace": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor",
+  "archive": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127",
+  "catalog": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/catalog/index.html",
+  "families_catalog": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/catalog/families.html",
+  "archive_manifest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/MANIFEST.json",
+  "source_images": 880,
+  "facebook_album_images": 637,
+  "facebook_full_albums": 129,
+  "official_images": 228,
+  "zip": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/output/GDESIGN_2023-2026_referenciaarchivum.zip",
+  "verified_archive_commit": "f0dc32ddd68808ac1da450a6b3767fe6b351de9b",
+  "repo": "peterkapusi88-hub/wsg-berendezes",
+  "branch": "competition/s18-lake-forest-plus-20261123",
+  "camera_manifest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN3D_20261127/CAMERA_RESUME_MANIFEST.json",
+  "previous_s18_handoff": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/60_HANDOFF.md",
+  "previous_pafrany_manifest": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/MANIFEST.json",
+  "state": "ARCHIVE_COMPLETE_ADAPTATION_NOT_GENERATED",
+  "owner_request": "OWNER_REQUEST.txt",
+  "no_recollection_required": true,
+  "no_regeneration_of_previous_completed_images": true,
+  "count_basis": {
+    "creative_residential_bases": 39,
+    "apartments": 3,
+    "whole_apartment_variants": 117,
+    "views_per_base": 38,
+    "A811": {
+      "views": 15,
+      "base_images": 585
+    },
+    "A812": {
+      "views": 16,
+      "base_images": 624
+    },
+    "A902": {
+      "views": 7,
+      "base_images": 273
+    },
+    "base_total_images": 1482,
+    "room_module_cards": 57,
+    "module_total_note": "Separate room-module and role calculations follow in audit files. Do not multiply every module by all38 views and do not take all module/base combinations by default.",
+    "room_module_images_gross": 340,
+    "base_plus_room_modules_gross": 1822,
+    "optional_function_images": 22,
+    "commercial_hospitality_max_additional_images": 418,
+    "expanded_total_gross": 2262,
+    "count_caveat": "Planning scenario with existing38 view slots. Deduct identical module images already included in base variants. Excludes retry images and new terrace/room cameras. Source deduplication and final room role assignments may reduce or change this count."
+  },
+  "count_audit": "MODULE_CAMERA_COUNT_AUDIT.json",
+  "count_explanation": "MODULE_CAMERA_COUNT_ANALYSIS.md",
+  "geometry_handoff": "GEOMETRY_EXECUTION_HANDOFF.json",
+  "start_here": "START_HERE.txt",
+  "model_preference": {
+    "requested_family": "Astra",
+    "thinking": "high",
+    "note": "Create the new chat at High using the configured Astra model. No quota or completion-time guarantee."
+  }
+}

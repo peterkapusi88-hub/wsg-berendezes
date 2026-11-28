@@ -1,0 +1,65 @@
+G.DESIGN – GEOMETRIA ÉS VÉGREHAJTÁS ÁTADÁS · 2026-11-28
+A meglévő forrásokat nem módosítottuk; nem történt képgenerálás.
+Részletes, fájllétezéssel ellenőrzött kamerajegyzék: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/output/gdesign_handoff_20261128/GEOMETRY_EXECUTION_HANDOFF.json
+
+KÉSZ SOROZATOK
+S18: 75 kép (A811 30, A812 32, A902 13). Páfrány: 152 kép (A811 60, A812 64, A902 28). Nem újragenerálandók.
+38 korábbi nézethely: A811 15 + A812 16 + A902 7; az utóbbiban Cam_02_DAY fényváltozat, nem új mért kamera.
+S18 élő manifest: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/GENERATION_MANIFEST.json
+S18 átadás: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/60_HANDOFF.md
+Páfrány élő manifest: /Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/PAFRANY_VALTOZATOK_20261124/MANIFEST.json
+
+AUTHORITY
+Existing plans/model locks and later owner decisions govern geometry. Exact existing apartment camera image governs image-edit framing. G.Design references govern furniture/material/detail language only. Root screenshots are previews, not new geometry. A rendered concept is not an as-built dimensional certificate.
+
+A811
+Preserve Nov19 R7: U1/U2/U3 jointly 350 mm toward media wall, nominal rear storage access 850 mm; N_TV length 2850 mm at approved endpoints. Dining 1600×800 mm, four chairs. Actual U kitchen. Principal ceiling nominal 2.70 m; WC soffit 2.40 m. Merged master 05.2–3 and separate 05.1 bedroom. Dimensions are nominal layout studies, not fabrication approval.
+
+A812
+Preserve R7 footprint: asymmetrical sofa 3000 mm width, 350 mm forward, nominal 850 mm access to 3220 mm storage niche; separate N_K cabinet 2850×400 mm. Latest owner correction overrides older renders: main sofa back parallel to TV wall, sitting toward TV, dining-side short part a low chaise. Repeat correctly in living reverse and kitchen views. Dining 1600×800 mm, exactly four chairs, two each long side, none at ends. Keep three bedrooms distinct. Nominal principal ceiling 2.70 m, kitchen corner 2.45 m, entry 2.50 m.
+
+A902
+Keep six comparison views Cam_12, Cam_02, Cam_03, Cam_04, Cam_11c, Cam_10 plus Cam_02_DAY lighting variant. Main room nominal 2.90 m, actual lower ceilings unchanged. W01 west TV wall and established seating face each other. S18 mentions 3.00×2.40 m U-layout study, not confirmed product/fit. Never use that study as permission to enlarge room. Actual kitchen runs, dining location, doors/control clearances stay. Cam_12 does not show TV wall; do not move TV onto its artwork wall. Terrace levels, WPC steps, rails and real Budapest panorama unchanged.
+
+BATHROOM
+One-metre fixed clear glass at existing open shower edge, actual entry/footprint preserved. Integrated/undermounted basin, no vessel. Vanity from dry side of glass to adjoining wall where that span exists; practical wall storage on existing dry wall, surface mounted unless recess verified. Keep fixtures/tiles. Shower-only reverse image must not gain a vanity inside shower. Mirror face light + halo and restrained vanity underside lighting; 1–2 style-fitting useful objects.
+
+FULLY_DRESSED
+All earlier room views, including corridors, entrance, wardrobes, utility, all distinct bedrooms and bathrooms. Full-height cabinetry to actual local ceiling, useful shelves and serviceable joints, curtains plus sheers at real positions, rugs and restrained textiles/accessories. Keep circulation and door openings. Same furniture, grain, art and lighting across views. Hidden objects stay out of frame.
+
+LIGHT_LUXURY
+Dimmable Philips Hue-compatible warm white typically 2200–2700 K, 2700 K evening; functional wardrobe interior light may be independent. Concealed continuous aluminium/opal diffused profiles without dots at selected TV/storage edges, headboards, useful shelves, worktops, mirror and vanity. Master approximately 3 m concealed headboard strip plus two Hue Go intent retained. No new ceiling cove, false ceiling, spot/track or invented supply; respect ceiling heating/cooling and actual outlets. All drivers accessible. Electrical/wet-zone and fixture support checks pending. Bright readable neutral material colour, no orange wash.
+
+BUDGET
+A811 and A812 each HUF 9M design budget + HUF 1M untouched reserve; A902 HUF 18M + HUF 2M reserve. Full gross apartment cost incl bespoke joinery, lights/drivers/profiles/install, outdoor items, delivery; same object from multiple cameras counted once. Existing budgets are allocation targets, not verified prices. Never silently change material identity/quality or overspend; flag risky alternatives.
+
+REFERENCE_ASSIGNMENT
+Use archived G.Design original images and source-family maps. Verified original project association and proposed cross-project creative pairing must remain distinct. Standalone bathroom can pair with a chosen living base as a labelled design proposal; do not invent source-project identity.
+
+FOLYTATÁS
+1. Read this handoff, project/source-family map, scope and live generation manifest before new work. Do not regenerate completed S18/Páfrány images.
+2. Create new G.Design style/variant IDs separate from S01–S18/Páfrány. Retain source IDs and actual file references; each distinct source design considered under parent scope.
+3. For each apartment/style lock material/object schedule, then adapt all 38 listed view slots (15 A811, 16 A812, 7 A902 including brighter Cam_02_DAY) unless a later explicit scope changes it.
+4. Image 1 must be the exact verified existing apartment view; attach the relevant original G.Design references as material/detail inputs. For same-style reverse views also attach the accepted lead image for continuity. Check actual first-image file existence and latest corrections.
+5. Inspect each result for unchanged shell, camera, floor, openings, sofa orientation, chair count, bathroom glass/vanity, original reference materials, full dressing and lighting. Rejected outputs must not become next-view geometry authority.
+6. Save image/prompt/input list/hash/source IDs/review status immediately to a dedicated manifest; checkpoint remote GitHub at least each completed style and before resource interruption. Root owns branch/backup orchestration; no commit performed in this handoff.
+7. Keep status CONCEPT_NOT_VALIDATED until subsequent plan/Blender fit, electrical and cost/product validation. Incomplete/conditional items explicitly listed.
+
+NYITOTT PONTOK
+38 is the prior view-slot count, including A902 daytime lighting variant; not 38 independently measured or photo-calibrated cameras.
+R9 controls are Blender-derived design views, not assertions of exact professional-photo camera equivalence.
+A811/A812 preliminary shell omits sanitary fixtures/service walls, uncertain A811 06.2 ceiling boxing, blind boxes and balcony overhead structures. Wet-room clear sizes cannot be inferred directly from uncorrected model areas.
+Balcony levels/rail heights/types and local EL4 front wall need site confirmation; do not treat preliminary model guesses as measured facts.
+The S18 layout_R7.json contains internal revision R4; later R7 owner decisions and A812 sofa correction prevail.
+A902 original v2b model is archival preliminary geometry, not a claim that all later photo corrections are incorporated. Keep latest apartment image/owner corrections and validate conflicts against actual site evidence.
+No new render, Blender operation, product verification or remote checkpoint was executed by this handoff task.
+
+ELLENŐRZÉS
+{"S18": {"expected": 75, "existing": 75, "hash_checked": 75, "issues": []}, "PAFRANY": {"expected": 152, "existing": 152, "hash_checked": 152, "issues": []}}
+Hiányzó alapforrások: []
+Fel nem oldott helyszíni fotók: []
+
+KAMERAHELYEK
+A811: LIVING_HERO, MASTER_HERO, BED1_HERO, BED1_MEDIA, MASTER_MEDIA, MASTER_GARD_HERO, LIVING_WINDOW, KITCHEN_HERO, ENTRY_HERO, BATH1_HERO, BATH2_HERO, WC_HERO, UTILITY_HERO, HALL_HERO, BATH2_SHOWER
+A812: LIVING_HERO, MASTER_HERO, BED1_HERO, BED1_MEDIA, BED2_HERO, BED2_MEDIA, MASTER_MEDIA, GARD3_HERO, LIVING_WINDOW, KITCHEN_HERO, ENTRY_HERO, BATH2_HERO, BATH08_HERO, UTILITY_HERO, HALL_HERO, BATH2_SHOWER
+A902: Cam_02, Cam_04, Cam_12, Cam_03, Cam_11c, Cam_10, Cam_02_DAY
