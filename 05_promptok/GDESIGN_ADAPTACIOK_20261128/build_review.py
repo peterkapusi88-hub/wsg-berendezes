@@ -59,7 +59,7 @@ for pair in manifest.get('lighting_pairs',[]):
     a=next(j for j in manifest['jobs'] if j['id']==pair['day'])
     b=next(j for j in manifest['jobs'] if j['id']==pair['night'])
     if not a.get('output') or not b.get('output'): continue
-    pairs.append('<article><h3>'+pair['physical_camera']+' · nappal / este</h3><div class=pair>'+img(a['output'],'Nappali fény')+img(b['output'],'Esti fény')+'</div></article>')
+    pairs.append('<article><h3>'+a['apartment']+' · '+a['function']+' · '+pair['physical_camera']+' · nappal / este</h3><div class=pair>'+img(a['output'],'Nappali fény')+img(b['output'],'Esti fény')+'</div></article>')
 cards=[]
 for j in manifest['jobs']:
     if not j.get('output'): continue
