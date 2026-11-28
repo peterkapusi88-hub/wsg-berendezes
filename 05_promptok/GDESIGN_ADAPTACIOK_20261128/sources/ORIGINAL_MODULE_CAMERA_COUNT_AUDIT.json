@@ -1,0 +1,3166 @@
+{
+  "date": "2026-11-28",
+  "status": "COUNTING_PROPOSAL_NOT_GENERATION_QUEUE",
+  "camera_manifest": "05_promptok/GDESIGN3D_20261127/CAMERA_RESUME_MANIFEST.json",
+  "fixed_views": {
+    "A811": 15,
+    "A812": 16,
+    "A902": 7
+  },
+  "catalog_audit": {
+    "base_cards": 39,
+    "module_cards": 57,
+    "distinct_module_source_albums": 55,
+    "base_source_albums": 61,
+    "module_source_albums_already_in_base_primary": [],
+    "split_source_albums": {
+      "GD037": [
+        "M25_ENTRY_ROCK",
+        "M25_ENTRY_BRONZE"
+      ],
+      "GD051": [
+        "M25_CHILD_GRAPHITE",
+        "M25_CHILD_POWDER"
+      ]
+    },
+    "39_are_creative_seeds_not_39_verified_original_projects": true
+  },
+  "base_full_apartment_count": 117,
+  "base_image_counts": {
+    "A811": 585,
+    "A812": 624,
+    "A902": 273
+  },
+  "base_images": 1482,
+  "module_records": [
+    {
+      "id": "M23_ROCK_MASTER",
+      "title_hu": "Sziklafalú háló és kőfürdő",
+      "source_album_ids": [
+        "GD105"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "roles": [
+        "master",
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "MASTER_HERO",
+          "MASTER_MEDIA",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_10",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 6,
+        "A812": 5,
+        "A902": 3
+      },
+      "total": 14,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_BALATON",
+        "F23_COGNAC",
+        "F23_ROCK"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M23_GREEN_BATH",
+      "title_hu": "Fekete kő és mohazöld fürdő",
+      "source_album_ids": [
+        "GD118"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_ZOD",
+        "F23_ROCK",
+        "F25_BOUTIQUE"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M23_WALNUT_MASTER",
+      "title_hu": "Dió és fehér márvány háló",
+      "source_album_ids": [
+        "GD2023_01"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        "master"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 2
+      },
+      "total": 6,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_WALNUT_DINING",
+        "F23_SCULPTURAL",
+        "F25_PETROL"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_BURGUNDY_BATH",
+      "title_hu": "Bordó márvány fürdő",
+      "source_album_ids": [
+        "GD031"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_DUBAI",
+        "F25_BOUTIQUE",
+        "F25_BURGUNDY"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M25_BLUE_MASTER",
+      "title_hu": "Grafit és kék háló dolgozósarokkal",
+      "source_album_ids": [
+        "GD032"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": [
+        "master"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 2
+      },
+      "total": 6,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_GRAPHITE",
+        "F25_PETROL",
+        "F25_COMPACT"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "Vendég/dolgozó változat külön két száraz szobában",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [
+            "BED2_HERO",
+            "BED2_MEDIA"
+          ],
+          "A902": []
+        },
+        "count": 4
+      }
+    },
+    {
+      "id": "M25_BROWN_BATH",
+      "title_hu": "Dió és barna kő fürdő",
+      "source_album_ids": [
+        "GD033"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_WALNUT_DINING",
+        "F25_PETROL",
+        "F25_INDUSTRIAL"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M25_INDUSTRIAL_KITCHEN",
+      "title_hu": "Sötét dió és mészkő konyha",
+      "source_album_ids": [
+        "GD035"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "kitchen_dining",
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO",
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO",
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F25_INDUSTRIAL"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_STUDY",
+      "title_hu": "Dió és travertin dolgozó",
+      "source_album_ids": [
+        "GD036"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_WALNUT_DINING",
+        "F25_PETROL",
+        "F25_MONUMENT"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_ENTRY_ROCK",
+      "title_hu": "Szikla és fényhasáb előtér",
+      "source_album_ids": [
+        "GD037"
+      ],
+      "source_image_indices": [
+        1,
+        2
+      ],
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_BALATON",
+        "F23_BRONZE_GALLERY",
+        "F23_ROCK",
+        "F25_PETROL",
+        "F25_INDUSTRIAL",
+        "F25_COMPACT"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_ENTRY_BRONZE",
+      "title_hu": "Bronz keret és kő előtér",
+      "source_album_ids": [
+        "GD037"
+      ],
+      "source_image_indices": [
+        3,
+        4
+      ],
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_BALATON",
+        "F23_BRONZE_GALLERY",
+        "F23_ROCK",
+        "F25_PETROL",
+        "F25_INDUSTRIAL",
+        "F25_COMPACT"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_CHILD_SAND",
+      "title_hu": "Bézs és púder szoba",
+      "source_album_ids": [
+        "GD038"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        "child"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 2,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_SCULPTURAL",
+        "F23_COURTYARD",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "A811 vendégszoba alternatív gyerekszoba-funkciója",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [],
+          "A902": []
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "M25_BRONZE_BATH",
+      "title_hu": "Bronz és kő integrált fürdő",
+      "source_album_ids": [
+        "GD040"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_BRONZE_GALLERY",
+        "F25_INDUSTRIAL",
+        "F25_COMPACT"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M25_GRAPHITE_BATH",
+      "title_hu": "Grafit márvány fürdő",
+      "source_album_ids": [
+        "GD041"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_GRAPHITE",
+        "F23_ROCK",
+        "F25_MONUMENT"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M25_SAND_MASTER",
+      "title_hu": "Homokszín háló íves fejvégfallal",
+      "source_album_ids": [
+        "GD042"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        "master"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 2
+      },
+      "total": 6,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_SCULPTURAL",
+        "F25_PETROL",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_BRONZE_WARDROBE",
+      "title_hu": "Világító bronz gardrób",
+      "source_album_ids": [
+        "GD043"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "wardrobe"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_GARD_HERO"
+        ],
+        "A812": [
+          "GARD3_HERO"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_BRONZE_GALLERY",
+        "F25_PETROL",
+        "F25_BOUTIQUE"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_LIGHT_STONE_KITCHEN",
+      "title_hu": "Dió és világos kő konyha",
+      "source_album_ids": [
+        "GD044"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_SCULPTURAL",
+        "F25_MONUMENT"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M25_LIGHT_SPA",
+      "title_hu": "Világos spa fürdő",
+      "source_album_ids": [
+        "GD048"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_DUNAKANYAR",
+        "F23_COURTYARD",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M25_CHILD_GRAPHITE",
+      "title_hu": "Grafit gyerekszoba / kis háló",
+      "source_album_ids": [
+        "GD051"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3
+      ],
+      "roles": [
+        "child"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 2,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_GRAPHITE",
+        "F23_SCULPTURAL",
+        "F23_COURTYARD",
+        "F23_WARM_BLACK",
+        "F25_COMPACT",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "A811 vendégszoba alternatív gyerekszoba-funkciója",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [],
+          "A902": []
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "M25_CHILD_POWDER",
+      "title_hu": "Púder gyerekszoba / kis háló",
+      "source_album_ids": [
+        "GD051"
+      ],
+      "source_image_indices": [
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "child"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 2,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F23_GRAPHITE",
+        "F23_SCULPTURAL",
+        "F23_COURTYARD",
+        "F23_WARM_BLACK",
+        "F25_COMPACT",
+        "F25_CLASSIC_LIGHT"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "A811 vendégszoba alternatív gyerekszoba-funkciója",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [],
+          "A902": []
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "M25_INDUSTRIAL_MASTER",
+      "title_hu": "Beton, dió és konyak – üveggardróbos háló",
+      "source_album_ids": [
+        "GD2025_01"
+      ],
+      "source_image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": [
+        "master",
+        "wardrobe",
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO",
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "GARD3_HERO",
+          "HALL_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 5,
+        "A812": 5,
+        "A902": 2
+      },
+      "total": 12,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "F25_INDUSTRIAL"
+      ],
+      "optional_function_variant": null,
+      "limitation_hu": "A forrás gardrób-folyosója itt előtér/folyosó anyagváltozatként számít; ha csak master suite készül, 4 képpel csökkenthető."
+    },
+    {
+      "id": "GD24_F08",
+      "title_hu": "Kifutópályás háló és motoros lépcsőtér",
+      "source_album_ids": [
+        "GD067"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master",
+        "wardrobe"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "GARD3_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F10",
+      "title_hu": "Kapszulatükrös előtér",
+      "source_album_ids": [
+        "GD070"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F09"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F11",
+      "title_hu": "Hangulatfényes fürdő",
+      "source_album_ids": [
+        "GD073"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F02",
+        "GD24_F09"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "GD24_F13",
+      "title_hu": "Világos lépcsőtér",
+      "source_album_ids": [
+        "GD076"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "no_direct_camera"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 0,
+        "A902": 0
+      },
+      "total": 0,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": {
+        "reason_hu": "Lépcső nélkül csak falburkolat/fényrészlet az előtérben; kreatív átdolgozás, nem ugyanaz a helyiségterv",
+        "cameras": {
+          "A811": [
+            "ENTRY_HERO",
+            "HALL_HERO"
+          ],
+          "A812": [
+            "ENTRY_HERO",
+            "HALL_HERO"
+          ],
+          "A902": []
+        },
+        "count": 4
+      }
+    },
+    {
+      "id": "GD24_F14",
+      "title_hu": "Minimalista előszoba",
+      "source_album_ids": [
+        "GD077"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F12"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F15",
+      "title_hu": "Világos szürke háló",
+      "source_album_ids": [
+        "GD079"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 2
+      },
+      "total": 6,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F02",
+        "GD24_F09"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F17",
+      "title_hu": "Tetőtéri babaszoba",
+      "source_album_ids": [
+        "GD086"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "child"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 2,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F20"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "A811 vendégszoba alternatív babaszoba-funkciója",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [],
+          "A902": []
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "GD24_F18",
+      "title_hu": "Sötét tetőtéri háló",
+      "source_album_ids": [
+        "GD087"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master",
+        "wardrobe"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "GARD3_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F20"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F19",
+      "title_hu": "Sötét fürdő kör alakú tükrökkel",
+      "source_album_ids": [
+        "GD088"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F20"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "GD24_F21",
+      "title_hu": "Üvegezett emeleti lépcsőfolyosó",
+      "source_album_ids": [
+        "GD2024_01"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null,
+      "limitation_hu": "Csak a folyosó fal-/tárolórészlete kerül át, lépcső és emeleti nyílás nem."
+    },
+    {
+      "id": "GD24_F22",
+      "title_hu": "Fekete márványlapos dolgozó",
+      "source_album_ids": [
+        "GD2024_02"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F04"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F23",
+      "title_hu": "Taupe konyha és hullámos függeszték",
+      "source_album_ids": [
+        "GD2024_04"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F09"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F25",
+      "title_hu": "Palaszürke fürdő",
+      "source_album_ids": [
+        "GD2024_06"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F12"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "GD24_F26",
+      "title_hu": "Otthoni dohányzó és dolgozó",
+      "source_album_ids": [
+        "GD2024_07"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F04"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "GD24_F27",
+      "title_hu": "Tetőtéri zeneszoba és dolgozó",
+      "source_album_ids": [
+        "GD2024_08"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "GD24_F20"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "G26-05",
+      "title_hu": "Világos tölgy, bronzos taupe és bordó kő",
+      "source_album_ids": [
+        "GD008"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining",
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO",
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO",
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null
+    },
+    {
+      "id": "G26-12",
+      "title_hu": "Krém márvány és sötét dió konyha",
+      "source_album_ids": [
+        "GD2026_01"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null
+    },
+    {
+      "id": "G26-13",
+      "title_hu": "Sötét szobrászati előtér és lounge-bár",
+      "source_album_ids": [
+        "GD017"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null
+    },
+    {
+      "id": "G26-14",
+      "title_hu": "Akusztikus dolgozó és zenei pihenő",
+      "source_album_ids": [
+        "GD024"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD007",
+      "title_hu": "Fürdő, zuhany, wc · Hosszirányban erezett bézs kő",
+      "source_album_ids": [
+        "GD007"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-01"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD003",
+      "title_hu": "Fürdő, wc, bidé · Bézs kő és sötétbarna faburkolat",
+      "source_album_ids": [
+        "GD003"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-02"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD023",
+      "title_hu": "Fürdő, zuhany, wc, bidé · Sötétszürke kőburkolat finom világos erezettel",
+      "source_album_ids": [
+        "GD023"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-02"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD004",
+      "title_hu": "Háló, gardrób, fürdő, zuhany · Erdei panorámájú",
+      "source_album_ids": [
+        "GD004"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master",
+        "wardrobe",
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "GARD3_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_10",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 7,
+        "A812": 6,
+        "A902": 3
+      },
+      "total": 16,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD010",
+      "title_hu": "Fürdő, wc, kád · Bordó fal- és mennyezetszín klasszikus keretezéssel",
+      "source_album_ids": [
+        "GD010"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-06"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD011",
+      "title_hu": "Étkező, konyha részlet · Sötét kerek asztal világos kőbetéttel",
+      "source_album_ids": [
+        "GD011"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-07"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD016",
+      "title_hu": "Konyha · Sötét meleg fa és taupe frontok",
+      "source_album_ids": [
+        "GD016"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-07"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD012",
+      "title_hu": "Fürdő, zuhany, wc, mosókonyha, fésülködő · Bézs travertinhatás",
+      "source_album_ids": [
+        "GD012"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath",
+        "utility"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "UTILITY_HERO",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "UTILITY_HERO"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 5,
+        "A812": 4,
+        "A902": 1
+      },
+      "total": 10,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-07"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD013",
+      "title_hu": "Háló, gardrób, hálóhoz kapcsolt kád · Taupe/barna falpanelekkel keretezett puha ágy",
+      "source_album_ids": [
+        "GD013"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master",
+        "wardrobe"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "GARD3_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-07"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD018",
+      "title_hu": "Étkező · Hosszú világos kőasztal",
+      "source_album_ids": [
+        "GD018"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-08"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD020",
+      "title_hu": "Gyerek- vagy vendégszoba, kis háló, tv-fal · Kékesszürke bordázott ágy/kanapé",
+      "source_album_ids": [
+        "GD020"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "guest_child"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-08"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "A812 dolgozó alternatív vendégszoba-funkciója",
+        "cameras": {
+          "A811": [],
+          "A812": [
+            "BED2_HERO",
+            "BED2_MEDIA"
+          ],
+          "A902": []
+        },
+        "count": 2
+      }
+    },
+    {
+      "id": "M26_GD021",
+      "title_hu": "Meditációs vagy pihenőszoba · Világos kő",
+      "source_album_ids": [
+        "GD021"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "no_direct_camera"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [],
+        "A812": [],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 0,
+        "A812": 0,
+        "A902": 0
+      },
+      "total": 0,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-08"
+      ],
+      "optional_function_variant": {
+        "reason_hu": "Külön pihenőszoba-változat a vendég/dolgozó száraz szoba helyén; master és vizes helyiségek maradnak",
+        "cameras": {
+          "A811": [
+            "BED1_HERO",
+            "BED1_MEDIA"
+          ],
+          "A812": [
+            "BED2_HERO",
+            "BED2_MEDIA"
+          ],
+          "A902": []
+        },
+        "count": 4
+      }
+    },
+    {
+      "id": "M26_GD022",
+      "title_hu": "Háló, gardrób · Bézs textilágy",
+      "source_album_ids": [
+        "GD022"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "master",
+        "wardrobe"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "MASTER_GARD_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A812": [
+          "GARD3_HERO",
+          "MASTER_HERO",
+          "MASTER_MEDIA"
+        ],
+        "A902": [
+          "Cam_04",
+          "Cam_11c"
+        ]
+      },
+      "image_counts": {
+        "A811": 3,
+        "A812": 3,
+        "A902": 2
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-08"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD2026_02",
+      "title_hu": "Kőtalpas dolgozó, bronzos TV-keret",
+      "source_album_ids": [
+        "GD2026_02"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "study"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BED1_HERO",
+          "BED1_MEDIA"
+        ],
+        "A812": [
+          "BED2_HERO",
+          "BED2_MEDIA"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-09"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD2026_03",
+      "title_hu": "Sötét dió és drámai márvány fürdő",
+      "source_album_ids": [
+        "GD2026_03"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-09"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD026",
+      "title_hu": "Konyha, étkező · Sötétbarna és antracit konyhafrontok",
+      "source_album_ids": [
+        "GD026"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "kitchen_dining"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "KITCHEN_HERO"
+        ],
+        "A812": [
+          "KITCHEN_HERO"
+        ],
+        "A902": [
+          "Cam_03",
+          "Cam_12"
+        ]
+      },
+      "image_counts": {
+        "A811": 1,
+        "A812": 1,
+        "A902": 2
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-10"
+      ],
+      "optional_function_variant": null
+    },
+    {
+      "id": "M26_GD028",
+      "title_hu": "Fürdő, zuhany, wc · Meleg sötétbarna fa",
+      "source_album_ids": [
+        "GD028"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "bath"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "BATH1_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER",
+          "WC_HERO"
+        ],
+        "A812": [
+          "BATH08_HERO",
+          "BATH2_HERO",
+          "BATH2_SHOWER"
+        ],
+        "A902": [
+          "Cam_10"
+        ]
+      },
+      "image_counts": {
+        "A811": 4,
+        "A812": 3,
+        "A902": 1
+      },
+      "total": 8,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-10"
+      ],
+      "optional_function_variant": null,
+      "wet_room_rule": "Anyag- és mosdóbútor-nyelv a meglévő vizes helyiségben; kád, bidé, WC vagy második medence csak meglévő helyen. A811 külön WC is csak WC marad."
+    },
+    {
+      "id": "M26_GD2026_04",
+      "title_hu": "Bordázott dió előtér, világított kőpad",
+      "source_album_ids": [
+        "GD2026_04"
+      ],
+      "source_image_indices": null,
+      "roles": [
+        "entry_hall"
+      ],
+      "compatible_existing_cameras": {
+        "A811": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A812": [
+          "ENTRY_HERO",
+          "HALL_HERO"
+        ],
+        "A902": []
+      },
+      "image_counts": {
+        "A811": 2,
+        "A812": 2,
+        "A902": 0
+      },
+      "total": 4,
+      "already_in_base_primary_source": false,
+      "proposed_base_hosts_not_yet_selected": [
+        "G26-11"
+      ],
+      "optional_function_variant": null
+    }
+  ],
+  "module_gross_counts": {
+    "A811": 145,
+    "A812": 135,
+    "A902": 60
+  },
+  "module_gross_total": 340,
+  "optional_function_counts": {
+    "A811": 14,
+    "A812": 8,
+    "A902": 0
+  },
+  "optional_function_images": 22,
+  "base_plus_separate_modules_gross_by_apartment": {
+    "A811": 730,
+    "A812": 759,
+    "A902": 333
+  },
+  "base_plus_separate_modules_gross": 1822,
+  "optional_inclusive_gross": 1844,
+  "net_count_rule": "1482 + unique additional module jobs - module jobs already rendered identically within a selected baseline. No baseline room assignment exists, so exact net total is not yet fixed. Same source album alone does not prove identical output: host scheme, apartment, camera, function and lighting must match.",
+  "unique_job_key": [
+    "host_base_or_variant",
+    "module_or_base_design",
+    "apartment",
+    "physical_room",
+    "camera",
+    "function_variant",
+    "lighting_variant"
+  ],
+  "count_boundaries": [
+    "One final accepted image per listed camera; corrections/retries excluded.",
+    "Cam_02_DAY is already one of the 38 views; do not add a second day-pass globally.",
+    "No Cartesian product of all bedrooms × all bathrooms × all bases.",
+    "Commercial/hospitality 11 cards, outdoor 2 cards and archive 15 cards are outside this 39+57 estimate; they require explicit separate adaptation scope.",
+    "A902 has no standalone study, child, hall, wardrobe-room or terrace camera in this 7-view manifest. Wardrobe design is counted in existing master views only.",
+    "Open-plan consistency: a separate kitchen/dining study is a module comparison, not a new complete 38-view home. If a chosen module changes visible furniture in other views, regenerate only affected cameras as a later selected variant.",
+    "Stair-only GD24_F13 and meditation GD021 have zero direct default room slots; optional dry-room/detail adaptations are separately counted.",
+    "Nominal master/wardrobe cameras may overlap; set union removes duplicate cameras."
+  ],
+  "default_role_map": {
+    "A811": {
+      "master": "master",
+      "BED1": "guest/study"
+    },
+    "A812": {
+      "master": "master",
+      "BED1": "child",
+      "BED2": "study"
+    },
+    "A902": {
+      "master": "master"
+    }
+  },
+  "source_role_camera_map": {
+    "master": {
+      "A811": [
+        "MASTER_HERO",
+        "MASTER_MEDIA"
+      ],
+      "A812": [
+        "MASTER_HERO",
+        "MASTER_MEDIA"
+      ],
+      "A902": [
+        "Cam_04",
+        "Cam_11c"
+      ]
+    },
+    "wardrobe": {
+      "A811": [
+        "MASTER_GARD_HERO"
+      ],
+      "A812": [
+        "GARD3_HERO"
+      ],
+      "A902": [
+        "Cam_04",
+        "Cam_11c"
+      ]
+    },
+    "bath": {
+      "A811": [
+        "BATH1_HERO",
+        "BATH2_HERO",
+        "BATH2_SHOWER",
+        "WC_HERO"
+      ],
+      "A812": [
+        "BATH2_HERO",
+        "BATH2_SHOWER",
+        "BATH08_HERO"
+      ],
+      "A902": [
+        "Cam_10"
+      ]
+    },
+    "kitchen_dining": {
+      "A811": [
+        "KITCHEN_HERO"
+      ],
+      "A812": [
+        "KITCHEN_HERO"
+      ],
+      "A902": [
+        "Cam_12",
+        "Cam_03"
+      ]
+    },
+    "entry_hall": {
+      "A811": [
+        "ENTRY_HERO",
+        "HALL_HERO"
+      ],
+      "A812": [
+        "ENTRY_HERO",
+        "HALL_HERO"
+      ],
+      "A902": []
+    },
+    "study": {
+      "A811": [
+        "BED1_HERO",
+        "BED1_MEDIA"
+      ],
+      "A812": [
+        "BED2_HERO",
+        "BED2_MEDIA"
+      ],
+      "A902": []
+    },
+    "child": {
+      "A811": [],
+      "A812": [
+        "BED1_HERO",
+        "BED1_MEDIA"
+      ],
+      "A902": []
+    },
+    "guest_child": {
+      "A811": [
+        "BED1_HERO",
+        "BED1_MEDIA"
+      ],
+      "A812": [
+        "BED1_HERO",
+        "BED1_MEDIA"
+      ],
+      "A902": []
+    },
+    "utility": {
+      "A811": [
+        "UTILITY_HERO"
+      ],
+      "A812": [
+        "UTILITY_HERO"
+      ],
+      "A902": []
+    },
+    "no_direct_camera": {
+      "A811": [],
+      "A812": [],
+      "A902": []
+    }
+  },
+  "base_records": [
+    {
+      "id": "F23_ZOD",
+      "title_hu": "Ződ – zöld kő, sötét fa és teljes házsorozat",
+      "source_album_ids": [
+        "GD111",
+        "GD110",
+        "GD109"
+      ],
+      "candidate_module_source_ids": [
+        "GD118"
+      ],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "F23_DUNAKANYAR",
+      "title_hu": "Dunakanyar – világos rétegelt fa pavilon",
+      "source_album_ids": [
+        "GD2023_02",
+        "GD107"
+      ],
+      "candidate_module_source_ids": [
+        "GD048"
+      ],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "F23_BALATON",
+      "title_hu": "Balaton-parti kislakás – kő, réz és konyak",
+      "source_album_ids": [
+        "GD116",
+        "GD115"
+      ],
+      "candidate_module_source_ids": [
+        "GD105",
+        "GD037"
+      ],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "F23_COGNAC",
+      "title_hu": "Konyak és grafit – modern családi ház",
+      "source_album_ids": [
+        "GD119",
+        "GD2023_06",
+        "GD2023_05"
+      ],
+      "candidate_module_source_ids": [
+        "GD105"
+      ],
+      "source_relationship": "proposed"
+    },
+    {
+      "id": "F23_GRAPHITE",
+      "title_hu": "Grafit és konyak – 60 m²-es nappali",
+      "source_album_ids": [
+        "GD102"
+      ],
+      "candidate_module_source_ids": [
+        "GD032",
+        "GD041",
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_WALNUT_DINING",
+      "title_hu": "Dió és fekete korongok – étkezőközpontú ház",
+      "source_album_ids": [
+        "GD103"
+      ],
+      "candidate_module_source_ids": [
+        "GD2023_01",
+        "GD033",
+        "GD036"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_SCULPTURAL",
+      "title_hu": "Törtfehér szoborszerű nappali",
+      "source_album_ids": [
+        "GD104"
+      ],
+      "candidate_module_source_ids": [
+        "GD2023_01",
+        "GD038",
+        "GD042",
+        "GD044",
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_COURTYARD",
+      "title_hu": "Belső udvar – beton és világos fa",
+      "source_album_ids": [
+        "GD106"
+      ],
+      "candidate_module_source_ids": [
+        "GD038",
+        "GD048",
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_WARM_BLACK",
+      "title_hu": "Meleg konyak és fekete konyha",
+      "source_album_ids": [
+        "GD112"
+      ],
+      "candidate_module_source_ids": [
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_BRONZE_GALLERY",
+      "title_hu": "Bronz keretes lakógaléria",
+      "source_album_ids": [
+        "GD117"
+      ],
+      "candidate_module_source_ids": [
+        "GD037",
+        "GD040",
+        "GD043"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_DUBAI",
+      "title_hu": "Dubai – bézs, arany és márvány",
+      "source_album_ids": [
+        "GD2023_03"
+      ],
+      "candidate_module_source_ids": [
+        "GD031"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F23_ROCK",
+      "title_hu": "Fekete szikla és dió",
+      "source_album_ids": [
+        "GD2023_04"
+      ],
+      "candidate_module_source_ids": [
+        "GD105",
+        "GD118",
+        "GD037",
+        "GD041"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_PETROL",
+      "title_hu": "Dió és fehér kő – petrol hangsúly",
+      "source_album_ids": [
+        "GD030"
+      ],
+      "candidate_module_source_ids": [
+        "GD2023_01",
+        "GD032",
+        "GD033",
+        "GD036",
+        "GD037",
+        "GD042",
+        "GD043"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_INDUSTRIAL",
+      "title_hu": "Ipari ház – rozsda, petrol és nyers kő",
+      "source_album_ids": [
+        "GD034"
+      ],
+      "candidate_module_source_ids": [
+        "GD033",
+        "GD035",
+        "GD037",
+        "GD040",
+        "GD2025_01"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_COMPACT",
+      "title_hu": "Kompakt dió–szürke lakás",
+      "source_album_ids": [
+        "GD039"
+      ],
+      "candidate_module_source_ids": [
+        "GD032",
+        "GD037",
+        "GD040",
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_MONUMENT",
+      "title_hu": "Monumentális dió–szürke nappali",
+      "source_album_ids": [
+        "GD045"
+      ],
+      "candidate_module_source_ids": [
+        "GD036",
+        "GD041",
+        "GD044"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_CLASSIC_LIGHT",
+      "title_hu": "Világos klasszikus-modern",
+      "source_album_ids": [
+        "GD054"
+      ],
+      "candidate_module_source_ids": [
+        "GD038",
+        "GD042",
+        "GD048",
+        "GD051"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_BOUTIQUE",
+      "title_hu": "Sötét butik lounge",
+      "source_album_ids": [
+        "GD055"
+      ],
+      "candidate_module_source_ids": [
+        "GD118",
+        "GD031",
+        "GD043"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "F25_BURGUNDY",
+      "title_hu": "Borvörös és törtfehér otthon",
+      "source_album_ids": [
+        "GD056"
+      ],
+      "candidate_module_source_ids": [
+        "GD031"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "GD24_F01",
+      "title_hu": "50 m²-es társasházi lakás",
+      "source_album_ids": [
+        "GD059",
+        "GD2024_03"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F02",
+      "title_hu": "Calm / Marbella penthouse",
+      "source_album_ids": [
+        "GD060",
+        "GD061"
+      ],
+      "candidate_module_source_ids": [
+        "GD073",
+        "GD079"
+      ],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F03",
+      "title_hu": "Slender",
+      "source_album_ids": [
+        "GD062",
+        "GD063",
+        "GD064"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F04",
+      "title_hu": "Proud",
+      "source_album_ids": [
+        "GD066",
+        "GD075",
+        "GD078",
+        "GD081",
+        "GD083"
+      ],
+      "candidate_module_source_ids": [
+        "GD2024_02",
+        "GD2024_07"
+      ],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F05",
+      "title_hu": "Confident",
+      "source_album_ids": [
+        "GD090",
+        "GD091",
+        "GD092",
+        "GD093"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F06",
+      "title_hu": "Handsome",
+      "source_album_ids": [
+        "GD096",
+        "GD097",
+        "GD098",
+        "GD099",
+        "GD2024_09"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F07",
+      "title_hu": "2024. februári bemutatott lakóprojekt",
+      "source_album_ids": [
+        "GD094",
+        "GD095"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "confirmed"
+    },
+    {
+      "id": "GD24_F09",
+      "title_hu": "Világos nappali és étkező",
+      "source_album_ids": [
+        "GD068"
+      ],
+      "candidate_module_source_ids": [
+        "GD2024_04",
+        "GD079",
+        "GD073",
+        "GD070"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "GD24_F12",
+      "title_hu": "Taupe nappali",
+      "source_album_ids": [
+        "GD074"
+      ],
+      "candidate_module_source_ids": [
+        "GD2024_05",
+        "GD077",
+        "GD2024_06"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "GD24_F20",
+      "title_hu": "Grafit nappali és konyha",
+      "source_album_ids": [
+        "GD089"
+      ],
+      "candidate_module_source_ids": [
+        "GD087",
+        "GD088",
+        "GD086",
+        "GD2024_08"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "GD24_F24",
+      "title_hu": "Emeleti gyereknappali és teakonyha",
+      "source_album_ids": [
+        "GD2024_05"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-01",
+      "title_hu": "Dió és bézs kő, ívelt krémkanapé",
+      "source_album_ids": [
+        "GD001"
+      ],
+      "candidate_module_source_ids": [
+        "GD007"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-02",
+      "title_hu": "Fekete–fehér kő és füstös bordó üveg",
+      "source_album_ids": [
+        "GD002"
+      ],
+      "candidate_module_source_ids": [
+        "GD003",
+        "GD023"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-04",
+      "title_hu": "Kortárs mediterrán, zöld spalettamotívum",
+      "source_album_ids": [
+        "GD006"
+      ],
+      "candidate_module_source_ids": [],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-06",
+      "title_hu": "Petrol lounge és bordó részletek",
+      "source_album_ids": [
+        "GD009"
+      ],
+      "candidate_module_source_ids": [
+        "GD010"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-07",
+      "title_hu": "Magas dió médiafal és olíva étkező",
+      "source_album_ids": [
+        "GD014"
+      ],
+      "candidate_module_source_ids": [
+        "GD011",
+        "GD016",
+        "GD012",
+        "GD013"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-08",
+      "title_hu": "Világos kő, bordó erezet és nyugodt textil",
+      "source_album_ids": [
+        "GD019"
+      ],
+      "candidate_module_source_ids": [
+        "GD018",
+        "GD020",
+        "GD021",
+        "GD022"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-09",
+      "title_hu": "Krém nappali, olíva puffok, konyak fotel",
+      "source_album_ids": [
+        "GD025"
+      ],
+      "candidate_module_source_ids": [
+        "GD2026_02",
+        "GD2026_03"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-10",
+      "title_hu": "Drámai világos kő és sötét dió",
+      "source_album_ids": [
+        "GD027"
+      ],
+      "candidate_module_source_ids": [
+        "GD026",
+        "GD028"
+      ],
+      "source_relationship": "single"
+    },
+    {
+      "id": "G26-11",
+      "title_hu": "Olíva kanapé és dió könyvespolcfal",
+      "source_album_ids": [
+        "GD029"
+      ],
+      "candidate_module_source_ids": [
+        "GD2026_04"
+      ],
+      "source_relationship": "single"
+    }
+  ],
+  "commercial_hospitality_audit": {
+    "records": [
+      {
+        "id": "C23_VIRO",
+        "title_hu": "VIRO Luxury – megvalósult tóparti szálláshely",
+        "source_album_ids": [
+          "GD101"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 6,
+        "material_language_transferable": true,
+        "adaptation_class": "residential_or_hospitality_appearance",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C23_BALATON_GUEST",
+        "title_hu": "Balaton-felvidéki vendégház",
+        "source_album_ids": [
+          "GD108"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 6,
+        "material_language_transferable": true,
+        "adaptation_class": "residential_or_hospitality_appearance",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C23_LAKE_HOLIDAY",
+        "title_hu": "Modern tóparti nyaraló – terv",
+        "source_album_ids": [
+          "GD123"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 7,
+        "material_language_transferable": true,
+        "adaptation_class": "residential_or_hospitality_appearance",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C23_HOTEL",
+        "title_hu": "Dió–bordó hotelszoba",
+        "source_album_ids": [
+          "GD122"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 4,
+        "material_language_transferable": true,
+        "adaptation_class": "residential_or_hospitality_appearance",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C23_DENTAL",
+        "title_hu": "Taupe és íves fa fogászat",
+        "source_album_ids": [
+          "GD113"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 6,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C23_GOODWILL",
+        "title_hu": "Goodwill – funkcionális iroda",
+        "source_album_ids": [
+          "GD120"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 5,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C25_CAFE",
+        "title_hu": "Bronz rácsos kávézó",
+        "source_album_ids": [
+          "GD049"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 6,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C25_OFFICE",
+        "title_hu": "Kő és dió iroda",
+        "source_album_ids": [
+          "GD052"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 8,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C25_GYM_RECEPTION",
+        "title_hu": "Fekete–piros edzőtermi recepció",
+        "source_album_ids": [
+          "GD053"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 7,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "C25_GYM",
+        "title_hu": "Fekete–piros edzőterem",
+        "source_album_ids": [
+          "GD057"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 7,
+        "material_language_transferable": true,
+        "adaptation_class": "commercial_to_residential_creative_reinterpretation",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      },
+      {
+        "id": "G26-03",
+        "title_hu": "Erdei rézbarna és karakteres fa",
+        "source_album_ids": [
+          "GD005"
+        ],
+        "complete_photo_albums": true,
+        "source_photo_count": 7,
+        "material_language_transferable": true,
+        "adaptation_class": "residential_or_hospitality_appearance",
+        "full_apartment_variant_requires_new_rooms": true,
+        "images_if_selected_as_full_style": 38,
+        "not_video_poster": true
+      }
+    ],
+    "complete_album_groups": 11,
+    "source_photos": 69,
+    "direct_residential_hospitality_groups": 5,
+    "direct_residential_hospitality_extra_images": 190,
+    "commercial_reinterpretation_groups": 6,
+    "commercial_reinterpretation_extra_images": 228,
+    "all_11_upper_extra_images": 418,
+    "all_11_automatically_distinct_original_projects": false,
+    "uncertain_cross_source_identity_pairs": [
+      [
+        "GD101",
+        "GD123"
+      ],
+      [
+        "GD053",
+        "GD057"
+      ]
+    ],
+    "possible_deduplication_hu": "GD101/GD123 lehetséges terv–megvalósulás pár; GD053/GD057 lehetséges egyazon edzőterem recepciója és főtere. Nem igazolt, ezért külön forrásként megmaradnak, de végleges lakás-stílusváltozatként nem szabad automatikusan megkétszerezni őket. Ha mindkét azonosság igazolódik és a két változat lényegében azonos, 11 helyett 9 alap elég: +342 kép. Ha tudatosan eltérő palettaváltozat készül, maradhat 11: +418 kép.",
+    "conditional_total_with_5_hospitality": 2012,
+    "conditional_total_with_all_11": 2240,
+    "conditional_total_with_all_11_and_optional_functions": 2262,
+    "count_status": "UPPER_BOUND_PENDING_STYLE_DEDUP_AND_BASE_MODULE_BINDING"
+  }
+}

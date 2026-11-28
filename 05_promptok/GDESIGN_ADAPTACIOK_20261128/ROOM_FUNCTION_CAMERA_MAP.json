@@ -1,0 +1,346 @@
+[
+  {
+    "apartment": "A902",
+    "physical_room": "living_kitchen_dining",
+    "name": "Nappali / konyha / étkező",
+    "cameras": [
+      "Cam_02",
+      "Cam_12",
+      "Cam_03",
+      "Cam_02_DAY"
+    ],
+    "function_options": [
+      "Nappali / konyha / étkező"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A902",
+    "physical_room": "05.1",
+    "name": "Külön szoba",
+    "cameras": [
+      "Cam_04",
+      "Cam_11c"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A902",
+    "physical_room": "06.2",
+    "name": "Fürdő",
+    "cameras": [
+      "Cam_10"
+    ],
+    "function_options": [
+      "Fürdő"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "05.1",
+    "name": "05.1",
+    "cameras": [
+      "BED1_HERO",
+      "BED1_MEDIA"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "05.2",
+    "name": "05.2",
+    "cameras": [
+      "BED2_HERO",
+      "BED2_MEDIA"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "05.3",
+    "name": "05.3",
+    "cameras": [
+      "MASTER_HERO",
+      "MASTER_MEDIA"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "10.3",
+    "name": "10.3",
+    "cameras": [
+      "GARD3_HERO"
+    ],
+    "function_options": [
+      "10.3"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "Nappali",
+    "name": "Nappali",
+    "cameras": [
+      "LIVING_HERO",
+      "LIVING_WINDOW"
+    ],
+    "function_options": [
+      "Nappali"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "Konyha és étkező",
+    "name": "Konyha és étkező",
+    "cameras": [
+      "KITCHEN_HERO"
+    ],
+    "function_options": [
+      "Konyha és étkező"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "Előszoba",
+    "name": "Előszoba",
+    "cameras": [
+      "ENTRY_HERO"
+    ],
+    "function_options": [
+      "Előszoba"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "06.2",
+    "name": "06.2",
+    "cameras": [
+      "BATH2_HERO",
+      "BATH2_SHOWER"
+    ],
+    "function_options": [
+      "06.2"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "08/09",
+    "name": "08/09",
+    "cameras": [
+      "BATH08_HERO"
+    ],
+    "function_options": [
+      "08/09"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "06.1",
+    "name": "06.1",
+    "cameras": [
+      "UTILITY_HERO"
+    ],
+    "function_options": [
+      "06.1"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A812",
+    "physical_room": "07",
+    "name": "07",
+    "cameras": [
+      "HALL_HERO"
+    ],
+    "function_options": [
+      "07"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "05.1",
+    "name": "05.1",
+    "cameras": [
+      "BED1_HERO",
+      "BED1_MEDIA"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "05.2–3",
+    "name": "05.2–3",
+    "cameras": [
+      "MASTER_HERO",
+      "MASTER_MEDIA",
+      "MASTER_GARD_HERO"
+    ],
+    "function_options": [
+      "fő háló",
+      "gyerekszoba",
+      "dolgozó",
+      "gardróbszoba"
+    ],
+    "status": "OWNER_REQUESTED_ALTERNATIVES_FIT_PENDING",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "Nappali",
+    "name": "Nappali",
+    "cameras": [
+      "LIVING_HERO",
+      "LIVING_WINDOW"
+    ],
+    "function_options": [
+      "Nappali"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "Konyha és étkező",
+    "name": "Konyha és étkező",
+    "cameras": [
+      "KITCHEN_HERO"
+    ],
+    "function_options": [
+      "Konyha és étkező"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "Előszoba",
+    "name": "Előszoba",
+    "cameras": [
+      "ENTRY_HERO"
+    ],
+    "function_options": [
+      "Előszoba"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "06.1",
+    "name": "06.1",
+    "cameras": [
+      "BATH1_HERO"
+    ],
+    "function_options": [
+      "06.1"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "06.2",
+    "name": "06.2",
+    "cameras": [
+      "BATH2_HERO",
+      "BATH2_SHOWER"
+    ],
+    "function_options": [
+      "06.2"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "08",
+    "name": "08",
+    "cameras": [
+      "WC_HERO"
+    ],
+    "function_options": [
+      "08"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "09",
+    "name": "09",
+    "cameras": [
+      "UTILITY_HERO"
+    ],
+    "function_options": [
+      "09"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  },
+  {
+    "apartment": "A811",
+    "physical_room": "07",
+    "name": "07",
+    "cameras": [
+      "HALL_HERO"
+    ],
+    "function_options": [
+      "07"
+    ],
+    "status": "FIXED_FUNCTION",
+    "rule": "Alternatives replace each other; do not create new physical rooms. Camera remains fixed; furniture function may change."
+  }
+]

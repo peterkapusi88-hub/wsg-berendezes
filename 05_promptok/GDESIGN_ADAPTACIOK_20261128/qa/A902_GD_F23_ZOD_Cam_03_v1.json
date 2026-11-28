@@ -1,0 +1,57 @@
+{
+  "id": "A902_GD_F23_ZOD_Cam_03_v1",
+  "apartment": "A902",
+  "physical_room": "living_kitchen_dining",
+  "function": "konyha / étkező",
+  "style_id": "GD_F23_ZOD",
+  "module_id": null,
+  "camera_id": "Cam_03",
+  "source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg"
+  ],
+  "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+  "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_03_v1.txt",
+  "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_03_v1.png",
+  "status": "GENERATED_VISUALLY_REVIEWED",
+  "validation": {
+    "geometry": "CONCEPT_NOT_VALIDATED",
+    "owner_approved": false,
+    "visual": "PASS_WITH_LIMITATIONS",
+    "notes": [
+      "Kitchen geometry and appliance order retained visually.",
+      "Green stone, oak, charcoal uppers and pendant match Cam_12; decorative table setting varies, requires consistency revision before final approval."
+    ]
+  },
+  "checkpoint": null,
+  "continuity_inputs": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png"
+  ],
+  "sha256": "7bc2a22e664cd975859772c1eebf6a451c512c25c0fbcc2eb54ce763a444b702",
+  "input_integrity": [
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+      "sha256": "1a32b8028488754e43cf8734d8994858127bdff9863a5dec89b359af6871556a"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png",
+      "sha256": "bec10463c6775905504c388bb02e0a39e1e07d8a213bafead8892991cdd528d7"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+      "sha256": "02fef9cfd08b1c20db3c68c6cf821566687a8269717ee110114e0891a8680631"
+    },
+    {
+      "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg",
+      "sha256": "b0632750c7c7f84b955f643a6af60536692db004918a21b60ae41b176600b9e6"
+    }
+  ],
+  "prompt_sha256": "b039042b42e858fb363e7aecf50ce62f922b81c5196640fcca656ed57bc2475d",
+  "original_source_images": [
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+    "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+  ],
+  "source_album_ids": [
+    "GD111"
+  ]
+}
