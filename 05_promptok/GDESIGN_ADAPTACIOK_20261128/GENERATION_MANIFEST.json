@@ -10,7 +10,7 @@
   ],
   "source_relationship": "verified_caption_series",
   "scope_base_images": 1482,
-  "generated_images": 7,
+  "generated_images": 11,
   "jobs": [
     {
       "id": "A902_GD_F23_ZOD_Cam_02_v1",
@@ -39,7 +39,7 @@
           "Exact metrics, electrical feasibility, reference material identity and budget not validated."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "sha256": "57b173a003a0998a919a2c5de0791851ffcea29d52194eedafbc09e95e9f877d",
       "input_integrity": [
         {
@@ -67,7 +67,8 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "NIGHT"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_04_v1",
@@ -96,7 +97,7 @@
           "Greenery decorative construction and stone weight conditional; no claim of measured fit."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "sha256": "3b8cc0e65d0c1068c03438ab830e002b7be453ce315ba6d30e2fdc0add7c8cad",
       "input_integrity": [
         {
@@ -124,7 +125,8 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "NIGHT"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_12_v1",
@@ -152,7 +154,7 @@
           "Source-specific leaf artwork is creative adaptation."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "continuity_inputs": [
         "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_02_v1.png"
       ],
@@ -182,7 +184,8 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "NIGHT"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_03_v1",
@@ -209,7 +212,7 @@
           "Green stone, oak, charcoal uppers and pendant match Cam_12; decorative table setting varies, requires consistency revision before final approval."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "continuity_inputs": [
         "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png"
       ],
@@ -239,7 +242,8 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "NIGHT"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_11c_v1",
@@ -267,7 +271,7 @@
           "Fine textile weave changes; no exact measured consistency claim."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "continuity_inputs": [
         "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_04_v1.png"
       ],
@@ -297,7 +301,8 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "DAY"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_10_v1",
@@ -325,7 +330,7 @@
           "Extra surface mirror light needs electrical/wet-zone confirmation, no new ceiling supply."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "source_relationship": "verified_Zod_vol3_companion",
       "sha256": "599094dece72693f5ba83d5387ad82a160a3a62cf25c8217ecd006544654d2a8",
       "input_integrity": [
@@ -349,7 +354,8 @@
       ],
       "source_album_ids": [
         "GD109"
-      ]
+      ],
+      "lighting": "NIGHT"
     },
     {
       "id": "A902_GD_F23_ZOD_Cam_02_DAY_v1",
@@ -375,7 +381,7 @@
           "Minor material grain/textile variation; no exact product/metric claim."
         ]
       },
-      "checkpoint": null,
+      "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
       "continuity_inputs": [
         "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_02_v1.png",
         "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_02_DAY_v1.png"
@@ -401,7 +407,202 @@
       ],
       "source_album_ids": [
         "GD111"
-      ]
+      ],
+      "lighting": "DAY"
+    },
+    {
+      "id": "A902_GD_F23_ZOD_Cam_12_DAY_v1",
+      "apartment": "A902",
+      "physical_room": "living_kitchen_dining",
+      "function": "konyha / étkező",
+      "style_id": "GD_F23_ZOD",
+      "module_id": null,
+      "camera_id": "Cam_12_DAY",
+      "physical_camera": "Cam_12",
+      "lighting": "DAY",
+      "source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg"
+      ],
+      "original_source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+      ],
+      "source_album_ids": [
+        "GD111"
+      ],
+      "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_12_v1.png",
+      "continuity_inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png"
+      ],
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_12_DAY_v1.txt",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_DAY_v1.png",
+      "status": "GENERATED_VISUALLY_REVIEWED",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "PASS_WITH_LIMITATIONS",
+        "notes": [
+          "Day/night counterpart visually retains camera, openings and furniture.",
+          "Lighting is a generated concept; sun position and exact photometric performance not simulated.",
+          "No construction or exact product/material certification."
+        ]
+      },
+      "checkpoint": null,
+      "sha256": "12be5d88b328f49d2be9fdc9becf140649086b377c8f58a29a9289327fff74a8",
+      "input_integrity": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_12_v1.png",
+          "sha256": "bec10463c6775905504c388bb02e0a39e1e07d8a213bafead8892991cdd528d7"
+        }
+      ],
+      "prompt_sha256": "452d9ee032a0644db2368190afa0e7df15520d34749896c5f2dc65c89abee53f"
+    },
+    {
+      "id": "A902_GD_F23_ZOD_Cam_03_DAY_v1",
+      "apartment": "A902",
+      "physical_room": "living_kitchen_dining",
+      "function": "konyha / étkező",
+      "style_id": "GD_F23_ZOD",
+      "module_id": null,
+      "camera_id": "Cam_03_DAY",
+      "physical_camera": "Cam_03",
+      "lighting": "DAY",
+      "source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_04_801219858670608.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/inputs/GD111_07_801219848670609.jpg"
+      ],
+      "original_source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/04_801219858670608.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/07_801219848670609.jpg"
+      ],
+      "source_album_ids": [
+        "GD111"
+      ],
+      "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_03_v1.png",
+      "continuity_inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_03_v1.png"
+      ],
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_03_DAY_v1.txt",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_03_DAY_v1.png",
+      "status": "GENERATED_VISUALLY_REVIEWED",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "PASS_WITH_LIMITATIONS",
+        "notes": [
+          "Day/night counterpart visually retains camera, openings and furniture.",
+          "Lighting is a generated concept; sun position and exact photometric performance not simulated.",
+          "No construction or exact product/material certification."
+        ]
+      },
+      "checkpoint": null,
+      "sha256": "f799074b0d571aaee1ac6f5956d15e9bdd8783fd5af1ac3683105f04bf3fd7d6",
+      "input_integrity": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_03_v1.png",
+          "sha256": "7bc2a22e664cd975859772c1eebf6a451c512c25c0fbcc2eb54ce763a444b702"
+        }
+      ],
+      "prompt_sha256": "1e88dda6b33b0c0797614ec523211f277077cdb9ca60f68a9f9a4f42af7a6dea"
+    },
+    {
+      "id": "A902_GD_F23_ZOD_Cam_04_DAY_v1",
+      "apartment": "A902",
+      "physical_room": "05.1",
+      "function": "fő háló / gardrób",
+      "style_id": "GD_F23_ZOD",
+      "module_id": null,
+      "camera_id": "Cam_04_DAY",
+      "physical_camera": "Cam_04",
+      "lighting": "DAY",
+      "source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+      ],
+      "original_source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/05_801219955337265.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg"
+      ],
+      "source_album_ids": [
+        "GD111"
+      ],
+      "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_04_v1.png",
+      "continuity_inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_04_v1.png"
+      ],
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_04_DAY_v1.txt",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_04_DAY_v1.png",
+      "status": "GENERATED_VISUALLY_REVIEWED",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "PASS_WITH_LIMITATIONS",
+        "notes": [
+          "Day/night counterpart visually retains camera, openings and furniture.",
+          "Lighting is a generated concept; sun position and exact photometric performance not simulated.",
+          "No construction or exact product/material certification."
+        ]
+      },
+      "checkpoint": null,
+      "sha256": "2d4d94fe08d4221947d01a927fb2a2813d36a2780dbafd42422409eec01fdba2",
+      "input_integrity": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_04_v1.png",
+          "sha256": "3b8cc0e65d0c1068c03438ab830e002b7be453ce315ba6d30e2fdc0add7c8cad"
+        }
+      ],
+      "prompt_sha256": "8a878eaf0c94fe0fe8fbd49ee02cac1c171a986be7af4752c794442b1467b517"
+    },
+    {
+      "id": "A902_GD_F23_ZOD_Cam_11c_NIGHT_v1",
+      "apartment": "A902",
+      "physical_room": "05.1",
+      "function": "fő háló / gardrób",
+      "style_id": "GD_F23_ZOD",
+      "module_id": null,
+      "camera_id": "Cam_11c_NIGHT",
+      "physical_camera": "Cam_11c",
+      "lighting": "NIGHT",
+      "source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg"
+      ],
+      "original_source_images": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/06_801219852003942.jpg",
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/02_referenciak/GDESIGN3D_20261127/facebook_full/GD111/01_801219992003928.jpg"
+      ],
+      "source_album_ids": [
+        "GD111"
+      ],
+      "geometry_input": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/S18_LAKE_FOREST_PLUS_20261123/renders/A902_S18A_LakeForestPlus_Cam_11c_v1.png",
+      "continuity_inputs": [
+        "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_11c_v1.png"
+      ],
+      "prompt": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/prompts/A902_GD_F23_ZOD_Cam_11c_NIGHT_v1.txt",
+      "output": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_11c_NIGHT_v1.png",
+      "status": "GENERATED_VISUALLY_REVIEWED",
+      "validation": {
+        "geometry": "CONCEPT_NOT_VALIDATED",
+        "owner_approved": false,
+        "visual": "PASS_WITH_LIMITATIONS",
+        "notes": [
+          "Day/night counterpart visually retains camera, openings and furniture.",
+          "Lighting is a generated concept; sun position and exact photometric performance not simulated.",
+          "No construction or exact product/material certification."
+        ]
+      },
+      "checkpoint": null,
+      "sha256": "a2ab3d2c1e3c0af82440ad758cbc927e400284eea21b5418885b1f40a12c423a",
+      "input_integrity": [
+        {
+          "path": "/Users/peterkapusi/Documents/ChatGPT/WSG – Stíluslabor/05_promptok/GDESIGN_ADAPTACIOK_20261128/renders/A902_GD_F23_ZOD_Cam_11c_v1.png",
+          "sha256": "6ed2abe4d535b8f26bdefedf58fe42c7fca27e7b2340bd50a29691c59d9f6d23"
+        }
+      ],
+      "prompt_sha256": "96275fdcf620d7800964e9aa0d79f2e9bf8f4fe1747faf7cc568f784be75727c"
     }
   ],
   "other_styles_status": "NOT_STARTED",
@@ -409,5 +610,33 @@
   "room_role_decision": "Owner requested all feasible room-function alternatives in all apartments, including bedroom/child/study/dressing-room. Physical rooms and cameras remain fixed; alternatives mutually exclusive. Prior count provisional.",
   "checkpoint_gate": "Wait for GDESIGN_CP4_HANDOFF_20261128.json before remote writes",
   "presentation_rule": "Grouped original source family → exact original reference images → apartment → physical room → function → camera. Show originals and own images side by side, plus geometry control. Label creative material placement and technical lighting adaptations; only owner-approved variants enter approved selector.",
-  "series_status": "FIRST_A902_BASELINE_7_VIEWS_GENERATED_OWNER_REVIEW_PENDING"
+  "series_status": "A902_ZOD_11_VIEWS_WITH_LIGHTING_PAIRS_GENERATED_OWNER_REVIEW_PENDING",
+  "lighting_policy": "All main living/dining and main-bedroom views must have same-camera DAY/NIGHT pairs with same furniture/materials. Open kitchen views included for continuity. Owner instruction 2026-11-28.",
+  "lighting_pairs": [
+    {
+      "physical_camera": "Cam_02",
+      "day": "A902_GD_F23_ZOD_Cam_02_DAY_v1",
+      "night": "A902_GD_F23_ZOD_Cam_02_v1"
+    },
+    {
+      "physical_camera": "Cam_12",
+      "day": "A902_GD_F23_ZOD_Cam_12_DAY_v1",
+      "night": "A902_GD_F23_ZOD_Cam_12_v1"
+    },
+    {
+      "physical_camera": "Cam_03",
+      "day": "A902_GD_F23_ZOD_Cam_03_DAY_v1",
+      "night": "A902_GD_F23_ZOD_Cam_03_v1"
+    },
+    {
+      "physical_camera": "Cam_04",
+      "day": "A902_GD_F23_ZOD_Cam_04_DAY_v1",
+      "night": "A902_GD_F23_ZOD_Cam_04_v1"
+    },
+    {
+      "physical_camera": "Cam_11c",
+      "day": "A902_GD_F23_ZOD_Cam_11c_v1",
+      "night": "A902_GD_F23_ZOD_Cam_11c_NIGHT_v1"
+    }
+  ]
 }

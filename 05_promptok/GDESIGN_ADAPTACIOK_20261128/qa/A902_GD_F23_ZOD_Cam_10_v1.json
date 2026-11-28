@@ -24,7 +24,7 @@
       "Extra surface mirror light needs electrical/wet-zone confirmation, no new ceiling supply."
     ]
   },
-  "checkpoint": null,
+  "checkpoint": "4390a9be94980de6bab5a017b158ddb954760363",
   "source_relationship": "verified_Zod_vol3_companion",
   "sha256": "599094dece72693f5ba83d5387ad82a160a3a62cf25c8217ecd006544654d2a8",
   "input_integrity": [
@@ -48,5 +48,6 @@
   ],
   "source_album_ids": [
     "GD109"
-  ]
+  ],
+  "lighting": "NIGHT"
 }
